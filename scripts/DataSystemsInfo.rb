@@ -2,17 +2,15 @@
 
 # Reads a VAX Systems file (e.g. vax.info) and allows production of YAML for any entries.
 
-# References.create_from_info_file(info_filename)
-#  Builds a References object from a refs.info file.
-#  References is a collection of Ref objects, each of which represents a single reference entry.
+# Systems.create_from_info_file(info_filename)
+#  Builds a Systems object from a vax.info file.
+#  Systems is a collection of System objects, each of which represents a single computer system entry.
 #
-# References.each()
+# Systems.each()
 #  Allows each contained ref object to be accessed in turn.
 #
-# Ref.encode_with(coder)
-#  This is the function that is invoked when to_yaml() is called on a Ref object.
-#
-# Meanings of the fields:
+# System.encode_with(coder)
+#  This is the function that is invoked when to_yaml() is called on a System object.
 #
 
 # Encapsulates a value that comes with a reference
@@ -59,7 +57,7 @@ class System
   #
   def encode_with(coder)
     h = {}
-    h["sys_class"] = @sys_class
+    h["sys-class"] = VariableWithReference.new(@sys_class, nil).as_array()
 
     # For each possible tag, it it is present, represent it in the output.
     @possible_tags.keys().each() {
@@ -70,7 +68,7 @@ class System
         h[key] = self.instance_variable_get(@possible_tags[key]).as_array()
       end
     }
-    coder.represent_map(nil, {@identifier => h})
+    coder.represent_map(nil, h)
   end
 end
 
@@ -95,6 +93,10 @@ class Systems
       |id|
       yield id
     }
+  end
+
+  def to_yaml()
+    @systems.to_yaml()
   end
 
   # Returns a hash of {tag-name => instance-variable-name} for the given type of system.
@@ -165,7 +167,6 @@ class Systems
         raise("Unexpected system type [#{type}], exepcted [#{sys_type}]") if type.downcase() != sys_type
         raise("Duplicate reference [#{id}] read in #{info_filename} at line #{line_num}: #{line} (originally #{ret[id].line_num()})") unless systems[id].nil?()
         current = System.new(id, sys_type, sys_class, line_num, permitted_tags)
-        ## puts("Started to build #{current.identifier()} which is a #{current.sys_type()} of class #{current.sys_class()}")
         next
       elsif line =~ /\*\*End-systems-entry\{(.*)\}/ix
         # **End-systems-entry{VAX4100}
@@ -197,8 +198,8 @@ class Systems
           if current.instance_variable_defined?(permitted_tags[tag])
             raise("On line #{line_num} in #{current.identifier()}, tag #{tag} has been defined again.")
           else
+            # Set the appropriate instance variable to the value+reference specified
             current.instance_variable_set(permitted_tags[tag], VariableWithReference.new(value, lref))
-            ## puts("Tag [#{tag}] (into #{permitted_tags[tag]}) allowed with ref [#{lref}] in #{current.identifier()} which is a #{current.sys_type()} of class #{current.sys_class()}")
           end
         end
       elsif line.strip().empty?()
@@ -206,7 +207,6 @@ class Systems
       elsif line =~ /^\s*!/
         raise("Muffed comment line check")
       else
-        # TODO did not recognise line
         raise("unrecognised line [#{line}]")
       end
     }

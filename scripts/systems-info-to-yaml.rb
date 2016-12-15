@@ -14,5 +14,5 @@ sys_info = ARGV.shift()
 systems = Systems.create_from_info_file(sys_info, sys_type)
 
 # Output as YAML
-systems.each() { |id| puts(systems[id].to_yaml()) }
+puts(systems.to_yaml())
 
