@@ -104,6 +104,10 @@ class References
     }
   end
 
+  def to_yaml()
+    @refs.to_yaml()
+  end
+
   # Reads a refs.info file and produces returns a References object containing parsed data.
   def References.create_from_info_file(info_filename)
     line_num = 0

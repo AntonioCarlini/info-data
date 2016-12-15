@@ -13,5 +13,6 @@ info = ARGV.shift()
 refs = References.create_from_info_file(info)
 
 # Output as YAML
-refs.each() { |id| puts(refs[id].to_yaml()) }
+puts(refs.to_yaml())
+
 
