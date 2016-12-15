@@ -141,12 +141,13 @@ class Systems
 
   # Reads a systems .info file ...
   # sys_type_expected: type of system: vax, alpha etc.
-  def Systems.create_from_info_file(info_filename, sys_type_expected)
+  def Systems.create_from_info_file(info_filename, sys_type_expected, refs)
     line_num = 0
     current = nil
     systems = Systems.new()
     sys_type = sys_type_expected.downcase()
     permitted_tags = systems.tags(sys_type) # These are the permitted tags
+    local_refs = {}
 
     IO.foreach(info_filename) {
       |line|
@@ -173,9 +174,21 @@ class Systems
         # TODO - check closing the right one, then add to pile
         systems.add_system(current)
         current = nil
+        local_refs = {}  # Discard "local" references
         next
-      elsif !current.nil?() && line =~ /^\s*\*\*Def-lref\{\d\}\s*=\s*ref\{.*\}\s*$/i
-        # TODO skipping lref for now ...
+      elsif !current.nil?() && line =~ /^\s*\*\*Def-lref\{(\d)\}\s*=\s*ref\{(.*)\}\s*$/i
+        id = $1
+        ref_name = $2
+        ref = refs[ref_name]
+        if ref.nil?()
+          $stderr.puts("lref{#{id}} of [#{ref_name}] not found on line #{line_num}")
+        else
+          if local_refs[id].nil?()
+            local_refs[id] = ref_name
+          else
+            $stderr.puts("Local ref id [#{id}] reused on line #{line_num}")
+          end
+        end
         next
       elsif line =~ / \s* \! /ix
         # skip comment line
@@ -189,10 +202,20 @@ class Systems
       end
       
       # Here process a line within a systems entry
-      if line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (?:htref|lref|uref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
+      if line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|lref|uref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
         tag = $1
-        lref = $2
-        value = $3
+        reftype = $2
+        lref = $3
+        value = $4
+        reference = nil
+        unless lref.nil?()
+          reference = local_refs[lref]
+          if reference.nil?()
+            lref = nil
+          else
+            lref = reference
+          end
+        end
         if permitted_tags.has_key?(tag)
           # If the instance variable already exists then something has been defined twice
           if current.instance_variable_defined?(permitted_tags[tag])
