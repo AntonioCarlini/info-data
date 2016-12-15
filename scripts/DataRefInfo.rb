@@ -73,7 +73,7 @@ class Ref
     h["author"] = @author unless @author.nil?()
     h["publisher"] = @publisher unless @publisher.nil?()
 
-    coder.represent_map(nil, {@identifier => h})
+    coder.represent_map(nil, h)
   end
 end
 
