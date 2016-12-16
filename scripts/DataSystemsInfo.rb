@@ -51,9 +51,9 @@ class System
     @confidential = (text =~ /^yes$/ix)
   end
   
-  # This function will be called when to_yaml() encounters an object of type Ref.
+  # This function will be called when to_yaml() encounters an object of type System.
   # It encodes is data as though it were a hash of:
-  #   { identifier => {hash of relevant member variables} }
+  #   { tag e.g. "FRS-date" => [value, ref#1, ref#2] }
   #
   def encode_with(coder)
     h = {}
@@ -207,6 +207,7 @@ class Systems
         reftype = $2
         lref = $3
         value = $4
+        next if value =~ /^\s*@@\s*$/   # skip values of "@@" as these mean "this value is not known"
         reference = nil
         unless lref.nil?()
           reference = local_refs[lref]
