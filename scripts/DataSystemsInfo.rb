@@ -60,12 +60,13 @@ class System
     h["sys-class"] = VariableWithReference.new(@sys_class, nil).as_array()
 
     # For each possible tag, it it is present, represent it in the output.
-    @possible_tags.keys().each() {
+    @possible_tags.each() {
       |key|
-      if self.instance_variable_defined?(@possible_tags[key])
+      instance_variable_name = Systems.tag_to_instance_variable_name(key)
+      if self.instance_variable_defined?(instance_variable_name)
         # Use tag (i.e. the key) for the "name" and represent the value as an array with the first element as the actual value
         # and any further elements represnting references.
-        h[key] = self.instance_variable_get(@possible_tags[key]).as_array()
+        h[key] = self.instance_variable_get(instance_variable_name).as_array()
       end
     }
     coder.represent_map(nil, h)
@@ -75,6 +76,51 @@ end
 class Systems
 
   DATA_REFERENCES_ID = "DataReferences"
+
+  # Provides an array of tag names that may appear in an info file and a yaml file for this a given system type (vax, alpha etc.)
+  def self.tag_names(type)
+    vax_tags = [
+      "Sys-name", "Desc-name", "Codename",
+      "Html-target",
+      "Announcement",
+      "FRS-date", "FCS-date",
+      "Last-order",
+      "OS-support-VMS",
+      "OS-support-ELN",
+      "CPU-module", 
+      "CPU-name-VMS",
+      "VMS-CPU",
+      "Num-proc",
+      "CPU-cycle",
+      "Translation-buffer",
+      "Cache",
+      "Secondary-Cache",
+      "Compatibility-mode",
+      "Console-processor",
+      "Minimum-memory",
+      "Memory-checking",
+      "Max-I/O-throughput",
+      "BUS-Qbus",
+      "BUS-unibus",
+      "BUS-MASSBUS",
+      "CPU-technology",
+      "VUPs",
+      "Physical-address-lines",
+      "LAN-support",
+      "CPU-names",
+      "Vector-processor", "UWCS"
+    ]
+
+    return case type
+           when /^vax$/ then vax_tags
+           else raise("Unknown system type: [#{type}]")
+           end
+  end
+
+  # Turns a tag name into an instance variable name
+  def self.tag_to_instance_variable_name(tag)
+    ('@' + tag.downcase().gsub(%r{[-/]},'_')).to_sym()
+  end
 
   def initialize()
     @systems = {}
@@ -99,8 +145,7 @@ class Systems
     @systems.to_yaml()
   end
 
-  # Returns a hash of {tag-name => instance-variable-name} for the given type of system.
-  def tags(type)
+  def old_tags(type)
     vax_tags = {
       "Sys-name" => :@sys_name, "Desc-name" => :@desc_name, "Codename" => :@codename,
       "Html-target" => :@html_target,
@@ -146,7 +191,7 @@ class Systems
     current = nil
     systems = Systems.new()
     sys_type = sys_type_expected.downcase()
-    permitted_tags = systems.tags(sys_type) # These are the permitted tags
+    permitted_tags = Systems.tag_names(sys_type) # These are the permitted tags
     local_refs = {}
 
     IO.foreach(info_filename) {
@@ -217,13 +262,14 @@ class Systems
             lref = reference
           end
         end
-        if permitted_tags.has_key?(tag)
+        if permitted_tags.include?(tag)
           # If the instance variable already exists then something has been defined twice
-          if current.instance_variable_defined?(permitted_tags[tag])
+          instance_variable_name = Systems.tag_to_instance_variable_name(tag)
+          if current.instance_variable_defined?(instance_variable_name)
             raise("On line #{line_num} in #{current.identifier()}, tag #{tag} has been defined again.")
           else
             # Set the appropriate instance variable to the value+reference specified
-            current.instance_variable_set(permitted_tags[tag], VariableWithReference.new(value, lref))
+            current.instance_variable_set(instance_variable_name, VariableWithReference.new(value, lref))
           end
         end
       elsif line.strip().empty?()
