@@ -12,9 +12,9 @@ yaml/refs.yaml:  info/refs.info
 yaml/vax.yaml:  info/vax.info $(REFS)
 	scripts/systems-info-to-yaml.rb vax $< $(REFS) > $@
 
-bin/vax.mediawiki.txt: yaml/vax.yaml
+bin/vax.mediawiki.txt: yaml/vax.yaml $(REFS)
 	@mkdir -p bin
-	scripts/systems-yaml-to-mediawiki.rb $< > $@
+	scripts/systems-yaml-to-mediawiki.rb $< $(REFS) > $@
 
 clean:
 	@rm yaml/*

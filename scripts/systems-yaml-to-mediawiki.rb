@@ -91,16 +91,22 @@ end
 
 
 sys_yaml = ARGV.shift()
+refs_yaml = ARGV.shift()   # This is the references YAML file
+
+# Load the references YAML information
+refs = YAML.load_file(refs_yaml)
 
 # Load the systems YAML information
 systems = YAML.load_file(sys_yaml)
 
 # systems will be a hash of {system name => properties-hash} 
 # properties-hash will be {property => array-of-values}
-# array-of-values[0] will be the value [1] onwards will be references.
+# array-of-values[0] will be the value, [1] onwards will be references.
 
 systems.keys().each() {
   |id|
+  local_refs = {} # { ref-id => [index, ref-hash-from-yaml] }
+  next_local_refs_index = 1
   properties = systems[id]
   system_name_array = properties["Sys-name"]
   if system_name_array.nil?()
@@ -118,10 +124,37 @@ systems.keys().each() {
     next if prop =~ /html-target/i
     array_of_values = properties[prop]
     value = array_of_values[0]
+    ref_index = nil   # No reference present, or invalid reference present
+    if array_of_values.size() > 1
+      r = array_of_values[1]  # a reference ID
+      if local_refs[r].nil?()
+        local_refs[r] = [ next_local_refs_index, refs[r] ]
+        next_local_refs_index += 1
+      else
+        ref_index = local_refs[r][0]
+      end
+    end
+    if ref_index.nil?()
+      ref_text = ""
+    else
+      ref_text = " [[#ref_#{ref_index}|[#{ref_index}]]]"  # TODO - should be an HTML link
+    end
     puts("|-")
     puts("| #{convert_property_name_to_text(prop)}")
-    puts("| #{value}")
+    puts("| #{value}#{ref_text}")
   }
   puts("|}")
   puts()
+  unless local_refs.empty?()
+    puts("== References ==")
+    puts()
+    ref_text_array = []
+    local_refs.each() {
+      |key, value|
+      index = value[0]
+      properties = value[1]
+      ref_text_array << %Q% <div id="ref_#{index}">[#{index}] #{properties['title']}. #{properties['part-no']}</div>%
+    }
+    ref_text_array.sort().each() { |line| puts(line) }
+  end
 }
