@@ -1,0 +1,341 @@
+---
+- Not-Allowed:
+  - Not Allowed
+  - never
+  - summary
+- Sys-name:
+  - System name
+  - systems
+- Html-target:
+  - HTML target
+  - all
+- Announcement:
+  - Announcement date
+  - all
+  - summary
+  - required
+- FRS-date:
+  - FRS date
+  - all
+  - summary
+- FCS-date:
+  - FCS date
+  - all
+  - summary
+- Last-order:
+  - Last order date
+  - all
+  - summary
+- Last-ship:
+  - Last ship date
+  - all
+  - summary
+- EOSL:
+  - End of service life
+  - all
+  - summary
+- Codename:
+  - Codename
+  - all
+  - summary
+  - required
+- Desc-name:
+  - Descriptive name
+  - all
+  - summary
+- Sys-class:
+  - System class
+  - all
+  - summary
+- OS-support-VMS:
+  - OS support (VMS)
+  - all
+  - summary
+- OS-support-MDM:
+  - OS-support (MDM)
+  - all
+  - summary
+- OS-support-ELN:
+  - OS-support (ELN)
+  - all
+  - summary
+- OS-support-ULTRIX:
+  - OS-support (ULTRIX)
+  - all
+  - summary
+- CPU-name-VMS:
+  - CPU name (VMS)
+  - all
+  - cpu_details
+- CPU-name-console:
+  - CPU name (console)
+  - all
+  - cpu_details
+- CPU-module:
+  - CPU module
+  - all
+  - cpu_details
+- Module:
+  - Module
+  - all
+  - cpu_details
+- Num-proc:
+  - Number of processors
+  - all
+  - cpu_details
+- VMS-CPU:
+  - VMS DCL CPU
+  - all
+  - cpu_details
+- VMS-XCPU:
+  - VMS DCL XCPU
+  - all
+  - cpu_detail
+- SID:
+  - SID
+  - all
+  - cpu_detail
+- XSID:
+  - XSID
+  - all
+  - cpu_detail
+- CPU-chip:
+  - CPU chip
+  - all
+  - cpu_details
+- FPU-chip:
+  - FPU chip
+  - all
+  - cpu_details
+- CPU-technology:
+  - CPU technology
+  - all
+  - cpu_detail
+- CPU-cycle:
+  - CPU cycle time
+  - all
+  - cpu_detail
+- CPU-clock:
+  - CPU clock
+  - all
+  - cpu_details
+- Vector-processor:
+  - Vector processor
+  - all
+  - cpu_detail
+- Instruction-buffer:
+  - Instruction-buffer
+  - all
+  - cpu_detail
+- Translation-buffer:
+  - Translation-buffer
+  - all
+  - cpu_detail
+- Control-store:
+  - Control store
+  - all
+  - cpu_detail
+- Gate-delay:
+  - Gate delay
+  - all
+  - cpu_detail
+- WCS:
+  - Writable Control Store
+  - all
+  - cpu_detail
+- UWCS:
+  - User Writable Control Store
+  - all
+  - cpu_detail
+- Cache:
+  - Cache
+  - all
+  - cpu_detail
+- Primary-cache:
+  - Primary cache
+  - all
+  - cpu_detail
+- Secondary-Cache:
+  - Secondary cache
+  - all
+  - cpu_detail
+- Backup-cache:
+  - Backup cache
+  - all
+  - cpu_detail
+- Compatibility-mode:
+  - Compatibility mode
+  - all 
+  - cpu_detail
+- Console-processor:
+  - Console processor
+  - all
+  - cpu_detail
+- Console-device:
+  - Console device
+  - all
+  - cpu_detail
+- Firmware-version:
+  - Firmware-version
+  - all
+  - cpu_detail
+- CPU-names:
+  - CPU-names
+  - all
+  - cpu_detail
+- Minimum-memory:
+  - Minimum memory
+  - all
+  - memory
+- Maximum-memory:
+  - Maximum memory
+  - all
+  - memory
+- Physical-address-lines:
+  - Physical address lines
+  - all
+  - memory
+- Memory-checking:
+  - Memory checking
+  - all
+  - memory
+- Memory-cycle:
+  - Memory cycle
+  - all
+  - S
+- on-board-memory:
+  - On-board memory
+  - all
+  - memory
+- Max-I/O-throughput:
+  - Max I/O throughput
+  - all
+  - io
+- BUS-SBI:
+  - SBI
+  - vax
+  - io
+- BUS-MASSBUS:
+  - MASSBUS
+  - vax
+  - io
+- BUS-UNIBUS:
+  - UNIBUS
+  - all
+  - io
+- BUS-Qbus:
+  - Q-bus
+  - vax
+  - io
+- BUS-vaxbi:
+  - VAXBI
+  - all
+  - io
+- BUS-XMI:
+  - XMI
+  - all
+  - io
+- BUS-LSB:
+  - Laserbus
+  - all
+  - io
+- BUS-FB:
+  - Futurebus
+  - all
+  - io
+- BUS-TC:
+  - TURBOchannel
+  - all
+  - io
+- BUS-DSSI:
+  - BUS-DSSI
+  - all
+  - io
+- BUS-SCSI:
+  - BUS SCSI
+  - all
+  - io
+- BUS-PCI:
+  - PCI
+  - all
+  - io
+- BUS-EISA:
+  - EISA
+  - all
+  - io
+- BUS-ISA:
+  - ISA
+  - all
+  - io
+- BUS-MCA:
+  - MCA
+  - all
+  - io
+- LAN-support:
+  - LAN support
+  - all
+  - io
+- VUPs:
+  - VUPs
+  - all
+  - performance
+- SPECmarks:
+  - SPECmarks
+  - all
+  - performance
+- TPC-A:
+  - TPC-A
+  - all
+  - performance
+- SPECint89:
+  - SPECint89
+  - all
+  - performance
+- SPECfp89:
+  - SPECfp89
+  - all
+  - performance
+- Height:
+  - Height
+  - all
+  - dimensions
+- Width:
+  - Width
+  - all
+  - dimensions
+- Depth:
+  - Depth
+  - all
+  - dimensions
+- Weight:
+  - Depth
+  - all
+  - dimensions
+- Supply:
+  - Supply
+  - all
+  - power
+- I-max:
+  - I(max)
+  - all
+  - power
+- Power:
+  - Power
+  - all
+  - power
+- Heat-dissipation:
+  - Heat dissipation
+  - all
+  - power
+- Label:
+  - Label
+  - all
+  - power
+- Option-title:
+  - Options
+  - all
+  - option
+- Option:
+  - Option
+  - all
+  - option

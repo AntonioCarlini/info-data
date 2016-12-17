@@ -43,7 +43,7 @@ class System
     @identifier = identifier
     @line_num = line_num
     @sys_type = type
-    @sys_class = sys_class
+    @sys_class = VariableWithReference.new(sys_class, nil)
     @possible_tags = possible_tags
   end
   
@@ -57,7 +57,6 @@ class System
   #
   def encode_with(coder)
     h = {}
-    h["sys-class"] = VariableWithReference.new(@sys_class, nil).as_array()
 
     # For each possible tag, it it is present, represent it in the output.
     @possible_tags.each() {
@@ -65,7 +64,7 @@ class System
       instance_variable_name = Systems.tag_to_instance_variable_name(key)
       if self.instance_variable_defined?(instance_variable_name)
         # Use tag (i.e. the key) for the "name" and represent the value as an array with the first element as the actual value
-        # and any further elements represnting references.
+        # and any further elements representing references.
         h[key] = self.instance_variable_get(instance_variable_name).as_array()
       end
     }
@@ -186,14 +185,15 @@ class Systems
 
   # Reads a systems .info file ...
   # sys_type_expected: type of system: vax, alpha etc.
-  def Systems.create_from_info_file(info_filename, sys_type_expected, refs)
+  # permitted_tags: an array of permitted tags
+
+  def Systems.create_from_info_file(info_filename, sys_type_expected, permitted_tags, refs)
     line_num = 0
     current = nil
     systems = Systems.new()
     sys_type = sys_type_expected.downcase()
-    permitted_tags = Systems.tag_names(sys_type) # These are the permitted tags
     local_refs = {}
-
+    permitted_tags_uc = permitted_tags.map(&:upcase)
     IO.foreach(info_filename) {
       |line|
       line_num += 1
@@ -262,7 +262,10 @@ class Systems
             lref = reference
           end
         end
-        if permitted_tags.include?(tag)
+        if permitted_tags_uc.include?(tag.upcase())
+          # TODO
+          # At the moment Dimensions and Power are not handled properly, so skip them otherwise these tags are seen repeatedly and the checking fails
+          next if ["Height","Width","Depth","Weight","Supply","I-max","Power","Heat-dissipation","Option-title","Option","Label"].include?(tag)
           # If the instance variable already exists then something has been defined twice
           instance_variable_name = Systems.tag_to_instance_variable_name(tag)
           if current.instance_variable_defined?(instance_variable_name)
@@ -271,6 +274,8 @@ class Systems
             # Set the appropriate instance variable to the value+reference specified
             current.instance_variable_set(instance_variable_name, VariableWithReference.new(value, lref))
           end
+        else
+          raise("On line #{line_num} in #{current.identifier()}, unknown tag #{tag} has been used.")
         end
       elsif line.strip().empty?()
         raise("Muffed empty line check")
