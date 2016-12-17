@@ -76,46 +76,6 @@ class Systems
 
   DATA_REFERENCES_ID = "DataReferences"
 
-  # Provides an array of tag names that may appear in an info file and a yaml file for this a given system type (vax, alpha etc.)
-  def self.tag_names(type)
-    vax_tags = [
-      "Sys-name", "Desc-name", "Codename",
-      "Html-target",
-      "Announcement",
-      "FRS-date", "FCS-date",
-      "Last-order",
-      "OS-support-VMS",
-      "OS-support-ELN",
-      "CPU-module", 
-      "CPU-name-VMS",
-      "VMS-CPU",
-      "Num-proc",
-      "CPU-cycle",
-      "Translation-buffer",
-      "Cache",
-      "Secondary-Cache",
-      "Compatibility-mode",
-      "Console-processor",
-      "Minimum-memory",
-      "Memory-checking",
-      "Max-I/O-throughput",
-      "BUS-Qbus",
-      "BUS-unibus",
-      "BUS-MASSBUS",
-      "CPU-technology",
-      "VUPs",
-      "Physical-address-lines",
-      "LAN-support",
-      "CPU-names",
-      "Vector-processor", "UWCS"
-    ]
-
-    return case type
-           when /^vax$/ then vax_tags
-           else raise("Unknown system type: [#{type}]")
-           end
-  end
-
   # Turns a tag name into an instance variable name
   def self.tag_to_instance_variable_name(tag)
     ('@' + tag.downcase().gsub(%r{[-/]},'_')).to_sym()
@@ -142,45 +102,6 @@ class Systems
 
   def to_yaml()
     @systems.to_yaml()
-  end
-
-  def old_tags(type)
-    vax_tags = {
-      "Sys-name" => :@sys_name, "Desc-name" => :@desc_name, "Codename" => :@codename,
-      "Html-target" => :@html_target,
-      "Announcement" => :@announcement,
-      "FRS-date"=> :@frs_date, "FCS-date" => :@fcs_date,
-      "Last-order" => :@last_order, "Last-ship" => :@last_ship,
-      "OS-support-VMS" => :@os_support_vms, "OS-support-MDM" => :@os_support_mdm,
-      "OS-support-ELN" => :@os_support_eln, "OS-support-ULTRIX" => :@os_support_ultrix,
-      "CPU-module" => :@cpu_module, "Module" => :@module, "Firmware-version" => :@firmware, 
-      "CPU-name-VMS" => :@cpu_name_vms, "CPU-name-console" => :@cpu_name_console,
-      "VMS-CPU" => :@vms_cpu, "VMS-XCPU" => :@vms_xcpu, "SID" => :@sid, "XSID" =>:@xsid,
-      "Num-proc" => :@num_proc, "CPU-chip" => :@cpu_chip, "FPU-chip" => :@fpu_chip, "CPU-clock" => :@cpu_clock,
-      "CPU-cycle" => :@cpu_cycle, "Instruction-buffer" => :@instruction_buffer,
-      "Translation-buffer" => :@translation_buffer,
-      "Cache" => :@cache, "Primary-cache" => :@primary_cache, "Backup-cache" => :@backup_cache,
-      "Secondary-Cache" => :@secondary_cache,
-      "Compatibility-mode" => :@compatibility_mode,
-      "Console-processor" => :@console_processor, "Console-device" => :@console_device,
-      "Minimum-memory" => :@min_memory, "Maximum-memory" => :@max_memory, "on-board-memory" => :@on_board_memory,
-      "Memory-checking" => :@mem_checking, "Memory-cycle" => :@memory_cycle,
-      "Max-I/O-throughput" => :@max_io_thruput,
-      "BUS-Qbus" => :@bus_qbus, "BUS-SCSI" => :@bus_scsi, "BUS-DSSI" => :@bus_dssi,
-      "BUS-unibus" => :@bus_unibus, "BUS-vaxbi" => :@bus_vaxbi, "BUS-XMI" => :@bus_xmi, "BUS-SBI" => :@bus_sbi,
-      "BUS-MASSBUS" => :@bus_massbus,
-      "CPU-technology" => :@cpu_technology,
-      "VUPs" => :@vups, "SPECmarks" => :@specmarks, "TPC-A" => :@tpc_a, "SPECint89" => :@specint89, "SPECfp89" => :@specfp89,
-      "Physical-address-lines" => :@phys_addr_lines,
-      "LAN-support" => :@lan_support,
-      "CPU-names" => :@cpu_names, "Control-store" => :@control_store, "Gate-delay" => :@gate_delay,
-      "Vector-processor" => :@vector_processor, "WCS" => :@wcs, "UWCS" => :@uwcs
-    }
-
-    return case type
-           when /^vax$/ then vax_tags
-           else raise("Unknown system type: [#{type}]")
-           end
   end
 
   # Reads a systems .info file ...
