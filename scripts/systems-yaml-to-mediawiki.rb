@@ -37,6 +37,8 @@ def convert_property_name_to_text(property)
     "os_support_vms" => "OS support (VMS)",
     "os_support_mdm" => "OS support (MDM)",
     "os_support_eln" => "OS support (ELN)",
+    "os_support_ultrix" => "OS support (ULTRIX)",
+    "on_board_memory" => "On-board memory",
     "cpu_names" => "CPU names",
     "vector_processor" => "Vector processor",
     "instruction_buffer_bytes" => "Instruction buffer",
@@ -122,6 +124,7 @@ systems.keys().each() {
     next if prop =~ /sys_class/i # This should be handled in some special way (VAX4000, VAX6000, UNIBUS etc.)
     next if prop =~ /sys-name/i
     next if prop =~ /html-target/i
+    next if prop =~ /option-title/i
     array_of_values = properties[prop]
     value = array_of_values[0]
     ref_index = nil   # No reference present, or invalid reference present
