@@ -445,7 +445,7 @@
 **CPU-module**htref{1}: KA680-AA
 **Module**htref{4}: L4002-BA
 **Firmware-version**uref{personally verified}: V4.1
-**CPU-name-vms: KA680
+**CPU-name-VMS: KA680
 **VMS-CPU: 19
 **VMS-XCPU: 1
 **SID: 13000202
@@ -634,7 +634,7 @@
 **OS-support-VMS**uref{SUE Apr 1992 pt II}: V5.5
 **CPU-module**htref{1}: KA690
 **Module**htref{2}: L4002-AA
-**CPU-name-vms: KA690
+**CPU-name-VMS: KA690
 **CPU-name-console: KA690
 **Num-proc: 1
 **CPU-technology: CMOS-4
@@ -809,19 +809,19 @@
 **Announcement**htref{3}: April 1988
 **Codename**uref{*47}: Calypso
 **OS-support-VMS**uref{*9,*26}: V5.0
-**Cpu-module**htref{2}: KA62A
-**Cpu-name-vms: KA62A
-**Cpu-name-console: KA62A
+**CPU-module**htref{2}: KA62A
+**CPU-name-VMS: KA62A
+**CPU-name-console: KA62A
 **Num-proc**htref{2}: 1-4
 **VMS-CPU: 10
 **VMS-XCPU: 2
 **SID: 0A000003
 **XSID : 0231001
 **CPU-names: {VAX 6000 Model 210}{VAX 6000 Model 220}{VAX 6000 Model 230}{VAX 6000 Model 240}
-**Cpu-technology**htref{1}: CMOS-2
+**CPU-technology**htref{1}: CMOS-2
 **CPU-chip**htref{2}: 78034 (CVAX)
 **FPU-chip**htref{2}: CFPA
-**Cpu-cycle**htref{2}: 80ns
+**CPU-cycle**htref{2}: 80ns
 **Cache**htref{2}: 1KB
 **Module: T2011
 **Backup-cache**htref{2}: 256KB (160ns)
@@ -831,7 +831,7 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device**htref{2}: TK50
-**Vups**htref{2}: {2.8} {5.5} {8.3} {11.0}
+**VUPs**htref{2}: {2.8} {5.5} {8.3} {11.0}
 !<!--
 ![2]
 !			& VAX 6210 & VAX 6220	& VAX 6230 & VAX 6240\\ 
@@ -847,11 +847,11 @@
 !-->
 **Maximum-memory**htref{2}: 256MB
 **Memory-checking**htref{2}: 8-bit ECC/quadword
-**Max-i/o-throughput**htref{1}: 60MB/s
-**BUS-unibus: 0 @ 1.5MB/s
+**Max-I/O-throughput**htref{1}: 60MB/s
+**BUS-UNIBUS: 0 @ 1.5MB/s
 **BUS-vaxbi**htref{2}: 2-6 @ 13.3MB/s
-**BUS-xmi**uref{*9}: 1 @ 100MB/s
-**Lan-support: optional
+**BUS-XMI**uref{*9}: 1 @ 100MB/s
+**LAN-support: optional
 **Power-start{6200}
 **Supply**htref{1}: 415V 3-phase
 **Power**htref{1}: 1600W
@@ -873,9 +873,9 @@
 **Announcement**uref{*DU MAR-1989 [1]}: 24 January 1989
 **Codename**uref{*47}: Hyperion
 **OS-support-VMS**uref{*26,*102}: V5.1
-**Cpu-module: KA62B
-**Cpu-name-vms: KA62B
-**Cpu-name-console: KA62B
+**CPU-module: KA62B
+**CPU-name-VMS: KA62B
+**CPU-name-console: KA62B
 **Module: T2011-YA
 **VMS-CPU: 10
 **VMS-XCPU: 2
@@ -883,9 +883,9 @@
 **XSID : 02800201
 **Num-proc: 1-6
 **CPU-names: {VAX 6310}{VAX 6320}{VAX 6330}{VAX 6340}{VAX 6350}{VAX 6360}
-**Cpu-technology**htref{1}: CMOS-2
-**Cpu-clock: @@
-**Cpu-cycle**uref{*7,*52,*83}: 60ns
+**CPU-technology**htref{1}: CMOS-2
+**CPU-clock: @@
+**CPU-cycle**uref{*7,*52,*83}: 60ns
 **Cache**uref{*7,*52,*83}: 1KB
 **Backup-cache**uref{*7,*52,*83}: 256KB (120ns)
 **Instruction-buffer**uref{*7}: 12 bytes
@@ -902,11 +902,11 @@
 !Bus details: &		2-6xVAXBI (6310-6340) \\		% [7]
 ! &			2-4xVAXBI (6350-6360) \\		% [7]
 !-->
-**Vups**htref{2}: {3.8} {7.5} {11.3} {15.0} {18.6} {22.0}
-**Max-i/o-throughput**uref{*7}: 60MB/s
+**VUPs**htref{2}: {3.8} {7.5} {11.3} {15.0} {18.6} {22.0}
+**Max-I/O-throughput**uref{*7}: 60MB/s
 **BUS-vaxbi: 2-4 @ 13.3MB/s
-**BUS-xmi: 1 @ 100MB/s
-**Lan-support: optional
+**BUS-XMI: 1 @ 100MB/s
+**LAN-support: optional
 **Power-start{6300}
 **Supply: 415V 3-phase
 **Power: 1600W
@@ -928,19 +928,19 @@
 **Announcement**uref{*44 [1]}: 11 July 1989
 **Codename**uref{*47}: Rigel
 **OS-support-VMS**uref{*26}: V5.2 
-**Cpu-module**uref{*2}: KA64A
-**Cpu-name-vms: KA64A
+**CPU-module**uref{*2}: KA64A
+**CPU-name-VMS: KA64A
 **VMS-CPU: 11
 **VMS-XCPU: 2
 **SID: 0B000006
 **XSID : 02400101
 **Num-proc: 1-6
 **CPU-names: {VAX 6410}{VAX 6420}{VAX 6430}{VAX 6440}{VAX 6450}{VAX 6460}
-**Fpu-chip**htref{1}: F-chip (DC523)
-**Cpu-chip**htref{1}: REX520 (DC520)
-**Cpu-technology**htref{1}: CMOS-2
-**Cpu-clock**htref{1}: 143MHz
-**Cpu-cycle**htref{1}: 28ns
+**FPU-chip**htref{1}: F-chip (DC523)
+**CPU-chip**htref{1}: REX520 (DC520)
+**CPU-technology**htref{1}: CMOS-2
+**CPU-clock**htref{1}: 143MHz
+**CPU-cycle**htref{1}: 28ns
 **Cache**htref{1}: 2KB
 **Backup-cache**htref{1}: 128KB (56ns)
 ! [1] does not mention 56ns
@@ -952,10 +952,10 @@
 **Console-processor: CPU
 **Console-device: TK70
 **VUPs**htref{2}: {7} {13} {19} {25} {31} {36}
-**Specmarks**uref{*7}: 1
+**SPECmarks**uref{*7}: 1
 **Physical-address-lines: 30
-**BUS-xmi: 1 @ 100MB/s
-**Lan-support: optional
+**BUS-XMI: 1 @ 100MB/s
+**LAN-support: optional
 **End-systems-entry{VAX6400}
 
 **Start-systems-entry{VAX6500}{VAX}{VAX6000}
@@ -968,20 +968,20 @@
 **Codename: Mariah
 **OS-support-VMS**htref{1}: V5.4
 ! Flowchart has V5.4-OA
-**Os-support-ultrix**uref{59}: V4.1
-**Os-support-eln**uref{*74}: V4.3
-**Cpu-module**htref{1}: KA65A
+**OS-support-ULTRIX**uref{59}: V4.1
+**OS-support-ELN**uref{*74}: V4.3
+**CPU-module**htref{1}: KA65A
 **Module**uref{%CALYPSO:984.1}: T2052-AA
-**Cpu-name-vms: KA65A
-**Cpu-name-console: KA65A
+**CPU-name-VMS: KA65A
+**CPU-name-console: KA65A
 **VMS-CPU: 18
 **VMS-XCPU: 2
 **SID: 12000003
 **XSID : 02200101
 **Num-proc: 1-6
 **CPU-names: {VAX 6510}{VAX 6520}{VAX 6530}{VAX 6540}{VAX 6550}{VAX 6560}
-**Cpu-chip**htref{1}: MP-chip (DC595)
-**Cpu-cycle**htref{3}: 16ns
+**CPU-chip**htref{1}: MP-chip (DC595)
+**CPU-cycle**htref{3}: 16ns
 **Vector-processor**htref{1}: FV64A (1-4 optional)
 **Cache**htref{1}: 2KB
 **Backup-cache**htref{1}: 512KB
@@ -991,16 +991,16 @@
 **Console-processor: CPU
 **Console-device: Unknown
 ! <!-- *52 384ns per 64-bit write 448ns per 128-bit write 640ns per 96-bit read 704ns per 96-bit write -->
-**Vups: {13.0} {25.0} {37.0} {49.0} {61.0} {72.0}
-**Specmarks**htref{1}: 13.2
+**VUPs: {13.0} {25.0} {37.0} {49.0} {61.0} {72.0}
+**SPECmarks**htref{1}: 13.2
 **Maximum-memory**htref{1}: 512MB
 ! <!-- [1]: 2GB memory space -->
 **Physical-address-lines: @@
 **Memory-checking**uref{*52}: 8-bit ECC/quadword
-**Max-i/o-throughput**uref{*52}: 80MB/s
+**Max-I/O-throughput**uref{*52}: 80MB/s
 **BUS-vaxbi**uref{*52}: 0-5
-**BUS-xmi**htref{1}: 1
-**Lan-support: optional
+**BUS-XMI**htref{1}: 1
+**LAN-support: optional
 **Power-start{6500}
 **Supply**uref{*52}: 240V 3-phase
 **Power**uref{*52}: 1600W
@@ -1024,33 +1024,33 @@
 **Codename: Neptune
 **OS-support-VMS: V5.5
 **Module: T2054
-**Cpu-module**htref{1}: KA66A
-**Cpu-name-vms: KA66A
-**Cpu-name-console: KA66A
+**CPU-module**htref{1}: KA66A
+**CPU-name-VMS: KA66A
+**CPU-name-console: KA66A
 **VMS-CPU: 19
 **VMS-XCPU: 2
 **SID: 13000202
 **XSID : 02100101
 **Num-proc: 1-6
 **CPU-names: {VAX 6610}{VAX 6620}{VAX 6630}{VAX 6640}{VAX 6650}{VAX 6660}
-**Cpu-chip**htref{1}: NVAX
+**CPU-chip**htref{1}: NVAX
 **Vector-processor: 
-**Cpu-technology: 
-**Cpu-clock**uref{*72}: 83MHz
-**Cpu-cycle**htref{3}: 12ns
+**CPU-technology: 
+**CPU-clock**uref{*72}: 83MHz
+**CPU-cycle**htref{3}: 12ns
 **Cache**htref{1}: 2KB VIC
 **Primary-cache**htref{1}: 8KB physical
 **Backup-cache**htref{1}: 2MB
 **Instruction-buffer**htref{1}: 16 bytes
 **Translation-buffer**htref{1}: 96 entries
-**Wcs: 
-**Uwcs: 
+**WCS: 
+**UWCS: 
 **Control-store**htref{1}: 1600 61-bit words
 **Gate-delay: @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: Unknown
-**Vups**htref{2}: {32.0} {58.0} {84.0} {106.0} {128.0} {150}
+**VUPs**htref{2}: {32.0} {58.0} {84.0} {106.0} {128.0} {150}
 **TPC-A**uref{*SUE APR 1992 pt II}: {91.0} {-} {-} {208.8} {-} {-}
 !	      VUPS    TPS-A SPECmarks	    & SPECint 	 & SPECfp \\ 
 !				    SPECthruput
@@ -1062,13 +1062,13 @@
 !						% TPS only from [101]
 !VAX 6000-650 &      &       &       & 165.5 & 122.6 & 202.2 \\	% [72]
 !VAX 6000-660 & 150  &       &       & 196.9 & 143.9 & 242.7 \\	% [72]
-**Specmarks**htref{3}: 40.5
+**SPECmarks**htref{3}: 40.5
 !!**Tpc-a**htref{3}: 83.6
 **Minimum-memory**htref{1}: 32MB
 **Maximum-memory**htref{1}: 1GB
 **Physical-address-lines**htref{1}: 32
-**Max-i/o-throughput**uref{*SUE Jul 1992 Spec}: 80MB/s
-**Lan-support: optional
+**Max-I/O-throughput**uref{*SUE Jul 1992 Spec}: 80MB/s
+**LAN-support: optional
 **Power-start{6600}
 !! **Heat-dissipation**uref{*SUE Jul 1992 Spec}: 1600W
 **Power-end{6600}
@@ -1086,7 +1086,7 @@
 **Html-target: vax730
 **Announcement: October 1983		
 **Codename: Low Cost Nebula
-**OS-Support-VMS**uref{*26}: VMS V?.? to VMS V5.1
+**OS-support-VMS**uref{*26}: VMS V?.? to VMS V5.1
 **CPU-module: KA730
 **Module: @@
 **Num-proc: 1
@@ -1116,7 +1116,7 @@
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Announcement: April 1982
 **Codename: Nebula
-**OS-support-vms: VMS V3.0
+**OS-support-VMS: VMS V3.0
 **CPU-module: KA730
 **Module: @@
 **Num-proc: 1
@@ -1194,23 +1194,23 @@
 **Frs-date**uref{DU JAN-1986}: October 1980
 **Codename: Comet
 **OS-support-VMS**uref{*26}: VMS V2.0
-**Cpu-name-vms**uref{2}: KA750
-**Cpu-name-console**uref{2}: None
+**CPU-name-VMS**uref{2}: KA750
+**CPU-name-console**uref{2}: None
 **Num-proc: 1
 **VMS-CPU: 2
 **VMS-XCPU: 0
 **SID: 02006878
 **XSID : 0
-**Cpu-cycle**htref{1}: 320ns
+**CPU-cycle**htref{1}: 320ns
 **Cache**htref{1}: 4KB
 **Instruction-buffer**htref{1}: 8 bytes
 **Translation-buffer**htref{1}: 512 entries
-**Wcs**htref{1}: 1K 80-bit words
+**WCS**htref{1}: 1K 80-bit words
 **Control-store**htref{1}: 6K 80-bit words
 **Compatibility-mode**htref{1}: Yes
 **Console-processor: CPU
 **Console-device**htref{1}: TU58
-**Vups**htref{2}: 0.6
+**VUPs**htref{2}: 0.6
 **Minimum-memory**htref{1}: 1MB
 **Maximum-memory**uref{*4}: 14MB
 **Physical-address-lines**uref{*82}: 24
@@ -1221,10 +1221,10 @@
 ! memory cycle times from *82:
 !	800ns per 32-bit read, 640ns per 32-bit write, 400ns (effective) with cache
 !
-**Max-i/o-throughput**htref{1}: 5.0MB/s
-**BUS-unibus**uref{*82}: 1 @ 1.5MB/s
+**Max-I/O-throughput**htref{1}: 5.0MB/s
+**BUS-UNIBUS**uref{*82}: 1 @ 1.5MB/s
 **BUS-massbus**uref{*82}: 3@ 2.0MB/s
-**Lan-support: optional
+**LAN-support: optional
 **Power-start{750}
 **Supply**htref{1}: 240V 1-phase
 **I-max**htref{1}: 15A
@@ -1245,10 +1245,10 @@
 **Desc-name: VAX 7000 Model 600 series
 **Announcement**uref{*SUE Jul 1992 Spec}: 7 July 1992
 **Codename**uref{*102}: Laser/Neon
-**OS-support-vms**uref{102}: VMS V5.5-2
+**OS-support-VMS**uref{102}: VMS V5.5-2
 ! Flowchart has V5.5-2HW; V6.0 for 7650,7660
 **CPU-module**htref{1}: KA7AA			
-**CPU-name-vms: KA7AA
+**CPU-name-VMS: KA7AA
 **VMS-CPU: 23
 **VMS-XCPU: 1
 **SID: 17000002
@@ -1290,10 +1290,10 @@
 **FRS-date**htref{2}: 1 August 1994
 **Last-order**htref{3}: 30 March 1996
 **Last-ship**htref{3}: 29 June 1996
-**OS-support-vms**htref{2}: VMS V6.1
+**OS-support-VMS**htref{2}: VMS V6.1
 **Num-proc**htref{2}: 1-6
 **CPU-names: {VAX 7710}{VAX 7720}{VAX 7730}{VAX 7740}{VAX 7750}{VAX 7760}
-**CPU-name-vms: KA7AB
+**CPU-name-VMS: KA7AB
 **CPU-clock**htref{2}: 137.5MHz
 **CPU-chip: NV5
 **Compatibility-mode: No
@@ -1317,12 +1317,12 @@
 **Def-lref{1} = ref{CU-V6-11A}
 **Announcement**htref{1}: 1 November 1995
 **Codename: Xenon
-**OS-support-vms: VMS V6.0
+**OS-support-VMS: VMS V6.0
 ! V5.5-2 supports 7810-7840 as 7610-7640
 **Num-proc: 1-6
 **CPU-names: {VAX 7810}{VAX 7820}{VAX 7830}{VAX 7840}{VAX 7850}{VAX 7860}
 **CPU-clock**htref{1}: 170.9MHz
-**CPU-name-vms: KA7AC
+**CPU-name-VMS: KA7AC
 **Module: E2059-AA
 **Compatibility-mode: No
 **Console-processor: CPU
@@ -1344,7 +1344,7 @@
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1} 
 **Announcement**uref{*37}: November 1977
 **Codename: Star
-**OS-support-vms**uref{*26}: VMS V1.5
+**OS-support-VMS**uref{*26}: VMS V1.5
 **Num-proc: 1
 **CPU-technology**uref{*34}: Bipolar Schottky
 **Gate-delay**uref{34}: 3ns
@@ -1386,7 +1386,7 @@
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1} 
 **Codename: Atlas
 **Html-target: vax780
-**OS-support-vms**uref{*26}: to VMS V4.7
+**OS-support-VMS**uref{*26}: to VMS V4.7
 **Num-proc: 2
 **CPU-technology**uref{*34}: Bipolar Schottky
 **Gate-delay**uref{34}: 3ns
@@ -1421,9 +1421,9 @@
 **def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Announcement**uref{SUE 5.19}: 2 April 1984
 **Codename: Superstar
-**OS-support-vms**uref{*26}: VMS V3.4
-**OS-support-ultrix**uref{*12}: Ultrix V1.0
-**CPU-name-vms: KA785
+**OS-support-VMS**uref{*26}: VMS V3.4
+**OS-support-ULTRIX**uref{*12}: Ultrix V1.0
+**CPU-name-VMS: KA785
 **Num-proc: 1
 **CPU-technology**htref{1}: Advanced Schottky
 **CPU-cycle**htref{1}: 133ns
@@ -1469,7 +1469,7 @@
 **OS-support-VMS**uref{*26}: V4.4
 **CPU-module**htref{3}: KA820
 **Module**htref{4}: T1001-00
-**CPU-name-vms: KA820
+**CPU-name-VMS: KA820
 **VMS-CPU: 5
 **VMS-XCPU: 0
 **SID: 05282B14
@@ -1627,10 +1627,10 @@
 **Announcement**uref{*102}: 29 January 1986
 **Codename: Scorpio
 **Html-target: vax8200
-**OS-support-vms**uref{*26}: V4.4
+**OS-support-VMS**uref{*26}: V4.4
 **CPU-module**htref{3}: KA820
 **Module**htref{4}: T1001-00
-**CPU-name-vms: KA820
+**CPU-name-VMS: KA820
 **Num-proc: 2
 **CPU-technology**htref{3}: ZMOS
 **CPU-chip**htref{4}: V11
@@ -1781,12 +1781,12 @@
 **Def-lref{2} = ref{EK-KA825-MA-001}
 **Announcement**uref{%SCORPIO:115.*}: 2 March 1987
 **Codename**uref{*102}: Sargas
-**OS-support-vms**htref{2}: VMS V4.5
+**OS-support-VMS**htref{2}: VMS V4.5
 ! Flowchart has V4.6
-**OS-support-ultrix**htref{2}: ULTRIX V2.0
+**OS-support-ULTRIX**htref{2}: ULTRIX V2.0
 **CPU-module**htref{1}: KA825
 **Module: T1001-YA
-**CPU-name-vms: KA825
+**CPU-name-VMS: KA825
 **CPU-name-console: None
 **VMS-CPU: 5
 **VMS-XCPU: 0
@@ -1836,12 +1836,12 @@
 **Announcement**uref{%SCORPIO:115.*}: 2 March 1987
 **Codename**uref{*102}: Sargas
 **Html-target: vax8250
-**OS-support-vms**htref{2}: VMS V4.5
+**OS-support-VMS**htref{2}: VMS V4.5
 ! Flowchart has V4.6
-**OS-support-ultrix**htref{2}: ULTRIX V2.0
+**OS-support-ULTRIX**htref{2}: ULTRIX V2.0
 **CPU-module**htref{1}: KA825
 **Module: T1001-YA
-**CPU-name-vms: KA825
+**CPU-name-VMS: KA825
 **CPU-name-console: None
 **VMS-CPU: 5
 **VMS-XCPU: 0
@@ -1891,7 +1891,7 @@
 **Announcement**uref{*102}: March 1988
 **FRS-date: April 1988
 **Codename**uref{*47}: PolarStar
-**OS-support-vms**uref{*26}: VMS V5.0
+**OS-support-VMS**uref{*26}: VMS V5.0
 **Num-proc: 1-4
 **CPU-names: {VAX 8810}{VAX 8820}{VAX 8830}{VAX 8840}
 **CPU-technology**htref{1}: ECL Gate Array
@@ -1985,7 +1985,7 @@
 ! [2] states oct  1989
 **Codename: Aquarius
 **Html-target: vax9000
-**OS-support-vms: VMS V5.4-OA
+**OS-support-VMS: VMS V5.4-OA
 **CPU-module: KA9000
 **Num-proc: 1
 **CPU-names: {VAX 9210}
@@ -2055,7 +2055,7 @@
 ! [2] states oct  1989
 **Codename: Aquarius
 **Html-target: vax9000
-**OS-support-vms: VMS V5.4-1
+**OS-support-VMS: VMS V5.4-1
 ! Flowchart has V5.4-OA for single processor
 **CPU-module: KA9000
 **Num-proc: 1-4
@@ -2154,10 +2154,10 @@
 **Announcement**uref{DU FEB-1986}: 24 January 1986
 ! Announce date is for  (VAXstation II/GPX)
 **Codename**uref{*126}: Caylith
-**OS-support-vms: MicroVMS V4.1
+**OS-support-VMS: MicroVMS V4.1
 **CPU-module**htref{3}: KA630
 **Module**htref{3}: M7606
-**CPU-name-vms**uref{*2}: KA630
+**CPU-name-VMS**uref{*2}: KA630
 **CPU-name-console**uref{*2}: KA630-A
 **VMS-CPU: 8
 **VMS-XCPU: 1
@@ -2269,11 +2269,11 @@
 **def-lref{1} = ref{EK-258AA-MG-003}
 **Announcement**uref{*102}: 10 January 1989
 **Codename**uref{*47}: Firefox
-**OS-support-vms**uref{*26}: V5.1-1
+**OS-support-VMS**uref{*26}: V5.1-1
 **CPU-module**htref{1}: KA60-AA
 **Module**htref{1}: L2001
 !-- [1] KA60-BA is L2010 (VAXstation 38x0)
-**CPU-name-vms: KA60
+**CPU-name-VMS: KA60
 **CPU-name-console**htref{1}: KA60
 **Num-proc**htref{1}: 2-4
 **CPU-chip**uref{*25}: 78034
@@ -2328,10 +2328,10 @@
 **Desc-name: VAXstation 4000 Model 60
 **Announcement**uref{*2}: 30 October 1991
 **Codename**uref{*2}: Pmariah
-**OS-support-vms**uref{*72}: V5.5
+**OS-support-VMS**uref{*72}: V5.5
 **CPU-module**htref{1}: KA46
 **Firmware-version**uref{personally verified}: V1.2
-**CPU-name-vms**uref{*105}: KA46
+**CPU-name-VMS**uref{*105}: KA46
 **CPU-name-console**uref{*105}: KA46-A
 **VMS-CPU: 18
 **VMS-XCPU: 4
@@ -2387,9 +2387,9 @@
 **def-lref{2} = ref{EC-N0857-51}
 **Announcement**uref{*2}: 30 October 1991
 **Codename: VLC
-**OS-support-vms**uref{*102}: V5.5
+**OS-support-VMS**uref{*102}: V5.5
 **CPU-module: KA48
-**CPU-name-vms: KA48
+**CPU-name-VMS: KA48
 **CPU-name-console**uref{*106,*102}: KA48
 **SID: 14000006
 **XSID : 04010102
@@ -2451,7 +2451,7 @@
 **Sys-name: VAXstation 8000
 **Announcement: February 1988
 **Codename**uref{*102 *DU MAR-1988}: Lynx
-**OS-support-vms**uref{*26}: V4.7 to V5.3-2
+**OS-support-VMS**uref{*26}: V4.7 to V5.3-2
 ! Flowchart has V5.4
 **CPU-module**uref{*8}: KA825
 **Num-proc: 1
@@ -2480,7 +2480,7 @@
 **Announcement: March 1991
 **Codename: Cirrus II
 ! AKA Elsie?
-**OS-support-vms: V5.4-3
+**OS-support-VMS: V5.4-3
 **Num-proc: 1
 **Cache**uref{*83}: None
 **Compatibility-mode: No
@@ -2557,7 +2557,7 @@
 **Announcement**uref{*136}: October 1983
 **FRS-date**uref{*136}: late 1984
 **Codename**uref{*102}: Seahorse
-**OS-support-vms**uref{*26}: MicroVMS V1.0 to VMS V5.0-2
+**OS-support-VMS**uref{*26}: MicroVMS V1.0 to VMS V5.0-2
 ! Flowchart has end after V5.1-1
 **CPU-module**htref{1}: KD32-AA
 !
@@ -2659,11 +2659,11 @@
 **Announcement**uref{*40}: 14 May 1985
 **FRS-date: May 1985
 **Codename: Mayflower
-**OS-support-vms: MicroVMS V4.1M
+**OS-support-VMS: MicroVMS V4.1M
 **CPU-module**htref{1}: KA630
 !-- [1] KA630-AA with FPU, KA630-AB without FPU
 **Module**htref{1}: M7606
-**CPU-name-vms: KA630
+**CPU-name-VMS: KA630
 **CPU-name-console: KA630
 **VMS-CPU: 8
 **VMS-XCPU: 1
@@ -2767,10 +2767,10 @@
 **def-lref{3} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{4} = ref{EK-A0513-MG.001}
 **Codename: Waverly
-**OS-support-vms: V5.5
+**OS-support-VMS: V5.5
 **CPU-module**htref{2}: KA45
 **Firmware-version**uref{personally verified}: V1.4
-**CPU-name-vms**uref{*2}: KA440
+**CPU-name-VMS**uref{*2}: KA440
 **CPU-name-console**uref{*2}: KA45-A
 **VMS-CPU: 20
 **VMS-XCPU: 4
@@ -2857,10 +2857,10 @@
 **def-lref{2} = ref{EK-M3100-SM.B01}
 **Announcement: 7 July 1992
 **Codename: Cheetah-W
-**OS-support-vms: V5.5-2HW
+**OS-support-VMS: V5.5-2HW
 **CPU-module**htref{1}: KA50
 **Firmware-version**uref{personally verified}: V2.6
-**CPU-name-vms**uref{2}: KA50
+**CPU-name-VMS**uref{2}: KA50
 **CPU-name-console**uref{2}: KA50
 **VMS-CPU: 19
 **VMS-XCPU: 3
@@ -2906,12 +2906,12 @@
 **def-lref{2} = ref{EC-N0377-46}
 **Announcement: November 1988
 **Codename**uref{*47}: Mayfair II
-**OS-support-vms**uref{*26,*137}: V5.0-2A
-**OS-support-Ultrix**uref{*137}: V3.0
-**OS-support-eln**uref{*137}: V3.2
+**OS-support-VMS**uref{*26,*137}: V5.0-2A
+**OS-support-ULTRIX**uref{*137}: V3.0
+**OS-support-ELN**uref{*137}: V3.2
 **CPU-module: KA640
 **Module: M7xxx
-**CPU-name-vms**uref{2}: KA640
+**CPU-name-VMS**uref{2}: KA640
 **CPU-name-console**uref{2}: KA640-A
 **VMS-CPU: 10
 **VMS-XCPU: 1
@@ -2974,11 +2974,11 @@
 **Announcement: 9 September 1987
 **Codename**uref{*47}: Mayfair
 **OS-support-VMS**uref{*26}: V4.7A
-**OS-support-ultrix**htref{4}: ULTRIX V2.2
+**OS-support-ULTRIX**htref{4}: ULTRIX V2.2
 **CPU-module: KA650
 **Module: M7620
 **Firmware-version**uref{personally verified}: V5.3
-**CPU-name-vms**uref{*2}: KA650
+**CPU-name-VMS**uref{*2}: KA650
 **CPU-name-console: KA650-A
 **VMS-CPU: 10
 **VMS-XCPU: 1
@@ -3052,7 +3052,7 @@
 **CPU-module: KA655
 **Module: M7625
 **Firmware-version**uref{personally verified}: V5.3
-**CPU-name-vms**uref{*2}: KA655
+**CPU-name-VMS**uref{*2}: KA655
 **CPU-name-console: KA655
 **VMS-CPU: 10
 **VMS-XCPU: 1
@@ -3093,7 +3093,7 @@
 !configured for.
 **Codename: Teammate
 **Html-target: uvvs2000
-**OS-support-vms: V4.5B
+**OS-support-VMS: V4.5B
 **CPU-module: KA410
 **CPU-name-VMS**uref{*2}: KA410
 **CPU-name-console**uref{2}: KA410-A
@@ -3169,7 +3169,7 @@
 !configured for.
 **Codename: VAXstar
 **Html-target: uvvs2000
-**OS-support-vms: V4.5B
+**OS-support-VMS: V4.5B
 **CPU-module: KA410
 **CPU-name-VMS**uref{*2}: KA410
 **CPU-name-console**uref{2}: KA410-B
@@ -3240,7 +3240,7 @@
 **Announcement**uref{*SUE 6.2,*102}: 31 October 1984
 **FRS-date: March 1985
 **Codename**uref{*34,*102}: Venus
-**OS-support-vms**uref{*2}: V4.0
+**OS-support-VMS**uref{*2}: V4.0
 **CPU-module: KA86
 **VMS-CPU: 4
 **VMS-XCPU: 0
@@ -3298,7 +3298,7 @@
 **def-lref{3} = ref{SOC-SUM85}
 **Announcement**uref{*SUE 6.2,*102}: 4 December 1985
 **Codename**uref{*34,*102}: Morningstar
-**OS-support-vms: V4.3
+**OS-support-VMS: V4.3
 **Html-target: vax8600
 **CPU-module: KA865
 **Num-proc: 1
@@ -3343,7 +3343,7 @@
 **Announcement**uref{NAUTILUS 8.5 *DU JUN-1986}: 7 April 1986
 **FRS-date: May 1986					
 **Codename**uref{*102}: Flounder
-**OS-support-vms**uref{*26}: VMS V4.4
+**OS-support-VMS**uref{*26}: VMS V4.4
 **Num-proc**htref{3}: 1
 **CPU-technology**htref{3}: ECL Gate Array
 **CPU-cycle**htref{3}: 45ns
@@ -3393,7 +3393,7 @@
 !-- *33 8530 is 8500 with patched ucode -->
 **Announcement**uref{*102}: March 1987
 **Html-target: vax8500
-**OS-support-vms**uref{*26}: VMS V4.6
+**OS-support-VMS**uref{*26}: VMS V4.6
 **SID: 0683536D
 **XSID : 070009F9
 **Num-proc**htref{3}: 1
@@ -3446,7 +3446,7 @@
 **FRS-date**uref{*102}: May 1986					
 **Codename**uref{*102}: Skipjack
 **Html-target: vax8500
-**OS-support-vms**uref{*26}: VMS V4.4
+**OS-support-VMS**uref{*26}: VMS V4.4
 **Num-proc**htref{3}: 1
 **CPU-technology**htref{3}: ECL Gate Array
 **CPU-cycle**htref{3}: 45ns
@@ -3491,7 +3491,7 @@
 **Def-lref{3} = ref{DTJ-V1-4}
 **Announcement**uref{*101}: August 1986
 **Codename**uref{*37}: Nautilus
-**OS-support-vms**uref{*26}: VMS V4.4
+**OS-support-VMS**uref{*26}: VMS V4.4
 **CPU-module: KA88
 **Num-proc**htref{3}: 1
 **CPU-technology**htref{3}: ECL Gate Array
@@ -3539,7 +3539,7 @@
 **FRS-date**uref{*37}: February 1986
 **Codename**uref{*37}: Nautilus
 **Html-target: vax8700
-**OS-support-vms**uref{*26}: VMS V4.4
+**OS-support-VMS**uref{*26}: VMS V4.4
 **CPU-module: KA88
 **VMS-CPU: 6
 **VMS-XCPU: 0
@@ -3596,11 +3596,11 @@
 **Last-order**uref{*108}: 30 August 1991
 **Last-ship**uref{*108}: 27 September 1991
 **Codename: PVAX0			
-**OS-support-vms**uref{*26,*102}: : VMS V5.1B
+**OS-support-VMS**uref{*26,*102}: : VMS V5.1B
 !-- *31: VS3100-38/48 UWS V2.1 -->
 **CPU-module**htref{1}: KA42-AA
 **Firmware-version**uref{personally verified}: V1.3
-**CPU-name-vms**uref{2}: KA420 (VMS)
+**CPU-name-VMS**uref{2}: KA420 (VMS)
 **CPU-name-console**uref{2}: KA42-A
 **VMS-CPU: 10
 **VMS-XCPU: 4
@@ -3662,11 +3662,11 @@
 **Announcement**uref{*31}: November 1989
 **Codename**uref{*47}: PVAX1
 **Html-target: vs3100
-**OS-support-vms**uref{*26,*31}: V5.2-1
+**OS-support-VMS**uref{*26,*31}: V5.2-1
 !-- *31: VS3100-38/48 UWS V2.1 -->
 **CPU-module**htref{2}: KA42-BA
 **Firmware-version**uref{personally verified}: V1.5
-**CPU-name-vms**uref{2}: KA420 (VMS)
+**CPU-name-VMS**uref{2}: KA420 (VMS)
 **CPU-name-console**uref{2}: KA42-B
 **VMS-CPU: 10
 **VMS-XCPU: 4
@@ -3738,11 +3738,11 @@
 **Announcement**uref{*48}: 25 October 1990
 **Codename: Panther
 **Html-target: vs3100
-**OS-support-vms**uref{*65}: V5.4
+**OS-support-VMS**uref{*65}: V5.4
 ! Flowchart has V5.4-1
 **CPU-module**htref{3}: KA43-AA
 **Firmware-version**uref{personally verified}: V1.2
-**CPU-name-vms**uref{2}: KA43
+**CPU-name-VMS**uref{2}: KA43
 **CPU-name-console**uref{2}: KA43-A
 **VMS-CPU: 11
 **VMS-XCPU: 4
@@ -3806,9 +3806,9 @@
 **Def-lref{2} = ref{EC-N0857-51}
 **Announcement**uref{*SUE Jul 1992}: 7 July 1992
 **Codename: Cougar
-**OS-support-vms: VMS V5.5-2HW
+**OS-support-VMS: VMS V5.5-2HW
 **CPU-module**htref{1}: KA49
-**CPU-name-vms**uref{2}: KA49
+**CPU-name-VMS**uref{2}: KA49
 **CPU-name-console: K49-A
 **Num-proc: 1
 **CPU-technology: CMOS-4
@@ -3865,7 +3865,7 @@
 **Desc-name: VAXstation 4000 Model 96
 **Def-lref{1} = ref{CU-V6-4A}
 **Announcement**htref{1}: 11 April 1995
-**OS-support-vms: VMS V5.5-2H4
+**OS-support-VMS: VMS V5.5-2H4
 **Html-target: vs409x
 **Num-proc: 1
 **CPU-chip**htref{1}: NVAX
@@ -3882,10 +3882,10 @@
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Announcement: 11 July 1989		
 **Codename**uref{*47}: Teammate II
-**OS-support-vms**uref{*26}: VMS V5.2
+**OS-support-VMS**uref{*26}: VMS V5.2
 **CPU-module**htref{1}: KA41-A
 **Firmware-version**uref{personally verified}: V1.4
-**CPU-name-vms**uref{2}: KA420
+**CPU-name-VMS**uref{2}: KA420
 **CPU-name-console**uref{2}: KA41-A
 ! -- KA41-B: VAXserver 3100, KA41-E: VAXserver 3100e, KA41-C: Infoserver?? -->
 **VMS-CPU: 10
@@ -3944,9 +3944,9 @@
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Announcement**uref{*47}: 25 October 1990
 **Html-target: uv3100
-**OS-support-vms**uref{*26}: VMS V5.3
+**OS-support-VMS**uref{*26}: VMS V5.3
 **CPU-module: KA41-D
-**CPU-name-vms**uref{2}: KA420
+**CPU-name-VMS**uref{2}: KA420
 **CPU-name-console**uref{2}: KA41-D
 **VMS-CPU: 10
 **VMS-XCPU: 4
@@ -3984,10 +3984,10 @@
 **Desc-name: MicroVAX 3100 Model 80
 **Codename: Waverly-Mariah
 **Html-target: uv3180
-**OS-support-vms: VMS V5.5
+**OS-support-VMS: VMS V5.5
 **CPU-module**htref{2}: KA47
 **Firmware-version**uref{personally verified}: V1.4
-**CPU-name-vms**uref{2}: KA460
+**CPU-name-VMS**uref{2}: KA460
 **CPU-name-console**uref{*47}: KA47
 **VMS-CPU: 18
 **VMS-XCPU: 4
@@ -4042,7 +4042,7 @@
 **Announcement**htref{5}: 15 August 1994
 **Html-target: uv3180
 **Last-order**htref{6}: 29 July 1995
-**OS-support-vms**htref{5}: VMS V5.5-2H4, VMS V6.1 onwards
+**OS-support-VMS**htref{5}: VMS V5.5-2H4, VMS V6.1 onwards
 **CPU-module**htref{1}: KA55
 **Firmware-version**uref{personally verified}: V2.6
 **Num-proc: 1
@@ -4097,7 +4097,7 @@
 **Sys-name: MicroVAX 3100-88
 **Desc-name: MicroVAX 3100 Model 88
 **Html-target: uv3180
-**OS-support-vms: VMS V5.5-2H4
+**OS-support-VMS: VMS V5.5-2H4
 **Num-proc: 1
 **Compatibility-mode: No
 **Console-processor: CPU
@@ -4117,7 +4117,7 @@
 **Announcement**lref{3}: 12 April 1994
 **Last-order**htref{4}: 29 July 1995
 **Html-target: uv319x
-**OS-support-vms**lref{3}: VMS V5.5-2H4, VMS V6.1 onwards
+**OS-support-VMS**lref{3}: VMS V5.5-2H4, VMS V6.1 onwards
 **CPU-module**htref{2}: KA51
 !**CPU-module**lref{3}: KA51
 **Num-proc: 1
@@ -4173,7 +4173,7 @@
 **Def-lref{5} = ref{CU-V8-1B}
 **Announcement**htref{4}: 11 April 1995
 **FRS-date**htref{4}: 19 May 1995
-**OS-support-vms: VMS V5.5-2H4
+**OS-support-VMS: VMS V5.5-2H4
 **Html-target: uv319x
 **CPU-module**htref{2}: KA56
 **Num-proc: 1
@@ -4203,7 +4203,7 @@
 **Def-lref{5} = ref{CU-V8-1B}
 **Announcement**uref{*press-release}: 8 October 1996
 **Codename: Catamount
-**OS-support-vms: VMS V5.5-2H4
+**OS-support-VMS: VMS V5.5-2H4
 **Html-target: uv319x
 **CPU-module: KA59
 **Num-proc: 1
