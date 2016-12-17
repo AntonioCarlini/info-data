@@ -1,0 +1,74 @@
+**Start-systems-entry{PC5510}{DECPC}{PC5000}
+**Sys-name: DIGITAL PC 5510
+**Codename: Ferrari
+**End-systems-entry{PC5510}
+
+**Start-systems-entry{PC5500}{DECPC}{PC5000}
+**Sys-name: DIGITAL PC 5500
+**Codename: Sportscar
+! Was Celebris GL II
+**End-systems-entry{PC5500}
+
+**Start-systems-entry{PC5400}{DECPC}{PC5000}
+**Sys-name: DIGITAL PC 5400
+**Codename: Nantucket
+! Was Celebris GL
+**End-systems-entry{PC5400}
+
+**Start-systems-entry{PC5100}{DECPC}{PC5000}
+**Sys-name: DIGITAL PC 5100
+**Codename: Porsche
+! Was Celebris FX-2
+**End-systems-entry{PC5100}
+
+**Start-systems-entry{PC3010}{DECPC}{PC3000}
+**Sys-name: DIGITAL PC 3010
+**Codename: Zinfandel
+**End-systems-entry{PC3010}
+
+**Start-systems-entry{PC3100}{DECPC}{PC3000}
+**Sys-name: DIGITAL PC 3100
+**Codename: Bordeaux
+! Was Venturis FX-2
+**End-systems-entry{PC3100}
+
+**Start-systems-entry{PRI-MX6000}{DECPC}{PRIORIS}
+**Sys-name: Prioris MX 6000
+**End-systems-entry{PRI-MX6000}
+
+**Start-systems-entry{PRI-ZX6000}{DECPC}{PRIORIS}
+**Sys-name: Prioris ZX 6000
+**End-systems-entry{PRI-ZX6000}
+
+**Start-systems-entry{PRI-ZX5000}{DECPC}{PRIORIS}
+**Sys-name: Prioris ZX 5000
+**End-systems-entry{PRI-ZX5000}
+
+**Start-systems-entry{PRI-HX6000}{DECPC}{PRIORIS}
+**Sys-name: Prioris HX 6000
+**End-systems-entry{PRI-HX6000}
+
+**Start-systems-entry{PRI-HXMP}{DECPC}{PRIORIS}
+**Sys-name: Prioris HX MP
+**End-systems-entry{PRI-HXMP}
+
+**Start-systems-entry{PRI-HX}{DECPC}{PRIORIS}
+**Sys-name: Prioris HX
+**End-systems-entry{PRI-HX}
+
+**Start-systems-entry{PRI-XL6000}{DECPC}{PRIORIS}
+**Sys-name: Prioris XL 6000
+**End-systems-entry{PRI-XL6000}
+
+**Start-systems-entry{PRI-XL}{DECPC}{PRIORIS}
+**Sys-name: Prioris XL
+**End-systems-entry{PRI-XL}
+
+**Start-systems-entry{PRI-LX}{DECPC}{PRIORIS}
+**Sys-name: Prioris LX
+**End-systems-entry{PRI-LX}
+
+**Start-systems-entry{PRI-MTE}{DECPC}{PRIORIS}
+**Sys-name: Prioris MTE
+**End-systems-entry{PRI-MTE}
+

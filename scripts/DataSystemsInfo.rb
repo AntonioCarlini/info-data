@@ -131,7 +131,7 @@ class Systems
         id = $1.strip()
         type = $2.strip()
         sys_class = $3.strip()
-        raise("Unexpected system type [#{type}], exepcted [#{sys_type}]") if type.downcase() != sys_type
+        raise("Unexpected system type [#{type}], expected [#{sys_type}]") if type.downcase() != sys_type
         raise("Duplicate reference [#{id}] read in #{info_filename} at line #{line_num}: #{line} (originally #{ret[id].line_num()})") unless systems[id].nil?()
         current = System.new(id, sys_type, sys_class, line_num, permitted_tags)
         next

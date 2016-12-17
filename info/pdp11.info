@@ -1,0 +1,161 @@
+**Start-systems-entry{PDP1110}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{DEC-11-H05SS-B-D}
+**Def-lref{2} = ref{EK-11005-TM-003}
+**Sys-name: PDP-11/05-S and PDP-11/10-S
+**CPU-module**htref{1}: KD11-B
+**CPU-cycle**htref{1}: 310ns
+**Console-speed**htref{1}: 110-2400 baud
+**Bus-UNIBUS**htref{1}: 1
+**Minimum-memory**htref{2}: 16KB
+**Maximum-memory**htref{2}: 64KB
+**Physical-address-lines**htref{2}: 16
+**Memory-cycle**htref{2}: 900ns
+!**Memory-access**htref{2}: 400ns
+!    ref_1:
+!	KD11-B consists of
+!		M7620 Data Path Module
+!		M7621 Control Logic and Microprogram Module
+!
+!	KY11-J is the programmer's console
+!
+!	MM11-U: core memory 1000ns cycle time, UNIBUS access time of 425ns, 32KB
+!		Four modules:
+!		M8293 Memory Control (Quad) 
+!		G114 (Hex) Sense Inhibit
+!		G235 X/Y Driver
+!		H217D (Hex) Stack Module
+!
+!    ref_2:
+!
+!	MM11-K: 8KB core (G110 Control Module, G231 Driver Module, H213 Stack Module)
+!	MM11-L: 16KB core (G110 Control Module, G231 Driver Module, H214 Stack Module)
+!
+!
+!
+!<H3> <A NAME="power">             Power requirements          </A> </H3>
+!
+!<TABLE WIDTH=100% BORDER=1>
+!<TR> <TH> Variant	<TH> Supply          <TH>  I(max) <TH> Power  <TH> Heat          </TR>
+!
+!<TR ALIGN=RIGHT> <TD ROWSPAN=2 VALIGN=TOP ALIGN=LEFT>
+!	  11/05 11/10 <CITE> <A HREF=#ref_1> [1] </A> </CITE>
+!			<TD> 240V 1-phase    <TD>   5.0A   <TD> &nbsp; <TD> &nbsp;        </TR> 
+!<TR ALIGN=RIGHT>	<TD> 115V 1-phase    <TD>   2.5A   <TD> &nbsp; <TD> &nbsp;        </TR> 
+!
+!
+!
+!<H3> <A NAME="size">              Physical dimensions         </A> </H3>
+!
+!<TABLE WIDTH=100% BORDER=1>
+!<TR>             <TH>            Model  <TH> Height	<TH> Width	<TH>  Depth	<TH> Weight	</TR>
+!<TR ALIGN=RIGHT> <TD ALIGN=LEFT> BA11-K <CITE> <A HREF=#ref_2> [2] </A> </CITE>
+!					<TD>  266.7mm	<TD>  482.6mm	<TD> 673.1mm	<TD>  34.02kg	</TR>
+!<TR> <TD VALIGN=TOP> <A NAME="ref_1">[1]</A> <TD> PDP-11/05-S, 11/10-S system manual. DEC-11-H05SS-B-D </TR>
+!<TR> <TD VALIGN=TOP> <A NAME="ref_2">[2]</A> <TD> PDP-11/05, 11/10 computer manual. EK-11005-TM-003 </TR>
+**End-systems-entry{PDP1110}
+
+**Start-systems-entry{PDP1140}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{EB-02613-75}
+**Sys-name: PDP-11/35 and PDP-11/40
+!
+!The PDP-11/35 and PDP-11/40 are identical systems; the PDP-11/35 is
+!intended for OEMs, whereas the PDP-11/40 is for end-users.
+!
+**CPU-module**htref{1}: KD11-A
+**Console-speed**htref{1}: 2400 baud max
+**Bus-UNIBUS**htref{1}: 1
+**Minimum-memory**htref{1}: 16KB
+**Maximum-memory**htref{1}: 256KB
+**Physical-address-lines**htref{1}: 18
+!--
+!ref_1:
+!	KE11-E EIS (M7238, HEX)
+!	KE11-F FPU (M7239 (QUAD)
+!	MMU M7236, CPU: M7234, 7235, M7233, M7231, M7232 (ALL HEX EXCEPT 7232 QUAD)
+!
+!<TABLE WIDTH=100% BORDER=1>
+!<TR> <TH> Variant	<TH> Supply          <TH>  I(max) <TH> Power  <TH> Heat          </TR>
+!
+!<TR ALIGN=RIGHT> <TD ROWSPAN=2 VALIGN=TOP ALIGN=LEFT>
+!	  11/35 11/40 <CITE> <A HREF=#ref_1> [1] </A> </CITE>
+!<TR ALIGN=RIGHT>	<TD> 115V 1-phase    <TD>   7A     <TD> &nbsp; <TD> 500W          </TR> 
+!
+!<H3> <A NAME="size">              Physical dimensions         </A> </H3>
+!
+!<TABLE WIDTH=100% BORDER=1>
+!<TR>             <TH>            Model  <TH> Height	<TH> Width	<TH>  Depth	<TH> Weight	</TR>
+!<TR ALIGN=RIGHT> <TD ALIGN=LEFT> PDP-11/35 <CITE> <A HREF=#ref_1> [1] </A> </CITE>
+!					<TD>  266.7mm	<TD>  482.6mm	<TD> 584.2mm	<TD>  54.5 kg	</TR>
+!<TR ALIGN=RIGHT> <TD ALIGN=LEFT> PDP-11/40 <CITE> <A HREF=#ref_1> [1] </A> </CITE>
+!					<TD>  266.7mm	<TD>  533.4mm	<TD> 635.0mm	<TD>  90.8 kg	</TR>
+**End-systems-entry{PDP1140}
+
+**Start-systems-entry{PDP1104}{PDP11}{UNIBUS}
+**Sys-name: PDP-11/04 
+**End-systems-entry{PDP1104}
+
+**Start-systems-entry{PDP1120}{PDP11}{UNIBUS}
+**Sys-name: PDP-11/20 
+**End-systems-entry{PDP1120}
+
+**Start-systems-entry{PDP1134}{PDP11}{UNIBUS}
+**Sys-name: PDP-11/34 
+**End-systems-entry{PDP1134}
+
+**Start-systems-entry{PDP1134A}{PDP11}{UNIBUS}
+**Sys-name: PDP-11/34A
+**End-systems-entry{PDP1134A}
+
+**Start-systems-entry{PDP1145}{PDP11}{UNIBUS}
+**Sys-name: PDP-11/45 
+**End-systems-entry{PDP1145}
+
+**Start-systems-entry{PDP1155}{PDP11}{UNIBUS}
+**Sys-name: PDP-11/55 
+**End-systems-entry{PDP1155}
+
+**Start-systems-entry{PDP1160}{PDP11}{UNIBUS}
+**Sys-name: PDP-11/60 
+**End-systems-entry{PDP1160}
+
+**Start-systems-entry{PDP1170}{PDP11}{UNIBUS}
+**Sys-name: PDP-11/70 
+**End-systems-entry{PDP1170}
+
+**Start-systems-entry{PDP1174}{PDP11}{UNIBUS}
+**Sys-name: PDP-11/74 
+**End-systems-entry{PDP1174}
+
+**Start-systems-entry{PDP1184}{PDP11}{UNIBUS}
+**Sys-name: PDP-11/84 
+**End-systems-entry{PDP1184}
+
+**Start-systems-entry{PDP1194}{PDP11}{UNIBUS}
+**Sys-name: PDP-11/94 
+**End-systems-entry{PDP1194}
+
+**Start-systems-entry{PDP1103}{PDP11}{QBUS}
+**Sys-name: PDP-11/03 
+**End-systems-entry{PDP1103}
+
+**Start-systems-entry{PDP1123}{PDP11}{QBUS}
+**Sys-name: PDP-11/23
+**End-systems-entry{PDP1123}
+
+**Start-systems-entry{PDP1153}{PDP11}{QBUS}
+**Sys-name: PDP-11/53
+**End-systems-entry{PDP1153}
+
+**Start-systems-entry{PDP1173}{PDP11}{QBUS}
+**Sys-name: PDP-11/73
+**End-systems-entry{PDP1173}
+
+**Start-systems-entry{PDP1183}{PDP11}{QBUS}
+**Sys-name: PDP-11/83
+**End-systems-entry{PDP1183}
+
+**Start-systems-entry{PDP1193}{PDP11}{QBUS}
+**Sys-name: PDP-11/93
+**End-systems-entry{PDP1193}
+
+

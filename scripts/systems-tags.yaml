@@ -52,15 +52,23 @@
   - all
   - summary
 - OS-support-MDM:
-  - OS-support (MDM)
+  - OS support (MDM)
   - all
   - summary
 - OS-support-ELN:
-  - OS-support (ELN)
+  - OS support (ELN)
   - all
   - summary
 - OS-support-ULTRIX:
-  - OS-support (ULTRIX)
+  - OS support (ULTRIX)
+  - all
+  - summary
+- OS-support-NT:
+  - OS support (NT)
+  - all
+  - summary
+- OS-support-DU:
+  - OS support (Digital UNIX)
   - all
   - summary
 - CPU-name-VMS:
@@ -77,6 +85,10 @@
   - cpu_details
 - Module:
   - Module
+  - all
+  - cpu_details
+- System-Module:
+  - System Module
   - all
   - cpu_details
 - Num-proc:
@@ -179,6 +191,10 @@
   - Firmware-version
   - all
   - cpu_detail
+- Console-speed:
+  - Console speed
+  - all
+  - cpu_detail
 - CPU-names:
   - CPU-names
   - all
@@ -263,6 +279,14 @@
   - EISA
   - all
   - io
+- BUS-PCI-or-EISA:
+  - PCI or EISA
+  - all
+  - io
+- BUS-PCI-or-ISA:
+  - PCI or ISA
+  - all
+  - io
 - BUS-ISA:
   - ISA
   - all
@@ -293,6 +317,22 @@
   - performance
 - SPECfp89:
   - SPECfp89
+  - all
+  - performance
+- SPECint92:
+  - SPECint92
+  - all
+  - performance
+- SPECfp92:
+  - SPECfp92
+  - all
+  - performance
+- SPECint95:
+  - SPECint95
+  - all
+  - performance
+- SPECfp95:
+  - SPECfp95
   - all
   - performance
 - Height:
