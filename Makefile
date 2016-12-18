@@ -58,3 +58,7 @@ clean:
 	@rm yaml/*
 	@rm bin/*
 
+bundle: bin/info-data.bundle
+
+bin/info-data.bundle:
+	git bundle create $@ master
