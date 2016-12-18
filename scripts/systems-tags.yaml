@@ -241,7 +241,7 @@
   - io
 - BUS-Qbus:
   - Q-bus
-  - vax
+  - all
   - io
 - BUS-vaxbi:
   - VAXBI
@@ -357,6 +357,10 @@
   - power
 - I-max:
   - I(max)
+  - all
+  - power
+- I-inrush:
+  - I(inrush)
   - all
   - power
 - Power:

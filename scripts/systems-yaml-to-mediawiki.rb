@@ -147,10 +147,11 @@ systems.keys().each() {
     if ref_index.nil?()
       ref_text = ""
     else
-      ref_text = " [[#ref_#{ref_index}|[#{ref_index}]]]"  # TODO - should be an HTML link
+      ref_text = " [[#ref_#{ref_index}|[#{ref_index}]]]"
     end
     puts("|-")
-    puts("| #{convert_property_name_to_text(prop)}")
+    puts("| #{tags[prop].display_text()}")
+#    puts("| #{convert_property_name_to_text(prop)}")
     puts("| #{value}#{ref_text}")
   }
   puts("|}")
