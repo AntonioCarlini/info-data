@@ -31,7 +31,7 @@ yaml/pdp11.yaml:  info/pdp11.info $(TAGS.SYSTEMS) $(REFS)
 
 bin/vax.mediawiki.txt: yaml/vax.yaml $(REFS)
 	@mkdir -p bin
-	scripts/systems-yaml-to-mediawiki.rb $< $(REFS) > $@
+	scripts/systems-yaml-to-mediawiki.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
 
 clean:
 	@rm yaml/*

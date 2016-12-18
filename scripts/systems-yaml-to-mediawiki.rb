@@ -3,6 +3,8 @@
 require "pathname.rb"
 $LOAD_PATH.unshift(Pathname.new(__FILE__).realpath().dirname().dirname().dirname() + "libs" + "ruby")
 
+require_relative "DataTags.rb"
+
 require "yaml"
 
 def convert_property_name_to_text(property)
@@ -92,7 +94,9 @@ def convert_property_name_to_text(property)
 end
 
 
-sys_yaml = ARGV.shift()
+sys_type = ARGV.shift()    # This might be 'vax' or 'alpha' etc.
+sys_yaml = ARGV.shift()    # This is the systems YAML file
+tags_yaml = ARGV.shift()   # This is the tags YAML file
 refs_yaml = ARGV.shift()   # This is the references YAML file
 
 # Load the references YAML information
@@ -100,6 +104,9 @@ refs = YAML.load_file(refs_yaml)
 
 # Load the systems YAML information
 systems = YAML.load_file(sys_yaml)
+
+# Load the supplied tags
+tags = DataTags.new(tags_yaml, 'systems', sys_type)
 
 # systems will be a hash of {system name => properties-hash} 
 # properties-hash will be {property => array-of-values}
