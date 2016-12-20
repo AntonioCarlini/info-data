@@ -168,7 +168,7 @@ class Systems
       end
       
       # Here process a line within a systems entry
-      if line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|lref|uref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
+      if line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|lref|uref|vref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
         tag = $1
         reftype = $2
         lref = $3
