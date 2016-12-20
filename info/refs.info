@@ -9013,6 +9013,11 @@
 **Ref-confidential: Yes
 **End-ref{ALPHA-PORT}
 
+**Start-ref{EK-180AB-MG-002}
+**Ref-text: KA650 CPU System Maintenance
+**Ref-partno: EK-180AB-MG-002
+**End-ref{EK-180AB-MG-002}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
