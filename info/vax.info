@@ -1,3 +1,7 @@
+! vref{} is a verified reference.
+! htref{} and lref{}: exact meaning forgotten
+! uref{}: unverified reference.
+!
 ! VAX 4000-600		V5.5
 ! VAX 4000-600A		V5.5-2H4
 ! VAX 4000-800A		V5.5-2H4
@@ -12,11 +16,11 @@
 **Def-lref{2} = ref{EK-473AB-MG.C01}
 **Sys-name: VAX 4000-100/100A
 **Desc-name: VAX 4000 Model 100/100A
-**OS-support-VMS**htref{1}: V5.5-1HN
+**OS-support-VMS**vref{1}: V5.5-1HN
 ! Flowchart has V5.5-2HW
-**OS-support-MDM**htref{1}: MDM Release 137A
-**CPU-module**htref{1}: KA52-AA
-**Module**htref{1}: 54-21797-01
+**OS-support-MDM**vref{1}: MDM Release 137A
+**CPU-module**vref{1}: KA52-AA
+**Module**vref{1}: 54-21797-01
 **Firmware-version**uref{personally verified}: V2.6
 **CPU-name-VMS: @@
 **CPU-name-console: @@
@@ -25,40 +29,43 @@
 **SID: 13000202
 **XSID: 03230A01
 **Num-proc: 1
-**CPU-chip**htref{1}: NVAX
-**CPU-clock**htref{2}: 71MHz
-**CPU-cycle**htref{1}: 14ns
-**Instruction-buffer**htref{1} : 16 bytes
-**Translation-buffer**htref{1} : 96 entries
+**CPU-chip**vref{1}: NVAX
+**CPU-clock-rate**vref{1}: 286MHz
+**CPU-clock**vref{2}: 71MHz
+**CPU-cycle**vref{1}: 14ns
+**Instruction-buffer**vref{1} : 16 bytes
+**Translation-buffer**vref{1} : 96 entries
+! Looked but cannot find VIC reference in vref{2}. Also checked vref{1} with no luck.
 **Cache**htref{2}: 2KB VIC
-**Primary-cache**htref{1}: 8KB physical
-**Backup-cache**htref{1}: 128KB (42ns)
+**Primary-cache**vref{1}: 8KB physical
+**Backup-cache**vref{1}: 128KB (42ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**Minimum-memory**htref{1}: 16MB
-**Maximum-memory**htref{1}: 128MB
+**Minimum-memory**vref{1}: 16MB
+**Maximum-memory**vref{1}: 128MB
 **Max-I/O-throughput: 1200 IO/s
-**BUS-Qbus**htref{1}: 1 @ 3.3MB/s (optional)
-**BUS-SCSI: 1
-**BUS-DSSI**htref{1}: 1 @ 4.0MB/s (embedded)
+**BUS-Qbus**vref{1}: 1 @ 3.3MB/s (optional)
+**BUS-SCSI**vref{1}: 1
+**BUS-DSSI**vref{1}: 1 @ 4.0MB/s (embedded)
 !! **BUS-DSSI: 1 @ 4.0MB/s (optional - VAX 4000-100A only)
-**LAN-support**htref{1}: 1 SGEC embedded
+**LAN-support**vref{1}: 1 SGEC embedded
 **Dimensions-start{VAX4100}
-**Height**htref{1}: 149.9mm
-**Width**htref{1}: 463.8mm
-**Depth**htref{1}: 400.0mm
-**Weight**htref{1}: 18.18kg
+**Height**vref{1}: 149.9mm
+**Width**vref{1}: 463.8mm
+**Depth**vref{1}: 400.0mm
+**Weight**vref{1}: 18.18kg
 **Dimensions-end{VAX4100}
 **Power-start{VAX4100-100A-110V}
-**Supply**htref{1}: 110V 1-phase
-**I-max**htref{1}: 2.2A
-**Power**htref{1}: 200W
+**Supply**vref{1}: 110V 1-phase
+**I-max**vref{1}: 2.2A
+**Power**vref{1}: 200W
 **Power-end{VAX4100-100A-110V}
 **Power-start{VAX4100-100A-220V}
-**Supply**htref{1}: 220V 1-phase
-**I-max**htref{1}: 1.1A
-**Power**htref{1}: 200W
+**Supply**vref{1}: 220V 1-phase
+**I-inrush**vref{1}: 2.0A
+**I-max**vref{1}: 1.1A
+**Power**vref{1}: 200W
 **Power-end{VAX4100-100A-220V}
 **End-systems-entry{VAX4100}
 
@@ -73,8 +80,8 @@
 **Announcement**htref{3}: 12 April 1994
 **Html-target: vax410x
 **OS-support-VMS**lref{3}: VMS V5.5-2H4 and VMS V6.1 onwards
-**CPU-module**htref{1}: KA53-AA
-**Module**htref{1}: 54-21797-02
+**CPU-module**vref{1}: KA53-AA
+**Module**vref{1}: 54-21797-02
 **VMS-CPU: 19
 **VMS-XCPU: 3
 **SID: 13000202
@@ -82,43 +89,45 @@
 **Num-proc: 1
 **CPU-technology**lref{3}: CMOS-4
 **CPU-chip**lref{3}: NVAX
-**CPU-clock**htref{2}: 83MHz
-**CPU-cycle**htref{1}: 12ns
+**CPU-clock**vref{2}: 83MHz
+**CPU-cycle**vref{2}: 12ns
 !**CPU-cycle**lref{3}: 12ns
-**Instruction-buffer**htref{1}: 16 bytes
-**Translation-buffer**htref{1}: 96 entries
-**Cache**htref{2}: 512KB
+**Instruction-buffer**vref{1}: 16 bytes
+**Translation-buffer**vref{1}: 96 entries
+**Cache**vref{2}: 512KB
 !**Cache**lref{3}: 512KB
-**Primary-cache**htref{1}: 8KB physical
-**Backup-cache**htref{1}: 512KB (42ns)
+**Primary-cache**vref{1}: 8KB physical
+**Backup-cache**vref{1}: 512KB (42ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **VUPs**lref{3}: 32
 **TPC-A**htref{4}: 181 
 !**TPC-A**lref{e}: 150 est
-**Minimum-memory**htref{1}: 16MB
-**Maximum-memory**htref{1}: 128MB
+**Minimum-memory**vref{1}: 16MB
+**Maximum-memory**vref{1}: 128MB
 ! <!-- [1]: SIMMS in sets of four, two sets max: MS44L-BC and MS44-DC -->
+! Cannot find explicit mention of Q-bus, although it is in some diagrams.
 **BUS-Qbus**htref{1}: 1 @ 3.3MB/s (optional)
-**BUS-SCSI**htref{1}: 1
-**BUS-DSSI**htref{1}: 1-2
-**LAN-support**htref{1}: 1 embedded
+**BUS-SCSI**vref{1}: 1
+**BUS-DSSI**vref{1}: 1-2
+**LAN-support**vref{1}: 1 embedded
 **Power-start{VAX4105-100A-110V}
-**Supply**htref{1}: 110V 1-phase
-**I-max**htref{1}: 2.2A
-**Power**htref{1}: 200W
+**Supply**vref{1}: 110V 1-phase
+**I-max**vref{1}: 2.2A
+**Power**vref{1}: 200W
 **Power-end{VAX4105-100A-110V}
 **Power-start{VAX4105-100A-220V}
-**Supply**htref{1}: 220V 1-phase
-**I-max**htref{1}: 1.1A
-**Power**htref{1}: 200W
+**Supply**vref{1}: 220V 1-phase
+**I-inrush**vref{1}: 2.0A
+**I-max**vref{1}: 1.1A
+**Power**vref{1}: 200W
 **Power-end{VAX4105-100A-220V}
 **Dimensions-start{VAX4105}
-**Height**htref{1}: 149.9mm
-**Width**htref{1}: 463.8mm
-**Depth**htref{1}: 400.0mm
-**Weight**htref{1}: 18.18kg
+**Height**vref{1}: 149.9mm
+**Width**vref{1}: 463.8mm
+**Depth**vref{1}: 400.0mm
+**Weight**vref{1}: 18.18kg
 **Dimensions-end{VAX4105}
 **Option-title: Internal mass storage options
 **Option: {storage:RF31T}{381MB DDSI Disk}
@@ -148,44 +157,46 @@
 **Announcement**htref{4}: 11 April 1995
 **FRS-date**htref{4}: 19 May 1995
 **Html-target: vax410x
+! vref{1} says VMS V5.5-2H4
 **OS-support-VMS**htref{4}: VMS V5.5-2H4 and VMS V6.1 onwards
-**CPU-module**htref{1}: KA54-AA
-**Module**htref{1}: 54-21797-03
+**CPU-module**vref{1}: KA54-AA
+**Module**vref{1}: 54-21797-03
 **Num-proc: 1
 **CPU-technology: CMOS-4
-**CPU-chip**htref{2}: NVAX
-**CPU-clock**htref{1}: 400MHz
-**CPU-cycle**htref{1}: 10ns
-**Instruction-buffer**htref{1}: 16 bytes
-**Translation-buffer**htref{1}: 96 entries
-**Cache**htref{2}: 512KB
-**Primary-cache**htref{1}: 8KB physical
-**Backup-cache**htref{1}: 512KB (42ns)
+**CPU-chip**vref{2}: NVAX
+**CPU-clock**vref{2}: 400MHz
+**CPU-cycle**vref{2}: 10ns
+**Instruction-buffer**vref{1}: 16 bytes
+**Translation-buffer**vref{1}: 96 entries
+**Cache**vref{2}: 512KB
+**Primary-cache**vref{1}: 8KB physical
+**Backup-cache**vref{1}: 512KB (42ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **TPC-A**htref{4}: 215:(e)
-**Minimum-memory**htref{1}: 16MB
-**Maximum-memory**htref{1}: 128MB
+**Minimum-memory**vref{1}: 16MB
+**Maximum-memory**vref{1}: 128MB
 **BUS-Qbus**htref{1}: 1 @ 3.3MB/s (optional)
-**BUS-SCSI**htref{1}: 1
-**BUS-DSSI**htref{1}: 1-2
-**LAN-support**htref{1}: 1 embedded
+**BUS-SCSI**vref{1}: 1
+**BUS-DSSI**vref{1}: 1-2
+**LAN-support**vref{1}: 1 embedded
 **Power-start{VAX4106-100A-110V}
-**Supply**htref{1}: 110V 1-phase
-**I-max**htref{1}: 2.2A
-**Power**htref{1}: 200W
+**Supply**vref{1}: 110V 1-phase
+**I-max**vref{1}: 2.2A
+**Power**vref{1}: 200W
 **Power-end{VAX4106-100A-110V}
 **Power-start{VAX4106-100A-220V}
-**Supply**htref{1}: 220V 1-phase
-**I-max**htref{1}: 1.1A
-**Power**htref{1}: 200W
+**Supply**vref{1}: 220V 1-phase
+**I-inrush**vref{1}: 2.0A
+**I-max**vref{1}: 1.1A
+**Power**vref{1}: 200W
 **Power-end{VAX4106-100A-220V}
 **Dimensions-start{VAX4106}
-**Height**htref{1}: 149.9mm
-**Width**htref{1}: 463.8mm
-**Depth**htref{1}: 400.0mm
-**Weight**htref{1}: 18.18kg
+**Height**vref{1}: 149.9mm
+**Width**vref{1}: 463.8mm
+**Depth**vref{1}: 400.0mm
+**Weight**vref{1}: 18.18kg
 **Dimensions-end{VAX4106}
 **End-systems-entry{VAX4106}
 
@@ -2768,7 +2779,8 @@
 **def-lref{4} = ref{EK-A0513-MG.001}
 **Codename: Waverly
 **OS-support-VMS: V5.5
-**CPU-module**htref{2}: KA45
+! vref{1} KA45
+**CPU-module**htref{1,2}: KA45
 **Firmware-version**uref{personally verified}: V1.4
 **CPU-name-VMS**uref{*2}: KA440
 **CPU-name-console**uref{*2}: KA45-A
@@ -2777,31 +2789,33 @@
 **SID: 14000006
 **XSID : 04010001
 **Num-proc: 1
-**CPU-chip**htref{2}: DC222 (SOC)
+! {1} vref for DC222
+**CPU-chip**htref{1, 2}: DC222 (SOC)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **VUPs**htref{3}: 5.0
 **TPC-A: 21.6
 ! Cust. Update V5-4A 12-Apr-1994 has 32 TPS
-**Minimum-memory**htref{1}: 8MB
-**On-board-memory**htref{1}: 8MB
-**Maximum-memory**htref{1}: 32MB
-**Memory-checking**htref{4}: Parity
-**BUS-SCSI**htref{1}: 1 @ 10MB/s
-**LAN-support**htref{1}: 1 embedded
+**Minimum-memory**vref{1}: 8MB
+**On-board-memory**vref{1}: 8MB
+**Maximum-memory**vref{1}: 32MB
+! vref{1} parity checking
+**Memory-checking**htref{1,4}: Parity
+**BUS-SCSI**vref{1}: 1 @ 10MB/s
+**LAN-support**vref{1}: 1 embedded
 
 **Power-start{3130-220V}
 **Label: Model 30
-**Supply**htref{1}: 220V 1-phase
-**I-max**htref{1}: 0.5A
-**Power**htref{1}: 100W
+**Supply**vref{1}: 220V 1-phase
+**I-max**vref{1}: 0.5A
+**Power**vref{1}: 100W
 **Power-end{3130-220V}
 **Power-start{3130-110V}
 **Label: Model 30
-**Supply**htref{1}: 110V 1-phase
-**I-max**htref{1}: 1.0A
-**Power**htref{1}: 100W
+**Supply**vref{1}: 110V 1-phase
+**I-max**vref{1}: 1.0A
+**Power**vref{1}: 100W
 **Power-end{3130-110V}
 
 **Power-start{3140-220V}
@@ -2819,10 +2833,10 @@
 
 **Dimensions-start{3130}
 **Label: Model 30
-**Height**htref{1}: 100.3mm
-**Width **htref{1}: 463.8mm
-**Depth **htref{1}: 400.0mm
-**Weight**htref{1}: 11.4kg
+**Height**vref{1}: 100.3mm
+**Width **vref{1}: 463.8mm
+**Depth **vref{1}: 400.0mm
+**Weight**vref{1}: 11.5kg
 **Dimensions-end{3130}
 
 **Dimensions-start{3140}

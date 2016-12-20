@@ -131,6 +131,10 @@
   - CPU clock
   - all
   - cpu_details
+- CPU-clock-rate:
+  - CPU clock rate
+  - all
+  - cpu_details
 - Vector-processor:
   - Vector processor
   - all
