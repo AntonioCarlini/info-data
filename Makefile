@@ -58,6 +58,8 @@ clean:
 	@rm yaml/*
 	@rm bin/*
 
+.PHONY: bin/info-data.bundle
+
 bundle: bin/info-data.bundle
 
 bin/info-data.bundle:
