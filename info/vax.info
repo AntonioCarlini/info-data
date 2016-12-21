@@ -845,15 +845,15 @@
 **CPU-chip**htref{2}: 78034 (CVAX)
 **FPU-chip**htref{2}: CFPA
 !**CPU-cycle**htref{2}: 80ns
-**CPU-cycle**htref{1}: 80ns
+**CPU-cycle**vref{1}: 80ns
 !**Cache**htref{2}: 1KB
-**Cache**vref{1}: 1KB
+**Cache**vref{1}: 1KB (80ns)
 **Module: T2011
 !**Backup-cache**htref{2}: 256KB (160ns)
-**Backup-cache**vref{1}: 256KB
+**Backup-cache**vref{1}: 256KB (160ns)
 **Instruction-buffer**vref{1}: 12 bytes
 **Translation-buffer**htref{1}: 28 entries
-**Control-store**htref{1}: 1.6K 41-bit words
+**Control-store**vref{1}: 1.6K 41-bit words
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device**htref{2}: TK50
@@ -1517,22 +1517,20 @@
 **CPU-technology**htref{3}: ZMOS
 **CPU-chip**htref{4}: V11
 **CPU-clock**htref{4}: 40MHz
-**CPU-cycle**vref{3}: 200ns
-**Instruction-buffer**htref{2}: 8 bytes
-**Control-store**htref{2}: 15K 40-bit words
-**WCS**htref{2}: 1K 40-bit words
-!**Cache**htref{2}: 8KB
-**Cache**vref{3}: 8KB
+**CPU-cycle**vref{2,3}: 200ns
+**Instruction-buffer**vref{2}: 8 bytes
+**Control-store**vref{2}: 15K 40-bit words
+**WCS**vref{2}: 1K 40-bit words
+**Cache**vref{2,3}: 8KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device**uref{2,*24}: RX50
 **VUPs**vref{3}: 1.0
 **Maximum-memory**vref{3}: 128MB
-**Memory-checking**htref{2}: 7-bit ECC/longword
-! [2] 1600ns per 128-bit read, 600ns per 32-bit write
+**Memory-checking**vref{2}: 7-bit ECC/longword
+! vref{2} 1600ns per 128-bit read, 600ns per 32-bit write
 !     1200ns per 128-bit write, 1000ns per 32-bit read
-!**Max-I/O-throughput**htref{2}: 13.3MB/s
-**Max-I/O-throughput**vref{3}: 13.3MB/s
+**Max-I/O-throughput**vref{2,3}: 13.3MB/s
 **BUS-VAXBI**uref{*50,*133}: 1 @ 13.3MB/s
 **LAN-support: optional
 
@@ -1676,20 +1674,20 @@
 **CPU-technology**htref{3}: ZMOS
 **CPU-chip**htref{4}: V11
 **CPU-clock**htref{4}: 40MHz
-**CPU-cycle**htref{2}: 200ns
-**Instruction-buffer**htref{2}: 8 bytes
-**Control-store**htref{2}: 15K 40-bit words
-**WCS**htref{2}: 1K 40-bit words
-**Cache**htref{2}: 8KB
+**CPU-cycle**vref{2}: 200ns
+**Instruction-buffer**vref{2}: 8 bytes
+**Control-store**vref{2}: 15K 40-bit words
+**WCS**vref{2}: 1K 40-bit words
+**Cache**vref{2}: 8KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device**uref{2,*24}: RX50
 **VUPs**vref{3}: 1.9
 **Maximum-memory**vref{3}: 128MB
-**Memory-checking**htref{2}: 7-bit ECC/longword
-! [2] 1600ns per 128-bit read, 600ns per 32-bit write
+**Memory-checking**vref{2}: 7-bit ECC/longword
+! vref{2} 1600ns per 128-bit read, 600ns per 32-bit write
 !     1200ns per 128-bit write, 1000ns per 32-bit read
-**Max-I/O-throughput**htref{2}: 13.3MB/s
+**Max-I/O-throughput**vref{2}: 13.3MB/s
 **BUS-VAXBI**uref{*50,*133}: 1 @ 13.3MB/s
 **LAN-support: optional
 
@@ -1834,7 +1832,7 @@
 **SID: 05903914
 **XSID : 00000000
 **Num-proc: 1
-**CPU-technology**htref{1}: ZMOS
+**CPU-technology**vref{1}: ZMOS
 **CPU-chip**htref{2}: V11
 **CPU-clock**htref{2}: 50MHz
 **CPU-cycle**htref{2}: 160ns
@@ -1842,7 +1840,7 @@
 **Translation-buffer**uref{%%SCORPIO:274.3}: 512 entries
 **Control-store**htref{1}: 15K 40-bit words
 **WCS**htref{1}: 1K 40-bit words
-**Cache**htref{1}: 8KB
+**Cache**vref{1}: 8KB (160ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
@@ -1852,7 +1850,7 @@
 **Memory-checking**htref{1}: 7-bit ECC/longword
 ! Memory cycle: 1600ns per 128-bit octaword read
 !		600 ns per 32-bit octaword write
-**Max-I/O-throughput**htref{1}: 13.3MB/s
+**Max-I/O-throughput**vref{1}: 13.3MB/s
 **BUS-UNIBUS**uref{*6}: 1 @ 1.5MB/s
 **BUS-VAXBI**uref{*6}: 1 @ 13.3MB/s
 **LAN-support: optional
@@ -1890,7 +1888,7 @@
 **SID: 05903914
 **XSID : 00000000
 **Num-proc: 2
-**CPU-technology**htref{1}: ZMOS
+**CPU-technology**vref{1}: ZMOS
 **CPU-chip**htref{2}: V11
 **CPU-clock**htref{2}: 50MHz
 **CPU-cycle**htref{2}: 160ns
@@ -1898,18 +1896,17 @@
 **Translation-buffer**uref{%%SCORPIO:274.3}: 512 entries
 **Control-store**htref{1}: 15K 40-bit words
 **WCS**htref{1}: 1K 40-bit words
-**Cache**htref{1}: 8KB
+**Cache**vref{1}: 8KB (160ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **VUPs**vref{1}: 2.3
 **Minimum-memory**uref{*6}: 4MB
-!**Maximum-memory**htref{1}: 128MB
-**Maximum-memory**vref{3}: 128MB
+**Maximum-memory**vref{1,3}: 128MB
 **Memory-checking**htref{1}: 7-bit ECC/longword
 ! Memory cycle: 1600ns per 128-bit octaword read
 !		600 ns per 32-bit octaword write
-**Max-I/O-throughput**htref{1}: 13.3MB/s
+**Max-I/O-throughput**vref{1}: 13.3MB/s
 **BUS-UNIBUS**uref{*6}: 1 @ 1.5MB/s
 **BUS-VAXBI**uref{*6}: 1 @ 13.3MB/s
 **LAN-support: optional
@@ -1938,20 +1935,20 @@
 **Num-proc: 1-4
 **CPU-names: {VAX 8810}{VAX 8820}{VAX 8830}{VAX 8840}
 **CPU-technology**htref{1}: ECL Gate Array
-**CPU-cycle**htref{1}: 45ns
-**Instruction-buffer**htref{1}: 16 bytes
-**WCS**htref{1}: 16K 144-bit words
-**UWCS**htref{1}: 1K 144-bit words
-**Cache**htref{1}: 64KB
+**CPU-cycle**vref{1}: 45ns
+**Instruction-buffer**vref{1}: 16 bytes
+**WCS**vref{1}: 16K 144-bit words
+**UWCS**vref{1}: 1K 144-bit words
+**Cache**vref{1}: 64KB
 **Compatibility-mode: No
 **Console-processor: MicroVAX II
 **Console-device: None
-**VUPs**htref{1}: {6.0} {11.0} {17.0} {22.0}
+**VUPs**vref{1}: {6.0} {11.0} {17.0} {22.0}
 **Minimum-memory: 48MB
 ! 8810: 48MB  8820/8830/8840: 128MB
-**Maximum-memory**htref{1}: 512MB
-**Memory-checking**htref{1}: 7-bit ECC/longword
-**Max-I/O-throughput**htref{1}: 30MB/s
+**Maximum-memory**vref{1}: 512MB
+**Memory-checking**vref{1}: 7-bit ECC/longword
+**Max-I/O-throughput**vref{1}: 30MB/s
 **BUS-VAXBI: 1-6 @ 13.3MB/s
 !	  VAXBI		: 1-4 @ 13.3MB/s (8810)
 !			: 2-6 @ 13.3MB/s (8820/8830/8840)
@@ -1967,21 +1964,21 @@
 **Power-start{8820}
 **Label: VAX 8820
 **Supply**htref{1}: 380V 3-phase (Y)
-**Power**htref{1}: 7800W
+**Power**vref{1}: 7800W
 **Heat-dissipation**htref{1}: 33800 BTU/hr
 **Power-end{8830}
 
 **Power-start{8830}
 **Label: VAX 8830
 **Supply**htref{1}: 380V 3-phase (Y)
-**Power**htref{1}: 9400W
+**Power**vref{1}: 9400W
 **Heat-dissipation**htref{1}: 33800 BTU/hr
 **Power-end{8830}
 
 **Power-start{8840}
 **Label: VAX 8840
 **Supply**htref{1}: 380V 3-phase (Y)
-**Power**htref{1}: 11000W
+**Power**vref{1}: 11000W
 **Heat-dissipation**htref{1}: 33800 BTU/hr
 **Power-end{8840}
 
@@ -2313,12 +2310,12 @@
 **Announcement**uref{*102}: 10 January 1989
 **Codename**uref{*47}: Firefox
 **OS-support-VMS**uref{*26}: V5.1-1
-**CPU-module**htref{1}: KA60-AA
-**Module**htref{1}: L2001
-!-- [1] KA60-BA is L2010 (VAXstation 38x0)
+**CPU-module**vref{1}: KA60-AA
+**Module**vref{1}: L2001
+!-- vref{1} KA60-BA is L2010 (VAXstation 38x0)
 **CPU-name-VMS: KA60
 **CPU-name-console**htref{1}: KA60
-**Num-proc**htref{1}: 2-4
+**Num-proc**vref{1}: 2 or 4
 **CPU-chip**uref{*25}: 78034
 **FPU-chip**uref{*25}: 78134
 **CPU-clock**uref{*102}: 50MHz
@@ -2328,22 +2325,22 @@
 **Console-processor: CPU
 **Console-device: None
 **VUPs**uref{*8,*25}: {5} {#} {10}
-**Minimum-memory**htref{1}: 8MB
-**Maximum-memory**htref{1}: 128MB
+**Minimum-memory**vref{1}: 8MB
+**Maximum-memory**vref{1}: 128MB
 !-- *8 states 4MB as min
-! [1] Up to four memory arrays: 
+! vref{1} Up to four memory arrays: 
 !	MS60-AA L2007-AA 8MB		MS60-BA L2007-AB 16MB		MS60-CA L2007-AC 32MB
-**bus-Qbus**htref{1}: 1 @ 3.3MB/s
-**bus-SCSI**htref{1}: 1
+**bus-Qbus**vref{1}: 1 @ 3.3MB/s
+**bus-SCSI**vref{1}: 1
 **LAN-support**htref{1}: 1
 **Power-start{3520}
-**Power**htref{1}: 670W
+**Power**vref{1}: 670W
 **Power-end{3520}
 **Dimensions-start{35x0}
-**Height**htref{1}: 685.8mm
-**Width**htref{1}: 533.4mm
-**Depth**htref{1}: 450.8mm
-**Weight**htref{1}: 40.5kg
+**Height**vref{1}: 685.8mm
+**Width**vref{1}: 533.4mm
+**Depth**vref{1}: 450.8mm
+**Weight**vref{1}: 40.5kg
 **Dimensions-end{35x0}
 **Option-title: Monitors
 **Option: {monitors:VR295}{Colour Monitor}
@@ -2713,7 +2710,7 @@
 **SID: 08000000
 **XSID : 01010000
 **Num-proc: 1
-**CPU-technology**htref{2}: ZMOS
+**CPU-technology**vref{2}: ZMOS
 **CPU-chip**htref{4}: 78032
 **CPU-cycle**htref{4}: 200ns
 **Instruction-buffer**htref{4}: 8 bytes
@@ -2722,16 +2719,16 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: RX50 or TK50
-**VUPs**htref{3}: 0.9
+**VUPs**vref{3}: 0.9
 **Minimum-memory**htref{1}: 1MB
 **On-board-memory**htref{1}: 1MB
-**Maximum-memory**htref{2}: 16MB
-**Memory-checking**htref{3}: Parity
+**Maximum-memory**vref{2}: 16MB
+**Memory-checking**vref{3}: Parity
 !	[1]	MS630-AA	M7607-AA	Dual	1MB
 !		MS630-BA	M7608-AA	Quad	2MB
 !		MS630-BB	M7608-BA	Quad	4MB
-**BUS-Qbus**htref{2}: 1 @ 3.3MB/s
-**LAN-support**htref{2}: optional
+**BUS-Qbus**vref{2}: 1 @ 3.3MB/s
+**LAN-support**vref{2}: optional
 !
 !<TABLE WIDTH=100% BORDER=1>
 !<TR>             <TH>            Model	<TH> Supply          <TH>  I<SUB>max</SUB>	<TH> Power   </TR>
@@ -2904,7 +2901,7 @@
 **Announcement: 7 July 1992
 **Codename: Cheetah-W
 **OS-support-VMS: V5.5-2HW
-**CPU-module**htref{1}: KA50
+**CPU-module**vref{1}: KA50
 **Firmware-version**uref{personally verified}: V2.6
 **CPU-name-VMS**uref{2}: KA50
 **CPU-name-console**uref{2}: KA50
@@ -2914,7 +2911,7 @@
 **XSID : 03260A01
 **Num-proc: 1
 **CPU-technology: CMOS-4
-**CPU-chip**htref{1}: NVAX
+**CPU-chip**vref{1}: NVAX
 **CPU-clock**htref{2}: 286MHz
 **CPU-cycle**htref{2}: 14ns
 **Cache**htref{2}: 2KB VIC
@@ -2924,25 +2921,25 @@
 **Console-processor: CPU
 **Console-device: None
 **VUPs**uref{*145}: 24
-**Minimum-memory**htref{1}: 16MB
-**Maximum-memory**htref{1}: 128MB
+**Minimum-memory**vref{1}: 16MB
+**Maximum-memory**vref{1}: 128MB
 **BUS-SCSI**htref{1}: 1-2
 **LAN-support**htref{2}: 1 SGEC embedded
 **Power-start{3190-110V}
-**Supply**htref{1}: 110V 1-phase
-**I-max**htref{1}: 3.0A
-**Power**htref{1}: 215W
+**Supply**vref{1}: 110V 1-phase
+**I-max**vref{1}: 3.0A
+**Power**vref{1}: 215W
 **Power-end{3190-110V}
 **Power-start{3190-220V}
-**Supply**htref{1}: 220V 1-phase
-**I-max**htref{1}: 1.5A
-**Power**htref{1}: 215W
+**Supply**vref{1}: 220V 1-phase
+**I-max**vref{1}: 1.5A
+**Power**vref{1}: 215W
 **Power-end{3190-220V}
 **Dimensions-start{3190}
-**Height**htref{1}: 149.9mm
-**Width **htref{1}: 463.8mm
-**Depth **htref{1}: 400.0mm
-**Weight**htref{1}: 20.4kg
+**Height**vref{1}: 149.9mm
+**Width **vref{1}: 463.8mm
+**Depth **vref{1}: 400.0mm
+**Weight**vref{1}: 20.4kg
 **Dimensions-end{3190}
 **End-systems-entry{UV3190}
 
@@ -3044,47 +3041,48 @@
 **Console-device: None
 **VUPs**htref{3}: 2.7
 **Minimum-memory**uref{*7}: 2MB
+! vref{1} gives 32MB
 **Maximum-memory**uref{*7}: 64MB
 **BUS-Qbus: 1 @ 3.3MB/s
 **LAN-support: optional
 
 **Power-start{3500-120V}
 **Label: MicroVAX 3500
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 12.0A
-**Power**htref{1}: 670W
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 12.0A
+**Power**vref{1}: 670W
 **Power-end{3500-120V}
 **Power-start{3500-240V}
 **Label: MicroVAX 3500
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 6.0A
-**Power**htref{1}: 670W
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 6.0A
+**Power**vref{1}: 670W
 **Power-end{3500-240V}
 
 **Power-start{3600-120V}
 **Label: MicroVAX 3600
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 24.0A
-**Power**htref{1}: 1100W
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 24.0A
+**Power**vref{1}: 1100W
 **Power-end{3600-120V}
 **Power-start{3600-240V}
 **Label: MicroVAX 3600
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 12.0A
-**Power**htref{1}: 1100W
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 12.0A
+**Power**vref{1}: 1100W
 **Power-end{3600-240V}
 
 **Dimensions-start{3500}
 **Label: MicroVAX 3500
-**Height**htref{1}: 600mm
-**Width **htref{1}: 530mm
-**Depth **htref{1}: 450mm
+**Height**vref{1}: 600mm
+**Width **vref{1}: 530mm
+**Depth **vref{1}: 450mm
 **Dimensions-end{3500}
 **Dimensions-start{3600}
 **Label: MicroVAX 3600
-**Height**htref{1}: 1068mm
-**Width **htref{1}: 540mm
-**Depth **htref{1}: 450mm
+**Height**vref{1}: 1068mm
+**Width **vref{1}: 540mm
+**Depth **vref{1}: 450mm
 **Dimensions-end{3600}
 **End-systems-entry{UV3600}
 
@@ -3148,12 +3146,12 @@
 **SID: 08000000
 **XSID : 04040001
 **Num-proc: 1
-**CPU-technology**htref{4}: ZMOS
+**CPU-technology**vref{4}: ZMOS
 **CPU-chip**vref{1}: DC333
 **FPU-chip**vref{1}: DC337
 **CPU-cycle**vref{1}: 200ns
 **CPU-clock**vref{1}: 40MHz
-**Instruction-buffer**htref{4}: 8 bytes
+**Instruction-buffer**vref{4}: 8 bytes
 **Cache**uref{*6}: None
 **VUPs**htref{1}: 0.9
 **Minimum-memory**vref{1}: 2MB
@@ -3220,12 +3218,12 @@
 **CPU-name-VMS**uref{*2}: KA410
 **CPU-name-console**uref{2}: KA410-B
 **Num-proc: 1
-**CPU-technology**htref{4}: ZMOS
+**CPU-technology**vref{4}: ZMOS
 **CPU-chip**vref{1}: DC333
 **FPU-chip**vref{1}: DC337
 **CPU-cycle**vref{1}: 200ns
 **CPU-clock**vref{1}: 40MHz
-**Instruction-buffer**htref{4} : 8 bytes
+**Instruction-buffer**vref{4} : 8 bytes
 **Cache**uref{*6}: None
 **VUPs**htref{1}: 0.9
 **Minimum-memory**vref{1}: 2MB
@@ -3352,18 +3350,18 @@
 **CPU-technology**vref{2}: ECL Gate Array
 **CPU-clock: 72MHz
 **CPU-cycle: 55ns
-**Instruction-buffer**htref{2}: 8 bytes
-**Translation-buffer**htref{2}: 512 entries
+**Instruction-buffer**vref{2}: 8 bytes
+**Translation-buffer**vref{2}: 512 entries
 **WCS**vref{2}: 8K 86-bit words
-**Cache**htref{2}: 16KB
+**Cache**vref{2}: 16KB
 !-- [2] 8650 has write-back cache -->
 **Compatibility-mode: Yes
 **Console-processor**vref{2}: T-11
 **Console-device**vref{2}: RL02
-**VUPs: 6
+**VUPs**vref{2}: 6
 **Minimum-memory**htref{2}: 16MB		
 **Maximum-memory: 368MB
-**Memory-checking**htref{2}: 7-bit ECC/longword
+**Memory-checking**vref{2}: 7-bit ECC/longword
 ! [2] 8650 uses: MS86-AA 4MB, MS86-CA 16MB 
 !	MS86-CA takes two slots, MS86-AA takes one slot
 !	example config: 8xMS86-AA = 32MB, 4xMS86-CA + 1xMS86-AA = 68MB 
@@ -3393,7 +3391,8 @@
 **OS-support-VMS**uref{*26}: VMS V4.4
 **Num-proc**htref{3}: 1
 **CPU-technology**htref{3}: ECL Gate Array
-**CPU-cycle**htref{3}: 45ns
+!**CPU-cycle**htref{3}: 45ns
+**CPU-cycle**vref{1}: 45ns
 **Instruction-buffer**htref{3}: 16 bytes
 **Translation-buffer**htref{3}: 1024 entries
 **WCS**htref{3}: 15K 143-bit words
@@ -3405,7 +3404,7 @@
 **VUPs**htref{2}: 3.0
 **Minimum-memory**uref{*6}: 16MB
 **Maximum-memory: 320MB
-**Memory-checking**htref{1}: 7-bit ECC/longword
+**Memory-checking**vref{1}: 7-bit ECC/longword
 **Max-I/O-throughput**htref{3}: 16MB/s
 !-- 8500/8530:
 !Memory cycle: & 	1260/495ns per 256-bit hexaword read \\ % [133]
@@ -3421,14 +3420,14 @@
 **LAN-support**htref{1}: standard
 **Power-start{8500}
 **Supply: 415V 3-phase
-**Power**htref{1}: 3200W
-**Heat-dissipation**htref{1}: 12000 BTU/hr
+**Power**vref{1}: 3200W
+**Heat-dissipation**vref{1}: 12000 BTU/hr
 **Power-end{8500}
 **Dimensions-start{8500}
-**Height**htref{1}: 1520mm
-**Width**htref{1}: 685mm
-**Depth**htref{1}: 762mm
-**Weight**htref{1}: 295kg
+**Height**vref{1}: 1520mm
+**Width**vref{1}: 685mm
+**Depth**vref{1}: 762mm
+**Weight**vref{1}: 295kg
 **Dimensions-end{8500}
 **End-systems-entry{VAX8500}
 
@@ -3508,7 +3507,7 @@
 **VUPs**htref{2}: 6.0
 **Minimum-memory**uref{*6}: 16MB
 **Maximum-memory**htref{2}: 320MB
-**Memory-checking**htref{1}: 7-bit ECC/longword
+**Memory-checking**vref{1}: 7-bit ECC/longword
 **Max-I/O-throughput**htref{3}: 16MB/s
 ! [2]
 !Memory cycle: 
@@ -3520,14 +3519,14 @@
 **LAN-support**htref{1}: standard
 **Power-start{8550}
 **Supply: 415V 3-phase
-**Power**htref{1}: 3200W
-**Heat-dissipation**htref{1}: 12000 BTU/hr
+**Power**vref{1}: 3200W
+**Heat-dissipation**vref{1}: 12000 BTU/hr
 **Power-end{8550}
 **Dimensions-start{8550}
-**Height**htref{1}: 1520mm
-**Width**htref{1}: 685mm
-**Depth**htref{1}: 762mm
-**Weight**htref{1}: 295kg
+**Height**vref{1}: 1520mm
+**Width**vref{1}: 685mm
+**Depth**vref{1}: 762mm
+**Weight**vref{1}: 295kg
 **Dimensions-end{8550}
 **End-systems-entry{VAX8550}
 
@@ -3542,21 +3541,27 @@
 **CPU-module: KA88
 **Num-proc**htref{3}: 1
 **CPU-technology**htref{3}: ECL Gate Array
-**CPU-cycle**htref{3}: 45ns
+!**CPU-cycle**htref{3}: 45ns
+**CPU-cycle**vref{2}: 45ns
 !From [*37]:
 !	FDGH floating point standard
 !	143-bit microword, 16KB WCS, 1KB UWCS
-**Instruction-buffer**htref{3}: 16 bytes
-**Translation-buffer**htref{3}: 1024 entries
-**WCS**htref{3}: 15K 143-bit words
-**UWCS**htref{3}: 1K 143-bit words
-**Cache**htref{3}: 64KB
+!**Instruction-buffer**htref{3}: 16 bytes
+**Instruction-buffer**vref{2}: 16 bytes
+!**Translation-buffer**htref{3}: 1024 entries
+**Translation-buffer**vref{2}: 1024 entries
+!**WCS**htref{3}: 15K 143-bit words
+**WCS**vref{2}: 15K 143-bit words
+!**UWCS**htref{3}: 1K 143-bit words
+**UWCS**vref{2}: 1K 143-bit words
+!**Cache**htref{3}: 64KB
+**Cache**vref{2}: 64KB
 **Console-processor: PRO380
 **VUPs**htref{2}: 6
 **Minimum-memory**uref{*6}: 32MB
-**Maximum-memory**htref{2}: 512MB
-**Memory-checking**htref{1}: 7-bit ECC/longword
-!-- [1]
+**Maximum-memory**vref{2}: 512MB
+**Memory-checking**vref{1,2}: 7-bit ECC/longword
+!-- vref{1}
 !  	1260/495ns per 256-bit hexaword read
 !    	540/270ns per 128-bit octaword write
 ! 	495/135ns per 32-bit longword write
@@ -3570,10 +3575,11 @@
 **Heat-dissipation**htref{1}: 12600 BTU/hr
 **Power-end{8700}
 **Dimensions-start{8700}
-**Height**htref{1}: 1520mm
-**Width **htref{1}: 1880mm
-**Depth **htref{1}: 762mm
-**Weight**htref{1}: 802kg
+**Label: VAX 8700 (50Hz)
+**Height**vref{1}: 1520mm
+**Width **vref{1}: 1880mm
+**Depth **vref{1}: 762mm
+**Weight**vref{1}: 802kg
 **Dimensions-end{8700}
 **End-systems-entry{VAX8700}
 
@@ -3602,12 +3608,13 @@
 **Translation-buffer**htref{3}: 1024 entries
 **WCS**htref{3}: 15K 143-bit words
 **UWCS**htref{3}: 1K 143-bit words
-**Cache**htref{3}: 64KB
+!**Cache**htref{3}: 64KB
+**Cache**vref{1}: 64KB
 **Console-processor: PRO380
-**VUPs**htref{2}: 12
+**VUPs**vref{2}: 12
 **Minimum-memory**uref{*6}: 48MB
-**Maximum-memory**htref{2}: 512MB
-**Memory-checking**htref{1}: 7-bit ECC/longword
+**Maximum-memory**vref{2}: 512MB
+**Memory-checking**vref{1}: 7-bit ECC/longword
 !-- [1]
 !  	1260/495ns per 256-bit hexaword read
 !    	540/270ns per 128-bit octaword write
@@ -3618,15 +3625,16 @@
 **LAN-support: optional
 **Power-start{8800}
 **Supply**htref{1}: 415V 3-phase
-**Power**htref{1}: 6200W
-**Heat-dissipation**htref{1}: 26750 BTU/hr
+**Power**vref{1}: 6200W
+**Heat-dissipation**vref{1}: 26750 BTU/hr
 **Power-end{8800}
 
 **Dimensions-start{8800}
-**Height**htref{1}: 1181mm
-**Width **htref{1}: 1880mm
-**Depth **htref{1}: 762mm
-**Weight**htref{1}: 836kg
+**Label: VAX 8800 (50Hz)
+**Height**vref{1}: 1520mm
+**Width **vref{1}: 1880mm
+**Depth **vref{1}: 762mm
+**Weight**vref{1}: 836kg
 **Dimensions-end{8800}
 
 **End-systems-entry{VAX8800}
@@ -3787,7 +3795,7 @@
 **Html-target: vs3100
 **OS-support-VMS**uref{*65}: V5.4
 ! Flowchart has V5.4-1
-**CPU-module**htref{3}: KA43-AA
+**CPU-module**vref{3}: KA43-AA
 **Firmware-version**uref{personally verified}: V1.2
 **CPU-name-VMS**uref{2}: KA43
 **CPU-name-console**uref{2}: KA43-A
@@ -3803,33 +3811,33 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**htref{3}: 8
+**VUPs**vref{3}: 8
 !-- *56 and *65 have 7.6 VUPs -->
 **SPECmarks**htref{6}: 6.8
 **SPECint89**htref{6}: 7.1
 **SPECfp89**htref{6}: 6.6
-**Minimum-memory**htref{3}: 8MB
-**Maximum-memory**htref{3}: 32MB
+**Minimum-memory**vref{3}: 8MB
+**Maximum-memory**vref{3}: 32MB
 **BUS-SCSI: 1
 **LAN-support: embedded
 **Power-start{VS3176-120V}
 **Label: Model 76
-**Supply**htref{3}: 120V 1-phase
-**I-max**htref{3}: 2.8A
+**Supply**vref{3}: 120V 1-phase
+**I-max**vref{3}: 2.8A
 **Power**htref{3}: 155W
 **Power-end{VS3176-120V}
 **Power-start{VS3176-240V}
 **Label: Model 76
-**Supply**htref{3}: 240V 1-phase
-**I-max**htref{3}: 1.5A
+**Supply**vref{3}: 240V 1-phase
+**I-max**vref{3}: 1.5A
 **Power**htref{3}: 155W
 **Power-end{VS3176-240V}
 **Dimensions-start{VS3176}
 **Label: Model 76
-**Height**htref{3}: 103mm
-**Width **htref{3}: 464mm
-**Depth **htref{3}: 394mm
-**Weight**htref{3}: 11.4kg
+**Height**vref{3}: 103mm
+**Width**vref{3}: 464mm
+**Depth**vref{3}: 394mm
+**Weight**vref{3}: 11.4kg
 **Dimensions-end{VS3176}
 !-- ref_3 includes fault code info esp App C -->
 !-- ref_3: min memory shipped is 8MB (2x4MB SIMM). SIMMs are all 4MB. 8 slots total hence 32MB max -->
@@ -3930,7 +3938,7 @@
 **Announcement: 11 July 1989		
 **Codename**uref{*47}: Teammate II
 **OS-support-VMS**uref{*26}: VMS V5.2
-**CPU-module**htref{1}: KA41-A
+**CPU-module**vref{1}: KA41-A
 **Firmware-version**uref{personally verified}: V1.4
 **CPU-name-VMS**uref{2}: KA420
 **CPU-name-console**uref{2}: KA41-A
@@ -3940,16 +3948,16 @@
 **SID: 0A000005
 **XSID : 04010201
 **Num-proc: 1
-**CPU-cycle**htref{1}: 90ns
-**Cache**htref{1}: 1KB
+**CPU-cycle**vref{1}: 90ns
+**Cache**vref{1}: 1KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **VUPs**htref{2}: 2.4
-**Minimum-memory**htref{1}: 4MB
-**On-board-memory**htref{1}: 4MB
-**Maximum-memory**htref{1}: 32MB
-!-- [1]:
+**Minimum-memory**vref{1}: 4MB
+**On-board-memory**vref{1}: 4MB
+**Maximum-memory**vref{1}: 32MB
+!-- vref{1}:
 !		MS42-AB	4MB module, MS42-BA 12MB module, MS42-CA 16MB module
 !		MS42-CA has piggy back connectors so it can be used in conjunction with MS42-AB or MS42-BA hence
 !		options:	base + MS42-AB = 8MB
@@ -3957,30 +3965,31 @@
 !				base + MS42-CA = 20MB
 !				base + MS42-CA + MS42-AB = 24MB
 !				base + MS42-CA + MS42-BA = 32MB
-**BUS-SCSI: 1 @ 10MB/s
+**BUS-SCSI**vref{1}: 1 @ 10MB/s
 **LAN-support: embedded
 **Dimensions-start{3100-M10}
-**Height**htref{1}: 100.3mm
-**Width **htref{1}: 463.8mm
-**Depth **htref{1}: 400.0mm
-**Weight**htref{1}: 11.4kg
+**Height**vref{1}: 100.3mm
+**Width**vref{1}: 463.8mm
+**Depth**vref{1}: 400.0mm
+**Weight**vref{1}: 11.4kg
 **Dimensions-end{3100-M10}
 **Dimensions-start{3100-M20}
-**Height**htref{1}: 149.9mm
-**Width **htref{1}: 463.8mm
-**Depth **htref{1}: 400.0mm
-**Weight**htref{1}: 17.8kg
+**Height**vref{1}: 149.9mm
+**Width**vref{1}: 463.8mm
+**Depth**vref{1}: 400.0mm
+**Weight**vref{1}: 17.8kg
 **Dimensions-end{3100-M20}
 **Power-start{3100-M10-110V}
 **Label: Model 10/20
-**Supply**htref{1}: 110V 1-phase
-**I-max**htref{1}: 1.7A
+**Supply**vref{1}: 110V 1-phase
+**I-max**vref{1}: 1.7A
+**Power**vref{1}: 160W
 **Power-end{3100-M10-110V}
 **Power-start{3100-M10-240V}
 **Label: Model 10/20
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 1.0A
-**Power**htref{1}: 160W
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 1.0A
+**Power**vref{1}: 160W
 **Power-end{3100-M10-110V}
 **End-systems-entry{UV3110}
 
@@ -4090,11 +4099,11 @@
 **Html-target: uv3180
 **Last-order**htref{6}: 29 July 1995
 **OS-support-VMS**htref{5}: VMS V5.5-2H4, VMS V6.1 onwards
-**CPU-module**htref{1}: KA55
+**CPU-module**vref{1}: KA55
 **Firmware-version**uref{personally verified}: V2.6
 **Num-proc: 1
 !-- [5] has NVAX CMOS4 @ 16ns -->
-**CPU-chip**htref{1}: NVAX
+**CPU-chip**vref{1}: NVAX
 **CPU-clock**htref{3}: 250MHz
 ! [5] has 62.5MHz clock -->
 **CPU-cycle**htref{3}: 16ns
@@ -4106,30 +4115,30 @@
 **Console-device: None
 **VUPs**htref{5}: 16
 **TPC-A**htref{5}: 110
-**Minimum-memory**htref{1}: 16MB
-**Maximum-memory**htref{1}: 128MB
+**Minimum-memory**vref{1}: 16MB
+**Maximum-memory**vref{1}: 128MB
 !-- [5] has M80 is parity memory, M85 is ECC memory -->
 !-- [7]: 512MB needs MS45-DA -->
 **BUS-SCSI**htref{1}: 1-2
-**LAN-support**htref{1}: 1 embedded
+**LAN-support**vref{1}: 1 embedded (SGEC) (DC541)
 **Dimensions-start{3185}
 **Label: Model 85
-**Height**htref{1}: 149.9mm
-**Width**htref{1}: 463.8mm
-**Depth**htref{1}: 400.0mm
-**Weight**htref{1}: 20.4kg
+**Height**vref{1}: 149.9mm
+**Width**vref{1}: 463.8mm
+**Depth**vref{1}: 400.0mm
+**Weight**vref{1}: 20.4kg
 **Dimensions-end{3185}
 **Power-start{3185-110V}
 **Label: Model 85
-**Supply**htref{1}: 110V 1-phase
-**I-max**htref{1}: 3.0A
-**Power**htref{1}: 215W
+**Supply**vref{1}: 110V 1-phase
+**I-max**vref{1}: 3.0A
+**Power**vref{1}: 215W
 **Power-end{3185-110V}
 **Power-start{3185-220V}
 **Label: Model 85
-**Supply**htref{1}: 220V 1-phase
-**I-max**htref{1}: 1.5A
-**Power**htref{1}: 215W
+**Supply**vref{1}: 220V 1-phase
+**I-max**vref{1}: 1.5A
+**Power**vref{1}: 215W
 **Power-end{3185-220V}
 **End-systems-entry{UV3185}
 
@@ -4192,21 +4201,21 @@
 **LAN-support**htref{2}: 1 SGEC embedded
 **Power-start{3195-110V}
 **Label: Model 95
-**Supply**htref{1}: 110V 1-phase
-**I-max**htref{1}: 3.0A
-**Power**htref{1}: 215W
+**Supply**vref{1}: 110V 1-phase
+**I-max**vref{1}: 3.0A
+**Power**vref{1}: 215W
 **Power-end{3195-110V}
 **Power-start{3195-220V}
 **Label: Model 95
-**Supply**htref{1}: 220V 1-phase
-**I-max**htref{1}: 1.5A
-**Power**htref{1}: 215W
+**Supply**vref{1}: 220V 1-phase
+**I-max**vref{1}: 1.5A
+**Power**vref{1}: 215W
 **Power-end{3195-220V}
 **Dimensions-start{3195}
-**Height**htref{1}: 149.9mm
-**Width **htref{1}: 463.8mm
-**Depth **htref{1}: 400.0mm
-**Weight**htref{1}: 20.4kg
+**Height**vref{1}: 149.9mm
+**Width **vref{1}: 463.8mm
+**Depth **vref{1}: 400.0mm
+**Weight**vref{1}: 20.4kg
 **Dimensions-end{3195}
 **End-systems-entry{UV3195}
 
