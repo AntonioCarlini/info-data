@@ -3854,50 +3854,50 @@
 **Announcement**uref{*SUE Jul 1992}: 7 July 1992
 **Codename: Cougar
 **OS-support-VMS: VMS V5.5-2HW
-**CPU-module**htref{1}: KA49
+**CPU-module**vref{1}: KA49
 **CPU-name-VMS**uref{2}: KA49
 **CPU-name-console: K49-A
 **Num-proc: 1
 **CPU-technology: CMOS-4
-**CPU-chip**htref{1}: NVAX (DC246)
+**CPU-chip**vref{1}: NVAX (DC246)
 **CPU-clock**htref{2}: 71MHz
 **CPU-cycle**htref{2}: 14ns
-**Instruction-buffer**htref{1}: 16 bytes
+**Instruction-buffer**vref{1}: 16 bytes
 **Translation-buffer: 96 entries
-**Cache**htref{1}: 2KB VIC
-**primary-cache**htref{1}: 8KB physical
-**Backup-cache**htref{1}: 256KB
+**Cache**vref{1}: 2KB VIC
+**primary-cache**vref{1}: 8KB physical
+**Backup-cache**vref{1}: 256KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **SPECmarks**htref{2}: 32.7
 **SPECint89**htref{2}: 26.7
 **SPECfp89**htref{2}: 37.5
-**Minimum-memory**htref{1}: 16MB
-**Maximum-memory**htref{1}: 128MB
-!-- [1]: 8 SIMM connectors 16MB SIMMs -->
+**Minimum-memory**vref{1}: 16MB
+**Maximum-memory**vref{1}: 128MB
+!-- vref{1}: 8 SIMM connectors 16MB SIMMs -->
 **Physical-address-lines: 30
-**BUS-SCSI**htref{1}: 1 (embedded)
-**LAN-support**htref{1}: 1 (embedded)
+**BUS-SCSI**vref{1}: 1 (embedded)
+**LAN-support**vref{1}: 1 (embedded) (SGEC)
 **Dimensions-start{VS4090}
 **Label: VAXstation 4000-90
-**Height**htref{1}: 69.9mm
-**Width**htref{1}: 111.8mm
-**Depth**htref{1}: 381.0mm
-**Weight**htref{1}: 14.9kg
+**Height**vref{1}: 69.9mm
+**Width**vref{1}: 111.8mm
+**Depth**vref{1}: 381.0mm
+**Weight**vref{1}: 14.9kg
 !-- above figures are identical for VLC M60and M90 -->
 **Dimensions-end{VS4090}
 **Power-start{VS4090-120V}
 **Label: VAXstation 4000-90
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 4.02A
-**Power**htref{1}: 286W
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 4.0A
+**Power**vref{1}: 286W
 **Power-end{VS4090-120V}
 **Power-start{VS4090-240V}
 **Label: VAXstation 4000-90
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 2.0A
-**Power**htref{1}: 286W
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 2.0A
+**Power**vref{1}: 286W
 **Power-end{VS4090-240V}
 **Option-title: Internal controllers
 **Option: {boards:LCSPX}{Low Cost Graphics Adapter}
