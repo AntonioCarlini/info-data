@@ -49,6 +49,7 @@ class DataTags
     # data is [ {tag => [display-text,type,category,required]]
 
     @tags = {}
+    @tag_array = []
     data.each() {
       |d|
       # d is a single entry hash: { name => properties array }
@@ -56,7 +57,9 @@ class DataTags
       properties = d.first()[1]
       applicability = properties[1].downcase()
       next unless applicability == 'all' || applicability == type || applicability == sub_type
-      @tags[name] = Tag.new(name, properties)
+      tag = Tag.new(name, properties)
+      @tags[name] = tag
+      @tag_array << tag
     }
 
   end
@@ -78,5 +81,9 @@ class DataTags
     tags = []
     @tags.each() { |k,v| tags << k.upcase() }
     return tags
+  end
+
+  def each_in_order()
+    @tag_array.each() { |tag| yield tag }
   end
 end
