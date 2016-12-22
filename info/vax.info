@@ -576,28 +576,34 @@
 **Sys-name: VAX 4000-500A
 **Desc-name: VAX 4000 Model 500A
 **Html-target: vax450x
-**OS-support-VMS**htref{3}: V5.5-2H4, VMS V6.1 or later
-**CPU-module**htref{2}: KA681
-**Module**htref{2}: L4005-BA
+**OS-support-VMS**vref{3}: V5.5-2H4, VMS V6.1 or later
+**OS-support-MDM**vref{3}: Release 139
+!**CPU-module**htref{2}: KA681
+**CPU-module**vref{3}: KA681-AA
+!**Module**htref{2}: L4005-BA
+**Module**vref{3}: L4005-BA
 **VMS-CPU: 19
 **VMS-XCPU: 5
 **SID: 13000202
 **XSID : 05230E01
 **Num-proc: 1
 **CPU-technology: CMOS-4
-**CPU-clock**htref{3}: 286MHz
-**CPU-cycle**htref{2}: 14ns
-**Instruction-buffer**htref{3}: 16 bytes
-**Translation-buffer**htref{3}: 96 entries
-**Cache**htref{2}: 2KB VIC
-**Primary-cache**htref{2}: 8KB physical
-**Backup-cache**htref{3}: 128KB (56ns)
+**CPU-clock**vref{3}: 286MHz
+**CPU-cycle**vref{2}: 14ns
+**Instruction-buffer**vref{3}: 16 bytes
+**Translation-buffer**vref{3}: 96 entries
+!**Cache**htref{2}: 2KB VIC
+**Cache**vref{3}: 2KB VIC
+!**Primary-cache**htref{2}: 8KB physical
+**Primary-cache**vref{3}: 8KB physical
+**Backup-cache**vref{3}: 128KB (56ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **TPC-A**htref{6}: 116
 **Minimum-memory**htref{2}: 32MB
 **Maximum-memory**htref{2}: 512MB
+! vref{3} 1x ethernet, 2xDSSI
 **BUS-Qbus**htref{1}: 1 @ 3.3MB/s
 **BUS-DSSI**htref{2}: 2-4 @ 4.0MB/s (SHAC)
 **LAN-support**htref{1}: 1 (SGEC - embedded)
@@ -616,18 +622,24 @@
 **Desc-name: VAX 4000 Model 505A
 **Html-target: vax450x
 **Announcement**htref{6}: 15 August 1994
-**OS-support-VMS**htref{3}: V5.5-2H4, VMS V6.1 or later
-**CPU-module**htref{2}: KA691
-**Module**htref{2}: L4005-AA
+**OS-support-VMS**vref{3}: V5.5-2H4, VMS V6.1 or later
+**OS-support-MDM**vref{3}: Release 139
+!**CPU-module**htref{2}: KA691
+**CPU-module**vref{3}: KA691
+!**Module**htref{2}: L4005-AA
+**Module**vref{3}: L4005-AA
 **Num-proc: 1
 **CPU-technology: CMOS-4
-**CPU-clock**htref{3}: 333MHz
-**CPU-cycle**htref{2}: 12ns
-**Instruction-buffer**htref{3}: 16 bytes
-**Translation-buffer**htref{3}: 96 entries
-**Cache**htref{2}: 2KB VIC
-**Primary-cache**htref{2}: 8KB physical
-**Backup-cache**htref{3}: 128KB (36ns)
+**CPU-clock**vref{3}: 333MHz
+!**CPU-cycle**htref{2}: 12ns
+**CPU-cycle**vref{3}: 12ns
+**Instruction-buffer**vref{3}: 16 bytes
+**Translation-buffer**vref{3}: 96 entries
+!**Cache**htref{2}: 2KB VIC
+**Cache**vref{3}: 2KB VIC
+!**Primary-cache**htref{2}: 8KB physical
+**Primary-cache**vref{3}: 8KB physical
+**Backup-cache**vref{3}: 512KB (36ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
@@ -648,12 +660,14 @@
 !
 **def-lref{1} = ref{EK-KA680-UP.C01}
 **def-lref{2} = ref{EK-454AA-MG-001}
+**def-lref{3} = ref{EK-496AB-TI-B01}
 **Sys-name: VAX 4000-600A
 **Desc-name: VAX 4000 Model 600A
 **Announcement**uref{*SUE Jul 1992 Spec}: 7 July 1992
 **FRS-date**uref{??? *SUE Apr 1992 pt II}: 24 April 1992
 **Codename: Omega-F
 **OS-support-VMS**uref{SUE Apr 1992 pt II}: V5.5
+**OS-support-MDM**vref{3}: Release 139
 **CPU-module**htref{1}: KA690
 **Module**htref{2}: L4002-AA
 **CPU-name-VMS: KA690
@@ -691,9 +705,12 @@
 **Desc-name: VAX 4000 Model 700A
 **Announcement: @@
 **Html-target: vax470x
-**OS-support-VMS**htref{2}: V5.5-2H4, V6.1 or later
-**CPU-module**htref{1}: KA692
-**Module**htref{1}: L4006-AA
+**OS-support-VMS**vref{2}: V5.5-2H4, V6.1 or later
+**OS-support-MDM**vref{2}: Release 139
+!**CPU-module**htref{1}: KA692
+**CPU-module**vref{2}: KA692-AA
+!**Module**htref{1}: L4006-AA
+**Module**vref{2}: L4006-AA
 **VMS-CPU: 19
 **VMS-XCPU: 5
 **SID: 13000202
@@ -701,13 +718,14 @@
 **Num-proc: 1
 **CPU-technology: CMOS-4
 **CPU-chip: NVAX
-**CPU-clock**htref{2}: 333MHz
-**CPU-cycle**htref{1}: 10ns
-**Instruction-buffer**htref{2}: 16 bytes
-**Translation-buffer**htref{2}: 96 entries
-**Cache**htref{2}: 2KB VIC
-**Primary-cache**htref{2}: 8KB physical
-**Backup-cache**htref{2}: 2MB (36ns)
+**CPU-clock**vref{2}: 333MHz
+!**CPU-cycle**htref{1}: 10ns
+**CPU-cycle**vref{2}: 10ns
+**Instruction-buffer**vref{2}: 16 bytes
+**Translation-buffer**vref{2}: 96 entries
+**Cache**vref{2}: 2KB VIC
+**Primary-cache**vref{2}: 8KB physical
+**Backup-cache**vref{2}: 2MB (36ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
@@ -727,9 +745,12 @@
 **Desc-name: VAX 4000 Model 705A
 **Html-target: vax4750x
 **Announcement**htref{3}: 15 August 1994
-**OS-support-VMS**htref{2}: V5.5-2H4, V6.1 or later
-**CPU-module**htref{1}: KA694
-**Module**htref{1}: L4006-BA
+**OS-support-VMS**vref{2}: V5.5-2H4, V6.1 or later
+**OS-support-MDM**vref{2}: Release 139
+!**CPU-module**htref{1}: KA694
+**CPU-module**vref{2}: KA694-AA
+!**Module**htref{1}: L4006-BA
+**Module**vref{1}: L4006-BA
 **VMS-CPU: 19
 **VMS-XCPU: 5
 **SID: 13001202
@@ -737,13 +758,13 @@
 **Num-proc: 1
 **CPU-technology: CMOS-4
 **CPU-chip: NVAX
-**CPU-clock**htref{2}: 444.44MHz
-**CPU-cycle**htref{2}: 12ns
-**Instruction-buffer**htref{2}: 16 bytes
-**Translation-buffer**htref{2}: 96 entries
-**Cache**htref{2}: 2KB VIC
-**Primary-cache**htref{2}: 8KB physical
-**Backup-cache**htref{2}: 2MB (36ns)
+**CPU-clock**vref{2}: 444.44MHz
+**CPU-cycle**vref{2}: 9ns
+**Instruction-buffer**vref{2}: 16 bytes
+**Translation-buffer**vref{2}: 96 entries
+**Cache**vref{2}: 2KB VIC
+**Primary-cache**vref{2}: 8KB physical
+**Backup-cache**vref{2}: 2MB (36ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
@@ -1285,32 +1306,34 @@
 **Codename**uref{*102}: Laser/Neon
 **OS-support-VMS**uref{102}: VMS V5.5-2
 ! Flowchart has V5.5-2HW; V6.0 for 7650,7660
-**CPU-module**htref{1}: KA7AA			
+**CPU-module**vref{1}: KA7AA			
 **CPU-name-VMS: KA7AA
 **VMS-CPU: 23
 **VMS-XCPU: 1
 **SID: 17000002
 **XSID : 01020001
-**Num-proc**htref{1}: 1-6			
+**Num-proc**vref{1}: 1-6			
 **CPU-names: {VAX 7610}{VAX 7620}{VAX 7630}{VAX 7640}{VAX 7650}{VAX 7660}
-**CPU-chip**htref{1}: NVAX+ (DC262)		
+**CPU-chip**vref{1}: NVAX+ (DC262)		
 **CPU-clock**uref{*SUE Jul 1992 Spec}: 91MHz
 **Module: E2045-AA
-**Instruction-buffer**htref{1}: 16 bytes			
-**Translation-buffer**htref{1}: 96 entries			
-**Control-store**htref{1}: 1600 61-bit words		
-**Cache**htref{1}: 2KB VIC			
-**Primary-cache**htref{1}: 8KB physical		
-**Backup-cache**htref{1}: 4MB			
+! See vref{1} p 2-26 .. it is called a prefetch queue.
+**Instruction-buffer**vref{1}: 16 bytes			
+**Translation-buffer**vref{1}: 96 entries			
+**Control-store**vref{1}: 1600 61-bit words		
+**Cache**vref{1}: 2KB VIC			
+**Primary-cache**vref{1}: 8KB physical		
+**Backup-cache**vref{1}: 4MB			
 **Compatibility-mode: No
 **Console-processor: CPU
 !
-! [1]: 20VUPs 7610 -->
+! vref{1}: 20VUPs 7610 -->
 ! *SUE Jul 1992 Spec : VUPS: 7610: 35  7620: 65  7630: 95 7640: 125  (7610: 123(e) TPS-A) -->
-**Maximum-memory**htref{1}: 3.5GB			
-**Physical-address-lines**htref{1}: 32				
+**Maximum-memory**vref{1}: 3.5GB			
+**Physical-address-lines**vref{1}: 32				
 !!**Max-I/O-throughput**uref{*SUE Jul 1992 Spec}: 100-400MB/s
 **LAN-support: optional
+**BUS-LSB**vref{1}: 1
 **Dimensions-start{7600}
 **Height**uref{*SUE Jul 1992 Spec}: 1700mm
 **Width**uref{*SUE Jul 1992 Spec}: 800mm
@@ -2808,7 +2831,8 @@
 **Codename: Waverly
 **OS-support-VMS: V5.5
 ! vref{1} KA45
-**CPU-module**htref{1,2}: KA45
+!**CPU-module**htref{1,2}: KA45
+**CPU-module**vref{2}: KA45
 **Firmware-version**uref{personally verified}: V1.4
 **CPU-name-VMS**uref{*2}: KA440
 **CPU-name-console**uref{*2}: KA45-A
@@ -2818,20 +2842,21 @@
 **XSID : 04010001
 **Num-proc: 1
 ! {1} vref for DC222
-**CPU-chip**htref{1, 2}: DC222 (SOC)
+!**CPU-chip**htref{1,2}: DC222 (SOC)
+**CPU-chip**vref{2}: DC222 (SOC)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **VUPs**htref{3}: 5.0
 **TPC-A: 21.6
 ! Cust. Update V5-4A 12-Apr-1994 has 32 TPS
-**Minimum-memory**vref{1}: 8MB
-**On-board-memory**vref{1}: 8MB
-**Maximum-memory**vref{1}: 32MB
-! vref{1} parity checking
+**Minimum-memory**vref{1,2}: 8MB
+**On-board-memory**vref{1,2}: 8MB
+**Maximum-memory**vref{1,2}: 32MB
+! vref{1,2} parity checking
 **Memory-checking**htref{1,4}: Parity
-**BUS-SCSI**vref{1}: 1 @ 10MB/s
-**LAN-support**vref{1}: 1 embedded
+**BUS-SCSI**vref{1,2}: 1 @ 10MB/s
+**LAN-support**vref{1,2}: 1 embedded
 
 **Power-start{3130-220V}
 **Label: Model 30
@@ -2902,28 +2927,30 @@
 **OS-support-VMS: V5.5-2HW
 **CPU-module**vref{1}: KA50
 **Firmware-version**uref{personally verified}: V2.6
-**CPU-name-VMS**uref{2}: KA50
-**CPU-name-console**uref{2}: KA50
+**CPU-name-VMS**uref{*2}: KA50
+**CPU-name-console**uref{*2}: KA50
 **VMS-CPU: 19
 **VMS-XCPU: 3
 **SID: 13000292
 **XSID : 03260A01
 **Num-proc: 1
 **CPU-technology: CMOS-4
-**CPU-chip**vref{1}: NVAX
-**CPU-clock**htref{2}: 286MHz
-**CPU-cycle**htref{2}: 14ns
-**Cache**htref{2}: 2KB VIC
-**Primary-cache**htref{2}: 8KB physical
-**Backup-cache**htref{2}: 128KB
+**CPU-chip**vref{1,2}: NVAX
+**CPU-clock**vref{2}: 286MHz
+**CPU-cycle**vref{2}: 14ns
+**Cache**vref{2}: 2KB VIC
+**Primary-cache**vref{2}: 8KB physical
+**Backup-cache**vref{2}: 128KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **VUPs**uref{*145}: 24
+**Physical-address-lines**vref{2}: 30
 **Minimum-memory**vref{1}: 16MB
 **Maximum-memory**vref{1}: 128MB
-**BUS-SCSI**htref{1}: 1-2
-**LAN-support**htref{2}: 1 SGEC embedded
+!**BUS-SCSI**htref{1}: 1-2
+**BUS-SCSI**vref{2}: 1-2
+**LAN-support**vref{2}: 1 SGEC embedded (DC541)
 **Power-start{3190-110V}
 **Supply**vref{1}: 110V 1-phase
 **I-max**vref{1}: 3.0A
@@ -4040,7 +4067,7 @@
 **Codename: Waverly-Mariah
 **Html-target: uv3180
 **OS-support-VMS: VMS V5.5
-**CPU-module**htref{2}: KA47
+**CPU-module**vref{2}: KA47
 **Firmware-version**uref{personally verified}: V1.4
 **CPU-name-VMS**uref{2}: KA460
 **CPU-name-console**uref{*47}: KA47
@@ -4050,37 +4077,37 @@
 **XSID : 04010201
 **Num-proc: 1
 !-- [5] has NVAX CMOS4 @ 16ns -->
-**CPU-chip**htref{2}: DC595
+**CPU-chip**vref{2}: DC595
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **VUPs**htref{4}: 10.0
 **TPC-A**uref{*101}: 27.9
 !-- Cust. Upd. 12-Apr-1994 V5-4A has 60 TPS -->
-**Minimum-memory**htref{2}: 8MB
-**Maximum-memory**htref{2}: 72MB
+**Minimum-memory**vref{2}: 8MB
+**Maximum-memory**vref{2}: 72MB
 !-- [5] has M80 is parity memory, M85 is ECC memory -->
 !-- [7]: 512MB needs MS45-DA -->
-**BUS-SCSI**htref{2}: 1
-**LAN-support**htref{2}: 1 embedded
+**BUS-SCSI**vref{2}: 1
+**LAN-support**vref{2}: 1 embedded
 **Dimensions-start{3180}
 **Label: Model 80
-**Height**htref{2}: 100.3mm
-**Width**htref{2}: 463.8mm
-**Depth**htref{2}: 400.0mm
-**Weight**htref{2}: 11.4kg
+**Height**vref{2}: 100.3mm
+**Width**vref{2}: 463.8mm
+**Depth**vref{2}: 400.0mm
+**Weight**vref{2}: 11.4kg
 **Dimensions-end{3180}
 **Power-start{3180-110V}
 **Label: Model 80
-**Supply**htref{2}: 110V 1-phase
-**I-max**htref{2}: 1.2A
-**Power**htref{2}: 120W
+**Supply**vref{2}: 110V 1-phase
+**I-max**vref{2}: 1.2A
+**Power**vref{2}: 120W
 **Power-end{3180-110V}
 **Power-start{3180-220V}
 **Label: Model 80
-**Supply**htref{2}: 220V 1-phase
-**I-max**htref{2}: 0.6A
-**Power**htref{2}: 120W
+**Supply**vref{2}: 220V 1-phase
+**I-max**vref{2}: 0.6A
+**Power**vref{2}: 120W
 **Power-end{3180-220V}
 **End-systems-entry{UV3180}
 
@@ -4098,17 +4125,17 @@
 **Html-target: uv3180
 **Last-order**htref{6}: 29 July 1995
 **OS-support-VMS**htref{5}: VMS V5.5-2H4, VMS V6.1 onwards
-**CPU-module**vref{1}: KA55
+**CPU-module**vref{1,3}: KA55
 **Firmware-version**uref{personally verified}: V2.6
 **Num-proc: 1
 !-- [5] has NVAX CMOS4 @ 16ns -->
 **CPU-chip**vref{1}: NVAX
-**CPU-clock**htref{3}: 250MHz
+**CPU-clock**vref{3}: 250MHz
 ! [5] has 62.5MHz clock -->
-**CPU-cycle**htref{3}: 16ns
-**Cache**htref{3}: NVAX VIC disabled
-**Primary-cache**htref{3}: 8KB physical
-**Backup-cache**htref{3}: 128KB
+**CPU-cycle**vref{3}: 16ns
+**Cache**vref{3}: NVAX VIC disabled
+**Primary-cache**vref{3}: 8KB physical
+**Backup-cache**vref{3}: 128KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
@@ -4118,7 +4145,8 @@
 **Maximum-memory**vref{1}: 128MB
 !-- [5] has M80 is parity memory, M85 is ECC memory -->
 !-- [7]: 512MB needs MS45-DA -->
-**BUS-SCSI**htref{1}: 1-2
+!**BUS-SCSI**htref{1}: 1-2
+**BUS-SCSI**vref{3}: 1-2
 **LAN-support**vref{1}: 1 embedded (SGEC) (DC541)
 **Dimensions-start{3185}
 **Label: Model 85
@@ -4173,18 +4201,18 @@
 **Last-order**htref{4}: 29 July 1995
 **Html-target: uv319x
 **OS-support-VMS**lref{3}: VMS V5.5-2H4, VMS V6.1 onwards
-**CPU-module**htref{2}: KA51
+**CPU-module**vref{2}: KA51
 !**CPU-module**lref{3}: KA51
 **Num-proc: 1
 **CPU-technology: CMOS-4
-**CPU-chip**htref{2}: NVAX
+**CPU-chip**vref{2}: NVAX
 !**CPU-chip**lref{3}: NVAX
-**CPU-clock**htref{2}: 333MHz
-**CPU-cycle**htref{2}: 12ns
+**CPU-clock**vref{2}: 333MHz
+**CPU-cycle**vref{2}: 12ns
 !**CPU-cycle**lref{3}: 12ns
-**Cache**htref{2}: 2KB VIC
-**Primary-cache**htref{2}: 8KB physical
-**Backup-cache**htref{2}: 512KB
+**Cache**vref{2}: 2KB VIC
+**Primary-cache**vref{2}: 8KB physical
+**Backup-cache**vref{2}: 512KB
 !**Backup-cache**lref{3}: 512KB
 **Compatibility-mode: No
 **Console-processor: CPU
@@ -4193,11 +4221,12 @@
 !-- *145 has 24 -->
 **TPC-A**lref{3}: 127
 !-- Cust Upd V5-8B has 165 -->
-**Minimum-memory**htref{2}: 16MB
-**Maximum-memory**htref{2}: 128MB
+**Physical-address-lines**vref{2}: 30
+**Minimum-memory**vref{2}: 16MB
+**Maximum-memory**vref{2}: 128MB
 ! [5]: 512MB via MS45-DA -->
-**BUS-SCSI**htref{2}: 1-2
-**LAN-support**htref{2}: 1 SGEC embedded
+**BUS-SCSI**vref{2}: 1-2
+**LAN-support**vref{2}: 1 SGEC embedded (DC541)
 **Power-start{3195-110V}
 **Label: Model 95
 **Supply**vref{1}: 110V 1-phase
@@ -4230,22 +4259,23 @@
 **FRS-date**htref{4}: 19 May 1995
 **OS-support-VMS: VMS V5.5-2H4
 **Html-target: uv319x
-**CPU-module**htref{2}: KA56
+**CPU-module**vref{2}: KA56
 **Num-proc: 1
 **CPU-technology: CMOS-4
-**CPU-chip**htref{2}: NVAX
-**CPU-clock**htref{2}:  400MHz
-**CPU-cycle**htref{2}: 10ns
-**Cache**htref{2}: 2KB VIC
-**Primary-cache**htref{2}: 8KB physical
-**Backup-cache**htref{2}: 512KB
+**CPU-chip**vref{2}: NVAX
+**CPU-clock**vref{2}:  400MHz
+**CPU-cycle**vref{2}: 10ns
+**Cache**vref{2}: 2KB VIC
+**Primary-cache**vref{2}: 8KB physical
+**Backup-cache**vref{2}: 512KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**Minimum-memory**htref{2}: 16MB
-**Maximum-memory**htref{2}: 128MB
-**BUS-SCSI**htref{2}: 1-2
-**LAN-support**htref{2}: 1 SGEC embedded
+**Physical-address-lines**vref{2}: 30
+**Minimum-memory**vref{2}: 16MB
+**Maximum-memory**vref{2}: 128MB
+**BUS-SCSI**vref{2}: 1-2
+**LAN-support**vref{2}: 1 SGEC embedded (DC541)
 **End-systems-entry{UV3196}
 
 **Start-systems-entry{UV3198}{VAX}{UVAX}
