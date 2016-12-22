@@ -307,10 +307,10 @@
 **Sys-name: VAX 4000-300
 **Desc-name: VAX 4000 Model 300
 **Codename: Pele
-**OS-support-VMS**htref{2}: V5.3-2
-**OS-support-MDM**htref{2}: 131
-**CPU-module**vref{1}: KA670
-**Module**htref{2}: L4000
+**OS-support-VMS**vref{2}: V5.3-2
+**OS-support-MDM**vref{2}: 131
+**CPU-module**vref{1,2}: KA670
+**Module**vref{2}: L4000
 **CPU-name-VMS: KA670-AA
 **CPU-name-console: KA670-AA
 ! Personally seen KA670-BA for both above for VAXserver 4000-300
@@ -322,13 +322,12 @@
 **CPU-chip**vref{1}: REX520 (P-chip) (DC520)
 ! <!-- [1] REX520 CPU chip is also called P-chip and is DC520 -->
 **FPU-chip**vref{1}: DC523 (F-chip)
-**CPU-clock**vref{1}: 143MHz
-**CPU-cycle**vref{1}: 28ns
-!**CPU-cycle**htref{2}: 28ns
-**Instruction-buffer**htref{2} : 12 bytes
-**Translation-buffer**vref{1} : 64 entries
-**Cache**vref{1}: 2KB
-**Secondary-Cache**htref{2}: 128KB (84ns)
+**CPU-clock**vref{1,2}: 143MHz
+**CPU-cycle**vref{1,2}: 28ns
+**Instruction-buffer**vref{2} : 12 bytes
+**Translation-buffer**vref{1,2} : 64 entries
+**Cache**vref{1,2}: 2KB
+**Secondary-Cache**vref{2}: 128KB (84ns)
 **Compatibility-mode**vref{1}: No
 **Console-processor: CPU
 **Console-device: None
@@ -344,20 +343,20 @@
 !!**BUS-DSSI**uref{*28}: 2 optional
 **LAN-support**vref{1}: 1 (SGEC - embedded) (DC541)
 **Power-start{4300-120V}
-**Supply**htref{3}: 120V 1-phase
-**I-max**htref{3}: 8.6A
-**Heat-dissipation**htref{3}: 2978 BTU/hr
+**Supply**vref{3}: 120V 1-phase
+**I-max**vref{3}: 8.6A
+**Heat-dissipation**vref{3}: 2978 BTU/hr
 **Power-end{4300-120V}
 **Power-start{4300-240V}
-**Supply**htref{3}: 240V 1-phase
-**I-max**htref{3}: 4.7A
-**Heat-dissipation**htref{3}: 2978 BTU/hr
+**Supply**vref{3}: 240V 1-phase
+**I-max**vref{3}: 4.7A
+**Heat-dissipation**vref{3}: 2978 BTU/hr
 **Power-end{4300-240V}
 **Dimensions-start{4300}
-**Height**htref{3}: 690mm
-**Width**htref{3}: 530mm
-**Depth**htref{3}: 450mm
-**Weight**htref{3}: 68kg
+**Height**vref{3}: 690mm
+**Width**vref{3}: 530mm
+**Depth**vref{3}: 450mm
+**Weight**vref{3}: 68kg
 **Dimensions-end{4300}
 !<TR> <TD COLSPAN=2> <B> Internal controllers </B> </TR>
 !<TR> <TD> <A HREF="../boards/kda50.html">   KDA50 </A> <TD> SDI Disk Controller			</TR>
@@ -3719,7 +3718,7 @@
 **Html-target: vs3100
 **OS-support-VMS**uref{*26,*31}: V5.2-1
 !-- *31: VS3100-38/48 UWS V2.1 -->
-**CPU-module**htref{2}: KA42-BA
+**CPU-module**vref{2}: KA42-BA
 **Firmware-version**uref{personally verified}: V1.5
 **CPU-name-VMS**uref{2}: KA420 (VMS)
 **CPU-name-console**uref{2}: KA42-B
@@ -3729,9 +3728,9 @@
 **XSID : 04010002
 **Num-proc: 1
 **CPU-technology: CMOS-2
-**CPU-cycle**htref{2}: 60ns
+**CPU-cycle**vref{2}: 60ns
 **Cache**uref{*31,*83}: 1KB
-**Backup-cache**htref{2}: 32KB
+**Backup-cache**vref{2}: 32KB
 !-- *120 has 32KB 180ns -->
 **Compatibility-mode: No
 **Console-processor: CPU
@@ -3740,9 +3739,9 @@
 **SPECmarks**htref{6}: 3.7
 **SPECint89**htref{6}: 3.5
 **SPECfp89**htref{6}: 3.8
-**Minimum-memory**htref{2}: 4MB
-**On-board-memory**htref{2}: 4MB
-**Maximum-memory**htref{2}: 32MB
+**Minimum-memory**vref{2}: 4MB
+**On-board-memory**vref{2}: 4MB
+**Maximum-memory**vref{2}: 32MB
 !-- From [2] section 9.3 -->
 !-- 	8MB = base+4MB 12MB=base+8MB 16MB=base+12MB 16MB=base+4MB+8MB -->
 !-- 	20MB=base+16MB 24MB=base+8MB+8MB 24MB=base+16MB+4MB 32MB=base+16MB+12MB -->
@@ -3751,17 +3750,17 @@
 **LAN-support: embedded
 **Dimensions-start{VS3138}
 **Label: Model 38
-**Height**htref{2}: 103mm
-**Width **htref{2}: 462mm
-**Depth **htref{2}: 400mm
-**Weight**htref{2}: 7.7kg
+**Height**vref{2}: 103mm
+**Width **vref{2}: 462mm
+**Depth **vref{2}: 400mm
+**Weight**vref{2}: 7.7kg
 **Dimensions-end{VS3138}
 **Dimensions-start{VS3148}
 **Label: Model 48
-**Height**htref{4}: 149.9mm
-**Width **htref{4}: 463.8mm
-**Depth **htref{4}: 400.0mm
-**Weight**htref{4}: 18.7kg
+**Height**vref{4}: 149.9mm
+**Width **vref{4}: 463.8mm
+**Depth **vref{4}: 400.0mm
+**Weight**vref{4}: 18.7kg
 **Dimensions-end{VS3148}
 !-- ref_2: options: GPX,SPX, RZ22,RZ24,RZ24,RZ55,RX23,TZ30 -->
 !-- ref_2 includes fault code info esp App C -->
