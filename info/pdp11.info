@@ -2,16 +2,17 @@
 **Def-lref{1} = ref{DEC-11-H05SS-B-D}
 **Def-lref{2} = ref{EK-11005-TM-003}
 **Sys-name: PDP-11/05-S and PDP-11/10-S
-**CPU-module**htref{1}: KD11-B
+**CPU-module**vref{1}: KD11-B
 **CPU-cycle**htref{1}: 310ns
-**Console-speed**htref{1}: 110-2400 baud
-**Bus-UNIBUS**htref{1}: 1
+**Console-speed**vref{1}: 110-2400 baud
+**Bus-UNIBUS**vref{1}: 1
 **Minimum-memory**htref{2}: 16KB
-**Maximum-memory**htref{2}: 64KB
+!**Maximum-memory**htref{2}: 64KB
+**Maximum-memory**vref{1}: 56KB
 **Physical-address-lines**htref{2}: 16
 **Memory-cycle**htref{2}: 900ns
 !**Memory-access**htref{2}: 400ns
-!    ref_1:
+!    vref{1}:
 !	KD11-B consists of
 !		M7620 Data Path Module
 !		M7621 Control Logic and Microprogram Module
@@ -30,7 +31,7 @@
 !	MM11-K: 8KB core (G110 Control Module, G231 Driver Module, H213 Stack Module)
 !	MM11-L: 16KB core (G110 Control Module, G231 Driver Module, H214 Stack Module)
 !
-!
+! vref{1} the PDP-11/10-S and the PDP-11/05-S are electrically identical. The 11/05-S is for OEMs.
 !
 !<H3> <A NAME="power">             Power requirements          </A> </H3>
 !
