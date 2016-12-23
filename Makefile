@@ -13,6 +13,8 @@ SCRIPTS += scripts/DataSystemsInfo.rb
 SCRIPTS += scripts/DataTags.rb
 SCRIPTS += scripts/refs-info-to-yaml.rb
 SCRIPTS += scripts/systems-info-to-yaml.rb
+SCRIPTS += scripts/systems-yaml-to-infobox-data.rb
+SCRIPTS += scripts/systems-yaml-to-infobox-mediawiki.rb
 SCRIPTS += scripts/systems-yaml-to-mediawiki.rb
 
 GLOBAL_DEPENDENCIES += $(SCRIPTS)
@@ -26,6 +28,10 @@ all: yaml/refs.yaml
 all: $(foreach SYS,$(SYSTEMS),yaml/$(SYS).yaml)
 
 all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).mediawiki.txt)
+
+all: bin/infobox-vax-data.mediawiki.txt
+
+all: bin/vax.infobox.mediawiki.txt
 
 .PHONY: all
 
@@ -54,6 +60,9 @@ yaml/pdp11.yaml:  info/pdp11.info $(TAGS.SYSTEMS) $(REFS) $(GLOBAL_DEPENDENCIES)
 yaml/vax.yaml:  info/vax.info $(TAGS.SYSTEMS) $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
 
+bin/infobox-vax-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
+	scripts/systems-yaml-to-infobox-data.rb vax $< $(TAGS.SYSTEMS) > $@
+
 bin/alpha.mediawiki.txt: yaml/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	@mkdir -p bin
 	scripts/systems-yaml-to-mediawiki.rb alpha $< $(TAGS.SYSTEMS) $(REFS) > $@
@@ -73,6 +82,9 @@ bin/pdp11.mediawiki.txt: yaml/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 bin/vax.mediawiki.txt: yaml/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	@mkdir -p bin
 	scripts/systems-yaml-to-mediawiki.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
+
+bin/vax.infobox.mediawiki.txt: yaml/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-infobox-mediawiki.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
 
 clean:
 	@rm -f yaml/*
