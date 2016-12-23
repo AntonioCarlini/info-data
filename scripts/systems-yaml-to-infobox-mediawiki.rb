@@ -51,7 +51,7 @@ systems.keys().each() {
   puts("| name = #{name}")
   properties.keys().each() {
     |prop|
-    next if prop =~ /sys_class/i # This should be handled in some special way (VAX4000, VAX6000, UNIBUS etc.)
+    next if prop =~ /sys-class/i # This should be handled in some special way (VAX4000, VAX6000, UNIBUS etc.)
     next if prop =~ /sys-name/i
     next if prop =~ /html-target/i
     next if prop =~ /option-title/i
