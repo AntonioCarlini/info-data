@@ -10,31 +10,42 @@ require 'yaml'
 class Tag
   attr_accessor :category
   attr_accessor :display_text
+  attr_accessor :explanatory_text
   attr_accessor :name
   attr_accessor :required
 
   # name - name of this tag
   # array[0] - display text
-  # array[1] - applicable area (vax, alpha, systems, all)
-  # array[2] - category (summary, io)
-  # array[3] - required
+  # array[1] - explanatory text
+  # array[2] - applicable area (vax, alpha, systems, all)
+  # array[3] - category (summary, io)
+  # array[4] - required
   def initialize(name, properties)
     @name = name
-    @display_text = if properties.size() >= 1
-                      properties[0]
-                    else
-                      nil
-                    end
-    @category = if properties.size() >= 3
-                  properties[2]
-                else
-                  nil
-                end
-    @required = if properties.size() >= 4
-                  properties[3] =~/required/i
-                else
-                  false
-                end
+    @display_text =
+      if properties.size() >= 1
+        properties[0]
+      else
+        nil
+      end
+    @explanatory_text =
+      if properties.size() >= 2
+        properties[1]
+      else
+        nil
+      end
+    @category =
+      if properties.size() >= 4
+        properties[3]
+      else
+        nil
+      end
+    @required = 
+      if properties.size() >= 5
+        properties[4] =~/required/i
+      else
+        false
+      end
   end
 end
 
@@ -46,7 +57,7 @@ class DataTags
   def initialize(tags_yaml_file, type, sub_type)
     # Load the references YAML information
     data = YAML.load_file(tags_yaml_file)
-    # data is [ {tag => [display-text,type,category,required]]
+    # data is [ {tag => [display-text,explanatory-text,applicable-to,category,required]]
 
     @tags = {}
     @tag_array = []
@@ -55,7 +66,7 @@ class DataTags
       # d is a single entry hash: { name => properties array }
       name = d.first()[0]
       properties = d.first()[1]
-      applicability = properties[1].downcase()
+      applicability = properties[2].downcase()
       next unless applicability == 'all' || applicability == type || applicability == sub_type
       tag = Tag.new(name, properties)
       @tags[name] = tag
