@@ -40,7 +40,7 @@
 **Start-systems-entry{DST3100}{DECMIPS}{DS3100}
 **Def-lref{1} = ref{DS3100}
 **Def-lref{2} = ref{EK-302AB-OG-002}
-**sys-name: DECstation 3100
+**Sys-name: DECstation 3100
 **Announcement: March 1989
 **Codename**uref{DU FEB-1989}: PMAX
 **CPU-module: KN01
