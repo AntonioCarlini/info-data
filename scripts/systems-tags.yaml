@@ -62,37 +62,43 @@
 - OS-support-VMS:
   - OS support (VMS)
   - Range of VMS versions that support this system
-  - all
+  - - vax
+    - alpha
+    - itanium
   - summary
 - OS-support-MDM:
   - OS support (MDM)
   - Range of MDM releases that support this system
-  - all
+  - vax
   - summary
 - OS-support-ELN:
   - OS support (ELN)
   - Range of VAXELN releases that support this system
-  - all
+  - vax
   - summary
 - OS-support-ULTRIX:
   - OS support (ULTRIX)
   - Range of ULTRIX versions that support this system
-  - all
+  - - vax
+    - decmips
+    - pdp11
   - summary
 - OS-support-NT:
   - OS support (NT)
   - Range of WindowsNT versions that support this system
-  - all
+  - alpha
   - summary
 - OS-support-DU:
   - OS support (Digital UNIX)
   - Range of Digital Unix or Tru64 versions that support this system
-  - all
+  - alpha
   - summary
 - CPU-name-VMS:
   - CPU name (VMS)
   - CPU name as reported by ANALYZE/ERROR under VMS
-  - all
+  - - vax
+    - alpha
+    - itanium
   - cpu_details
 - CPU-name-console:
   - CPU name (console)
@@ -112,7 +118,7 @@
 - System-Module:
   - System Module
   - The system module part number
-  - all
+  - alpha
   - cpu_details
 - Num-proc:
   - Number of processors
@@ -122,122 +128,128 @@
 - VMS-CPU:
   - VMS DCL CPU
   - The hexadecimal value returned by the DCL function F$GETSYI("SID") under VMS.
-  - all
+  - - vax
+    - alpha
+    - itanium
   - cpu_details
 - VMS-XCPU:
   - VMS DCL XCPU
   - The hexadecimal value returned by the DCL function F$GETSYI("XSID") under VMS.
-  - all
+  - - vax
+    - alpha
+    - itanium
   - cpu_details
 - SID:
   - SID
   - The System Identification register
-  - all
+  - - vax
+    - alpha
   - cpu_details
 - XSID:
   - XSID
   - The System Extended Identification register
-  - all
+  - - vax
+    - alpha
   - cpu_details
 - CPU-chip:
   - CPU chip
   - The chip that implements the I-box (CPU)
-  - all
+  - systems
   - cpu_details
 - FPU-chip:
   - FPU chip
   - The chip that implements the F-box (FPU)
-  - all
+  - systems
   - cpu_details
 - CPU-technology:
   - CPU technology
   - The technology with which the CPU is fabricated
-  - all
+  - systems
   - cpu_details
 - CPU-cycle:
   - CPU cycle time
   - The CPU cycle time
-  - all
+  - systems
   - cpu_details
 - CPU-clock:
   - CPU clock
   - The CPU clock rate
-  - all
+  - systems
   - cpu_details
 - CPU-clock-rate:
   - CPU clock rate
   - The raw clock that is supplied to the CPU
-  - all
+  - systems
   - cpu_details
 - Vector-processor:
   - Vector processor
   - Vector processor
-  - all
+  - vax
   - cpu_details
 - Instruction-buffer:
   - Instruction-buffer
   - Instruction prefetch queue size
-  - all
+  - vax
   - cpu_details
 - Translation-buffer:
   - Translation-buffer
   - The CPU translation buffer size
-  - all
+  - vax
   - cpu_details
 - Control-store:
   - Control store
   - Microcode control store details
-  - all
+  - systems
   - cpu_details
 - Gate-delay:
   - Gate delay
   - Gate delay
-  - all
+  - vax
   - cpu_details
 - WCS:
   - Writable Control Store
   - Writable Control Store
-  - all
+  - vax
   - cpu_details
 - UWCS:
   - User Writable Control Store
   - User Writable Control Store
-  - all
+  - vax
   - cpu_details
 - Cache:
   - Cache
   - Cache
-  - all
+  - systems
   - cpu_details
 - Primary-cache:
   - Primary cache
   - Primary cache
-  - all
+  - systems
   - cpu_details
 - Secondary-Cache:
   - Secondary cache
   - Secondary cache
-  - all
+  - systems
   - cpu_details
 - Backup-cache:
   - Backup cache
   - Backup cache
-  - all
+  - systems
   - cpu_details
 - Compatibility-mode:
   - Compatibility mode
   - Whether compatibility mode is implemented or not
-  - all 
+  - systems 
   - cpu_details
 - Console-processor:
   - Console processor
   - Console processor
-  - all
+  - systems
   - cpu_details
 - Console-device:
   - Console device
   - Console storage device
-  - all
+  - systems
   - cpu_details
 - Firmware-version:
   - Firmware version
@@ -247,12 +259,12 @@
 - Console-speed:
   - Console speed
   - Console speed
-  - all
+  - systems
   - cpu_details
 - CPU-names:
   - CPU-names
   - For a multiprocessor system, the list of possible CPU designations
-  - all
+  - systems
   - cpu_details
 - Minimum-memory:
   - Minimum memory
@@ -297,32 +309,40 @@
 - BUS-MASSBUS:
   - MASSBUS
   - MASSBUS details
-  - vax
+  - - vax
+    - pdp11
+    - pdp10
   - io
 - BUS-UNIBUS:
   - UNIBUS
   - UNIBUS details
-  - all
+  - - vax
+    - pdp11
   - io
 - BUS-Qbus:
   - Q-bus
   - Q-bus details
-  - all
+  - - vax
+    - pdp11
+    - decmips
   - io
 - BUS-vaxbi:
   - VAXBI
   - VAXBI bus details
-  - all
+  - - vax
+    - decmips
   - io
 - BUS-XMI:
   - XMI
   - XMI bus details
-  - all
+  - - vax
+    - alpha
   - io
 - BUS-LSB:
   - Laserbus
   - Laserbus details
-  - all
+  - - vax
+    - alpha
   - io
 - BUS-FB:
   - Futurebus
@@ -332,47 +352,52 @@
 - BUS-TC:
   - TURBOchannel
   - TURBOchannel bus details
-  - all
+  - - decmips
+    - vax
+    - alpha
   - io
 - BUS-DSSI:
   - BUS-DSSI
   - DSSI bus details
-  - all
+  - systems
   - io
 - BUS-SCSI:
   - BUS SCSI
   - SCSI bus details
-  - all
+  - systems
   - io
 - BUS-PCI:
   - PCI
   - PCI slot details
-  - all
+  - - alpha
+    - decpc
   - io
 - BUS-EISA:
   - EISA
   - EISA slot details
-  - all
+  - - alpha
+    - decpc
   - io
 - BUS-PCI-or-EISA:
   - PCI or EISA
   - Details of slots that may be PCI or EISA
-  - all
+  - alpha
   - io
 - BUS-PCI-or-ISA:
   - PCI or ISA
   - Details of slots that may be PCI or ISA
-  - all
+  - alpha
   - io
 - BUS-ISA:
   - ISA
   - ISA slot details
-  - all
+  - - alpha
+    - decpc
   - io
 - BUS-MCA:
   - MCA
   - MCA slot details
-  - all
+  - decpc
   - io
 - LAN-support:
   - LAN support
@@ -382,47 +407,48 @@
 - VUPs:
   - VUPs
   - VAX Units of Performance
-  - all
+  - - vax
+    - decmips
   - performance
 - SPECmarks:
   - SPECmarks
   - SPECmark details
-  - all
+  - systems
   - performance
 - TPC-A:
   - TPC-A
   - TPC-A details
-  - all
+  - systems
   - performance
 - SPECint89:
   - SPECint89
   - SPECint89 details
-  - all
+  - systems
   - performance
 - SPECfp89:
   - SPECfp89
   - SPECfp89 details
-  - all
+  - systems
   - performance
 - SPECint92:
   - SPECint92
   - SPECint92 details
-  - all
+  - systems
   - performance
 - SPECfp92:
   - SPECfp92
   - SPECfp92 details
-  - all
+  - systems
   - performance
 - SPECint95:
   - SPECint95
   - SPECint95 details
-  - all
+  - systems
   - performance
 - SPECfp95:
   - SPECfp95
   - SPECfp95 details
-  - all
+  - systems
   - performance
 - Height:
   - Height

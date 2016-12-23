@@ -29,9 +29,9 @@ all: $(foreach SYS,$(SYSTEMS),yaml/$(SYS).yaml)
 
 all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).mediawiki.txt)
 
-all: bin/infobox-vax-data.mediawiki.txt
+all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).infobox.mediawiki.txt)
 
-all: bin/vax.infobox.mediawiki.txt
+all: $(foreach SYS,$(SYSTEMS),bin/infobox-$(SYS)-data.mediawiki.txt)
 
 .PHONY: all
 
@@ -60,8 +60,20 @@ yaml/pdp11.yaml:  info/pdp11.info $(TAGS.SYSTEMS) $(REFS) $(GLOBAL_DEPENDENCIES)
 yaml/vax.yaml:  info/vax.info $(TAGS.SYSTEMS) $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
 
+bin/infobox-alpha-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
+	scripts/systems-yaml-to-infobox-data.rb alpha $(TAGS.SYSTEMS) > $@
+
+bin/infobox-mips-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
+	scripts/systems-yaml-to-infobox-data.rb decmips $(TAGS.SYSTEMS) > $@
+
+bin/infobox-pc-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
+	scripts/systems-yaml-to-infobox-data.rb decpc $(TAGS.SYSTEMS) > $@
+
+bin/infobox-pdp11-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
+	scripts/systems-yaml-to-infobox-data.rb pdp11 $(TAGS.SYSTEMS) > $@
+
 bin/infobox-vax-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
-	scripts/systems-yaml-to-infobox-data.rb vax $< $(TAGS.SYSTEMS) > $@
+	scripts/systems-yaml-to-infobox-data.rb vax $(TAGS.SYSTEMS) > $@
 
 bin/alpha.mediawiki.txt: yaml/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	@mkdir -p bin
@@ -82,6 +94,18 @@ bin/pdp11.mediawiki.txt: yaml/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 bin/vax.mediawiki.txt: yaml/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	@mkdir -p bin
 	scripts/systems-yaml-to-mediawiki.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
+
+bin/alpha.infobox.mediawiki.txt: yaml/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-infobox-mediawiki.rb alpha $< $(TAGS.SYSTEMS) $(REFS) > $@
+
+bin/mips.infobox.mediawiki.txt: yaml/mips.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-infobox-mediawiki.rb decmips $< $(TAGS.SYSTEMS) $(REFS) > $@
+
+bin/pc.infobox.mediawiki.txt: yaml/pc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-infobox-mediawiki.rb decpc $< $(TAGS.SYSTEMS) $(REFS) > $@
+
+bin/pdp11.infobox.mediawiki.txt: yaml/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-infobox-mediawiki.rb pdp11 $< $(TAGS.SYSTEMS) $(REFS) > $@
 
 bin/vax.infobox.mediawiki.txt: yaml/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-infobox-mediawiki.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@

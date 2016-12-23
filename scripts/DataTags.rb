@@ -66,8 +66,13 @@ class DataTags
       # d is a single entry hash: { name => properties array }
       name = d.first()[0]
       properties = d.first()[1]
-      applicability = properties[2].downcase()
-      next unless applicability == 'all' || applicability == type || applicability == sub_type
+      applicability = properties[2]
+      if applicability.respond_to?(:map)
+        applicability.map(&:downcase)
+      else
+        applicability.downcase()
+      end
+      next unless applicability.include?('all') || applicability.include?(type) || applicability.include?(sub_type)
       tag = Tag.new(name, properties)
       @tags[name] = tag
       @tag_array << tag
