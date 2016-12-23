@@ -145,7 +145,7 @@ class Systems
           |k|
           total_uses += local_refs_non_vref_count[k]
           count_text = "%3.3d" % local_refs_non_vref_count[k]
-##          $stderr.puts("#{count_text} uses of #{local_refs[k]} in #{current.identifier()}") if local_refs_non_vref_count[k] > 0
+          $stderr.puts("#{count_text} uses of #{local_refs[k]} in #{current.identifier()}") if local_refs_non_vref_count[k] > 0
         }
         current = nil
         local_refs = {}  # Discard "local" references
@@ -218,7 +218,7 @@ class Systems
         raise("unrecognised line [#{line}]")
       end
     }
-##    $stderr.puts("#{total_uses} uses of non-'vref' refrences") if total_uses > 0
+    $stderr.puts("#{total_uses} uses of non-'vref' refrences") if total_uses > 0
 
     return systems
   end

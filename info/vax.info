@@ -849,7 +849,7 @@
 **Def-lref{1} = ref{VAX-HW-HB-BI}
 **Def-lref{2} = ref{DTJ-V1-7}
 **Def-lref{3} = ref{DTJ-V2-2}
-**Announcement**htref{3}: April 1988
+**Announcement**vref{3}: April 1988
 **Codename**uref{*47}: Calypso
 **OS-support-VMS**uref{*9,*26}: V5.0
 **CPU-module**vref{2}: KA62A
@@ -862,21 +862,18 @@
 **XSID : 0231001
 **CPU-names: {VAX 6000 Model 210}{VAX 6000 Model 220}{VAX 6000 Model 230}{VAX 6000 Model 240}
 **CPU-technology**htref{1}: CMOS-2
-**CPU-chip**htref{2}: 78034 (CVAX)
-**FPU-chip**htref{2}: CFPA
-!**CPU-cycle**htref{2}: 80ns
-**CPU-cycle**vref{1}: 80ns
-!**Cache**htref{2}: 1KB
-**Cache**vref{1}: 1KB (80ns)
+**CPU-chip**vref{2}: 78034 (CVAX)
+**FPU-chip**vref{2}: CFPA
+**CPU-cycle**vref{1,2}: 80ns
+**Cache**vref{1,2}: 1KB (80ns)
 **Module: T2011
-!**Backup-cache**htref{2}: 256KB (160ns)
-**Backup-cache**vref{1}: 256KB (160ns)
+**Backup-cache**vref{1,2}: 256KB (160ns)
 **Instruction-buffer**vref{1}: 12 bytes
 **Translation-buffer**htref{1}: 28 entries
 **Control-store**vref{1}: 1.6K 41-bit words
 **Compatibility-mode: No
-**Console-processor: CPU
-**Console-device**htref{2}: TK50
+**Console-processor**vref{2}: CPU
+**Console-device**vref{2}: TK50
 **VUPs**vref{2}: {2.8} {5.5} {8.3} {11.0}
 !<!--
 ![2]
@@ -892,7 +889,7 @@
 !			1024ns per hexword read 
 !-->
 **Maximum-memory**vref{1,2}: 256MB
-**Memory-checking**htref{2}: 8-bit ECC/quadword
+**Memory-checking**vref{2}: 8-bit ECC/quadword
 **Max-I/O-throughput**vref{1}: 60MB/s
 **BUS-UNIBUS: 0 @ 1.5MB/s
 **BUS-vaxbi**vref{2}: 2-6 @ 13.3MB/s
@@ -918,6 +915,7 @@
 **Def-lref{1} = ref{DTJ-V2-2}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{EK-624EA-MG-001}
+! vref{1} January 1989
 **Announcement**uref{*DU MAR-1989 [1]}: 24 January 1989
 **Codename**uref{*47}: Hyperion
 **OS-support-VMS**uref{*26,*102}: V5.1
@@ -931,7 +929,7 @@
 **XSID : 02800201
 **Num-proc: 1-6
 **CPU-names: {VAX 6310}{VAX 6320}{VAX 6330}{VAX 6340}{VAX 6350}{VAX 6360}
-**CPU-technology**htref{1}: CMOS-2
+**CPU-technology**vref{1}: CMOS-2
 **CPU-clock: @@
 **CPU-cycle**uref{*7,*52,*83}: 60ns
 !**Cache**uref{*7,*52,*83}: 1KB
@@ -952,6 +950,7 @@
 !Bus details: &		2-6xVAXBI (6310-6340) \\		% [7]
 ! &			2-4xVAXBI (6350-6360) \\		% [7]
 !-->
+! vref{1} says 3.8 VUPs for 6310
 **VUPs**htref{2}: {3.8} {7.5} {11.3} {15.0} {18.6} {22.0}
 **Max-I/O-throughput**uref{*7}: 60MB/s
 **BUS-vaxbi: 2-4 @ 13.3MB/s
@@ -963,10 +962,10 @@
 **Heat-dissipation: 5440 BTU/hr
 **Power-end{6300}
 **Dimensions-start{6300}
-**Height**htref{1}: 1540mm
-**Width**htref{1}:   780mm
-**Depth**htref{1}:   760mm
-**Weight**htref{1}:  318kg
+**Height: 1540mm
+**Width:   780mm
+**Depth:   760mm
+**Weight:  318kg
 **Dimensions-end{6300}
 **End-systems-entry{VAX6300}
 
@@ -988,17 +987,18 @@
 **XSID : 02400101
 **Num-proc: 1-6
 **CPU-names: {VAX 6410}{VAX 6420}{VAX 6430}{VAX 6440}{VAX 6450}{VAX 6460}
-**FPU-chip**htref{1}: F-chip (DC523)
-**CPU-chip**htref{1}: REX520 (DC520)
-**CPU-technology**htref{1}: CMOS-2
-**CPU-clock**htref{1}: 143MHz
-**CPU-cycle**htref{1}: 28ns
-**Cache**htref{1}: 2KB
-**Backup-cache**htref{1}: 128KB (56ns)
+**FPU-chip**vref{1}: F-chip (DC523)
+**CPU-chip**vref{1}: REX520 (DC520)
+**CPU-technology**vref{1}: CMOS-2
+**CPU-clock**vref{1}: 143MHz
+**CPU-cycle**vref{1}: 28ns
+**Cache**vref{1}: 2KB
+!  (56ns) was claimed for Bcache but does not seem to be state in {1}
+**Backup-cache**vref{1}: 128KB
 ! [1] does not mention 56ns
-**Instruction-buffer**htref{1}: 16 bytes
-**Translation-buffer**htref{1}: 64 entries
-**Control-store**htref{1}: 1696 words
+**Instruction-buffer**vref{1}: 16 bytes
+**Translation-buffer**vref{1}: 64 entries
+**Control-store**vref{1}: 1696 words
 **Gate-delay: 500ps:(typical)
 **Compatibility-mode: No
 **Console-processor: CPU
@@ -2043,23 +2043,23 @@
 **def-lref{1} = ref{SOC-SPR90}
 **def-lref{2} = ref{DTJ-V2-4}
 **def-lref{3} = ref{EK-9000S-SP.004}
-**Announcement**htref{2}: 24 October 1989
-! [2] states oct  1989
+! vref{2} states oct  1989
+**Announcement**vref{2}: 24 October 1989
 **Codename: Aquarius
 **Html-target: vax9000
 **OS-support-VMS: VMS V5.4-OA
 **CPU-module: KA9000
 **Num-proc: 1
 **CPU-names: {VAX 9210}
-**CPU-technology**htref{2}: ECL (MCA III)
-**Gate-delay**htref{2}: 175 ps
-**CPU-cycle**htref{2}: 16ns
-**Instruction-buffer**htref{2}: 9 bytes
-**Cache**htref{2}: 8KB VIC
-**Backup-cache**htref{2}: 128KB
+**CPU-technology**vref{2}: ECL (MCA III)
+**Gate-delay**vref{2}: 175 ps
+**CPU-cycle**vref{2}: 16ns
+**Instruction-buffer**vref{2}: 9 bytes
+**Cache**vref{2}: 8KB VIC
+**Backup-cache**vref{2}: 128KB
 **Compatibility-mode: No
-**Console-processor**htref{2}: SPU (78032 based)
-**Console-device**htref{2}: RD54
+**Console-processor**vref{2}: SPU (78032 based)
+**Console-device**vref{2}: RD54
 **Minimum-memory**htref{1}: 256MB
 **Maximum-memory**htref{1}: 512MB
 ! NB 430/440: 512MB fixed
@@ -2113,8 +2113,8 @@
 **def-lref{1} = ref{SOC-SPR90}
 **def-lref{2} = ref{DTJ-V2-4}
 **def-lref{3} = ref{EK-9000S-SP.004}
-**Announcement**htref{2}: 24 October 1989
-! [2] states oct  1989
+! vref{2} states oct  1989
+**Announcement**vref{2}: 24 October 1989
 **Codename: Aquarius
 **Html-target: vax9000
 **OS-support-VMS: VMS V5.4-1
@@ -2122,15 +2122,15 @@
 **CPU-module: KA9000
 **Num-proc: 1-4
 **CPU-names: {VAX 9410}{VAX 9420}{VAX 9430}{VAX 9440}
-**CPU-technology**htref{2}: ECL (MCA III)
-**Gate-delay**htref{2}: 175 ps
-**CPU-cycle**htref{2}: 16ns
-**Instruction-buffer**htref{2}: 9 bytes
-**Cache**htref{2}: 8KB VIC
-**Backup-cache**htref{2}: 128KB
+**CPU-technology**vref{2}: ECL (MCA III)
+**Gate-delay**vref{2}: 175 ps
+**CPU-cycle**vref{2}: 16ns
+**Instruction-buffer**vref{2}: 9 bytes
+**Cache**vref{2}: 8KB VIC
+**Backup-cache**vref{2}: 128KB
 **Compatibility-mode: No
-**Console-processor**htref{2}: SPU (78032 based)
-**Console-device**htref{2}: RD54
+**Console-processor**vref{2}: SPU (78032 based)
+**Console-device**vref{2}: RD54
 **Minimum-memory**htref{1}: 256MB
 **Maximum-memory**htref{1}: 512MB
 ! NB 430/440: 512MB fixed
@@ -2733,11 +2733,11 @@
 **XSID : 01010000
 **Num-proc: 1
 **CPU-technology**vref{2}: ZMOS
-**CPU-chip**htref{4}: 78032
-**CPU-cycle**htref{4}: 200ns
-**Instruction-buffer**htref{4}: 8 bytes
-**Translation-buffer**htref{4}: 8 entries
-**Cache**htref{4}: None
+**CPU-chip**vref{4}: 78032
+**CPU-cycle**vref{4}: 200ns
+**Instruction-buffer**vref{4}: 8 bytes
+**Translation-buffer**vref{4}: 8 entries
+**Cache**vref{4}: None
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: RX50 or TK50
@@ -3044,7 +3044,7 @@
 **Codename**uref{*47}: Mayfair
 **OS-support-VMS**uref{*26}: V4.7A
 **OS-support-ULTRIX**htref{4}: ULTRIX V2.2
-**CPU-module: KA650
+**CPU-module**vref{3}: KA650
 **Module: M7620
 **Firmware-version**uref{personally verified}: V5.3
 **CPU-name-VMS**uref{*2}: KA650
@@ -3054,18 +3054,18 @@
 **SID: 0A000005
 **XSID : 01530101
 **Num-proc: 1
-**CPU-technology**htref{2}: CMOS
-**CPU-chip**htref{3}: 78034 (CVAX)
+**CPU-technology**vref{2}: CMOS
+**CPU-chip**vref{3}: 78034 (CVAX)
 **FPU-chip: 78132
-**CPU-cycle**htref{3}: 90ns
-**Instruction-buffer**htref{3}: 12 bytes
-**Translation-buffer**htref{3}: 28 entries
-**Cache**htref{3}: 1KB
-**Backup-cache**htref{3}: 64KB (180ns)
+**CPU-cycle**vref{3}: 90ns
+**Instruction-buffer**vref{3}: 12 bytes
+**Translation-buffer**vref{3}: 28 entries
+**Cache**vref{3}: 1KB (90ns)
+**Backup-cache**vref{3}: 64KB (180ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**htref{3}: 2.7
+**VUPs: 2.7
 **Minimum-memory**uref{*7}: 2MB
 ! vref{1} gives 32MB
 **Maximum-memory**uref{*7}: 64MB
@@ -3415,15 +3415,14 @@
 **FRS-date: May 1986					
 **Codename**uref{*102}: Flounder
 **OS-support-VMS**uref{*26}: VMS V4.4
-**Num-proc**htref{3}: 1
-**CPU-technology**htref{3}: ECL Gate Array
-!**CPU-cycle**htref{3}: 45ns
-**CPU-cycle**vref{1}: 45ns
-**Instruction-buffer**htref{3}: 16 bytes
-**Translation-buffer**htref{3}: 1024 entries
-**WCS**htref{3}: 15K 143-bit words
-**UWCS**htref{3}: 1K 143-bit words
-**Cache**htref{3}: 64KB
+**Num-proc**vref{3}: 1
+**CPU-technology**vref{3}: ECL Gate Array
+**CPU-cycle**vref{1,3}: 45ns
+**Instruction-buffer**vref{3}: 16 bytes
+**Translation-buffer**vref{3}: 1024 entries
+**WCS**vref{3}: 15K 143-bit words
+**UWCS**vref{3}: 1K 143-bit words
+**Cache**vref{3}: 64KB
 **Compatibility-mode: No
 **Console-processor: PRO 380
 **Console-device: None
@@ -3431,7 +3430,7 @@
 **Minimum-memory**uref{*6}: 16MB
 **Maximum-memory: 320MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
-**Max-I/O-throughput**htref{3}: 16MB/s
+**Max-I/O-throughput**vref{3}: 16MB/s
 !-- 8500/8530:
 !Memory cycle: & 	1260/495ns per 256-bit hexaword read \\ % [133]
 !			540/270ns per 128-bit octaword write \\ % [133]
@@ -3468,22 +3467,22 @@
 **OS-support-VMS**uref{*26}: VMS V4.6
 **SID: 0683536D
 **XSID : 070009F9
-**Num-proc**htref{3}: 1
-**CPU-technology**htref{3}: ECL Gate Array
-**CPU-cycle**htref{1}: 45ns
-**Instruction-buffer**htref{1}: 16 bytes
-**Translation-buffer**htref{3}: 1024 entries
+**Num-proc**htref{*3}: 1
+**CPU-technology**htref{*3}: ECL Gate Array
+**CPU-cycle**htref{*1}: 45ns
+**Instruction-buffer**htref{*1}: 16 bytes
+**Translation-buffer**htref{*3}: 1024 entries
 **WCS: 15K 143-bit words
-**UWCS**htref{1}: 1K 143-bit words
-**Cache**htref{3}: 64KB
+**UWCS**htref{*1}: 1K 143-bit words
+**Cache**htref{*3}: 64KB
 **Compatibility-mode: No
 **Console-processor: PRO 380
 **Console-device: None
-**VUPs**htref{2}: 4.0
+**VUPs**htref{*2}: 4.0
 **Minimum-memory**uref{*6}: 16MB
 **Maximum-memory: 320MB
-**Memory-checking**htref{1}: 7-bit ECC/longword
-**Max-I/O-throughput**htref{3}: 16MB/s
+**Memory-checking**htref{*1}: 7-bit ECC/longword
+**Max-I/O-throughput**htref{*3}: 16MB/s
 !-- 8500/8530:
 !Memory cycle: & 	1260/495ns per 256-bit hexaword read \\ % [133]
 !			540/270ns per 128-bit octaword write \\ % [133]
@@ -3494,18 +3493,18 @@
 !		540/270ns per 128-bit octaword write
 !		495/133ns per 32-bit longword write
 **BUS-UNIBUS**uref{*6}: 1 @ 1.5MB/s
-**BUS-VAXBI**htref{1}: 1-2 @ 13.3MB/s
-**LAN-support**htref{1}: standard
+**BUS-VAXBI**htref{*1}: 1-2 @ 13.3MB/s
+**LAN-support**htref{*1}: standard
 **Power-start{8530}
 **Supply: 415V 3-phase
-**Power**htref{1}: 3200W
-**Heat-dissipation**htref{1}: 12000 BTU/hr
+**Power**htref{*1}: 3200W
+**Heat-dissipation**htref{*1}: 12000 BTU/hr
 **Power-end{8530}
 **Dimensions-start{8530}
-**Height**htref{1}: 1520mm
-**Width**htref{1}: 685mm
-**Depth**htref{1}: 762mm
-**Weight**htref{1}: 295kg
+**Height**htref{*1}: 1520mm
+**Width**htref{*1}: 685mm
+**Depth**htref{*1}: 762mm
+**Weight**htref{*1}: 295kg
 **Dimensions-end{8530}
 **End-systems-entry{VAX8530}
 
@@ -3519,14 +3518,14 @@
 **Codename**uref{*102}: Skipjack
 **Html-target: vax8500
 **OS-support-VMS**uref{*26}: VMS V4.4
-**Num-proc**htref{3}: 1
-**CPU-technology**htref{3}: ECL Gate Array
-**CPU-cycle**htref{3}: 45ns
-**Instruction-buffer**htref{3}: 16 bytes
-**Translation-buffer**htref{3}: 1024 entries
-**WCS**htref{3}: 15K 143-bit words
-**UWCS**htref{1}: 1K 143-bit words
-**Cache**htref{3}: 64KB
+**Num-proc**vref{3}: 1
+**CPU-technology**vref{3}: ECL Gate Array
+**CPU-cycle**vref{3}: 45ns
+**Instruction-buffer**vref{3}: 16 bytes
+**Translation-buffer**vref{3}: 1024 entries
+**WCS**vref{3}: 15K 143-bit words
+**UWCS**vref{1}: 1K 143-bit words
+**Cache**vref{3}: 64KB
 **Compatibility-mode: No
 **Console-processor: PRO 380
 **Console-device: None
@@ -3534,7 +3533,7 @@
 **Minimum-memory**uref{*6}: 16MB
 **Maximum-memory**htref{2}: 320MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
-**Max-I/O-throughput**htref{3}: 16MB/s
+**Max-I/O-throughput**vref{3}: 16MB/s
 ! [2]
 !Memory cycle: 
 !		1260/495ns per 256-bit hexword read
@@ -3565,23 +3564,17 @@
 **Codename**uref{*37}: Nautilus
 **OS-support-VMS**uref{*26}: VMS V4.4
 **CPU-module: KA88
-**Num-proc**htref{3}: 1
-**CPU-technology**htref{3}: ECL Gate Array
-!**CPU-cycle**htref{3}: 45ns
-**CPU-cycle**vref{2}: 45ns
+**Num-proc**vref{3}: 1
+**CPU-technology**vref{3}: ECL Gate Array
+**CPU-cycle**vref{2,3}: 45ns
 !From [*37]:
 !	FDGH floating point standard
 !	143-bit microword, 16KB WCS, 1KB UWCS
-!**Instruction-buffer**htref{3}: 16 bytes
-**Instruction-buffer**vref{2}: 16 bytes
-!**Translation-buffer**htref{3}: 1024 entries
-**Translation-buffer**vref{2}: 1024 entries
-!**WCS**htref{3}: 15K 143-bit words
-**WCS**vref{2}: 15K 143-bit words
-!**UWCS**htref{3}: 1K 143-bit words
-**UWCS**vref{2}: 1K 143-bit words
-!**Cache**htref{3}: 64KB
-**Cache**vref{2}: 64KB
+**Instruction-buffer**vref{2,3}: 16 bytes
+**Translation-buffer**vref{2,3}: 1024 entries
+**WCS**vref{2,3}: 15K 143-bit words
+**UWCS**vref{2,3}: 1K 143-bit words
+**Cache**vref{2,3}: 64KB
 **Console-processor: PRO380
 **VUPs**htref{2}: 6
 **Minimum-memory**uref{*6}: 32MB
@@ -3591,7 +3584,7 @@
 !  	1260/495ns per 256-bit hexaword read
 !    	540/270ns per 128-bit octaword write
 ! 	495/135ns per 32-bit longword write
-**Max-I/O-throughput**htref{3}: 30MB/s
+**Max-I/O-throughput**vref{3}: Over 30MB/s
 **BUS-UNIBUS: 2 @ 1.5MB/s
 **BUS-VAXBI: 4 @ 13.3MB/s
 **LAN-support: optional
@@ -3624,18 +3617,17 @@
 **VMS-XCPU: 0
 **SID: 06045060
 **XSID : 000009F7
-**Num-proc**htref{3}: 2
-**CPU-technology**htref{3}: ECL Gate Array
-**CPU-cycle**htref{3}: 45ns
+**Num-proc**vref{3}: 2
+**CPU-technology**vref{3}: ECL Gate Array
+**CPU-cycle**vref{3}: 45ns
 !From [*37]:
 !	FDGH floating point standard
 !	143-bit microword, 16KB WCS, 1KB UWCS
-**Instruction-buffer**htref{3}: 16 bytes
-**Translation-buffer**htref{3}: 1024 entries
-**WCS**htref{3}: 15K 143-bit words
-**UWCS**htref{3}: 1K 143-bit words
-!**Cache**htref{3}: 64KB
-**Cache**vref{1}: 64KB
+**Instruction-buffer**vref{3}: 16 bytes
+**Translation-buffer**vref{3}: 1024 entries
+**WCS**vref{3}: 15K 143-bit words
+**UWCS**vref{3}: 1K 143-bit words
+**Cache**vref{1,3}: 64KB
 **Console-processor: PRO380
 **VUPs**vref{2}: 12
 **Minimum-memory**uref{*6}: 48MB
@@ -3645,7 +3637,7 @@
 !  	1260/495ns per 256-bit hexaword read
 !    	540/270ns per 128-bit octaword write
 ! 	495/135ns per 32-bit longword write
-**Max-I/O-throughput**htref{3}: 30MB/s
+**Max-I/O-throughput**vref{3}: Over 30MB/s
 **BUS-UNIBUS: 2 @ 1.5MB/s
 **BUS-VAXBI: 4 @ 13.3MB/s
 **LAN-support: optional
