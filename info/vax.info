@@ -668,20 +668,20 @@
 **Codename: Omega-F
 **OS-support-VMS**uref{SUE Apr 1992 pt II}: V5.5
 **OS-support-MDM**vref{3}: Release 139
-**CPU-module**htref{1}: KA690
-**Module**htref{2}: L4002-AA
+**CPU-module**vref{2}: KA690
+**Module**vref{2}: L4002-AA
 **CPU-name-VMS: KA690
 **CPU-name-console: KA690
 **Num-proc: 1
 **CPU-technology: CMOS-4
-**CPU-chip**htref{1}: NVAX
+**CPU-chip**vref{2}: NVAX (DC246)
 **CPU-clock**uref{SUE Apr 1992 pt II}: 83.3MHz
-**CPU-cycle**htref{1}: 12ns
+**CPU-cycle**vref{1}: 12ns
 **Instruction-buffer**uref{*138}: 16 bytes
 **Translation-buffer**uref{*138}: 96 entries
-**Cache**htref{1}: 2KB VIC
-**Primary-cache**htref{1}: 8KB physical
-**Backup-cache**htref{1}: 512KB
+**Cache**vref{1}: 2KB VIC
+**Primary-cache**vref{1}: 8KB physical
+**Backup-cache**vref{1}: 512KB
 ! *138,*145 state 36ns for Bcache
 **Compatibility-mode: No
 **Console-processor: CPU
@@ -691,7 +691,7 @@
 **TPC-A**uref{*145}: 103.0
 **Minimum-memory**uref{*SUE Apr 1992 pt II}: 64MB
 **Maximum-memory**uref{*145}: 512MB
-**BUS-Qbus**htref{1}: 1 @ 3.3MB/s
+**BUS-Qbus**vref{1}: 1 @ 3.3MB/s
 **BUS-DSSI: 2 @ 4.0MB/s (SHAC) plus 2 @ 1.1MB/s (KFQSA - optional)
 **LAN-support: 1 (embedded)
 **End-systems-entry{VAX4600}
@@ -1076,7 +1076,7 @@
 **Codename: Neptune
 **OS-support-VMS: V5.5
 **Module: T2054
-**CPU-module**htref{1}: KA66A
+**CPU-module**vref{1}: KA66A
 **CPU-name-VMS: KA66A
 **CPU-name-console: KA66A
 **VMS-CPU: 19
@@ -1085,19 +1085,19 @@
 **XSID : 02100101
 **Num-proc: 1-6
 **CPU-names: {VAX 6610}{VAX 6620}{VAX 6630}{VAX 6640}{VAX 6650}{VAX 6660}
-**CPU-chip**htref{1}: NVAX
+**CPU-chip**vref{1}: NVAX
 **Vector-processor: 
 **CPU-technology: 
 **CPU-clock**uref{*72}: 83MHz
 **CPU-cycle**htref{3}: 12ns
-**Cache**htref{1}: 2KB VIC
-**Primary-cache**htref{1}: 8KB physical
-**Backup-cache**htref{1}: 2MB
-**Instruction-buffer**htref{1}: 16 bytes
-**Translation-buffer**htref{1}: 96 entries
+**Cache**vref{1}: 2KB VIC
+**Primary-cache**vref{1}: 8KB physical
+**Backup-cache**vref{1}: 2MB
+**Instruction-buffer**vref{1}: 16 bytes
+**Translation-buffer**vref{1}: 96 entries
 **WCS: 
 **UWCS: 
-**Control-store**htref{1}: 1600 61-bit words
+**Control-store**vref{1}: 1600 61-bit words
 **Gate-delay: @@
 **Compatibility-mode: No
 **Console-processor: CPU
@@ -1116,9 +1116,10 @@
 !VAX 6000-660 & 150  &       &       & 196.9 & 143.9 & 242.7 \\	% [72]
 **SPECmarks**htref{3}: 40.5
 !!**Tpc-a**htref{3}: 83.6
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 1GB
-**Physical-address-lines**htref{1}: 32
+**Minimum-memory**vref{1}: 32MB
+!EK-VAXCT-CG-006 says 512MB
+**Maximum-memory: 512MB
+**Physical-address-lines**vref{1}: 32
 **Max-I/O-throughput**uref{*SUE Jul 1992 Spec}: 80MB/s
 **LAN-support: optional
 **Power-start{6600}
@@ -1844,7 +1845,7 @@
 **OS-support-VMS**htref{2}: VMS V4.5
 ! Flowchart has V4.6
 **OS-support-ULTRIX**htref{2}: ULTRIX V2.0
-!**CPU-module**htref{1}: KA825
+!**CPU-module**vref{1}: KA825
 **CPU-module**vref{3}: KA825
 **Module: T1001-YA
 **CPU-name-VMS: KA825
@@ -1857,11 +1858,12 @@
 **CPU-technology**vref{1}: ZMOS
 **CPU-chip**htref{2}: V11
 **CPU-clock**htref{2}: 50MHz
-**CPU-cycle**htref{2}: 160ns
-**Instruction-buffer**htref{1}: 8 bytes
+!**CPU-cycle**htref{2}: 160ns
+**CPU-cycle**vref{1}: 160ns
+**Instruction-buffer**vref{1}: 8 bytes
 **Translation-buffer**uref{%%SCORPIO:274.3}: 512 entries
-**Control-store**htref{1}: 15K 40-bit words
-**WCS**htref{1}: 1K 40-bit words
+**Control-store**vref{1}: 15K 40-bit words
+**WCS**vref{1}: 1K 40-bit words
 **Cache**vref{1}: 8KB (160ns)
 **Compatibility-mode: No
 **Console-processor: CPU
@@ -1869,7 +1871,7 @@
 **VUPs**vref{1}: 1.2
 **Minimum-memory**uref{*6}: 4MB
 **Maximum-memory**vref{1}: 128MB
-**Memory-checking**htref{1}: 7-bit ECC/longword
+**Memory-checking**vref{1}: 7-bit ECC/longword
 ! Memory cycle: 1600ns per 128-bit octaword read
 !		600 ns per 32-bit octaword write
 **Max-I/O-throughput**vref{1}: 13.3MB/s
@@ -1877,17 +1879,21 @@
 **BUS-VAXBI**uref{*6}: 1 @ 13.3MB/s
 **LAN-support: optional
 **Power-start{8250-8350}
-**Supply**htref{1}: 240V 1-phase
-**Power**htref{1}: 2000W
-**Heat-dissipation**htref{1}: 6800 BTU/hr
+**Supply**vref{1}: 240V 1-phase
+**Power**vref{1}: 2000W
+**Heat-dissipation**vref{1}: 6800 BTU/hr
 **Power-end{8250-8350}
 **Dimensions-start{8250-8350}
-**Height**htref{1}: 1060mm
-**Width**htref{1}: 540mm
-**Depth**htref{1}: 810mm
-**Weight**htref{1}: 260kg
-!-- [1] Rackmount box: 266.7mmHx482.6mmWx660.4mmD
+**Height**vref{1}: 1060mm
+**Width**vref{1}: 540mm
+**Depth**vref{1}: 810mm
+**Weight**vref{1}: 260kg
 **Dimensions-end{8250-8350}
+**Dimensions-start{8250-8350-R}
+**Height**vref{1}: 266.7mm
+**Width**vref{1}: 482.6mm
+**Depth**vref{1}: 660.4mm
+**Dimensions-end{8250-8350-R}
 **End-systems-entry{VAX8250}
 
 **Start-systems-entry{VAX8350}{VAX}{VAXBI}
@@ -1900,7 +1906,7 @@
 **OS-support-VMS**htref{2}: VMS V4.5
 ! Flowchart has V4.6
 **OS-support-ULTRIX**htref{2}: ULTRIX V2.0
-!**CPU-module**htref{1}: KA825
+!**CPU-module**vref{1}: KA825
 **CPU-module**vref{3}: KA825
 **Module: T1001-YA
 **CPU-name-VMS: KA825
@@ -1916,8 +1922,8 @@
 **CPU-cycle**htref{2}: 160ns
 **Instruction-buffer**htref{1}: 8 bytes
 **Translation-buffer**uref{%%SCORPIO:274.3}: 512 entries
-**Control-store**htref{1}: 15K 40-bit words
-**WCS**htref{1}: 1K 40-bit words
+**Control-store**vref{1}: 15K 40-bit words
+**WCS**vref{1}: 1K 40-bit words
 **Cache**vref{1}: 8KB (160ns)
 **Compatibility-mode: No
 **Console-processor: CPU
@@ -1925,7 +1931,7 @@
 **VUPs**vref{1}: 2.3
 **Minimum-memory**uref{*6}: 4MB
 **Maximum-memory**vref{1,3}: 128MB
-**Memory-checking**htref{1}: 7-bit ECC/longword
+**Memory-checking**vref{1}: 7-bit ECC/longword
 ! Memory cycle: 1600ns per 128-bit octaword read
 !		600 ns per 32-bit octaword write
 **Max-I/O-throughput**vref{1}: 13.3MB/s
@@ -1933,17 +1939,21 @@
 **BUS-VAXBI**uref{*6}: 1 @ 13.3MB/s
 **LAN-support: optional
 **Power-start{8250-8350}
-**Supply**htref{1}: 240V 1-phase
-**Power**htref{1}: 2000W
+**Supply**vref{1}: 240V 1-phase
+**Power**vref{1}: 2000W
 **Heat-dissipation**htref{1}: 6800 BTU/hr
 **Power-end{8250-8350}
 **Dimensions-start{8250-8350}
-**Height**htref{1}: 1060mm
-**Width**htref{1}: 540mm
-**Depth**htref{1}: 810mm
-**Weight**htref{1}: 260kg
-!-- [1] Rackmount box: 266.7mmHx482.6mmWx660.4mmD
+**Height**vref{1}: 1060mm
+**Width**vref{1}: 540mm
+**Depth**vref{1}: 810mm
+**Weight**vref{1}: 260kg
 **Dimensions-end{8250-8350}
+**Dimensions-start{8250-8350-R}
+**Height**vref{1}: 266.7mm
+**Width**vref{1}: 482.6mm
+**Depth**vref{1}: 660.4mm
+**Dimensions-end{8250-8350-R}
 **End-systems-entry{VAX8350}
 
 **Start-systems-entry{VAX88X0}{VAX}{VAXBI}
@@ -2217,7 +2227,7 @@
 ! Announce date is for  (VAXstation II/GPX)
 **Codename**uref{*126}: Caylith
 **OS-support-VMS: MicroVMS V4.1
-**CPU-module**htref{3}: KA630
+**CPU-module**vref{3}: KA630
 **Module**htref{3}: M7606
 **CPU-name-VMS**uref{*2}: KA630
 **CPU-name-console**uref{*2}: KA630-A
@@ -2238,7 +2248,7 @@
 **Console-device: None
 **VUPs**uref{*6} : 0.9
 **Minimum-memory**htref{3}: 2MB
-**On-board-memory**htref{3}: 1MB
+**On-board-memory**vref{3}: 1MB
 **Maximum-memory**uref{*6}: 16MB
 **Physical-address-lines: 30
 **Max-I/O-throughput**uref{*6}: 3.3MB/s
@@ -2279,37 +2289,39 @@
 **Power**htref{2}: 690W
 **Power-end{BA23-240V}
 
-!-- The dimensions in [1] and [2] are both completely incorrect
+!-- The dimensions in and [2] are both completely incorrect
 
 **Dimensions-start{BA123}
 **Label: BA123 enclosure
-**Height**htref{3}: 622mm
-**Width**htref{3}: 330mm
-**Depth**htref{3}: 700mm
+**Height**vref{1,3}: 622mm
+**Width**vref{1,3}: 330mm
+! vref{3} actually says 700mm
+**Depth**vref{1,3}: 699mm
+**Weight**vref{3}: 59kg
 **Dimensions-end{BA123}
 
 **Dimensions-start{BA23F}
 **Label: BA23 floorstanding
-**Height**htref{4}: 624mm
-**Width**htref{4}: 254mm
-**Depth**htref{4}: 726mm
-**Weight**htref{4}: 31.75kg
+**Height**vref{2,4}: 642mm
+**Width**vref{2,4}: 254mm
+**Depth**vref{2,4}: 726mm
+**Weight**vref{2,4}: 31.75kg
 **Dimensions-end{BA23F}
 
 **Dimensions-start{BA23T}
 **Label: BA23 tabletop
-**Height**htref{4}: 177mm
-**Width**htref{4}: 562mm
-**Depth**htref{4}: 726mm
-**Weight**htref{4}: 29.5kg
+**Height**vref{2,4}: 177mm
+**Width**vref{2,4}: 562mm
+**Depth**vref{2,4}: 726mm
+**Weight**vref{2,4}: 29.5kg
 **Dimensions-end{BA23T}
 
 **Dimensions-start{BA23R}
-**Label: BA23 floorstanding
-**Height**htref{4}: 133mm
-**Width**htref{4}: 482.5mm
-**Depth**htref{4}: 643mm
-**Weight**htref{4}: 24.0kg
+**Label: BA23 rackmount
+**Height**vref{4}: 133mm
+**Width**vref{4}: 482.5mm
+**Depth**vref{4}: 643mm
+**Weight**vref{4}: 24.0kg
 **Dimensions-end{BA23R}
 !<TR> <TD COLSPAN=2> <B> Internal options </B> </TR>
 !**<A HREF="../baords/vcb01.html">  VCB01 </A> <TD> Monochrome Video controller		</TR>
@@ -2830,9 +2842,8 @@
 **def-lref{4} = ref{EK-A0513-MG.001}
 **Codename: Waverly
 **OS-support-VMS: V5.5
-! vref{1} KA45
-!**CPU-module**htref{1,2}: KA45
-**CPU-module**vref{2}: KA45
+!**CPU-module**vref{2}: KA45
+**CPU-module**vref{1}: KA45
 **Firmware-version**uref{personally verified}: V1.4
 **CPU-name-VMS**uref{*2}: KA440
 **CPU-name-console**uref{*2}: KA45-A
@@ -2841,9 +2852,8 @@
 **SID: 14000006
 **XSID : 04010001
 **Num-proc: 1
-! {1} vref for DC222
-!**CPU-chip**htref{1,2}: DC222 (SOC)
-**CPU-chip**vref{2}: DC222 (SOC)
+!**CPU-chip**htref{2}: DC222 (SOC)
+**CPU-chip**vref{1}: DC222 (SOC)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
@@ -2873,15 +2883,15 @@
 
 **Power-start{3140-220V}
 **Label: Model 40
-**Supply**htref{1}: 220V 1-phase
-**I-max**htref{1}: 0.6A
-**Power**htref{1}: 120W
+**Supply**vref{2}: 220V 1-phase
+**I-max**vref{2}: 0.6A
+**Power**vref{2}: 120W
 **Power-end{3140-220V}
 **Power-start{3140-110V}
 **Label: Model 40
-**Supply**htref{1}: 110V 1-phase
-**I-max**htref{1}: 1.2A
-**Power**htref{1}: 120W
+**Supply**vref{2}: 110V 1-phase
+**I-max**vref{2}: 1.2A
+**Power**vref{2}: 120W
 **Power-end{3140-110V}
 
 **Dimensions-start{3130}
@@ -2894,10 +2904,10 @@
 
 **Dimensions-start{3140}
 **Label: Model 40
-**Height**htref{1}: 100.3mm
-**Width **htref{1}: 463.8mm
-**Depth **htref{1}: 400.0mm
-**Weight**htref{1}: 11.4kg
+**Height**vref{2}: 100.3mm
+**Width **vref{2}: 463.8mm
+**Depth **vref{2}: 400.0mm
+**Weight**vref{2}: 11.4kg
 **Dimensions-end{3140}
 !<TR> <TD COLSPAN=2> <B> Internal controllers </B> </TR>
 !**<A HREF="../boards/dhw41.html">   DHW41 </A> <TD> Asynchronous Interface		</TR>
@@ -3133,11 +3143,11 @@
 **CPU-chip**htref{1}: CVAX
 **FPU-chip**htref{1}: CFPA
 **CPU-clock**htref{1}: 33MHz
-**CPU-cycle**htref{1}: 60ns
-**Instruction-buffer**htref{1}: 8 bytes
-**Translation-buffer**htref{1}: 28 entries
-**Cache**htref{1}: 1KB
-**Backup-cache**htref{1}: 64KB (120ns)
+**CPU-cycle**vref{1}: 60ns
+**Instruction-buffer**vref{1}: 12 bytes
+**Translation-buffer**vref{1}: 28 entries
+**Cache**vref{1}: 1KB
+**Backup-cache**vref{1}: 64KB (120ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
