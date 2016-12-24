@@ -3,15 +3,14 @@
 **Def-lref{2} = ref{EK-11005-TM-003}
 **Sys-name: PDP-11/05-S and PDP-11/10-S
 **CPU-module**vref{1}: KD11-B
-**CPU-cycle**htref{1}: 310ns
+**CPU-cycle**htref{**1}: 310ns
 **Console-speed**vref{1}: 110-2400 baud
 **Bus-UNIBUS**vref{1}: 1
-**Minimum-memory**htref{2}: 16KB
-!**Maximum-memory**htref{2}: 64KB
-**Maximum-memory**vref{1}: 56KB
-**Physical-address-lines**htref{2}: 16
-**Memory-cycle**htref{2}: 900ns
-!**Memory-access**htref{2}: 400ns
+**Minimum-memory**vref{2}: 16KB (8KW)
+**Maximum-memory**vref{1}: 56KB (28KW)
+**Physical-address-lines**vref{2}: 16
+**Memory-cycle**vref{2}: 900ns
+!**Memory-access**vref{2}: 400ns
 !    vref{1}:
 !	KD11-B consists of
 !		M7620 Data Path Module
@@ -58,16 +57,16 @@
 **Start-systems-entry{PDP1140}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-02613-75}
 **Sys-name: PDP-11/35 and PDP-11/40
-!
+! vref{1}
 !The PDP-11/35 and PDP-11/40 are identical systems; the PDP-11/35 is
 !intended for OEMs, whereas the PDP-11/40 is for end-users.
 !
-**CPU-module**htref{1}: KD11-A
-**Console-speed**htref{1}: 2400 baud max
-**Bus-UNIBUS**htref{1}: 1
-**Minimum-memory**htref{1}: 16KB
-**Maximum-memory**htref{1}: 256KB
-**Physical-address-lines**htref{1}: 18
+**CPU-module**vref{1}: KD11-A
+**Console-speed**htref{**1}: 2400 baud max
+**Bus-UNIBUS**vref{1}: 1
+**Minimum-memory**vref{1}: 16KB (8KW)
+**Maximum-memory**vref{1}: 248KB (124KW)
+**Physical-address-lines**htref{**1}: 18
 !--
 !ref_1:
 !	KE11-E EIS (M7238, HEX)
