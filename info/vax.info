@@ -14,6 +14,7 @@
 **Start-systems-entry{VAX4100}{VAX}{VAX4000}
 **Def-lref{1} = ref{EK-467AA-TI.A01}
 **Def-lref{2} = ref{EK-473AB-MG.C01}
+**def-lref{3} = ref{EK-VAXCT-CG-006}
 **Sys-name: VAX 4000-100/100A
 **Desc-name: VAX 4000 Model 100/100A
 **OS-support-VMS**vref{1}: V5.5-1HN
@@ -36,12 +37,13 @@
 **Instruction-buffer**vref{1} : 16 bytes
 **Translation-buffer**vref{1} : 96 entries
 ! Looked but cannot find VIC reference in vref{2}. Also checked vref{1} with no luck.
-**Cache**htref{2}: 2KB VIC
+**Cache**htref{**2}: 2KB VIC
 **Primary-cache**vref{1}: 8KB physical
 **Backup-cache**vref{1}: 128KB (42ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
+**VUPs**vref{3}: 24
 **Minimum-memory**vref{1}: 16MB
 **Maximum-memory**vref{1}: 128MB
 **Max-I/O-throughput: 1200 IO/s
@@ -77,6 +79,7 @@
 **Def-lref{3} = ref{CU-V5-4A}
 **Def-lref{4} = ref{CU-V6-4A}
 **Def-lref{5} = ref{CU-V8-1B}
+! This corroborated by web newspaper articles. uv3100-95 on the same day.
 **Announcement**htref{3}: 12 April 1994
 **Html-target: vax410x
 **OS-support-VMS**lref{3}: VMS V5.5-2H4 and VMS V6.1 onwards
@@ -108,7 +111,7 @@
 **Maximum-memory**vref{1}: 128MB
 ! <!-- [1]: SIMMS in sets of four, two sets max: MS44L-BC and MS44-DC -->
 ! Cannot find explicit mention of Q-bus, although it is in some diagrams.
-**BUS-Qbus**htref{1}: 1 @ 3.3MB/s (optional)
+**BUS-Qbus**vref{1}: 1 @ 3.3MB/s (optional)
 **BUS-SCSI**vref{1}: 1
 **BUS-DSSI**vref{1}: 1-2
 **LAN-support**vref{1}: 1 embedded
@@ -177,7 +180,7 @@
 **TPC-A**htref{4}: 215:(e)
 **Minimum-memory**vref{1}: 16MB
 **Maximum-memory**vref{1}: 128MB
-**BUS-Qbus**htref{1}: 1 @ 3.3MB/s (optional)
+**BUS-Qbus**vref{1}: 1 @ 3.3MB/s (optional)
 **BUS-SCSI**vref{1}: 1
 **BUS-DSSI**vref{1}: 1-2
 **LAN-support**vref{1}: 1 embedded
@@ -209,8 +212,8 @@
 **Def-lref{4} = ref{CU-V6-4A}
 **Def-lref{5} = ref{CU-V8-1B}
 **Def-lref{6} = ref{Personally-verified}
-**Announcement**htref{6}: 8 October 1996
-**FRS-date**htref{6}: 15 November 1996
+**Announcement**vref{6}: 8 October 1996
+**FRS-date**vref{6}: 15 November 1996
 **OS-support-VMS: VMS V5.5-2H4
 **Codename: Catamount
 **Html-target: vax410x
@@ -235,6 +238,7 @@
 **def-lref{2} = ref{EK-396AB-TM-002}
 **def-lref{3} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{4} = ref{EC-N0377-46}
+**def-lref{5} = ref{EK-VAXCT-CG-006}
 **Sys-name: VAX 4000-200
 **Desc-name: VAX 4000 Model 200
 **Codename: Spitfire
@@ -253,7 +257,7 @@
 **Num-proc: 1
 **CPU-chip**vref{1}: SOC (DC222)
 **CPU-clock-rate**vref{2}: 114MHz
-**CPU-cycle**htref{2}: 28ns
+**CPU-cycle**vref{2}: 28ns
 ! <!-- *58 *83  have 35ns -->
 **Instruction-buffer**vref{2} : 12 bytes
 **Translation-buffer**vref{1} : 28 entries
@@ -262,11 +266,13 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**htref{3}: 5
-**SPECmarks**htref{4}: 4.8
+!**VUPs**htref{3}: 5
+**VUPs**vref{5}: 5.0
+!**SPECmarks**htref{4}: 4.8
+**SPECmarks**vref{5}: 5.6
 **TPC-A**uref{*SUE APR 1992 pt III}: 17.8
 **Minimum-memory**vref{1}: 8MB
-**Maximum-memory**vref{1}: 64MB
+**Maximum-memory**vref{1,5}: 64MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
 ! <!-- [1] MS650-BA 16MB or MS650-BB 8MB, 1MB 120ns DRAMs quad height 7-bit ECC/longword -->
 ! <!-- *58: MS650-AA too slow. MS650-BB is 8MB one embedded SHAC, two optional KFQSA -->
@@ -304,6 +310,7 @@
 **def-lref{2} = ref{EK-337AA-TI-001}
 **def-lref{3} = ref{EK-387AA-SP-001}
 **def-lref{4} = ref{CPU-UPGR-SPRING-1992}
+**def-lref{5} = ref{EK-VAXCT-CG-006}
 **Sys-name: VAX 4000-300
 **Desc-name: VAX 4000 Model 300
 **Codename: Pele
@@ -331,14 +338,15 @@
 **Compatibility-mode**vref{1}: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**htref{1}: 8
-**SPECmarks**htref{4}: 9.1
+**VUPs**vref{1,5}: 8
+!**SPECmarks**htref{4}: 9.1
+**SPECmarks**vref{5}: 9.1
 **TPC-A**uref{*SUE APR 1992 pt II}: 31.9
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 512MB
+**Minimum-memory**vref{1}: 32MB
+**Maximum-memory**vref{1}: 512MB
 ! <!-- [1] KA670 can use up to 4 MS670 modules. MS670-BA is 32MB 100ns using 1MB DRAM -->
 ! <!-- *107 392ns/756ns per 128-bit read, 308ns/504ns per 128-bit write, 399ns/504ns per 32-bit write -->
-**BUS-Qbus**htref{1}: 1 @ 3.3MB/s
+**BUS-Qbus**vref{1}: 1 @ 3.3MB/s
 **BUS-DSSI**vref{1}: 2 @ 4.0MB/s (SHAC embedded)
 !!**BUS-DSSI**uref{*28}: 2 optional
 **LAN-support**vref{1}: 1 (SGEC - embedded) (DC541)
@@ -401,6 +409,7 @@
 **Start-systems-entry{VAX4400}{VAX}{VAX4000}
 **def-lref{1} = ref{EK-KA680-UP.C01}
 **def-lref{2} = ref{EK-454AA-MG-001}
+**def-lref{3} = ref{EK-VAXCT-CG-006}
 **Sys-name: VAX 4000-400
 **Desc-name: VAX 4000 Model 400
 **Announcement**uref{SUE Jul 1992 Special}: 7 July 1992
@@ -422,27 +431,25 @@
 **Num-proc: 1
 **CPU-technology**uref{*SUE Jul 1992 Spec}: CMOS-4
 **CPU-chip**vref{2}: NVAX (DC246)
-!**CPU-cycle**htref{1}: 16ns
-**CPU-cycle**vref{2}: 16ns
+**CPU-cycle**vref{1,2}: 16ns
 **Instruction-buffer: 16 bytes
 **Translation-buffer: 96 entries
 ! vref{2} states 64 but NVAX has 96??
-**Cache**htref{1}: 8KB physical
+**Cache**vref{1}: 8KB physical
 ! vref{2}=> VIC disabled
-!**Secondary-Cache**htref{1}: 128KB
-**Secondary-Cache**vref{2}: 128KB
+**Secondary-Cache**vref{1,2}: 128KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**uref{*145}: 16
+!**VUPs**uref{*145}: 16
+**VUPs**vref{3}: 16
 **SPECmarks**uref{*145}: 22.3
 **TPC-A: 51
 **Minimum-memory**vref{2}: 32MB
-**Maximum-memory**vref{2}: 512MB
+**Maximum-memory**vref{2,3}: 512MB
 **Physical-address-lines: 30
 **BUS-Qbus: 1 @ 3.3MB/s
-!**BUS-DSSI**htref{1}: 2 @ 4.0MB/s (embedded)
-**BUS-DSSI**vref{2}: 2 @ 4.0MB/s (embedded)
+**BUS-DSSI**vref{1,2}: 2 @ 4.0MB/s (embedded)
 **LAN-support: 1 (embedded)
 **Power-start{4400-240V}
 **Supply: 120V 1-phase
@@ -457,6 +464,7 @@
 **def-lref{5} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{6} = ref{CU-V5-8B}
 **def-lref{7} = ref{4500-6600-PERF-SUMM}
+**def-lref{8} = ref{EK-VAXCT-CG-006}
 **Sys-name**vref{1}: VAX 4000-500
 **Desc-name: VAX 4000 Model 500
 **Announcement**uref{*2}: 30 October 1991
@@ -475,8 +483,8 @@
 **CPU-technology: CMOS-4
 **CPU-chip**vref{1}: NVAX (DC246)
 **CPU-clock**uref{139a}: 71MHz
-**CPU-cycle**htref{4}: 14ns
-**Instruction-buffer**htref{1}: 16 bytes
+**CPU-cycle**vref{4}: 14ns
+**Instruction-buffer**vref{1}: 16 bytes
 **Translation-buffer**vref{1}: 96 entries
 **Cache**vref{1}: 2KB VIC
 **Primary-cache**vref{1}: 8KB physical
@@ -484,8 +492,10 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**htref{5}: 24
-**SPECmarks**htref{7}: 30.5
+!**VUPs**htref{5}: 24
+**VUPs**vref{8}: 24
+!**SPECmarks**htref{7}: 30.5
+**SPECmarks**vref{8}: 30.5
 **TPC-A**htref{7}: 62.4
 !**Minimum-memory**uref{*72}: 32MB
 **Minimum-memory**vref{4}: 32MB
@@ -578,10 +588,8 @@
 **Html-target: vax450x
 **OS-support-VMS**vref{3}: V5.5-2H4, VMS V6.1 or later
 **OS-support-MDM**vref{3}: Release 139
-!**CPU-module**htref{2}: KA681
-**CPU-module**vref{3}: KA681-AA
-!**Module**htref{2}: L4005-BA
-**Module**vref{3}: L4005-BA
+**CPU-module**vref{2,3}: KA681-AA
+**Module**vref{2,3}: L4005-BA
 **VMS-CPU: 19
 **VMS-XCPU: 5
 **SID: 13000202
@@ -592,20 +600,18 @@
 **CPU-cycle**vref{2}: 14ns
 **Instruction-buffer**vref{3}: 16 bytes
 **Translation-buffer**vref{3}: 96 entries
-!**Cache**htref{2}: 2KB VIC
-**Cache**vref{3}: 2KB VIC
-!**Primary-cache**htref{2}: 8KB physical
-**Primary-cache**vref{3}: 8KB physical
+**Cache**vref{2,3}: 2KB VIC
+**Primary-cache**vref{2,3}: 8KB physical
 **Backup-cache**vref{3}: 128KB (56ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **TPC-A**htref{6}: 116
-**Minimum-memory**htref{2}: 32MB
-**Maximum-memory**htref{2}: 512MB
+**Minimum-memory**vref{2}: 32MB
+**Maximum-memory**vref{2}: 512MB
 ! vref{3} 1x ethernet, 2xDSSI
 **BUS-Qbus**htref{1}: 1 @ 3.3MB/s
-**BUS-DSSI**htref{2}: 2-4 @ 4.0MB/s (SHAC)
+**BUS-DSSI**vref{2}: 2-4 (SHAC)
 **LAN-support**htref{1}: 1 (SGEC - embedded)
 
 **End-systems-entry{VAX4500A}
@@ -624,30 +630,27 @@
 **Announcement**htref{6}: 15 August 1994
 **OS-support-VMS**vref{3}: V5.5-2H4, VMS V6.1 or later
 **OS-support-MDM**vref{3}: Release 139
-!**CPU-module**htref{2}: KA691
+!**CPU-module**vref{2}: KA691
 **CPU-module**vref{3}: KA691
-!**Module**htref{2}: L4005-AA
+!**Module**vref{2}: L4005-AA
 **Module**vref{3}: L4005-AA
 **Num-proc: 1
 **CPU-technology: CMOS-4
 **CPU-clock**vref{3}: 333MHz
-!**CPU-cycle**htref{2}: 12ns
-**CPU-cycle**vref{3}: 12ns
+**CPU-cycle**vref{2,3}: 12ns
 **Instruction-buffer**vref{3}: 16 bytes
 **Translation-buffer**vref{3}: 96 entries
-!**Cache**htref{2}: 2KB VIC
-**Cache**vref{3}: 2KB VIC
-!**Primary-cache**htref{2}: 8KB physical
-**Primary-cache**vref{3}: 8KB physical
+**Cache**vref{2,3}: 2KB VIC
+**Primary-cache**vref{2,3}: 8KB physical
 **Backup-cache**vref{3}: 512KB (36ns)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **TPC-A**htref{6}: 185
-**Minimum-memory**htref{2}: 32MB
-**Maximum-memory**htref{2}: 512MB
+**Minimum-memory**vref{2}: 32MB
+**Maximum-memory**vref{2}: 512MB
 **BUS-Qbus**htref{1}: 1 @ 3.3MB/s
-**BUS-DSSI**htref{2}: 2-4 @ 4.0MB/s (SHAC)
+**BUS-DSSI**vref{2}: 2-4 (SHAC)
 **LAN-support**htref{1}: 1 (SGEC - embedded)
 **End-systems-entry{VAX4505A}
 
@@ -661,6 +664,7 @@
 **def-lref{1} = ref{EK-KA680-UP.C01}
 **def-lref{2} = ref{EK-454AA-MG-001}
 **def-lref{3} = ref{EK-496AB-TI-B01}
+**def-lref{4} = ref{EK-VAXCT-CG-006}
 **Sys-name: VAX 4000-600A
 **Desc-name: VAX 4000 Model 600A
 **Announcement**uref{*SUE Jul 1992 Spec}: 7 July 1992
@@ -686,11 +690,14 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**uref{*145}: 32
-**SPECmarks**uref{*145}: 41.1
+!**VUPs**uref{*145}: 32
+**VUPs**vref{4}: 32
+!**SPECmarks**uref{*145}: 41.1
+**SPECmarks**vref{4}: 40.9
 **TPC-A**uref{*145}: 103.0
 **Minimum-memory**uref{*SUE Apr 1992 pt II}: 64MB
-**Maximum-memory**uref{*145}: 512MB
+!**Maximum-memory**uref{*145}: 512MB
+**Maximum-memory**vref{4}: 512MB
 **BUS-Qbus**vref{1}: 1 @ 3.3MB/s
 **BUS-DSSI: 2 @ 4.0MB/s (SHAC) plus 2 @ 1.1MB/s (KFQSA - optional)
 **LAN-support: 1 (embedded)
@@ -707,10 +714,9 @@
 **Html-target: vax470x
 **OS-support-VMS**vref{2}: V5.5-2H4, V6.1 or later
 **OS-support-MDM**vref{2}: Release 139
-!**CPU-module**htref{1}: KA692
+!**CPU-module**vref{1}: KA692
 **CPU-module**vref{2}: KA692-AA
-!**Module**htref{1}: L4006-AA
-**Module**vref{2}: L4006-AA
+**Module**vref{1,2}: L4006-AA
 **VMS-CPU: 19
 **VMS-XCPU: 5
 **SID: 13000202
@@ -719,8 +725,7 @@
 **CPU-technology: CMOS-4
 **CPU-chip: NVAX
 **CPU-clock**vref{2}: 333MHz
-!**CPU-cycle**htref{1}: 10ns
-**CPU-cycle**vref{2}: 10ns
+**CPU-cycle**vref{1,2}: 10ns
 **Instruction-buffer**vref{2}: 16 bytes
 **Translation-buffer**vref{2}: 96 entries
 **Cache**vref{2}: 2KB VIC
@@ -731,9 +736,9 @@
 **Console-device: None
 **TPC-A**htref{3}: 253
 **Maximum-memory: 512MB
-**BUS-Qbus**htref{1}: 1 @ 3.3MB/s
-**BUS-DSSI**htref{1}: 2-4 @ 4.0MB/s (SHAC)
-**LAN-support**htref{1}: 1 (embedded)
+**BUS-Qbus**vref{1}: 1 @ 3.3MB/s
+**BUS-DSSI**vref{1}: 2-4 (SHAC)
+**LAN-support**vref{1}: 1 (embedded)
 **End-systems-entry{VAX4700A}
 
 **Start-systems-entry{VAX4705A}{VAX}{VAX4000}
@@ -747,9 +752,7 @@
 **Announcement**htref{3}: 15 August 1994
 **OS-support-VMS**vref{2}: V5.5-2H4, V6.1 or later
 **OS-support-MDM**vref{2}: Release 139
-!**CPU-module**htref{1}: KA694
-**CPU-module**vref{2}: KA694-AA
-!**Module**htref{1}: L4006-BA
+**CPU-module**vref{1,2}: KA694-AA
 **Module**vref{1}: L4006-BA
 **VMS-CPU: 19
 **VMS-XCPU: 5
@@ -770,11 +773,11 @@
 **Console-device: None
 **VUPs**htref{3}: 45
 **TPC-A**htref{3}: 280
-**Minimum-memory**htref{3}: 64MB
-**Maximum-memory: 512MB
-**BUS-Qbus**htref{1}: 1 @ 3.3MB/s
-**BUS-DSSI**htref{1}: 2-4 @ 4.0MB/s (SHAC)
-**LAN-support**htref{1}: 1 (embedded)
+**Minimum-memory**vref{1}: 32MB
+**Maximum-memory**vref{1}: 512MB
+**BUS-Qbus**vref{1}: 1 @ 3.3MB/s
+**BUS-DSSI**vref{1}: 2-4 (SHAC)
+**LAN-support**vref{1}: 1 (embedded)
 !
 ! COLSPAN=2> <B> Internal controllers </B> </TR>
 ! <A HREF="../boards/kda50.html">   KDA50 </A> <TD> SDI Disk Controller			</TR>
@@ -852,7 +855,7 @@
 **Announcement**vref{3}: April 1988
 **Codename**uref{*47}: Calypso
 **OS-support-VMS**uref{*9,*26}: V5.0
-**CPU-module**vref{2}: KA62A
+**CPU-module**vref{1,2}: KA62A
 **CPU-name-VMS: KA62A
 **CPU-name-console: KA62A
 **Num-proc**vref{2}: 1-4
@@ -861,7 +864,8 @@
 **SID: 0A000003
 **XSID : 0231001
 **CPU-names: {VAX 6000 Model 210}{VAX 6000 Model 220}{VAX 6000 Model 230}{VAX 6000 Model 240}
-**CPU-technology**htref{1}: CMOS-2
+! Cannot find CMOS-2 reference
+**CPU-technology**htref{**1}: CMOS-2
 **CPU-chip**vref{2}: 78034 (CVAX)
 **FPU-chip**vref{2}: CFPA
 **CPU-cycle**vref{1,2}: 80ns
@@ -869,12 +873,12 @@
 **Module: T2011
 **Backup-cache**vref{1,2}: 256KB (160ns)
 **Instruction-buffer**vref{1}: 12 bytes
-**Translation-buffer**htref{1}: 28 entries
+**Translation-buffer**vref{1}: 28 entries
 **Control-store**vref{1}: 1.6K 41-bit words
 **Compatibility-mode: No
 **Console-processor**vref{2}: CPU
 **Console-device**vref{2}: TK50
-**VUPs**vref{2}: {2.8} {5.5} {8.3} {11.0}
+**VUPs**vref{1,2}: {2.8} {5.5} {8.3} {11.0}
 !<!--
 ![2]
 !			& VAX 6210 & VAX 6220	& VAX 6230 & VAX 6240\\ 
@@ -899,7 +903,7 @@
 **Power-start{6200}
 !**Supply**vref{1}: 208V (60Hz), 380V or 440V (50Hz)
 **Power**vref{1}: 1600W
-**Heat-dissipation**htref{1}: 5440 BTU/hr
+**Heat-dissipation**vref{1}: 5440 BTU/hr
 **Power-end{6200}
 **Dimensions-start{6200}
 **Height**vref{1}: 1540mm
@@ -915,6 +919,7 @@
 **Def-lref{1} = ref{DTJ-V2-2}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{EK-624EA-MG-001}
+**def-lref{4} = ref{EK-VAXCT-CG-006}
 ! vref{1} January 1989
 **Announcement**uref{*DU MAR-1989 [1]}: 24 January 1989
 **Codename**uref{*47}: Hyperion
@@ -951,7 +956,7 @@
 ! &			2-4xVAXBI (6350-6360) \\		% [7]
 !-->
 ! vref{1} says 3.8 VUPs for 6310
-**VUPs**htref{2}: {3.8} {7.5} {11.3} {15.0} {18.6} {22.0}
+**VUPs**htref{2,4}: {3.8} {7.5} {11.3} {15.0} {18.6} {22.0}
 **Max-I/O-throughput**uref{*7}: 60MB/s
 **BUS-vaxbi: 2-4 @ 13.3MB/s
 **BUS-XMI: 1 @ 100MB/s
@@ -975,6 +980,7 @@
 **Def-lref{1} = ref{DTJ-V2-2}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{EK-624EA-MG-001}
+**def-lref{4} = ref{EK-VAXCT-CG-006}
 **Announcement**uref{*44 [1]}: 11 July 1989
 **Codename**uref{*47}: Rigel
 **OS-support-VMS**uref{*26}: V5.2 
@@ -1003,7 +1009,7 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: TK70
-**VUPs**htref{2}: {7} {13} {19} {25} {31} {36}
+**VUPs**htref{2,4}: {7} {13} {19} {25} {31} {36}
 **SPECmarks**uref{*7}: 1
 **Physical-address-lines: 30
 **BUS-XMI: 1 @ 100MB/s
@@ -1016,9 +1022,10 @@
 **Def-lref{1} = ref{EK-650EA-TM-001}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{EC-N0377-46}
+**def-lref{4} = ref{EK-VAXCT-CG-006}
 **Announcement**uref{*48}: 25 October 1990
 **Codename: Mariah
-**OS-support-VMS**htref{1}: V5.4
+**OS-support-VMS**htref{**1}: V5.4
 ! Flowchart has V5.4-OA
 **OS-support-ULTRIX**uref{59}: V4.1
 **OS-support-ELN**uref{*74}: V4.3
@@ -1043,9 +1050,9 @@
 **Console-processor: CPU
 **Console-device: Unknown
 ! <!-- *52 384ns per 64-bit write 448ns per 128-bit write 640ns per 96-bit read 704ns per 96-bit write -->
-**VUPs: {13.0} {25.0} {37.0} {49.0} {61.0} {72.0}
-**SPECmarks**htref{1}: 13.2
-**Maximum-memory**htref{1}: 512MB
+**VUPs**vref{4}: {13.0} {25.0} {37.0} {49.0} {61.0} {72.0}
+**SPECmarks**htref{**1}: 13.2
+**Maximum-memory**htref{**1}: 512MB
 ! <!-- vref{1}: 2GB memory space -->
 **Physical-address-lines: @@
 **Memory-checking**uref{*52}: 8-bit ECC/quadword
@@ -1072,6 +1079,7 @@
 **Def-lref{1} = ref{EK-660EA-TM.001}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{4500-6600-PERF-SUMM}
+**def-lref{4} = ref{EK-VAXCT-CG-006}
 **Announcement**uref{*2}: 30 October 1991
 **Codename: Neptune
 **OS-support-VMS: V5.5
@@ -1136,6 +1144,7 @@
 **Sys-name: VAX-11/725
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
+**def-lref{3} = ref{SOCEE-SPR90}
 **Html-target: vax730
 **Announcement: October 1983		
 **Codename: Low Cost Nebula
@@ -1152,7 +1161,8 @@
 **Compatibility-mode**vref{1}: Yes
 **Console-processor**vref{1}: 8085A
 **Console-device: TU58
-**VUPs**htref{2}: 0.3
+!**VUPs**htref{2}: 0.3
+**VUPs**vref{3}: 0.3
 **Minimum-memory: 1MB
 **Maximum-memory: 3MB
 **Physical-address-lines**vref{1}: 24
@@ -1174,6 +1184,7 @@
 **Sys-name: VAX-11/730
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
+**def-lref{3} = ref{SOCEE-SPR90}
 **Announcement: April 1982
 **Codename: Nebula
 **OS-support-VMS: VMS V3.0
@@ -1189,9 +1200,10 @@
 **Compatibility-mode**vref{1}: Yes
 **Console-processor**vref{1}: 8085A
 **Console-device: TU58
-**VUPs**htref{2}: 0.3
-**Minimum-memory**htref{1}: 1MB
-**Maximum-memory**htref{1}: 5MB
+!**VUPs**htref{2}: 0.3
+**VUPs**vref{3}: 0.3
+**Minimum-memory**vref{1}: 1MB
+**Maximum-memory**htref{**1}: 5MB
 **Physical-address-lines**vref{1}: 24
 **Memory-checking**vref{1}: 7-bit ECC/longword
 **Memory-cycle**vref{1}: 810ns
@@ -1250,6 +1262,7 @@
 !<!-- NB VAX 11/751 is rack mount VAX-11/750 all same as 11/750 except for dimensions and power -->
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1}
 **def-lref{2} = ref{CPU-UPGR-SPRING-1992}
+**def-lref{3} = ref{SOCEE-SPR90}
 **Announcement**uref{DU JAN-1986}: 1980
 **Frs-date**uref{DU JAN-1986}: October 1980
 **Codename: Comet
@@ -1267,11 +1280,12 @@
 **Translation-buffer**vref{1}: 512 entries
 **WCS**vref{1}: 1K 80-bit words
 **Control-store**vref{1}: 6K 80-bit words
-**Compatibility-mode**htref{1}: Yes
+**Compatibility-mode**vref{1}: Yes
 **Console-processor: CPU
 **Console-device**vref{1}: TU58
-**VUPs**htref{2}: 0.6
-**Minimum-memory**htref{1}: 1MB
+!**VUPs**htref{2}: 0.6
+**VUPs**vref{3}: 0.6
+**Minimum-memory**vref{1}: 1MB
 **Maximum-memory**uref{*4}: 14MB
 **Physical-address-lines**uref{*82}: 24
 **Memory-checking**vref{1}: 7-bit ECC/longword
@@ -1281,15 +1295,15 @@
 ! memory cycle times from *82:
 !	800ns per 32-bit read, 640ns per 32-bit write, 400ns (effective) with cache
 !
-**Max-I/O-throughput**htref{1}: 5.0MB/s
+**Max-I/O-throughput**htref{**1}: 5.0MB/s
 **BUS-UNIBUS**uref{*82}: 1 @ 1.5MB/s
 **BUS-massbus**uref{*82}: 3@ 2.0MB/s
 **LAN-support: optional
 **Power-start{750}
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 15A
-**Power**htref{1}: 1700W
-**Heat-dissipation: 5800BTU/hr
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 15A
+**Power**vref{1}: 1700W
+**Heat-dissipation**vref{1}: 5800BTU/hr
 **Power-end{750}
 **Dimensions-start{750}
 **Height**vref{1}: 1062mm
@@ -1301,6 +1315,7 @@
 
 **Start-systems-entry{VAX7600}{VAX}{VAX7000}
 **Def-lref{1} = ref{EK-KA7AA-TM.001}
+**def-lref{2} = ref{EK-VAXCT-CG-006}
 **Sys-name: VAX 7000-600
 **Desc-name: VAX 7000 Model 600 series
 **Announcement**uref{*SUE Jul 1992 Spec}: 7 July 1992
@@ -1330,6 +1345,7 @@
 !
 ! vref{1}: 20VUPs 7610 -->
 ! *SUE Jul 1992 Spec : VUPS: 7610: 35  7620: 65  7630: 95 7640: 125  (7610: 123(e) TPS-A) -->
+**VUPs**vref{2}: {35} {65} {95} {126}
 **Maximum-memory**vref{1}: 3.5GB			
 **Physical-address-lines**vref{1}: 32				
 !!**Max-I/O-throughput**uref{*SUE Jul 1992 Spec}: 100-400MB/s
@@ -1404,6 +1420,7 @@
 **Start-systems-entry{VAX780}{VAX}{UNIBUS}
 **Sys-name: VAX-11/780
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1} 
+**def-lref{2} = ref{SOCEE-SPR90}
 **Announcement**uref{*37}: November 1977
 **Codename: Star
 **OS-support-VMS**uref{*26}: VMS V1.5
@@ -1416,10 +1433,10 @@
 **Control-store**vref{1}: 4K 99-bit words
 **UWCS**vref{1}: 2K 99-bit words
 **Cache**vref{1}: 8KB
-**Compatibility-mode**htref{1}: Yes
+**Compatibility-mode**vref{1}: Yes
 **Console-processor**vref{1}: LSI-11
 **Console-device**vref{1}: RX01
-**VUPs: 1.0
+**VUPs**vref{2}: 1.0
 **Minimum-memory**uref{*1}: 2MB
 **Maximum-memory**uref{*1}: 64MB
 **Physical-address-lines**uref{*4,*82}: 30
@@ -1458,13 +1475,13 @@
 **Control-store**vref{1}: 4K 99-bit words
 **UWCS**vref{1}: 2K 99-bit words
 **Cache**vref{1}: 8KB
-**Compatibility-mode**htref{1}: Yes
+**Compatibility-mode**htref{**1}: Yes
 **Console-processor**vref{1}: LSI-11
 **Console-device**vref{1}: RX01
 **VUPs**uref{SUE 5.19}: 1.8
 **Physical-address-lines**uref{*4,*82}: 30
 **Memory-checking**vref{1}: 8-bit ECC/longword
-**Max-I/O-throughput**htref{1}: 11MB/s		
+**Max-I/O-throughput**htref{**1}: 11MB/s		
 **LAN-support: optional
 **Power-start{782}
 **Supply: 240V 3-phase
@@ -1487,7 +1504,7 @@
 **OS-support-ULTRIX**uref{*12}: Ultrix V1.0
 **CPU-name-VMS: KA785
 **Num-proc: 1
-**CPU-technology**htref{1}: Advanced Schottky
+**CPU-technology**vref{1}: Advanced Schottky
 **CPU-cycle**vref{1}: 133ns
 **Instruction-buffer**vref{1}: 8 bytes
 **Translation-buffer**vref{1}: 128 entries
@@ -1495,20 +1512,20 @@
 **WCS**vref{1}: 6.5K 99-bit words
 **UWCS**vref{1}: 1K 99-bit words
 **Cache**vref{1}: 32KB
-**Compatibility-mode**htref{1}: Yes
+**Compatibility-mode**vref{1}: Yes
 **Console-processor**vref{1}: LSI-11
 **Console-device**vref{1}: RX01
 **VUPs**htref{2}: 1.7
-**Minimum-memory**htref{1}: 2MB
-**Maximum-memory**htref{1}: 64MB
+**Minimum-memory**htref{**1}: 2MB
+**Maximum-memory**vref{1}: 64MB
 **Memory-checking**vref{1}: 8-bit ECC/quadword
 ! [1] 600ns per 64-bit read, 700ns per 64-bit read with SBE, 700ns per 64-bit write
 **Max-I/O-throughput**vref{1}: 13.3MB/s
-**BUS-UNIBUS**uref{1}: 4 @ 1.5MB/s
-**BUS-MASSBUS**uref{1}: 4 @ 2.0MB/s
+**BUS-UNIBUS**uref{**1}: 4 @ 1.5MB/s
+**BUS-MASSBUS**uref{**1}: 4 @ 2.0MB/s
 **LAN-support: optional
 **Power-start{785}
-**Supply**htref{1}: 240V 3-phase
+**Supply**vref{1}: 240V 3-phase
 **Power**vref{1}: 2500W
 **Heat-dissipation**vref{1}: 8350 BTU/hr
 **Power-end{785}
@@ -1526,11 +1543,12 @@
 **Def-lref{2} = ref{VAX-HW-HB-1986-V2}
 **def-lref{3} = ref{EB-31692-46}
 **def-lref{4} = ref{EK-KA825-MA-001}
+**def-lref{5} = ref{SOCEE-SPR90}
 **Announcement**uref{*102}: 29 January 1986
 **Codename: Scorpio
 **OS-support-VMS**uref{*26}: V4.4
 **CPU-module**vref{3}: KA820
-**Module**htref{4}: T1001-00
+**Module**vref{4}: T1001-00
 **CPU-name-VMS: KA820
 **VMS-CPU: 5
 **VMS-XCPU: 0
@@ -1538,9 +1556,9 @@
 **XSID : 00000000
 **Num-proc: 1
 **CPU-technology**htref{3}: ZMOS
-**CPU-chip**htref{4}: V11
-**CPU-clock**htref{4}: 40MHz
-**CPU-cycle**vref{2,3}: 200ns
+**CPU-chip**vref{4}: V11
+**CPU-clock**vref{4}: 40MHz
+**CPU-cycle**vref{2,3,4}: 200ns
 **Instruction-buffer**vref{2}: 8 bytes
 **Control-store**vref{2}: 15K 40-bit words
 **WCS**vref{2}: 1K 40-bit words
@@ -1548,7 +1566,7 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device**uref{2,*24}: RX50
-**VUPs**vref{3}: 1.0
+**VUPs**vref{3,5}: 1.0
 **Maximum-memory**vref{3}: 128MB
 **Memory-checking**vref{2}: 7-bit ECC/longword
 ! vref{2} 1600ns per 128-bit read, 600ns per 32-bit write
@@ -1691,13 +1709,13 @@
 **Html-target: vax8200
 **OS-support-VMS**uref{*26}: V4.4
 **CPU-module**vref{3}: KA820
-**Module**htref{4}: T1001-00
+**Module**vref{4}: T1001-00
 **CPU-name-VMS: KA820
 **Num-proc: 2
 **CPU-technology**htref{3}: ZMOS
-**CPU-chip**htref{4}: V11
-**CPU-clock**htref{4}: 40MHz
-**CPU-cycle**vref{2}: 200ns
+**CPU-chip**vref{4}: V11
+**CPU-clock**vref{4}: 40MHz
+**CPU-cycle**vref{2,4}: 200ns
 **Instruction-buffer**vref{2}: 8 bytes
 **Control-store**vref{2}: 15K 40-bit words
 **WCS**vref{2}: 1K 40-bit words
@@ -1842,9 +1860,9 @@
 **Def-lref{2} = ref{EK-KA825-MA-001}
 **Announcement**uref{%SCORPIO:115.*}: 2 March 1987
 **Codename**uref{*102}: Sargas
-**OS-support-VMS**htref{2}: VMS V4.5
+**OS-support-VMS**vref{2}: VMS V4.5
 ! Flowchart has V4.6
-**OS-support-ULTRIX**htref{2}: ULTRIX V2.0
+**OS-support-ULTRIX**vref{2}: ULTRIX V2.0
 !**CPU-module**vref{1}: KA825
 **CPU-module**vref{3}: KA825
 **Module: T1001-YA
@@ -1856,10 +1874,9 @@
 **XSID : 00000000
 **Num-proc: 1
 **CPU-technology**vref{1}: ZMOS
-**CPU-chip**htref{2}: V11
-**CPU-clock**htref{2}: 50MHz
-!**CPU-cycle**htref{2}: 160ns
-**CPU-cycle**vref{1}: 160ns
+**CPU-chip**vref{2}: V11
+**CPU-clock**vref{2}: 50MHz
+**CPU-cycle**vref{1,2}: 160ns
 **Instruction-buffer**vref{1}: 8 bytes
 **Translation-buffer**uref{%%SCORPIO:274.3}: 512 entries
 **Control-store**vref{1}: 15K 40-bit words
@@ -1903,9 +1920,9 @@
 **Announcement**uref{%SCORPIO:115.*}: 2 March 1987
 **Codename**uref{*102}: Sargas
 **Html-target: vax8250
-**OS-support-VMS**htref{2}: VMS V4.5
 ! Flowchart has V4.6
-**OS-support-ULTRIX**htref{2}: ULTRIX V2.0
+**OS-support-VMS**vref{2}: VMS V4.5
+**OS-support-ULTRIX**vref{2}: ULTRIX V2.0
 !**CPU-module**vref{1}: KA825
 **CPU-module**vref{3}: KA825
 **Module: T1001-YA
@@ -1917,9 +1934,9 @@
 **XSID : 00000000
 **Num-proc: 2
 **CPU-technology**vref{1}: ZMOS
-**CPU-chip**htref{2}: V11
-**CPU-clock**htref{2}: 50MHz
-**CPU-cycle**htref{2}: 160ns
+**CPU-chip**vref{2}: V11
+**CPU-clock**vref{2}: 50MHz
+**CPU-cycle**vref{2}: 160ns
 **Instruction-buffer**htref{1}: 8 bytes
 **Translation-buffer**uref{%%SCORPIO:274.3}: 512 entries
 **Control-store**vref{1}: 15K 40-bit words
@@ -2047,10 +2064,10 @@
 **Dimensions-end{8840}
 **End-systems-entry{VAX88X0}
 
-**Start-systems-entry{VAX9200}{VAX}{VAX9000}
-**Sys-name: VAX 9000-200
-**Desc-name: VAX 9000 Model 200
-**def-lref{1} = ref{SOC-SPR90}
+**Start-systems-entry{VAX9210}{VAX}{VAX9000}
+**Sys-name: VAX 9000-210
+**Desc-name: VAX 9000 Model 210
+**def-lref{1} = ref{SOCEE-SPR90}
 **def-lref{2} = ref{DTJ-V2-4}
 **def-lref{3} = ref{EK-9000S-SP.004}
 ! vref{2} states oct  1989
@@ -2070,14 +2087,15 @@
 **Compatibility-mode: No
 **Console-processor**vref{2}: SPU (78032 based)
 **Console-device**vref{2}: RD54
-**Minimum-memory**htref{1}: 256MB
-**Maximum-memory**htref{1}: 512MB
+**Minimum-memory**vref{1}: 256MB
+**Maximum-memory**vref{1}: 512MB
 ! NB 430/440: 512MB fixed
-**Max-I/O-throughput**htref{1}: 80MB/s
-**BUS-XMI**htref{1}: 1-4 @ 80MB/s
-**BUS-VAXBI**htref{1}: 1-10 @ 13.3MB/s
-**LAN-support**htref{1}: optional
-**VUPs: 40
+**Max-I/O-throughput**vref{1}: 80MB/s
+**BUS-XMI**vref{1}: 1-4 @ 80MB/s
+**BUS-VAXBI**htref{**1}: 1-10 @ 13.3MB/s
+**LAN-support**vref{1}: 1
+!**VUPs**vref{1}: 30
+**VUPs**vref{3}: 40
 ! VAX 9000-110 is equiv to VAX 9000-210, VAX 9000-3x0 is equiv to VAX 9000-4x0
 !<H3> <A NAME="power">             Power requirements          </A> </H3>
 !
@@ -2120,9 +2138,10 @@
 **Start-systems-entry{VAX9400}{VAX}{VAX9000}
 **Sys-name: VAX 9000-400
 **Desc-name: VAX 9000 Model 400 series
-**def-lref{1} = ref{SOC-SPR90}
+**def-lref{1} = ref{SOCEE-SPR90}
 **def-lref{2} = ref{DTJ-V2-4}
 **def-lref{3} = ref{EK-9000S-SP.004}
+**def-lref{4} = ref{EK-VAXCT-CG-006}
 ! vref{2} states oct  1989
 **Announcement**vref{2}: 24 October 1989
 **Codename: Aquarius
@@ -2141,14 +2160,14 @@
 **Compatibility-mode: No
 **Console-processor**vref{2}: SPU (78032 based)
 **Console-device**vref{2}: RD54
-**Minimum-memory**htref{1}: 256MB
-**Maximum-memory**htref{1}: 512MB
+**VUPs**vref{4}: {40} {79} {118} {157}
+**Minimum-memory**vref{1}: 256MB
+**Maximum-memory**vref{1}: 512MB
 ! NB 430/440: 512MB fixed
-**Max-I/O-throughput**htref{1}: 320MB/s
-**BUS-XMI**htref{1}: 1-4 @ 80MB/s
-**BUS-VAXBI**htref{1}: 1-10 @ 13.3MB/s
-**LAN-support**htref{1}: optional
-**VUPs: {40} {79} {118} {157}
+**Max-I/O-throughput**vref{1}: 320MB/s
+**BUS-XMI**vref{1}: 1-4 @ 80MB/s
+**BUS-VAXBI**htref{**1}: 1-10 @ 13.3MB/s
+**LAN-support**vref{1}: 1
 **Power-start{SCU-415V}
 **Label: VAX 9000-410
 !**Sub-label: SCU
@@ -2228,7 +2247,7 @@
 **Codename**uref{*126}: Caylith
 **OS-support-VMS: MicroVMS V4.1
 **CPU-module**vref{3}: KA630
-**Module**htref{3}: M7606
+**Module**vref{3}: M7606
 **CPU-name-VMS**uref{*2}: KA630
 **CPU-name-console**uref{*2}: KA630-A
 **VMS-CPU: 8
@@ -2247,13 +2266,13 @@
 **Console-processor: CPU
 **Console-device: None
 **VUPs**uref{*6} : 0.9
-**Minimum-memory**htref{3}: 2MB
+**Minimum-memory**vref{3}: 2MB
 **On-board-memory**vref{3}: 1MB
 **Maximum-memory**uref{*6}: 16MB
 **Physical-address-lines: 30
 **Max-I/O-throughput**uref{*6}: 3.3MB/s
 **BUS-Qbus**uref{*6}: 1 @ 3.3MB/s
-**LAN-support**htref{3}: optional
+**LAN-support**vref{3}: optional
 ! -- ref_3:
 !	memory config 1 or two MS630 modules:
 !	MS630-AA M7607-AA 1MB (Dual)
@@ -2263,30 +2282,30 @@
 !	p 2-8 VCB01 is M7602-YA
 **Power-start{BA123-120V}
 **Label: BA123 enclosure
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 12.0A
-**Power**htref{1}: 690W
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 12.0A
+**Power**vref{1}: 690W
 **Power-end{BA123-120V}
 
 **Power-start{BA123-240V}
 **Label: BA123 enclosure
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 6.0A
-**Power**htref{1}: 690W
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 6.0A
+**Power**vref{1}: 690W
 **Power-end{BA123-120V}
 
 **Power-start{BA23-120V}
 **Label: BA23 enclosure
-**Supply**htref{2}: 120V 1-phase
-**I-max**htref{2}: 12.0A
-**Power**htref{2}: 690W
+**Supply**vref{2}: 120V 1-phase
+**I-max**vref{2}: 12.0A
+**Power**vref{2}: 690W
 **Power-end{BA23-120V}
 
 **Power-start{BA23-240V}
 **Label: BA23 enclosure
-**Supply**htref{2}: 240V 1-phase
-**I-max**htref{2}: 6.0A
-**Power**htref{2}: 690W
+**Supply**vref{2}: 240V 1-phase
+**I-max**vref{2}: 6.0A
+**Power**vref{2}: 690W
 **Power-end{BA23-240V}
 
 !-- The dimensions in and [2] are both completely incorrect
@@ -2348,7 +2367,7 @@
 **Module**vref{1}: L2001
 !-- vref{1} KA60-BA is L2010 (VAXstation 38x0)
 **CPU-name-VMS: KA60
-**CPU-name-console**htref{1}: KA60
+**CPU-name-console**vref{1}: KA60
 **Num-proc**vref{1}: 2 or 4
 **CPU-chip**uref{*25}: 78034
 **FPU-chip**uref{*25}: 78134
@@ -2366,7 +2385,7 @@
 !	MS60-AA L2007-AA 8MB		MS60-BA L2007-AB 16MB		MS60-CA L2007-AC 32MB
 **bus-Qbus**vref{1}: 1 @ 3.3MB/s
 **bus-SCSI**vref{1}: 1
-**LAN-support**htref{1}: 1
+**LAN-support**vref{1}: 1
 **Power-start{3520}
 **Power**vref{1}: 670W
 **Power-end{3520}
@@ -2457,21 +2476,23 @@
 
 **Start-Systems-entry{VS4VLC}{VAX}{VAXstation}
 **Sys-name: VAXstation 4000 VLC
-**def-lref{1} = ref{EK-V48B-SV.001}
+**def-lref{1} = ref{EK-V48VB-SV.001}
 **def-lref{2} = ref{EC-N0857-51}
 **Announcement**uref{*2}: 30 October 1991
 **Codename: VLC
 **OS-support-VMS**uref{*102}: V5.5
 **CPU-module: KA48
 **CPU-name-VMS: KA48
-**CPU-name-console**uref{*106,*102}: KA48
+! uref{*106,*102}
+**CPU-name-console**vref{1}: KA48
 **SID: 14000006
 **XSID : 04010102
 **Num-proc: 1
-**CPU-chip**htref{1}: SOC
+**CPU-chip**vref{1}: SOC
 **CPU-clock**htref{2}: 25MHz
 **CPU-cycle**htref{2}: 40ns
-**Cache**htref{1}: 8KB
+**Cache**vref{1}: 8KB
+**Module**vref{1}: 54-20768-01
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
@@ -2479,13 +2500,14 @@
 **SPECmarks**htref{2}: 6.2
 **SPECint89**htref{2}: 5.8
 **SPECfp89**htref{2}: 6.3
-**Minimum-memory**htref{1}: 8MB
-**Maximum-memory**htref{1}: 24MB
+**Minimum-memory**vref{1}: 8MB
+**On-board-memory**vref{1}: 0MB
+**Maximum-memory**vref{1}: 24MB
 !	[1]: 
 !	SIMMs required in pairs, max of 3 pairs, only 4MB SIMMs available 
 !	MS40-AA SIMMs only allowed
-**BUS-SCSI**htref{1}: 1
-**LAN-support**htref{1}: 1 (embedded)
+**BUS-SCSI**vref{1}: 1
+**LAN-support**vref{1}: 1 (embedded)
 !	[1]
 !	Format		Colour	Mono		Refresh
 !	1280x1024	Supp	Supp		66Hz
@@ -2499,14 +2521,14 @@
 **Weight**uref{*106}: 3.6kg
 **Dimensions-end{VLC}
 **Power-start{VLC-240V}
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 4.02A
-**Power**htref{1}: 163W
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 2.0A
+**Power**vref{1}: 163W
 **Power-end{VLC-240V}
 **Power-start{VLC-120V}
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 2.0A
-**Power**htref{1}: 163W
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 4.0A
+**Power**vref{1}: 163W
 **Power-end{VLC-120V}
 !<TR> <TD COLSPAN=2> <B> Monitors </B> </TR>
 !**<A HREF="../monitors/vr262.html">   VR262 </A> <TD> 					</TR>
@@ -2522,6 +2544,7 @@
 **End-systems-entry{VS4VLC}
 
 **Start-systems-entry{VS8000}{VAX}{VAXstation}
+**def-lref{1} = ref{EK-VAXCT-CG-006}
 **Sys-name: VAXstation 8000
 **Announcement: February 1988
 **Codename**uref{*102 *DU MAR-1988}: Lynx
@@ -2533,8 +2556,10 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**uref{*25,*50}: 1.2
-**Maximum-memory**uref{*50}: 32MB
+!**VUPs**uref{*25,*50}: 1.2
+**VUPs**vref{1}: 1.2
+!**Maximum-memory**uref{*50}: 32MB
+**Maximum-memory**vref{1}: 32MB
 **LAN-support: optional
 **Power-start{VS8000}
 **Supply**uref{*8}: 240V 1-phase
@@ -2549,6 +2574,7 @@
 **End-systems-entry{VS8000}
 
 **Start-systems-entry{VXFT110}{VAX}{VAXFT}
+**def-lref{1} = ref{EK-VAXCT-CG-006}
 **Sys-name: VAXft 110
 **Desc-name: VAXft Model 110
 **Announcement: March 1991
@@ -2560,13 +2586,17 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**uref{*83,*70}: 2.4
+!**VUPs**uref{*83,*70}: 2.4
+**VUPs**vref{1}: 2.4
 **TPC-A**uref{*DU APR-1991}: 6
 **Minimum-memory**uref{*SUE Sep-1 1991}: 32MB
-**Maximum-memory**uref{*83,*70}: 96MB
+!**Maximum-memory**uref{*83,*70}: 96MB
+**Maximum-memory**vref{1}: 96MB
 **End-systems-entry{VXFT110}
 
 **Start-systems-entry{VXFT310}{VAX}{VAXFT}
+**def-lref{1} = ref{EK-VAXCT-CG-006}
+**def-lref{2} = ref{SOCEE-SPR90}
 **Sys-name: VAXft 310
 **Desc-name: VAXft Model 310
 **Announcement**uref{*18, %VAXFT:68.0 }: 27 February 1990
@@ -2585,10 +2615,13 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**uref{*18,*83}: 3.8
-**Maximum-memory**uref{*18,*83}: 128MB
+!**VUPs**uref{*18,*83}: 3.8
+**VUPs**vref{1}: 3.8
+!**Maximum-memory**uref{*18,*83}: 128MB
+**Maximum-memory**vref{1}: 128MB
 **Max-I/O-throughput**uref{*18}: 4MB/s
 **BUS-DSSI**uref{*18}: 1 @  4MB/s
+**LAN-support**vref{2}: 1
 **Power-start{Entry}
 **Label: Entry
 **Supply**uref{*18}: 240V 1-phase
@@ -2606,28 +2639,38 @@
 **End-systems-entry{VXFT310}
 
 **Start-systems-entry{VXFT410}{VAX}{VAXFT}
+**def-lref{1} = ref{EK-VAXCT-CG-006}
 **Sys-name: VAXft 410
 **Desc-name: VAXft Model 410
 **OS-support-VMS: V5.4-3
+**VUPs**vref{1}: 6.0
+**Maximum-memory**vref{1}: 256MB
 **End-systems-entry{VXFT410}
 
 **Start-systems-entry{VXFT610}{VAX}{VAXFT}
+**def-lref{1} = ref{EK-VAXCT-CG-006}
 **Sys-name: VAXft 610
 **Desc-name: VAXft Model 610
 **OS-support-VMS: V5.4-3
+**VUPs**vref{1}: 6.0
+**Maximum-memory**vref{1}: 256MB
 **End-systems-entry{VXFT610}
 
 **Start-systems-entry{VXFT810}{VAX}{VAXFT}
+**def-lref{1} = ref{EK-VAXCT-CG-006}
 **OS-support-VMS: V5.5-2HF and V6.2 (only)
 **Sys-name: VAXft 810
 **Desc-name: VAXft Model 810
 **Codename: Jetstream
+**VUPs**vref{1}: 35
+**Maximum-memory**vref{1}: 256MB
 **End-systems-entry{VXFT810}
 
 **Start-systems-entry{UV1}{VAX}{UVAX}
 **Sys-name: MicroVAX I
 **def-lref{1} = ref{EB-25156-47}
 **def-lref{2} = ref{CPU-UPGR-SPRING-1992}
+**def-lref{3} = ref{SOCEE-SPR90}
 **Announcement**uref{*136}: October 1983
 **FRS-date**uref{*136}: late 1984
 **Codename**uref{*102}: Seahorse
@@ -2643,7 +2686,8 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**htref{2}: 0.35
+!**VUPs**htref{2}: 0.35
+**VUPs**vref{3}: 0.36
 **Minimum-memory**uref{*SI 14-11-83}: 512KB
 ! *1 ~ 1MB
 **Maximum-memory**uref{*1}: 4MB
@@ -2734,9 +2778,9 @@
 **FRS-date: May 1985
 **Codename: Mayflower
 **OS-support-VMS: MicroVMS V4.1M
-**CPU-module**htref{1}: KA630
+**CPU-module**vref{1}: KA630
 !-- [1] KA630-AA with FPU, KA630-AB without FPU
-**Module**htref{1}: M7606
+**Module**vref{1}: M7606
 **CPU-name-VMS: KA630
 **CPU-name-console: KA630
 **VMS-CPU: 8
@@ -2754,8 +2798,8 @@
 **Console-processor: CPU
 **Console-device: RX50 or TK50
 **VUPs**vref{3}: 0.9
-**Minimum-memory**htref{1}: 1MB
-**On-board-memory**htref{1}: 1MB
+**Minimum-memory**vref{1}: 1MB
+**On-board-memory**vref{1}: 1MB
 **Maximum-memory**vref{2}: 16MB
 **Memory-checking**vref{3}: Parity
 !	[1]	MS630-AA	M7607-AA	Dual	1MB
@@ -2983,6 +3027,7 @@
 **Sys-name: MicroVAX 3300/3400
 **def-lref{1} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{2} = ref{EC-N0377-46}
+**def-lref{3} = ref{EK-VAXCT-CG-006}
 **Announcement: November 1988
 **Codename**uref{*47}: Mayfair II
 **OS-support-VMS**uref{*26,*137}: V5.0-2A
@@ -3005,7 +3050,8 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**htref{1}: 2.4
+!**VUPs**htref{1}: 2.4
+**VUPs**vref{3}: 2.4
 **SPECmarks**htref{1}: 2.7
 **Minimum-memory**uref{*15,*4}: 4MB
 **On-board-memory**uref{*15,*4}: 4MB
@@ -3050,6 +3096,7 @@
 **def-lref{2} = ref{EB-31692-46}
 **def-lref{3} = ref{DTJ-V1-7}
 **def-lref{4} = ref{S-SU-SEP87}
+**def-lref{5} = ref{EK-VAXCT-CG-006}
 **Announcement: 9 September 1987
 **Codename**uref{*47}: Mayfair
 **OS-support-VMS**uref{*26}: V4.7A
@@ -3075,10 +3122,11 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs: 2.7
+**VUPs**vref{5}: 2.7
 **Minimum-memory**uref{*7}: 2MB
 ! vref{1} gives 32MB
-**Maximum-memory**uref{*7}: 64MB
+!**Maximum-memory**uref{*7}: 64MB
+**Maximum-memory**vref{5}: 64MB
 **BUS-Qbus: 1 @ 3.3MB/s
 **LAN-support: optional
 
@@ -3126,6 +3174,7 @@
 **Sys-name: MicroVAX 3800/3900
 **def-lref{1} = ref{EK-KA655-TM-001}
 **def-lref{2} = ref{EC-N0377-46}
+**def-lref{3} = ref{EK-VAXCT-CG-006}
 **Announcement**uref{*27 p14}: 10 April 1989
 **Codename**uref{*47}: Mayfair III
 **OS-support-VMS**uref{*26}: V5.1
@@ -3151,10 +3200,12 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**uref{*15,*18}: 3.8
+!**VUPs**uref{*15,*18}: 3.8
+**VUPs**vref{3}: 3.8
 **SPECmarks**htref{2}: 4.0
 **Minimum-memory**uref{*28}: 16MB
-**Maximum-memory**uref{*15,*18}: 64MB
+!**Maximum-memory**uref{*15,*18}: 64MB
+**Maximum-memory**vref{3}: 64MB
 **Memory-checking**htref{1}: 7-bit ECC/longword
 **BUS-Qbus: 1 @ 3.3MB/s
 **LAN-support: optional
@@ -3168,6 +3219,7 @@
 **def-lref{3} = ref{EK-MVXAA-OM-001}
 **def-lref{4} = ref{EB-30991-41}
 **def-lref{5} = ref{EB-31692-46}
+**def-lref{6} = ref{SOCEE-SPR90}
 !The MicroVAX 2000 and VAXstation 2000 are based on the same system module,
 !the KA410: a single jumper determines which system type the module is
 !configured for.
@@ -3189,7 +3241,8 @@
 **CPU-clock**vref{1}: 40MHz
 **Instruction-buffer**vref{4}: 8 bytes
 **Cache**uref{*6}: None
-**VUPs**htref{1}: 0.9
+!**VUPs**htref{1}: 0.9
+**VUPs**vref{6}: 0.9
 **Minimum-memory**vref{1}: 2MB
 **On-board-memory**vref{1}: 2MB
 **Maximum-memory**vref{1}: 16MB
@@ -3317,6 +3370,7 @@
 **def-lref{1} = ref{VAX-HW-HB-1986-V1}
 **def-lref{2} = ref{VAX-HW-HB-1986-V2}
 **def-lref{3} = ref{SOC-SUM85}
+**def-lref{4} = ref{SOCEE-SPR90}
 **Announcement**uref{*SUE 6.2,*102}: 31 October 1984
 **FRS-date: March 1985
 **Codename**uref{*34,*102}: Venus
@@ -3339,10 +3393,10 @@
 **Compatibility-mode: Yes
 **Console-processor**vref{1}: T-11
 **Console-device**vref{1}: RL02
-**VUPs: 4.2		
+**VUPs**vref{4}: 4.2		
 **Minimum-memory: 4MB		
 ! vref{1} says 32MB on p7-1
-**Maximum-memory**htref{1}: 368MB
+**Maximum-memory**htref{**1}: 368MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
 ! [1] 500ns per 128-bit read -->
 ! [2] 8650 uses: MS86-AA 4MB, MS86-CA 16MB 
@@ -3357,7 +3411,7 @@
 ! DEC WWW: 8600/8650 2 ethernet adapters
 **Power-start{8600}
 **Label: VAX 8600
-**Supply**htref{1}: 415V 3-phase
+**Supply**vref{1}: 415V 3-phase
 **I-max: 22.0A
 !-- [1] 30A @ 120V -->
 **Power**vref{1}: 6500W
@@ -3377,6 +3431,7 @@
 **def-lref{1} = ref{VAX-HW-HB-1986-V1}
 **def-lref{2} = ref{VAX-HW-HB-1986-V2}
 **def-lref{3} = ref{SOC-SUM85}
+**def-lref{4} = ref{SOCEE-SPR90}
 **Announcement**uref{*SUE 6.2,*102}: 4 December 1985
 **Codename**uref{*34,*102}: Morningstar
 **OS-support-VMS: V4.3
@@ -3394,7 +3449,7 @@
 **Compatibility-mode: Yes
 **Console-processor**vref{2}: T-11
 **Console-device**vref{2}: RL02
-**VUPs**vref{2}: 6
+**VUPs**vref{2,4}: 6
 **Minimum-memory**htref{2}: 16MB		
 **Maximum-memory: 368MB
 **Memory-checking**vref{2}: 7-bit ECC/longword
@@ -3471,6 +3526,7 @@
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
+**def-lref{4} = ref{SOCEE-SPR90}
 !-- *33 8530 is 8500 with patched ucode -->
 **Announcement**uref{*102}: March 1987
 **Html-target: vax8500
@@ -3488,7 +3544,8 @@
 **Compatibility-mode: No
 **Console-processor: PRO 380
 **Console-device: None
-**VUPs**htref{*2}: 4.0
+!**VUPs**htref{*2}: 4.0
+**VUPs**vref{4}: 4.0
 **Minimum-memory**uref{*6}: 16MB
 **Maximum-memory: 320MB
 **Memory-checking**htref{*1}: 7-bit ECC/longword
@@ -3523,6 +3580,7 @@
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
+**def-lref{4} = ref{SOCEE-SPR90}
 **Announcement**uref{*101,*102}: August 1986
 **FRS-date**uref{*102}: May 1986					
 **Codename**uref{*102}: Skipjack
@@ -3539,7 +3597,8 @@
 **Compatibility-mode: No
 **Console-processor: PRO 380
 **Console-device: None
-**VUPs**htref{2}: 6.0
+!**VUPs**htref{2}: 6.0
+**VUPs**vref{4}: 6.0
 **Minimum-memory**uref{*6}: 16MB
 **Maximum-memory**htref{2}: 320MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
@@ -3570,6 +3629,7 @@
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
+**def-lref{4} = ref{SOCEE-SPR90}
 **Announcement**uref{*101}: August 1986
 **Codename**uref{*37}: Nautilus
 **OS-support-VMS**uref{*26}: VMS V4.4
@@ -3586,7 +3646,8 @@
 **UWCS**vref{2,3}: 1K 143-bit words
 **Cache**vref{2,3}: 64KB
 **Console-processor: PRO380
-**VUPs**htref{2}: 6
+!**VUPs**htref{2}: 6
+**VUPs**vref{4}: 6
 **Minimum-memory**uref{*6}: 32MB
 **Maximum-memory**vref{2}: 512MB
 **Memory-checking**vref{1,2}: 7-bit ECC/longword
@@ -3617,6 +3678,7 @@
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
+**def-lref{4} = ref{SOCEE-SPR90}
 **Announcement**uref{*102}: 29 January 1986
 **FRS-date**uref{*37}: February 1986
 **Codename**uref{*37}: Nautilus
@@ -3639,7 +3701,7 @@
 **UWCS**vref{3}: 1K 143-bit words
 **Cache**vref{1,3}: 64KB
 **Console-processor: PRO380
-**VUPs**vref{2}: 12
+**VUPs**vref{2,4}: 12
 **Minimum-memory**uref{*6}: 48MB
 **Maximum-memory**vref{2}: 512MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
@@ -3681,7 +3743,7 @@
 **Codename: PVAX0			
 **OS-support-VMS**uref{*26,*102}: : VMS V5.1B
 !-- *31: VS3100-38/48 UWS V2.1 -->
-**CPU-module**htref{1}: KA42-AA
+**CPU-module**vref{1}: KA42-AA
 **Firmware-version**uref{personally verified}: V1.3
 **CPU-name-VMS**uref{2}: KA420 (VMS)
 **CPU-name-console**uref{2}: KA42-A
@@ -3691,17 +3753,17 @@
 **XSID : 04010202
 **Num-proc: 1
 **CPU-technology**uref{*108}: CMOS-1
-**CPU-cycle**htref{1}: 90ns
+**CPU-cycle**vref{1}: 90ns
 **Cache: 1KB
-**Backup-cache**htref{1}: 32KB
+**Backup-cache**vref{1}: 32KB
 !-- *83 has 32KB 180ns -->
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **VUPs**uref{*31,*108}: 2.8
 **SPECmarks**htref{5}: 2.7
-**Minimum-memory**htref{1}: 8MB
-**On-board-memory**htref{1}: 8MB
+**Minimum-memory**vref{1}: 8MB
+**On-board-memory**vref{1}: 8MB
 **BUS-SCSI: 1
 **LAN-support: embedded
 **Power-start{VS3130}
@@ -3710,10 +3772,10 @@
 **Power-end{VS3130}
 **Dimensions-start{VS3130}
 **Label: Model 30
-**Height**htref{1}: 103mm
-**Width **htref{1}: 462mm
-**Depth **htref{1}: 400mm
-**Weight**htref{1}: 7.7kg
+**Height**vref{1}: 103mm
+**Width **vref{1}: 462mm
+**Depth **vref{1}: 400mm
+**Weight**vref{1}: 7.7kg
 **Dimensions-end{VS3130}
 !-- ref_2: options: GPX,SPX, RZ22,RZ24,RZ24,RZ55,RX23,TZ30 -->
 !-- ref_2 includes fault code info esp App C -->
@@ -3818,6 +3880,7 @@
 **Def-lref{4} = ref{EK-VSM40-OM-002}
 **Def-lref{5} = ref{VS3100-30-38-76-PERF}
 **Def-lref{6} = ref{EC-N0857-51}
+**def-lref{7} = ref{EK-VAXCT-CG-006}
 **Announcement**uref{*48}: 25 October 1990
 **Codename: Panther
 **Html-target: vs3100
@@ -3839,13 +3902,15 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**vref{3}: 8
+! VREF{3} has 8 
 !-- *56 and *65 have 7.6 VUPs -->
-**SPECmarks**htref{6}: 6.8
+**VUPs**vref{7}: 7.6
+!**SPECmarks**htref{6}: 6.8
+**SPECmarks**vref{7}: 6.8
 **SPECint89**htref{6}: 7.1
 **SPECfp89**htref{6}: 6.6
 **Minimum-memory**vref{3}: 8MB
-**Maximum-memory**vref{3}: 32MB
+**Maximum-memory**vref{3,7}: 32MB
 **BUS-SCSI: 1
 **LAN-support: embedded
 **Power-start{VS3176-120V}
@@ -4064,6 +4129,7 @@
 **Def-lref{5} = ref{CU-V5-8B}
 **Def-lref{6} = ref{CU-V6-4A}
 **Def-lref{7} = ref{CU-V8-1B}
+**def-lref{8} = ref{EK-VAXCT-CG-006}
 **Sys-name: MicroVAX 3100-80
 **Desc-name: MicroVAX 3100 Model 80
 **Codename: Waverly-Mariah
@@ -4083,7 +4149,9 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**htref{4}: 10.0
+!**VUPs**htref{4}: 10.0
+**VUPs**vref{8}: 10.0
+**SPECmarks**vref{8}: 10.5
 **TPC-A**uref{*101}: 27.9
 !-- Cust. Upd. 12-Apr-1994 V5-4A has 60 TPS -->
 **Minimum-memory**vref{2}: 8MB
