@@ -214,7 +214,18 @@
 - UWCS:
   - User Writable Control Store
   - User Writable Control Store
-  - vax
+  - - vax
+    - pdp11
+  - cpu_details
+- ECS:
+  - Extended Control Store
+  - User Microprogram Control Store ROM
+  - pdp11
+  - cpu_details
+- DCS:
+  - Diagnostic Control Store
+  - Microcode ROM hardware diagnostic aid
+  - pdp11
   - cpu_details
 - Cache:
   - Cache

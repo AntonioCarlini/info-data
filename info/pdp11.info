@@ -1,14 +1,15 @@
 **Start-systems-entry{PDP1110}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{DEC-11-H05SS-B-D}
 **Def-lref{2} = ref{EK-11005-TM-003}
+**Def-lref{3} = ref{D-09-25}
 **Sys-name: PDP-11/05-S and PDP-11/10-S
-**CPU-module**vref{1}: KD11-B
+**CPU-module**vref{1,3}: KD11-B
 **CPU-cycle**htref{**1}: 310ns
 **Console-speed**vref{1}: 110-2400 baud
 **Bus-UNIBUS**vref{1}: 1
 **Minimum-memory**vref{2}: 16KB (8KW)
 **Maximum-memory**vref{1}: 56KB (28KW)
-**Physical-address-lines**vref{2}: 16
+**Physical-address-lines**vref{2,3}: 16
 **Memory-cycle**vref{2}: 900ns
 !**Memory-access**vref{2}: 400ns
 !    vref{1}:
@@ -61,14 +62,27 @@
 !The PDP-11/35 and PDP-11/40 are identical systems; the PDP-11/35 is
 !intended for OEMs, whereas the PDP-11/40 is for end-users.
 !
-**CPU-module**vref{1}: KD11-A
 **Console-speed**htref{**1}: 2400 baud max
 **Bus-UNIBUS**vref{1}: 1
 **Minimum-memory**vref{1}: 16KB (8KW)
 **Maximum-memory**vref{1}: 248KB (124KW)
 **Physical-address-lines**htref{**1}: 18
+**Dimensions-start{1140}
+**Weight**vref{1}: 200lbs (CPU)	
+**Dimensions-end{1140}
+**Dimensions-start{1135}
+**Weight**vref{1}: 120lbs (CPU)	
+**Dimensions-end{1135}
+**Power-start{1135}
+**Supply**vref{1}: 110v 1-phase
+**I-max**vref{1}: 7A
+**Power-end{1135}
+**Power-start{1140}
+**Supply**vref{1}: 110v 1-phase
+**I-max**vref{1}: 7A
+**Power-end{1140}
 !--
-!ref_1:
+! vref{1}: p9-5
 !	KE11-E EIS (M7238, HEX)
 !	KE11-F FPU (M7239 (QUAD)
 !	MMU M7236, CPU: M7234, 7235, M7233, M7231, M7232 (ALL HEX EXCEPT 7232 QUAD)
@@ -91,15 +105,81 @@
 **End-systems-entry{PDP1140}
 
 **Start-systems-entry{PDP1104}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{EB-09430-20}
 **Sys-name: PDP-11/04 
+**Minimum-memory**vref{1}:8KB (4KW)
+**Maximum-memory**vref{1}: 56KB (28KW)
+! vref{1}: MOS 500ns access time (typical), 725ns cycle time (typical)
 **End-systems-entry{PDP1104}
 
+**Start-systems-entry{PDP1115}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{D-09-25}
+**Sys-name: PDP-11/15 
+**CPU-module**vref{1}: KC11
+**Dimensions-start{tabletop}
+**Height**vref{1}: 11"
+**Width**vref{1}: 20"
+**Depth**vref{1}: 25-5/8"
+**Dimensions-end{tabletop}
+**Dimensions-start{rackmount}
+**Height**vref{1}: 8-3/4"
+**Width**vref{1}: 19"
+**Depth**vref{1}: 23"
+**Dimensions-end{rackmount}
+**Power-start{240V}
+**Label: Tabletop (240V)
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 2.5A
+**Power-end{240V}
+**Power-start{120V}
+**Label: Tabletop (120V)
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 5.0A
+**Power-start{120V}
+**End-systems-entry{PDP1115}
+
 **Start-systems-entry{PDP1120}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{D-09-25}
 **Sys-name: PDP-11/20 
+**CPU-module**vref{1}: KA11
+! vref{1}
+! PDP-11/20 is the first member of the PDP-11 series.
+! PDP-11/20R is a Ruggedized PDP-11/20.
+**Bus-UNIBUS**vref{1}: 1
+**Dimensions-start{tabletop}
+**Height**vref{1}: 11"
+**Width**vref{1}: 20"
+**Depth**vref{1}: 25-5/8"
+**Dimensions-end{tabletop}
+**Dimensions-start{rackmount}
+**Height**vref{1}: 8-3/4"
+**Width**vref{1}: 19"
+**Depth**vref{1}: 23"
+**Dimensions-end{rackmount}
+**Dimensions-start{ruggedized}
+**Height**vref{1}: 10-1/2"
+**Width**vref{1}: 19"
+**Depth**vref{1}: 25"
+**Dimensions-end{ruggedized}
+**Power-start{240V}
+**Label: Tabletop (240V)
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 2.5A
+**Power-end{240V}
+**Power-start{120V}
+**Label: Tabletop (120V)
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 5.0A
+**Power-start{120V}
 **End-systems-entry{PDP1120}
 
 **Start-systems-entry{PDP1134}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{EB-09430-20}
 **Sys-name: PDP-11/34 
+**Maximum-memory**vref{1}: 248KB (124KW)
+! vref{1}: core or MOS
+**Memory-checking**vref{1}: Parity
+**BUS-UNIBUS**vref{1}: 1
 **End-systems-entry{PDP1134}
 
 **Start-systems-entry{PDP1134A}{PDP11}{UNIBUS}
@@ -107,15 +187,32 @@
 **End-systems-entry{PDP1134A}
 
 **Start-systems-entry{PDP1145}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{D-09-25}
+**Def-lref{2} = ref{EB-09430-20}
 **Sys-name: PDP-11/45 
+**CPU-module**vref{1}: KB11
+! vref{2} 11/45 core (980ns) and 11/55 MOS (300ns).
+**Minimum-memory**vref{2}: 16KB (8KW)
+**Maximum-memory**vref{2}: 248KB (124KW)
 **End-systems-entry{PDP1145}
 
 **Start-systems-entry{PDP1155}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{EB-09430-20}
+! vref{1}: MOS based. Core version is 11/45
 **Sys-name: PDP-11/55 
+**Minimum-memory**vref{1}: 64KB (32KW)
+**Maximum-memory**vref{1}: 248KB (124KW)
 **End-systems-entry{PDP1155}
 
 **Start-systems-entry{PDP1160}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{EB-09430-20}
 **Sys-name: PDP-11/60 
+**Cache**vref{1}: 2KB
+**Maximum-memory**vref{1}: 248KB (124KW)
+**Memory-checking**vref{1}: ECC
+**UWCS**vref{1}: 1024 48-bit words
+**ECS**vref{1}: 1536 48-bit words
+**DCS**vref{1}: Available
 **End-systems-entry{PDP1160}
 
 **Start-systems-entry{PDP1170}{PDP11}{UNIBUS}
