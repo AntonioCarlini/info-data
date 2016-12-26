@@ -10,6 +10,10 @@
 ! VAXstation 3500	V4.7A
 ! VAXstation 4000-90A	V5.5-2
 !
+! To look for alternate data:
+! VAX4500
+!**def-lref{7} = ref{4500-6600-PERF-SUMM}
+!**TPC-A**htref{7}: 62.4
 
 **Start-systems-entry{VAX4100}{VAX}{VAX4000}
 **Def-lref{1} = ref{EK-467AA-TI.A01}
@@ -266,7 +270,6 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-!**VUPs**htref{3}: 5
 **VUPs**vref{5}: 5.0
 !**SPECmarks**htref{4}: 4.8
 **SPECmarks**vref{5}: 5.6
@@ -420,7 +423,6 @@
 ! a. VAX 4000 Model 300 is VMS 5.4-3
 ! b. VAX 4000 Model 500 is VMS 5.5
 ! c. VAX 6000 Model 600 is VMS 5.5
-!**CPU-module**htref{1}: KA675
 **CPU-module**vref{2}: KA675
 **Module**vref{2}: L4002-CA
 **CPU-name-VMS**uref{*2}: KA675-AA
@@ -494,7 +496,6 @@
 **Console-device: None
 !**VUPs**htref{5}: 24
 **VUPs**vref{8}: 24
-!**SPECmarks**htref{7}: 30.5
 **SPECmarks**vref{8}: 30.5
 **TPC-A**htref{7}: 62.4
 !**Minimum-memory**uref{*72}: 32MB
@@ -610,9 +611,9 @@
 **Minimum-memory**vref{2}: 32MB
 **Maximum-memory**vref{2}: 512MB
 ! vref{3} 1x ethernet, 2xDSSI
-**BUS-Qbus**htref{1}: 1 @ 3.3MB/s
+**BUS-Qbus**vref{2}: 1
 **BUS-DSSI**vref{2}: 2-4 (SHAC)
-**LAN-support**htref{1}: 1 (SGEC - embedded)
+**LAN-support**vref{2}: 1 (SGEC - embedded) (DC541)
 
 **End-systems-entry{VAX4500A}
 
@@ -649,9 +650,9 @@
 **TPC-A**htref{6}: 185
 **Minimum-memory**vref{2}: 32MB
 **Maximum-memory**vref{2}: 512MB
-**BUS-Qbus**htref{1}: 1 @ 3.3MB/s
+**BUS-Qbus**vref{2}: 1
 **BUS-DSSI**vref{2}: 2-4 (SHAC)
-**LAN-support**htref{1}: 1 (SGEC - embedded)
+**LAN-support**vref{2}: 1 (SGEC - embedded) (DC541)
 **End-systems-entry{VAX4505A}
 
 **Start-systems-entry{VAX4600}{VAX}{VAX4000}
@@ -864,8 +865,7 @@
 **SID: 0A000003
 **XSID : 0231001
 **CPU-names: {VAX 6000 Model 210}{VAX 6000 Model 220}{VAX 6000 Model 230}{VAX 6000 Model 240}
-! Cannot find CMOS-2 reference
-**CPU-technology**htref{**1}: CMOS-2
+**CPU-technology**vref{2}: CMOS-1
 **CPU-chip**vref{2}: 78034 (CVAX)
 **FPU-chip**vref{2}: CFPA
 **CPU-cycle**vref{1,2}: 80ns
@@ -956,7 +956,8 @@
 ! &			2-4xVAXBI (6350-6360) \\		% [7]
 !-->
 ! vref{1} says 3.8 VUPs for 6310
-**VUPs**htref{2,4}: {3.8} {7.5} {11.3} {15.0} {18.6} {22.0}
+!**VUPs**htref{2}: {3.8} {7.5} {11.3} {15.0} {18.6} {22.0}
+**VUPs**vref{4}: {3.8} {7.5} {11.3} {15.0} {18.6} {22.0}
 **Max-I/O-throughput**uref{*7}: 60MB/s
 **BUS-vaxbi: 2-4 @ 13.3MB/s
 **BUS-XMI: 1 @ 100MB/s
@@ -1009,7 +1010,8 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: TK70
-**VUPs**htref{2,4}: {7} {13} {19} {25} {31} {36}
+!**VUPs**htref{2}: {7} {13} {19} {25} {31} {36}
+**VUPs**vref{4}: {7} {13} {19} {25} {31} {36}
 **SPECmarks**uref{*7}: 1
 **Physical-address-lines: 30
 **BUS-XMI: 1 @ 100MB/s
@@ -1040,14 +1042,15 @@
 **Num-proc: 1-6
 **CPU-names: {VAX 6510}{VAX 6520}{VAX 6530}{VAX 6540}{VAX 6550}{VAX 6560}
 **CPU-chip**vref{1}: MP-chip (DC595)
-**CPU-cycle**htref{3}: 16ns
+! Cannot find this anywhere in ref{3}
+**CPU-cycle**htref{**3}: 16ns
 **Vector-processor**vref{1}: FV64A (1-4 optional)
 **Cache**vref{1}: 2KB
 **Backup-cache**vref{1}: 512KB
 ! 48ns from *52,*83
 **Translation-buffer**vref{1}: 64 entries
 **Compatibility-mode: No
-**Console-processor: CPU
+**Console-processor**vref{1}: CPU
 **Console-device: Unknown
 ! <!-- *52 384ns per 64-bit write 448ns per 128-bit write 640ns per 96-bit read 704ns per 96-bit write -->
 **VUPs**vref{4}: {13.0} {25.0} {37.0} {49.0} {61.0} {72.0}
@@ -1097,7 +1100,7 @@
 **Vector-processor: 
 **CPU-technology: 
 **CPU-clock**uref{*72}: 83MHz
-**CPU-cycle**htref{3}: 12ns
+**CPU-cycle**vref{1}: 12ns
 **Cache**vref{1}: 2KB VIC
 **Primary-cache**vref{1}: 8KB physical
 **Backup-cache**vref{1}: 2MB
@@ -1110,7 +1113,8 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: Unknown
-**VUPs**htref{2}: {32.0} {58.0} {84.0} {106.0} {128.0} {150}
+!**VUPs**htref{2}: {32.0} {58.0} {84.0} {106.0} {128.0} {150}
+**VUPs**vref{4}: {32.0} {58.0} {84.0} {106.0} {128.0} {150}
 **TPC-A**uref{*SUE APR 1992 pt II}: {91.0} {-} {-} {208.8} {-} {-}
 !	      VUPS    TPS-A SPECmarks	    & SPECint 	 & SPECfp \\ 
 !				    SPECthruput
@@ -1122,7 +1126,8 @@
 !						% TPS only from [101]
 !VAX 6000-650 &      &       &       & 165.5 & 122.6 & 202.2 \\	% [72]
 !VAX 6000-660 & 150  &       &       & 196.9 & 143.9 & 242.7 \\	% [72]
-**SPECmarks**htref{3}: 40.5
+!**SPECmarks**htref{3}: 40.5
+**SPECmarks**vref{4}: 42.1
 !!**Tpc-a**htref{3}: 83.6
 **Minimum-memory**vref{1}: 32MB
 !EK-VAXCT-CG-006 says 512MB
@@ -1364,16 +1369,20 @@
 **Def-lref{1} = ref{EK-KA7AA-TM.001}
 **Def-lref{2} = ref{CU-V5-8B}
 **Def-lref{3} = ref{CU-V6-11A}
+**Def-lref{4} = ref{EK-7002B-SV-002}
 **Announcement**htref{2}: 15 August 1994
 **FRS-date**htref{2}: 1 August 1994
-**Last-order**htref{3}: 30 March 1996
-**Last-ship**htref{3}: 29 June 1996
+! Note that this was from {CU-V6-11} and NOT {CU-V6-11A}
+**Last-order**vref{3}: 30 March 1996
+! Note that this was from {CU-V6-11} and NOT {CU-V6-11A}
+**Last-ship**vref{3}: 29 June 1996
 **OS-support-VMS**htref{2}: VMS V6.1
-**Num-proc**htref{2}: 1-6
+**Num-proc**vref{4}: 1-6
 **CPU-names: {VAX 7710}{VAX 7720}{VAX 7730}{VAX 7740}{VAX 7750}{VAX 7760}
 **CPU-name-VMS: KA7AB
 **CPU-clock**htref{2}: 137.5MHz
 **CPU-chip: NV5
+**Module**vref{4}: E2045-AA
 **Compatibility-mode: No
 **Console-processor: CPU
 **TPC-A**htref{2}: 314
@@ -3450,17 +3459,20 @@
 **Console-processor**vref{2}: T-11
 **Console-device**vref{2}: RL02
 **VUPs**vref{2,4}: 6
-**Minimum-memory**htref{2}: 16MB		
+! vref{2} VAXcluster minimum memory is 32MB
+**Minimum-memory**vref{2}: 16MB		
+! vref{2} 68MB
 **Maximum-memory: 368MB
 **Memory-checking**vref{2}: 7-bit ECC/longword
-! [2] 8650 uses: MS86-AA 4MB, MS86-CA 16MB 
+! vref{2} 8650 uses: MS86-AA 4MB, MS86-CA 16MB 
 !	MS86-CA takes two slots, MS86-AA takes one slot
 !	example config: 8xMS86-AA = 32MB, 4xMS86-CA + 1xMS86-AA = 68MB 
 !	(MS86-CA is motherboard plus daughter boards and hence takes up space - it is possible to mount 4xMS86-CA and 1xMS86-AA)
+! 8 slots are reserved for memory.
 **Max-I/O-throughput: 26MB/s
 **BUS-SBI**vref{2}: 1-2
 **BUS-UNIBUS: 7 @ 1.5MB/s	
-**BUS-MASSBUS**htref{2}: 4 @ 2.0MB/s	
+**BUS-MASSBUS**vref{2}: 4 @ 2.0MB/s	
 **LAN-support: optional
 ! DEC WWW: 8600/8650 2 ethernet adapters
 **Power-start{8650}
@@ -3506,8 +3518,8 @@
 !		540/270ns per 128-bit octaword write
 !		495/133ns per 32-bit longword write
 **BUS-UNIBUS**uref{*6}: 1 @ 1.5MB/s
-**BUS-VAXBI**htref{1}: 1-2 @ 13.3MB/s
-**LAN-support**htref{1}: standard
+**BUS-VAXBI**vref{1}: 1-2
+**LAN-support**vref{1}: standard
 **Power-start{8500}
 **Supply: 415V 3-phase
 **Power**vref{1}: 3200W
@@ -3609,8 +3621,8 @@
 !		540/270ns per 128-bit octaword write
 !		495/133ns per 32-bit longword write
 **BUS-UNIBUS**uref{*6}: 1 @ 1.5MB/s
-**BUS-VAXBI**htref{1}: 1-2 @ 13.3MB/s
-**LAN-support**htref{1}: standard
+**BUS-VAXBI**vref{1}: 1-2
+**LAN-support**vref{1}: standard
 **Power-start{8550}
 **Supply: 415V 3-phase
 **Power**vref{1}: 3200W
@@ -3660,9 +3672,9 @@
 **BUS-VAXBI: 4 @ 13.3MB/s
 **LAN-support: optional
 **Power-start{8700}
-**Supply**htref{1}: 415V 3-phase
-**Power**htref{1}: 3700W
-**Heat-dissipation**htref{1}: 12600 BTU/hr
+**Supply**vref{1}: 415V 3-phase
+**Power**vref{1}: 3700W
+**Heat-dissipation**vref{1}: 12600 BTU/hr
 **Power-end{8700}
 **Dimensions-start{8700}
 **Label: VAX 8700 (50Hz)
@@ -3714,7 +3726,7 @@
 **BUS-VAXBI: 4 @ 13.3MB/s
 **LAN-support: optional
 **Power-start{8800}
-**Supply**htref{1}: 415V 3-phase
+**Supply**vref{1}: 415V 3-phase
 **Power**vref{1}: 6200W
 **Heat-dissipation**vref{1}: 26750 BTU/hr
 **Power-end{8800}
