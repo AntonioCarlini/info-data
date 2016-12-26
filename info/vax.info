@@ -2898,8 +2898,7 @@
 **def-lref{4} = ref{EK-A0513-MG.001}
 **Codename: Waverly
 **OS-support-VMS: V5.5
-!**CPU-module**vref{2}: KA45
-**CPU-module**vref{1}: KA45
+**CPU-module**vref{1,2,4}: KA45
 **Firmware-version**uref{personally verified}: V1.4
 **CPU-name-VMS**uref{*2}: KA440
 **CPU-name-console**uref{*2}: KA45-A
@@ -2908,19 +2907,17 @@
 **SID: 14000006
 **XSID : 04010001
 **Num-proc: 1
-!**CPU-chip**htref{2}: DC222 (SOC)
-**CPU-chip**vref{1}: DC222 (SOC)
+**CPU-chip**vref{1,4}: DC222 (SOC)
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **VUPs**htref{3}: 5.0
-**TPC-A: 21.6
 ! Cust. Update V5-4A 12-Apr-1994 has 32 TPS
+**TPC-A: 21.6
 **Minimum-memory**vref{1,2}: 8MB
-**On-board-memory**vref{1,2}: 8MB
-**Maximum-memory**vref{1,2}: 32MB
-! vref{1,2} parity checking
-**Memory-checking**htref{1,4}: Parity
+**On-board-memory**vref{1,2,4}: 8MB
+**Maximum-memory**vref{1,2,4}: 32MB
+**Memory-checking**vref{1,2,4}: Parity
 **BUS-SCSI**vref{1,2}: 1 @ 10MB/s
 **LAN-support**vref{1,2}: 1 embedded
 
@@ -3014,7 +3011,6 @@
 **Physical-address-lines**vref{2}: 30
 **Minimum-memory**vref{1}: 16MB
 **Maximum-memory**vref{1}: 128MB
-!**BUS-SCSI**htref{1}: 1-2
 **BUS-SCSI**vref{2}: 1-2
 **LAN-support**vref{2}: 1 SGEC embedded (DC541)
 **Power-start{3190-110V}
