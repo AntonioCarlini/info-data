@@ -14,6 +14,8 @@
 #
 
 # Encapsulates a value that comes with a reference
+# 'value' is the value to keep
+# 'ref' is either a single reference or an array of references. Each reference will be a key in refs.yaml i.e. EK-KA655-TM-001 rather than 1 or 2.
 class VariableWithReference
 
   attr_reader  :ref
@@ -27,7 +29,7 @@ class VariableWithReference
   def as_array()
     a = [ @value ]
     a << @ref unless @ref.nil?() || @ref.empty?()
-    return a
+    return a.flatten()
   end
 
 end
@@ -181,19 +183,24 @@ class Systems
       if line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|lref|uref|vref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
         tag = $1
         reftype = $2
-        lref = $3
+        given_ref = $3
         value = $4
         next if value =~ /^\s*@@\s*$/   # skip values of "@@" as these mean "this value is not known"
-        reference = nil
-        unless lref.nil?()
-          lref_index = lref.dup()
-          reference = local_refs[lref]
-          if reference.nil?()
-            lref = nil
-          else
-            lref = reference
-            local_refs_non_vref_count[lref_index] += 1 unless reftype =~ /vref/i  # count any reference except a vref
+        ref_array = []
+        if reftype =~/vref/
+          reference = nil
+          unless given_ref.nil?()
+            given_ref.split(",").each() {
+              |lref|
+              reference = local_refs[lref]
+              unless reference.nil?()
+                local_refs_non_vref_count[lref] += 1 unless reftype =~ /vref/i  # count any reference except a vref
+                ref_array << reference
+              end
+            }
           end
+        else
+          # Skip a non-vref{} reference but eventually perhaps flag them as needing more work
         end
         if permitted_tags_uc.include?(tag.upcase())
           # TODO
@@ -204,8 +211,8 @@ class Systems
           if current.instance_variable_defined?(instance_variable_name)
             raise("On line #{line_num} in #{current.identifier()}, tag #{tag} has been defined again.")
           else
-            # Set the appropriate instance variable to the value+reference specified
-            current.instance_variable_set(instance_variable_name, VariableWithReference.new(value, lref))
+            # Set the appropriate instance variable to the value+reference(s) specified
+            current.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
           end
         else
           raise("On line #{line_num} in #{current.identifier()}, unknown tag #{tag} has been used.")

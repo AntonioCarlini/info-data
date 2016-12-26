@@ -55,7 +55,7 @@ source_file_time = File.mtime(sys_yaml)
 op.puts_xml(%q[<mediawiki xml:lang="en">]) if build_xml
 systems.keys().each() {
   |id|
-  local_refs = {} # { ref-id => [index, ref-hash-from-yaml] }
+  local_refs = {} # [index, ref-hash-from-yaml] }
   next_local_refs_index = 1
   properties = systems[id]
   system_name_array = properties["Sys-name"]
@@ -94,22 +94,22 @@ systems.keys().each() {
     next if prop =~ /html-target/i
     next if prop =~ /option-title/i
     array_of_values = properties[prop]
-    value = array_of_values[0]
+    value = array_of_values.shift()
     ref_index = nil   # No reference present, or invalid reference present
-    if array_of_values.size() > 1
-      r = array_of_values[1]  # a reference ID
-      if local_refs[r].nil?()
-        local_refs[r] = [ next_local_refs_index, refs[r] ]
+    ref_text = ""
+    array_of_values.each() {
+      |ref_key|
+      reference = local_refs[ref_key]
+      if reference.nil?()
+        local_refs[ref_key] = [ next_local_refs_index, refs[ref_key] ]
+        ref_index = next_local_refs_index
         next_local_refs_index += 1
       else
-        ref_index = local_refs[r][0]
+        ref_index = reference[0]
       end
-    end
-    if ref_index.nil?()
-      ref_text = ""
-    else
-      ref_text = " [[#ref_#{ref_index}|[#{ref_index}]]]"
-    end
+      ref_text << "[[#ref_#{ref_index}|[#{ref_index}]]]"
+    }
+    ref_text = " " + ref_text unless ref_text.empty?()
     op.puts("| #{tags[prop].name()} = #{value}#{ref_text}")
   }
   op.puts("}}")
