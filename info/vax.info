@@ -1268,6 +1268,7 @@
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1}
 **def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{3} = ref{SOCEE-SPR90}
+**def-lref{4} = ref{EK-VAXCT-CG-006}
 **Announcement**uref{DU JAN-1986}: 1980
 **Frs-date**uref{DU JAN-1986}: October 1980
 **Codename: Comet
@@ -1300,7 +1301,8 @@
 ! memory cycle times from *82:
 !	800ns per 32-bit read, 640ns per 32-bit write, 400ns (effective) with cache
 !
-**Max-I/O-throughput**htref{**1}: 5.0MB/s
+!**Max-I/O-throughput**htref{**1}: 5.0MB/s
+**Max-I/O-throughput**vref{4}: 5.0MB/s
 **BUS-UNIBUS**uref{*82}: 1 @ 1.5MB/s
 **BUS-massbus**uref{*82}: 3@ 2.0MB/s
 **LAN-support: optional
@@ -1487,7 +1489,8 @@
 **Compatibility-mode**htref{**1}: Yes
 **Console-processor**vref{1}: LSI-11
 **Console-device**vref{1}: RX01
-**VUPs**uref{SUE 5.19}: 1.8
+!**VUPs**uref{SUE 5.19}: 1.8
+**VUPs**vref{1}: 1.8
 **Physical-address-lines**uref{*4,*82}: 30
 **Memory-checking**vref{1}: 8-bit ECC/longword
 **Max-I/O-throughput**htref{**1}: 11MB/s		
