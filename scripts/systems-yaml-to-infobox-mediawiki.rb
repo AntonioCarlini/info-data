@@ -63,19 +63,7 @@ systems.keys().each() {
     $stderr.puts("Cannot find Sys-name for [#{id}] so skipping")
     next
   end
-  system_name = system_name_array[0]
-  if build_xml
-    op.puts_xml(%Q[  <page>])
-    op.puts_xml(%Q[    <title>#{system_name} systems</title>])
-    op.puts_xml(%Q[    <revision>])
-    op.puts_xml(%Q[      <timestamp>#{page_time}</timestamp>])
-    op.puts_xml(%Q[      <comment>Created from #{File.basename(sys_yaml)}, last modified at #{source_file_time}</comment>])
-    op.puts_xml(%Q[      <contributor><username>antonioc-scripted</username></contributor>])
-    op.puts_xml(%Q[      <text>])
-  end
-  op.puts("== Specifications for #{system_name} ==")
-  op.puts()
-  op.puts("{{Infobox#{sys_type.upcase()}-Data")
+
   # Work out a plausible name; default to "UNKNOWN"
   d_name = properties["Desc-name"]
   s_name = properties["Sys-name"]
@@ -85,6 +73,19 @@ systems.keys().each() {
     name = s_name[0] unless s_name.nil?()
     name = "UNKNOWN" if name.nil?() || name.empty?()
   end
+
+  if build_xml
+    op.puts_xml(%Q[  <page>])
+    op.puts_xml(%Q[    <title>#{name} systems</title>])
+    op.puts_xml(%Q[    <revision>])
+    op.puts_xml(%Q[      <timestamp>#{page_time}</timestamp>])
+    op.puts_xml(%Q[      <comment>Created from #{File.basename(sys_yaml)}, last modified at #{source_file_time}</comment>])
+    op.puts_xml(%Q[      <contributor><username>antonioc-scripted</username></contributor>])
+    op.puts_xml(%Q[      <text>])
+  end
+  op.puts("== #{name} systems ==")
+  op.puts()
+  op.puts("{{Infobox#{sys_type.upcase()}-Data")
   op.puts("| name = #{name}")
   properties.keys().each() {
     |prop|
