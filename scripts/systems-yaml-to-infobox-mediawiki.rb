@@ -107,7 +107,7 @@ systems.keys().each() {
       else
         ref_index = reference[0]
       end
-      ref_text << "[[#ref_#{ref_index}|[#{ref_index}]]]"
+      ref_text << "<sup>[[#ref_#{ref_index}|[#{ref_index}]]]</sup>"
     }
     ref_text = " " + ref_text unless ref_text.empty?()
     op.puts("| #{tags[prop].name()} = #{value}#{ref_text}")
