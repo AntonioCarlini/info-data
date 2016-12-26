@@ -147,7 +147,7 @@ class Systems
           |k|
           total_uses += local_refs_non_vref_count[k]
           count_text = "%3.3d" % local_refs_non_vref_count[k]
-          $stderr.puts("#{count_text} uses of #{local_refs[k]} in #{current.identifier()}") if local_refs_non_vref_count[k] > 0
+##          $stderr.puts("#{local_refs[k]} used #{count_text} times in #{current.identifier()}") if local_refs_non_vref_count[k] > 0
         }
         current = nil
         local_refs = {}  # Discard "local" references
@@ -186,21 +186,18 @@ class Systems
         given_ref = $3
         value = $4
         next if value =~ /^\s*@@\s*$/   # skip values of "@@" as these mean "this value is not known"
+        # Build an array of the valid references used here
         ref_array = []
-        if reftype =~/vref/
-          reference = nil
-          unless given_ref.nil?()
-            given_ref.split(",").each() {
-              |lref|
-              reference = local_refs[lref]
-              unless reference.nil?()
-                local_refs_non_vref_count[lref] += 1 unless reftype =~ /vref/i  # count any reference except a vref
-                ref_array << reference
-              end
-            }
-          end
-        else
-          # Skip a non-vref{} reference but eventually perhaps flag them as needing more work
+        reference = nil
+        unless given_ref.nil?()
+          given_ref.split(",").each() {
+            |lref|
+            reference = local_refs[lref]
+            unless reference.nil?()
+              local_refs_non_vref_count[lref] += 1 unless reftype =~ /vref/i  # count any reference except a vref
+              ref_array << reference if reftype =~ /vref/i
+            end
+          }
         end
         if permitted_tags_uc.include?(tag.upcase())
           # TODO
@@ -225,7 +222,7 @@ class Systems
         raise("unrecognised line [#{line}]")
       end
     }
-    $stderr.puts("#{total_uses} uses of non-'vref' refrences") if total_uses > 0
+##    $stderr.puts("#{total_uses} uses of non-'vref' refrences") if total_uses > 0
 
     return systems
   end
