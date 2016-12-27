@@ -273,26 +273,27 @@
 **Start-systems-entry{DST5150}{DECMIPS}{DS5100}
 **Def-lref{1} = ref{EK-4MMIN-OP.A01}
 **Sys-name: DECstation 5000 Model 150
-**Num-proc**htref{1}: 1
-**SPECmarks**htref{1}: 50
-**Primary-Cache**htref{1}: 8KB-I/8KB-D
-**Backup-cache**htref{1}: 1MB
-**Maximum-memory**htref{1}: 128MB
+**Num-proc**vref{1}: 1
+**SPECmarks**vref{1}: 50
+**Primary-Cache**vref{1}: 8KB-I/8KB-D
+**Backup-cache**vref{1}: 1MB
+! vref{1} modules installed in pairs. All must be of the same type. 
+**Maximum-memory**vref{1}: 128MB
 **Power-start{DST5150-230V}
-**Supply**htref{1}: 230V 1-phase
-**I-max**htref{1}: 2.3A
-**Power**htref{1}: 302W
+**Supply**vref{1}: 230V 1-phase
+**I-max**vref{1}: 2.3A
+**Power**vref{1}: 302W
 **Power-end{DST5150-230V}
 **Power-start{DST5150-115V}
-**Supply**htref{1}: 115V 1-phase
-**I-max**htref{1}: 4.2A
-**Power**htref{1}: 302W
+**Supply**vref{1}: 115V 1-phase
+**I-max**vref{1}: 4.2A
+**Power**vref{1}: 302W
 **Power-end{DST5150-115V}
 **Dimensions-start{DST5150}
-**Height**htref{1}: 101.6mm
-**Width**htref{1}:  510.3mm
-**Depth**htref{1}: 434.8mm
-**Weight**htref{1}: 12.7kg
+**Height**vref{1}: 101.6mm
+**Width**vref{1}:  510.3mm
+**Depth**vref{1}: 434.8mm
+**Weight**vref{1}: 12.7kg to 22.70kg
 **Dimensions-end{DST5150}
 
 **End-systems-entry{DST5150}
@@ -329,13 +330,19 @@
 
 **Start-systems-entry{DST5260}{DECMIPS}{DS5200}
 **Def-lref{1} = ref{EK-PM38C-MG-002}
+**Def-lref{2} = ref{EK-4MMAX–OP.A01}
 **Sys-name: DECstation 5000 Model 260
 **Num-proc**htref{1}: 1
-**CPU-module**htref{1}: KN05-AA
+!**CPU-module**htref{1}: KN05-AA
+**CPU-module**vref{2}: KN05
 **Module**htref{1}: 54-21872-02
 **CPU-clock**htref{1}: 60MHz
-**CPU-chip**htref{1}: R4000
-**Maximum-memory**htref{1}: 480MB
+!**CPU-chip**htref{1}: R4000
+**CPU-chip**vref{2}: R4000
+**Cache**vref{2}: 1MB
+!vref{2} memory modules MS02L-AB (8MB) or MS02-CA (32MB). 15 memory slots. Modules cannot be mixed.
+!**Maximum-memory**htref{1}: 480MB
+**Maximum-memory**vref{2}: 480MB
 **Dimensions-start{DST5260}
 **Height**htref{1}: 91.4mm
 **Width**htref{1}: 510.3mm 
@@ -343,14 +350,14 @@
 **Weight**htref{1}: 12.7kg
 **Dimensions-end{DST5260}
 **Power-start{DST5260-110V}
-**Supply**htref{1}: 110V 1-phase
-**I-max**htref{1}: 5A
-**Power**htref{1}: 359W
+**Supply**vref{2}: 110V 1-phase
+**I-max**vref{2}: 5A
+**Power**vref{2}: 359W
 **Power-end{DST5260-110V}
 **Power-start{DST5260-240V}
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 2.4A
-**Power**htref{1}: 359W
+**Supply**vref{2}: 240V 1-phase
+**I-max**vref{2}: 2.4A
+**Power**vref{2}: 359W
 **Power-end{DST5260-240V}
 **End-systems-entry{DST5260}
 
