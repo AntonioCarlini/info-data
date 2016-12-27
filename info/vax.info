@@ -314,11 +314,13 @@
 **def-lref{3} = ref{EK-387AA-SP-001}
 **def-lref{4} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{5} = ref{EK-VAXCT-CG-006}
+**def-lref{6} = ref{EK-347AA-MG-001}
 **Sys-name: VAX 4000-300
 **Desc-name: VAX 4000 Model 300
 **Codename: Pele
 **OS-support-VMS**vref{2}: V5.3-2
 **OS-support-MDM**vref{2}: 131
+! vref{6} KA670-AA for multi-user and KA670-BA for single-user. Enclosure is BA440.
 **CPU-module**vref{1,2}: KA670
 **Module**vref{2}: L4000
 **CPU-name-VMS: KA670-AA
@@ -1567,7 +1569,7 @@
 **SID: 05282B14
 **XSID : 00000000
 **Num-proc: 1
-**CPU-technology**htref{3}: ZMOS
+**CPU-technology**vref{3}: ZMOS
 **CPU-chip**vref{4}: V11
 **CPU-clock**vref{4}: 40MHz
 **CPU-cycle**vref{2,3,4}: 200ns
@@ -1577,7 +1579,8 @@
 **Cache**vref{2,3}: 8KB
 **Compatibility-mode: No
 **Console-processor: CPU
-**Console-device**uref{2,*24}: RX50
+!**Console-device**uref{*24}: RX50
+**Console-device**vref{2}: RX50
 **VUPs**vref{3,5}: 1.0
 **Maximum-memory**vref{3}: 128MB
 **Memory-checking**vref{2}: 7-bit ECC/longword
@@ -1724,7 +1727,7 @@
 **Module**vref{4}: T1001-00
 **CPU-name-VMS: KA820
 **Num-proc: 2
-**CPU-technology**htref{3}: ZMOS
+**CPU-technology**vref{3}: ZMOS
 **CPU-chip**vref{4}: V11
 **CPU-clock**vref{4}: 40MHz
 **CPU-cycle**vref{2,4}: 200ns
@@ -1734,7 +1737,8 @@
 **Cache**vref{2}: 8KB
 **Compatibility-mode: No
 **Console-processor: CPU
-**Console-device**uref{2,*24}: RX50
+!**Console-device**uref{*24}: RX50
+**Console-device**vref{2}: RX50
 **VUPs**vref{3}: 1.9
 **Maximum-memory**vref{3}: 128MB
 **Memory-checking**vref{2}: 7-bit ECC/longword
@@ -1949,8 +1953,9 @@
 **CPU-chip**vref{2}: V11
 **CPU-clock**vref{2}: 50MHz
 **CPU-cycle**vref{2}: 160ns
-**Instruction-buffer**htref{1}: 8 bytes
-**Translation-buffer**uref{%%SCORPIO:274.3}: 512 entries
+**Instruction-buffer**vref{1}: 8 bytes
+!**Translation-buffer**uref{%%SCORPIO:274.3}: 512 entries
+**Translation-buffer**vref{1}: 512 entries
 **Control-store**vref{1}: 15K 40-bit words
 **WCS**vref{1}: 1K 40-bit words
 **Cache**vref{1}: 8KB (160ns)
@@ -1970,7 +1975,7 @@
 **Power-start{8250-8350}
 **Supply**vref{1}: 240V 1-phase
 **Power**vref{1}: 2000W
-**Heat-dissipation**htref{1}: 6800 BTU/hr
+**Heat-dissipation**vref{1}: 6800 BTU/hr
 **Power-end{8250-8350}
 **Dimensions-start{8250-8350}
 **Height**vref{1}: 1060mm
@@ -1995,7 +2000,7 @@
 **OS-support-VMS**uref{*26}: VMS V5.0
 **Num-proc: 1-4
 **CPU-names: {VAX 8810}{VAX 8820}{VAX 8830}{VAX 8840}
-**CPU-technology**htref{1}: ECL Gate Array
+**CPU-technology**vref{1}: ECL Gate Array
 **CPU-cycle**vref{1}: 45ns
 **Instruction-buffer**vref{1}: 16 bytes
 **WCS**vref{1}: 16K 144-bit words
@@ -2024,21 +2029,21 @@
 
 **Power-start{8820}
 **Label: VAX 8820
-**Supply**htref{1}: 380V 3-phase (Y)
+**Supply**vref{1}: 380V 3-phase (Y)
 **Power**vref{1}: 7800W
 **Heat-dissipation**htref{1}: 33800 BTU/hr
 **Power-end{8830}
 
 **Power-start{8830}
 **Label: VAX 8830
-**Supply**htref{1}: 380V 3-phase (Y)
+**Supply**vref{1}: 380V 3-phase (Y)
 **Power**vref{1}: 9400W
 **Heat-dissipation**htref{1}: 33800 BTU/hr
 **Power-end{8830}
 
 **Power-start{8840}
 **Label: VAX 8840
-**Supply**htref{1}: 380V 3-phase (Y)
+**Supply**vref{1}: 380V 3-phase (Y)
 **Power**vref{1}: 11000W
 **Heat-dissipation**htref{1}: 33800 BTU/hr
 **Power-end{8840}
@@ -2180,14 +2185,9 @@
 **BUS-XMI**vref{1}: 1-4 @ 80MB/s
 **BUS-VAXBI**htref{**1}: 1-10 @ 13.3MB/s
 **LAN-support**vref{1}: 1
-**Power-start{SCU-415V}
-**Label: VAX 9000-410
-!**Sub-label: SCU
-**Supply**htref{3}: 415V 3-phase
-!**I-max**htref{3}: 41.5A/phase
-**Power**htref{3}: 4400W
-**Heat-dissipation**htref{3}: 15017 BTU/hr
-**Power-end{SCU-415V}
+! see ref{EK-9000S-SP.004} p4-2 onwards for proper details on cabinet sizes and consumption.
+! This reference also covers the 110/210 models.
+!
 !     <TH> Cabinet 		<TH> Supply 	  <TH> I<SUB>max</SUB>	<TH> Power 	<TH> Heat	</TR>
 !**SCU			<TD ROWSPAN=4> 208V 3-phase <BR> 415V 3-phase
 !						  <TD ROWSPAN=4> 41.5A/phase <BR> 21.9A/phase
@@ -3197,9 +3197,9 @@
 **XSID : 01530301
 **Num-proc: 1
 **CPU-technology: CMOS
-**CPU-chip**htref{1}: CVAX
-**FPU-chip**htref{1}: CFPA
-**CPU-clock**htref{1}: 33MHz
+**CPU-chip**vref{1}: CVAX
+**FPU-chip**vref{1}: CFPA
+**CPU-clock**vref{1}: 33MHz
 **CPU-cycle**vref{1}: 60ns
 **Instruction-buffer**vref{1}: 12 bytes
 **Translation-buffer**vref{1}: 28 entries
@@ -3214,7 +3214,7 @@
 **Minimum-memory**uref{*28}: 16MB
 !**Maximum-memory**uref{*15,*18}: 64MB
 **Maximum-memory**vref{3}: 64MB
-**Memory-checking**htref{1}: 7-bit ECC/longword
+**Memory-checking**vref{1}: 7-bit ECC/longword
 **BUS-Qbus: 1 @ 3.3MB/s
 **LAN-support: optional
 ! [1]: MS650-BA: 16MB, 360ns, 7-bit ECC/longword 1MB DRAM Quad height
@@ -3228,15 +3228,16 @@
 **def-lref{4} = ref{EB-30991-41}
 **def-lref{5} = ref{EB-31692-46}
 **def-lref{6} = ref{SOCEE-SPR90}
+!vref{1} p 3-232.
 !The MicroVAX 2000 and VAXstation 2000 are based on the same system module,
-!the KA410: a single jumper determines which system type the module is
+!the KA410: a single jumper determines which system type the module is.
 !configured for.
 **Codename: Teammate
 **Html-target: uvvs2000
 **OS-support-VMS: V4.5B
-**CPU-module: KA410
+**CPU-module**vref{1}: KA410
 **CPU-name-VMS**uref{*2}: KA410
-**CPU-name-console**uref{2}: KA410-A
+**CPU-name-console**uref{**2}: KA410-A
 **VMS-CPU: 8
 **VMS-XCPU: 4
 **SID: 08000000
@@ -3305,6 +3306,7 @@
 **def-lref{3} = ref{EK-MVXAA-OM-001}
 **def-lref{4} = ref{EB-30991-41}
 **def-lref{5} = ref{EB-31692-46}
+**def-lref{6} = ref{EK-VAXCT-CG-006}
 !The MicroVAX 2000 and VAXstation 2000 are based on the same system module,
 !the KA410: a single jumper determines which system type the module is
 !configured for.
@@ -3313,7 +3315,7 @@
 **OS-support-VMS: V4.5B
 **CPU-module: KA410
 **CPU-name-VMS**uref{*2}: KA410
-**CPU-name-console**uref{2}: KA410-B
+**CPU-name-console**vref{2}: KA410-B
 **Num-proc: 1
 **CPU-technology**vref{4}: ZMOS
 **CPU-chip**vref{1}: DC333
@@ -3322,7 +3324,7 @@
 **CPU-clock**vref{1}: 40MHz
 **Instruction-buffer**vref{4} : 8 bytes
 **Cache**uref{*6}: None
-**VUPs**htref{1}: 0.9
+**VUPs**vref{6}: 0.9
 **Minimum-memory**vref{1}: 2MB
 **On-board-memory**vref{1}: 2MB
 **Maximum-memory**vref{1}: 16MB
@@ -3756,8 +3758,8 @@
 !-- *31: VS3100-38/48 UWS V2.1 -->
 **CPU-module**vref{1}: KA42-AA
 **Firmware-version**uref{personally verified}: V1.3
-**CPU-name-VMS**uref{2}: KA420 (VMS)
-**CPU-name-console**uref{2}: KA42-A
+**CPU-name-VMS**uref{**2}: KA420 (VMS)
+**CPU-name-console**uref{**2}: KA42-A
 **VMS-CPU: 10
 **VMS-XCPU: 4
 **SID: 0A000004
@@ -3822,8 +3824,8 @@
 !-- *31: VS3100-38/48 UWS V2.1 -->
 **CPU-module**vref{2}: KA42-BA
 **Firmware-version**uref{personally verified}: V1.5
-**CPU-name-VMS**uref{2}: KA420 (VMS)
-**CPU-name-console**uref{2}: KA42-B
+**CPU-name-VMS**uref{**2}: KA420 (VMS)
+**CPU-name-console**vref{2}: KA42-B
 **VMS-CPU: 10
 **VMS-XCPU: 4
 **SID: 0A000005
@@ -3899,21 +3901,21 @@
 ! Flowchart has V5.4-1
 **CPU-module**vref{3}: KA43-AA
 **Firmware-version**uref{personally verified}: V1.2
-**CPU-name-VMS**uref{2}: KA43
-**CPU-name-console**uref{2}: KA43-A
+**CPU-name-VMS**uref{2**}: KA43
+**CPU-name-console**vref{3}: KA43-A
 **VMS-CPU: 11
 **VMS-XCPU: 4
 **SID: 0B000006
 **XSID : 04010002
 **Num-proc: 1
 **CPU-technology: CMOS-2
-**CPU-cycle: 28ns
-**Cache**uref{*83}: 2KB
+**CPU-cycle**vref{3}: 60ns
+**Cache**vref{3}: 32KB
 **Backup-cache**uref{*55,*65,*83}: 128KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-! VREF{3} has 8 
+! vref{3} has 8 
 !-- *56 and *65 have 7.6 VUPs -->
 **VUPs**vref{7}: 7.6
 !**SPECmarks**htref{6}: 6.8
@@ -3928,13 +3930,13 @@
 **Label: Model 76
 **Supply**vref{3}: 120V 1-phase
 **I-max**vref{3}: 2.8A
-**Power**htref{3}: 155W
+**Power**vref{3}: 190W
 **Power-end{VS3176-120V}
 **Power-start{VS3176-240V}
 **Label: Model 76
 **Supply**vref{3}: 240V 1-phase
 **I-max**vref{3}: 1.5A
-**Power**htref{3}: 155W
+**Power**vref{3}: 190W
 **Power-end{VS3176-240V}
 **Dimensions-start{VS3176}
 **Label: Model 76
@@ -4148,7 +4150,7 @@
 **OS-support-VMS: VMS V5.5
 **CPU-module**vref{2}: KA47
 **Firmware-version**uref{personally verified}: V1.4
-**CPU-name-VMS**uref{2}: KA460
+**CPU-name-VMS**uref{**2}: KA460
 **CPU-name-console**uref{*47}: KA47
 **VMS-CPU: 18
 **VMS-XCPU: 4
