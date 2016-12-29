@@ -420,6 +420,11 @@
   - Ethernet support details
   - all
   - io
+- Relative-performance:
+  - Relative performance
+  - Performance relative to another system
+  - pdp11
+  - performance
 - VUPs:
   - VUPs
   - VAX Units of Performance

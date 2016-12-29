@@ -5,13 +5,12 @@
 **Def-lref{4} = ref{EB-26077-41}
 **Sys-name: PDP-11/05-S and PDP-11/10-S
 **Generation**vref{4}: 2nd
-**CPU-module**vref{1,3}: KD11-B
+**CPU-module**vref{1,3,4}: KD11-B
 **CPU-cycle**htref{**1}: 310ns
 **Console-speed**vref{1}: 110-2400 baud
 **Bus-UNIBUS**vref{1}: 1
 **Minimum-memory**vref{2}: 16KB (8KW)
 **Maximum-memory**vref{1}: 56KB (28KW)
-**Physical-address-lines**vref{2,3}: 16
 **Memory-cycle**vref{2}: 900ns
 !**Memory-access**vref{2}: 400ns
 !    vref{1}:
@@ -62,6 +61,7 @@
 **Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/35 and PDP-11/40
 **Generation**vref{2}: 2nd
+**CPU-module**vref{2}: KD11-A
 ! vref{1}
 !The PDP-11/35 and PDP-11/40 are identical systems; the PDP-11/35 is
 !intended for OEMs, whereas the PDP-11/40 is for end-users.
@@ -114,6 +114,7 @@
 **Def-lref{3} = ref{EB-26077-41}
 **Sys-name: PDP-11/04 
 **Generation**vref{3}: 3rd
+**CPU-module**vref{1}: KD11-D
 ! vref{2} has a minimum of 16KB
 ! vref{2} core option: MM11-YP  64KB 18-bit 450ns access (no parity)/600 ns access (parity) 1.3us cycle time
 ! vref{2} core option: MM11-DP  32KB 18-bit 500 ns access (parity) 1us cycle time
@@ -129,8 +130,9 @@
 
 **Start-systems-entry{PDP1115}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{D-09-25}
+**Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/15 
-**CPU-module**vref{1}: KC11
+**CPU-module**vref{1,2}: KC11
 **Dimensions-start{tabletop}
 **Height**vref{1}: 11"
 **Width**vref{1}: 20"
@@ -158,7 +160,7 @@
 **Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/20 
 **Generation**vref{2}: 1st
-**CPU-module**vref{1}: KA11
+**CPU-module**vref{1,2}: KA11
 ! vref{1}
 ! PDP-11/20 is the first member of the PDP-11 series.
 ! PDP-11/20R is a Ruggedized PDP-11/20.
@@ -194,12 +196,26 @@
 **Def-lref{1} = ref{EB-26077-41}
 **Sys-name: PDP-11/24 
 **Generation**vref{1}: 4th
+**CPU-module**vref{1}: KDF11-UA
+! vref{1}: DC302 chip performs arithmetic and logical functions
+! vref{1}: DC303 performs microprogram sequencing
+! vref{1}: DC304 is the MMU and contains the FP registers and accumulators
+**Module**vref{1}: M7133
+! vref{1}: M7134 is the UNIBUS map module
+! vref{1}: memories: MS11-LB 18-bit 128KB access times noted
+! vref{1}: memories: MS11-LD 18-bit 256KB access times noted
+! vref{1}: memories: MS11-PB 22-bit   1MB access times noted
+**Physical-address-lines**vref{1}: 22
+**Relative-performance**vref{1}: 0.30 x PDP-11/70
 **BUS-UNIBUS**vref{1}: 1
+! vref{1}: notes sizes and power.
 **End-systems-entry{PDP1124}
 
 **Start-systems-entry{PDP1134}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-09430-20}
+**Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/34 
+**CPU-module**vref{2}: KD11-E
 **Maximum-memory**vref{1}: 248KB (124KW)
 ! vref{1}: core or MOS
 **Memory-checking**vref{1}: Parity
@@ -226,6 +242,7 @@
 **Physical-address-lines**vref{1}: 18
 **Memory-checking**vref{1}: Byte Parity
 **Cache**vref{1}: 2KB (optional)
+**Relative-performance**vref{2}: 0.50 x PDP-11/70
 ! vref{2} quotes dimenions for 11/04 and 11/34A but does not specify which is which!
 **End-systems-entry{PDP1134A}
 
@@ -233,27 +250,31 @@
 **Def-lref{1} = ref{EB-17716-18}
 **Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/44
-**Generation**vref{2}: 4th
-! vref{1} this is a 4th generation PDP-11 system
-**Physical-address-lines**vref{1}: 22
+**Generation**vref{1,2}: 4th
+**CPU-module**vref{2}: KD11-Z
+**Maximum-memory**vref{2}: 3840KB
+**Physical-address-lines**vref{1,2}: 22
 ! vref{1}: cache is implemented on a separate hex module and can be disable with a switch
 ! vref{1}: KK11-B and 11/44 can be used in a multi-ported memory system
 ! vref{1} FPU is FP11-F
-**Cache**vref{1}: 8KB
+! vref{2} p3-21 diagram suggests FPU is FP11-A
+**Cache**vref{1,2}: 8KB
+**Relative-performance**vref{2}: 0.75 x PDP-11/70
+**BUS-UNIBUS**vref{2}: 1
 **Power-start{120V}
-**Supply**vref{1}: 120V 1-phase
-**I-max**vref{1}: 19A
+**Supply**vref{1,2}: 120V 1-phase
+**I-max**vref{1,2}: 19A
 **Power-end{120V}
 **Power-start{240V}
-**Supply**vref{1}: 240V 1-phase
-**I-max**vref{1}: 9.5A
+**Supply**vref{1,2}: 240V 1-phase
+**I-max**vref{1,2}: 9.5A
 **Power-end{240V}
 **Dimensions-start{1144}
 **Label: CPU box
 **Height**vref{1}: 263.4mm
 **Height**vref{1}: 422.1mm
 **Height**vref{1}: 660.1mm
-**Weight**vref{1}: 40.5kg
+**Weight**vref{1,2}: 40.5kg
 **Dimensions-end{1144}
 **End-systems-entry{PDP1144}
 
@@ -263,6 +284,7 @@
 **Def-lref{3} = ref{EB-26077-41}
 **Sys-name: PDP-11/45 
 **Generation**vref{3}: 2nd
+! vref{3} gives KD11-A or KD11-D
 **CPU-module**vref{1}: KB11
 ! vref{2} 11/45 core (980ns) and 11/55 MOS (300ns).
 **Minimum-memory**vref{2}: 16KB (8KW)
@@ -283,6 +305,7 @@
 **Def-lref{3} = ref{EB-26077-41}
 **Sys-name: PDP-11/60 
 **Generation**vref{3}: 1st
+**CPU-module**vref{3}: KD11-K
 **Cache**vref{1,2}: 2KB
 ! vref{1} FPU is FP11-E
 **Maximum-memory**vref{1}: 248KB (124KW)
@@ -304,8 +327,10 @@
 **Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/70 
 **Generation**vref{2}: 3rd
+! vref{2} gives KB11-B or KB11-C
 **Physical-address-lines**vref{1}: 22
 **Cache**vref{1}: 2KB
+**Relative-performance**vref{2}: 1.0 x PDP-11/70
 ! see vref{1} for dimensions
 ! vref{1} FPU is FP11-C
 **End-systems-entry{PDP1170}
@@ -317,7 +342,51 @@
 **Start-systems-entry{PDP1184}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-26077-41}
 **Sys-name: PDP-11/84 
+**Announcement**vref{1}: 1985
 **Generation**vref{1}: 5th
+**CPU-module**vref{1}: KDJ11-B
+**CPU-chip**vref{1}: J-11
+**Cache**vref{1}: 8KB
+**Relative-performance**vref{1}: 1.1 x PDP-11/70
+! vref{1}: processor connects to memory via PMI
+**Maximum-memory**vref{1}: 3840KB
+**Physical-address-lines**vref{1}: 22
+**Memory-checking**vref{1}: ECC
+**BUS-UNIBUS**vref{1}: 1
+**Power-start{Box-120V}
+**Label: Box 120V
+**Supply**vref{1}: 120 1-phase
+**I-max**vref{1}: 8A
+**Power-end{Box-120V}
+**Power-start{Box-240V}
+**Label: Box 240V
+**Supply**vref{1}: 240 1-phase
+**I-max**vref{1}: 4.2A
+**Power-end{Box-240V}
+**Power-start{Cabinet-120V}
+**Label: Cabinet 120V
+**Supply**vref{1}: 120 1-phase
+**I-max**vref{1}: 11.3A
+**Power-end{Cabinet-120V}
+**Power-start{Cabinet-240V}
+**Label: Cabinet 240V
+**Supply**vref{1}: 240 1-phase
+**I-max**vref{1}: 5.6A
+**Power-end{Cabinet-240V}
+**Dimensions-start{Box}
+**Label: Box
+**Height**vref{1}: 267mm
+**Width**vref{1}: 482mm
+**Depth**vref{1}: 686mm
+**Weight**vref{1}: 44.5kg
+**Dimensions-end{Box}
+**Dimensions-start{Cabinet}
+**Label: Cabinet
+**Height**vref{1}: 1057mm
+**Width**vref{1}: 539mm
+**Depth**vref{1}: 800mm
+**Weight**vref{1}: 150kg
+**Dimensions-end{Box}
 **End-systems-entry{PDP1184}
 
 **Start-systems-entry{PDP1194}{PDP11}{UNIBUS}
@@ -329,7 +398,9 @@
 **End-systems-entry{PDP1103}
 
 **Start-systems-entry{PDP1123}{PDP11}{QBUS}
+**Def-lref{1} = ref{EB-26077-41}
 **Sys-name: PDP-11/23
+**CPU-module**vref{1}: KDF11-A or KDF11-B
 **End-systems-entry{PDP1123}
 
 **Start-systems-entry{PDP1153}{PDP11}{QBUS}
