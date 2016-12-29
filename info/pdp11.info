@@ -46,7 +46,7 @@
 !
 !
 !
-!<H3> <A NAME="size">              Physical dimensions         </A> </H3>
+!<H3> <A NAME="size">              Physical dimsions         </A> </H3>
 !
 !<TABLE WIDTH=100% BORDER=1>
 !<TR>             <TH>            Model  <TH> Height	<TH> Width	<TH>  Depth	<TH> Weight	</TR>
@@ -403,6 +403,32 @@
 **CPU-module**vref{1}: KDF11-A or KDF11-B
 **End-systems-entry{PDP1123}
 
+**Start-systems-entry{PDP1123PLUS}{PDP11}{QBUS}
+**Def-lref{1} = ref{EK-MIC11-SG-001}
+**Sys-name: PDP-11/23 PLUS
+**CPU-module**vref{1}: KDF11-BA
+**Module**vref{1}: M8189
+! vref{1}: Enclosure is BA11-S
+**Dimensions-start{BA11-S}
+**Height**vref{1}: 132mm
+**Width**vref{1}: 483mm
+**Depth**vref{1}: 578mm
+**Dimensions-end{BA11-S}
+**End-systems-entry{PDP1123PLUS}
+
+**Start-systems-entry{MicroPDP1123}{PDP11}{QBUS}
+**Def-lref{1} = ref{EK-MIC11-SG-001}
+**Sys-name: MicroPDP-11/23
+! vref{1} KDF11-BE has been replaced by the KDF11-BF
+**CPU-module**vref{1}: KDF11-BE or KDF11-BF
+! vref{1} M8189 identification:
+! KDF11-BA has ROMS 23-339E2 and 23-340E2  (PDP-11/23 PLUS)
+! KDF11-BE has ROMS 23-238E4 and 23-239E4  (MicroPDP-11/23)
+! KDF11-BF has ROMS 23-183E4 and 23-184E4  (MicroPDP-11/23)
+! A PDP-11/23 PLUS (KDF11-BA) can be upgraded by installing new ROMS and changing jumpers
+**Module**vref{1}: M8189
+**End-systems-entry{MicroPDP1123}
+
 **Start-systems-entry{PDP1153}{PDP11}{QBUS}
 **Sys-name: PDP-11/53
 **End-systems-entry{PDP1153}
@@ -411,9 +437,30 @@
 **Sys-name: PDP-11/73
 **End-systems-entry{PDP1173}
 
+**Start-systems-entry{MicroPDP1173}{PDP11}{QBUS}
+**Def-lref{1} = ref{EK-MIC11-SG-001}
+**Sys-name: MicroPDP-11/73
+! vref{1}: KDJ11-BB - 15MHz, no FPP, (FPJ11-AA upgrade available)
+! vref{1}: KDJ11-BC - 15MHz, no FPP, (no FPP upgrade available)
+**CPU-module**vref{1}: KDJ11-BC or KDJ11-BB
+**CPU-chip**vref{1}: J-11
+**CPU-clock**vref{1}: 15MHz
+**Module**vref{1}: M1890 (for KDJ11-BC) or M81890-AB (for KDJ11-BB)
+**End-systems-entry{MicroPDP1173}
+
 **Start-systems-entry{PDP1183}{PDP11}{QBUS}
 **Sys-name: PDP-11/83
 **End-systems-entry{PDP1183}
+
+**Start-systems-entry{MicroPDP1183}{PDP11}{QBUS}
+**Def-lref{1} = ref{EK-MIC11-SG-001}
+**Sys-name: MicroPDP-11/83
+! vref{1}: KDJ11-BF includes FPJ11-AB
+**CPU-module**vref{1}: KDJ11-BF
+**Module**vref{1}: M8190-AE
+**CPU-chip**vref{1}: J-11
+**CPU-clock**vref{1}: 18MHz
+**End-systems-entry{MicroPDP1183}
 
 **Start-systems-entry{PDP1193}{PDP11}{QBUS}
 **Sys-name: PDP-11/93

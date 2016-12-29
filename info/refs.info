@@ -9040,6 +9040,11 @@
 **Ref-hardcopy: Yes
 **End-ref{EB-26077-41}
 
+**Start-ref{EK-MIC11-SG-001}
+**Ref-text: MicroPDP-11 Systems. Maintenance Guide.
+**Ref-partno: EK-MIC11-SG-001
+**End-ref{EK-MIC11-SG-001}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
