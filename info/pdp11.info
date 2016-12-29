@@ -106,9 +106,18 @@
 
 **Start-systems-entry{PDP1104}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-09430-20}
+**Def-lref{2} = ref{EB-17716-18}
 **Sys-name: PDP-11/04 
+! vref{2} has a minimum of 16KB
+! vref{2} core option: MM11-YP  64KB 18-bit 450ns access (no parity)/600 ns access (parity) 1.3us cycle time
+! vref{2} core option: MM11-DP  32KB 18-bit 500 ns access (parity) 1us cycle time
+! vref{2): MOS option: MS11-JP  32KB 18-bit 550ns access, 700ns cycle
+! vref{2} KY11-LA Operator's console
+! vref{2} KY11-KB Programmer's console
 **Minimum-memory**vref{1}:8KB (4KW)
-**Maximum-memory**vref{1}: 56KB (28KW)
+**Maximum-memory**vref{1,2}: 56KB (28KW)
+**Physical-address-lines**vref{2}: 16
+**Memory-checking**vref{2}: Byte Parity
 ! vref{1}: MOS 500ns access time (typical), 725ns cycle time (typical)
 **End-systems-entry{PDP1104}
 
@@ -183,8 +192,51 @@
 **End-systems-entry{PDP1134}
 
 **Start-systems-entry{PDP1134A}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{EB-17716-18}
 **Sys-name: PDP-11/34A
+! vref{1}: integrated EIS, HW FPP option. cache memory option. core or MOS memory.
+! vref{1} 2.5x power of PDP-11/04
+! vref{1} core option: MM11-YP  64KB 18-bit 450ns access (no parity)/600 ns access (parity) 1.3us cycle time
+! vref{1} core option: MM11-DP  32KB 18-bit 500 ns access (parity) 1us cycle time
+! vref{1): MOS option: MS11-JP  32KB 18-bit 550ns access, 700ns cycle
+! vref{1): MOS option: MS11-LB 128KB 18-bit 360ns access DATI/95ns access DATO, 450ns cycle
+! vref{1): MOS option: MS11-LD 256KB 18-bit 360ns access DATI/95ns access DATO, 450ns cycle
+! vref{1} KY11-LA Operator's console
+! vref{1} KY11-KB Programmer's console
+! vref{1} FPU is FP11-A
+**Minimum-memory**vref{1}:32KB
+**Maximum-memory**vref{1}: 248KB
+**Physical-address-lines**vref{1}: 18
+**Memory-checking**vref{1}: Byte Parity
+**Cache**vref{1}: 2KB (optional)
+! vref{2} quotes dimenions for 11/04 and 11/34A but does not specify which is which!
 **End-systems-entry{PDP1134A}
+
+**Start-systems-entry{PDP1144}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{EB-17716-18}
+**Sys-name: PDP-11/44
+! vref{1} this is a 4th generation PDP-11 system
+**Physical-address-lines**vref{1}: 22
+! vref{1}: cache is implemented on a separate hex module and can be disable with a switch
+! vref{1}: KK11-B and 11/44 can be used in a multi-ported memory system
+! vref{1} FPU is FP11-F
+**Cache**vref{1}: 8KB
+**Power-start{120V}
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 19A
+**Power-end{120V}
+**Power-start{240V}
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 9.5A
+**Power-end{240V}
+**Dimensions-start{1144}
+**Label: CPU box
+**Height**vref{1}: 263.4mm
+**Height**vref{1}: 422.1mm
+**Height**vref{1}: 660.1mm
+**Weight**vref{1}: 40.5kg
+**Dimensions-end{1144}
+**End-systems-entry{PDP1144}
 
 **Start-systems-entry{PDP1145}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{D-09-25}
@@ -206,17 +258,31 @@
 
 **Start-systems-entry{PDP1160}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-09430-20}
+**Def-lref{2} = ref{EB-17716-18}
 **Sys-name: PDP-11/60 
-**Cache**vref{1}: 2KB
+**Cache**vref{1,2}: 2KB
+! vref{1} FPU is FP11-E
 **Maximum-memory**vref{1}: 248KB (124KW)
 **Memory-checking**vref{1}: ECC
+**Physical-address-lines**vref{2}: 18
 **UWCS**vref{1}: 1024 48-bit words
 **ECS**vref{1}: 1536 48-bit words
 **DCS**vref{1}: Available
+**Dimensions-start{lowboy}
+**Height**vref{2}: 1283mm
+**Width**vref{2}: 1181.1mm
+**Depth**vref{2}: 762.0mm
+**Weight**vref{2}: 186kga
+**Dimensions-end{lowboy}
 **End-systems-entry{PDP1160}
 
 **Start-systems-entry{PDP1170}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{EB-17716-18}
 **Sys-name: PDP-11/70 
+**Physical-address-lines**vref{1}: 22
+**Cache**vref{1}: 2KB
+! see vref{1} for dimensions
+! vref{1} FPU is FP11-C
 **End-systems-entry{PDP1170}
 
 **Start-systems-entry{PDP1174}{PDP11}{UNIBUS}
