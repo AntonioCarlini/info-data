@@ -1022,7 +1022,7 @@
 
 **Start-systems-entry{VAX6500}{VAX}{VAX6000}
 **Sys-name: VAX 6000-500
-**Desc-name: VAX 6000 Model 500 Series
+**Desc-name: VAX 6000 Model 500 series
 **Def-lref{1} = ref{EK-650EA-TM-001}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{EC-N0377-46}
@@ -2370,7 +2370,7 @@
 **End-systems-entry{VS2}
 
 **Start-systems-entry{VS35X0}{VAX}{VAXstation}
-**Sys-name: VAxstation 3520/3540
+**Sys-name: VAXstation 3520/3540
 **def-lref{1} = ref{EK-258AA-MG-003}
 **Announcement**uref{*102}: 10 January 1989
 **Codename**uref{*47}: Firefox
