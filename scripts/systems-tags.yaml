@@ -18,6 +18,11 @@
   - all
   - summary
   - required
+- Generation:
+  - Technology generation
+  - Technology generation
+  - pdp11
+  - summary
 - FRS-date:
   - FRS date
   - First revenue ship date

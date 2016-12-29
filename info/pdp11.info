@@ -2,7 +2,9 @@
 **Def-lref{1} = ref{DEC-11-H05SS-B-D}
 **Def-lref{2} = ref{EK-11005-TM-003}
 **Def-lref{3} = ref{D-09-25}
+**Def-lref{4} = ref{EB-26077-41}
 **Sys-name: PDP-11/05-S and PDP-11/10-S
+**Generation**vref{4}: 2nd
 **CPU-module**vref{1,3}: KD11-B
 **CPU-cycle**htref{**1}: 310ns
 **Console-speed**vref{1}: 110-2400 baud
@@ -57,7 +59,9 @@
 
 **Start-systems-entry{PDP1140}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-02613-75}
+**Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/35 and PDP-11/40
+**Generation**vref{2}: 2nd
 ! vref{1}
 !The PDP-11/35 and PDP-11/40 are identical systems; the PDP-11/35 is
 !intended for OEMs, whereas the PDP-11/40 is for end-users.
@@ -107,7 +111,9 @@
 **Start-systems-entry{PDP1104}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-09430-20}
 **Def-lref{2} = ref{EB-17716-18}
+**Def-lref{3} = ref{EB-26077-41}
 **Sys-name: PDP-11/04 
+**Generation**vref{3}: 3rd
 ! vref{2} has a minimum of 16KB
 ! vref{2} core option: MM11-YP  64KB 18-bit 450ns access (no parity)/600 ns access (parity) 1.3us cycle time
 ! vref{2} core option: MM11-DP  32KB 18-bit 500 ns access (parity) 1us cycle time
@@ -149,7 +155,9 @@
 
 **Start-systems-entry{PDP1120}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{D-09-25}
+**Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/20 
+**Generation**vref{2}: 1st
 **CPU-module**vref{1}: KA11
 ! vref{1}
 ! PDP-11/20 is the first member of the PDP-11 series.
@@ -182,6 +190,13 @@
 **Power-start{120V}
 **End-systems-entry{PDP1120}
 
+**Start-systems-entry{PDP1124}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{EB-26077-41}
+**Sys-name: PDP-11/24 
+**Generation**vref{1}: 4th
+**BUS-UNIBUS**vref{1}: 1
+**End-systems-entry{PDP1124}
+
 **Start-systems-entry{PDP1134}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-09430-20}
 **Sys-name: PDP-11/34 
@@ -193,7 +208,9 @@
 
 **Start-systems-entry{PDP1134A}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-17716-18}
+**Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/34A
+**Generation**vref{2}: 3rd
 ! vref{1}: integrated EIS, HW FPP option. cache memory option. core or MOS memory.
 ! vref{1} 2.5x power of PDP-11/04
 ! vref{1} core option: MM11-YP  64KB 18-bit 450ns access (no parity)/600 ns access (parity) 1.3us cycle time
@@ -214,7 +231,9 @@
 
 **Start-systems-entry{PDP1144}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-17716-18}
+**Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/44
+**Generation**vref{2}: 4th
 ! vref{1} this is a 4th generation PDP-11 system
 **Physical-address-lines**vref{1}: 22
 ! vref{1}: cache is implemented on a separate hex module and can be disable with a switch
@@ -241,7 +260,9 @@
 **Start-systems-entry{PDP1145}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{D-09-25}
 **Def-lref{2} = ref{EB-09430-20}
+**Def-lref{3} = ref{EB-26077-41}
 **Sys-name: PDP-11/45 
+**Generation**vref{3}: 2nd
 **CPU-module**vref{1}: KB11
 ! vref{2} 11/45 core (980ns) and 11/55 MOS (300ns).
 **Minimum-memory**vref{2}: 16KB (8KW)
@@ -259,7 +280,9 @@
 **Start-systems-entry{PDP1160}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-09430-20}
 **Def-lref{2} = ref{EB-17716-18}
+**Def-lref{3} = ref{EB-26077-41}
 **Sys-name: PDP-11/60 
+**Generation**vref{3}: 1st
 **Cache**vref{1,2}: 2KB
 ! vref{1} FPU is FP11-E
 **Maximum-memory**vref{1}: 248KB (124KW)
@@ -278,7 +301,9 @@
 
 **Start-systems-entry{PDP1170}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-17716-18}
+**Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/70 
+**Generation**vref{2}: 3rd
 **Physical-address-lines**vref{1}: 22
 **Cache**vref{1}: 2KB
 ! see vref{1} for dimensions
@@ -290,7 +315,9 @@
 **End-systems-entry{PDP1174}
 
 **Start-systems-entry{PDP1184}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{EB-26077-41}
 **Sys-name: PDP-11/84 
+**Generation**vref{1}: 5th
 **End-systems-entry{PDP1184}
 
 **Start-systems-entry{PDP1194}{PDP11}{UNIBUS}

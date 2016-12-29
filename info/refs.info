@@ -9034,6 +9034,12 @@
 **Ref-partno: EK-4MMAX–OP.A01
 **End-ref{EK-4MMAX–OP.A01}
 
+**Start-ref{EB-26077-41}
+**Ref-text: PDP-11 UNIBUS Processor Handbook PDP-11/84, PDP-11/44, and PDP-11/24
+**Ref-partno: EB-26077-41
+**Ref-hardcopy: Yes
+**End-ref{EB-26077-41}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
