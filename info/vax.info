@@ -4390,3 +4390,17 @@
 **Maximum-memory**htref{5}: 512MB
 ! [5]: 512MB via MS45-DA -->
 **End-systems-entry{UV3198}
+
+**Start-systems-entry{rtVAX300}{VAX}{rtVAX}
+**Def-lref{1} = ref{EK-382AB-UG-002}
+**Sys-name: rtVAX 300
+! vref{1}: The rtVAX 300 is a target processor designed to be embedded.
+! vref{1}: runs VAXELN but not VMS or ULTRIX
+**CPU-chip**vref{1}: CVAX
+**FPU-chip**vref{1}: CFPA
+**Instruction-buffer**vref{1}: 12 bytes
+**Translation-buffer**vref{1}: 28 entries
+**Cache**vref{1}: 1KB
+**Maximum-memory**vref{1}: 510MB (256MB R/W and 254MB R/O)
+**LAN-support**vref{1}: 1 (SGEC)
+**End-systems-entry{rtVAX300}
