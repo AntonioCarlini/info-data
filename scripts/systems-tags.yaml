@@ -74,7 +74,8 @@
 - OS-support-MDM:
   - OS support (MDM)
   - Range of MDM releases that support this system
-  - vax
+  - - vax
+    - decmips
   - summary
 - OS-support-ELN:
   - OS support (ELN)

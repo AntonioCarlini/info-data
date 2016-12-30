@@ -280,9 +280,8 @@
 ! <!-- [1] MS650-BA 16MB or MS650-BB 8MB, 1MB 120ns DRAMs quad height 7-bit ECC/longword -->
 ! <!-- *58: MS650-AA too slow. MS650-BB is 8MB one embedded SHAC, two optional KFQSA -->
 ! <!-- [1] read: 280ns LW, 420ns 420ns, write: LW 140ns, 
-!**BUS-Qbus**uref{*80}: 1 @ 3.3MB/s
 **BUS-Qbus**vref{2}: 1 @ 3.3MB/s
-! Q-bus from *80; DSSI from *80,*83
+! DSSI from *80,*83
 ! <!--  [2] SHAC is 800 I/O per sec -->
 ! vref{1} LAN 10Mb/s
 **LAN-support**vref{1}: 1 (SGEC - embedded) (DC541)
@@ -627,6 +626,7 @@
 **def-lref{5} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{6} = ref{CU-V5-8B}
 **def-lref{7} = ref{4500-6600-PERF-SUMM}
+! The 4000-600A seems to be the same CPU (but there is a different box lable mentioned in EK-508AB-IPB)
 **Sys-name: VAX 4000-505A
 **Desc-name: VAX 4000 Model 505A
 **Html-target: vax450x
@@ -658,6 +658,7 @@
 **End-systems-entry{VAX4505A}
 
 **Start-systems-entry{VAX4600}{VAX}{VAX4000}
+!! REVIEW ALL BELOW. 4000-600 is KA690. 4000-600A is KA691 !!
 ! For 4000-600 not 4000-600A
 !**VMS-CPU: 19
 !**VMS-XCPU: 1
