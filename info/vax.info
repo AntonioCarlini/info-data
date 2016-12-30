@@ -1133,8 +1133,7 @@
 **SPECmarks**vref{4}: 42.1
 !!**Tpc-a**htref{3}: 83.6
 **Minimum-memory**vref{1}: 32MB
-!EK-VAXCT-CG-006 says 512MB
-**Maximum-memory: 512MB
+**Maximum-memory**vref{4}: 512MB
 **Physical-address-lines**vref{1}: 32
 **Max-I/O-throughput**uref{*SUE Jul 1992 Spec}: 80MB/s
 **LAN-support: optional
