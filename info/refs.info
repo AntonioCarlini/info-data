@@ -9043,7 +9043,18 @@
 **Start-ref{EK-MIC11-SG-001}
 **Ref-text: MicroPDP-11 Systems. Maintenance Guide.
 **Ref-partno: EK-MIC11-SG-001
+**Ref-hardcopy: Yes
 **End-ref{EK-MIC11-SG-001}
+
+**Start-ref{EK-OLCP5-TM-002}
+**Ref-text: MICRO/PDP-11 System Technical Manual
+**Ref-partno: EK-OLCP5-TM-002
+**End-ref{EK-OLCP5-TM-002}
+
+**Start-ref{EK-11034-UG-001}
+**Ref-text: PDP-11/34 system user's manual
+**Ref-partno: EK-11034-UG-001
+**End-ref{EK-11034-UG-001}
 
 **Stop-processing
 

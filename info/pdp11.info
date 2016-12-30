@@ -214,8 +214,13 @@
 **Start-systems-entry{PDP1134}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-09430-20}
 **Def-lref{2} = ref{EB-26077-41}
+**Def-lref{3} = ref{EK-11034-UG-001}
+! vref{3}: PDP-11/34A is PDP-11/34 variant that supports FP11-A.
+! PDP-11/34:  KD11-E + M8264 Sack Timeout module
+! PDP-11/34A: KD11-EA (M8265, M8266)
 **Sys-name: PDP-11/34 
-**CPU-module**vref{2}: KD11-E
+**CPU-module**vref{2,3}: KD11-E
+**Module**vref{3}: M7265 and M7266
 **Maximum-memory**vref{1}: 248KB (124KW)
 ! vref{1}: core or MOS
 **Memory-checking**vref{1}: Parity
@@ -225,8 +230,11 @@
 **Start-systems-entry{PDP1134A}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-17716-18}
 **Def-lref{2} = ref{EB-26077-41}
+**Def-lref{3} = ref{EK-11034-UG-001}
 **Sys-name: PDP-11/34A
 **Generation**vref{2}: 3rd
+**CPU-module**vref{2}: KD11-EA
+**Module**vref{3}: M8265 and M8266
 ! vref{1}: integrated EIS, HW FPP option. cache memory option. core or MOS memory.
 ! vref{1} 2.5x power of PDP-11/04
 ! vref{1} core option: MM11-YP  64KB 18-bit 450ns access (no parity)/600 ns access (parity) 1.3us cycle time
@@ -243,13 +251,16 @@
 **Memory-checking**vref{1}: Byte Parity
 **Cache**vref{1}: 2KB (optional)
 **Relative-performance**vref{2}: 0.50 x PDP-11/70
+**BUS-UNIBUS**vref{3}: 1
 ! vref{2} quotes dimenions for 11/04 and 11/34A but does not specify which is which!
 **End-systems-entry{PDP1134A}
 
 **Start-systems-entry{PDP1144}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-17716-18}
 **Def-lref{2} = ref{EB-26077-41}
+**Def-lref{3} = ref{EB-24944-18}
 **Sys-name: PDP-11/44
+**Announcement**vref{3}: 1979
 **Generation**vref{1,2}: 4th
 **CPU-module**vref{2}: KD11-Z
 **Maximum-memory**vref{2}: 3840KB
@@ -282,7 +293,9 @@
 **Def-lref{1} = ref{D-09-25}
 **Def-lref{2} = ref{EB-09430-20}
 **Def-lref{3} = ref{EB-26077-41}
+**Def-lref{4} = ref{EB-24944-18}
 **Sys-name: PDP-11/45 
+**Announcement**vref{4}: 1972
 **Generation**vref{3}: 2nd
 ! vref{3} gives KD11-A or KD11-D
 **CPU-module**vref{1}: KB11
@@ -325,7 +338,9 @@
 **Start-systems-entry{PDP1170}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-17716-18}
 **Def-lref{2} = ref{EB-26077-41}
+**Def-lref{3} = ref{EB-24944-18}
 **Sys-name: PDP-11/70 
+**Announcement**vref{3}: 1975
 **Generation**vref{2}: 3rd
 ! vref{2} gives KB11-B or KB11-C
 **Physical-address-lines**vref{1}: 22
@@ -394,18 +409,24 @@
 **End-systems-entry{PDP1194}
 
 **Start-systems-entry{PDP1103}{PDP11}{QBUS}
+**Def-lref{1} = ref{EB-24944-18}
 **Sys-name: PDP-11/03 
+**Announcement**vref{1}: 1975
 **End-systems-entry{PDP1103}
 
 **Start-systems-entry{PDP1123}{PDP11}{QBUS}
 **Def-lref{1} = ref{EB-26077-41}
+**Def-lref{2} = ref{EB-24944-18}
 **Sys-name: PDP-11/23
+**Announcement**vref{2}: 1979
 **CPU-module**vref{1}: KDF11-A or KDF11-B
 **End-systems-entry{PDP1123}
 
 **Start-systems-entry{PDP1123PLUS}{PDP11}{QBUS}
 **Def-lref{1} = ref{EK-MIC11-SG-001}
+**Def-lref{2} = ref{EB-24944-18}
 **Sys-name: PDP-11/23 PLUS
+**Announcement**vref{2}: 1981
 **CPU-module**vref{1}: KDF11-BA
 **Module**vref{1}: M8189
 ! vref{1}: Enclosure is BA11-S
