@@ -1325,6 +1325,7 @@
 **Start-systems-entry{VAX7600}{VAX}{VAX7000}
 **Def-lref{1} = ref{EK-KA7AA-TM.001}
 **def-lref{2} = ref{EK-VAXCT-CG-006}
+**def-lref{3} = ref{EK-70TBA-T4.A01}
 **Sys-name: VAX 7000-600
 **Desc-name: VAX 7000 Model 600 series
 **Announcement**uref{*SUE Jul 1992 Spec}: 7 July 1992
@@ -1340,7 +1341,8 @@
 **Num-proc**vref{1}: 1-6			
 **CPU-names: {VAX 7610}{VAX 7620}{VAX 7630}{VAX 7640}{VAX 7650}{VAX 7660}
 **CPU-chip**vref{1}: NVAX+ (DC262)		
-**CPU-clock**uref{*SUE Jul 1992 Spec}: 91MHz
+!**CPU-clock**uref{*SUE Jul 1992 Spec}: 91MHz
+**CPU-clock**vref{3}: 91MHz
 **Module: E2045-AA
 ! See vref{1} p 2-26 .. it is called a prefetch queue.
 **Instruction-buffer**vref{1}: 16 bytes			
@@ -1374,6 +1376,7 @@
 **Def-lref{2} = ref{CU-V5-8B}
 **Def-lref{3} = ref{CU-V6-11A}
 **Def-lref{4} = ref{EK-7002B-SV-002}
+**def-lref{5} = ref{EK-70TBA-T4.A01}
 **Announcement**htref{2}: 15 August 1994
 **FRS-date**htref{2}: 1 August 1994
 ! Note that this was from {CU-V6-11} and NOT {CU-V6-11A}
@@ -1384,7 +1387,8 @@
 **Num-proc**vref{4}: 1-6
 **CPU-names: {VAX 7710}{VAX 7720}{VAX 7730}{VAX 7740}{VAX 7750}{VAX 7760}
 **CPU-name-VMS: KA7AB
-**CPU-clock**htref{2}: 137.5MHz
+!**CPU-clock**htref{2}: 137.5MHz
+**CPU-clock**vref{5}: 137.5MHz
 **CPU-chip: NV5
 **Module**vref{4}: E2045-AA
 **Compatibility-mode: No
@@ -1406,15 +1410,18 @@
 **Sys-name: VAX 7000-800
 **Desc-name: VAX 7000 Model 800 series
 **Def-lref{1} = ref{CU-V6-11A}
+**Def-lref{2} = ref{EK-70TBA-T4.A01}
 **Announcement**htref{1}: 1 November 1995
 **Codename: Xenon
 **OS-support-VMS: VMS V6.0
 ! V5.5-2 supports 7810-7840 as 7610-7640
 **Num-proc: 1-6
 **CPU-names: {VAX 7810}{VAX 7820}{VAX 7830}{VAX 7840}{VAX 7850}{VAX 7860}
-**CPU-clock**htref{1}: 170.9MHz
+!**CPU-clock**htref{1}: 170.9MHz
+**CPU-clock**vref{2}: 170.9MHz
 **CPU-name-VMS: KA7AC
 **Module: E2059-AA
+**CPU-chip**vref{2}: NV5
 **Compatibility-mode: No
 **Console-processor: CPU
 **TPC-A**htref{1}: 375:(VAX 7000-810)
