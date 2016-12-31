@@ -231,26 +231,30 @@
 **def-lref{3} = ref{EC-H2315-46}
 **def-lref{4} = ref{CU-V5-11A}
 **def-lref{5} = ref{EK-A0637-SV.001}
+**def-lref{6} = ref{EK-A0638-TD.001}
 **Codename: Jensen
 **OS-support-VMS: V1.5-1H1
-**Num-proc**htref{3}: 1
+**Num-proc**vref{5}: 1
+**Module**vref{5}: PB22H-KB
 **CPU-technology: CMOS
-**CPU-chip**htref{1}: DECchip 21064 (EV4 P2 or P3)
-**CPU-clock**htref{3}: 150MHz
-**CPU-cycle**htref{5}: 6.6ns
-**Cache**htref{3}: 8KB-I/8KB-D
-**Backup-cache**htref{3}: 512KB (17ns)
+**CPU-chip**vref{1}: DECchip 21064 (EV4 P2)
+**CPU-clock**vref{5}: 150MHz
+**CPU-cycle**vref{5}: 6.6ns
+**Cache**vref{6}: 8KB-I/8KB-D
+!**Backup-cache**htref{3}: 512KB (17ns)
+**Backup-cache**vref{6}: 512KB (17ns)
 **SPECint92**htref{4}: 81
 **SPECfp92**htref{4}: 110
 **TPC-A: 110
 ! TPC-A from Digital WWW
-**Minimum-memory**htref{1}: 16MB
-**Maximum-memory**htref{1}: 128MB
+**Minimum-memory**vref{1}: 16MB
+**Maximum-memory**vref{1}: 128MB
 ! 256MB : Digital WWW 
 **Memory-checking**htref{5}: Longword parity
 **Max-I/O-throughput**uref{Digital WWW}: 33MB/s
 **BUS-SCSI**htref{2}: 1
-**BUS-EISA**htref{3}: 6 slots @ 33MB/s
+!**BUS-EISA**htref{3}: 6 slots @ 33MB/s
+**BUS-EISA**vref{5}: 6 slots
 **LAN-support: 1 (10Base-T/ThinWire)
 **Dimensions-start{axp150}
 **Height**htref{1}: 474mm
@@ -1111,4 +1115,18 @@
 **Option: {boards:ZLXp-L1}{24-plane, double buffer, 3D}
 **Option: {boards:ZLXp-L2}{24-plane, PCI buffer, 3D}
 **End-systems-entry{AST255-300}
+
+**Start-systems-entry{AS4100}{ALPHA}{AlphaServer}
+**Def-lref{1} = ref{EK-4100A-SV.PRE}
+**Sys-name: AlphaServer 4100
+**Num-proc**vref{1}: 1-4
+**Cache**vref{1}: 8KB-I/8KB-D
+**CPU-technology**vref{1}: 0.5 micron CMOS
+**Secondary-cache**vref{1}: 96KB
+! vref{1}: B3001-CA 300MHz no onboard cache
+! vref{1}: B3002-AB 300MHz no onboard 2MB cache
+! vref{1}: MS320-CA 128MB B3020-CA
+! vref{1}: MS330-EA 512MB B3030-EA
+! vref{1}: MS330-FA   1GB B3030-FA
+**End-systems-entry{AS4100}
 

@@ -856,6 +856,7 @@
 **Def-lref{1} = ref{VAX-HW-HB-BI}
 **Def-lref{2} = ref{DTJ-V1-7}
 **Def-lref{3} = ref{DTJ-V2-2}
+**Def-lref{4} = ref{EK-6263M-MA}
 **Announcement**vref{3}: April 1988
 **Codename**uref{*47}: Calypso
 **OS-support-VMS**uref{*9,*26}: V5.0
@@ -866,9 +867,12 @@
 **VMS-CPU: 10
 **VMS-XCPU: 2
 **SID: 0A000003
-**XSID : 0231001
+! XSID was this value before verification and so that is probably a personally seen value.
+! vref{4}: XSID for VAXserver 6200 is 02310002
+**XSID**vref{4}: 0231001
 **CPU-names: {VAX 6000 Model 210}{VAX 6000 Model 220}{VAX 6000 Model 230}{VAX 6000 Model 240}
-**CPU-technology**vref{2}: CMOS-1
+**CPU-technology**vref{2,4}: CMOS-1
+**CPU-clock**vref{4}: 50MHz
 **CPU-chip**vref{2}: 78034 (CVAX)
 **FPU-chip**vref{2}: CFPA
 **CPU-cycle**vref{1,2}: 80ns
@@ -923,26 +927,34 @@
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{EK-624EA-MG-001}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
+**Def-lref{5} = ref{EK-6263M-MA}
 ! vref{1} January 1989
 **Announcement**uref{*DU MAR-1989 [1]}: 24 January 1989
 **Codename**uref{*47}: Hyperion
-**OS-support-VMS**uref{*26,*102}: V5.1
+!**OS-support-VMS**uref{*26,*102}: V5.1
+**OS-support-VMS**vref{5}: V5.1
+**OS-support-ultrix**vref{5}: V3.0
+**OS-support-ELN**vref{5}: V3.2
 **CPU-module**vref{3}: KA62B
+! vref{5}: VAX 6300 and VAXserver 6300 are the same apart from the SID
 **CPU-name-VMS: KA62B
 **CPU-name-console: KA62B
+! T2011-YC is VAXserver 6300. prom is 23-017E9-00. VAX 6300 prom is 23-016E9-00
 **Module**vref{3}: T2011-YA
 **VMS-CPU: 10
 **VMS-XCPU: 2
 **SID: 0A000006
+! vref{5}: VAX 6300: 02400201 VAXserver 6300: 02400202
 **XSID : 02800201
-**Num-proc: 1-6
+**Num-proc**vref{5}: 1-6
 **CPU-names: {VAX 6310}{VAX 6320}{VAX 6330}{VAX 6340}{VAX 6350}{VAX 6360}
-**CPU-technology**vref{1}: CMOS-2
-**CPU-clock: @@
+**CPU-technology**vref{1,5}: CMOS-2
+**CPU-clock**vref{5}: 66.67MHz
 **CPU-cycle**uref{*7,*52,*83}: 60ns
 !**Cache**uref{*7,*52,*83}: 1KB
 **Cache**vref{3}: 1KB
 !**Backup-cache**uref{*7,*52,*83}: 256KB (120ns)
+! vref{5} says 35ns backup cache
 **Backup-cache**vref{3}: 256KB
 **Instruction-buffer**uref{*7}: 12 bytes
 **Compatibility-mode: No
@@ -2094,25 +2106,29 @@
 **def-lref{1} = ref{SOCEE-SPR90}
 **def-lref{2} = ref{DTJ-V2-4}
 **def-lref{3} = ref{EK-9000S-SP.004}
+**def-lref{4} = ref{EK-9000S-SI-001}
 ! vref{2} states oct  1989
 **Announcement**vref{2}: 24 October 1989
 **Codename: Aquarius
 **Html-target: vax9000
 **OS-support-VMS: VMS V5.4-OA
 **CPU-module: KA9000
-**Num-proc: 1
+**Num-proc**vref{4}: 1
 **CPU-names: {VAX 9210}
 **CPU-technology**vref{2}: ECL (MCA III)
 **Gate-delay**vref{2}: 175 ps
 **CPU-cycle**vref{2}: 16ns
+! vref{4} states that there is an extended instruction buffer that has 16 further bytes of pre-fetch
 **Instruction-buffer**vref{2}: 9 bytes
 **Cache**vref{2}: 8KB VIC
 **Backup-cache**vref{2}: 128KB
 **Compatibility-mode: No
 **Console-processor**vref{2}: SPU (78032 based)
 **Console-device**vref{2}: RD54
-**Minimum-memory**vref{1}: 256MB
-**Maximum-memory**vref{1}: 512MB
+**Minimum-memory**vref{1,4}: 256MB
+!**Maximum-memory**vref{1}: 512MB
+! vref{4} 512MB with 1Mbyte DIMMs, 2GB with 4Mbyte DIMMs.
+**Maximum-memory**vref{4}: 2GB
 ! NB 430/440: 512MB fixed
 **Max-I/O-throughput**vref{1}: 80MB/s
 **BUS-XMI**vref{1}: 1-4 @ 80MB/s
@@ -2166,6 +2182,7 @@
 **def-lref{2} = ref{DTJ-V2-4}
 **def-lref{3} = ref{EK-9000S-SP.004}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
+**def-lref{5} = ref{EK-9000S-SI-001}
 ! vref{2} states oct  1989
 **Announcement**vref{2}: 24 October 1989
 **Codename: Aquarius
@@ -2186,7 +2203,9 @@
 **Console-device**vref{2}: RD54
 **VUPs**vref{4}: {40} {79} {118} {157}
 **Minimum-memory**vref{1}: 256MB
-**Maximum-memory**vref{1}: 512MB
+!**Maximum-memory**vref{1}: 512MB
+! vref{4} 512MB with 1Mbyte DIMMs, 2GB with 4Mbyte DIMMs.
+**Maximum-memory**vref{5}: 2GB
 ! NB 430/440: 512MB fixed
 **Max-I/O-throughput**vref{1}: 320MB/s
 **BUS-XMI**vref{1}: 1-4 @ 80MB/s

@@ -9067,6 +9067,11 @@
 **Ref-partno: EK-PDP94-MG-001
 **End-ref{EK-PDP94-MG-001}
 
+**Start-ref{EK-9000S-SI-001}
+**Ref-text: VAX 9000 Family System Introduction
+**Ref-partno: EK-9000S-SI-001
+**End-ref{EK-9000S-SI-001}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
