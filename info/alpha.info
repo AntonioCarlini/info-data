@@ -147,6 +147,7 @@
 **BUS-SCSI**htref{1}: 1 FW
 **End-systems-entry{AS1000A-4-266}
 
+! see app A of EK-AS300-UG.A01 DEC_0002 EK/
 **Start-systems-entry{AS300-4-266}{ALPHA}{ALPHASERVER}
 **Def-lref{1} = ref{CU-V7-11A}
 **Sys-name: AlphaServer 300 4/266
@@ -1118,6 +1119,7 @@
 
 **Start-systems-entry{AS4100}{ALPHA}{AlphaServer}
 **Def-lref{1} = ref{EK-4100A-SV.PRE}
+! NB - THIS MAY BE DATA FROM A GENERIC MANUAL
 **Sys-name: AlphaServer 4100
 **Num-proc**vref{1}: 1-4
 **Cache**vref{1}: 8KB-I/8KB-D
@@ -1129,4 +1131,38 @@
 ! vref{1}: MS330-EA 512MB B3030-EA
 ! vref{1}: MS330-FA   1GB B3030-FA
 **End-systems-entry{AS4100}
+
+! vref{EK-AL655-UI.A01} AlphaStation 600A Series User Information
+! has this to say:
+! 33MHz 32-bit PCI. System board RAM: max 1GB. 
+! 238.8mmWx645.2mmLx442mmH 32+kg
+! EK-AS800-RM.A01 more info
+
+! Stub this out: no real information yet.
+!**Start-systems-entry{AST600A5-500}{ALPHA}{AlphaStation}
+!**Sys-name: AlphaStation 600A 5/500
+!**Def-lref{1} = ref{EK-AL655-IP.A01}
+!**End-systems-entry{AST600A5-500}{ALPHA}{AlphaStation}
+
+**Start-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
+**End-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
+
+**Start-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
+**End-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
+
+**Start-systems-entry{ASDS20}{ALPHA}{DS20}
+**Def-lref{1} = ref{EK–AS140–UG.A01}
+**Sys-name = AlphaServer DS20
+**OS-support-vms**vref{1}: OpenVMS V7.1-2
+**OS-support-du**vref{1}: Digital UNIX V4.0E
+**OS-support-nt**vref{1}: Windows NT v4.0 SP3
+**Dimensions-start{DS20}
+**Height**vref{1}: 440mm
+**Width**vref{1}: 350mm
+**Depth**vref{1}: 530mm
+**Dimensions-end{DS20}
+**End-systems-entry{ASDS20}{ALPHA}{DS20}
+
+**Start-systems-entry{ASDS20E}{ALPHA}{DS20}
+**End-systems-entry{ASDS20E}{ALPHA}{DS20}
 
