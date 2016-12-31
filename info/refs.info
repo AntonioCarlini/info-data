@@ -9062,6 +9062,11 @@
 **Ref-partno: EK-11034-UG-001
 **End-ref{EK-11034-UG-001}
 
+**Start-ref{EK-PDP94-MG-001}
+**Ref-text: PDP-11/94-E System User and Maintenance Guide
+**Ref-partno: EK-PDP94-MG-001
+**End-ref{EK-PDP94-MG-001}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):

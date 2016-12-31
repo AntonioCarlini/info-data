@@ -405,7 +405,47 @@
 **End-systems-entry{PDP1184}
 
 **Start-systems-entry{PDP1194}{PDP11}{UNIBUS}
+**Def-lref{1} = ref{EK-PDP94-MG-001}
+**Def-lref{2} = ref{EK-403AA-MM}
 **Sys-name: PDP-11/94 
+! vref{2} KDJ11-EB has 4MB, KDJ11-EA has 2MB. Neither supports additional memory.
+! vref{2} EIS and FP
+! vref{1}: KTJ11-B M8191 Unibus Adapter Module
+! vref{2}: M9714 APS (Alternate Power Source) Module
+**CPU-name-console**vref{2}: KDJ11-E
+**CPU-module**vref{1}: KDJ11-E
+**Module**vref{2}: M8981
+**CPU-clock**vref{2}: 18MHz
+**CPU-chip**vref{2}: J-11
+**FPU-chip**vref{2}: FPJ11
+**Minimum-memory**vref{2}: 2MB
+**Maximum-memory**vref{2}: 4MB
+**Physical-address-lines**vref{1}: 22
+**Memory-checking**vref{1}: Parity
+**Power-start{1194E-120V}
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 15A
+**Power**vref{1}: 1100W
+**Heat-dissipation**vref{1}: 3750 BTU
+**Power-end{1194E-120V}
+**Power-start{1194E-240V}
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 7.5A
+**Power**vref{1}: 1100W
+**Heat-dissipation**vref{1}: 3750 BTU
+**Power-end{1194E-240V}
+**Power-start{11X94EAND11W94E-120V}
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 24A
+**Power**vref{1}: 1728W
+**Heat-dissipation**vref{1}: 3750 BTU
+**Power-end{11X94EAND11W94E-120V}
+**Power-start{11X94EAND11W94E-240V}
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 12A
+**Power**vref{1}: 1728W
+**Heat-dissipation**vref{1}: 3750 BTU
+**Power-end{11X94EAND11W94E-240V}
 **End-systems-entry{PDP1194}
 
 **Start-systems-entry{PDP1103}{PDP11}{QBUS}
