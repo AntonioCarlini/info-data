@@ -9072,6 +9072,26 @@
 **Ref-partno: EK-9000S-SI-001
 **End-ref{EK-9000S-SI-001}
 
+**Start-ref{EB-29465-71}
+**Ref-text: Semiconductor Databook Volume 1 1987
+**Ref-partno: EB-29465-71
+**End-ref{EB-29465-71}
+
+**Start-ref{EB-29466-71}
+**Ref-text: Semiconductor Databook Volume 2 1987
+**Ref-partno: EB-29466-71
+**End-ref{EB-29466-71}
+
+**Start-ref{EJ-32225-88}
+**Ref-text: Semiconductor Databook Volume 1 1987 Errata
+**Ref-partno: EJ-32225-88
+**End-ref{EJ-32225-88}
+
+**Start-ref{EF-A0188-50}
+**Ref-text: Semiconductor Databook Volume 2 1989
+**Ref-partno: EF-A0188-50
+**End-ref{EF-A0188-50}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
