@@ -49,182 +49,6 @@
 ! Multia			not supported
 !
 
-**Start-systems-entry{XL233}{ALPHA}{?}
-**def-lref{1} = ref{CU-V6-10}
-**Announcement**htref{1}: October 1995
-**OS-support-nt**htref{1}: Windows NT V3.51
-**Num-proc: 1
-**Backup-cache**htref{1}: 512KB
-**Maximum-memory**htref{1}: 192MB
-**End-systems-entry{XL233}
-
-**Start-systems-entry{AS1000-4-200}{ALPHA}{AS1000}
-**Sys-name: AlphaServer 1000 4/200
-**def-lref{1} = ref{CU-V6-5A}
-**def-lref{2} = ref{CU-V6-10B}
-**def-lref{3} = ref{CU-V5-11A}
-!-- [1] has more data about physical size -->
-!-- [3] indicates 4/200 has integrated SVGA controller -->
-!-- [3] indicates memory options for 4/200:
-!	PB7MA-AA         16 MB MEM
-!	PB7MA-AB         32 MB RAM
-!	PB7MA-AC         64 MB RAM
-!	PB7MA-AD         128 MB RAM
-**OS-support-vms: OpenVMS V6.1-1H2
-**Num-proc**htref{3}: 1
-**CPU-clock**htref{3}: 200MHz
-**Maximum-memory**htref{3}: 512MB
-**End-systems-entry{AS1000-4-200}
-
-**Start-systems-entry{AS1000-4-233}{ALPHA}{AS1000}
-**Sys-name: AlphaServer 1000 4/233
-**def-lref{1} = ref{CU-V6-5A}
-**def-lref{2} = ref{CU-V6-10B}
-**def-lref{3} = ref{CU-V5-11A}
-!-- [1] has more data about physical size -->
-**Announcement**htref{1}: 1 May 1995
-**OS-support-vms: OpenVMS V6.1-1H2
-**Num-proc**htref{1}: 1
-**CPU-clock**htref{1}: 233MHz
-**SPECint92**htref{1}: 165.3
-**SPECfp92**htref{1}: 222.9
-**TPC-A**htref{1}: 300:(e)
-**Maximum-memory**htref{1}: 512MB
-**Memory-checking**htref{1}: ECC
-**BUS-PCI**htref{1}: 2 slots
-**BUS-EISA**htref{1}: 7 slots
-**BUS-PCI-or-EISA**htref{1}: 1 slot
-**End-systems-entry{AS1000-4-233}
-
-**Start-systems-entry{AS1000-4-266}{ALPHA}{AS1000}
-**Sys-name: AlphaServer 1000 4/266
-**def-lref{1} = ref{CU-V6-5A}
-**def-lref{2} = ref{CU-V6-10B}
-**def-lref{3} = ref{CU-V5-11A}
-!-- [1] has more data about physical size -->
-**Announcement**htref{2}: 15 October 1995
-**Num-proc: 1
-**CPU-clock**htref{2}: 266MHz
-**TPC-A**htref{2}: 341:(e)
-**Maximum-memory**htref{2}: 1GB
-**BUS-PCI**htref{2}: 2 slots
-**BUS-EISA**htref{2}: 7 slots
-**BUS-PCI-or-EISA**htref{2}: 1 slot
-**End-systems-entry{AS1000-4-266}
-
-**Start-systems-entry{AS1000A-4-233}{ALPHA}{AS1000}
-**Sys-name: AlphaServer 1000A 4/233
-**def-lref{1} = ref{CU-V7-2A}
-!-- [1]: integrated SVGA controller for both 4/233 and 4/266 -->
-!-- V7-3B 1-Mar-1996 gives Rackmount variant dimensions as: 10.50-inches high by 19-inches wide by 27 inches deep -->
-**Announcement**htref{1}: 1 February 1996
-**FRS-date**htref{1}: March 1996
-**Num-proc: 1
-**CPU-clock**htref{1}: 233MHz
-**Backup-cache**htref{1}: 2MB
-**Maximum-memory**htref{1}: 1GB
-**BUS-PCI**htref{1}: 7 slots @ 132MB/s
-**BUS-EISA**htref{1}: 2 slots @ 33MB/s
-**BUS-PCI-or-EISA**htref{1}: 1 slot
-**BUS-SCSI**htref{1}: 1 FW
-**End-systems-entry{AS1000A-4-233}
-
-**Start-systems-entry{AS1000A-4-266}{ALPHA}{AS1000}
-**Sys-name: AlphaServer 1000A 4/266
-**def-lref{1} = ref{CU-V7-2A}
-!-- [1]: integrated SVGA controller for both 4/233 and 4/266 -->
-!-- V7-3B 1-Mar-1996 gives Rackmount variant dimensions as: 10.50-inches high by 19-inches wide by 27 inches deep -->
-**Announcement**htref{1}: 1 February 1996
-**OS-support-vms: OpenVMS V6.2-1H2
-**FRS-date**htref{1}: March 1996
-**Num-proc: 1
-**CPU-clock**htref{1}: 266MHz
-**Backup-cache**htref{1}: 2MB
-**Maximum-memory**htref{1}: 1GB
-**BUS-PCI**htref{1}: 7 slots @ 132MB/s
-**BUS-EISA**htref{1}: 2 slots @ 33MB/s
-**BUS-PCI-or-EISA**htref{1}: 1 slot
-**BUS-SCSI**htref{1}: 1 FW
-**End-systems-entry{AS1000A-4-266}
-
-! see app A of EK-AS300-UG.A01 DEC_0002 EK/
-**Start-systems-entry{AS300-4-266}{ALPHA}{ALPHASERVER}
-**Def-lref{1} = ref{CU-V7-11A}
-**Sys-name: AlphaServer 300 4/266
-**Announcement**htref{1}: 15 November 1996
-**OS-support-vms: OpenVMS V6.2-1H3
-**Num-proc: 1
-**CPU-chip**htref{1}: (EV45)
-**CPU-clock**htref{1}: 266MHz
-**Backup-cache**htref{1}: 2MB
-**SPECint95**htref{1}: 5.18
-**SPECfp95**htref{1}: 6.27
-**Maximum-memory**htref{1}: 512MB
-**Max-I/O-throughput**htref{1}: 132MB/s
-**BUS-PCI**htref{1}: 1 slot
-**BUS-ISA**htref{1}: 1 slot
-**BUS-PCI-or-ISA**htref{1}: 1 slot
-**End-systems-entry{AS300-4-266}
-
-**Start-systems-entry{AST250-4-266}{ALPHA}{ALPHASTATION}
-**Def-lref{1} = ref{CU-V6-4A}
-**Sys-name: AlphaStation 250 4/266
-**Announcement**htref{1}: 11 April 1995
-**OS-support-vms**htref{1}: OpenVMS V6.1-1H2
-! Flowchart has V6.1-1H1
-**OS-support-du**htref{1}: Digital UNIX V3.2
-**OS-support-nt**htref{1}: Windows NT V3.5
-**Num-proc: 1
-**CPU-chip**htref{1}: DECchip 21064A
-**CPU-clock**htref{1}: 266MHz
-**Cache**htref{1}: 16KB-I/16KB-D
-**Backup-cache**htref{1}: 2MB
-**SPECint92**htref{1}: 198.6
-**SPECfp92**htref{1}: 262.5
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 256MB
-!-- [1] implies future support for 512MB -->
-**BUS-SCSI**htref{1}: 1 @ 10MB/s
-**BUS-PCI**htref{1}: 1 @ 132MB/s, 33MHz
-**BUS-ISA**htref{1}: 1
-**BUS-PCI-or-ISA: 1
-**LAN-support**htref{1}: 1
-!-- options from [1] for AlphaStation 250 4/266 -->
-!<TR> <TD COLSPAN=2> <B> Graphics controllers </B> </TR>
-!<TR> <TD> <A HREF="../boards/zlxpe1.html"> ZLXp-E1     </A> <TD> ZLXp-E1  8 plane 2D/3D graphics	</TR>
-!<TR> <TD> <A HREF="../boards/zlxpe2.html"> ZLXp-E2     </A> <TD> ZLXp-E2 24 plane 2D graphics		</TR>
-!<TR> <TD> <A HREF="../boards/zlxpe3.html"> ZLXp-E3     </A> <TD> ZLXp-E3 24 plane 3D graphics, Z buffer	</TR>
-!<TR> <TD> <A HREF="../boards/dec864.html"> DEC864      </A> <TD> DEC864 entry level 2D graphics		</TR>
-!<TR> <TD COLSPAN=2> <B> Monitors </B> </TR>
-!<TR> <TD> <A HREF="../monitors/vrc15.html"> VRC15      </A> <TD> 15" colour monitor			</TR>
-!<TR> <TD> <A HREF="../monitors/vrt17.html"> VRT17      </A> <TD> 17" colour monitor			</TR>
-!<TR> <TD> <A HREF="../monitors/vrc21.html"> VRC21      </A> <TD> 21" colour monitor			</TR>
-**End-systems-entry{AST250-4-266}
-
-**Start-systems-entry{AST400-4-233}{ALPHA}{AlphaStation}
-**Sys-name: AlphaStation 400 4/233
-**Def-lref{1} = ref{CU-V6-3A}
-**Def-lref{2} = ref{CU-V5-11A}
-**Announcement**htref{2}: 1 November 1994
-**OS-support-vms**htref{2}: OpenVMS AXP V6.1-1H1
-**OS-support-du**htref{2}: DEC OSF/1 V3.0
-**OS-support-nt**htref{2}: Windows NT V3.5
-**Codename: TurboAvanti
-**Num-proc: 1
-**CPU-chip**htref{2}: DECchip 21064A
-**CPU-clock**htref{1}: 233MHz
-**Cache**htref{2}: 16KB-I/16KB-D
-**Backup-cache**htref{2}: 512KB
-**SPECint92**htref{1}: 157.6
-**SPECfp92**htref{1}: 183.8
-**Minimum-memory**htref{2}: 16MB
-**Maximum-memory**htref{2}: 192MB
-**BUS-SCSI**htref{2}: 1 @ 10MB/s
-**BUS-PCI**htref{2}: 2 slots @ 132 MB/s
-**BUS-ISA**htref{2}: 3 slots @ 33 MB/s
-**BUS-PCI-or-ISA**htref{2}: 1 slot
-**End-systems-entry{AST400-4-233}
-
 **Start-systems-entry{AXP150}{ALPHA}{DEC2000}
 **Sys-name: DECpc <BOLD>axp</BOLD> 150 and DEC 2000 Model 300 AXP
 **def-lref{1} = ref{EK-A0636-TM.001}
@@ -743,6 +567,160 @@
 **CPU-clock**htref{1}: 275MHz
 **End-systems-entry{DEC7700}
 
+! see app A of EK-AS300-UG.A01 DEC_0002 EK/
+**Start-systems-entry{AS300-4-266}{ALPHA}{ALPHASERVER}
+**Def-lref{1} = ref{CU-V7-11A}
+**Sys-name: AlphaServer 300 4/266
+**Announcement**htref{1}: 15 November 1996
+**OS-support-vms: OpenVMS V6.2-1H3
+**Num-proc: 1
+**CPU-chip**htref{1}: (EV45)
+**CPU-clock**htref{1}: 266MHz
+**Backup-cache**htref{1}: 2MB
+**SPECint95**htref{1}: 5.18
+**SPECfp95**htref{1}: 6.27
+**Maximum-memory**htref{1}: 512MB
+**Max-I/O-throughput**htref{1}: 132MB/s
+**BUS-PCI**htref{1}: 1 slot
+**BUS-ISA**htref{1}: 1 slot
+**BUS-PCI-or-ISA**htref{1}: 1 slot
+**End-systems-entry{AS300-4-266}
+
+**Start-systems-entry{AS400-4-166}{ALPHA}{ALPHASERVER}
+**Sys-name: AlphaServer 400 4/166
+**Def-lref{1} = ref{CU-V6-3A}
+**Def-lref{2} = ref{CU-V6-10B}
+**Announcement**htref{1}: 1 March 1995
+**OS-support-vms: OpenVMS V6.1-1H1
+**Num-proc: 1
+**CPU-clock**htref{1}: 166MHz
+**Maximum-memory**htref{1}: 192MB
+**BUS-PCI**htref{1}:  2 slots @ 132MB/s
+**BUS-ISA**htref{1}: 3 slots
+**BUS-PCI-or-ISA**htref{1}: 1 slot
+**BUS-SCSI: 1 @ 10MB/s
+**Option-title: Memory
+**Option: {boards:MSP01-AA}{8MB SIMM package}
+**Option: {boards:MSP01-AB}{16MB SIMM package}
+**Option: {boards:MSP01-AC}{32MB SIMM package}
+**Option: {boards:MSP01-AD}{64MB SIMM package}
+**End-systems-entry{AS400-4-166}
+
+**Start-systems-entry{AS400-4-233}{ALPHA}{ALPHASERVER}
+**Sys-name: AlphaServer 400 4/233
+**Def-lref{1} = ref{CU-V6-3A}
+**Def-lref{2} = ref{CU-V6-10B}
+**Announcement**htref{2}: 15 October 1995
+**Num-proc: 1
+**CPU-clock**htref{2}: 233MHz
+**Backup-cache**htref{2}:  512KB
+**Maximum-memory**htref{2}: 384MB
+**BUS-PCI**htref{2}: 2 slots @ 132MB/s
+**BUS-ISA**htref{2}: 3 slots
+**BUS-PCI-or-ISA**htref{2}: 1 slot
+**BUS-SCSI**htref{2}: 1 @ 10MB/s
+**Option-title: Memory
+**Option: {boards:MSP01-AA}{8MB SIMM package}
+**Option: {boards:MSP01-AB}{16MB SIMM package}
+**Option: {boards:MSP01-AC}{32MB SIMM package}
+**Option: {boards:MSP01-AD}{64MB SIMM package}
+**End-systems-entry{AS400-4-233}
+
+**Start-systems-entry{AS1000-4-200}{ALPHA}{AS1000}
+**Sys-name: AlphaServer 1000 4/200
+**def-lref{1} = ref{CU-V6-5A}
+**def-lref{2} = ref{CU-V6-10B}
+**def-lref{3} = ref{CU-V5-11A}
+!-- [1] has more data about physical size -->
+!-- [3] indicates 4/200 has integrated SVGA controller -->
+!-- [3] indicates memory options for 4/200:
+!	PB7MA-AA         16 MB MEM
+!	PB7MA-AB         32 MB RAM
+!	PB7MA-AC         64 MB RAM
+!	PB7MA-AD         128 MB RAM
+**OS-support-vms: OpenVMS V6.1-1H2
+**Num-proc**htref{3}: 1
+**CPU-clock**htref{3}: 200MHz
+**Maximum-memory**htref{3}: 512MB
+**End-systems-entry{AS1000-4-200}
+
+**Start-systems-entry{AS1000-4-233}{ALPHA}{AS1000}
+**Sys-name: AlphaServer 1000 4/233
+**def-lref{1} = ref{CU-V6-5A}
+**def-lref{2} = ref{CU-V6-10B}
+**def-lref{3} = ref{CU-V5-11A}
+!-- [1] has more data about physical size -->
+**Announcement**htref{1}: 1 May 1995
+**OS-support-vms: OpenVMS V6.1-1H2
+**Num-proc**htref{1}: 1
+**CPU-clock**htref{1}: 233MHz
+**SPECint92**htref{1}: 165.3
+**SPECfp92**htref{1}: 222.9
+**TPC-A**htref{1}: 300:(e)
+**Maximum-memory**htref{1}: 512MB
+**Memory-checking**htref{1}: ECC
+**BUS-PCI**htref{1}: 2 slots
+**BUS-EISA**htref{1}: 7 slots
+**BUS-PCI-or-EISA**htref{1}: 1 slot
+**End-systems-entry{AS1000-4-233}
+
+**Start-systems-entry{AS1000-4-266}{ALPHA}{AS1000}
+**Sys-name: AlphaServer 1000 4/266
+**def-lref{1} = ref{CU-V6-5A}
+**def-lref{2} = ref{CU-V6-10B}
+**def-lref{3} = ref{CU-V5-11A}
+!-- [1] has more data about physical size -->
+**Announcement**htref{2}: 15 October 1995
+**Num-proc: 1
+**CPU-clock**htref{2}: 266MHz
+**TPC-A**htref{2}: 341:(e)
+**Maximum-memory**htref{2}: 1GB
+**BUS-PCI**htref{2}: 2 slots
+**BUS-EISA**htref{2}: 7 slots
+**BUS-PCI-or-EISA**htref{2}: 1 slot
+**End-systems-entry{AS1000-4-266}
+
+**Start-systems-entry{AS1000A-4-233}{ALPHA}{AS1000}
+**Sys-name: AlphaServer 1000A 4/233
+**def-lref{1} = ref{CU-V7-2A}
+!-- [1]: integrated SVGA controller for both 4/233 and 4/266 -->
+!-- V7-3B 1-Mar-1996 gives Rackmount variant dimensions as: 10.50-inches high by 19-inches wide by 27 inches deep -->
+**Announcement**htref{1}: 1 February 1996
+**FRS-date**htref{1}: March 1996
+**Num-proc: 1
+**CPU-clock**htref{1}: 233MHz
+**Backup-cache**htref{1}: 2MB
+**Maximum-memory**htref{1}: 1GB
+**BUS-PCI**htref{1}: 7 slots @ 132MB/s
+**BUS-EISA**htref{1}: 2 slots @ 33MB/s
+**BUS-PCI-or-EISA**htref{1}: 1 slot
+**BUS-SCSI**htref{1}: 1 FW
+**End-systems-entry{AS1000A-4-233}
+
+**Start-systems-entry{AS1000A-4-266}{ALPHA}{AS1000}
+**Sys-name: AlphaServer 1000A 4/266
+**def-lref{1} = ref{CU-V7-2A}
+!-- [1]: integrated SVGA controller for both 4/233 and 4/266 -->
+!-- V7-3B 1-Mar-1996 gives Rackmount variant dimensions as: 10.50-inches high by 19-inches wide by 27 inches deep -->
+**Announcement**htref{1}: 1 February 1996
+**OS-support-vms: OpenVMS V6.2-1H2
+**FRS-date**htref{1}: March 1996
+**Num-proc: 1
+**CPU-clock**htref{1}: 266MHz
+**Backup-cache**htref{1}: 2MB
+**Maximum-memory**htref{1}: 1GB
+**BUS-PCI**htref{1}: 7 slots @ 132MB/s
+**BUS-EISA**htref{1}: 2 slots @ 33MB/s
+**BUS-PCI-or-EISA**htref{1}: 1 slot
+**BUS-SCSI**htref{1}: 1 FW
+**End-systems-entry{AS1000A-4-266}
+
+**Start-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
+**End-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
+
+**Start-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
+**End-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
+
 **Start-systems-entry{AS2000-4-200}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaSserver 2000 4/200
 **Def-lref{1} = ref{CU-V6-4A}
@@ -861,98 +839,45 @@
 **CPU-clock: 300MHz
 **End-systems-entry{AS2100-5-300}
 
-**Start-systems-entry{AST500-266}{ALPHA}{AlphaStation}
-**Sys-name: AlphaStation 500/266
-**Def-lref{1} = ref{CU-V7-3B}
-**Announcement**htref{1}: 15 March 1996
-**OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
-**OS-support-du**htref{1}: Digital UNIX V3.2D
+**Start-systems-entry{AS4100}{ALPHA}{AlphaServer}
+**Def-lref{1} = ref{EK-4100A-SV.PRE}
+! NB - THIS MAY BE DATA FROM A GENERIC MANUAL
+**Sys-name: AlphaServer 4100
+**Num-proc**vref{1}: 1-4
+**Cache**vref{1}: 8KB-I/8KB-D
+**CPU-technology**vref{1}: 0.5 micron CMOS
+**Secondary-cache**vref{1}: 96KB
+! vref{1}: B3001-CA 300MHz no onboard cache
+! vref{1}: B3002-AB 300MHz no onboard 2MB cache
+! vref{1}: MS320-CA 128MB B3020-CA
+! vref{1}: MS330-EA 512MB B3030-EA
+! vref{1}: MS330-FA   1GB B3030-FA
+**End-systems-entry{AS4100}
+
+**Start-systems-entry{ASDS20}{ALPHA}{DS20}
+**Def-lref{1} = ref{EK–AS140–UG.A01}
+**Sys-name = AlphaServer DS20
+**OS-support-vms**vref{1}: OpenVMS V7.1-2
+**OS-support-du**vref{1}: Digital UNIX V4.0E
+**OS-support-nt**vref{1}: Windows NT v4.0 SP3
+**Dimensions-start{DS20}
+**Height**vref{1}: 440mm
+**Width**vref{1}: 350mm
+**Depth**vref{1}: 530mm
+**Dimensions-end{DS20}
+**End-systems-entry{ASDS20}{ALPHA}{DS20}
+
+**Start-systems-entry{ASDS20E}{ALPHA}{DS20}
+**End-systems-entry{ASDS20E}{ALPHA}{DS20}
+
+**Start-systems-entry{XL233}{ALPHA}{?}
+**def-lref{1} = ref{CU-V6-10}
+**Announcement**htref{1}: October 1995
 **OS-support-nt**htref{1}: Windows NT V3.51
 **Num-proc: 1
-**CPU-chip**htref{1}: DECchip 21164
-**CPU-clock**htref{1}: 266MHz
-**Cache**htref{1}: 8KB-I/8KB-D
-**Primary-cache**htref{1}: 96KB
-**Backup-cache**htref{1}: 2MB
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 512MB
-**Memory-checking**htref{1}: ECC
-**BUS-PCI**htref{1}: 4 slots
-**BUS-SCSI**htref{1}: 1 @ 10MB/s
-**LAN-support**htref{1}: 1 (10BASE-T/10BASE2)
-**Option-title: Graphics controllers
-**Option: {boards:3D30}{PowerStorm 3D30  8-plane 3D}
-**Option: {boards:ZLXP-E3}{ZLXp-E3 24 plane 3D graphics, Z buffer}
-**Option: {boards:ZLXP-L1}{24-plane, double buffer, 3D}
-**option: {boards:ZLXP-L2}{24-plane, PCI buffer, 3D}
-**End-systems-entry{AST500-266}
-
-**Start-systems-entry{AST500-300}{ALPHA}{AlphaStation}
-**Sys-name: AlphaStation 500/333
-**Def-lref{1} = ref{CU-V7-3B}
-**Announcement**htref{1}: 15 March 1996
-**OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
-! Flowchart has V6.2-1H3
-**OS-support-du**htref{1}: Digital UNIX V3.2D
-**OS-support-nt**htref{1}: Windows NT V3.51
-**Num-proc: 1
-**CPU-chip**htref{1}: DECchip 21164
-**CPU-clock**htref{1}: 333MHz
-**Cache**htref{1}: 8KB-I/8KB-D
-**Primary-cache**htref{1}: 96KB
-**Backup-cache**htref{1}: 2MB
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 512MB
-**Memory-checking**htref{1}: ECC
-**BUS-PCI**htref{1}: 4 slots
-**BUS-SCSI**htref{1}: 1 @ 10MB/s
-**LAN-support**htref{1}: 1 (10BASE-T/10BASE2)
-**Option-title: Graphics controllers
-**Option: {boards:3D30}{PowerStorm 3D30  8-plane 3D}
-**Option: {boards:ZLXP-E3}{ZLXp-E3 24 plane 3D graphics, Z buffer}
-**Option: {boards:ZLXP-L1}{24-plane, double buffer, 3D}
-**option: {boards:ZLXP-L2}{24-plane, PCI buffer, 3D}
-**End-systems-entry{AST500-300}
-
-**Start-systems-entry{AS400-4-166}{ALPHA}{ALPHASERVER}
-**Sys-name: AlphaServer 400 4/166
-**Def-lref{1} = ref{CU-V6-3A}
-**Def-lref{2} = ref{CU-V6-10B}
-**Announcement**htref{1}: 1 March 1995
-**OS-support-vms: OpenVMS V6.1-1H1
-**Num-proc: 1
-**CPU-clock**htref{1}: 166MHz
+**Backup-cache**htref{1}: 512KB
 **Maximum-memory**htref{1}: 192MB
-**BUS-PCI**htref{1}:  2 slots @ 132MB/s
-**BUS-ISA**htref{1}: 3 slots
-**BUS-PCI-or-ISA**htref{1}: 1 slot
-**BUS-SCSI: 1 @ 10MB/s
-**Option-title: Memory
-**Option: {boards:MSP01-AA}{8MB SIMM package}
-**Option: {boards:MSP01-AB}{16MB SIMM package}
-**Option: {boards:MSP01-AC}{32MB SIMM package}
-**Option: {boards:MSP01-AD}{64MB SIMM package}
-**End-systems-entry{AS400-4-166}
-
-**Start-systems-entry{AS400-4-233}{ALPHA}{ALPHASERVER}
-**Sys-name: AlphaServer 400 4/233
-**Def-lref{1} = ref{CU-V6-3A}
-**Def-lref{2} = ref{CU-V6-10B}
-**Announcement**htref{2}: 15 October 1995
-**Num-proc: 1
-**CPU-clock**htref{2}: 233MHz
-**Backup-cache**htref{2}:  512KB
-**Maximum-memory**htref{2}: 384MB
-**BUS-PCI**htref{2}: 2 slots @ 132MB/s
-**BUS-ISA**htref{2}: 3 slots
-**BUS-PCI-or-ISA**htref{2}: 1 slot
-**BUS-SCSI**htref{2}: 1 @ 10MB/s
-**Option-title: Memory
-**Option: {boards:MSP01-AA}{8MB SIMM package}
-**Option: {boards:MSP01-AB}{16MB SIMM package}
-**Option: {boards:MSP01-AC}{32MB SIMM package}
-**Option: {boards:MSP01-AD}{64MB SIMM package}
-**End-systems-entry{AS400-4-233}
+**End-systems-entry{XL233}
 
 **Start-systems-entry{AST200-4-100}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 200 4/100
@@ -1053,6 +978,41 @@
 **LAN-support**htref{3}: 1 (10BASE-T/10BASE2)
 **End-systems-entry{AST200-4-233}
 
+**Start-systems-entry{AST250-4-266}{ALPHA}{ALPHASTATION}
+**Def-lref{1} = ref{CU-V6-4A}
+**Sys-name: AlphaStation 250 4/266
+**Announcement**htref{1}: 11 April 1995
+**OS-support-vms**htref{1}: OpenVMS V6.1-1H2
+! Flowchart has V6.1-1H1
+**OS-support-du**htref{1}: Digital UNIX V3.2
+**OS-support-nt**htref{1}: Windows NT V3.5
+**Num-proc: 1
+**CPU-chip**htref{1}: DECchip 21064A
+**CPU-clock**htref{1}: 266MHz
+**Cache**htref{1}: 16KB-I/16KB-D
+**Backup-cache**htref{1}: 2MB
+**SPECint92**htref{1}: 198.6
+**SPECfp92**htref{1}: 262.5
+**Minimum-memory**htref{1}: 32MB
+**Maximum-memory**htref{1}: 256MB
+!-- [1] implies future support for 512MB -->
+**BUS-SCSI**htref{1}: 1 @ 10MB/s
+**BUS-PCI**htref{1}: 1 @ 132MB/s, 33MHz
+**BUS-ISA**htref{1}: 1
+**BUS-PCI-or-ISA: 1
+**LAN-support**htref{1}: 1
+!-- options from [1] for AlphaStation 250 4/266 -->
+!<TR> <TD COLSPAN=2> <B> Graphics controllers </B> </TR>
+!<TR> <TD> <A HREF="../boards/zlxpe1.html"> ZLXp-E1     </A> <TD> ZLXp-E1  8 plane 2D/3D graphics	</TR>
+!<TR> <TD> <A HREF="../boards/zlxpe2.html"> ZLXp-E2     </A> <TD> ZLXp-E2 24 plane 2D graphics		</TR>
+!<TR> <TD> <A HREF="../boards/zlxpe3.html"> ZLXp-E3     </A> <TD> ZLXp-E3 24 plane 3D graphics, Z buffer	</TR>
+!<TR> <TD> <A HREF="../boards/dec864.html"> DEC864      </A> <TD> DEC864 entry level 2D graphics		</TR>
+!<TR> <TD COLSPAN=2> <B> Monitors </B> </TR>
+!<TR> <TD> <A HREF="../monitors/vrc15.html"> VRC15      </A> <TD> 15" colour monitor			</TR>
+!<TR> <TD> <A HREF="../monitors/vrt17.html"> VRT17      </A> <TD> 17" colour monitor			</TR>
+!<TR> <TD> <A HREF="../monitors/vrc21.html"> VRC21      </A> <TD> 21" colour monitor			</TR>
+**End-systems-entry{AST250-4-266}
+
 **Start-systems-entry{AST255-233}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 255/233
 **Def-lref{1} = ref{CU-V7-3B}
@@ -1117,20 +1077,82 @@
 **Option: {boards:ZLXp-L2}{24-plane, PCI buffer, 3D}
 **End-systems-entry{AST255-300}
 
-**Start-systems-entry{AS4100}{ALPHA}{AlphaServer}
-**Def-lref{1} = ref{EK-4100A-SV.PRE}
-! NB - THIS MAY BE DATA FROM A GENERIC MANUAL
-**Sys-name: AlphaServer 4100
-**Num-proc**vref{1}: 1-4
-**Cache**vref{1}: 8KB-I/8KB-D
-**CPU-technology**vref{1}: 0.5 micron CMOS
-**Secondary-cache**vref{1}: 96KB
-! vref{1}: B3001-CA 300MHz no onboard cache
-! vref{1}: B3002-AB 300MHz no onboard 2MB cache
-! vref{1}: MS320-CA 128MB B3020-CA
-! vref{1}: MS330-EA 512MB B3030-EA
-! vref{1}: MS330-FA   1GB B3030-FA
-**End-systems-entry{AS4100}
+**Start-systems-entry{AST400-4-233}{ALPHA}{AlphaStation}
+**Sys-name: AlphaStation 400 4/233
+**Def-lref{1} = ref{CU-V6-3A}
+**Def-lref{2} = ref{CU-V5-11A}
+**Announcement**htref{2}: 1 November 1994
+**OS-support-vms**htref{2}: OpenVMS AXP V6.1-1H1
+**OS-support-du**htref{2}: DEC OSF/1 V3.0
+**OS-support-nt**htref{2}: Windows NT V3.5
+**Codename: TurboAvanti
+**Num-proc: 1
+**CPU-chip**htref{2}: DECchip 21064A
+**CPU-clock**htref{1}: 233MHz
+**Cache**htref{2}: 16KB-I/16KB-D
+**Backup-cache**htref{2}: 512KB
+**SPECint92**htref{1}: 157.6
+**SPECfp92**htref{1}: 183.8
+**Minimum-memory**htref{2}: 16MB
+**Maximum-memory**htref{2}: 192MB
+**BUS-SCSI**htref{2}: 1 @ 10MB/s
+**BUS-PCI**htref{2}: 2 slots @ 132 MB/s
+**BUS-ISA**htref{2}: 3 slots @ 33 MB/s
+**BUS-PCI-or-ISA**htref{2}: 1 slot
+**End-systems-entry{AST400-4-233}
+
+**Start-systems-entry{AST500-266}{ALPHA}{AlphaStation}
+**Sys-name: AlphaStation 500/266
+**Def-lref{1} = ref{CU-V7-3B}
+**Announcement**htref{1}: 15 March 1996
+**OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
+**OS-support-du**htref{1}: Digital UNIX V3.2D
+**OS-support-nt**htref{1}: Windows NT V3.51
+**Num-proc: 1
+**CPU-chip**htref{1}: DECchip 21164
+**CPU-clock**htref{1}: 266MHz
+**Cache**htref{1}: 8KB-I/8KB-D
+**Primary-cache**htref{1}: 96KB
+**Backup-cache**htref{1}: 2MB
+**Minimum-memory**htref{1}: 32MB
+**Maximum-memory**htref{1}: 512MB
+**Memory-checking**htref{1}: ECC
+**BUS-PCI**htref{1}: 4 slots
+**BUS-SCSI**htref{1}: 1 @ 10MB/s
+**LAN-support**htref{1}: 1 (10BASE-T/10BASE2)
+**Option-title: Graphics controllers
+**Option: {boards:3D30}{PowerStorm 3D30  8-plane 3D}
+**Option: {boards:ZLXP-E3}{ZLXp-E3 24 plane 3D graphics, Z buffer}
+**Option: {boards:ZLXP-L1}{24-plane, double buffer, 3D}
+**option: {boards:ZLXP-L2}{24-plane, PCI buffer, 3D}
+**End-systems-entry{AST500-266}
+
+**Start-systems-entry{AST500-300}{ALPHA}{AlphaStation}
+**Sys-name: AlphaStation 500/333
+**Def-lref{1} = ref{CU-V7-3B}
+**Announcement**htref{1}: 15 March 1996
+**OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
+! Flowchart has V6.2-1H3
+**OS-support-du**htref{1}: Digital UNIX V3.2D
+**OS-support-nt**htref{1}: Windows NT V3.51
+**Num-proc: 1
+**CPU-chip**htref{1}: DECchip 21164
+**CPU-clock**htref{1}: 333MHz
+**Cache**htref{1}: 8KB-I/8KB-D
+**Primary-cache**htref{1}: 96KB
+**Backup-cache**htref{1}: 2MB
+**Minimum-memory**htref{1}: 32MB
+**Maximum-memory**htref{1}: 512MB
+**Memory-checking**htref{1}: ECC
+**BUS-PCI**htref{1}: 4 slots
+**BUS-SCSI**htref{1}: 1 @ 10MB/s
+**LAN-support**htref{1}: 1 (10BASE-T/10BASE2)
+**Option-title: Graphics controllers
+**Option: {boards:3D30}{PowerStorm 3D30  8-plane 3D}
+**Option: {boards:ZLXP-E3}{ZLXp-E3 24 plane 3D graphics, Z buffer}
+**Option: {boards:ZLXP-L1}{24-plane, double buffer, 3D}
+**option: {boards:ZLXP-L2}{24-plane, PCI buffer, 3D}
+**End-systems-entry{AST500-300}
 
 ! vref{EK-AL655-UI.A01} AlphaStation 600A Series User Information
 ! has this to say:
@@ -1143,26 +1165,4 @@
 !**Sys-name: AlphaStation 600A 5/500
 !**Def-lref{1} = ref{EK-AL655-IP.A01}
 !**End-systems-entry{AST600A5-500}{ALPHA}{AlphaStation}
-
-**Start-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
-**End-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
-
-**Start-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
-**End-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
-
-**Start-systems-entry{ASDS20}{ALPHA}{DS20}
-**Def-lref{1} = ref{EK–AS140–UG.A01}
-**Sys-name = AlphaServer DS20
-**OS-support-vms**vref{1}: OpenVMS V7.1-2
-**OS-support-du**vref{1}: Digital UNIX V4.0E
-**OS-support-nt**vref{1}: Windows NT v4.0 SP3
-**Dimensions-start{DS20}
-**Height**vref{1}: 440mm
-**Width**vref{1}: 350mm
-**Depth**vref{1}: 530mm
-**Dimensions-end{DS20}
-**End-systems-entry{ASDS20}{ALPHA}{DS20}
-
-**Start-systems-entry{ASDS20E}{ALPHA}{DS20}
-**End-systems-entry{ASDS20E}{ALPHA}{DS20}
 
