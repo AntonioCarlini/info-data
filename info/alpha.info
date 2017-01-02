@@ -302,17 +302,21 @@
 **Module: 54-21149-01
 **CPU-name-vms: KN15-AA
 **CPU-name-console: KN15-AA
-**Num-proc: 1
+**Num-proc**vref{2}: 1
 **CPU-technology: CMOS-4
 **CPU-chip**htref{1}: DECchip 21064
-**CPU-clock**htref{1}: 150MHz
-**Cache**htref{1}: 8KB-I/8KB-D
-**Backup-cache**htref{1}: 512KB
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{2}: 1GB
-**BUS-SCSI**htref{2}: 2 @ 5MB/s
-**BUS-TC**htref{2}: 6 slots @ 100MB/s
-**LAN-support**htref{1}: 1 (10BASE-T/AUI)
+**CPU-clock**vref{2}: 150MHz
+!**Cache**htref{1}: 8KB-I/8KB-D
+**Cache**vref{2}: 8KB-I/8KB-D
+!**Backup-cache**htref{1}: 512KB
+**Backup-cache**vref{2}: 512KB
+!**Minimum-memory**htref{1}: 32MB
+**Minimum-memory**vref{2}: 32MB
+**Maximum-memory**vref{2}: 1GB
+**BUS-SCSI**vref{2}: 2 @ 5MB/s
+**BUS-TC**vref{2}: 6 slots @ 100MB/s
+!**LAN-support**htref{1}: 1 (10BASE-T/AUI)
+**LAN-support**vref{2}: 1 (10BASE-T/AUI)
 **Power-start{DEC3500-240V}
 **Supply**htref{1}: 240V 1-phase
 **I-max**htref{1}: 10A
@@ -332,10 +336,11 @@
 **Dimensions-end{DEC3500-P}
 **Dimensions-start{DEC3500-R}
 **Label: Rackmount
-**Height**htref{1}: 444.5mm
-**Width **htref{1}: 213.4mm
-**Depth **htref{1}: 685.8mm
-**Weight**htref{1}: 29.48kg
+! all quoted in ref{1} too
+**Height**vref{2}: 444.5mm
+**Width **vref{2}: 213.4mm
+**Depth **vref{2}: 685.8mm
+**Weight**vref{2}: 29.48kg
 **Dimensions-end{DEC3500-R}
 **End-systems-entry{DEC3500}
 
@@ -350,15 +355,15 @@
 **CPU-name-console: KN15-CA
 **Num-proc: 1
 **CPU-technology: CMOS-4
-**CPU-chip**htref{1}: DECchip 21064
-**CPU-clock**htref{1}: 200MHz
-**Cache**htref{1}: 8KB-I/8KB-D
-**Backup-cache**htref{1}: 512KB
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 1GB
-**BUS-SCSI**htref{1}: 2 @ 5MB/s
-**BUS-TC**htref{1}: 5 slots @ 100MB/s
-**LAN-support**htref{1}: 1 (10BASE-T/AUI)
+**CPU-chip**vref{1}: DECchip 21064
+**CPU-clock**vref{1}: 200MHz
+**Cache**vref{1}: 8KB-I/8KB-D
+**Backup-cache**vref{1}: 512KB
+**Minimum-memory**vref{1}: 32MB
+**Maximum-memory**vref{1}: 1GB
+**BUS-SCSI**vref{1}: 2 @ 5MB/s
+**BUS-TC**vref{1}: 5 slots @ 100MB/s
+**LAN-support**vref{1}: 1 (10BASE-T/AUI)
 **Power-start{DEC3500X-120V}
 **Supply**htref{1}: 120V 1-phase
 **Power**htref{1}: 746W
@@ -376,10 +381,10 @@
 **Dimensions-end{DEC3500X-P}
 **Dimensions-start{DEC3500X-R}
 **Label: Rackmount
-**Height**htref{1}: 444.5mm
-**Width **htref{1}: 213.4mm
-**Depth **htref{1}: 685.8mm
-**Weight**htref{1}: 29.48kg
+**Height**vref{1}: 444.5mm
+**Width **vref{1}: 213.4mm
+**Depth **vref{1}: 685.8mm
+**Weight**vref{1}: 29.48kg
 **Dimensions-end{DEC3500X-R}
 **End-systems-entry{DEC3500X}
 
@@ -535,36 +540,36 @@
 **Codename: Cobra
 **OS-support-VMS: V1.0
 **Module: B2001-BA
-**Num-proc: 1-2
-**CPU-chip**htref{1}: DECchip 21064
-**CPU-clock**htref{1}: 160MHz
-**Cache**htref{1}: 8KB-I/8KB-D
-**Backup-cache**htref{1}: 1MB
-**Minimum-memory**htref{1}: 64MB
-**Maximum-memory**htref{1}: 2GB
+**Num-proc**vref{1}: 1-2
+**CPU-chip**vref{1}: DECchip 21064
+**CPU-clock**vref{1}: 160MHz
+**Cache**vref{1}: 8KB-I/8KB-D
+**Backup-cache**vref{1}: 1MB
+**Minimum-memory**vref{1}: 64MB
+**Maximum-memory**vref{1}: 2GB
 **Memory-checking**htref{1}: ECC
-**Max-I/O-throughput**htref{1}: {160MB/s:peak}{100MB/s:sustained}
-**BUS-SCSI**htref{1}: 4 @ 10MB/s
-**BUS-FB**htref{1}: 6 slots @ 160MB/s
-**BUS-DSSI**htref{1}: 4 @ 5MB/s
+**Max-I/O-throughput**vref{1}: {160MB/s:peak}{100MB/s:sustained}
+**BUS-SCSI**vref{1}: 4 @ 10MB/s
+**BUS-FB**vref{1}: 6 slots @ 160MB/s
+**BUS-DSSI**vref{1}: 4 @ 5MB/s
 **LAN-support**htref{1}: 2 (embedded AUI/10BASE2)
 **Power-start{DEC4600}
-**Supply**htref{1}: 1-phase
-**Power**htref{1}: 1500W
+**Supply**vref{1}: 1-phase
+**Power**vref{1}: 1500W
 **Power-end{DEC4600}
 **Dimensions-start{DEC4600-P}
 **Label: Pedestal
-**Height**htref{1}: 850mm
-**Width **htref{1}: 506mm
-**Depth **htref{1}: 762mm
-**Weight**htref{1}: 118kg
+**Height**vref{1}: 850mm
+**Width **vref{1}: 506mm
+**Depth **vref{1}: 762mm
+**Weight**vref{1}: 118kg
 **Dimensions-end{DEC4600-P}
 **Dimensions-start{DEC4600-R}
 **Label: Rackmount
-**Height**htref{1}: 444mm
-**Width **htref{1}: 482mm
-**Depth **htref{1}: 757mm
-**Weight**htref{1}: 66.4kg
+**Height**vref{1}: 444mm
+**Width **vref{1}: 482mm
+**Depth **vref{1}: 757mm
+**Weight**vref{1}: 66.4kg
 **Dimensions-end{DEC4600-R}
 **Option-title: Internal controllers
 **Option: {MRV11}{Programmable ROM Module}
@@ -576,6 +581,13 @@
 **Option: {RA81}{456MB Disk Drive}
 **End-systems-entry{DEC4600}
 
+! Alternate data available but is this for DEC 7000-600??
+! **Def-lref{3} = ref{EC-H2315-46}
+! vref{3}
+! 21064, 182MHz, 1-6 proc (1-3 in rackmount)
+! 8KB-I/8KB-D, 4MB BU cache, 128MB/14GB mem, max-i/o 400MB/s, dimensions ...
+! Data also available for DEC 10000
+
 **Start-systems-entry{DEC7700}{ALPHA}{DEC7000}
 **Def-lref{1} = ref{CU-V5-11A}
 **Def-lref{2} = ref{SOC-JAN1995}
