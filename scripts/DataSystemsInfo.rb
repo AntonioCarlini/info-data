@@ -38,6 +38,7 @@ end
 class System
 
   attr_reader :identifier
+  attr_reader :line_num
   attr_reader :sys_class
   attr_reader :sys_type
 
@@ -127,7 +128,7 @@ class Systems
       if line.strip().empty?() || line =~ /^ !/ix
         # ignore blank lines and commented out lines
         next
-      elsif line =~ /^\s*\*\*Stop-processing\s*$/
+      elsif line =~ /^\s*\*\*Stop-processing\s*$/i
         # Stop if a line with just "**Stop-processing" is seen.
         break
       elsif line =~ /^\s*\*\*Start-systems-entry\{(.*)\}{(.*)}{(.*)}\s*$/ix
@@ -136,7 +137,7 @@ class Systems
         type = $2.strip()
         sys_class = $3.strip()
         raise("Unexpected system type [#{type}], expected [#{sys_type}]") if type.downcase() != sys_type
-        raise("Duplicate reference [#{id}] read in #{info_filename} at line #{line_num}: #{line} (originally #{ret[id].line_num()})") unless systems[id].nil?()
+        raise("Duplicate reference [#{id}] read in #{info_filename} at line #{line_num}: #{line} (originally #{systems[id].line_num()})") unless systems[id].nil?()
         current = System.new(id, sys_type, sys_class, line_num, permitted_tags)
         next
       elsif line =~ /\*\*End-systems-entry\{(.*)\}/ix
@@ -219,7 +220,7 @@ class Systems
       elsif line =~ /^\s*!/
         raise("Muffed comment line check")
       else
-        raise("unrecognised line [#{line}]")
+        raise("unrecognised line (at line #{line_num}) [#{line}]")
       end
     }
 ##    $stderr.puts("#{total_uses} uses of non-'vref' refrences") if total_uses > 0
