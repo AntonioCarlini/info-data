@@ -272,6 +272,7 @@
 **Console-device: None
 **VUPs**vref{5}: 5.0
 !**SPECmarks**htref{4}: 4.8
+! ref{DECdirect-AUG91} says 4.8
 **SPECmarks**vref{5}: 5.6
 **TPC-A**uref{*SUE APR 1992 pt III}: 17.8
 **Minimum-memory**vref{1}: 8MB
@@ -344,6 +345,7 @@
 **Console-device: None
 **VUPs**vref{1,5}: 8
 !**SPECmarks**htref{4}: 9.1
+! ref{DECdirect-AUG91} says 7.9 SPECmarks
 **SPECmarks**vref{5}: 9.1
 **TPC-A**uref{*SUE APR 1992 pt II}: 31.9
 **Minimum-memory**vref{1}: 32MB
@@ -2455,6 +2457,7 @@
 **def-lref{1} = ref{EK-V466B-SV-001}
 **def-lref{2} = ref{EC-N0857-51}
 **def-lref{3} = ref{EC-N0626-51}
+**Def-lref{4} = ref{DECdirect-FEB92}
 **Sys-name: VAXstation 4000-60
 **Desc-name: VAXstation 4000 Model 60
 **Announcement**uref{*2}: 30 October 1991
@@ -2479,7 +2482,8 @@
 **Console-processor: CPU
 **Console-device: None
 **VUPs**uref{*72}: 12
-**SPECmarks**htref{2}: 12.0
+!**SPECmarks**htref{2}: 12.0
+**SPECmarks**vref{2}: 12
 **SPECint89**htref{2}: 11.1
 **SPECfp89**htref{2}: 12.6
 **Minimum-memory**vref{1}: 8MB
@@ -2516,6 +2520,7 @@
 **Sys-name: VAXstation 4000 VLC
 **def-lref{1} = ref{EK-V48VB-SV.001}
 **def-lref{2} = ref{EC-N0857-51}
+**Def-lref{3} = ref{DECdirect-FEB92}
 **Announcement**uref{*2}: 30 October 1991
 **Codename: VLC
 **OS-support-VMS**uref{*102}: V5.5
@@ -2535,7 +2540,8 @@
 **Console-processor: CPU
 **Console-device: None
 **VUPs**uref{*102}: 6.0
-**SPECmarks**htref{2}: 6.2
+!**SPECmarks**htref{2}: 6.2
+**SPECmarks**vref{2}: 6.2
 **SPECint89**htref{2}: 5.8
 **SPECfp89**htref{2}: 6.3
 **Minimum-memory**vref{1}: 8MB
@@ -2922,6 +2928,7 @@
 **def-lref{2} = ref{EK-A0525-TD.001}
 **def-lref{3} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{4} = ref{EK-A0513-MG.001}
+**Def-lref{5} = ref{DECdirect-FEB92}
 **Codename: Waverly
 **OS-support-VMS: V5.5
 **CPU-module**vref{1,2,4}: KA45
@@ -2937,7 +2944,8 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**htref{3}: 5.0
+!**VUPs**htref{3}: 5.0
+**VUPs**vref{5}: 5.0
 ! Cust. Update V5-4A 12-Apr-1994 has 32 TPS
 **TPC-A: 21.6
 **Minimum-memory**vref{1,2}: 8MB
@@ -3086,6 +3094,7 @@
 **Console-device: None
 !**VUPs**htref{1}: 2.4
 **VUPs**vref{3}: 2.4
+! ref{DECdirect-AUG91} says 2.2 SPECmarks
 **SPECmarks**htref{1}: 2.7
 **Minimum-memory**uref{*15,*4}: 4MB
 **On-board-memory**uref{*15,*4}: 4MB
@@ -3843,6 +3852,7 @@
 **Def-lref{4} = ref{EK-VSM40-OM-002}
 **Def-lref{5} = ref{VS3100-30-38-76-PERF}
 **Def-lref{6} = ref{EC-N0857-51}
+**Def-lref{7} = ref{DECdirect-AUG91}
 **Announcement**uref{*31}: November 1989
 **Codename**uref{*47}: PVAX1
 **Html-target: vs3100
@@ -3866,7 +3876,7 @@
 **Console-processor: CPU
 **Console-device: None
 **VUPs**uref{*30,*31}: 3.8
-**SPECmarks**htref{6}: 3.7
+**SPECmarks**vref{7}: 3.7
 **SPECint89**htref{6}: 3.5
 **SPECfp89**htref{6}: 3.8
 **Minimum-memory**vref{2}: 4MB
@@ -3991,6 +4001,7 @@
 **Desc-name: VAXstation 4000 Model 90
 **Def-lref{1} = ref{EK-KA490-SV.A01}
 **Def-lref{2} = ref{EC-N0857-51}
+**Def-lref{3} = ref{DECdirect-NOV92}
 **Announcement**uref{*SUE Jul 1992}: 7 July 1992
 **Codename: Cougar
 **OS-support-VMS: VMS V5.5-2HW
@@ -4010,7 +4021,8 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**SPECmarks**htref{2}: 32.7
+!**SPECmarks**htref{2}: 32.7
+**SPECmarks**vref{3}: 32.8
 **SPECint89**htref{2}: 26.7
 **SPECfp89**htref{2}: 37.5
 **Minimum-memory**vref{1}: 16MB
@@ -4130,6 +4142,8 @@
 **Desc-name: MicroVAX 3100 Model 10e/20e
 **Def-lref{1} = ref{EK-A0371-OM.002}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
+**Def-lref{3} = ref{DECdirect-AUG91}
+**Def-lref{4} = ref{DECdirect-FEB92}
 **Announcement**uref{*47}: 25 October 1990
 **Html-target: uv3100
 **OS-support-VMS**uref{*26}: VMS V5.3
@@ -4147,7 +4161,9 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**htref{2}:  3.5
+!**VUPs**htref{2}:  3.5
+**VUPs**vref{4}:  3.5
+**SPECmarks**vref{3}: 3.2
 !-- [1]:
 !		MS42-AB	4MB module, MS42-BA 12MB module, MS42-CA 16MB module
 !		MS42-CA has piggy back connectors so it can be used in conjunction with MS42-AB or MS42-BA hence

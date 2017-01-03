@@ -9097,6 +9097,18 @@
 **Ref-partno: EC-13954-10
 **End-ref{SOC-JAN1995}
 
+**Start-ref{DECdirect-AUG91}
+**Ref-text: DECdirect Aug-Oct 1991
+**End-ref{DECdirect-AUG91}
+
+**Start-ref{DECdirect-FEB92}
+**Ref-text: DECdirect Feb-Apr 1992
+**End-ref{DECdirect-FEB92}
+
+**Start-ref{DECdirect-NOV92}
+**Ref-text: DECdirect Nov-Jan 1993
+**End-ref{DECdirect-NOV92}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
