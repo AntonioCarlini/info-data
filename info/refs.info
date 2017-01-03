@@ -9109,6 +9109,12 @@
 **Ref-text: DECdirect Nov-Jan 1993
 **End-ref{DECdirect-NOV92}
 
+**Start-ref{EB-05138-75}
+**Ref-text: pdp11 processor handbook pdp11/04/05/10/35/40/45 1975-76
+**Ref-partno: EB-05138-75
+**Ref-hardcopy: Yes
+**End-ref{EB-05138-75}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):

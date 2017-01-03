@@ -283,6 +283,21 @@
   - For a multiprocessor system, the list of possible CPU designations
   - systems
   - cpu_details
+- EIS:
+  - Extended Instruction Set
+  - Extended Instruction Set
+  - pdp11
+  - cpu_details
+- CIS:
+  - Commercial Instruction Set
+  - Commercial Instruction Set
+  - pdp11
+  - cpu_details
+- Floating-point:
+  - Floating-point hardware
+  - Floating-point hardware implementation
+  - pdp11
+  - cpu_details
 - Minimum-memory:
   - Minimum memory
   - Minimum memory
