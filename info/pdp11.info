@@ -406,7 +406,7 @@
 
 **Start-systems-entry{PDP1194}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EK-PDP94-MG-001}
-**Def-lref{2} = ref{EK-403AA-MM}
+**Def-lref{2} = ref{EK-403AA-MM-XX}
 **Sys-name: PDP-11/94 
 ! vref{2} KDJ11-EB has 4MB, KDJ11-EA has 2MB. Neither supports additional memory.
 ! vref{2} EIS and FP
@@ -493,6 +493,21 @@
 **Start-systems-entry{PDP1153}{PDP11}{QBUS}
 **Sys-name: PDP-11/53
 **End-systems-entry{PDP1153}
+
+**Start-systems-entry{MicroPDP1153}{PDP11}{QBUS}
+! Enclosure: BA23
+! uPDP-11/83 enclosures: BA23, BA123, BA213, H9642
+**Def-lref{1} = ref{SOCEE-SPR90}
+**Sys-name: MicroPDP-11/53
+**CPU-chip**vref{1}: J-11
+**CPU-clock**vref{1}: 15MHz
+**Module**vref{1}: KDJ11-DA
+! vref{1} uPDP-11/53+ has 1.5MB on board using KDJ11-DB
+**Minimum-memory**vref{1}: 512KB
+**On-board-memory**vref{1}: 512KB
+**Maximum-memory**vref{1}: 4MB
+**BUS-QBUS**vref{1}: 1 (22-bit)
+**End-systems-entry{MicroPDP1153}
 
 **Start-systems-entry{PDP1173}{PDP11}{QBUS}
 **Sys-name: PDP-11/73
