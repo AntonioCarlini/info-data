@@ -1,3 +1,6 @@
+! https://books.google.co.uk/books?id=N1EEAAAAMBAJ&printsec=frontcover#v=onepage&q&f=false
+! InfoWorld 16-NOV-1992 mentions announcement "last week" of DEC 3000-400/500
+
 ! Alpha XL 266 missing ....
 !
 ! AlphaBook 1			V6.2-1H1
@@ -581,6 +584,15 @@
 ! 8KB-I/8KB-D, 4MB BU cache, 128MB/14GB mem, max-i/o 400MB/s, dimensions ...
 ! Data also available for DEC 10000
 
+**Start-systems-entry{DEC7600}{ALPHA}{DEC7000}
+**Sys-name: DEC 7000 Model 600 series
+**Num-proc**uref{2}: 1-6
+! Originally shipped with 182MHz. 200MHz was for DEC 10000 systems. Then became available for DEC 7000-600 systems.
+**CPU-clock**uref{2}: 200MHz
+**CPU-technology: CMOS
+**Maximum-memory: 4GB (only 3.5GB used)
+**End-systems-entry{DEC7600}
+
 **Start-systems-entry{DEC7700}{ALPHA}{DEC7000}
 **Def-lref{1} = ref{CU-V5-11A}
 **Def-lref{2} = ref{SOC-JAN1995}
