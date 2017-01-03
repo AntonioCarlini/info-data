@@ -3,37 +3,37 @@
 **Def-lref{1} = ref{DS3100}
 **Def-lref{2} = ref{EK-302AB-OG-002}
 **Announcement**uref{%MIPSCO:77.0}: 11 July 1989
-**CPU-module: KN01
-**Num-proc**htref{1}: 1
-**CPU-chip**htref{1}: R2000
-**FPU-chip**htref{1}: R2010
-**CPU-clock**htref{1}: 12MHz
-**Cache**htref{1}: 64KB-I/64KB-D
-**VUPs**uref{*89}: 10
+**CPU-module**vref{1}: KN01
+**Num-proc**vref{1}: 1
+**CPU-chip**vref{1}: R2000
+**FPU-chip**vref{1}: R2010
+**CPU-clock**vref{1}: 12MHz
+**Cache**vref{1}: 64KB-I/64KB-D
+**VUPs**vref{1}: >8
 **SPECmarks**uref{*89}: 7.5
-**Minimum-memory**htref{1}: 4MB	
-**Maximum-memory**htref{1}: 24MB
-**Memory-checking**htref{1}: Parity
+**Minimum-memory**vref{1}: 4MB	
+**Maximum-memory**vref{1}: 24MB
+**Memory-checking**vref{1}: Parity
 **Max-I/O-throughput**uref{*32}: 4.0MB/s
-**Bus-SCSI**htref{1}: 1
-**LAN-support**htref{1}: 1
+**Bus-SCSI**vref{1}: 1
+**LAN-support**vref{1}: 1
 **Dimensions-start{DST2100}
-**Height**htref{2}: 103.3mm
-**Width**htref{2}: 463.8mm
-**Depth**htref{2}: 400.0mm
-**Weight**htref{2}: 17.8kg
+**Height**vref{2}: 103.3mm
+**Width**vref{2}: 463.8mm
+**Depth**vref{2}: 400.0mm
+**Weight**vref{2}: 17.8kg
 **Dimensions-end{DST2100}
 **Power-start{DST2100-120V}
-**Supply**htref{2}: 120V 1-phase
-**I-max**htref{2}: 2.8A
-**Power**htref{2}: 190W
-**Heat-dissipation**htref{2}: 155W:max
+**Supply**vref{2}: 120V 1-phase
+**I-max**vref{2}: 2.8A
+**Power**vref{2}: 190W
+**Heat-dissipation**vref{2}: 155W:max
 **Power-end{DST2100-120V}
 **Power-start{DST2100-240V}
-**Supply**htref{2}: 240V 1-phase
-**I-max**htref{2}: 1.5A
-**Power**htref{2}: 190W
-**Heat-dissipation**htref{2}: 155W:max
+**Supply**vref{2}: 240V 1-phase
+**I-max**vref{2}: 1.5A
+**Power**vref{2}: 190W
+**Heat-dissipation**vref{2}: 155W:max
 **Power-end{DST2100-240V}
 **End-systems-entry{DST2100}
 
@@ -43,39 +43,39 @@
 **Sys-name: DECstation 3100
 **Announcement: March 1989
 **Codename**uref{DU FEB-1989}: PMAX
-**CPU-module: KN01
-**Num-proc**htref{1}: 1
-**CPU-chip**htref{1}: R2000
-**FPU-chip**htref{1}: R2010
-**CPU-clock**htref{1}: 16.67MHz
-**Cache**htref{1}: 64KB-I/64KB-D
+**CPU-module**vref{1}: KN01
+**Num-proc**vref{1}: 1
+**CPU-chip**vref{1}: R2000
+**FPU-chip**vref{1}: R2010
+**CPU-clock**vref{1}: 16.67MHz
+**Cache**vref{1}: 64KB-I/64KB-D
 **Console-processor: CPU
 **Console-device: None
 **VUPs**uref{&MIPSCO:77.2 *25:11-14}: 11.8
 **SPECmarks**uref{*88, *99:11.3}: 10.1
-**Minimum-memory**htref{1}: 4MB
-**Maximum-memory**htref{1}: 24MB
-**Memory-checking**htref{1}: Parity
+**Minimum-memory**vref{1}: 4MB
+**Maximum-memory**vref{1}: 24MB
+**Memory-checking**vref{1}: Parity
 **Max-I/O-throughput**uref{*32}: 4.0MB/s
-**Bus-SCSI**htref{1}: 1
-**LAN-support**htref{1}: 1
+**Bus-SCSI**vref{1}: 1
+**LAN-support**vref{1}: 1
 **Dimensions-start{DST3100}
-**Height**htref{2}: 103.3mm
-**Width	**htref{2}: 463.8mm
-**Depth**htref{2}: 400.0mm
-**Weight**htref{2}: 17.8kg
+**Height**vref{2}: 103.3mm
+**Width	**vref{2}: 463.8mm
+**Depth**vref{2}: 400.0mm
+**Weight**vref{2}: 17.8kg
 **Dimensions-end{DST3100}
 **Power-start{DST3100-120V}
-**Supply**htref{2}: 120V 1-phase
-**I-max**htref{2}: 2.8A
-**Power**htref{2}: 190W
-**Heat-dissipation**htref{2}: 155W:max
+**Supply**vref{2}: 120V 1-phase
+**I-max**vref{2}: 2.8A
+**Power**vref{2}: 190W
+**Heat-dissipation**vref{2}: 155W:max
 **Power-end{DST3100-120V}
 **Power-start{DST3100-240V}
-**Supply**htref{2}: 240V 1-phase
-**I-max**htref{2}: 1.5A
-**Power**htref{2}: 190W
-**Heat-dissipation**htref{2}: 155W:max
+**Supply**vref{2}: 240V 1-phase
+**I-max**vref{2}: 1.5A
+**Power**vref{2}: 190W
+**Heat-dissipation**vref{2}: 155W:max
 **Power-end{DST3100-240V}
 !--
 ![1]:
@@ -302,29 +302,29 @@
 **Def-lref{1} = ref{EK-PM38C-MG-002}
 ! [1]: MS02-AA MS02L-AB (8MB)   MS02-CA MS02-NV (NVRAM module) H7878A
 **Sys-name: DECstation 5000 Model 240
-**Num-proc**htref{1}: 1
-**CPU-module**htref{1}: KN03-GA
-**Module**htref{1}: 54-20627-01
-**CPU-clock**htref{1}: 40MHz
-**CPU-chip**htref{1}: R3000A
-**FPU-chip**htref{1}: R3010
-**Cache**htref{1}: 64KB-I/64KB-D
-**Maximum-memory**htref{1}: 480MB
+**Num-proc**vref{1}: 1
+**CPU-module**vref{1}: KN03-GA
+**Module**vref{1}: 54-20627-01
+**CPU-clock**vref{1}: 40MHz
+**CPU-chip**vref{1}: R3000A
+**FPU-chip**vref{1}: R3010
+**Cache**vref{1}: 64KB-I/64KB-D
+**Maximum-memory**vref{1}: 480MB
 **Dimensions-start{DST5240}
-**Height**htref{1}: 91.4mm
-**Width**htref{1}: 510.3mm 
-**Depth**htref{1}: 434.8mm 
-**Weight**htref{1}: 12.7kg
+**Height**vref{1}: 91.4mm
+**Width**vref{1}: 510.3mm 
+**Depth**vref{1}: 434.8mm 
+**Weight**vref{1}: 12.7kg
 **Dimensions-end{DST5240}
 **Power-start{DST5240-110V}
-**Supply**htref{1}: 110V 1-phase
-**I-max**htref{1}: 5A
-**Power**htref{1}: 359W
+**Supply**vref{1}: 110V 1-phase
+**I-max**vref{1}: 5A
+**Power**vref{1}: 359W
 **Power-end{DST5240-110V}
 **Power-start{DST5240-240V}
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 2.4A
-**Power**htref{1}: 359W
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 2.4A
+**Power**vref{1}: 359W
 **Power-end{DST5240-240V}
 **End-systems-entry{DST5240}
 
@@ -332,22 +332,19 @@
 **Def-lref{1} = ref{EK-PM38C-MG-002}
 **Def-lref{2} = ref{EK-4MMAX–OP.A01}
 **Sys-name: DECstation 5000 Model 260
-**Num-proc**htref{1}: 1
-!**CPU-module**htref{1}: KN05-AA
-**CPU-module**vref{2}: KN05
-**Module**htref{1}: 54-21872-02
-**CPU-clock**htref{1}: 60MHz
-!**CPU-chip**htref{1}: R4000
-**CPU-chip**vref{2}: R4000
+**Num-proc**vref{1}: 1
+**CPU-module**vref{1,2}: KN05
+**Module**vref{1}: 54-21872-02
+**CPU-clock**vref{1}: 60MHz
+**CPU-chip**vref{1,2}: R4000
 **Cache**vref{2}: 1MB
 !vref{2} memory modules MS02L-AB (8MB) or MS02-CA (32MB). 15 memory slots. Modules cannot be mixed.
-!**Maximum-memory**htref{1}: 480MB
-**Maximum-memory**vref{2}: 480MB
+**Maximum-memory**vref{1,2}: 480MB
 **Dimensions-start{DST5260}
-**Height**htref{1}: 91.4mm
-**Width**htref{1}: 510.3mm 
-**Depth**htref{1}: 434.8mm 
-**Weight**htref{1}: 12.7kg
+**Height**vref{1}: 91.4mm
+**Width**vref{1}: 510.3mm 
+**Depth**vref{1}: 434.8mm 
+**Weight**vref{1}: 12.7kg
 **Dimensions-end{DST5260}
 **Power-start{DST5260-110V}
 **Supply**vref{2}: 110V 1-phase
@@ -483,20 +480,20 @@
 **Def-lref{2} = ref{EK-D590A-PS-C01}
 **Def-lref{3} = ref{EK-D590A-IP-001}
 **Sys-name: DECsystem 5900
-**Num-proc**htref{1}: 1-2
-**Minimum-memory**htref{1}: 64MB
-**Maximum-memory**htref{1}: 448MB
+**Num-proc**vref{1}: 1-2
+**Minimum-memory**vref{1}: 64MB
+**Maximum-memory**vref{1}: 448MB
 ! [1] R3000A or R4400
 ! [2] R3000A is KN03-AA, R4400 is KN05
 ! [2] R3000A: 54-20627-01
 ! [2] R4400: 54-21872-02
-! [1] 3*TC @ 25MHz
 ! [1] at least 2 CPU draws?
+**BUS-TC**vref{1}: 3 slots @ 25MHz
 **Dimensions-start{DSYS5900}
-**Height**htref{1}: 1700mm 
-**Width**htref{1}: 610mm 
-**Depth**htref{1}: 864mmD 
-**Weight**htref{1}: 436.5kg
+**Height**vref{1}: 1700mm 
+**Width**vref{1}: 610mm 
+**Depth**vref{1}: 864mm
+**Weight**vref{1}: 436.5kg
 **Dimensions-end{DSYS5900}
 **LAN-support**htref{1}: 1
 **BUS-SCSI**htref{1}: 1
@@ -518,18 +515,18 @@
 **Sys-name: DECstation 5000 Model 200
 **CPU-module: KN02
 **Num-proc: 1
-**CPU-chip**htref{1}: R3000
-**FPU-chip**htref{1}: R3010
-**Cache**htref{1}: 64KB-I/64KB-D
+**CPU-chip**vref{1}: R3000
+**FPU-chip**vref{1}: R3010
+**Cache**vref{1}: 64KB-I/64KB-D
 **Console-processor: CPU
 **Console-device: None
 **SPECmarks: 19.9
-**Minimum-memory**htref{1}: 8MB
-**Maximum-memory**htref{1}: 480MB
+**Minimum-memory**vref{1}: 8MB
+**Maximum-memory**vref{1}: 480MB
 **Memory-checking**htref{1}: 7 bits per longword ECC
-**Bus-TC**htref{1}: 2
+**Bus-TC**vref{1}: 3 slots
 **BUS-SCSI**htref{2}: 1
-**LAN-support**htref{1}: 1
+**LAN-support**vref{1}: 1
 **Dimensions-start{DST5200}
 !**Height**htref{2}: 92mm
 **Height**vref{3}: 92mm
