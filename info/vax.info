@@ -12,7 +12,7 @@
 **Def-lref{2} = ref{EK-473AB-MG.C01}
 **Sys-name: VAX 4000-100/100A
 **Desc-name: VAX 4000 Model 100/100A
-**OS-support-VMS**htref{1}: V5.5-1HN
+**OS-support-VMS**vref{1}: V5.5-1HN
 ! Flowchart has V5.5-2HW
 **OS-support-MDM**htref{1}: MDM Release 137A
 **CPU-module**htref{1}: KA52-AA
