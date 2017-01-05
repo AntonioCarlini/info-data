@@ -1,385 +1,549 @@
 ---
 - Not-Allowed:
   - Not Allowed
+  - Test entry
   - never
   - summary
 - Sys-name:
   - System name
+  - System description
   - systems
 - Html-target:
   - HTML target
+  - HTML target (unused)
   - all
 - Announcement:
+  - Announcement date
   - Announcement date
   - all
   - summary
   - required
+- Generation:
+  - Technology generation
+  - Technology generation
+  - pdp11
+  - summary
 - FRS-date:
   - FRS date
+  - First revenue ship date
   - all
   - summary
 - FCS-date:
   - FCS date
+  - First customer ship date
   - all
   - summary
 - Last-order:
+  - Last order date
   - Last order date
   - all
   - summary
 - Last-ship:
   - Last ship date
+  - Last ship date
   - all
   - summary
 - EOSL:
   - End of service life
+  - End of service life
   - all
   - summary
 - Codename:
+  - Codename
   - Codename
   - all
   - summary
   - required
 - Desc-name:
   - Descriptive name
+  - Descriptive name
   - all
   - summary
 - Sys-class:
+  - System class
   - System class
   - all
   - summary
 - OS-support-VMS:
   - OS support (VMS)
-  - all
+  - Range of VMS versions that support this system
+  - - vax
+    - alpha
+    - itanium
   - summary
 - OS-support-MDM:
   - OS support (MDM)
-  - all
+  - Range of MDM releases that support this system
+  - - vax
+    - decmips
   - summary
 - OS-support-ELN:
   - OS support (ELN)
-  - all
+  - Range of VAXELN releases that support this system
+  - vax
   - summary
 - OS-support-ULTRIX:
   - OS support (ULTRIX)
-  - all
+  - Range of ULTRIX versions that support this system
+  - - vax
+    - decmips
+    - pdp11
   - summary
 - OS-support-NT:
   - OS support (NT)
-  - all
+  - Range of WindowsNT versions that support this system
+  - alpha
   - summary
 - OS-support-DU:
   - OS support (Digital UNIX)
-  - all
+  - Range of Digital Unix or Tru64 versions that support this system
+  - alpha
   - summary
 - CPU-name-VMS:
   - CPU name (VMS)
-  - all
+  - CPU name as reported by ANALYZE/ERROR under VMS
+  - - vax
+    - alpha
+    - itanium
   - cpu_details
 - CPU-name-console:
   - CPU name (console)
+  - CPU name as reported by the console
   - all
   - cpu_details
 - CPU-module:
   - CPU module
+  - The CPU module
   - all
   - cpu_details
 - Module:
   - Module
+  - The system module part number
   - all
   - cpu_details
 - System-Module:
   - System Module
-  - all
+  - The system module part number
+  - alpha
   - cpu_details
 - Num-proc:
+  - Number of processors
   - Number of processors
   - all
   - cpu_details
 - VMS-CPU:
   - VMS DCL CPU
-  - all
+  - The hexadecimal value returned by the DCL function F$GETSYI("SID") under VMS.
+  - - vax
+    - alpha
+    - itanium
   - cpu_details
 - VMS-XCPU:
   - VMS DCL XCPU
-  - all
-  - cpu_detail
+  - The hexadecimal value returned by the DCL function F$GETSYI("XSID") under VMS.
+  - - vax
+    - alpha
+    - itanium
+  - cpu_details
 - SID:
   - SID
-  - all
-  - cpu_detail
+  - The System Identification register
+  - - vax
+    - alpha
+  - cpu_details
 - XSID:
   - XSID
-  - all
-  - cpu_detail
+  - The System Extended Identification register
+  - - vax
+    - alpha
+  - cpu_details
 - CPU-chip:
   - CPU chip
-  - all
+  - The chip that implements the I-box (CPU)
+  - systems
   - cpu_details
 - FPU-chip:
   - FPU chip
-  - all
+  - The chip that implements the F-box (FPU)
+  - systems
   - cpu_details
 - CPU-technology:
   - CPU technology
-  - all
-  - cpu_detail
+  - The technology with which the CPU is fabricated
+  - systems
+  - cpu_details
 - CPU-cycle:
   - CPU cycle time
-  - all
-  - cpu_detail
+  - The CPU cycle time
+  - systems
+  - cpu_details
 - CPU-clock:
   - CPU clock
-  - all
+  - The CPU clock rate
+  - systems
+  - cpu_details
+- CPU-clock-rate:
+  - CPU clock rate
+  - The raw clock that is supplied to the CPU
+  - systems
   - cpu_details
 - Vector-processor:
   - Vector processor
-  - all
-  - cpu_detail
+  - Vector processor
+  - vax
+  - cpu_details
 - Instruction-buffer:
   - Instruction-buffer
-  - all
-  - cpu_detail
+  - Instruction prefetch queue size
+  - vax
+  - cpu_details
 - Translation-buffer:
   - Translation-buffer
-  - all
-  - cpu_detail
+  - The CPU translation buffer size
+  - vax
+  - cpu_details
 - Control-store:
   - Control store
-  - all
-  - cpu_detail
+  - Microcode control store details
+  - systems
+  - cpu_details
 - Gate-delay:
   - Gate delay
-  - all
-  - cpu_detail
+  - Gate delay
+  - vax
+  - cpu_details
 - WCS:
   - Writable Control Store
-  - all
-  - cpu_detail
+  - Writable Control Store
+  - vax
+  - cpu_details
 - UWCS:
   - User Writable Control Store
-  - all
-  - cpu_detail
+  - User Writable Control Store
+  - - vax
+    - pdp11
+  - cpu_details
+- ECS:
+  - Extended Control Store
+  - User Microprogram Control Store ROM
+  - pdp11
+  - cpu_details
+- DCS:
+  - Diagnostic Control Store
+  - Microcode ROM hardware diagnostic aid
+  - pdp11
+  - cpu_details
 - Cache:
   - Cache
-  - all
-  - cpu_detail
+  - Cache
+  - systems
+  - cpu_details
 - Primary-cache:
   - Primary cache
-  - all
-  - cpu_detail
+  - Primary cache
+  - systems
+  - cpu_details
 - Secondary-Cache:
   - Secondary cache
-  - all
-  - cpu_detail
+  - Secondary cache
+  - systems
+  - cpu_details
 - Backup-cache:
   - Backup cache
-  - all
-  - cpu_detail
+  - Backup cache
+  - systems
+  - cpu_details
 - Compatibility-mode:
   - Compatibility mode
-  - all 
-  - cpu_detail
+  - Whether compatibility mode is implemented or not
+  - systems 
+  - cpu_details
 - Console-processor:
   - Console processor
-  - all
-  - cpu_detail
+  - Console processor
+  - systems
+  - cpu_details
 - Console-device:
   - Console device
-  - all
-  - cpu_detail
+  - Console storage device
+  - systems
+  - cpu_details
 - Firmware-version:
-  - Firmware-version
+  - Firmware version
+  - Firmware version
   - all
-  - cpu_detail
+  - cpu_details
 - Console-speed:
   - Console speed
-  - all
-  - cpu_detail
+  - Console speed
+  - systems
+  - cpu_details
 - CPU-names:
   - CPU-names
-  - all
-  - cpu_detail
+  - For a multiprocessor system, the list of possible CPU designations
+  - systems
+  - cpu_details
+- EIS:
+  - Extended Instruction Set
+  - Extended Instruction Set
+  - pdp11
+  - cpu_details
+- CIS:
+  - Commercial Instruction Set
+  - Commercial Instruction Set
+  - pdp11
+  - cpu_details
+- Floating-point:
+  - Floating-point hardware
+  - Floating-point hardware implementation
+  - pdp11
+  - cpu_details
 - Minimum-memory:
+  - Minimum memory
   - Minimum memory
   - all
   - memory
 - Maximum-memory:
   - Maximum memory
+  - Maximum memory
   - all
   - memory
 - Physical-address-lines:
   - Physical address lines
+  - The number of physical address lines
   - all
   - memory
 - Memory-checking:
+  - Memory checking
   - Memory checking
   - all
   - memory
 - Memory-cycle:
   - Memory cycle
+  - Memory cycle
   - all
-  - S
+  - memory
 - on-board-memory:
+  - On-board memory
   - On-board memory
   - all
   - memory
 - Max-I/O-throughput:
   - Max I/O throughput
+  - Max I/O throughput
   - all
   - io
 - BUS-SBI:
   - SBI
+  - SBI bus details
   - vax
   - io
 - BUS-MASSBUS:
   - MASSBUS
-  - vax
+  - MASSBUS details
+  - - vax
+    - pdp11
+    - pdp10
   - io
 - BUS-UNIBUS:
   - UNIBUS
-  - all
+  - UNIBUS details
+  - - vax
+    - pdp11
   - io
 - BUS-Qbus:
   - Q-bus
-  - all
+  - Q-bus details
+  - - vax
+    - pdp11
+    - decmips
   - io
 - BUS-vaxbi:
   - VAXBI
-  - all
+  - VAXBI bus details
+  - - vax
+    - decmips
   - io
 - BUS-XMI:
   - XMI
-  - all
+  - XMI bus details
+  - - vax
+    - alpha
   - io
 - BUS-LSB:
   - Laserbus
-  - all
+  - Laserbus details
+  - - vax
+    - alpha
   - io
 - BUS-FB:
   - Futurebus
+  - Futurebus details
   - all
   - io
 - BUS-TC:
   - TURBOchannel
-  - all
+  - TURBOchannel bus details
+  - - decmips
+    - vax
+    - alpha
   - io
 - BUS-DSSI:
   - BUS-DSSI
-  - all
+  - DSSI bus details
+  - systems
   - io
 - BUS-SCSI:
   - BUS SCSI
-  - all
+  - SCSI bus details
+  - systems
   - io
 - BUS-PCI:
   - PCI
-  - all
+  - PCI slot details
+  - - alpha
+    - decpc
   - io
 - BUS-EISA:
   - EISA
-  - all
+  - EISA slot details
+  - - alpha
+    - decpc
   - io
 - BUS-PCI-or-EISA:
   - PCI or EISA
-  - all
+  - Details of slots that may be PCI or EISA
+  - alpha
   - io
 - BUS-PCI-or-ISA:
   - PCI or ISA
-  - all
+  - Details of slots that may be PCI or ISA
+  - alpha
   - io
 - BUS-ISA:
   - ISA
-  - all
+  - ISA slot details
+  - - alpha
+    - decpc
   - io
 - BUS-MCA:
   - MCA
-  - all
+  - MCA slot details
+  - decpc
   - io
 - LAN-support:
   - LAN support
+  - Ethernet support details
   - all
   - io
+- Relative-performance:
+  - Relative performance
+  - Performance relative to another system
+  - pdp11
+  - performance
 - VUPs:
   - VUPs
-  - all
+  - VAX Units of Performance
+  - - vax
+    - decmips
   - performance
 - SPECmarks:
   - SPECmarks
-  - all
+  - SPECmark details
+  - systems
   - performance
 - TPC-A:
   - TPC-A
-  - all
+  - TPC-A details
+  - systems
   - performance
 - SPECint89:
   - SPECint89
-  - all
+  - SPECint89 details
+  - systems
   - performance
 - SPECfp89:
   - SPECfp89
-  - all
+  - SPECfp89 details
+  - systems
   - performance
 - SPECint92:
   - SPECint92
-  - all
+  - SPECint92 details
+  - systems
   - performance
 - SPECfp92:
   - SPECfp92
-  - all
+  - SPECfp92 details
+  - systems
   - performance
 - SPECint95:
   - SPECint95
-  - all
+  - SPECint95 details
+  - systems
   - performance
 - SPECfp95:
   - SPECfp95
-  - all
+  - SPECfp95 details
+  - systems
   - performance
 - Height:
+  - Height
   - Height
   - all
   - dimensions
 - Width:
   - Width
+  - Width
   - all
   - dimensions
 - Depth:
   - Depth
+  - Depth
   - all
   - dimensions
 - Weight:
-  - Depth
+  - Weight
+  - Weight
   - all
   - dimensions
 - Supply:
   - Supply
+  - Mains supply characteristics
   - all
   - power
 - I-max:
   - I(max)
+  - Maximum current drawn
   - all
   - power
 - I-inrush:
   - I(inrush)
+  - Maximum inrush current
   - all
   - power
 - Power:
   - Power
+  - POower consumption
   - all
   - power
 - Heat-dissipation:
+  - Heat dissipation
   - Heat dissipation
   - all
   - power
 - Label:
   - Label
+  - Label
   - all
   - power
 - Option-title:
   - Options
+  - Options
   - all
   - option
 - Option:
+  - Option
   - Option
   - all
   - option

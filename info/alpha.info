@@ -1,3 +1,6 @@
+! https://books.google.co.uk/books?id=N1EEAAAAMBAJ&printsec=frontcover#v=onepage&q&f=false
+! InfoWorld 16-NOV-1992 mentions announcement "last week" of DEC 3000-400/500
+
 ! Alpha XL 266 missing ....
 !
 ! AlphaBook 1			V6.2-1H1
@@ -49,20 +52,637 @@
 ! Multia			not supported
 !
 
-**Start-systems-entry{XL233}{ALPHA}{?}
-**def-lref{1} = ref{CU-V6-10}
-**Announcement**htref{1}: October 1995
-**OS-support-nt**htref{1}: Windows NT V3.51
+**Start-systems-entry{AXP150}{ALPHA}{DEC2000}
+**Sys-name: DECpc <BOLD>axp</BOLD> 150 and DEC 2000 Model 300 AXP
+! Note: the PDF version of {EK-A0636-TM.001} is preliminary and does NOT have dimensions
+**def-lref{1} = ref{EK-A0636-TM.001}
+**def-lref{2} = ref{EK-A0634-OM.001}
+**def-lref{3} = ref{EC-H2315-46}
+**def-lref{4} = ref{CU-V5-11A}
+**def-lref{5} = ref{EK-A0637-SV.001}
+**def-lref{6} = ref{EK-A0638-TD.001}
+**Def-lref{7} = ref{SOC-JAN1995}
+**Codename: Jensen
+**OS-support-VMS: V1.5-1H1
+**Num-proc**vref{5}: 1
+**Module**vref{5}: PB22H-KB
+**CPU-technology: CMOS
+**CPU-chip**vref{1}: DECchip 21064 (EV4 P2 or P3)
+**CPU-clock**vref{5}: 150MHz
+**CPU-cycle**vref{5}: 6.6ns
+**Cache**vref{6}: 8KB-I/8KB-D
+!**Backup-cache**htref{3}: 512KB (17ns)
+**Backup-cache**vref{6}: 512KB (17ns)
+**SPECint92**vref{7}: 80.9
+**SPECfp92**vref{7}: 112.7
+! TPC-A from Digital WWW
+! SOC gives TPS, presuming that this is TPC-A
+**TPC-A**vref{7}: 110
+**Minimum-memory**vref{1,3}: 16MB
+! vref{7} gives 256MB
+**Maximum-memory**vref{1,3}: 128MB
+! 256MB : Digital WWW 
+**Memory-checking**vref{5}: Longword parity
+**Max-I/O-throughput**vref{7}: 33MB/s
+**BUS-SCSI**vref{2}: 1
+!**BUS-EISA**vref{3}: 6 slots @ 33MB/s
+**BUS-EISA**vref{3,5}: 6 slots
+**LAN-support: 1 (10Base-T/ThinWire)
+**Dimensions-start{axp150}
+**Height**vref{1}: 474mm
+**Width**vref{1}: 178mm
+**Depth**vref{1}:  495mm
+**Weight**vref{1}: 21.0kg
+**Dimensions-end{axp150}
+**Power-start{150-240V}
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 3.4A
+**Power**vref{1}: 254W
+**Power-end{150-240V}
+**Power-start{150-120V}
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 5.99A
+**Power**vref{1}: 254W
+**Power-end{150-120V}
+!<TR> <TD COLSPAN=2> <B> Internal mass storage options </B> </TR>
+!<TR> <TD> <A HREF="../storage/rrd42.html">   RRD42 </A> <TD> 600MB SCSI CDROM drive		</TR>
+!<TR> <TD> <A HREF="../storage/rx26.html">    RX26  </A> <TD> 3-1/2" Floppy disk drive		</TR>
+!<TR> <TD> <A HREF="../storage/rz24l.html">   RZ24L </A> <TD> 245MB SCSI Disk			</TR>
+!<TR> <TD> <A HREF="../storage/rz25.html">    RZ25  </A> <TD> 426MB SCSI Disk			</TR>
+!<TR> <TD> <A HREF="../storage/rz25l.html">   RZ25L </A> <TD> 535MB SCSI Disk			</TR>
+!<TR> <TD> <A HREF="../storage/rz26.html">    RZ26  </A> <TD> 1.05GB SCSI Disk			</TR>
+!<TR> <TD> <A HREF="../storage/rz26l.html">   RZ26L </A> <TD> 1.05GB SCSI Disk			</TR>
+!<TR> <TD> <A HREF="../storage/tlz06.html">   TLZ06 </A> <TD> 4mm 1.2GB DAT tape drive		</TR>
+!<TR> <TD> <A HREF="../storage/tzk10.html">   TZK10 </A> <TD> QIC tape drive			</TR>
+**End-systems-entry{AXP150}
+
+**Start-systems-entry{DEC3300}{ALPHA}{DEC3000}
+**Sys-name: DEC 3000 Model 300
+**def-lref{2} = ref{EK-PELCN-SV.B01}
+**def-lref{3} = ref{EC-H2315-46}
+! [3]: 300/300L share basic system module but have different CPU daughter cards
+**Codename: Pelican
+**OS-support-VMS: V1.5
+**CPU-module: KN16-AA
+**Module**vref{2}: 54-22257-01
+**System-Module**vref{2}: 54-22249-01
+**Num-proc**vref{3}: 1
+**CPU-technology: CMOS
+**CPU-chip**vref{3}: DECchip 21064
+**CPU-clock**vref{3}: 150MHz
+**Cache**vref{3}: 8KB-I/8KB-D
+**Backup-cache**vref{3}: 256KB (32ns)
+**Minimum-memory**vref{3}: 32MB
+**Maximum-memory**vref{3}: 256MB
+**BUS-SCSI**vref{3}: 1 @ 5MB/s (SCSI-2)
+**BUS-TC**vref{3}: 2 slots @ 50MB/s
+**LAN-support: 1 (10BASE-T)
+**Power-start{DEC3300}
+**Supply**vref{3}: 120/240V 1-phase
+**Power**vref{3}: 200W
+**Power-end{DEC3300}
+**Dimensions-start{DEC3300}
+**Height**vref{3}: 93.5mm
+**Width**vref{3}: 400mm
+**Depth**vref{3}: 432.5mm
+**Weight**vref{3}: 6.8kg - 9.5kg
+**Dimensions-end{DEC3300}
+**End-systems-entry{DEC3300}
+
+**Start-systems-entry{DEC3300L}{ALPHA}{DEC3000}
+**Sys-name: DEC 3000 Model 300L
+**def-lref{2} = ref{EK-PELCN-SV.B01}
+**def-lref{3} = ref{EC-H2315-46}
+! [3]: 300/300L share basic system module but have different CPU daughter cards
+**Codename: Pelica
+**OS-support-VMS: V1.5
+**CPU-module: KN16-BA
+**Module**vref{2}: 54-22257-02
+**System-Module**vref{2}: 54-22249-02
+**Num-proc**vref{3}: 1
+**CPU-technology: CMOS
+**CPU-chip**vref{3}: DECchip 21064
+**CPU-clock**vref{3}: 100MHz
+**Cache**vref{3}: 8KB-I/8KB-D
+**Backup-cache**vref{3}: 256KB (32ns)
+**Minimum-memory**vref{3}: 32MB
+**Maximum-memory**vref{3}: 256MB
+**BUS-SCSI**vref{3}: 1 @ 5MB/s (SCSI-2)
+**LAN-support: 1 (10BASE-T)
+**Power-start{DEC3300L}
+**Supply**vref{3}: 120/240V 1-phase
+**Power**vref{3}: 200W
+**Power-end{DEC3300L}
+**Dimensions-start{DEC3300L}
+**Height**vref{3}: 93.5mm
+**Width**vref{3}: 400mm
+**Depth**vref{3}: 432.5mm
+**Weight**vref{3}: 6.8kg
+**Dimensions-end{DEC3300L}
+**End-systems-entry{DEC3300L}
+
+**Start-systems-entry{DEC3300X}{ALPHA}{DEC3000}
+**Sys-name: DEC 3000 Model 300X
+**Def-lref{2} = ref{EK-PELCN-SV.B01}
+**Def-lref{3} = ref{CU-V6-3A}
+**Def-lref{4} = ref{CU-V6-5}
+**Def-lref{5} = ref{SOC-JAN1995}
+**CPU-module: KN16-CA
+**Module**vref{2}: 54-22257-03
+**System-module**vref{2}: 54-22249-01
 **Num-proc: 1
-**Backup-cache**htref{1}: 512KB
+**CPU-technology: CMOS
+**CPU-clock**vref{5}: 175MHz
+**Cache**vref{5}: 8KB-I/8KB-D		
+!**Backup-cache: 256KB (32ns) no sign of ref for 32ns		
+**Backup-cache**vref{5}: 256KB
+**SPECint92**vref{5}: 90.3
+**SPECfp92**vref{5}: 101.9
+**Minimum-memory: 32MB			
+**Maximum-memory**vref{5}: 256MB			
+**Max-I/O-throughput**vref{5}: 50MB/s
+**BUS-SCSI: 1 @ 5MB/s			
+**BUS-TC**vref{5}: 2 slots 			
+**LAN-support: 1 (10BASE-T)
+**Power-start{DEC3300X}
+**Supply: 120/240V 1-phase
+**Power: 200W
+**Power-end{DEC3300X}
+**Dimensions-start{DEC3300X}
+**Height: 93.5mm
+**Width: 400mm
+**Depth: 432.5mm
+**Weight: 6.8kg
+**Dimensions-end{DEC3300X}
+**End-systems-entry{DEC3300X}
+
+**Start-systems-entry{DEC3300LX}{ALPHA}{DEC3000}
+**Sys-name: DEC 3000 Model 300LX
+**Def-lref{2} = ref{EK-PELCN-SV.B01}
+**Def-lref{3} = ref{CU-V6-3A}
+**Def-lref{4} = ref{CU-V6-5}
+**Def-lref{5} = ref{SOC-JAN1995}
+**Last-order**htref{4}: 23 June 1995
+**CPU-module: KN16-DA
+**Module**vref{2}: 54-22257-04
+**System-module**vref{2}: 54-22249-01
+**Num-proc: 1
+**CPU-technology: CMOS
+**CPU-clock**vref{5}: 125MHz
+**Cache**vref{5}: 8KB-I/8KB-D		
+!  Bcache is (32ns), but no ref		
+**Backup-cache**vref{5}: 256KB
+!**SPECint92**htref{3}: 63.1
+**SPECint92**vref{5}: 68.4
+**SPECfp92**vref{5}: 77.7
+**Minimum-memory: 32MB			
+**Maximum-memory**vref{5}: 256MB			
+**Max-I/O-throughput**vref{5}: 50MB/s
+**BUS-SCSI: 1 @ 5MB/s			
+**BUS-TC**vref{5}: 2 slots 			
+**LAN-support: 1 (10BASE-T)
+**Power-start{DEC3300LX}
+**Supply: 120/240V 1-phase
+**Power: 200W
+**Power-end{DEC3300LX}
+**Dimensions-start{DEC3300LX}
+**Height: 93.5mm
+**Width: 400mm
+**Depth: 432.5mm
+**Weight: 6.8kg
+**Dimensions-end{DEC3300LX}
+**End-systems-entry{DEC3300LX}
+
+**Start-systems-entry{DEC3400}{ALPHA}{DEC3000}
+**Sys-name: DEC 3000 Model 400/400S AXP
+**Def-lref{1} = ref{EK-SNDPR-OG.D01}
+**Def-lref{2} = ref{EC-H2315-46}
+**Codename: Sandpiper
+**OS-support-VMS: V1.0
+**CPU-module: KN15-BA
+**Module: 54-21149-02
+**CPU-name-vms: KN15
+**CPU-name-console: KN15-B
+**Num-proc**vref{2}: 1
+**CPU-technology: CMOS-4
+**CPU-chip**vref{1}: DECchip 21064
+**CPU-clock**vref{1}: 133MHz
+**Cache**vref{1}: 8KB-I/8KB-D
+**Backup-cache**vref{1}: 512KB
+**Minimum-memory**vref{1}: 32MB
+**Maximum-memory**vref{2}: 512MB
+! [1]: 256MB max planned
+**BUS-SCSI**vref{2}: 2 @ 5MB/s (SCSI-2)
+**BUS-TC**vref{2}: 3 slots @ 90MB/s
+**LAN-support**vref{2}: 1 (10BASE-T/AUI)
+**Power-start{DEC3400}
+**Supply**vref{1}: 120-240V 1-phase
+**Power**vref{1}: 478W
+**Power-end{DEC3400}
+**Dimensions-start{DEC3400-desktop}
+**Label: Desktop
+! these should all bein {1} too
+**Height**vref{2}: 127mm
+**Width**vref{2}: 510mm
+**Depth**vref{2}: 445mm
+**Weight**vref{2}: 20.25kg
+**Dimensions-end{DEC3400-desktop}
+**Dimensions-start{DEC3400-pedestal}
+**Label: Pedestal
+**Height**vref{2}: 575mm
+**Width**vref{2}: 225mm
+**Depth**vref{2}: 456mm
+**Weight**vref{2}: 21.6kg
+**Dimensions-end{DEC3400-pedestal}
+**End-systems-entry{DEC3400}
+
+**Start-systems-entry{DEC3500}{ALPHA}{DEC3000}
+**Sys-name: DEC 3000 Model 500/500S AXP
+**Def-lref{1} = ref{EK-FLAMI-OG.C01}
+**Def-lref{2} = ref{EC-H2315-46}
+**Codename: Flamingo
+**OS-support-VMS: V1.0
+**CPU-module**vref{1}: KN15-AA
+**Module: 54-21149-01
+**CPU-name-vms: KN15-AA
+**CPU-name-console: KN15-AA
+**Num-proc**vref{2}: 1
+**CPU-technology: CMOS-4
+**CPU-chip**vref{1}: DECchip 21064
+**CPU-clock**vref{2}: 150MHz
+**Cache**vref{1,2}: 8KB-I/8KB-D
+**Backup-cache**vref{1,2}: 512KB
+**Minimum-memory**vref{1,2}: 32MB
+**Maximum-memory**vref{2}: 1GB
+**BUS-SCSI**vref{2}: 2 @ 5MB/s
+**BUS-TC**vref{2}: 6 slots @ 100MB/s
+**LAN-support**vref{1,2}: 1 (10BASE-T/AUI)
+**Power-start{DEC3500-240V}
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 10A
+**Power**vref{1}: 400W
+**Power-end{DEC3500-240V}
+**Power-start{DEC3500-120V}
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 5A
+**Power**vref{1}: 400W
+**Power-end{DEC3500-120V}
+**Dimensions-start{DEC3500-P}
+**Label: Pedestal
+**Height**vref{1}: 627.4mm
+**Width **vref{1}: 336.6mm
+**Depth **vref{1}: 754.4mm
+**Weight**vref{1}: 34.92kg - 42.18kg
+**Dimensions-end{DEC3500-P}
+**Dimensions-start{DEC3500-R}
+**Label: Rackmount
+**Height**vref{1,2}: 444.5mm
+**Width **vref{1,2}: 213.4mm
+**Depth **vref{1,2}: 685.8mm
+**Weight**vref{1,2}: 29.48kg
+**Dimensions-end{DEC3500-R}
+**End-systems-entry{DEC3500}
+
+**Start-systems-entry{DEC3500X}{ALPHA}{DEC3000}
+**Sys-name: DEC 3000 Model 500X AXP
+**Def-lref{1} = ref{EC-H2315-46}
+**Codename: Hot Pink
+**OS-support-VMS: V1.5
+**CPU-module: KN15-CA
+**Module: 54-21149-01
+**CPU-name-vms: KN15-CA
+**CPU-name-console: KN15-CA
+**Num-proc: 1
+**CPU-technology: CMOS-4
+**CPU-chip**vref{1}: DECchip 21064
+**CPU-clock**vref{1}: 200MHz
+**Cache**vref{1}: 8KB-I/8KB-D
+**Backup-cache**vref{1}: 512KB
+**Minimum-memory**vref{1}: 32MB
+**Maximum-memory**vref{1}: 1GB
+**BUS-SCSI**vref{1}: 2 @ 5MB/s
+**BUS-TC**vref{1}: 5 slots @ 100MB/s
+**LAN-support**vref{1}: 1 (10BASE-T/AUI)
+**Power-start{DEC3500X-120V}
+**Supply**vref{1}: 120V 1-phase
+**Power**vref{1}: 746W
+**Power-end{DEC3500X-120V}
+**Power-start{DEC3500X-240V}
+**Supply**vref{1}: 240V 1-phase
+**Power**vref{1}: 746W
+**Power-end{DEC3500X-240V}
+**Dimensions-start{DEC3500X-P}
+**Label: Pedestal
+**Height**vref{1}: 627.4mm
+**Width **vref{1}: 323.9mm
+**Depth **vref{1}: 754.4mm
+**Weight**vref{1}: 34.02kg
+**Dimensions-end{DEC3500X-P}
+**Dimensions-start{DEC3500X-R}
+**Label: Rackmount
+**Height**vref{1}: 444.5mm
+**Width **vref{1}: 213.4mm
+**Depth **vref{1}: 685.8mm
+**Weight**vref{1}: 29.48kg
+**Dimensions-end{DEC3500X-R}
+**End-systems-entry{DEC3500X}
+
+**Start-systems-entry{DEC3600}{ALPHA}{DEC3000}
+**Sys-name: DEC 3000 Model 600
+**Def-lref{1} = ref{CU-V5-7B}
+**Def-lref{2} = ref{EK-SNDPL-OG.B01}
+**Def-lref{3} = ref{CU-V6-4A}
+**Def-lref{4} = ref{SOC-JAN1995}
+**OS-support-VMS: V1.5-1H1
+**CPU-module: KN17-BA
+**CPU-name-vms: KN17-BA
+**CPU-name-console: KN17-BA
+**Num-proc: 1
+**CPU-technology: CMOS-4
+**CPU-chip**vref{2}: DECchip 21064
+**CPU-clock**vref{2,4}: 175MHz
+**Cache**vref{2}: 8KB-I/8KB-D
+**Backup-cache**vref{2}: 2MB
+**SPECint92**vref{4}: 114
+**SPECfp92**vref{4}: 162
+**Minimum-memory**vref{1}: 32MB
+**Maximum-memory**vref{1}: 512MB
+**BUS-SCSI**vref{1}: 2 @ 10MB/s
+**BUS-TC**htref{1}: 3 slots @ 100MB/s
+**LAN-support**vref{2}: 1 (10BASE-T/AUI)
+**Power-start{DEC3600}
+**Supply**vref{2}: 120-240V 1-phase
+**Power**vref{2}: 478W
+**Power-end{DEC3600}
+**Dimensions-start{DEC3600}
+**Height**vref{2}: 127mm
+**Width**vref{2}: 510mm
+**Depth**vref{2}: 445mm
+**Weight**vref{2}: 20kg
+**Dimensions-end{DEC3600}
+**End-systems-entry{DEC3600}
+
+**Start-systems-entry{DEC3700}{ALPHA}{DEC3000}
+**Sys-name: DEC 3000 Model 700
+**def-lref{1} = ref{CU-V5-7B}
+**def-lref{2} = ref{EK-SNDPL-OG.B01}
+**def-lref{3} = ref{CU-V6-4A}
+**Def-lref{4} = ref{SOC-JAN1995}
+**Codename: Sandpiper45
+**Announcement**htref{1}: 18 July 1994
+**FRS-date**htref{1}: August 1994
+**OS-support-vms**htref{1}: OpenVMS AXP V6.1
+**OS-support-du**htref{1}: DEC OSF/1 AXP V2.1
+**CPU-module: KN17-BB
+**CPU-name-vms: KN17-BB
+**CPU-name-console: KN17-BB
+**Num-proc: 1
+**CPU-chip**vref{2}: DECchip 21064A
+**CPU-clock**vref{2,4}: 225MHz
+**Cache**vref{2,4}: 16KB-I/16KB-D
+**Backup-cache**vref{2,4}: 2MB
+**SPECint92**vref{4}: 162.6
+**SPECfp92**vref{4}: 230.6
+**Minimum-memory**vref{2}: 32MB
+**Maximum-memory**vref{2,4}: 512MB
+**Max-I/O-throughput**vref{4}: 100MB/s
+!**BUS-SCSI**htref{1}: 2 @ 10MB/s
+**BUS-SCSI**vref{2}: 2 (SCSI-2)
+**BUS-TC**vref{4}: 3 slots
+**LAN-support**vref{2}: 1 (10BASE-T/AUI)
+**Power-start{DEC3700}
+**Supply**vref{2}: 120-240V 1-phase
+**Power**vref{2}: 478W
+**Power-end{DEC3700}
+**Dimensions-start{DEC3700}
+! vref{4} says 127mmHx508mmW444mmD
+**Height**vref{2,4}: 127mm
+**Width**vref{2}:  510mm
+**Depth**vref{2}:  445mm
+**Weight**vref{2}: 20kg
+**Dimensions-end{DEC3700}
+**End-systems-entry{DEC3700}
+
+**Start-systems-entry{DEC3800}{ALPHA}{DEC3000}
+**Sys-name: DEC 3000 Model 800/800S
+**Def-lref{1} = ref{EK-FLMUL-OG.B01}
+**Codename: Flamingo II
+**OS-support-VMS: V1.5-1H1
+**CPU-module: KN17-AA
+**CPU-name-vms: KN17-AA
+**CPU-name-console: KN17-AA
+**Num-proc: 1
+**CPU-technology: CMOS
+**CPU-chip**vref{1}: DECchip 21064
+**Cache**vref{1}: 8KB-I/8KB-D
+**Backup-cache**vref{1}: 2MB
+**Minimum-memory**vref{1}: 32MB
+**Maximum-memory**vref{1}: 1GB
+**BUS-SCSI**vref{1}: 2 (SCSI-2)
+**LAN-support**vref{1}: 1 (10BASE-T/AUI)
+**Power-start{DEC3800}
+**Supply**vref{1}: 120-240V 1-phase
+**Power**vref{1}: 686W
+**Power-end{DEC3800}
+**Dimensions-start{DEC3800}
+**Height**vref{1}: 627.4mm
+**Width**vref{1}: 336.6mm
+**Depth**vref{1}: 754.4mm
+**Weight**vref{1}: 34.92kg - 42.18kg
+**Dimensions-end{DEC3800}
+**End-systems-entry{DEC3800}
+
+**Start-systems-entry{DEC3900}{ALPHA}{DEC3000}
+**Sys-name: DEC 3000 Model 900
+**def-lref{1} = ref{CU-V5-7B}
+**def-lref{2} = ref{EK-FLMUL-OG.B01}
+**def-lref{3} = ref{CU-V6-8B}
+**Def-lref{4} = ref{SOC-JAN1995}
+**Announcement**htref{1}: 18 July 1994
+**Codename: Flamingo45
+**OS-support-VMS: V6.1
+**CPU-module: KN17-AB
+**CPU-name-vms: KN17-AB
+**CPU-name-console**vref{2}: KN17-AB
+**Num-proc: 1
+**CPU-technology: CMOS
+**CPU-chip**vref{1,2}: DECchip 21064A
+**CPU-clock**vref{2,4}: 275MHz
+**Cache**vref{2,4}: 16KB-I/16KB-D
+**Backup-cache**vref{2,4}: 2MB
+**SPECint92**vref{4}: 189.3
+**SPECfp92**vref{4}: 264.1
+**Minimum-memory**vref{2}: 32MB
+**Maximum-memory**vref{2,4}: 1GB
+**Max-I/O-throughput**vref{4}: 100MB/s
+**BUS-SCSI**htref{1}: 2 @ 10MB/s
+**BUS-TC**vref{4}: 6 slots
+**LAN-support**vref{2}: 1 (10BASE-T/AUI)
+**Power-start{DEC3900}
+**Supply**vref{2}: 120-240V 1-phase
+**Power**vref{2}: 686W
+**Power-end{DEC3900}
+**Dimensions-start{DEC3900}
+**Height**vref{2}: 627.4mm
+**Width	**vref{2}: 336.6mm
+**Depth	**vref{2}: 754.4mm
+**Weight**vref{2}: 34.92kg - 42.18kg
+**Dimensions-end{DEC3900}
+**End-systems-entry{DEC3900}
+
+**Start-systems-entry{DEC4600}{ALPHA}{DEC4000}
+**Sys-name: DEC 4000 Model 610/620
+**Def-lref{1} = ref{EC-H2315-46}
+**Codename: Cobra
+**OS-support-VMS: V1.0
+**Module: B2001-BA
+**Num-proc**vref{1}: 1-2
+**CPU-chip**vref{1}: DECchip 21064
+**CPU-clock**vref{1}: 160MHz
+**Cache**vref{1}: 8KB-I/8KB-D
+**Backup-cache**vref{1}: 1MB
+**Minimum-memory**vref{1}: 64MB
+**Maximum-memory**vref{1}: 2GB
+**Memory-checking**vref{1}: ECC
+**Max-I/O-throughput**vref{1}: {160MB/s:peak}{100MB/s:sustained}
+**BUS-SCSI**vref{1}: 4 @ 10MB/s
+**BUS-FB**vref{1}: 6 slots @ 160MB/s
+**BUS-DSSI**vref{1}: 4 @ 5MB/s
+**LAN-support**vref{1}: 2 (embedded AUI/10BASE2)
+**Power-start{DEC4600}
+**Supply**vref{1}: 1-phase
+**Power**vref{1}: 1500W
+**Power-end{DEC4600}
+**Dimensions-start{DEC4600-P}
+**Label: Pedestal
+**Height**vref{1}: 850mm
+**Width **vref{1}: 506mm
+**Depth **vref{1}: 762mm
+**Weight**vref{1}: 118kg
+**Dimensions-end{DEC4600-P}
+**Dimensions-start{DEC4600-R}
+**Label: Rackmount
+**Height**vref{1}: 444mm
+**Width **vref{1}: 482mm
+**Depth **vref{1}: 757mm
+**Weight**vref{1}: 66.4kg
+**Dimensions-end{DEC4600-R}
+**Option-title: Internal controllers
+**Option: {MRV11}{Programmable ROM Module}
+**Option-title: Internal mass storage options
+**Option: {RF71}{400MB DDSI Disk}
+**Option: {RF31}{381MB DDSI Disk}
+**Option-title: External mass storage options
+**Option: {RA60}{205MB Removable Disk Drive}
+**Option: {RA81}{456MB Disk Drive}
+**End-systems-entry{DEC4600}
+
+! Alternate data available but is this for DEC 7000-600??
+! **Def-lref{3} = ref{EC-H2315-46}
+! vref{3}
+! 21064, 182MHz, 1-6 proc (1-3 in rackmount)
+! 8KB-I/8KB-D, 4MB BU cache, 128MB/14GB mem, max-i/o 400MB/s, dimensions ...
+! Data also available for DEC 10000
+
+**Start-systems-entry{DEC7600}{ALPHA}{DEC7000}
+**Sys-name: DEC 7000 Model 600 series
+**Num-proc**uref{2}: 1-6
+! Originally shipped with 182MHz. 200MHz was for DEC 10000 systems. Then became available for DEC 7000-600 systems.
+**CPU-clock**uref{2}: 200MHz
+**CPU-technology: CMOS
+**Maximum-memory: 4GB (only 3.5GB used)
+**End-systems-entry{DEC7600}
+
+**Start-systems-entry{DEC7700}{ALPHA}{DEC7000}
+**Def-lref{1} = ref{CU-V5-11A}
+**Def-lref{2} = ref{SOC-JAN1995}
+**Sys-name: DEC 7000 Model 700 series
+**Announcement**htref{1}: 1 November 1994
+**OS-support-vms**htref{1}: OpenVMS AXP V6.1
+**OS-support-du**htref{1}: DEC OSF/1 V3.0
+**Num-proc**vref{2}: 1-6
+**CPU-technology: CMOS
+**CPU-chip**htref{1}: DECchip 21064A
+**CPU-clock**vref{2}: 275MHz
+**Cache**vref{2}: 16KB-I/16KB-D		
+**Backup-cache**vref{2}:  4MB
+**SPECint92**vref{3}: 200.5
+**SPECfp92**vref{3}: 292.6
+**Maximum-memory**vref{2}: 14GB
+**Max-I/O-throughput**vref{2}: 400MB/s
+**End-systems-entry{DEC7700}
+
+! see app A of EK-AS300-UG.A01 DEC_0002 EK/
+**Start-systems-entry{AS300-4-266}{ALPHA}{ALPHASERVER}
+**Def-lref{1} = ref{CU-V7-11A}
+**Sys-name: AlphaServer 300 4/266
+**Announcement**htref{1}: 15 November 1996
+**OS-support-vms: OpenVMS V6.2-1H3
+**Num-proc: 1
+**CPU-chip**htref{1}: (EV45)
+**CPU-clock**htref{1}: 266MHz
+**Backup-cache**htref{1}: 2MB
+**SPECint95**htref{1}: 5.18
+**SPECfp95**htref{1}: 6.27
+**Maximum-memory**htref{1}: 512MB
+**Max-I/O-throughput**htref{1}: 132MB/s
+**BUS-PCI**htref{1}: 1 slot
+**BUS-ISA**htref{1}: 1 slot
+**BUS-PCI-or-ISA**htref{1}: 1 slot
+**End-systems-entry{AS300-4-266}
+
+**Start-systems-entry{AS400-4-166}{ALPHA}{ALPHASERVER}
+**Sys-name: AlphaServer 400 4/166
+**Def-lref{1} = ref{CU-V6-3A}
+**Def-lref{2} = ref{CU-V6-10B}
+**Announcement**htref{1}: 1 March 1995
+**OS-support-vms: OpenVMS V6.1-1H1
+**Num-proc: 1
+**CPU-clock**htref{1}: 166MHz
 **Maximum-memory**htref{1}: 192MB
-**End-systems-entry{XL233}
+**BUS-PCI**htref{1}:  2 slots @ 132MB/s
+**BUS-ISA**htref{1}: 3 slots
+**BUS-PCI-or-ISA**htref{1}: 1 slot
+**BUS-SCSI: 1 @ 10MB/s
+**Option-title: Memory
+**Option: {boards:MSP01-AA}{8MB SIMM package}
+**Option: {boards:MSP01-AB}{16MB SIMM package}
+**Option: {boards:MSP01-AC}{32MB SIMM package}
+**Option: {boards:MSP01-AD}{64MB SIMM package}
+**End-systems-entry{AS400-4-166}
+
+**Start-systems-entry{AS400-4-233}{ALPHA}{ALPHASERVER}
+**Sys-name: AlphaServer 400 4/233
+**Def-lref{1} = ref{CU-V6-3A}
+**Def-lref{2} = ref{CU-V6-10B}
+**Def-lref{3} = ref{SOC-JAN1995}
+**Announcement**htref{2}: 15 October 1995
+**Num-proc: 1
+**CPU-clock**vref{3}: 233MHz
+**Cache**vref{3}: 16KB-I/16KB-D		
+**Backup-cache**vref{3}:  512KB
+**SPECint92**vref{3}: 157.7
+**SPECfp92**vref{3}: 183.9
+! unverified source claims 384MB
+**Maximum-memory**vref{3}: 192MB
+!**BUS-PCI**htref{2}: 2 slots @ 132MB/s
+**BUS-PCI**vref{3}: 2 slots
+**BUS-ISA**vref{3}: 3 slots
+**BUS-PCI-or-ISA**vref{3}: 1 slot
+**BUS-SCSI**htref{2}: 1 @ 10MB/s
+**Option-title: Memory
+**Option: {boards:MSP01-AA}{8MB SIMM package}
+**Option: {boards:MSP01-AB}{16MB SIMM package}
+**Option: {boards:MSP01-AC}{32MB SIMM package}
+**Option: {boards:MSP01-AD}{64MB SIMM package}
+**End-systems-entry{AS400-4-233}
 
 **Start-systems-entry{AS1000-4-200}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000 4/200
 **def-lref{1} = ref{CU-V6-5A}
 **def-lref{2} = ref{CU-V6-10B}
 **def-lref{3} = ref{CU-V5-11A}
+**Def-lref{4} = ref{SOC-JAN1995}
 !-- [1] has more data about physical size -->
 !-- [3] indicates 4/200 has integrated SVGA controller -->
 !-- [3] indicates memory options for 4/200:
@@ -71,9 +691,19 @@
 !	PB7MA-AC         64 MB RAM
 !	PB7MA-AD         128 MB RAM
 **OS-support-vms: OpenVMS V6.1-1H2
-**Num-proc**htref{3}: 1
-**CPU-clock**htref{3}: 200MHz
-**Maximum-memory**htref{3}: 512MB
+**Num-proc**vref{4}: 1
+**CPU-clock**vref{4}: 200MHz
+**Cache**vref{4}: 8KB-I/8KB-D
+**Backup-cache**vref{4}: 2MB
+**SPECint92**vref{4}: 135.8
+**SPECfp92**vref{4}: 177.0
+! SOC gives TPS, presuming that this is TPC-A
+**TPC-A**vref{4}: up to 285
+**Maximum-memory**vref{4}: 512MB
+**Max-I/O-throughput**vref{4}: 132MB/s
+**BUS-PCI**vref{4}: 2 slots
+**BUS-EISA**vref{4}: 7 slots
+**BUS-PCI-or-ISA**vref{4}: 1 slot
 **End-systems-entry{AS1000-4-200}
 
 **Start-systems-entry{AS1000-4-233}{ALPHA}{AS1000}
@@ -147,613 +777,35 @@
 **BUS-SCSI**htref{1}: 1 FW
 **End-systems-entry{AS1000A-4-266}
 
-**Start-systems-entry{AS300-4-266}{ALPHA}{ALPHASERVER}
-**Def-lref{1} = ref{CU-V7-11A}
-**Sys-name: AlphaServer 300 4/266
-**Announcement**htref{1}: 15 November 1996
-**OS-support-vms: OpenVMS V6.2-1H3
-**Num-proc: 1
-**CPU-chip**htref{1}: (EV45)
-**CPU-clock**htref{1}: 266MHz
-**Backup-cache**htref{1}: 2MB
-**SPECint95**htref{1}: 5.18
-**SPECfp95**htref{1}: 6.27
-**Maximum-memory**htref{1}: 512MB
-**Max-I/O-throughput**htref{1}: 132MB/s
-**BUS-PCI**htref{1}: 1 slot
-**BUS-ISA**htref{1}: 1 slot
-**BUS-PCI-or-ISA**htref{1}: 1 slot
-**End-systems-entry{AS300-4-266}
+**Start-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
+**Sys-name: AlphaServer 1200 5/333
+**End-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
 
-**Start-systems-entry{AST250-4-266}{ALPHA}{ALPHASTATION}
-**Def-lref{1} = ref{CU-V6-4A}
-**Sys-name: AlphaStation 250 4/266
-**Announcement**htref{1}: 11 April 1995
-**OS-support-vms**htref{1}: OpenVMS V6.1-1H2
-! Flowchart has V6.1-1H1
-**OS-support-du**htref{1}: Digital UNIX V3.2
-**OS-support-nt**htref{1}: Windows NT V3.5
-**Num-proc: 1
-**CPU-chip**htref{1}: DECchip 21064A
-**CPU-clock**htref{1}: 266MHz
-**Cache**htref{1}: 16KB-I/16KB-D
-**Backup-cache**htref{1}: 2MB
-**SPECint92**htref{1}: 198.6
-**SPECfp92**htref{1}: 262.5
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 256MB
-!-- [1] implies future support for 512MB -->
-**BUS-SCSI**htref{1}: 1 @ 10MB/s
-**BUS-PCI**htref{1}: 1 @ 132MB/s, 33MHz
-**BUS-ISA**htref{1}: 1
-**BUS-PCI-or-ISA: 1
-**LAN-support**htref{1}: 1
-!-- options from [1] for AlphaStation 250 4/266 -->
-!<TR> <TD COLSPAN=2> <B> Graphics controllers </B> </TR>
-!<TR> <TD> <A HREF="../boards/zlxpe1.html"> ZLXp-E1     </A> <TD> ZLXp-E1  8 plane 2D/3D graphics	</TR>
-!<TR> <TD> <A HREF="../boards/zlxpe2.html"> ZLXp-E2     </A> <TD> ZLXp-E2 24 plane 2D graphics		</TR>
-!<TR> <TD> <A HREF="../boards/zlxpe3.html"> ZLXp-E3     </A> <TD> ZLXp-E3 24 plane 3D graphics, Z buffer	</TR>
-!<TR> <TD> <A HREF="../boards/dec864.html"> DEC864      </A> <TD> DEC864 entry level 2D graphics		</TR>
-!<TR> <TD COLSPAN=2> <B> Monitors </B> </TR>
-!<TR> <TD> <A HREF="../monitors/vrc15.html"> VRC15      </A> <TD> 15" colour monitor			</TR>
-!<TR> <TD> <A HREF="../monitors/vrt17.html"> VRT17      </A> <TD> 17" colour monitor			</TR>
-!<TR> <TD> <A HREF="../monitors/vrc21.html"> VRC21      </A> <TD> 21" colour monitor			</TR>
-**End-systems-entry{AST250-4-266}
-
-**Start-systems-entry{AST400-4-233}{ALPHA}{AlphaStation}
-**Sys-name: AlphaStation 400 4/233
-**Def-lref{1} = ref{CU-V6-3A}
-**Def-lref{2} = ref{CU-V5-11A}
-**Announcement**htref{2}: 1 November 1994
-**OS-support-vms**htref{2}: OpenVMS AXP V6.1-1H1
-**OS-support-du**htref{2}: DEC OSF/1 V3.0
-**OS-support-nt**htref{2}: Windows NT V3.5
-**Codename: TurboAvanti
-**Num-proc: 1
-**CPU-chip**htref{2}: DECchip 21064A
-**CPU-clock**htref{1}: 233MHz
-**Cache**htref{2}: 16KB-I/16KB-D
-**Backup-cache**htref{2}: 512KB
-**SPECint92**htref{1}: 157.6
-**SPECfp92**htref{1}: 183.8
-**Minimum-memory**htref{2}: 16MB
-**Maximum-memory**htref{2}: 192MB
-**BUS-SCSI**htref{2}: 1 @ 10MB/s
-**BUS-PCI**htref{2}: 2 slots @ 132 MB/s
-**BUS-ISA**htref{2}: 3 slots @ 33 MB/s
-**BUS-PCI-or-ISA**htref{2}: 1 slot
-**End-systems-entry{AST400-4-233}
-
-**Start-systems-entry{AXP150}{ALPHA}{DEC2000}
-**Sys-name: DECpc <BOLD>axp</BOLD> 150 and DEC 2000 Model 300 AXP
-**def-lref{1} = ref{EK-A0636-TM.001}
-**def-lref{2} = ref{EK-A0634-OM.001}
-**def-lref{3} = ref{EC-H2315-46}
-**def-lref{4} = ref{CU-V5-11A}
-**def-lref{5} = ref{EK-A0637-SV.001}
-**Codename: Jensen
-**OS-support-VMS: V1.5-1H1
-**Num-proc**htref{3}: 1
-**CPU-technology: CMOS
-**CPU-chip**htref{1}: DECchip 21064 (EV4 P2 or P3)
-**CPU-clock**htref{3}: 150MHz
-**CPU-cycle**htref{5}: 6.6ns
-**Cache**htref{3}: 8KB-I/8KB-D
-**Backup-cache**htref{3}: 512KB (17ns)
-**SPECint92**htref{4}: 81
-**SPECfp92**htref{4}: 110
-**TPC-A: 110
-! TPC-A from Digital WWW
-**Minimum-memory**htref{1}: 16MB
-**Maximum-memory**htref{1}: 128MB
-! 256MB : Digital WWW 
-**Memory-checking**htref{5}: Longword parity
-**Max-I/O-throughput**uref{Digital WWW}: 33MB/s
-**BUS-SCSI**htref{2}: 1
-**BUS-EISA**htref{3}: 6 slots @ 33MB/s
-**LAN-support: 1 (10Base-T/ThinWire)
-**Dimensions-start{axp150}
-**Height**htref{1}: 474mm
-**Width**htref{1}: 178mm
-**Depth**htref{1}:  495mm
-**Weight**htref{1}: 21.0kg
-**Dimensions-end{axp150}
-**Power-start{150-240V}
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 3.4A
-**Power**htref{1}: 254W
-**Power-end{150-240V}
-**Power-start{150-120V}
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 5.99A
-**Power**htref{1}: 254W
-**Power-end{150-120V}
-!<TR> <TD COLSPAN=2> <B> Internal mass storage options </B> </TR>
-!<TR> <TD> <A HREF="../storage/rrd42.html">   RRD42 </A> <TD> 600MB SCSI CDROM drive		</TR>
-!<TR> <TD> <A HREF="../storage/rx26.html">    RX26  </A> <TD> 3-1/2" Floppy disk drive		</TR>
-!<TR> <TD> <A HREF="../storage/rz24l.html">   RZ24L </A> <TD> 245MB SCSI Disk			</TR>
-!<TR> <TD> <A HREF="../storage/rz25.html">    RZ25  </A> <TD> 426MB SCSI Disk			</TR>
-!<TR> <TD> <A HREF="../storage/rz25l.html">   RZ25L </A> <TD> 535MB SCSI Disk			</TR>
-!<TR> <TD> <A HREF="../storage/rz26.html">    RZ26  </A> <TD> 1.05GB SCSI Disk			</TR>
-!<TR> <TD> <A HREF="../storage/rz26l.html">   RZ26L </A> <TD> 1.05GB SCSI Disk			</TR>
-!<TR> <TD> <A HREF="../storage/tlz06.html">   TLZ06 </A> <TD> 4mm 1.2GB DAT tape drive		</TR>
-!<TR> <TD> <A HREF="../storage/tzk10.html">   TZK10 </A> <TD> QIC tape drive			</TR>
-**End-systems-entry{AXP150}
-
-**Start-systems-entry{DEC3300}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 300
-**def-lref{2} = ref{EK-PELCN-SV.B01}
-**def-lref{3} = ref{EC-H2315-46}
-! [3]: 300/300L share basic system module but have different CPU daughter cards
-**Codename: Pelican
-**OS-support-VMS: V1.5
-**CPU-module: KN16-AA
-**Module**htref{2}: 54-22257-01
-**System-Module**htref{2}: 54-22249-01
-**Num-proc**htref{3}: 1
-**CPU-technology: CMOS
-**CPU-chip**htref{3}: DECchip 21064
-**CPU-clock**htref{3}: 150MHz
-**Cache**htref{3}: 8KB-I/8KB-D
-**Backup-cache**htref{3}: 256KB (32ns)
-**Minimum-memory**htref{3}: 32MB
-**Maximum-memory**htref{3}: 256MB
-**BUS-SCSI**htref{3}: 1 @ 5MB/s
-**BUS-TC**htref{3}: 2 slots @ 50MB/s
-**LAN-support: 1 (10BASE-T)
-**Power-start{DEC3300}
-**Supply**htref{3}: 120/240V 1-phase
-**Power**htref{3}: 200W
-**Power-end{DEC3300}
-**Dimensions-start{DEC3300}
-**Height**htref{3}: 93.5mm
-**Width**htref{3}: 400mm
-**Depth**htref{3}: 432.5mm
-**Weight**htref{3}: 6.8kg
-**Dimensions-end{DEC3300}
-**End-systems-entry{DEC3300}
-
-**Start-systems-entry{DEC3300L}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 300L
-**def-lref{2} = ref{EK-PELCN-SV.B01}
-**def-lref{3} = ref{EC-H2315-46}
-! [3]: 300/300L share basic system module but have different CPU daughter cards
-**Codename: Pelica
-**OS-support-VMS: V1.5
-**CPU-module: KN16-BA
-**Module**htref{2}: 54-22257-02
-**System-Module**htref{2}: 54-22249-02
-**Num-proc**htref{3}: 1
-**CPU-technology: CMOS
-**CPU-chip**htref{3}: DECchip 21064
-**CPU-clock**htref{3}: 100MHz
-**Cache**htref{3}: 8KB-I/8KB-D
-**Backup-cache**htref{3}: 256KB (32ns)
-**Minimum-memory**htref{3}: 32MB
-**Maximum-memory**htref{3}: 256MB
-**BUS-SCSI**htref{3}: 1 @ 5MB/s
-**LAN-support: 1 (10BASE-T)
-**Power-start{DEC3300L}
-**Supply**htref{3}: 120/240V 1-phase
-**Power**htref{3}: 200W
-**Power-end{DEC3300L}
-**Dimensions-start{DEC3300L}
-**Height**htref{3}: 93.5mm
-**Width**htref{3}: 400mm
-**Depth**htref{3}: 432.5mm
-**Weight**htref{3}: 6.8kg
-**Dimensions-end{DEC3300L}
-**End-systems-entry{DEC3300L}
-
-**Start-systems-entry{DEC3300X}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 300X
-**Def-lref{2} = ref{EK-PELCN-SV.B01}
-**Def-lref{3} = ref{CU-V6-3A}
-**Def-lref{4} = ref{CU-V6-5}
-**CPU-module: KN16-CA
-**Module**htref{2}: 54-22257-03
-**System-module**htref{2}: 54-22249-01
-**Num-proc: 1
-**CPU-technology: CMOS
-**CPU-clock**htref{3}: 175MHz
-**Cache: 8KB-I/8KB-D		
-**Backup-cache: 256KB (32ns)		
-**SPECint92**htref{3}: 90.3
-**SPECfp92**htref{3}: 101.9
-**Minimum-memory: 32MB			
-**Maximum-memory: 256MB			
-**BUS-SCSI: 1 @ 5MB/s			
-**BUS-TC: 2 slots 			
-**LAN-support: 1 (10BASE-T)
-**Power-start{DEC3300X}
-**Supply: 120/240V 1-phase
-**Power: 200W
-**Power-end{DEC3300X}
-**Dimensions-start{DEC3300X}
-**Height: 93.5mm
-**Width: 400mm
-**Depth: 432.5mm
-**Weight: 6.8kg
-**Dimensions-end{DEC3300X}
-**End-systems-entry{DEC3300X}
-
-**Start-systems-entry{DEC3300LX}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 300LX
-**Def-lref{2} = ref{EK-PELCN-SV.B01}
-**Def-lref{3} = ref{CU-V6-3A}
-**Def-lref{4} = ref{CU-V6-5}
-**Last-order**htref{4}: 23 June 1995
-**CPU-module: KN16-DA
-**Module**htref{2}: 54-22257-04
-**System-module**htref{2}: 54-22249-01
-**Num-proc: 1
-**CPU-technology: CMOS
-**CPU-clock**htref{3}: 125MHz
-**Cache: 8KB-I/8KB-D		
-**Backup-cache: 256KB (32ns)		
-**SPECint92**htref{3}: 63.1
-**SPECfp92**htref{3}: 77.7
-**Minimum-memory: 32MB			
-**Maximum-memory: 256MB			
-**BUS-SCSI: 1 @ 5MB/s			
-**BUS-TC: 2 slots 			
-**LAN-support: 1 (10BASE-T)
-**Power-start{DEC3300LX}
-**Supply: 120/240V 1-phase
-**Power: 200W
-**Power-end{DEC3300LX}
-**Dimensions-start{DEC3300LX}
-**Height: 93.5mm
-**Width: 400mm
-**Depth: 432.5mm
-**Weight: 6.8kg
-**Dimensions-end{DEC3300LX}
-**End-systems-entry{DEC3300LX}
-
-**Start-systems-entry{DEC3400}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 400/400S AXP
-**Def-lref{1} = ref{EK-SNDPR-OG.D01}
-**Def-lref{2} = ref{EC-H2315-46}
-**Codename: Sandpiper
-**OS-support-VMS: V1.0
-**CPU-module: KN15-BA
-**Module: 54-21149-02
-**CPU-name-vms: KN15
-**CPU-name-console: KN15-B
-**Num-proc**htref{2}: 1
-**CPU-technology: CMOS-4
-**CPU-chip**htref{1}: DECchip 21064
-**CPU-clock**htref{1}: 133MHz
-**Cache**htref{1}: 8KB-I/8KB-D
-**Backup-cache**htref{1}: 512KB
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{2}: 512MB
-! [1]: 256MB max planned
-**BUS-SCSI**htref{2}: 2 @ 5MB/s
-**BUS-TC**htref{2}: 3 slots @ 90MB/s
-**LAN-support**htref{1}: 1 (10BASE-T/AUI)
-**Power-start{DEC3400}
-**Supply**htref{1}: 120-240V 1-phase
-**Power**htref{1}: 378W
-**Power-end{DEC3400}
-**Dimensions-start{DEC3400-desktop}
-**Label: Desktop
-**Height**htref{1}: 127mm
-**Width**htref{1}: 510mm
-**Depth**htref{1}: 445mm
-**Weight**htref{1}: 20kg
-**Dimensions-end{DEC3400-desktop}
-**Dimensions-start{DEC3400-pedestal}
-**Label: Pedestal
-**Height**htref{2}: 575mm
-**Width**htref{2}: 225mm
-**Depth**htref{2}: 456mm
-**Weight**htref{2}: 21.6kg
-**Dimensions-end{DEC3400-pedestal}
-**End-systems-entry{DEC3400}
-
-**Start-systems-entry{DEC3500}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 500/500S AXP
-**Def-lref{1} = ref{EK-FLAMI-OG.C01}
-**Def-lref{2} = ref{EC-H2315-46}
-**Codename: Flamingo
-**OS-support-VMS: V1.0
-**CPU-module: KN15-AA
-**Module: 54-21149-01
-**CPU-name-vms: KN15-AA
-**CPU-name-console: KN15-AA
-**Num-proc: 1
-**CPU-technology: CMOS-4
-**CPU-chip**htref{1}: DECchip 21064
-**CPU-clock**htref{1}: 150MHz
-**Cache**htref{1}: 8KB-I/8KB-D
-**Backup-cache**htref{1}: 512KB
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{2}: 1GB
-**BUS-SCSI**htref{2}: 2 @ 5MB/s
-**BUS-TC**htref{2}: 6 slots @ 100MB/s
-**LAN-support**htref{1}: 1 (10BASE-T/AUI)
-**Power-start{DEC3500-240V}
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 10A
-**Power**htref{1}: 400W
-**Power-end{DEC3500-240V}
-**Power-start{DEC3500-120V}
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 5A
-**Power**htref{1}: 400W
-**Power-end{DEC3500-120V}
-**Dimensions-start{DEC3500-P}
-**Label: Pedestal
-**Height**htref{1}: 627.4mm
-**Width **htref{1}: 336.6mm
-**Depth **htref{1}: 754.4mm
-**Weight**htref{1}: 34.92kg
-**Dimensions-end{DEC3500-P}
-**Dimensions-start{DEC3500-R}
-**Label: Rackmount
-**Height**htref{1}: 444.5mm
-**Width **htref{1}: 213.4mm
-**Depth **htref{1}: 685.8mm
-**Weight**htref{1}: 29.48kg
-**Dimensions-end{DEC3500-R}
-**End-systems-entry{DEC3500}
-
-**Start-systems-entry{DEC3500X}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 500X AXP
-**Def-lref{1} = ref{EC-H2315-46}
-**Codename: Hot Pink
-**OS-support-VMS: V1.5
-**CPU-module: KN15-CA
-**Module: 54-21149-01
-**CPU-name-vms: KN15-CA
-**CPU-name-console: KN15-CA
-**Num-proc: 1
-**CPU-technology: CMOS-4
-**CPU-chip**htref{1}: DECchip 21064
-**CPU-clock**htref{1}: 200MHz
-**Cache**htref{1}: 8KB-I/8KB-D
-**Backup-cache**htref{1}: 512KB
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 1GB
-**BUS-SCSI**htref{1}: 2 @ 5MB/s
-**BUS-TC**htref{1}: 5 slots @ 100MB/s
-**LAN-support**htref{1}: 1 (10BASE-T/AUI)
-**Power-start{DEC3500X-120V}
-**Supply**htref{1}: 120V 1-phase
-**Power**htref{1}: 746W
-**Power-end{DEC3500X-120V}
-**Power-start{DEC3500X-240V}
-**Supply**htref{1}: 240V 1-phase
-**Power**htref{1}: 746W
-**Power-end{DEC3500X-240V}
-**Dimensions-start{DEC3500X-P}
-**Label: Pedestal
-**Height**htref{1}: 627.4mm
-**Width **htref{1}: 323.9mm
-**Depth **htref{1}: 754.4mm
-**Weight**htref{1}: 34.02kg
-**Dimensions-end{DEC3500X-P}
-**Dimensions-start{DEC3500X-R}
-**Label: Rackmount
-**Height**htref{1}: 444.5mm
-**Width **htref{1}: 213.4mm
-**Depth **htref{1}: 685.8mm
-**Weight**htref{1}: 29.48kg
-**Dimensions-end{DEC3500X-R}
-**End-systems-entry{DEC3500X}
-
-**Start-systems-entry{DEC3600}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 600
-**Def-lref{1} = ref{CU-V5-7B}
-**Def-lref{2} = ref{EK-SNDPL-OG.B01}
-**Def-lref{3} = ref{CU-V6-4A}
-**OS-support-VMS: V1.5-1H1
-**CPU-module: KN17-BA
-**CPU-name-vms: KN17-BA
-**CPU-name-console: KN17-BA
-**Num-proc: 1
-**CPU-technology: CMOS-4
-**CPU-chip**htref{2}: DECchip 21064
-**CPU-clock**htref{2}: 175MHz
-**Cache**htref{2}: 8KB-I/8KB-D
-**Backup-cache**htref{1}: 2MB
-**SPECint92**htref{3}: 114
-**SPECfp92**htref{3}: 162
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 512MB
-**BUS-SCSI**htref{1}: 2 @ 10MB/s
-**BUS-TC**htref{1}: 3 slots @ 100MB/s
-**LAN-support**htref{2}: 1 (10BASE-T/AUI)
-**Power-start{DEC3600}
-**Supply**htref{2}: 120-240V 1-phase
-**Power**htref{2}: 378W
-**Power-end{DEC3600}
-**Dimensions-start{DEC3600}
-**Height**htref{2}: 127mm
-**Width**htref{2}: 510mm
-**Depth**htref{2}: 445mm
-**Weight**htref{2}: 20kg
-**Dimensions-end{DEC3600}
-**End-systems-entry{DEC3600}
-
-**Start-systems-entry{DEC3700}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 700
-**def-lref{1} = ref{CU-V5-7B}
-**def-lref{2} = ref{EK-SNDPL-OG.B01}
-**def-lref{3} = ref{CU-V6-4A}
-**Codename: Sandpiper45
-**Announcement**htref{1}: 18 July 1994
-**FRS-date**htref{1}: August 1994
-**OS-support-vms**htref{1}: OpenVMS AXP V6.1
-**OS-support-du**htref{1}: DEC OSF/1 AXP V2.1
-**CPU-module: KN17-BB
-**CPU-name-vms: KN17-BB
-**CPU-name-console: KN17-BB
-**Num-proc: 1
-**CPU-chip**htref{2}: DECchip 21064A
-**CPU-clock**htref{2}: 225MHz
-**Cache**htref{2}: 16KB-I/16KB-D
-**Backup-cache**htref{2}: 2MB
-**SPECint92**htref{3}: 162
-**SPECfp92**htref{3}: 230
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 512MB
-**BUS-SCSI**htref{1}: 2 @ 10MB/s
-**BUS-TC**htref{1}: 3 slots @ 100MB/s
-**LAN-support**htref{2}: 1 (10BASE-T/AUI)
-**Power-start{DEC3700}
-**Supply**htref{2}: 120-240V 1-phase
-**Power**htref{2}: 378W
-**Power-end{DEC3700}
-**Dimensions-start{DEC3700}
-**Height**htref{2}: 127mm
-**Width**htref{2}:  510mm
-**Depth**htref{2}:  445mm
-**Weight**htref{2}: 20kg
-**Dimensions-end{DEC3700}
-**End-systems-entry{DEC3700}
-
-**Start-systems-entry{DEC3800}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 800/800S
-**Def-lref{1} = ref{EK-FLMUL-OG.B01}
-**Codename: Flamingo II
-**OS-support-VMS: V1.5-1H1
-**CPU-module: KN17-AA
-**CPU-name-vms: KN17-AA
-**CPU-name-console: KN17-AA
-**Num-proc: 1
-**CPU-technology: CMOS
-**CPU-chip**htref{1}: DECchip 21064
-**Cache**htref{1}: 8KB-I/8KB-D
-**Backup-cache**htref{1}: 2MB
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 1GB
-**BUS-SCSI**htref{1}: 2
-**LAN-support**htref{1}: 1 (10BASE-T/AUI)
-**Power-start{DEC3800}
-**Supply**htref{1}: 120-240V 1-phase
-**Power**htref{1}: 400W
-**Power-end{DEC3800}
-**Dimensions-start{DEC3800}
-**Height**htref{1}: 627.4mm
-**Width**htref{1}: 336.6mm
-**Depth**htref{1}: 754.4mm
-**Weight**htref{1}: 34.92kg
-**Dimensions-end{DEC3800}
-**End-systems-entry{DEC3800}
-
-**Start-systems-entry{DEC3900}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 900
-**def-lref{1} = ref{CU-V5-7B}
-**def-lref{2} = ref{EK-FLMUL-OG.B01}
-**def-lref{3} = ref{CU-V6-8B}
-**Announcement**htref{1}: 18 July 1994
-**Codename: Flamingo45
-**OS-support-VMS: V6.1
-**CPU-module: KN17-AB
-**CPU-name-vms: KN17-AB
-**CPU-name-console: KN17-AB
-**Num-proc: 1
-**CPU-technology: CMOS
-**CPU-chip**htref{1}: DECchip 21064A
-**CPU-clock**htref{1}: 275MHz
-**Cache**htref{2}: 16KB-I/16KB-D
-**Backup-cache**htref{2}: 2MB
-**SPECint92**htref{3}: 189
-**SPECfp92**htref{3}: 264
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 1GB
-**BUS-SCSI**htref{1}: 2 @ 10MB/s
-**BUS-TC**htref{1}: 6 slots @ 100MB/s
-**LAN-support**htref{2}: 1 (10BASE-T/AUI)
-**Power-start{DEC3900}
-**Supply**htref{2}: 120-240V 1-phase
-**Power**htref{2}: 400W
-**Power-end{DEC3900}
-**Dimensions-start{DEC3900}
-**Height**htref{2}: 627.4mm
-**Width	**htref{2}: 336.6mm
-**Depth	**htref{2}: 754.4mm
-**Weight**htref{2}: 34.92kg
-**Dimensions-end{DEC3900}
-**End-systems-entry{DEC3900}
-
-**Start-systems-entry{DEC4600}{ALPHA}{DEC4000}
-**Sys-name: DEC 4000 Model 610/620
-**Def-lref{1} = ref{EC-H2315-46}
-**Codename: Cobra
-**OS-support-VMS: V1.0
-**Module: B2001-BA
-**Num-proc: 1-2
-**CPU-chip**htref{1}: DECchip 21064
-**CPU-clock**htref{1}: 160MHz
-**Cache**htref{1}: 8KB-I/8KB-D
-**Backup-cache**htref{1}: 1MB
-**Minimum-memory**htref{1}: 64MB
-**Maximum-memory**htref{1}: 2GB
-**Memory-checking**htref{1}: ECC
-**Max-I/O-throughput**htref{1}: {160MB/s:peak}{100MB/s:sustained}
-**BUS-SCSI**htref{1}: 4 @ 10MB/s
-**BUS-FB**htref{1}: 6 slots @ 160MB/s
-**BUS-DSSI**htref{1}: 4 @ 5MB/s
-**LAN-support**htref{1}: 2 (embedded AUI/10BASE2)
-**Power-start{DEC4600}
-**Supply**htref{1}: 1-phase
-**Power**htref{1}: 1500W
-**Power-end{DEC4600}
-**Dimensions-start{DEC4600-P}
-**Label: Pedestal
-**Height**htref{1}: 850mm
-**Width **htref{1}: 506mm
-**Depth **htref{1}: 762mm
-**Weight**htref{1}: 118kg
-**Dimensions-end{DEC4600-P}
-**Dimensions-start{DEC4600-R}
-**Label: Rackmount
-**Height**htref{1}: 444mm
-**Width **htref{1}: 482mm
-**Depth **htref{1}: 757mm
-**Weight**htref{1}: 66.4kg
-**Dimensions-end{DEC4600-R}
-**Option-title: Internal controllers
-**Option: {MRV11}{Programmable ROM Module}
-**Option-title: Internal mass storage options
-**Option: {RF71}{400MB DDSI Disk}
-**Option: {RF31}{381MB DDSI Disk}
-**Option-title: External mass storage options
-**Option: {RA60}{205MB Removable Disk Drive}
-**Option: {RA81}{456MB Disk Drive}
-**End-systems-entry{DEC4600}
-
-**Start-systems-entry{DEC7700}{ALPHA}{DEC7000}
-**Def-lref{1} = ref{CU-V5-11A}
-**Sys-name: DEC 7000 Model 700 series
-**Announcement**htref{1}: 1 November 1994
-**OS-support-vms**htref{1}: OpenVMS AXP V6.1
-**OS-support-du**htref{1}: DEC OSF/1 V3.0
-**Num-proc: 1-6
-**CPU-technology: CMOS
-**CPU-chip**htref{1}: DECchip 21064A
-**CPU-clock**htref{1}: 275MHz
-**End-systems-entry{DEC7700}
+**Start-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
+**Sys-name: AlphaServer 1200 5/400
+**End-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
 
 **Start-systems-entry{AS2000-4-200}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaSserver 2000 4/200
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{CU-V5-11A}
+**Def-lref{3} = ref{SOC-JAN1995}
 **Announcement**htref{2}: 1 November 1994
 **OS-support-vms**htref{2}: OpenVMS Alpha V6.1
 **OS-support-du**htref{2}: DEC OSF/1 V3.0
 **OS-support-nt**htref{2}: Windows NT Server V3.5
-**Num-proc**htref{2}: 1-2
-**CPU-clock**htref{2}: 190MHz
-**Backup-cache**htref{2}: 1MB
+**Num-proc**vref{3}: 1-2
+**CPU-clock**vref{3}: 190MHz
+**Cache**vref{3}: 8KB-I/8KB-D		
+**Backup-cache**vref{3}: 1MB
 !-- [2] indicates 400tps for AS 2100 4/200 but omits number of CPUs -->
+**SPECint92**vref{3}: 131.8
+**SPECfp92**vref{3}: 160.5
 **Minimum-memory**htref{2}: 64MB
-**Maximum-memory**htref{2}: 640MB
-**BUS-PCI**htref{2}: 3 slots
-**BUS-EISA**htref{2}: 7 slots
+**Maximum-memory**vref{3}: 640MB
+**Max-I/O-throughput**vref{3}: 132MB/s
+**BUS-PCI**vref{3}: 3 slots
+**BUS-EISA**vref{3}: 7 slots
 **LAN-support**htref{2}: optional
 **End-systems-entry{AS2000-4-200}
 
@@ -790,18 +842,23 @@
 **Start-systems-entry{AS2100-4-200}{ALPHA}{ALPHASERVER}
 **Def-lref{1} = ref{CU-V5-11A}
 **Def-lref{2} = ref{CU-V6-4A}
+**Def-lref{3} = ref{SOC-JAN1995}
 **Sys-name: AlphaServer 2100 4/200
 ! [1]: The AlphaServer 2100 4/200 was originally known as the Digital 2100 Server A500MP
 **Announcement**htref{1}: April 1994
 **OS-support-vms: OpenVMS V6.1
-**Num-proc**htref{1}: 1-4
-**CPU-clock**htref{1}: 190MHz
-**Backup-cache**htref{1}: 1MB
+**Num-proc**vref{3}: 1-4
+**CPU-clock**vref{3}: 190MHz
+**Cache**vref{3}: 8KB-I/8KB-D
+**Backup-cache**vref{3}: 1MB
+**SPECint92**vref{7}: 131.8
+**SPECfp92**vref{7}: 161.0
 **Minimum-memory**htref{1}: 64MB
-**Maximum-memory**htref{1}: 2GB
+**Maximum-memory**vref{3}: 2GB
+**Max-I/O-throughput**vref{3}: 132MB/s
 !-- [1]: 1GB for 4 CPU model -->
-**BUS-PCI**htref{1}: 3 slots
-**BUS-EISA**htref{1}: 8 slots
+**BUS-PCI**vref{3}: 3 slots
+**BUS-EISA**vref{3}: 8 slots
 **LAN-support**htref{1}: 1
 **End-systems-entry{AS2100-4-200}
 
@@ -819,17 +876,22 @@
 **Start-systems-entry{AS2100-4-275}{ALPHA}{ALPHASERVER}
 **Def-lref{1} = ref{CU-V5-11A}
 **Def-lref{2} = ref{CU-V6-4A}
+**Def-lref{3} = ref{SOC-JAN1995}
 **Sys-name: AlphaServer 2100 4/275
 **Announcement**htref{1}: 11 Novermber 1994
 **OS-support-vms: OpenVMS V6.1
-**Num-proc: 1-4
-**CPU-clock**htref{1}: 275MHz
-**Backup-cache**htref{1}: 4MB
+**Num-proc**vref{3}: 1-4
+**CPU-clock**vref{3}: 275MHz
+**Cache**vref{3}: 16KB-I/16KB-D
+**Backup-cache**vref{3}: 4MB
+**SPECint92**vref{7}: 200.1
+**SPECfp92**vref{7}: 291.1
 **Minimum-memory**htref{1}: 64MB
-**Maximum-memory**htref{1}: 2GB
+**Maximum-memory**vref{3}: 2GB
+**Max-I/O-throughput**vref{3}: 132MB/s
 !-- [1]: 1GB for 4 CPU model -->
-**BUS-PCI**htref{1}: 3 slots
-**BUS-EISA**htref{1}: 8 slots
+**BUS-PCI**vref{3}: 3 slots
+**BUS-EISA**vref{3}: 8 slots
 **End-systems-entry{AS2100-4-275}
 
 **Start-systems-entry{AS2100-5-250}{ALPHA}{ALPHASERVER}
@@ -856,98 +918,46 @@
 **CPU-clock: 300MHz
 **End-systems-entry{AS2100-5-300}
 
-**Start-systems-entry{AST500-266}{ALPHA}{AlphaStation}
-**Sys-name: AlphaStation 500/266
-**Def-lref{1} = ref{CU-V7-3B}
-**Announcement**htref{1}: 15 March 1996
-**OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
-**OS-support-du**htref{1}: Digital UNIX V3.2D
+**Start-systems-entry{AS4100}{ALPHA}{AlphaServer}
+**Def-lref{1} = ref{EK-4100A-SV.PRE}
+! NB - THIS MAY BE DATA FROM A GENERIC MANUAL
+**Sys-name: AlphaServer 4100
+**Num-proc**vref{1}: 1-4
+**Cache**vref{1}: 8KB-I/8KB-D
+**CPU-technology**vref{1}: 0.5 micron CMOS
+**Secondary-cache**vref{1}: 96KB
+! vref{1}: B3001-CA 300MHz no onboard cache
+! vref{1}: B3002-AB 300MHz no onboard 2MB cache
+! vref{1}: MS320-CA 128MB B3020-CA
+! vref{1}: MS330-EA 512MB B3030-EA
+! vref{1}: MS330-FA   1GB B3030-FA
+**End-systems-entry{AS4100}
+
+**Start-systems-entry{ASDS20}{ALPHA}{DS20}
+**Def-lref{1} = ref{EK-AS140-UG.A01}
+**Sys-name: AlphaServer DS20
+**OS-support-vms**vref{1}: OpenVMS V7.1-2
+**OS-support-du**vref{1}: Digital UNIX V4.0E
+**OS-support-nt**vref{1}: Windows NT v4.0 SP3
+**Dimensions-start{DS20}
+**Height**vref{1}: 440mm
+**Width**vref{1}: 350mm
+**Depth**vref{1}: 530mm
+**Dimensions-end{DS20}
+**End-systems-entry{ASDS20}{ALPHA}{DS20}
+
+**Start-systems-entry{ASDS20E}{ALPHA}{DS20}
+**Sys-name: AlphaServer DS20E
+**End-systems-entry{ASDS20E}{ALPHA}{DS20}
+
+**Start-systems-entry{XL233}{ALPHA}{?}
+**def-lref{1} = ref{CU-V6-10}
+**Announcement**htref{1}: October 1995
 **OS-support-nt**htref{1}: Windows NT V3.51
 **Num-proc: 1
-**CPU-chip**htref{1}: DECchip 21164
-**CPU-clock**htref{1}: 266MHz
-**Cache**htref{1}: 8KB-I/8KB-D
-**Primary-cache**htref{1}: 96KB
-**Backup-cache**htref{1}: 2MB
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 512MB
-**Memory-checking**htref{1}: ECC
-**BUS-PCI**htref{1}: 4 slots
-**BUS-SCSI**htref{1}: 1 @ 10MB/s
-**LAN-support**htref{1}: 1 (10BASE-T/10BASE2)
-**Option-title: Graphics controllers
-**Option: {boards:3D30}{PowerStorm 3D30  8-plane 3D}
-**Option: {boards:ZLXP-E3}{ZLXp-E3 24 plane 3D graphics, Z buffer}
-**Option: {boards:ZLXP-L1}{24-plane, double buffer, 3D}
-**option: {boards:ZLXP-L2}{24-plane, PCI buffer, 3D}
-**End-systems-entry{AST500-266}
-
-**Start-systems-entry{AST500-300}{ALPHA}{AlphaStation}
-**Sys-name: AlphaStation 500/333
-**Def-lref{1} = ref{CU-V7-3B}
-**Announcement**htref{1}: 15 March 1996
-**OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
-! Flowchart has V6.2-1H3
-**OS-support-du**htref{1}: Digital UNIX V3.2D
-**OS-support-nt**htref{1}: Windows NT V3.51
-**Num-proc: 1
-**CPU-chip**htref{1}: DECchip 21164
-**CPU-clock**htref{1}: 333MHz
-**Cache**htref{1}: 8KB-I/8KB-D
-**Primary-cache**htref{1}: 96KB
-**Backup-cache**htref{1}: 2MB
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 512MB
-**Memory-checking**htref{1}: ECC
-**BUS-PCI**htref{1}: 4 slots
-**BUS-SCSI**htref{1}: 1 @ 10MB/s
-**LAN-support**htref{1}: 1 (10BASE-T/10BASE2)
-**Option-title: Graphics controllers
-**Option: {boards:3D30}{PowerStorm 3D30  8-plane 3D}
-**Option: {boards:ZLXP-E3}{ZLXp-E3 24 plane 3D graphics, Z buffer}
-**Option: {boards:ZLXP-L1}{24-plane, double buffer, 3D}
-**option: {boards:ZLXP-L2}{24-plane, PCI buffer, 3D}
-**End-systems-entry{AST500-300}
-
-**Start-systems-entry{AS400-4-166}{ALPHA}{ALPHASERVER}
-**Sys-name: AlphaServer 400 4/166
-**Def-lref{1} = ref{CU-V6-3A}
-**Def-lref{2} = ref{CU-V6-10B}
-**Announcement**htref{1}: 1 March 1995
-**OS-support-vms: OpenVMS V6.1-1H1
-**Num-proc: 1
-**CPU-clock**htref{1}: 166MHz
+**Backup-cache**htref{1}: 512KB
 **Maximum-memory**htref{1}: 192MB
-**BUS-PCI**htref{1}:  2 slots @ 132MB/s
-**BUS-ISA**htref{1}: 3 slots
-**BUS-PCI-or-ISA**htref{1}: 1 slot
-**BUS-SCSI: 1 @ 10MB/s
-**Option-title: Memory
-**Option: {boards:MSP01-AA}{8MB SIMM package}
-**Option: {boards:MSP01-AB}{16MB SIMM package}
-**Option: {boards:MSP01-AC}{32MB SIMM package}
-**Option: {boards:MSP01-AD}{64MB SIMM package}
-**End-systems-entry{AS400-4-166}
-
-**Start-systems-entry{AS400-4-233}{ALPHA}{ALPHASERVER}
-**Sys-name: AlphaServer 400 4/233
-**Def-lref{1} = ref{CU-V6-3A}
-**Def-lref{2} = ref{CU-V6-10B}
-**Announcement**htref{2}: 15 October 1995
-**Num-proc: 1
-**CPU-clock**htref{2}: 233MHz
-**Backup-cache**htref{2}:  512KB
-**Maximum-memory**htref{2}: 384MB
-**BUS-PCI**htref{2}: 2 slots @ 132MB/s
-**BUS-ISA**htref{2}: 3 slots
-**BUS-PCI-or-ISA**htref{2}: 1 slot
-**BUS-SCSI**htref{2}: 1 @ 10MB/s
-**Option-title: Memory
-**Option: {boards:MSP01-AA}{8MB SIMM package}
-**Option: {boards:MSP01-AB}{16MB SIMM package}
-**Option: {boards:MSP01-AC}{32MB SIMM package}
-**Option: {boards:MSP01-AD}{64MB SIMM package}
-**End-systems-entry{AS400-4-233}
+**End-systems-entry{XL233}
 
 **Start-systems-entry{AST200-4-100}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 200 4/100
@@ -998,25 +1008,28 @@
 **Def-lref{2} = ref{CU-V7-4B}
 **Def-lref{3} = ref{CU-V5-11A}
 **Def-lref{4} = ref{CU-V6-3}
+**Def-lref{5} = ref{SOC-JAN1995}
 **Announcement**htref{3}: 1 November 1994
 **OS-support-vms: OpenVMS V6.1-1H1
 **Num-proc: 1
 **CPU-chip**htref{3}: DECchip 21064
-**CPU-clock**htref{1}: 166MHz
-**Backup-cache**htref{3}: 512KB
+**CPU-clock**vref{5}: 166MHz
+**Cache**vref{5}: 8KB-I/8KB-D		
+**Backup-cache**vref{5}: 512KB
 !-- all have 512KB in <TD VALIGN=TOP> <A NAME="ref_1">[1]</A> <TD> Customer Update. Volume 7 Issue 3B. 15th March 1996. </TR> -->
-**SPECint92**htref{1}: 116.2
-**SPECfp92**htref{1}: 134.8
+**SPECint92**vref{5}: 116.1
+**SPECfp92**vref{5}: 134.8
 **SPECint95**htref{2}: 2.31
 **SPECfp95**htref{2}: 3.22
 !-- from Customer Update. Volume 7 Issue 3B. 15th March 1996. :
 !	specint 95: 1.48 (/100), 2.31 (/166), 3.39 (/266)
 !	specfp95:   2.43 (/100), 3.22 (/166), 3.95 (/266)
 **Minimum-memory**htref{3}: 16MB
-**Maximum-memory**htref{3}: 192MB
+**Maximum-memory**vref{5}: 192MB
+**Max-I/O-throughput**vref{5}: 132MB/s
 **BUS-SCSI**htref{3}: 1 @ 10MB/s
 **BUS-ISA**htref{3}: 1 slot
-**BUS-PCI-or-ISA**htref{3}: 2 slot
+**BUS-PCI-or-ISA**vref{5}: 2 slots
 **LAN-support**htref{3}: 1 (10BASE-T/10BASE2)
 **End-systems-entry{AST200-4-166}
 
@@ -1026,27 +1039,65 @@
 **Def-lref{2} = ref{CU-V7-4B}
 **Def-lref{3} = ref{CU-V5-11A}
 **Def-lref{4} = ref{CU-V6-3}
+**Def-lref{5} = ref{SOC-JAN1995}
 **Announcement**htref{3}: 1 November 1994
 **OS-support-vms: OpenVMS V6.1-1H1
 **Num-proc: 1
 **CPU-chip**htref{3}: DECchip 21064A
-**CPU-clock**htref{1}: 233MHz
-**Backup-cache**htref{3}: 512KB
+**CPU-clock**vref{5}: 233MHz
+**Cache**vref{5}: 16KB-I/16KB-D		
+**Backup-cache**vref{5}: 512KB
 !-- all have 512KB in <TD VALIGN=TOP> <A NAME="ref_1">[1]</A> <TD> Customer Update. Volume 7 Issue 3B. 15th March 1996. </TR> -->
-**SPECint92**htref{1}: 157.6
-**SPECfp92**htref{1}: 183.8
+**SPECint92**vref{5}: 157.7
+**SPECfp92**vref{5}: 183.9
 **SPECint95**htref{2}: 3.39
 **SPECfp95**htref{2}:  3.95
 !-- from Customer Update. Volume 7 Issue 3B. 15th March 1996. :
 !	specint 95: 1.48 (/100), 2.31 (/166), 3.39 (/266)
 !	specfp95:   2.43 (/100), 3.22 (/166), 3.95 (/266)
 **Minimum-memory**htref{3}: 16MB
-**Maximum-memory**htref{3}: 192MB
+**Maximum-memory**vref{5}: 192MB
+**Max-I/O-throughput**vref{5}: 132MB/s
 **BUS-SCSI**htref{1}: 1 @ 10MB/s
-**BUS-ISA**htref{3}: 1 slot
-**BUS-PCI-or-ISA**htref{3}: 2 slots
+**BUS-ISA**vref{5}: 1 slot
+**BUS-PCI-or-ISA**vref{5}: 2 slots
 **LAN-support**htref{3}: 1 (10BASE-T/10BASE2)
 **End-systems-entry{AST200-4-233}
+
+**Start-systems-entry{AST250-4-266}{ALPHA}{ALPHASTATION}
+**Def-lref{1} = ref{CU-V6-4A}
+**Sys-name: AlphaStation 250 4/266
+**Announcement**htref{1}: 11 April 1995
+**OS-support-vms**htref{1}: OpenVMS V6.1-1H2
+! Flowchart has V6.1-1H1
+**OS-support-du**htref{1}: Digital UNIX V3.2
+**OS-support-nt**htref{1}: Windows NT V3.5
+**Num-proc: 1
+**CPU-chip**htref{1}: DECchip 21064A
+**CPU-clock**htref{1}: 266MHz
+**Cache**htref{1}: 16KB-I/16KB-D
+**Backup-cache**htref{1}: 2MB
+**SPECint92**htref{1}: 198.6
+**SPECfp92**htref{1}: 262.5
+**Minimum-memory**htref{1}: 32MB
+**Maximum-memory**htref{1}: 256MB
+!-- [1] implies future support for 512MB -->
+**BUS-SCSI**htref{1}: 1 @ 10MB/s
+**BUS-PCI**htref{1}: 1 @ 132MB/s, 33MHz
+**BUS-ISA**htref{1}: 1
+**BUS-PCI-or-ISA: 1
+**LAN-support**htref{1}: 1
+!-- options from [1] for AlphaStation 250 4/266 -->
+!<TR> <TD COLSPAN=2> <B> Graphics controllers </B> </TR>
+!<TR> <TD> <A HREF="../boards/zlxpe1.html"> ZLXp-E1     </A> <TD> ZLXp-E1  8 plane 2D/3D graphics	</TR>
+!<TR> <TD> <A HREF="../boards/zlxpe2.html"> ZLXp-E2     </A> <TD> ZLXp-E2 24 plane 2D graphics		</TR>
+!<TR> <TD> <A HREF="../boards/zlxpe3.html"> ZLXp-E3     </A> <TD> ZLXp-E3 24 plane 3D graphics, Z buffer	</TR>
+!<TR> <TD> <A HREF="../boards/dec864.html"> DEC864      </A> <TD> DEC864 entry level 2D graphics		</TR>
+!<TR> <TD COLSPAN=2> <B> Monitors </B> </TR>
+!<TR> <TD> <A HREF="../monitors/vrc15.html"> VRC15      </A> <TD> 15" colour monitor			</TR>
+!<TR> <TD> <A HREF="../monitors/vrt17.html"> VRT17      </A> <TD> 17" colour monitor			</TR>
+!<TR> <TD> <A HREF="../monitors/vrc21.html"> VRC21      </A> <TD> 21" colour monitor			</TR>
+**End-systems-entry{AST250-4-266}
 
 **Start-systems-entry{AST255-233}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 255/233
@@ -1111,4 +1162,93 @@
 **Option: {boards:ZLXp-L1}{24-plane, double buffer, 3D}
 **Option: {boards:ZLXp-L2}{24-plane, PCI buffer, 3D}
 **End-systems-entry{AST255-300}
+
+**Start-systems-entry{AST400-4-233}{ALPHA}{AlphaStation}
+**Sys-name: AlphaStation 400 4/233
+**Def-lref{1} = ref{CU-V6-3A}
+**Def-lref{2} = ref{CU-V5-11A}
+**Announcement**htref{2}: 1 November 1994
+**OS-support-vms**htref{2}: OpenVMS AXP V6.1-1H1
+**OS-support-du**htref{2}: DEC OSF/1 V3.0
+**OS-support-nt**htref{2}: Windows NT V3.5
+**Codename: TurboAvanti
+**Num-proc: 1
+**CPU-chip**htref{2}: DECchip 21064A
+**CPU-clock**htref{1}: 233MHz
+**Cache**htref{2}: 16KB-I/16KB-D
+**Backup-cache**htref{2}: 512KB
+**SPECint92**htref{1}: 157.6
+**SPECfp92**htref{1}: 183.8
+**Minimum-memory**htref{2}: 16MB
+**Maximum-memory**htref{2}: 192MB
+**BUS-SCSI**htref{2}: 1 @ 10MB/s
+**BUS-PCI**htref{2}: 2 slots @ 132 MB/s
+**BUS-ISA**htref{2}: 3 slots @ 33 MB/s
+**BUS-PCI-or-ISA**htref{2}: 1 slot
+**End-systems-entry{AST400-4-233}
+
+**Start-systems-entry{AST500-266}{ALPHA}{AlphaStation}
+**Sys-name: AlphaStation 500/266
+**Def-lref{1} = ref{CU-V7-3B}
+**Announcement**htref{1}: 15 March 1996
+**OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
+**OS-support-du**htref{1}: Digital UNIX V3.2D
+**OS-support-nt**htref{1}: Windows NT V3.51
+**Num-proc: 1
+**CPU-chip**htref{1}: DECchip 21164
+**CPU-clock**htref{1}: 266MHz
+**Cache**htref{1}: 8KB-I/8KB-D
+**Primary-cache**htref{1}: 96KB
+**Backup-cache**htref{1}: 2MB
+**Minimum-memory**htref{1}: 32MB
+**Maximum-memory**htref{1}: 512MB
+**Memory-checking**htref{1}: ECC
+**BUS-PCI**htref{1}: 4 slots
+**BUS-SCSI**htref{1}: 1 @ 10MB/s
+**LAN-support**htref{1}: 1 (10BASE-T/10BASE2)
+**Option-title: Graphics controllers
+**Option: {boards:3D30}{PowerStorm 3D30  8-plane 3D}
+**Option: {boards:ZLXP-E3}{ZLXp-E3 24 plane 3D graphics, Z buffer}
+**Option: {boards:ZLXP-L1}{24-plane, double buffer, 3D}
+**option: {boards:ZLXP-L2}{24-plane, PCI buffer, 3D}
+**End-systems-entry{AST500-266}
+
+**Start-systems-entry{AST500-300}{ALPHA}{AlphaStation}
+**Sys-name: AlphaStation 500/333
+**Def-lref{1} = ref{CU-V7-3B}
+**Announcement**htref{1}: 15 March 1996
+**OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
+! Flowchart has V6.2-1H3
+**OS-support-du**htref{1}: Digital UNIX V3.2D
+**OS-support-nt**htref{1}: Windows NT V3.51
+**Num-proc: 1
+**CPU-chip**htref{1}: DECchip 21164
+**CPU-clock**htref{1}: 333MHz
+**Cache**htref{1}: 8KB-I/8KB-D
+**Primary-cache**htref{1}: 96KB
+**Backup-cache**htref{1}: 2MB
+**Minimum-memory**htref{1}: 32MB
+**Maximum-memory**htref{1}: 512MB
+**Memory-checking**htref{1}: ECC
+**BUS-PCI**htref{1}: 4 slots
+**BUS-SCSI**htref{1}: 1 @ 10MB/s
+**LAN-support**htref{1}: 1 (10BASE-T/10BASE2)
+**Option-title: Graphics controllers
+**Option: {boards:3D30}{PowerStorm 3D30  8-plane 3D}
+**Option: {boards:ZLXP-E3}{ZLXp-E3 24 plane 3D graphics, Z buffer}
+**Option: {boards:ZLXP-L1}{24-plane, double buffer, 3D}
+**option: {boards:ZLXP-L2}{24-plane, PCI buffer, 3D}
+**End-systems-entry{AST500-300}
+
+! vref{EK-AL655-UI.A01} AlphaStation 600A Series User Information
+! has this to say:
+! 33MHz 32-bit PCI. System board RAM: max 1GB. 
+! 238.8mmWx645.2mmLx442mmH 32+kg
+! EK-AS800-RM.A01 more info
+
+! Stub this out: no real information yet.
+!**Start-systems-entry{AST600A5-500}{ALPHA}{AlphaStation}
+!**Sys-name: AlphaStation 600A 5/500
+!**Def-lref{1} = ref{EK-AL655-IP.A01}
+!**End-systems-entry{AST600A5-500}{ALPHA}{AlphaStation}
 

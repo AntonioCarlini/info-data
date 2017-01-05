@@ -14,6 +14,8 @@
 #
 
 # Encapsulates a value that comes with a reference
+# 'value' is the value to keep
+# 'ref' is either a single reference or an array of references. Each reference will be a key in refs.yaml i.e. EK-KA655-TM-001 rather than 1 or 2.
 class VariableWithReference
 
   attr_reader  :ref
@@ -27,7 +29,7 @@ class VariableWithReference
   def as_array()
     a = [ @value ]
     a << @ref unless @ref.nil?() || @ref.empty?()
-    return a
+    return a.flatten()
   end
 
 end
@@ -36,6 +38,7 @@ end
 class System
 
   attr_reader :identifier
+  attr_reader :line_num
   attr_reader :sys_class
   attr_reader :sys_type
 
@@ -114,7 +117,9 @@ class Systems
     systems = Systems.new()
     sys_type = sys_type_expected.downcase()
     local_refs = {}
+    local_refs_non_vref_count = {}
     permitted_tags_uc = permitted_tags.map(&:upcase)
+    total_uses = 0   # local uses of unverified refs
     IO.foreach(info_filename) {
       |line|
       line_num += 1
@@ -123,7 +128,7 @@ class Systems
       if line.strip().empty?() || line =~ /^ !/ix
         # ignore blank lines and commented out lines
         next
-      elsif line =~ /^\s*\*\*Stop-processing\s*$/
+      elsif line =~ /^\s*\*\*Stop-processing\s*$/i
         # Stop if a line with just "**Stop-processing" is seen.
         break
       elsif line =~ /^\s*\*\*Start-systems-entry\{(.*)\}{(.*)}{(.*)}\s*$/ix
@@ -132,15 +137,22 @@ class Systems
         type = $2.strip()
         sys_class = $3.strip()
         raise("Unexpected system type [#{type}], expected [#{sys_type}]") if type.downcase() != sys_type
-        raise("Duplicate reference [#{id}] read in #{info_filename} at line #{line_num}: #{line} (originally #{ret[id].line_num()})") unless systems[id].nil?()
+        raise("Duplicate reference [#{id}] read in #{info_filename} at line #{line_num}: #{line} (originally #{systems[id].line_num()})") unless systems[id].nil?()
         current = System.new(id, sys_type, sys_class, line_num, permitted_tags)
         next
       elsif line =~ /\*\*End-systems-entry\{(.*)\}/ix
         # **End-systems-entry{VAX4100}
         # TODO - check closing the right one, then add to pile
         systems.add_system(current)
+        local_refs.keys().each() {
+          |k|
+          total_uses += local_refs_non_vref_count[k]
+          count_text = "%3.3d" % local_refs_non_vref_count[k]
+##          $stderr.puts("#{local_refs[k]} used #{count_text} times in #{current.identifier()}") if local_refs_non_vref_count[k] > 0
+        }
         current = nil
         local_refs = {}  # Discard "local" references
+        local_refs_non_vref_count = {}
         next
       elsif !current.nil?() && line =~ /^\s*\*\*Def-lref\{(\d)\}\s*=\s*ref\{(.*)\}\s*$/i
         id = $1
@@ -151,6 +163,7 @@ class Systems
         else
           if local_refs[id].nil?()
             local_refs[id] = ref_name
+            local_refs_non_vref_count[id] = 0
           else
             $stderr.puts("Local ref id [#{id}] reused on line #{line_num}")
           end
@@ -168,20 +181,24 @@ class Systems
       end
       
       # Here process a line within a systems entry
-      if line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|lref|uref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
+      if line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|lref|uref|vref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
         tag = $1
         reftype = $2
-        lref = $3
+        given_ref = $3
         value = $4
         next if value =~ /^\s*@@\s*$/   # skip values of "@@" as these mean "this value is not known"
+        # Build an array of the valid references used here
+        ref_array = []
         reference = nil
-        unless lref.nil?()
-          reference = local_refs[lref]
-          if reference.nil?()
-            lref = nil
-          else
-            lref = reference
-          end
+        unless given_ref.nil?()
+          given_ref.split(",").each() {
+            |lref|
+            reference = local_refs[lref]
+            unless reference.nil?()
+              local_refs_non_vref_count[lref] += 1 unless reftype =~ /vref/i  # count any reference except a vref
+              ref_array << reference if reftype =~ /vref/i
+            end
+          }
         end
         if permitted_tags_uc.include?(tag.upcase())
           # TODO
@@ -192,8 +209,8 @@ class Systems
           if current.instance_variable_defined?(instance_variable_name)
             raise("On line #{line_num} in #{current.identifier()}, tag #{tag} has been defined again.")
           else
-            # Set the appropriate instance variable to the value+reference specified
-            current.instance_variable_set(instance_variable_name, VariableWithReference.new(value, lref))
+            # Set the appropriate instance variable to the value+reference(s) specified
+            current.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
           end
         else
           raise("On line #{line_num} in #{current.identifier()}, unknown tag #{tag} has been used.")
@@ -203,9 +220,10 @@ class Systems
       elsif line =~ /^\s*!/
         raise("Muffed comment line check")
       else
-        raise("unrecognised line [#{line}]")
+        raise("unrecognised line (at line #{line_num}) [#{line}]")
       end
     }
+##    $stderr.puts("#{total_uses} uses of non-'vref' refrences") if total_uses > 0
 
     return systems
   end

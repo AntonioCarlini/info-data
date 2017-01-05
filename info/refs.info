@@ -7,7 +7,7 @@
 **End-ref{VAX-HW-HB-1986-V2}
 
 **Start-ref{VAX-HW-HB-BI} 
-**Ref-text: VAX Hardware Handbook Volume 1 - 1986
+**Ref-text: VAX Systems Hardware Handbook - VAXBI Systems
 **End-ref{VAX-HW-HB-BI}
 
 **Start-ref{CPU-UPGR-SPRING-1992}
@@ -599,9 +599,9 @@
 **Ref-text: VAX Systems Performance Summary Featuring VAX 4000 Model 500 VAX 6000 Model 600 Systems
 **End-ref{4500-6600-PERF-SUMM}
 
-**Start-ref{SOC-SPR90}
+**Start-ref{SOCEE-SPR90}
 **Ref-text: Systems & Options Catalog. European Edition. Spring 1990
-**End-ref{SOC-SPR90}
+**End-ref{SOCEE-SPR90}
 
 **Start-ref{EC-N0857-51}
 **Ref-text: Digital's VAXstation 4000 Performance Summary. Version 3.0 July 1992
@@ -1711,6 +1711,12 @@
 **Ref-partno: EB-20752-20
 **Ref-hardcopy: Yes
 **End-ref{EB-20752-20}
+
+**Start-ref{D-09-25}
+**Ref-text: pdp11 processor handbook pdp11/20/15/r20
+**Ref-partno: D-09-25
+**Ref-hardcopy: Yes
+**End-ref{D09-25}
 
 **Start-ref{EB-19402-20}
 **Ref-text: pdp11 processor handbook pdp11/04/24/34a/44/70 1981
@@ -3121,11 +3127,11 @@
 **Ref-electronic: PDF
 **End-ref{EK-V466H-PS-A01}
 
-**Start-ref{EK-V48VB-SV-001}
+**Start-ref{EK-V48VB-SV.001}
 **Ref-text: VAXstation 4000 VLC Service Information
-**Ref-partno: EK-V48VB-SV-001
+**Ref-partno: EK-V48VB-SV.001
 **Ref-electronic: PDF
-**End-ref{EK-V48VB-SV-001}
+**End-ref{EK-V48VB-SV.001}
 
 **Start-ref{EK-VS31M-MG}
 **Ref-text: ** VS3100 M76 info in bookreader format
@@ -3682,6 +3688,12 @@
 **Ref-partno: COOKBOOK
 **Ref-electronic: PDF
 **End-ref{COOKBOOK}
+
+**Start-ref{EK-70TBA-T4.A01}
+**Ref-text: VAX 7000 Technical Bulletin Number 4
+**Ref-partno: EK-70TBA-T4.A01
+**Ref-electronic: PDF
+**End-ref{EK-70TBA-T4.A01}
 
 **Start-ref{EK-70TBA-T4-A04}
 **Ref-text: VAX 7000 Technical Bulletin Number 4
@@ -5093,11 +5105,11 @@
 **Ref-electronic: PDF
 **End-ref{EK-AS140-SV}
 
-**Start-ref{EK-AS140-UG-A01}
+**Start-ref{EK-AS140-UG.A01}
 **Ref-text: COMPAQ AlphaServer DS20 User's guide
-**Ref-partno: EK-AS140-UG-A01
+**Ref-partno: EK-AS140-UG.A01
 **Ref-electronic: PDF
-**End-ref{EK-AS140-UG-A01}
+**End-ref{EK-AS140-UG.A01}
 
 **Start-ref{EK-ES240-UG-A01}
 **Ref-text: COMPAQ AlphaServer ES40 Owner's Guide
@@ -9012,6 +9024,96 @@
 **Ref-electronic: PDF
 **Ref-confidential: Yes
 **End-ref{ALPHA-PORT}
+
+**Start-ref{EK-180AB-MG-002}
+**Ref-text: KA650 CPU System Maintenance
+**Ref-partno: EK-180AB-MG-002
+**End-ref{EK-180AB-MG-002}
+
+**Start-ref{EK-VAXCT-CG-006}
+**Ref-text: VAXcluster Systems. Guidelines for VAXCluster System Configurations
+**Ref-partno: EK-VAXCT-CG-006
+**End-ref{EK-VAXCT-CG-006}
+
+**Start-ref{EK-4MMAX–OP.A01}
+**Ref-text: DECstation 5000 Model 260. Operator’s Guide
+**Ref-partno: EK-4MMAX–OP.A01
+**End-ref{EK-4MMAX–OP.A01}
+
+**Start-ref{EB-26077-41}
+**Ref-text: PDP-11 UNIBUS Processor Handbook PDP-11/84, PDP-11/44, and PDP-11/24
+**Ref-partno: EB-26077-41
+**Ref-hardcopy: Yes
+**End-ref{EB-26077-41}
+
+**Start-ref{EK-MIC11-SG-001}
+**Ref-text: MicroPDP-11 Systems. Maintenance Guide.
+**Ref-partno: EK-MIC11-SG-001
+**Ref-hardcopy: Yes
+**End-ref{EK-MIC11-SG-001}
+
+**Start-ref{EK-OLCP5-TM-002}
+**Ref-text: MICRO/PDP-11 System Technical Manual
+**Ref-partno: EK-OLCP5-TM-002
+**End-ref{EK-OLCP5-TM-002}
+
+**Start-ref{EK-11034-UG-001}
+**Ref-text: PDP-11/34 system user's manual
+**Ref-partno: EK-11034-UG-001
+**End-ref{EK-11034-UG-001}
+
+**Start-ref{EK-PDP94-MG-001}
+**Ref-text: PDP-11/94-E System User and Maintenance Guide
+**Ref-partno: EK-PDP94-MG-001
+**End-ref{EK-PDP94-MG-001}
+
+**Start-ref{EK-9000S-SI-001}
+**Ref-text: VAX 9000 Family System Introduction
+**Ref-partno: EK-9000S-SI-001
+**End-ref{EK-9000S-SI-001}
+
+**Start-ref{EB-29465-71}
+**Ref-text: Semiconductor Databook Volume 1 1987
+**Ref-partno: EB-29465-71
+**End-ref{EB-29465-71}
+
+**Start-ref{EB-29466-71}
+**Ref-text: Semiconductor Databook Volume 2 1987
+**Ref-partno: EB-29466-71
+**End-ref{EB-29466-71}
+
+**Start-ref{EJ-32225-88}
+**Ref-text: Semiconductor Databook Volume 1 1987 Errata
+**Ref-partno: EJ-32225-88
+**End-ref{EJ-32225-88}
+
+**Start-ref{EF-A0188-50}
+**Ref-text: Semiconductor Databook Volume 2 1989
+**Ref-partno: EF-A0188-50
+**End-ref{EF-A0188-50}
+
+**Start-ref{SOC-JAN1995}
+**Ref-text: Systems and Options Catalog. January 1995
+**Ref-partno: EC-13954-10
+**End-ref{SOC-JAN1995}
+
+**Start-ref{DECdirect-AUG91}
+**Ref-text: DECdirect Aug-Oct 1991
+**End-ref{DECdirect-AUG91}
+
+**Start-ref{DECdirect-FEB92}
+**Ref-text: DECdirect Feb-Apr 1992
+**End-ref{DECdirect-FEB92}
+
+**Start-ref{DECdirect-NOV92}
+**Ref-text: DECdirect Nov-Jan 1993
+**End-ref{DECdirect-NOV92}
+
+**Start-ref{EB-05138-75}
+**Ref-text: pdp11 processor handbook pdp11/04/05/10/35/40/45 1975-76
+**Ref-partno: EB-05138-75
+**Ref-hardcopy: Yes
+**End-ref{EB-05138-75}
 
 **Stop-processing
 
