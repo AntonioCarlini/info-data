@@ -120,4 +120,4 @@ clean:
 bundle: bin/info-data.bundle
 
 bin/info-data.bundle:
-	git bundle create $@ master
+	git bundle create $@ master --
