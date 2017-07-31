@@ -89,7 +89,7 @@ puts("</noinclude>")
 puts(%q^<includeonly>^)
 puts(%q^{| class="infobox bordered" style="width: 40em; text-align: left; font-size: 90%" align="right"^)
 puts(%q^|-^)
-puts(%q^| colspan="2" style="text-align:center; font-size: large;" | '''{{{name}}}'''^)
+puts(%q^| colspan="2" style="text-align:center; font-size: large; background-color: lightsteelblue; color: black;" | '''{{{name}}}'''^)
 
 ## TODO: Here consider whether an image + caption should be supported
 
@@ -112,7 +112,7 @@ sections_text.each() {
   # Make the section heading text prettier
   section_heading = text.gsub(/_/,' ').split().map(&:capitalize).join(' ')
   section_heading = section_heading.gsub(/cpu/i,'CPU').gsub(/^io$/i,"I/O")
-  puts(%Q^! colspan="2" style="text-align:center;" {{!}} #{section_heading} }}^)
+  puts(%Q^! colspan="2" style="text-align:center; background-color: powderblue; color: black;" {{!}} #{section_heading} }}^)
   # Display each section
   sections[text].each() {
     |tag|
