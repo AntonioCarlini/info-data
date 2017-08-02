@@ -53,7 +53,7 @@
 !
 
 **Start-systems-entry{AXP150}{ALPHA}{DEC2000}
-**Sys-name: DECpc <BOLD>axp</BOLD> 150 and DEC 2000 Model 300 AXP
+**Sys-name: DECpc axp 150 and DEC 2000 Model 300 AXP
 ! Note: the PDF version of {EK-A0636-TM.001} is preliminary and does NOT have dimensions
 **def-lref{1} = ref{EK-A0636-TM.001}
 **def-lref{2} = ref{EK-A0634-OM.001}
@@ -786,7 +786,7 @@
 **End-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
 
 **Start-systems-entry{AS2000-4-200}{ALPHA}{ALPHASERVER}
-**Sys-name: AlphaSserver 2000 4/200
+**Sys-name: AlphaServer 2000 4/200
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{CU-V5-11A}
 **Def-lref{3} = ref{SOC-JAN1995}
@@ -810,7 +810,7 @@
 **End-systems-entry{AS2000-4-200}
 
 **Start-systems-entry{AS2000-4-233}{ALPHA}{ALPHASERVER}
-**Sys-name: AlphaSserver 2000 4/233
+**Sys-name: AlphaServer 2000 4/233
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{CU-V5-11A}
 **Num-proc: 1-2
@@ -822,7 +822,7 @@
 **End-systems-entry{AS2000-4-233}
 
 **Start-systems-entry{AS2000-4-275}{ALPHA}{ALPHASERVER}
-**Sys-name: AlphaSserver 2000 4/275
+**Sys-name: AlphaServer 2000 4/275
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{CU-V5-11A}
 **Announcement**htref{1}: 11 April 1995
@@ -895,7 +895,7 @@
 **End-systems-entry{AS2100-4-275}
 
 **Start-systems-entry{AS2100-5-250}{ALPHA}{ALPHASERVER}
-**Sys-name: AlphaSserver 2100 5/250
+**Sys-name: AlphaServer 2100 5/250
 **Def-lref{1} = ref{CU-V6-4A}
 **Announcement**htref{1}: 11 April 1995
 **OS-support-vms**htref{1}: OpenVMS Alpha V6.2
@@ -913,7 +913,7 @@
 **End-systems-entry{AS2100-5-250}
 
 **Start-systems-entry{AS2100-5-300}{ALPHA}{ALPHASERVER}
-**Sys-name: AlphaSserver 2100 5/300
+**Sys-name: AlphaServer 2100 5/300
 **Def-lref{1} = ref{CU-V6-4A}
 **CPU-clock: 300MHz
 **End-systems-entry{AS2100-5-300}
