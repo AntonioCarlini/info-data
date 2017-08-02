@@ -3789,7 +3789,7 @@
 **Last-order**uref{*108}: 30 August 1991
 **Last-ship**uref{*108}: 27 September 1991
 **Codename: PVAX0			
-**OS-support-VMS**uref{*26,*102}: : VMS V5.1B
+**OS-support-VMS**uref{*26,*102}: VMS V5.1B
 !-- *31: VS3100-38/48 UWS V2.1 -->
 **CPU-module**vref{1}: KA42-AA
 **Firmware-version**uref{personally verified}: V1.3
