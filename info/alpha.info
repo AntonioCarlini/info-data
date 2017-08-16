@@ -606,8 +606,8 @@
 **CPU-clock**vref{2}: 275MHz
 **Cache**vref{2}: 16KB-I/16KB-D		
 **Backup-cache**vref{2}:  4MB
-**SPECint92**vref{3}: 200.5
-**SPECfp92**vref{3}: 292.6
+**SPECint92**vref{2}: 200.5
+**SPECfp92**vref{2}: 292.6
 **Maximum-memory**vref{2}: 14GB
 **Max-I/O-throughput**vref{2}: 400MB/s
 **End-systems-entry{DEC7700}
@@ -851,8 +851,8 @@
 **CPU-clock**vref{3}: 190MHz
 **Cache**vref{3}: 8KB-I/8KB-D
 **Backup-cache**vref{3}: 1MB
-**SPECint92**vref{7}: 131.8
-**SPECfp92**vref{7}: 161.0
+**SPECint92**vref{3}: 131.8
+**SPECfp92**vref{3}: 161.0
 **Minimum-memory**htref{1}: 64MB
 **Maximum-memory**vref{3}: 2GB
 **Max-I/O-throughput**vref{3}: 132MB/s
@@ -884,8 +884,8 @@
 **CPU-clock**vref{3}: 275MHz
 **Cache**vref{3}: 16KB-I/16KB-D
 **Backup-cache**vref{3}: 4MB
-**SPECint92**vref{7}: 200.1
-**SPECfp92**vref{7}: 291.1
+**SPECint92**vref{3}: 200.1
+**SPECfp92**vref{3}: 291.1
 **Minimum-memory**htref{1}: 64MB
 **Maximum-memory**vref{3}: 2GB
 **Max-I/O-throughput**vref{3}: 132MB/s
