@@ -859,9 +859,11 @@
 **Def-lref{2} = ref{DTJ-V1-7}
 **Def-lref{3} = ref{DTJ-V2-2}
 **Def-lref{4} = ref{EK-6263M-MA}
+**def-lref{5} = ref{OVMS-REL-HIST-20100621}
 **Announcement**vref{3}: April 1988
 **Codename**uref{*47}: Calypso
-**OS-support-VMS**uref{*9,*26}: V5.0
+!**OS-support-VMS**uref{*9,*26}: V5.0
+**OS-support-VMS**vref{5}: V5.0
 **CPU-module**vref{1,2}: KA62A
 **CPU-name-VMS: KA62A
 **CPU-name-console: KA62A
@@ -999,9 +1001,11 @@
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{EK-624EA-MG-001}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
+**def-lref{5} = ref{OVMS-REL-HIST-20100621}
 **Announcement**uref{*44 [1]}: 11 July 1989
 **Codename**uref{*47}: Rigel
-**OS-support-VMS**uref{*26}: V5.2 
+!**OS-support-VMS**uref{*26}: V5.2 
+**OS-support-VMS**vref{5}: V5.2 
 **CPU-module**uref{*2}: KA64A
 **Module**vref{3}: T2015
 **CPU-name-VMS: KA64A
@@ -1579,9 +1583,11 @@
 **def-lref{3} = ref{EB-31692-46}
 **def-lref{4} = ref{EK-KA825-MA-001}
 **def-lref{5} = ref{SOCEE-SPR90}
+**def-lref{6} = ref{OVMS-REL-HIST-20100621}
 **Announcement**uref{*102}: 29 January 1986
 **Codename: Scorpio
-**OS-support-VMS**uref{*26}: V4.4
+! **OS-support-VMS**uref{*26}: V4.4
+**OS-support-VMS**vref{6}: V4.3A
 **CPU-module**vref{3}: KA820
 **Module**vref{4}: T1001-00
 **CPU-name-VMS: KA820
@@ -1900,8 +1906,7 @@
 **OS-support-VMS**vref{2}: VMS V4.5
 ! Flowchart has V4.6
 **OS-support-ULTRIX**vref{2}: ULTRIX V2.0
-!**CPU-module**vref{1}: KA825
-**CPU-module**vref{3}: KA825
+**CPU-module**vref{2}: KA825
 **Module: T1001-YA
 **CPU-name-VMS: KA825
 **CPU-name-console: None
@@ -1961,7 +1966,7 @@
 **OS-support-VMS**vref{2}: VMS V4.5
 **OS-support-ULTRIX**vref{2}: ULTRIX V2.0
 !**CPU-module**vref{1}: KA825
-**CPU-module**vref{3}: KA825
+**CPU-module**vref{2}: KA825
 **Module: T1001-YA
 **CPU-name-VMS: KA825
 **CPU-name-console: None
@@ -1985,7 +1990,8 @@
 **Console-device: None
 **VUPs**vref{1}: 2.3
 **Minimum-memory**uref{*6}: 4MB
-**Maximum-memory**vref{1,3}: 128MB
+!**Maximum-memory**vref{1,3}: 128MB
+**Maximum-memory**vref{1}: 128MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
 ! Memory cycle: 1600ns per 128-bit octaword read
 !		600 ns per 32-bit octaword write
@@ -2015,10 +2021,12 @@
 **Sys-name: VAX 88x0
 **Desc-name: VAX 8810/8820/8830/8840
 **Def-lref{1} = ref{EB-31692-46}
+**def-lref{2} = ref{OVMS-REL-HIST-20100621}
 **Announcement**uref{*102}: March 1988
 **FRS-date: April 1988
 **Codename**uref{*47}: PolarStar
-**OS-support-VMS**uref{*26}: VMS V5.0
+!**OS-support-VMS**uref{*26}: VMS V5.0
+**OS-support-VMS**vref{2}: VMS V5.0
 **Num-proc: 1-4
 **CPU-names: {VAX 8810}{VAX 8820}{VAX 8830}{VAX 8840}
 **CPU-technology**vref{1}: ECL Gate Array
@@ -2400,9 +2408,11 @@
 **Start-systems-entry{VS35X0}{VAX}{VAXstation}
 **Sys-name: VAXstation 3520/3540
 **def-lref{1} = ref{EK-258AA-MG-003}
+**def-lref{2} = ref{OVMS-REL-HIST-20100621}
 **Announcement**uref{*102}: 10 January 1989
 **Codename**uref{*47}: Firefox
-**OS-support-VMS**uref{*26}: V5.1-1
+!**OS-support-VMS**uref{*26}: V5.1-1
+**OS-support-VMS**vref{2}: V5.1-1
 **CPU-module**vref{1}: KA60-AA
 **Module**vref{1}: L2001
 !-- vref{1} KA60-BA is L2010 (VAXstation 38x0)
@@ -2589,10 +2599,12 @@
 
 **Start-systems-entry{VS8000}{VAX}{VAXstation}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
+**def-lref{2} = ref{OVMS-REL-HIST-20100621}
 **Sys-name: VAXstation 8000
 **Announcement: February 1988
 **Codename**uref{*102 *DU MAR-1988}: Lynx
-**OS-support-VMS**uref{*26}: V4.7 to V5.3-2
+! vref{2} only says support starts at V4.7
+**OS-support-VMS**vref{2}: V4.7 to V5.3-2
 ! Flowchart has V5.4
 **CPU-module**uref{*8}: KA825
 **Num-proc: 1
@@ -3070,9 +3082,11 @@
 **def-lref{1} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{2} = ref{EC-N0377-46}
 **def-lref{3} = ref{EK-VAXCT-CG-006}
+**def-lref{4} = ref{OVMS-REL-HIST-20100621}
 **Announcement: November 1988
 **Codename**uref{*47}: Mayfair II
-**OS-support-VMS**uref{*26,*137}: V5.0-2A
+!**OS-support-VMS**uref{*26,*137}: V5.0-2A
+**OS-support-VMS**vref{4}: V5.0-2A
 **OS-support-ULTRIX**uref{*137}: V3.0
 **OS-support-ELN**uref{*137}: V3.2
 **CPU-module: KA640
@@ -3140,9 +3154,11 @@
 **def-lref{3} = ref{DTJ-V1-7}
 **def-lref{4} = ref{S-SU-SEP87}
 **def-lref{5} = ref{EK-VAXCT-CG-006}
+**def-lref{6} = ref{OVMS-REL-HIST-20100621}
 **Announcement: 9 September 1987
 **Codename**uref{*47}: Mayfair
-**OS-support-VMS**uref{*26}: V4.7A
+!**OS-support-VMS**uref{*26}: V4.7A
+**OS-support-VMS**vref{6}: V4.7A
 **OS-support-ULTRIX**htref{4}: ULTRIX V2.2
 **CPU-module**vref{3}: KA650
 **Module: M7620
@@ -3218,9 +3234,11 @@
 **def-lref{1} = ref{EK-KA655-TM-001}
 **def-lref{2} = ref{EC-N0377-46}
 **def-lref{3} = ref{EK-VAXCT-CG-006}
+**def-lref{4} = ref{OVMS-REL-HIST-20100621}
 **Announcement**uref{*27 p14}: 10 April 1989
 **Codename**uref{*47}: Mayfair III
-**OS-support-VMS**uref{*26}: V5.1
+!**OS-support-VMS**uref{*26}: V5.1
+**OS-support-VMS**vref{4}: V5.1-1
 **CPU-module: KA655
 **Module: M7625
 **Firmware-version**uref{personally verified}: V5.3
@@ -3263,13 +3281,14 @@
 **def-lref{4} = ref{EB-30991-41}
 **def-lref{5} = ref{EB-31692-46}
 **def-lref{6} = ref{SOCEE-SPR90}
+**def-lref{7} = ref{OVMS-REL-HIST-20100621}
 !vref{1} p 3-232.
 !The MicroVAX 2000 and VAXstation 2000 are based on the same system module,
 !the KA410: a single jumper determines which system type the module is.
 !configured for.
 **Codename: Teammate
 **Html-target: uvvs2000
-**OS-support-VMS: V4.5B
+**OS-support-VMS**vref{7}: V4.5B
 **CPU-module**vref{1}: KA410
 **CPU-name-VMS**uref{*2}: KA410
 **CPU-name-console**uref{**2}: KA410-A
@@ -3342,12 +3361,13 @@
 **def-lref{4} = ref{EB-30991-41}
 **def-lref{5} = ref{EB-31692-46}
 **def-lref{6} = ref{EK-VAXCT-CG-006}
+**def-lref{7} = ref{OVMS-REL-HIST-20100621}
 !The MicroVAX 2000 and VAXstation 2000 are based on the same system module,
 !the KA410: a single jumper determines which system type the module is
 !configured for.
 **Codename: VAXstar
 **Html-target: uvvs2000
-**OS-support-VMS: V4.5B
+**OS-support-VMS**vref{7}: V4.5B
 **CPU-module: KA410
 **CPU-name-VMS**uref{*2}: KA410
 **CPU-name-console**vref{2}: KA410-B
@@ -3629,11 +3649,13 @@
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
 **def-lref{4} = ref{SOCEE-SPR90}
+**def-lref{5} = ref{OVMS-REL-HIST-20100621}
 **Announcement**uref{*101,*102}: August 1986
 **FRS-date**uref{*102}: May 1986					
 **Codename**uref{*102}: Skipjack
 **Html-target: vax8500
-**OS-support-VMS**uref{*26}: VMS V4.4
+!**OS-support-VMS**uref{*26}: VMS V4.4
+**OS-support-VMS**vref{5}: VMS V4.4
 **Num-proc**vref{3}: 1
 **CPU-technology**vref{3}: ECL Gate Array
 **CPU-cycle**vref{3}: 45ns
@@ -3678,9 +3700,11 @@
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
 **def-lref{4} = ref{SOCEE-SPR90}
+**def-lref{5} = ref{OVMS-REL-HIST-20100621}
 **Announcement**uref{*101}: August 1986
 **Codename**uref{*37}: Nautilus
-**OS-support-VMS**uref{*26}: VMS V4.4
+!**OS-support-VMS**uref{*26}: VMS V4.4
+**OS-support-VMS**vref{5}: VMS V4.4
 **CPU-module: KA88
 **Num-proc**vref{3}: 1
 **CPU-technology**vref{3}: ECL Gate Array
@@ -3786,10 +3810,12 @@
 **Def-lref{4} = ref{EK-VSM40-OM-002}
 **Def-lref{5} = ref{VS3100-30-38-76-PERF}
 **Def-lref{6} = ref{EC-N0857-51}
+**def-lref{7} = ref{OVMS-REL-HIST-20100621}
 **Last-order**uref{*108}: 30 August 1991
 **Last-ship**uref{*108}: 27 September 1991
 **Codename: PVAX0			
-**OS-support-VMS**uref{*26,*102}: VMS V5.1B
+!**OS-support-VMS**uref{*26,*102}: VMS V5.1B
+**OS-support-VMS**vref{7}: VMS V5.1-B
 !-- *31: VS3100-38/48 UWS V2.1 -->
 **CPU-module**vref{1}: KA42-AA
 **Firmware-version**uref{personally verified}: V1.3
@@ -4079,9 +4105,11 @@
 **Desc-name: MicroVAX 3100 Model 10/20
 **Def-lref{1} = ref{EK-A0371-OM.002}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
+**def-lref{3} = ref{OVMS-REL-HIST-20100621}
 **Announcement: 11 July 1989		
 **Codename**uref{*47}: Teammate II
-**OS-support-VMS**uref{*26}: VMS V5.2
+!**OS-support-VMS**uref{*26}: VMS V5.2
+**OS-support-VMS**vref{3}: VMS V5.2-1
 **CPU-module**vref{1}: KA41-A
 **Firmware-version**uref{personally verified}: V1.4
 **CPU-name-VMS**uref{2}: KA420

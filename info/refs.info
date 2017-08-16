@@ -9115,6 +9115,10 @@
 **Ref-hardcopy: Yes
 **End-ref{EB-05138-75}
 
+**Start-ref{OVMS-REL-HIST-20100621}
+**Ref-text: OpenVMS Release History (Last Updated: June 21, 2010)
+**End-ref{OVMS-REL-HIST-20100621}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
