@@ -165,7 +165,7 @@ class Systems
             local_refs[id] = ref_name
             local_refs_non_vref_count[id] = 0
           else
-            $stderr.puts("Local ref id [#{id}] reused on line #{line_num}")
+            raise("Local ref id [#{id}] reused on line #{line_num} of #{info_filename}")
           end
         end
         next
@@ -194,6 +194,7 @@ class Systems
           given_ref.split(",").each() {
             |lref|
             reference = local_refs[lref]
+            raise("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{info_filename}") if reftype =~ /vref/i && reference.nil?()
             unless reference.nil?()
               local_refs_non_vref_count[lref] += 1 unless reftype =~ /vref/i  # count any reference except a vref
               ref_array << reference if reftype =~ /vref/i
