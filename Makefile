@@ -8,9 +8,11 @@ REFS = yaml/refs.yaml
 
 TAGS.SYSTEMS = scripts/systems-tags.yaml
 
+SCRIPTS += scripts/DataPubTxt.rb
 SCRIPTS += scripts/DataRefInfo.rb
 SCRIPTS += scripts/DataSystemsInfo.rb
 SCRIPTS += scripts/DataTags.rb
+SCRIPTS += scripts/pub-txt-to-yaml.rb
 SCRIPTS += scripts/refs-info-to-yaml.rb
 SCRIPTS += scripts/systems-info-to-yaml.rb
 SCRIPTS += scripts/systems-yaml-to-infobox-data.rb
@@ -24,6 +26,8 @@ GLOBAL_DEPENDENCIES += $(SCRIPTS)
 all: build.tree
 
 all: yaml/refs.yaml
+
+all: yaml/pubs.yaml
 
 all: $(foreach SYS,$(SYSTEMS),yaml/$(SYS).yaml)
 
@@ -41,6 +45,9 @@ build.tree:
 	@mkdir -p bin
 	@mkdir -p generated
 	@mkdir -p yaml
+
+yaml/pubs.yaml:  info/pubs-refs.txt $(GLOBAL_DEPENDENCIES)
+	scripts/pub-txt-to-yaml.rb $< > $@
 
 yaml/refs.yaml:  info/refs.info $(GLOBAL_DEPENDENCIES)
 	scripts/refs-info-to-yaml.rb $< > $@
