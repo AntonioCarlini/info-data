@@ -19,6 +19,21 @@
 **Def-lref{1} = ref{EK-467AA-TI.A01}
 **Def-lref{2} = ref{EK-473AB-MG.C01}
 **def-lref{3} = ref{EK-VAXCT-CG-006}
+**document = doc{DEC:EK-467AA-TI}
+**document = doc{DEC:EK-473AA-MG-A01}
+**document = doc{DEC:EK-473AB-MG-C01}
+**document = doc{DEC:EK-465RA-IN}
+**document = doc{DEC:EK-467AA-TI.A01}
+**document = doc{DEC:EK-470AA-IP-A01}
+**document = doc{DEC:EK-465RA-IN-D01}
+**document = doc{DEC:EK-466AA-OP-A01}
+**document = doc{DEC:EK-468AA-TS-A01}
+**document = doc{DEC:EK-502AA-IN-A01}
+**document = doc{DEC:EK-503AA-OP-A01}
+**document = doc{DEC:EK-505AA-TS-A01}
+**document = doc{DEC:EK-V411A-CG-A01}
+**document = doc{DEC:EK-VX44S-IN-A01}
+**document = doc{DEC:EK-RRDCD-IN-A01}
 **Sys-name: VAX 4000-100/100A
 **Desc-name: VAX 4000 Model 100/100A
 **OS-support-VMS**vref{1}: V5.5-1HN
@@ -1459,6 +1474,8 @@
 **Sys-name: VAX-11/780
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1} 
 **def-lref{2} = ref{SOCEE-SPR90}
+**def-lref{3} = ref{EY-3459E-DP}
+**def-lref{4} = ref{OVMS-AT-TWENTY}
 **document = doc{DEC:EB-07466-20}
 **document = doc{DEC:EK-11780-UG-001}
 **document = doc{DEC:EK-SI780-IN-002}
@@ -1522,6 +1539,18 @@
 **Depth**vref{1}: 762mm
 **Weight**vref{1}: 498kg
 **Dimensions-end{780}
+**Text-start
+The VAX-11/780 was the first member to ship of the VAX-11 family of supercomputers.
+It was announced on October 25<sup>th</sup>, 1977 at Digital Equipment Corporation's Annual Meeting of Shareholders.**vref{4}
+The VAX series was conceived as a follow-on to the successful PDP-11 series of minicomputers. 
+One of the main design goals was to increase the address space available, in fact the VAX acronym originally stood 
+for Virtual Address eXtension).**vref{3}
+
+The first VAX-11/780 systems shipped with one quarter of a megabyte of memory, built from 4Kb chips.**vref{3}
+
+The VAX-11/780 was given the codename "Star" and its operating system, VAX/VMS, was codenamed "Starlet".**vref{4}
+VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 systems.
+**Text-end
 **End-systems-entry{VAX780}
 
 **Start-systems-entry{VAX782}{VAX}{UNIBUS}
