@@ -49,10 +49,17 @@ class System
     @sys_class = VariableWithReference.new(sys_class, nil)
     @possible_tags = possible_tags
     @docs = []
+    @text_block = []
   end
   
   def set_docs(docs)
     @docs = docs  # Intended to be an array
+  end
+
+  def add_text(extra_text)
+    return if extra_text.empty?()
+    @text_block << "" unless @text_block.empty?()
+    @text_block += extra_text
   end
 
   def confidential(text)
@@ -79,6 +86,9 @@ class System
 
     # If @docs is present and not empty, try representing it
     h["docs"] = @docs unless @docs.nil?() || @docs.empty?()
+
+    # If @text_block is present and not empty, try representing it
+    h["text_block"] = @text_block unless @text_block.nil?() || @text_block.empty?()
 
     coder.represent_map(nil, h)
   end
@@ -123,6 +133,7 @@ class Systems
   def Systems.create_from_info_file(info_filename, sys_type_expected, permitted_tags, refs, pubs)
     line_num = 0
     current = nil
+    text_block = [] # text is kept as an array of lines
     systems = Systems.new()
     sys_type = sys_type_expected.downcase()
     local_refs = {}
@@ -130,11 +141,51 @@ class Systems
     local_refs_non_vref_count = {}
     permitted_tags_uc = permitted_tags.map(&:upcase)
     total_uses = 0   # local uses of unverified refs
+    within_text_block = false
     IO.foreach(info_filename) {
       |line|
       line_num += 1
       line = line.chomp().strip()
       
+      # Handle text-blocks
+      if !current.nil?()
+        if within_text_block
+          # If within a text block, keep accumulating unless **Text-end seen alone on a line
+          if line =~ /^\s*\*\*Text-end\s*$/i
+            within_text_block = false
+            current.add_text(text_block)
+            text_block = []
+            next
+          else
+            line.gsub!(/ \*\*vref \{ ([^}]+) \}/ix) {
+              given_ref = $1
+              # Build an array of the valid references used here
+              ref_array = []
+              reference = nil
+              unless given_ref.nil?()
+                given_ref.split(",").each() {
+                  |lref|
+                  reference = local_refs[lref]
+                  raise("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{info_filename}") if reference.nil?()
+                  unless reference.nil?()
+                    ref_array << reference
+                  end
+                }
+              end
+              rtext = ""
+              ref_array.each() {|ra| rtext << "**tref{#{ra}}"}
+              rtext
+            }
+            text_block << line
+            next
+          end
+        elsif line =~ /^\s*\*\*Text-start\s*$/i
+          # Text-start seen, so switch to text-block mode
+          within_text_block = true
+          next
+        end
+      end
+
       if line.strip().empty?() || line =~ /^ !/ix
         # ignore blank lines and commented out lines
         next

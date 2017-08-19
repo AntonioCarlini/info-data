@@ -94,6 +94,7 @@ systems.keys().each() {
     next if prop =~ /html-target/i
     next if prop =~ /option-title/i
     next if prop =~ /docs/i
+    next if prop =~ /text_block/i
     array_of_values = properties[prop]
     value = array_of_values.shift()
     ref_index = nil   # No reference present, or invalid reference present
@@ -115,6 +116,30 @@ systems.keys().each() {
   }
   op.puts("}}")
   op.puts()
+
+  # Display a text block if one is present.
+  unless properties["text_block"].nil?()
+    properties["text_block"].each() {
+      |line|
+      line.gsub!(/ \*\*tref \{ ([^}]+) \}/ix) {
+        |m|
+        ref_key = $1
+        ref_text = ""
+        reference = local_refs[ref_key]
+        if reference.nil?()
+          local_refs[ref_key] = [ next_local_refs_index, refs[ref_key] ]
+          ref_index = next_local_refs_index
+          next_local_refs_index += 1
+        else
+          ref_index = reference[0]
+        end
+        ref_text << "[[#ref_#{ref_index}|[#{ref_index}]]]"
+        "#{ref_text}"
+      }
+      op.puts("#{line}") 
+    }
+    op.puts()
+  end
 
   unless properties["docs"].nil?()
     op.puts("== Related Documents ==")
