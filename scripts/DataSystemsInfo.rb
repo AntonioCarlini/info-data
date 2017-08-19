@@ -48,8 +48,13 @@ class System
     @sys_type = type
     @sys_class = VariableWithReference.new(sys_class, nil)
     @possible_tags = possible_tags
+    @docs = []
   end
   
+  def set_docs(docs)
+    @docs = docs  # Intended to be an array
+  end
+
   def confidential(text)
     @confidential = (text =~ /^yes$/ix)
   end
@@ -61,7 +66,7 @@ class System
   def encode_with(coder)
     h = {}
 
-    # For each possible tag, it it is present, represent it in the output.
+    # For each possible tag, if it is present, represent it in the output.
     @possible_tags.each() {
       |key|
       instance_variable_name = Systems.tag_to_instance_variable_name(key)
@@ -71,6 +76,10 @@ class System
         h[key] = self.instance_variable_get(instance_variable_name).as_array()
       end
     }
+
+    # If @docs is present and not empty, try representing it
+    h["docs"] = @docs unless @docs.nil?() || @docs.empty?()
+
     coder.represent_map(nil, h)
   end
 end
@@ -111,12 +120,13 @@ class Systems
   # sys_type_expected: type of system: vax, alpha etc.
   # permitted_tags: an array of permitted tags
 
-  def Systems.create_from_info_file(info_filename, sys_type_expected, permitted_tags, refs)
+  def Systems.create_from_info_file(info_filename, sys_type_expected, permitted_tags, refs, pubs)
     line_num = 0
     current = nil
     systems = Systems.new()
     sys_type = sys_type_expected.downcase()
     local_refs = {}
+    local_docs = {}
     local_refs_non_vref_count = {}
     permitted_tags_uc = permitted_tags.map(&:upcase)
     total_uses = 0   # local uses of unverified refs
@@ -150,6 +160,7 @@ class Systems
           count_text = "%3.3d" % local_refs_non_vref_count[k]
           $stderr.puts("#{local_refs[k]} used #{count_text} times in #{current.identifier()}") if local_refs_non_vref_count[k] > 0
         }
+        current.set_docs(local_docs.values())
         current = nil
         local_refs = {}  # Discard "local" references
         local_refs_non_vref_count = {}
@@ -167,6 +178,17 @@ class Systems
           else
             raise("Local ref id [#{id}] reused on line #{line_num} of #{info_filename}")
           end
+        end
+        next
+      elsif !current.nil?() && line =~ /^\s*\*\*document\s*=\s*doc\{(.*)\}\s*$/i
+        doc_id = $1
+        doc = pubs[doc_id]
+        if doc.nil?()
+          raise("Doc [#{doc_id}] not found on #{line_num} of #{info_filename}")
+        elsif !local_docs[doc_id].nil?()
+          raise("Doc [#{doc_id}] repeated on #{line_num} of #{info_filename}")
+        else
+          local_docs[doc_id] = doc["title"] + ". " + doc["part-no"]
         end
         next
       elsif line =~ / \s* \! /ix

@@ -1459,6 +1459,32 @@
 **Sys-name: VAX-11/780
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1} 
 **def-lref{2} = ref{SOCEE-SPR90}
+**document = doc{DEC:EB-07466-20}
+**document = doc{DEC:EK-11780-UG-001}
+**document = doc{DEC:EK-SI780-IN-002}
+**document = doc{DEC:EB-17835-18}
+**document = doc{DEC:EK-VAXV2-HB-002}
+**document = doc{DEC:EK-DS780-TD-001}
+**document = doc{DEC:EK-DS780-UG.002}
+**document = doc{DEC:EK-780EH-TD-002}
+**document = doc{DEC:EK-KA780-TD.001}
+**document = doc{DEC:EK-MM780-TD-001}
+**document = doc{DEC:EK-MS780-TD-001}
+**document = doc{DEC:EK-FP780-TD.001}
+**document = doc{DEC:EK-KC780-TD-001}
+**document = doc{DEC:EK-KC780-TM-007}
+**document = doc{DEC:AA-H306B-TE}
+**document = doc{DEC:AA-H307B-TE}
+**document = doc{DEC:AA-M545B-TE}
+**document = doc{DEC:EK-CIVAX-RM-001}
+**document = doc{DEC:EK-DW780-TD.001}
+**document = doc{DEC:EK-RH780-TD-001}
+**document = doc{DEC:EY-2217E-SG-0001}
+**document = doc{DEC:MP00496}
+**document = doc{DEC:MP00497}
+**document = doc{DEC:MP00534}
+**document = doc{DEC:MP00539}
+**document = doc{DEC:MP01759}
 **Announcement**uref{*37}: November 1977
 **Codename: Star
 **OS-support-VMS**uref{*26}: VMS V1.5

@@ -45,6 +45,7 @@ systems.keys().each() {
     next if prop =~ /sys-name/i
     next if prop =~ /html-target/i
     next if prop =~ /option-title/i
+    next if prop =~ /docs/i
     array_of_values = properties[prop]
     value = array_of_values[0]
     ref_index = nil   # No reference present, or invalid reference present
@@ -68,6 +69,13 @@ systems.keys().each() {
   }
   puts("|}")
   puts()
+
+  unless properties["docs"].nil?()
+    puts("== Related Documents ==")
+    properties["docs"].each() { |title| puts("#{title}<br>") }
+    puts()
+  end
+  
   unless local_refs.empty?()
     puts("== References ==")
     puts()

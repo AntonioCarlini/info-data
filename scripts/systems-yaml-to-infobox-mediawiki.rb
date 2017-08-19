@@ -93,6 +93,7 @@ systems.keys().each() {
     next if prop =~ /sys-name/i
     next if prop =~ /html-target/i
     next if prop =~ /option-title/i
+    next if prop =~ /docs/i
     array_of_values = properties[prop]
     value = array_of_values.shift()
     ref_index = nil   # No reference present, or invalid reference present
@@ -107,13 +108,21 @@ systems.keys().each() {
       else
         ref_index = reference[0]
       end
-      ref_text << "<sup>[[#ref_#{ref_index}|[#{ref_index}]]]</sup>"
+      ref_text << "[[#ref_#{ref_index}|[#{ref_index}]]]"
     }
     ref_text = " " + ref_text unless ref_text.empty?()
     op.puts("| #{tags[prop].name()} = #{value}#{ref_text}")
   }
   op.puts("}}")
   op.puts()
+
+  unless properties["docs"].nil?()
+    op.puts("== Related Documents ==")
+    op.puts()
+    properties["docs"].each() { |title| op.puts("<div>#{title}</div>") }
+    op.puts()
+  end
+
   unless local_refs.empty?()
     op.puts("== References ==")
     op.puts()
