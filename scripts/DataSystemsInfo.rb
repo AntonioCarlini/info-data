@@ -204,7 +204,6 @@ class Systems
       elsif line =~ /\*\*End-systems-entry\{(.*)\}/ix
         # **End-systems-entry{VAX4100}
         # TODO - check closing the right one, then add to pile
-        systems.add_system(current)
         local_refs.keys().each() {
           |k|
           total_uses += local_refs_non_vref_count[k]
@@ -212,9 +211,11 @@ class Systems
           $stderr.puts("#{local_refs[k]} used #{count_text} times in #{current.identifier()}") if local_refs_non_vref_count[k] > 0
         }
         current.set_docs(local_docs.values())
+        systems.add_system(current)
         current = nil
         local_refs = {}  # Discard "local" references
         local_refs_non_vref_count = {}
+        local_docs = {}  # Discard "local" related documents
         next
       elsif !current.nil?() && line =~ /^\s*\*\*Def-lref\{(\d)\}\s*=\s*ref\{(.*)\}\s*$/i
         id = $1
