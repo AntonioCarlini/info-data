@@ -29,7 +29,7 @@ all: build.tree
 
 all: yaml/refs.yaml
 
-##all: yaml/pubs.yaml
+all: yaml/pubs.yaml
 
 all: $(foreach SYS,$(SYSTEMS),yaml/$(SYS).yaml)
 
@@ -54,19 +54,19 @@ yaml/pubs.yaml:  info/pubs-refs.txt $(GLOBAL_DEPENDENCIES)
 yaml/refs.yaml:  info/refs.info $(GLOBAL_DEPENDENCIES)
 	scripts/refs-info-to-yaml.rb $< > $@
 
-yaml/alpha.yaml:  info/alpha.info $(TAGS.SYSTEMS) $(REFS) $(GLOBAL_DEPENDENCIES)
+yaml/alpha.yaml:  info/alpha.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb alpha $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
-yaml/mips.yaml:  info/mips.info $(TAGS.SYSTEMS) $(REFS) $(GLOBAL_DEPENDENCIES)
+yaml/mips.yaml:  info/mips.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb decmips $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
-yaml/pc.yaml:  info/pc.info $(TAGS.SYSTEMS) $(REFS) $(GLOBAL_DEPENDENCIES)
+yaml/pc.yaml:  info/pc.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb decpc $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
-yaml/pdp11.yaml:  info/pdp11.info $(TAGS.SYSTEMS) $(REFS) $(GLOBAL_DEPENDENCIES)
+yaml/pdp11.yaml:  info/pdp11.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb pdp11 $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
-yaml/vax.yaml:  info/vax.info $(TAGS.SYSTEMS) $(REFS) $(GLOBAL_DEPENDENCIES)
+yaml/vax.yaml:  info/vax.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb vax $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
 bin/infobox-alpha-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
