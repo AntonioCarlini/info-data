@@ -1502,9 +1502,10 @@
 **document = doc{DEC:MP00534}
 **document = doc{DEC:MP00539}
 **document = doc{DEC:MP01759}
-**Announcement**uref{*37}: November 1977
-**Codename: Star
+**Announcement**vref{4}: 25 October 1977
+**Codename**vref{4}: Star
 **OS-support-VMS**uref{*26}: VMS V1.5
+**CPU-name-VMS: KA780
 **Num-proc: 1
 **CPU-technology**uref{*34}: Bipolar Schottky
 **Gate-delay**uref{34}: 3ns
