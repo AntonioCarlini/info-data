@@ -9119,6 +9119,18 @@
 **Ref-text: OpenVMS Release History (Last Updated: June 21, 2010)
 **End-ref{OVMS-REL-HIST-20100621}
 
+**Start-ref{EY-3459E-DP}
+**Ref-text: VAX Architecture Reference Manual
+**Ref-partno: EY-3459E-DP
+**Ref-author: Timothy E. Leonard
+**Ref-ISBN: 0-932376-86-X
+**Ref-date: 1987
+**End-ref{EY-3459E-DP}
+
+**Start-ref{OVMS-AT-TWENTY}
+**Ref-text: Nothing Stops It. VAX Open VMS At 20
+**End-ref{OVMS-AT-TWENTY}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):

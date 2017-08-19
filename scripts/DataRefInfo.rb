@@ -29,6 +29,7 @@
 
 class Ref
   attr_accessor :author
+  attr_accessor :date
   attr_accessor :electronic_format
   attr_accessor :format
   attr_accessor :isbn
@@ -51,6 +52,7 @@ class Ref
     @isbn = nil
     @author = nil
     @publisher = nil
+    @date = nil
   end
   
   def confidential(text)
@@ -72,6 +74,7 @@ class Ref
     h["isbn"] = @isbn unless @isbn.nil?()
     h["author"] = @author unless @author.nil?()
     h["publisher"] = @publisher unless @publisher.nil?()
+    h["date"] = @date unless @date.nil?()
 
     coder.represent_map(nil, h)
   end
@@ -153,10 +156,11 @@ class References
         when /^Ref-location$/ix     then current.location = value
         when /^Ref-confidential$/ix then ; # TODO current.confidential = value
         when /^Ref-ISBN$/ix         then current.isbn = value
-        when /^Ref-author$/ix       then current.author = value
+        when /^Ref-authors?$/ix     then current.author = value # Allow "author" or "authors"
         when /^Ref-publisher$/ix    then current.publisher = value
         when /^Ref-hardcopy$/ix     then ; # TODO yes/no ?
         when /^Ref-processed/ix     then ; # TODO yes/no ?
+        when /^Ref-date$/ix         then current.date = value
         else raise("Bad line read in #{info_filename} at line #{line_num}: #{line}")
         end
       elsif line.strip().empty?()
