@@ -156,7 +156,12 @@ systems.keys().each() {
       |key, value|
       index = value[0]
       properties = value[1]
-      ref_text_array << %Q% <div id="ref_#{index}">[#{index}] #{properties['title']}. #{properties['part-no']}</div>%
+      entry = properties['title']
+      entry += ". " + properties['part-no'] unless properties['part-no'].nil?()
+      entry += ". " + properties['author'] unless properties['author'].nil?()
+      entry += ". " + properties['date'] unless properties['date'].nil?()
+      entry += ". ISBN " + properties['isbn'] unless properties['isbn'].nil?()
+      ref_text_array << %Q% <div id="ref_#{index}">[#{index}] #{entry}</div>%
     }
     ref_text_array.sort().each() { |line| op.puts(line) }
   end
