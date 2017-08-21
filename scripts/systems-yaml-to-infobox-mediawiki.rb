@@ -74,16 +74,18 @@ systems.keys().each() {
     name = "UNKNOWN" if name.nil?() || name.empty?()
   end
 
+  name_prefix = (sys_type =~ /vax/i) ? "DEC " : ""  # prefix VAX pages with DEC to produce "DEC VAX"
+
   if build_xml
     op.puts_xml(%Q[  <page>])
-    op.puts_xml(%Q[    <title>#{name} systems</title>])
+    op.puts_xml(%Q[    <title>#{name_prefix}#{name} systems</title>])
     op.puts_xml(%Q[    <revision>])
     op.puts_xml(%Q[      <timestamp>#{page_time}</timestamp>])
     op.puts_xml(%Q[      <comment>Created from #{File.basename(sys_yaml)}, last modified at #{source_file_time}</comment>])
     op.puts_xml(%Q[      <contributor><username>antonioc-scripted</username></contributor>])
     op.puts_xml(%Q[      <text>])
   end
-  op.puts("== #{name} systems ==")
+  op.puts("== #{name_prefix}#{name} systems ==")
   op.puts()
   op.puts("{{Infobox#{sys_type.upcase()}-Data")
   op.puts("| name = #{name}")
