@@ -220,7 +220,8 @@
 **OS-support-ultrix**uref{*131}: Ultrix V4.2A
 **Num-proc: 1
 **CPU-module**htref{2}: KN02-DA
-**Module**htref{3}: 54-221331-01		! This looks wrong
+! **Module entry here looks wrong
+**Module**htref{3}: 54-221331-01
 **CPU-chip**uref{*131}: R3000A
 **FPU-chip**uref{*131}: R3010A
 **CPU-clock**uref{*131}: 33MHz
