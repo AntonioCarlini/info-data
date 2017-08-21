@@ -1225,6 +1225,19 @@
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{3} = ref{SOCEE-SPR90}
+**document=doc{DEC:EA-22245-18_82} ! Introducing the VAX-11/730
+**document=doc{DEC:EK-11730-UG-002} ! VAX-11/730 Hardware User's Guide
+**document=doc{DEC:EK-MS730-TD-001} ! VAX-11/730 Memory System Technical Decsription
+**document=doc{DEC:EK-KA730-TD-001} ! VAX-11/730 KA730 Central Processor Technical Description
+**document=doc{DEC:EK-FP730-TD-001} ! VAX-11/730 FP730 Floating Point Accelerator Technical Description
+**document=doc{DEC:EK-73CVS-OP-001} ! VAX-11/730 Compact System System Manual
+**document=doc{DEC:EK-MX730-TD-001} ! VAX-11/730 Memory System Technical Description
+**document=doc{DEC:EK-RB730-TD-001} ! VAX-11/730 IDC Technical Description
+**document=doc{DEC:EK-SI730-IN-003} ! VAX-11/730 System Installation Guide
+**document=doc{DEC:KP01270} ! 11730-Z FMPS
+**document=doc{DEC:MP01270} ! 11730-Z Field Maintenance Print Set
+**document=doc{DEC:MP01278} ! RB730 Field Maintenance Print Set
+**document=doc{DEC:MP01364} ! FP730 Field Maintenance Print Set
 **Announcement: April 1982
 **Codename: Nebula
 **OS-support-VMS: VMS V3.0
@@ -1304,6 +1317,24 @@
 **def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{3} = ref{SOCEE-SPR90}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
+**document=doc{DEC:EK-SI750-IN-003} ! VAX-11/750 Installation and Acceptance Manual
+**document=doc{DEC:EK-D5283-SG-002} ! DIGITAL VAX-11/750 Magic Book
+**document=doc{DEC:EK-VAXV3-HB-001} ! VAX Maintenance Handbook VAX-11/750
+**document=doc{DEC:EK-KA750-TD-002} ! VAX 750 CPU Technical Description
+**document=doc{DEC:EK-MS750-TD-001} ! VAX-11/750 Memory System Technical Description
+**document=doc{DEC:EK-CI750-TD-001} ! CI750 Computer Interconnect Technical Description
+**document=doc{DEC:EK-CIVAX-RM-001} ! CI750 CI780 Computer Interconnects Maintenance Advisory
+**document=doc{DEC:EK-KC750-TM-002} ! KC750 Microdiagnostics and Technical Manual
+**document=doc{DEC:EK-KC750-TM-CN1} ! Technical Documentation Change Notice (for EK-KC750-TM-002)
+**document=doc{DEC:EK-KC750-TM-CN2} ! KC750 Microdiagnostics and Technical Manual Technical Documentation Change Notice
+**document=doc{DEC:EK-KC750-UG-002} ! KC750 Options User Guide
+**document=doc{DEC:EK-PS750-TD-002} ! VAX-11/750 H7104 Power System Technical Description
+**document=doc{DEC:EK-UI750-TD-001} ! VAX-11/750 Unibus Interface Technical Description
+**document=doc{DEC:MP01269} ! FP750 Field Maintenance Print Set
+**document=doc{DEC:MP01377} ! 11/750 F Field Maintenance Print Set
+**document=doc{DEC:MP01390} ! 750 PCS Field Maintenance Print Set
+**document=doc{DEC:MP01647} ! CI750 Field Maintenance Print Set
+**document=doc{DEC:VAX-11/750 Workbook} ! VAX-11/750 Level II Student Workbook
 **Announcement**uref{DU JAN-1986}: 1980
 **Frs-date**uref{DU JAN-1986}: October 1980
 **Codename: Comet
@@ -1640,6 +1671,15 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{4} = ref{EK-KA825-MA-001}
 **def-lref{5} = ref{SOCEE-SPR90}
 **def-lref{6} = ref{OVMS-REL-HIST-20100621}
+**document=doc{DEC:EK-KA820-TM-001} ! KA820 Processor Technical Manual
+**document=doc{DEC:AZ-GN4AB-TE} ! VAX 8200/8300 Owner's Manual
+**document=doc{DEC:AZ-GN4AC-TE} ! VAX 8200/8300 Owner's Manual
+**document=doc{DEC:AZ-GN5AB-TE} ! VAX 8200/8300 Installtaion Guide
+**document=doc{DEC:AZ-GN5AC-TE} ! VAX 8200/8300 Installation Guide
+**document=doc{DEC:AZ-GN6AB-TE} ! VAX 8200/8300 Mini-Reference
+**document=doc{DEC:EK-821BA-RM-A} ! RM-821BA-Y-0 REV A 8200/8300 System Revision Matrix
+**document=doc{DEC:KS-10186-AB} ! VAX 8300. The High Performance System for Departmental Computing
+**document=doc{DEC:KS-20186-AB} ! VAX 8200. The New Leader in Departmental Computing
 **Announcement**uref{*102}: 29 January 1986
 **Codename: Scorpio
 ! **OS-support-VMS**uref{*26}: V4.4
@@ -1957,6 +1997,9 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Sys-name: VAX 8250
 **Def-lref{1} = ref{EB-31692-46}
 **Def-lref{2} = ref{EK-KA825-MA-001}
+**document=doc{DEC:EK-KA820-TM-003} ! KA820/KA825 Processor Technical Manual
+**document=doc{DEC:EK-KA825-MA-001} ! KA825 Maintenance Advisory
+**document=doc{DEC:EK-83XUP-IN-001} ! VAX 8200 to VAX 8350 and VAX 8250 to VAX 8350 Upgrade Procedures
 **Announcement**uref{%SCORPIO:115.*}: 2 March 1987
 **Codename**uref{*102}: Sargas
 **OS-support-VMS**vref{2}: VMS V4.5
@@ -2078,6 +2121,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Desc-name: VAX 8810/8820/8830/8840
 **Def-lref{1} = ref{EB-31692-46}
 **def-lref{2} = ref{OVMS-REL-HIST-20100621}
+**document=doc{DEC:EK-8840H-UG-001} ! VAX 8820/8830/8840 System Hardware User's Guide
+**document=doc{DEC:EK-8840A-IP-002} ! VAX 8820/30/40 IPB
 **Announcement**uref{*102}: March 1988
 **FRS-date: April 1988
 **Codename**uref{*47}: PolarStar
@@ -3492,6 +3537,28 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{2} = ref{VAX-HW-HB-1986-V2}
 **def-lref{3} = ref{SOC-SUM85}
 **def-lref{4} = ref{SOCEE-SPR90}
+**document=doc{DEC:DTJ-V1-1} ! "VAX 8600 Processor", Digital Technical Journal, Vol 1 No 1, August 1985
+**document=doc{DEC:EK-8600I-IN-001} ! VAX 8600/8650 System Installation Manual
+**document=doc{DEC:EK-8600I-S1-001} ! VAX 8600 System Upgrade Procedure
+**document=doc{DEC:EK-KA86D-RC-001} ! VAX 8600 Reference Card
+**document=doc{DEC:EK-KA86S-TD-002} ! VAX 8600/8650 System Description and Processor Overview
+**document=doc{DEC:EK-DB86X-TD-002} ! VAX 8600/8650 SBIA Technical Decsription
+**document=doc{DEC:EK-FP86X-TD-002} ! VAX 8600/8650 FBOX Technical Decsription
+**document=doc{DEC:EK-KA86C-TD-002} ! VAX 8600/8650 Console Technical Description
+**document=doc{DEC:EK-KA86D-UG-002} ! VAX 8600/8650 System Diagnostics User's Guide
+**document=doc{DEC:EK-KA86I-TD-001} ! VAX 8600/8650 IBOX Technical Decsription
+**document=doc{DEC:EK-KA86K-TD-002} ! VAX 8600/8650 System Clocks Technical Description
+**document=doc{DEC:EK-KA86M-TD-002} ! VAX 8600/8650 MBOX/Memory Technical Decsription
+**document=doc{DEC:EK-KA86M-TD-PRE} ! KA86 MBOX Technical Description
+**document=doc{DEC:EK-KA86P-TD-002} ! VAX 8600/8650 System Power Technical Description
+**document=doc{DEC:EK-KA86V-TD-002} ! VAX 8600/8650 EMM Environmental Monitoring Module Technical Description
+**document=doc{DEC:EK-86XV1-MG-PRE} ! VAX 8600 Maintenance Guide
+**document=doc{DEC:EK-8600S-MM-004} ! VAX 8600/8650 System Fault Isolation Manual
+**document=doc{DEC:EK-08600-RM-M} ! RM-8600-0-0 M REV 8600 Unit Revision Matrix
+**document=doc{DEC:EK-VENUS-IP-002} ! IPB-VAX 8600/8650 Illustrated Parts Breakdown
+**document=doc{DEC:EY-4818E-DX-0001} ! VAX 8600 Console Specifications
+**document=doc{DEC:EY-4818E-PP-000} ! VAX 8600 Training Print Set
+**document=doc{DEC:EY-4818E-PP-0001} ! VAX 8600 Training Print Set
 **Announcement**uref{*SUE 6.2,*102}: 31 October 1984
 **FRS-date: March 1985
 **Codename**uref{*34,*102}: Venus
@@ -3553,6 +3620,20 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{2} = ref{VAX-HW-HB-1986-V2}
 **def-lref{3} = ref{SOC-SUM85}
 **def-lref{4} = ref{SOCEE-SPR90}
+**document=doc{DEC:EK-8600I-IN-001} ! VAX 8600/8650 System Installation Manual
+**document=doc{DEC:EK-8600S-MM-004} ! VAX 8600/8650 System Fault Isolation Manual
+**document=doc{DEC:EK-DB86X-TD-002} ! VAX 8600/8650 SBIA Technical Decsription
+**document=doc{DEC:EK-FP86X-TD-002} ! VAX 8600/8650 FBOX Technical Decsription
+**document=doc{DEC:EK-KA86C-TD-002} ! VAX 8600/8650 Console Technical Description
+**document=doc{DEC:EK-KA86D-UG-002} ! VAX 8600/8650 System Diagnostics User's Guide
+**document=doc{DEC:EK-KA86I-TD-001} ! VAX 8600/8650 IBOX Technical Decsription
+**document=doc{DEC:EK-KA86K-TD-002} ! VAX 8600/8650 System Clocks Technical Description
+**document=doc{DEC:EK-KA86M-TD-002} ! VAX 8600/8650 MBOX/Memory Technical Decsription
+**document=doc{DEC:EK-KA86P-TD-002} ! VAX 8600/8650 System Power Technical Description
+**document=doc{DEC:EK-KA86S-TD-002} ! VAX 8600/8650 System Description and Processor Overview
+**document=doc{DEC:EK-KA86V-TD-002} ! VAX 8600/8650 EMM Environmental Monitoring Module Technical Description
+**document=doc{DEC:EK-VENUS-IP-002} ! IPB-VAX 8600/8650 Illustrated Parts Breakdown
+**document=doc{DEC:EK-08650-RM-C} ! RM-8650-0-0 C REV 8650 Unit Revision Matrix
 **Announcement**uref{*SUE 6.2,*102}: 4 December 1985
 **Codename**uref{*34,*102}: Morningstar
 **OS-support-VMS: V4.3
@@ -3757,6 +3838,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{DTJ-V1-4}
 **def-lref{4} = ref{SOCEE-SPR90}
 **def-lref{5} = ref{OVMS-REL-HIST-20100621}
+**document=doc{DEC:VAX 88X0} ! VAX 88x0/8700/85x0 Information
 **Announcement**uref{*101}: August 1986
 **Codename**uref{*37}: Nautilus
 !**OS-support-VMS**uref{*26}: VMS V4.4
@@ -3807,6 +3889,12 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
 **def-lref{4} = ref{SOCEE-SPR90}
+**document=doc{DEC:EK-KA881-TD-PRE} ! VAX 8800 System Technical Description Volume 1
+**document=doc{DEC:EK-KA882-TD-PRE} ! VAX 8800 System Technical Description Volume 2
+**document=doc{DEC:EK-KA883-TD-PRE} ! VAX 8800 System Technical Description Volume 3
+**document=doc{DEC:**-JB-036-01} ! The VAX 8800 Series
+**document=doc{DEC:KS-30186-AB} ! VAX 8800. For Your Most Demanding Applications
+**document=doc{DEC:VAX 88x0} ! VAX 88x0/8700/85x0 Information
 **Announcement**uref{*102}: 29 January 1986
 **FRS-date**uref{*37}: February 1986
 **Codename**uref{*37}: Nautilus
