@@ -142,6 +142,7 @@ class Systems
     permitted_tags_uc = permitted_tags.map(&:upcase)
     total_uses = 0   # local uses of unverified refs
     within_text_block = false
+    fatal_error_seen = false
     IO.foreach(info_filename) {
       |line|
       line_num += 1
@@ -166,7 +167,10 @@ class Systems
                 given_ref.split(",").each() {
                   |lref|
                   reference = local_refs[lref]
-                  raise("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{info_filename}") if reference.nil?()
+                  if reference.nil?()
+                    $stderr.puts("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{info_filename}") 
+                    fatal_error_seen = true
+                  end
                   unless reference.nil?()
                     ref_array << reference
                   end
@@ -208,7 +212,7 @@ class Systems
           |k|
           total_uses += local_refs_non_vref_count[k]
           count_text = "%3.3d" % local_refs_non_vref_count[k]
-          $stderr.puts("#{local_refs[k]} used #{count_text} times in #{current.identifier()}") if local_refs_non_vref_count[k] > 0
+##          $stderr.puts("#{local_refs[k]} used #{count_text} times in #{current.identifier()}") if local_refs_non_vref_count[k] > 0
         }
         current.set_docs(local_docs.values())
         systems.add_system(current)
@@ -232,18 +236,23 @@ class Systems
           end
         end
         next
-      elsif !current.nil?() && line =~ /^\s*\*\*document\s*=\s*doc\{(.*)\}\s*$/i
+      elsif !current.nil?() && line =~ /^\s*\*\*document\s*=\s*doc\{(.*)\}\s*(!.*)?$/i
         doc_id = $1
         doc = pubs[doc_id]
         if doc.nil?()
-          raise("Doc [#{doc_id}] not found on #{line_num} of #{info_filename}")
+          $stderr.puts("Doc [#{doc_id}] not found on #{line_num} of #{info_filename}")
+          fatal_error_seen = true
         elsif !local_docs[doc_id].nil?()
-          raise("Doc [#{doc_id}] repeated on #{line_num} of #{info_filename}")
+          $stderr.puts("Doc [#{doc_id}] repeated on #{line_num} of #{info_filename}")
+          fatal_error_seen = true
         else
-          local_docs[doc_id] = doc["title"] + ". " + doc["part-no"]
+          entry = doc["title"] + ". "
+          entry += doc["part-no"] unless doc["part-no"].nil?()
+          local_docs[doc_id] = entry
         end
         next
-      elsif line =~ / \s* \! /ix
+      elsif line =~ /^ \s* \! /ix
+        $stderr.puts("Skipping comment [#{line}]")
         # skip comment line
         next
       elsif current.nil?()
@@ -298,7 +307,9 @@ class Systems
         raise("unrecognised line (at line #{line_num}) [#{line}]")
       end
     }
-    $stderr.puts("#{total_uses} uses of non-'vref' refrences") if total_uses > 0
+##    $stderr.puts("#{total_uses} uses of non-'vref' refrences") if total_uses > 0
+
+    raise("Stopping because of one or more above fatal errors") if fatal_error_seen
 
     return systems
   end
