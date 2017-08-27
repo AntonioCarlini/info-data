@@ -63665,12 +63665,6 @@ start-publication DEC:EK-34A52-IP-001
   fonds = fiche://EP-00013-IP-E
 end-publication DEC:EK-34A52-IP-001
 
-start-publication DEC:EK-398AA-MM-001
-  part-no = EK-398AA-MM-001
-  publisher = DEC
-  fonds = fiche://EP-398AA-MM-001
-end-publication DEC:EK-398AA-MM-001
-
 start-publication DEC:EK-398AA-TM-001
   title = VAX 4000 Model 200 Technical Information
   part-no = EK-398AA-TM-001
