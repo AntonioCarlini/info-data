@@ -246,9 +246,15 @@ class Systems
           $stderr.puts("Doc [#{doc_id}] repeated on #{line_num} of #{info_filename}")
           fatal_error_seen = true
         else
-          entry = doc["title"] + ". "
-          entry += doc["part-no"] unless doc["part-no"].nil?()
-          local_docs[doc_id] = entry
+          # Skip documents that have no title: what could they possibly mean?
+          if doc["title"].nil?()
+            $stderr.puts("Doc [#{doc_id}] has no title on #{line_num} of #{info_filename}")
+            fatal_error_seen = true
+          else
+            entry = doc["title"] + ". "
+            entry += doc["part-no"] unless doc["part-no"].nil?()
+            local_docs[doc_id] = entry
+          end
         end
         next
       elsif line =~ /^ \s* \! /ix
