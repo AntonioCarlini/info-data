@@ -19,21 +19,24 @@
 **Def-lref{1} = ref{EK-467AA-TI.A01}
 **Def-lref{2} = ref{EK-473AB-MG.C01}
 **def-lref{3} = ref{EK-VAXCT-CG-006}
-**document = doc{DEC:EK-467AA-TI}
+**document=doc{DEC:EK-467AA-TI-A01} ! VAX 4000 Model 100 Customer Technical Information
 **document = doc{DEC:EK-473AA-MG-A01}
-**document = doc{DEC:EK-473AB-MG-C01}
+**document=doc{DEC:EK-473AB-MG-C01} ! VAX 4000 Model 100,100A,105A,106A KA52/53/54 CPU Sys Maint
 **document = doc{DEC:EK-465RA-IN}
 **document = doc{DEC:EK-467AA-TI.A01}
 **document = doc{DEC:EK-470AA-IP-A01}
-**document = doc{DEC:EK-465RA-IN-D01}
+**document=doc{DEC:EK-507AB-IP-C01} ! VAX 4000 Models 100A/105A/106A Systems
 **document = doc{DEC:EK-466AA-OP-A01}
 **document = doc{DEC:EK-468AA-TS-A01}
-**document = doc{DEC:EK-502AA-IN-A01}
+**document=doc{DEC:EK-502AA-IN-A01} ! VAX 4000 Model 100A Installation Information
 **document = doc{DEC:EK-503AA-OP-A01}
 **document = doc{DEC:EK-505AA-TS-A01}
 **document = doc{DEC:EK-V411A-CG-A01}
 **document = doc{DEC:EK-VX44S-IN-A01}
 **document = doc{DEC:EK-RRDCD-IN-A01}
+**document=doc{DEC:EK-504AA-TI-A01} ! VAX 4000 Customer Technical Information
+**document=doc{DEC:EK-465RA-IN-D01} ! Rackmount VAX 4000 Model 100/100A/105A/106A Installation Info
+**document=doc{DEC:EK-507AB-IP.B01} ! Illustrated Parts Breakdown VAX 4000 Models 100A/105A Systems
 **Sys-name: VAX 4000-100/100A
 **Desc-name: VAX 4000 Model 100/100A
 **OS-support-VMS**vref{1}: V5.5-1HN
@@ -98,6 +101,12 @@
 **Def-lref{3} = ref{CU-V5-4A}
 **Def-lref{4} = ref{CU-V6-4A}
 **Def-lref{5} = ref{CU-V8-1B}
+**document=doc{DEC:EK-514AA-TI.B01} ! VAX 4000 Model 105A/106A Customer Technical Information
+**document=doc{DEC:EK-512AA-IN-B01} ! VAX 4000 Model 105A/106A Installation Information
+**document=doc{DEC:EK-513AA-OP-B01} ! VAX 4000 Model 105A/106A Operator Information
+**document=doc{DEC:EK-515AA-TS-B01} ! VAX 4000 Model 105A/106A Troubleshooting & Diagnostic Info
+**document=doc{DEC:EK-511AB-CL.B01} ! VAX 4000 Model 105A Customer Letter
+**document=doc{DEC:EK-V4156-UP-A01} ! VAX 4000 Model 105A Upgrade to Model 106A
 ! This corroborated by web newspaper articles. uv3100-95 on the same day.
 **Announcement**htref{3}: 12 April 1994
 **Html-target: vax410x
@@ -231,6 +240,8 @@
 **Def-lref{4} = ref{CU-V6-4A}
 **Def-lref{5} = ref{CU-V8-1B}
 **Def-lref{6} = ref{Personally-verified}
+**document=doc{DEC:EK-VX108-UI-A01} ! VAX 4000 Model 108 User Information
+**document=doc{DEC:EK-VX489-IP-A01} ! MicroVAX 3100 Models 88/98 VAX 4000 Model 108
 **Announcement**vref{6}: 8 October 1996
 **FRS-date**vref{6}: 15 November 1996
 **OS-support-VMS: VMS V5.5-2H4
@@ -258,6 +269,18 @@
 **def-lref{3} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{4} = ref{EC-N0377-46}
 **def-lref{5} = ref{EK-VAXCT-CG-006}
+**document=doc{DEC:EK-KA660-TM-001} ! KA660 CPU Module Technical Manual
+**document=doc{DEC:EK-398AA-TM-001} ! VAX 4000 Model 200 Technical Information
+**document=doc{DEC:EK-437AB-TS-002} ! VAX 4000 Model 200 Troubleshooting/Diagn ostic Guide
+**document=doc{DEC:EC-F1108-41} ! VAX 4000 Model 200 and 300 Systems
+**document=doc{DEC:EK-395AB-OM-002} ! VAX 4000 Model 200 (BA430) Operation Manual
+**document=doc{DEC:EK-396AB-TM-002} ! VAX 4000 Model 200 Technical Information
+**document=doc{DEC:EK-398AA-MM-001} ! 
+**document=doc{DEC:EK-432AB-IN-002} ! VAX 4000 Model 200 (BA215) Installation Manual
+**document=doc{DEC:EK-436AB-IN-002} ! VAX 4000 Model 200 (BA430) Installation
+**document=doc{DEC:EK-MVS30-CG-001} ! MicroVax/VAXserver 3000-Series to VAX 4000 Model 200
+**document=doc{DEC:EK-V400H-IN-002} ! VAX 4000 Model 200 (BA430) Installation Checklist
+**document=doc{DEC:EK-V400R-IN-002} ! VAX 4000 Model (BA215) Installation Checklist
 **Sys-name: VAX 4000-200
 **Desc-name: VAX 4000 Model 200
 **Codename: Spitfire
@@ -330,6 +353,18 @@
 **def-lref{4} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{5} = ref{EK-VAXCT-CG-006}
 **def-lref{6} = ref{EK-347AA-MG-001}
+**document=doc{DEC:EC-F1108-41} ! VAX 4000 Model 200 and 300 Systems
+**document=doc{DEC:EP-BA441-IN-003} ! RACK-MOUNTABLE VAX 4000 MODEL 300 INST/OWNER'S MANUAL
+**document=doc{DEC:EC-F0565-41/90} ! VAX 4000 Model 300 Systems
+**document=doc{DEC:EK-335AC-IN-003} ! VAX 4000 Model 300 Installation
+**document=doc{DEC:EK-335AD-IN-003} ! VAX 4000 (Model 300) Installation Guide
+**document=doc{DEC:EK-336AB-OP-002} ! VAX 4000 Model 300 Operation
+**document=doc{DEC:EK-336AC-OP-003} ! VAX 4000 (Model 300) Operators Manual
+**document=doc{DEC:EK-337AB-TI-002} ! VAX 4000 (Model 300) Technical Information Guide
+**document=doc{DEC:EK-386AB-TS-002} ! VAX 4000 Model 300 Troubleshooting and Diagnostics
+**document=doc{DEC:EK-387AB-SP-002} ! VAX 4000 Site Preparation
+**document=doc{DEC:EK-BA441-IN-003} ! Rack-mountable VAX 4000 Model 300 Installation/Owner's Manual
+**document=doc{DEC:EK-V4000-IN-003} ! VAX 4000 Model 300 Installation Checklist
 **Sys-name: VAX 4000-300
 **Desc-name: VAX 4000 Model 300
 **Codename: Pele
@@ -431,6 +466,7 @@
 **def-lref{1} = ref{EK-KA680-UP.C01}
 **def-lref{2} = ref{EK-454AA-MG-001}
 **def-lref{3} = ref{EK-VAXCT-CG-006}
+**document=doc{DEC:EK-454AA-MG-001} ! KA675/KA680/KA690 CPU System Maintenance
 **Sys-name: VAX 4000-400
 **Desc-name: VAX 4000 Model 400
 **Announcement**uref{SUE Jul 1992 Special}: 7 July 1992
@@ -485,6 +521,9 @@
 **def-lref{6} = ref{CU-V5-8B}
 **def-lref{7} = ref{4500-6600-PERF-SUMM}
 **def-lref{8} = ref{EK-VAXCT-CG-006}
+**document=doc{DEC:EK-KA680-TM-001} ! KA680 CPU Module Technical Manual
+**document=doc{DEC:EK-454AA-MG-001} ! KA675/KA680/KA690 CPU System Maintenance
+**document=doc{DEC:EK-KA680-UP.C01} ! Addendum to KA680 CPU Technical Manual
 **Sys-name**vref{1}: VAX 4000-500
 **Desc-name: VAX 4000 Model 500
 **Announcement**uref{*2}: 30 October 1991
@@ -686,6 +725,7 @@
 **def-lref{2} = ref{EK-454AA-MG-001}
 **def-lref{3} = ref{EK-496AB-TI-B01}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
+**document=doc{DEC:EK-454AA-MG-001} ! KA675/KA680/KA690 CPU System Maintenance
 **Sys-name: VAX 4000-600A
 **Desc-name: VAX 4000 Model 600A
 **Announcement**uref{*SUE Jul 1992 Spec}: 7 July 1992
@@ -875,6 +915,10 @@
 **Def-lref{3} = ref{DTJ-V2-2}
 **Def-lref{4} = ref{EK-6263M-MA}
 **def-lref{5} = ref{OVMS-REL-HIST-20100621}
+**document=doc{DEC:EK-620AA-TM-001} ! VAX 6200 System Technical User's Guide
+**document=doc{DEC:EK-620AA-MG-001} ! VAX 6200 Options And Maintenance
+**document=doc{DEC:EK-6200X-IP-001} ! *ipb* VAX 6200 System
+**document=doc{DEC:EK-KA62A-RM-J}
 **Announcement**vref{3}: April 1988
 **Codename**uref{*47}: Calypso
 !**OS-support-VMS**uref{*9,*26}: V5.0
@@ -1017,6 +1061,9 @@
 **Def-lref{3} = ref{EK-624EA-MG-001}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
 **def-lref{5} = ref{OVMS-REL-HIST-20100621}
+**document=doc{DEC:DTJ-V2-2} ! "VAX 6000 Model 400 System", Digital Technical Journal, Vol 2 No 2, Spring 1990
+**document=doc{DEC:EK-640EB-TM-002} ! VAX 6000-400 System Technical User's Guide
+**document=doc{DEC:EK-640EB-MG-002} ! VAX 6000-400 Options and Maintenance
 **Announcement**uref{*44 [1]}: 11 July 1989
 **Codename**uref{*47}: Rigel
 !**OS-support-VMS**uref{*26}: V5.2 
@@ -1061,6 +1108,14 @@
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{EC-N0377-46}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
+**document=doc{DEC:EK-650EA-TM-001} ! VAX 6000 Model 500 System Technical User's Guide
+**document=doc{DEC:EK-650EA-HR-001} ! VAX 6000 Model 500 Mini-Reference
+**document=doc{DEC:6500 REL NOTES} ! VAX 6000 Model 500 Hardware Release Notes
+**document=doc{DEC:EC-N0377-46} ! VAX Systems Performance Summary Featuring VAX 6000 Model 500
+**document=doc{DEC:EK-KA65A-UP-001} ! VAX 6000: Installing Model 500 Processors
+**document=doc{DEC:EK-MS65A-UP-001} ! VAX 6000: Installing MS65A Memories
+**document=doc{DEC:EK-6500X-IP-001} ! *ipb* VAX 6000-500 System
+**document=doc{DEC:EK-65AMA-M-A} ! RM-65AMA-0-0 VAX 6000-500 System Revision Matrix
 **Announcement**uref{*48}: 25 October 1990
 **Codename: Mariah
 **OS-support-VMS**htref{**1}: V5.4
@@ -1119,6 +1174,11 @@
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{4500-6600-PERF-SUMM}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
+**document=doc{DEC:EK-660EA-TM-001} ! VAX 6000 Model 600 System Technical User's Guide
+**document=doc{DEC:EK-660EA-HR-001} ! VAX 6000 Model 600 Mini Reference
+**document=doc{DEC:EK-660EA-MG-001} ! VAX 6000 Model 600 Service Manual
+**document=doc{DEC:EK-660EA-UP-001} ! VAX 6000: Installing Model 600 Processors
+**document=doc{DEC:VAX-6000-MA} ! VAX6000-600 MAINTENANCE ADVISORY
 **Announcement**uref{*2}: 30 October 1991
 **Codename: Neptune
 **OS-support-VMS: V5.5
@@ -1390,6 +1450,7 @@
 **Def-lref{1} = ref{EK-KA7AA-TM.001}
 **def-lref{2} = ref{EK-VAXCT-CG-006}
 **def-lref{3} = ref{EK-70TBA-T4.A01}
+**document=doc{DEC:EK-KA7AA-TM-001} ! VAX 7000/10000 KA7AA CPU Technical Manual
 **Sys-name: VAX 7000-600
 **Desc-name: VAX 7000 Model 600 series
 **Announcement**uref{*SUE Jul 1992 Spec}: 7 July 1992
@@ -1624,6 +1685,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Sys-name: VAX-11/785
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1} 
 **def-lref{2} = ref{CPU-UPGR-SPRING-1992}
+**document=doc{DEC:EK-KC785-TD-001} ! VAX-11/785 Console Interface Technical Description
 **Announcement**uref{SUE 5.19}: 2 April 1984
 **Codename: Superstar
 **OS-support-VMS**uref{*26}: VMS V3.4
@@ -2219,6 +2281,9 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{3} = ref{EK-9000S-SP.004}
 **def-lref{4} = ref{EK-9000S-SI-001}
 ! vref{2} states oct  1989
+**document=doc{DEC:EK-9201U-UG-002} ! VAX 9000 Model 200 Hardware User Guide
+**document=doc{DEC:EK-9120A-IN.001} ! VAX 9000 Model 100/200 Installation Guide
+**document=doc{DEC:EK-9000X-IP-001} ! *ipb* VAX 9000 Model 210 System
 **Announcement**vref{2}: 24 October 1989
 **Codename: Aquarius
 **Html-target: vax9000
@@ -2391,6 +2456,15 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{2} = ref{AZ-GLNAB-MN}
 **def-lref{3} = ref{AZ-GMZAB-MN}
 **def-lref{4} = ref{AZ-GLFAB-MN}
+**document=doc{DEC:AZ-GLFAB-MN} ! VAXstation II Technical Manual, BA23 Enclosure
+**document=doc{DEC:AZ-GMZAB-MN} ! VAXstation II Technical Manual, BA123 Enclosure
+**document=doc{DEC:AZ-GLGAB-MN} ! VCB02 Video Subsystem Technical Manual
+**document=doc{DEC:AZ-GLNAB-MN} ! VAXstation II Owner's Manual, BA23 Enclosure
+**document=doc{DEC:AZ-GMXAA-MN} ! VAXstation II Owner's Manual, BA123 Enclosure
+**document=doc{DEC:EK-105AA-OW-001} ! VAXstation II/GPX Owner's Manual BA123 Enclosure
+**document=doc{DEC:EK-630QV-IP-001} ! *ipb* 630 QV VAXstation II CPU Box
+**document=doc{DEC:EK-630QW-IP-001} ! *ipb* 630 QW VAXstation II World Box
+**document=doc{DEC:EK-GPX11-IP-001} ! *ipb* VAXstation II Family
 **Announcement**uref{DU FEB-1986}: 24 January 1986
 ! Announce date is for  (VAXstation II/GPX)
 **Codename**uref{*126}: Caylith
@@ -2510,6 +2584,19 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Sys-name: VAXstation 3520/3540
 **def-lref{1} = ref{EK-258AA-MG-003}
 **def-lref{2} = ref{OVMS-REL-HIST-20100621}
+**document=doc{DEC:EK-258AA-AD-001} ! VAXstation 3520/3540 Maintenance Guide Addendum
+**document=doc{DEC:EK-258AA-MG-003} ! VAXstation 3520/3540 and 3820/3840 Maintenance Guide
+**document=doc{DEC:EK-333AA-AD-001} ! VAXstation 3520/3540 DWFQA (Q-bus Adapter) Module Addendum
+**document=doc{DEC:firefox_VAXstation3520and3540} ! VAXstation 35x0 Console
+**document=doc{DEC:firefox_VAXstation35x0Console} ! VAXstation 3520 and 3540
+**document=doc{DEC:firefox_VS35x0ProductDescription} ! VAXstation 3520 and VAXstation 3540 Product Description
+**document=doc{DEC:firefox_backplane_Dec87} ! Firefox Workstation Backplane
+**document=doc{DEC:firefox_busIntfChip_Dec87} ! Firefox Bus Interface Chip Specification
+**document=doc{DEC:firefox_diags_Dec87} ! Firefox Workstation Diagnostics
+**document=doc{DEC:firefox_dualCPUmodule_Dec87} ! Firefox Dual-CVAX Processor Module Functional Specification
+**document=doc{DEC:firefox_errHandling_Dec87} ! Firefox Error-Handling Specification
+**document=doc{DEC:firefox_packaging_Dec87} ! Firefox Workstation Packaging
+**document=doc{DEC:firefox_qbusAdapter_Dec87} ! Firefox Workstation Q-Bus Adapter Module Functional Specification
 **Announcement**uref{*102}: 10 January 1989
 **Codename**uref{*47}: Firefox
 !**OS-support-VMS**uref{*26}: V5.1-1
@@ -2569,6 +2656,18 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{2} = ref{EC-N0857-51}
 **def-lref{3} = ref{EC-N0626-51}
 **Def-lref{4} = ref{DECdirect-FEB92}
+**document=doc{DEC:EK-PMARI-OM-A02} ! VAXstation 4000 Model 60 Owner's Guide and Manual
+**document=doc{DEC:EK-VX690-UP-A01} ! VAXstation 4000 Model 60 to VAXstation 4000 Model 90 Upgrade Guide
+**document=doc{DEC:VS TCA} ! VAXstation 4000 Model 60/90 TURBOchannel Bus Adapter Specification
+**document=doc{DEC:CDAL-SPEC} ! VAXstation 4000 Model 60 CDAL Port Specification
+**document=doc{DEC:EK-SCP8P-MG.A01} ! VAXstation 4000 3D Graphics Options Maintenance Guide
+**document=doc{DEC:EK-SCP8P-TS} ! VAXstation 4000 Model 60 3D Graphics Options Technical Summary
+**document=doc{DEC:EK-V4066-SV-001} ! VAXstation 4000 Model 60 Optional Devices Service Information
+**document=doc{DEC:EK-V466B-SV.001} ! VAXstation 4000 Model 60 Service Information
+**document=doc{DEC:EK-V466H-PS-A01} ! VAXstation 4000 Model 60 and VLC Condensed Service Information
+**document=doc{DEC:EK-VAXST-UP-001} ! VAXstation 3100 Fam to VAXstation 4000 Model 60 Upgrade Gde
+**document=doc{DEC:EK-VX463-IN-A01} ! VAXstation 3100 Family to VAXstation 4000 Model 60/90 Upgrade
+**document=doc{DEC:VS4060-BOX} ! System Enclosure Specification VS4000 Model 60
 **Sys-name: VAXstation 4000-60
 **Desc-name: VAXstation 4000 Model 60
 **Announcement**uref{*2}: 30 October 1991
@@ -2632,6 +2731,11 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{1} = ref{EK-V48VB-SV.001}
 **def-lref{2} = ref{EC-N0857-51}
 **Def-lref{3} = ref{DECdirect-FEB92}
+**document=doc{DEC:EK-V48VB-SV-001} ! VAXstation 4000 VLC Service Information
+**document=doc{DEC:EP-VAXVL-OG-B01} ! VAXstation 4000 VLC owner's guide
+**document=doc{DEC:EK-VSFAX-UP.002} ! VS 2000 and VS 3100 family to VAXstation 4000 VLC Upgrade Guide
+**document=doc{DEC:EK-VSAXP-UP-A01} ! VAXstation VLC to DEC 3000 Model 300/300L AXP Upgrade
+**document=doc{DEC:VLC} ! VLC System Enclosure Specification
 **Announcement**uref{*2}: 30 October 1991
 **Codename: VLC
 **OS-support-VMS**uref{*102}: V5.5
@@ -2701,6 +2805,9 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{VS8000}{VAX}{VAXstation}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
 **def-lref{2} = ref{OVMS-REL-HIST-20100621}
+**document=doc{DEC:EK-VS800-OM-001} ! VAXstation 8000 Owner's Manual
+**document=doc{DEC:EK-VS800-SG-001.TXT} ! VAXstation 8000 Service Guide
+**document=doc{DEC:EK-VS800-IG-001} ! VAXstation 8000 Installation Guide
 **Sys-name: VAXstation 8000
 **Announcement: February 1988
 **Codename**uref{*102 *DU MAR-1988}: Lynx
@@ -2736,6 +2843,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Desc-name: VAXft Model 110
 **Announcement: March 1991
 **Codename: Cirrus II
+**document=doc{DEC:EK-FTV11-IP-001} ! VAXft System Model 110 IPB
 ! AKA Elsie?
 **OS-support-VMS: V5.4-3
 **Num-proc: 1
@@ -2754,6 +2862,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{VXFT310}{VAX}{VAXFT}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
 **def-lref{2} = ref{SOCEE-SPR90}
+**document=doc{DEC:VAXFT-ARCHITECTURE} ! VAXft 310 Architecture Overview
 **Sys-name: VAXft 310
 **Desc-name: VAXft Model 310
 **Announcement**uref{*18, %VAXFT:68.0 }: 27 February 1990
@@ -2806,6 +2915,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VXFT610}{VAX}{VAXFT}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
+**document=doc{DEC:EK-FTV61-IP-001} ! VAXft System Models 610 and 612 IPB
 **Sys-name: VAXft 610
 **Desc-name: VAXft Model 610
 **OS-support-VMS: V5.4-3
@@ -2815,6 +2925,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VXFT810}{VAX}{VAXFT}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
+**document=doc{DEC:EK-VX810-CG.A01} ! VAXft Systems Configuring the Model 810
+**document=doc{DEC:EK-FTV81-IP-A01} ! VAXft 810 System IPB
+**document=doc{DEC:EK-VXFTA-IN-A01} ! VAXft Systems Model 810 Installation Information
+**document=doc{DEC:EK-VXFTA-OP-A01} ! VAXft Systems Model 810 Operating Information
+**document=doc{DEC:EK-VXFTA-OP.A01} ! VAXft Systems Model 810 Operating Information
+**document=doc{DEC:EK-VXFTA-PI-A01} ! VAXft Systems Model 810 Proprietary Service Information
+**document=doc{DEC:EK-VXFTA-SI-A01} ! VAXft Model 810 Service Information
+**document=doc{DEC:EK-VXFTA-SP-A01} ! VAXft Systems Model 810 Site Preparation Guide
 **OS-support-VMS: V5.5-2HF and V6.2 (only)
 **Sys-name: VAXft 810
 **Desc-name: VAXft Model 810
@@ -2828,6 +2946,9 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{1} = ref{EB-25156-47}
 **def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{3} = ref{SOCEE-SPR90}
+**document=doc{DEC:EK-KD32A-OM-CN1} ! MicroVAX I Owner's Manual Release Notes
+**document=doc{DEC:EK-KD32A-PG-001} ! MicroVAX I Pocket Service Guide
+**document=doc{DEC:EK-KD32A-TD-002} ! MicroVAX I CPU Technical Description
 **Announcement**uref{*136}: October 1983
 **FRS-date**uref{*136}: late 1984
 **Codename**uref{*102}: Seahorse
@@ -2931,6 +3052,29 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{2} = ref{EB-30991-41}
 **def-lref{3} = ref{EB-31692-46}
 **def-lref{4} = ref{DTJ-V1-7}
+**document=doc{DEC:AZ-FE05A-TN} ! MicroVAX II 630QY, 630QZ Owner's Manual
+**document=doc{DEC:AZ-FE06A-TN} ! MicroVAX II 630QY, 630QZ Technical Manual
+**document=doc{DEC:AZ-GLBAA-MN} ! MicroVAX-II 630QB Technical Manual
+**document=doc{DEC:AZ-GLCAA-MN} ! MicroVAX-II 630QB Owners Manual
+**document=doc{DEC:EK-KA630-UG-PRE} ! MicroVAX 630 CPU Module User's Guide
+**document=doc{DEC:EK-78032-UG-PRE} ! MicroVAX 78032 32-Bit Central Processing Unit User's Guide
+**document=doc{DEC:EK-GLOAA-MN-001} ! MicroVAX II 630QY & 630QZ Systems Technical Manual
+**document=doc{DEC:EK-630QB-IP-002} ! *ipb* MicroVAX II 630 QB World Box
+**document=doc{DEC:EK-630QE-IP-002} ! *ipb* MicroVAX II 630 QE Cabinet System
+**document=doc{DEC:EK-630QP-IP-001} ! *ipb* MicroVAX II 630 QY Pedestal Mount
+**document=doc{DEC:EK-630QS-IP-001} ! *ipb* 630QS MicroVAX II System
+**document=doc{DEC:EK-630QY-IP-002} ! *ipb* MicroVAX II 630 QY Pedestal Mount
+**document=doc{DEC:EK-630QZ-IP-001} ! *ipb* MicroVAX II 630 QZ Rack Mount
+**document=doc{DEC:EK-630QZ-IP-002} ! *ipb* MicroVAX II 630 QZ Rack Mount
+**document=doc{DEC:EK-MV630-IP-001} ! *ipb* 630QT MicroVAX II System
+**document=doc{DEC:EK-O0AB-IG-002} ! MicroVAX II 630QY,630QZ Installation
+**document=doc{DEC:EK-63XRA-IN-001} ! MicroVAX II Upgrade Installation Guide
+**document=doc{DEC:AZ-GM3AA-MN} ! MicroVAX Maintenance Guide
+**document=doc{DEC:EK-A0207-IN-001} ! Compact MicroVAX II Installation Manual
+**document=doc{DEC:EK-A0208-OM-001} ! Compact MicroVAX II Operation Manual
+**document=doc{DEC:EK-A0209-SG-001} ! Compact MicroVAX II Troubleshooting Service Guide
+**document=doc{DEC:EK-A0210-IS-001} ! Compact MicroVAX II Technical Information
+**document=doc{DEC:DTJ-V1-2} ! "MicroVAX II System", Digital Technical Journal, Vol 1 No 2, March 1986
 **Announcement**uref{*40}: 14 May 1985
 **FRS-date: May 1985
 **Codename: Mayflower
@@ -3042,6 +3186,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{3} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{4} = ref{EK-A0513-MG.001}
 **Def-lref{5} = ref{DECdirect-FEB92}
+**document=doc{DEC:EK-A0513-MG-001} ! MicroVAX 3100 Platform KA45 System CPU Maintenance
+**document=doc{DEC:EK-A0516-TM-001} ! MicroVAX 3100 Model 30 Troubleshooting and Diagnostic Information
+**document=doc{DEC:EK-A0517-CL-001} ! MicroVAX 3100 Model 40/80 Read Before Installing
+**document=doc{DEC:EK-A0518-TM-001} ! MicroVAX 3100 Model 40 and Model 80 Troubleshooting and
+**document=doc{DEC:EK-A0520-IN.001} ! MicroVAX 3100 Model 30 Installation Information
+**document=doc{DEC:EK-A0521-UG.001} ! MicroVAX 3100 Model 30 Operator Information
+**document=doc{DEC:EK-A0522-TD-001} ! MicroVAX 3100 Model 30 Customer Technical Information
+**document=doc{DEC:EK-A0616-TM-001} ! MicroVAX 3100 Model 30 Troubleshooting and
 **Codename: Waverly
 **OS-support-VMS: V5.5
 **CPU-module**vref{1,2,4}: KA45
@@ -3132,6 +3284,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Desc-name: MicroVAX 3100 Model 90/90A
 **def-lref{1} = ref{EK-A0606-TM.B01}
 **def-lref{2} = ref{EK-M3100-SM.B01}
+**document=doc{DEC:EK-A0514-MG} ! MicroVAX 3100 Platform KA50 CPU System Maintenance
+**document=doc{DEC:EK-A0604-IN-B01} ! MicroVAX 3100 Model 90 Installation Information
+**document=doc{DEC:EK-A0606-TM-B01} ! MicroVAX 3100 Model 90 Customer Technical Information
+**document=doc{DEC:EK-A0607-TI-B01} ! MicroVAX 3100 Model 90 Troubleshooting and Diag Information
 **Announcement: 7 July 1992
 **Codename: Cheetah-W
 **OS-support-VMS: V5.5-2HW
@@ -3336,6 +3492,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{2} = ref{EC-N0377-46}
 **def-lref{3} = ref{EK-VAXCT-CG-006}
 **def-lref{4} = ref{OVMS-REL-HIST-20100621}
+**document=doc{DEC:EK-KA655-TM-001} ! KA655 CPU Module Technical Manual
 **Announcement**uref{*27 p14}: 10 April 1989
 **Codename**uref{*47}: Mayfair III
 !**OS-support-VMS**uref{*26}: V5.1
@@ -3383,6 +3540,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{5} = ref{EB-31692-46}
 **def-lref{6} = ref{SOCEE-SPR90}
 **def-lref{7} = ref{OVMS-REL-HIST-20100621}
+**document=doc{DEC:EK-MVXAA-OM-001} ! MicroVAX 2000 Owner's Manual
+**document=doc{DEC:EK-MVXAA-TM-001} ! MicroVAX 2000 Technical Information
+**document=doc{DEC:EK-MVXAA-IG-001} ! MicroVAX 2000 Hardware Installation Guide
+**document=doc{DEC:EK-VTTAA-TM-001} ! VAXstation 2000 and MicroVAX 2000 Technical Manual
 !vref{1} p 3-232.
 !The MicroVAX 2000 and VAXstation 2000 are based on the same system module,
 !the KA410: a single jumper determines which system type the module is.
@@ -3463,6 +3624,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{5} = ref{EB-31692-46}
 **def-lref{6} = ref{EK-VAXCT-CG-006}
 **def-lref{7} = ref{OVMS-REL-HIST-20100621}
+**document=doc{DEC:EK-VTTAA-TM-001} ! VAXstation 2000 and MicroVAX 2000 Technical Manual
+**document=doc{DEC:EK-V2000-SG-001} ! VAXstation 2000 System Guide
+**document=doc{DEC:VS40X} ! VS2000 Color Board option Engineering Specification
+**document=doc{DEC:VS42x} ! VS42X-RB Storage Controller Engineering Specification
 !The MicroVAX 2000 and VAXstation 2000 are based on the same system module,
 !the KA410: a single jumper determines which system type the module is
 !configured for.
@@ -3955,6 +4120,11 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{VS3100-30-38-76-PERF}
 **Def-lref{6} = ref{EC-N0857-51}
 **def-lref{7} = ref{OVMS-REL-HIST-20100621}
+**document=doc{DEC:EK-265AA-OM-001} ! VAXstation 3100 Model 30 Owner's Manual
+**document=doc{DEC:EK-331AA-AD-001} ! VAXstation 3100 Maintenance Guide Addendum: Options Installation
+**document=doc{DEC:EK-288AA-IP-001} ! *ipb* VAXstation 3100
+**document=doc{DEC:EK-393AA-CL-001} ! VAXstation 3100 Cover Letter
+**document=doc{DEC:VS3100_SYS_ENCL} ! VS3100 System Enclosure Engineering Specification
 **Last-order**uref{*108}: 30 August 1991
 **Last-ship**uref{*108}: 27 September 1991
 **Codename: PVAX0			
@@ -4023,6 +4193,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{VS3100-30-38-76-PERF}
 **Def-lref{6} = ref{EC-N0857-51}
 **Def-lref{7} = ref{DECdirect-AUG91}
+**document=doc{DEC:EK-VSM30-OM-002} ! VAXstation 3100 Model 38 Owner's Manual
+**document=doc{DEC:EK-VSM40-OM-002} ! VAXstation 3100 Model 48
+**document=doc{DEC:VS3138-OM} ! VAXstation 3100 Model 38 Owner's Manual. July 1990. (Bookreader)
+**document=doc{DEC:EK-V3100-IP-001} ! *ipb* VAXstation 3100 Model 38/Model 48
 **Announcement**uref{*31}: November 1989
 **Codename**uref{*47}: PVAX1
 **Html-target: vs3100
@@ -4100,6 +4274,11 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{VS3100-30-38-76-PERF}
 **Def-lref{6} = ref{EC-N0857-51}
 **def-lref{7} = ref{EK-VAXCT-CG-006}
+**document=doc{DEC:EK-VX31M-UG-001} ! VAXstation 3100 Model 76 Owner's Guide
+**document=doc{DEC:EK-VS31M-MG-002} ! VAXstation 3100 Model 76 Maintenance Guide
+**document=doc{DEC:EK-VX31M-CG-002} ! VAXstation 3100 Model 76 Upgrade Guide
+**document=doc{DEC:VS3176-OM} ! VAXstation 3100 Model 76 Owner's Manual. March 1991. (Bookreader)
+**document=doc{DEC:EK-VSM31-CL} ! Cover Letter for VAXstation 3100, Model 76 Systems
 **Announcement**uref{*48}: 25 October 1990
 **Codename: Panther
 **Html-target: vs3100
@@ -4172,6 +4351,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{1} = ref{EK-KA490-SV.A01}
 **Def-lref{2} = ref{EC-N0857-51}
 **Def-lref{3} = ref{DECdirect-NOV92}
+**document=doc{DEC:EK-KA490-SV-A01} ! VAXstation 4000 Model 90 Service Information
+**document=doc{DEC:EK-VAXOG-IN-B01} ! VAXstation 4000 Model 90 Owner's and System Installation Guide
+**document=doc{DEC:EK-VX690-UP-A01} ! VAXstation 4000 Model 60 to VAXstation 4000 Model 90 Upgrade Guide
+**document=doc{DEC:VS TCA} ! VAXstation 4000 Model 60/90 TURBOchannel Bus Adapter Specification
 **Announcement**uref{*SUE Jul 1992}: 7 July 1992
 **Codename: Cougar
 **OS-support-VMS: VMS V5.5-2HW
@@ -4233,6 +4416,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Sys-name: VAXstation 4000-96
 **Desc-name: VAXstation 4000 Model 96
 **Def-lref{1} = ref{CU-V6-4A}
+**document=doc{DEC:EK-VAX96-CL-A01} ! VAXstation 4000 Model 96 Update Information
+**document=doc{DEC:EK-VAXST-CL-B01} ! VAXstation 4000 Model 96 Update Information
 **Announcement**htref{1}: 11 April 1995
 **OS-support-VMS: VMS V5.5-2H4
 **Html-target: vs409x
@@ -4357,6 +4542,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{6} = ref{CU-V6-4A}
 **Def-lref{7} = ref{CU-V8-1B}
 **def-lref{8} = ref{EK-VAXCT-CG-006}
+**document=doc{DEC:EK-A0514-MG-001} ! MicroVAX 3100 Platform KA47 CPU System Maintenance
+**document=doc{DEC:EK-A0523-IN.001} ! MicroVAX 3100 Model 40 and Model 80 Installation Information
+**document=doc{DEC:EK-A0524-UG.001} ! MicroVAX 3100 Model 40 and Model 80 Operator Information
+**document=doc{DEC:EK-A0525-TD-001} ! MicroVAX 3100 Model 40 and Model 80
 **Sys-name: MicroVAX 3100-80
 **Desc-name: MicroVAX 3100 Model 80
 **Codename: Waverly-Mariah
@@ -4416,6 +4605,11 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{CU-V5-8B}
 **Def-lref{6} = ref{CU-V6-4A}
 **Def-lref{7} = ref{CU-V8-1B}
+**document=doc{DEC:EK-A0718-TI-C01} ! MicroVAX 3100 Model 85/95/96 Customer Technical Information
+**document=doc{DEC:EK-A0715-CL-C01} ! MicroVAX 3100 Model 85/95/96 Customer Letter
+**document=doc{DEC:EK-A0716-IN-C01} ! MicroVAX 3100 Model 85/95/96 Installation Information
+**document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
+**document=doc{DEC:EK-A0719-TM-C01} ! MicroVAX 3100 Model 85/95/96 Troubleshooting & Diagnostics Info
 **Sys-name: MicroVAX 3100-85
 **Desc-name: MicroVAX 3100 Model 85
 **Announcement**htref{5}: 15 August 1994
@@ -4494,6 +4688,11 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{CU-V5-4A}
 **Def-lref{4} = ref{CU-V6-4A}
 **Def-lref{5} = ref{CU-V8-1B}
+**document=doc{DEC:EK-A0718-TI-C01} ! MicroVAX 3100 Model 85/95/96 Customer Technical Information
+**document=doc{DEC:EK-A0715-CL-C01} ! MicroVAX 3100 Model 85/95/96 Customer Letter
+**document=doc{DEC:EK-A0716-IN-C01} ! MicroVAX 3100 Model 85/95/96 Installation Information
+**document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
+**document=doc{DEC:EK-A0719-TM-C01} ! MicroVAX 3100 Model 85/95/96 Troubleshooting & Diagnostics Info
 **Announcement**lref{3}: 12 April 1994
 **Last-order**htref{4}: 29 July 1995
 **Html-target: uv319x
@@ -4552,6 +4751,11 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{CU-V5-4A}
 **Def-lref{4} = ref{CU-V6-4A}
 **Def-lref{5} = ref{CU-V8-1B}
+**document=doc{DEC:EK-A0718-TI-C01} ! MicroVAX 3100 Model 85/95/96 Customer Technical Information
+**document=doc{DEC:EK-A0715-CL-C01} ! MicroVAX 3100 Model 85/95/96 Customer Letter
+**document=doc{DEC:EK-A0716-IN-C01} ! MicroVAX 3100 Model 85/95/96 Installation Information
+**document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
+**document=doc{DEC:EK-A0719-TM-C01} ! MicroVAX 3100 Model 85/95/96 Troubleshooting & Diagnostics Info
 **Announcement**htref{4}: 11 April 1995
 **FRS-date**htref{4}: 19 May 1995
 **OS-support-VMS: VMS V5.5-2H4
