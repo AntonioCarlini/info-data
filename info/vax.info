@@ -1285,6 +1285,7 @@
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{3} = ref{SOCEE-SPR90}
+**Def-lref{4} = ref{EG-21731-18}
 **document=doc{DEC:EA-22245-18_82} ! Introducing the VAX-11/730
 **document=doc{DEC:EK-11730-UG-002} ! VAX-11/730 Hardware User's Guide
 **document=doc{DEC:EK-MS730-TD-001} ! VAX-11/730 Memory System Technical Decsription
@@ -1298,15 +1299,17 @@
 **document=doc{DEC:MP01270} ! 11730-Z Field Maintenance Print Set
 **document=doc{DEC:MP01278} ! RB730 Field Maintenance Print Set
 **document=doc{DEC:MP01364} ! FP730 Field Maintenance Print Set
-**Announcement: April 1982
+**Announcement**vref{4}: April 1982
+**FCS-date**vref{4}: May 1982
 **Codename: Nebula
-**OS-support-VMS: VMS V3.0
+**OS-support-VMS**vref{4}: VMS V3.0
 **CPU-module: KA730
 **Module: @@
 **Num-proc: 1
 **CPU-technology**vref{1}: Bipolar Schottky
 **CPU-clock: @@
 **CPU-cycle**vref{1}: 270ns
+**Cache**vref{4}: None
 **Instruction-buffer**vref{1}: 4 bytes
 **Translation-buffer**vref{1}: 128 entries
 **WCS**vref{1}: 16K 24-bit words
@@ -1316,7 +1319,7 @@
 !**VUPs**htref{2}: 0.3
 **VUPs**vref{3}: 0.3
 **Minimum-memory**vref{1}: 1MB
-**Maximum-memory**htref{**1}: 5MB
+**Maximum-memory**vref{4}: 5MB
 **Physical-address-lines**vref{1}: 24
 **Memory-checking**vref{1}: 7-bit ECC/longword
 **Memory-cycle**vref{1}: 810ns
@@ -1377,6 +1380,7 @@
 **def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{3} = ref{SOCEE-SPR90}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
+**Def-lref{5} = ref{EG-21731-18}
 **document=doc{DEC:EK-SI750-IN-003} ! VAX-11/750 Installation and Acceptance Manual
 **document=doc{DEC:EK-D5283-SG-002} ! DIGITAL VAX-11/750 Magic Book
 **document=doc{DEC:EK-VAXV3-HB-001} ! VAX Maintenance Handbook VAX-11/750
@@ -1395,8 +1399,10 @@
 **document=doc{DEC:MP01390} ! 750 PCS Field Maintenance Print Set
 **document=doc{DEC:MP01647} ! CI750 Field Maintenance Print Set
 **document=doc{DEC:VAX-11/750 Workbook} ! VAX-11/750 Level II Student Workbook
-**Announcement**uref{DU JAN-1986}: 1980
-**Frs-date**uref{DU JAN-1986}: October 1980
+! **Announcement**uref{DU JAN-1986}: 1980
+**Announcement**vref{5}: October 1980
+**Fcs-date**vref{5}: November 1980
+!**Frs-date**uref{DU JAN-1986}: October 1980
 **Codename: Comet
 **OS-support-VMS**uref{*26}: VMS V2.0
 **CPU-name-VMS**uref{2}: KA750
@@ -1419,7 +1425,7 @@
 **VUPs**vref{3}: 0.6
 **Minimum-memory**vref{1}: 1MB
 **Maximum-memory**uref{*4}: 14MB
-**Physical-address-lines**uref{*82}: 24
+**Physical-address-lines**vref{5}: 24
 **Memory-checking**vref{1}: 7-bit ECC/longword
 !
 ![1] 640ns per 32-bit write, 400ns (effective) per 32-bit write, 800ns per 32-bit read
@@ -1568,6 +1574,7 @@
 **def-lref{2} = ref{SOCEE-SPR90}
 **def-lref{3} = ref{EY-3459E-DP}
 **def-lref{4} = ref{OVMS-AT-TWENTY}
+**Def-lref{5} = ref{EG-21731-18}
 **document = doc{DEC:EB-07466-20}
 **document = doc{DEC:EK-11780-UG-001}
 **document = doc{DEC:EK-SI780-IN-002}
@@ -1595,11 +1602,12 @@
 **document = doc{DEC:MP00539}
 **document = doc{DEC:MP01759}
 **Announcement**vref{4}: 25 October 1977
+**FCS-date**vref{5}: February 1978
 **Codename**vref{4}: Star
 **OS-support-VMS**uref{*26}: VMS V1.5
 **CPU-name-VMS: KA780
 **Num-proc: 1
-**CPU-technology**uref{*34}: Bipolar Schottky
+**CPU-technology**vref{5}: Bipolar Schottky
 **Gate-delay**uref{34}: 3ns
 **CPU-cycle**vref{1}: 200ns
 **Instruction-buffer**vref{1}: 8 bytes
@@ -1613,7 +1621,7 @@
 **VUPs**vref{2}: 1.0
 **Minimum-memory**uref{*1}: 2MB
 **Maximum-memory**uref{*1}: 64MB
-**Physical-address-lines**uref{*4,*82}: 30
+**Physical-address-lines**vref{4}: 30
 **Memory-checking**vref{1}: 8-bit ECC/longword
 ! [1] has 800ns per 64-bit read, 1300ns per 64-bit read with SBE, 1400ns per 64-bit write
 **Max-I/O-throughput: 5.0MB/s
@@ -1649,9 +1657,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{VAX782}{VAX}{UNIBUS}
 **Sys-name: VAX-11/782
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1} 
+**Def-lref{2} = ref{EG-21731-18}
+**Announcement**vref{2}: February 1982
+**FCS-date**vref{2}: June 1982
 **Codename: Atlas
 **Html-target: vax780
-**OS-support-VMS**uref{*26}: to VMS V4.7
+! support dropped after VMS V4.7
+**OS-support-VMS**vref{2}: V3.0
 **Num-proc: 2
 **CPU-technology**uref{*34}: Bipolar Schottky
 **Gate-delay**uref{34}: 3ns
@@ -1661,7 +1673,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Control-store**vref{1}: 4K 99-bit words
 **UWCS**vref{1}: 2K 99-bit words
 **Cache**vref{1}: 8KB
-**Compatibility-mode**htref{**1}: Yes
+**Compatibility-mode**vref{2}: Yes
 **Console-processor**vref{1}: LSI-11
 **Console-device**vref{1}: RX01
 !**VUPs**uref{SUE 5.19}: 1.8

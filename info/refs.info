@@ -9131,6 +9131,13 @@
 **Ref-text: Nothing Stops It. VAX Open VMS At 20
 **End-ref{OVMS-AT-TWENTY}
 
+**start-ref{EG-21731-18}
+**ref-text: VAX Product Sales Guide
+**ref-partno: EG-21731-18
+**ref-publisher: DEC
+**ref-date: 1982-04-xx
+**end-ref{EG-21731-18}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
