@@ -50,10 +50,15 @@ class System
     @possible_tags = possible_tags
     @docs = []
     @text_block = []
+    @local_references = []
   end
   
   def set_docs(docs)
     @docs = docs  # Intended to be an array
+  end
+
+  def set_local_references(refs)
+    @local_references = refs # Intended to be an array
   end
 
   def add_text(extra_text)
@@ -86,6 +91,9 @@ class System
 
     # If @docs is present and not empty, try representing it
     h["docs"] = @docs unless @docs.nil?() || @docs.empty?()
+
+    # If @local_references is present and not empty, try representing it
+    h["local_references"] = @local_references unless @local_references.nil?() || @local_references.empty?()
 
     # If @text_block is present and not empty, try representing it
     h["text_block"] = @text_block unless @text_block.nil?() || @text_block.empty?()
@@ -215,6 +223,7 @@ class Systems
 ##          $stderr.puts("#{local_refs[k]} used #{count_text} times in #{current.identifier()}") if local_refs_non_vref_count[k] > 0
         }
         current.set_docs(local_docs.values())
+        current.set_local_references(local_refs)
         systems.add_system(current)
         current = nil
         local_refs = {}  # Discard "local" references
