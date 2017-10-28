@@ -47,6 +47,7 @@ systems.keys().each() {
     next if prop =~ /option-title/i
     next if prop =~ /docs/i
     next if prop =~ /text_block/i
+    next if prop =~ /local_references/i
     array_of_values = properties[prop]
     value = array_of_values[0]
     ref_index = nil   # No reference present, or invalid reference present
@@ -65,7 +66,11 @@ systems.keys().each() {
       ref_text = " [[#ref_#{ref_index}|[#{ref_index}]]]"
     end
     puts("|-")
-    puts("| #{tags[prop].display_text()}")
+    begin
+      puts("| #{tags[prop].display_text()}")
+    rescue
+      $stderr.puts("Failed on prop [#{prop}] for #{system_name}")
+    end
     puts("| #{value}#{ref_text}")
   }
   puts("|}")
