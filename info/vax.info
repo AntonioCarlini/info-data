@@ -3549,6 +3549,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{5} = ref{EB-31692-46}
 **def-lref{6} = ref{SOCEE-SPR90}
 **def-lref{7} = ref{OVMS-REL-HIST-20100621}
+**def-lref{8} = ref{CBR-PR-1987-02-10}
 **document=doc{DEC:EK-MVXAA-OM-001} ! MicroVAX 2000 Owner's Manual
 **document=doc{DEC:EK-MVXAA-TM-001} ! MicroVAX 2000 Technical Information
 **document=doc{DEC:EK-MVXAA-IG-001} ! MicroVAX 2000 Hardware Installation Guide
@@ -3557,6 +3558,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !The MicroVAX 2000 and VAXstation 2000 are based on the same system module,
 !the KA410: a single jumper determines which system type the module is.
 !configured for.
+**Announcement**vref{8}: 9 February 1987
 **Codename: Teammate
 **Html-target: uvvs2000
 **OS-support-VMS**vref{7}: V4.5B
@@ -3633,6 +3635,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{5} = ref{EB-31692-46}
 **def-lref{6} = ref{EK-VAXCT-CG-006}
 **def-lref{7} = ref{OVMS-REL-HIST-20100621}
+**def-lref{8} = ref{CBR-PR-1987-02-10}
 **document=doc{DEC:EK-VTTAA-TM-001} ! VAXstation 2000 and MicroVAX 2000 Technical Manual
 **document=doc{DEC:EK-V2000-SG-001} ! VAXstation 2000 System Guide
 **document=doc{DEC:VS40X} ! VS2000 Color Board option Engineering Specification
@@ -3640,6 +3643,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !The MicroVAX 2000 and VAXstation 2000 are based on the same system module,
 !the KA410: a single jumper determines which system type the module is
 !configured for.
+**Announcement**vref{8}: 9 February 1987
 **Codename: VAXstar
 **Html-target: uvvs2000
 **OS-support-VMS**vref{7}: V4.5B

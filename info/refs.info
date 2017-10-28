@@ -9138,6 +9138,19 @@
 **ref-date: 1982-04-xx
 **end-ref{EG-21731-18}
 
+**start-ref{VAX-FINAL-LETTER-JESSIE_LIPCON}
+**ref-text: A letter from Jessie Lipcon
+**ref-publisher: DEC
+**ref-url: https://web.archive.org/web/20000815201016/http://www.compaq.com/alphaserver/vax/vax_letter_final.html
+**end-ref{VAX-FINAL-LETTER-JESSIE_LIPCON}
+
+**start-ref{CBR-PR-1987-02-10}
+**ref-text: Computer Business Review. Press Release. 10th Feb 1987
+**ref-publisher: Computer Business Review
+**ref-date: 1987-02-10
+**ref-url: http://www.cbronline.com/news/dec_puts_old_wine_into_new_bottles_with_microvax_2000
+**end-ref{CBR-PR-1987-02-10}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
