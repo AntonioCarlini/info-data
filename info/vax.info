@@ -1751,13 +1751,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{5} = ref{SOCEE-SPR90}
 **def-lref{6} = ref{OVMS-REL-HIST-20100621}
 **document=doc{DEC:EK-KA820-TM-001} ! KA820 Processor Technical Manual
-**document=doc{DEC:AZ-GN4AB-TE} ! VAX 8200/8300 Owner's Manual
 **document=doc{DEC:AZ-GN4AC-TE} ! VAX 8200/8300 Owner's Manual
-**document=doc{DEC:AZ-GN5AB-TE} ! VAX 8200/8300 Installtaion Guide
 **document=doc{DEC:AZ-GN5AC-TE} ! VAX 8200/8300 Installation Guide
 **document=doc{DEC:AZ-GN6AB-TE} ! VAX 8200/8300 Mini-Reference
 **document=doc{DEC:EK-821BA-RM-A} ! RM-821BA-Y-0 REV A 8200/8300 System Revision Matrix
-**document=doc{DEC:KS-10186-AB} ! VAX 8300. The High Performance System for Departmental Computing
 **document=doc{DEC:KS-20186-AB} ! VAX 8200. The New Leader in Departmental Computing
 **Announcement**uref{*102}: 29 January 1986
 **Codename: Scorpio
@@ -1921,6 +1918,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{2} = ref{VAX-HW-HB-1986-V2}
 **def-lref{3} = ref{EB-31692-46}
 **def-lref{4} = ref{EK-KA825-MA-001}
+**document=doc{DEC:KS-10186-AB} ! VAX 8300. The High Performance System for Departmental Computing
 **Announcement**uref{*102}: 29 January 1986
 **Codename: Scorpio
 **Html-target: vax8200
@@ -4151,7 +4149,6 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-265AA-OM-001} ! VAXstation 3100 Model 30 Owner's Manual
 **document=doc{DEC:EK-331AA-AD-001} ! VAXstation 3100 Maintenance Guide Addendum: Options Installation
 **document=doc{DEC:EK-288AA-IP-001} ! *ipb* VAXstation 3100
-**document=doc{DEC:EK-393AA-CL-001} ! VAXstation 3100 Cover Letter
 **document=doc{DEC:VS3100_SYS_ENCL} ! VS3100 System Enclosure Engineering Specification
 **Last-order**uref{*108}: 30 August 1991
 **Last-ship**uref{*108}: 27 September 1991
@@ -4306,7 +4303,6 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-VS31M-MG-002} ! VAXstation 3100 Model 76 Maintenance Guide
 **document=doc{DEC:EK-VX31M-CG-002} ! VAXstation 3100 Model 76 Upgrade Guide
 **document=doc{DEC:VS3176-OM} ! VAXstation 3100 Model 76 Owner's Manual. March 1991. (Bookreader)
-**document=doc{DEC:EK-VSM31-CL} ! Cover Letter for VAXstation 3100, Model 76 Systems
 **Announcement**uref{*48}: 25 October 1990
 **Codename: Panther
 **Html-target: vs3100
@@ -4445,7 +4441,6 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Desc-name: VAXstation 4000 Model 96
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{VAX-FINAL-LETTER-JESSIE_LIPCON}
-**document=doc{DEC:EK-VAX96-CL-A01} ! VAXstation 4000 Model 96 Update Information
 **document=doc{DEC:EK-VAXST-CL-B01} ! VAXstation 4000 Model 96 Update Information
 **Announcement**htref{1}: 11 April 1995
 **Last-order**vref{2}: 30 September 1999
@@ -4639,7 +4634,6 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{6} = ref{CU-V6-4A}
 **Def-lref{7} = ref{CU-V8-1B}
 **document=doc{DEC:EK-A0718-TI-C01} ! MicroVAX 3100 Model 85/95/96 Customer Technical Information
-**document=doc{DEC:EK-A0715-CL-C01} ! MicroVAX 3100 Model 85/95/96 Customer Letter
 **document=doc{DEC:EK-A0716-IN-C01} ! MicroVAX 3100 Model 85/95/96 Installation Information
 **document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
 **document=doc{DEC:EK-A0719-TM-C01} ! MicroVAX 3100 Model 85/95/96 Troubleshooting & Diagnostics Info
@@ -4725,7 +4719,6 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{4} = ref{CU-V6-4A}
 **Def-lref{5} = ref{CU-V8-1B}
 **document=doc{DEC:EK-A0718-TI-C01} ! MicroVAX 3100 Model 85/95/96 Customer Technical Information
-**document=doc{DEC:EK-A0715-CL-C01} ! MicroVAX 3100 Model 85/95/96 Customer Letter
 **document=doc{DEC:EK-A0716-IN-C01} ! MicroVAX 3100 Model 85/95/96 Installation Information
 **document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
 **document=doc{DEC:EK-A0719-TM-C01} ! MicroVAX 3100 Model 85/95/96 Troubleshooting & Diagnostics Info
@@ -4788,7 +4781,6 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{4} = ref{CU-V6-4A}
 **Def-lref{5} = ref{CU-V8-1B}
 **document=doc{DEC:EK-A0718-TI-C01} ! MicroVAX 3100 Model 85/95/96 Customer Technical Information
-**document=doc{DEC:EK-A0715-CL-C01} ! MicroVAX 3100 Model 85/95/96 Customer Letter
 **document=doc{DEC:EK-A0716-IN-C01} ! MicroVAX 3100 Model 85/95/96 Installation Information
 **document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
 **document=doc{DEC:EK-A0719-TM-C01} ! MicroVAX 3100 Model 85/95/96 Troubleshooting & Diagnostics Info
