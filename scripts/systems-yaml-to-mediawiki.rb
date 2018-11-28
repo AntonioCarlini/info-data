@@ -47,6 +47,7 @@ systems.keys().each() {
     next if prop =~ /option-title/i
     next if prop =~ /docs/i
     next if prop =~ /text_block/i
+    next if prop =~ /local_references/i
     array_of_values = properties[prop]
     value = array_of_values[0]
     ref_index = nil   # No reference present, or invalid reference present

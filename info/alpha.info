@@ -762,6 +762,7 @@
 **Start-systems-entry{AS1000A-4-266}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000A 4/266
 **def-lref{1} = ref{CU-V7-2A}
+**def-lref{2} = ref{AS1000A-TECHSUM}
 !-- [1]: integrated SVGA controller for both 4/233 and 4/266 -->
 !-- V7-3B 1-Mar-1996 gives Rackmount variant dimensions as: 10.50-inches high by 19-inches wide by 27 inches deep -->
 **Announcement**htref{1}: 1 February 1996
@@ -776,6 +777,47 @@
 **BUS-PCI-or-EISA**htref{1}: 1 slot
 **BUS-SCSI**htref{1}: 1 FW
 **End-systems-entry{AS1000A-4-266}
+
+**Start-systems-entry{AS1000A-5-300}{ALPHA}{AS1000}
+**Sys-name: AlphaServer 1000A 5/300
+**def-lref{1} = ref{EK-ALPSV-SV.B01}
+! [1] has:
+!CPU Modules
+!54-24799-01 400 MHz CPU daughter board Section 6.2.3
+!54-24799-02 333 MHz CPU daughter board Section 6.2.3
+!54-24719-02 300 MHz CPU daughter board Section 6.2.3
+!54-23297-04 266 MHz CPU daughter board Section 6.2.3
+!54-23297-03 233 MHz CPU daughter board Section 6.2.3
+! More evidence that this system existed (https://www.eetimes.com/document.asp?doc_id=1208915)
+! Official TPC result: http://www.tpc.org/tpcc/results/tpcc_result_detail.asp?id=96080201
+! supported options: ftp://ftp.uni-bayreuth.de/pub/Digital/Alpha/systems/as1000a/docs/supported_options_pntk.txt
+! A partial DSOC entry: http://sup.xenya.si/sup/info/digital/Alpha/alpha%20server100a-so0042pf.pdf (20 SEP 1996)
+**CPU-clock**vref{1}: 300MHz
+**CPU-chip: DECchip 21164
+**Backup-cache: 2MB
+**End-systems-entry{AS1000A-5-300}
+
+**Start-systems-entry{AS1000A-5-333}{ALPHA}{AS1000}
+**Sys-name: AlphaServer 1000A 5/333
+**def-lref{1} = ref{AS1000A-TECHSUM}
+**Num-proc: 1
+**CPU-clock**vref{1}: 333MHz
+**Backup-cache**vref{1}: 2MB
+**Maximum-memory**vref{1}: 1GB
+**BUS-PCI**vref{1}: 7 slots
+**BUS-EISA**vref{1}: 2 slots
+**End-systems-entry{AS1000A-5-333}
+
+**Start-systems-entry{AS1000A-5-400}{ALPHA}{AS1000}
+**Sys-name: AlphaServer 1000A 5/400
+**def-lref{1} = ref{AS1000A-TECHSUM}
+**Num-proc: 1
+**CPU-clock**vref{1}: 400MHz
+**Backup-cache**vref{1}: 2MB
+**Maximum-memory**vref{1}: 1GB
+**BUS-PCI**vref{1}: 7 slots
+**BUS-EISA**vref{1}: 2 slots
+**End-systems-entry{AS1000A-5-400}
 
 **Start-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
 **Sys-name: AlphaServer 1200 5/333

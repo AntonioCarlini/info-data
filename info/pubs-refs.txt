@@ -74689,3 +74689,8 @@ start-publication PERTEC:PERTEC_Prod_Improvement_Bulletin_Speed_Bulletin_#178_Su
   fonds = fiche://PERTEC:PERTEC_Prod_Improvement_Bulletin_Speed_Bulletin_#178_Supplement_MAY_1981
 end-publication PERTEC:PERTEC_Prod_Improvement_Bulletin_Speed_Bulletin_#178_Supplement_MAY_1981
 
+start-publication DEC:AS-1000A-TS
+  title = AlphaServer 1000A Technical Summary
+  part-no = AS-1000A-TS
+  publisher = DEC
+end-publication DEC:AS-1000A-TS

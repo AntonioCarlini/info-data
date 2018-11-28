@@ -9138,6 +9138,11 @@
 **ref-date: 1982-04-xx
 **end-ref{EG-21731-18}
 
+**Start-ref{AS1000A-TECHSUM}
+**Ref-text: AlphaServer 1000A Technical Summary
+**Ref-electronic: PDF
+**ref-publisher: DEC
+**End-ref{AS1000A-TECHSUM}
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
