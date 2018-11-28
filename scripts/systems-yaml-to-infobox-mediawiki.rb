@@ -159,7 +159,10 @@ systems.keys().each() {
       |key, value|
       index = value[0]
       properties = value[1]
-      entry = properties['title']
+      entry = ""
+      entry += "[#{properties['url']} " unless properties['url'].nil?()
+      entry += properties['title']
+      entry += "]" unless properties['url'].nil?()
       entry += ". " + properties['part-no'] unless properties['part-no'].nil?()
       entry += ". " + properties['author'] unless properties['author'].nil?()
       entry += ". " + properties['date'] unless properties['date'].nil?()

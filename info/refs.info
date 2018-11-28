@@ -9138,11 +9138,76 @@
 **ref-date: 1982-04-xx
 **end-ref{EG-21731-18}
 
+**start-ref{VAX-FINAL-LETTER-JESSIE_LIPCON}
+**ref-text: A letter from Jessie Lipcon
+**ref-publisher: DEC
+**ref-url: https://web.archive.org/web/20000815201016/http://www.compaq.com/alphaserver/vax/vax_letter_final.html
+**end-ref{VAX-FINAL-LETTER-JESSIE_LIPCON}
+
+**start-ref{CBR-PR-1987-02-10}
+**ref-text: Computer Business Review. Press Release. 10th Feb 1987
+**ref-publisher: Computer Business Review
+**ref-date: 1987-02-10
+**ref-url: http://www.cbronline.com/news/dec_puts_old_wine_into_new_bottles_with_microvax_2000
+**end-ref{CBR-PR-1987-02-10}
+
+**start-ref{CBR-PR-1989-04-10}
+**ref-text: Computer Business Review. Press Release. 10th Apr 1989
+**ref-publisher: Computer Business Review
+**ref-date: 1989-04-10
+**ref-url: http://www.cbronline.com/news/dec_hits_at_as400_with_mvax_3800_3900_pricing
+**end-ref{CBR-PR-1989-04-10}
+
+**start-ref{CBR-PR-1994-08-23}
+**ref-text: Computer Business Review. Press Release. 23rd Aug 1994
+**ref-publisher: Computer Business Review
+**ref-date: 1994-08-23
+**ref-url: http://www.cbronline.com/news/dec_rushes_to_rescue_of_vax_users_with_four_new_models
+**end-ref{CBR-PR-1994-08-23}
+
+**start-ref{CBR-PR-1992-01-28}
+**ref-text: Computer Business Review. Press Release. 28th Jan 1992
+**ref-publisher: Computer Business Review
+**ref-date: 1992-01-28
+**ref-url: http://www.cbronline.com/news/dec_launches_three_microvaxes_designed_and_made_in_ayr
+**end-ref{CBR-PR-1992-01-28}
+
+**start-ref{CBR-PR-1987-01-19}
+**ref-text: Computer Business Review. Press Release. 19th Jan 1987
+**ref-publisher: Computer Business Review
+**ref-date: 1987-01-19
+**ref-url: http://www.cbronline.com/news/dec_unveils_real_time_microvax_board_run_time_vaxeln
+**end-ref{CBR-PR-1987-01-19}
+
+**start-ref{CBR-PR-1988-10-19}
+**ref-text: Computer Business Review. Press Release. 19th Oct 1988
+**ref-publisher: Computer Business Review
+**ref-date: 1988-10-19
+**ref-url: http://www.cbronline.com/news/dec_aims_new_microvax_3300_3400_at_as400_new_disk_bus
+**end-ref{CBR-PR-1988-10-19}
+
+**start-ref{NYT-1984-04-04-785}
+**ref-text: Digital Adds to Computer Line
+**ref-publisher: New York Times
+**ref-date: 1984-04-04
+**ref-url: http://www.nytimes.com/1984/04/04/business/digital-adds-to-computer-line.html
+**Ref-author: Andrew Pollack
+**end-ref{NYT-1984-04-04-785}
+
+**start-ref{NYT-1987-09-10-uv3500}
+**ref-text: Aggressive Prices Set On Digital's New Array
+**ref-publisher: New York Times
+**ref-date: 1987-09-10
+**ref-url: http://www.nytimes.com/1987/09/10/business/aggressive-prices-set-on-digital-s-new-array.html
+**Ref-author: Calvin Sims
+**end-ref{NYT-1984-04-04-785}
+
 **Start-ref{AS1000A-TECHSUM}
 **Ref-text: AlphaServer 1000A Technical Summary
 **Ref-electronic: PDF
 **ref-publisher: DEC
 **End-ref{AS1000A-TECHSUM}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):

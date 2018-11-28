@@ -66,7 +66,11 @@ systems.keys().each() {
       ref_text = " [[#ref_#{ref_index}|[#{ref_index}]]]"
     end
     puts("|-")
-    puts("| #{tags[prop].display_text()}")
+    begin
+      puts("| #{tags[prop].display_text()}")
+    rescue
+      $stderr.puts("Failed on prop [#{prop}] for #{system_name}")
+    end
     puts("| #{value}#{ref_text}")
   }
   puts("|}")

@@ -26,7 +26,8 @@
 # isbn: ISBN
 # author: Author names
 # publisher: Publisher (but not used for DEC manuals)
-
+# url: where to find the document online
+#
 class Ref
   attr_accessor :author
   attr_accessor :date
@@ -39,7 +40,8 @@ class Ref
   attr_accessor :title
   attr_reader   :identifier
   attr_reader   :line_num
-  
+  attr_accessor :url
+
   def initialize(identifier, line_num)
     @identifier = identifier
     @line_num = line_num
@@ -53,6 +55,7 @@ class Ref
     @author = nil
     @publisher = nil
     @date = nil
+    @url = nil
   end
   
   def confidential(text)
@@ -75,6 +78,7 @@ class Ref
     h["author"] = @author unless @author.nil?()
     h["publisher"] = @publisher unless @publisher.nil?()
     h["date"] = @date unless @date.nil?()
+    h["url"] = @url unless @url.nil?()
 
     coder.represent_map(nil, h)
   end
@@ -161,6 +165,7 @@ class References
         when /^Ref-hardcopy$/ix     then ; # TODO yes/no ?
         when /^Ref-processed/ix     then ; # TODO yes/no ?
         when /^Ref-date$/ix         then current.date = value
+        when /^Ref-URL$/ix          then current.url = value
         else raise("Bad line read in #{info_filename} at line #{line_num}: #{line}")
         end
       elsif line.strip().empty?()

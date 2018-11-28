@@ -2,7 +2,7 @@
 
 require 'yaml'
 
-# A Tag represents almost that a YAML tag entry contains.
+# A Tag represents almost what a YAML tag entry contains.
 # name: the name of the tag (e.g. "FCS-date")
 # display_text: text to display to the user describing the tag (e.g. "FCS date")
 # category: the display category (e.g. 'summary', 'io')
