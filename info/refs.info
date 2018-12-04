@@ -9208,6 +9208,30 @@
 **ref-publisher: DEC
 **End-ref{AS1000A-TECHSUM}
 
+**start-ref{SPEC-res-9506}
+**ref-text: SPEC June '95 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/osg/news/news9506/
+**end-ref{SPEC-res-9506}
+
+**start-ref{SPEC-res-9509}
+**ref-text: SPEC September '95 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/osg/news/news9509/index.html
+**end-ref{SPEC-res-9509}
+
+**start-ref{SPEC-res-9512}
+**ref-text: SPEC December '95 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/osg/news/news9512/
+**end-ref{SPEC-res-9512}
+
+**start-ref{SPEC-res-98q1}
+**ref-text: SPEC First Quarter '98 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/osg/news/news98q1/
+**end-ref{SPEC-res-98q1}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
