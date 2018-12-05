@@ -9232,6 +9232,96 @@
 **ref-url: https://www.spec.org/osg/news/news98q1/
 **end-ref{SPEC-res-98q1}
 
+**start-ref{SPEC-res-96q1}
+**ref-text: SPEC First Quarter '96 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/osg/news/news96q1/
+**end-ref{SPEC-res-96q1}
+
+**start-ref{SPEC-res-96q2}
+**ref-text: SPEC Second Quarter '96 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/osg/news/news96q2/
+**end-ref{SPEC-res-96q2}
+
+**start-ref{SPEC-res-96q3}
+**ref-text: SPEC Third Quarter '96 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/osg/news/news96q3/
+**end-ref{SPEC-res-96q3}
+
+**start-ref{SPEC-res-96q4}
+**ref-text: Fourth Quarter '96 SPEC CPU95 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/cpu95/results/res96q4/
+**end-ref{SPEC-res-96q4}
+
+**start-ref{SPEC-res-97q1}
+**ref-text: SPEC First Quarter '97 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/osg/news/news97q1/
+**end-ref{SPEC-res-97q1}
+
+**start-ref{SPEC-res-97q2}
+**ref-text: SPEC Second Quarter '97 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/osg/news/news97q2/
+**end-ref{SPEC-res-97q2}
+
+**start-ref{SPEC-res-97q4}
+**ref-text: SPEC Fourth Quarter '97 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/osg/news/news97q4/
+**end-ref{SPEC-res-97q4}
+
+**start-ref{SPEC-res-98q2}
+**ref-text: SPEC Second Quarter '98 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/osg/news/news98q2/
+**end-ref{SPEC-res-98q2}
+
+**start-ref{SPEC-res-98q3}
+**ref-text: SPEC Third Quarter '98 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/osg/news/news98q3/
+**end-ref{SPEC-res-98q3}
+
+**start-ref{SPEC-res-99q1}
+**ref-text: First Quarter '99 SPEC CPU95 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/cpu95/results/res99q1/
+**end-ref{SPEC-res-99q1}
+
+**start-ref{SPEC-res-99q2}
+**ref-text: Second Quarter '99 SPEC CPU95 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/cpu95/results/res99q2/
+**end-ref{SPEC-res-99q2}
+
+**start-ref{SPEC-res-99q3}
+**ref-text: Third Quarter '99 SPEC CPU95 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/cpu95/results/res99q3/
+**end-ref{SPEC-res-99q3}
+
+**start-ref{SPEC-res-2000q1}
+**ref-text: First Quarter 2000 SPEC CPU95 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/cpu95/results/res2000q1/
+**end-ref{SPEC-res-2000q1}
+
+**start-ref{SPEC-res-2000q2}
+**ref-text: Second Quarter 2000 SPEC CPU95 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/cpu95/results/res2000q2/
+**end-ref{SPEC-res-2000q2}
+
+**start-ref{SPEC-res-2000q3}
+**ref-text: Third Quarter 2000 SPEC CPU95 Results
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/cpu95/results/res2000q3/
+**end-ref{SPEC-res-2000q3}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
