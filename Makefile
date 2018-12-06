@@ -4,9 +4,11 @@ SYSTEMS += pc
 SYSTEMS += pdp11
 SYSTEMS += vax
 
-REFS = yaml/refs.yaml
+YAML_OUTPUT = bin/yaml
 
-PUBS = yaml/pubs.yaml
+REFS = $(YAML_OUTPUT)/refs.yaml
+
+PUBS = $(YAML_OUTPUT)/pubs.yaml
 
 TAGS.SYSTEMS = scripts/systems-tags.yaml
 
@@ -27,11 +29,11 @@ GLOBAL_DEPENDENCIES += $(SCRIPTS)
 
 all: build.tree
 
-all: yaml/refs.yaml
+all: $(REFS)
 
-all: yaml/pubs.yaml
+all: $(PUBS)
 
-all: $(foreach SYS,$(SYSTEMS),yaml/$(SYS).yaml)
+all: $(foreach SYS,$(SYSTEMS),$(YAML_OUTPUT)/$(SYS).yaml)
 
 all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).mediawiki.txt)
 
@@ -45,28 +47,27 @@ all: $(foreach SYS,$(SYSTEMS),bin/infobox-$(SYS)-data.mediawiki.txt)
 
 build.tree:
 	@mkdir -p bin
-	@mkdir -p generated
-	@mkdir -p yaml
+	@mkdir -p $(YAML_OUTPUT)
 
-yaml/pubs.yaml:  info/pubs-refs.txt $(GLOBAL_DEPENDENCIES)
+$(PUBS):  info/pubs-refs.txt $(GLOBAL_DEPENDENCIES)
 	scripts/pub-txt-to-yaml.rb $< > $@
 
-yaml/refs.yaml:  info/refs.info $(GLOBAL_DEPENDENCIES)
+$(REFS):  info/refs.info $(GLOBAL_DEPENDENCIES)
 	scripts/refs-info-to-yaml.rb $< > $@
 
-yaml/alpha.yaml:  info/alpha.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+$(YAML_OUTPUT)/alpha.yaml:  info/alpha.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb alpha $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
-yaml/mips.yaml:  info/mips.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+$(YAML_OUTPUT)/mips.yaml:  info/mips.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb decmips $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
-yaml/pc.yaml:  info/pc.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+$(YAML_OUTPUT)/pc.yaml:  info/pc.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb decpc $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
-yaml/pdp11.yaml:  info/pdp11.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+$(YAML_OUTPUT)/pdp11.yaml:  info/pdp11.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb pdp11 $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
-yaml/vax.yaml:  info/vax.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+$(YAML_OUTPUT)/vax.yaml:  info/vax.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb vax $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
 bin/infobox-alpha-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
@@ -84,45 +85,43 @@ bin/infobox-pdp11-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
 bin/infobox-vax-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
 	scripts/systems-yaml-to-infobox-data.rb vax $(TAGS.SYSTEMS) > $@
 
-bin/alpha.mediawiki.txt: yaml/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+bin/alpha.mediawiki.txt: $(YAML_OUTPUT)/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	@mkdir -p bin
 	scripts/systems-yaml-to-mediawiki.rb alpha $< $(TAGS.SYSTEMS) $(REFS) > $@
 
-bin/mips.mediawiki.txt: yaml/mips.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+bin/mips.mediawiki.txt: $(YAML_OUTPUT)/mips.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	@mkdir -p bin
 	scripts/systems-yaml-to-mediawiki.rb decmips $< $(TAGS.SYSTEMS) $(REFS) > $@
 
-bin/pc.mediawiki.txt: yaml/pc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+bin/pc.mediawiki.txt: $(YAML_OUTPUT)/pc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	@mkdir -p bin
 	scripts/systems-yaml-to-mediawiki.rb decpc $< $(TAGS.SYSTEMS) $(REFS) > $@
 
-bin/pdp11.mediawiki.txt: yaml/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+bin/pdp11.mediawiki.txt: $(YAML_OUTPUT)/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	@mkdir -p bin
 	scripts/systems-yaml-to-mediawiki.rb pdp11 $< $(TAGS.SYSTEMS) $(REFS) > $@
 
-bin/vax.mediawiki.txt: yaml/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+bin/vax.mediawiki.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	@mkdir -p bin
 	scripts/systems-yaml-to-mediawiki.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
 
-bin/alpha.infobox.mediawiki.txt: yaml/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+bin/alpha.infobox.mediawiki.txt: $(YAML_OUTPUT)/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-infobox-mediawiki.rb alpha $< $(TAGS.SYSTEMS) $(REFS) > $@
 
-bin/mips.infobox.mediawiki.txt: yaml/mips.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+bin/mips.infobox.mediawiki.txt: $(YAML_OUTPUT)/mips.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-infobox-mediawiki.rb decmips $< $(TAGS.SYSTEMS) $(REFS) > $@
 
-bin/pc.infobox.mediawiki.txt: yaml/pc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+bin/pc.infobox.mediawiki.txt: $(YAML_OUTPUT)/pc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-infobox-mediawiki.rb decpc $< $(TAGS.SYSTEMS) $(REFS) > $@
 
-bin/pdp11.infobox.mediawiki.txt: yaml/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+bin/pdp11.infobox.mediawiki.txt: $(YAML_OUTPUT)/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-infobox-mediawiki.rb pdp11 $< $(TAGS.SYSTEMS) $(REFS) > $@
 
-bin/vax.infobox.mediawiki.txt: yaml/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+bin/vax.infobox.mediawiki.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-infobox-mediawiki.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
 
 clean:
-	@rm -f yaml/*
 	@rm -f bin/*
-	@rm -f generated/*
 
 .PHONY: bin/info-data.bundle
 
