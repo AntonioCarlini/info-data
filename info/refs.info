@@ -9322,6 +9322,11 @@
 **ref-url: https://www.spec.org/cpu95/results/res2000q3/
 **end-ref{SPEC-res-2000q3}
 
+**Start-ref{EK-ALXLA-UG.D01}
+**Ref-text: Digital Alpha XL Family User's Guide
+**Ref-partno: EK-ALXLA-UG.D01}
+**End-ref{EK-ALXLA-UG.D01}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
