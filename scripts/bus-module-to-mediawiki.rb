@@ -6,10 +6,10 @@ $LOAD_PATH.unshift(Pathname.new(__FILE__).realpath().dirname().dirname().dirname
 require_relative "DataTags.rb"
 
 #+
-# This script turns a bus.info file into a mediawiki page with one table for each bus.
+# This script turns a bus.module file into a mediawiki page with one table for each bus.
 
 bus_type = ARGV.shift().downcase()    # This could be a specific bus or "all"
-bus_info = ARGV.shift()             # This is the bus.info file
+bus_module = ARGV.shift()             # This is the bus.module file
 
 bus_titles = {
   "AQUARIUS" => "VAX 9000",
@@ -37,7 +37,7 @@ bus_titles = {
 # Each value is a hash with "module" as its key and "entry" as its value.
 data_by_bus = Hash.new() { |h, k| h[k] = Hash.new() }
 
-# Read the bus.info file line by line.
+# Read the bus.module file line by line.
 # Each non-blank line should be repeated entries of the form
 #    A = B.
 # The spaces before and after the equals are optional.
@@ -46,7 +46,7 @@ data_by_bus = Hash.new() { |h, k| h[k] = Hash.new() }
 
 line_num = 0
 
-IO.foreach(bus_info) {
+IO.foreach(bus_module) {
   |line|
   line_num += 1
   line = line.chomp().strip()

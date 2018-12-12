@@ -1,0 +1,1031 @@
+bus=QBUS module = X001 +5V=1.01A desc="Test unit 1.01A"
+bus=QBUS module = X002 +5V=0.001A desc="Test unit 0.001A"
+bus=QBUS module = X003 +5V=0.001mA desc="Test unit 0.001mA"
+bus=QBUS module = X004 +5V=10.001A desc="Test unit 10.001A"
+bus=OMEGA module=L4000		dc=1.0 ac=4.0 +5V=7.40A +12V=0.35A +3.3V=0.27A -12V=0.04A name=KA670 desc="VAX 4000-300 CPU"
+bus=VAXBI module=T1002	+5V=10.4A +12V=20mA -2V=300mA -5.2V=3.1A name=KDB50 desc="SDI module"
+bus=VAXBI module=T1012	+5V=6.75A +12V=300mA -12V=425mA name=DMB32
+bus=XMI module=T2001		name=DWMBA/A desc="XMI-BI adapter"
+bus=XMI module=T2002		name=DWMBB/A desc="XMI-BI adapter"
+bus=XMI module=T2011-00	name=KA62A-A desc="VAX 6000-200 CPU"
+bus=XMI module=T2011-YA	name=KA62B-A desc="VAX 6000-300 CPU"
+bus=XMI module=T2011-YB	name=KA62A-B desc="VAXserver 6000-200 CPU"
+bus=XMI module=T2011-YC	name=KA62B-B desc="VAXserver 6000-300 CPU"
+bus=XMI module=T2012		name=DWMBA/A
+bus=XMI module=T2014		name=MS62A-AB desc="32MB Memory"
+bus=XMI module=T2015		name=KA64A-AA desc="VAX 6000-400 CPU"
+bus=XMI module=T2015-YA	name=KA64A-AB desc="VAXserver 6000-400 CPU"
+bus=XMI module=T2017		name=FV64A-A desc="XRP Vector Module"
+bus=XMI module=T2018		name=DWMBB/A desc="XMI+ toBI (XBIA+)"
+bus=XMI module=T2019		name=DWMBB-DA desc="XREG (3.3V on XMI)"
+bus=XMI module=T2020		name=DEMNA desc="XMI to Ethernet Adapter"
+bus=XMI module=T2022		name=KDM70 desc="XMI to SDI Control"
+bus=XMI module=T2022-AB	name=KCM44 desc="(KDM70 H/W, KCM code)"
+bus=XMI module=T2023		name=KDM70 desc="XMI to SDI Interface"
+bus=XMI module=T2025		desc="DECsystem 5800 CPU module"
+bus=XMI module=T2026		desc="DECsystem 5800 Hyperion Upgrade CPU module"
+bus=XMI module=T2027		name=DEMFA desc="FDDI adapter"
+bus=XMI module=T2028-AA	desc="XMI to LSB Interface"
+bus=XMI module=T2029-AB	name=KZMSA desc="XMI to SCSI Adapter"
+bus=XMI module=T2029-AC	name=KFMSB
+bus=XMI module=T2030		desc="VAX 9000 Clock Arbiter Card"
+bus=XMI module=T2032		desc="KCM44 tag/bus interface"
+bus=XMI module=T2036		name=KFMSA-AA desc="XMI-DSSI adapter"
+bus=XMI module=T2036-AA		name=KFMSA-BA
+bus=XMI module=T2037		desc="KCM44 FIPS interface"
+bus=XMI module=T2050		desc="VAX 9000 SCM Module"
+bus=XMI module=T2051		desc="VAX 9000 SPM Module"
+bus=XMI module=T2052-00	name=KA65A desc="VAX 6000-500 CPU"
+bus=XMI module=T2052-AB	desc="VAXserver 6000-500 CPU"
+bus=XMI module=T2053-BA	desc="32MB memory module"
+bus=XMI module=T2053-CA	desc="64MB memory module"
+bus=XMI module=T2053-DA	desc="128MB memory module"
+bus=XMI module=T2054		name=KA66A desc="VAX 6000-600 CPU"
+bus=XMI module=T2080		name=CIXCD desc="XMI-CI adapter (for VAX 6000 & VAX 9000)"
+bus=XMI module=T2080-YA	name=CIXCD-AC desc="XMI-CI adapter (for VAX/DEC 7000/10000)"
+bus=VAXBI module=T1001	name=KA820 desc="VAX 8200/8300 CPU"
+bus=VAXBI module=T1001-YA name=KA825 desc="VAX 8250/8350 CPU"
+bus=VAXBI module=T1003	name=KDB50 desc="Processor module"
+bus=VAXBI module=T1008	name=MS820-B desc="2MB memory module"
+bus=VAXBI module=T1010	name=DWBUA desc="BI-Unibus adapter"
+bus=VAXBI module=T1014	name=KLESI-B
+bus=VAXBI module=T1015	name=CIBCA-AA desc="BI-CI Adapter Port Module"
+bus=VAXBI module=T1017	name=CIBCI desc="BI-CI adapter Control"
+bus=VAXBI module=T1018	name=CIBCI desc="BI-CI adapter Data"
+bus=VAXBI module=T1019	name=MS820-BA desc="4MB memory module"
+bus=VAXBI module=T1020	name=NBIB desc="BI-NMI adapter"
+bus=VAXBI module=T1022	name=DRB32-M desc="VAXBI to DRB Bus Module"
+bus=VAXBI module=T1023-YA name=DRB32-W desc="(needs T1022)"
+bus=VAXBI module=T1024 name=DRB32-E desc="(needs T1022)"
+bus=VAXBI module=T1025	name=CIBCA-AA desc="BI-CI Adapter Link Module"
+bus=VAXBI module=T1026	name=DRB32-C desc="(needs T1022)"
+bus=VAXBI module=T1030	name=ACP
+bus=VAXBI module=T1031	name=KFBTA desc="(AIE) BI RD Drive Controller"
+bus=VAXBI module=T1032	name=DEBNT desc="BI Ethernet adapter"
+bus=VAXBI module=T1034-00 name=DEBNA
+bus=VAXBI module=T1034-YA name=DEBNI desc="DEBNA converted to DEBNI"
+bus=VAXBI module=T1035	name=TBK70
+bus=VAXBI module=T1040	name=MS820-CA
+bus=VAXBI module=T1042	name=DSB32
+bus=VAXBI module=T1043	name=DWMBA/B desc="BI-XMI Adapter (XBIB)"
+bus=VAXBI module=T1044	name=DHB32
+bus=VAXBI module=T1045	name=CIBCA-BA desc="Port Module"
+bus=VAXBI module=T1046	name=CIBCA-BA desc="Link Module"
+bus=VAXBI module=T1047	desc="TM32 VAXBI interface"
+bus=VAXBI module=T1048	desc="TM32 Telex personality module"
+bus=VAXBI module=T1049	desc="TM32 STC/Fujitsu personality module"
+bus=VAXBI module=T1060	desc="VAX 9000 PEM Module"
+bus=VAXBI module=T1061	desc="VAX9000 XJA Module"
+bus=VENUS module=L0100		name=CI780 	desc="CI Adapter Interprocessor Interface"
+bus=VENUS module=L0101		name=CI780 	desc="CI Adapter Packet Buffer"
+bus=VENUS module=L0101-YA	name=CI780 	desc="CI Adapter Packet Buffer"
+bus=VENUS module=L0102		name=CI780 	desc="CI Adapter Data Path"
+bus=VENUS module=L0104		name=CI780 	desc="CI Adapter SBI Interface"
+bus=VENUS module=L0118		name=CI780 	desc="CI Adapter Interprocessor Interface"
+bus=VENUS module=L0200-BA	name=MS86-BA 	desc="4MB Memory Array"
+bus=VENUS module=L0201		name=KA865 	desc="CSL Console"
+bus=VENUS module=L0202		name=KA865 	desc="SBS SBIA"
+bus=VENUS module=L0203		name=KA865 	desc="SBA SBIA Array Bus Interface"
+bus=VENUS module=L0204		name=KA865 	desc="MCD M-box"
+bus=VENUS module=L0205		name=KA865 	desc="MAP M-box"
+bus=VENUS module=L0206		name=KA865 	desc="IDP I-box"
+bus=VENUS module=L0207		name=KA865 	desc="ICA I-box"
+bus=VENUS module=L0208		name=KA865 	desc="IBD I-box"
+bus=VENUS module=L0209		name=KA865 	desc="EDP E-box"
+bus=VENUS module=L0210		name=KA865 	desc="EBC E-box"
+bus=VENUS module=L0211		name=KA865 	desc="EBD E-box"
+bus=VENUS module=L0212		name=FP86-AA 	desc="FBA"
+bus=VENUS module=L0213		name=FP86-AA 	desc="FBM"
+bus=VENUS module=L0214		name=KA865 	desc="ICB I-box"
+bus=VENUS module=L0215		name=KA865 	desc="CSA E-box"
+bus=VENUS module=L0216		name=KA865 	desc="CSB E-box"
+bus=VENUS module=L0218		name=KA865 	desc="FJM F-box"
+bus=VENUS module=L0219		name=KA865 	desc="EBE E-box"
+bus=VENUS module=L0222		name=KA865 	desc="Memory Terminator"
+bus=VENUS module=L0223		name=KA865 	desc="FTM F-box"
+bus=VENUS module=L0224		name=KA865 	desc="Array Bus Terminator"
+bus=VENUS module=L0225		name=MS86-CA 	desc="16MB Memory Array"
+bus=VENUS module=L0226-BA		name=MS86-AA 	desc="4MB Memory Array"
+bus=VENUS module=L0230		name=KA865 	desc="MCC M-box"
+bus=VENUS module=L0231		name=KA865 	desc="CLK Clock"
+bus=VENUS module=L0235		name=MS86-DA 	desc="64MB Memory Array"
+bus=VENUS module=L9200		name=KA865 	desc="Memory Load Board"
+bus=TURBO name=DEFTA-AA	desc="FDDI controller (SAS)"
+bus=TURBO name=DEFTA-DA	desc="FDDI controller (DAS)"
+bus=TURBO name=DEFTA-FA	desc="FDDI controller (fibre)"
+bus=TURBO name=DEFTA-UA	desc="FDDI controller (copper, SAS)"
+bus=TURBO name=DETRA-AA	desc="DEC TRNcontroller 700 Token-Ring adapter"
+bus=TURBO name=DJ-30APS	desc="Prestoserve option card"
+bus=TURBO name=KZTSA-AA	desc="FWD SCSI-2 adapter (7 devices)"
+bus=TURBO name=PMAD-AA	desc="Thickwire Ethernet adapter"
+bus=TURBO name=PMAZC-AA	desc="Dual Fast SCSI-2 adapter (14 devices)"
+bus=TURBO name=ZLX-E1	desc="8-plane, 2D/3D, 2M-pixel colour graphics accelerator"
+bus=TURBO name=ZLX-E2	desc="24-plane, 2D/3D, 2M-pixel colour graphics accelerator"
+bus=TURBO name=ZLX-E3	desc="24-plane, 2D/3D, 4M-pixel colour graphics accelerator"
+bus=TURBO name=ZLX-M1	desc="24-plane, 3D, 4M-pixel colour graphics accelerator"
+bus=TURBO name=ZLX-M2	desc="24-plane, 3D, 8M-pixel colour graphics accelerator"
+bus=TURBO name=ZLX-L1	desc="24-plane, 3D, 2M-pixel colour graphics accelerator"
+bus=PCI name=CIPCA-AA	desc="PCI to CI adapter"
+bus=PCI name=KFPSA-AA	desc="PCI to DSSI adapter"
+bus=PCI name=KZPAA-AA	desc="PCI to SCSI (FNSE)"
+bus=PCI name=KZPDA-AA	desc="PCI to SCSI (FWSE)"
+bus=PCI name=KZPSA-BB	desc="PCI to SCSI (FWD)"
+bus=PCI name=KZPSC-AA	desc="Single channel PCI to RAID"
+bus=PCI name=KZPSC-BA	desc="Three channel PCI to RAID"
+bus=PCI name=DEFPA-AA	desc="PCI 32-bit FDDI (SAS)"
+bus=PCI name=DEFPA-DA	desc="PCI 32-bit FDDI (DAS)"
+bus=PCI name=DEFPA-UA	desc="PCI 32-bit FDDI (TP SAS)"
+bus=PCI name=DEFPA-MA	desc="PCI 32-bit FDDI (TP DAS)"
+bus=PCI name=DE435-AA	desc="PCI 10Mb/s Ethernet"
+bus=PCI name=DE500-AA	desc="PCI 10/100Mb/s Ethernet"
+bus=PCI name=DE500-BA	desc="PCI 10/100Mb/s Ethernet"
+bus=PCI name=DE500-XA	desc="PCI 10/100Mb/s Ethernet"
+bus=PCI name=PBXNP-AA	desc="PCI Token-Ring adapter"
+bus=FIREFOX module=L2001-00	name=KA60-AA	desc="VAXstation 3520 CPU"
+bus=FIREFOX module=L2002-00	name=DFQWA	desc="M-bus to Q-bus adapter"
+bus=FIREFOX module=L2003-00	desc="I/O module"
+bus=FIREFOX module=L2004-00	desc="Graphic Base module"
+bus=FIREFOX module=L2005-AA	desc="Graphic Output module (8-planes)"
+bus=FIREFOX module=L2006-AA	name=VCB03	desc="Graphics Expansion module (16-planes)"
+bus=FIREFOX module=L2007-AA	name=MS60-AA	desc="8MB memory module"
+bus=FIREFOX module=L2007-BA	name=MS60-BA	desc="16MB memory module"
+bus=FIREFOX module=L2007-CA	name=MS60-CA	desc="32MB memory module"
+bus=FIREFOX module=L2008-00	desc="Tape adapter module"
+bus=FIREFOX module=L2010	name=KA60-BA	desc="VAXstation 3820 CPU"
+bus=EISA name=KFESA-AA	desc="DSSI adapter"
+bus=EISA name=DE422-SA	desc="EtherWORKS card"
+bus=EISA name=DEFEA-AA	desc="FDDI controller (SAS)"
+bus=EISA name=DEFEA-DA	desc="FDDI controller (DAS)"
+bus=EISA name=DEFEA-UA	desc="FDDI controller (UTP SAS)"
+bus=EISA name=DW300-AA	desc="Token-Ring adapter"
+bus=EISA name=DNSES-AA	desc="Synchronous comms"
+bus=EISA name=KZESC-AA	desc="single channel RAID"
+bus=EISA name=KZESC-BA	desc="three channel RAID"
+bus=DECNIS module=B1000-AA	name=DNSAN-AH 	desc="MPC-I"
+bus=DECNIS module=B1000-BA	name=DNSAN-AG 	desc="MPC-II"
+bus=DECNIS module=B1000-CA	desc="MPC-III"
+bus=DECNIS module=B1050-AA	name=DNSAM-AG	desc="2MB Kenmare"
+bus=DECNIS module=B1050-BA	name=DNSAM-AH	desc="8MB Kenmare"
+bus=DECNIS module=B1101-AA	name=DNSAE-AA 	desc="L601"
+bus=DECNIS module=B1102-BA	name=DNSAE-BB 	desc="L602 (2 ThinWire ports)"
+bus=DECNIS module=B1103-BA	name=DNSAE-BA 	desc="L602 (2 AUI ports)"
+bus=DECNIS module=B1104-BA	name=DNSAE-BC 	desc="L602 (2 UTP ports)"
+bus=DECNIS module=B1201-MM	name=DNSAF-MM 	desc="F621 (2 Fibre optic ports)"
+bus=DECNIS module=B1302-AA	name=DNSAB-AA 	desc="W622 (2 sync ports)"
+bus=DECNIS module=B1408		name=DNSAA-AA 	desc="W618 (8 sync ports)"
+bus=LSB module=E2034	desc="Laserbus terminator"
+bus=LSB module=E2035	name=MS7CC-BA desc="128MB RAM (1Mbit x 4)"
+bus=LSB module=E2035	name=MS7CC-CA desc="256MB RAM (1Mbit x 4)"
+bus=LSB module=E2035	name=MS7CC-DA desc="512MB RAM (1Mbit x 4)"
+bus=LSB module=E2036	name=MS7CC-FA desc="2GB RAM (4Mbit x 4)"
+bus=LSB module=E2037	name=MS7CC-GA desc="4GB memory"
+bus=LSB module=E2040-AB	name=KN7AA desc="DEC 7000-600 CPU (182MHz)"
+bus=LSB module=E2040-YA	name=KN7AA desc="DEC 10000-600 CPU (200MHz)"
+bus=LSB module=E2043-AA	name=MS7AA-AA desc="64MB RAM (1Mbit x 4)"
+bus=LSB module=E2043-BA	name=MS7AA-BA desc="128MB RAM (1Mbit x 4)"
+bus=LSB module=E2043-CA	name=MS7AA-CA desc="256MB RAM (1Mbit x 4)"
+bus=LSB module=E2044-AA	desc="IOP module"
+bus=LSB module=E2045-AA	name=KA7AA-AA desc="VAX 7000-600 CPU"
+bus=LSB module=E2045-DB	name=KA7AA-AA desc="VAX 7000-600 CPU (with support for > 4 CPUs)"
+bus=LSB module=E2046-DA name=MS7AA-DA desc="512MB RAM (1Mbit x 4)"
+bus=LSB module=E2052	name=KFTHA-AA desc="TurboLaser I/O Module"
+bus=LSB module=E2054	name=KFTIA-AA desc="TurboLaser I/O Module"
+bus=LSB module=E2055	name=MS7AA-FA desc="2GB RAM (4Mbit x 4)"
+bus=LSB module=E2056-CA name=KN7CC-AA desc="4MB cache 300MHz single TurboLaser CPU"
+bus=LSB module=E2056-DA	name=KN7CC-AB desc="4MB cache 300MHz TurboLaser CPU"
+bus=LSB module=E2057	desc="DEC 7700 CPU"
+bus=LSB module=E2058	name=KA7AB-AA desc="VAX 7000-700 CPU"
+bus=LSB module=E2059	name=KA7AC-AA desc="VAX 7000-800 CPU"
+bus=LSB module=E2061-DA 		desc="EV5 350MHz dual TurboLaser CPU"
+bus=LSB module=E2062-CA		name=KN7CE-AA desc="437MHz single TurboLaser CPU"
+bus=LSB module=E2062-DA		name=KN7CE-AB desc="437MHz dual TurboLaser CPU"
+bus=LSB module=E2063-DA		name=KN7CG-AB desc="EV6 625MHz dual TurboLaser CPU"
+bus=LSB module=E2065-DA		name=KN7CF-AB desc="4MB cache 622MHz dual TurboLaser CPU"
+bus=OMEGA module=L4001-AA	name=MS670-AA desc="16MB memory"
+bus=OMEGA module=L4001-BA	dc=0.0 ac=0.0 +5V=2.52A +12V=0.0A name=MS670-BA  desc="32MB memory"
+bus=OMEGA module=L4001-CA	name=MS670-CA  desc="64MB memory"
+bus=OMEGA module=L4001-DA	name=MS670-DA desc="128MB memory"
+bus=OMEGA module=L4002-AA	dc=1.0 ac=4.0 +5V=4.8A +12V=1.6A +3.3V=3.2A -12V=0.0A name=KA690-AA desc="VAX 4000-600 CPU"
+bus=OMEGA module=L4002-BA	dc=1.0 ac=4.0 +5V=4.8A +12V=1.6A +3.3V=3.2A -12V=0.0A name=KA680-AA desc="VAX 4000-500 CPU"
+bus=OMEGA module=L4002-CA	dc=1.0 ac=4.0 +5V=4.8A +12V=1.6A +3.3V=3.2A -12V=0.0A name=KA675-AA desc="VAX 4000-400 CPU"
+bus=OMEGA module=L4004-AA	name=MS690-AA  desc="16MB memory"
+bus=OMEGA module=L4004-BA	+5V=5.3A +12V=0.0A +3.3V=0.0A -12V=0.0A name=MS690-BA  desc="32MB memory"
+bus=OMEGA module=L4004-CA	+5V=4.2A +12V=0.0A +3.3V=0.0A -12V=0.0A name=MS690-CA  desc="64MB memory"
+bus=OMEGA module=L4004-DA	+5V=6.4A +12V=0.0A +3.3V=0.0A -12V=0.0A name=MS690-DA desc="128MB memory"
+bus=OMEGA module=L4005-AA	dc=1.0 ac=4.0 +5V=9.084A +12V=1.6A +3.3V=0.0A -12V=0.0A name=KA691 desc="VAX 4000-500A CPU"
+bus=OMEGA module=L4005-BA	dc=1.0 ac=4.0 +5V=9.084A +12V=1.6A +3.3V=0.0A -12V=0.0A name=KA681 desc="VAX 4000-505A/600A CPU"
+bus=OMEGA module=L4006-AA	dc=1.0 ac=4.0 +5V=8.6A +12V=1.6A +3.3V=0.0A -12V=0.0A name=KA692 desc="VAX 4000-700A CPU"
+bus=OMEGA module=L4006-BA	dc=1.0 ac=4.0 +5V=8.6A +12V=1.6A +3.3V=0.0A -12V=0.0A name=KA694 desc="VAX 4000-705A"
+bus=POLARSTAR module=F1001		name=MCL 	desc="KA85/KA88 Memory Controller"
+bus=POLARSTAR module=F1002		name=SHR 	desc="KA85/KA88 Shifter Module"
+bus=POLARSTAR module=F1003		name=SLC1 	desc="KA85/KA88 ALU Slice 1"
+bus=POLARSTAR module=F1004		name=SLC0 	desc="KA85/KA88 ALU Slice 0"
+bus=POLARSTAR module=F1005		name=ADP 	desc="KA85/KA88"
+bus=POLARSTAR module=F1006		name=CCS 	desc="KA85/KA88"
+bus=POLARSTAR module=F1007		name=DEC 	desc="KA88-AA VAX 8550 Instruction Decode"
+bus=POLARSTAR module=F1008		name=SEQ 	desc="KA85/KA88 Sequencer"
+bus=POLARSTAR module=F1009		name=WCS 	desc="KA85/KA88 Writeable Control Store"
+bus=POLARSTAR module=F1010		name=CLK 	desc="KA85/KA88 Clock/Console Interface"
+bus=POLARSTAR module=F1011		name=NBIA 	desc="KA88 System I/O Interface"
+bus=POLARSTAR module=F1013		name=NMI 	desc="Load Board"
+bus=POLARSTAR module=F1015		name=DEC 	desc="KA85 VAX 8500 Instruction Decode"
+bus=POLARSTAR module=F1021		name=PMCL 	desc="KA85/KA88 Memory Controller"
+bus=POLARSTAR module=F1026		name=PBLB 	desc="88x0 NMI Load Module"
+bus=POLARSTAR module=F1028		name=PSEQ 	desc="KA88-BA Sequence Module"
+bus=POLARSTAR module=F1031		name=PBIA 	desc="88x0 NMI Interface Module"
+bus=POLARSTAR module=F1032		name=CIM 	desc="88x0 Console Interface"
+bus=POLARSTAR module=F1033		name=PCLK 	desc="88x0 Clock Module"
+bus=POLARSTAR module=F1034		name=NBW 	desc="88x0 NMI Bus Window"
+bus=POLARSTAR module=F1036		name=PCCS 	desc="Cache Control Sequencer Module"
+bus=COMET module=L0001
+bus=COMET module=L0002		name=KA750 	desc="Data Path Module"
+bus=COMET module=L0003		name=KA750 	desc="Microcode"
+bus=COMET module=L0003-YA	name=KA750 	desc="Microcode"
+bus=COMET module=L0004		name=KA750 	desc="UNIBUS Interface"
+bus=COMET module=L0005		name=KA750 	desc="CCS"
+bus=COMET module=L0006		name=KC750 	desc="Remote Diagnosis Option"
+bus=COMET module=L0007		name=RH750 	desc="Massbus Adapter"
+bus=COMET module=L0008-YA	desc="Non-User Writeable Control Store"
+bus=COMET module=L0008-YB	name=KU750 	desc="User Writeable Control Store"
+bus=COMET module=L0010		name=DW750
+bus=COMET module=L0011		name=MS750-AA 	desc="CMC M8728 256KB"
+bus=COMET module=L0014		name=DR750 	desc="Interprocessor Interface"
+bus=COMET module=L0016		name=MS750-CA 	desc="CMC M8750 1MB"
+bus=COMET module=L0022		name=MS750-HB 	desc="Controller M8750 4MB"
+bus=NEBULA module=M8388		name=RB730 	desc="Integrated Disk Controller"
+bus=NEBULA module=M8389		name=FP730 	desc="Floating Point Module"
+bus=NEBULA module=M8390		name=KA730 	desc="Data Path Module"
+bus=NEBULA module=M8391		name=KA730 	desc="Memory Controller"
+bus=NEBULA module=M8391-YA	name=KA730 	desc="Memory Controller"
+bus=NEBULA module=M8394		name=KA730 	desc="Writeable Control Store"
+bus=NEBULA module=M8750		name=MS730 	desc="1MB Memory Array"
+bus=LYNX module = L8000		desc="Struct M."
+bus=LYNX module = L8001		desc="Rend. Proc"
+bus=LYNX module = L8002		desc="Struct W."
+bus=LYNX module = L8003		desc="Frame B."
+bus=LYNX module = L8004		desc="Video Controller"
+bus=AQUARIUS module=P1001-AA	desc="DST"
+bus=AQUARIUS module=P1002-AA	desc="INT"
+bus=AQUARIUS module=P1003-AA	desc="MLK"
+bus=AQUARIUS module=P1004-AA	desc="FAD"
+bus=AQUARIUS module=P1005-AA	desc="CTL"
+bus=AQUARIUS module=P1006-AA	desc="VIC"
+bus=AQUARIUS module=P1007-AA	desc="XBR"
+bus=AQUARIUS module=P1008-AA	desc="OPU"
+bus=AQUARIUS module=P1009-AA	desc="VAP"
+bus=AQUARIUS module=P1010-AA	desc="UCS"
+bus=AQUARIUS module=P1011-AA	desc="DTA"
+bus=AQUARIUS module=P1012-AA	desc="DTB"
+bus=AQUARIUS module=P1013-AA	desc="CTU"
+bus=AQUARIUS module=P1014-AA	desc="KV900-AA VRG"
+bus=AQUARIUS module=P1015-AA	desc="CLU"
+bus=AQUARIUS module=P1016-AA	desc="TAG"
+bus=AQUARIUS module=P1017-AA	desc="KV900-AA VAD"
+bus=AQUARIUS module=P1018-AA	desc="KV900-AA VML"
+bus=AQUARIUS module=P1019-AA	desc="DAX"
+bus=AQUARIUS module=P1020-AA	desc="DBX"
+bus=QBUS module = A012	size=Quad	name=ADV11-A desc="16-channel 12-bit A/D Converter"
+bus=QBUS module = A013	name=MNCAD desc="16-channel 12-bit A/D Converter"
+bus=QBUS module = A025	size=Quad	name=VMV16-A desc="256 location Colour Look-Up RAM"
+bus=QBUS module = A026-PA	dc=0.3	ac=1.2	+5V=2.0A	+12V=0.0A name=AXV11-SA
+bus=QBUS module = A030	dc=0.5	ac=2.5	+5V=4.45A	+12V=0.0A name=ADQ32-SA
+bus=QBUS module = A1008-PA	dc=0.5	ac=2.3	+5V=2.0A +12V=0.0A name=ADV11-SA
+bus=QBUS module = A1009-PA	dc=0.5	ac=2.5 +5V=2.1A +12V=0.0A name=AAV11-SA
+bus=QBUS module = A154	name=MNCAM desc="8-channel diff/16-channel single-ended  Mux"
+bus=QBUS module = A246	name=MNCAG desc="4-channel SW gain preamps"
+bus=QBUS module = A6001	size=Quad	name=AAV11-A desc="4-channel 12-bit D/A Converter"
+bus=QBUS module = A6002	name=MNCAA desc="4-channel 12-bit D/A Converter"
+bus=QBUS module = A6006	size=Dual	name=AAV11-C desc="D/A (replaces AAV11-A)"
+bus=QBUS module = A8000	size=Dual	name=ADV11-C desc="D/A (replaces ADV11-A)"
+bus=QBUS module = G7272	size=Single	dc=0	ac=0	+5V=0A	+12V=0A desc="Bus grant continuity"
+bus=QBUS module = G5119	size=Dual	dc=0	ac=0	+5V=0A	+12V=0A desc="Q-bus Isolation Module"
+bus=QBUS module = G5148	size=Dual	desc="Parallel Interface to TU58"
+bus=QBUS module = G5152	size=Dual	desc="KXT11-A Test Module 4KB RAM, 24KB PROM"
+bus=QBUS module = G5212	size=Dual	name=MST11 desc="Q-bus adapter"
+bus=QBUS module = G5217	size=Dual	desc="APT/Multi CPU Interface, Multiwire"
+bus=QBUS module = G5276	size=Hex	desc="CTQ Bridge Module (Q-bus to CT bus)"
+bus=QBUS module = G5279	desc="Set up and test for RX50"
+bus=QBUS module = G5281	size=Quad	name=QBE desc="Q-bus Excerciser"
+bus=QBUS module = G5316	size=Quad	desc="Q-bus Marginer Module"
+bus=QBUS module = G5317	desc="Q-bus Tester Interface"
+bus=QBUS module = G5318	desc="QBT Q-bus Terminator"
+bus=QBUS module = G5337	size=Quad	desc="11/03 Multi LSI Option Tester"
+bus=QBUS module = G5388	size=Quad	desc="RLV12 Test Module"
+bus=QBUS module = G653	size=Quad	name=MMV11-A desc="4KB 16-bit Core Memory"
+bus=QBUS module=M3104	size=Quad	dc=1.0 ac=2.9 +5V=4.25A +12V=0.52A name=DHV11 desc="8-line Asynchronous Multiplexer"
+bus=QBUS module=M3106	dc=1.0	ac=1.5	+5V=1.0A	+12V=0.36A name=DZQ11
+bus=QBUS module=M3106-PA	size=Dual dc=0.5 ac=1.4 +5V=1.0A +12V=0.36A name=DZQ11-SA desc="4-line Asynchronous Multiplexer"
+bus=QBUS module=M3107	size=Dual	dc=0.5	ac=3.2	+5V=2.2A +12V=0.3A name=DHQ11 desc="8-line Serial Interface"
+bus=QBUS module=M3108	size=Quad dc=1.0	ac=3.9	+5V=5.43A	+12V=0.69A name=DSV11-SA desc="Synchronous Controller"
+bus=QBUS module=M3118-YA	dc=0.5	ac=3.0	+5V=1.6A	+12V=0.2A name=CXA16-M
+bus=QBUS module=M3118-YB	dc=0.5	ac=3.0	+5V=2.0A	+12V=0.0A name=CXB16-M
+bus=QBUS module=M3119-YA	dc=1.5	ac=3.0 	+5V=2.5A 	+12V=0.5A  name=CXY08-M desc="8-line Asynchronous Multiplexer"
+bus=QBUS module=M3121-PA	dc=1.0	ac=3.0	+5V=1.97A	+12V=0.04A name=DFA01-AA desc="1200/2400 Integral Modem"
+bus=QBUS module=M3123	name=CXF32-AA
+bus=QBUS module=M3125-PA	dc=1.0	ac=4.6	+5V=5.0A	+12V=0.3A name=IBQ01-SA
+bus=QBUS module=M3127-PA	dc=0.5	ac=2.2	+5V=2.40A	+12V=0.22A name=DESQA-PA
+bus=QBUS module=M3127-SA	dc=0.5	ac=3.3	+5V=2.40A	+12V=0.22A name=DESQA-SA
+bus=QBUS module=M3136	dc=0.75	ac=3.6	+5V=4.0A	+12V=0.0A name=DTC05
+bus=QBUS module=M4002-PA	dc=0.3	ac=1.0	+5V=2.2A	+12V=0.013A name=KWV11-SA
+bus=QBUS module=M5911	size=Quad	desc="Terminal, Byte-oriented Prog, LSI-11 Comm."
+bus=QBUS module=M5927	size=Quad	desc="DMA Interprocessor Buffer, Q-bus - UNIBUS (board 1)"
+bus=QBUS module=M5976	dc=1.4	ac=4.75	+5V=5.0A +12V=0.0A name=KZQSA desc="Q-bus to SCSI Adapter"
+bus=QBUS module=M5976	dc=0.5	ac=4.4	+5V=5.4A +12V=0.0A name=KZQSA-SA
+bus=QBUS module=M5977	desc="RQZX1 MicroPDP Q-bus SCSI controller"
+bus=QBUS module=M7061	size=Quad	name=VSV11 desc="Graphical Display System, board 1"
+bus=QBUS module=M7062	size=Quad	name=VSV11 desc="Graphical Display System, board 2"
+bus=QBUS module=M7063	size=Quad	name=VSV11 desc="Graphical Display System, board 3"
+bus=QBUS module=M7064	size=Quad	name=VPV11-A desc="Image Processor, Memory Data Cable"
+bus=QBUS module=M7086	desc="PTV11-E plus Facit 4070 Punch"
+bus=QBUS module=M7087	size=Dual	name=XYV11-A desc="Controller for Calcomp 565 or 836 Plotter"
+bus=QBUS module=M7130	dc=0.5	ac=3.9	+5V=6.00A	+12V=2.00A name=DTQNA-BC
+bus=QBUS module=M7135	size=Quad	ac=2.0	+5V=14.0A	+12V=0.5A desc="MicroVAX I Data Path Module"
+bus=QBUS module=M7136	size=Quad	desc="MicroVAX I Memory Controller"
+bus=QBUS module=M7164	dc=0.5	ac=3.0	+5V=6.93A	+12V=0.00A desc="KDA50 processor module" 
+bus=QBUS module=M7165	+5V=6.57A	+12V=0.03A desc="KDA50 SDI module"
+bus=QBUS module=M7168	dc=0.0 ac=0.0 +5V=3.4A +12V=0.0A desc="VCB02 4-plane module"
+bus=QBUS module=M7169	dc=1.0 ac=3.5 +5V=5.8A +12V=0.7A desc="VCB02 Base Module"
+bus=QBUS module=M7181	size=Dual	desc="CMV11-AA CMR Controller, 4 Serial Ports, board 1"
+bus=QBUS module=M7182	size=Dual	name=CMV11-AA desc="CMR Controller, 4 Serial Ports, board 2"
+bus=QBUS module=M7188	size=Quad	desc="F11, 64KW RAM, 8KW ROM, 2 Serial Ports, LTC"
+bus=QBUS module=M7193	name=DRQ11-CA desc="Alternate Buffer DMA Interface"
+bus=QBUS module=M7194	name=DRQ11-CB  desc="Long Line Driver for DRQ11-CA"
+bus=QBUS module=M7195-FA	size=Dual	name=MXV11-BF desc="128KB RAM, 2 Asynch SLU, RTC, 2 ROM"
+bus=QBUS module=M7196	dc=1.0	ac=3.0	+5V=6.5A	+12V=0.0A name=TSV05-SA
+bus=QBUS module=M7206	dc=1.0	ac=2.4	+5V=6.50A 	+12V=0.0A name=TSV05-SA
+bus=QBUS module=M7230	size=Dual	desc="Q-bus to UNIBUS, board 2 (see M5927)"
+bus=QBUS module=M7264	size=Quad	desc="KD11-x LSI-11 CPU"
+bus=QBUS module=M7268	size=Quad	desc="RK11-D Controller"
+bus=QBUS module=M7269	size=Dual	desc="RK05 Disk Drive Controller"
+bus=QBUS module=M7270	size=Quad	desc="KD11-x LSI-11 CPU"
+bus=QBUS module=M7359	size=Dual	name=DRV11-S desc="EIA/RS408 8-bit Parallel I/O with cables"
+bus=QBUS module=M7368	size=Dual	name=VTV30-K
+bus=QBUS module=M7478	dc=1.0	ac=2.7	+5V=6.2A	+12V=0.14A name=KA620-AA
+bus=QBUS module=M7500	size=Quad	dc=1.0	ac=3.0	+5V=2.6A	+12V=0.2A name=KMV11 desc="Synchronous Controller"
+bus=QBUS module=M7500-P	size=Quad	dc=1.0	ac=3.0	+5V=2.6A	+12V=0.2A name=KMV1A desc="Synchronous Controller"
+bus=QBUS module=M7501	size=Quad	   desc="Dual Line Q-bus Intelligent Interface"
+bus=QBUS module=M7502	size=Quad	   desc="Single Line High Speed Intellligent Comm."
+bus=QBUS module=M7504	size=Dual dc=0.5 ac=2.2 +5V=3.5A +12V=0.5A name=DEQNA desc="Ethernet controller"
+bus=QBUS module=M7513	dc=0.0	ac=1.0	+5V=0.5A	+12V=0.0A name=RQDXE
+bus=QBUS module=M7516-PA	dc=0.5	ac=3.3	+5V=3.0A	+12V=1.5A name=DELQA desc="Ethernet Controller"
+bus=QBUS module=M7530	dc=1.0	ac=1.5	+5V=6.50A	+12V=0.0A name=TSV05-SA
+bus=QBUS module=M7533-AB	dc=0.5	ac=2.2	+5V=4.0A	+12V=1.0A name=DEQRA-CA
+bus=QBUS module=M7534-AD	dc=1.5	ac=4.9	+5V=5.6A	+12V=0.1A name=DEFQA-DA
+bus=QBUS module=M7546		size=Dual	dc=0.5	ac=2.8	+5V=2.9A +12V=0.0A name=TQK50
+bus=QBUS module=M7546x		size=Dual	dc=1.0 ac=2.0 +5V=2.0A name=TQK50
+bus=QBUS module=M7551-AA	dc=1.0	ac=2.0	+5V=2.4A	+12V=0.0A name=MSV11-QA desc="1MB Q22 memory"
+bus=QBUS module=M7551-BA	size=Quad	   name=MSV11-QB desc="2MB 22-bit MOS RAM with Parity"
+bus=QBUS module=M7552	dc=1.0	ac=2.7	+5V=2.70A	+12V=0.0A name=KRQ50-SA
+bus=QBUS module=M7553	   desc="uVAX Console for Polarstar"
+bus=QBUS module=M7555	size=Dual	dc=0.5	ac=1.9	+5V=2.9A	+12V=0.1A name=RQDX3 desc="Disk Controller"
+bus=QBUS module=M7559	dc=0.5	ac=4.3	+5V=3.5A	+12V=0.0A name=TQK70-SA
+bus=QBUS module=M7571-PA dc=1.0	ac=3.5	+5V=5.5A	+12V=0.0A name=DIV32-SA
+bus=QBUS module=M7602		dc=1.0	ac=3.0	+5V=5.0A	+12V=0.0A name=VCB01 desc="Video Controller Module"
+bus=QBUS module=M7605 name=TQK25
+bus=QBUS module=M7606		dc=1.0	ac=2.7	+5V=6.2A	+12V=0.14A name=KA630-AA desc="MicroVAX II CPU"
+bus=QBUS module=M7607	size=Dual	+5V=1.0A	+12V=0.0A name=MS630-AA desc="1MB RAM"
+bus=QBUS module=M7608-AA	size=Quad	dc=0.0	ac=0.0	+5V=1.3A	+12V=0.0A name=MS630-BA  desc="2MB RAM"
+bus=QBUS module=M7608-BA	size=Quad	dc=0.0	ac=0.0	+5V=1.8A	+12V=0.0A name=MS630-BB  desc="4MB RAM"
+bus=QBUS module=M7609-AA		dc=0.0	ac=0.0	+5V=3.1A	+12V=0.0A name=MS630-CA
+bus=QBUS module=M7615		dc=1.0	ac=3.5	+5V=4.60A	+12V=0.10A name=VCB02-A
+bus=QBUS module=M7616		dc=1.0	ac=2.7	+5V=6.0A	+12V=1.40A name=KXJ11-F
+bus=QBUS module=M7620		dc=1.0	ac=2.7	+5V=6.4A	+12V=0.14A name=KA650
+bus=QBUS module=M7621-AA	size=Quad	+5V=4.9A +12V=0.0A name=MS650-AA desc="8MB Memory Array"
+bus=QBUS module=M7622-AA	size=Quad	+5V=3.1A +12V=0.0A name=MS650-BA desc="16MB Memory Array"
+bus=QBUS module=M7622-BA	size=Quad	   name=MS650-BB desc="8MB Memory Array"
+bus=QBUS module=M7622-CA	size=Quad	   name=MS650-BC desc="32MB Memory Array"
+bus=QBUS module=M7624-AA	size=Quad	   name=KA640-AA desc="MicroVAX 3400 CPU with 1MB on-board RAM"
+bus=QBUS module=M7624-BA	size=Quad	   name=KA640-BA desc="VAXserver 3400 CPU with 1MB on-board RAM"
+bus=QBUS module=M7624-CA	size=Quad	   name=KA640-CA desc="MicroVAX 3400 CPU with 4MB on-board RAM"
+bus=QBUS module=M7624-DA	size=Quad	   name=KA640-DA desc="VAXserver 3400 CPU with 4MB on-board RAM"
+bus=QBUS module=M7625-AA	size=Quad	   name=KA655-AA desc="uVAX 3900 CPU"
+bus=QBUS module=M7625-BA	size=Quad	   name=KA655-AA desc="VAXserver 3900 CPU"
+bus=QBUS module=M7626-AA	size=Quad	   name=KA660-AA desc="VAX 4000-200 CPU"
+bus=QBUS module=M7626-BA	size=Quad	   name=KA660-BA desc="VAXserver 4000-200 CPU"
+bus=QBUS module=M7651-PA		dc=1.0	ac=2.0	+5V=1.8A	+12V=0.0A name=DRV1W-SA
+bus=QBUS module=M7656		name=VSV21
+bus=QBUS module=M7658-PA		dc=1.0	ac=2.0	+5V=4.5A	+12V=0.0A name=DRQ3B-SA
+bus=QBUS module=M7690		size=Quad	   desc="VTV31-KA RGB Bitmap 348Hx256V, 50Hz Frame Rate"
+bus=QBUS module=M7691	size=Dual	   desc="VTV31-KB RGB Bitmap 348Hx240V, 60Hz Frame Rate"
+bus=QBUS module=M7692	size=Dual	   desc="VTV31-KC RGB Bitmap 512Hx256V, 50Hz Frame Rate"
+bus=QBUS module=M7693	size=Dual	   desc="VTV31-KD RGB Bitmap 348Hx240V, 60Hz Frame Rate"
+bus=QBUS module=M7740-PA	size=Quad	dc=1.0	ac=2.3	+5V=3.0A +12V=0.0A name=KLESI-S desc="TMSCP controller"
+bus=QBUS module=M7744 desc="RX02 Controller"
+bus=QBUS module=M7745 desc="RX02 Read/Write Board"
+bus=QBUS module=M7769		dc=0.5	ac=4.4	+5V=5.50A	+12V=0.0A name=KFQSA-M
+bus=QBUS module=M7914	size=Quad	   desc="DPQ11-A Synchronous Line Interface (32-char FIFO)"
+bus=QBUS module=M7917	size=Dual	   desc="PTV11-P PT02 Papaer Tape reader Controller"
+bus=QBUS module=M7919		   desc="DA11-MS Interprocessor Buffer UNIBUS - Q-bus"
+bus=QBUS module=M7940	size=Dual	   desc="DLV11 SLU (20mA or EIA/CCITT)"
+bus=QBUS module=M7941		dc=1.0	ac=2.8	+5V=0.9A	+12V=0.0A name=DRV11-LP
+bus=QBUS module=M7942		dc=0.5	ac=3.0	+5V=1.6A	+12V=0.0A name=MRV11-D
+bus=QBUS module=M7942		dc=1.0	ac=1.8	+5V=2.8A	+12V=0.0A name=MRV11-AA desc="8KB 32 IC socket PROM/ROM memory"
+bus=QBUS module=M7942-YA	size=Dual	   desc="MRV11-VA Bootstrap"
+bus=QBUS module=M7942-YC	size=Dual	   desc="MRV11-VC Spare module kit"
+bus=QBUS module=M7942-YD	size=Dual	   desc="MRV11-YD CSR11 Bootstrap"
+bus=QBUS module=M7944	size=Dual	   desc="MSV11-B 4K 16-bit MOS RAM"
+bus=QBUS module=M7946	size=Dual	   desc="RXV11 RX01 Controller"
+bus=QBUS module=M7948	size=Quad	   desc="DRV11-P Parallel Comms Interface, Foundation Module"
+bus=QBUS module=M7949	size=Dual	   desc="LAV11 Printer Option"
+bus=QBUS module=M7950	size=Dual	   desc="DRV11-B General Purpose DMA Interface"
+bus=QBUS module=M7951	size=Quad	   desc="DUV11 Synchronous Communications Interface"
+bus=QBUS module=M7952	size=Quad	   desc="KW11-A Programmable Real-Time Clock"
+bus=QBUS module=M7954	size=Dual	   desc="IBV11 IEEE Instrument Bus Interface"
+bus=QBUS module=M7955-D	size=Quad	   desc="MSV11-CD 16KB 16-bit RAM"
+bus=QBUS module=M7957	size=Quad dc=1.0 ac=3.9 +5V=1.2A +12V=0.39A name=DZV11 desc="4-line Asynchronous Multiplexer"
+bus=QBUS module=M7958	size=Quad	   desc="I/O Control"
+bus=QBUS module=M7959	size=Quad	   name=IPV11-E desc="Q-bus to D-Bus Interface"
+bus=QBUS module=M8010	size=Dual	   name=PCV11 desc="PT Reader Punch (PC05-C)"
+bus=QBUS module=M8012		   name=BDV11 desc="Bootstrap/Terminator"
+bus=QBUS module=M8013	size=Quad	   desc="RL01 Disk Drive Controller, board 1"
+bus=QBUS module=M8014	size=Quad	   desc="RL01 Disk Drive Controller, board 2"
+bus=QBUS module=M8016	size=Dual	   name=KPV11-A desc="Power Fail/Line Time Clock Generator"
+bus=QBUS module=M8016-YB	size=Dual	   desc="KPV11-A with 120 terminators"
+bus=QBUS module=M8016-YC	size=Dual	   desc="KPV11-A with 220 terminators"
+bus=QBUS module=M8017	size=Dual	   desc="DLVE1 Asynchronous Communications Interface"
+bus=QBUS module=M8018	size=Quad	   desc="KUV11-AA Writeable Control Store"
+bus=QBUS module=M8020	size=Dual 	dc=1	ac=1	+5V=1.2A	+12V=0.30A name=DPV11 desc="serial synchronous interface"
+bus=QBUS module=M8021	size=Dual	   desc="MRV11-BA 256x16 Memory/8 sockets for UV PROMs"
+bus=QBUS module=M8022		   desc="DRQ11-A plus Alternate Buffer Options"
+bus=QBUS module=M8024	size=Dual	   desc="CEV11-AB Modular I/O Control, 30 slots, board 1"
+bus=QBUS module=M8025	size=Dual	   desc="CEV11-AB board 2"
+bus=QBUS module=M8026	size=Dual	   desc="NCV11-A DMA Interface to Gamma Camera"
+bus=QBUS module=M8027	size=Dual dc=1.0 ac=1.4 +5V=0.8A +12V=0.0A name=LPV11-AD desc="LP25 Printer Interface"
+bus=QBUS module=M8028	size=Dual	   desc="DLV11-F Asynch. 20mA or EIA/CCITT SLU"
+bus=QBUS module=M8029	size=Dual	   desc="RXV21 RX02 Floppy Disk Controller"
+bus=QBUS module=M8034-YC	size=Quad	   name=DRL11-A desc="48 channel Output Module, TTL Outputs"
+bus=QBUS module=M8034-YD	size=Quad	   name=DRL11-B desc="48 channel Output Module, OC Outputs"
+bus=QBUS module=M8035-YC	size=Quad	   name=DSL11-A desc="48 channel Optocoupled Input Module, TTL"
+bus=QBUS module=M8035-YD	size=Quad	   name=DSL11-B desc="48 channel Optocoupled Input Module, 24V"
+bus=QBUS module=M8036	size=Dual	   name=NCV11-A
+bus=QBUS module=M8040		   name=DRV11-C desc="16-bit Parallel Line Unit (CANCELLED)"
+bus=QBUS module=M8041	size=Quad	   desc="Q-bus Controller for VT30-H"
+bus=QBUS module=M8043	size=Dual	dc=1.0	ac=1.0	+5V=1.0A	+12V=0.25A name=DLVJ1 desc="Asynchronous Interface"
+bus=QBUS module=M8044-AA	size=Dual	   desc="4KB 16-bit MOS RAM, 4K chips"
+bus=QBUS module=M8044-BA	size=Dual	   desc="8KB 16-bit MOS RAM, 4K chips"
+bus=QBUS module=M8044-CA	size=Dual	   desc="16KB 16-bit MOS RAM, 16K chips"
+bus=QBUS module=M8044-DA	size=Dual	   desc="32KB 16-bit MOS RAM, 16K chips"
+bus=QBUS module=M8045-ED	size=Dual	   desc="8KB 18-bit MOS Memory with Parity"
+bus=QBUS module=M8046	size=Dual	   desc="DLV11 with Differential Drive"
+bus=QBUS module=M8047-AA	size=Dual	   name=MXV11-AA desc="8KB RAM, 2 Asynch SLU, 2 sockets"
+bus=QBUS module=M8047-AC	size=Dual	   name=MXV11-AC desc="32KB RAM, 2 Asynch SLU, 2 sockets"
+bus=QBUS module=M8047-HA	size=Dual	   desc="MXV11-AC plus VT173 Diag/Boot"
+bus=QBUS module=M8048	size=Dual	   desc="MRV11-C ROM Module"
+bus=QBUS module=M8049-PA	size=Dual name=DRV1J-SA  desc="High Density Parallel Interface"
+bus=QBUS module=M8052	size=Quad	   desc="Q-bus to X-bus Interface"
+bus=QBUS module=M8053-MA	size=Quad	dc=1.0	ac=2.0	+5V=3.4A +12V=0.38A name=DMV11-AA/-AB desc="Synchronous Controller"
+bus=QBUS module=M8053		size=Quad	dc=1.0	ac=2.0	+5V=3.4A +12V=0.4A name=DMV11-AA desc="Synchronous Controller"
+bus=QBUS module=M8059-FA	size=Dual	name=MSV11-LF desc="64KB 18-bit MOS RAM"
+bus=QBUS module=M8059-KA	size=Dual	   name=MSV1-KF desc="128KB 18-bit MOS RAM"
+bus=QBUS module=M8060-YA	size=Quad	   name=BDV11-BA desc="Diagnostic, Terminator, ROMs"
+bus=QBUS module=M8061			dc=1.0	ac=2.7	+5V=5.0A	+12V=0.10A name=RLV12 desc="RL02 Disk Controller"
+bus=QBUS module=M8063		   name=KXT11-AA desc="DC310 (Tiny-11), 2 serial, 1 parallel"
+bus=QBUS module=M8064-MA	size=Quad	dc=1.0	ac=2.0	+5V=3.35A +12V=0.26A name=DMV11-AC desc="Synchronous Controller"
+bus=QBUS module=M8064	size=Quad	dc=1.0	ac=2.0	+5V=3.4A	+12V=0.4A name=DMV11-N desc="Synchronous Controller"
+bus=QBUS module=M8067		   name=MSV11-PF desc="128KB RAM"
+bus=QBUS module=M8067		   size=Quad	dc=1.0	ac=2.0	+5V=3.45A name=MSV11-PK desc="256KB RAM"
+bus=QBUS module=M8067-LA	   size=Quad	dc=1.0	ac=2.0	+5V=3.60A name=MSV11-PL desc="512KB RAM"
+bus=QBUS module=M8080	size=Quad	   name=ISV11-A desc="Serial Bus Interface"
+bus=QBUS module=M8086-PA		dc=0.5	ac=1.8	+5V=1.6A +12V=0.0A name=LPV11-SA
+bus=QBUS module=M8087	size=Quad dc=0.5 ac=4.0	+5V=2.6A +12V=0.0A name=LNV21 desc="Scanner/Laser Printer Controller"
+bus=QBUS module=M8186		   name=KDF11-A desc="PDP-11/23A CPU Module"
+bus=QBUS module=M8189		   name=KDF11-B desc="Micro/PDP-11 CPU Module"
+bus=QBUS module=M8190		dc=1.0	ac=2.6	+5V=5.5A	+12V=0.2A name=KDJ11-BF
+bus=QBUS module=M8217	size=Quad	   desc="DW11-A UNIBUS to Q-bus Interface"
+bus=QBUS module=M8377	size=Quad	   desc="DMV11-N Q-bus T11 I/O Multiprocessor Card"
+bus=QBUS module=M8578		dc=0.5	ac=3.0	+5V=1.60A	+12V=0.0A desc="MRV11-D Universal Q22 Bus EPROM"
+bus=QBUS module=M8630	size=Dual	   desc="DMA Q-bus  to IEEE GPIB Interface"
+bus=QBUS module=M8631	size=Dual	   name=MCV11-DA desc="8KB MOS Dynamic RAM with BBU"
+bus=QBUS module=M8631	size=Dual	   name=MCV11-DC desc="32KB MOS Dynamic RAM with BBU"
+bus=QBUS module=M8632	size=Quad	   desc="FEPTC-BA UNIBUS to Q-bus Adapter for FEPTC-SA"
+bus=QBUS module=M8634-PA		dc=1.0	ac=2.0	+5V=3.5A	+12V=0.0A name=IEQ11-SA
+bus=QBUS module=M8636		   desc="KWV11-W Watchdog Timer, 5 inputs, 2 outputs"
+bus=QBUS module=M8637-BA	name=MSV11-JB desc="!MB ECC memory"
+bus=QBUS module=M8637-CA	name=MSV11-JC desc="2MB ECC memory"
+bus=QBUS module=M8637-D		dc=0.5	ac=2.7	+5V=3.74A	+12V=0.0A name=MSV11-JD
+bus=QBUS module=M8637-E		dc=0.5	ac=2.7	+5V=4.1A	+12V=0.0A name=MSV11-JE
+bus=QBUS module=M8638	size=Quad	   desc="Q-bus HDLC DMA Single Channel Synchronous Mux."
+bus=QBUS module=M8639-YA size=Quad dc=1.0 ac=2.5 +5V=6.4A +12V=0.1A name=RQDX1 desc="Disk Drive Controller"
+bus=QBUS module=M8639-YB	size=Quad	dc=1.0	ac=2.0 +5V=6.4A +12V=0.1A name=RQDX2 desc="Disk Drive Controller"
+bus=QBUS module=M8981-AA		   name=KDJ11-E
+bus=QBUS module=M9047	size=Dual	   desc="Grant Card (full length)"
+bus=QBUS module=M9060-YA		dc=0.0	ac=0.0	+5V=5.3A	+12V=0.0A desc="Load module"
+bus=QBUS module=M9400-YA		   desc="REV11-A Bootstrap/Terminator"
+bus=QBUS module=M9400-YB		   desc="TEV11 Terminator"
+bus=QBUS module=M9400-YC	size=Dual	   desc="REV11-C Bootstrap/Terminator"
+bus=QBUS module=M9400-YD	size=Dual	   desc="REV11-A"
+bus=QBUS module=M9400-YE	size=Dual	   desc="REV11-A"
+bus=QBUS module=M9400-YH	size=Dual	   desc="REV11-A"
+bus=QBUS module=M9400-YJ	size=Dual	   desc="REV11-A"
+bus=QBUS module=M9400-YK	size=Dual	   desc="REV11-A"
+bus=QBUS module=M9400-YL	size=Dual	   desc="REV11-A"
+bus=QBUS module=M9400-YM	size=Dual	   desc="REV11-A"
+bus=QBUS module=M9400-YN	size=Dual	   desc="REV11-A"
+bus=QBUS module=M9401	size=Dual
+bus=QBUS module=M9402
+bus=QBUS module=M9404 +5V=0.0A	+12V=0.0A 
+bus=QBUS module=M9405-PA		 +5V=0.0A	+12V=0.0A 
+bus=QBUS module=M9405-YB		   
+bus=QBUS module=M9511	size=Quad	   desc="IC Holes & Handle Facing H854"
+bus=QBUS module=W9512-AC	size=Dual	   desc="DCK11-AC Designer's Program Control Chip Kit"
+bus=QBUS module=W9512-AD	size=Dual	   desc="DCK11-AD Designer's DMA Evaluation Chip Kit"
+bus=QBUS module=W9514	size=Quad	   desc="IC Sockets & Handle Facing H854"
+bus=QBUS module=W9515	size=Dual	   desc="IC Sockets & Handle Facing H854"
+bus=QBUS module=W9612	size=Dual	   desc="LSI Mounting Board, up to 64-pin IC"
+bus=UNIBUS module=A009	name=AD11-K desc="A/D converter"
+bus=UNIBUS module=BM792-YA	desc="M792 as PC11 bootstrap"
+bus=UNIBUS module=BM792-YB	desc="M792 as disk/DECtape bootstrap"
+bus=UNIBUS module=BM792-YC	desc="M792 as CR11 bootstrap"
+bus=UNIBUS module=BM792-YH	desc="M792 as TA11 bootstrap"
+bus=UNIBUS module=BM873-YA	size=Quad	+5V=1A		+15V=0A		-15V=2mA	desc="Bootstrap loader"
+bus=UNIBUS module=BM873-YB	size=Quad	+5V=1A		+15V=0A		-15V=2mA	desc="Bootstrap loader"
+bus=UNIBUS module=BM873-YC	size=Quad	+5V=1A		+15V=0A		-15V=2mA	desc="Bootstrap loader"
+bus=UNIBUS module=G102		desc="Sense inhibit card for PDP-11/15"
+bus=UNIBUS module=G110		desc="MM11 (core) Control Module"
+bus=UNIBUS module=G114		desc="PDP-11/05 Sense/Inhbit Module"
+bus=UNIBUS module=G231		desc="MM11 (core) Driver Module"
+bus=UNIBUS module=G235		desc="PDP-11/05 X-Y Drive Module"
+bus=UNIBUS module=G401		desc="MS11-BR 4KW 16-bit MOS RAM"
+bus=UNIBUS module=G401-YA	desc="MS11-BR 4KW 18-bit MOS RAM"
+bus=UNIBUS module=G645		desc="8KW 19-bit stack board"
+bus=UNIBUS module=G647		desc="16KW 20-bit stack board"
+bus=UNIBUS module=G651		desc="4KW to 8KW 16- to 18-bit board"
+bus=UNIBUS module=G652		desc="16KW 16- to 18-bit motherboard"
+bus=UNIBUS module=G652-YA	
+bus=UNIBUS module=G657		desc="32KW SPC core memory (18-bit)"
+bus=UNIBUS module=G727-A	desc="Grant continuity card"
+bus=UNIBUS module=G5108		desc="Writeable PLA tester for F11 chipset"
+bus=UNIBUS module=G5115		desc="H777-TA PSU tester"
+bus=UNIBUS module=G5173		desc="PDP-11/60 2355 control"
+bus=UNIBUS module=G5174		desc="PDP-11/60 2355 4-line tester"
+bus=UNIBUS module=G5353		desc="PDP-11/24 quick verify controller"
+bus=UNIBUS module=G7273		desc="Dual grant card"
+bus=UNIBUS module=H207		
+bus=UNIBUS module=H211		
+bus=UNIBUS module=H213		desc="MM11-K 4KW Memory Core"
+bus=UNIBUS module=H214		desc="MM11-L 8KW Memory Core"
+bus=UNIBUS module=H215		
+bus=UNIBUS module=H217		
+bus=UNIBUS module=H217D		desc="PDP-11/05 Memory Stack"
+bus=UNIBUS module=H221-A	
+bus=UNIBUS module=H221-B	
+bus=UNIBUS module=H222		
+bus=UNIBUS module=H228-B	
+bus=UNIBUS module=M105		desc="Address Selector Module"
+bus=UNIBUS module=M109		desc="PDP-11 device selector"
+bus=UNIBUS module=M167		desc="Compares two 8-bit words (<,=,>)"
+bus=UNIBUS module=M224		desc="KA11 data paths module"
+bus=UNIBUS module=M225		desc="KA11 registers module"
+bus=UNIBUS module=M234		desc="KE11-A 3 8-bit reg, adder etc"
+bus=UNIBUS module=M239		desc="3 4-bit counters, parallel load"
+bus=UNIBUS module=M259		
+bus=UNIBUS module=M454		desc="DC11-A crystal clock"
+bus=UNIBUS module=M586		desc="DF11-BA internal modem, 113A"
+bus=UNIBUS module=M587		desc="DF11-BB asynch modem controller"
+bus=UNIBUS module=M598		desc="DF11-K modem optical isolator"
+bus=UNIBUS module=M688		desc="UNIBUS power-fail driver module"
+bus=UNIBUS module=M721		name=KA11
+bus=UNIBUS module=M783		desc="UNIBUS Transmitter Module"
+bus=UNIBUS module=M784		desc="UNIBUS Receiver Module"
+bus=UNIBUS module=M792		desc="32 16-bit word diode ROM"
+bus=UNIBUS module=M795		desc="Word Count & Bus Address"
+bus=UNIBUS module=M796		desc="UNIBUS Master Control Module"
+bus=UNIBUS module=M920		desc="UNIBUS Jumper Module"
+bus=UNIBUS module=M930		desc="Terminator"
+bus=UNIBUS module=M1091		desc="Memory device selector"
+bus=UNIBUS module=M2500		desc="2 64-bit word 4-bit MOS FIFO"
+bus=UNIBUS module=M3100		
+bus=UNIBUS module=M3101		
+bus=UNIBUS module=M3102		
+bus=UNIBUS module=M3103		
+bus=UNIBUS module=M3105		size=Hex +5V=6A	+15V=0.4A -15V=0.4A dc=1.0 ac=2.5 desc="DHU11 16-line async DMA mux"
+bus=UNIBUS module=M5900		
+bus=UNIBUS module=M5901		
+bus=UNIBUS module=M5902		
+bus=UNIBUS module=M5903		
+bus=UNIBUS module=M5904		
+bus=UNIBUS module=M5906		
+bus=UNIBUS module=M5906-YA	
+bus=UNIBUS module=M5922		
+bus=UNIBUS module=M5923		
+bus=UNIBUS module=M5924		
+bus=UNIBUS module=M5980		desc="10 channel TTL diff. transceiver"
+bus=UNIBUS module=M7025		desc="KW11-K dual programmable clock"
+bus=UNIBUS module=M7051		
+bus=UNIBUS module=M7052		
+bus=UNIBUS module=M7053		
+bus=UNIBUS module=M7054		
+bus=UNIBUS module=M7055		
+bus=UNIBUS module=M7056		
+bus=UNIBUS module=M7057		
+bus=UNIBUS module=M7058		
+bus=UNIBUS module=M7059		
+bus=UNIBUS module=M7060		
+bus=UNIBUS module=M7066		
+bus=UNIBUS module=M7067		
+bus=UNIBUS module=M7068		
+bus=UNIBUS module=M7069		
+bus=UNIBUS module=M7070		
+bus=UNIBUS module=M7071		
+bus=UNIBUS module=M7075		
+bus=UNIBUS module=M7090		desc="PDP-11/44 Console Interface"
+bus=UNIBUS module=M7091		desc="PDP-11/44 CIS Control Module"
+bus=UNIBUS module=M7092		desc="PDP-11/44 CIS Data Path"
+bus=UNIBUS module=M7093		desc="PDP-11/44 FP processor"
+bus=UNIBUS module=M7094		desc="PDP-11/44 Data Path Module"
+bus=UNIBUS module=M7095		desc="PDP-11/44 Control Module"
+bus=UNIBUS module=M7096		desc="PDP-11/44 Multifunction Module"
+bus=UNIBUS module=M7097		desc="PDP-11/44 Cache Module"
+bus=UNIBUS module=M7098		desc="PDP-11/44 UNIBUS Interface"
+bus=UNIBUS module=M7114		
+bus=UNIBUS module=M7133		desc="PDP-11/24 CPU"
+bus=UNIBUS module=M7133-YA	desc="KDF11-UA CPU, line clock"
+bus=UNIBUS module=M7134		
+bus=UNIBUS module=M7161		desc="UDA50, no ROMs (1/2)"
+bus=UNIBUS module=M7161-YA	desc="UDA50, with ROMS (1/2)"
+bus=UNIBUS module=M7162		desc="UDA50 (2/2)"
+bus=UNIBUS module=M7166		desc="DWBUA UNIBUS Paddle Card"
+bus=UNIBUS module=M7210		
+bus=UNIBUS module=M7219		
+bus=UNIBUS module=M7220		
+bus=UNIBUS module=M7221		
+bus=UNIBUS module=M7222		
+bus=UNIBUS module=M7224		
+bus=UNIBUS module=M7225		
+bus=UNIBUS module=M7228		
+bus=UNIBUS module=M7231		size=Hex	desc="PDP-11/40 CPU"
+bus=UNIBUS module=M7232		size=Quad	desc="PDP-11/40 CPU"
+bus=UNIBUS module=M7233		size=Hex	desc="PDP-11/40 CPU"
+bus=UNIBUS module=M7234		size=Hex	desc="PDP-11/40 CPU"
+bus=UNIBUS module=M7235		size=Hex	desc="PDP-11/40 CPU"
+bus=UNIBUS module=M7236		size=Hex	desc="PDP-11/40 MMU"
+bus=UNIBUS module=M7237		
+bus=UNIBUS module=M7238		size=Hex	desc="PDP-11/40 EIS"
+bus=UNIBUS module=M7239		size=Quad	desc="PDP-11/40 FP"
+bus=UNIBUS module=M7251		
+bus=UNIBUS module=M7254		
+bus=UNIBUS module=M7255		
+bus=UNIBUS module=M7255-YA	desc="Modified M7255 for Diablo 30 drive"
+bus=UNIBUS module=M7256		
+bus=UNIBUS module=M7257		
+bus=UNIBUS module=M7258		desc="LP11 Line Printer Controller"
+bus=UNIBUS module=M7260		desc="PDP-11/05 CPU Data Path"
+bus=UNIBUS module=M7261		desc="PDP-11/05 CPU Control Module"
+bus=UNIBUS module=M7265		
+bus=UNIBUS module=M7266		
+bus=UNIBUS module=M7292		desc="TU60 interface"
+bus=UNIBUS module=M7293		
+bus=UNIBUS module=M7294		
+bus=UNIBUS module=M7294-YA	
+bus=UNIBUS module=M7295		
+bus=UNIBUS module=M7295-YA	
+bus=UNIBUS module=M7296		
+bus=UNIBUS module=M7297		
+bus=UNIBUS module=M7298		
+bus=UNIBUS module=M7454		desc="TU80K TU80 Tape Controller"
+bus=UNIBUS module=M7455		desc="TSU05 controller"
+bus=UNIBUS module=M7485		+5V=12A	+15V=100mA -15V=1.4A	desc="UDA50"
+bus=UNIBUS module=M7485-YA	desc="UDA50 with blasted ROMs"
+bus=UNIBUS module=M7486		desc="UDA50"
+bus=UNIBUS module=M7488		desc="UNIBUS Graphics Workstation"
+bus=UNIBUS module=M7521-AA	desc="DELUA-AA"
+bus=UNIBUS module=M7522		desc="RX50 controller"
+bus=UNIBUS module=M7547		desc="TUK50-AA TK50 controller"
+bus=UNIBUS module=M7677		desc="MDM module"
+bus=UNIBUS module=M7677-YA	
+bus=UNIBUS module=M7622		desc="RL11 RL01/02 disk controller"
+bus=UNIBUS module=M7792		+5V=7.0A	dc=1		ac=4 desc="DEUNA Port Module"
+bus=UNIBUS module=M7793		+5V=9.0A	-15V=1.0A	desc="DEUNA Link Module"
+bus=UNIBUS module=M7800		
+bus=UNIBUS module=M7800-YA	
+bus=UNIBUS module=M7800-YB	
+bus=UNIBUS module=M7800-YC	
+bus=UNIBUS module=M7807		
+bus=UNIBUS module=M7808		
+bus=UNIBUS module=M7810		
+bus=UNIBUS module=M7814		
+bus=UNIBUS module=M7819		
+bus=UNIBUS module=M7820		desc="Interrupt Control Module"
+bus=UNIBUS module=M7821		desc="Faster M7820"
+bus=UNIBUS module=M7823		
+bus=UNIBUS module=M7836		
+bus=UNIBUS module=M7837		
+bus=UNIBUS module=M7838		
+bus=UNIBUS module=M7843		
+bus=UNIBUS module=M7843-YA	
+bus=UNIBUS module=M7846		
+bus=UNIBUS module=M7847-AA	
+bus=UNIBUS module=M7847-AB	
+bus=UNIBUS module=M7847-AD	
+bus=UNIBUS module=M7847-AJ	
+bus=UNIBUS module=M7847-BB	
+bus=UNIBUS module=M7847-BD	
+bus=UNIBUS module=M7847-BF	
+bus=UNIBUS module=M7847-BJ	
+bus=UNIBUS module=M7847-CB	
+bus=UNIBUS module=M7847-CD	
+bus=UNIBUS module=M7847-CJ	
+bus=UNIBUS module=M7847-DB	
+bus=UNIBUS module=M7847-DD	
+bus=UNIBUS module=M7847-DJ	
+bus=UNIBUS module=M7847-EB	
+bus=UNIBUS module=M7847-ED	
+bus=UNIBUS module=M7847-EE	
+bus=UNIBUS module=M7847-EJ	
+bus=UNIBUS module=M7847-YA	
+bus=UNIBUS module=M7847-YB	
+bus=UNIBUS module=M7847-YC	
+bus=UNIBUS module=M7847-YD	
+bus=UNIBUS module=M7847-YE	
+bus=UNIBUS module=M7847-YF	
+bus=UNIBUS module=M7847-YJ	
+bus=UNIBUS module=M7850		
+bus=UNIBUS module=M7855		
+bus=UNIBUS module=M7856		
+bus=UNIBUS module=M7856-YA	
+bus=UNIBUS module=M7859		
+bus=UNIBUS module=M7860		
+bus=UNIBUS module=M7867		size=Hex	+5V=3.6A	+15V=0.325A	-15V=0.6A	desc="DUP11 synch interface"
+bus=UNIBUS module=M7870		
+bus=UNIBUS module=M7871		
+bus=UNIBUS module=M7871-YA	
+bus=UNIBUS module=M7872		
+bus=UNIBUS module=M7873		
+bus=UNIBUS module=M7874		
+bus=UNIBUS module=M7875		
+bus=UNIBUS module=M7876		
+bus=UNIBUS module=M7877		
+bus=UNIBUS module=M7878		
+bus=UNIBUS module=M7879		
+bus=UNIBUS module=M7880		
+bus=UNIBUS module=M7881		
+bus=UNIBUS module=M7891-AH	
+bus=UNIBUS module=M7891-BA	
+bus=UNIBUS module=M7891-CH	
+bus=UNIBUS module=M7891-DA	
+bus=UNIBUS module=M7892		
+bus=UNIBUS module=M7910		
+bus=UNIBUS module=M7966		
+bus=UNIBUS module=M7967		
+bus=UNIBUS module=M7968		
+bus=UNIBUS module=M7969		
+bus=UNIBUS module=M7982		
+bus=UNIBUS module=M7983		
+bus=UNIBUS module=M8100		
+bus=UNIBUS module=M8101		
+bus=UNIBUS module=M8102		
+bus=UNIBUS module=M8103		
+bus=UNIBUS module=M8104		
+bus=UNIBUS module=M8105		
+bus=UNIBUS module=M8106		
+bus=UNIBUS module=M8107		
+bus=UNIBUS module=M8108		
+bus=UNIBUS module=M8108-YA	
+bus=UNIBUS module=M8109		
+bus=UNIBUS module=M8110		
+bus=UNIBUS module=M8111		
+bus=UNIBUS module=M8111-YA	
+bus=UNIBUS module=M8112		
+bus=UNIBUS module=M8113		
+bus=UNIBUS module=M8114		
+bus=UNIBUS module=M8115		
+bus=UNIBUS module=M8116		
+bus=UNIBUS module=M8119		
+bus=UNIBUS module=M8120		
+bus=UNIBUS module=M8121-YA	
+bus=UNIBUS module=M8123		
+bus=UNIBUS module=M8124		
+bus=UNIBUS module=M8125		
+bus=UNIBUS module=M8126		
+bus=UNIBUS module=M8127		
+bus=UNIBUS module=M8128		
+bus=UNIBUS module=M8129		
+bus=UNIBUS module=M8130		
+bus=UNIBUS module=M8131		
+bus=UNIBUS module=M8132		
+bus=UNIBUS module=M8132-YA	
+bus=UNIBUS module=M8133		
+bus=UNIBUS module=M8134		
+bus=UNIBUS module=M8135		
+bus=UNIBUS module=M8136		
+bus=UNIBUS module=M8137		
+bus=UNIBUS module=M8138		
+bus=UNIBUS module=M8138-YA	
+bus=UNIBUS module=M8139		
+bus=UNIBUS module=M8140		
+bus=UNIBUS module=M8141		
+bus=UNIBUS module=M8142		
+bus=UNIBUS module=M8143		
+bus=UNIBUS module=M8144		
+bus=UNIBUS module=M8145		
+bus=UNIBUS module=M8147		
+bus=UNIBUS module=M8148		
+bus=UNIBUS module=M8149		
+bus=UNIBUS module=M8150		
+bus=UNIBUS module=M8151		
+bus=UNIBUS module=M8152		
+bus=UNIBUS module=M8153		
+bus=UNIBUS module=M8153-YA	
+bus=UNIBUS module=M8156		
+bus=UNIBUS module=M8157		
+bus=UNIBUS module=M8158		
+bus=UNIBUS module=M8159		
+bus=UNIBUS module=M8160		
+bus=UNIBUS module=M8161		
+bus=UNIBUS module=M8162		
+bus=UNIBUS module=M8163		
+bus=UNIBUS module=M8164		
+bus=UNIBUS module=M8165-YA	
+bus=UNIBUS module=M8165-YB	
+bus=UNIBUS module=M8166		
+bus=UNIBUS module=M8167		
+bus=UNIBUS module=M8168		
+bus=UNIBUS module=M8169		
+bus=UNIBUS module=M8177		
+bus=UNIBUS module=M8181		
+bus=UNIBUS module=M8182		
+bus=UNIBUS module=M8183		
+bus=UNIBUS module=M8184		
+bus=UNIBUS module=M8185		
+bus=UNIBUS module=M8185-YC	
+bus=UNIBUS module=M8186-YA	
+bus=UNIBUS module=M8186-YB	
+bus=UNIBUS module=M8186-YC	
+bus=UNIBUS module=M8188		
+bus=UNIBUS module=M8191		
+bus=UNIBUS module=M8200		
+bus=UNIBUS module=M8200-YA	
+bus=UNIBUS module=M8200-YB	
+bus=UNIBUS module=M8200-YC	
+bus=UNIBUS module=M8201		
+bus=UNIBUS module=M8202		
+bus=UNIBUS module=M8202-YA	
+bus=UNIBUS module=M8202-YB	
+bus=UNIBUS module=M8202-YC	
+bus=UNIBUS module=M8202-YD	
+bus=UNIBUS module=M8202-YE	
+bus=UNIBUS module=M8203		size=Hex +5V=3.0A +15V=0.15A -15V=0.2A	dc=0	ac=0	 desc="DMR11 Line unit"
+bus=UNIBUS module=M8206		size=Hex +5V=7.5A +15V=0.0A -15V=0.0A dc=1 ac=5 desc="KMC11-B: KMS proc"
+bus=UNIBUS module=M8207		
+bus=UNIBUS module=M8207-RA	+5V=5.0A	+15V=0.0A	-15V=0.0A	desc="DMR11 processor"
+bus=UNIBUS module=M8207-YA	
+bus=UNIBUS module=M8256		
+bus=UNIBUS module=M8264		
+bus=UNIBUS module=M8265		
+bus=UNIBUS module=M8266		
+bus=UNIBUS module=M8267		
+bus=UNIBUS module=M8267-TA	
+bus=UNIBUS module=M8268		
+bus=UNIBUS module=M8293		desc="PDP-11/05 Memory Control"
+bus=UNIBUS module=M8294		
+bus=UNIBUS module=M8295		desc="VT30-H RGB graphics memory"
+bus=UNIBUS module=M8396		size=Hex	+5V=8.0A	+15V=0.5A	-15V=0.5A	desc="DMF32 combo interface"
+bus=UNIBUS module=M8398		name=DMZ32
+bus=UNIBUS module=M8586		
+bus=UNIBUS module=M8587		
+bus=UNIBUS module=M8640		size=Hex	desc="DM11-BA modem control mux"
+bus=UNIBUS module=M8704		size=Hex	desc="DMS11-DA 8 line synch unit"
+bus=UNIBUS module=M8711-YA	size=Hex	desc="DMS11-DA 8 line synch unit"
+bus=UNIBUS module=M8716		name=DR11-W
+bus=UNIBUS module=M8717		
+bus=UNIBUS module=M8718		
+bus=UNIBUS module=M8720-YA	
+bus=UNIBUS module=M8720-YB	
+bus=UNIBUS module=M8720-YC	
+bus=UNIBUS module=M8720-YD	
+bus=UNIBUS module=M8720-YE	
+bus=UNIBUS module=M8720-YF	
+bus=UNIBUS module=M8720-YH	
+bus=UNIBUS module=M8720-YJ	
+bus=UNIBUS module=M8721-YA	
+bus=UNIBUS module=M8721-YB	
+bus=UNIBUS module=M8721-YC	
+bus=UNIBUS module=M8721-YD	
+bus=UNIBUS module=M8722-AH	
+bus=UNIBUS module=M8722-BA	
+bus=UNIBUS module=M8728-AA	
+bus=UNIBUS module=M8728-CM	
+bus=UNIBUS module=M7830		
+bus=UNIBUS module=M7830-YA	
+bus=UNIBUS module=M7839		desc="KLESI-U TU81 Tape Controller"
+bus=UNIBUS module=M8743-AA	
+bus=UNIBUS module=M8743-BA	desc="1MB (256Kx29) MOS RAM"
+bus=UNIBUS module=M8901-YC	
+bus=UNIBUS module=M8901-YD	
+bus=UNIBUS module=M8902		
+bus=UNIBUS module=M8902-YA	
+bus=UNIBUS module=M8903		
+bus=UNIBUS module=M8903-YA	
+bus=UNIBUS module=M8904		
+bus=UNIBUS module=M8904-YA	
+bus=UNIBUS module=M8905		
+bus=UNIBUS module=M8905-YA	
+bus=UNIBUS module=M8905-YB	
+bus=UNIBUS module=M8906		
+bus=UNIBUS module=M8908-YA	
+bus=UNIBUS module=M8909		
+bus=UNIBUS module=M8909-YA	
+bus=UNIBUS module=M8928		
+bus=UNIBUS module=M9014		
+bus=UNIBUS module=M9015		
+bus=UNIBUS module=M9031		
+bus=UNIBUS module=M89039	
+bus=UNIBUS module=M9061-AA	
+bus=UNIBUS module=M9202		
+bus=UNIBUS module=M9300		
+bus=UNIBUS module=M9301		
+bus=UNIBUS module=M9301-SA	
+bus=UNIBUS module=M9301-SB	
+bus=UNIBUS module=M9301-SC	
+bus=UNIBUS module=M9301-SD	
+bus=UNIBUS module=M9301-SE	
+bus=UNIBUS module=M9301-SF	
+bus=UNIBUS module=M9301-SH	
+bus=UNIBUS module=M9301-SJ	
+bus=UNIBUS module=M9301-SK	
+bus=UNIBUS module=M9301-SL	
+bus=UNIBUS module=M9301-SV	
+bus=UNIBUS module=M9301-SW	
+bus=UNIBUS module=M9301-SX	
+bus=UNIBUS module=M9301-SY	
+bus=UNIBUS module=M9301-WA	
+bus=UNIBUS module=M9301-WB	
+bus=UNIBUS module=M9301-YC	
+bus=UNIBUS module=M9301-YD	
+bus=UNIBUS module=M9301-YE	
+bus=UNIBUS module=M9301-YF	
+bus=UNIBUS module=M9301-YH	
+bus=UNIBUS module=M9301-YJ	
+bus=UNIBUS module=M9301-YL	
+bus=UNIBUS module=M9302		desc="UNIBUS terminator"
+bus=UNIBUS module=M9302-YA	
+bus=UNIBUS module=M9302-YB	
+bus=UNIBUS module=M9303		
+bus=UNIBUS module=M9303-YA	
+bus=UNIBUS module=M9304		
+bus=UNIBUS module=M9304-YA	
+bus=UNIBUS module=M9305		
+bus=UNIBUS module=M9306		
+bus=UNIBUS module=M9306-YB	
+bus=UNIBUS module=M9307		
+bus=UNIBUS module=M9308		
+bus=UNIBUS module=M9309		
+bus=UNIBUS module=M9311		
+bus=UNIBUS module=M9312		desc="Bootstrap terminator"
+bus=UNIBUS module=M9312-YA	
+bus=UNIBUS module=M9313		desc="UET module"
+bus=UNIBUS module=M9713-AA	desc="KDJ11-E +5V-15V min load"
+bus=UNIBUS module=W9301		
+bus=UNIBUS module=W9302		
+bus=RAWHIDE module=B3001-CA	desc="AlphaServer 4100 300MHz EV5 CPU no cache"
+bus=RAWHIDE module=B3002-AB	desc="AlphaServer 4100 300MHz EV5 CPU with 2MB cache"
+bus=RAWHIDE module=B3002-BA	desc="CPU"
+bus=RAWHIDE module=B3004-AA	name=KN304-AA 	desc="400MHz CPU with 4MB cache"
+bus=RAWHIDE module=B3004-BA	name=KN304-FA	desc="AlphaServer 4100 5/300 300MHz CPU with 2MB cache"
+bus=RAWHIDE module=B3004-DA	name=KN304-DA 	desc="466 CPU with 4MB cache"
+bus=RAWHIDE module=B3005-CA	desc="533MHz CPU"
+bus=RAWHIDE module=B3007-AA	desc="AlphaServer 1200 400MHz CPU with 4MB cache"
+bus=RAWHIDE module=B3007-CA	desc="AlphaServer 1200 566MHz CPU with 4MB cache"
+bus=RAWHIDE module=B3020-CA	desc="64MB memory module"
+bus=RAWHIDE module=B3020-EA	desc="256MB memory module"
+bus=RAWHIDE module=B3020-FA	desc="512MB memory module"
+bus=RAWHIDE module=B3020-GA	desc="1GB memory module"
+bus=RAWHIDE module=B3030-EA	name=MS330-EA 	desc="256MB memory"
+bus=RAWHIDE module=B3030-FA	name=MS330-FA	desc="512MB memory"
+bus=RAWHIDE module=B3030-GA	name=MS330-GA 	desc="1GB memory"
+bus=RAWHIDE module=B3031-FT	desc="512MB memory (EDO)"
+bus=RAWHIDE module=B3040-AA	desc="Rawhide PCI bridge (Horse)"
+bus=RAWHIDE module=B3050-AA	desc="Rawhide PCI/EISA (Saddle)"
+bus=SABLE module=B2001-AA	name=KN430-AA 	desc="DEC 4000-600 CPU 1MB cache"
+bus=SABLE module=B2001-BA	name=KN430-AA 	desc="DEC 4000-600 CPU 1MB cache"
+bus=SABLE module=B2002-AA	desc="DEC 4000 memory 16MB"
+bus=SABLE module=B2002-BA	desc="DEC 4000 memory 32MB"
+bus=SABLE module=B2002-CA	desc="DEC 4000 memory 64MB"
+bus=SABLE module=B2002-DA	desc="DEC 4000 memory 128MB"
+bus=SABLE module=B2003-AA	desc="Bridge module between FBUS and Laserbus"
+bus=SABLE module=B2004-AA	desc="Cobra bus to CI adapter"
+bus=SABLE module=B2005-AA	desc="DEC 4000 2 channel NI adapter"
+bus=SABLE module=B2005-AB	desc="DEC 4000 4 channel NI adapter"
+bus=SABLE module=B2006-AA	desc="Cobra Futurebus+ to FDDI adapter"
+bus=SABLE module=B2010-AA	desc="2 channel synch comms adapter"
+bus=SABLE module=B2011-AA	desc="Cobra memory 256MB"
+bus=SABLE module=B2011-BA	name=MS430-FA	desc="Cobra memory 512MB"
+bus=SABLE module=B2012-AA	desc="DEC 4000-700 CPU module"
+bus=SABLE module=B2020-AA	desc="AlphaServer 2000 4/200 CPU"
+bus=SABLE module=B2020-BA	desc="AlphaServer 2100 4/233 CPU"
+bus=SABLE module=B2021-BA	name=MS450-BA 	desc="64MB memory"
+bus=SABLE module=B2021-CA	name=MS450-CA	desc="128MB memory"
+bus=SABLE module=B2022-CA	name=MS451-CA 	desc="512MB memory"
+bus=SABLE module=B2022-DA	desc="128MB 60ns memory"
+bus=SABLE module=B2022-EA	desc="256MB 60ns memory"
+bus=SABLE module=B2022-FA	name=MS451-FA 	desc="512MB memory"
+bus=SABLE module=B2023-BA	name=MS452 	desc="memory"
+bus=SABLE module=B2024-AA	desc="AlphaServer 2100 4/275 CPU"
+bus=SABLE module=B2040-AA	desc="AlphaServer 2100 5/250 CPU"
+bus=SABLE module=B2040-AB	desc="AlphaServer 2100A 5/250 CPU"
+bus=SABLE module=B2040-BA	desc="AlphaServer 2100A 5/300 CPU"
+bus=SABLE module=B2041-AA	desc="AlphaServer 2100A 5/375 CPU"
+bus=SABLE module=B2101-AA	desc="Cobra I/O module 5 SCSI/DSSI, 2 Ethernet"
+bus=SABLE module=B2101-BA	desc="Cobra I/O module 5 SCSI/DSSI, 1 Ethernet"
+bus=SABLE module=B2110-AA	desc="AlphaServer 2100 EISA I/O module"
+bus=SABLE module=B2111-AA	desc="AlphaServer 2000 EISA I/O module"
