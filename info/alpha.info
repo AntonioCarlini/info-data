@@ -669,17 +669,23 @@
 **Start-systems-entry{AS800-5-400}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 800 5/400
 **Def-lref{1} = ref{SPEC-res-97q2}
+**Def-lref{2} = ref{SPEC-res-98q2}
 **OS-support-vms: OpenVMS V7.1-1H1
 **SPECint95**vref{1}: 11.7 
 **SPECfp95**vref{1}: 13.7 (1-CPU)
+!**SPECint95**vref{2}: 12.4
+!**SPECfp95**vref{2}: 14.4
 **End-systems-entry{AS800-5-400}
 
 **Start-systems-entry{AS800-5-500}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 800 5/500
 **Def-lref{1} = ref{SPEC-res-97q4}
+**Def-lref{2} = ref{SPEC-res-98q2}
 **OS-support-vms: OpenVMS V7.1-1H1
 **SPECint95**vref{1}: 14.2
 **SPECfp95**vref{1}: 16.1
+!**SPECint95**vref{2}: 14.7
+!**SPECfp95**vref{2}: 15.9
 **End-systems-entry{AS800-5-500}
 
 **Start-systems-entry{AS1000-4-200}{ALPHA}{AS1000}
@@ -853,6 +859,9 @@
 
 **Start-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
 **Sys-name: AlphaServer 1200 5/333
+**Def-lref{1} = ref{SPEC-res-98q2}
+**SPECint95**vref{1}: 16.8
+**SPECfp95**vref{1}: 21.7
 **End-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
 
 **Start-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
@@ -1108,8 +1117,11 @@
 **Start-systems-entry{AS4100-5-533}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4100 5/533
 **Def-lref{1} = ref{SPEC-res-97q4}
+!**Def-lref{2} = ref{SPEC-res-98q2}
 **SPECint95**vref{1}: 16.6
 **SPECfp95**vref{1}: 21.9 (1-CPU) 30.5 (2-CPU) 42.1 (4-CPU)
+!**SPECint95**vref{2}: 16.9
+!**SPECfp95**vref{2}: 21.7
 **End-systems-entry{AS4100-5-533}
 
 **Start-systems-entry{AS4100-5-600}{ALPHA}{ALPHASERVER}
@@ -1174,6 +1186,13 @@
 **SPECfp95**vref{1}: 20.8 (1-CPU) 30.8 (2-CPU) 44.0 (4-CPU) 48.0 (6-CPU)
 **End-systems-entry{AS8200-5-625}
 
+**Start-systems-entry{AS8200-6-575}{ALPHA}{ALPHASERVER}
+**Sys-name: AlphaServer 8200 6/575	
+**Def-lref{1} = ref{SPEC-res-98q3}
+**SPECint95**vref{1}: 30.1
+**SPECfp95**vref{1}: 44.8 (1-CPU) 57.1 (2-CPU) 82.0 (4-CPU)
+**End-systems-entry{AS8200-6-575}
+
 **Start-systems-entry{AS8400-5-300}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8400 5/300
 **OS-support-vms: OpenVMS V6.2
@@ -1212,10 +1231,27 @@
 **SPECfp95**vref{1}: 20.8 (1-CPU) 30.8 (2-CPU) 45.0 (4-CPU) 52.1 (6-CPU) 56.7 (8-CPU)
 **End-systems-entry{AS8400-5-625}
 
+**Start-systems-entry{AS8400-6-575}{ALPHA}{ALPHASERVER}
+**Sys-name: AlphaServer 8400 6/575	
+**Def-lref{1} = ref{SPEC-res-98q3}
+**SPECint95**vref{1}: 30.3
+**SPECfp95**vref{1}: 47.7 (1-CPU) 63.5 (2-CPU) 89.5 (4-CPU) 105 (6-CPU) 114 (8-CPU)
+**End-systems-entry{AS8400-6-575}
+
 **Start-systems-entry{DS10}{ALPHA}{DS10}
 **Sys-name: AlphaServer DS10
+**Def-lref{1} = ref{SPEC-res-99q2}
 **OS-support-vms: OpenVMS V7.1-2
+**SPECint95**vref{1}: 24.6
+**SPECfp95**vref{1}: 57.7 (1-CPU) 76.3 (2-CPU) 104 (4-CPU)
 **End-systems-entry{DS10}
+
+**Start-systems-entry{DS10-6-600}{ALPHA}{DS10}
+**Sys-name: AlphaServer DS10 6/600
+**Def-lref{1} = ref{SPEC-res-2000q3}
+**SPECint95**vref{1}: 35.3
+**SPECfp95**vref{1}: 56.1 (1-CPU)
+**End-systems-entry{DS10-6-600}
 
 ! This looks like a typo for DS10
 !**Start-systems-entry{VS10}{ALPHA}{ALPHASERVER}
@@ -1225,10 +1261,13 @@
 
 **Start-systems-entry{ASDS20}{ALPHA}{DS20}
 **Def-lref{1} = ref{EK-AS140-UG.A01}
+**Def-lref{2} = ref{SPEC-res-99q1}
 **Sys-name: AlphaServer DS20
 **OS-support-vms**vref{1}: OpenVMS V7.1-2
 **OS-support-du**vref{1}: Digital UNIX V4.0E
 **OS-support-nt**vref{1}: Windows NT v4.0 SP3
+**SPECint95**vref{2}: 27.7
+**SPECfp95**vref{2}: 58.7 (1-CPU) 76.1 (2-CPU)
 **Dimensions-start{DS20}
 **Height**vref{1}: 440mm
 **Width**vref{1}: 350mm
@@ -1238,6 +1277,9 @@
 
 **Start-systems-entry{ASDS20E}{ALPHA}{DS20}
 **Sys-name: AlphaServer DS20E
+**Def-lref{1} = ref{SPEC-res-2000q1}
+**SPECint95**vref{1}: 40.1
+**SPECfp95**vref{1}: 83.6 (1-CPU) 110 (2-CPU)
 **End-systems-entry{ASDS20E}{ALPHA}{DS20}
 
 **Start-systems-entry{DS40}{ALPHA}{DS40}
@@ -1248,17 +1290,76 @@
 **Start-systems-entry{ES40}{ALPHA}{ES40}
 **Sys-name: AlphaServer ES40
 **OS-support-vms: OpenVMS V7.1-2
+**Def-lref{1} = ref{SPEC-res-99q2}
+**SPECint95**vref{1}: 27.3
+**SPECfp95**vref{1}: 47.9 (1-CPU)
 **End-systems-entry{ES40}
+
+**Start-systems-entry{ES40-6-667}{ALPHA}{ES40}
+**Sys-name: AlphaServer ES40 6/667
+**Def-lref{1} = ref{SPEC-res-2000q1}
+**SPECint95**vref{1}: 40.0
+**SPECfp95**vref{1}: 82.7 (1-CPU) 109 (2-CPU) 147 (4-CPU)
+**End-systems-entry{ES40-6-667}
+
+**Start-systems-entry{ES40-6-833}{ALPHA}{ES40}
+**Sys-name: AlphaServer ES40 6/833
+**Def-lref{1} = ref{SPEC-res-2000q3}
+**SPECint95**vref{1}: 50.0
+**SPECfp95**vref{1}: 100.0 (1-CPU)
+**End-systems-entry{ES40-6-833}
 
 **Start-systems-entry{GS60}{ALPHA}{GS60}
 **Sys-name: AlphaServer GS60
 **OS-support-vms: OpenVMS V7.1-2
 **End-systems-entry{GS60}
 
+**Start-systems-entry{GS60-6-625}{ALPHA}{GS60}
+**Sys-name: AlphaServer GS60 6/625
+**Def-lref{1} = ref{SPEC-res-98q3}
+**SPECint95**vref{1}: 27.8
+**SPECfp95**vref{1}: 42.5 (1-CPU) 79.7 (4-CPU)
+**End-systems-entry{GS60-6-625}
+
+**Start-systems-entry{GS60E-6-700}{ALPHA}{GS140}
+**Sys-name: AlphaServer GS60E 6/700
+**Def-lref{1} = ref{SPEC-res-99q3}
+**SPECint95**vref{1}: 39.1
+**SPECfp95**vref{1}: 68.1 (1-CPU)
+**End-systems-entry{GS60E-6-700}
+
 **Start-systems-entry{GS140}{ALPHA}{GS140}
 **Sys-name: AlphaServer GS140
 **OS-support-vms: OpenVMS V7.1-2
 **End-systems-entry{GS140}
+
+**Start-systems-entry{GS140-6-525}{ALPHA}{GS140}
+**Sys-name: AlphaServer GS140 6/525
+**Def-lref{1} = ref{SPEC-res-98q3}
+**SPECint95**vref{1}: 27.9
+**SPECfp95**vref{1}: 45.2 (1-CPU) 105 (8-CPU)
+**End-systems-entry{GS140-6-625}
+
+**Start-systems-entry{GS140-6-700}{ALPHA}{GS140}
+**Sys-name: AlphaServer GS140 6/700
+**Def-lref{1} = ref{SPEC-res-99q3}
+**SPECint95**vref{1}: 39.1
+**SPECfp95**vref{1}: 68.1 (1-CPU)
+**End-systems-entry{GS140-6-700}
+
+**Start-systems-entry{GS160-6-731}{ALPHA}{GS160}
+**Sys-name: AlphaServer GS160 6/731
+**Def-lref{1} = ref{SPEC-res-2000q2}
+**SPECint95**vref{1}: 39.5
+**SPECfp95**vref{1}: 65.9 (1-CPU)
+**End-systems-entry{GS160-6-731}
+
+**Start-systems-entry{GS320-6-731}{ALPHA}{GS320}
+**Sys-name: AlphaServer GS320 6/731
+**Def-lref{1} = ref{SPEC-res-2000q3}
+**SPECint95**vref{1}: 39.5
+**SPECfp95**vref{1}: 65.9 (1-CPU)
+**End-systems-entry{GS320-6-731}
 
 ! vref{2} model 4
 **Start-systems-entry{XL233}{ALPHA}{ALPHAXL}
@@ -1762,9 +1863,22 @@
 **OS-support-vms: OpenVMS V7.1-2
 **End-systems-entry{CS1000}
 
+**Start-systems-entry{XP900}{ALPHA}{ALPHAXP}
+**Sys-name: Compaq XP900 Workstation
+**Def-lref{1} = ref{SPEC-res-99q3}
+**SPECint95**vref{1}: 24.6
+**SPECfp95**vref{1}: 47.9 (1-CPU)
+**End-systems-entry{XP900}
+
 **Start-systems-entry{XP1000}{ALPHA}{ALPHAXP}
 **Sys-name: Compaq XP1000 Workstation
+**Def-lref{1} = ref{SPEC-res-99q1}
+**Def-lref{2} = ref{SPEC-res-99q3}
 **OS-support-vms: not supported
+**SPECint95**vref{1}: 26.9
+**SPECfp95**vref{1}: 52.2 (1-CPU)
+!**SPECint95**vref{2}: 37.5
+!**SPECfp95**vref{2}: 65.5 (1-CPU)
 **End-systems-entry{XP1000}
 
 **Start-systems-entry{DPWS-5-433a}{ALPHA}{DPWS}
@@ -1817,6 +1931,13 @@
 **OS-support-vms: not supported
 **End-systems-entry{Multia}
 
+**Start-systems-entry{DS3305-6400A}{ALPHA}{DIGITALSERVER}
+**Sys-name: DIGITAL Server 3305 6400A
+**Def-lref{1} = ref{SPEC-res-98q2}
+**SPECint95**vref{1}: 12.4
+**SPECfp95**vref{1}: 14.4
+**End-systems-entry{DS3305-6400A}
+
 **Start-systems-entry{DS3305-6500A}{ALPHA}{DIGITALSERVER}
 **Sys-name: DIGITAL Server 3305 6500A
 **OS-support-vms: OpenVMS 
@@ -1832,6 +1953,20 @@
 **SPECint95**vref{1}: 16.2
 **SPECfp95**vref{1}: 21.7
 **End-systems-entry{DS5305-6533A}
+
+**Start-systems-entry{DS7305-6533A}{ALPHA}{DIGITALSERVER}
+**Sys-name: DIGITAL Server 7305 6533A
+**Def-lref{1} = ref{SPEC-res-98q2}
+**SPECint95**vref{1}: 16.9
+**SPECfp95**vref{1}: 21.7
+**End-systems-entry{DS7305-6533A}
+
+**Start-systems-entry{DS7310-6533A}{ALPHA}{DIGITALSERVER}
+**Sys-name: DIGITAL Server 7310 6533A
+**Def-lref{1} = ref{SPEC-res-98q2}
+**SPECint95**vref{1}: 19.3
+**SPECfp95**vref{1}: 28.6
+**End-systems-entry{DS7310-6533A}
 
 **Start-systems-entry{AXPPC164SX}{ALPHA}{ALPHAPC}
 **Sys-name: Alpha PC164SX
