@@ -1,0 +1,347 @@
+**Start-terminals-entry{VT50}{DECVT}{VT5x}
+**Sys-name: VT50 Video Terminal
+**End-terminals-entry{VT50}
+
+**Start-terminals-entry{VT52}{DECVT}{VT5x}
+**Sys-name: VT52 Video Terminal
+**End-terminals-entry{VT52}
+
+**Start-terminals-entry{VT55}{DECVT}{VT52}
+**Sys-name: VT55 Video Terminal
+**End-terminals-entry{VT55}
+
+**Start-terminals-entry{VT100}{DECVT}{VT100}
+**Sys-name: VT100 Video Terminal
+**def-lref{1} = ref{EK-VT100-UG-001}
+**Screen-diagonal**htref{1}: 305mm
+**Rendition**htref{1}: Monochrome
+**Status-line**htref{1}: No
+**Printer-port**htref{1}: No
+**Host-interface**htref{1}: {RS-232}{20mA current loop (optional)}
+**2nd-host-interface**htref{1}: No
+**SSU-support**htref{1}: No
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 1 ; Ps c
+**VT52-compatibility**htref{1}: Yes
+**Tektronix-4010**htref{1}: No
+**Regis**htref{1}: No
+**Character-matrix**htref{1}: 7x9
+**Numeric-keypad**htref{1}: Yes
+**Arrow-keys**htref{1}: Yes
+**Editing-keypad: No
+**Function-keys**htref{1}: 0
+**Compose-characters**htref{1}: No
+**Character-size**htref{1}: {3.35mmx2.0mm @80 columns}{3.35mmx1.3mm @132 columns}
+**Screen-sizes**htref{1}: {80 x 24}{132 x 14}{132 x 24:(with AVO)}
+**Bits-per-char**htref{1}: 7
+**Composite-video**htref{1}:  RS170-like
+**Power-start{VT100-115V}
+**Supply**htref{1}: 115V 1-phase
+**I-max**htref{1}: 3.0A
+**Power**htref{1}: 150W
+**Power-end{VT100-115V}
+**Power-start{VT100-230V}
+**Supply**htref{1}: 230V 1-phase
+**I-max**htref{1}: 1.5A
+**Power**htref{1}: 150W
+**Power-end{VT100-230V}
+**Dimensions-start{VT100}
+**Label: VT100
+**Height**htref{1}: 368.3mm
+**Width **htref{1}: 457.2mm
+**Depth **htref{1}: 362.0mm
+**Weight**htref{1}: 13.6kg
+**Dimensions-end{VT100}
+**Dimensions-start{VT100KBD}
+**Label: Keyboard
+**Height**htref{1}: 88.9mm
+**Width **htref{1}: 457.2mm
+**Depth **htref{1}: 203.2mm
+**Weight**htref{1}: 2.0kg
+**Dimensions-end{VT100KBD}
+!-- ref_1: 
+!	DA:		ESC [ c or ESC [ 0 c
+!	response:	ESC [ ? 1 ; Ps c
+!		Ps	0: base VT100 no options 
+!			bit 1: STP (processor option)
+!			bit 2: AVO (advanced video option)
+!			bit 3: Graphics processor option (GO)
+!
+!	VT1XX-AA:	20mA Current Loop option
+!	VT1XX-AB:	AVO
+**End-terminals-entry{VT100}
+
+**Start-terminals-entry{VT101}{DECVT}{VT100}
+**Sys-name: VT101 Video Terminal
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 1 ; 0 c
+**End-terminals-entry{VT101}
+
+**Start-terminals-entry{VT102}{DECVT}{VT100}
+**Sys-name: VT102 Video Terminal
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 6 c
+**End-terminals-entry{VT102}
+
+**Start-terminals-entry{VT103}{DECVT}{VT100}
+**Sys-name: VT103 Video Terminal
+**End-terminals-entry{VT103}
+
+**Start-terminals-entry{VT105}{DECVT}{VT100}
+**Sys-name: VT105 Video Terminal
+**End-terminals-entry{VT105}
+
+**Start-terminals-entry{VT125}{DECVT}{VT100}
+**Sys-name: VT125 Video Terminal
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 1 2 ; Ps c
+**End-terminals-entry{VT125}
+
+**Start-terminals-entry{VT131}{DECVT}{VT100}
+**Sys-name: VT131 Video Terminal
+**Def-lref{1} = ref{EK-VT131-UG-003}
+**Screen-diagonal**htref{1}: 305mm
+**Rendition**htref{1}: Monochrome
+**Status-line**htref{1}: No
+**Printer-port**htref{1}: RS-232
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 7 c
+**Host-interface**htref{1}: {RS-232}{20mA current loop (optional)}
+**2nd-host-interface**htref{1}: No
+**SSU-support**htref{1}: No
+**VT52-compatibility**htref{1}: Yes
+**Tektronix-4010**htref{1}: No
+**Regis**htref{1}: No
+**Character-matrix**htref{1}: 7x10
+**Numeric-keypad**htref{1}: Yes
+**Arrow-keys**htref{1}: Yes
+**Editing-keypad**htref{1}: No
+**Function-keys**htref{1}: 0
+**Compose-characters**htref{1}: No
+**Character-size**htref{1}: {3.35mmx2.0mm @ 80columns}{3.35mmx1.3mm @ 132columns}
+**Screen-sizes**htref{1}: {80 x 24}{132 x 24}
+**Bits-per-char**htref{1}: 7
+**Composite-video**htref{1}: RS170-like
+! ref_1: p 165 8th bit always sent as 0 and ignored on receipt in 8-bit mode -->
+! ref_1: VT1XX-CA 20ma Current Loop option -->
+**Power-start{VT131-120V}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 0.7A
+**Power**htref{1}: 70W
+**Power-end{VT131-120V}
+**Power-start{VT131-240V}
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.4A
+**Power**htref{1}: 70W
+**Power-end{VT131-240V}
+**Dimensions-start{VT131-Monitor}
+**Label: Monitor
+**Height**htref{1}: 368.3mm
+**Width **htref{1}: 457.2mm
+**Depth **htref{1}: 362.0mm
+**Weight**htref{1}: 13.6kg
+**Dimensions-end{VT131-Monitor}
+**Dimensions-start{VT131-KBD}
+**Label: Keyboard
+**Height**htref{1}: 88.9mm
+**Width **htref{1}: 457.2mm
+**Depth **htref{1}: 203.2mm
+**Weight**htref{1}: 2.0kg
+**Dimensions-end{VT131-KBD}
+! ref_1: 
+!	DA:		ESC [ c or ESC [ 0 c
+!	response:	ESC [ ? 7 c
+**End-terminals-entry{VT131}
+
+**Start-terminals-entry{VT132}{DECVT}{VT100}
+**Sys-name: VT132 Video Terminal
+**End-terminals-entry{VT132}
+
+**Start-terminals-entry{VT1000}{DECVT}{VT1000}
+**Sys-name: VT1000 Video Terminal
+**Def-lref{1} = ref{EK-V1000-UG-001}
+**OS-support-VMS**htref{1}: V5.3-1
+**OS-support-Ultrix**htref{1}: V3.1
+**Screen-diagonal: 359mm
+**Rendition: Monochrome
+**Frame-rate: 70Hz
+**Status-line: No
+**Printer-port: (2nd interface)
+**Host-interface: DEC-423 or RS-232
+**2nd-host-interface: DEC-423
+**SSU-support: No
+**VT52-compatibility: Yes
+**Tektronix-4010: No
+**Regis: No
+**Keyboard-type: LK401
+**Numeric-keypad: Yes
+**Arrow-keys: Yes
+**Editing-keypad: Yes
+**Function-keys: 20
+**Compose-characters: Yes
+!!**Screen-rows: {24}{36}{48}
+**Screen-sizes: {80 x 24}{132 x 24}
+**Bits-per-char: 8
+**Composite-video: No
+!	From ref_1:
+!	Monitors:	VR150 (sw pos 1)
+!			VR262 (sw pos 3)
+!			VRE01 (sw pos 3)
+!
+!	Mouse
+!	EThernet: ThinWire
+!	RAM:		1MB (standard)
+!			4MB (*max)
+**End-terminals-entry{VT1000}
+
+**Start-terminals-entry{VT220}{DECVT}{VT200}
+**Sys-name: VT220 Video Terminal
+**Def-lref{1} = ref{EK-V220-UG-003}
+**Screen-diagonal**htref{1}: 305mm
+**Rendition**htref{1}: Monochrome
+**Status-line**htref{1}: No
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 6 2 ; Ps c
+**Printer-port**htref{1}: 9 pin submin D
+**Host-interface**htref{1}: {RS-232}{20mA current loop}
+**2nd-host-interface**htref{1}: No
+**SSU-support**htref{1}: No
+**VT52-compatibility**htref{1}: Yes
+**Tektronix-4010**htref{1}: No
+**Regis**htref{1}: No
+**Character-matrix**htref{1}: 7x9
+**Numeric-keypad**htref{1}: Yes
+**Arrow-keys**htref{1}: Yes
+**Editing-keypad**htref{1}: Yes
+**Function-keys**htref{1}: 20
+**Compose-characters**htref{1}: Yes
+**Character-size**htref{1}: {3.35mmx2.0mm @80 columns}{3.35mmx1.3mm @132 columns}
+**Screen-sizes**htref{1}: {80 x 24}{132 x 24}
+**Bits-per-char**htref{1}: 8
+**Composite-video: Yes
+**Power-start{VT220-120V}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 0.48A
+**Power**htref{1}: 60W
+**Power-end{VT220-120V}
+**Power-start{VT220-240V}
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.24A
+**Power**htref{1}: 60W
+**Power-end{VT220-240V}
+**Dimensions-start{VT220-Monitor}
+**Label: VT220 monitor
+**Height**htref{1}: 283mm
+**Width **htref{1}: 333mm
+**Depth **htref{1}: 387mm
+**Weight**htref{1}: 11.8kg
+**Dimensions-end{VT220-Monitor}
+**Dimensions-start{VT220-KBD}
+**Label: VT220 keyboard
+**Height**htref{1}: 51mm
+**Width **htref{1}: 533mm
+**Depth **htref{1}: 171mm
+**Weight**htref{1}: 2.0kg
+**Dimensions-end{VT220-KBD}
+**End-terminals-entry{VT220}
+
+**Start-terminals-entry{VT240}{DECVT}{VT200}
+**Sys-name: VT240 Video Terminal
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 6 2 ; Ps c
+**End-terminals-entry{VT240}
+
+**Start-terminals-entry{VT241}{DECVT}{VT200}
+**Sys-name: VT241 Video Terminal
+**End-terminals-entry{VT241}
+
+**Start-terminals-entry{VT320}{DECVT}{VT300}
+**Sys-name: VT320 Video Terminal
+**Def-lref{1} = ref{EK-VT320-UU-001}
+**Def-lref{2} = ref{EK-VT3XX-UU-002}
+**Def-lref{3} = ref{EK-VT3XX-TP-002}
+**Html-target: vt300
+**Screen-diagonal**htref{1}: 305mm
+**Rendition**htref{1}: Monochrome
+**Status-line**htref{1}: Yes
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 6 3 ; Ps c
+**Printer-port**htref{1}: DEC-423
+**Host-interface**htref{1}: DEC-423 or RS-232
+**2nd-host-interface**htref{1}: No
+**SSU-support**htref{1}: No
+**VT52-compatibility**htref{1}: Yes
+**Tektronix-4010**htref{1}: No
+**Regis**htref{1}: No
+**Numeric-keypad**htref{1}: Yes
+**Arrow-keys**htref{1}: Yes
+**Editing-keypad**htref{1}: No
+**Function-keys**htref{1}: 20
+**Compose-characters**htref{1}: Yes
+**Screen-sizes**htref{1}: {80 x 24}{132 x 24}
+**Bits-per-char**htref{1}: 8
+**Composite-video**htref{1}: No
+**Power-start{VT320-120V}
+**Supply**htref{1}: 120V 1-phase
+**Power**htref{1}: 50W
+**Power-end{VT320-120V}
+**Power-start{VT320-240V}
+**Supply**htref{1}: 240V 1-phase
+**Power**htref{1}: 50W
+**Power-end{VT320-240V}
+**Dimensions-start{VT320}
+**Label: VT320 monitor
+**Height**htref{1}: 252.7mm
+**Width **htref{1}: 313.6mm
+**Depth **htref{1}: 314.9mm
+**Weight**htref{1}: 6.6kg
+**Dimensions-end{VT320}
+**Dimensions-start{KBD}
+**Label: VT300 keyboard
+**Height**htref{1}: 51mm
+**Width **htref{1}: 533mm
+**Depth **htref{1}: 171mm
+**Weight**htref{1}: 2.0kg
+**Dimensions-end{KBD}
+!	From ref_3:
+!	Primary DA	CSI c 	or 	CSI 0 c
+!	Response	CSI ? Psc ; Ps1 ; ... Psn c
+!
+!	Psc = current operating level (63 = VT200/VT300 family)
+!	Ps1..Psn = 1 : 132 cols 2: printer 3: REGIS 4 : Sixel 6: selective erase 7: DRCS 8: UDK 9: NRCS
+!			13: local editing 15: technical char set 16: locator device report 18: windowing 19: dual sessions
+!
+!	alias responses:
+!		VT100DA		ESC [ ? 1 ; 2 c
+!		VT101DA		ESC [ ? 1 ; 0 c
+!		VT102DA		ESC [ ? 6 c
+!		VT125DA		ESC [ ? 12 ; 7 ; 1 ; 10 ; 102 c
+!		VT131DA		ESC [ ? 7 c
+!		VT220DA		CSI ? 62 ; 1 ; 2 ; 6 ; 7 ; 8 ; 9 c
+!		VT240DA		CSI ? 62 ; 1 ; 2 ; 3 ; 4 ; 6 ; 7 ; 8 ; 9 c
+!
+!	Secondary DA	CSI > c 		or 	CSI > 0 c
+!	Response	CSI > Pp ; Pv ; Po ; Pc c
+!		Pp = 18 (VT330) 19 (VT340)
+!	
+**End-terminals-entry{VT320}
+
+**Start-terminals-entry{VT330}{DECVT}{VT300}
+**Sys-name: VT330 Video Terminal
+**Html-target: vt300
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 6 3 ; Ps c
+**End-terminals-entry{VT330}
+
+**Start-terminals-entry{VT340}{DECVT}{VT300}
+**Sys-name: VT340 Video Terminal
+**Html-target: vt300
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 6 3 ; Ps c
+**End-terminals-entry{VT340}
+
+**Start-terminals-entry{VT420}{DECVT}{VT400}
+**Sys-name: VT420 Video Terminal
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 6 4 ; Ps c
+**End-terminals-entry{VT420}
