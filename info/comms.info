@@ -1,0 +1,625 @@
+**Start-comms-entry{DEFAR}{HUB90}
+**Sys-name: DECrepeater 90FA
+**DEF-lref{1} = ref{EK-DEFAR-OM.A01}
+**Interfaces**htref{1}: {AUI}{ThinWire}{10Base-FL}
+**Dimensions-start{DEFAR}
+**Height**htref{1}: 35mm
+**Width**htref{1}: 280mm
+**Depth**htref{1}: 140mm
+**Weight**htref{1}: 0.77kg
+**Dimensions-end{DEFAR}
+**Power-start{DEFAR-120V}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 0.25A
+**Power**htref{1}: 9W
+**Power-end{DEFAR-120V}
+**Power-start{DEFAR-240V}
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.125A
+**Power**htref{1}: 9W
+**Power-end{DEFAR-240V}
+**End-comms-entry{DEFAR}
+
+**Start-comms-entry{DEFCN}{NETMISC}
+**Sys-name: DECconcentrator 500
+**Def-lref{1} = ref{EK-DEFCN-IN-004}
+**Def-lref{2} = ref{EK-DEFCN-OP-002}
+**Network-management**htref{2}: Provides network management and OBR
+**Port-board**htref{2}: Four multimode ports
+**Lower-port-board**htref{2}: Four ST-type ports (8 connectors)
+**Dimensions-start{DEFCN-T}
+**Label: Tabletop
+**Height**htref{1}: 161.0mm
+**Width **htref{1}: 493.0mm
+**Depth **htref{1}: 313.1mm
+**Weight**htref{1}: 9.97kg
+**Dimensions-end{DEFCN-T}
+**Dimensions-start{DEFCN-R}
+**Label: Rackmount
+**Height**htref{1}: 133.3mm
+**Width **htref{1}: 435.9mm
+**Depth **htref{1}: 298.5mm
+**Weight**htref{1}: 7.95kg
+**Dimensions-end{DEFCN-R}
+**End-comms-entry{DEFCN}
+
+**Start-comms-entry{DECBR500}{BRIDGE}
+**Def-lref{1} = ref{EK-DEFEB-IN-002}
+! DECbridge 500/600 Series Installation and Upgrade. EK-DEFEB-IN-002
+**Sys-name: DECbridge 500
+**Ethernet**uref{1}: 1 x AUI or ThinWire
+**FDDI**uref{1}: 1 x SAS or DAS
+**Optical-bypass**uref{1}: Yes
+**Dual-homing**uref{1}: Yes
+!--
+!  ref_1:
+!	DECbridge 500 (DEFEB-AA/AB)	SAS with AP, NI1, FI with multimode, QM
+!	DECbridge 510 (DEFEB-AC/AD)	SAS with AP2, NI1, FI with multimode, QM
+!	DECbridge 518 (DEFEB-AS/AT)	SAS with AP2, NI1, FI with single-mode, QM
+!	DECbridge 520 (DEFEB-DA/DB)	DAS with AP2, NI1, FI with multimode and OBR, QM
+!	DECbridge 524 (DEFEB-DM/DN)	DAS with AP2, NI1, FI with single-mode/multimode, QM
+!	DECbridge 526 (DEFEB-DP/DQ)	DAS with AP2, NI1, FI with multimode/single-mode, QM
+!	DECbridge 528 (DEFEB-DS/DT)	DAS with AP2, NI1, FI with single-mode, QM
+!
+!	DECbridge 600 (DEFEB-UA/UB)	AP2, NI3, Null FI, QM
+!	DECbridge 610 (DEFEB-TA/TB)	SAS with AP2, NI3, FI with multimode, QM
+!	DECbridge 618 (DEFEB-TS/TT)	SAS with AP2, NI3, FI with single-mode, QM
+!	DECbridge 620 (DEFEB-LA/LB)	DAS with AP2, NI3, FI with multimode and OBR, QM
+!	DECbridge 624 (DEFEB-LM/LN)	DAS with AP2, NI3, FI with single-mode/multimode, QM
+!	DECbridge 626 (DEFEB-LP/LQ)	DAS with AP2, NI3, FI with multimode/single-mode, QM
+!	DECbridge 628 (DEFEB-LS/LT)	DAS with AP2, NI3, FI with single-mode, QM
+!
+!	AP: 	application processor
+!	AP2:	as AP
+!	QM:	Queue Manager
+!
+!
+**Power-start{DEBR500-110V}
+**Supply**uref{1}: 110V 1-phase
+**I-max**uref{1}: 3.9A
+**Power**uref{1}: 390W
+**Heat-dissipation**uref{1}: 1330 BTU/hr
+**Power-end{DECBR500-110V}
+**Power-start{DEBR500-240V}
+**Supply**uref{1}: 240V 1-phase
+**I-max**uref{1}: 1.7A
+**Power**uref{1}: 390W
+**Heat-dissipation**uref{1}: 1330 BTU/hr
+**Power-end{DECBR500-240V}
+**Dimensions-start{DEBR500}
+**Height**uref{1}: 176.8mm
+**Width**uref{1}: 442.0mm
+**Depth**uref{1}: 365.3mm
+**Weight**uref{1}: 14.51kg
+**Dimensions-end{DEBR500}
+**End-comms-entry{DECBR500}
+
+**Start-comms-entry{DECBR600}{BRIDGE}
+**Def-lref{1} = ref{EK-DEFEB-IN-002}
+! DECbridge 500/600 Series Installation and Upgrade. EK-DEFEB-IN-002
+**Sys-name: DECbridge 600
+**Ethernet**uref{1}: 3 x AUI
+**FDDI**uref{1}: 1 x SAS or 1 x DAS
+**Optical-bypass**uref{1}: Yes
+**Dual-homing**uref{1}: Yes
+!--
+!  ref_1:
+!	DECbridge 500 (DEFEB-AA/AB)	SAS with AP, NI1, FI with multimode, QM
+!	DECbridge 510 (DEFEB-AC/AD)	SAS with AP2, NI1, FI with multimode, QM
+!	DECbridge 518 (DEFEB-AS/AT)	SAS with AP2, NI1, FI with single-mode, QM
+!	DECbridge 520 (DEFEB-DA/DB)	DAS with AP2, NI1, FI with multimode and OBR, QM
+!	DECbridge 524 (DEFEB-DM/DN)	DAS with AP2, NI1, FI with single-mode/multimode, QM
+!	DECbridge 526 (DEFEB-DP/DQ)	DAS with AP2, NI1, FI with multimode/single-mode, QM
+!	DECbridge 528 (DEFEB-DS/DT)	DAS with AP2, NI1, FI with single-mode, QM
+!
+!	DECbridge 600 (DEFEB-UA/UB)	AP2, NI3, Null FI, QM
+!	DECbridge 610 (DEFEB-TA/TB)	SAS with AP2, NI3, FI with multimode, QM
+!	DECbridge 618 (DEFEB-TS/TT)	SAS with AP2, NI3, FI with single-mode, QM
+!	DECbridge 620 (DEFEB-LA/LB)	DAS with AP2, NI3, FI with multimode and OBR, QM
+!	DECbridge 624 (DEFEB-LM/LN)	DAS with AP2, NI3, FI with single-mode/multimode, QM
+!	DECbridge 626 (DEFEB-LP/LQ)	DAS with AP2, NI3, FI with multimode/single-mode, QM
+!	DECbridge 628 (DEFEB-LS/LT)	DAS with AP2, NI3, FI with single-mode, QM
+!
+!	AP: 	application processor
+!	AP2:	as AP
+!	QM:	Queue Manager
+!
+!
+**Power-start{DEBR600-110V}
+**Supply**uref{1}: 110V 1-phase
+**I-max**uref{1}: 3.9A
+**Power**uref{1}: 390W
+**Heat-dissipation**uref{1}: 1330 BTU/hr
+**Power-end{DECBR600-110V}
+**Power-start{DEBR600-240V}
+**Supply**uref{1}: 240V 1-phase
+**I-max**uref{1}: 1.7A
+**Power**uref{1}: 390W
+**Heat-dissipation**uref{1}: 1330 BTU/hr
+**Power-end{DECBR600-240V}
+**Dimensions-start{DEBR600}
+**Height**uref{1}: 176.8mm
+**Width**uref{1}: 442.0mm
+**Depth**uref{1}: 365.3mm
+**Weight**uref{1}: 14.51kg
+**Dimensions-end{DEBR600}
+**End-comms-entry{DECBR600}
+
+**Start-comms-entry{DELNI}{NETMISC}
+**Sys-name: DELNI Ethernet Local Network Interconnect
+**Def-lref{1} = ref{EK-DELNI-TM.001}
+! One AUI backbone interface, 8 AUI local interfaces -->
+**Power-start{DELNI-120V}
+**Supply**htref{1}: 120V 1-phase
+**I-nominal**htref{1}: 0.35A
+**I-inrush**htref{1}: 10A
+**Power**htref{1}: 26W
+**Power-end{DELNI-120V}
+**Power-start{DELNI-240V}
+**Supply**htref{1}: 240V 1-phase
+**I-nominal**htref{1}: 0.18A
+**I-inrush**htref{1}: 5A
+**Power**htref{1}: 26W
+**Power-end{DELNI-240V}
+**Dimensions-start{DELNI-T}
+**Label: Tabletop
+**Height**htref{1}: 89mm
+**Width **htref{1}: 489mm
+**Depth **htref{1}: 197mm
+**Weight**htref{1}: 4.8kg
+**Dimensions-end{DELNI-T}
+**Dimensions-start{DELNI-R}
+**Label: Rackmount
+**Height**htref{1}: 64mm
+**Width **htref{1}: 445mm
+**Depth **htref{1}: 178mm
+**Weight**htref{1}: 4.8kg
+**Dimensions-end{DELNI-R}
+**End-comms-entry{DELNI}
+
+**Start-comms-entry{DEMPR}{NETMISC}
+**Sys-name: DEMPR Ethernet Multiport Repeater
+**Def-lref{1} = ref{EK-THNRP-UG-002}
+**Backbone-interface**htref{1}: 1xAUI
+**Local-interface**htref{1}: 8xThinWire
+**Power-start{DEMPR-AA}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 0.83A
+**Power**htref{1}: 40W
+**Power-end{DEMPR-AA}
+**Power-start{DEMPR-AB}
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.42A
+**Power**htref{1}: 40W
+**Power-end{DEMPR-AB}
+**Dimensions-start{DEMPR-T}
+**Label: Tabletop
+**Height**htref{1}: 114.3mm
+**Width **htref{1}: 489mm
+**Depth **htref{1}: 311.1mm
+**Dimensions-end{DEMPR-T}
+**Dimensions-start{DEMPR-R}
+**Label: Tabletop
+**Height**htref{1}: 87.4mm
+**Width **htref{1}: 431.9mm
+**Depth **htref{1}: 298.4mm
+**Dimensions-end{DEMPR-R}
+**End-comms-entry{DEMPR}
+
+**Start-comms-entry{DEMSA}{ROUTER}
+**Sys-name: DEMSA MicroServer
+**Def-lref{1} = ref{EK-DEMSA-IN-002}
+**Synch-lines**htref{1}: 4
+**Ethernet**htref{1}: AUI
+**Dimensions-start{DEMSA-T}
+**Label: Tabletop
+**Height**htref{1}: 162mm
+**Width **htref{1}: 494mm
+**Depth **htref{1}: 313mm
+**Weight**htref{1}: 9.5kg
+**Dimensions-end{DEMSA-T}
+**Dimensions-start{DEMSA-R}
+**Label: rackmount
+**Height**htref{1}: 133mm
+**Width **htref{1}: 436mm
+**Depth **htref{1}: 298mm
+**Weight**htref{1}: 7.3kg
+**Dimensions-end{DEMSA-R}
+**End-comms-entry{DEMSA}
+
+**Start-comms-entry{DEREP}{NETMISC}
+**Sys-name: DEREP Ethernet Repeater
+**Def-lref{1} = ref{EK-DEREP-TM.001}
+!<TR> <TH> &nbsp;			<TH> Minimum	<TH> Typical	<TH> Maximum	</TR>
+!<TR> <TD> Transmitted preamble <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
+!					<TD> 64 bits	<TD> 64 bits	<TD> 2500 bits	</TR>
+!<TR> <TD> Transmit clock error <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
+!					<TD>	-	<TD>	-	<TD> 0.1%	</TR>
+!<TR> <TD> In-out transition <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
+!					<TD> 400ns	<TD> 500ns	<TD> 750ns	</TR>
+!<TR> <TD> Collision propogation <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
+!					<TD> 400ns	<TD> 500ns	<TD> 750ns	</TR>
+!<TR> <TD> Data bit 1 to bit 1 out delay <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
+!					<TD> 5 bits	<TD> 10 bits	<TD> 32 bits	</TR>
+!<TR> <TD> Last bit in to last bit out delay <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
+!					<TD> 2 bits	<TD> 6 bits	<TD> 32 bits	</TR>
+!<TR> <TD> Heartbeat detection window <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
+!					<TD> 0us	<TD>	-	<TD> 32us   	</TR>
+!<TR> <TD> Packet length <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
+!					<TD> 512 bits	<TD>	-	<TD> 14144 bits	</TR>
+!
+!<H3> <A NAME="supply">             Power requirements </A> </H3>
+!
+!<TABLE WIDTH=100% BORDER=1>
+!<TR> <TH> Subsystem	<TH> Supply       <TH> I max    <TH> Power    <TH> Heat     	</TR>
+!<TR> <TD> DEREP-AA    <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
+!			<TD> 115V 1-phase <TD>     1.0A <TD>          <TD>          	</TR>
+!<TR> <TD> DEREP-AA    <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
+!			<TD> 230V 1-phase <TD>     0.5A <TD>          <TD>           	</TR>
+!<TR> <TD> DEREP-RA    <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
+!			<TD> 115V 1-phase <TD>     2.5A <TD>          <TD>          	</TR>
+!<TR> <TD> DEREP-RA    <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
+!			<TD> 230V 1-phase <TD>    1.25A <TD>          <TD>           	</TR>
+**Dimensions-start{DEREP}
+**Height**htref{1}: 101.6mm
+**Width **htref{1}: 457.2mm
+**Depth **htref{1}: 304.8mm
+**Weight**htref{1}: 7.26kg
+**Dimensions-end{DEREP}
+**End-comms-entry{DEREP}
+
+**Start-comms-entry{DESPR}{NETMISC}
+**Sys-name: DESPR Ethernet Single Port Repeater
+**Def-lref{1} = ref{EK-THNRP-UG-002}
+**Backbone-interface**htref{1}: 1xAUI
+**Local-interface**htref{1}: 1xThinWire
+**Power-start{DESPR-AA}
+**Label: DESPR-AA
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 0.83A
+**Power**htref{1}:40W
+**Power-end{DESPR-AA}
+**Power-start{DESPR-AB}
+**Label: DESPR-AB
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.42A
+**Power**htref{1}:40W
+**Power-end{DESPR-AB}
+**Power-start{DESPR-EE}
+**Label: DESPR-EE/-EF
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.21A
+**Power**htref{1}:25W
+**Power-end{DESPR-EE}
+**Dimensions-start{DESPR-T}
+**Label: Tabletop
+**Height**uref{1}: 114.3mm
+**Width**uref{1}: 489mm
+**Depth**uref{1}: 311.1mm
+**Dimensions-end{DESPR-T}
+**Dimensions-start{DESPR-R}
+**Label: Rackmount
+**Height**uref{1}: 87.4mm
+**Width**uref{1}: 431.9mm
+**Depth**uref{1}: 298.4mm
+**Dimensions-end{DESPR-R}
+**Dimensions-start{DESPR-EE}
+**Label: DESPR-EE/EF
+**Height**uref{1}: 90mm
+**Width**uref{1}: 330mm
+**Depth**uref{1}: 180mm
+**Dimensions-end{DESPR-EE}
+**End-comms-entry{DESPR}
+
+**Start-comms-entry{DETPR}{NETMISC}
+**Sys-name: DECrepeater 350
+**Def-lref{1} = ref{EK-DETPR-IN-001}
+**Backbone-interface**htref{1}: 1 x AUI
+**Local-interface**htref{1}: 8 x 10BaseT
+**Power-start{DETPR-AA}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 0.725A
+**Power**htref{1}: 80W
+**Power-end{DETPR-AA}
+**Power-start{DETPR-BB}
+**Label: DETPR-AB/BB
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.360A
+**Power**htref{1}: 80W
+**Power-end{DETPR-BB}
+**Dimensions-start{DETPR-T}
+**Label: Tabletop
+**Height**htref{1}: 117.6mm
+**Width **htref{1}: 489mm
+**Depth **htref{1}: 304.8mm
+**Dimensions-end{DETPR-T}
+**Dimensions-start{DETPR-R}
+**Label: Rackmount
+**Height**htref{1}: 87.4mm
+**Width **htref{1}: 431.8mm
+**Depth **htref{1}: 298.5mm
+**Dimensions-end{DETPR-R}
+**End-comms-entry{DETPR}
+
+**Start-comms-entry{DS100}{TERMSERVER}
+**Sys-name: DECserver 100 Terminal Server
+**Def-lref{1} = ref{AA-Z085A-TK}
+**Sessions-per-port**htref{1}: 4
+**Ports**htref{1}: 8
+**Speed**htref{1}: 75 - 19.2K
+**Data-bits**htref{1}: 8
+**Port-interface**htref{1}: RS-232
+**Network-interface**htref{1}: AUI
+**End-comms-entry{DS100}
+
+**Start-comms-entry{DS200}{TERMSERVER}
+**Sys-name: DECserver 200 Terminal Server
+**Def-lref{1} = ref{EK-D200C-IN-001}
+**Sessions-per-port**htref{1}: 4
+**Ports**htref{1}: 8
+**Data-bits**htref{1}: 8
+**Port-interface**htref{1}: {RS-232 (DS200/MC)}{DEC423 (DS200/DL)}
+**Network-interface**htref{1}: AUI
+**Power-start{DSRVB-AA}
+**Label: DSRVB-AA, -BA
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 1.0A
+**Power**htref{1}: 75W
+**Power-end{DSRVB-AA}
+**Power-start{DSRVB-AB}
+**Label: DSRVB-AB, -BB
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.5A
+**Power**htref{1}: 75W
+**Power-end{DSRVB-AB}
+**Dimensions-start{DS200}
+**Label: DECserver 200
+**Height**htref{1}: 117mm
+**Width **htref{1}: 493mm
+**Depth **htref{1}: 312mm
+**Weight**htref{1}: 5.9kg
+**Dimensions-end{DS200}
+**End-comms-entry{DS200}
+
+**Start-comms-entry{DS300}{TERMSERVER}
+**Sys-name: DECserver 300 Terminal Server
+**Def-lref{1} = ref{EK-A0366-IN-001}
+**Sessions-per-port**htref{1}: 4
+**Ports**htref{1}: 16
+**Speed**htref{1}: 1.2K - 19.2K
+**Data-bits**htref{1}: 8
+**Port-interface**htref{1}: DEC423
+**Network-interface**htref{1}: {AUI}{ThinWire}
+**Dimensions-start{DS300}
+**Height**htref{1}: 117mm
+**Width**htref{1}: 493mm
+**Depth**htref{1}: 312mm
+**Weight**htref{1}: 5.4kg
+**Dimensions-end{DS300}
+**Power-start{DSRVF-BA}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 1.0A
+**Power**htref{1}: 75W
+**Power-end{DSRVF-BA}
+**Power-start{DSRVF-BB}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 0.5A
+**Power**htref{1}: 75W
+**Power-end{DSRVF-BB}
+**End-comms-entry{DS300}
+
+**Start-comms-entry{DS700}{TERMSERVER}
+**Sys-name: DECserver 700 Terminal Server
+**Def-lref{1} = ref{EK-DSRVW-MG.001}
+**Sessions-per-port**htref{1}: 4					
+**Ports**htref{1}: {8 (700-8)}{16 (700-16}
+**Port-interface**htref{1}: {RS-232 (700-8)}{RJ45(700-16}}
+**Network-interface**htref{1}: AUI or 10BaseT
+**Minimum-memory**htref{1}: 1MB
+**Maximum-memory**htref{1}: 8MB
+! ref_1: memory configs: two slots 1MB SIMM or 4MB SIMM in either 70ns or 80ns 36-bit -->
+**Dimensions-start{DS700}
+**Height**htref{1}: 44mm
+**Width**htref{1}: 442mm
+**Depth**htref{1}: 282mm
+**Weight**htref{1}: 2.5kg
+**Dimensions-end{DS700}
+**Power-start{DS700-120V}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 1.4A
+**Power**htref{1}: 92W
+**Power-end{DS700-120V}
+**Power-start{DS700-240V}
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.7A
+**Power**htref{1}: 92W
+**Power-end{DS700-240V}
+**End-comms-entry{DS700}
+
+**Start-comms-entry{DS90L}{TERMSERVER}
+**Sys-name: DECserver 90L Terminal Server
+**Def-lref{1} = ref{EK-DSRVD-OM-001}
+**Def-lref{2} = ref{EK-DSRVG-OM.001}
+**Sessions-per-port**htref{1}: 1
+**Ports**htref{1}: 8
+**LAT-version**htref{1}: V5.0
+**Speed**htref{1}: 1.2K to 38.4K
+**Data-bits**htref{1}: 8
+**Stop-bits**htref{1}: 1
+**Port-interface**htref{1}: DEC423
+**Flow-control**htref{1}: XON/XOFF
+**Network-interface**htref{1}: ThinWire or DEChub
+**Dimensions-start{DS90L}
+**Height**htref{1}: 31.8mm
+**Width**htref{1}: 273.1mm
+**Depth**htref{1}: 127.0mm
+**Weight**htref{1}: 0.77kg
+**Dimensions-end{DS90L}
+**Power-start{DS90L-120V}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 0.25A
+**Power**htref{1}: 16W
+**Power-end{DS90L-120V}
+**Power-start{DS90L-240V}
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.125A
+**Power**htref{1}: 16W
+**Power-end{DS90L-240V}
+!-- ref_1: DS90L requires 1.0A at 4.75V to 5.25V -->
+**End-comms-entry{DS90L}
+
+**Start-comms-entry{DS90LP}{TERMSERVER}
+**Sys-name: DECserver 90L+ Terminal Server
+**Def-lref{1} = ref{EK-DSRVD-OM-001}
+**Def-lref{2} = ref{EK-DSRVG-OM.001}
+**Sessions-per-port**htref{2}: 4
+**Ports**htref{2}: 8
+**LAT-version**htref{2}: V5.0
+**Speed**htref{2}: 1.2K to 38.4K
+**Data-bits**htref{2}: 8
+**Port-interface**htref{2}: DEC423
+**Flow-control**htref{2}: XON/XOFF or disabled
+**Network-interface**htref{2}: ThinWire or DEChub
+**Dimensions-start{DS90LP}
+**Height**htref{2}: 31.8mm
+**Width**htref{2}: 273.1mm
+**Depth**htref{2}: 127.0mm
+**Weight**htref{2}: 0.77kg
+**Dimensions-end{DS90LP}
+**Power-start{DS90LP-120V}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 0.25A
+**Power**htref{1}: 16W
+**Power-end{DS90LP-120V}
+**Power-start{DS90LP-240V}
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.125A
+**Power**htref{1}: 16W
+**Power-end{DS90LP-240V}
+!-- ref_2: DS90L+ requires 1.0A at 4.75V to 5.25V -->
+**End-comms-entry{DS90LP}
+
+**Start-comms-entry{LB100}{BRIDGE}
+**Sys-name: LAN Bridge 100 Ethernet Bridge
+**Def-lref{1} = ref{EK-DEBET-TM-003}
+**Def-lref{2} = ref{EK-LB150-IN-002}
+**CPU**htref{1}: Motorola 68000
+**Port-A**htref{1}: {AUI}{SMA}
+**Port-B**htref{1}: AUI
+**Ethernet-chip**htref{1}: LANCE
+
+**Power-start{LB100-F08-120V}
+**Label: LB100 rev &LT;= F08
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 1.6A
+**Power**htref{1}: 160W  
+**Power-end{LB100-F08-120V}
+
+**Power-start{LB100-F08-240V}
+**Label: LB100 rev &LT;= F08
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.9A
+**Power**htref{1}: 160W  
+**Power-end{LB100-F08-240V}
+
+**Power-start{LB100-F09-120V}
+**Label: LB100 rev &GT;= F09
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 1.1A
+**Power**htref{1}: 168W  
+**Power-end{LB100-F09-120V}
+
+**Power-start{LB100-F09-240V}
+**Label: LB100 rev &GT;= F09
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.7A
+**Power**htref{1}: 168W  
+**Power-end{LB100-F09-240V}
+
+**Dimensions-start{LB100-T-F08}
+**Label: LB100 Tabletop (&LT;= F08)
+**Height**htref{1}: 162mm
+**Width **htref{1}: 494mm
+**Depth **htref{1}: 313mm
+**Weight**htref{1}: 9.5kg
+**Dimensions-end{LB100-T-F08}
+
+**Dimensions-start{LB100-T-F09}
+**Label: LB100 Tabletop (&GT;= F09)
+**Height**htref{1}: 162mm
+**Width **htref{1}: 494mm
+**Depth **htref{1}: 313mm
+**Weight**htref{1}: 6.7kg
+**Dimensions-end{LB100-T-F09}
+
+**Dimensions-start{LB100-R-F08}
+**Label: LB100 Rackmount (&LT;= F08)
+**Height**htref{1}: 133mm
+**Width **htref{1}: 436mm
+**Depth **htref{1}: 298mm
+**Weight**htref{1}: 7.3kg
+**Dimensions-end{LB100-R-F08}
+
+**Dimensions-start{LB100-R-F09}
+**Label: LB100 Rackmount (&GT;= F09)
+**Height**htref{1}: 133mm
+**Width **htref{1}: 436mm
+**Depth **htref{1}: 298mm
+**Weight**htref{1}: 4.5kg
+**Dimensions-end{LB100-R-F09}
+
+!-- ref_1: switches
+!		ON=down 			OFF=up		
+!	1 	Continuous self-test 		Self-test once at poerup
+!		after powerup
+!
+!	2	NVRAM reste on powerup		No NVRAM reset
+!
+!	3	Port A stations can write	Port A stations cannot write
+!		bridge parameters		bridge parameters
+!
+!	4	As for3, but port B
+!
+!	5	LB100 operates as LTM		LB100 operates as bridge
+!
+!	6	not used			not used
+**End-comms-entry{LB100}
+
+**Start-comms-entry{LB150}{BRIDGE}
+**Sys-name: LAN Bridge 150 Ethernet Bridge
+**Def-lref{1} = ref{EK-DEBET-TM-003}
+**Def-lref{2} = ref{EK-LB150-IN-002}
+**Port-A**htref{2}: {AUI}{SMA}
+**Port-B**htref{2}: AUI
+
+**Power-start{LB150-120V}
+**Label: LB150
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 1.1A
+**Power**htref{1}: 168W  
+**Power-end{LB150-120V}
+
+**Power-start{LB150-240V}
+**Label: LB150
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 0.7A
+**Power**htref{1}: 168W  
+**Power-end{LB150-240V}
+
+
+**Dimensions-start{LB150-T}
+**Label: LB150 Tabletop
+**Height**htref{1}: 162mm
+**Width **htref{1}: 494mm
+**Depth **htref{1}: 313mm
+**Weight**htref{1}: 6.7kg
+**Dimensions-end{LB150-T}
+
+**Dimensions-start{LB150-R}
+**Label: LB150 Rackmount
+**Height**htref{1}: 133mm
+**Width **htref{1}: 436mm
+**Depth **htref{1}: 298mm
+**Weight**htref{1}: 4.5kg
+**Dimensions-end{LB150-R}
+**End-comms-entry{LB150}
