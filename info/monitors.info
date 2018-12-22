@@ -1,0 +1,457 @@
+**Start-monitors-entry{VR150}{MONITOR}{VR}
+**Sys-name: VR150 15" Monochrome Monitor
+**Def-lref{1} = ref{EK-302AB-OG-002}
+**Screen-diagonal**htref{1}: 383mm
+**Screen-size**htref{1}: 1024x864 pixels  
+**Video-termination**htref{1}: 75ohm BNC    
+**Video-amplitude**htref{1}: 1.0Vpp composite video 
+**H-active-video**htref{1}: 14.8us   
+**H-back-porch**htref{1}: 1680ns   
+**H-blanking-interval**htref{1}: 3.70us:maximum  
+**H-frequency**htref{1}: 54.054kHz   
+**H-front-porch**htref{1}: 160ns     
+**Horizontal-period**htref{1}: 18.5us   
+**H-sync-pulse**htref{1}: 1850ns   
+**V-active-video**htref{1}: 16.0ms   
+**V-blanking-interval**htref{1}: 37 horizontal lines 
+**V-frequency**htref{1}: 60Hz        
+**V-front-porch**htref{1}: 0 horizontal lines  
+**V-sync-pulse**htref{1}: 3 horizontal lines  
+**Vertical-period**htref{1}: 16.67ms   
+**Dimensions-start{VR150}
+**Height**htref{1}: 394mm   
+**Width**htref{1}: 369mm   
+**Depth**htref{1}: 403mm   
+**Weight**htref{1}: 16.34kg   
+**Dimensions-end{VR150}
+**Power-start{VR150}
+**Power**uref{1}: 70W:nominal
+**Power-end{VR150}
+**End-monitors-entry{VR150}
+
+**Start-monitors-entry{VR160}{MONITOR}{VR}
+**Sys-name: VR160 15" Colour Monitor
+**Def-lref{1} = ref{EK-302AB-OG-002}
+**Screen-diagonal**htref{1}: 383mm:(15")  
+**Screen-size**htref{1}: 1024x864 pixels  
+**Video-termination**htref{1}: 75ohm BNC    
+**Synch-signal**htref{1}: Green
+**Video-amplitude**htref{1}: {0.7Vpp Red}{1.0Vpp Green}{0.7Vpp Blue}
+**Dimensions-start{VR160}
+**Height**htref{1}: 394mm   
+**Width**htref{1}: 369mm   
+**Depth**htref{1}: 457mm   
+**Weight**htref{1}: 23kg      
+**Dimensions-end{VR160}
+**Power-start{VR160}
+**Power**uref{1}: {150W:max @ 250VA}
+! {125W:nominal @ 200VA}
+**Power-end{VR160}}
+**End-monitors-entry{VR160}
+
+**Start-monitors-entry{VR260}{MONITOR}{VR}
+**Sys-name: VR260 19" Monochrome Monitor
+**Def-lref{1} = ref{EK-VR260-IN-001}
+**Screen-diagonal**htref{1}: 482mm
+**Dot-pitch**htref{1}: 0.3mm
+**Screen-size**htref{1}: 1024x864 pixels
+**H-Frequency**htref{1}: 54.054kHz
+**V-Frequency**htref{1}: 60Hz
+**Dimensions-start{VR260}
+**Height**htref{1}: 390mm
+**Width**htref{1}: 455mm
+**Depth**htref{1}: 395mm
+**Weight**htref{1}: 18kg
+**Dimensions-end{VR260}
+**Power-start{VR260}
+**Power**uref{1}: 150W:approx
+**Power-end{VR260}
+**End-monitors-entry{VR260}
+
+**Start-monitors-entry{VR262}{MONITOR}{VR}
+**Sys-name: VR262 19" Monochrome Monitor
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-VR262-IN-003}
+**Screen-diagonal**htref{1}: 483mm
+**Screen-size**htref{1}: 1024x864 pixels  
+**Video-termination**htref{1}: 75ohm BNC    
+**Video-amplitude**htref{1}: 1.0Vpp composite video 
+**H-active-video**htref{1}: 14.8us
+**H-back-porch**htref{1}: 1690ns   
+**H-blanking-interval**htref{1}: 3.70us:maximum 
+**H-frequency**htref{1}: 54.054kHz   
+**H-front-porch**htref{1}: 160ns     
+**Horizontal-period**htref{1}: 18.5us
+**Pixels-displayed**htref{1}: 1024     
+**H-sync-pulse**htref{1}: 1850ns   
+**V-active-video**htref{1}: 16.0ms   
+**V-blanking-interval**htref{1}: 37 horizontal lines:max 
+**V-frequency**htref{1}: 60Hz        
+**V-front-porch**htref{1}: 0 horizontal lines  
+**Lines-displayed**htref{2}: 864      
+**V-sync-pulse**htref{1}: 3 horizontal lines  
+**Vertical-period**htref{1}: 16.67ms   
+**Dimensions-start{VR262}
+**Height**htref{1}: 393.7mm   
+**Width**htref{1}: 454.7mm   
+**Depth**htref{1}: 391.2mm   
+**Weight**htref{1}: 19.05kg   
+**Dimensions-end{VR262}
+**Power-start{VR262}
+**Power**uref{1}: 65W:approx
+**Power-end{VR262}
+**End-monitors-entry{VR262}
+
+**Start-monitors-entry{VR290}{MONITOR}{VR}
+**Sys-name: VR290 19" Colour Monitor
+**Def-lref{1} = ref{EK-VR290-IN-002}
+**Screen-diagonal**htref{1}: 480mm
+**Dot-pitch**htref{1}: 0.31mm       
+**Screen-size**htref{1}: 1024x864 pixels  
+**Video-termination**htref{1}: 75ohm BNC    
+**Synch-signal**htref{1}: Green
+**Video-amplitude**htref{1}: {0.7Vpp Red}{1.0Vpp Green}{0.7Vpp Blue}
+**H-frequency**htref{1}: 54kHz   
+**V-frequency**htref{1}: 60Hz        
+**Dimensions-start{VR290}
+**Height**htref{1}: 470mm   
+**Width**htref{1}: 518mm   
+**Depth**htref{1}: 564mm   
+**Weight**htref{1}: 36kg      
+**Dimensions-end{VR290}
+**Power-start{VR290}
+**Power**uref{1}: 150W:nominal
+**Power-end{VR290}
+**End-monitors-entry{VR290}
+
+**Start-monitors-entry{VR297}{MONITOR}{VR}
+**Sys-name: VR297 17" Colour Monitor
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Screen-diagonal**htref{1}: 432mm
+**Dot-pitch**htref{1}: 0.26mm       
+**Screen-size**htref{1}: 1024x864 pixels  
+**Video-termination**htref{1}: 75ohm BNC    
+**Synch-signal**htref{1}: Green
+**Video-amplitude**htref{1}: {0.7Vpp Red}{1.0Vpp Green}{0.7Vpp Blue}
+**H-active-video**htref{1}: 14.8us   
+**H-back-porch**htref{1}: 1680ns   
+**H-blanking-interval**htref{1}: 3.70us    
+**H-frequency**htref{1}: 54.054kHz   
+**H-front-porch**htref{1}: 160ns     
+**H-sync-pulse**htref{1}: 1850ns   
+**V-active-video**htref{1}: 16.0ms   
+**V-blanking-interval**htref{1}: 37 horizontal lines:max 
+**V-frequency**htref{1}: 60Hz        
+**V-front-porch**htref{1}: 0 horizontal lines  
+**Lines-displayed**htref{1}**htref{1}: 868      
+**V-sync-pulse**htref{1}: 3 horizontal lines  
+**Vertical-period**htref{1}: 16.67ms   
+**Dimensions-start{VR297}
+**Height**htref{1}: 406.4mm   
+**Width**htref{1}: 406.4mm   
+**Depth**htref{1}: 450.7mm   
+**Weight**htref{1}: 29.03kg   
+**Dimensions-end{VR297}
+**End-monitors-entry{VR297}
+
+**Start-monitors-entry{VR299}{MONITOR}{VR}
+**Sys-name: VR299 20" Colour Monitor
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-VR299-IN}
+**Screen-diagonal**lref{2}: 480mm:(20")  
+**Dot-pitch**lref{2}: 0.32mm       
+**Screen-size**lref{2}: 1024x864 pixels  
+**Video-termination**lref{2}: 75ohm BNC    
+**Synch-signal**lref{2}: Green
+**Video-amplitude**lref{2}: {0.7Vpp Red}{1.0Vpp Green}{0.7Vpp Blue}
+**H-active-video**lref{2}: 14.8us  
+**H-back-porch**lref{2}: 1680ns   
+**H-blanking-interval**lref{2}: 3.70us:(max)
+**H-frequency**lref{2}: 54.054kHz   
+**H-front-porch**lref{2}: 160ns     
+**Horizontal-period**lref{2}: 18.5us  
+**H-sync-pulse**lref{2}: 1850ns   
+**V-active-video**lref{2}: 16.0ms   
+**V-blanking-interval**lref{2}: 37 horizontal lines
+**V-frequency**lref{2}: 60Hz        
+**V-front-porch**lref{2}: 0 horizontal lines  
+**Lines-displayed**lref{2}: 864
+**V-sync-pulse**lref{2}: 3 horizontal lines  
+**Vertical-period**lref{2}: 16.67ms   
+**Dimensions-start{VR299}
+**Height**lref{2}: 470mm
+**Width**lref{2}: 506mm
+**Depth**lref{2}: 525mm   
+**Weight**lref{2}: 37kg
+**Dimensions-end{VR299}
+**Power-start{VR299}
+**Power**lref{2}: 150W:max
+**Power-end{VR299}
+**End-monitors-entry{VR299}
+
+**Start-monitors-entry{VR319-C}{MONITOR}{VR}
+**Sys-name: VR319-C 19" Monochrome Monitor
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Html-target: VR319
+! WARNING WARNING
+! Some of the data here seems suspect (compared to other monitors)
+**Screen-diagonal**htref{1}: 483mm
+**Screen-size**htref{1}: 1024x1024 pixels
+**Video-termination**htref{1}: 75ohm BNC
+**Video-amplitude**htref{1}: 1.0Vpp composite video
+**H-active-video**htref{1}: 10.6806us
+**H-back-porch**htref{1}: 1.8691ns
+**H-blanking-interval**htref{1}: 3.4712us
+**H-frequency**htref{1}: 70.662kHz
+**H-front-porch**htref{1}: 0.2670ns
+**Horizontal-period**htref{1}: 14.1519us
+**H-sync-pulse**htref{1}: 1.3351ns
+**V-active-video**htref{1}: 14.4915us
+**V-back-porch**htref{1}: 0.467011ns
+**V-blanking-interval**htref{1}: 0.551922us
+**V-front-porch**htref{1}: 0.042455ns
+**Vertical-period**htref{1}: 15.0434us
+**Lines-displayed**htref{1}: 14.4915
+**V-sync-pulse**htref{1}: 0.042455ns
+**V-frequency**htref{1}: 66Hz
+**Dimensions-start{VR319-C}
+**Height**htref{1}: 457.2mm
+**Width**htref{1}: 495.5mm
+**Depth**htref{1}: 401.3mm
+**Weight**htref{1}: 22.68kg
+**Dimensions-end{VR319-C}
+**Power-start{VR319}
+**Power**uref{1}: 123W:approx
+**Power-end{VR319}
+**End-monitors-entry{VR319-C}
+
+**Start-monitors-entry{VR319-D}{MONITOR}{VR}
+**Sys-name: VR319-D 19" Monochrome Monitor
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Html-target: VR319
+! WARNING WARNING
+! Some of the data here seems suspect (compared to other monitors)
+**Screen-diagonal**htref{1}: 483mm
+**Screen-size**htref{1}: 1280x1024
+**Video-termination**htref{1}: 75ohm BNC
+**Video-amplitude**htref{1}: 1.0Vpp composite video
+**V-frequency**htref{1}: 72Hz
+**H-active-video**htref{1}: 9.7853us 
+**H-back-porch**htref{1}: 1.7124ns 
+**H-blanking-interval**htref{1}: 3.1802us 
+**H-frequency**htref{1}: 77.173kHz 
+**H-front-porch**htref{1}: 0.2446ns 
+**Horizontal-period**htref{1}: 12.9579us 
+**H-sync-pulse**htref{1}: 1.2232ns 
+**V-active-video**htref{1}: 13.2767us 
+**V-back-porch**htref{1}: 0.427864ns 
+**V-blanking-interval**htref{1}: 0.505658us 
+**V-front-porch**htref{1}: 0.038897ns 
+**Vertical-period**htref{1}: 13.7842us 
+**Lines-displayed**htref{1}: 13.2767 
+**V-sync-pulse**htref{1}: 0.038897ns 
+**Dimensions-start{VR319-D}
+**Height**htref{1}: 457.2mm
+**Width**htref{1}: 495.5mm
+**Depth**htref{1}: 401.3mm
+**Weight**htref{1}: 22.68kg
+**Dimensions-end{VR319-D}
+**Power-start{VR319}
+**Power**uref{1}: 123W:approx
+**Power-end{VR319}
+**End-monitors-entry{VR319-D}
+
+**Start-monitors-entry{VR417}{MONITOR}{VR}
+**Sys-name: VR417 17" Colour Monitor
+**Def-lref{1} = ref{CU-V6-2B}
+! [1] also known as Sony VRT17 -->
+! [1] 17", 16" viewable autoscanning colour display -->
+!   [1]:
+! aperture grille, stereo support, MPR II, digital controls,
+! 5 BNC connectors, autosensing mains power
+**Screen-diagonal**htref{1}: 374mm:(15" viewable)
+**Triad-pitch**htref{1}: 0.26mm       
+**Screen-size**htref{1}: 1280x1024 pixels  
+**Video-termination: 75ohm BNC    
+**Synch-signal: Green
+**Video-amplitude: {0.7Vpp Red}{1.0Vpp Green}{0.7Vpp Blue}
+**H-active-video: 10.6806us   
+**H-back-porch: 1869.1ns   
+**H-blanking-interval: 3.4712us   
+**H-frequency**htref{1}: 30-82kHz     
+**H-front-porch: 267ns     
+**Horizontal-period: 14.518us    
+**H-sync-pulse: 1335.1ns   
+**V-active-video: 14.4915ms   
+**V-blanking-interval: 39 horizontal lines 
+**V-frequency**htref{1}: 50-150Hz    
+**V-front-porch: 3 horizontal lines  
+**V-sync-pulse: 3 horizontal lines  
+**Vertical-period: 15.0434ms   
+**Dimensions-start{VR417}
+**Height**htref{1}: 414mm     
+**Width**htref{1}: 406mm     
+**Depth**htref{1}: 450mm     
+**Weight**htref{1}: 22.5kg    
+**Dimensions-end{VR417}
+**End-monitors-entry{VR417}
+
+**Start-monitors-entry{VRC16}{MONITOR}{VRC}
+**Sys-name: VRC16 17" Colour Monitor
+**Def-lref{1} = ref{EK-PM30E-RB-002}
+**Def-lref{2} = ref{ER-VRC16-IG.002}
+! from
+! Customer Update. Volume 6 Issue 2B. 15th February 1995
+! invar shadow mask, no power management, no MPR II
+! no stereo support, digital user controls
+**Screen-diagonal**htref{1}: 432mm
+**Triad-pitch**htref{1}: 0.26mm       
+**Screen-size**htref{1}: 1280x1024 or 1024x768 pixels 
+**Video-termination**htref{1}: 75ohm   
+**Synch-signal**htref{1}: Green
+**Video-amplitude: (0.714Vpp Red}{1.0Vpp Green}{0.714Vpp Blue}
+**H-active-video**htref{1}: 13.653us   
+**H-back-porch**htref{1}: 1813ns   
+**H-blanking-interval**htref{1}: 4.0533us   
+**H-frequency**htref{2}: 30-78kHz   
+**H-front-porch**htref{1}: 320ns     
+**Horizontal-period**htref{1}: 17.707us    
+**H-sync-pulse**htref{1}: 1920ns   
+**V-active-video**htref{1}: 13.599ms   
+**V-blanking-interval**htref{1}: 0.673ms   
+**V-frequency**htref{2}: 50-90Hz (25-45Hz I) 
+**V-front-porch**htref{1}: 0.053ms   
+**V-sync-pulse**htref{1}: 0.106ms   
+**Vertical-period**htref{1}: @@
+**Dimensions-start{VRC16}
+**Height**htref{1}: 431.8mm   
+**Width**htref{1}: 411.5mm   
+**Depth**htref{1}: 434.3mm   
+**Weight**htref{2}: 22.5kg      
+**Dimensions-end{VRC16}
+**Power-start{VRC16}
+**Power**uref{1}: 220W:maximum
+**Power-end{VRC16}
+! ref_1: 100-120V 220-240V 47-63Hz 150W max power consumption -->
+**End-monitors-entry{VRC16}
+
+**Start-monitors-entry{VRT16}{MONITOR}{VRT}
+**Sys-name: VRT16 17" Colour Monitor
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Screen-diagonal**htref{1}: 432mm:(17")
+**Triad-pitch**htref{1}: 0.25mm
+**Screen-size**htref{1}: 1280x1024 pixels
+**Video-termination**htref{1}: 75ohm BNC
+**Synch-signal**htref{1}: Green
+**Video-amplitude**htref{1}: {0.7Vpp Red}{1.0Vpp Green}{0.7Vpp Blue}
+**H-active-video**htref{1}: 10.6806us
+**H-back-porch**htref{1}: 1869.1ns
+**H-blanking-interval**htref{1}: 3.4712us
+**H-frequency**htref{1}: 70.6621kHz
+**H-front-porch**htref{1}: 267ns
+**Horizontal-period**htref{1}: 14.1518us
+**H-sync-pulse**htref{1}: 1335.1ns
+**V-active-video**htref{1}: 14.4915ms
+**V-blanking-interval**htref{1}: 39 horizontal lines
+**V-frequency**htref{1}: 66.4743Hz
+**V-front-porch**htref{1}: 3 horizontal lines
+**V-sync-pulse**htref{1}: 3 horizontal lines
+**Vertical-period**htref{1}: 15.0434ms
+**Dimensions-start{VRT16}
+**Height**htref{1}: 409.0mm
+**Width**htref{1}: 406.0mm
+**Depth**htref{1}: 453.0mm
+**Weight**htref{1}: 25.00kg
+**Dimensions-end{VRT16}
+**Power-start{VRT16}
+**Power**uref{1}: 200W:maximum
+**Power-end{VT16}
+**End-monitors-entry{VRT16}
+
+**Start-monitors-entry{VRT19}{MONITOR}{VRT}
+**Sys-name: VRT19 20" Colour Monitor
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Screen-diagonal**htref{1}: 508mm
+**Triad-pitch**htref{1}: 0.31mm
+**Screen-size**htref{1}: 1280x1024 pixels
+**Video-termination**htref{1}: 75ohm BNC
+**Synch-signal**htref{1}: Green
+**Video-amplitude**htref{1}: {0.7Vpp Red}{1.0Vpp Green}{0.7Vpp Blue}
+**H-active-video: 10.6806us
+**H-back-porch**htref{1}: 1869.1ns   
+**H-blanking-interval**htref{1}: 3.4712us   
+**H-frequency**htref{1}: 70.6621kHz   
+**H-front-porch**htref{1}: 267ns     
+**Horizontal-period**htref{1}: 14.518us    
+**H-sync-pulse**htref{1}: 1335.1ns   
+**V-active-video**htref{1}: 14.4915ms   
+**V-blanking-interval**htref{1}: 39 horizontal lines 
+**V-frequency**htref{1}: 66.4743Hz   
+**V-front-porch**htref{1}: 3 horizontal lines  
+**V-sync-pulse**htref{1}: 3 horizontal lines  
+**Vertical-period**htref{1}: 15.0434ms   
+**Dimensions-start{VRT19}
+**Height**htref{1}: 409.0mm
+**Width**htref{1}: 406.0mm
+**Depth**htref{1}: 453.0mm
+**Weight**htref{1}: 25.00kg
+**Dimensions-end{VRT19}
+**Power-start{VRT19}
+**Power**uref{1}: 220W:maximum
+**Power-end{VRT19}
+! Above dimension numbers suspect and should be rechecked
+**End-monitors-entry{VRT19}
+
+**Stop-processing
+
+**Start-monitors-entry{VRM17}
+**Sys-name: VRM17 17" Monochrome Monitor
+**Def-lref{1} = ref{EK-PM30E-RB-002}
+**Screen-diagonal**htref{1}: 431.8mm
+**Screen-size**htref{1}: 1280x1024 or 1024x768pixels
+**Video-termination**htref{1}: 75ohm BNC
+**Video-amplitude**htref{1}: 1.0Vpp composite video
+**Start-H-timing{VRM17}
+<TR> <TH> &nbsp;   <TH> High scan  <TH> Low scan  </TR>
+**Active-video:  <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 9.7853us  <TD> 13.7691us  </TR>
+**Back-porch:  <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 1.7124us   <TD> 1.7211us   </TR>
+**Blanking-interval:  <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 3.1802us   <TD> 3.6574us   </TR>
+**Frequency:  <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 77.1273kHz  <TD> 57.384kHz  </TR>
+**Front-porch:  <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 0.2446us   <TD> 0.2151us   </TR>
+**Horizontal-period:  <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 12.9579us  <TD> 17.4265us  </TR>
+<TR> <TD> Pixels displayed <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 1280       <TD> 1024       </TR>
+**Sync-pulse:  <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 1.2232us   <TD> 1.7211us   </TR>
+**End-H-timing{VRM17}
+**Start-V-timing{VRM17}
+**Back-porch:  <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 427.864us  <TD> 383.4us  </TR>
+**Blanking-interval:  <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 505.658us  <TD> 505.4us  </TR>
+**Front-porch:  <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 38.897us  <TD> 17.4us  </TR>
+<TR> <TD> Lines displayed <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 1024  <TD> 768  </TR> <!-- typo gives 76 not 768 -->
+**Vertical-period:  <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 13.7842us  <TD> 13.8889us  </TR>
+**Sync-pulse:  <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 38.897ns  <TD> 104.6ns  </TR>
+<TR> <TD> Vertical frequency <CITE> <A HREF="#ref_1">[1]</A> </CITE>
+     <TD> 72.5562Hz  <TD> 72.033Hz  </TR>
+**End-V-timing{VRM17}
+**Dimensions-start{VRM17}
+**Height**htref{1}: 419.1mm
+**Width**htref{1}: 406.4mm
+**Depth**htref{1}: 374.7mm
+**Weight**htref{1}: 16.8kg
+**Dimensions-end{VRM17}
+! ref_1 gives power as 75W
+**End-monitors-entry{VRM17}
+
