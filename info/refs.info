@@ -821,6 +821,12 @@
 **Ref-electronic: PDF
 **End-ref{EK-FLMUL-OG.B01}
 
+**Start-ref{CU-1991-09-06}
+**Ref-text: Digital's Customer Update September 6, 1991
+**Ref-processed: No
+**ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=550.0
+**End-ref{CU-1991-09-06}
+
 **Start-ref{CU-V5-4A}
 **Ref-text: Customer Update. Volume 5 Issue 4A. 12th April 1994
 **Ref-processed: Yes
@@ -9326,6 +9332,17 @@
 **Ref-text: Digital Alpha XL Family User's Guide
 **Ref-partno: EK-ALXLA-UG.D01}
 **End-ref{EK-ALXLA-UG.D01}
+
+**start-ref{DECpc-AXP-150-Announcement}
+**ref-text: DECpc AXP 150 Announcement
+**ref-publisher: DEC
+**end-ref{DECpc-AXP-150-Announcement}
+
+**start-ref{Product-and-Service-Retirements-1995-02-07}
+**ref-text: Product and Service Retirements: DEC AXP 150
+**ref-publisher: DEC
+**ref-url: https://groups.google.com/forum/#biz.digital.articles/25Q858HyjKc/ruqVBL9OD1sJ
+**end-ref{Product-and-Service-Retirements-1995-02-07}
 
 **Stop-processing
 

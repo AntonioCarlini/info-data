@@ -402,6 +402,15 @@
 ! Above dimension numbers suspect and should be rechecked
 **End-monitors-entry{VRT19}
 
+**Start-monitors-entry{PCXCV}{MONITOR}{PC}
+**Sys-name: PCXCV
+**Desc-name: PCXCV 14" Colour Monitor
+**Def-lref{1} = ref{CU-1991-09-06}
+**Processor**vref{1}: TMS34020
+**Resolution**vref{1}: 1280 x 1024, 1024 x 768, and 1024 x 864
+**Colours**vref{1}: Up to 256 colors, from a palette of 1.6 million
+**End-storage-entry{PCXCV}
+
 **Stop-processing
 
 **Start-monitors-entry{VRM17}
