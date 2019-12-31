@@ -3470,3 +3470,24 @@
 **Peak-transfer-rate**htref{1}: 3MB/s:(asynchronous)
 **End-storage-entry{PCXAT-A*}
 
+**Start-storage-entry{RWZ01-AA}{SCSI}{OPTICAL}
+**Sys-name: RZW01
+**Desc-name: 
+**Def-lref{1} = ref{CU-1991-09-27}
+**Capacity**lref{1}: RWZ01 Rewritable Optical Disk Drive
+**Form-factor**vref{1}: 5.25"
+**Capacity**vref{1}: 594MB
+**OS-support-VMS**vref{1}: VMS V5.4-1
+**OS-support-Ultrix**vref{1}: V4.0
+**Interface**vref{1}: SCSI-1
+**Bytes-per-sector**vref{1}: 512
+**Average-seek**vref{1}: 95ms
+**Data-transfer-rate**vref{1}: 620KB/s
+**Dimensions-start{RZW01}
+**Height**vref{1}: 126mm
+**Width**vref{1}: 211mm
+**Depth**vref{1}: 310mm
+**Weight**vref{1}: 6.8kg
+**Dimensions-end{RZW01}
+**End-storage-entry{RZW01-AA}
+
