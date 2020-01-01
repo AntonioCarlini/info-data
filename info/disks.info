@@ -1,0 +1,2174 @@
+! Intended for:
+! HDD "spinniung rust"
+! true SSDs
+! RAM backed by HDD (e.g. ESE20)
+! Floppy disks
+
+**Start-storage-entry{ESE20}{SDI}{SOLID}
+**Sys-name: ESE20
+**Desc-name: ESE20 120MB Solid State Disk
+**Def-lref{1} = ref{SOC-SPR90}
+**Last-order**uref{*SUE Sep 1992}: 15 November 1992
+**Last-ship**uref{*SUE Sep 1992}: 31 December 1992
+**Capacity**htref{1}: 120MB
+**OS-support-vms**htref{1}: VMS V5.1
+**OS-support-ultrix**htref{1}: Ultrix V3.1
+**Average-seek**htref{1}: 1ms
+**Average-latency**htref{1}: 530us
+**Peak-transfer-rate**htref{1}: 2.5MB/s
+**Spiral-transfer-rate**htref{1}: 1.8MB/s
+**I/O-throughput**htref{1}: 300 IO/s
+**Interface**htref{1}: SDI
+**Dimensions-start{ESE20}
+**Height**htref{1}: 1524.0mm
+**Width**htref{1}: 736.6mm
+**Depth**htref{1}: 660.4mm
+**Dimensions-end{ESE20}
+**End-storage-entry{ESE20}
+
+**Start-storage-entry{ESE50-A}{SDI}{SOLID}
+**Sys-name: ESE50-A
+**Desc-name: ESE50 120MB/600MB/1GB Solid State Disk
+**Announcement**uref{*SUE Sep 1992}: May 1992
+**FRS-date**uref{*SUE Sep 1992}: May 1992
+**Capacity**uref{*142}: 120MB
+**OS-support-VMS**uref{*142}: V5.5
+**OS-support-CRONIC**uref{8142}: CRONIC V6.0
+! KDM70 V2.4	<!-- *142 -->
+**Average-access**uref{*142}: 0.25ms
+**Peak-transfer-rate**uref{*142}: 2.5MB/s
+**Spiral-transfer-rate**uref{*142}: 1.9MB/s
+**I/O-throughput**uref{*142}: 1800 IO/s
+**Power-start{ESE50-A}
+**Heat-dissipation**uref{*142}: 300W
+**Power-end{ESE50-A}
+**Dimensions-start{ESE50-A}
+**Height**uref{*142}: 265mm
+**Width**uref{*142}: 222mm
+**Depth**uref{*142}: 470mm
+**Weight**uref{*142}: 20.5kg
+**Dimensions-end{ESE50-A}
+**End-storage-entry{ESE50-A}
+
+**Start-storage-entry{ESE50-B}{SDI}{SOLID}
+**Sys-name: ESE50-B
+**Desc-name: ESE50 120MB/600MB/1GB Solid State Disk
+**Announcement**uref{*SUE Sep 1992}: May 1992
+**FRS-date**uref{*SUE Sep 1992}: May 1992
+**Capacity**uref{*142}: 600MB
+**OS-support-VMS**uref{*142}: V5.5
+**OS-support-CRONIC**uref{8142}: CRONIC V6.0
+! KDM70 V2.4	<!-- *142 -->
+**Average-access**uref{*142}: 0.25ms
+**Peak-transfer-rate**uref{*142}: 2.5MB/s
+**Spiral-transfer-rate**uref{*142}: 1.9MB/s
+**I/O-throughput**uref{*142}: 1800 IO/s
+**Power-start{ESE50-B}
+**heat-dissipation**uref{*142}: 300W
+**Power-end{ESE50-B}
+**Dimensions-start{ESE50-B}
+**Height**uref{*142}: 265mm
+**Width**uref{*142}: 222mm
+**Depth**uref{*142}: 470mm
+**Weight**uref{*142}: 20.5kg
+**Dimensions-end{ESE50-B}
+**End-storage-entry{ESE50-B}
+
+**Start-storage-entry{ESE50-D}{SDI}{SOLID}
+**Sys-name: ESE50-D
+**Desc-name: ESE50 120MB/600MB/1GB Solid State Disk
+**Announcement**uref{*SUE Sep 1992}: May 1992
+**FRS-date**uref{*SUE Sep 1992}: May 1992
+**Capacity**uref{*142}: 1GB
+**OS-support-VMS**uref{*142}: V5.5
+**OS-support-CRONIC**uref{8142}: CRONIC V6.0
+! KDM70 V2.4	<!-- *142 -->
+**Average-access**uref{*142}: 0.25ms
+**Peak-transfer-rate**uref{*142}: 2.5MB/s
+**Spiral-transfer-rate**uref{*142}: 1.9MB/s
+**I/O-throughput**uref{*142}: 1800 IO/s
+**Power-start{ESE50-D}
+**Heat-dissipation**uref{*142}: 300W
+**Power-end{ESE50-D}
+**Dimensions-start{ESE50-D}
+**Height**uref{*142}: 265mm
+**Width**uref{*142}: 222mm
+**Depth**uref{*142}: 470mm
+**Weight**uref{*142}: 20.5kg
+**Dimensions-end{ESE50-D}
+**End-storage-entry{ESE50-D}
+
+**Start-storage-entry{EZ51R}{SCSI_DISK}{SOLID}
+**Def-lref{1} = ref{EK-EZ5XX-UG.B01}
+**Sys-name: EZ51R
+! [1]: Maximum save time 2 min min num of full save cycles: 15
+**Desc-name: EZ51R 107MB Solid State Disk
+**Form-factor**lref{1}: 5-1/4" 
+**Capacity**lref{1}: 106.9MB
+**Interface**lref{1}: SCSI-2
+**Average-access**uref{142}: 0.25ms
+**Peak-transfer-rate**lref{1}: {6.9MB/s:to/from media}{10MB/s:to/from bus)}
+**Sectors-per-track**lref{1}: 50
+**Num-cylinders**lref{1}: 4176
+**I/O-throughput**uref{142}: 800 IO/s
+**Power-start{EZ51R}
+**+12V-current**lref{1}: 1.10A
+**Power**lref{1}: 13.2W
+**Power-end{EZ51R}
+**Dimensions-start{EZ51R}
+**Height**uref{142}: 82.55mm
+**Width**uref{142}: 146.05mm
+**Depth**uref{142}: 203.2mm
+**Weight**uref{142}: 2.55kg
+**Dimensions-end{EZ51R}
+**End-storage-entry{EZ51R}
+
+**Start-storage-entry{EZ53}{SCSI_DISK}{SOLID}
+**Sys-name: EZ53
+**Desc-name: EZ53 267MB Solid State Disk
+**Capacity**uref{142}: 267MB
+**Average-access**uref{142}: 0.25ms
+**Peak-transfer-rate**uref{142}: 10MB/s:(synchronous)
+**I/O-throughput**uref{142}: 800 IO/s
+**Power-start{EZ53}
+**Power**uref{142}: 8W
+**Power-end{EZ53}
+**Dimensions-start{EZ53}
+**Height**uref{142}: 82.55mm
+**Width**uref{142}: 146.05mm
+**Depth**uref{142}: 203.2mm
+**Weight**uref{142}: 2.55kg
+**Dimensions-end{EZ53}
+**End-storage-entry{EZ53}
+
+**Start-storage-entry{EZ54R}{SCSI_DISK}{SOLID}
+**Def-lref{1} = ref{EK-EZ5XX-UG.B01}
+**Sys-name: EZ54R
+! [1]: Maximum save time 8 min , min num of full save cycles: 3
+**Desc-name: EZ54R 428MB Solid State Disk
+**Form-factor**lref{1}: 5-1/4" 
+**Capacity**lref{1}: 427.7MB
+**Interface**lref{1}: SCSI-2
+**Peak-transfer-rate**lref{1}: {6.9MB/s:to/from media}{10MB/s:to/from bus)}
+**Sectors-per-track**lref{1}: 50
+**Num-cylinders**lref{1}: 16706
+**Power-start{EZ54R}
+**+12V-current**lref{1}: 1.40A
+**Power**lref{1}: 16.8W
+**Power-end{EZ54R}
+**Dimensions-start{EZ54R}
+**Dimensions-end{EZ54R}
+**End-storage-entry{EZ54R}
+
+**Start-storage-entry{EZ58R}{SCSI_DISK}{SOLID}
+**Def-lref{1} = ref{EK-EZ5XX-UG.B01}
+**Sys-name: EZ58R
+! [1]: Maximum save time 16 min , min num of full save cycles: 1
+**Desc-name: EZ58R 855MB Solid State Disk
+**Form-factor**lref{1}: 5-1/4" 
+**Capacity**lref{1}: 855.3MB
+**Interface**lref{1}: SCSI-2
+**Peak-transfer-rate**lref{1}: {6.9MB/s:to/from media}{10MB/s:to/from bus)}
+**Sectors-per-track**lref{1}: 50
+**Num-cylinders**lref{1}: 33414
+**Power-start{EZ58R}
+**+12V-current**lref{1}: 2.05A
+**Power**lref{1}: 24.6W
+**Power-end{EZ58R}
+**Dimensions-start{EZ58R}
+**Dimensions-end{EZ58R}
+**End-storage-entry{EZ58R}
+
+**Start-storage-entry{PCXAR-AB}{SCSI}{PC}
+**Sys-name: PCXAR-AB
+**Desc-name: PCXAR-AB 426MB SCSI Disk
+**Def-lref{1} = ref{CU-1991-09-06}
+**Capacity**vref{1}: 426MB
+**Form-factor**vref{1}: 3.5"
+**Average-seek**vref{1}: 14ms
+**Buffer-size**vref{1}: 60KB
+**Weight**vref{1}:1.8lb
+**Interface**vref{1}: SCSI
+**End-storage-entry{PCXAR-AB}
+
+**Start-storage-entry{PCXAT-A*}{TAPE}{PC}
+**Sys-name: PCXAT-A*
+**Desc-name: PCXAT-A* Cartridge Tape Drive
+**Def-lref{1} = ref{CU-1991-09-06}
+**Capacity**lref{1}: 525MB
+**Sustained-transfer-rate**lref{1}: 200KB/s
+**Peak-transfer-rate**htref{1}: 3MB/s:(asynchronous)
+**End-storage-entry{PCXAT-A*}
+
+**Start-storage-entry{PCWXR-CA}{IDE}{PC}
+**Sys-name: PCWXR-CA
+**Desc-name: PCWXR-CA 40MB IDE Disk
+**Def-lref{1} = ref{CU-1991-09-06}
+**Capacity**vref{1}: 40MB
+**Form-factor**vref{1}: 2.5"
+**Average-seek**vref{1}: 19ms
+**Buffer-size**vref{1}: 32KB
+**Weight**vref{1}: 7oz
+**Interface**vref{1}: IDE
+**End-storage-entry{PCWXR-CA}
+
+**Start-storage-entry{RA60}{SDI}{RA}
+**Sys-name: RA60
+**Desc-name: RA60 Removable Disk Drive
+**Def-lref{1} = ref{EK-ORA60-UG-001}
+**Announcement**uref{*DU-JUN86}: 1983
+**Capacity**htref{1}: 205MB	
+**Form-factor: 14"
+**Peak-transfer-rate**htref{1}: 1.98MB/s	
+**Average-access**uref{*SOEE85}: 50ms
+**Average-latency**htref{1}: 8.33ms	
+**Average-seek**htref{1}: 41.67ms	
+**Track-track-seek**htref{1}: 6.67ms	
+**Bytes-per-sector**htref{1}: 512	
+**Sectors-per-track**htref{1}: 43	
+**Track-density**htref{1}: 779 tpi
+**Num-heads**uref{*SOEE85}: 6
+**Rotational-speed**htref{1}: 3600rpm	
+**Interface: SDI
+!-- Power from ref_1: 7.5A@120V, 3.75A@240V both 600W typ 800W max poer factor gtr 0.75 max inrush 190Arms@120V 95Arms @240V -->
+!-- taken from ref_1
+**Dimensions-start{RA60-Drive}
+**Height**htref{1}: 265.2mm
+**Width**htref{1}: 482.6mm
+**Depth **htref{1}: 850.9mm
+**Weight**htref{1}: 68.95kg
+**Dimensions-end{RA60-Drive}
+**Dimensions-start{RA60-cab}
+**Height**htref{1}: 1063.0mm
+**Width**htref{1}: 542.0mm
+**Depth **htref{1}: 914.2mm
+**Weight**htref{1}: 90.70kg
+**Dimensions-end{RA60-cab}
+!-- 914.2mm is quoted as 14.2 and 36.00" - an obvious typo
+**End-storage-entry{RA60}
+
+**Start-storage-entry{RA70}{SDI}{RA}
+**Sys-name: RA70
+**Desc-name: RA70 280MB Disk
+**Def-lref{1} = ref{SOC-SPR90}
+**Def-lref{2} = ref{EK-ORA7X-SM-002}
+**Capacity**htref{2}: 280MB
+**Form-factor: 5-1/4" full-height
+**Peak-transfer-rate**htref{1}: 1.4MB/s
+**Bytes-per-sector**htref{1}: 512	
+**Tracks-per-surface**htref{1}**htref{2}: 1507	
+**Areal-density**htref{1}: 38.4 Mb/sq inch	
+**Num-media-surfaces**htref{2}: 11 data, 1 servo	
+**Interface**htref{1}: SDI	
+**Media-type**htref{2}: Thin Film
+**Num-heads**htref{2}: 12
+**Sectors-per-track**htref{2}: 33 + 1 spare	
+**Track-density**htref{2}: 1355tpi
+**Servo-type**htref{2}: Dedicated and embedded	
+**Rotational-speed**htref{2}: 4000rpm	
+**Average-latency**htref{2}: 7.5ms
+**Head-switch-latency**htref{2}: 4.5ms	
+**Average-seek**htref{2}: 19.5ms
+**Average-access**htref{2}: 27.0ms
+!**One-cylinder-seek**htref{2}: 5.5ms
+**Maximum-seek**htref{2}: 35ms
+**Power-start{RA70}
+**+5V-current**htref{1}: 3.30A
+**+12V-current**htref{1}: 2.9A
+**Power**htref{1}: 51.30W
+**Power-end{RA70}
+**Dimensions-start{RA70}
+**Height**htref{2}: 89.4mm
+**Width**htref{2}: 146.6mm
+**Depth**htref{2}: 223.5mm
+**Weight**htref{2}: 4.76kg
+**Dimensions-end{RA70}
+**End-storage-entry{RA70}
+
+**Start-storage-entry{RA71}{SDI}{RA}
+**Def-lref{1} = ref{EK-ORA7X-SM-002}
+**Def-lref{2} = ref{EK-RSA7X-PG-002}
+**Sys-name: RA71
+**Desc-name: RA71 Winchster Disk
+**Location: storage/ra71.html
+**Announcement**uref{2}: 30 October 1991
+**OS-support-VMS**htref{2}: V5.4-2
+**OS-support-ultrix**htref{2}: Ultrix V4.2
+**OS-support-eln**htref{2}: VAXELN V4.3
+**OS-support-cronic**htref{2}: {Cronic V4.1} {Cronic V6.0}
+**Capacity**htref{1}: 700MB
+**Form-factor**uref{116}: 5.25"
+!**Average-access**uref{[116]}: 20.8ms	
+**Average-access**htref{1}: 23.3ms
+**Average-seek**htref{1}: 12.5ms
+**Average-latency**htref{1}: 8.3ms
+**Transfer-rate**uref{[116]}: 2.0MB/s	
+**I/O-throughput**uref{[SUE Sep 1992] but 116=>50}: {40.2 IO/s @ 50ms}{50.4 IO/s @ 100ms}
+**Num-media-surfaces**htref{1}: 14 data, 1 servo	
+**Areal-density**uref{[116]}: 58.2Mbits/in	
+**Recording-density**uref{[116]}: 30469	bpi
+**Media-type**htref{1}: Thin Film
+**Num-heads**htref{1}: 15
+**Tracks-per-surface**htref{1}: 1915
+**Sectors-per-track**htref{1}: 51 + 1 spare	
+**Track-density**htref{1}: 1921 tpi
+**Servo-type**htref{1}: Dedicated and embedded	
+**Rotational-speed**htref{1}: 3600 rpm
+**Head-switch-latency**htref{1}: 4.0ms
+!**One-cylinder-seek**htref{1}: 4.0ms
+**Maximum-seek**htref{1}: 27.0ms
+**Power-start{RA71}
+**Power**uref{116}: 54W
+**Heat-dissipation**uref{116}: 193BTU/hr
+**Power-end{RA71}
+**Dimensions-start{RA71}
+**Height**htref{1}: 89.4mm
+**Width**htref{1}: 146.6mm
+**Depth**htref{1}: 223.5mm
+**Weight**htref{1}: 2.9kg
+**Dimensions-end{RA71}
+**End-storage-entry{RA71}
+
+**Start-storage-entry{RA72}{SDI}{RA}
+**Def-lref{1} = ref{EK-ORA7X-SM-002}
+**Def-lref{2} = ref{EK-RSA7X-PG-002}
+**Sys-name: RA72
+**Desc-name: RA72 Winchster Disk
+**Location: storage/ra72.html
+**Announcement**uref{2}: 30 October 1991
+**OS-support-VMS**htref{2}: V5.4-2
+**OS-support-ultrix**htref{2}: Ultrix V4.2
+**OS-support-eln**htref{2}: VAXELN V4.3
+**OS-support-cronic**htref{2}: {Cronic V4.1} {Cronic V6.0}
+**Capacity**htref{1}: 1.0GB
+**Form-factor**uref{116}: 5.25"
+**Average-access**htref{1}: 23.3ms
+!**Average-access**uref{[116]}: 20.8ms	
+**Average-seek**htref{1}: 12.5ms
+**Average-latency**htref{1}: 8.3ms
+**Transfer-rate**uref{[116]}: 2.0MB/s	
+**I/O-throughput**uref{[SUE Sep 1992] but [116]=>50}: {40.3 IO/s @ 50ms}{50.5 IO/s @100ms}
+**Num-media-surfaces**htref{1}: 20 data, 1 servo	
+**Areal-density**uref{[116]}: 58.2Mbits/in	
+**Recording-density**uref{[116]}: 30469 bpi
+**Media-type**htref{1}: Thin Film
+**Num-heads**htref{1}: 21
+**Tracks-per-surface**htref{1}: 1915
+**Sectors-per-track**htref{1}: 51 + 1 spare	
+**Track-density**htref{1}: 1928 tpi
+**Servo-type**htref{1}: Dedicated and embedded	
+**Rotational-speed**htref{1}: 3600 rpm
+**Head-switch-latency**htref{1}: 4.0ms
+!**One-cylinder-seek**htref{1}: 4.0ms
+**Maximum-seek**htref{1}: 27.0ms
+**Power-start{RA72}
+**Power**uref{[116]}: 54W:(typical)	
+**Heat-dissipation**uref{[116]}: 193BTU/hr	
+**Power-end{RA72}
+**Dimensions-start{RA72}
+**Height**uref{[116]}: 890mm	
+**Width**uref{[116]}: 146mm	
+**Depth**uref{[116]}: 224mm	
+**Weight**uref{[116]}: 3.0kg	
+**Dimensions-end{RA72}
+**End-storage-entry{RA72}
+
+**Start-storage-entry{RA73}{SDI}{RA}
+**Def-lref{1} = ref{EK-ORA7X-SM-002}
+**Def-lref{2} = ref{EK-RSA7X-PG-002}
+**Sys-name: RA73
+**Desc-name: RA73 Winchster Disk
+**Codename: Renner
+**OS-support-VMS**htref{2}: V5.5-2
+**OS-support-ultrix**htref{2}: Ultrix V4.2
+**OS-support-eln**htref{2}: VAXELN V4.3-x
+**OS-support-cronic**htref{2}: {Cronic V4.1} {Cronic V6.0}
+**Capacity**htref{1}: 2.0GB	
+**Form-factor**uref{[SUE Sep 1992]}: 5.25" full-height	
+**Peak-transfer-rate**uref{[SUE Sep 1992]}: 2.0MB/s	
+**I/O-throughput**uref{[SUE Sep 1992]}:	{43.7 IO/s @50ms}{54.0 IO/s @ 100ms}
+**Num-media-surfaces**htref{1}: 21 data, 1 servo	
+**Media-type**htref{1}: Thin Film
+**Num-heads**htref{1}: 22
+**Tracks-per-surface**htref{1}: 2667
+**Sectors-per-track**htref{1}: 70 + 1 spare	
+**Track-density**htref{1}: 2468tpi
+**Servo-type**htref{1}: Dedicated and embedded	
+**Rotational-speed**htref{1}: 3600 rpm
+**Average-latency**htref{1}: 8.3ms
+**Head-switch-latency**htref{1}: 4.0ms
+**Average-seek**htref{1}: 12.5ms
+**Average-access**htref{1}: 23.3ms
+!**One-cylinder-seek**htref{1}: 4.0ms
+**Maximum-seek**htref{1}: 27.0ms
+**End-storage-entry{RA73}
+
+**Start-storage-entry{RA80}{SDI}{RA}
+**Sys-name: RA80
+**Desc-name: RA80 Winchester Disk
+!-- Also available as RM80 (Massbus) and R80 (on IDC on VAX-11/725 and VAX-11/730) -->
+**Lifetime**uref{*DU JUN-86}: 1982	
+**Capacity**uref{*SOEE85}: 121MB	
+**Average-access**uref{*SOEE85}: 33.3ms	
+**Average-seek**uref{*SOEE85}: 25ms	
+**Average-latency**uref{*SOEE85}: 8.33ms	
+**Peak-transfer-rate**uref{*SOEE85}: 1.2MB/s	
+**Track-track-seek**uref{*SOEE85}: 6ms	
+**Bytes-per-sector**uref{*SOEE85}: 512	
+**Sectors-per-track**uref{*SOEE85}: 31	
+**Tracks-per-surface**uref{*SOEE85}: 1092	
+**Num-media-surfaces**uref{*SOEE85}: 7 data, 1 servo	
+**Rotational-speed**uref{*SOEE85}: 3600rpm	
+**End-storage-entry{RA80}
+
+**Start-storage-entry{RA81}{SDI}{RA}
+**Sys-name: RA81
+**Desc-name: RA81 Winchester Disk
+**Lifetime**uref{[*DU JUN-86]}: 1982-?	
+**Capacity**uref{[*23]}: 456MB	
+**Form-factor: 14"
+**Average-access**uref{*SOEE85}: 36.3ms	
+**Average-seek**uref{[*23]}: 28ms	
+**Average-latency**uref{[*23]}: 8.33ms	
+**Peak-transfer-rate**uref{[*23]}: 17.4Mbit/s	
+**Track-track-seek**uref{*SOEE85}: 6ms	
+**Head-switch-latency**uref{[*23]}: 6ms	
+**Num-media-surfaces**uref{[*23]}: 7 data, 1 servo	
+**Num-heads**uref{[*23]}: 2 per surface	
+!!!**Num-cylinders**uref{[*23]}: 1258:per head	
+**Tracks-per-surface**uref{[*23]}: 2496	
+**Bytes-per-sector**uref{*SOEE85}: 512	
+**Sectors-per-track**uref{[*23] but *SOEE85=>51}: 52	
+**Rotational-speed**uref{[*23]}: 3600rpm	
+**End-storage-entry{RA81}
+
+**Start-storage-entry{RA82}{SDI}{RA}
+**Def-lref{1} = ref{EK-ORA82-UG-001}
+**Sys-name: RA82
+**Desc-name: RA82 Disk Drive
+**Capacity**htref{1}: 622MB	
+**Average-seek**htref{1}: 24ms	
+**Average-latency**htref{1}: 8.33ms	
+**Peak-transfer-rate**htref{1}: 2.4MB/s	
+**Bytes-per-sector: 512
+**Sectors-per-track**htref{1}: 58	
+**Track-density**htref{1}: 1063 tpi
+**Recording-density**htref{1}: 12800 bpi
+**Num-heads**htref{1}: 15 data, 1 servo	
+**Num-media-surfaces**htref{1}: 7-1/2 data, 1/2 servo	
+**Rotational-speed**htref{1}: 3600rpm	
+**Servo-type**htref{1}: Fully embedded	
+**Interface: SDI
+**Start-time**htref{1}: 50s	
+**Stop-time**htref{1}: 20s	
+**Dimensions-start{RA82}
+**Height**htref{1}: 264mm	
+**Width**htref{1}: 445mm	
+**Depth**htref{1}: 673mm	
+**Weight**htref{1}: 61.2kg	
+**Dimensions-end{RA82}
+**Power-start{RA82-120V}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 35A
+**I-nominal**htref{1}: 7.8A
+**Power**htref{1}: 936W
+**Heat-dissipation**htref{1}: 1911 BTU/hr
+**Power-end{RA82-120V}
+**Power-start{RA82-240V}
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 18A
+**I-nominal**htref{1}: 3.5A
+**Power**htref{1}: 840W
+**Heat-dissipation**htref{1}: 1911 BTU/hr
+**Power-end{RA82-240V}
+! ref_1 has error codes on p2-4, LED error codes on p A-1-->
+**End-storage-entry{RA82}
+
+**Start-storage-entry{RA90}{SDI}{RA}
+**Def-lref{1} = ref{EK-ORA90-UG-002}
+**Def-lref{2} = ref{EK-ORA90-SV-003}
+**Sys-name: RA90
+**Desc-name: RA90 Disk Drive
+**Capacity**htref{1}: 1.2GB	
+**Average-seek**htref{1}: 18.5ms	
+**Average-latency**htref{1}: 8.33ms	
+**Peak-transfer-rate**htref{1}: 2.77MB/s	
+**Track-track-seek**htref{1}: 5.5ms	
+**Maximum-seek**htref{1}**htref{2}: 31.5ms	
+**Bytes-per-sector: 512
+**Sectors-per-track**htref{1}: 69 + 1 spare	
+**Tracks-per-drive**htref{1}: 34437	
+**Track-density**htref{1}: 1750 tpi
+**Num-heads**htref{1}: 13 data, 1 servo	
+**Rotational-speed**htref{1}: 3600rpm	
+**Servo-type**htref{1}: Dedicated and embedded	
+!**One-cylinder-seek**htref{2}: 5.5ms
+**Interface: SDI
+**Start-time**htref{1}: 40s	
+**Dimensions-start{RA90}
+**Height**htref{1}: 265.6mm	
+**Width**htref{1}: 221.9mm	
+**Depth**htref{1}: 684.7mm	
+**Weight**htref{1}: 31.8kg	
+**Dimensions-end{RA90}
+**Power-start{RA92-120V}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 60A
+**I-nominal**htref{1}: 5.0A
+**Power**htref{1}: 281W
+**Heat-dissipation**htref{1}: 960 BTU/hr
+**Power-end{RA92-120V}
+**Power-start{RA92-240V}
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 70A
+**I-nominal**htref{1}: 2.35A
+**Power**htref{1}: 271W
+**Heat-dissipation**htref{1}: 976 kJ/hr
+**Power-end{RA92-240V}
+**End-storage-entry{RA90}
+
+**Start-storage-entry{RA92}{SDI}{RA}
+**Def-lref{1} = ref{EK-ORA90-UG-002}
+**Def-lref{2} = ref{EK-ORA90-SV-003}
+**Sys-name: RA92
+**Desc-name: RA92 Disk Drive
+**Capacity**htref{1}: 1.5GB	
+**Average-seek**htref{1}: 16ms	
+**Average-latency**htref{1}: 8.81ms	
+**Peak-transfer-rate**htref{1}: 2.77MB/s	
+**Track-track-seek**htref{1}: 3ms	
+**Maximum-seek**htref{1}: 29ms	
+**Bytes-per-sector: 512
+**Sectors-per-track**htref{1}: 73 + 1 spare	
+**Tracks-per-drive**htref{1}: 40287	
+**Track-density**htref{1}: 2045 tpi
+**Recording-density**htref{1}: 38600 bpi
+**Areal-density**htref{1}: 38600MB/sq inch
+**Recording-mode**htref{1}: Zone bit recording
+**Num-heads**htref{1}: 13 data, 1 servo	
+**Num-cylinders**htref{1}: 820	
+**Num-media-surfaces**htref{1}: 6 data, 4 protective	
+**Rotational-speed**htref{1}: 3405rpm	
+**Servo-type**htref{1}: Dedicated and embedded	
+**Interface: SDI
+**Start-time**htref{1}: 40s	
+**Dimensions-start{RA92}
+**Height**htref{1}: 265.6mm	
+**Width**htref{1}: 221.9mm	
+**Depth**htref{1}: 684.7mm	
+**Weight**htref{1}: 31.8kg	
+**Dimensions-end{RA92}
+**End-storage-entry{RA92}
+
+**Start-storage-entry{RC25}{STORAGE_MISC}{RC}
+**Sys-name: RC25
+**Desc-name: RC25 Fixed/Removable Drive
+![*78]:
+!The RQC25 is a combined 26MB fixed Winchester disk and 26MB sealed removable
+!cartridge disk. The RQC25 contains its own KLESI controller with onboard
+!microdiagnostics. The RC25 is a similar unit but without the KLESI controller.
+!It may be added on to the RQC25 to give 104MB of storage.
+! [2 - believed] Codename: Aztec
+! From [11]:
+! Interfaces: Q-bus, UNIBUS. 2 drivers per controller, one cont. per CPU
+**Lifetime**uref{[*DU JUN-86]}:	1984-?	
+**Capacity**uref{*SOEE85}: 52MB:(26MB fixed, 26MB removable)
+**Average-access**uref{[11]}: 45.5ms	
+**Average-seek**uref{*SOEE85 ?????}: 35ms	
+**Average-latency**uref{*SOEE85}: 10.5ms	
+**Peak-transfer-rate**uref{[11],*SOEE85}: 1.25 MB/s	
+**Track-track-seek**uref{*SOEE85}: 10ms	
+**Maximum-seek**uref{*SOEE85}: 55ms	
+**End-storage-entry{RC25}
+
+**Start-storage-entry{RD31}{STORAGE_MISC}{RD}
+**Sys-name: RD31
+**Desc-name: RD31 Winchester Disk
+! [11]: 1.2A @ 5V, 2.6A @12V, 39W, 57.8BTU/hr, 1.59kg
+**Last-order**uref{[SUE Feb-2 1992]}: 26 June 1992	
+**Last-ship**uref{SUE Feb-2 1992}: 25 Sept 1992
+**Capacity**uref{[13] [31]}: 20MB	
+**Form-factor**uref{[13] [31]}: 5-1/4" half height	
+**Average-access**uref{[11] [13] [110] [31]}: 73.3ms	
+**Average-seek: 64.5ms
+**Average-latency: 8.33ms
+**Transfer-rate**uref{[11] [13] [110] [31]}: 625KB/s	
+**Bytes-per-sector**uref{[13]}: 512	
+**Sectors-per-track**uref{[13]}: 18	
+**Tracks-per-drive**uref{[13]}: 2460	
+**Acoustic-noise**uref{[110]}: 4.6 bels (average)	
+**Power-start{RD31}
+**+5V-current**uref{[13]}: 0.9A	
+**+12V-current**uref{[13]}: 0.9A	
+**Power-end{RD31}
+**End-storage-entry{RD31}
+
+**Start-storage-entry{RD32}{STORAGE_MISC}{RD}
+**Sys-name: RD32
+**Desc-name: RD32 Winchester Disk
+**Def-lref{1} = ref{EK-MVXAA-OM-001}
+**Lifetime**uref{*31}: Nov 1989
+**Capacity**uref{*13 *31}: 42MB
+**Form-factor: 5-1/4" half height	
+**Average-access**uref{*13}: 48ms	
+**Average-seek:  40ms
+**Transfer-rate**htref{1}: 625KB/s
+**Bytes-per-sector**uref{*13}: 512	
+**Rotational-speed: 3600rpm
+**Num-heads**htref{1}: @@
+**Num-cylinders**htref{1}: 820
+**Power-start{RD32}
+**+5V-current: 0.95A
+**+12V-current**uref{*13}: 0.65A	
+**Power**uref{*13}: 12.55 W	
+**Power-end{RD32}
+**Dimensions-start{RD32}
+**Height**htref{1}: 43mm
+**Width **htref{1}: 146mm
+**Depth **htref{1}: 203.2mm
+**Weight**htref{1}: 1.31kg
+**Dimensions-end{RD32}
+**End-storage-entry{RD32}
+
+**Start-storage-entry{RD50}{STORAGE_MISC}{RD}
+**Sys-name: RD50
+**Desc-name: RD50 Winchester Disk
+**Capacity**uref{*DU-FEB86}: 5MB
+**End-storage-entry{RD50}
+
+**Start-storage-entry{RD51}{STORAGE_MISC}{RD}
+**Sys-name: RD51
+**Desc-name: RD51 Winchester Disk
+**Lifetime**uref{DU JUN-86}: 1983-?	
+**Capacity**uref{78,*SOEE85}: 11MB	
+**Form-factor: 5-1/4"
+**Average-access**uref{78,*SOEE85}: 93.3ms	
+**Average-seek**uref{127,*DU JUN-86}: 85ms	
+**Average-latency**uref{78,*SOEE85}: 8.33ms	
+**Transfer-rate**uref{78,*SOEE85=>625Kbits/s}: 625 KB/s	
+**Bytes-per-sector**uref{*SOEE85}: 512	
+**Sectors-per-track**uref{*SOEE85}: 18	
+**Tracks-per-drive**uref{*SOEE85}: 1200	
+**Num-heads**uref{78,*SOEE85}: 4	
+**End-storage-entry{RD51}
+
+**Start-storage-entry{RD52}{STORAGE_MISC}{RD}
+**Sys-name: RD52
+**Desc-name: RD52 Winchester Disk
+! [11]: 35W, 1A@5V, 2.6A@12V, BTU/hr: 119, 3.2kg -->
+**Lifetime**uref{[*DU JUN-86]}:	1984-1985	
+**Announcement**uref{[*SUE 6.5]}: September 1984	
+**Capacity**uref{[11] [78]}: 31MB	
+**Form-factor: 5-1/4" 
+**Average-access**uref{11}: 57.7ms	
+! 57.5ms [78]*SOEE85 [*SUE 6.5] -->
+**Average-seek: 57ms
+**Average-latency**uref{[78]}: 8.5ms	
+**Peak-transfer-rate**uref{[11] [78]}: 625KB/s	
+!!!**Data-surfaces**uref{[78]}: 8	
+**Tracks-per-drive**uref{*SOEE85}: 3485	
+**Sectors-per-track**uref{*SOEE85}: 18	
+**Bytes-per-sector**uref{*SOEE85}: 512	
+**End-storage-entry{RD52}
+
+**Start-storage-entry{RD53}{STORAGE_MISC}{RD}
+**Sys-name: RD53
+**Desc-name: RD53 Winchester Disk
+**Def-lref{1} = ref{EK-MVXAA-OM-001}
+**Last-order**uref{*SUE Feb-2 1992}: 26 June 1992
+**Last-ship**uref{*SUE Feb-2 1992}: 25 Sept 1992
+**Lifetime**uref{*DU-JUN86}: 1983- 
+**Capacity**uref{*31,*11}: 71MB
+**Form-factor**uref{*31}: 5-1/4" full height
+**Average-access**uref{*31,*11}: 38ms
+**Average-seek**htref{1}: 30ms
+**Average-latency: 8.33ms
+**Transfer-rate**htref{1}: 625KB/s
+**Bytes-per-sector: 512
+**Sectors-per-track: 16
+**Tracks-per-drive: 8192
+**Num-cylinders**htref{1}: 1024
+**Rotational-speed**htref{1}: 3600rpm
+**Power-start{RD53}
+**+5V-current: 0.9A
+**+12V-current: 2.5A
+**Power: 34.5W
+**Power-end{RD53}
+!-- From *11: -->
+!-- 0.9A@5V (typ+max), 2.5A@12V (typical) 4.7A@12V (max) -->
+!-- BTU/hr:122, 64W (startup), 36W (seeking), 7lbs -->
+**Dimensions-start{RD53}
+**Label: RD53 Drive
+**Height: 825mm
+**Width: 146mm
+**Depth: 203.2mm
+**Weight: 3.18kg
+**Dimensions-end{RD53}
+**End-storage-entry{RD53}
+
+**Start-storage-entry{RD54}{STORAGE_MISC}{RD}
+**Sys-name: RD54
+**Desc-name: RD54 Winchester Disk
+**Def-lref{1} = ref{EK-LEP07-OM-001}
+**Last-order**uref{*SUE Feb-2 1992}: 26 June 1992
+**Last-ship**uref{*SUE Feb-2 1992}: 25 Sept 1992
+**Capacity**htref{1}: 159MB
+**Form-factor**uref{*31}: 5-1/4" full height
+**Average-access**htref{1}: 30ms
+**Average-latency**htref{1}: 8.33ms
+**Transfer-rate**htref{1}: 625KB/s
+**Bytes-per-sector: 512
+**Sectors-per-track**htref{1}: 17
+**Tracks-per-drive**htref{1}: 18374
+**Num-cylinders**htref{1}: 1221
+**Num-heads**htref{1}: 15
+**Power-start{RD54}
+**+5V-current: 1.4A
+**+12V-current:	1.34A
+**Power: 23.7W	
+**Power-end{RD54}
+**Dimensions-start{RD54-Drive}
+**Label: RD54 Drive
+**Height: 82.6mm
+**Width: 146mm
+**Depth: 203.2mm
+**Weight: 3.15kg
+**Dimensions-end{RD54-Drive}
+! [1]: RQDX1 & RQDX2 do *not* support RD54. RQDX3 needs min microcode rev 1.10
+**End-storage-entry{RD54}
+
+**Start-storage-entry{RF30}{DSSI}{RF}
+**Sys-name: RF30
+**Desc-name: RF30 150MB DSSI Disk
+**Def-lref{1} = ref{SOC-SPR90}
+! Read-ahead cache: &	No \\	% [28] -->
+**Capacity**htref{1}: 150MB
+**Form-factor**htref{1}: 5-1/4" half-height
+**Average-access**uref{*13,*58}: 29.3ms
+**Average-seek**uref{*13,*58}: 21ms
+**Average-latency**uref{*13,*58}: 8.3ms
+**Peak-transfer-rate**uref{*13,*58}: 1.5MB/s
+**I/O-throughput**uref{*57}: 32 IO/s @ 150ms
+**Track-track-seek**uref{*13}: 3.0ms
+**Maximum-seek:	45ms
+**Buffer-size**uref{*28}: None
+**Bytes-per-sector**uref{*13}: 512
+**Sectors-per-track**uref{*13}: 37 + 1 reserved
+**Tracks-per-surface**uref{*13}: 1331
+**Track-density: 9779 tpi
+**Recording-density: 38600 bpi
+!!**Areal-density**htref{0}: 38600 MB/sq inch
+!!**!!Recording-mode**htref{0}: Zone bit recording
+!!**!!Num-heads**htref{0}: 6
+!!**!!Num-cylinders**htref{0}: 820
+!!**!!Num-media-surfaces**htref{0}: 6 data, 4 protective
+**Rotational-speed**uref{*13}: 3600rpm
+**Error-correction**uref{*13}: 264-bit ECC
+!!**Servo-type**uref{0}: Fully embedded
+**Interface**htref{1}: DSSI
+**Power-start{RF30}
+**Power**uref{*28}: 14W:(average)
+**Power-end{RF30}
+**Dimensions-start{RF30}
+**Height**uref{*13}: 41.1mm
+**Width**uref{*13}: 147.1mm
+**Depth**uref{*13}: 208.5mm
+**Weight**uref{*13}: 1.5kg
+**Dimensions-end{RF30}
+**End-storage-entry{RF30}
+
+**Start-storage-entry{RF31}{DSSI}{RF}
+**Def-lref{1} = ref{EK-RF72D-UG-003}
+**Def-lref{2} = ref{EK-RF72D-SV-002}
+**Sys-name: RF31
+**Desc-name: RF31 Integrated Storage Element
+!-- VMS V5.3 onwards *58 -->
+**Last-order**uref{*SUE Jul 1992}: 30 Sept 1992
+**Last-ship**uref{*SUE Jul 1992}: 31 Dec 1992
+**Capacity**htref{1}: 381 MB
+**Form-factor**htref{1}: 5-1/4" half-height
+**Average-access**htref{1}: 23.6ms
+**Average-seek**htref{1}: 15.3ms
+!!?**Variant-start{HISPEED mode}
+!!?**Average-access**uref{*57}: 20.9ms
+!!?**Average-access**uref{*57}: 12.6ms
+!!?**Variant-end{HISPEED mode}
+**Peak-transfer-rate**htref{1}: 4.0MB/s
+**I/O-throughput**uref{*57,*59}: {45 IO/s @ 150ms}
+!!?**I/O-throughput**uref{*SUE Jul 1992}: {41 IO/s @ 100ms}
+**Read-ahead-cache**uref{*SUE Jul 1992}: 128KB
+**Read-ahead-tracks**uref{*SUE Jul 1992}: 4
+**Error-correction**htref{1}: 264-bit ECC
+**Data-tracks-per-surface**htref{2}: 1861
+**Sectors-per-track**htref{1}: 50 data, 1 replacement
+!!?**Data-surfaces-per-drive**htref{1}: 8
+**Track-density**htref{1}: 1875tpi
+! [2] has **Recording-density**htref{1}: 30064 bpi
+**Recording-density**htref{1}: 30520 bpi
+**Num-platters: 4
+**Head-type**uref{*SUE Jul 1992}: MIG
+**Areal-density**htref{1}: 57.35Mb/sq in
+**Media-type**htref{1}: Thin film
+**Rotational-speed**htref{2}: 3600rpm
+**Servo-type**htref{1}: Fully embedded
+**Start-time**htref{1}: < 60s
+**Stop-time**htref{1}: < 15s
+**Noise**htref{1}: < 5.6 Bels
+**Airflow**htref{1}: < 10 cu.ft/min
+**Power-start{RF31}
+**+5V-current**htref{2}: 1.2A
+**+12V-current**htref{2}: 3.0A:peak
+**Power**htref{2}: 18.7W:typical
+**Power-end{RF31}
+!-- *75: 1.2Amax@5V, @12V: 3.0Apeak(3s of spin up), 0.7A max(idle) -->
+!--      1.3Amax(continuous random seeks). 12.6W typical (idle), 18.7W typical -->
+!--	(continuous random seeks). -->
+**Dimensions-start{RF31}
+**Label: RF31 Drive
+**Height**htref{2}: 41.2mm
+**Width**htref{2}: 147mm
+**Depth**htref{2}: 209mm
+**Dimensions-end{RF31}
+**End-storage-entry{RF31}
+
+**Start-storage-entry{RF31F}{DSSI}{RF}
+**Def-lref{1} = ref{EK-RF72D-SV-002}
+**Sys-name: RF31F
+**Desc-name: RF31F Integrated Storage Element
+**Last-order**uref{SUE Jul 1992}: 30 Sept 1992
+**Last-ship**uref{SUE Jul 1992}: 31 Dec 1992
+**OS-support-eln**uref{74}: VAXELN V4.3
+**Capacity**htref{1}: 200 MB
+**Form-factor**htref{1}: 5-1/4" full-height
+**Average-access**htref{1}: 20.5ms
+**Average-seek**htref{1}: 12.2ms
+**Peak-transfer-rate**htref{1}: 4.0MB/s
+**Error-correction**uref{58}: 264-bit ECC
+**Servo-type**htref{1}: Fully embedded
+**Rotational-speed**htref{1}: 3600rpm
+**Track-density**htref{1}: 1875tpi
+**Areal-density**htref{1}: 57.35Mb/sq in
+**Recording-density**htref{1}: 30064 bpi
+**Data-tracks-per-surface**htref{1}: 984
+**Sectors-per-track**htref{1}: 50 data, 1 replacement
+**Start-time**htref{1}: < 60s
+**Stop-time**htref{1}: < 15s
+**Power-start{RF31F}
+**+5V-current**htref{1}: 1.2A
+**+12V-current**htref{1}: 3.0A:peak
+**Power**htref{1}: 18.7W:typical
+**Power-end{RF31F}
+**Dimensions-start{RF31F}
+**Label: RF31F Drive
+**Height**htref{1}: 41.2mm
+**Width**htref{1}: 147mm
+**Depth**htref{1}: 209mm
+**Dimensions-end{RF31F}
+**End-storage-entry{RF31F}
+
+**Start-storage-entry{RF31T}{DSSI}{RF}
+**Sys-name: RF31T
+**Desc-name: RF31T Integrated Storage Element
+**Announcement**uref{*SUE Jul 1992 Spec}: 7 July 1992
+**OS-support-vms**uref{*SUE Jul 1992 Spec}: VMS V5.3-1
+**Capacity**uref{*SUE Jul 1992 Spec}: 380 MB
+**Form-factor**uref{*SUE Jul 1992 Spec}: 3-1/2"
+**Average-seek**uref{*SUE Jul 1992 Spec}: 6.9ms
+**Average-access**uref{*SUE Jul 1992 Spec}: 12.5ms
+!!?**Variant-start{HISPEED}
+!!?**Label: HISPEED mode
+!!?**Average-seek**uref{*SUE Jul 1992 Spec}: 5.5ms
+!!?**Average-access**uref{*SUE Jul 1992 Spec}: 11.1ms
+!!?**Variant-end{HISPEED}
+**I/O-throughput**uref{*SUE Jul 1992 Spec}: 84 IO/s @ 100ms
+**Peak-transfer-rate**uref{*SUE Jul 1992 Spec}:	3.3MB/s	(from media)
+**Cache**uref{*SUE Jul 1992 Spec}: 512KB read-ahead
+**Cache-tracks**uref{*SUE Jul 1992 Spec}: 13 tracks
+**Rotational-speed**uref{*SUE Jul 1992 Spec}: 5400 rpm
+**Num-platters**uref{*SUE Jul 1992 Spec}: 7
+**Head-type**uref{*SUE Jul 1992 Spec}: TFH
+**Areal-density**uref{*SUE Jul 1992 Spec}: 128Mb/sq in
+**Power-start{RF31T}
+**Power**uref{*SUE Jul 1992 Spec}: 13.7W
+**Power-end{RF31F}
+**End-storage-entry{RF31T}
+
+**Start-storage-entry{RF35}{DSSI}{RF}
+**Def-lref{1} = ref{EK-RF72D-SV-002}
+**Sys-name: RF35
+**Desc-name: RF35 Integrated Storage Element
+**Capacity**htref{1}: 852MB
+**Codename: Patriot
+! [1] states 3-1/2" ISE
+**Form-factor**htref{1}: 3-1/2" full-height
+**Average-access**htref{1}: 15.1ms
+**Average-seek**htref{1}: 9.5ms
+**Average-latency**uref{129}: 5.6ms
+**Peak-transfer-rate**uref{129}: 3.3MB/s
+**I/O-throughput**uref{SUE Jul 1992}: 73 IO/s @ 100ms
+**Rotational-speed**htref{1}: 5363rpm
+**Read-ahead-cache**uref{SUE Jul 1992}: 512KB
+**Read-ahead-tracks**uref{SUE Jul 1992}: 13
+**Media-type**uref{SUE Jul 1992}: Thin Film
+**Head-type**uref{SUE Jul 1992}: Thin Film
+**Num-platters**uref{SUE Jul 1992}: 7
+**Servo-type**htref{1}: Fully embedded
+**Track-density**htref{1}: 2650tpi
+**Recording-density**htref{1}: 48300 bpi
+**Areal-density**htref{1}: 128 Mb/sq in
+**Data-tracks-per-surface**htref{1}: 2086
+**Sectors-per-track**htref{1}: 57 data, 1 replacement
+**Start-time**htref{1}: < 30s
+**Stop-time**htref{1}: < 15s
+**Power-start{RF35}
+**+5V-current**htref{1}: 0.85A
+**+12V-current**htref{1}: 2.55A:peak
+**Power**htref{1}: 13.7W:typical
+**Power-end{RF35}
+**Dimensions-start{RF35}
+**Label: RF35 Drive
+**Height**htref{1}: 41.2mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 146mm
+**Dimensions-end{RF35}
+**End-storage-entry{RF35}
+
+**Start-storage-entry{RF36}{DSSI}{RF}
+**Sys-name: RF36
+**Desc-name: RF36 Integrated Storage Element
+**Capacity: 1.6GB
+**Average-access: 15.1ms
+**Average-seek: 9.5ms
+**Peak-transfer-rate: 3.1MB/s-6.25MB/s
+**Rotational-speed: 5400rpm
+**End-storage-entry{RF36}
+
+**Start-storage-entry{RF71}{DSSI}{RF}
+**Sys-name: RF71
+**Desc-name: RF71 Integrated Storage Element
+**def-lref{1} = ref{EK-RF71D-IM-001}
+**Capacity**uref{*28,*58}: 400MB
+**Form-factor**htref{1}: 5-1/4" full-height
+**Average-seek**uref{*28,*59,*58}: 21ms
+**Average-access**uref{*28,*58}: 29.3ms
+**Peak-transfer-rate**uref{*28,*59}: 1.5MB/s
+**I/O-throughput**uref{*57,*59}: 32 IO/s @ 150ms
+**Read-ahead-cache**uref{*28}: No
+**Power-start{RF71}
+**Power**uref{*28}: 24W
+**Power-end{RF71}
+**End-storage-entry{RF71}
+
+**Start-storage-entry{RF72}{DSSI}{RF}
+**Def-lref{1} = ref{EK-RF72D-SV-002}
+**Sys-name: RF72
+**Desc-name: RF72 Integrated Storage Element
+**Capacity**htref{1}: 1.0GB
+![1] states full-height
+**Form-factor**htref{1}: 5-1/4" full height
+**Average-seek**htref{1}: 13.3ms
+**Average-access**htref{1}: 21.6ms
+**Transfer-rate**htref{1}: 4.0 MB/s
+**I/O-throughput: 45 IO/s @ 100ms
+**Read-ahead-cache: 128KB
+**Read-ahead-tracks: 4
+**Num-platters:	 11
+**Media-type: Thin Film
+**Head-type: MIG
+**Servo-type**htref{1}: Fully embedded
+**Rotational-speed**htref{1}: 3600rpm
+**Track-density**htref{1}: 1875tpi
+**Recording-density**htref{1}: 30064 bpi
+**Areal-density**htref{1}: 57.35 Mb/sq in
+**Data-tracks-per-surface**htref{1}: 1861
+**Sectors-per-track**htref{1}: 50 data, 1 replacement
+**Start-time**htref{1}: < 60s
+**Stop-time**htref{1}: < 15s
+**Power-start{RF72}
+**+5V-current**htref{1}: 1.5A
+**+12V-current**htref{1}: 5.4A:peak
+**Power**htref{1}: 24.5W:typical
+**Power-end{RF72}
+**Dimensions-start{RF72}
+**Label: RF72 Drive
+**Height**htref{1}: 83mm
+**Width**htref{1}: 147mm
+**Depth**htref{1}: 209mm
+**Dimensions-end{RF72}
+**End-storage-entry{RF72}
+
+**Start-storage-entry{RF73}{DSSI}{RF}
+**Def-lref{1} = ref{EK-RF72D-SV-002}
+**Sys-name: RF73
+**Desc-name: RF73 Integrated Storage Element
+**Announcement**uref{2}: 30 October 1991
+**Codename: Shamrock
+**OS-support-VMS**uref{81}: VMS V5.5
+**OS-support-eln**uref{74}: VAXELN V4.3
+**Capacity**htref{1}: 2.0GB
+![1] states full-height  uref{72,81,119} may have more
+**Form-factor**htref{1}: 5-1/4" full height
+![1]: **Average-seek**uref{81,119}: 12ms-13ms
+**Average-seek**htref{1}: 12.9ms
+![1]; **Average-access**uref{81,119}: 20.3ms-21.3ms
+**Average-access**htref{1}: 21.2ms
+**Transfer-rate**htref{1}: 4.0 MB/s
+**Spiral-transfer-rate**uref{119}: 2.0MB/s
+**I/O-throughput**uref{119}**uref{SUE Jul 1992}: {55 IO/s @ 150ms}{47 IO/s @ 100ms}
+**Read-ahead-cache**uref{81,SUE Jul 1992,119}: 512KB
+**Read-ahead-tracks**uref{81,SUE Jul 1992,119}: 11
+**Num-platters**uref{SUE Jul 1992}:	 11
+**Servo-type**htref{1}: Fully embedded
+**Rotational-speed**htref{1}: 3600rpm
+**Track-density**htref{1}: 2432 tpi
+**Recording-density**htref{1}: 43880 bpi
+**Areal-density**htref{1}: 106.72 Mb/sq in
+**Data-tracks-per-surface**htref{1}: 2620
+**Sectors-per-track**htref{1}: 71 data, 1 replacement
+**Start-time**htref{1}: < 60s
+**Stop-time**htref{1}: < 15s
+**Power-start{RF73}
+**Power**htref{1}: 22.9W:(typical)
+**+5V-current**htref{1}: 1.2A
+**+12V-current**htref{1}: 5.0A:typical
+**Power-end{RF73}
+**Dimensions-start{RF73}
+**Label: RF73 Drive
+**Height**htref{1}: 83mm
+**Width**htref{1}: 147mm
+**Depth**htref{1}: 209mm
+![1]**Weight**htref{1}: 6.36lbs
+**Weight**htref{1}: 2.88kg
+**Dimensions-end{RF73}
+**End-storage-entry{RF73}
+
+**Start-storage-entry{RF74}{DSSI}{RF}
+**Sys-name: RF74
+**Desc-name: RF74 Integrated Storage Element
+**Announcement: 26 April 1993
+**OS-support-VMS: VMS V6.0
+**Capacity: 3.57GB
+**Form-factor: 5-1/4" full height
+**Average-seek: 12.0ms
+**Average-access: 17.6ms
+**Transfer-rate: 6.95MB/s
+**Read-ahead-cache: 512KB
+**Rotational-speed: 5400rpm
+**Power-start{RF74}
+**Power: 35W:(typical)
+**Power-end{RF74}
+**End-storage-entry{RF74}
+
+**Start-storage-entry{RK05}{STORAGE_MISC}{RK}
+**Sys-name: RK05
+**Desc-name: RK05 Cartridge Disk
+**Capacity**uref{11,95,DU-JUN86}: 2.5MB
+**Average-seek**uref{99}: 50ms
+**Average-latency**uref{99}: 20ms
+**Track-track-seek**uref{99}: 10ms
+**Maximum-seek**uref{99}: 85ms
+**Transfer-speed**uref{99}: 11.1us/16-bits
+**Num-media-surfaces**uref{99}: 2
+!!!**Tracks-per-surface**uref{99}: 200:(plus 3 spare)
+**Sectors-per-track**uref{99}: 12
+**Bytes-per-sector**uref{99}: 512
+**Servo-type**uref{11}: Transducer
+**Rotational-speed**uref{99}: 1500rpm
+**End-storage-entry{RK05}
+
+**Start-storage-entry{RK06}{STORAGE_MISC}{RK}
+**Sys-name: RK06
+**Desc-name: RK06 Removable Disk Drive
+**Def-lref{1} = ref{EK-RK067-UG-001}
+**Html-target: rk06
+!
+!The RK06 and RK07 drive subsystem consists of an RK611 UNIBUS controller and
+!a mixture of up to eight RK06 or RK07 drives.
+**Pack-size**htref{1}: 14"
+**Capacity: 13.8MB
+**Peak-transfer-rate:	537.5KB/s
+!! Check above to see if kB/s or KB/s
+**Average-seek: 38ms
+**Maximum-seek: 75ms
+**Average-latency**htref{1}: 12.5ms
+**Maximum-latency**htref{1}: 25.0ms
+**Rotational-speed**htref{1}: 2400rpm
+**Start-time**htref{1}: 60s:(max)
+**Stop-time**htref{1}: 60s:(max)
+**Num-media-surfaces**htref{1}: 3 data + 1 servo
+!!**Tracks-per-pack: 1233
+**Track-density: 192.3 tpi
+**Sectors-per-track: 22
+**Bytes-per-sector**htref{1}: 512
+**Power-start{RK067-EA}
+**Label: RK06-EA/RK07-EA
+**Supply**htref{1}: 115V 1-phase 60Hz
+**I-max**htref{1}: 10.5A
+**Power**htref{1}: 500W
+**Power-end{RK06-EA/RK07-EA}
+**Power-start{RK06-EB/RK07-EB}
+**Label: RK06-EB/RK07-EB
+**Supply**htref{1}: 230V 1-phase 60Hz
+**I-max**htref{1}: 5.3A
+**Power**htref{1}: 450W 
+**Power-end{RK06-EB/RK07-EB}
+**Power-start{RK06-EC/RK07-EC}
+**Label: RK06-EC/RK07-EC
+**Supply**htref{1}: 115V 1-phase 50Hz
+**I-max**htref{1}: 11.0A
+**Power**htref{1}: 550W 
+**Power-end{RK06-EC/RK07-EC}
+**Power-start{RK06-ED/RK07-ED}
+**Label: RK06-ED/RK07-ED
+**Supply**htref{1}: 230V 1-phase 50Hz
+**I-max**htref{1}: 5.5A 
+**Power**htref{1}: 500W 
+**Power-end{RK06-ED/RK07-ED}
+**Power-start{RK06-FA/RK07-FA}
+**Label: RK06-FA/RK07-FA
+**Supply**htref{1}: 115V 1-phase 60Hz
+**I-max**htref{1}: 11.3A
+**Power**htref{1}: 550W 
+**Power-end{RK06-FA/RK07-FA}
+**Power-start{RK06-FB/RK07-FB}
+**Label: RK06-FB/RK07-FB
+**Supply**htref{1}: 230V 1-phase 60Hz
+**I-max**htref{1}: 6.1A
+**Power**htref{1}: 500W 
+**Power-end{RK06-FB/RK07-FB}
+**Power-start{RK06-FC/RK07-FC}
+**Label: RK06-FC/RK07-FC
+**Supply**htref{1}: 115V 1-phase 50Hz
+**I-max**htref{1}: 11.8A
+**Power**htref{1}: 600W 
+**Power-end{RK06-FC/RK07-FC}
+**Power-start{RK06-FD/RK07-FD}
+**Label: RK06-FD/RK07-FD
+**Supply**htref{1}: 230V 1-phase 50Hz
+**I-max**htref{1}: 6.3A 
+**Power**htref{1}: 550W 
+**Power-end{RK06-FD/RK07-FD}
+!-- ref_1: note RK06-Ex is single access, RK06-Fx is dual access -->
+**End-storage-entry{RK06}
+
+**Start-storage-entry{RK07}{STORAGE_MISC}{RK}
+**Sys-name: RK07
+**Desc-name: RK07 Removable Disk Drive
+**Def-lref{1} = ref{EK-RK067-UG-001}
+**Html-target: rk06
+!
+!The RK06 and RK07 drive subsystem consists of an RK611 UNIBUS controller and
+!a mixture of up to eight RK06 or RK07 drives.
+**Pack-size**htref{1}: 14"
+**Capacity**htref{1}: 27.6MB
+**Peak-transfer-rate**htref{1}: 537.5KB/s
+!! Check above to see if kB/s or KB/s
+**Average-seek**htref{1}: 36.5ms
+**Maximum-seek**htref{1}: 71.0ms
+**Average-latency**htref{1}: 12.5ms
+**Maximum-latency**htref{1}: 25.0ms
+**Rotational-speed**htref{1}: 2400rpm
+**Start-time**htref{1}: 60s:(max)
+**Stop-time**htref{1}: 60s:(max)
+**Num-media-surfaces**htref{1}: 3 data + 1 servo
+!!**Tracks-per-pack**htref{1}: 2445
+**Track-density**htref{1}: 384.6 tpi
+**Sectors-per-track**htref{1}: 22
+**Bytes-per-sector**htref{1}: 512
+**Power-start{RK067-EA}
+**Label: RK06-EA/RK07-EA
+**Supply**htref{1}: 115V 1-phase 60Hz
+**I-max**htref{1}: 10.5A
+**Power**htref{1}: 500W
+**Power-end{RK06-EA/RK07-EA}
+**Power-start{RK06-EB/RK07-EB}
+**Label: RK06-EB/RK07-EB
+**Supply**htref{1}: 230V 1-phase 60Hz
+**I-max**htref{1}: 5.3A
+**Power**htref{1}: 450W 
+**Power-end{RK06-EB/RK07-EB}
+**Power-start{RK06-EC/RK07-EC}
+**Label: RK06-EC/RK07-EC
+**Supply**htref{1}: 115V 1-phase 50Hz
+**I-max**htref{1}: 11.0A
+**Power**htref{1}: 550W 
+**Power-end{RK06-EC/RK07-EC}
+**Power-start{RK06-ED/RK07-ED}
+**Label: RK06-ED/RK07-ED
+**Supply**htref{1}: 230V 1-phase 50Hz
+**I-max**htref{1}: 5.5A 
+**Power**htref{1}: 500W 
+**Power-end{RK06-ED/RK07-ED}
+**Power-start{RK06-FA/RK07-FA}
+**Label: RK06-FA/RK07-FA
+**Supply**htref{1}: 115V 1-phase 60Hz
+**I-max**htref{1}: 11.3A
+**Power**htref{1}: 550W 
+**Power-end{RK06-FA/RK07-FA}
+**Power-start{RK06-FB/RK07-FB}
+**Label: RK06-FB/RK07-FB
+**Supply**htref{1}: 230V 1-phase 60Hz
+**I-max**htref{1}: 6.1A
+**Power**htref{1}: 500W 
+**Power-end{RK06-FB/RK07-FB}
+**Power-start{RK06-FC/RK07-FC}
+**Label: RK06-FC/RK07-FC
+**Supply**htref{1}: 115V 1-phase 50Hz
+**I-max**htref{1}: 11.8A
+**Power**htref{1}: 600W 
+**Power-end{RK06-FC/RK07-FC}
+**Power-start{RK06-FD/RK07-FD}
+**Label: RK06-FD/RK07-FD
+**Supply**htref{1}: 230V 1-phase 50Hz
+**I-max**htref{1}: 6.3A 
+**Power**htref{1}: 550W 
+**Power-end{RK06-FD/RK07-FD}
+!-- ref_1: note RK06-Ex is single access, RK06-Fx is dual access -->
+**End-storage-entry{RK07}
+
+**Start-storage-entry{RL01}{STORAGE_MISC}{RL}
+**Sys-name: RL01
+**Desc-name: RL01 Cartridge disk drive
+**Lifetime**uref{*DU-JUN86}: 1978-1980
+**Capacity**uref{11,95}: 5.4MB
+**Average-seek**uref{DU-JUN86}:  55ms
+**Average-latency**uref{DU-JUN86}: 12.5ms
+**Peak-transfer-rate**uref{DU-JUN86}: 512KB/s
+**Sectors-per-track**uref{11}: 40
+**Servo-type**uref{11}: Embedded
+**End-storage-entry{RL01}
+
+**Start-storage-entry{RL02}{STORAGE_MISC}{RL}
+**Sys-name: RL02
+**Desc-name: RL02 Cartridge Disk Drive
+!
+!An embedded closed-loop servo positioning system improves data
+!integrity by continuously sampling servo information with the same
+!head that reads and writes the data. To further ensure data integrity
+!a CRC is performed on data transfers between the drive and the controller.
+!Also a phase-locked-loop clock system and MFM recording provide reliable
+!reading and recording techniques. Up to 4 RL02 drives may be attached to
+!each controller.
+!
+! [11]: 160W, 25.A@240VAC, 600BTU/hr, Standard panel: 10.4"x17.5"x26.5", 75lbs -->
+**Lifetime**uref{DU-JUN86}: 1979-
+**Capacity**uref{*SOEE85}: 10.4MB
+**Average-access**uref{*SOEE85,11,78}: 67.5ms
+**Average-seek**uref{*SOEE85,11}: 55ms
+**Average-latency**uref{*SOEE85,11,78}: 12.5ms
+**Peak-transfer-rate**uref{*SOEE85,11,78}: 512KB/s
+**Track-track-seek**uref{*SOEE85}: 15ms
+**Num-media-surfaces**uref{*SOEE85,78}: 2 data
+**Tracks-per-surface**uref{*SOEE85}: 512
+**Sectors-per-track**uref{*SOEE85}: 40
+**Bytes-per-sector**uref{*SOEE85}: 256
+**Recording-density**uref{*SUE 5.25 25-6-84}: 3725bpi
+**Track-density**uref{[*SUE 5.25 25-6-84}: 256tpi
+**Servo-type**uref{11}: Embedded
+**Rotational-speed**uref{*SOEE85}: 2400rpm
+**End-storage-entry{RL02}
+
+**Start-storage-entry{RM02}{MASSBUS}{RM}
+**Sys-name: RM02
+**Desc-name: RM02 Removable Disk
+**Lifetime**uref{*DU-JUN86}: 1978-1984
+**Capacity**uref{SUE 5.25}: 67MB
+**Average-access**uref{SUE 5.25}: 42.5ms
+**Average-seek**uref{*DU-JUN86}: 30ms
+**Average-latency**uref{*DU-JUN86}: 12.5ms
+**Peak-transfer-rate**uref{SUE 5.25}: 806KB/s
+**Recording-density**uref{SUE 5.25}: 6038 bpi
+**Track-density**uref{SUE 5.25}: 384 tpi
+**End-storage-entry{RM02}
+
+**Start-storage-entry{RM03}{MASSBUS}{RM}
+**Sys-name: RM03
+**Desc-name: RM03 Removable Disk
+**Lifetime**uref{*DU-JUN86}: 1978-1984
+**Capacity**uref{*DU-JUN86}: 67MB
+**Average-seek**uref{*DU-JUN86}: 30ms
+**Average-latency**uref{*DU-JUN86}: 8.3ms
+**Peak-transfer-rate**uref{*DU-JUN86}: 1.2MB/s
+**Num-media-surfaces**uref{11}: 5 data, 1 servo
+**Tracks-per-surface**uref{11}: 823
+**Track-density**uref{11}: 384tpi
+**Num-sectors**uref{11}: 32/30
+**Rotational-speed**uref{11}: 3600rpm
+**End-storage-entry{RM03}
+
+**Start-storage-entry{RM05}{MASSBUS}{RM}
+**Sys-name: RM05
+**Desc-name: RM05 Removable Disk
+**Lifetime**uref{*DU-JUN86}: 1980-1984
+**Capacity**uref{11,*SOEE85}: 256MB
+**Average-access**uref{*SOEE85}: 38.2ms
+**Average-seek**uref{*SOEE85}: 30ms
+**Average-latency**uref{*SOEE85}: 8.3ms
+**Peak-transfer-rate**uref{*SOEE85}: 1.2MB/s
+**Track-track-seek**uref{*SOEE85}: 6ms
+**Num-media-surfaces**uref{11,*SOEE85}: 19 data, 1 servo
+**Tracks-per-surface**uref{11,*SOEE85}: 823
+**Sectors-per-track**uref{*SOEE85}: 32
+**Bytes-per-sector**uref{*SOEE85}: 512
+**Track-density**uref{11}: 384tpi
+**Num-sectors**uref{11}: 32/30
+**Rotational-speed**uref{*SOEE85,11}: 3600rpm
+**End-storage-entry{RM05}
+
+**Start-storage-entry{RM06}{MASSBUS}{RM}
+**Sys-name: RM06
+**Desc-name: RM06 Removable Disk
+!This is a replacement drive for the RM03, RM05 and RP06. This is an optical
+!drive which provides full controller/drive emulation; no software changes are
+!required.
+**Dimensions-start{RM06}
+**Height**uref{SUE Aug 1992 Iss 2}: 6in	
+**Width**uref{SUE Aug 1992 Iss 2}: 16in
+**Depth**uref{SUE Aug 1992 Iss 2}: 18in
+**Weight**uref{SUE Aug 1992 Iss 2}: 28lbs
+**Dimensions-end{RM06}
+**End-storage-entry{RM06}
+
+**Start-storage-entry{RP03}{MASSBUS}{RP}
+**Sys-name: RP03
+**Desc-name: RP03 Disk
+**Capacity**uref{99}: 40MB
+**Average-seek**uref{99}: 29ms
+**Average-latency**uref{99}: 12.5ms
+**Transfer-speed**uref{99}: 7.5us/16-bits
+**Track-track-seek**uref{99}: 7.5ms
+**Maximum-seek**uref{99}: 55ms
+**Num-media-surfaces**uref{99}: 20
+!!**Tracks-per-surface**uref{99}: 400:(plus 6 spare)
+**Sectors-per-track**uref{99}: 10
+**Bytes-per-sector**uref{99}: 512
+**Rotational-speed**uref{99}: 2400rpm
+**End-storage-entry{RP03}
+
+**Start-storage-entry{RP04}{MASSBUS}{RP}
+**Sys-name: RP04
+**Desc-name: RP04 Disk
+!-- removable ?? -->
+**Capacity**uref{11,99}: 88MB
+**Average-access**uref{99}: 36ms
+**Average-seek**uref{99}: 28ms
+**Average-latency**uref{99}: 8.3ms
+!!**One-cylinder-seek**uref{99}: 7ms
+**Maximum-seek**uref{0}: 50ms:(typ)
+**Transfer-rate**uref{99}: 806KB/s
+**Num-media-surfaces**uref{11}: 19 data, 1 servo
+**Tracks-per-surface**uref{11,99}: 411
+**Track-density**uref{11}: 200tpi
+**Num-sectors**uref{11}: 22/20
+**Rotational-speed**uref{11,99}: 3600rpm
+**End-storage-entry{RP04}
+
+**Start-storage-entry{RP05}{MASSBUS}{RP}
+**Sys-name: RP05
+**Desc-name: RP05 Removable Disk
+**Lifetime**uref{*DU-JUN86}: 1976-1979
+**Capacity**uref{*DU-JUN86}: 87MB
+**Average-seek**uref{*DU-JUN86}: 30ms
+**Average-latency**uref{*DU-JUN86}: 6ms
+**Peak-transfer-rate**uref{*DU-JUN86}: 830KB/s
+**End-storage-entry{RP05}
+
+**Start-storage-entry{RP06}{MASSBUS}{RP}
+**Sys-name: RP06
+**Desc-name: RP06 Removable Disk
+**Lifetime**uref{*DU-JUN86}: 1976-1982
+**Capacity**uref{*DU-JUN86}: 174MB
+**Average-seek**uref{*DU-JUN86}: 30ms
+**Average-latency**uref{*DU-JUN86}: 6ms
+**Peak-transfer-rate**uref{*DU-JUN86}: 830KB/s
+**Num-media-surfaces**uref{11}: 19 data, 1 servo
+**Tracks-per-surface**uref{11}: 815
+**Track-density**uref{11}: 400tpi
+**Num-sectors**uref{11}: 22/20
+**Rotational-speed**uref{11}: 3600rpm
+**End-storage-entry{RP06}
+
+**Start-storage-entry{RP07}{MASSBUS}{RP}
+**Sys-name: RP07
+**Desc-name: RP07 Fixed Media Disk
+**Lifetime**uref{*DU-JUN86}: 1980-1984
+**Capacity**uref{*SOEE85}: 516MB
+**Average-access**uref{*SOEE85}: 32.3ms
+**Average-seek**uref{*DU-JUN86}: 23ms
+**Average-latency**uref{*SOEE85}: 8.3ms
+**Peak-transfer-rate**uref{*SOEE85}: 1.3MB/s
+**Track-track-seek**uref{*SOEE85}: 5ms
+**Num-media-surfaces**uref{*SOEE85}: 16 data, 1 servo
+!!**Tracks-per-surface**uref{*SOEE85}: 1260 data, 4 diagnostic
+**Sectors-per-track**uref{*SOEE85}: 50
+**Bytes-per-sector**uref{*SOEE85}: 512
+**Rotational-speed**uref{*SOEE85}: 3633rpm
+**End-storage-entry{RP07}
+
+**Start-storage-entry{RX01}{STORAGE_MISC}{RX}
+**Sys-name: RX01
+**Desc-name: RX01 Dual 8-inch Floppy Disk
+**Capacity**uref{95,99}: 256KB:(per drive)
+**Average-access**uref{99}: 483ms
+**Average-seek**uref{99}: 380ms
+**Average-latency**uref{99}: 83ms
+**Transfer-speed**uref{99}: 18us/byte
+**Track-track-seek**uref{99}: 10ms
+**Maximum-seek**uref{99}: 760ms
+!!**Seek-head-settling-time: 20ms
+**Num-media-surfaces**uref{99}: 1
+**Tracks-per-surface**uref{99}: 77
+**Sectors-per-track**uref{99}: 26
+**Bytes-per-sector**uref{99}: 128
+**Rotational-speed**uref{99}: 360rpm
+**End-storage-entry{RX01}
+
+**Start-storage-entry{RX02}{STORAGE_MISC}{RX}
+**Sys-name: RX02
+**Desc-name: RX02 8-inch Floppy Disk
+! Dual 8" floppy drive. Reads RX01 floppies. [78]
+! Will write RX01 floppies: used this on LSI-11/23 at SOM group
+**Lifetime**uref{*DU-JUN86}: 1978-1985
+**Capacity**uref{95}: 512KB:(per drive)
+**Average-access**uref{*SOEE85}: 262ms
+**Average-seek**uref{*SOEE85,78}: 154ms
+**Average-latency**uref{*SOEE85,78}: 83ms
+!!**Average-settling-time**uref{*SOEE85}: 25ms
+**Peak-transfer-rate**uref{*SOEE85}: 61kbit/s
+**Num-media-surfaces**uref{*SOEE85}: 1 data
+**Tracks-per-surface**uref{*SOEE85}: 77
+**Sectors-per-track**uref{*SOEE85}: 26
+**Bytes-per-sector**uref{*SOEE85}: 256
+**Track-track-seek**uref{*SOEE85}: 6ms
+**Rotational-speed**uref{*SOEE85}: 360rpm
+**End-storage-entry{RX02}
+
+**Start-storage-entry{RX23}{STORAGE_MISC}{RX}
+**Sys-name: RX23
+**Desc-name: RX23 Diskette Drive
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Capacity**htref{1}: {1.44MB:HD}{720KB:DD}
+! [110]: R/O 720KB -->
+**Form-factor**htref{1}: 3.5" half height
+**Peak-transfer-rate**htref{1}: {500KB/s:HD}{250KB/s:DD}
+**Average-access**uref{110}: 194ms
+**Sectors-per-track**htref{1}: {18:HD}{9:DD}
+**Num-heads**htref{1}: 2
+!!**Tracks**htref{1}: 80
+!-- Tracks: 160 [110] -->
+!!**Step-rate**htref{1}: 3ms per track
+**Interface: SCSI
+**Power-start{RX23}
+**Power**htref{1}: 3.0W
+!-- [110]: Power: 0.22A @ 5V (typical), 0.98A @ 5V (seeking) -->
+**Power-end{RX23}
+**Dimensions-start{RX23}
+**Height**htref{1}: 30.0mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 150.1mm
+**Weight**htref{1}: 0.48kg
+**Dimensions-end{RX23}
+**End-storage-entry{RX23}
+
+**Start-storage-entry{RX24}{STORAGE_MISC}{RX}
+**Sys-name: RX24
+**Desc-name: RX24 Floppy Disk
+**Capacity**uref{72}: 700KB
+**Form-factor**uref{72}: 3-1/2" half height
+**End-storage-entry{RX24}
+
+**Start-storage-entry{RX26}{STORAGE_MISC}{RX}
+**Sys-name: RX26
+**Desc-name: RX26 Diskette Drive
+**Def-lref{1} = ref{EK-PM30E-RB-002}
+**Capacity**htref{1}: {2.8MB:ED}{1.2MB:HD}{720KB:DD}
+**Form-factor**htref{1}: 3-1/2" half height
+**Peak-transfer-rate**htref{1}:	{1.0MB/s:ED}{500KB/s:HD}{250KB/s:DD}
+**Average-latency**htref{1}: 100ms
+**Average-seek**htref{1}: 15ms
+!!**Minimum-seek**htref{1}: 3ms
+**Sectors-per-track**htref{1}: {36:ED}{18:HD}{9:DD}
+**Track-density**htref{1}: 135tpi
+**MFM-data-bit-rate**htref{1}: {1000kHz:ED}{500kHz:HD}{250kHz:DD}
+**Interface: SCSI
+**Power-start{RX26}
+**Power: 4.6W
+**Power-end{RX26}
+**Dimensions-start{RX26}
+**Height**htref{1}: 25.4mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 150.0mm
+**Weight**htref{1}: 0.425kg
+**Dimensions-end{RX26}
+**End-storage-entry{RX26}
+
+**Start-storage-entry{RX33}{STORAGE_MISC}{RX}
+**Sys-name: RX33
+**Desc-name: RX33 Diskette Drive
+**Def-lref{1} = ref{EK-MVXAA-OM-001}
+**Capacity**htref{1}: {1.2MB:RX33K media}{400KB:RX50K media}
+**Form-factor**uref{*10,*58,*17}: 5.25" half height
+**Peak-transfer-rate: 500k bit/s
+**Average-access**uref{*110}: {178ms:RX33K media}{195ms:RX50K media}
+**Average-latency: 83ms
+**Average-seek: 92ms
+**Sectors-per-track**htref{1}: {15:RX33K media}{10:RX50K media}
+**Rotational-speed**htref{1}: {360rpm:RX33K}{300rpm:RX50K}
+**Bytes-per-sector**htref{1}: 512
+**Tracks-per-drive: 160
+!!**Tracks**htref{1}: 80
+**Num-heads**htref{1}: 2
+**Track-density**htref{1}: 96tpi
+!!**Track-step-rate**htref{1}: 3ms/track
+**MFM-data-bit-rate**htref{1}: {500kHz:RX33K}{250kHz:RX50K}
+!-- From *110: -->
+!-- R/W in 1.2MB and 400K modes -->
+!-- 0.35A@5V typ, 0.51A (max, seeking) -->
+!-- Supply	<TD> 0.35A @ 5V, 0.22A @ 12V -->
+**Dimensions-start{RX33}
+**Height**htref{1}:	43mm
+**Width**htref{1}:	146mm
+**Depth**htref{1}:	203.2mm
+**Weight**htref{1}:	1.31kg
+**Dimensions-end{RX33}
+**End-storage-entry{RX33}
+
+**Start-storage-entry{RX50}{STORAGE_MISC}{RX}
+**Sys-name: RX50
+**Desc-name: RX50 Floppy Disk Drive
+! % Dual diskette drive (818KB total capacity) -->
+**Lifetime**uref{*DU-JUN86}: 1983-1990
+! Retired: [17]
+**Capacity**uref{*SOEE85}: 409KB
+!!**Random-access-time**uref{*SOEE85 p6.14}: 264ms
+**Average-seek**uref{*SOEE85,78}: 164ms
+**Average-latency**uref{78,*SOEE85}: 100ms
+**Peak-transfer-rate**uref{*SOEE85,78}: 250kbit/s
+**Track-track-seek**uref{78}: 6ms
+**Num-media-surfaces**uref{*SOEE85}: 1 data
+!!**Tracks-per-diskette**uref{*SOEE85,100,80}: 80
+**Sectors-per-track**uref{*SOEE85,100}: 10
+**Bytes-per-sector**uref{*SOEE85}: 512
+!!**Diskettes-per-drive**uref{*SOEE85}: 2
+**Rotational-speed**uref{*SOEE85,78}: 300 rpm
+**Track-density**uref{*SOEE85}: 96 tpi
+**Power-start{RX50}
+**Power**uref{100}: 18W
+**Power-end{RX50}
+**End-storage-entry{RX50}
+
+**Start-storage-entry{RZ22}{SCSI_DISK}{RZ}
+**Def-lref{1} = ref{EK-VSM30-OM-002}
+**Def-lref{2} = ref{EK-RZXXD-PS-005}
+**Sys-name: RZ22
+**Desc-name: RZ22 52MB SCSI Disk
+**Capacity**htref{1}: 52MB
+**Form-factor**htref{2}: 3-1/2" half-height
+**Peak-transfer-rate**htref{1}: {1.25MB/s:to/from media}{1.25MB/s:to/from buffer)}
+**Average-access**uref{20}: 33.4ms
+**Average-latency**htref{1}: 8.4ms
+**Average-seek**htref{1}: 25ms
+**Track-track-seek**htref{1}: 8ms
+**Maximum-seek**htref{1}: 45ms
+**Buffer-size**uref{*20}: 16KB
+**Bytes-per-block**htref{1}: 512
+**Blocks-per-track**htref{1}: 33
+**Tracks-per-drive**htref{1}: 3104
+**Rotational-speed**htref{1}: 3575rpm
+**Interface: SCSI
+**Start-time**htref{1}: 20s
+**Stop-time**htref{1}: 20s
+**Interleave**htref{1}: 1:1
+**Power-start{RZ22}
+**+5V-current: 0.7A
+**+12V-current:	0.5A
+**Power**htref{1}: 9W (max)
+**Heat-dissipation**htref{1}: 27.36 BTU/hr
+**Power-end{RZ22}
+**Dimensions-start{RZ22}
+**Height**htref{1}: 41.3mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 146.1mm
+**Weight**htref{1}: 0.78kg
+**Dimensions-end{RZ22}
+**End-storage-entry{RZ22}
+
+**Start-storage-entry{RZ23}{SCSI_DISK}{RZ}
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-302AB-OG-002}
+**Def-lref{3} = ref{EK-RZXXD-PS-005}
+**Sys-name: RZ23
+**Desc-name: RZ23 104MB SCSI Disk
+!! lref{2} above was lref{1} and needs to be re-checked
+**Capacity**htref{1}: 104MB
+**Form-factor**htref{3}: 3-1/2" half-height
+**Peak-transfer-rate**htref{1}:	{1.25MB/s:to/from media}{1.66MB/s:(to/from buffer)}
+**Average-access**uref{20,*49}: 33.3ms
+**Average-latency**htref{1}: 8.4ms
+**Average-seek**htref{1}: 25ms
+**Track-track-seek**htref{1}: 8ms
+**Maximum-seek**htref{1}: 45ms
+**Buffer-size**uref{*20}: 16KB
+**Bytes-per-sector**htref{2}: 512
+**Sectors-per-track**htref{2}: 33
+**Rotational-speed**htref{2}: 3575rpm
+**Interleave**uref{*109}**htref{2}: 1:1
+**Interface**htref{1}: SCSI
+**Power-start{RZ23}
+**+5V-current**htref{1}: 0.7A
+**+12V-current**htref{1}: 0.39A
+**Heat-dissipation**uref{*109}: {27.36 BTU/hr:(typical)}
+! Heat dissipation: 8W average	**htref{2}
+**Power-end{RZ23}
+**Dimensions-start{RZ23}
+**Height**htref{1}: 42.1mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 146.1mm
+**Weight**htref{1}: 0.83kg
+**Dimensions-end{RZ23}
+**End-storage-entry{RZ23}
+
+**Start-storage-entry{RZ23L}{SCSI_DISK}{RZ}
+**Sys-name: RZ23L
+**Desc-name: RZ23L 122MB SCSI Disk
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-A0718-TI.B01}
+**Def-lref{3} = ref{EK-RZXXD-PS-005}
+!! above lref{2} was lref{1} and should be re-checked
+**Announcement**uref{108}: April 1991
+**Capacity**htref{1}: 121.65MB
+**Form-factor**htref{3}: 3-1/2" half-height
+**OS-support-ultrix**uref{62}: Ultrix V4.1
+**Peak-transfer-rate**htref{1}:{3.0MB/s:(asynch)}{4.0MB/s:(synch)}{1.5MB/s:(to/from media)}
+**Average-access: 26.8ms
+**Average-latency: 8.8ms
+**Average-seek: 19ms
+**Track-track-seek**htref{1}: 8ms
+**Maximum-seek**htref{1}: 35ms ! 103=> 45ms -->
+**Buffer-size**htref{2}: 64KB
+**Bytes-per-sector**uref{103}: 512
+**Sectors-per-track**uref{103}: 33
+**Track-density**htref{2}: 1850tpi
+**Recording-density**htref{2}: 36250 bpi
+**Areal-density**htref{2}: 67.06 MB/sq inch
+**Recording-mode**htref{2}: Continuous frequency
+**Interface**htref{1}: SCSI
+**Power-start{RZ23L}
+**Power**htref{2}: 4.3W (seeking)
+**Heat-dissipation**uref{106}: 27.36 BTU/hr (typical)
+**Power-end{RZ23L}
+**Dimensions-start{RZ23L}
+**Height**htref{1}: 25.4mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 146.1mm
+**Weight**htref{1}: 0.54kg
+**Dimensions-end{RZ23L}
+**End-storage-entry{RZ23L}
+
+**Start-storage-entry{RZ24}{SCSI_DISK}{RZ}
+**Sys-name: RZ24
+**Desc-name: RZ24 209MB SCSI Disk
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-A0718-TI.B01}
+**Def-lref{3} = ref{EK-VSM30-OM-002}
+**Def-lref{4} = ref{EK-RZXXD-PS-005}
+**Capacity**htref{1}: 209.7MB
+**Form-factor**htref{4}: 3-1/2" half-height
+**Peak-transfer-rate: {3.0MB/s:(asynch)}{4.0MB/s:(synch)}{1.5MB/s:(to/from media)}
+**Average-access**htref{2}: 24.6ms
+**Average-latency**htref{1}: 8.3ms
+**Average-seek**htref{1}: 16ms
+**Track-track-seek**htref{1}: 5ms
+**Maximum-seek**htref{1}: 35ms
+**Buffer-size**htref{2}: 64KB
+**Bytes-per-sector**htref{3}: 512
+**Sectors-per-track**htref{3}: 38
+**Track-density**htref{2}: 1700tpi
+**Recording-density**htref{2}: 31800bpi
+**Areal-density**htref{2}: 54.06 MB/sq inch
+**Recording-mode**htref{2}: Continuous frequency
+**Rotational-speed**htref{3}: 3497rpm
+**Start-time**htref{3}: 20s (max)
+**Stop-time**htref{3}: 20s (max)
+**Interface**htref{1}: SCSI
+**Power-start{RZ24}
+**+5V-current**uref{20}: 0.3A
+**+12V-current**uref{20}: 0.4A
+**Power**htref{2}: 10.4W (seeking)
+**Heat-dissipation**htref{3}: 6.8W
+**Power-end{RZ24}
+**Dimensions-start{RZ24}
+**Height**htref{1}: 41.4mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 146.1mm
+**Weight**htref{1}: 0.77kg
+**Dimensions-end{RZ24}
+**End-storage-entry{RZ24}
+
+!!*** checked-up-to-here-only
+
+**Start-storage-entry{RZ24L}{SCSI_DISK}{RZ}
+**Sys-name: RZ24L
+**Desc-name: RZ24L 245MB SCSI Disk
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+**Capacity**htref{1}: 245MB
+**Peak-transfer-rate**htref{1}: {4.0MB/s:(asynch)}{5.0MB/s:(synch)}{1.87MB/s:(to/from media)}
+**Average-latency**htref{1}: 6.97ms
+**Average-seek**htref{1}: 16ms
+**Maximum-seek**htref{1}: < 30ms
+**Track-density**htref{1}: 1930 tpi
+**Recording-density**htref{1}: 38600 bpi
+**Recording-mode**htref{1}: Zone bit recording
+**Num-heads**htref{1}: 4
+**Interface**htref{1}: SCSI
+**Power-start{RZ24L}
+**Power**htref{1}: 6.7W:(seeking)
+**Power-end{RZ24L}
+**End-storage-entry{RZ24L}
+
+**Start-storage-entry{RZ25}{SCSI_DISK}{RZ}
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-RZXXD-PS-005}
+**Sys-name: RZ25
+**Desc-name: RZ25 426MB SCSI Disk
+**Capacity**htref{1}: 426MB
+**Form-factor**htref{2}: 3-1/2" half-height
+**OS-Support-vms**uref{*108}: VMS V5.4-1
+**OS-Support-ultrix**uref{*108}: Ultrix V4.2
+**OS-Support-sco**uref{*108}: SCO Unix 3.2.2
+**Peak-transfer-rate**htref{1}: {4.0MB/s:(asynch)}{5.0MB/s:(synch)}{16MB/s-25MB/s:(to/from media)}
+! NB - from Personal DECstation 5000 User's Guide:
+!	asynch: 3.0MB/sec, synch: 4.0MB/s, media: 2.1-3.2MB/s	-->
+**Average-access**uref{108}: 20.8ms
+**Average-latency**htref{1}: 6.8ms
+**Average-seek**htref{1}: 14ms
+**Track-track-seek**htref{1}: 2.5ms
+**Maximum-seek**htref{1}: 26ms
+**Buffer-size**uref{SUE Jul 1992 Spec}: 60KB
+**Bytes-per-sector**uref{*72,*103}: 512
+**Sectors-per-track**uref{*72}: 48 - 74
+**Track-density**uref{*72}: 1760tpi
+**Rotational-speed**uref{*72,*103}: 4412rpm
+**Interface**htref{1}: SCSI
+**Power-start{RZ25}
+**+5V-current**uref{72}: 0.7A
+**+12V-current**uref{72}: 0.7A
+**Power-end{RZ25}
+**Dimensions-start{RZ25}
+**Height**htref{1}: 41.4mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 146.1mm
+**Weight**htref{1}: 0.82kg
+**Dimensions-end{RZ25}
+**End-storage-entry{RZ25}
+
+**Start-storage-entry{RZ25L}{SCSI_DISK}{RZ}
+**Sys-name: RZ25L
+**Desc-name: RZ25L 535MB SCSI Disk
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+**Capacity**htref{1}: 535MB
+**Peak-transfer-rate**htref{1}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{2.6MB/s-4.4MB/s:(to/from media)}
+**Average-access**htref{1}: 16ms
+**Average-latency**htref{1}: 5.6ms
+**Average-seek**htref{1}: 10.5ms
+**Maximum-seek**htref{1}: 20ms
+**Buffer-size**htref{1}: 240KB
+**Blocks-per-track**htref{1}: 94.6 (average)
+**Track-density**htref{1}: 2150 tpi
+**Recording-mode**htref{1}: Zone bit recording
+**Num-heads**htref{1}: 7
+**Interface**htref{1}: SCSI
+**Power-start{RZ25L}
+**Power**htref{1}: 10.8W:(seeking)
+**Power-end{RZ25L}
+**End-storage-entry{RZ25L}
+
+**Start-storage-entry{RZ26}{SCSI_DISK}{RZ}
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+**Def-lref{2} = ref{EK-RZXXD-RM-004}
+**Sys-name: RZ26
+**Desc-name: RZ26 1.05GB SCSI Disk
+**Announcement**uref{SUE Jul 1992 Spec}: 7 July 1992
+**Capacity**htref{1}: 1.05GB
+**Form-factor**uref{SUE Jul 1992 Spec}: 3-1/2"
+**Peak-transfer-rate**htref{1}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{3.3MB/s:(to/from media)}
+**Average-access**htref{1}: 15.1ms
+**Average-latency**htref{1}: 5.6ms
+**Average-seek**htref{1}: 9.5ms
+**Maximum-seek**htref{1}: 20ms
+**Buffer-size**htref{1}: 512KB
+**Blocks-per-track**htref{1}: 57
+**Track-density**htref{1}: 2756 tpi
+![2] has 55530bpi, 2756 tpi, 2627 tracks-per-surface
+**Recording-density**htref{1}: 56000 bpi
+**Areal-density**htref{1}: 154 MB/sq inch
+**Recording-mode**htref{1}: RLL 1,7
+**Num-heads**htref{1}: 14
+**Rotational-speed**htref{2}: 5363 rpm
+**Tracks-per-surface**htref{2}: 2627
+**Interface**htref{1}: SCSI
+**Power-start{RZ26}
+**Power**htref{1}: 16.5W:(seeking)
+**Power-end{RZ26}
+**End-storage-entry{RZ26}
+
+**Start-storage-entry{RZ26B}{SCSI_DISK}{RZ}
+**Sys-name: RZ26B
+**Desc-name: RZ26B 1.05GB SCSI Disk
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+**Capacity**htref{1}: 1.05GB
+**Peak-transfer-rate**htref{1}: {2.5MB/s:(asynch)}{5.0MB/s:(synch)}{2.6MB/s-4.4MB/s:(to/from media)}
+**Average-access**htref{1}: 16.1ms
+**Average-latency**htref{1}: 5.6ms
+**Average-seek**htref{1}: 10.5ms
+**Maximum-seek**htref{1}: 22ms
+**Buffer-size**htref{1}: 265KB
+**Blocks-per-track**htref{1}: 56 - 96
+**Track-density**htref{1}: 2304 tpi
+**Recording-density**htref{1}: 49986 bpi
+**Areal-density**htref{1}: 115.17 MB/sq inch
+**Recording-mode**htref{1}: RLL
+**Num-heads**htref{1}: 13
+**Interface**htref{1}: SCSI
+**Power-start{RZ26B}
+**Power**htref{1}: 16.1W (seeking)
+**Power-end{RZ26B}
+**End-storage-entry{RZ26B}
+
+**Start-storage-entry{RZ26L}{SCSI_DISK}{RZ}
+**Sys-name: RZ26L
+**Desc-name: RZ26L 1.05GB SCSI Disk
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+**Capacity**htref{1}: 1.05GB
+**Peak-transfer-rate**htref{1}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{2.7MB/s-5.6MB/s:(to/from media)}
+**Average-access**htref{1}: 15.1ms
+**Average-latency**htref{1}: 5.6ms
+**Average-seek**htref{1}: 9.5ms
+**Maximum-seek**htref{1}: 20ms
+**Buffer-size**htref{1}: 512KB
+**Blocks-per-track**htref{1}: 59 - 119
+**Track-density**htref{1}: 3256 tpi
+**Recording-density**htref{1}: 58000 - 61500 bpi
+**Areal-density**htref{1}: 191.4 - 200.3 MB/sq inch
+**Recording-mode**htref{1}: RLL 1,7
+**Num-heads**htref{1}: 8
+**Interface**htref{1}: SCSI
+**Power-start{RZ26L}
+**Power**htref{1}: 12.3W:(seeking)
+**Power-end{RZ26L}
+**End-storage-entry{RZ26L}
+
+**Start-storage-entry{RZ28}{SCSI_DISK}{RZ}
+**Sys-name: RZ28
+**Desc-name: RZ28 2.1GB SCSI Disk
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+**Capacity**htref{1}:	2.1GB
+**Peak-transfer-rate**htref{1}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{2.7MB/s-5.5MB/s (to/from media)}
+**Average-access**htref{1}: 15.3ms
+**Average-latency**htref{1}: 5.6ms
+**Average-seek**htref{1}: 9.7ms
+**Maximum-seek**htref{1}: 19ms
+**Buffer-size**htref{1}: 1MB
+**Blocks-per-track**htref{1}: 59 - 118
+**Track-density**htref{1}: 3256tpi
+**Recording-density**htref{1}: 58400 - 64000 bpi
+**Areal-density**htref{1}: 187.6 - 216.11 MB/sq inch
+**Recording-mode**htref{1}: RLL 1,7
+**Num-heads**htref{1}: 16
+**Interface**htref{1}: SCSI
+**Power-start{RZ28}
+**Power**htref{1}: 16.6W:(seeking)
+**Power-end{RZ28}
+**End-storage-entry{RZ28}
+
+**Start-storage-entry{RZ28B}{SCSI_DISK}{RZ}
+**Sys-name: RZ28B
+**Desc-name: RZ28B 2.1GB SCSI Disk
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+**Capacity**htref{1}: 2.1GB
+**Peak-transfer-rate**htref{1}: {10.0MB/s:(synch)}{3.4MB/s-5.4MB/s:(to/from media)}
+**Average-access**htref{1}: 16ms
+**Average-latency**htref{1}: 5.54ms
+**Average-seek**htref{1}: {9.0ms:(read)}{10.5ms:(write)}
+**Maximum-seek**htref{1}: 19ms
+**Buffer-size**htref{1}: 256KB
+**Blocks-per-track**htref{1}: 82.5
+**Track-density**htref{1}: 3000 tpi
+**Recording-mode**htref{1}: RLL/ZBR
+**Num-heads**htref{1}: 19
+**Interface**htref{1}: SCSI
+**End-storage-entry{RZ28B}
+
+**Start-storage-entry{RZ28D}{SCSI_DISK}{RZ}
+**Sys-name: RZ28D
+**Desc-name: RZ28D 2.1GB SCSI-2 Disk
+**Capacity: 2.1GB
+**Form-factor: 3-1/2"
+**Interface: SCSI-2
+**Peak-transfer-rate: 10.0MB/s:(synch)
+**Read-ahead-cache: 512KB
+**Average-seek: 8ms
+**Average-latency: 4.17ms
+**Head-type: Thin Film
+**Rotational-speed: 7200rpm
+**Recording-mode: RLL
+**Power-start{RZ28D}
+**Power: 8.8W:(idle)
+**Power-end{RZ28D}
+**End-storage-entry{RZ28D}
+
+**Start-storage-entry{RZ29}{SCSI_DISK}{RZ}
+**Sys-name: RZ29
+**Desc-name: RZ29 4.2GB SCSI Disk
+**Def-lref{1} = ref{CU-V6-3}
+**Capacity**htref{1}: 4.2GB
+**Peak-transfer-rate**htref{1}: 5.9MB/s-9MB/s
+**Average-access**htref{1}: 12.2ms
+**Average-seek**htref{1}: 8.0ms
+**Rotational-speed**htref{1}: 7200rpm
+**Interface**htref{1}: Fast SCSI-2
+**MTBF**htref{1}: 800000 hours
+**End-storage-entry{RZ29}
+
+**Start-storage-entry{RZ29B}{SCSI_DISK}{RZ}
+**Sys-name: RZ29B
+**Desc-name: RZ29B 4.3GB SCSI-2 Disk
+**Capacity: 4.3GB
+**Form-factor: 3-1/2"
+**Interface: SCSI-2
+**Peak-transfer-rate: 20.0MB/s:(synch)
+**Read-ahead-cache: 1024KB
+**Average-seek: 8ms
+**Average-latency: 4.17ms
+**Head-type: Thin film
+**Rotational-speed: 7200rpm
+**Power-start{RZ29B}
+**Power: 12.0W:(idle)
+**Power-end{RZ29B}
+**End-storage-entry{RZ29B}
+
+**Start-storage-entry{RZ35}{SCSI_DISK}{RZ}
+**Def-lref{1} = ref{EK-RZXXD-RM-004}
+**Sys-name: RZ35
+**Desc-name: RZ35 852MB SCSI Disk
+**Capacity**lref{1}: 852MB
+**Codename: Patriot
+**Form-factor: 3-1/2" 
+**Average-access: 15.1ms
+**Average-seek**lref{1}: 9.5ms
+**Peak-transfer-rate: {2.7MB/s:to/from media}{5.0MB/s:(asynch)}{10.0MB/s:(synch)}
+**I/O-throughput: 73 IO/s @ 100ms
+**Recording-density**lref{1}: 48300 bpi
+**Track-density**lref{1}: 2650 tpi
+**Tracks-per-surface**lref{1}: 2086
+**Sectors-per-track**lref{1}: 56 data, 1 spare
+**Rotational-speed**lref{1}: 5363 rpm
+**Interface**lref{1}: SCSI
+**Power-start{RZ35}
+**Power**lref{1}: 18.7W
+**Power-end{RZ35}
+**End-storage-entry{RZ35}
+
+**Start-storage-entry{RZ40}{SCSI_DISK}{RZ}
+**Sys-name: RZ40
+**Desc-name: RZ40 9.1GB SCSI-2 Disk
+**Capacity: 9.1GB
+**Form-factor: 3-1/2"
+**Interface: SCSI-2
+**Peak-transfer-rate: 10.0MB/s:(synch)
+**OS-support-vms: V6.0
+!!**OS-support-vms: V6.2 (Alpha)
+**OS-support-nt: 3.51-1
+**OS-support-du: V3.2c
+**Read-ahead-cache: 1024KB
+**Average-seek: 8ms
+**Average-latency: 4.17ms
+**Head-type: MR
+**Recording-mode: Peak
+**Rotational-speed: 7200rpm
+**Power-start{RZ40}
+**Power: 12.0W:(idle)
+**Power-end{RZ40}
+**End-storage-entry{RZ40}
+
+**Start-storage-entry{RZ55}{SCSI_DISK}{RZ}
+**Sys-name: RZ55
+**Desc-name: RZ55 332MB SCSI Disk
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-302AB-OG-002}
+**Def-lref{3} = ref{EK-VSM30-OM-002}
+**Def-lref{4} = ref{EK-RZXXD-PS-005}
+**Capacity**htref{1}: 332.3MB
+**Form-factor**htref{4}: 5-1/4" full-height
+**Peak-transfer-rate**htref{1}: {1.5MB/s:(asynch)}{4.0MB/s (synch)}{1.25MB/s:(to/from media)}
+**Average-access**uref{20,28}: 24.3ms
+**Average-latency**htref{1}: 8.3ms
+**Average-seek**htref{1}: 16ms
+**Track-track-seek**htref{1}: 4ms
+**Maximum-seek**htref{1}: 35ms
+**Buffer-size**uref{*20}: 64KB
+**Read-ahead-cache**uref{*28}: No
+**Bytes-per-sector**htref{2}: 512
+**Sectors-per-track**htref{2}: 36
+**Rotational-speed**htref{2}: 3600rpm
+**Interleave**htref{2}: 1:1
+**Interface**htref{1}: SCSI
+**Power-start{RZ55}
+**+5V-current: 1.3A
+**+12V-current: 2.0A
+**Power**htref{3}: 160W
+**Heat-dissipation**htref{2}: 32W
+**Power-end{RZ55}
+**Dimensions-start{RZ55-I}
+**Label: RZ55 internal
+**Height**htref{2}: 82.5mm
+**Width **htref{2}: 146.0mm
+**Depth **htref{2}: 208.2mm
+**Weight**htref{2}: 3.78kg
+**Dimensions-end{RZ55-I}
+**Dimensions-start{RZ55-E}
+**Label: RZ55 external
+**Height**htref{2}: 140mm
+**Width **htref{2}: 330mm
+**Depth **htref{2}: 290mm
+**Weight**htref{2}: 13.2kg
+**Dimensions-end{RZ55-E}
+**End-storage-entry{RZ55}
+
+**Start-storage-entry{RZ56}{SCSI_DISK}{RZ}
+**Sys-name: RZ56
+**Desc-name: RZ56 655MB SCSI Disk
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-RZXXD-PS-005}
+**Capacity**htref{1}: 655.17MB
+! 665MB: 31 58 66 -->
+**Form-factor**htref{2}: 5-1/4" full-height
+**Peak-transfer-rate**htref{1}: {1.6MB/s:(asynch)}{4.0MB/s:(synch)}{1.875MB/s:(to/from media)}
+**Average-access**uref{31,20}: 24.3ms
+**Average-latency**htref{1}: 8.3ms
+**Average-seek**htref{1}: 16ms
+**Track-track-seek**htref{1}: 4ms
+**Maximum-seek**htref{1}: 35ms
+**Buffer-size**uref{*20}: 64KB
+**Read-ahead-cache**uref{*28}: Yes
+**Bytes-per-sector**uref{*66,*31}: 512
+**Sectors-per-track**uref{*66,*31}: 54
+**Rotational-speed**uref{*66,*31}: 3600rpm
+**Interleave**uref{*66,*31}: 1:1
+**Interface**htref{1}: SCSI
+**Power-start{RZ56}
+**+5V-current**uref{*31}: 1.3A
+**+12V-current**uref{*31}: 2.0A
+**Power**uref{66}: 160W
+**Heat-dissipation**uref{*31}: 28W
+**Power-end{RZ56}
+**Dimensions-start{RZ56}
+**Height**htref{1}: 82.6mm
+**Width**htref{1}: 146.1mm
+**Depth**htref{1}: 203.2mm
+**Weight**htref{1}: 3.81kg
+**Dimensions-end{RZ56}
+**End-storage-entry{RZ56}
+
+**Start-storage-entry{RZ57}{SCSI_DISK}{RZ}
+**Sys-name: RZ57
+**Desc-name: RZ57 1.0GB SCSI Disk
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-RZXXD-PS-005}
+**Capacity**htref{1}: 1.0GB
+**Form-factor**uref{2}: 5-1/4" full-height
+**Peak-transfer-rate**htref{1}: {1.6MB/s:(asynch)}{4.0MB/s:(synch)}{2.5MB/s:(to/from media)}
+**Average-access**uref{*20,*57}: 22.8ms
+**Average-latency**htref{1}: 8.3ms
+**Average-seek**htref{1}: 14.5ms
+**Track-track-seek**htref{1}: 4ms
+**Maximum-seek**htref{1}: 33ms
+**Buffer-size**uref{*20}: 256KB
+**Bytes-per-sector**uref{*66,*20}: 512
+**Sectors-per-track**uref{*66,*20}: 71
+**Rotational-speed**uref{*66,*20}: 3600rpm
+**Interleave**uref{*66}: 1:1
+**Interface**htref{1}: SCSI
+**Power-start{RZ57}
+**+5V-current**uref{*20}: 1.7A
+**+12V-current**uref{*20}: 2.25A
+**Power**uref{*20,*66}: 160W
+**Heat-dissipation**uref{*66}: 33W
+**Power-end{RZ57}
+**Dimensions-start{RZ57}
+**Height**htref{1}: 82.6mm
+**Width**htref{1}: 146.1mm
+**Depth**htref{1}: 203.2mm
+**Weight**htref{1}: 3.81kg
+**Dimensions-end{RZ57}
+**End-storage-entry{RZ57}
+
+**Start-storage-entry{RZ58}{SCSI_DISK}{RZ}
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-RZXXD-PS-005}
+**Sys-name: RZ58
+**Desc-name: RZ58 1.38GB SCSI Disk
+**Capacity**uref{*81,*128}: 1.38GB
+**Form-factor**htref{2}: 5-1/4" full-height
+**OS-Support-vms**uref{*102}: VMS V5.5
+**OS-Support-ultrix**uref{*102}: Ultrix V4.2
+**Peak-transfer-rate**uref{*81}: {3.75MB/s:(inner track)}{5.0MB/s:(outer track)}
+**Average-access**uref{*81}: 18.1ms
+**Average-latency**uref{*128}: 5.6ms
+**Average-seek**uref{*18,*128}: 12.5ms
+**Track-track-seek**uref{*128}: 2.5ms
+**Maximum-seek**uref{*128}: 25ms
+**Buffer-size**uref{*81}: 256KB
+**Rotational-speed**uref{*81,*128}: 5400rpm
+**Interface: SCSI
+**Start-time**uref{*128}: 30s
+**Stop-time**uref{*128}: 30s
+**Power-start{RZ58}
+**Power**uref{*81}: 33W (read/write)
+**Power-end{RZ58}
+**Dimensions-start{RZ58}
+**Height**uref{*128}: 82mm
+**Width**uref{*128}: 150mm
+**Depth**uref{*128}: 200mm
+**Weight**uref{*128}: 3.8kg
+**Dimensions-end{RZ58}
+**End-storage-entry{RZ58}
+
+**Start-storage-entry{RZ73}{SCSI_DISK}{RZ}
+**Def-lref{1} = ref{EK-RZXXD-PS-005}
+**Def-lref{2} = ref{EK-RZXXD-RM-004}
+**Sys-name: RZ73
+**Desc-name: RZ73 2.0GB SCSI Disk
+**Capacity**htref{1}: 2.0GB
+**Form-factor**htref{1}: 5-1/4" full-height
+**Codename: Shamrock
+**Average-access: 21.3ms
+**Average-seek**htref{2}: 12.0-15.0ms
+**Peak-transfer-rate**htref{2}: {2.7MB/s:(to/from media)}{5.0MB/s:(synch)}{10.0MB/s:(asynch)}
+**Rotational-speed**htref{2}: 3600 rpm
+**Recording-density**htref{2}: 43880 bpi
+**Track-density**htref{2}: 2432 tpi
+**Tracks-per-surface**htref{2}: 2620
+**Sectors-per-track**htref{2}: 71 data, 1 spare
+**Power-start{RZ73}
+**Power**htref{2}: 22.9W
+**Power-end{RZ73}
+**End-storage-entry{RZ73}
+
+**Start-storage-entry{RZ74}{SCSI_DISK}{RZ}
+**Sys-name: RZ74
+**Desc-name: RZ74 3.57GB SCSI Disk
+**Announcement: 26 April 1993
+**OS-support-VMS: VMS V6.0
+**Capacity: 3.57GB
+**Form-factor: 5-1/4" full height
+**Average-seek: 12.0ms
+**Average-access: 17.6ms
+**Transfer-rate: 6.95MB/s
+**Read-ahead-cache: 512KB
+**Rotational-speed: 5400rpm
+**Power-start{RZ74}
+**Power: 35W:(typical)
+**Power-end{RZ74}
+**End-storage-entry{RZ74}
+

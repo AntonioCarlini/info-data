@@ -1,0 +1,180 @@
+! Intended for:
+! CDROM/CD-R/CDRW etc.
+! DVDROM/DVD-R etc.
+! Magneto optical storage
+
+**Start-storage-entry{RRD40}{SCSI}{RRD}
+**Sys-name: RRD40
+**Desc-name: RRD40 Optical Disc Drive
+**Def-lref{1} = ref{EK-RRD40-OM-002}
+**Def-lref{2} = ref{EK-302AB-OG-002}
+**Capacity**htref{1}: 635MB
+**Average-transfer-rate**htref{1}: 175.2KB/s
+**Average-access**htref{2}: 500ms
+**Maximum-access**htref{2}: 1000ms
+**Average-latency**htref{1}: {155ms:outer track}{60ms:inner track}
+**Power-start{RRD40}
+**Heat-dissipation**htref{2}: 14W:(typical)
+**Heat-dissipation**htref{2}**uref{*122}: 50W:(tabletop)
+**Power-end{RRD40}
+**Dimensions-start{RRD40-E}
+**Label: RRD40 Embedded
+**Height**htref{1}: 41.5mm
+**Width **htref{1}: 146mm
+**Depth **htref{1}: 209mm
+**Weight**htref{1}: 2.00kg
+**Dimensions-end{RRD40-E}
+**Dimensions-start{RRD40-T}
+**Label: RRD40 Tabletop
+**Height**htref{1}: 76.2mm
+**Width **htref{1}: 146mm
+**Depth **htref{1}: 280mm
+**Weight**htref{1}: 4.00kg
+**Dimensions-end{RRD40-T}
+**End-storage-entry{RRD40}
+
+**Start-storage-entry{RRD42}{SCSI}{RRD}
+**Sys-name: RRD42
+**Desc-name: RRD42 CD-ROM Drive
+**Def-lref{1} = ref{EK-RRD42-OM-002}
+**Capacity**htref{1}: 600MB
+**Average-transfer-rate**htref{1}: 150KB/s
+**Peak-transfer-rate**htref{1}: 1.5MB/s
+**Average-access**htref{1}: 450ms
+**Maximum-access**htref{1}: 700ms
+**Dimensions-start{RRD42-E}
+**Label: RRD42 Embedded
+**Height**htref{1}: 41.4mm
+**Width **htref{1}: 146.05mm
+**Depth **htref{1}: 208.2mm
+**Weight**htref{1}: 1.3kg
+**Dimensions-end{RRD42-E}
+**Dimensions-start{RRD42-T}
+**Label: RRD42 Tabletop
+**Height**htref{1}: 49mm
+**Width **htref{1}: 177.5mm
+**Depth **htref{1}: 325mm
+**Weight**htref{1}: 2.9kg
+**Dimensions-end{RRD42-T}
+! ref_1 power consumption: 0.25A tabletop, embedded: 250ma@5V, 800ma(peak 1500mA) @12V -->
+! ref_1 interface is SCSI-2 -->
+**End-storage-entry{RRD42}
+
+**Start-storage-entry{RRD43}{SCSI}{RRD}
+**Sys-name: RRD43
+**Desc-name: RRD43 CD-ROM Drive
+**Def-lref{1} = ref{EK-RRD43-IN.A02}
+**Capacity**lref{1}: 600MB
+**Average-transfer-rate**lref{1}: 300KB/s
+**Peak-transfer-rate**lref{1}: 4.2MB/s
+**Average-access**lref{1}: 320ms
+**Start-time**lref{1}: 2.7s
+**Interface**lref{1}: SCSI-2
+**Power-start{RRD43}
+**Supply**lref{1}: 240V 1/phase
+**I-nominal**lref{1}: 0.6A
+**Power-end{RRD43}
+**Dimensions-start{RRD43-A}
+**Label: RRD43 Embedded
+**Height**lref{1}: 25.4mm
+**Width **lref{1}: 146mm
+**Depth **lref{1}: 195mm
+**Weight**lref{1}: 0.88kg
+**Dimensions-end{RRD43-A}
+**Dimensions-start{RRD43-D}
+**Label: RRD43 Tabletop
+**Height**lref{1}: 54mm
+**Width **lref{1}: 265mm
+**Depth **lref{1}: 203mm
+**Weight**lref{1}: 1.59kg
+**Dimensions-end{RRD43-D}
+**End-storage-entry{RRD43}
+
+**Start-storage-entry{RRD44}{SCSI}{RRD}
+! This is a Toshiba XM-3401BF (rev A01) or XM-3401BN (rev A02)
+**Sys-name: RRD44
+**Desc-name: RRD44 CD-ROM Drive
+**Capacity: 600MB
+**Form-factor: 5-1/4" half-height
+**Average-transfer-rate: 300KB/s
+**Peak-transfer-rate: 4.2MB/s
+**Read-ahead-cache: 256KB
+**Average-access: 200ms
+**Maximum-access: 330ms
+**Interface: SCSI
+**Dimensions-start{RRD44}
+**Label: RRD44 Embedded
+**Height: 43.0mm
+**Width: 149.5mm
+**Depth: 209.0mm
+**Weight: 1.1kg
+**Dimensions-end{RRD44}
+**End-storage-entry{RRD44}
+
+**Start-storage-entry{RRD46}{SCSI}{RRD}
+**Sys-name: RRD46
+**Desc-name: RRD46 CD-ROM Drive
+**Def-lref{1} = ref{CU-V8-2A}
+**Capacity**htref{1}: 600MB
+**Form-factor**htref{1}: 5-1/4"
+**Sustained-transfer-rate**htref{1}: 1800KB/s
+**Average-access**htref{1}: 125ms
+!!**Average-full-stroke-access**htref{1}: 290ms
+!!**Average-forward/backward-access**htref{1}: 340ms
+**Average-seek**htref{1}: 115ms
+**Data-buffer**htref{1}: 256KB
+**MTBF**htref{1}: 100,000 hours
+!-- [1]: complies with red book, yellow book, CD Bridge (Photo CD, Video CD)
+!	CD-I, CD-I ready, CD-G and Multisession (Photo-CD, CD Extra) -->
+!-- [1]: supports 1x, 4x, 12x modes -->
+**End-storage-entry{RRD46}
+
+**Start-storage-entry{RRD50}{SCSI}{RRD}
+**Sys-name: RRD50
+**Desc-name: RRD50 Optical Disc Drive
+**Def-lref{1} = ref{EK-RRD50-UG-002}
+**Capacity**htref{1}: 600MB
+**Average-transfer-rate**htref{1}: 176.4KB/s
+**Average-access**htref{1}: < 2s 
+**Maximum-access**htref{1}: < 6s
+**Average-latency**htref{1}: 400ms:(outer track)
+**Soft-error-rate**htref{1}: < 1 in 10^9
+**Hard-error-rate**htref{1}: < 1 in 10^12
+**Interface: KRQ50
+**Dimensions-start{RRD50-T}
+**Label: RRD50 Tabletop
+**Height**htref{1}: 115mm
+**Width **htref{1}: 320mm
+**Depth **htref{1}: 264mm
+**Weight**htref{1}: 5.2kg
+**Dimensions-end{RRD50-T}
+**End-storage-entry{RRD50}
+
+**Start-storage-entry{RWZ01-AA}{SCSI}{OPTICAL}
+**Sys-name: RZW01
+**Desc-name: 
+**Def-lref{1} = ref{CU-1991-09-27}
+**Capacity**lref{1}: RWZ01 Rewritable Optical Disk Drive
+**Form-factor**vref{1}: 5.25"
+**Capacity**vref{1}: 594MB
+**OS-support-VMS**vref{1}: VMS V5.4-1
+**OS-support-Ultrix**vref{1}: V4.0
+**Interface**vref{1}: SCSI-1
+**Bytes-per-sector**vref{1}: 512
+**Average-seek**vref{1}: 95ms
+**Data-transfer-rate**vref{1}: 620KB/s
+**Dimensions-start{RZW01}
+**Height**vref{1}: 126mm
+**Width**vref{1}: 211mm
+**Depth**vref{1}: 310mm
+**Weight**vref{1}: 6.8kg
+**Dimensions-end{RZW01}
+**End-storage-entry{RZW01-AA}
+
+**Start-storage-entry{RWZ21}{SCSI}{OPTICAL}
+**Def-lref{1} = ref{EK-RWZ21-MG.001}
+**Sys-name: RWZ21
+**Desc-name: RWZ21 Magneto-Optical Drive
+**Interface**htref{1}: SCSI
+**End-storage-entry{RWZ21}
+
