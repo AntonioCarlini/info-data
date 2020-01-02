@@ -524,15 +524,16 @@
 **def-lref{6} = ref{CU-V5-8B}
 **def-lref{7} = ref{4500-6600-PERF-SUMM}
 **def-lref{8} = ref{EK-VAXCT-CG-006}
+**def-lref{9} = ref{CU-1991-10-30}
 **document=doc{DEC:EK-KA680-TM-001} ! KA680 CPU Module Technical Manual
 **document=doc{DEC:EK-454AA-MG-001} ! KA675/KA680/KA690 CPU System Maintenance
 **document=doc{DEC:EK-KA680-UP.C01} ! Addendum to KA680 CPU Technical Manual
 **Sys-name**vref{1}: VAX 4000-500
 **Desc-name: VAX 4000 Model 500
-**Announcement**uref{*2}: 30 October 1991
+**Announcement**vref{9}: 30 October 1991
 **Codename: Omega
 **Html-target: vax450x
-**OS-support-VMS: V5.5
+**OS-support-VMS**vref{9}: V5.5
 **CPU-module**vref{1}: KA680-AA
 **Module**vref{4}: L4002-BA
 **Firmware-version**uref{personally verified}: V4.1
@@ -542,10 +543,10 @@
 **SID: 13000202
 **XSID : 01410601
 **Num-proc: 1
-**CPU-technology: CMOS-4
+**CPU-technology**vref{9}: CMOS-4
 **CPU-chip**vref{1}: NVAX (DC246)
 **CPU-clock**uref{139a}: 71MHz
-**CPU-cycle**vref{4}: 14ns
+**CPU-cycle**vref{4,9}: 14ns
 **Instruction-buffer**vref{1}: 16 bytes
 **Translation-buffer**vref{1}: 96 entries
 **Cache**vref{1}: 2KB VIC
@@ -554,18 +555,19 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-!**VUPs**htref{5}: 24
-**VUPs**vref{8}: 24
+**VUPs**vref{8,9}: 24
 **SPECmarks**vref{8}: 30.5
-**TPC-A**htref{7}: 62.4
+**TPC-A**vref{9}: 62.4
 !**Minimum-memory**uref{*72}: 32MB
 **Minimum-memory**vref{4}: 32MB
-**Maximum-memory**vref{1}: 512MB
+**Maximum-memory**vref{1,9}: 512MB
 **Physical-address-lines: 30
 ! <!-- [2] MS690-BA L4004-BA 32MB		MS690-CA L4004-CA 64MB		MS690-DA L4004-DA 128MB -->
 **BUS-Qbus**vref{1}: 1 @ 3.3MB/s
 **BUS-DSSI**vref{1}: 2 @ 4.0MB/s (SHAC-embedded) (DC542)
 **LAN-support**vref{1}: 1 (SGEC - embedded) (DC541)
+
+! **vref{5}: BA440 pedestal
 
 !<TR> <TD> <A HREF="../boards/kda50.html">   KDA50 </A> <TD> SDI Disk Controller			</TR>
 !<TR> <TD> <A HREF="../boards/kfqsa.html">   KFQSA </A> <TD> DSSI Adapter			</TR>
@@ -1177,14 +1179,16 @@
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{4500-6600-PERF-SUMM}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
+**def-lref{5} = ref{CU-1991-10-30}
 **document=doc{DEC:EK-660EA-TM-001} ! VAX 6000 Model 600 System Technical User's Guide
 **document=doc{DEC:EK-660EA-HR-001} ! VAX 6000 Model 600 Mini Reference
 **document=doc{DEC:EK-660EA-MG-001} ! VAX 6000 Model 600 Service Manual
 **document=doc{DEC:EK-660EA-UP-001} ! VAX 6000: Installing Model 600 Processors
 **document=doc{DEC:VAX-6000-MA} ! VAX6000-600 MAINTENANCE ADVISORY
-**Announcement**uref{*2}: 30 October 1991
+**Announcement**vref{5}: 30 October 1991
+**FRS-date**vref{5}: 22 November 1991
 **Codename: Neptune
-**OS-support-VMS: V5.5
+**OS-support-VMS**vref{5}: V5.5
 **Module: T2054
 **CPU-module**vref{1}: KA66A
 **CPU-name-VMS: KA66A
@@ -1193,12 +1197,12 @@
 **VMS-XCPU: 2
 **SID: 13000202
 **XSID : 02100101
-**Num-proc: 1-6
+**Num-proc**vref{5}: 1-6
 **CPU-names: {VAX 6610}{VAX 6620}{VAX 6630}{VAX 6640}{VAX 6650}{VAX 6660}
 **CPU-chip**vref{1}: NVAX
 **Vector-processor: 
 **CPU-technology: 
-**CPU-clock**uref{*72}: 83MHz
+**CPU-clock**vref{5}: 83MHz
 **CPU-cycle**vref{1}: 12ns
 **Cache**vref{1}: 2KB VIC
 **Primary-cache**vref{1}: 8KB physical
@@ -1213,6 +1217,7 @@
 **Console-processor: CPU
 **Console-device: Unknown
 !**VUPs**htref{2}: {32.0} {58.0} {84.0} {106.0} {128.0} {150}
+!**VUPs**vref{5} 6610: 32 6660: 150
 **VUPs**vref{4}: {32.0} {58.0} {84.0} {106.0} {128.0} {150}
 **TPC-A**uref{*SUE APR 1992 pt II}: {91.0} {-} {-} {208.8} {-} {-}
 !	      VUPS    TPS-A SPECmarks	    & SPECint 	 & SPECfp \\ 
@@ -1226,9 +1231,11 @@
 !VAX 6000-650 &      &       &       & 165.5 & 122.6 & 202.2 \\	% [72]
 !VAX 6000-660 & 150  &       &       & 196.9 & 143.9 & 242.7 \\	% [72]
 !**SPECmarks**htref{3}: 40.5
+!**SPECmarks**vref{5}: 40.5
 **SPECmarks**vref{4}: 42.1
 !!**Tpc-a**htref{3}: 83.6
 **Minimum-memory**vref{1}: 32MB
+! **vref{5}: Max mem 1GB for a future release of OpenVMS
 **Maximum-memory**vref{4}: 512MB
 **Physical-address-lines**vref{1}: 32
 **Max-I/O-throughput**uref{*SUE Jul 1992 Spec}: 80MB/s
@@ -2671,6 +2678,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{2} = ref{EC-N0857-51}
 **def-lref{3} = ref{EC-N0626-51}
 **Def-lref{4} = ref{DECdirect-FEB92}
+**def-lref{5} = ref{CU-1991-10-30}
 **document=doc{DEC:EK-PMARI-OM-A02} ! VAXstation 4000 Model 60 Owner's Guide and Manual
 **document=doc{DEC:EK-VX690-UP-A01} ! VAXstation 4000 Model 60 to VAXstation 4000 Model 90 Upgrade Guide
 **document=doc{DEC:VS TCA} ! VAXstation 4000 Model 60/90 TURBOchannel Bus Adapter Specification
@@ -2685,9 +2693,9 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:VS4060-BOX} ! System Enclosure Specification VS4000 Model 60
 **Sys-name: VAXstation 4000-60
 **Desc-name: VAXstation 4000 Model 60
-**Announcement**uref{*2}: 30 October 1991
+**Announcement**vref{5}: 30 October 1991
 **Codename**uref{*2}: Pmariah
-**OS-support-VMS**uref{*72}: V5.5
+**OS-support-VMS**vref{5}: V5.5
 **CPU-module**vref{1}: KA46
 **Firmware-version**uref{personally verified}: V1.2
 **CPU-name-VMS**uref{*105}: KA46
@@ -2706,9 +2714,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**uref{*72}: 12
-!**SPECmarks**htref{2}: 12.0
-**SPECmarks**vref{2}: 12
+**VUPs**vref{5}: 12
+**SPECmarks**vref{2,5}: 12
 **SPECint89**htref{2}: 11.1
 **SPECfp89**htref{2}: 12.6
 **Minimum-memory**vref{1}: 8MB
@@ -2746,14 +2753,15 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{1} = ref{EK-V48VB-SV.001}
 **def-lref{2} = ref{EC-N0857-51}
 **Def-lref{3} = ref{DECdirect-FEB92}
+**def-lref{4} = ref{CU-1991-10-30}
 **document=doc{DEC:EK-V48VB-SV-001} ! VAXstation 4000 VLC Service Information
 **document=doc{DEC:EP-VAXVL-OG-B01} ! VAXstation 4000 VLC owner's guide
 **document=doc{DEC:EK-VSFAX-UP.002} ! VS 2000 and VS 3100 family to VAXstation 4000 VLC Upgrade Guide
 **document=doc{DEC:EK-VSAXP-UP-A01} ! VAXstation VLC to DEC 3000 Model 300/300L AXP Upgrade
 **document=doc{DEC:VLC} ! VLC System Enclosure Specification
-**Announcement**uref{*2}: 30 October 1991
+**Announcement**vref{4}: 30 October 1991
 **Codename: VLC
-**OS-support-VMS**uref{*102}: V5.5
+**OS-support-VMS**vref{4}: V5.5
 **CPU-module: KA48
 **CPU-name-VMS: KA48
 ! uref{*106,*102}
@@ -2769,9 +2777,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**uref{*102}: 6.0
-!**SPECmarks**htref{2}: 6.2
-**SPECmarks**vref{2}: 6.2
+**VUPs**vref{4}: 6.0
+**SPECmarks**vref{2,4}: 6.2
 **SPECint89**htref{2}: 5.8
 **SPECfp89**htref{2}: 6.3
 **Minimum-memory**vref{1}: 8MB
