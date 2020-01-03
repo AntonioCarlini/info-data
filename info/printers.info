@@ -1,3 +1,59 @@
+**Start-printers-entry{DCL1100}{PRINTER}{LN}
+**Def-lref{1} = ref{EK-DCL11-SV.B01}
+**Sys-name: DEClaser 1100
+**Desc-name: DEClaser 1100 Laser Printer
+![1]: 512KB-2.5MB RAM; two optional font carts
+![1]: interface: parallel + serial 
+**Resolution**lref{1}: 300 dpi
+**Print-speed**lref{1}: 8 pages/min
+**Sheet-capacity**lref{1}: 50 sheets
+**Dimensions-start{DCL1100}
+![1]: height is 259mm with optional paper feed unit and cassette installed
+**Height**lref{1}: 204mm
+**Width**lref{1}:  350mm
+**Depth**lref{1}:  405mm
+**Weight**lref{1}: 11.0kg
+**Dimensions-end{DCL1100}
+**Power-start{DCL1100-115}
+**Supply**lref{1}: 115V 1-phase
+**I-max**lref{1}:  4.8A
+**Power**lref{1}:  550W:(max)
+**Power-end{DCL1100-115}
+**Power-start{DCL1100-220}
+**Supply**lref{1}: 220V 1-phase
+**I-max**lref{1}:  2.5A
+**Power**lref{1}:  550W:(max)
+**Power-end{DCL1100-220}
+**End-printers-entry{DCL1100}
+
+**Start-printers-entry{DCL1152}{PRINTER}{LN}
+**Def-lref{1} = ref{EK-DCL11-SV.B01}
+**Sys-name: DEClaser 1152
+**Desc-name: DEClaser 1152 Laser Printer
+![1]: 1152: 2MB-4MB RAM; two optional font carts
+![1]: interface: parallel + serial + LocalTalk
+**Resolution**lref{1}: 300 dpi
+**Print-speed**lref{1}: 8 pages/min
+**Sheet-capacity**lref{1}: 50 sheets
+**Dimensions-start{DCL1152}
+![1]: height is 259mm with optional paper feed unit and cassette installed
+**Height**lref{1}: 204mm
+**Width**lref{1}:  350mm
+**Depth**lref{1}:  405mm
+**Weight**lref{1}: 11.0kg
+**Dimensions-end{DCL1152}
+**Power-start{DCL1152-115}
+**Supply**lref{1}: 115V 1-phase
+**I-max**lref{1}:  4.8A
+**Power**lref{1}:  550W:(max)
+**Power-end{DCL1152-115}
+**Power-start{DCL1152-220}
+**Supply**lref{1}: 220V 1-phase
+**I-max**lref{1}:  2.5A
+**Power**lref{1}:  550W:(max)
+**Power-end{DCL1152-220}
+**End-printers-entry{DCL1152}
+
 **Start-printers-entry{LA100}{PRINTER}{LA}
 **Sys-name: LA100 Letterprinter
 **Def-lref{1} = ref{EK-LA100-RG-001}
@@ -199,62 +255,6 @@
 !		LN03:	ESC [ ? 2 6 ; 2 c
 ! ref_2: LN03 PLUS is LN03 with additional bitmap board -->
 **End-printers-entry{LN03}
-
-**Start-printers-entry{DCL1100}{PRINTER}{LN}
-**Def-lref{1} = ref{EK-DCL11-SV.B01}
-**Sys-name: DEClaser 1100
-**Desc-name: DEClaser 1100 Laser Printer
-![1]: 512KB-2.5MB RAM; two optional font carts
-![1]: interface: parallel + serial 
-**Resolution**lref{1}: 300 dpi
-**Print-speed**lref{1}: 8 pages/min
-**Sheet-capacity**lref{1}: 50 sheets
-**Dimensions-start{DCL1100}
-![1]: height is 259mm with optional paper feed unit and cassette installed
-**Height**lref{1}: 204mm
-**Width**lref{1}:  350mm
-**Depth**lref{1}:  405mm
-**Weight**lref{1}: 11.0kg
-**Dimensions-end{DCL1100}
-**Power-start{DCL1100-115}
-**Supply**lref{1}: 115V 1-phase
-**I-max**lref{1}:  4.8A
-**Power**lref{1}:  550W:(max)
-**Power-end{DCL1100-115}
-**Power-start{DCL1100-220}
-**Supply**lref{1}: 220V 1-phase
-**I-max**lref{1}:  2.5A
-**Power**lref{1}:  550W:(max)
-**Power-end{DCL1100-220}
-**End-printers-entry{DCL1100}
-
-**Start-printers-entry{DCL1152}{PRINTER}{LN}
-**Def-lref{1} = ref{EK-DCL11-SV.B01}
-**Sys-name: DEClaser 1152
-**Desc-name: DEClaser 1152 Laser Printer
-![1]: 1152: 2MB-4MB RAM; two optional font carts
-![1]: interface: parallel + serial + LocalTalk
-**Resolution**lref{1}: 300 dpi
-**Print-speed**lref{1}: 8 pages/min
-**Sheet-capacity**lref{1}: 50 sheets
-**Dimensions-start{DCL1152}
-![1]: height is 259mm with optional paper feed unit and cassette installed
-**Height**lref{1}: 204mm
-**Width**lref{1}:  350mm
-**Depth**lref{1}:  405mm
-**Weight**lref{1}: 11.0kg
-**Dimensions-end{DCL1152}
-**Power-start{DCL1152-115}
-**Supply**lref{1}: 115V 1-phase
-**I-max**lref{1}:  4.8A
-**Power**lref{1}:  550W:(max)
-**Power-end{DCL1152-115}
-**Power-start{DCL1152-220}
-**Supply**lref{1}: 220V 1-phase
-**I-max**lref{1}:  2.5A
-**Power**lref{1}:  550W:(max)
-**Power-end{DCL1152-220}
-**End-printers-entry{DCL1152}
 
 **Start-printers-entry{LN05}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-LN05X-SV-001}
