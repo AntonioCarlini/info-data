@@ -252,9 +252,12 @@
 **Desc-name: RA70 280MB Disk
 **Def-lref{1} = ref{SOC-SPR90}
 **Def-lref{2} = ref{EK-ORA7X-SM-002}
-**Capacity**htref{2}: 280MB
-**Form-factor: 5-1/4" full-height
-**Peak-transfer-rate**htref{1}: 1.4MB/s
+**Def-lref{3} = ref{CU-1991-11-08}
+**Capacity**vref{3}: 280MB
+**EOL**vref{3}: 28 March 1992
+**Last-ship**vref{3}: 27 June 1992
+**Form-factor**vref{3}: 5-1/4" full-height
+**Peak-transfer-rate**vref{3}: 1.4MB/s
 **Bytes-per-sector**htref{1}: 512	
 **Tracks-per-surface**htref{1}**htref{2}: 1507	
 **Areal-density**htref{1}: 38.4 Mb/sq inch	
@@ -268,10 +271,11 @@
 **Rotational-speed**htref{2}: 4000rpm	
 **Average-latency**htref{2}: 7.5ms
 **Head-switch-latency**htref{2}: 4.5ms	
-**Average-seek**htref{2}: 19.5ms
-**Average-access**htref{2}: 27.0ms
+**Average-seek**vref{3}: 19.5ms
+**Average-access**vref{3}: 27.0ms
 !**One-cylinder-seek**htref{2}: 5.5ms
 **Maximum-seek**htref{2}: 35ms
+**Interface**vref{3}: SDI
 **Power-start{RA70}
 **+5V-current**htref{1}: 3.30A
 **+12V-current**htref{1}: 2.9A
@@ -288,20 +292,23 @@
 **Start-storage-entry{RA71}{SDI}{RA}
 **Def-lref{1} = ref{EK-ORA7X-SM-002}
 **Def-lref{2} = ref{EK-RSA7X-PG-002}
+**Def-lref{3} = ref{CU-1991-11-08}
 **Sys-name: RA71
 **Desc-name: RA71 Winchster Disk
 **Location: storage/ra71.html
-**Announcement**uref{2}: 30 October 1991
+**Announcement**vref{2}: 30 October 1991
 **OS-support-VMS**htref{2}: V5.4-2
 **OS-support-ultrix**htref{2}: Ultrix V4.2
 **OS-support-eln**htref{2}: VAXELN V4.3
 **OS-support-cronic**htref{2}: {Cronic V4.1} {Cronic V6.0}
-**Capacity**htref{1}: 700MB
-**Form-factor**uref{116}: 5.25"
+**Capacity**vref{3}: 700MB
+**Form-factor**vref{3}: 5.25"
 !**Average-access**uref{[116]}: 20.8ms	
-**Average-access**htref{1}: 23.3ms
-**Average-seek**htref{1}: 12.5ms
+!**Average-access**htref{1}: 23.3ms
+**Average-access**vref{3}: 20.8ms	
+**Average-seek**vref{3}: 12.5ms
 **Average-latency**htref{1}: 8.3ms
+! **Peak-transfer-rate**vref{3}: 2.0MB/s	
 **Transfer-rate**uref{[116]}: 2.0MB/s	
 **I/O-throughput**uref{[SUE Sep 1992] but 116=>50}: {40.2 IO/s @ 50ms}{50.4 IO/s @ 100ms}
 **Num-media-surfaces**htref{1}: 14 data, 1 servo	
@@ -317,6 +324,7 @@
 **Head-switch-latency**htref{1}: 4.0ms
 !**One-cylinder-seek**htref{1}: 4.0ms
 **Maximum-seek**htref{1}: 27.0ms
+**Interface**vtref{3}: SDI
 **Power-start{RA71}
 **Power**uref{116}: 54W
 **Heat-dissipation**uref{116}: 193BTU/hr
@@ -332,21 +340,24 @@
 **Start-storage-entry{RA72}{SDI}{RA}
 **Def-lref{1} = ref{EK-ORA7X-SM-002}
 **Def-lref{2} = ref{EK-RSA7X-PG-002}
+**Def-lref{3} = ref{CU-1991-11-08}
 **Sys-name: RA72
 **Desc-name: RA72 Winchster Disk
 **Location: storage/ra72.html
-**Announcement**uref{2}: 30 October 1991
+**Announcement**vref{2}: 30 October 1991
 **OS-support-VMS**htref{2}: V5.4-2
 **OS-support-ultrix**htref{2}: Ultrix V4.2
 **OS-support-eln**htref{2}: VAXELN V4.3
 **OS-support-cronic**htref{2}: {Cronic V4.1} {Cronic V6.0}
-**Capacity**htref{1}: 1.0GB
-**Form-factor**uref{116}: 5.25"
-**Average-access**htref{1}: 23.3ms
+**Capacity**vref{3}: 1.0GB
+**Form-factor**vref{3}: 5.25"
+!**Average-access**htref{1}: 23.3ms
+**Average-access**vref{3}: 20.8ms
 !**Average-access**uref{[116]}: 20.8ms	
-**Average-seek**htref{1}: 12.5ms
+**Average-seek**vref{3}: 12.5ms
 **Average-latency**htref{1}: 8.3ms
-**Transfer-rate**uref{[116]}: 2.0MB/s	
+!**Transfer-rate**uref{[116]}: 2.0MB/s	
+**Peak-transfer-rate**vref{2}: 2.0MB/s	
 **I/O-throughput**uref{[SUE Sep 1992] but [116]=>50}: {40.3 IO/s @ 50ms}{50.5 IO/s @100ms}
 **Num-media-surfaces**htref{1}: 20 data, 1 servo	
 **Areal-density**uref{[116]}: 58.2Mbits/in	
@@ -361,6 +372,7 @@
 **Head-switch-latency**htref{1}: 4.0ms
 !**One-cylinder-seek**htref{1}: 4.0ms
 **Maximum-seek**htref{1}: 27.0ms
+**Interface**vtref{3}: SDI
 **Power-start{RA72}
 **Power**uref{[116]}: 54W:(typical)	
 **Heat-dissipation**uref{[116]}: 193BTU/hr	
@@ -487,8 +499,11 @@
 **Start-storage-entry{RA90}{SDI}{RA}
 **Def-lref{1} = ref{EK-ORA90-UG-002}
 **Def-lref{2} = ref{EK-ORA90-SV-003}
+**Def-lref{3} = ref{CU-1991-11-08}
 **Sys-name: RA90
 **Desc-name: RA90 Disk Drive
+**EOL**vref{3}: 28 March 1992
+**Last-ship**vref{3}: 27 June 1992
 **Capacity**htref{1}: 1.2GB	
 **Average-seek**htref{1}: 18.5ms	
 **Average-latency**htref{1}: 8.33ms	
@@ -530,12 +545,16 @@
 **Start-storage-entry{RA92}{SDI}{RA}
 **Def-lref{1} = ref{EK-ORA90-UG-002}
 **Def-lref{2} = ref{EK-ORA90-SV-003}
+**Def-lref{3} = ref{CU-1991-11-08}
 **Sys-name: RA92
 **Desc-name: RA92 Disk Drive
-**Capacity**htref{1}: 1.5GB	
-**Average-seek**htref{1}: 16ms	
+**Capacity**vref{3}: 1506MB
+!**Average-seek**htref{1}: 16ms	
+**Average-seek**vref{3}: 16.1ms	
+**Average-access**vref{3}: 24.8ms	
 **Average-latency**htref{1}: 8.81ms	
-**Peak-transfer-rate**htref{1}: 2.77MB/s	
+!**Peak-transfer-rate**htref{1}: 2.77MB/s	
+**Peak-transfer-rate**vref{3}: 2.8MB/s	
 **Track-track-seek**htref{1}: 3ms	
 **Maximum-seek**htref{1}: 29ms	
 **Bytes-per-sector: 512
@@ -961,14 +980,18 @@
 
 **Start-storage-entry{RF72}{DSSI}{RF}
 **Def-lref{1} = ref{EK-RF72D-SV-002}
+**Def-lref{2} = ref{CU-1991-11-08}
 **Sys-name: RF72
 **Desc-name: RF72 Integrated Storage Element
-**Capacity**htref{1}: 1.0GB
+**Capacity**vref{2}: 1.0GB
 ![1] states full-height
-**Form-factor**htref{1}: 5-1/4" full height
-**Average-seek**htref{1}: 13.3ms
-**Average-access**htref{1}: 21.6ms
-**Transfer-rate**htref{1}: 4.0 MB/s
+**Form-factor**vref{2}: 5-1/4" full height
+!**Average-seek**htref{1}: 13.3ms
+**Average-seek**vref{2}: 13.4ms
+!**Average-access**htref{1}: 21.6ms
+**Average-access**vref{2}: 21.7ms
+!**Transfer-rate**htref{1}: 4.0 MB/s
+**Peak-ransfer-rate**vref{2}: 2.0 MB/s
 **I/O-throughput: 45 IO/s @ 100ms
 **Read-ahead-cache: 128KB
 **Read-ahead-tracks: 4
@@ -984,6 +1007,7 @@
 **Sectors-per-track**htref{1}: 50 data, 1 replacement
 **Start-time**htref{1}: < 60s
 **Stop-time**htref{1}: < 15s
+**Interface**vref{2}: DSSI
 **Power-start{RF72}
 **+5V-current**htref{1}: 1.5A
 **+12V-current**htref{1}: 5.4A:peak
@@ -999,15 +1023,17 @@
 
 **Start-storage-entry{RF73}{DSSI}{RF}
 **Def-lref{1} = ref{EK-RF72D-SV-002}
+**Def-lref{2} = {CU-1991-10-30}
 **Sys-name: RF73
 **Desc-name: RF73 Integrated Storage Element
-**Announcement**uref{2}: 30 October 1991
+**Announcement**vref{2}: 30 October 1991
+**FCS**vref{2}: November 1991
 **Codename: Shamrock
-**OS-support-VMS**uref{81}: VMS V5.5
+**OS-support-VMS**vref{2}: VMS V5.5
 **OS-support-eln**uref{74}: VAXELN V4.3
-**Capacity**htref{1}: 2.0GB
+**Capacity**vref{2}: 2.0GB
 ![1] states full-height  uref{72,81,119} may have more
-**Form-factor**htref{1}: 5-1/4" full height
+**Form-factor**vref{2}: 5-1/4" full height
 ![1]: **Average-seek**uref{81,119}: 12ms-13ms
 **Average-seek**htref{1}: 12.9ms
 ![1]; **Average-access**uref{81,119}: 20.3ms-21.3ms
@@ -1015,7 +1041,7 @@
 **Transfer-rate**htref{1}: 4.0 MB/s
 **Spiral-transfer-rate**uref{119}: 2.0MB/s
 **I/O-throughput**uref{119}**uref{SUE Jul 1992}: {55 IO/s @ 150ms}{47 IO/s @ 100ms}
-**Read-ahead-cache**uref{81,SUE Jul 1992,119}: 512KB
+**Read-ahead-cache**ref{2}: 512KB
 **Read-ahead-tracks**uref{81,SUE Jul 1992,119}: 11
 **Num-platters**uref{SUE Jul 1992}:	 11
 **Servo-type**htref{1}: Fully embedded
@@ -1481,16 +1507,21 @@
 **Sys-name: RX26
 **Desc-name: RX26 Diskette Drive
 **Def-lref{1} = ref{EK-PM30E-RB-002}
-**Capacity**htref{1}: {2.8MB:ED}{1.2MB:HD}{720KB:DD}
-**Form-factor**htref{1}: 3-1/2" half height
+**Def-lref{2} = {CU-1991-10-30}
+**Def-lref{3} = {CU-1991-11-08}
+**OS-support-vms**vref{2}: VMS V5.4-3
+**Capacity**vref{2}: {2.8MB:ED}{1.2MB:HD}{720KB:DD}
+**Form-factor**vref{2}: 3-1/2" half height
 **Peak-transfer-rate**htref{1}:	{1.0MB/s:ED}{500KB/s:HD}{250KB/s:DD}
-**Average-latency**htref{1}: 100ms
+**Average-latency**vref{3}: 100ms
 **Average-seek**htref{1}: 15ms
 !!**Minimum-seek**htref{1}: 3ms
 **Sectors-per-track**htref{1}: {36:ED}{18:HD}{9:DD}
-**Track-density**htref{1}: 135tpi
+**Track-density**vref{3}: 135tpi
 **MFM-data-bit-rate**htref{1}: {1000kHz:ED}{500kHz:HD}{250kHz:DD}
 **Interface: SCSI
+**Media**vref{3}: Barium-ferrite, perpendicular
+**Recording-code**vref{3}: MFM
 **Power-start{RX26}
 **Power: 4.6W
 **Power-end{RX26}
@@ -1634,6 +1665,7 @@
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{EK-A0718-TI.B01}
 **Def-lref{3} = ref{EK-RZXXD-PS-005}
+**Def-lref{4} = {CU-1991-11-08}
 !! above lref{2} was lref{1} and should be re-checked
 **Announcement**uref{108}: April 1991
 **Capacity**htref{1}: 121.65MB
