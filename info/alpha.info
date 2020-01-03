@@ -26,7 +26,7 @@
 **Def-lref{9} = ref{Product-and-Service-Retirements-1995-02-07}
 **Codename: Jensen
 **OS-support-VMS: V1.5-1H1
-**OS-support-WNT**vref{8}: 3.1
+**OS-support-NT**vref{8}: 3.1
 **Num-proc**vref{5}: 1
 **Module**vref{5}: PB22H-KB
 **CPU-technology: CMOS
