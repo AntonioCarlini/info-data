@@ -173,8 +173,19 @@
 
 **Start-storage-entry{RWZ21}{SCSI}{OPTICAL}
 **Def-lref{1} = ref{EK-RWZ21-MG.001}
+**Def-lref{2} = ref{CU-1993-03-08}
 **Sys-name: RWZ21
 **Desc-name: RWZ21 Magneto-Optical Drive
-**Interface**htref{1}: SCSI
+**OS-Support-VMS**vref{2}: V5.5-1
+**OS-support-ULTRIX**vref{2}: V4.2A
+! MSDOS**vref{2}: 5.0  Infoserver**vref{2}: V2.0
+**Capacity**vref{2}: 128MB
+**Interface**vref{2}: SCSI
+**Dimensions-start{RZW21}
+**Height**vref{2}: 74mm
+**Width**vref{2}: 250mm
+**Depth**vref{2}: 285mm
+**Weight**vref{2}: 4.5kg
+**Dimensions-end{RZW21}
 **End-storage-entry{RWZ21}
 
