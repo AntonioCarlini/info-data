@@ -2606,6 +2606,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Sys-name: VAXstation 3520/3540
 **def-lref{1} = ref{EK-258AA-MG-003}
 **def-lref{2} = ref{OVMS-REL-HIST-20100621}
+**def-lref{3} = ref{CU-1991-11-29}
 **document=doc{DEC:EK-258AA-AD-001} ! VAXstation 3520/3540 Maintenance Guide Addendum
 **document=doc{DEC:EK-258AA-MG-003} ! VAXstation 3520/3540 and 3820/3840 Maintenance Guide
 **document=doc{DEC:EK-333AA-AD-001} ! VAXstation 3520/3540 DWFQA (Q-bus Adapter) Module Addendum
@@ -2621,6 +2622,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:firefox_qbusAdapter_Dec87} ! Firefox Workstation Q-Bus Adapter Module Functional Specification
 **Announcement**uref{*102}: 10 January 1989
 **Codename**uref{*47}: Firefox
+**Last-order**vref{3}: 20 November 1991
+**Last-ship**vref{3}: 31 March 1992
 !**OS-support-VMS**uref{*26}: V5.1-1
 **OS-support-VMS**vref{2}: V5.1-1
 **CPU-module**vref{1}: KA60-AA
