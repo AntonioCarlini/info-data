@@ -1,3 +1,8 @@
+! CU-1991-09-06: PCXCV 14-inch diagonal measured VGA-compatible
+! CU-1991-09-06: 
+! CU-1991-09-06: 
+! CU-1991-09-06: 
+! CU-1991-09-06: 
 **Start-monitors-entry{VR150}{MONITOR}{VR}
 **Sys-name: VR150 15" Monochrome Monitor
 **Def-lref{1} = ref{EK-302AB-OG-002}
