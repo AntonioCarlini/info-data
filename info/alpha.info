@@ -436,18 +436,21 @@
 **Start-systems-entry{DEC3800}{ALPHA}{DEC3000}
 **Sys-name: DEC 3000 Model 800/800S
 **Def-lref{1} = ref{EK-FLMUL-OG.B01}
+**Def-lref{2} = ref{ASCC-1994-03}
 **Codename: Flamingo II
 **OS-support-VMS: V1.5-1H1
 **CPU-module: KN17-AA
 **CPU-name-vms: KN17-AA
 **CPU-name-console: KN17-AA
-**Num-proc: 1
+**Num-proc**vref{2}: 1
 **CPU-technology: CMOS
 **CPU-chip**vref{1}: DECchip 21064
-**Cache**vref{1}: 8KB-I/8KB-D
-**Backup-cache**vref{1}: 2MB
+**Cache**vref{1,2}: 8KB-I/8KB-D
+**Backup-cache**vref{1,2}: 2MB
 **Minimum-memory**vref{1}: 32MB
-**Maximum-memory**vref{1}: 1GB
+**Maximum-memory**vref{1,2}: 1GB
+**SPECint92**vref{2}: 99.3
+**SPECfp92**vref{2}: 187.2
 **BUS-SCSI**vref{1}: 2 (SCSI-2)
 **LAN-support**vref{1}: 1 (10BASE-T/AUI)
 **Power-start{DEC3800}
@@ -506,17 +509,20 @@
 **Start-systems-entry{DEC4600}{ALPHA}{DEC4000}
 **Sys-name: DEC 4000 Model 610/620
 **Def-lref{1} = ref{EC-H2315-46}
+**Def-lref{2} = ref{ASCC-1994-03}
 **Codename: Cobra
 **OS-support-VMS: V1.0
 **Module: B2001-BA
 **Num-proc**vref{1}: 1-2
 **CPU-chip**vref{1}: DECchip 21064
-**CPU-clock**vref{1}: 160MHz
-**Cache**vref{1}: 8KB-I/8KB-D
-**Backup-cache**vref{1}: 1MB
+**CPU-clock**vref{1,2}: 160MHz
+**Cache**vref{1,2}: 8KB-I/8KB-D
+**Backup-cache**vref{1,2}: 1MB
 **Minimum-memory**vref{1}: 64MB
-**Maximum-memory**vref{1}: 2GB
+**Maximum-memory**vref{1,2}: 2GB
 **Memory-checking**vref{1}: ECC
+**SPECint92**vref{2}: 83.5
+**SPECfp92**vref{2}: 143.1
 **Max-I/O-throughput**vref{1}: {160MB/s:peak}{100MB/s:sustained}
 **BUS-SCSI**vref{1}: 4 @ 10MB/s
 **BUS-FB**vref{1}: 6 slots @ 160MB/s
@@ -551,8 +557,15 @@
 **End-systems-entry{DEC4600}
 
 **Start-systems-entry{DEC4700}{ALPHA}{DEC4000}
+**Def-lref{1} = ref{ASCC-1994-03}
 **Sys-name: DEC 4000 Model 710/720
 **OS-support-vms: OpenVMS V1.5
+**CPU-clock**vref{1}: 190MHz
+**Cache**vref{1}: 8KB-I/8KB-D
+**Backup-cache**vref{1}: 4MB
+**Maximum-memory**vref{1}: 2GB
+**SPECint92**vref{1}: 94.0
+**SPECfp92**vref{1}: 188.4
 **End-systems-entry{DEC4700}
 
 ! Alternate data available but is this for DEC 7000-600??
@@ -563,12 +576,17 @@
 ! Data also available for DEC 10000
 
 **Start-systems-entry{DEC7600}{ALPHA}{DEC7000}
+**Def-lref{1} = ref{ASCC-1994-03}
 **Sys-name: DEC 7000 Model 600 series
-**Num-proc**uref{2}: 1-6
+**Num-proc**vref{1}: 1-6
 ! Originally shipped with 182MHz. 200MHz was for DEC 10000 systems. Then became available for DEC 7000-600 systems.
-**CPU-clock**uref{2}: 200MHz
+**CPU-clock**vref{1}: 200MHz
 **CPU-technology: CMOS
-**Maximum-memory: 4GB (only 3.5GB used)
+**Cache**vref{1}: 8KB-I/8KB-D
+**Backup-cache**vref{1}: 4MB
+**Maximum-memory**vref{1}: 14GB
+**SPECint92**vref{1}: 104.3 (DEC 7610)
+**SPECfp92**vref{1}: 200.5 (DEC7610)
 **End-systems-entry{DEC7600}
 
 **Start-systems-entry{DEC7700}{ALPHA}{DEC7000}
