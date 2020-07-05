@@ -411,9 +411,9 @@
 **Sys-name: PCXCV
 **Desc-name: PCXCV 14" Colour Monitor
 **Def-lref{1} = ref{CU-1991-09-06}
-**Processor**vref{1}: TMS34020
-**Resolution**vref{1}: 1280 x 1024, 1024 x 768, and 1024 x 864
-**Colours**vref{1}: Up to 256 colors, from a palette of 1.6 million
+**Display-size**vref{1}: 14"
+**Resolution**verf{1}: 640 x 480 VGA
+**OEM**vref{1}: Philips
 **End-storage-entry{PCXCV}
 
 **Stop-processing

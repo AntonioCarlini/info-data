@@ -623,3 +623,40 @@
 **Weight**htref{1}: 4.5kg
 **Dimensions-end{LB150-R}
 **End-comms-entry{LB150}
+
+
+**Start-comms-entry{DF124-CA}{MODEM}
+**Def-lref{1} = ref{CU-1991-09-06}
+! ref{CU-1991-09-06} also mentions the DF124-CM
+**Sys-name: DF124-CA SCHOLAR PLUS Modem
+**Last-order-date**vref{1}: 1991-06-29
+**End-comms-entry{DF124-CA}
+
+**Start-comms-entry{DF129-AA}{MODEM}
+**Def-lref{1} = ref{CU-1991-09-06}
+! ref{CU-1991-09-06} also mentions the DF129-AM
+! from [1]:
+! The DF129 modems operate at 9600 bits per second. They provide synchronous, 
+! full-duplex, point-to-point communications over unconditioned, 4-wire, 
+! voice-grade leased lines.
+
+**Sys-name: DF129-AA Modem
+**Last-order-date**vref{1}: 1991-09-28
+**Speed**vref{1}: 9600 bps
+**End-comms-entry{DF129-AA}
+
+**Start-comms-entry{DF224-AA}{MODEM}
+**Def-lref{1} = ref{CU-1991-09-06}
+! from [1]
+! The DF224-AA Scholar modem is a full-duplex modem operating at 2400 bits per 
+! second in either synchronous or asynchronous mode over dial-up lines. 
+**Sys-name: DF224-AA Scholar Modem
+**Last-order-date**vref{1}: 1991-09-28
+**Speed**vref{1}: 2400 bps
+**End-comms-entry{DF224-AA}
+
+**Start-comms-entry{DF242-CA}{MODEM}
+**Def-lref{1} = ref{CU-1991-09-06}
+! [1] mentions this as a replacement for the DF224-AA
+**Sys-name: DF242-CA Scholar Plus  Modem
+**End-comms-entry{DF242-CA}

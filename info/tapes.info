@@ -1,3 +1,12 @@
+**Start-storage-entry{PCXAT-A*}{TAPE}{PC}
+**Sys-name: PCXAT-A*
+**Desc-name: PCXAT-A* Cartridge Tape Drive
+**Def-lref{1} = ref{CU-1991-09-06}
+**Capacity**vref{1}: 525MB
+**Sustained-transfer-rate**vref{1}: 200KB/s
+**Peak-transfer-rate**htref{1}: 3MB/s:(asynchronous)
+**End-storage-entry{PCXAT-A*}
+
 ! Intended for tape storage devices of all sorts
 **Start-storage-entry{TA90}{STI}{TA}
 **Sys-name: TA90
@@ -39,6 +48,7 @@
 
 **Start-storage-entry{TF837}{DSSI}{TF}
 **Def-lref{1} = ref{EK-TF837-SM-001}
+**Def-lref{2} = ref{CU-1991-09-06}
 **Sys-name: TF837
 **Desc-name: TF837 Magazine Tape Subsystem
 !
@@ -52,6 +62,8 @@
 ![1] Note that the tape drive writes only 296MB per cart
 **Capacity**htref{1}: 2GB
 **OS-support-VMS**htref{1}: V5.4
+**Last-order**vref{2}: 1991-07-25
+**Last-ship**vref{2}: 1991-08-15
 **Max-data-transfer-speed**uref{58}: 90KB/s:(user-data)
 **Media**htref{1}: Up to 7 TK-52 cartridges per magazine
 **Interface**htref{1}: DSSI
@@ -86,6 +98,7 @@
 **End-storage-entry{TF85}
 
 **Start-storage-entry{TF857}{DSSI}{TF}
+**Def-lref{1} = ref{CU-1991-09-06}
 **Sys-name: TF857
 **Desc-name: TF857 Magazine Tape Subsystem
 !The TF857 tape subsystem is an upgraded version of the TF837 using a new
@@ -102,6 +115,7 @@
 !% Streaming drive, uses two tracks at a time serial serpentine recording.
 !% TK70 and TZK10 are single track.
 !
+**Announcement**vref{1}: 1991-03-11
 **Capacity**uref{60}: 18.2GB
 **Cache**uref{60}: 500KB
 **Read/write-speed**uref{121}: 100 in/s:(streaming)

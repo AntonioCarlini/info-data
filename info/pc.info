@@ -1,3 +1,9 @@
+**Start-systems-entry{PC433WS}{DECPC}{PC433WS}
+**Def-lref{1} = ref{CU-1991-09-06}
+**Sys-name: DECpc 433 Workstation
+**Announcement**vref{1}: 1991-05
+**End-systems-entry{PC433WS}
+
 **Start-systems-entry{PC5510}{DECPC}{PC5000}
 **Sys-name: DIGITAL PC 5510
 **Codename: Ferrari

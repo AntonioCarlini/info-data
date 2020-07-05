@@ -191,14 +191,25 @@
 **Interface**vref{1}: SCSI
 **End-storage-entry{PCXAR-AB}
 
-**Start-storage-entry{PCXAT-A*}{TAPE}{PC}
-**Sys-name: PCXAT-A*
-**Desc-name: PCXAT-A* Cartridge Tape Drive
+**Start-storage-entry{PCXBR-AA}{SCSI}{PC}
 **Def-lref{1} = ref{CU-1991-09-06}
-**Capacity**lref{1}: 525MB
-**Sustained-transfer-rate**lref{1}: 200KB/s
-**Peak-transfer-rate**htref{1}: 3MB/s:(asynchronous)
-**End-storage-entry{PCXAT-A*}
+**Sys-name: PCXBR-AA
+**Desc-name: PCXBR-AA 650B SCSI Disk
+**Capacity**vref{1}: 650MB
+**Form-factor**vref{1}: 5.25"
+**Buffer-size**vref{1}: 64KB
+**Interface**vref{1}: SCSI
+**End-storage-entry{PCXBR-AA}
+
+**Start-storage-entry{PCXBR-BB}{SCSI}{PC}
+**Def-lref{1} = ref{CU-1991-09-06}
+**Sys-name: PCXBR-BB
+**Desc-name: PCXBR-BB 1GB SCSI Disk
+**Capacity**vref{1}: 1MB
+**Form-factor**vref{1}: 5.25"
+**Buffer-size**vref{1}: 256KB
+**Interface**vref{1}: SCSI
+**End-storage-entry{PCXBR-BB}
 
 **Start-storage-entry{PCWXR-CA}{IDE}{PC}
 **Sys-name: PCWXR-CA
