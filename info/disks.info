@@ -273,7 +273,7 @@
 **Tracks-per-surface**htref{1}**htref{2}: 1507	
 **Areal-density**htref{1}: 38.4 Mb/sq inch	
 **Num-media-surfaces**htref{2}: 11 data, 1 servo	
-**Interface**htref{1}: SDI	
+**Interface**vref{3}: SDI	
 **Media-type**htref{2}: Thin Film
 **Num-heads**htref{2}: 12
 **Sectors-per-track**htref{2}: 33 + 1 spare	
@@ -307,20 +307,17 @@
 **Sys-name: RA71
 **Desc-name: RA71 Winchster Disk
 **Location: storage/ra71.html
-**Announcement**vref{2}: 30 October 1991
+**Announcement**vref{3}: 1991-11-08
 **OS-support-VMS**htref{2}: V5.4-2
 **OS-support-ultrix**htref{2}: Ultrix V4.2
 **OS-support-eln**htref{2}: VAXELN V4.3
 **OS-support-cronic**htref{2}: {Cronic V4.1} {Cronic V6.0}
 **Capacity**vref{3}: 700MB
 **Form-factor**vref{3}: 5.25"
-!**Average-access**uref{[116]}: 20.8ms	
-!**Average-access**htref{1}: 23.3ms
 **Average-access**vref{3}: 20.8ms	
 **Average-seek**vref{3}: 12.5ms
 **Average-latency**htref{1}: 8.3ms
-! **Peak-transfer-rate**vref{3}: 2.0MB/s	
-**Transfer-rate**uref{[116]}: 2.0MB/s	
+**Peak-transfer-rate**vref{3}: 2.0MB/s	
 **I/O-throughput**uref{[SUE Sep 1992] but 116=>50}: {40.2 IO/s @ 50ms}{50.4 IO/s @ 100ms}
 **Num-media-surfaces**htref{1}: 14 data, 1 servo	
 **Areal-density**uref{[116]}: 58.2Mbits/in	
@@ -355,19 +352,16 @@
 **Sys-name: RA72
 **Desc-name: RA72 Winchster Disk
 **Location: storage/ra72.html
-**Announcement**vref{2}: 30 October 1991
+**Announcement**vref{3}: 1991-11-08
 **OS-support-VMS**htref{2}: V5.4-2
 **OS-support-ultrix**htref{2}: Ultrix V4.2
 **OS-support-eln**htref{2}: VAXELN V4.3
 **OS-support-cronic**htref{2}: {Cronic V4.1} {Cronic V6.0}
 **Capacity**vref{3}: 1.0GB
 **Form-factor**vref{3}: 5.25"
-!**Average-access**htref{1}: 23.3ms
 **Average-access**vref{3}: 20.8ms
-!**Average-access**uref{[116]}: 20.8ms	
 **Average-seek**vref{3}: 12.5ms
 **Average-latency**htref{1}: 8.3ms
-!**Transfer-rate**uref{[116]}: 2.0MB/s	
 **Peak-transfer-rate**vref{2}: 2.0MB/s	
 **I/O-throughput**uref{[SUE Sep 1992] but [116]=>50}: {40.3 IO/s @ 50ms}{50.5 IO/s @100ms}
 **Num-media-surfaces**htref{1}: 20 data, 1 servo	
@@ -515,10 +509,11 @@
 **Desc-name: RA90 Disk Drive
 **EOL**vref{3}: 28 March 1992
 **Last-ship**vref{3}: 27 June 1992
-**Capacity**htref{1}: 1.2GB	
-**Average-seek**htref{1}: 18.5ms	
+**Capacity**vref{3}: 1.216GB	
+**Average-seek**vref{3}: 18.5ms
+**Average-access**vref{3}: 26.8ms	
 **Average-latency**htref{1}: 8.33ms	
-**Peak-transfer-rate**htref{1}: 2.77MB/s	
+**Peak-transfer-rate**vref{3}: 2.8MB/s	
 **Track-track-seek**htref{1}: 5.5ms	
 **Maximum-seek**htref{1}**htref{2}: 31.5ms	
 **Bytes-per-sector: 512
@@ -529,7 +524,7 @@
 **Rotational-speed**htref{1}: 3600rpm	
 **Servo-type**htref{1}: Dedicated and embedded	
 !**One-cylinder-seek**htref{2}: 5.5ms
-**Interface: SDI
+**Interface**vref{3}: SDI
 **Start-time**htref{1}: 40s	
 **Dimensions-start{RA90}
 **Height**htref{1}: 265.6mm	
@@ -560,11 +555,10 @@
 **Sys-name: RA92
 **Desc-name: RA92 Disk Drive
 **Capacity**vref{3}: 1506MB
-!**Average-seek**htref{1}: 16ms	
+**Form-factor**vref{3}: 9"
 **Average-seek**vref{3}: 16.1ms	
 **Average-access**vref{3}: 24.8ms	
 **Average-latency**htref{1}: 8.81ms	
-!**Peak-transfer-rate**htref{1}: 2.77MB/s	
 **Peak-transfer-rate**vref{3}: 2.8MB/s	
 **Track-track-seek**htref{1}: 3ms	
 **Maximum-seek**htref{1}: 29ms	
@@ -580,7 +574,7 @@
 **Num-media-surfaces**htref{1}: 6 data, 4 protective	
 **Rotational-speed**htref{1}: 3405rpm	
 **Servo-type**htref{1}: Dedicated and embedded	
-**Interface: SDI
+**Interface**vref{3}: SDI
 **Start-time**htref{1}: 40s	
 **Dimensions-start{RA92}
 **Height**htref{1}: 265.6mm	
@@ -810,24 +804,21 @@
 **Start-storage-entry{RF31}{DSSI}{RF}
 **Def-lref{1} = ref{EK-RF72D-UG-003}
 **Def-lref{2} = ref{EK-RF72D-SV-002}
+**Def-lref{3} = ref{CU-1991-11-08}
 **Sys-name: RF31
 **Desc-name: RF31 Integrated Storage Element
 !-- VMS V5.3 onwards *58 -->
 **Last-order**uref{*SUE Jul 1992}: 30 Sept 1992
 **Last-ship**uref{*SUE Jul 1992}: 31 Dec 1992
-**Capacity**htref{1}: 381 MB
-**Form-factor**htref{1}: 5-1/4" half-height
-**Average-access**htref{1}: 23.6ms
-**Average-seek**htref{1}: 15.3ms
-!!?**Variant-start{HISPEED mode}
-!!?**Average-access**uref{*57}: 20.9ms
-!!?**Average-access**uref{*57}: 12.6ms
-!!?**Variant-end{HISPEED mode}
-**Peak-transfer-rate**htref{1}: 4.0MB/s
+**Capacity**vref{3}: 381 MB
+**Form-factor**vref{3}: 5-1/4" half-height
+**Average-access**vref{3}: 23.6ms
+**Average-seek**vref{3}: 15.3ms
+**Transfer-rate**vref{3}: 2.0MB/s
 **I/O-throughput**uref{*57,*59}: {45 IO/s @ 150ms}
 !!?**I/O-throughput**uref{*SUE Jul 1992}: {41 IO/s @ 100ms}
-**Read-ahead-cache**uref{*SUE Jul 1992}: 128KB
-**Read-ahead-tracks**uref{*SUE Jul 1992}: 4
+**Read-ahead-cache**vref{3}: 128KB
+**Read-ahead-tracks**vref{3}: 4
 **Error-correction**htref{1}: 264-bit ECC
 **Data-tracks-per-surface**htref{2}: 1861
 **Sectors-per-track**htref{1}: 50 data, 1 replacement
@@ -835,10 +826,11 @@
 **Track-density**htref{1}: 1875tpi
 ! [2] has **Recording-density**htref{1}: 30064 bpi
 **Recording-density**htref{1}: 30520 bpi
-**Num-platters: 4
-**Head-type**uref{*SUE Jul 1992}: MIG
-**Areal-density**htref{1}: 57.35Mb/sq in
-**Media-type**htref{1}: Thin film
+**Num-platters**vref{3}: 4
+**Areal-density**vref{3}: 56.4 Mb/sq in
+**Media-type**vref{3}: Thin film
+**Head-type**vref{3}: MIG
+**Interface**vref{3}: DSSI
 **Rotational-speed**htref{2}: 3600rpm
 **Servo-type**htref{1}: Fully embedded
 **Start-time**htref{1}: < 60s
@@ -848,7 +840,7 @@
 **Power-start{RF31}
 **+5V-current**htref{2}: 1.2A
 **+12V-current**htref{2}: 3.0A:peak
-**Power**htref{2}: 18.7W:typical
+**Power**vref{3}: 18.7W:typical
 **Power-end{RF31}
 !-- *75: 1.2Amax@5V, @12V: 3.0Apeak(3s of spin up), 0.7A max(idle) -->
 !--      1.3Amax(continuous random seeks). 12.6W typical (idle), 18.7W typical -->
@@ -863,30 +855,37 @@
 
 **Start-storage-entry{RF31F}{DSSI}{RF}
 **Def-lref{1} = ref{EK-RF72D-SV-002}
+**Def-lref{2} = ref{CU-1991-11-08}
 **Sys-name: RF31F
 **Desc-name: RF31F Integrated Storage Element
 **Last-order**uref{SUE Jul 1992}: 30 Sept 1992
 **Last-ship**uref{SUE Jul 1992}: 31 Dec 1992
 **OS-support-eln**uref{74}: VAXELN V4.3
-**Capacity**htref{1}: 200 MB
-**Form-factor**htref{1}: 5-1/4" full-height
-**Average-access**htref{1}: 20.5ms
-**Average-seek**htref{1}: 12.2ms
-**Peak-transfer-rate**htref{1}: 4.0MB/s
+**Capacity**vref{2}: 200 MB
+**Form-factor**vref{2}: 5-1/4" full-height
+**Average-access**vref{2}: 20.5ms
+**Average-seek**vref{2}: 12.2ms
+**Transfer-rate**vref{2}: 2.0MB/s
+**Read-ahead-cache**vref{2}: 128KB
+**Read-ahead-tracks**vref{2}: 4
 **Error-correction**uref{58}: 264-bit ECC
 **Servo-type**htref{1}: Fully embedded
 **Rotational-speed**htref{1}: 3600rpm
 **Track-density**htref{1}: 1875tpi
-**Areal-density**htref{1}: 57.35Mb/sq in
+**Areal-density**vref{2}: 56.4Mb/sq in
 **Recording-density**htref{1}: 30064 bpi
 **Data-tracks-per-surface**htref{1}: 984
 **Sectors-per-track**htref{1}: 50 data, 1 replacement
+**Media-type**vref{2}: Thin film
+**Head-type**vref{2}: MIG
+**Interface**vref{2}: DSSI
+**Num-platters**vref{2}: 4
 **Start-time**htref{1}: < 60s
 **Stop-time**htref{1}: < 15s
 **Power-start{RF31F}
 **+5V-current**htref{1}: 1.2A
 **+12V-current**htref{1}: 3.0A:peak
-**Power**htref{1}: 18.7W:typical
+**Power**vref{2}: 18.7W:typical
 **Power-end{RF31F}
 **Dimensions-start{RF31F}
 **Label: RF31F Drive
@@ -995,25 +994,21 @@
 **Sys-name: RF72
 **Desc-name: RF72 Integrated Storage Element
 **Capacity**vref{2}: 1.0GB
-![1] states full-height
 **Form-factor**vref{2}: 5-1/4" full height
-!**Average-seek**htref{1}: 13.3ms
 **Average-seek**vref{2}: 13.4ms
-!**Average-access**htref{1}: 21.6ms
 **Average-access**vref{2}: 21.7ms
-!**Transfer-rate**htref{1}: 4.0 MB/s
 **Peak-ransfer-rate**vref{2}: 2.0 MB/s
 **I/O-throughput: 45 IO/s @ 100ms
-**Read-ahead-cache: 128KB
-**Read-ahead-tracks: 4
-**Num-platters:	 11
-**Media-type: Thin Film
-**Head-type: MIG
+**Read-ahead-cache**vref{2}: 128KB
+**Read-ahead-tracks**vref{2}: 4
+**Num-platters**vref{2}: 11
+**Media-type**vref{2}: Thin Film
+**Head-type**vref{2}: MIG
 **Servo-type**htref{1}: Fully embedded
 **Rotational-speed**htref{1}: 3600rpm
 **Track-density**htref{1}: 1875tpi
 **Recording-density**htref{1}: 30064 bpi
-**Areal-density**htref{1}: 57.35 Mb/sq in
+**Areal-density**vref{2}: 56.4 Mb/sq in
 **Data-tracks-per-surface**htref{1}: 1861
 **Sectors-per-track**htref{1}: 50 data, 1 replacement
 **Start-time**htref{1}: < 60s
@@ -1022,7 +1017,7 @@
 **Power-start{RF72}
 **+5V-current**htref{1}: 1.5A
 **+12V-current**htref{1}: 5.4A:peak
-**Power**htref{1}: 24.5W:typical
+**Power**vref{2}: 23W:typical
 **Power-end{RF72}
 **Dimensions-start{RF72}
 **Label: RF72 Drive
@@ -1034,38 +1029,38 @@
 
 **Start-storage-entry{RF73}{DSSI}{RF}
 **Def-lref{1} = ref{EK-RF72D-SV-002}
-**Def-lref{2} = {CU-1991-10-30}
+**Def-lref{2} = {CU-1991-11-08}
 **Sys-name: RF73
 **Desc-name: RF73 Integrated Storage Element
-**Announcement**vref{2}: 30 October 1991
+**Announcement**vref{2}: 1991-11-08
 **FCS**vref{2}: November 1991
+**Processor**vref{2}: 68020
 **Codename: Shamrock
 **OS-support-VMS**vref{2}: VMS V5.5
 **OS-support-eln**uref{74}: VAXELN V4.3
 **Capacity**vref{2}: 2.0GB
-![1] states full-height  uref{72,81,119} may have more
 **Form-factor**vref{2}: 5-1/4" full height
-![1]: **Average-seek**uref{81,119}: 12ms-13ms
-**Average-seek**htref{1}: 12.9ms
-![1]; **Average-access**uref{81,119}: 20.3ms-21.3ms
-**Average-access**htref{1}: 21.2ms
-**Transfer-rate**htref{1}: 4.0 MB/s
+**Average-seek**vref{2}: 12.5ms
+**Average-access**vref{2}: 20.8ms
+**Transfer-rate**vref{2}: 2.7 MB/s
 **Spiral-transfer-rate**uref{119}: 2.0MB/s
 **I/O-throughput**uref{119}**uref{SUE Jul 1992}: {55 IO/s @ 150ms}{47 IO/s @ 100ms}
-**Read-ahead-cache**ref{2}: 512KB
-**Read-ahead-tracks**uref{81,SUE Jul 1992,119}: 11
-**Num-platters**uref{SUE Jul 1992}:	 11
+**Read-ahead-cache**vref{2}: 512KB
+**Read-ahead-tracks**vref{2}: 11
+**Num-platters**vref{2}: 11
 **Servo-type**htref{1}: Fully embedded
 **Rotational-speed**htref{1}: 3600rpm
 **Track-density**htref{1}: 2432 tpi
 **Recording-density**htref{1}: 43880 bpi
-**Areal-density**htref{1}: 106.72 Mb/sq in
+**Areal-density**vref{2}: 107 Mb/sq in
 **Data-tracks-per-surface**htref{1}: 2620
 **Sectors-per-track**htref{1}: 71 data, 1 replacement
+**Media-type**vref{2}: Thin Film
+**Interface**vref{2}: DSSI
 **Start-time**htref{1}: < 60s
 **Stop-time**htref{1}: < 15s
 **Power-start{RF73}
-**Power**htref{1}: 22.9W:(typical)
+**Power**vref{2}: 23W (typical)
 **+5V-current**htref{1}: 1.2A
 **+12V-current**htref{1}: 5.0A:typical
 **Power-end{RF73}
@@ -1484,11 +1479,14 @@
 **Sys-name: RX23
 **Desc-name: RX23 Diskette Drive
 **Def-lref{1} = ref{EK-PM32C-OG-002}
-**Capacity**htref{1}: {1.44MB:HD}{720KB:DD}
+**Def-lref{2} = {CU-1991-10-30}
+**Capacity**vref{2}: {1.44MB:HD}{720KB:DD}
 ! [110]: R/O 720KB -->
-**Form-factor**htref{1}: 3.5" half height
-**Peak-transfer-rate**htref{1}: {500KB/s:HD}{250KB/s:DD}
-**Average-access**uref{110}: 194ms
+!**Form-factor**htref{1}: 3.5" half height
+**Form-factor**vref{2}: 3.5"
+!**Peak-transfer-rate**htref{1}: {500KB/s:HD}{250KB/s:DD}
+**Peak-transfer-rate**vref{2}: 500KB/s
+**Average-access**vref{2}: 195ms
 **Sectors-per-track**htref{1}: {18:HD}{9:DD}
 **Num-heads**htref{1}: 2
 !!**Tracks**htref{1}: 80
@@ -1523,9 +1521,10 @@
 **OS-support-vms**vref{2}: VMS V5.4-3
 **Capacity**vref{2}: {2.8MB:ED}{1.2MB:HD}{720KB:DD}
 **Form-factor**vref{2}: 3-1/2" half height
+! [2]
 **Peak-transfer-rate**htref{1}:	{1.0MB/s:ED}{500KB/s:HD}{250KB/s:DD}
 **Average-latency**vref{3}: 100ms
-**Average-seek**htref{1}: 15ms
+**Average-seek**vref{3}: < 95ms
 !!**Minimum-seek**htref{1}: 3ms
 **Sectors-per-track**htref{1}: {36:ED}{18:HD}{9:DD}
 **Track-density**vref{3}: 135tpi
@@ -1548,10 +1547,13 @@
 **Sys-name: RX33
 **Desc-name: RX33 Diskette Drive
 **Def-lref{1} = ref{EK-MVXAA-OM-001}
+**Def-lref{2} = {CU-1991-10-30}
 **Capacity**htref{1}: {1.2MB:RX33K media}{400KB:RX50K media}
-**Form-factor**uref{*10,*58,*17}: 5.25" half height
-**Peak-transfer-rate: 500k bit/s
-**Average-access**uref{*110}: {178ms:RX33K media}{195ms:RX50K media}
+!**Form-factor**uref{*10,*58,*17}: 5.25" half height
+**Form-factor**vref{2}: 5.25"
+**Peak-transfer-rate**vref{2}: 500k bit/s
+!**Average-access**uref{*110}: {178ms:RX33K media}{195ms:RX50K media}
+**Average-access**vref{2}: 178ms
 **Average-latency: 83ms
 **Average-seek: 92ms
 **Sectors-per-track**htref{1}: {15:RX33K media}{10:RX50K media}
@@ -1679,22 +1681,23 @@
 **Def-lref{4} = {CU-1991-11-08}
 !! above lref{2} was lref{1} and should be re-checked
 **Announcement**uref{108}: April 1991
-**Capacity**htref{1}: 121.65MB
+**Capacity**vref{3}: 121MB
 **Form-factor**htref{3}: 3-1/2" half-height
 **OS-support-ultrix**uref{62}: Ultrix V4.1
-**Peak-transfer-rate**htref{1}:{3.0MB/s:(asynch)}{4.0MB/s:(synch)}{1.5MB/s:(to/from media)}
-**Average-access: 26.8ms
+**Peak-transfer-rate**vref{4}:{3.0MB/s:(asynch)}{4.0MB/s:(synch)}{1.5MB/s:(to/from media)}
+**Average-access**vref{4}: 27ms
 **Average-latency: 8.8ms
-**Average-seek: 19ms
+**Average-seek**vref{4}: 19ms
 **Track-track-seek**htref{1}: 8ms
 **Maximum-seek**htref{1}: 35ms ! 103=> 45ms -->
-**Buffer-size**htref{2}: 64KB
+**Buffer-size**vref{4}: 64KB
 **Bytes-per-sector**uref{103}: 512
 **Sectors-per-track**uref{103}: 33
 **Track-density**htref{2}: 1850tpi
 **Recording-density**htref{2}: 36250 bpi
 **Areal-density**htref{2}: 67.06 MB/sq inch
 **Recording-mode**htref{2}: Continuous frequency
+**Rotational-speed**vref{4}: 3500
 **Interface**htref{1}: SCSI
 **Power-start{RZ23L}
 **Power**htref{2}: 4.3W (seeking)
@@ -1715,22 +1718,23 @@
 **Def-lref{2} = ref{EK-A0718-TI.B01}
 **Def-lref{3} = ref{EK-VSM30-OM-002}
 **Def-lref{4} = ref{EK-RZXXD-PS-005}
-**Capacity**htref{1}: 209.7MB
+**Def-lref{5} = {CU-1991-11-08}
+**Capacity**vref{5}: 209MB
 **Form-factor**htref{4}: 3-1/2" half-height
-**Peak-transfer-rate: {3.0MB/s:(asynch)}{4.0MB/s:(synch)}{1.5MB/s:(to/from media)}
-**Average-access**htref{2}: 24.6ms
+**Peak-transfer-rate**vref{5}: {3.0MB/s:(asynch)}{4.0MB/s:(synch)}{1.5MB/s:(to/from media)}
+**Average-access**vref{5}: 24.6ms
 **Average-latency**htref{1}: 8.3ms
-**Average-seek**htref{1}: 16ms
+**Average-seek**vref{5}: 16ms
 **Track-track-seek**htref{1}: 5ms
 **Maximum-seek**htref{1}: 35ms
-**Buffer-size**htref{2}: 64KB
+**Buffer-size**vref{5}: 64KB
 **Bytes-per-sector**htref{3}: 512
 **Sectors-per-track**htref{3}: 38
 **Track-density**htref{2}: 1700tpi
 **Recording-density**htref{2}: 31800bpi
 **Areal-density**htref{2}: 54.06 MB/sq inch
 **Recording-mode**htref{2}: Continuous frequency
-**Rotational-speed**htref{3}: 3497rpm
+**Rotational-speed**vref{5}: 3500 rpm
 **Start-time**htref{3}: 20s (max)
 **Stop-time**htref{3}: 20s (max)
 **Interface**htref{1}: SCSI
@@ -1772,31 +1776,41 @@
 **Start-storage-entry{RZ25}{SCSI_DISK}{RZ}
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{EK-RZXXD-PS-005}
+**Def-lref{3} = ref{CU-1991-11-08}
 **Sys-name: RZ25
 **Desc-name: RZ25 426MB SCSI Disk
-**Capacity**htref{1}: 426MB
+**Capacity**vref{3}: 426MB
+**Announcement**vref{3}: 1991-11-08
 **Form-factor**htref{2}: 3-1/2" half-height
-**OS-Support-vms**uref{*108}: VMS V5.4-1
+**OS-Support-vms**vref{3}: VMS V5.4-1
 **OS-Support-ultrix**uref{*108}: Ultrix V4.2
 **OS-Support-sco**uref{*108}: SCO Unix 3.2.2
 **Peak-transfer-rate**htref{1}: {4.0MB/s:(asynch)}{5.0MB/s:(synch)}{16MB/s-25MB/s:(to/from media)}
 ! NB - from Personal DECstation 5000 User's Guide:
 !	asynch: 3.0MB/sec, synch: 4.0MB/s, media: 2.1-3.2MB/s	-->
-**Average-access**uref{108}: 20.8ms
+! vref{3}: bus-asynch: 4.0MB/s bus-synch: 5.0MB/s from media: 3.2MB/s
+**Average-access**vref{3}: 20.8ms
 **Average-latency**htref{1}: 6.8ms
-**Average-seek**htref{1}: 14ms
+**Average-seek**vref{3}: 14ms
 **Track-track-seek**htref{1}: 2.5ms
 **Maximum-seek**htref{1}: 26ms
-**Buffer-size**uref{SUE Jul 1992 Spec}: 60KB
-**Bytes-per-sector**uref{*72,*103}: 512
-**Sectors-per-track**uref{*72}: 48 - 74
-**Track-density**uref{*72}: 1760tpi
-**Rotational-speed**uref{*72,*103}: 4412rpm
+**Buffer-size**vref{3}: 60KB
+**Bytes-per-sector**vref{3}: 512
+**Sectors-per-track**vref{3}: 48 - 74
+**Track-density**vref{3}: 1760tpi
+**Rotational-speed**vref{3}: 4400rpm
 **Interface**htref{1}: SCSI
 **Power-start{RZ25}
-**+5V-current**uref{72}: 0.7A
-**+12V-current**uref{72}: 0.7A
+**+5V-current**vref{3}: 0.7A
+**+12V-current**vref{3}: 0.7A
 **Power-end{RZ25}
+! vref{3}
+!Physical Characteristics
+! Form factor			3.5-inch
+! Height				1.625-inch
+! Width				4.0-inch
+! Depth				5.75-inch
+! Weight				1.8 lbs
 **Dimensions-start{RZ25}
 **Height**htref{1}: 41.4mm
 **Width**htref{1}: 101.6mm

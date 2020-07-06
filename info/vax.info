@@ -272,6 +272,7 @@
 **def-lref{3} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{4} = ref{EC-N0377-46}
 **def-lref{5} = ref{EK-VAXCT-CG-006}
+**def-lref{6} = ref{CU-1991-10-30}
 **document=doc{DEC:EK-KA660-TM-001} ! KA660 CPU Module Technical Manual
 **document=doc{DEC:EK-398AA-TM-001} ! VAX 4000 Model 200 Technical Information
 **document=doc{DEC:EK-437AB-TS-002} ! VAX 4000 Model 200 Troubleshooting/Diagn ostic Guide
@@ -311,7 +312,7 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**vref{5}: 5.0
+**VUPs**vref{5,6}: 5.0
 !**SPECmarks**htref{4}: 4.8
 ! ref{DECdirect-AUG91} says 4.8
 **SPECmarks**vref{5}: 5.6
@@ -356,6 +357,7 @@
 **def-lref{4} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{5} = ref{EK-VAXCT-CG-006}
 **def-lref{6} = ref{EK-347AA-MG-001}
+**def-lref{7} = ref{CU-1991-10-30}
 **document=doc{DEC:EC-F1108-41} ! VAX 4000 Model 200 and 300 Systems
 **document=doc{DEC:EP-BA441-IN-003} ! RACK-MOUNTABLE VAX 4000 MODEL 300 INST/OWNER'S MANUAL
 **document=doc{DEC:EC-F0565-41/90} ! VAX 4000 Model 300 Systems
@@ -1066,6 +1068,7 @@
 **Def-lref{3} = ref{EK-624EA-MG-001}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
 **def-lref{5} = ref{OVMS-REL-HIST-20100621}
+**def-lref{6} = ref{CU-1991-10-30}
 **document=doc{DEC:DTJ-V2-2} ! "VAX 6000 Model 400 System", Digital Technical Journal, Vol 2 No 2, Spring 1990
 **document=doc{DEC:EK-640EB-TM-002} ! VAX 6000-400 System Technical User's Guide
 **document=doc{DEC:EK-640EB-MG-002} ! VAX 6000-400 Options and Maintenance
@@ -1100,7 +1103,7 @@
 **Console-device: TK70
 !**VUPs**htref{2}: {7} {13} {19} {25} {31} {36}
 **VUPs**vref{4}: {7} {13} {19} {25} {31} {36}
-**SPECmarks**uref{*7}: 1
+**SPECmarks**vref{6}: 7.0
 **Physical-address-lines: 30
 **BUS-XMI: 1 @ 100MB/s
 **LAN-support: optional
@@ -1113,6 +1116,7 @@
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{EC-N0377-46}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
+**def-lref{5} = ref{CU-1991-10-30}
 **document=doc{DEC:EK-650EA-TM-001} ! VAX 6000 Model 500 System Technical User's Guide
 **document=doc{DEC:EK-650EA-HR-001} ! VAX 6000 Model 500 Mini-Reference
 **document=doc{DEC:6500 REL NOTES} ! VAX 6000 Model 500 Hardware Release Notes
@@ -1150,7 +1154,7 @@
 **Console-device: Unknown
 ! <!-- *52 384ns per 64-bit write 448ns per 128-bit write 640ns per 96-bit read 704ns per 96-bit write -->
 **VUPs**vref{4}: {13.0} {25.0} {37.0} {49.0} {61.0} {72.0}
-**SPECmarks**htref{**1}: 13.2
+**SPECmarks**vref{5}: 13.2
 **Maximum-memory**htref{**1}: 512MB
 ! <!-- vref{1}: 2GB memory space -->
 **Physical-address-lines: @@
@@ -1235,8 +1239,8 @@
 **SPECmarks**vref{4}: 42.1
 !!**Tpc-a**htref{3}: 83.6
 **Minimum-memory**vref{1}: 32MB
+**Maximum-memory**vref{4,5}: 512MB
 ! **vref{5}: Max mem 1GB for a future release of OpenVMS
-**Maximum-memory**vref{4}: 512MB
 **Physical-address-lines**vref{1}: 32
 **Max-I/O-throughput**uref{*SUE Jul 1992 Spec}: 80MB/s
 **LAN-support: optional

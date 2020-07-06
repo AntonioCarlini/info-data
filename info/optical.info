@@ -152,9 +152,8 @@
 
 **Start-storage-entry{RWZ01-AA}{SCSI}{OPTICAL}
 **Sys-name: RZW01
-**Desc-name: 
+**Desc-name: RWZ01 Rewritable Optical Disk Drive
 **Def-lref{1} = ref{CU-1991-09-27}
-**Capacity**lref{1}: RWZ01 Rewritable Optical Disk Drive
 **Form-factor**vref{1}: 5.25"
 **Capacity**vref{1}: 594MB
 **OS-support-VMS**vref{1}: VMS V5.4-1

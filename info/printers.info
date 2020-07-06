@@ -54,6 +54,42 @@
 **Power-end{DCL1152-220}
 **End-printers-entry{DCL1152}
 
+**Start-printers-entry{LJ16P}{PRINTER}{LJ}
+**Def-lref{1} = ref{CU-1991-10-18}
+**Sys-name: LJ16P
+**Desc-name: DECjet 1000
+**Emulation**vref{1}: HP-PCL3
+**Interface**vref{1}: Centronics
+**Technology**vref{1}: Bubble-jet
+**Graphics-resolution**vref{1}: 300 x 300 dpi
+**MBTF**vref{1}:10,000 hr
+**Font-resolution**vref{1}: 300 x 300 dpi
+**Dimensions-start{LJ16P}
+**Height**vref{1}: 275mm
+**Width**vref{1}: 342mm
+**Depth**vref{1}: 360mm
+**Weight**vref{1}: 2.9kg
+**Dimensions-end{LJ16P}
+**End-printers-entry{LJ16P}
+
+**Start-printers-entry{LJ50X}{PRINTER}{LJ}
+**Def-lref{1} = ref{CU-1991-10-18}
+**Sys-name: LJ50X
+**Desc-name: DECjet 2000
+**Emulation**vref{1}: HP-PCL3
+**Interface**vref{1}: Centronics
+**Technology**vref{1}: Bubble-jet
+**Graphics-resolution**vref{1}: 300 x 300 dpi
+**MBTF**vref{1}:
+**Font-resolution**vref{1}: 600 x 300 dpi
+**Dimensions-start{LJ50X}
+**Height**vref{1}: 147mm
+**Width**vref{1}: 425mm
+**Depth**vref{1}: 450mm
+**Weight**vref{1}: 9kg
+**Dimensions-end{LJ50X}
+**End-printers-entry{LJ50X}
+
 **Start-printers-entry{LA100}{PRINTER}{LA}
 **Sys-name: LA100 Letterprinter
 **Def-lref{1} = ref{EK-LA100-RG-001}
@@ -171,12 +207,14 @@
 **Start-printers-entry{LA75}{PRINTER}{LA}
 **Sys-name: LA75 Printer
 **Def-lref{1} = ref{EK-OLA75-RM-002}
+**Def-lref{2} = ref{CU-1991-10-18}
+**Last-ship-date**vref{2}: 1992-03-30
 **Character-pitch**htref{1}: 5, 6, 10 and 12 cpi
 **Data-interface**htref{1}: RS-232
 **Data-rate**htref{1}: 110 - 4800
 ! check data buffer is 2K -->
 **Data-buffer**htref{1}: 2KB
-**Print-speed**htref{1}: {250 cps (draft)}{32 cps (letter quality)}
+**Print-speed**vref{2}: {250 cps (draft)}{32 cps (letter quality)}
 **Dev-req**htref{1}: ESC [ 0 c
 **Dev-req-resp**htref{1}: ESC [ ? 7 2 ; 5 ; 7 c 
 ! ESC [ ? 7 2 ; 5 ; 6; 7 c   Ps3=6 if sheetfeeder available

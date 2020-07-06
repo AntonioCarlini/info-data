@@ -1,4 +1,20 @@
-**Start-comms-entry{DEFAR}{HUB90}
+**Start-comms-entry{DECNIS500}{NIS}
+**Def-lref{1} = ref{CU-1991-10-18}
+**Sys-name: DECnis 500
+**Desc-name: DEC Network Integration Server 500
+**Slots**vref{1}: 4
+**Announcement**vref{1}: 1991-10-18
+**End-comms-entry{DECNIS500}
+
+**Start-comms-entry{DECNIS600}{NIS}
+**Def-lref{1} = ref{CU-1991-10-18}
+**Sys-name: DECnis 600
+**Desc-name: DEC Network Integration Server 600
+**Announcement**vref{1}: 1991-06
+**Slots**vref{1}: 9
+**End-comms-entry{DECNIS600}
+
+**Start-comms-entry{DEFAR}{NIS}
 **Sys-name: DECrepeater 90FA
 **DEF-lref{1} = ref{EK-DEFAR-OM.A01}
 **Interfaces**htref{1}: {AUI}{ThinWire}{10Base-FL}
@@ -657,6 +673,29 @@
 
 **Start-comms-entry{DF242-CA}{MODEM}
 **Def-lref{1} = ref{CU-1991-09-06}
+**Def-lref{2} = ref{CU-1991-09-27}
 ! [1] mentions this as a replacement for the DF224-AA
+! [2]:
+! The Scholar Plus modem (DF242-CA) is a 2400 bit per second standalone, 
+! full-duplex modem that communicates either asynchronously at speeds of 2400, 
+! 1200, and 300 bits per second, or synchronously at 1200 and 2400 bits per 
+! second over dial-up lines. The DF242-CA product is compatible with the 
+! industry-accepted "AT" command language and meets CCITT V.22bis, CCITT V.22, 
+!Bell 212A, and Bell 103 compatibility recommendations.
 **Sys-name: DF242-CA Scholar Plus  Modem
+**Speed**vref{2}: 2400 bps
 **End-comms-entry{DF242-CA}
+
+**Start-comms-entry{DF296-DA}{MODEM}
+**Def-lref{1} = ref{CU-1991-09-27}
+**Sys-name: DECmodem V32
+![1]:
+!The DECmodem V32 product is a 9600 bit per second high-speed modem that is 
+!available in either desktop (DF296-DA) or rackmount (DF196-DM) 
+!configurations. The DECmodem is a full V.32 compliant product and has 
+!complete security, AT compatibility, and MNP Level 4 and 5 protocols for 
+!online error correction and data compression. For a full product 
+!description, please contact your local Digital sales office.
+**Speed**vref{1}: 9600bps
+**End-comms-entry{DF296-DA}
+
