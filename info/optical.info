@@ -37,6 +37,8 @@
 **Sys-name: RRD42
 **Desc-name: RRD42 CD-ROM Drive
 **Def-lref{1} = ref{EK-RRD42-OM-002}
+**def-lref{2} = ref{CU-1991-12-20}
+**OS-support-eln**vref{2}: VAXELN V4.3
 **Capacity**htref{1}: 600MB
 **Average-transfer-rate**htref{1}: 150KB/s
 **Peak-transfer-rate**htref{1}: 1.5MB/s

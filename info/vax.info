@@ -2626,11 +2626,11 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:firefox_qbusAdapter_Dec87} ! Firefox Workstation Q-Bus Adapter Module Functional Specification
 **Announcement**uref{*102}: 10 January 1989
 **Codename**uref{*47}: Firefox
-**Last-order**vref{3}: 20 November 1991
+**Last-order**vref{3}: 30 November 1991
 **Last-ship**vref{3}: 31 March 1992
 !**OS-support-VMS**uref{*26}: V5.1-1
 **OS-support-VMS**vref{2}: V5.1-1
-**CPU-module**vref{1}: KA60-AA
+**CPU-module**vref{1,3}: KA60-AA
 **Module**vref{1}: L2001
 !-- vref{1} KA60-BA is L2010 (VAXstation 38x0)
 **CPU-name-VMS: KA60
@@ -2644,7 +2644,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**uref{*8,*25}: {5} {#} {10}
+**VUPs**vref{3}: {VS3520:5} {VS3540:10}
 **Minimum-memory**vref{1}: 8MB
 **Maximum-memory**vref{1}: 128MB
 !-- *8 states 4MB as min

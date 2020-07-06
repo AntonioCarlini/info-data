@@ -307,6 +307,7 @@
 
 **Start-systems-entry{DST5125}{DECMIPS}{DS5000}
 **Def-lref{1} = ref{DECdirect-AUG91}
+**def-lref{2} = ref{CU-1991-12-20}
 ! vref{DECdirect-AUG91} says DECstation 5000 Models 120 and 125 differ only in the CPU module
 **Sys-name: DECstation 5000 Model 125
 **Num-proc: 1
@@ -329,7 +330,10 @@
 
 **Start-systems-entry{DST5133}{DECMIPS}{DS5100}
 **Def-lref{1} = ref{DECdirect-FEB92}
+**def-lref{2} = ref{CU-1991-12-20}
 **Sys-name: DECstation 5000 Model 133
+**Announcement**vref{2}: 1991-12-20
+**FCS-date**vref{2}: 1992-02
 **Num-proc: 1
 **CPU-chip**vref{1}: R3000A
 **FPU-chip**vref{1}: R3010
@@ -392,6 +396,7 @@
 **Start-systems-entry{DST5240}{DECMIPS}{DS5200}
 **Def-lref{1} = ref{EK-PM38C-MG-002}
 **Def-lref{2} = ref{DECdirect-FEB92}
+**def-lref{3} = ref{CU-1991-12-20}
 ! [1]: MS02-AA MS02L-AB (8MB)   MS02-CA MS02-NV (NVRAM module) H7878A
 **Sys-name: DECstation 5000 Model 240
 **Num-proc**vref{1}: 1

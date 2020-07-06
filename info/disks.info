@@ -264,6 +264,8 @@
 **Def-lref{1} = ref{SOC-SPR90}
 **Def-lref{2} = ref{EK-ORA7X-SM-002}
 **Def-lref{3} = ref{CU-1991-11-08}
+**def-lref{4} = ref{CU-1991-12-20}
+**OS-support-eln**vref{4}: VAXELN V4.3
 **Capacity**vref{3}: 280MB
 **EOL**vref{3}: 28 March 1992
 **Last-ship**vref{3}: 27 June 1992
@@ -304,13 +306,14 @@
 **Def-lref{1} = ref{EK-ORA7X-SM-002}
 **Def-lref{2} = ref{EK-RSA7X-PG-002}
 **Def-lref{3} = ref{CU-1991-11-08}
+**def-lref{4} = ref{CU-1991-12-20}
 **Sys-name: RA71
 **Desc-name: RA71 Winchster Disk
 **Location: storage/ra71.html
 **Announcement**vref{3}: 1991-11-08
 **OS-support-VMS**htref{2}: V5.4-2
 **OS-support-ultrix**htref{2}: Ultrix V4.2
-**OS-support-eln**htref{2}: VAXELN V4.3
+**OS-support-eln**vref{4}: VAXELN V4.3
 **OS-support-cronic**htref{2}: {Cronic V4.1} {Cronic V6.0}
 **Capacity**vref{3}: 700MB
 **Form-factor**vref{3}: 5.25"
@@ -552,8 +555,10 @@
 **Def-lref{1} = ref{EK-ORA90-UG-002}
 **Def-lref{2} = ref{EK-ORA90-SV-003}
 **Def-lref{3} = ref{CU-1991-11-08}
+**def-lref{4} = ref{CU-1991-12-20}
 **Sys-name: RA92
 **Desc-name: RA92 Disk Drive
+**OS-support-eln**vref{4}: VAXELN V4.3
 **Capacity**vref{3}: 1506MB
 **Form-factor**vref{3}: 9"
 **Average-seek**vref{3}: 16.1ms	
@@ -856,11 +861,12 @@
 **Start-storage-entry{RF31F}{DSSI}{RF}
 **Def-lref{1} = ref{EK-RF72D-SV-002}
 **Def-lref{2} = ref{CU-1991-11-08}
+**def-lref{3} = ref{CU-1991-12-20}
 **Sys-name: RF31F
 **Desc-name: RF31F Integrated Storage Element
 **Last-order**uref{SUE Jul 1992}: 30 Sept 1992
 **Last-ship**uref{SUE Jul 1992}: 31 Dec 1992
-**OS-support-eln**uref{74}: VAXELN V4.3
+**OS-support-eln**vref{3}: VAXELN V4.3
 **Capacity**vref{2}: 200 MB
 **Form-factor**vref{2}: 5-1/4" full-height
 **Average-access**vref{2}: 20.5ms
@@ -991,8 +997,10 @@
 **Start-storage-entry{RF72}{DSSI}{RF}
 **Def-lref{1} = ref{EK-RF72D-SV-002}
 **Def-lref{2} = ref{CU-1991-11-08}
+**def-lref{3} = ref{CU-1991-12-20}
 **Sys-name: RF72
 **Desc-name: RF72 Integrated Storage Element
+**OS-support-eln**vref{3}: VAXELN V4.3
 **Capacity**vref{2}: 1.0GB
 **Form-factor**vref{2}: 5-1/4" full height
 **Average-seek**vref{2}: 13.4ms
@@ -1518,7 +1526,9 @@
 **Def-lref{1} = ref{EK-PM30E-RB-002}
 **Def-lref{2} = {CU-1991-10-30}
 **Def-lref{3} = {CU-1991-11-08}
+**def-lref{4} = ref{CU-1991-12-20}
 **OS-support-vms**vref{2}: VMS V5.4-3
+**OS-support-eln**vref{4}: VAXELN V4.3
 **Capacity**vref{2}: {2.8MB:ED}{1.2MB:HD}{720KB:DD}
 **Form-factor**vref{2}: 3-1/2" half height
 ! [2]
@@ -1719,6 +1729,8 @@
 **Def-lref{3} = ref{EK-VSM30-OM-002}
 **Def-lref{4} = ref{EK-RZXXD-PS-005}
 **Def-lref{5} = {CU-1991-11-08}
+**def-lref{6} = ref{CU-1991-12-20}
+**OS-support-eln**vref{6}: VAXELN V4.3
 **Capacity**vref{5}: 209MB
 **Form-factor**htref{4}: 3-1/2" half-height
 **Peak-transfer-rate**vref{5}: {3.0MB/s:(asynch)}{4.0MB/s:(synch)}{1.5MB/s:(to/from media)}
@@ -1777,6 +1789,7 @@
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{EK-RZXXD-PS-005}
 **Def-lref{3} = ref{CU-1991-11-08}
+**def-lref{4} = ref{CU-1991-12-20}
 **Sys-name: RZ25
 **Desc-name: RZ25 426MB SCSI Disk
 **Capacity**vref{3}: 426MB
@@ -1784,6 +1797,7 @@
 **Form-factor**htref{2}: 3-1/2" half-height
 **OS-Support-vms**vref{3}: VMS V5.4-1
 **OS-Support-ultrix**uref{*108}: Ultrix V4.2
+**OS-support-eln**vref{4}: VAXELN V4.3
 **OS-Support-sco**uref{*108}: SCO Unix 3.2.2
 **Peak-transfer-rate**htref{1}: {4.0MB/s:(asynch)}{5.0MB/s:(synch)}{16MB/s-25MB/s:(to/from media)}
 ! NB - from Personal DECstation 5000 User's Guide:
@@ -2132,6 +2146,8 @@
 **Desc-name: RZ57 1.0GB SCSI Disk
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{EK-RZXXD-PS-005}
+**def-lref{3} = ref{CU-1991-12-20}
+**OS-support-eln**vref{3}: VAXELN V4.3
 **Capacity**htref{1}: 1.0GB
 **Form-factor**uref{2}: 5-1/4" full-height
 **Peak-transfer-rate**htref{1}: {1.6MB/s:(asynch)}{4.0MB/s:(synch)}{2.5MB/s:(to/from media)}

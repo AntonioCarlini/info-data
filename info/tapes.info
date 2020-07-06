@@ -843,6 +843,7 @@
 
 **Start-storage-entry{TZ85}{SCSI_TAPE}{TZ}
 **Def-lref{1} = ref{EK-OTF85-OM-002}
+**def-lref{2} = ref{CU-1991-12-20}
 ! More info from https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c00331564:
 ! 1.1 MBytes/second raw data rate to media
 ! Up to 800 KBytes/second sustained data rates
@@ -878,11 +879,17 @@
 **Desc-name: TZ85 Tape Cartridge Subsystem
 **OS-support-vms**uref{SUE Jul 1992}: VMS V5.4-1
 **OS-support-ultrix**uref{SUE Jul 1992}: Ultrix V4.2
-**Capacity**lref{1}: 2.6GB
-![1] Will read TK50/TK52 carts
+**Announcement**vref{2}: 1991-12-20
+**Capacity**lref{1,2}: 2.6GB
+! vref{2}:
+! Both the TZ85 and SZ100 tape subsystems use the TK85K (Compactape III) 
+! cartridge with the TF85 and TF857 family of products.
+![1,2] Will read TK50/TK52 carts
 **Read/write-speed**lref{1}: 100in/s
 **Recording-format**lref{1}: two-track parallel, serpentine 
 **Recording-density**lref{1}: 42500 bpi
+**Cartridge**vref{2}: TK85K
+**Cache**vref{2}: 512kB
 **Tracks**lref{1}: 48
 **Track-density**lref{1}: 96 tpi
 **Interface**lref{1}: SCSI
