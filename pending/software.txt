@@ -213,6 +213,32 @@ DECtp Desktop for ACMS V1.1
 FAX Network Gateway ST
 
 
+{CU-1992-03-13}
+
+DECphoto Imaging Solution V1.0 for VMS
+
+SQL Multimedia for Rdb/VMS V1.0
+
+DECscheduler for VMS V2.0 Program Announcement
+
+ULTRIX MLS+ V1.0 Trusted Worksystem Software
+
+Application Control Architecture Services V2.1
+
+DECimage Scan Software V3.0 for VMS and RISC ULTRIX
+
+DECmessageQ V2.0 Provides UNIX Message Servers
+
+DEC RALLY V4.0 Works on Multiple Platforms
+
+Open Desktop Development System V1.1
+
+SCO MPX Update Kit for SCO UNIX and Open Desktop
+
+PDP-11 C V1.2 Language Compiler
+
+VAX DOCUMENT V2.1
+
 {CU-1993-03-08}
 
 DEC Distributed Queuing Service V1.2 for OpenVMS AXP

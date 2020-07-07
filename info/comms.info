@@ -521,13 +521,21 @@
 **End-comms-entry{DS90LP}
 
 **Start-comms-entry{DS90TL}{TERMSERVER}
+**Sys-name: DSRVE
 **Desc-name: DECserver 90TL Terminal Server
 **Def-lref{1} = ref{CU-1992-01-31}
+**Def-lref{1} = ref{CU-1992-03-13}
 **Announcement**vref{1}: 1992-01-31
 **Ports**vref{1}: 8
 **Speed**vref{1}: 75 to 57.6K
 **Port-interface**vref{1}: MJ8
 **Network-interface**vref{1}: ThinWire or DEChub
+**Dimensions-start{DS90TL}
+**Height**vref{2}: 31.8mm
+**Width**vref{2}: 273.1mm
+**Depth**vref{2}: 140.0mm
+**Weight**vref{2}: 0.77kg
+**Dimensions-end{DS90TL}
 **End-comms-entry{DS90TL}{TERMSERVER}
 
 **Start-comms-entry{LB100}{BRIDGE}
