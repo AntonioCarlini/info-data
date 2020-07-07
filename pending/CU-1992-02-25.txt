@@ -1,0 +1,35 @@
+{CU-1992-02-25}
+
+CMOS-4 Chip Manufacturing Technology
+
+Previous CMOS generations have delivered the world's fastest CISC 
+microprocessors in Digital's products. For example, in 1990 CMOS-3 delivered 
+a 62.5 MHz chip in the VAX 6000 Model 500 series. CMOS-4 has delivered an 83 
+MHz chip in the VAX 6000 Model 600 series. Digital is now using this same 
+technology to manufacture the Alpha CPU and a wide range of peripheral 
+chips.
+
+Alpha -- The Fastest Microprocessor
+
+o  Digital announces the Alpha microprocessor (21064-AA), the first 
+   chip-level implementation of the Alpha architecture
+
+o  The Alpha chip is the fastest CMOS microprocessor available in the world, 
+   with a clock rate of up to 200 MHz  
+
+
+
+With a total transistor count of 1.68 million devices, the 21064-AA chip is 
+a complete CPU, including full integer and floating-point execution units.  
+These units, together with related addressing and branching units, are fully 
+pipelined, and each is capable of launching a new operation every cycle.
+
+In addition, the chip includes two high-speed primary caches. An 8 Kbyte 
+instruction cache provides two full 32-bit instructions per clock cycle to 
+the instruction dispatch unit, and an 8 Kbyte data cache can provide 64-bit 
+data access during each cycle. The resulting cache bandwidth of 3.2 
+Gbytes per second far exceeds what could be accomplished if these cache 
+units were not fully integrated.
+
+The 21064-AA microprocessor is available now for your evaluation. Production 
+quantities will be available in July 1992.

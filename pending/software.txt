@@ -193,6 +193,26 @@ VAX Wide Area Network Device Drivers V1.2
 DECnet/SNA Data Transfer Facility V3.1
 
 
+{CU-1992-02-21}
+
+VMS POSIX V1.0
+
+DECnet/OSI for VMS V5.5
+
+DECnet/OSI for ULTRIX V5.1
+
+DECnet for SCO UNIX V1.1
+
+DEC VUIT V2.0 for SPARCstations
+
+
+Availability Manager for Distributed Systems V1.0
+
+DECtp Desktop for ACMS V1.1
+
+FAX Network Gateway ST
+
+
 {CU-1993-03-08}
 
 DEC Distributed Queuing Service V1.2 for OpenVMS AXP
