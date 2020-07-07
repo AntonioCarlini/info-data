@@ -1,0 +1,235 @@
+{CU-1991-09-06}
+
+DEC Realtime Test Integrator
+QL-YWQA9-QB   VMS development license V2.1				    
+QL-YUQA9-QB   ULTRIX development license V1.1
+QL-B15A9-JB   VMS runtime license V2.1 					    
+QL-YV8AA-AA   ULTRIX runtime license V2.1
+
+LOTUS 1-2-3 V1.0-2 available for VMS
+
+DEC SecurityGate V1.0 for VMS
+
+VAX APL V4.0
+
+Digital Cartridge Server Component for VMS (DCSC) V1.1
+
+{CU-1991-09-27}
+
+DECdecision V1.5
+
+DECinspect for VMS V2.1 and DECsrf for VMS V1.1
+
+WPS-PLUS V4 Option for ALL-IN-1 V2.4
+
+Lotus 1-2-3 For ULTRIX For RISC
+
+{CU-1991-10-18}
+DECmcc TCP/IP SNMP Access Module V1.1
+
+DECmcc Management Station for ULTRIX V1.1
+
+ULTRIX/SNA Server V1.0
+
+
+DECnet/SNA ULTRIX Terminal/Print Services V1.0
+
+
+DECnet/SNA ULTRIX Remote Job Entry (RJE) V1.0
+
+DECnet/SNA ULTRIX APPC/LU6.2 V1.0
+
+
+PATHWORKS for Macintosh V1.1
+
+Electronic Data Interchange (DEC/EDI) V1.1
+DECwrite SGML Gateway and DEC SGML Development Tools
+
+DECnsr Network Backups for ULTRIX
+
+DEC Ada V1.0 for RISC ULTRIX Systems
+
+DEC COBOL Preprocessor for ULTRIX/SQL V2.0 for RISC
+
+VAX DECalc V4.0
+VAX DECalc-DECgraph Package V4.0
+VAX DECalc-PLUS V4.0
+
+DECpresent V1.5 for Sun's SPARCstation
+
+DECprint Printing Services for VMS V4.1
+
+DECwrite V2.0
+
+Adobe Illustrator V3.0 for ULTRIX and VAX Workstations
+
+{CU-1991-10-30}
+
+DEC Reliable Transaction Router for VMS, V2.0
+
+DEC SoftPC V3.0 Available for VAX VMS and RISC ULTRIX
+
+{CU-1991-11-08}
+
+XMedia Tools V1.0
+
+DECstation FaxServer
+
+Digital Text Processing Utility V3.0 for ULTRIX
+
+DEC AVS V3.0
+
+DEC FUSE Family V1.1
+
+DECfonts Typeface Collection V1.2
+
+DECview3D Concurrent View and Edit VMS V2.1
+
+
+Synchronizer V2.0
+
+VAX BASIC V3.5
+
+{CU-1991-11-29}
+
+DECperformance Solution V1.0
+
+DECpc MS-DOS V5.0
+
+VWS V4.4 and the VAXuisx and VWS Migration Tools Kit V1.0
+
+DEC RALLY Runtime for MS-DOS V3.0
+
+
+DECedms
+
+{CU-1991-12-20}
+
+PATHWORKS Browser for Windows V1.0
+
+PATHWORKS Conferencing for Windows V1.0
+
+ALL-IN-1 MAIL for Windows V1.0
+
+TeamLinks for PATHWORKS V1.0
+
+DECquery V2.0
+
+DECreport for Windows V1.0
+
+eXcursion for Windows V1.0
+
+DEC VTX V5.0
+
+VAX NOTES V2.2
+
+ALL-IN-1 IOS Server for VMS V3.0
+
+DECelx Realtime Tools For ULTRIX V1.0
+
+DEC File Optimizer for VMS V1.0
+
+
+DSM for ULTRIX V1.0
+
+DECserver 300 V2.1 Software
+
+
+PATHWORKS for DOS (NetWare Coexistence) V1.1
+
+VAXcluster Console System V1.4
+
+VAX DIBOL V4.2 Software Available
+
+{CU-1992-01-10}
+
+EtherWORKS Router/DECnet V1.0
+
+ALL-IN-1 Manager for LANs/WANs V1.0
+
+DECimage EXpress V2.0 Document Image Management System
+
+DECspin V1.0
+
+DEC C++ for ULTRIX V1.0
+
+DEC FUSE Support for DEC C++ for ULTRIX V1.1
+
+DEC InstantSQL for Rdb/VMS V1.0
+
+BASEstar for VMS V3.1
+
+DECnet-11M V4.7, DECnet-11S V4.7, DECnet-11M-PLUS V4.4, and 
+       DECnet-Micro/RSX V4.4 are now available
+
+o  DECnet-11M V4.7 SPD 10.75.16
+o  DECnet-11S V4.7 SPD 10.74.16
+o  DECnet-11M-PLUS V4.4 SPD 10.66.09
+o  DECnet-Micro/RSX V4.4 SPD 18.27.04
+
+SCO Open Desktop V1.1 Available for DECpc 433
+
+WPS-PLUS FOR DOS V4.1 AVAILABILITY
+
+
+{CU-1992-01-31}
+
+DEC OSF/1 V1.0: shipping in March, can be ordered now
+
+Distributed Computing Environment Starter Kit V1.0
+
+DEC Fortran V3.1 on DEC OSF/1 and RISC ULTRIX
+
+DEC Pascal V1.2 on DEC OSF/1 and RISC ULTRIX
+
+DEC OPS5 V4.0 on DEC OSF/1 and RISC ULTRIX
+
+DEC Reliable Transaction Router for MS-DOS Client V1.0
+
+DECcashier Point-of-Sale Terminal
+
+VAX Wide Area Network Device Drivers V1.2
+
+DECnet/SNA Data Transfer Facility V3.1
+
+
+{CU-1993-03-08}
+
+DEC Distributed Queuing Service V1.2 for OpenVMS AXP
+
+DECforms Runtime System V1.4 for OpenVMS AXP
+
+DEC GKS V5.1 for OpenVMS AXP and DEC OSF/1 AXP
+
+CDD/Repository V5.2 for OpenVMS VAX and OpenVMS AXP
+
+DEC InstantSQL for Rdb/VMS V1.1
+
+Digital DCE Developers Kit for OpenVMS VAX V1.0
+
+DEC DBMS V5.0 for OpenVMS VAX and OpenVMS AXP
+
+{CU-1993-03-29}
+
+POLYCENTER Performance Solution for UNIX Systems V1.0
+
+POLYCENTER Advanced File System V1.0
+
+POLYCENTER Advanced File System Utilities V1.0
+
+DEC OSF/1 Freeware V1.0 for AXP Systems
+
+OSI Application Developer's Toolkit V2.0
+
+SCO Open Desktop R2.0
+
+PATHWORKS ISDN (DOS) V1.0
+
+PowerFrame V2.0
+
+DECtp Desktop for ACMS V1.2
+
+DEC Rdb for OpenVMS V5.1
+
+DECADMIRE for OpenVMS V1.1
+
