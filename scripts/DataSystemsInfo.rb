@@ -230,7 +230,7 @@ class Systems
         local_refs_non_vref_count = {}
         local_docs = {}  # Discard "local" related documents
         next
-      elsif !current.nil?() && line =~ /^\s*\*\*Def-lref\{(\d)\}\s*=\s*ref\{(.*)\}\s*$/i
+      elsif !current.nil?() && line =~ /^\s*\*\*Def-lref\{(\d+)\}\s*=\s*ref\{(.*)\}\s*$/i
         id = $1
         ref_name = $2
         ref = refs[ref_name]
