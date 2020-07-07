@@ -1,0 +1,6 @@
+
+
+
+Availability of DBMS V4.3 is planned for mid-December 1991.
+
+HSC40 and HSC70: I/O requests per second: 1150 (incorrectly listed as 115 in 26 Jul 1991 DCU)
