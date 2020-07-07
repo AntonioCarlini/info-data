@@ -1,0 +1,46 @@
+This file is somewhere to store processed information for items which don't yet have an entry.
+
+
+PCXAG-D: Graphics resolutions of 1280 x 1024, 1024 x 768, and 1024 x 864
+**Def-lref{1} = ref{CU-1991-09-06}
+**Processor**vref{1}: TMS34020
+**Resolution**vref{1}: 1280 x 1024, 1024 x 768, and 1024 x 864
+**Colours**vref{1}: Up to 256 colors, from a palette of 1.6 million
+o  An optional Texas Instruments TMS34082 floating-point graphic coprocessor 
+   socket to allow for future performance enhancement; this processor 
+   interfaces directly with the address and data buses of the TMS34020, and 
+   performs compute-intensive functions at up to 40 Megaflops   
+
+{CU-1991-09-27}
+
+DECmpp 12000
+
+MP101-AA/AB/AC	   Model 1A, 1K Processor Elements, 16 Mbytes RAM
+MP102-AA/AB/AC	   Model 1B, 1K Processor Elements, 64 Mbytes RAM	    
+MP103-AA/AB/AC	   Model 4A, 4K Processor Elements, 64 Mbytes RAM
+MP104-AA/AB/AC	   Model 4B, 4K Processor Elements, 256 Mbytes RAM	    
+MP105-AA/AB/AC	   Model 8A, 8K Processor Elements, 128 Mbytes RAM	    
+MP106-AA/AB/AC	   Model 8B, 8K Processor Elements, 512 Mbytes RAM	    
+MP107-AA/AB/AC	   Model 16A, 16K Processor Elements, 256 Mbytes RAM	    
+MP108-AA/AB/AC	   Model 16B, 16K Processor Elements, 1 Gbyte RAM
+
+IEZ11 SCSI/IEEE488 Bus Converter Option
+
+The IEZ11 device is an IEEE488 bus converter that allows communication 
+between VAX systems and IEEE488 instruments. To offer the same features and 
+benefits of this product to ULTRIX system based users, the IEZ11 product 
+family has been enhanced with the SCSI to IEEE488 Bus Converter Inclusive 
+Cable Kit, 120 V (IEZ11-DA) option.
+
+It supports up to 14 
+IEEE488 devices and achieves a data throughput of more than 500 Kbytes per 
+second.
+
+
+
+
+
+
+
+
+
