@@ -234,6 +234,18 @@
 **Power-end{LA75-240V}
 **End-printers-entry{LA75}
 
+**Start-printers-entry{LG01}{PRINTER}{LG}
+**Def-lref{1} = ref{CU-1992-01-31}
+**Last-order**vref{1}: 1992-06-26
+**Last-ship**vref{1}: 1992-09-30
+**End-printers-entry{LG01}
+
+**Start-printers-entry{LG02}{PRINTER}{LG}
+**Def-lref{1} = ref{CU-1992-01-31}
+**Last-order**vref{1}: 1992-06-26
+**Last-ship**vref{1}: 1992-09-30
+**End-printers-entry{LG02}
+
 **Start-printers-entry{LG06}{PRINTER}{LG}
 **Def-lref{1} = ref{EK-ELG06-MG-002}
 **Sys-name: LG06

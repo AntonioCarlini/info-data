@@ -427,12 +427,14 @@
 **Start-comms-entry{DS700}{TERMSERVER}
 **Sys-name: DECserver 700 Terminal Server
 **Def-lref{1} = ref{EK-DSRVW-MG.001}
+**Def-lref{2} = ref{CU-1992-01-31}
+**Announcement**vref{2}: 1992-01-31
 **Sessions-per-port**htref{1}: 4					
 **Ports**htref{1}: {8 (700-8)}{16 (700-16}
 **Port-interface**htref{1}: {RS-232 (700-8)}{RJ45(700-16}}
-**Network-interface**htref{1}: AUI or 10BaseT
-**Minimum-memory**htref{1}: 1MB
-**Maximum-memory**htref{1}: 8MB
+**Network-interface**vref{2}: AUI or 10BaseT
+**Minimum-memory**vref{2}: 1MB
+**Maximum-memory**vref{2}: 8MB
 ! ref_1: memory configs: two slots 1MB SIMM or 4MB SIMM in either 70ns or 80ns 36-bit -->
 **Dimensions-start{DS700}
 **Height**htref{1}: 44mm
@@ -485,17 +487,20 @@
 **End-comms-entry{DS90L}
 
 **Start-comms-entry{DS90LP}{TERMSERVER}
-**Sys-name: DECserver 90L+ Terminal Server
+**Sys-name: DSRVG
+**Desc-name: DECserver 90L+ Terminal Server
 **Def-lref{1} = ref{EK-DSRVD-OM-001}
 **Def-lref{2} = ref{EK-DSRVG-OM.001}
-**Sessions-per-port**htref{2}: 4
-**Ports**htref{2}: 8
+**Def-lref{3} = ref{CU-1992-01-31}
+**Announcement**vref{3}: 1992-01-31
+**Sessions-per-port**vref{3}: 4
+**Ports**vref{3}: 8
 **LAT-version**htref{2}: V5.0
-**Speed**htref{2}: 1.2K to 38.4K
+**Speed**vref{3}: 1.2K to 38.4K
 **Data-bits**htref{2}: 8
-**Port-interface**htref{2}: DEC423
+**Port-interface**vref{3}: DEC423
 **Flow-control**htref{2}: XON/XOFF or disabled
-**Network-interface**htref{2}: ThinWire or DEChub
+**Network-interface**vref{3}: ThinWire or DEChub
 **Dimensions-start{DS90LP}
 **Height**htref{2}: 31.8mm
 **Width**htref{2}: 273.1mm
@@ -514,6 +519,16 @@
 **Power-end{DS90LP-240V}
 !-- ref_2: DS90L+ requires 1.0A at 4.75V to 5.25V -->
 **End-comms-entry{DS90LP}
+
+**Start-comms-entry{DS90TL}{TERMSERVER}
+**Desc-name: DECserver 90TL Terminal Server
+**Def-lref{1} = ref{CU-1992-01-31}
+**Announcement**vref{1}: 1992-01-31
+**Ports**vref{1}: 8
+**Speed**vref{1}: 75 to 57.6K
+**Port-interface**vref{1}: MJ8
+**Network-interface**vref{1}: ThinWire or DEChub
+**End-comms-entry{DS90TL}{TERMSERVER}
 
 **Start-comms-entry{LB100}{BRIDGE}
 **Sys-name: LAN Bridge 100 Ethernet Bridge

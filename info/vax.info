@@ -3216,6 +3216,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{4} = ref{EK-A0513-MG.001}
 **Def-lref{5} = ref{DECdirect-FEB92}
 **Def-lref{6} = ref{CBR-PR-1992-01-28}
+**Def-lref{7} = ref{CU-1992-01-10}
 **document=doc{DEC:EK-A0513-MG-001} ! MicroVAX 3100 Platform KA45 System CPU Maintenance
 **document=doc{DEC:EK-A0516-TM-001} ! MicroVAX 3100 Model 30 Troubleshooting and Diagnostic Information
 **document=doc{DEC:EK-A0517-CL-001} ! MicroVAX 3100 Model 40/80 Read Before Installing
@@ -3224,9 +3225,11 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-A0521-UG.001} ! MicroVAX 3100 Model 30 Operator Information
 **document=doc{DEC:EK-A0522-TD-001} ! MicroVAX 3100 Model 30 Customer Technical Information
 **document=doc{DEC:EK-A0616-TM-001} ! MicroVAX 3100 Model 30 Troubleshooting and
-**Announcement**vref{6}: 28 January 1992
+! vref{7}: uV3100-30: BA42-A. uV3100-40: BA42-B
+! **Announcement**vref{6}: 28 January 1992, but that is the date of the article: it doesn't explicitly state an announcement date
+**Announcement**vref{7}: 10 January 1992
 **Codename: Waverly
-**OS-support-VMS: V5.5
+**OS-support-VMS**vref{7}: V5.5
 **CPU-module**vref{1,2,4}: KA45
 **Firmware-version**uref{personally verified}: V1.4
 **CPU-name-VMS**uref{*2}: KA440
@@ -3240,8 +3243,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-!**VUPs**htref{3}: 5.0
-**VUPs**vref{5}: 5.0
+**VUPs**vref{5,7}: 5.0
 ! Cust. Update V5-4A 12-Apr-1994 has 32 TPS
 **TPC-A: 21.6
 **Minimum-memory**vref{1,2}: 8MB
@@ -3372,7 +3374,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{3} = ref{EK-VAXCT-CG-006}
 **def-lref{4} = ref{OVMS-REL-HIST-20100621}
 **def-lref{5} = ref{CBR-PR-1988-10-19}
+**Def-lref{6} = ref{CU-1992-01-10}
 **Announcement**vref{5}: 18th October 1988
+**Last-order**vref{6}: 1992-03-31
+**Last-ship**vref{6}: 1992-06-30
 **Codename**uref{*47}: Mayfair II
 !**OS-support-VMS**uref{*26,*137}: V5.0-2A
 **OS-support-VMS**vref{4}: V5.0-2A
@@ -4583,16 +4588,18 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{7} = ref{CU-V8-1B}
 **def-lref{8} = ref{EK-VAXCT-CG-006}
 **def-lref{9} = ref{CBR-PR-1992-01-28}
+**def-lref{10} = ref{CU-1992-01-10}
 **document=doc{DEC:EK-A0514-MG-001} ! MicroVAX 3100 Platform KA47 CPU System Maintenance
 **document=doc{DEC:EK-A0523-IN.001} ! MicroVAX 3100 Model 40 and Model 80 Installation Information
 **document=doc{DEC:EK-A0524-UG.001} ! MicroVAX 3100 Model 40 and Model 80 Operator Information
 **document=doc{DEC:EK-A0525-TD-001} ! MicroVAX 3100 Model 40 and Model 80
-**Announcement**vref{9}: 28 January 1992
+! **Announcement**vref{9}: 28 January 1992, but that is the date of the article: it doesn't explicitly state an announcement date
+**Announcement**vref{10}: 10 January 1992
 **Sys-name: MicroVAX 3100-80
 **Desc-name: MicroVAX 3100 Model 80
 **Codename: Waverly-Mariah
 **Html-target: uv3180
-**OS-support-VMS: VMS V5.5
+**OS-support-VMS**vref{10}: VMS V5.5
 **CPU-module**vref{2}: KA47
 **Firmware-version**uref{personally verified}: V1.4
 **CPU-name-VMS**uref{**2}: KA460
