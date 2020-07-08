@@ -143,7 +143,7 @@
 **Desc-name**vref{1}: V-11 Floating-point Accelerator Logic
 **End-chips-entry{DC330}
 
-**Start-chips-entry{DC333}{CHIP}{GENERAL}
+**Start-chips-entry{DC333}{CHIP}{VAXCPU}
 **Def-lref{1} = ref{EB-29465-71}
 **Part-number**vref{1}: 78032-GA
 **Desc-name**vref{1}: MicroVAX 32-bit CPU
@@ -155,13 +155,13 @@
 **Desc-name**vref{1}: DCJ11 16-bit Microprocessor
 **End-chips-entry{DC}
 
-**Start-chips-entry{DC337}{CHIP}{GENERAL}
+**Start-chips-entry{DC337}{CHIP}{VAXCPU}
 **Def-lref{1} = ref{EB-29465-71}
 **Part-number**vref{1}: 78132-GA
 **Desc-name**vref{1}: MicroVAX Floating-point Unit
 **End-chips-entry{DC337}
 
-**Start-chips-entry{DC341}{CHIP}{GENERAL}
+**Start-chips-entry{DC341}{CHIP}{VAXCPU}
 **Def-lref{1} = ref{EB-29466-71}
 **Part-number**vref{1}: 78034-GA
 **Desc-name**vref{1}: CVAX Central Processing Unit (CVAX CPU)
@@ -227,7 +227,7 @@
 **Desc-name**vref{1}: MicroVAX System Support Chip (SSC)
 **End-chips-entry{DC511}
 
-**Start-chips-entry{DC513}{CHIP}{GENERAL}
+**Start-chips-entry{DC513}{CHIP}{VAXCPU}
 **Def-lref{1} = ref{EB-29466-71}
 **Part-number**vref{1}: 78134-GA
 **Desc-name**vref{1}: CVAX Floating-point Accelerator (CFPA)
@@ -238,7 +238,7 @@
 **Desc-name**vref{1}: CMOS VAXBI Bus Interface Chip (CBIC)
 **End-chips-entry{DC527}
 
-**Start-chips-entry{DC520}{CHIP}{GENERAL}
+**Start-chips-entry{DC520}{CHIP}{VAXCPU}
 **Def-lref{1} = ref{EF-A0188-50}
 **Desc-name**vref{1}: Rigel Central Processor Unit
 **End-chips-entry{DC520}
@@ -248,7 +248,7 @@
 **Desc-name**vref{1}: Rigel Clock
 **End-chips-entry{DC521}
 
-**Start-chips-entry{DC523}{CHIP}{GENERAL}
+**Start-chips-entry{DC523}{CHIP}{VAXCPU}
 **Def-lref{1} = ref{EF-A0188-50}
 **Desc-name**vref{1}: Rigel Floating-point Accelerator
 **End-chips-entry{DC523}
@@ -259,12 +259,12 @@
 **Desc-name**vref{1}: CVAX Q22-bus Interface Chip (CQBIC)
 **End-chips-entry{DC527}
 
-**Start-chips-entry{DC541}{CHIP}{GENERAL}
+**Start-chips-entry{DC541}{CHIP}{ETHERNET}
 **Def-lref{1} = ref{EF-A0188-50}
 **Desc-name**vref{1}: Ethernet Controller
 **End-chips-entry{DC541}
 
-**Start-chips-entry{DC542}{CHIP}{GENERAL}
+**Start-chips-entry{DC542}{CHIP}{IOCHIP}
 **Def-lref{1} = ref{EF-A0188-50}
 **Desc-name**vref{1}: Single Host Adapter
 **End-chips-entry{DC542}
@@ -312,7 +312,7 @@
 ! **Def-lref{3} = ref{EC-H2315-46}
 ! has 20164 data in appendix B
 
-**Start-chips-entry{DC21064}{CHIP}{ALPHA}
+**Start-chips-entry{DC21064}{CHIP}{ALPHACPU}
 **Part-number: Digital Semiconductor 21064 Alpha Microprocessor
 **Def-lref{1} = ref{EC-N0079-72}
 **Def-lref{2} = ref{EC-N0136-72}
@@ -332,7 +332,7 @@
 **Chip-power**htref{1}: 23W @ 150MHz
 **End-chips-entry{DC21064}
 
-**Start-chips-entry{DC21064A}{CHIP}{ALPHA}
+**Start-chips-entry{DC21064A}{CHIP}{ALPHACPU}
 **Part-number: Digital Semiconductor 21064A Alpha Microprocessor
 **Def-lref{1} = ref{EC-N0079-72}
 **Codename: EV45
@@ -350,7 +350,7 @@
 **Chip-power**htref{1}: 23W @ 150MHz
 **End-chips-entry{DC21064A}
 
-**Start-chips-entry{DC21066}{CHIP}{ALPHA}
+**Start-chips-entry{DC21066}{CHIP}{ALPHACPU}
 **Part-number: Digital Semiconductor 21066 Alpha Microprocessor
 **Def-lref{1} = ref{EC-QC4GB-TE}
 **Codename: LCA
@@ -367,7 +367,7 @@
 **Write-buffer**htref{1}: 4 entry
 **End-chips-entry{DC21066}
 
-**Start-chips-entry{DC21066A}{CHIP}{ALPHA}
+**Start-chips-entry{DC21066A}{CHIP}{ALPHACPU}
 **Part-number: Digital Semiconductor 21066A Alpha Microprocessor
 **Def-lref{1} = ref{EC-QC4GB-TE}
 **Codename: LCA45
@@ -384,7 +384,7 @@
 **Write-buffer**htref{1}: 4 entry
 **End-chips-entry{DC21066A}
 
-**Start-chips-entry{DC21164}{CHIP}{ALPHA}
+**Start-chips-entry{DC21164}{CHIP}{ALPHACPU}
 **Part-number: Digital Semiconductor 21164 Alpha Microprocessor
 **Def-lref{1} = ref{EC-QAEQB-TE}
 **Codename**htref{1}: EV5
@@ -405,7 +405,7 @@
 **Chip-power**htref{1}: 51W @ 300MHz
 **End-chips-entry{DC21164}
 
-**Start-chips-entry{DC21164A}{CHIP}{ALPHA}
+**Start-chips-entry{DC21164A}{CHIP}{ALPHACPU}
 **Part-number: Digital Semiconductor 21164A Alpha Microprocessor
 **Def-lref{1} = ref{EC-QP99A-TE}
 **Codename: EV56
@@ -427,12 +427,12 @@
 **Chip-power**htref{1}: {6.7W @ 400MHz (V<SUB>dd</SUB>)}{17.7W @ 400MHz (V<SUB>ddi</SUB>)}
 **End-chips-entry{DC21164A}
 
-**Start-chips-entry{DC21164PC}{CHIP}{ALPHA}
+**Start-chips-entry{DC21164PC}{CHIP}{ALPHACPU}
 **Part-number: Digital Semiconductor 21164PC Alpha Microprocessor
 **Codename: PCA56
 **End-chips-entry{DC21164PC}
 
-**Start-chips-entry{DC21264}{CHIP}{ALPHA}
+**Start-chips-entry{DC21264}{CHIP}{ALPHACPU}
 **Part-number: Digital Semiconductor 21264 Alpha Microprocessor
 **Codename: EV6
 **End-chips-entry{DC21264}
