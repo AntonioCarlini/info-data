@@ -335,6 +335,22 @@ Lotus 1-2-3 for VMS V1.5
 
 Lotus 1-2-3 ULTRIX for RISC Systems V1.2
 
+{CU-1992-07-15}
+
+DEC TCP/IP Services for OpenVMS V2.0
+
+SQL Access Server for Rdb/VMS V1.0
+
+
+{CU-1992-07-20}
+
+PATHWORKS for DOS Maintenance Release
+
+FAX Network Gateway V2.0
+
+DEC Graphical Schema Editor for Rdb/VMS V1.0
+
+DECtalk MAIL ACCESS V1.1 RETIRING
 
 {CU-1993-03-08}
 

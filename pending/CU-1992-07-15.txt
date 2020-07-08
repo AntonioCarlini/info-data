@@ -1,0 +1,18 @@
+{CU-1992-07-15}
+
+VAX 10000 Model 600 for Mainframe Class Solutions
+
+VAXft System Model 810 Program Announcement
+
+Alpha-ready CIXCD-AC for VAX 7000 and VAX 10000 Systems
+
+The CIXCD-AC device is a high-performance, intelligent XMI-to-CI interface 
+for VAX 7000 and VAX 10000 systems. The CIXCD-AC device has the same 
+performance (up to 8 Mbytes per second) and functionality as the current 
+CI*** interfaces used on the VAX 9000 (CIXCD-AA) and VAX 6000 (CIXCD-AB) 
+systems.
+
+The CIXCD-AC interface is Alpha-ready: you can continue to use it after  
+upgrading your new VAX system to an Alpha system. The adapter is also 
+backward-compatible with VAX 6000 systems with an XMI bus.
+
