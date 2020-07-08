@@ -1,0 +1,121 @@
+{CU-1992-06-05}
+
+H9A00 International Enclosure Series
+
+
+The H9A00 series consists of four enclosure sizes: 
+
+   	       	Outside Dimensions               Inside Dimensions
+
+   Model     Height    Width     Depth        Height    Width     Depth
+
+   H9A00     1700 mm	600 mm	 875 mm	      1500 mm	 450 mm	  700 mm
+   H9A02     1700 mm	800 mm	 875 mm	      1500 mm	 650 mm	  700 mm
+   H9A03     1700 mm   1000 mm	 875 mm	      1500 mm	 850 mm	  700 mm
+   H9A04     1700 mm   1200 mm	 875 mm	      1500 mm	1050 mm	  700 mm
+
+
+DECstation 5000 MODEL 120 RETIRING
+
+DECstation 5000 Model 120 vs DECstation 5000 Models 125 and 133
+
+  			 From               To                To
+                         DECstation         DECstation        DECstation
+                         5000/120           5000/125          5000/133
+                         
+Processor		 R3000A		    R3000A	      R3000A
+  Clock Speed		 20 MHz		    25 MHz	      33 MHz
+  SPECmarks		 13.7		    19.7	      25.3
+  MIPS			 21.7		    26.7	      34.4
+Memory (Maximum)	 128 MB		    128 MB	      128 MB
+Storage 
+  Internal (Maximum)	 852 MB		    852 MB	      852 MB
+  External (Maximum)	 18.2 GB	    18.2 GB	      18.2 GB
+Architecture		 SCSI		    SCSI	      SCSI
+Communications Bus	 TURBOchannel	    TURBOchannel      TURBOchannel
+
+DECstation 5000 Model 120 vs Personal DECstation 5000 Models 20, 25, and 33
+
+  		    From          To             To            To
+                    DECstation    Personal       Personal      Personal
+                    5000/120      DECstation     DECstation    DECstation
+                    		  5000/20        5000/25       5000/33
+                                  
+Processor	    R3000A	  R3000A	 R3000A	       R3000A
+  Clock Speed	    20 MHz	  20 MHz	 25 MHz	       33 MHz
+  SPECmarks	    13.7	  16.3		 19.1	       25.3
+  MIPS		    21.7	  21.6		 26.7	       34.4
+Memory (Maximum)    128 MB	  40 MB		 40 MB	       40 MB
+Storage 
+  Internal (Maximum)852 MB	  426 MB	 426 MB	       426 MB
+  External (Maximum)18.2 GB	  25.3 GB	 25.3 GB       25.3 GB
+Architecture	    SCSI	  SCSI		 SCSI	       SCSI
+Communications Bus  TURBOchannel  TURBOchannel	 TURBOchannel  TURBOchannel
+
+T-1 CSU RETIRING
+
+The T-1 CSU (DFD02-AA) is retiring. All remaining orders must be placed 
+before June 30, 1992. Maintenance will still be provided for current users.
+
+SELECTED VAX MEMORY OPTIONS RETIRING
+
+Selected VAX memory options will be retired on August 31, 1992. These 
+options can be ordered until July 31, 1992; last shipment will be on August 
+31, 1992.  
+
+Digital will continue to support the VAX memory options with its complete 
+range of service products for a minimum of seven years after the end of the 
+product's manufacturing life. The availability of refurbished memory, spare 
+parts, and trained engineers is ensured as a part of the standard retirement 
+planning.
+
+Model Numbers Retiring/Replacement Product
+
+Model No.   Description	                                 Replacement Product
+
+MS730-CA    1 MB Memory card for the VAX 11/730		 None
+MS750-CA    1 MB Memory card for the VAX 11/750		 MS750-HB
+MS780-FA    2 MB Memory card for the VAX 11/780		 MS780-JD
+MS88-AA	    4 MB Memory card for the VAX 8500, 8700, 	 MS88-CA/MS88-DA 
+	    and 8800
+MS60-AA	    8 MB Memory card for the VAXstation 	 MS60-BA/MS60-CA
+	    3520 and 3540
+
+The MS750-HB card is an 8 Mbyte memory card that can be used on the VAX 
+11/750 system. To use the MS750-HB card as a replacement product, the 
+MS750-CA card must be removed. The MS780-JD card is a 4 Mbyte memory card 
+that can replace the MS780-FA card. To use the MS780-JD card as a 
+replacement product, the MS780-FA card must be removed. Larger, denser 
+arrays (MS88-CA/DA and MS60-BA/CA cards) are available for the VAX 8500, 
+8700, and 8800 systems and VAXstation 3520 and 3540 workstations.
+
+RSX P.S.I./M AND M-PLUS RETIRING
+
+Digital is retiring the RSX P.S.I./M and M-PLUS products. 
+
+There is no Digital product that directly replaces the RSX P.S.I./M and  
+P.S.I./M-PLUS for PDP-11 systems.  Users requiring future X.25 support on 
+PDP-11 systems have the following two options:
+
+o  Digital KMV1A synchronous device plus RSX X.25 Link Level software 
+   available from EIC.
+
+o  Third-party PCM board plus link level software from vendors such as 
+   Simpact (ICP 1622).
+
+Users migrating to VAX systems can migrate to the VAX P.S.I product.
+
+WIDE AREA NETWORK PACKAGES RETIRING
+
+The following Wide Area Network packages are being retired effective June 
+30, 1992.
+
+Model No.        Description
+
+DSRZC-CA	 MUXserver 300 remote terminal server and multirate DSU/CSU 
+                 package
+DSRZC-DA	 MUXserver 310 remote terminal server and DECmodem V32 
+                 package
+DETLB-DA	 TransLAN 320 remote bridge and multirate DSU/CSU package
+DSRVR-CA	 DECrouter 250 and multirate DSU/CSU package
+DEMSA-CA	 DECrouter 2000 and T-1 ESF DSU/CSU package

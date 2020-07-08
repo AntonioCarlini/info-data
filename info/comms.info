@@ -538,6 +538,14 @@
 **Dimensions-end{DS90TL}
 **End-comms-entry{DS90TL}{TERMSERVER}
 
+**Start-comms-entry{DSYT1}{SYNCH}
+**Sys-name: DSYT1
+**Desc-name: DEC WANcontroller 720
+**Def-lref{1} = ref{CU-1992-06-05}
+**Bus**vref{1}: TURBOchannel
+**Synch-ports**vref{1}: {2 @ 64kB/s} {1 @ 1.544Mb/s}
+**End-comms-entry{DSYT1}
+
 **Start-comms-entry{LB100}{BRIDGE}
 **Sys-name: LAN Bridge 100 Ethernet Bridge
 **Def-lref{1} = ref{EK-DEBET-TM-003}

@@ -215,9 +215,11 @@
 **Def-lref{1} = ref{EK-PM30E-RB-002}
 **Def-lref{2} = ref{EK-PM30F-MG-004}
 **Def-lref{3} = ref{EK-PM32G-MG-003}
-**Sys-name: DECstation 5000 Model 33
-**Announcement**uref{*132}: 22 June 1992
-**OS-support-ultrix**uref{*131}: Ultrix V4.2A
+**Def-lref{4} = ref{CU-1992-06-05}
+**Sys-name: DS5033
+**Desc-name: DECstation 5000 Model 33
+**Announcement**vref{4}: 1992-05-15
+**OS-support-ultrix**vref{4}: Ultrix V4.2A
 **Num-proc: 1
 **CPU-module**htref{2}: KN02-DA
 ! **Module entry here looks wrong
@@ -228,7 +230,7 @@
 **Cache**htref{2}: 128KB-I/64KB-D
 **SPECmarks**uref{*131}: 25.3
 **Minimum-memory: 8MB:(on board)
-**Maximum-memory: 40MB
+**Maximum-memory**vref{4}: 40MB
 **Bus-SCSI**uref{*131}: 1 @ 5MB/s
 **Bus-TC**uref{*131}: 1 @ 50MB/s
 **LAN-support: 1
@@ -285,13 +287,16 @@
 
 **Start-systems-entry{DST5120}{DECMIPS}{DS5000}
 **Def-lref{1} = ref{DECdirect-AUG91}
+**Def-lref{2} = ref{CU-1992-06-05}
 ! vref{DECdirect-AUG91} says DECstation 5000 Models 120 and 125 differ only in the CPU module
 **Sys-name: DECstation 5000 Model 120
+**Last-order**vref{2}: 1992-06-05
+**Last-ship**vref{2}: 1992-06-05
 **Num-proc: 1
 **CPU-chip**vref{1}: R3000A
 **FPU-chip**vref{1}: R3010
 **CPU-clock**vref{1}: 20MHz
-**SPECmarks**vref{1}: 13.7
+**SPECmarks**vref{1,2}: 13.7
 **Minimum-memory**vref{1}: 8MB
 **Maximum-memory**vref{1}: 128MB
 **Memory-checking**vref{1}: Parity

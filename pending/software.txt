@@ -279,6 +279,63 @@ PL/I for RISC ULTRIX V1.0
 
 DSM for ULTRIX V1.0A
 
+{CU-1992-05-15}
+
+VAX COBOL V5.0 for VAX VMS
+
+DEC3GL Implementation Toolkit V1.0
+
+DEC VTX Text Retrieval System V1.0
+
+Electronic Data Control System II V2.2
+
+Terminal Server Manager V1.6
+
+VAX DATATRIEVE V6.0
+
+VAXELN Window Server V1.2
+
+DEC VTX V5.1
+
+{CU-1992-06-05}
+
+PATHWORKS for DOS (TCP/IP) V2.0
+
+Vivace for Windows V1.0 Desktop Integrator
+
+InfoServer 150 Software V2.1
+
+F11CD - ISO 9660 Support for VMS V5.5
+
+
+DEC RdbExpert for Rdb/VMS V2.0
+
+VAX PL/I V3.5
+
+XMedia Tools V1.1
+
+ULTRIX Disk Shadowing V1.1
+
+DEC C V1.2 for RISC ULTRIX Systems
+
+{CU-1992-06-26}
+
+CDA Runtime Services V1.0
+
+InfoServer Client for Macintosh V1.0
+BASEstar CIMfast for VMS V1.1
+DEC/EDI V1.2
+DEC Network Save and Restore V1.1
+DECview3D and DECview3D CVE for ULTRIX V2.2
+VMS DECwindows Motif V1.1
+DECwindows Motif for the Sun SPARCstation V1.1.3
+VAX Storage Library System ACS V1.0
+
+Lotus 1-2-3 for VMS V1.5
+
+Lotus 1-2-3 ULTRIX for RISC Systems V1.2
+
+
 {CU-1993-03-08}
 
 DEC Distributed Queuing Service V1.2 for OpenVMS AXP

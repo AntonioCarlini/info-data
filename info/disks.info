@@ -29,11 +29,12 @@
 **Start-storage-entry{ESE50-A}{SDI}{SOLID}
 **Sys-name: ESE50-A
 **Desc-name: ESE50 120MB/600MB/1GB Solid State Disk
-**Announcement**uref{*SUE Sep 1992}: May 1992
+**Def-lref{1} = ref{CU-1992-05-15}
+**Announcement**vref{1}: 1992-5-15
 **FRS-date**uref{*SUE Sep 1992}: May 1992
-**Capacity**uref{*142}: 120MB
+**Capacity**vref{1}: {120MB} {600MB} {1GB}
 **OS-support-VMS**uref{*142}: V5.5
-**OS-support-CRONIC**uref{8142}: CRONIC V6.0
+**OS-support-CRONIC**vref{1}: CRONIC V6.0
 ! KDM70 V2.4	<!-- *142 -->
 **Average-access**uref{*142}: 0.25ms
 **Peak-transfer-rate**uref{*142}: 2.5MB/s
@@ -1762,6 +1763,8 @@
 **Def-lref{4} = ref{EK-RZXXD-PS-005}
 **Def-lref{5} = {CU-1991-11-08}
 **def-lref{6} = ref{CU-1991-12-20}
+**Def-lref{7} = ref{CU-1992-05-15}
+**Last-order**vref{7}: 1992-05-15
 **OS-support-eln**vref{6}: VAXELN V4.3
 **Capacity**vref{5}: 209MB
 **Form-factor**htref{4}: 3-1/2" half-height
@@ -1802,11 +1805,16 @@
 **Sys-name: RZ24L
 **Desc-name: RZ24L 245MB SCSI Disk
 **Def-lref{1} = ref{EK-A0718-TI.B01}
-**Capacity**htref{1}: 245MB
+**Def-lref{2} = ref{CU-1992-05-15}
+**Announcement**vref{2}: 1992-05-15
+**Capacity**vref{2}: 245MB
+**Form-factor**vref{2}: 3.5"
 **Peak-transfer-rate**htref{1}: {4.0MB/s:(asynch)}{5.0MB/s:(synch)}{1.87MB/s:(to/from media)}
 **Average-latency**htref{1}: 6.97ms
-**Average-seek**htref{1}: 16ms
+**Average-seek**vref{2}: 16ms
+**Average-access**vref{2}: 23ms
 **Maximum-seek**htref{1}: < 30ms
+**Buffer-size**vref{2}: 256KB
 **Track-density**htref{1}: 1930 tpi
 **Recording-density**htref{1}: 38600 bpi
 **Recording-mode**htref{1}: Zone bit recording

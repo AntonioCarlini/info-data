@@ -90,6 +90,15 @@
 **Dimensions-end{LJ50X}
 **End-printers-entry{LJ50X}
 
+**Start-printers-entry{LJ252}{PRINTER}{LJ}
+**Def-lref{1} = ref{CU-1992-05-15}
+**Sys-name: LJ252
+**Desc-name: LJ252 Companion Colour Printer
+**Last-order**vref{1}: 1992-06
+**Technology**vref{1}: Ink-jet
+**Interface**vref{1}: PC Parallel
+**End-printers-entry{LJ252}
+
 **Start-printers-entry{LA100}{PRINTER}{LA}
 **Sys-name: LA100 Letterprinter
 **Def-lref{1} = ref{EK-LA100-RG-001}

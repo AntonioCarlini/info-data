@@ -1170,3 +1170,27 @@
 **Interface: SCSI
 **End-storage-entry{TZK60}
 
+**Start-storage-entry{TLZ08}{SCSI_TAPE}{TLZ}
+**Sys-name: TLZ08
+**Desc-name: TLZ08 Tape Drive
+**Def-lref{1} = ref{CU-1992-06-05}
+**Annoucment**vref{1}: 1992-06-05
+**Capacity**vref{1}: 2.2GB
+**Peak-transfer-rate**vref{1}: 246kB/s
+**Technology**vref{1}: 8mm helican scan
+**OEM-Device**vref{1}: Exabyte EXB-8200
+**Interface**vref{1}: SCSI
+**End-storage-entry{TLZ08}
+
+**Start-storage-entry{TLZ09}{SCSI_TAPE}{TLZ}
+**Sys-name: TLZ09
+**Desc-name: TLZ09 Tape Drive
+**Def-lref{1} = ref{CU-1992-06-05}
+**Annoucment**vref{1}: 1992-06-05
+**Capacity**vref{1}: 5GB
+**Peak-transfer-rate**vref{1}: 500kB/s
+**Technology**vref{1}: 8mm helican scan
+**OEM-Device**vref{1}: Exabyte EXB-8500
+**Interface**vref{1}: SCSI
+**End-storage-entry{TLZ09}
+
