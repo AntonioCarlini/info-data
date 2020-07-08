@@ -239,6 +239,46 @@ PDP-11 C V1.2 Language Compiler
 
 VAX DOCUMENT V2.1
 
+{CU-1992-04-03}
+
+DEC Realtime Integrator (DECrti) V3.0
+
+VAX System V V3.2.1
+
+DEC RdbAccess for VAX RMS on VMS V2.0
+
+WPS-PLUS for VMS V4.1
+
+{CU-1992-04-24}
+
+DECmcc Extended LAN Manager V1.2
+
+DECmcc UNIX Distributed Management PASS V1.2
+
+DECinspect Security Reporting Facility for VMS V2.0
+
+DECinspect Intrusion Detector for VMS V1.0
+
+DECalert V1.2
+
+VAX REMS V1.4
+
+DECscheduler for VMS V2.0
+
+CDA Developer's Kit V1.0
+
+DECvoiceBuilder V1.0
+
+VXT 2000 V1.1
+
+DEC Reliable Transaction Router for ULTRIX Clients V1.0
+
+DEC Remote Operation Service (DECros)
+
+PL/I for RISC ULTRIX V1.0
+
+DSM for ULTRIX V1.0A
+
 {CU-1993-03-08}
 
 DEC Distributed Queuing Service V1.2 for OpenVMS AXP

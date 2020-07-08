@@ -99,6 +99,11 @@
   - Range of Digital Unix or Tru64 versions that support this system
   - alpha
   - summary
+- OS-support-SYSV:
+  - OS support (AT&T System V)
+  - Range of System V versions that suppor this system
+  - vax
+  - summary
 - CPU-name-VMS:
   - CPU name (VMS)
   - CPU name as reported by ANALYZE/ERROR under VMS

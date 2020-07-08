@@ -179,6 +179,26 @@
 **Dimensions-end{LA34}
 **End-printers-entry{LA34}
 
+**Start-printers-entry{LA324}{PRINTER}{LA}
+**Sys-desc: LA324
+**Desc-name: LA324 Printer
+**Def-lref{1} = ref{CU-1992-04-24}
+**Last-order**vref{1}: 1992-05-01
+**Last-ship**vref{1}: 1992-05-29
+**End-printers-entry{LA324}
+
+**Start-printers-entry{LA424}{PRINTER}{LA}
+**Sys-desc: LA424
+**Desc-name: LA424 Printer
+**Def-lref{1} = ref{CU-1992-04-24}
+**Announcement**vref{1}: 1992-04-24
+**FCS-date**vref{1}: 1992-05
+**Print-speed**vref{1}: {480 cps draft @ 12 cpi} {400 cps draft @ 10 cpi} {133 cps letter quality @ 10 cpi}
+**Printhead**vref{1}: 24-wire
+**Buffer**vref{1}: 8 KB
+**Interface**vref{1}:  RS423 serial and IBM/Centronic Parallel
+**End-printers-entry{LA424}
+
 **Start-printers-entry{LA50}{PRINTER}{LA}
 **Sys-name: LA50 Printer
 **Def-lref{1} = ref{EK-OLA50-RM-002}

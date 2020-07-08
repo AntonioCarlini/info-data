@@ -1117,6 +1117,7 @@
 **Def-lref{3} = ref{EC-N0377-46}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
 **def-lref{5} = ref{CU-1991-10-30}
+**def-lref{6} = ref{CU-1992-04-03}
 **document=doc{DEC:EK-650EA-TM-001} ! VAX 6000 Model 500 System Technical User's Guide
 **document=doc{DEC:EK-650EA-HR-001} ! VAX 6000 Model 500 Mini-Reference
 **document=doc{DEC:6500 REL NOTES} ! VAX 6000 Model 500 Hardware Release Notes
@@ -1131,6 +1132,7 @@
 ! Flowchart has V5.4-OA
 **OS-support-ULTRIX**uref{59}: V4.1
 **OS-support-ELN**uref{*74}: V4.3
+**OS-support-SYSV**vref{6}: V3.2.1
 **CPU-module**vref{1}: KA65A
 **Module**uref{%CALYPSO:984.1}: T2052-AA
 **CPU-name-VMS: KA65A
@@ -2891,13 +2893,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{VXFT310}{VAX}{VAXFT}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
 **def-lref{2} = ref{SOCEE-SPR90}
+**def-lref{3} = ref{CU-1992-04-24}
 **document=doc{DEC:VAXFT-ARCHITECTURE} ! VAXft 310 Architecture Overview
 **Sys-name: VAXft 310
 **Desc-name: VAXft Model 310
 **Announcement**uref{*18, %VAXFT:68.0 }: 27 February 1990
 **FRS-date**uref{%VAXFT:92.0}: 19 May 1995
-**Last-order**uref{*SUE Apr 1992 pt II}: 30 June 1992
-**Last-ship**uref{*SUE Apr 1992 pt II}: 30 September 1992
+**Last-order**vref{3}: 30 June 1992
+**Last-ship**vref{3}: 30 September 1992
 **Codename: Cirrus
 **OS-support-VMS**uref{*18}: V5.4
 ! Flowchart has V5.4-3

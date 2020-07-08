@@ -2102,6 +2102,8 @@
 **Def-lref{3} = ref{EK-VSM30-OM-002}
 **Def-lref{4} = ref{EK-RZXXD-PS-005}
 **Def-lref{5} = ref{CU-1992-01-10}
+**Def-lref{6} = ref{CU-1992-04-03}
+**Last-order**vref{6}: 1992-04-03
 **Capacity**vref{5}: 332MB
 **Form-factor**htref{4}: 5-1/4" full-height
 **Peak-transfer-rate**htref{1}: {1.5MB/s:(asynch)}{4.0MB/s (synch)}{1.25MB/s:(to/from media)}

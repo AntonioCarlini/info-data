@@ -36,9 +36,38 @@ It supports up to 14
 IEEE488 devices and achieves a data throughput of more than 500 Kbytes per 
 second.
 
+{CU-1992-04-03}
+
+Super VGA Card for Non-Interlaced Monitors
+
+
+The 1024 x 768 non-interlaced adapter (PCXAG-AC) is an IBM PC/AT compatible 
+option board that provides 640 x 480 resolution with 256 colors or 1024 x 
+768 resolution with 16 color super VGA capability for DECpc and DECstation 
+series personal computers. With a video memory upgrade of 512 Kbytes, 
+monitors will display with 1024 x 768 resolution and 256 colors.
+
+The adapter consists of the PVGA1D video subsystem, BIOS, display memory, 
+RAMDAC, board configuration circuitry, and I/O to the host computer. The 
+hardware is transparent to you. Its associated BIOS firmware provides the 
+interface between your application and the hardware.
+
+
+Graphic Memory Upgrade for Super VGA Card
 
 
 
+The PC4GM-AA is a 512 Kbyte, 70 nanosecond, graphic memory upgrade kit.  
+When used on the 1024 x 768 non-interlaced super video graphics adapter 
+(PCXAG-AC), it allows you to operate at a resolution of 1024 x 768 and 
+display 256 colors on DECpc and DECstation series personal computers.
+
+
+Industry Standard Floppy Drive with Brackets
+
+The PCXDR-AA is an industry standard 3.5-inch, 1.44 Mbyte floppy drive with 
+two brackets for mounting in 5.25-inch bay DECpc and DECstation series 
+personal computers.
 
 
 
