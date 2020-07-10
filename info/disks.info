@@ -8,9 +8,10 @@
 **Sys-name: ESE20
 **Desc-name: ESE20 120MB Solid State Disk
 **Def-lref{1} = ref{SOC-SPR90}
-**Last-order**uref{*SUE Sep 1992}: 15 November 1992
-**Last-ship**uref{*SUE Sep 1992}: 31 December 1992
-**Capacity**htref{1}: 120MB
+**Def-lref{2} = ref{CU-1992-10-12}
+**Last-order**vref{2}: 15 November 1992
+**Last-ship**vref{2}: 31 December 1992
+**Capacity**vref{2}: 120MB
 **OS-support-vms**htref{1}: VMS V5.1
 **OS-support-ultrix**htref{1}: Ultrix V3.1
 **Average-seek**htref{1}: 1ms
@@ -216,6 +217,48 @@
 **Weight**vref{1}: 7.0oz
 **Dimensions-end{PCXAR-BA}
 **End-storage-entry{PCXAR-AB}
+
+**Start-storage-entry{PCXAR-CC}{IDE}{PC}
+**Def-lref{1} = ref{CU-1992-10-12}
+**Sys-name: PCXAR-CC
+**Desc-name: PCXAR-CC 122MB IDE Disk
+**Announcement**vref{1}: 1992-10-12
+! vref{1} lists further characteristics
+**Capacity**vref{1}: 122.4 MB
+**Bytes-per-block**vref{1}: 512
+**Peak-transfer-rate**vref{1}: {1.87MB/s:to media} {3.75MB/s:from media}
+**Average-seek**vref{1}: 16 ms
+**Rotational-speed**vref{1}: 4306 rpm
+**Interleave**vref{1}: 1:1
+**Track-track-seek**vref{1}: 2.5 ms
+**Head-switch-latency**vref{1}: 2.0 ms
+**Interface**vref{1}: IDE
+**Dimensions-start{PCXAR-CC}
+! vref{1} has H W D but in a badly formatted format
+**Weight**vref{1}: 1.05 lb
+**Dimensions-end{PCXAR-CC}
+**End-storage-entry{PCXAR-CC}{IDE}{PC}
+
+**Start-storage-entry{PCXAR-CD}{IDE}{PC}
+**Def-lref{1} = ref{CU-1992-10-12}
+**Sys-name: PCXAR-CD
+**Desc-name: PCXAR-CD 245MB IDE Disk
+**Announcement**vref{1}: 1992-10-12
+! vref{1} lists further characteristics
+**Capacity**vref{1}: 245.4 MB
+**Bytes-per-block**vref{1}: 512
+**Peak-transfer-rate**vref{1}: {1.87MB/s:to media} {3.75MB/s:from media}
+**Average-seek**vref{1}: 16 ms
+**Rotational-speed**vref{1}: 4306 rpm
+**Interleave**vref{1}: 1:1
+**Track-track-seek**vref{1}: 2.5 ms
+**Head-switch-latency**vref{1}: 2.0 ms
+**Interface**vref{1}: IDE
+**Dimensions-start{PCXAR-CC}
+! vref{1} has H W D but in a badly formatted format
+**Weight**vref{1}: 1.05 lb
+**Dimensions-end{PCXAR-CC}
+**End-storage-entry{PCXAR-CC}{IDE}{PC}
 
 **Start-storage-entry{PCXBR-AA}{SCSI}{PC}
 **Def-lref{1} = ref{CU-1991-09-06}
@@ -1392,15 +1435,16 @@
 **Start-storage-entry{RM06}{MASSBUS}{RM}
 **Sys-name: RM06
 **Desc-name: RM06 Removable Disk
+**Def-lref{1} = ref{CU-1992-08-10}
 !This is a replacement drive for the RM03, RM05 and RP06. This is an optical
 !drive which provides full controller/drive emulation; no software changes are
-!required.
-**Dimensions-start{RM06}
-**Height**uref{SUE Aug 1992 Iss 2}: 6in	
-**Width**uref{SUE Aug 1992 Iss 2}: 16in
-**Depth**uref{SUE Aug 1992 Iss 2}: 18in
-**Weight**uref{SUE Aug 1992 Iss 2}: 28lbs
-**Dimensions-end{RM06}
+!required. Media is removable
+**Dimensions-start{RM06-Drive}
+**Height**vref{1}: 6in	
+**Width**vref{1}: 16in
+**Depth**vref{1}: 18in
+**Weight**vref{1}: 28lbs
+**Dimensions-end{RM06_Drive}
 **End-storage-entry{RM06}
 
 **Start-storage-entry{RP03}{MASSBUS}{RP}

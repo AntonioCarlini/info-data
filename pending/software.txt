@@ -352,6 +352,85 @@ DEC Graphical Schema Editor for Rdb/VMS V1.0
 
 DECtalk MAIL ACCESS V1.1 RETIRING
 
+{CU-1992-08-10}
+
+DEC Object/DB V1.0
+
+DECdesign V2.0
+
+VAX Data Distributor V2.3
+
+DECmpp Software V1.1 for Massively Parallel Systems
+
+DEC Network Integration Server (DECNIS) Software V1.1
+
+DECnet/OSI for ULTRIX V5.1
+
+DECtrade Platform V2.0
+
+PATHWORKS Desktop Backup V1.0
+
+{CU-1992-08-31}
+
+DECforms for ULTRIX RISC and OpenVMS VAX V1.4
+
+ULTRIX and ULTRIX Worksystem Software (UWS) V4.3
+
+ULTRIX MLS+ Trusted Worksystem Software V1.0A
+
+DEC GKS V5.0
+
+DECADMIRE for OpenVMS V1.0
+
+PATHWORKS for DOS Supports LAN Manager V2.1
+
+PrintServer Software for SPARC Systems V4.1
+
+{CU-1992-09-21}
+
+DEComni for VMS V2.0 and DEComni for ULTRIX V2.0
+
+DECosap for VMS V2.0 and DECosap for ULTRIX V2.0
+
+DECathena V1.1
+
+POLYCENTER SNA Manager for OpenVMS V1.0
+
+POLYCENTER System Census Product Set V1.0
+
+POLYCENTER System Watchdog for OpenVMS V1.0
+
+POLYCENTER Account Manager for OpenVMS V1.0
+
+MAILbus Conversion Manager for OpenVMS V1.0
+
+MAILbus Postmaster for LANs/WANs V2.0
+
+PATHWORKS X.25 (DOS) V1.0
+
+CDA Converter Library V2.0 for OpenVMS and ULTRIX
+
+DEC Realtime Integrator V3.0 for VAXELN Software
+
+Enhanced DECserver Terminal Server Software
+
+OpenVMS VAX V5.5-2HW Limited Hardware Release
+
+DECreport for Windows V1.0A
+
+New Release of Lotus 1-2-3 for ALL-IN-1
+
+{CU-1992-10-12}
+
+DEC LMF Usage Assignment Editor for VMS V1.0
+
+DEC LMF License Usage Monitor for ULTRIX V1.0
+
+DECmcc Terminal Server Access Module V1.0
+
+DEC LANcontroller 602 and DECNIS V1.2 Software
+
+
 {CU-1993-03-08}
 
 DEC Distributed Queuing Service V1.2 for OpenVMS AXP

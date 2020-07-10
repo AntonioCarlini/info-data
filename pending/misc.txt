@@ -79,3 +79,7 @@ The TURBOchannel to CI adapter (CITCA-AA) is a triple-wide TURBOchannel
 module that connects DECsystem 5900 or DECsystem 5000 Model 240 systems to 
 the 140 megabit per second CI environment.
 
+{CU-1992-08-31}
+
+IET11 TURBOchannel/IEEE488 Converter
+

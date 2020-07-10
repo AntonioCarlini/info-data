@@ -333,6 +333,15 @@
 **Dev-req-resp: ESC [ ? 6 3 ; Ps c
 **End-terminals-entry{VT330}
 
+**Start-terminals-entry{VT330PLUS}{DECVT}{VT300}
+**Sys-name: VT330+ Video Terminal
+**Def-lref{1} = ref{CU-1992-08-10}
+**Last-order**vref{1}: 1992-08-10
+**Html-target: vt300
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 6 3 ; Ps c
+**End-terminals-entry{VT330PLUS}
+
 **Start-terminals-entry{VT340}{DECVT}{VT300}
 **Sys-name: VT340 Video Terminal
 **Html-target: vt300

@@ -152,6 +152,22 @@
 **Dimensions-end{RRD50-T}
 **End-storage-entry{RRD50}
 
+**Start-storage-entry{RV20}{UNK}{OPTICAL}
+**Sys-name: RV20
+**Desc-name: RV20 Write-Once Optical Drive
+**def-lref{1} = ref{CU-1992-09-21}
+**Last-order**vref{1}: 1992-12-31
+**Last-ship**vref{1}: 1993 Q1
+**End-storage-entry{RV20}
+
+**Start-storage-entry{RV64}{UNK}{OPTICAL}
+**Sys-name: RV64
+**Desc-name: RV64 Optical Storage Library
+**def-lref{1} = ref{CU-1992-09-21}
+**Last-order**vref{1}: 1992-08-31
+**Last-ship**vref{1}: 1993 Q1
+**End-storage-entry{RV20}
+
 **Start-storage-entry{RWZ01-AA}{SCSI}{OPTICAL}
 **Sys-name: RZW01
 **Desc-name: RWZ01 Rewritable Optical Disk Drive

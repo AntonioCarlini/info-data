@@ -1,8 +1,15 @@
 ! CU-1991-09-06: PCXCV 14-inch diagonal measured VGA-compatible
-! CU-1991-09-06: 
-! CU-1991-09-06: 
-! CU-1991-09-06: 
-! CU-1991-09-06: 
+
+**Start-monitors-entry{ELT320}{FLATPANEL}{ELT}
+**Def-lref{1} = ref{CU-1992-08-10}
+**Emulations**vref{1}: {VT320} {VT220}
+**Display-size**vref{1}: 9"
+**Keyboard**vref{1}: {LK401-AA} {LK402-AA}
+**Dimensions-start{ELT320}
+**Weight**vref{1}: 4.3lb
+**Dimensions-end{ELT320}
+**End-monitors-entry{ELT320}
+
 **Start-monitors-entry{VR150}{MONITOR}{VR}
 **Sys-name: VR150 15" Monochrome Monitor
 **Def-lref{1} = ref{EK-302AB-OG-002}
@@ -33,6 +40,37 @@
 **Power**uref{1}: 70W:nominal
 **Power-end{VR150}
 **End-monitors-entry{VR150}
+
+**Start-monitors-entry{PC7XVD}{MONITOR}{PC7XV}
+**Sys-name: PC7XV-D
+**Desc-name: PC7XV-D 14" Colour Monitor
+**Def-lref{1} = ref{CU-1992-09-21}
+! vref{1}: intended for worldwide use
+**Screen-size**vref{1}: 14"
+**V-frequency**vref{1}: 60 Hz - 72 Hz
+**H-frequency**vref{1}: 31.5 kHz - 57 kHz
+**Screen-size**vref{1}: {640x480 pixels} {1024x864 pixels}
+**End-monitors-entry{PC7XVD}
+
+**Start-monitors-entry{PC7XVE}{MONITOR}{PC7XV}
+**Sys-name: PC7XV-E
+**Desc-name: PC7XV-E 14" Colour Monitor
+**Def-lref{1} = ref{CU-1992-09-21}
+! vref{1}: intended for European use
+**Screen-size**vref{1}: 14"
+**V-frequency**vref{1}: 60 Hz / 70 Hz
+**H-frequency**vref{1}: 31.5 kHz
+**End-monitors-entry{PC7XVE}
+
+**Start-monitors-entry{PC7XVL}{MONITOR}{PC7XV}
+**Sys-name: PC7XV-L
+**Desc-name: PC7XV-L 14" Monochrome Monitor
+**Def-lref{1} = ref{CU-1992-09-21}
+! vref{1}: intended for European use
+**Screen-size**vref{1}: 14"
+**V-frequency**vref{1}: 60 Hz / 70 Hz
+**H-frequency**vref{1}: 31.5 kHz
+**End-monitors-entry{PC7XVL}
 
 **Start-monitors-entry{VR160}{MONITOR}{VR}
 **Sys-name: VR160 15" Colour Monitor

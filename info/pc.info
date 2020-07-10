@@ -1,3 +1,32 @@
+**Start-systems-entry{PC325P}{DECPC}{PC325P}
+**Def-lref{1} = ref{CU-1992-08-31}
+**Sys-name: DECpc325P
+**Desc-name: DECpc 325P Notebook Personal Computer
+**Announcement**vref{1}: 1992-08-31
+**CPU-chip**vref{1}: 80386SL
+**CPU-clock**vref{1}: 25 MHz
+**cache**vref{1}: 16 KB
+**Minimum-memory**vref{1}: 2 MB
+**Maximum-memory**vref{1}: 8 MB
+!**FDD**vref{1}: 1.44 MB 3.5-inch floppy diskette drive
+!**HDD**vref{1}: {80 MB} {120 MB}
+!**Keyboard**vref{1}: 84 key keyboard
+!**Display: LCD VGA
+!**Display-technology**vref{1}: TST (Triple Super Twist) backlight
+!**Modem**vref{1}: 9600 baud fax/2400 baud data modem
+!**AC-adapter**vref{1}: 104-264 V; weighs less than 1 lb; 5.0" x 2.5" x 1.5"
+!**Battery**vref{1}: NiCd battery pack
+!**Mouse**vref{1}: Integrated pointing device
+!**Trackball**vref{1}: Logitech Trackball
+!**Interfaces**vref{1}: {Serial} {Parallel}
+!**Expansion-slots**vref{1}: 1 proprietary data modem
+**Dimensions-start{DECPC325)}
+! vref{1} 8.7" x 11.7" x 1.7"
+**Weight**vref{1}: 5.9 lb
+**Dimensions-end{DECPC325)}
+!**Battery-life**vref{1}: 4 hr
+**End-systems-entry{PC325P}
+
 **Start-systems-entry{PC433WS}{DECPC}{PC433WS}
 **Def-lref{1} = ref{CU-1991-09-06}
 **Sys-name: DECpc 433 Workstation

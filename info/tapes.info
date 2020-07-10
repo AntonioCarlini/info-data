@@ -1,3 +1,4 @@
+! Intended for tape storage devices of all sorts
 **Start-storage-entry{PCXAT-A*}{TAPE}{PC}
 **Sys-name: PCXAT-A*
 **Desc-name: PCXAT-A* Cartridge Tape Drive
@@ -7,7 +8,15 @@
 **Peak-transfer-rate**htref{1}: 3MB/s:(asynchronous)
 **End-storage-entry{PCXAT-A*}
 
-! Intended for tape storage devices of all sorts
+**Start-storage-entry{TA79}{STI}{TA}
+**Def-lref{1} = ref{CU-1992-08-10}
+**Last-order**vref{1}: 1992-12-31
+**Last-ship**vref{1}: 1993 Q1
+**Capacity**vref{1}: 145 MB
+**Recording-density**vref{1}: {1600bpi} {6250bpi}
+**Interface**vref{1}: STI
+**End-storage-entry{TA79}
+
 **Start-storage-entry{TA90}{STI}{TA}
 **Sys-name: TA90
 **Desc-name: TA90 Magnetic Tape Cartridge Drives
@@ -1026,13 +1035,14 @@
 **FRS-date**uref{SUE Aug 1992 Iss 1}: May 1991
 **End-storage-entry{TZK08}
 
-**Start-storage-entry{TZK09}{SCSI_TAPE}{TZK}
+**Start-storage-entry{TKZ09}{SCSI_TAPE}{TZK}
+**Def-lref{1} = ref{CU-1992-08-10}
 **Sys-name: TZK09
 **Desc-name: TZK09 5GB 8mm Cartridge Tape Drive
-!-- %% This is an Exabyte EXB-8500 from TTI -->
-!-- ?? is this TZK09 or TKZ09 ?? -->
-**FRS-date**uref{SUE Aug 1992 Iss 1}: August 1992
-**Capacity**uref{SUE Aug 1992 Iss 1}: 5GB
+**FRS-date**vref{1}: 1992-08-10
+**Capacity**vref{1}: 5GB
+**Peak-transfer-rate**vref{1}: 500KB/s
+**OEM-Device**vref{1}: Exabyte EXB-8500
 **End-storage-entry{TZK09}
 
 **Start-storage-entry{TZK10}{SCSI_TAPE}{TZK}
@@ -1201,4 +1211,17 @@
 **OEM-Device**vref{1}: Exabyte EXB-8500
 **Interface**vref{1}: SCSI
 **End-storage-entry{TLZ09}
+
+**Start-storage-entry{TU79}{MASSBUS}{TU}
+**Def-lref{1} = ref{CU-1992-08-10}
+**Last-order**vref{1}: 1992-12-31
+**Last-ship**vref{1}: 1993 Q1
+**Interface**vref{1}: MASSBUS
+**End-storage-entry{TU79}
+
+**Start-storage-entry{TU90}{MASSBUS}{TU}
+**Def-lref{1} = ref{CU-1992-08-31}
+**Last-order**vref{1}: 1992-11-30
+**Last-ship**vref{1}: 1993 Q1
+**End-storage-entry{TU90}
 

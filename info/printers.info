@@ -90,11 +90,20 @@
 **Dimensions-end{LJ50X}
 **End-printers-entry{LJ50X}
 
+**Start-printers-entry{LJ250}{PRINTER}{LJ}
+**Def-lref{1} = ref{CU-1992-08-10}
+**Sys-name: LJ250
+**Desc-name: LJ250
+**Last-order**vref{1}: 1992-08
+**End-printers-entry{LJ250}
+
 **Start-printers-entry{LJ252}{PRINTER}{LJ}
 **Def-lref{1} = ref{CU-1992-05-15}
+**Def-lref{2} = ref{CU-1992-08-10}
 **Sys-name: LJ252
 **Desc-name: LJ252 Companion Colour Printer
 **Last-order**vref{1}: 1992-06
+**Last-ship**vref{2}: 1992-08-30
 **Technology**vref{1}: Ink-jet
 **Interface**vref{1}: PC Parallel
 **End-printers-entry{LJ252}
@@ -434,6 +443,22 @@
 ! [1] Built-in PostScript support
 **Print-speed**lref{1}: 20 pages/min
 **End-printers-entry{tLPS20}
+
+**Start-printers-entry{LPS32}{PRINTER}{LPS}
+**Def-lref{1} = ref{CU-1992-08-31}
+**Sys-name: LPS32
+**Desc-name: PrintServer 32
+**Print-speed**vref{1}: 32 pages/min
+**Monthly-usage**vref{1}: 150,000 pages
+**Input-capacity**vref{1}: 1500 sheets 
+**Output-capacity**vref{1}: 1500 sheets 
+** RAM**vref{1}: 12 MB
+**Fonts**vref{1}: 29 resident
+**Interfaces**vref{1}: Ethernet
+**Pagedescription-language**vref{1}: PostScript
+**Emulations**vref{1}: {HP-PCL} {ASCII} {ANSI} {TEKTRONIX} {ReGIS}
+**DuplexY: Standard
+**End-printers-entry{LPS32}
 
 **Start-printers-entry{LQP02}{PRINTER}{LQ}
 **Sys-name: LQP02 Printer

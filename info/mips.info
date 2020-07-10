@@ -312,9 +312,12 @@
 
 **Start-systems-entry{DST5125}{DECMIPS}{DS5000}
 **Def-lref{1} = ref{DECdirect-AUG91}
-**def-lref{2} = ref{CU-1991-12-20}
+**Def-lref{2} = ref{CU-1991-12-20}
+**Def-lref{3} = ref{CU-1992-08-10}
 ! vref{DECdirect-AUG91} says DECstation 5000 Models 120 and 125 differ only in the CPU module
 **Sys-name: DECstation 5000 Model 125
+**Last-order**vref{3}: 1992-09-25
+**Last-ship**vref{3}: 1992-12-31
 **Num-proc: 1
 **CPU-chip**vref{1}: R3000A
 **FPU-chip**vref{1}: R3010
@@ -464,7 +467,11 @@
 
 **Start-systems-entry{DSYS5100}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{EK-422AA-MG.001}
-**Sys-name: DECsystem 5100
+**def-lref{2} = ref{CU-1992-09-21}
+**Sys-name: DECsystem 5100last order date: December 31, 1992; last ship date: March 31, 1993 
+! verf{2} gives dates below for Europe; for US 
+**Last-order**vref{2}: 1993-03-31
+**Last-ship**vref{2}: 1993-06-30
 ! MS44-AA (4MB) MS44-CA (16MB)
 ! H7822-00 PSU
 **CPU-module**vref{1}: KN230

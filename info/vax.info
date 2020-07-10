@@ -20,6 +20,7 @@
 **Def-lref{2} = ref{EK-473AB-MG.C01}
 **def-lref{3} = ref{EK-VAXCT-CG-006}
 **def-lref{4} = ref{CU-1992-07-15}
+**def-lref{5} = ref{CU-1992-09-21}
 **document=doc{DEC:EK-467AA-TI-A01} ! VAX 4000 Model 100 Customer Technical Information
 **document = doc{DEC:EK-473AA-MG-A01}
 **document=doc{DEC:EK-473AB-MG-C01} ! VAX 4000 Model 100,100A,105A,106A KA52/53/54 CPU Sys Maint
@@ -42,7 +43,7 @@
 **Desc-name: VAX 4000 Model 100/100A
 **Announcement**vref{4}: 1992-07-15
 **OS-support-VMS**vref{1}: V5.5-1HN
-! Flowchart has V5.5-2HW
+! Flowchart has V5.5-2HW **vref{5} has V5.5-2HW
 **OS-support-MDM**vref{1}: MDM Release 137A
 **CPU-module**vref{1}: KA52-AA
 **Module**vref{1}: 54-21797-01
@@ -474,12 +475,13 @@
 **def-lref{2} = ref{EK-454AA-MG-001}
 **def-lref{3} = ref{EK-VAXCT-CG-006}
 **def-lref{4} = ref{CU-1992-07-15}
+**def-lref{5} = ref{CU-1992-09-21}
 **document=doc{DEC:EK-454AA-MG-001} ! KA675/KA680/KA690 CPU System Maintenance
 **Sys-name: VAX 4000-400
 **Desc-name: VAX 4000 Model 400
 **Announcement**vref{4}: 15 July 1992
 **Codename**uref{*102}: Omega-S
-**OS-support-VMS: V5.5-2HW
+**OS-support-VMS**vref{5}: V5.5-2HW
 ! vref{2} states:
 !The minimum VMS revision for DSSI VAXcluster of more than two nodes with:
 ! a. VAX 4000 Model 300 is VMS 5.4-3
@@ -3322,6 +3324,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{1} = ref{EK-A0606-TM.B01}
 **def-lref{2} = ref{EK-M3100-SM.B01}
 **def-lref{3} = ref{CU-1992-07-15}
+**def-lref{4} = ref{CU-1992-09-21}
 **document=doc{DEC:EK-A0514-MG} ! MicroVAX 3100 Platform KA50 CPU System Maintenance
 **document=doc{DEC:EK-A0604-IN-B01} ! MicroVAX 3100 Model 90 Installation Information
 **document=doc{DEC:EK-A0606-TM-B01} ! MicroVAX 3100 Model 90 Customer Technical Information
@@ -3329,7 +3332,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Announcement**vref{3}: 15 July 1992
 **FCS-date**vref{3}: Late September 1992
 **Codename: Cheetah-W
-**OS-support-VMS: V5.5-2HW
+**OS-support-VMS**vref{4}: V5.5-2HW
 **CPU-module**vref{1,3}: KA50
 **Firmware-version**uref{personally verified}: V2.6
 **CPU-name-VMS**uref{*2}: KA50
@@ -4403,13 +4406,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{2} = ref{EC-N0857-51}
 **Def-lref{3} = ref{DECdirect-NOV92}
 **def-lref{4} = ref{CU-1992-07-15}
+**def-lref{5} = ref{CU-1992-09-21}
 **document=doc{DEC:EK-KA490-SV-A01} ! VAXstation 4000 Model 90 Service Information
 **document=doc{DEC:EK-VAXOG-IN-B01} ! VAXstation 4000 Model 90 Owner's and System Installation Guide
 **document=doc{DEC:EK-VX690-UP-A01} ! VAXstation 4000 Model 60 to VAXstation 4000 Model 90 Upgrade Guide
 **document=doc{DEC:VS TCA} ! VAXstation 4000 Model 60/90 TURBOchannel Bus Adapter Specification
 **Announcement**vref{4}: 15 July 1992
 **Codename: Cougar
-**OS-support-VMS: VMS V5.5-2HW
+**OS-support-VMS**vref{5}: VMS V5.5-2HW
 **CPU-module**vref{1}: KA49
 **CPU-name-VMS**uref{2}: KA49
 **CPU-name-console: K49-A
@@ -4555,7 +4559,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{DECdirect-AUG91}
 **Def-lref{4} = ref{DECdirect-FEB92}
+**Def-lref{5} = ref{CU-1992-10-12}
 **Announcement**uref{*47}: 25 October 1990
+**Last-order**vref{5}: 1993-03-31
+**Last-ship**vref{5}: 1993-06-30
 **Html-target: uv3100
 **OS-support-VMS**uref{*26}: VMS V5.3
 **CPU-module: KA41-D
