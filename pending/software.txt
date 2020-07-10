@@ -431,6 +431,100 @@ DECmcc Terminal Server Access Module V1.0
 DEC LANcontroller 602 and DECNIS V1.2 Software
 
 
+{CU-1992-11-02}
+
+
+POLYCENTER SNMP Manager 300 V1.2
+
+POLYCENTER Common Agent for ULTRIX V1.0
+
+DECnsr V2.0 Network Backups for UNIX and PC Systems
+
+DEC C++ for ULTRIX V1.2
+
+DEC C++ for OpenVMS VAX V1.1
+
+NAS 250 for SunOS SPARCstation
+
+DECnet/OSI for OpenVMS VAX V5.5
+
+OSI Application Developer's Toolkit V1.1
+
+DEC InstantSQL for Rdb/VMS V1.1
+
+RT-11 V5.6 Operating System
+
+TPframe V1.1
+
+VIDA for DB2 V1.1
+
+VAX DECcalc TO LOTUS 1-2-3 FOR OpenVMS V1.5
+
+HUBwatch for POLYCENTER SNMP Manager 300 V1.2
+
+{CU-1992-11-23}
+
+DEC OSF/1 Operating System V1.2
+
+System V Environment for DEC OSF/1 V1.2
+
+DEC OSF/1 Developer's Extensions V1.2
+
+DEC OSF/1 Server Extensions V1.2
+
+DECnet/OSI for DEC OSF/1 Alpha AXP V1.0
+
+DEC X.25 for DEC OSF/1 Alpha AXP V1.0
+
+DECmigrate for DEC OSF/1 V1.2
+
+Migration Program for DEC OSF/1 V1.2
+
+OpenVMS AXP V1.0
+
+DECnet for OpenVMS AXP V1.0
+
+DECwindows Motif for OpenVMS AXP V1.1
+
+DEC FMS for OpenVMS AXP V2.4
+
+MACRO-64 Assembler for OpenVMS AXP V1.0
+
+DECmigrate for OpenVMS AXP V1.0
+
+DECset V11.0 Programming Environment for OpenVMS AXP
+
+DECram for OpenVMS V1.1
+
+{CU-1992-12-14}
+
+DECps V1.1
+
+DECtrace for VMS V1.2
+
+TeMIP V1.0 for ULTRIX
+
+DECelx Realtime Tools for ULTRIX V2.0
+
+BASEstar Graphics Enabler for VMS and ULTRIX V1.0
+
+DECprint Supervisor for OpenVMS V1.0
+
+DEC Rdb for OpenVMS V4.2
+
+VAX Data Distributor V2.4
+
+DEC SERdb for Security Enhanced VMS V4.2
+
+DECmcc BMS V1.1 to DECmcc ELM AM Upgrade Solution
+
+DEC Ada V1.1 for ULTRIX RISC Systems
+
+RSTS/E V10.1
+
+InfoServer 150 Kernel Software V2.2
+
+
 {CU-1993-03-08}
 
 DEC Distributed Queuing Service V1.2 for OpenVMS AXP

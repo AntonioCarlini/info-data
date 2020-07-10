@@ -1,0 +1,185 @@
+
+{CU-1992-11-23}
+
+DECmpp 12000/Sx Model 200
+
+EF51R and EF52R DSSI Based Disks
+
+RZ26B SCSI Disk
+
+
+
+COMPARISON: 3.5- AND 5.25-INCH DISK DRIVE SERIES
+
+			      RZ56	 RZ57	      RZ26B
+
+Capacity (MBF)		      665	 1000	      1050
+$/MBF			      $2.60	 $2.25	      $2.72
+Average seek time (ms)	      16	 14.5	      10.5
+Average access time (ms)      24.3	 22.8	      16
+RPM			      3600	 3600	      5400
+
+Maximum transfer rates:
+ (MB/sec)*
+From media		      1.875	 2.2	      2.4-3.6
+Across bus - asynchronous**   1.6	 1.6	      2.5
+Across bus - synchronous**    4.0	 4.0	      5
+Buffer size (KB)	      64	 256	      256
+
+o  Limited OpenVMS support for the RZ26B drive in OpenVMS V5.5-1 and OpenVMS 
+   V5.5-2.
+
+   Digital has successfully tested the RZ26B drive under OpenVMS V5.5-1 and 
+   V5.5-2 as a generic SCSI device and is making it available at this time 
+   with limited support. Because device name recognition for the RZ26B drive 
+   was not included in these OpenVMS releases, users will find that OpenVMS 
+   software identifies the "device type" of this disk as "Generic" instead 
+   of "RZ26B" (for example, $ Show device /full).
+
+Low-Cost 17-inch Monochrome VXT 2000 Terminal
+
+HARDWARE SPECIFICATIONS
+
+As with all other variants of the VXT 2000 family, the 17-inch single box 
+model uses the VAX SOC microprocessor with floating point. It supports 
+ThinWire, thick wire, and Twisted Pair (10BaseT) Ethernet connections.  The 
+monitor has an adjustable tilt swivel base for additional user comfort. The 
+17-inch single box also supports the DECimage option for high performance 
+bitonal document image processing.
+
+Display		 17"
+Planes		 1
+Resolution	 1280 x 1024
+DPI		 100
+Refresh Rate	 72 Hz
+
+Standard Configurations
+
+o  4 Mbytes memory standard, expandable to 16 Mbytes in 2 or 4 Mbyte 
+   industry-standard SIMM increments.
+
+o  ThinWire, thick wire, and Twisted Pair (10BaseT) Ethernet support 
+   standard.  System auto senses which Ethernet port is activated.
+
+o  Auto voltage sensing power supply.
+
+o  Three button mouse, 200 pulses per linear inch (VSXXX-AG).
+
+o  Mousepad.
+
+o  Choice of keyboard: DEC standard (LK401); DEC WPS (LK402 -- Gold Key); 
+   UNIX (LK421); or PC (LK443).
+
+o  25 pin parallel printer port (Centronics compatible) and 25 pin RS232 
+   serial port with full modem control
+
+Power Requirements           U.S.               Europe
+
+Line voltage		     120 V		240 V
+Voltage tolerance	     88 to 132 Vrm	176 to 264 Vrm
+Line frequency		     50 to 60 Hz	50 to 60 Hz
+Power consumption	     170 W		170 W
+
+Operating Environment
+
+Temperature		     10 - 40 degrees C (50 - 104 F)
+Relative humidity	     10 - 90% noncondensing
+Maximum operating altitude   2.4 km (8,000 ft)
+
+SOFTWARE SPECIFICATIONS
+
+VXT 2000 software V1.2, minimum, required.  Refer to the "VXT 2000 V1.2 
+Software" article in this issue for more information.
+
+DEClaser 1152
+
+
+The DEClaser 1152 printer, Digital's first printer that supports PostScript 
+Level 2, is a low-cost, four-page-per-minute desktop laser printer.  
+Individual users will be able to selectively request PostScript or HP 
+LaserJet IIP -- allowing the user to selectively print non-PostScript or 
+PostScript documents from one printer.  This desktop printer device is 
+ideal for a personal computing environment.
+
+PRODUCT FEATURES/SPECIFICATIONS
+
+o  Four page per minute print speed (text 8-1/2 x 11 inch paper)
+o  300 x 300 dpi resolution
+o  Resolution enhancement with DECimage software
+o  PostScript Level 2 and HP PCL-4 protocols
+o  Multiple paper size support: executive, legal, letter (8-1/2 x 11 inch) 
+   and appropriate European equivalents, office envelopes
+o  Single supplies replacement cartridge
+o  17 scalable Adobe PostScript fonts
+o  Customer upgradeable to 43 Adobe fonts via optional cartridge
+o  Optional large capacity paper tray (250 sheets)
+o  Monthly duty cycle: up to 6000 pages
+
+Fiber, Unshielded Twisted Pair, and ThinWire Transceivers
+Taken from EISNER.
+
+HIGHLIGHTS
+
+o  Three new MAUs -- DEFLM-AA for fiber, DETPM-AA for unshielded twisted 
+   pair, and DECXM-AA for ThinWire -- each transceiver is used to connect 
+   the AUI port for data terminal equipment (DTE) to their respective media 
+   types
+
+o  These new MAUs are smaller, VDE class B compliant, and have extensive 
+   diagnostic capabilities
+
+o  DECXM-AA will replace the current DESTA-BA product and DETPM-AA will 
+   replace the current H3350-AA product
+o
+MAU LEDS			  DEFLM	       DETPM	   DECXM
+
+Transmit			  Yes	       Yes	   Yes
+Receive				  Yes	       Yes	   Yes
+Collision			  Yes	       Yes	   Yes
+Signal_Quality_Error (SQE)	  Yes	       Yes	   Yes
+Power				  Yes	       Yes	   Yes
+Link integrity test		  Yes	       Yes	   No
+Receive polarity		  No	       Yes	   No
+Jabber				  Yes	       No	   No
+
+
+DEC WANrouter 90
+
+DECstation 5000 MODEL 200 GRAPHICS OPTIONS RETIRING
+
+The DECstation 5000 Model 200 system was Digital's first RISC workstation 
+with high performance 2D and 3D graphics accelerators. It offered superior 
+accelerated 2D and 3D vector and polygon performance, along with graphics 
+hardware features to support anti-aliased vectors, true color display, and 
+simultaneous double and Z buffering. The last available order date is 
+December 31, 1992. The last ship date is February 26, 1993.
+
+DECstation 3100 SYSTEM RETIRING
+
+The DECstation 3100 system was announced in January 1989. Its replacements, 
+the Personal DECstation 5000 Models 20, 25, and 33, offer greater CPU 
+performance, expandability, and superior graphics at a lower price than the 
+DECstation 3100 system, while retaining application binary compatibility. 
+The last order date is December 18, 1992. The last ship date is January 29, 
+1993.
+
+The chief characteristics of the DECstation 3100 system and the Personal 
+DECstation 5000 Models 20, 25, and 33 are as follows:
+
+                                 To             To             To           
+                     From        Personal       Personal       Personal
+                     DECstation	 DECstation     DECstation     DECstation
+                     3100      	 5000 Model 20  5000 Model 25  5000 Model 33
+
+Processor(s)	     R2000	 R3000A		R3000A	       R3000A
+Clock speed	     16.6 MHz	 20 MHz		25 MHz	       33 MHz
+SPECmarks	     11.3	 16.3		19.1	       25.3
+MIPS		     15		 21.6		26.7	       34.4
+Memory Max.	     24 Mbytes	 40 Mbytes	40 Mbytes      40 Mbytes
+Int. Storage Max.    418 Gbytes	 426 Gbytes	426 Gbytes     426 Gbytes
+Architecture	     SCSI	 SCSI		SCSI	       SCSI
+Communications bus   None	 TURBOchannel	TURBOchannel   TURBOchannel
+
+DECwrite V2.1 MAINTENANCE RELEASE
+
+DECjet INKJET PRINTER NAME CHANGES TO DECmultiJET

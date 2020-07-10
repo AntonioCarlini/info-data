@@ -361,6 +361,7 @@
 **def-lref{5} = ref{EK-VAXCT-CG-006}
 **def-lref{6} = ref{EK-347AA-MG-001}
 **def-lref{7} = ref{CU-1991-10-30}
+**def-lref{8} = ref{CU-1992-11-02}
 **document=doc{DEC:EC-F1108-41} ! VAX 4000 Model 200 and 300 Systems
 **document=doc{DEC:EP-BA441-IN-003} ! RACK-MOUNTABLE VAX 4000 MODEL 300 INST/OWNER'S MANUAL
 **document=doc{DEC:EC-F0565-41/90} ! VAX 4000 Model 300 Systems
@@ -375,6 +376,8 @@
 **document=doc{DEC:EK-V4000-IN-003} ! VAX 4000 Model 300 Installation Checklist
 **Sys-name: VAX 4000-300
 **Desc-name: VAX 4000 Model 300
+**Last-order**vref{8}: 1993-06-30
+**Last-ship**vref{8}: 1993-09-30
 **Codename: Pele
 **OS-support-VMS**vref{2}: V5.3-2
 **OS-support-MDM**vref{2}: 131
@@ -3087,6 +3090,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{2} = ref{EB-30991-41}
 **def-lref{3} = ref{EB-31692-46}
 **def-lref{4} = ref{DTJ-V1-7}
+**def-lref{5} = ref{CU-1992-11-02}
 **document=doc{DEC:AZ-FE05A-TN} ! MicroVAX II 630QY, 630QZ Owner's Manual
 **document=doc{DEC:AZ-FE06A-TN} ! MicroVAX II 630QY, 630QZ Technical Manual
 **document=doc{DEC:AZ-GLBAA-MN} ! MicroVAX-II 630QB Technical Manual
@@ -3112,6 +3116,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:DTJ-V1-2} ! "MicroVAX II System", Digital Technical Journal, Vol 1 No 2, March 1986
 **Announcement**uref{*40}: 14 May 1985
 **FRS-date: May 1985
+**Last-order**vref{5}: 1991-03-31
 **Codename: Mayflower
 **OS-support-VMS: MicroVMS V4.1M
 **CPU-module**vref{1}: KA630
@@ -3386,8 +3391,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{4} = ref{OVMS-REL-HIST-20100621}
 **def-lref{5} = ref{CBR-PR-1988-10-19}
 **Def-lref{6} = ref{CU-1992-01-10}
+**def-lref{7} = ref{CU-1992-11-02}
 **Announcement**vref{5}: 18th October 1988
-**Last-order**vref{6}: 1992-03-31
+! vref{7} has last ship for uV3400 October 1, 1991
+**Last-order**vref{6,7}: 1992-03-31
 **Last-ship**vref{6}: 1992-06-30
 **Codename**uref{*47}: Mayfair II
 !**OS-support-VMS**uref{*26,*137}: V5.0-2A
@@ -3461,8 +3468,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{5} = ref{EK-VAXCT-CG-006}
 **def-lref{6} = ref{OVMS-REL-HIST-20100621}
 **def-lref{7} = ref{NYT-1987-09-10-uv3500}
+**def-lref{8} = ref{CU-1992-11-02}
 ! vref{3} also announces the VAXstation 3200 and VAXstation 3500
 **Announcement**vref{7}: 9 September 1987
+**Last-order**vref{8}: 1990-03-31
 **Codename**uref{*47}: Mayfair
 !**OS-support-VMS**uref{*26}: V4.7A
 **OS-support-VMS**vref{6}: V4.7A
@@ -3543,9 +3552,12 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{3} = ref{EK-VAXCT-CG-006}
 **def-lref{4} = ref{OVMS-REL-HIST-20100621}
 **def-lref{5} = ref{CBR-PR-1989-04-10}
+**def-lref{6} = ref{CU-1992-11-02}
 **document=doc{DEC:EK-KA655-TM-001} ! KA655 CPU Module Technical Manual
 !**Announcementuref{*27 p14}: 10 April 1989
 **Announcement**vref{5}: 10 April 1989
+! vref{6} confirms this for 3500 and 3600
+**Last-order**vref{6}: 1991-06-30
 **Codename**uref{*47}: Mayfair III
 !**OS-support-VMS**uref{*26}: V5.1
 **OS-support-VMS**vref{4}: V5.1-1
@@ -3602,6 +3614,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !the KA410: a single jumper determines which system type the module is.
 !configured for.
 **Announcement**vref{8}: 9 February 1987
+**Last-order**vref{8}: 1990-01-31
 **Codename: Teammate
 **Html-target: uvvs2000
 **OS-support-VMS**vref{7}: V4.5B
@@ -4560,8 +4573,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{DECdirect-AUG91}
 **Def-lref{4} = ref{DECdirect-FEB92}
 **Def-lref{5} = ref{CU-1992-10-12}
+**def-lref{6} = ref{CU-1992-11-02}
 **Announcement**uref{*47}: 25 October 1990
-**Last-order**vref{5}: 1993-03-31
+! vref{6} has 20e last ship August 7, 1992
+**Last-order**vref{5,6}: 1993-03-31
 **Last-ship**vref{5}: 1993-06-30
 **Html-target: uv3100
 **OS-support-VMS**uref{*26}: VMS V5.3
@@ -4880,3 +4895,60 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Maximum-memory**vref{1}: 510MB (256MB R/W and 254MB R/O)
 **LAN-support**vref{1}: 1 (SGEC)
 **End-systems-entry{rtVAX300}
+
+**Start-systems-entry{rtVAX1000}{VAX}{rtVAX}
+**def-lref{1} = ref{CU-1992-11-02}
+**Sys-name: rtVAX1000
+**Desc-name: rtVAX 1000
+**Module**vref{1}: KA620
+**End-systems-entry{rtVAX1000}
+
+**Start-systems-entry{rtVAX3200}{VAX}{rtVAX}
+**def-lref{1} = ref{CU-1992-11-02}
+**Sys-name: rtVAX3200
+**Desc-name: rtVAX 3200
+**Last-order**vref{1}: 1991-06-31
+**End-systems-entry{rtVAX3200}
+
+**Start-systems-entry{rtVAX3300}{VAX}{rtVAX}
+**def-lref{1} = ref{CU-1992-11-02}
+! vref{1} lists: rtVAX 3300/3305/3400
+**Sys-name: rtVAX3300
+**Desc-name: rtVAX 3300
+**End-systems-entry{rtVAX3300}
+
+**Start-systems-entry{rtVAX3500}{VAX}{rtVAX}
+**def-lref{1} = ref{CU-1992-11-02}
+**Sys-name: rtVAX3500
+**Desc-name: rtVAX 3500
+**Last-order**vref{1}: 1991-06-31
+**End-systems-entry{rtVAX3500}
+
+**Start-systems-entry{rtVAX3600}{VAX}{rtVAX}
+**def-lref{1} = ref{CU-1992-11-02}
+**Sys-name: rtVAX3600
+**Desc-name: rtVAX 3600
+**Last-order**vref{1}: 1991-06-31
+**End-systems-entry{rtVAX3600}
+
+**Start-systems-entry{rtVAX3800}{VAX}{rtVAX}
+**def-lref{1} = ref{CU-1992-11-02}
+**Sys-name: rtVAX3800
+**Desc-name: rtVAX 3800
+**Last-order**vref{1}: 1991-06-31
+**End-systems-entry{rtVAX3800}
+
+**Start-systems-entry{rtVAX4200}{VAX}{rtVAX}
+**def-lref{1} = ref{CU-1992-11-02}
+**Sys-name: rtVAX4200
+**Desc-name: rtVAX 4200
+**Last-order**vref{1}: 1993-06-31
+**End-systems-entry{rtVAX4200}
+
+**Start-systems-entry{rtVAX4300}{VAX}{rtVAX}
+**def-lref{1} = ref{CU-1992-11-02}
+**Sys-name: rtVAX4300
+**Desc-name: rtVAX 4300
+**Last-order**vref{1}: 1993-06-31
+**End-systems-entry{rtVAX4300}
+

@@ -218,9 +218,12 @@
 **End-systems-entry{DEC3300LX}
 
 **Start-systems-entry{DEC3400}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 400/400S AXP
 **Def-lref{1} = ref{EK-SNDPR-OG.D01}
 **Def-lref{2} = ref{EC-H2315-46}
+**Def-lref{3} = ref{CU-1992-11-23}
+**Sys-name: DEC 3000 Model 400/400S AXP
+**Announcement**vref{3}: 1992-11-23
+**FRS-date**vref{3}: 1992-11-23
 **Codename: Sandpiper
 **OS-support-VMS: V1.0
 **CPU-module: KN15-BA
@@ -261,10 +264,12 @@
 **End-systems-entry{DEC3400}
 
 **Start-systems-entry{DEC3500}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 500/500S AXP
 **Def-lref{1} = ref{EK-FLAMI-OG.C01}
 **Def-lref{2} = ref{EC-H2315-46}
 **Def-lref{3} = ref{SPEC-res-9509}
+**Def-lref{4} = ref{CU-1992-11-23}
+**Sys-name: DEC 3000 Model 500/500S AXP
+**Announcement**vref{4}: 1992-11-23
 **Codename: Flamingo
 **OS-support-VMS: V1.0
 **CPU-module**vref{1}: KN15-AA
@@ -507,11 +512,14 @@
 **End-systems-entry{DEC3900}
 
 **Start-systems-entry{DEC4600}{ALPHA}{DEC4000}
-**Sys-name: DEC 4000 Model 610/620
 **Def-lref{1} = ref{EC-H2315-46}
 **Def-lref{2} = ref{ASCC-1994-03}
+**Def-lref{3} = ref{CU-1992-11-23}
+**Sys-name: DEC 4000 Model 610/620
+**Announcement**vref{3}: 1992-11-23
 **Codename: Cobra
 **OS-support-VMS: V1.0
+**CPU-module: KN430-AA
 **Module: B2001-BA
 **Num-proc**vref{1}: 1-2
 **CPU-chip**vref{1}: DECchip 21064
@@ -577,7 +585,9 @@
 
 **Start-systems-entry{DEC7600}{ALPHA}{DEC7000}
 **Def-lref{1} = ref{ASCC-1994-03}
+**Def-lref{2} = ref{CU-1992-11-23}
 **Sys-name: DEC 7000 Model 600 series
+**Announcement**vref{2}: 1992-11-23
 **Num-proc**vref{1}: 1-6
 ! Originally shipped with 182MHz. 200MHz was for DEC 10000 systems. Then became available for DEC 7000-600 systems.
 **CPU-clock**vref{1}: 200MHz

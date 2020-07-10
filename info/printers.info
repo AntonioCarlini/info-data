@@ -28,8 +28,10 @@
 
 **Start-printers-entry{DCL1152}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-DCL11-SV.B01}
-**Sys-name: DEClaser 1152
+**Def-lref{2} = ref{CU-1992-11-23}
+**Sys-name: LN07C
 **Desc-name: DEClaser 1152 Laser Printer
+**Announcement**vref{2}: 1992-11-23
 ![1]: 1152: 2MB-4MB RAM; two optional font carts
 ![1]: interface: parallel + serial + LocalTalk
 **Resolution**lref{1}: 300 dpi
@@ -178,6 +180,18 @@
 **Dev-req**htref{1}: ESC [ 0 c
 **Dev-req-resp**htref{1}: CSI ? 1 0 ; 3 c
 **End-printers-entry{LA210}
+
+**Start-printers-entry{LA310}{PRINTER}{LA}
+**Sys-name: LA310
+**Desc-name: LA310 MultiPrinter
+**Def-lref{1} = ref{CU-1992-12-14}
+**Announcement**vref{1}: 1992-12-14
+**Print-speed**vref{1}: {300 cps high speed draft} {240 cps draft} {55 cps draft @ NLQ1} {55 cps draft @ NLQ2}
+**Protocols**vref{1}: DEC PPL2 (ANSI), Epson FX1050, IBM ProPrinter III
+**Interfaces**vref{1}: Serial (RS423) and Centronics parallel
+**Monthly-usage**vref{1}: 3,500 pages
+**Data-rate**vref{1}: 150-9600
+**End-printers-entry{LA310}
 
 **Start-printers-entry{LA34}{PRINTER}{LA}
 **Sys-name: LA34 Printer
