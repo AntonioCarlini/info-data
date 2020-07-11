@@ -1027,23 +1027,23 @@
 **Dimensions-end{TZ87}
 **End-storage-entry{TZ87}
 
-**Start-storage-entry{TZK08}{SCSI_TAPE}{TZK}
-**Sys-name: TZK08
-**Desc-name: TZK08 2.3GB 8mm Cartridge Tape Drive
+**Start-storage-entry{TKZ08}{SCSI_TAPE}{TKZ}
+**Sys-name: TKZ08
+**Desc-name: TKZ08 2.3GB 8mm Cartridge Tape Drive
 ! ?? is this TKZ08 or TZK08 ?? -->
 **Capacity**uref{SUE Aug 1992}: 2.2GB
 **FRS-date**uref{SUE Aug 1992 Iss 1}: May 1991
-**End-storage-entry{TZK08}
+**End-storage-entry{TKZ08}
 
-**Start-storage-entry{TKZ09}{SCSI_TAPE}{TZK}
+**Start-storage-entry{TKZ09}{SCSI_TAPE}{TKZ}
 **Def-lref{1} = ref{CU-1992-08-10}
-**Sys-name: TZK09
-**Desc-name: TZK09 5GB 8mm Cartridge Tape Drive
+**Sys-name: TKZ09
+**Desc-name: TKZ09 5GB 8mm Cartridge Tape Drive
 **FRS-date**vref{1}: 1992-08-10
 **Capacity**vref{1}: 5GB
 **Peak-transfer-rate**vref{1}: 500KB/s
 **OEM-Device**vref{1}: Exabyte EXB-8500
-**End-storage-entry{TZK09}
+**End-storage-entry{TKZ09}
 
 **Start-storage-entry{TZK10}{SCSI_TAPE}{TZK}
 **Sys-name: TZK10
@@ -1091,43 +1091,44 @@
 
 **Start-storage-entry{TZK11}{SCSI_TAPE}{TZK}
 **Sys-name: TZK11
-**Desc-name: TZK11 Cartridge Tape Drive
+**Desc-name: TZK11 Data Cartridge Tape Drive
 **Def-lref{1} = ref{EK-TZK11-UG.A01}
-**Capacity**lref{1}: 2.5GB
+! Name verified in vref{1}: definitely T then Z then K !
+**Capacity**vref{1}: 2.5GB
 ![1] OpenVMS AXP 1.5, NT AXP 3.1
-**OS-Support-vms**lref{1}: V5.5-2
-**OS-Support-du**lref{1}: 1.3
-**Form-factor**lref{1}: 5-1/4" half-height
+**OS-Support-vms**vref{1}: V5.5-2
+**OS-Support-du**vref{1}: 1.3
+**Form-factor**vref{1}: 5-1/4" half-height
 ![1] QIC
 ![1]: read-only: QIC-24 read-write: QIC-2GB, QIC-1GB, QIC-525, QIC-150, QIC-120
-**Peak-transfer-rate**lref{1}: {300KB/s:(average, streaming)}{3MB/s:(burst, sync)}
-**Interface**lref{1}: SCSI-2
-**Recording-format**lref{1}: Multiple track serpentine recording
-**Tracks**lref{1}: 42
-![1] buffer has parity
-**Buffer-size**lref{1}: 256KB
-**Recording-density**htref{1}: 40640 bpi
-![1]: QIC-1GB: 53.3/80 in/s  QIC-320/525: 120 in/s QIC-24/120/150: 96 in/s
-**Tape-speed**lref{1}: 70.9 in/s:(QIC-2GB)
-**Rewind-speed**lref{1}: 120 in/s
+**Peak-transfer-rate**vref{1}: {300KB/s:(average, streaming)}{3MB/s:(burst, sync)}
+**Interface**vref{1}: SCSI-2
+**Recording-format**vref{1}: Multiple track serpentine recording
+**Tracks**vref{1}: 42
+! vref{1} buffer has parity
+**Buffer-size**vref{1}: 256KB
+**Recording-density**vref{1}: 40640 bpi
+! vref{1}: QIC-1GB: 53.3/80 in/s  QIC-320/525: 120 in/s QIC-24/120/150: 96 in/s
+**Tape-speed**vref{1}: 70.9 in/s:(QIC-2GB)
+**Rewind-speed**vref{1}: 120 in/s
 **Power-start{TZK11}
-**+12V-current**lref{1}: 1.0A
-**+5V-current**lref{1}:  1.2A
-**Power**lref{1}: 33W:(peak)
+**+12V-current**vref{1}: 1.0A
+**+5V-current**vref{1}:  1.2A
+**Power**vref{1}: 33W (peak), 20W (nominal)
 **Power-end{TZK11}
 **Dimensions-start{TZK11-embedded}
 **Label: Embedded
-**Height**lref{1}: 43mm
-**Width**lref{1}:  149mm
-**Depth**lref{1}:  216mm
-**Weight**lref{1}: 1.1kg
+**Height**vref{1}: 43mm
+**Width**vref{1}:  149mm
+**Depth**vref{1}:  216mm
+**Weight**vref{1}: 1.1kg
 **Dimensions-end{TZK11-embedded}
 **Dimensions-start{TZK11-tabletop}
 **Label: Table-top
-**Height**lref{1}: 98mm
-**Width**lref{1}:  167mm
-**Depth**lref{1}:  360mm
-**Weight**lref{1}: 3.73kg
+**Height**vref{1}: 98mm
+**Width**vref{1}:  167mm
+**Depth**vref{1}:  360mm
+**Weight**vref{1}: 3.73kg
 **Dimensions-end{TZK11-tabletop}
 **End-storage-entry{TZK11}
 
