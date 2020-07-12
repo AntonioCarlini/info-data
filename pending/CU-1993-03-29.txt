@@ -1,0 +1,21 @@
+{CU-1993-03-29}
+
+PrintServer 17 Printer
+
+o  Simplex (single sided) printer, with duplex option available
+
+o  Supports both DECnet and TCP/IP protocols simultaneously
+
+o  Prints up to 17 pages per minute -- Most jobs print at 17 pages per 
+   minute, eliminating the need to wait for jobs and providing much greater 
+   speed than personal laser printers.
+
+PRODUCTS BEING RETIRED
+
+			      Last	   Last		   Recommended
+Product			      Order Date   Ship Date	   Migration
+
+PATHWORKS Access Solution     4/1/93	   4/1/93	   Contact third party
+(QB-XY1*V-WA, QB-XY2*V-WA,    		   		   TCP/IP vendors
+QB-XY3*V-WA, QB-XY4*V-WA)
+

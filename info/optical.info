@@ -193,6 +193,7 @@
 **Def-lref{2} = ref{CU-1993-03-08}
 **Sys-name: RWZ21
 **Desc-name: RWZ21 Magneto-Optical Drive
+**Announcement**vref{2}: 1993-03-08
 **OS-Support-VMS**vref{2}: V5.5-1
 **OS-support-ULTRIX**vref{2}: V4.2A
 ! MSDOS**vref{2}: 5.0  Infoserver**vref{2}: V2.0

@@ -276,6 +276,7 @@
 **def-lref{4} = ref{EC-N0377-46}
 **def-lref{5} = ref{EK-VAXCT-CG-006}
 **def-lref{6} = ref{CU-1991-10-30}
+**def-lref{7} = ref{CU-1993-01-25}
 **document=doc{DEC:EK-KA660-TM-001} ! KA660 CPU Module Technical Manual
 **document=doc{DEC:EK-398AA-TM-001} ! VAX 4000 Model 200 Technical Information
 **document=doc{DEC:EK-437AB-TS-002} ! VAX 4000 Model 200 Troubleshooting/Diagn ostic Guide
@@ -290,6 +291,8 @@
 **document=doc{DEC:EK-V400R-IN-002} ! VAX 4000 Model (BA215) Installation Checklist
 **Sys-name: VAX 4000-200
 **Desc-name: VAX 4000 Model 200
+**Last-order**vref{7}: 1993-06-30
+**Last-ship**vref{7}: 1993-09-30
 **Codename: Spitfire
 **OS-support-VMS**vref{2}: V5.4-2
 **OS-support-ELN**vref{2}: V3.2

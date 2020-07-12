@@ -524,6 +524,67 @@ RSTS/E V10.1
 
 InfoServer 150 Kernel Software V2.2
 
+{CU-1993-01-04}
+
+DEC RdbAccess for Custom Drivers V2.1
+
+DEC RdbAccess for RMS V2.1
+
+VAXELN Toolkit V4.4
+
+VWS V4.5; VAXuisx and VWS Migration Tools Kit V1.1
+
+VAX Disk Striping Driver for OpenVMS V2.0B
+
+{CU-1993-01-25}
+
+DEC MediaImpact V1.0 for ULTRIX RISC Systems
+
+DECsafe Failover V1.0 for ULTRIX RISC Systems
+
+IMSL Mathematics Library for DECmpp 12000/Sx Systems
+
+DEC Rdb for OpenVMS AXP V5.0
+
+DECphoto Imaging Solution V1.1 for VMS and ULTRIX
+
+DECquery V2.1
+
+Poste V2.1
+
+EtherWORKS Router/DECnet V1.0
+
+{CU-1993-02-15}
+
+POLYCENTER Console Manager V1.0
+
+DECtrace for OpenVMS V2.0
+
+o POLYCENTER Framework V1.3
+
+o POLYCENTER Network Manager 200 and 400 V1.3
+
+o POLYCENTER Software Distribution V2.4
+
+o New DECps Name: POLYCENTER Performance Solution
+
+o Storage Library System (SLS) for OpenVMS V2.3
+
+o POLYCENTER Scheduler for OpenVMS V2.1
+
+DECmessageQ for OpenVMS AXP V2.0 and Custom Services
+
+FAX Network Gateway SO V2.0
+
+o DEC ACA Services V2.1
+
+o DECimage EXpress V2.1
+
+o DSM V6.2 for OpenVMS AXP and OpenVMS VAX
+
+o PATHWORKS for VMS V4.2
+
+
 
 {CU-1993-03-08}
 
@@ -564,4 +625,22 @@ DECtp Desktop for ACMS V1.2
 DEC Rdb for OpenVMS V5.1
 
 DECADMIRE for OpenVMS V1.1
+
+{CU-1993-03-29}
+
+POLYCENTER Performance Solution for UNIX Systems V1.0
+POLYCENTER Advanced File System V1.0
+POLYCENTER Advanced File System Utilities V1.0
+DEC OSF/1 Freeware V1.0 for AXP Systems
+OSI Application Developer's Toolkit V2.0
+SCO Open Desktop R2.0
+SCO Software Updates
+Release 3 of DECadvantage Products
+PATHWORKS ISDN (DOS) V1.0
+PowerFrame V2.0
+
+DEC OSF/1 DEVELOPER'S TOOLKIT V1.2
+
+Enhancements and new features in V4.4 of RSX-11M-PLUS and Micro/RSX software 
+and in V4.7 of RSX-11M and RSX-11S software are as follows
 

@@ -1,0 +1,14 @@
+{CU-1993-01-04}
+
+CIXCD-AC CI Adapter
+
+SF12 Disk Expansion Enclosure
+
+More Operating System Support for RA71, RA72, and RA73
+
+RUMBA for PATHWORKS V3.1 Update 04
+
+ACCESSWORKS 4000-300 RETIRING
+
+The last order date for the ACCESSWORKS 4000-300 Data Integration Servers is 
+June 30, 1993. The last ship date is September 30, 1993.
