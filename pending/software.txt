@@ -689,3 +689,41 @@ DECprint Supervisor for OpenVMS V1.0 for Alpha AXP
 
 Distributed Computing Environment (DCE) V1.1 for DEC OSF/1
 
+{CU-1993-06-21}
+
+DEC MediaImpact V1.0
+o DECfonts Typeface Collection V1.3
+o DEC RALLY V3.1
+o DECset Component Products on OpenVMS AXP
+Striping for OpenVMS VAX V2.1
+
+
+DECnet/OSI V5.6 for OpenVMS VAX
+
+EtherWORKS Router/DECnet V1.1
+
+{CU-1993-07-12}
+
+ALL-IN-1 V3.0 Supported Options, Future Directions
+ALL-IN-1 TeamLinks Connection Package V2.0
+TeamLinks for Microsoft Windows V2.0 Products
+Alpha AXP Design Portfolio for Embedded Applications
+DECtransporter Mobil Communications Software
+DECwrite V3.0 Program Announcement
+DEC InstantSQL for OpenVMS V1.1
+MAILbus Postmaster for LANs/WANs V3.0
+TeamLinks Mail for Windows V1.1
+DEC MAILworks Server for OpenVMS V1.2
+DECfax Mail V1.1
+DEC Electronic Data Interchange V1.3
+DEC OPS5 V4.0A
+POLYCENTER DECathena V1.2
+DEC X.25 Client V1.0 for OpenVMS AXP Systems
+
+
+{CU-1993-07-19}
+
+DEC SoftPC V4.0 for OpenVMS VAX and ULTRIX RISC
+PATHWORKS V5.0 Program Announcement
+DEC C++ for OpenVMS AXP V1.3
+

@@ -85,6 +85,7 @@
 **def-lref{2} = ref{EK-PELCN-SV.B01}
 **def-lref{3} = ref{EC-H2315-46}
 **def-lref{4} = ref{CU-1993-04-19}
+**def-lref{5} = ref{CU-1993-07-19}
 ! [3]: 300/300L share basic system module but have different CPU daughter cards
 **Announcement**vref{4}: 1993-04-19
 **FRS-date**vref{4}: 1993-05-01
@@ -100,7 +101,8 @@
 **Cache**vref{3}: 8KB-I/8KB-D
 **Backup-cache**vref{3}: 256KB (32ns)
 **Minimum-memory**vref{3}: 32MB
-**Maximum-memory**vref{3}: 256MB
+! see vref{5} for announcement of memory increase
+**Maximum-memory**vref{3,5}: 256MB
 **BUS-SCSI**vref{3}: 1 @ 5MB/s (SCSI-2)
 **BUS-TC**vref{3}: 2 slots @ 50MB/s
 **LAN-support: 1 (10BASE-T)
@@ -121,6 +123,7 @@
 **def-lref{2} = ref{EK-PELCN-SV.B01}
 **def-lref{3} = ref{EC-H2315-46}
 **def-lref{4} = ref{CU-1993-04-19}
+**def-lref{5} = ref{CU-1993-07-19}
 ! [3]: 300/300L share basic system module but have different CPU daughter cards
 **Announcement**vref{4}: 1993-04-19
 **FRS-date**vref{4}: 1993-05-01
@@ -136,7 +139,8 @@
 **Cache**vref{3}: 8KB-I/8KB-D
 **Backup-cache**vref{3}: 256KB (32ns)
 **Minimum-memory**vref{3}: 32MB
-**Maximum-memory**vref{3}: 256MB
+! see vref{5} for announcement of memory increase
+**Maximum-memory**vref{3,5}: 256MB
 **BUS-SCSI**vref{3}: 1 @ 5MB/s (SCSI-2)
 **LAN-support**vref{4}: 1 (10BASE-T)
 **Power-start{DEC3300L}
@@ -227,6 +231,7 @@
 **Def-lref{1} = ref{EK-SNDPR-OG.D01}
 **Def-lref{2} = ref{EC-H2315-46}
 **Def-lref{3} = ref{CU-1992-11-23}
+**def-lref{4} = ref{CU-1993-07-19}
 **Sys-name: DEC 3000 Model 400/400S AXP
 **Announcement**vref{3}: 1992-11-23
 **FRS-date**vref{3}: 1992-11-23
@@ -243,7 +248,8 @@
 **Cache**vref{1}: 8KB-I/8KB-D
 **Backup-cache**vref{1}: 512KB
 **Minimum-memory**vref{1}: 32MB
-**Maximum-memory**vref{2}: 512MB
+! vref{4} announces memory modules that allow 512MB to be achieved
+**Maximum-memory**vref{2,4}: 512MB
 ! [1]: 256MB max planned
 **BUS-SCSI**vref{2}: 2 @ 5MB/s (SCSI-2)
 **BUS-TC**vref{2}: 3 slots @ 90MB/s
@@ -274,6 +280,7 @@
 **Def-lref{2} = ref{EC-H2315-46}
 **Def-lref{3} = ref{SPEC-res-9509}
 **Def-lref{4} = ref{CU-1992-11-23}
+**def-lref{5} = ref{CU-1993-07-19}
 **Sys-name: DEC 3000 Model 500/500S AXP
 **Announcement**vref{4}: 1992-11-23
 **Codename: Flamingo
@@ -291,7 +298,8 @@
 **SPECint95**vref{3}: 2.15
 **SPECfp95**vref{3}: 3.65
 **Minimum-memory**vref{1,2}: 32MB
-**Maximum-memory**vref{2}: 1GB
+! vref{5} announces bigger mem modules that allow 1GB to be achieved
+**Maximum-memory**vref{2,5}: 1GB
 **BUS-SCSI**vref{2}: 2 @ 5MB/s
 **BUS-TC**vref{2}: 6 slots @ 100MB/s
 **LAN-support**vref{1,2}: 1 (10BASE-T/AUI)
@@ -325,6 +333,7 @@
 **Sys-name: DEC 3000 Model 500X AXP
 **Def-lref{1} = ref{EC-H2315-46}
 **def-lref{2} = ref{CU-1993-04-19}
+**def-lref{3} = ref{CU-1993-07-19}
 **Announcement**vref{2}: 1993-04-19
 **FRS-date**vref{2}: 1993-05
 **Codename: Hot Pink
@@ -340,7 +349,8 @@
 **Cache**vref{1}: 8KB-I/8KB-D
 **Backup-cache**vref{1}: 512KB
 **Minimum-memory**vref{1}: 32MB
-**Maximum-memory**vref{1}: 1GB
+! vref{3} announces bigger memory modules that allow 1GB to be achieved
+**Maximum-memory**vref{1,3}: 1GB
 **BUS-SCSI**vref{1}: 2 @ 5MB/s
 **BUS-TC**vref{1}: 5 slots @ 100MB/s
 **LAN-support**vref{1}: 1 (10BASE-T/AUI)

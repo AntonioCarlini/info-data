@@ -171,6 +171,8 @@
 **Start-printers-entry{LA210}{PRINTER}{LA}
 **Sys-name: LA210 Letterprinter
 **Def-lref{1} = ref{EK-LA210-RM-001}
+**Def-lref{2} = ref{CU-1993-06-21}
+**Last-ship**vref{2}: 1993-06-21
 **Print-head**htref{1}: 9-pin dot matrix
 **Character-pitch**htref{1}: 5, 6, 10 and 12 cpi
 **Data-interface**htref{1}: RS-232
@@ -402,7 +404,11 @@
 
 **Start-printers-entry{LN06}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-LN06X-SV-001}
-**Sys-name: DEClaser 2200
+**Def-lref{2} = ref{CU-1993-07-19}
+**Sys-name: LN06
+**Desc-name: DEClaser 2200
+**Last-order**vref{2}: 1993-07-19
+**Last-ship**vref{2}: 1993-07-19
 **Resolution**lref{1}: 300 dpi
 **Print-speed**lref{1}: 8 pages/min
 ! [1] two optional external font carts, optional postscript capability
