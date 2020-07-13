@@ -357,6 +357,19 @@
 **Dimensions-end{DETPR-R}
 **End-comms-entry{DETPR}
 
+**Start-comms-entry{DS90M}{TERMSERVER}
+**Sys-name: DSRVH
+**Desc-name: DECserver 90M Terminal Server
+**Def-lref{1} = ref{CU-1993-05-10}
+**Announcement**vref{1}: 1993-05-10
+**Memory**vref{1}: 4 MB
+**Ports**vref{1}: 8
+**Speed**vref{1}:  up to 57.6 kbps
+**Data-bits**htref{1}: 8
+**Port-interface**vref{1}: MJ8
+**Network-interface**vref{1}: ThinWire, 10BaseT, DEChub
+**End-comms-entry{DS90M}
+
 **Start-comms-entry{DS100}{TERMSERVER}
 **Sys-name: DECserver 100 Terminal Server
 **Def-lref{1} = ref{AA-Z085A-TK}

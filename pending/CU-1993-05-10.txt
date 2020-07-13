@@ -1,0 +1,119 @@
+{CU-1993-05-10}
+
+
+InfoServer Network Solutions and InfoServer 1000
+
+Positioning New DECserver Products
+TERMINAL SERVER FEATURES MATRIX
+
+			   90L+	  90TL  90M      90M(F)	  700-8	   700-16
+                           DSRVG  DSRVE	DSRVH-A* DSRVH-D* DSRVW-E* DSRVW-H*
+
+Features
+
+Mounts Standalone	   *	  *	*	 *	  *	   *
+Mounts in DEChub 90	   *	  *	*	 *
+Mounts in Rack		   	  		 	  *	   *
+Modem Control
+- DTR/DSR		   	  *	*	 *	  *	   *
+- Partial		   	  		 	  *	   *
+- Full			   	  		 	  *
+Downline Load		   	  *	*	 *	  *	   *
+Self-load with ROM	   *
+Self-load with Flash	   	  		 *	  *	   *
+Software Supported
+- 90L+ ROM based	   *
+- DECserver TL 1.1	   	  *	*	 *
+- DECserver Network Access 	  	*	 *	  *	   *
+Management
+- Hubwatch		   *	  *	*	 *
+- SNMP			   	  *	*	 *	  *	   *
+- TSM			   	  *	*	 *	  *	   *
+Network Connection
+- ThinWire (BNC)	   *	  *	*	 *	  MAU	   MAU
+- AUI			   	  		 	  *	   *
+- 10BaseT (MJ8)		   	  	*	 *	  *	   *
+No. of Ports		   8	  8	8	 8	  8	   16
+Connector Type		   MMJ	  MJ8	MJ8	 MJ8	  DB25	   MJ8
+Sessions per Port	   4	  8	8	 8	  8	   8
+Speed
+- Max. Kbps per port	   38.4	  57.6	57.6	 57.6	  115	   115
+- Throughput, cps	   36	  30	30	 30	  215	   215
+Memory
+- As shipped MB		   1	  1	4	 4	  4	   4
+- Expandable to MB	   	  4		 	  8	   8
+- User upgradable	   	  		 	  *	   *
+- Return to Digital	   	  *
+
+
+DECserver 700 New Hardware Variants
+
+o  4 Mbytes of memory
+o  License for DECserver Network Access Software
+o  Flash ready for future upgrade to flash option; flash card option
+
+DEFTA-FA FDDI Connectivity for VAXstation 4000 Model 90
+
+PRODUCT POSITIONING
+
+                             RF72      RF73      RF31T     RF35	     RF36
+
+Capacity (MB, formatted)     1000      2000	 381	   852	     1600
+Form Factor		     5.25 FH   5.25 FH	 3.5 inch  3.5 inch  3.5 inch
+Media Type		     TFM       TFM	 TFM	   TFM	     TFM
+Number of Platters	     11	       11	 7	   7	     8
+Head Type		     MIG       TFH	 TFH	   TFH	     TFH
+Areal Density		     
+ (Mbits per square inch)     56.4      107	 128	   128	     150
+Peak Media Transfer Rate
+ (Mbytes per second)	     2.0       2.7	 3.3	   3.3	     3.1-6.25
+Cache (Kbytes)		     128       512	 512	   512	     512
+Rotational Speed (rpm)	     3600      3600	 5400	   5400	     5400
+Average Seek Time (ms)	     13.4      12.9	 6.9	   9.5	     9.5
+Average Access Time (ms)     21.7      21.2	 12.5	   15.1	     15.1
+I/O per Second (50 ms	     
+ completion time)	     <40       <40	 73	   60	     60
+
+
+PRODUCT POSITIONING
+
+DSSI Disks:                  RF73      RF74      RF36      RF35
+
+Capacity (GB)		     2.0       3.57	 1.6	   0.852
+Average Seek Time (ms)	     12.9      11.5	 9.5	   9.5
+Average Access Time (ms)     21.3      17.6	 15.1	   15.1
+Spindle Speed (rpm)	     3600      5400	 5400	   5400
+Banded Recording	     No	       Yes	 Yes	   No
+Peak Media Transfer Rate     
+ (Mbytes per second)	     2.7       4.6-6.95	 3.1-6.25  3.3
+
+SCSI Disks:                  RZ58      RZ74      RZ26      RZ73
+
+Capacity (GB)		     1.38      3.57	 1.05	   2.0
+Average Seek Time (ms)	     <12.5     12.0	 9.5	   12.9
+Average Access Time (ms)     18.1      17.6	 15.1	   21.3
+Spindle Speed (rpm)	     5400      5400	 5400	   5400
+Banded Recording	     Yes       Yes	 No	   No
+Peak Media Transfer Rate     
+ (Mbytes per second)	     3.8-5.0   4.6-6.95	 3.3	   2.7
+
+
+TA92 Cartridge Subsystem
+
+DECpc MTE Personal Computers
+
+Digital's new DECpc MTE personal computers -- the DECpc 433dx MTE and DECpc 
+466d2 MTE -- provide all the award winning features of the DECpc LP family 
+with room for expansion and new technological features at attractive prices.
+
+DECpc 425SL and DECpc 425SLC Premium Personal Computers
+
+
+Personal DECstation 5000 Model 50
+
+DECstation 5000 Model 260
+
+The new DECsystem 5000 Model 50, DECsystem 5000 Model 150, DECsystem 5000 
+Model 260, and DECsystem 5900 Model 260 servers bring the same R4000 CPU 
+technology to the server line.
+

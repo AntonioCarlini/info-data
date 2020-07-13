@@ -644,3 +644,48 @@ DEC OSF/1 DEVELOPER'S TOOLKIT V1.2
 Enhancements and new features in V4.4 of RSX-11M-PLUS and Micro/RSX software 
 and in V4.7 of RSX-11M and RSX-11S software are as follows
 
+
+
+{CU-1993-04-19}
+
+OpenVMS AXP V1.5
+OpenVMS VAX V6.0
+DEC Fortran V6.0 for OpenVMS VAX
+VXT 2000 Software V2.0
+ALL-IN-1 Mail Janitor Utility V3.0
+DECwindows XUI Packaging and Licensing Changes
+PATHWORKS for Macintosh V1.2 and PATHWORKS for VMS (Macintosh) V1.2
+ALL-IN-1 Performance Reports for OpenVMS V1.0A Repackaged
+DEC Object/DB for OSF/1 AXP V1.0
+
+{CU-1993-05-10}
+
+DECserver Network Access Software V1.0
+Terminal Server Manager V2.0
+
+DEC X.500 Directory Service V1.0
+
+
+
+DEC Rdb for OpenVMS V6.0
+DEC DBMS for OpenVMS V6.0
+DEC Data Distributor V5.1
+DEC RdbAccess for ORACLE V2.0
+DEC RdbAccess for DB2 V2.0
+DEC ODBC Driver for MS Windows
+DEC DATATRIEVE V6.1 for OpenVMS AXP and OpenVMS VAX
+DECtalk PC Speech Synthesizer V4.1
+ULTRIX and ULTRIX Worksystem Software V4.3A
+
+{CU-1993-05-31}
+
+POLYCENTER Scheduler OpenVMS V2.1
+
+DECimage MEGADOC V1.0
+
+DECNIS V2.1/V2.2 Software Releases
+
+DECprint Supervisor for OpenVMS V1.0 for Alpha AXP
+
+Distributed Computing Environment (DCE) V1.1 for DEC OSF/1
+

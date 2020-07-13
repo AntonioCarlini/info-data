@@ -84,9 +84,12 @@
 **Sys-name: DEC 3000 Model 300
 **def-lref{2} = ref{EK-PELCN-SV.B01}
 **def-lref{3} = ref{EC-H2315-46}
+**def-lref{4} = ref{CU-1993-04-19}
 ! [3]: 300/300L share basic system module but have different CPU daughter cards
+**Announcement**vref{4}: 1993-04-19
+**FRS-date**vref{4}: 1993-05-01
 **Codename: Pelican
-**OS-support-VMS: V1.5
+**OS-support-VMS**vref{3}: V1.5
 **CPU-module: KN16-AA
 **Module**vref{2}: 54-22257-01
 **System-Module**vref{2}: 54-22249-01
@@ -117,9 +120,12 @@
 **Sys-name: DEC 3000 Model 300L
 **def-lref{2} = ref{EK-PELCN-SV.B01}
 **def-lref{3} = ref{EC-H2315-46}
+**def-lref{4} = ref{CU-1993-04-19}
 ! [3]: 300/300L share basic system module but have different CPU daughter cards
+**Announcement**vref{4}: 1993-04-19
+**FRS-date**vref{4}: 1993-05-01
 **Codename: Pelica
-**OS-support-VMS: V1.5
+**OS-support-VMS**vref{4}: V1.5
 **CPU-module: KN16-BA
 **Module**vref{2}: 54-22257-02
 **System-Module**vref{2}: 54-22249-02
@@ -132,7 +138,7 @@
 **Minimum-memory**vref{3}: 32MB
 **Maximum-memory**vref{3}: 256MB
 **BUS-SCSI**vref{3}: 1 @ 5MB/s (SCSI-2)
-**LAN-support: 1 (10BASE-T)
+**LAN-support**vref{4}: 1 (10BASE-T)
 **Power-start{DEC3300L}
 **Supply**vref{3}: 120/240V 1-phase
 **Power**vref{3}: 200W
@@ -318,8 +324,11 @@
 **Start-systems-entry{DEC3500X}{ALPHA}{DEC3000}
 **Sys-name: DEC 3000 Model 500X AXP
 **Def-lref{1} = ref{EC-H2315-46}
+**def-lref{2} = ref{CU-1993-04-19}
+**Announcement**vref{2}: 1993-04-19
+**FRS-date**vref{2}: 1993-05
 **Codename: Hot Pink
-**OS-support-VMS: V1.5
+**OS-support-VMS**vref{2}: V1.5
 **CPU-module: KN15-CA
 **Module: 54-21149-01
 **CPU-name-vms: KN15-CA

@@ -286,6 +286,22 @@
 **Power-end{LA75-240V}
 **End-printers-entry{LA75}
 
+**Start-printers-entry{LA95}{PRINTER}{LA}
+**Sys-name: LA95
+**Desc-name: DECwriter 95 Personal Printer
+**def-lref{1} = ref{CU-1993-04-19}
+**Announcement**vref{1}: 1993-04-19
+**Printheaf**vref{1}: 24 wire
+**Interface**vref{1}: Parallel (serial optional)
+**Print-speed**vref{1}: {215 draft} {66 LQ}
+**Resolution**vref{1}: 360 x 360
+**Emulations**vref{1}: {Epson ESC P/2} {Epson LQ-570} {IBM ProPrinter}
+**Min-memory**vref{1}: 8 KB
+**Max-memory**vref{1}: 128 KB
+**Colour**vref{1}: Yes
+**Setup**vref{1}: LCD
+**End-printers-entry{LA95}
+
 **Start-printers-entry{LG01}{PRINTER}{LG}
 **Def-lref{1} = ref{CU-1992-01-31}
 **Last-order**vref{1}: 1992-06-26
