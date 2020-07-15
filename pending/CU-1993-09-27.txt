@@ -1,0 +1,24 @@
+{1993-09-27}
+
+DECchip 21040-AA Ethernet LAN Controller for PCI
+
+The DECchip 21040-AA Ethernet LAN Controller for PCI will be available in  January 1994.
+
+ZLX Graphics Accelerators for Alpha AXP Workstations
+
+PRODUCTS BEING RETIRED
+
+	      				       Last        Last
+                                               Order       Ship	     Recommended
+Order No.     Description                      Date        Date	     Migration
+
+________________________________________________________________________________
+	      DMR11 Product Family:	       
+DMR11-M	      High performance, single line,   Effective now	     Note 1
+CK-DMR11-A1   microprocessor controlled,  
+/AD/B1/BD/C1  synchronous communications  
+/CD/CE/CF/ED  controller
+/FD/FE
+________________________________________________________________________________
+	      DECnet-VAX Extensions: 
+QA-D04*B-H*   DECnet-VAX Extensions	       Effective now 	     Note 2

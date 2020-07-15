@@ -1,0 +1,78 @@
+{1993-08-30}
+
+o  DECpc LPv Network Client
+   - DECpc LPv 425sx, 4 MB RAM, 3.5" FDD, 170 MB IDE, S3 805 GUI 
+     accelerator, 1 MB DRAM, keyboard, MS-DOS, and Windows
+   - 14" SVGA monitor (1024 x 768, NI)
+   - 128 KB cache
+   - EtherWorks Turbo
+
+o  DECpc LPx Network Client
+   - DECpc LPx 433sx, 4 MB RAM, 3.5" FDD, 170 MB IDE, S3 805 GUI 
+     accelerator, 1 MB DRAM, keyboard, MS-DOS, and Windows
+   - 14" SVGA monitor (1024 x 768, NI)
+   - 128 KB cache
+   - EtherWorks Turbo
+
+o  Small Business
+   - DECpc LPv 433dx, 4 MB RAM, 3.5" FDD, 245 MB IDE, S3 805 GUI 
+     accelerator, 1 MB DRAM, keyboard, MS-DOS, and Windows
+   - 15" SVGA monitor (1024 x 768, NI)
+   - Additional 4 MB RAM (8 MB total system RAM)
+   - 128 KB cache
+   - Lotus SmartSuite (1-2-3, AmiPro, Freelance)
+   - 14.4 KB data/fax modem
+
+o  Business Professional
+   - DECpc LPx 433dx, 8 MB RAM, 3.5" FDD, 245 MB IDE, S3 928 VESA VL GUI 
+     accelerator, keyboard, mouse, MS-DOS, and Windows
+   - 15" SVGA monitor (1024 x 768, NI)
+   - 128 KB cache
+   - Lotus SmartSuite (1-2-3, AmiPro, Freelance)
+   - 14.4 KB data/fax modem
+
+
+
+DECrepeater 900TM Low Cost, High Density Connectivity
+
+DECmau TL, DECrepeater 900TL, and DECrepeater 900SL
+
+
+DECconcentrator 900MX Fully Configurable FDDI Connectivity
+
+DECpacketprobe 90 and PROBEwatch for Network Monitoring
+
+MUXserver 90 and MUXserver 320/380 V2.0 RTS Software
+
+
+PRODUCT POSITIONING
+
+DECserver products should be used to connect local users to a local 
+Ethernet. MUXserver products should be used to connect a cluster of users at 
+a remote site to a local Ethernet. There are three MUXserver versions from 
+which to choose:
+
+MUXserver:                    90           320            380
+
+Supported protocols	      Telnet/LAT   Telnet/LAT	  Telnet/LAT
+Maximum active users	      96	   32		  128
+Maximum sessions	      384	   128		  512
+Maximum links		      1		   2		  8
+Maximum aggregate bandwith    64 Kb	   83.2 Kb	  128 Kb
+Maximum DECmux 300 systems    3		   6		  16
+
+Products being Retired
+
+RT100/102/   All variants, ruggedized	Effective immediately	 (4) 
+103	     VT100/102/103 terminals
+RT137 	     All variants, ruggedized	Effective immediately	 (4)	        
+	     VT terminals/keyboards
+	     and accessories
+RT1/2xx      All variants, ruggedized	Effective immediately	 (4)	        
+	     VT100/200 keyboards
+RT220/240/   All variants, ruggedized	Effective immediately	 (4) 
+241	     VT220/240/241 terminals
+RT2x7 	     All variants, hand held	Effective immediately	 (4) 
+	     wands
+VT2xB 	     All variants, ruggedized	Effective immediately	 (4) 
+	     barcode readers

@@ -929,14 +929,14 @@
 **Def-lref{2} = ref{DTJ-V1-7}
 **Def-lref{3} = ref{DTJ-V2-2}
 **Def-lref{4} = ref{EK-6263M-MA}
-**def-lref{5} = ref{OVMS-REL-HIST-20100621}
+**Def-lref{5} = ref{OVMS-REL-HIST-20100621}
+**Def-lref{6} = ref{EK-6234A-UP-001}
 **document=doc{DEC:EK-620AA-TM-001} ! VAX 6200 System Technical User's Guide
 **document=doc{DEC:EK-620AA-MG-001} ! VAX 6200 Options And Maintenance
 **document=doc{DEC:EK-6200X-IP-001} ! *ipb* VAX 6200 System
 **document=doc{DEC:EK-KA62A-RM-J}
 **Announcement**vref{3}: April 1988
 **Codename**uref{*47}: Calypso
-!**OS-support-VMS**uref{*9,*26}: V5.0
 **OS-support-VMS**vref{5}: V5.0
 **CPU-module**vref{1,2}: KA62A
 **CPU-name-VMS: KA62A
@@ -955,7 +955,7 @@
 **FPU-chip**vref{2}: CFPA
 **CPU-cycle**vref{1,2}: 80ns
 **Cache**vref{1,2}: 1KB (80ns)
-**Module: T2011
+**Module**vref{6}: T2011
 **Backup-cache**vref{1,2}: 256KB (160ns)
 **Instruction-buffer**vref{1}: 12 bytes
 **Translation-buffer**vref{1}: 28 entries
@@ -1006,6 +1006,7 @@
 **Def-lref{3} = ref{EK-624EA-MG-001}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
 **Def-lref{5} = ref{EK-6263M-MA}
+**Def-lref{6} = ref{EK-6234A-UP-001}
 ! vref{1} January 1989
 **Announcement**uref{*DU MAR-1989 [1]}: 24 January 1989
 **Codename**uref{*47}: Hyperion
@@ -1018,7 +1019,7 @@
 **CPU-name-VMS: KA62B
 **CPU-name-console: KA62B
 ! T2011-YC is VAXserver 6300. prom is 23-017E9-00. VAX 6300 prom is 23-016E9-00
-**Module**vref{3}: T2011-YA
+**Module**vref{3,6}: T2011-YA
 **VMS-CPU: 10
 **VMS-XCPU: 2
 **SID: 0A000006
@@ -1077,6 +1078,7 @@
 **def-lref{4} = ref{EK-VAXCT-CG-006}
 **def-lref{5} = ref{OVMS-REL-HIST-20100621}
 **def-lref{6} = ref{CU-1991-10-30}
+**Def-lref{7} = ref{EK-6234A-UP-001}
 **document=doc{DEC:DTJ-V2-2} ! "VAX 6000 Model 400 System", Digital Technical Journal, Vol 2 No 2, Spring 1990
 **document=doc{DEC:EK-640EB-TM-002} ! VAX 6000-400 System Technical User's Guide
 **document=doc{DEC:EK-640EB-MG-002} ! VAX 6000-400 Options and Maintenance
@@ -1085,7 +1087,7 @@
 !**OS-support-VMS**uref{*26}: V5.2 
 **OS-support-VMS**vref{5}: V5.2 
 **CPU-module**uref{*2}: KA64A
-**Module**vref{3}: T2015
+**Module**vref{3,7}: T2015
 **CPU-name-VMS: KA64A
 **VMS-CPU: 11
 **VMS-XCPU: 2
@@ -4421,13 +4423,16 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{1} = ref{EK-KA490-SV.A01}
 **Def-lref{2} = ref{EC-N0857-51}
 **Def-lref{3} = ref{DECdirect-NOV92}
-**def-lref{4} = ref{CU-1992-07-15}
-**def-lref{5} = ref{CU-1992-09-21}
+**Def-lref{4} = ref{CU-1992-07-15}
+**Def-lref{5} = ref{CU-1992-09-21}
+**Def-lref{6} = ref{CU-1993-09-27}
 **document=doc{DEC:EK-KA490-SV-A01} ! VAXstation 4000 Model 90 Service Information
 **document=doc{DEC:EK-VAXOG-IN-B01} ! VAXstation 4000 Model 90 Owner's and System Installation Guide
 **document=doc{DEC:EK-VX690-UP-A01} ! VAXstation 4000 Model 60 to VAXstation 4000 Model 90 Upgrade Guide
 **document=doc{DEC:VS TCA} ! VAXstation 4000 Model 60/90 TURBOchannel Bus Adapter Specification
 **Announcement**vref{4}: 15 July 1992
+**Last-order**vref{6}: 1993-12-24
+**Last-ship**vref{6}: 1994-03-25
 **Codename: Cougar
 **OS-support-VMS**vref{5}: VMS V5.5-2HW
 **CPU-module**vref{1}: KA49

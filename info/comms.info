@@ -551,6 +551,19 @@
 **Dimensions-end{DS90TL}
 **End-comms-entry{DS90TL}{TERMSERVER}
 
+**Start-comms-entry{DS900TM}{TERMSERVER}
+**Sys-name: DSRVZ
+**Desc-name: DECserver 900TM Terminal Server
+**Def-lref{1} = ref{CU-1993-08-30}
+**Announcement**vref{1}: 1993-08-30
+**FRS-date**vref{1}: 1993-10
+**Minimum-Memory**vref{1}: 4 MB
+**Maximum-Memory**vref{1}: 8 MB
+**Ports**vref{1}: 32
+**Speed**vref{1}:  up to 115.2 kbps
+**Network-interface**vref{1}: DEChub ONE or DEChub 900
+**End-comms-entry{DS90M}
+
 **Start-comms-entry{DSYT1}{SYNCH}
 **Sys-name: DSYT1
 **Desc-name: DEC WANcontroller 720

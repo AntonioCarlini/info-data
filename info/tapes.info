@@ -1096,7 +1096,9 @@
 **Sys-name: TZK11
 **Desc-name: TZK11 Data Cartridge Tape Drive
 **Def-lref{1} = ref{EK-TZK11-UG.A01}
+**Def-lref{2} = ref{1993-08-16}
 ! Name verified in vref{1}: definitely T then Z then K !
+**Announcement**vref{2}: 1993-08-16
 **Capacity**vref{1}: 2.5GB
 ![1] OpenVMS AXP 1.5, NT AXP 3.1
 **OS-Support-vms**vref{1}: V5.5-2

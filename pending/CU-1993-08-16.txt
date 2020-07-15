@@ -1,0 +1,16 @@
+{1993-08-16}
+
+RZxx SCSI Product Comparison
+
+The SCSI family of removable storage products provides Digital systems with 
+a wide range of functionality and packaging flexibility. Following is a 
+summary of the 5.25 inch SCSI fixed disks:
+
+                         RZ55      RZ56      RZ57      RZ58      RZ73    
+Form factor (inches)	 5.25  	   5.25      5.25      5.25    	 5.25
+Capacity (MB) 		 332       665       1000      1380      2000
+Transfer rate (MB/sec) 	 1.25      1.87      2.2       3.75      2.7
+Seek time (Msec) 	 16        16        14.5      12.5    	 <14.0
+Access time (Msec) 	 24        24        <23       18.1    	 <22.3
+
+

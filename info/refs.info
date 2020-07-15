@@ -1182,33 +1182,33 @@
 **End-ref{CU-1993-07-19}
 
 **Start-ref{CU-1993-08-02}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 2nd August 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=618.0
 **End-ref{CU-1993-08-02}
 
 **Start-ref{CU-1993-08-16}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 16th August 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=619.0
 **End-ref{CU-1993-08-16}
 
 **Start-ref{CU-1993-08-30}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 30th August 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=620.0
 **End-ref{CU-1993-08-30}
 
 **Start-ref{CU-1993-09-13}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 13th September 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=621.0
 **End-ref{CU-1993-09-13}
 
 **Start-ref{CU-1993-09-27}
 **Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=622.0
 **End-ref{CU-1993-09-27}
 
 **Start-ref{CU-1993-10-12}
@@ -4266,6 +4266,12 @@
 **Ref-partno: EK-624EA-MG-001
 **Ref-electronic: PDF
 **End-ref{EK-624EA-MG-001}
+
+**Start-ref{EK-6234A-UP-001}
+**Ref-text: VAX 6000: Installing Model 200/300/400 Processors
+**Ref-partno: EK-6234A-UP-001
+**Ref-electronic: PDF
+**End-ref{EK-6234A-UP-001}
 
 **Start-ref{EK-62X34-IN-003}
 **Ref-text: VAX 6000 CI/Embedded Storage Installation Manual

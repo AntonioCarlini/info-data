@@ -1,9 +1,12 @@
 **Start-printers-entry{DCL1100}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-DCL11-SV.B01}
-**Sys-name: DEClaser 1100
+**Def-lref{2} = ref{1993-09-13}
+**Sys-name: LN07
 **Desc-name: DEClaser 1100 Laser Printer
 ![1]: 512KB-2.5MB RAM; two optional font carts
 ![1]: interface: parallel + serial 
+**Last-order**vref{2}: 1993-09-13
+**Last-ship**vref{2}: 1993-09-13
 **Resolution**lref{1}: 300 dpi
 **Print-speed**lref{1}: 8 pages/min
 **Sheet-capacity**lref{1}: 50 sheets

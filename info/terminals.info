@@ -354,3 +354,12 @@
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 6 4 ; Ps c
 **End-terminals-entry{VT420}
+
+**Start-terminals-entry{VT510}{DECVT}{VT500}
+**Sys-name: VT510
+**Desc-name: VT510 Video Terminal
+**Def-lref{1} = ref{1993-09-13}
+**Announcement**vref{1}: 1993-09-13
+**Keyboard-type: LK411 (VT108) or LK412(VT108-WPS) or PCXAL (PC101/PC102)
+**End-terminals-entry{VT510}
+

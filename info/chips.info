@@ -353,6 +353,9 @@
 **Start-chips-entry{DC21066}{CHIP}{ALPHACPU}
 **Part-number: Digital Semiconductor 21066 Alpha Microprocessor
 **Def-lref{1} = ref{EC-QC4GB-TE}
+**Def-lref{2} = ref{1993-09-27}
+**Announcement**vref{2}: 1993-09-27
+**FRS-date**vref{1}: 1994 Q1
 **Codename: LCA
 **CPU-technology**htref{1}: 0.65um CMOS
 **CPU-clock**htref{1}: {100MHz}{166MHz}
@@ -383,6 +386,14 @@
 **FP-pipeline**htref{1}: 10 stage
 **Write-buffer**htref{1}: 4 entry
 **End-chips-entry{DC21066A}
+
+**Start-chips-entry{DC21068}{CHIP}{ALPHACPU}
+**Part-number: Digital Semiconductor 21068 Alpha Microprocessor
+**Def-lref{1} = ref{1993-09-27}
+**Announcement**vref{1}: 1993-09-27
+**FRS-date**vref{1}: 1994 Q1
+**CPU-clock**vref{1}: 66 MHz
+**End-chips-entry{DC21068}
 
 **Start-chips-entry{DC21164}{CHIP}{ALPHACPU}
 **Part-number: Digital Semiconductor 21164 Alpha Microprocessor

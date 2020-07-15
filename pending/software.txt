@@ -727,3 +727,49 @@ DEC SoftPC V4.0 for OpenVMS VAX and ULTRIX RISC
 PATHWORKS V5.0 Program Announcement
 DEC C++ for OpenVMS AXP V1.3
 
+{1993-08-02}
+
+DECprint Supervisor for KODAK Printers V1.0 for OpenVMS VAX
+
+DEC OSF/1 V1.3 Operating System
+
+PATHWORKS V1.2 for DEC OSF/1 AXP
+
+StorageWorks PATHWORKS Desktop Backup V1.1
+
+{1993-08-16}
+
+Reliable Broadcast Software V1.0 for RISC ULTRIX
+Digital Standard M V1.0 for DEC OSF/1 AXP
+Reliable Transaction Router (RTR) V2.1 for OpenVMS VAX
+DECimage MEGADOC V1.1
+
+Multimedia Services V1.0 for DEC OSF/1 AXP
+
+DECspin V1.1 for DEC OSF/1 AXP
+
+{1993-08-30}
+
+eXcursion for Windows NT -- Special Introductory Price
+DECvoice Software V2.2
+Disk Shadowing V1.2 for DEC OSF/1 Systems
+PrintServer Software V4.2
+
+HUBwatch for OpenVMS VAX V2.0
+
+
+{1993-09-13}
+
+COHESION Team/SEE V1.0
+DECndu Plus V1.0
+OSI Application Developer's Toolkit V2.0 on DEC OSF/1 AXP
+DEC TCP/IP Services V3.0 for OpenVMS AXP
+VTX Conductor
+DECdmt Disk Management Tool
+
+DEC NETWORK SAVE AND RESTORE (DECnsr) FOR ULTRIX V2.1
+
+{1993-09-27}
+
+DEC X.500 Directory Service V1.1
+
