@@ -773,3 +773,32 @@ DEC NETWORK SAVE AND RESTORE (DECnsr) FOR ULTRIX V2.1
 
 DEC X.500 Directory Service V1.1
 
+{1993-10-12}
+
+DEC OSF/1 V2.0 Operating System
+
+System V Environment for DEC OSF/1
+DECsafe Available Server for DEC OSF/1 AXP V1.0
+ACMSxp V1.0 for OSF/1 AXP
+DEC Rdb for OSF/1 AXP Software Developer's Kit
+DEC FullSail V1.2
+DEC Data Distributor V6.0
+DEC DB Integrator V1.0
+ACCESSWORKS V2.0 Servers Extend Database Access
+Business Recovery Server V1.1
+
+POLYCENTER Performance Solution V2.0
+POLYCENTER NetWorker Save and Restore V2.2
+POLYCENTER Common Agent V1.0
+POLYCENTER Capacity Planner V2.0
+3270 for DECadvantage Windows V1.0
+Remote PC for DECadvantage V6.1
+ObjectBroker V2.5
+DEC Notes V2.5 and Conferencing for Windows V1.2
+Digital Extended Math Library V2.5
+
+Reliable Transaction Router V2.1 for OpenVMS AXP
+
+DEC SNA Peer Server V1.0
+DEC SNA Domain Gateway V1.1
+

@@ -1,0 +1,29 @@
+{CU-1993-10-12}
+
+
+DEFAA-AA  	 FUTUREBUS+ to FDDI adapter, SAS, MMF			    
+DEFAA-DA  	 FUTUREBUS+ to FDDI adapter, DAS, MMF     
+o  OpenVMS AXP V1.5 or later, or DEC OSF/1 AXP V1.3 or later.
+
+TKZ60 Tape Drive Compatible with TA90 and IBM 3480 Format
+
+TECHNICAL DATA
+
+With the retirement of the TA90 and TA91 tape drives in June 1993, the TKZ60 
+is the only tape drive available from Digital that has both read and write 
+compatibility with IBM 3480 tape drives. Digital also offers the TA92 36 
+track, IBM 3490E compatible tape drive for datacenter environments where 
+high performance or higher capacity per cartridge is a requirement. The TA92 
+drive is backwards read compatible with 18 track drives, such as the TKZ60, 
+TA90, TA90E, and TA91 drives. However, tape cartridges that have been 
+written on the TA92 drive can not be read on 18 track drives.
+
+
+HSC High Performance Software V8.3 provides TSZ07, TKZ09, and TKZ60 tape 
+support on the HSC SCSI channel card. HSC users thus obtain 1600/6250 bpi 
+reel-to-reel and 8 mm tape capability and 18 track TA90 and IBM 3480 tape 
+compatibility, respectively, for their data interchange or backup needs. All 
+three of these SCSI interfaced tape devices can now be connected to the HSC 
+SCSI channel card. The SCSI interface allows up to seven SCSI devices to be 
+configured on the same HSC channel card.
+

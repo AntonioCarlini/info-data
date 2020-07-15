@@ -21,6 +21,8 @@
 **def-lref{3} = ref{EK-VAXCT-CG-006}
 **def-lref{4} = ref{CU-1992-07-15}
 **def-lref{5} = ref{CU-1992-09-21}
+**def-lref{6} = ref{CU-1993-10-12}
+! vref{6} makes it clear that the upgrade from VAX 4100 to VAX 4100A is just the addition of a second DSSI (this required OpenVMS OpenVMS VAX V5.5-2h4)
 **document=doc{DEC:EK-467AA-TI-A01} ! VAX 4000 Model 100 Customer Technical Information
 **document = doc{DEC:EK-473AA-MG-A01}
 **document=doc{DEC:EK-473AB-MG-C01} ! VAX 4000 Model 100,100A,105A,106A KA52/53/54 CPU Sys Maint
@@ -482,10 +484,13 @@
 **def-lref{3} = ref{EK-VAXCT-CG-006}
 **def-lref{4} = ref{CU-1992-07-15}
 **def-lref{5} = ref{CU-1992-09-21}
+**def-lref{6} = ref{CU-1993-10-12}
 **document=doc{DEC:EK-454AA-MG-001} ! KA675/KA680/KA690 CPU System Maintenance
 **Sys-name: VAX 4000-400
 **Desc-name: VAX 4000 Model 400
 **Announcement**vref{4}: 15 July 1992
+**Last-order**vref{6}: 1993-12-30
+**Last-ship**vref{6}: 1994-03-30
 **Codename**uref{*102}: Omega-S
 **OS-support-VMS**vref{5}: V5.5-2HW
 ! vref{2} states:
@@ -537,12 +542,15 @@
 **def-lref{7} = ref{4500-6600-PERF-SUMM}
 **def-lref{8} = ref{EK-VAXCT-CG-006}
 **def-lref{9} = ref{CU-1991-10-30}
+**def-lref{10} = ref{CU-1993-10-12}
 **document=doc{DEC:EK-KA680-TM-001} ! KA680 CPU Module Technical Manual
 **document=doc{DEC:EK-454AA-MG-001} ! KA675/KA680/KA690 CPU System Maintenance
 **document=doc{DEC:EK-KA680-UP.C01} ! Addendum to KA680 CPU Technical Manual
 **Sys-name**vref{1}: VAX 4000-500
 **Desc-name: VAX 4000 Model 500
 **Announcement**vref{9}: 30 October 1991
+**Last-order**vref{10}: 1993-12-30
+**Last-ship**vref{10}: 1994-03-30
 **Codename: Omega
 **Html-target: vax450x
 **OS-support-VMS**vref{9}: V5.5
@@ -657,6 +665,8 @@
 **def-lref{5} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{6} = ref{CU-V5-8B}
 **def-lref{7} = ref{4500-6600-PERF-SUMM}
+**def-lref{8} = ref{CU-1993-10-12}
+! vref{8} makes it clear that 4500->4500A needs a redesigned CPU card that offers an optional extra pair of DSSI buses
 **Sys-name: VAX 4000-500A
 **Desc-name: VAX 4000 Model 500A
 **Html-target: vax450x
@@ -742,11 +752,15 @@
 **def-lref{3} = ref{EK-496AB-TI-B01}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
 **def-lref{5} = ref{CU-1992-07-15}
+**def-lref{6} = ref{CU-1993-10-12}
+! vref{6} makes it clear that 4600->4600A needs a redesigned CPU card that offers an optional extra pair of DSSI buses
 **document=doc{DEC:EK-454AA-MG-001} ! KA675/KA680/KA690 CPU System Maintenance
 **Sys-name: VAX 4000-600A
 **Desc-name: VAX 4000 Model 600A
 **Announcement**vref{5}: 15 July 1992
 **FRS-date**uref{??? *SUE Apr 1992 pt II}: 24 April 1992
+**Last-order**vref{6}: 1993-12-30
+**Last-ship**vref{6}: 1994-03-30
 **Codename: Omega-F
 **OS-support-VMS**uref{SUE Apr 1992 pt II}: V5.5
 **OS-support-MDM**vref{3}: Release 139
@@ -784,9 +798,10 @@
 ! {1} was EK-498AB-MB.B01
 **def-lref{2} = ref{EK-496AB-TI-B01}
 **def-lref{3} = ref{CU-V5-8B}
+**def-lref{4} = ref{CU-1993-10-12}
 **Sys-name: VAX 4000-700A
 **Desc-name: VAX 4000 Model 700A
-**Announcement: @@
+**Announcement**vref{4}: 1993-10-12
 **Html-target: vax470x
 **OS-support-VMS**vref{2}: V5.5-2H4, V6.1 or later
 **OS-support-MDM**vref{2}: Release 139
@@ -797,7 +812,7 @@
 **VMS-XCPU: 5
 **SID: 13000202
 **XSID : 05241001
-**Num-proc: 1
+**Num-proc**vref{4}: 1
 **CPU-technology: CMOS-4
 **CPU-chip: NVAX
 **CPU-clock**vref{2}: 333MHz
@@ -810,8 +825,10 @@
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
+**VUPs**vref{4}: 40
 **TPC-A**htref{3}: 253
-**Maximum-memory: 512MB
+**Minimum-memory**vref{4}: 64MB
+**Maximum-memory**vref{4}: 512MB
 **BUS-Qbus**vref{1}: 1 @ 3.3MB/s
 **BUS-DSSI**vref{1}: 2-4 (SHAC)
 **LAN-support**vref{1}: 1 (embedded)
@@ -2968,6 +2985,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VXFT810}{VAX}{VAXFT}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
+**def-lref{2} = ref{CU-1993-10-12}
 **document=doc{DEC:EK-VX810-CG.A01} ! VAXft Systems Configuring the Model 810
 **document=doc{DEC:EK-FTV81-IP-A01} ! VAXft 810 System IPB
 **document=doc{DEC:EK-VXFTA-IN-A01} ! VAXft Systems Model 810 Installation Information
@@ -2976,12 +2994,23 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-VXFTA-PI-A01} ! VAXft Systems Model 810 Proprietary Service Information
 **document=doc{DEC:EK-VXFTA-SI-A01} ! VAXft Model 810 Service Information
 **document=doc{DEC:EK-VXFTA-SP-A01} ! VAXft Systems Model 810 Site Preparation Guide
+**Announcement**vref{2}: 1993-10-12
+! **OS-support-VMS**vref{2}: VMS V5.5-2hf
 **OS-support-VMS: V5.5-2HF and V6.2 (only)
 **Sys-name: VAXft 810
 **Desc-name: VAXft Model 810
 **Codename: Jetstream
 **VUPs**vref{1}: 35
+**CPU-chip**vref{2}: NVAX+
+**CPU-clock**vref{2}: 83 MHz
+**Minimum-memory**vref{2}: 32MB
 **Maximum-memory**vref{1}: 256MB
+**Dimensions-start{VXFT810}
+**Height**vref{2}: 1700mm
+**Width**vref{2}: 600mm
+**Depth**vref{2}: 860mm
+**Dimensions-end{VXFT810}
+**Heat-dissipation**vref{2}: 13,000 BTU/hr
 **End-systems-entry{VXFT810}
 
 **Start-systems-entry{UV1}{VAX}{UVAX}
