@@ -1,0 +1,24 @@
+{CU-1993-12-06}
+
+Alpha AXP Graphics Update
+
+ZLX-E1 ACCELERATOR FOR Alpha AXP WORKSTATIONS
+
+GRAPHICS SUPPORT FOR DECpc AXP/150 AND DEC 2000 MODEL 300
+
+The DECpc AXP/150 and DEC 2000 Model 300 Windows NT platforms now support 
+the Number Nine GXE (S3) 1280 x 1024 graphics accelerator. This 8 plane, 33M 
+Winmark video card provides the high resolution and performance demanded by 
+graphics intensive simulation, modeling, visualization, and CAD/CAM 
+applications. The Windows NT operating system supports both the COMPAQ 
+QVision 1024 x 768 (8M Winmarks) graphics card and the Number Nine GXE card 
+from Digital.
+
+The OpenVMS and DEC OSF/1 operating systems support the COMPAQ QVision card 
+on the DEC 2000 Model 300 platform. You can now order OpenVMS and DEC OSF/1 
+2D graphics workstations by purchasing the DEC 2000 Model 300 and adding the 
+QVision card and monitor according to the ordering rules for the DECpc 
+AXP/150 system. Note that to fully utilize the EISA configuration utility, 
+you must configure OpenVMS and DEC OSF/1 DEC 2000 Model 300 systems with 
+graphics.
+

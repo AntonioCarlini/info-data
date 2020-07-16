@@ -1,0 +1,14 @@
+{CU-1993-12-20}
+
+Prestoserve Option for DEC 4000 Systems
+
+TURBOchannel to VMEbus Adapter for AXP and VAX Systems
+
+NEW FUNCTIONALITY IN ULTRIX WORKSYSTEM SOFTWARE
+
+ULTRIX Worksystem Software V4.4 will be released early in the spring of 
+1994. This release will focus on software corrections and will support Motif 
+1.2, X11R5, and replacement devices. It is planned as the last release that 
+will add new functionality to the UWS product. 
+
+

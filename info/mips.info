@@ -96,7 +96,10 @@
 **Def-lref{1} = ref{EK-PM30E-RB-002}
 **Def-lref{2} = ref{EK-PM30F-MG-004}
 **Def-lref{3} = ref{DECdirect-FEB92}
+**Def-lref{4} = ref{CU-1993-12-06}
 **Sys-name: DECstation 5000 Model 20
+**Last-order**vref{4}: 1994-01-28
+**Last-ship**vref{4}: 1994-04-01
 **Num-proc: 1
 **CPU-module**htref{2}: KN02-BC
 **Module**htref{2}: 54-20165-01
@@ -158,7 +161,10 @@
 **Def-lref{1} = ref{EK-PM30E-RB-002}
 **Def-lref{2} = ref{EK-PM30F-MG-004}
 **Def-lref{3} = ref{DECdirect-FEB92}
+**Def-lref{4} = ref{CU-1993-12-06}
 **Sys-name: DECstation 5000 Model 25
+**Last-order**vref{4}: 1994-01-28
+**Last-ship**vref{4}: 1994-04-01
 **Num-proc: 1
 **CPU-module**htref{2}: KN02-CC
 **Module**htref{2}: 54-20165-02
@@ -219,9 +225,12 @@
 **Def-lref{2} = ref{EK-PM30F-MG-004}
 **Def-lref{3} = ref{EK-PM32G-MG-003}
 **Def-lref{4} = ref{CU-1992-06-05}
+**Def-lref{5} = ref{CU-1993-12-06}
 **Sys-name: DS5033
 **Desc-name: DECstation 5000 Model 33
 **Announcement**vref{4}: 1992-05-15
+**Last-order**vref{5}: 1994-01-28
+**Last-ship**vref{5}: 1994-04-01
 **OS-support-ultrix**vref{4}: Ultrix V4.2A
 **Num-proc: 1
 **CPU-module**htref{2}: KN02-DA
@@ -257,7 +266,10 @@
 
 **Start-systems-entry{DST5050}{DECMIPS}{DS5000}
 **Def-lref{1} = ref{EK-PM30F-MG-004}
+**Def-lref{2} = ref{CU-1993-12-06}
 **Sys-name: DECstation 5000 Model 50
+**Last-order**vref{2}: 1994-01-28
+**Last-ship**vref{2}: 1994-04-01
 **Num-proc**htref{1}: 1
 **Minimum-memory**htref{1}: 8MB:(on board)
 **Maximum-memory**htref{1}: 40MB
@@ -611,7 +623,11 @@
 **Def-lref{1} = ref{EK-D590A-OG-C01}
 **Def-lref{2} = ref{EK-D590A-PS-C01}
 **Def-lref{3} = ref{EK-D590A-IP-001}
-**Sys-name: DECsystem 5900
+**Def-lref{4} = ref{CU-1993-12-06}
+**Sys-name: DS5900
+**Desc-name: DECsystem 5900
+**Last-order**vref{4}: 1994-01-28
+**Last-ship**vref{4}: 1994-04-01
 **Num-proc**vref{1}: 1-2
 **Minimum-memory**vref{1}: 64MB
 **Maximum-memory**vref{1}: 448MB

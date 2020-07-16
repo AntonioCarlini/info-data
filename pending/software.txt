@@ -802,3 +802,50 @@ Reliable Transaction Router V2.1 for OpenVMS AXP
 DEC SNA Peer Server V1.0
 DEC SNA Domain Gateway V1.1
 
+{CU-1993-10-25}
+
+DECmodel for Windows V1.0
+DECplan V2.0 on DEC OSF/1 and SunOS Systems
+DECram for OpenVMS V2.0
+POLYCENTER System Census for PC LANs and System Census V1.1
+PATHWORKS for SCO UNIX V1.1
+
+
+{CU-1993-11-08}
+
+Sequential Media Filesystem V1.0 for Active Data
+HSM V1.0 for Dormant Data
+Archive/Backup V1.0 for Inactive Data
+ULTRIX MLS+ Trusted Worksystem Software V2.0
+DEC Ada V3.1 and DEC FUSE V1.2 Ada Support
+DECnet/OSI V2.0 for OpenVMS AXP
+DECserver Network Access Software V1.3
+
+
+{CU-1993-11-08}
+
+DEC RALLY V3.2							    
+
+DEC X.500 Directory Service V1.2
+
+
+ALL-IN-1 Systidy V2.0
+
+DECnmail V9.3-4
+
+{CU-1993-12-06}
+
+DSM V6.3 for OpenVMS VAX and OpenVMS AXP Systems
+DEC PL/I V4.0 for OpenVMS AXP Systems
+DEC BASIC V1.0 for OpenVMS AXP Systems Program Announcement
+
+POLYCENTER NetWorker Save and Restore V2.2 FOR OpenVMS VAX
+
+{CU-1993-12-20}
+
+OpenDATA Manager V1.0 for Data and Document Management
+DEC VOICE:mail V1.3 for OpenVMS
+DECvoiceBuilder V1.3
+CDA Converter Library V2.2 for OpenVMS
+DEC SoftPC V4.0 for DEC OSF/1 AXP Systems
+

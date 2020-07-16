@@ -1145,6 +1145,7 @@
 **def-lref{4} = ref{EK-VAXCT-CG-006}
 **def-lref{5} = ref{CU-1991-10-30}
 **def-lref{6} = ref{CU-1992-04-03}
+**def-lref{7} = ref{CU-1993-10-25}
 **document=doc{DEC:EK-650EA-TM-001} ! VAX 6000 Model 500 System Technical User's Guide
 **document=doc{DEC:EK-650EA-HR-001} ! VAX 6000 Model 500 Mini-Reference
 **document=doc{DEC:6500 REL NOTES} ! VAX 6000 Model 500 Hardware Release Notes
@@ -1154,6 +1155,7 @@
 **document=doc{DEC:EK-6500X-IP-001} ! *ipb* VAX 6000-500 System
 **document=doc{DEC:EK-65AMA-M-A} ! RM-65AMA-0-0 VAX 6000-500 System Revision Matrix
 **Announcement**uref{*48}: 25 October 1990
+**Last-order**vref{7}: 1993-09-30
 **Codename: Mariah
 **OS-support-VMS**htref{**1}: V5.4
 ! Flowchart has V5.4-OA
@@ -1213,6 +1215,7 @@
 **Def-lref{3} = ref{4500-6600-PERF-SUMM}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
 **def-lref{5} = ref{CU-1991-10-30}
+**def-lref{6} = ref{CU-1993-10-25}
 **document=doc{DEC:EK-660EA-TM-001} ! VAX 6000 Model 600 System Technical User's Guide
 **document=doc{DEC:EK-660EA-HR-001} ! VAX 6000 Model 600 Mini Reference
 **document=doc{DEC:EK-660EA-MG-001} ! VAX 6000 Model 600 Service Manual
@@ -1220,6 +1223,7 @@
 **document=doc{DEC:VAX-6000-MA} ! VAX6000-600 MAINTENANCE ADVISORY
 **Announcement**vref{5}: 30 October 1991
 **FRS-date**vref{5}: 22 November 1991
+**Last-order**vref{6}: 1993-09-30
 **Codename: Neptune
 **OS-support-VMS**vref{5}: V5.5
 **Module: T2054
