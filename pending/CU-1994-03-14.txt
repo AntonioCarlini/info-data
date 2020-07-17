@@ -1,0 +1,61 @@
+{CU-1994-03-14}
+
+StorageWorks HSD05 Array Controller
+
+DECpc XL Server
+
+The DECpc XL server will be available April 15, 1994, in either kernel or 
+base system configurations. Because the server can operate in a variety of 
+operating environments, it does not come preloaded with any operating 
+system. The operating system is purchased as a separate line item. Drivers 
+for most major operating systems do come preloaded on the included bootable 
+CDROM (to load drivers not included on the CDROM, please contact your local 
+Digital sales office).
+
+DECchip 21030-AA Graphics Accelerator for PCI
+
+ZLX Graphics Accelerators for Alpha AXP Workstations
+
+o  New ZLX-E1 2D graphics accelerator
+
+o  New Pixelvision 3D ZLX-M1 and ZLX-M2 graphics accelerators
+
+o  Upgrades to ZLX-M1 and ZLX-M2 accelerators
+
+KZTSA Very High Performance TURBOchannel to SCSI Adapter
+
+Upgrades to VAX 4000 Model 50
+
+VRC21 21 INCH COLOR MONITOR
+
+PRODUCTS BEING RETIRED
+
+				       Last         Last        Recommended
+Description                            Order Date   Ship Date   Migration
+
+DEC 3000 Model 300L Upgrades:
+DECstation 5000 Models 20, 25,	       3/25/94	    6/24/94	DEC 3000 Model
+and 33 and VAXstation 4000 Model       		    		300LX ADVANTAGE-
+VLC upgrades to DEC 3000 Model 300L    		    		UPGRADES
+
+Other Products:	                       	            
+RZ24L 3.5" 245 MBF disk drive (1)      4/1/94	    7/1/94	RZ25L, 535 MBF
+
+MicroVAX 3100 Model 30 systems	       7/1/94	    9/30/94	MicroVAX 3100 
+and MicroVAX 3100 WAN packages	       		    		Model 40 (2) 
+
+MIPS R3000 based workstations 	            See Note 3 		Alpha AXP 
+(DECstation and DECsystem 5000	       		    		systems
+Models 133 and 240) and R4000 
+based upgrades
+
+VAX P.S.I. V4.3, VAX P.S.I.	       5/6/94	    5/30/94	DECnet/OSI for 
+Access V4.3, and VAX WAN Device	       		    		OpenVMS VAX (5) 
+Drivers V1.2 (4)		       		    		
+
+All TK50Z expansion boxes	       4/1/94	    4/29/94	None 
+
+All SZ16 expansion boxes	       4/1/94	    7/1/94	StorageWorks
+
+All SZ12 expansion boxes with	       4/1/94	    4/29/94	StorageWorks
+RZ26 and RZ58 drives

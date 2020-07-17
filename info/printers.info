@@ -307,6 +307,18 @@
 **Setup**vref{1}: LCD
 **End-printers-entry{LA95}
 
+**Start-printers-entry{LF02}{PRINTER}{LF}
+**Sys-name: LF02
+**Desc-name: DECcolorwriter 1000
+**Def-lref{1} = ref{CU-1994-01-03}
+**Announcement**vref{1}: 1994-01-03
+**FRS-date**vref{1}: 1994-02-01
+**Print-speed**vref{1}: 2 pages/min
+**Resolution**vref{1}: 300 x 600 dpi
+**Min-memory**vref{1}: 8 MB
+**Data-interface**vref{1}: RS-232, parallel, AppleTalk
+**End-printers-entry{LF02}
+
 **Start-printers-entry{LG01}{PRINTER}{LG}
 **Def-lref{1} = ref{CU-1992-01-31}
 **Last-order**vref{1}: 1992-06-26
@@ -438,7 +450,10 @@
 
 **Start-printers-entry{LN09}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-LNX09-SV-A01}
-**Sys-name: DEClaser 5100
+**Def-lref{2} = ref{CU-1994-03-14}
+**Sys-name: LN09
+**Desc-name: DEClaser 5100
+**Announcement**vref{2}: 1994-03-14
 ! [1] optional 1200x1200 dpi
 **Resolution**lref{1}: 600 dpi
 **Print-speed**lref{1}: 8 pages/min
@@ -464,10 +479,23 @@
 **Power-end{LN09-220}
 **End-printers-entry{LN09}
 
+**Start-printers-entry{LPS17}{PRINTER}{LPS}
+**Def-lref{1} = ref{CU-1994-02-28}
+**Sys-name: LPS17
+**Desc-name: PrintServer 17/600
+**Announcement**vref{1}: 1994-02-28
+**FRS-date**vref{1}: 1994-04
+**Print-speed**vref{1}: 17 pages/min
+**Resolution**vref{1}: 600 dpi
+**Minimum-memory**vref{1}: 8 MB
+**Maximum-memory**vref{1}: 32 MB
+**Interfaces**vref{1}: Ethernet
+**End-printers-entry{LPS17}
+
 **Start-printers-entry{LPS20}{PRINTER}{LPS}
 **Def-lref{1} = ref{EK-TPS20-SG-0011}
 **Sys-name: PrintServer 20
-**Sys-name: turbo PrintServer 20
+**Sys-name: PrintServer 20
 ! [1] Duplex
 ! [1] Duplex printing is 16 pages/min
 ! [1] Built-in PostScript support

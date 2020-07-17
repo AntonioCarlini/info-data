@@ -4522,6 +4522,17 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !-- [1]: Graphics modules: LCSPX, SPXg, SPXgt -->
 **End-systems-entry{VS4090}
 
+**Start-systems-entry{VS4090A}{VAX}{VAXstation}
+**Sys-name: VS4090A
+**Desc-name: VAXstation 4000 Model 90A
+**Def-lref{1} = ref{CU-1994-03-14}
+**Announcement**vref{1}: 1994-03-14
+**SPECmarks**vref{1}: 38.5
+**SPECint92**vref{1}: 19.5
+**SPECfp92**vref{1}: 37.2
+**VUPs**vref{1}: 48.7 (est)
+**End-systems-entry{VS4090A}
+
 **Start-systems-entry{VS4096}{VAX}{VAXstation}
 **Sys-name: VAXstation 4000-96
 **Desc-name: VAXstation 4000 Model 96

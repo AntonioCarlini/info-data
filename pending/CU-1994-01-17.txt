@@ -1,0 +1,31 @@
+{CU-1994-01-17}
+
+COMPARISON WITH CURRENT DECPC LPv SYSTEM
+                                                                           
+                                  DECpc LPv       DECpc LPv+
+
+Winmarks			  17 M		  17 M
+Slots				  3 ISA           3 ISA
+Bays				  4		  4
+Standard RAM (MB)		  4		  4
+Maximum RAM (MB)		  64		  64
+Resolution			  1024 x 768	  1024 x 768
+Power supply (W)		  145		  145
+Power Consumption (in use)	  80		  80
+Power Consumption (sleep mode)	  80		  <30
+
+DECchip 21050 PCI to PCI Bridge
+
+DECchip 21071-AA and 21072-AA Core Logic Chipsets
+
+PRODUCTS BEING RETIRED
+
+				     Last        Last
+Description                          Order Date	 Ship Date   Migration
+
+InfoServer 150 systems 		     3/14/94	 5/14/94     InfoServer 1000
+
+NOTE: InfoServer software crosses InfoServer platforms. Therefore, all 
+      InfoServer software will remain actively sold and will not be retired. 
+      This applies to UPIs YSH, XZY, XZZ, GGW, YTC, 0US, 0UV, and 0UW.
+

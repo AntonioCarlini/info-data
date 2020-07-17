@@ -411,10 +411,13 @@
 **Def-lref{3} = ref{CU-1991-11-08}
 **def-lref{4} = ref{CU-1991-12-20}
 **Def-lref{5} = ref{CU-1993-01-04}
+**Def-lref{6} = ref{CU-1994-03-14}
 **Sys-name: RA71
 **Desc-name: RA71 Winchster Disk
 **Location: storage/ra71.html
 **Announcement**vref{3}: 1991-11-08
+**Last-order**vref{6}: 1994-05-06
+**Last-ship**vref{6}: 1994-07-29
 **OS-support-VMS**vref{5}: V5.4-2
 **OS-support-ultrix**htref{2}: Ultrix V4.2
 **OS-support-eln**vref{4}: VAXELN V4.3
@@ -457,10 +460,13 @@
 **Def-lref{2} = ref{EK-RSA7X-PG-002}
 **Def-lref{3} = ref{CU-1991-11-08}
 **Def-lref{4} = ref{CU-1993-01-04}
+**Def-lref{5} = ref{CU-1994-03-14}
 **Sys-name: RA72
 **Desc-name: RA72 Winchster Disk
 **Location: storage/ra72.html
 **Announcement**vref{3}: 1991-11-08
+**Last-order**vref{5}: 1994-05-06
+**Last-ship**vref{5}: 1994-07-29
 **OS-support-VMS**vref{4}: V5.4-2
 **OS-support-ultrix**htref{2}: Ultrix V4.2
 **OS-support-eln**htref{2}: VAXELN V4.3
@@ -502,9 +508,12 @@
 **Def-lref{1} = ref{EK-ORA7X-SM-002}
 **Def-lref{2} = ref{EK-RSA7X-PG-002}
 **Def-lref{3} = ref{CU-1993-01-04}
+**Def-lref{4} = ref{CU-1994-03-14}
 **Sys-name: RA73
 **Desc-name: RA73 Winchster Disk
 **Codename: Renner
+**Last-order**vref{4}: 1994-05-06
+**Last-ship**vref{4}: 1994-07-29
 ! vref{3} says supported wityh restrictions (generic device) on VMS V5.4-2
 **OS-support-VMS**vref{3}: V5.5-2
 **OS-support-ultrix**htref{2}: Ultrix V4.2
@@ -1911,7 +1920,7 @@
 **Desc-name: RZ24L 245MB SCSI Disk
 **Def-lref{1} = ref{EK-A0718-TI.B01}
 **Def-lref{2} = ref{CU-1992-05-15}
-**Def-lref{3} = ref{1993-09-27}
+**Def-lref{3} = ref{CU-1993-09-27}
 **Announcement**vref{2}: 1992-05-15
 **Last-order**vref{3}: 1993-12-24
 **Last-ship**vref{3}: 1994-03-25

@@ -124,9 +124,12 @@
 **def-lref{3} = ref{EC-H2315-46}
 **def-lref{4} = ref{CU-1993-04-19}
 **def-lref{5} = ref{CU-1993-07-19}
+**Def-lref{6} = ref{CU-1994-02-14}
 ! [3]: 300/300L share basic system module but have different CPU daughter cards
 **Announcement**vref{4}: 1993-04-19
 **FRS-date**vref{4}: 1993-05-01
+**Last-order**vref{6}: 1994-03-25
+**Last-ship**vref{6}: 1994-06-24
 **Codename: Pelica
 **OS-support-VMS**vref{4}: V1.5
 **CPU-module: KN16-BA
@@ -161,6 +164,10 @@
 **Def-lref{3} = ref{CU-V6-3A}
 **Def-lref{4} = ref{CU-V6-5}
 **Def-lref{5} = ref{SOC-JAN1995}
+**Def-lref{6} = ref{CU-1994-02-14}
+**Announcement**vref{6}: 1994-02-14
+**OS-support-VMS**vref{6}: OpenVMS AXP V1.5
+**OS-support-DU**vref{6}: OSF/1 V1.3a
 **CPU-module: KN16-CA
 **Module**vref{2}: 54-22257-03
 **System-module**vref{2}: 54-22249-01
@@ -196,7 +203,10 @@
 **Def-lref{3} = ref{CU-V6-3A}
 **Def-lref{4} = ref{CU-V6-5}
 **Def-lref{5} = ref{SOC-JAN1995}
+**Def-lref{6} = ref{CU-1994-02-14}
 **Last-order**htref{4}: 23 June 1995
+**OS-support-VMS**vref{6}: OpenVMS AXP V1.5
+**OS-support-DU**vref{6}: OSF/1 V1.3a
 **CPU-module: KN16-DA
 **Module**vref{2}: 54-22257-04
 **System-module**vref{2}: 54-22249-01

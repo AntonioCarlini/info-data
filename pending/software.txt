@@ -849,3 +849,73 @@ DECvoiceBuilder V1.3
 CDA Converter Library V2.2 for OpenVMS
 DEC SoftPC V4.0 for DEC OSF/1 AXP Systems
 
+{CU-1994-01-03}
+
+PATHWORKS X.25 (DOS/Windows) V5.0
+DECwrite V3.0 for OpenVMS VAX, OpenVMS AXP, and Windows
+DECimage EXpress V2.2 and Application Services V3.2
+
+{CU-1994-01-17}
+
+DEC DB Integrator Gateway for DSM V1.0
+MAILbus View V1.0 Graphical User Interface
+DECnet/OSI V5.7 for OpenVMS VAX
+VXT 2000 Software V2.1
+
+{CU-1994-02-14}
+
+LinkWorks V2.1 Update
+TeamLinks for Macintosh V2.0
+Forti V1.0
+DECADMIRE V2.0
+DEC RALLY V4.0
+ACMS V4.0 for OpenVMS AXP
+DECforms V2.0 for OpenVMS VAX
+DEC SQL V6.0 License Options
+DEC Rdb V6.1 for OSF/1 AXP
+DECsafe Available Server for DEC OSF/1 V1.0
+DEC OSF/1 Logical Storage Manager V1.0
+
+COHESIONworX V2.0 Open Client/Server Software Engineering
+DEC COBOL V1.1 for OSF/1 AXP Systems
+
+OpenDATA Manager V1.0 Update
+ACCESSWORKS V3.0 for OpenVMS AXP and OpenVMS VAX
+ACCESSWORKS V1.0 for DEC OSF/1 AXP Program Announcement
+
+POLYCENTER Manager on NetView for DEC OSF/1 AXP V2.1
+POLYCENTER PathDoctor V1.0
+POLYCENTER System Census for PC LANs V1.2
+POLYCENTER Software Distribution V3.0
+
+POLYCENTER Console Manager V1.1
+
+POLYCENTER Hierarchical Storage Management Solution V1.1
+POLYCENTER Advanced File System Utilities V2.0
+RoamAbout Transport for MS-DOS, Windows, and OpenVMS V2.0
+DECNIS Software V2.3
+
+HUBwatch for OpenVMS VAX V3.0
+
+DEC MLS+ V3.0 Trusted UNIX Operating System
+DECwindows Motif V1.2 for OpenVMS VAX and OpenVMS AXP
+ULTRIX and ULTRIX Worksystem Software V4.4
+System V Environment for DEC OSF/1 V2.0
+DEC VTX V6.0 for OpenVMS VAX and V2.0 for MS-Windows
+
+{CU-1994-02-28}
+
+eXcursion V1.2 for Windows and Windows NT
+eXcursion (SDK) V1.2 for Windows NT
+DECtalk Software V4.1 for DEC OSF/1 AXP and Windows NT
+DECadvantage V4.1
+DEC OSF/1 V2.0 Native Language and Localization Support
+PrintServer Software V5.0
+
+{CU-1994-03-14}
+
+DECimage Editor V1.0
+PATHWORKS WAN ACCESS (DOS/Windows) V1.0
+VAX ACMS Task Translator V1.0
+OpenVMS SNA V2.2 Communicates with IBM Systems
+DEC Object/DB V2.2 for AXP, VAX, and RISC Platforms
