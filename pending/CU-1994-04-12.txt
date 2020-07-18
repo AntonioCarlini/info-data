@@ -1,0 +1,23 @@
+{CU-1994-04-12}
+
+OPERATING SYSTEM SUPPORT FOR OPTIONS
+
+Many of the Digital 2100 Server supported devices are existing EISA options; 
+leadership PCI options will also be introduced. The operating system support 
+for some of the key options is as follows:
+
+                                        OpenVMS	  DEC OSF/1  NT Advanced Server
+
+Ethernet Controller (DE425-AA) 		V6.1	  V2.0B	     V3.5
+FDDI Controller (DEFEA-AA) 		V6.1	  V2.0B	     V3.5
+Token Ring Controller (DW300-AA)	V6.1	  V2.0B	     V3.5
+SCSI RAID Disk Controller (SWXCR-EB) 	V6.1	  V2.0B	     Future
+DSSI Clustered Disk Ctrlr (KFESA-AA) 	V6.1	  N/A	     N/A
+DSSI-SCSI Disk Controller (HSD05-AA) 	V6.1	  N/A	     N/A
+1.05 GB SCSI Disk (RZ26L-VA) 		V6.1	  V2.0B	     V3.5
+2.1 GB SCSI Disk (RZ28-VA) 		V6.1	  V2.0B	     V3.5
+4 GB Tape (TLZ06-LG) 			V6.1	  V2.0B	     V3.5
+2.0 GB 3.5" QIC (TZK11-LG) 		V6.1	  V2.0B	     V3.5
+17" Color Monitor (PCXAV-EA) 		V6.1	  V2.0B	     V3.5
+21" Color Monitor (PCXAV-HA) 		V6.1	  V2.0B	     V3.5
+

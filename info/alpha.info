@@ -1019,17 +1019,23 @@
 **Def-lref{1} = ref{CU-V5-11A}
 **Def-lref{2} = ref{CU-V6-4A}
 **Def-lref{3} = ref{SOC-JAN1995}
-**Sys-name: AlphaServer 2100 4/200
-! [1]: The AlphaServer 2100 4/200 was originally known as the Digital 2100 Server A500MP
-**Announcement**htref{1}: April 1994
-**OS-support-vms: OpenVMS V6.1
+**Def-lref{4} = ref{CU-1994-04-12}
+**Sys-name: AS2100-4-200
+**Desc-name: AlphaServer 2100 4/200
+! vref{1}: The AlphaServer 2100 4/200 was originally known as the Digital 2100 Server A500MP
+! Name change also mentioned in https://groups.google.com/forum/#!topic/biz.digital.articles/St7NBS-DS8I
+! vref{4}: Mentions: The Model A600MP consists of at least one A500MP-R system plus rackmount storage 
+**Announcement**vref{4}: 1994-04-12
+**OS-support-vms**vref{4}: OpenVMS V6.1
+**OS-support-DU**vref{4}: OSF/1 V2.0B (uniprocessor),OSF/1 V3.0 (SMP) 
+**FRS-date**vref{4}: Mid-May 1994
 **Num-proc**vref{3}: 1-4
 **CPU-clock**vref{3}: 190MHz
 **Cache**vref{3}: 8KB-I/8KB-D
 **Backup-cache**vref{3}: 1MB
 **SPECint92**vref{3}: 131.8
 **SPECfp92**vref{3}: 161.0
-**Minimum-memory**htref{1}: 64MB
+**Minimum-memory**vref{4}: 64MB
 **Maximum-memory**vref{3}: 2GB
 **Max-I/O-throughput**vref{3}: 132MB/s
 !-- [1]: 1GB for 4 CPU model -->

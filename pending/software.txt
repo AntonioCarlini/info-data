@@ -919,3 +919,24 @@ PATHWORKS WAN ACCESS (DOS/Windows) V1.0
 VAX ACMS Task Translator V1.0
 OpenVMS SNA V2.2 Communicates with IBM Systems
 DEC Object/DB V2.2 for AXP, VAX, and RISC Platforms
+
+{CU-1994-04-12}
+
+DEC Fortran 90 V1.0 for DEC OSF/1 AXP Systems
+Microsoft SQL Server for Windows NT 4.21 for Alpha AXP
+OpenVMS AXP V6.1
+OpenVMS VAX V6.1
+VAXcluster and VMScluster Software for OpenVMS V6.1
+DEC BASIC V1.0 for OpenVMS AXP Systems
+PATHWORKS Software Developer's Kit (SDK) V5.1
+TeamLinks for Macintosh V2.0
+DECimage V3.0
+DECmessageQ V3.0
+Performance Solution V2.1 for OpenVMS
+File Optimizer for OpenVMS V2.0
+DEC/EDI V2.0
+DEC/EDI FileBridge V1.1
+TUXEDO Software V2.1 for DEC OSF/1 AXP Systems
+DECmigrate V1.2 for DEC OSF/1 AXP V2.0 Systems
+DEC SNA Peer Server V1.1 and IBM Interconnect Access
+

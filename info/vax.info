@@ -106,6 +106,7 @@
 **Def-lref{3} = ref{CU-V5-4A}
 **Def-lref{4} = ref{CU-V6-4A}
 **Def-lref{5} = ref{CU-V8-1B}
+**Def-lref{6} = ref{CU-1994-04-12}
 **document=doc{DEC:EK-514AA-TI.B01} ! VAX 4000 Model 105A/106A Customer Technical Information
 **document=doc{DEC:EK-512AA-IN-B01} ! VAX 4000 Model 105A/106A Installation Information
 **document=doc{DEC:EK-513AA-OP-B01} ! VAX 4000 Model 105A/106A Operator Information
@@ -113,9 +114,9 @@
 **document=doc{DEC:EK-511AB-CL.B01} ! VAX 4000 Model 105A Customer Letter
 **document=doc{DEC:EK-V4156-UP-A01} ! VAX 4000 Model 105A Upgrade to Model 106A
 ! This corroborated by web newspaper articles. uv3100-95 on the same day.
-**Announcement**htref{3}: 12 April 1994
+**Announcement**vref{6}: 12 April 1994
 **Html-target: vax410x
-**OS-support-VMS**lref{3}: VMS V5.5-2H4 and VMS V6.1 onwards
+**OS-support-VMS**vref{6}: VMS V5.5-2H4 and VMS V6.1 onwards
 **CPU-module**vref{1}: KA53-AA
 **Module**vref{1}: 54-21797-02
 **VMS-CPU: 19
@@ -127,7 +128,6 @@
 **CPU-chip**lref{3}: NVAX
 **CPU-clock**vref{2}: 83MHz
 **CPU-cycle**vref{2}: 12ns
-!**CPU-cycle**lref{3}: 12ns
 **Instruction-buffer**vref{1}: 16 bytes
 **Translation-buffer**vref{1}: 96 entries
 **Cache**vref{2}: 512KB
@@ -3368,12 +3368,15 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{2} = ref{EK-M3100-SM.B01}
 **def-lref{3} = ref{CU-1992-07-15}
 **def-lref{4} = ref{CU-1992-09-21}
+**Def-lref{5} = ref{CU-1994-04-12}
 **document=doc{DEC:EK-A0514-MG} ! MicroVAX 3100 Platform KA50 CPU System Maintenance
 **document=doc{DEC:EK-A0604-IN-B01} ! MicroVAX 3100 Model 90 Installation Information
 **document=doc{DEC:EK-A0606-TM-B01} ! MicroVAX 3100 Model 90 Customer Technical Information
 **document=doc{DEC:EK-A0607-TI-B01} ! MicroVAX 3100 Model 90 Troubleshooting and Diag Information
 **Announcement**vref{3}: 15 July 1992
 **FCS-date**vref{3}: Late September 1992
+**Last-order**vref{5}: 1994-06-30
+**Last-ship**vref{5}: 1994-08-30
 **Codename: Cheetah-W
 **OS-support-VMS**vref{4}: V5.5-2HW
 **CPU-module**vref{1,3}: KA50
@@ -4822,27 +4825,24 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{CU-V5-4A}
 **Def-lref{4} = ref{CU-V6-4A}
 **Def-lref{5} = ref{CU-V8-1B}
+**Def-lref{6} = ref{CU-1994-04-12}
 **document=doc{DEC:EK-A0718-TI-C01} ! MicroVAX 3100 Model 85/95/96 Customer Technical Information
 **document=doc{DEC:EK-A0716-IN-C01} ! MicroVAX 3100 Model 85/95/96 Installation Information
 **document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
 **document=doc{DEC:EK-A0719-TM-C01} ! MicroVAX 3100 Model 85/95/96 Troubleshooting & Diagnostics Info
-**Announcement**lref{3}: 12 April 1994
+**Announcement**vref{6}: 12 April 1994
 **Last-order**htref{4}: 29 July 1995
 **Html-target: uv319x
-**OS-support-VMS**lref{3}: VMS V5.5-2H4, VMS V6.1 onwards
+**OS-support-VMS**vref{6}: VMS V5.5-2H4, VMS V6.1 onwards
 **CPU-module**vref{2}: KA51
-!**CPU-module**lref{3}: KA51
 **Num-proc: 1
 **CPU-technology: CMOS-4
 **CPU-chip**vref{2}: NVAX
-!**CPU-chip**lref{3}: NVAX
 **CPU-clock**vref{2}: 333MHz
 **CPU-cycle**vref{2}: 12ns
-!**CPU-cycle**lref{3}: 12ns
 **Cache**vref{2}: 2KB VIC
 **Primary-cache**vref{2}: 8KB physical
 **Backup-cache**vref{2}: 512KB
-!**Backup-cache**lref{3}: 512KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
