@@ -394,9 +394,13 @@
 **Def-lref{2} = ref{EK-SNDPL-OG.B01}
 **Def-lref{3} = ref{CU-V6-4A}
 **Def-lref{4} = ref{SOC-JAN1995}
-**def-lref{5} = ref{CU-1993-10-12}
+**Def-lref{5} = ref{CU-1993-10-12}
+**Def-lref{6} = ref{CU-1994-04-25}
 **Announcement**vref{5}: 1993-10-12
 **FRS-date**vref{5}: 1993-10-12
+! vref{6}: this is the retirement of HX 2D packages only
+! **Last-order**vref{6}: 1994-05-27
+! **Last-ship**vref{6}: 1994-06-24
 **OS-support-VMS**vref{5}: V1.5-1H1
 **OS-support-DU**vref{5}: DEC OSF/1 AXP V1.3A
 **CPU-module: KN17-BA
@@ -475,9 +479,13 @@
 **Sys-name: DEC 3000 Model 800/800S
 **Def-lref{1} = ref{EK-FLMUL-OG.B01}
 **Def-lref{2} = ref{ASCC-1994-03}
-**def-lref{3} = ref{CU-1993-10-12}
+**Def-lref{3} = ref{CU-1993-10-12}
+**Def-lref{4} = ref{CU-1994-04-25}
 **Announcement**vref{3}: 1993-10-12
 **FRS-date**vref{3}: 1993-10-12
+! vref{4}: this is the retirement of HX 2D packages only
+!**Last-order**vref{4}: 1994-05-27
+!**Last-ship**vref{4}: 1994-06-24
 **OS-support-VMS**vref{3}: V1.5-1H1
 **OS-support-DU**vref{3}: DEC OSF/1 AXP V1.3A
 **Codename: Flamingo II

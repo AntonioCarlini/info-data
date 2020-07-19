@@ -1,0 +1,68 @@
+{CU-1994-04-25}
+
+
+PRODUCTS BEING RETIRED
+
+			       Last            Last           Recommended
+Description                    Order Date      Ship Date      Migration
+
+VAXELN ADA (A97)	       Effective       Effective      VxWorks for
+			       Immediately     Immediately    Alpha AXP
+DEC Fortran (MD3) for DEC      Effective       Effective      DEC Fortran for
+OSF/1 RISC (MIPS) systems      Immediately     Immediately    DEC OSF/1 AXP
+			       		       		      systems
+DEC Pascal (XYV) for DEC       Effective       Effective      DEC Pascal for
+OSF/1 RISC (MIPS) systems      Immediately     Immediately    DEC OSF/1 AXP
+			       		       		      systems
+VAX BLISS-32 (106)	       Effective       Effective      None
+			       Immediately     Immediately
+
+
+DECpc LPx 560 and LPx 566
+
+Digital's new, cost-efficient DECpc LPx 560 and DECpc LPx 566 
+full-profile-enclosure Pentium PCs provide high performance and a PCI local 
+bus architecture at entry level prices. Orderable in five different desktop 
+packages for the budget conscious business professional, they come 
+preinstalled with MS-DOS 6.2 and Microsoft Windows 3.1 software. Also 
+available are: IBM OS/2 V2.1, SCO UNIX V4.2, SCO ODT V3.0, Novell NetWare 
+V2.2, V3.1.2, and V4.01, Novell Unixware V1.1, Novell SFT III V3.11, 
+PATHWORKS V4.1, and Microsoft Windows NT V3.1.
+
+The DECpc LPx 500 series standard configurations are as follows:
+
+o  Pentium processor family (60 or 66 MHz).
+o  P5T overdrive ready, increasing internal CPU speed.
+o  Choice of S3 928 PCI (30M Winmarks) or Diamond Viper PCI (80M Winmarks) 
+   graphics cards.
+o  Integrated IDE controller.
+o  Six slots (two PCI, three ISA, one interleaved).
+o  Five bays (one internal, four external).
+o  340 or 540 Mbyte IDE options.
+o  1.44 Mbyte floppy disk drive.
+o  8 Mbyte standard 70 ns memory upgradable to 128 Mbytes. 
+o  256 Kbyte cache standard.
+o  Flash BIOS.
+o  Two RS232C serial ports; one each parallel, keyboard, mouse, and video 
+   ports.
+o  200 W power supply with 5 V support.
+
+ZLX-E1 Graphics for DEC 3000 Model 600 and 800 Packages
+
+LA65 DECwriter Dot Matrix Printer
+
+LA600 MultiPrinter
+
+HIGHLIGHTS
+
+o  The TZ87N drives and TZ877 autoloaders provide the same capacity and 
+   performance as Digital's industry leading TZ87 DLT tape drives -- at a 
+   significantly lower cost
+
+o  They are ideal for backup, archiving, and some data interchange 
+   applications for users with compact discs, 9 track drives, or other 
+   TK/DLT drives as load mechanisms for their Digital software 
+
+o  They differ from earlier members of the DLT family in only one respect: 
+   they do not read TK media
+

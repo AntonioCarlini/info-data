@@ -1225,7 +1225,10 @@
 **Sys-name: RF74
 **Desc-name: RF74 Integrated Storage Element
 **Def-lref{1} = ref{CU-1993-05-10}
+**Def-lref{2} = ref{CU-1994-04-25}
 **Announcement: 26 April 1993
+**Last-order**vref{2}: 1994-05-06
+**Last-ship**vref{2}: 1994-07-29
 **OS-support-VMS**vref{1}: VMS V5.5-2 (OpenVMS AXP V1.5)
 **Capacity**vref{1}: 3.57GB
 **Form-factor: 5-1/4" full height
@@ -2138,7 +2141,9 @@
 **Sys-name: RZ28B
 **Desc-name: RZ28B 2.1GB SCSI Disk
 **Def-lref{1} = ref{EK-A0718-TI.B01}
-**Capacity**htref{1}: 2.1GB
+**Def-lref{2} = ref{CU-1994-04-25}
+**Announcement**vref{2}: 1994-04-25
+**Capacity**vref{2}: 2.1GB
 **Peak-transfer-rate**htref{1}: {10.0MB/s:(synch)}{3.4MB/s-5.4MB/s:(to/from media)}
 **Average-access**htref{1}: 16ms
 **Average-latency**htref{1}: 5.54ms
@@ -2147,6 +2152,8 @@
 **Buffer-size**htref{1}: 256KB
 **Blocks-per-track**htref{1}: 82.5
 **Track-density**htref{1}: 3000 tpi
+**Rotational-speed**vref{2}: 5400 rpm
+**Servo-type**vref{2}: Dedicated
 **Recording-mode**htref{1}: RLL/ZBR
 **Num-heads**htref{1}: 19
 **Interface**htref{1}: SCSI
@@ -2435,7 +2442,10 @@
 **Sys-name: RZ74
 **Desc-name: RZ74 3.57GB SCSI Disk
 **Def-lref{1} = ref{CU-1993-05-10}
+**Def-lref{2} = ref{CU-1994-04-25}
 **Announcement: 26 April 1993
+**Last-order**vref{2}: 1994-05-06
+**Last-ship**vref{2}: 1994-07-29
 **OS-support-VMS**vref{1}: VMS V5.5-2 (OpenVMS AXP V1.5)
 **Capacity**vref{1}: 3.57GB
 **Form-factor: 5-1/4" full height

@@ -940,3 +940,20 @@ TUXEDO Software V2.1 for DEC OSF/1 AXP Systems
 DECmigrate V1.2 for DEC OSF/1 AXP V2.0 Systems
 DEC SNA Peer Server V1.1 and IBM Interconnect Access
 
+{CU-1994-04-25}
+
+HealthView Connectivity V2.0
+DEC Rdb for OpenVMS V6.0 and DEC SQL Packaging Options
+DECagent 90 V2.0 Firmware Upgrade
+MAILbus Organizer V1.0
+DEC C V4.0 for OpenVMS Systems
+DEC SNA 3270 Application Services V1.1
+MEP VT for DEC SNA 3270 Application Services V3.0
+DEC ACB (Automatic Call Back) for OpenVMS V2.1
+DEC Disk Striping for OpenVMS AXP V1.5
+KAP to Support Parallel Programming for DEC OSF/1 AXP
+DEC ODBC Driver for MS-Windows V1.1
+DEC Distributed Queuing Service for OpenVMS V1.3
+DECprint Supervisor (DCPS) for OpenVMS V1.0c
+DECtalk PC for DOS V4.2 Update Kit
+

@@ -261,6 +261,14 @@
 **Power-end{LA50-240V}
 **End-printers-entry{LA50}
 
+**Start-printers-entry{LA65}{PRINTER}{LA}
+**Sys-name: LA65
+**Desc-name: LA65 Printer
+**Def-lref{1} = ref{CU-1994-04-25}
+**Announcement**vref{1}: 1994-04-25
+**FRS-date**vref{1}: 1994-04-25
+**End-printers-entry{LA65}
+
 **Start-printers-entry{LA75}{PRINTER}{LA}
 **Sys-name: LA75 Printer
 **Def-lref{1} = ref{EK-OLA75-RM-002}
