@@ -341,8 +341,12 @@
 
 **Start-printers-entry{LG06}{PRINTER}{LG}
 **Def-lref{1} = ref{EK-ELG06-MG-002}
+**Def-lref{2} = ref{CU-1994-05-23}
 **Sys-name: LG06
 **Desc-name: LG06 Text and Graphics Printer
+! vref{1}: LG06-AA and LG06-AB only
+!**Last-order**vref{2}: 1994-05-23
+!**Last-ship**vref{2}: 1994-05-23
 ![1] interface two parallel, one serial
 ![1] ASCII data format
 **Buffer-size**lref{1}: 2 lines (parallel), 1KB (serial)
@@ -486,6 +490,20 @@
 **Power**lref{1}:  520W
 **Power-end{LN09-220}
 **End-printers-entry{LN09}
+
+**Start-printers-entry{LN11}{PRINTER}{LN}
+**Def-lref{1} = ref{CU-1994-05-23}
+**Sys-name: LN11
+**Desc-name: DEClaser 1800
+**Announcement**vref{1}: 1994-05-23
+**FRS-date**vref{1}: 1994-06
+**Print-speed**vref{1}: 6 pages/min
+**Monthly-usage**vref{1}: 6000 pages
+**Data-interface**vref{1}: RS-232 and parallel
+**Resolution**vref{1}: 300 x 300 dpi
+**Minimum-memory**vref{1}: 1 MB
+**Maximum-memory**vref{1}: 5 MB
+**End-printers-entry{LN11}
 
 **Start-printers-entry{LPS17}{PRINTER}{LPS}
 **Def-lref{1} = ref{CU-1994-02-28}

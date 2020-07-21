@@ -22,6 +22,7 @@
 **def-lref{4} = ref{CU-1992-07-15}
 **def-lref{5} = ref{CU-1992-09-21}
 **def-lref{6} = ref{CU-1993-10-12}
+**Def-lref{7} = ref{CU-1994-05-23}
 ! vref{6} makes it clear that the upgrade from VAX 4100 to VAX 4100A is just the addition of a second DSSI (this required OpenVMS OpenVMS VAX V5.5-2h4)
 **document=doc{DEC:EK-467AA-TI-A01} ! VAX 4000 Model 100 Customer Technical Information
 **document = doc{DEC:EK-473AA-MG-A01}
@@ -44,6 +45,8 @@
 **Sys-name: VAX 4000-100/100A
 **Desc-name: VAX 4000 Model 100/100A
 **Announcement**vref{4}: 1992-07-15
+**Last-order**vref{7}: 1994-06-30
+**Last-ship**vref{7}: 1994-09-30
 **OS-support-VMS**vref{1}: V5.5-1HN
 ! Flowchart has V5.5-2HW **vref{5} has V5.5-2HW
 **OS-support-MDM**vref{1}: MDM Release 137A
@@ -708,11 +711,12 @@
 **def-lref{5} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{6} = ref{CU-V5-8B}
 **def-lref{7} = ref{4500-6600-PERF-SUMM}
+**Def-lref{8} = ref{CU-1994-08-15}
 ! The 4000-600A seems to be the same CPU (but there is a different box lable mentioned in EK-508AB-IPB)
 **Sys-name: VAX 4000-505A
 **Desc-name: VAX 4000 Model 505A
 **Html-target: vax450x
-**Announcement**htref{6}: 15 August 1994
+**Announcement**vref{8}: 1994-08-15
 **OS-support-VMS**vref{3}: V5.5-2H4, VMS V6.1 or later
 **OS-support-MDM**vref{3}: Release 139
 !**CPU-module**vref{2}: KA691
@@ -839,10 +843,11 @@
 ! {1} was EK-498AB-MB.B01
 **def-lref{2} = ref{EK-496AB-TI-B01}
 **def-lref{3} = ref{CU-V5-8B}
+**def-lref{4} = ref{CU-1994-08-15}
 **Sys-name: VAX 4000-705A
 **Desc-name: VAX 4000 Model 705A
 **Html-target: vax4750x
-**Announcement**htref{3}: 15 August 1994
+**Announcement**vref{4}: 1994-08-15
 **OS-support-VMS**vref{2}: V5.5-2H4, V6.1 or later
 **OS-support-MDM**vref{2}: Release 139
 **CPU-module**vref{1,2}: KA694-AA
@@ -1557,8 +1562,9 @@
 **Def-lref{4} = ref{EK-7002B-SV-002}
 **def-lref{5} = ref{EK-70TBA-T4.A01}
 **def-lref{6} = ref{CBR-PR-1994-08-23}
+**def-lref{7} = ref{CU-1994-08-15}
 !**Announcement**vref{6}: 23 August 1994 ! but the article does not say "today"
-**Announcement**htref{2}: 15 August 1994
+**Announcement**vref{7}: 1995-08-15
 **FRS-date**htref{2}: 1 August 1994
 ! Note that this was from {CU-V6-11} and NOT {CU-V6-11A}
 **Last-order**vref{3}: 30 March 1996
@@ -1568,7 +1574,6 @@
 **Num-proc**vref{4}: 1-6
 **CPU-names: {VAX 7710}{VAX 7720}{VAX 7730}{VAX 7740}{VAX 7750}{VAX 7760}
 **CPU-name-VMS: KA7AB
-!**CPU-clock**htref{2}: 137.5MHz
 **CPU-clock**vref{5}: 137.5MHz
 **CPU-chip: NV5
 **Module**vref{4}: E2045-AA
@@ -2794,13 +2799,16 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{1} = ref{EK-V48VB-SV.001}
 **def-lref{2} = ref{EC-N0857-51}
 **Def-lref{3} = ref{DECdirect-FEB92}
-**def-lref{4} = ref{CU-1991-10-30}
+**Def-lref{4} = ref{CU-1991-10-30}
+**Def-lref{5} = ref{CU-1994-06-06}
 **document=doc{DEC:EK-V48VB-SV-001} ! VAXstation 4000 VLC Service Information
 **document=doc{DEC:EP-VAXVL-OG-B01} ! VAXstation 4000 VLC owner's guide
 **document=doc{DEC:EK-VSFAX-UP.002} ! VS 2000 and VS 3100 family to VAXstation 4000 VLC Upgrade Guide
 **document=doc{DEC:EK-VSAXP-UP-A01} ! VAXstation VLC to DEC 3000 Model 300/300L AXP Upgrade
 **document=doc{DEC:VLC} ! VLC System Enclosure Specification
 **Announcement**vref{4}: 30 October 1991
+**Last-order**vref{5}: 1994-12-30
+**Last-ship**vref{5}: 1995-03-31
 **Codename: VLC
 **OS-support-VMS**vref{4}: V5.5
 **CPU-module: KA48
@@ -2901,10 +2909,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **End-systems-entry{VS8000}
 
 **Start-systems-entry{VXFT110}{VAX}{VAXFT}
-**def-lref{1} = ref{EK-VAXCT-CG-006}
+**Def-lref{1} = ref{EK-VAXCT-CG-006}
+**Def-lref{2} = ref{CU-1994-05-23}
 **Sys-name: VAXft 110
 **Desc-name: VAXft Model 110
 **Announcement: March 1991
+**Last-order**vref{2}: 1994-09-30
+**Last-ship**vref{2}: 1994-12-31
 **Codename: Cirrus II
 **document=doc{DEC:EK-FTV11-IP-001} ! VAXft System Model 110 IPB
 ! AKA Elsie?
@@ -2970,8 +2981,11 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VXFT410}{VAX}{VAXFT}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
+**Def-lref{2} = ref{CU-1994-05-23}
 **Sys-name: VAXft 410
 **Desc-name: VAXft Model 410
+**Last-order**vref{2}: 1994-09-30
+**Last-ship**vref{2}: 1994-12-31
 **OS-support-VMS: V5.4-3
 **VUPs**vref{1}: 6.0
 **Maximum-memory**vref{1}: 256MB
@@ -4740,16 +4754,17 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{CU-V5-8B}
 **Def-lref{6} = ref{CU-V6-4A}
 **Def-lref{7} = ref{CU-V8-1B}
+**Def-lref{8} = ref{CU-1994-08-15}
 **document=doc{DEC:EK-A0718-TI-C01} ! MicroVAX 3100 Model 85/95/96 Customer Technical Information
 **document=doc{DEC:EK-A0716-IN-C01} ! MicroVAX 3100 Model 85/95/96 Installation Information
 **document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
 **document=doc{DEC:EK-A0719-TM-C01} ! MicroVAX 3100 Model 85/95/96 Troubleshooting & Diagnostics Info
 **Sys-name: MicroVAX 3100-85
 **Desc-name: MicroVAX 3100 Model 85
-**Announcement**htref{5}: 15 August 1994
+**Announcement**vref{8}: 1994-08-15
 **Html-target: uv3180
 **Last-order**htref{6}: 29 July 1995
-**OS-support-VMS**htref{5}: VMS V5.5-2H4, VMS V6.1 onwards
+**OS-support-VMS**vref{8}: VMS V5.5-2H4, VMS V6.1 onwards
 **CPU-module**vref{1,3}: KA55
 **Firmware-version**uref{personally verified}: V2.6
 **Num-proc: 1

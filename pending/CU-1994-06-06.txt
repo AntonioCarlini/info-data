@@ -1,0 +1,20 @@
+{CU-1994-06-06}
+
+DECpc LPx+
+
+DECpc LPv+ Family Includes Models 4100 and 450s2
+
+DECpc MTE 4100 Offers i486DX4 100 MHz Processor
+
+DECpc XL 4100 (i486DX4) and XL 590 (Pentium)
+
+DECpc XL Server 4100 and XL Server 590
+
+PRODUCTS BEING RETIRED
+
+ 						 Last     Last                  
+ 						 Order    Ship	   Recommended
+Description                                      Date     Date     Migration
+ 
+DECpc 433 MTE					 6/30/94  6/30/94  DECpc 466 MTE
+

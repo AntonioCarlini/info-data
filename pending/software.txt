@@ -957,3 +957,69 @@ DEC Distributed Queuing Service for OpenVMS V1.3
 DECprint Supervisor (DCPS) for OpenVMS V1.0c
 DECtalk PC for DOS V4.2 Update Kit
 
+{CU-1994-05-09}
+
+X.25 V1.0 for OpenVMS AXP
+
+DECnet/OSI V5.7 for OpenVMS AXP
+
+RAID Software V2.0 for OpenVMS VAX and AXP
+
+{CU-1994-05-23}
+
+NAS Base Server 200 V5.0 for DEC OSF/1 AXP
+DECforms Development Subset V1.4 for OpenVMS AXP
+Special OpenVMS V6.1 Update Service
+DEC C++ V1.3A for DEC OSF/1
+
+{CU-1994-06-06}
+
+
+File Transfer Spooler for OpenVMS V3.0 for Europe
+PATHWORKS V5.0A for OpenVMS
+OpenDATA Manager V1.1 for Data and Document Management
+3270 for DECadvantage Windows V1.1
+TCP for DECadvantage V6.2
+TCP for DOS V6.1 and TCP for DOS Runtime V6.1
+Optical Storage Management Software V3.2 for Clusters
+Terminal Server Manager V2.1
+ALL-IN-1 Sysuser V2.2 from Digital Solutions Library
+
+{CU-1994-06-20}
+
+RoamAbout Mobile IP Client/Server Network Software V2.0
+PATHWORKS V5.0A for DOS and Windows
+PATHWORKS V4.1 for OS/2 and PATHWORKS V5.0 for OS/2
+DCE for OpenVMS V1.2
+DECmodel for Windows V1.1
+
+{CU-1994-07-05}
+
+
+DECforms V2.0 for OpenVMS VAX Adds Motif User Interface
+POLYCENTER AdvFS Utilities V3.0 for DEC OSF/1 Systems
+DECathena V1.3
+DEC X.500 Directory Service V1.3 on OpenVMS AXP
+
+{CU-1994-07-18}
+
+DEC OSF/1 Operating System V3.0
+MAILbus 400 Message Store V1.0 on DEC OSF/1
+DECdfs V2.0 for OpenVMS Systems
+DECprint Supervisor (DCPS) for OpenVMS V1.1
+DECprint Supervisor for KODAK Printers (KPS) for OpenVMS
+POLYCENTER Print Queue Manager V4.3
+
+{CU-1994-08-01}
+
+Multimedia Services V1.2 for DEC OSF/1 AXP
+Business Recovery Server V1.2: T3 Disaster Tolerance
+
+{CU-1994-08-08}
+
+
+{CU-1994-08-15}
+
+
+POLYCENTER NetWorker Save and Restore V3.0 for DEC OSF/1 AXP
+

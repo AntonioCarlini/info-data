@@ -1,0 +1,46 @@
+Product and Service Retirements
+Taken from biz.digital.articles.
+
+
+
+                                     Last        Last            Recommended
+Description                          Order Date	 Ship Date       Migration
+
+Service Obligations:
+LINC8, PDP-11/60, PDP-11/15,	     See Note	 See Note	 See Note
+ PDP-11/40, PDP-11/150
+PDP-8/A, PDP-8/E, PDP-8/F,
+ PDP-8/I, PDP-8/L, PDP-8/M
+ and PDP-8/S
+GT40, GT41, GT42, GT43,
+ GT44, GT46, and GT62
+
+NOTE:         The PDP-11/60, PDP-11/15, PDP-11/40, LINC8, PDT 11/150, all of
+              the PDP-8/A, PDP-8/E, PDP-8/I, PDP-8/L, PDP-8/M and PDP-8/S
+              products and all of the GT40, GT41, GT42, GT43, GT44, GT46,
+              and GT62 products have already been retired.  They are now
+              retiring from hardware service.
+
+              Products		    Last Service Date
+	      LINC8, PDP-8/S	    July 31, 1994
+
+	      PDP-8/I, PDP-8/L,	    September 30, 1995
+	       PDP-11/15
+
+	      PDP-8/E, PDP-8/F,	    October 31, 1995
+	       PDP-8/M, PDP-11/60,
+	       PDT 11/150, GT40,
+	       GT41, GT42, GT43,
+	       GT44, GT46, GT62
+
+	      PDP-8/A, PDP-11/40    December 31, 1995
+
+	      The local service organizations are in the process of
+              contacting individuals who will be affected by this change in
+              service obligation.
+
+	      Spares and training can be purchased, if available, within a
+              three-month period beyond the End of Service Life date.
+              Contact Digital Assisted Services at 1-800-DIGITAL for
+              assistance in setting up a customized plan.
+

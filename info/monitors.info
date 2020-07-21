@@ -462,6 +462,9 @@
 **Start-monitors-entry{VRM17}
 **Sys-name: VRM17 17" Monochrome Monitor
 **Def-lref{1} = ref{EK-PM30E-RB-002}
+**Def-lref{2} = ref{CU-1994-06-20}
+**last-order**vref{2}: 1994-06-20
+**last-ship**vref{2}: 1994-06-20
 **Screen-diagonal**htref{1}: 431.8mm
 **Screen-size**htref{1}: 1280x1024 or 1024x768pixels
 **Video-termination**htref{1}: 75ohm BNC

@@ -438,11 +438,12 @@
 **def-lref{3} = ref{CU-V6-4A}
 **Def-lref{4} = ref{SOC-JAN1995}
 **Def-lref{5} = ref{SPEC-res-9509}
+**Def-lref{6} = ref{CU-1994-07-18}
 **Codename: Sandpiper45
-**Announcement**htref{1}: 18 July 1994
-**FRS-date**htref{1}: August 1994
-**OS-support-vms**htref{1}: OpenVMS AXP V6.1
-**OS-support-du**htref{1}: DEC OSF/1 AXP V2.1
+**Announcement**vref{6}: 18 July 1994
+**FRS-date**vref{6}: August 1994
+**OS-support-vms**vref{6}: OpenVMS AXP V6.1
+**OS-support-du**vref{6}: DEC OSF/1 AXP V2.1
 **CPU-module: KN17-BB
 **CPU-name-vms: KN17-BB
 **CPU-name-console: KN17-BB
@@ -481,11 +482,14 @@
 **Def-lref{2} = ref{ASCC-1994-03}
 **Def-lref{3} = ref{CU-1993-10-12}
 **Def-lref{4} = ref{CU-1994-04-25}
+**Def-lref{5} = ref{CU-1994-08-01}
 **Announcement**vref{3}: 1993-10-12
 **FRS-date**vref{3}: 1993-10-12
 ! vref{4}: this is the retirement of HX 2D packages only
 !**Last-order**vref{4}: 1994-05-27
 !**Last-ship**vref{4}: 1994-06-24
+**Last-order**vref{5}: 1994-12-02
+**Last-ship**vref{5}: 1995-01-10
 **OS-support-VMS**vref{3}: V1.5-1H1
 **OS-support-DU**vref{3}: DEC OSF/1 AXP V1.3A
 **Codename: Flamingo II
@@ -522,9 +526,12 @@
 **def-lref{3} = ref{CU-V6-8B}
 **Def-lref{4} = ref{SOC-JAN1995}
 **Def-lref{5} = ref{SPEC-res-9509}
-**Announcement**htref{1}: 18 July 1994
+**Def-lref{6} = ref{CU-1994-07-18}
+**Announcement**vref{6}: 1994-07-18
+**FRS-date**vref{6}: 1994-08
+**OS-support-vms**vref{6}: OpenVMS AXP V6.1
+**OS-support-du**vref{6}: DEC OSF/1 AXP V2.1
 **Codename: Flamingo45
-**OS-support-VMS: V6.1
 **CPU-module: KN17-AB
 **CPU-name-vms: KN17-AB
 **CPU-name-console**vref{2}: KN17-AB
@@ -560,8 +567,11 @@
 **Def-lref{1} = ref{EC-H2315-46}
 **Def-lref{2} = ref{ASCC-1994-03}
 **Def-lref{3} = ref{CU-1992-11-23}
+**Def-lref{4} = ref{CU-1994-07-05}
 **Sys-name: DEC 4000 Model 610/620
 **Announcement**vref{3}: 1992-11-23
+**Last-order**vref{4}: 1994-09-30
+**Last-ship**vref{4}: 1995-12-31
 **Codename: Cobra
 **OS-support-VMS: V1.0
 **CPU-module: KN430-AA
@@ -611,8 +621,9 @@
 
 **Start-systems-entry{DEC4700}{ALPHA}{DEC4000}
 **Def-lref{1} = ref{ASCC-1994-03}
-**def-lref{2} = ref{CU-1993-10-12}
+**Def-lref{2} = ref{CU-1993-10-12}
 **Sys-name: DEC 4000 Model 710/720
+**Desc-name: DEC 4000 Model 710/720
 **Announcement**vref{2}: 1993-10-12
 **OS-support-vms: OpenVMS V1.5
 **Num-proc**vref{2}: 1-2

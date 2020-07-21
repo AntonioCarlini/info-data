@@ -1,0 +1,47 @@
+{CU-1994-05-23}
+
+
+o  KFMSB adapter for DEC 7000 and 10000 systems is counterpart of KFMSA 
+   adapter for VAX 7000 and 10000 systems
+
+Embedded HSD05 DSSI-to-SCSI Controller for VAX 4000
+
+DECwriter 100i Inkjet Printer
+
+RWZ52 1.2 Gbyte Multifunction Optical Drive
+
+RODUCTS BEING RETIRED
+
+                               Last	       Last	      Recommended
+Description                    Order Date      Ship Date      Migration
+
+LP37 Line Printers	       Effective       Effective      LG12 printers
+			       Immediately     Immediately
+
+LG31 Line Printers	       Effective       Effective      LG06 printers
+			       Immediately     Immediately
+
+LG06-AA and LG06-AB only       Effective       Effective      See Note 1
+			       Immediately     Immediately
+
+LP29 and LP26 Band Printers    Effective       Effective      LG12 line
+			       Immediately     Immediately    matrix printers
+
+All PDP-11 RD based systems    Effective       Effective      See Note 2
+			       Immediately     Immediately    
+
+NOTES: (1) The LP interconnect kit used on the LG06-AA and LG06-AB is no 
+           longer available. All other LG06 models are available.
+
+       (2) RD disks are no longer available. Systems based on refurbished 
+           disks (when available) are custom quoted.  
+
+       (3) This product is limited by materials availability. Demand will be 
+           met on a first come/first served basis.
+
+       (4) If you have a VAXft 410 or 610, consider the VAXft 410/610 to 
+           VAXft 810 upgrade program.
+
+       (5) If you are interested in multimedia authoring systems, look into 
+           standard PC based authoring packages such as AimTech's 
+           IconAuthor.

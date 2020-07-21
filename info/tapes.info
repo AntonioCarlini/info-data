@@ -239,6 +239,9 @@
 **Desc-name: TK50 Tape Drive
 **Def-lref{1} = ref{EK-MVXAA-OM-001}
 **Def-lref{2} = ref{EK-OTK50-UG-004}
+**Def-lref{3} = ref{CU-1994-06-06}
+**Last-order**vref{3}: 1994-07-30
+**Last-ship**vref{3}: 1994-09-29
 **Capacity**htref{1}: 94.5MB
 **Peak-transfer-rate: {62.5KB/s:(total)}{45KB/s:(user data)}
 !! Check ref for peak-xfer-rate, appears to be **htref{2}
@@ -314,19 +317,21 @@
 **Sys-name: TKZ15
 **Desc-name: TKZ15 8mm Cartridge Tape Drive
 **Def-lref{1} = ref{CU-V5-7B}
+**Def-lref{2} = ref{CU-1994-07-18}
 !! <TD> Customer Update. Volume 5 Issue 7B. 18th July 1994
 ! [1]: half-height 5-1/4" 112m tapes, previous 8mm drives: TKZ08, TLZ08, TKZ09 (TKZ15 is backwards-compatible with these) -->
-**Announcement**htref{1}: 18 July 1994
-**OS-Support-vms**htref{1}: OpenVMS VAX V5.5-2
-!**OS-Support-vms**htref{1}: OpenVMS AXP V1.5
-**OS-support-du**htref{1}: DEC OSF/1 V2.0
+**Announcement**vref{2}: 1994-07-18
+**OS-Support-vms**vref{2}: OpenVMS VAX V5.5-2
+!**OS-Support-vms**vref{2}: OpenVMS AXP V1.5
+**OS-support-du**vref{2}: DEC OSF/1 V2.0
+**OS-support-ULTRIX**vref{2}: V4.3A
 **OS-support-ultrix**htref{1}: ULTRIX V4.3A
-**Capacity**htref{1}: {10.0GB:(compressed)}{5.0GB:(native)}
+**Capacity**vref{2}: {10.0GB:(compressed)}{5.0GB:(native)}
 **Peak-transfer-rate: 
-**Sustained-transfer-rate**htref{1}: {500KB/s:(native)}{1MB/s:(compressed)}
-**Rewind-speed**htref{1}: 32.7 ips
-**Corrected-error-rate**htref{1}: < 1 in 10^17
-**Interface**htref{1}: SCSI
+**Sustained-transfer-rate**vref{2}: {500KB/s:(native)}{1MB/s:(compressed)}
+**Rewind-speed**vref{2}: 32.7 ips
+**Corrected-error-rate**vref{2}: < 1 in 10^17
+**Interface**vref{2}: SCSI
 **End-storage-entry{TKZ15}
 
 **Start-storage-entry{TKZ60}{SCSI_TAPE}{TK}
@@ -1035,9 +1040,12 @@
 **Start-storage-entry{TKZ08}{SCSI_TAPE}{TKZ}
 **Sys-name: TKZ08
 **Desc-name: TKZ08 2.3GB 8mm Cartridge Tape Drive
+**Def-lref{1} = ref{CU-1994-06-06}
 ! ?? is this TKZ08 or TZK08 ?? -->
 **Capacity**uref{SUE Aug 1992}: 2.2GB
 **FRS-date**uref{SUE Aug 1992 Iss 1}: May 1991
+**Last-order**vref{1}: 1994-06-06
+**Last-ship**vref{1}: 1994-06-06
 **End-storage-entry{TKZ08}
 
 **Start-storage-entry{TKZ09}{SCSI_TAPE}{TKZ}
