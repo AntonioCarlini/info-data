@@ -358,8 +358,24 @@
 **Start-terminals-entry{VT510}{DECVT}{VT500}
 **Sys-name: VT510
 **Desc-name: VT510 Video Terminal
-**Def-lref{1} = ref{1993-09-13}
+**Def-lref{1} = ref{CU-1993-09-13}
 **Announcement**vref{1}: 1993-09-13
 **Keyboard-type: LK411 (VT108) or LK412(VT108-WPS) or PCXAL (PC101/PC102)
 **End-terminals-entry{VT510}
+
+**Start-terminals-entry{VT520}{DECVT}{VT500}
+**Sys-name: VT520
+**Desc-name: VT520 MonochromeVideo Terminal
+**Def-lref{1} = ref{CU-1994-09-01}
+**Announcement**vref{1}: 1994-09-01
+**FRS-date**vref{1}: 1994-09-01
+**End-terminals-entry{VT520}
+
+**Start-terminals-entry{VT525}{DECVT}{VT500}
+**Sys-name: VT525
+**Desc-name: VT525 Colour Video Terminal
+**Def-lref{1} = ref{CU-1994-09-01}
+**Announcement**vref{1}: 1994-09-01
+**FRS-date**vref{1}: 1994-09-01
+**End-terminals-entry{VT525}
 

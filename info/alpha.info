@@ -24,6 +24,7 @@
 **Def-lref{7} = ref{SOC-JAN1995}
 **Def-lref{8} = ref{DECpc-AXP-150-Announcement}
 **Def-lref{9} = ref{Product-and-Service-Retirements-1995-02-07}
+**Def-lref{10} = ref{CU-1994-12-15}
 **Codename: Jensen
 **OS-support-VMS: V1.5-1H1
 **OS-support-NT**vref{8}: 3.1
@@ -35,7 +36,8 @@
 **CPU-cycle**vref{5}: 6.6ns
 **Cache**vref{6}: 8KB-I/8KB-D
 **Announcement**vref{8}: 25 May 1993
-**Last-order**vref{9}: 28 February 1994 | Probably really meant 1995!
+**Last-order**vref{10}: 1994-12-30 (for the DEC 2000 Model 500)
+!**Last-order**vref{9}: 28 February 1994 | Probably really meant 1995!
 **Backup-cache**vref{6}: 512KB (17ns)
 **SPECint92**vref{7}: 80.9
 **SPECfp92**vref{7}: 112.7
@@ -241,10 +243,13 @@
 **Def-lref{1} = ref{EK-SNDPR-OG.D01}
 **Def-lref{2} = ref{EC-H2315-46}
 **Def-lref{3} = ref{CU-1992-11-23}
-**def-lref{4} = ref{CU-1993-07-19}
+**Def-lref{4} = ref{CU-1993-07-19}
+**Def-lref{5} = ref{CU-1994-10-15}
 **Sys-name: DEC 3000 Model 400/400S AXP
 **Announcement**vref{3}: 1992-11-23
 **FRS-date**vref{3}: 1992-11-23
+**Last-order**vref{5}: 1994-12-30
+**Last-ship**vref{5}: 1995-03-17
 **Codename: Sandpiper
 **OS-support-VMS: V1.0
 **CPU-module: KN15-BA
@@ -291,8 +296,11 @@
 **Def-lref{3} = ref{SPEC-res-9509}
 **Def-lref{4} = ref{CU-1992-11-23}
 **def-lref{5} = ref{CU-1993-07-19}
+**Def-lref{6} = ref{CU-1994-10-15}
 **Sys-name: DEC 3000 Model 500/500S AXP
 **Announcement**vref{4}: 1992-11-23
+**Last-order**vref{6}: 1994-12-30
+**Last-ship**vref{6}: 1995-03-17
 **Codename: Flamingo
 **OS-support-VMS: V1.0
 **CPU-module**vref{1}: KN15-AA
@@ -645,8 +653,10 @@
 **Start-systems-entry{DEC7600}{ALPHA}{DEC7000}
 **Def-lref{1} = ref{ASCC-1994-03}
 **Def-lref{2} = ref{CU-1992-11-23}
+**Def-lref{3} = ref{CU-1994-12-15}
 **Sys-name: DEC 7000 Model 600 series
 **Announcement**vref{2}: 1992-11-23
+**Last-order**vref{3}: 1995-06-10
 **Num-proc**vref{1}: 1-6
 ! Originally shipped with 182MHz. 200MHz was for DEC 10000 systems. Then became available for DEC 7000-600 systems.
 **CPU-clock**vref{1}: 200MHz
@@ -661,13 +671,14 @@
 **Start-systems-entry{DEC7700}{ALPHA}{DEC7000}
 **Def-lref{1} = ref{CU-V5-11A}
 **Def-lref{2} = ref{SOC-JAN1995}
+**Def-lref{3} = ref{CU-1994-11-03}
 **Sys-name: DEC 7000 Model 700 series
-**Announcement**htref{1}: 1 November 1994
-**OS-support-vms**htref{1}: OpenVMS AXP V6.1
-**OS-support-du**htref{1}: DEC OSF/1 V3.0
+**Announcement**vref{3}: 1994-11-03
+**OS-support-vms**vref{3}: OpenVMS AXP V6.1
+**OS-support-du**vref{3}: DEC OSF/1 V3.0
 **Num-proc**vref{2}: 1-6
 **CPU-technology: CMOS
-**CPU-chip**htref{1}: DECchip 21064A
+**CPU-chip**vref{3}: DECchip 21064A
 **CPU-clock**vref{2}: 275MHz
 **Cache**vref{2}: 16KB-I/16KB-D		
 **Backup-cache**vref{2}:  4MB
@@ -785,6 +796,7 @@
 **def-lref{2} = ref{CU-V6-10B}
 **def-lref{3} = ref{CU-V5-11A}
 **Def-lref{4} = ref{SOC-JAN1995}
+**Def-lref{5} = ref{CU-1994-11-03}
 !-- [1] has more data about physical size -->
 !-- [3] indicates 4/200 has integrated SVGA controller -->
 !-- [3] indicates memory options for 4/200:
@@ -792,7 +804,9 @@
 !	PB7MA-AB         32 MB RAM
 !	PB7MA-AC         64 MB RAM
 !	PB7MA-AD         128 MB RAM
-**OS-support-vms: OpenVMS V6.1-1H2
+**Announcement**vref{5}: 1994-11-03
+**OS-support-vms**vref{5}: OpenVMS V6.1-1H2
+**OS-support-du**vref{5}: OSF/1 V3.0b
 **Num-proc**vref{4}: 1
 **CPU-clock**vref{4}: 200MHz
 **Cache**vref{4}: 8KB-I/8KB-D
@@ -978,10 +992,11 @@
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{CU-V5-11A}
 **Def-lref{3} = ref{SOC-JAN1995}
-**Announcement**htref{2}: 1 November 1994
-**OS-support-vms**htref{2}: OpenVMS Alpha V6.1
-**OS-support-du**htref{2}: DEC OSF/1 V3.0
-**OS-support-nt**htref{2}: Windows NT Server V3.5
+**Def-lref{4} = ref{CU-1994-11-03}
+**Announcement**htref{4}: 1994-11-03
+**OS-support-vms**vref{4}: OpenVMS Alpha V6.1
+**OS-support-du**htref{4}: DEC OSF/1 V3.0
+**OS-support-nt**htref{4}: Windows NT Server V3.5
 **Num-proc**vref{3}: 1-2
 **CPU-clock**vref{3}: 190MHz
 **Cache**vref{3}: 8KB-I/8KB-D		
@@ -989,8 +1004,8 @@
 !-- [2] indicates 400tps for AS 2100 4/200 but omits number of CPUs -->
 **SPECint92**vref{3}: 131.8
 **SPECfp92**vref{3}: 160.5
-**Minimum-memory**htref{2}: 64MB
-**Maximum-memory**vref{3}: 640MB
+**Minimum-memory**vref{4}: 64MB
+**Maximum-memory**vref{3,4}: 640MB
 **Max-I/O-throughput**vref{3}: 132MB/s
 **BUS-PCI**vref{3}: 3 slots
 **BUS-EISA**vref{3}: 7 slots
@@ -1041,7 +1056,7 @@
 **Def-lref{4} = ref{CU-1994-04-12}
 **Sys-name: AS2100-4-200
 **Desc-name: AlphaServer 2100 4/200
-! vref{1}: The AlphaServer 2100 4/200 was originally known as the Digital 2100 Server A500MP
+! vref{1}: The AlphaServer 2100 4/200 was originally known as the Digital 2100 Server A500MP. Backed up by ref{CU-1994-11-03}
 ! Name change also mentioned in https://groups.google.com/forum/#!topic/biz.digital.articles/St7NBS-DS8I
 ! vref{4}: Mentions: The Model A600MP consists of at least one A500MP-R system plus rackmount storage 
 **Announcement**vref{4}: 1994-04-12
@@ -1078,8 +1093,9 @@
 **Def-lref{1} = ref{CU-V5-11A}
 **Def-lref{2} = ref{CU-V6-4A}
 **Def-lref{3} = ref{SOC-JAN1995}
+**Def-lref{4} = ref{CU-1994-11-03}
 **Sys-name: AlphaServer 2100 4/275
-**Announcement**htref{1}: 11 Novermber 1994
+**Announcement**vref{4}: 1994-11-03
 **OS-support-vms: OpenVMS V6.1
 **Num-proc**vref{3}: 1-4
 **CPU-clock**vref{3}: 275MHz
@@ -1607,8 +1623,11 @@
 **Def-lref{5} = ref{SOC-JAN1995}
 **Def-lref{6} = ref{SPEC-res-9509}
 **Def-lref{7} = ref{SPEC-res-96q3}
-**Announcement**htref{3}: 1 November 1994
-**OS-support-vms: OpenVMS V6.1-1H1
+**Def-lref{8} = ref{CU-1994-11-03}
+**Announcement**vref{8}: 1994-11-03
+**OS-support-vms**vref{8}: OpenVMS V6.1-1H1
+**OS-support-DU**vref{8}: OSF/1 V3.0
+**OS-support-NT**vref{8}: V3.5
 **Num-proc: 1
 **CPU-chip**htref{3}: DECchip 21064
 **CPU-clock**vref{5}: 166MHz
@@ -1642,8 +1661,11 @@
 **Def-lref{5} = ref{SOC-JAN1995}
 **Def-lref{6} = ref{SPEC-res-9509}
 **Def-lref{7} = ref{SPEC-res-96q3}
-**Announcement**htref{3}: 1 November 1994
-**OS-support-vms: OpenVMS V6.1-1H1
+**Def-lref{8} = ref{CU-1994-11-03}
+**Announcement**vref{8}: 1994-11-03
+**OS-support-vms**vref{8}: OpenVMS V6.1-1H1
+**OS-support-DU**vref{8}: OSF/1 V3.0
+**OS-support-NT**vref{8}: V3.5
 **Num-proc: 1
 **CPU-chip**htref{3}: DECchip 21064A
 **CPU-clock**vref{5}: 233MHz
@@ -1783,10 +1805,11 @@
 **Sys-name: AlphaStation 400 4/233
 **Def-lref{1} = ref{CU-V6-3A}
 **Def-lref{2} = ref{CU-V5-11A}
-**Announcement**htref{2}: 1 November 1994
-**OS-support-vms**htref{2}: OpenVMS AXP V6.1-1H1
-**OS-support-du**htref{2}: DEC OSF/1 V3.0
-**OS-support-nt**htref{2}: Windows NT V3.5
+**Def-lref{3} = ref{CU-1994-11-03}
+**Announcement**vref{3}: 1994-11-03
+**OS-support-vms**htref{3}: OpenVMS AXP V6.1-1H1
+**OS-support-du**htref{3}: DEC OSF/1 V3.0
+**OS-support-nt**htref{3}: Windows NT V3.5
 **Codename: TurboAvanti
 **Num-proc: 1
 **CPU-chip**htref{2}: DECchip 21064A
@@ -2025,7 +2048,19 @@
 
 **Start-systems-entry{Multia}{ALPHA}{MULTIA}
 **Sys-name: Multia			
-**OS-support-vms: not supported
+**Desc-name: Multia			
+**Def-lref{1} = ref{CU-1994-12-01}
+**Announcement**vref{1}: 1994-12-01
+**OS-support-VMS: not supported
+**OS-support-NT**vref{1}: V3.5
+**Minimum-memory**vref{1}: 24 MB
+**Maximum-memory**vref{1}: 256 MB
+**Dimensions-start{Multia}
+**Height**vref{1}: 710 mm
+**Width**vref{1}: 317 mm
+**Depth**vref{1}: 317 mm
+**Weight**vref{1}: 6.1 kg maximum.
+**Dimensions-End{Multia}
 **End-systems-entry{Multia}
 
 **Start-systems-entry{DS3305-6400A}{ALPHA}{DIGITALSERVER}

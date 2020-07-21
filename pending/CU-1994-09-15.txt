@@ -1,0 +1,32 @@
+{CU-1994-09-15}
+
+Alpha AXP 21164 Microprocessor -- The World's Fastest Chip
+
+KZPAA PCI-to-SCSI Host Bus Adapter
+
+KZASA Fast Wide Differential SCSI Disk Adapter
+
+PEswitch 900TX for Desktop Interconnectivity
+
+Multiport DECswitch 900EE
+
+DECbridge 900MX Now Called DECswitch 900EF
+
+Product Retirements
+				      Last      Last
+                                      Order     Ship
+Description                           Date      Date      Migration
+
+VRM17 17-inch monochrome monitor      9/8/94	10/8/94	  VR319-DA
+VAXstation 4000-VLC package
+ with VRM17 (PV31A-AF)		      9/8/94	10/8/94	  PV31U-C9 & VR319-D4
+
+VRT19 19-inch color monitor	      8/29/94	9/29/94	  VRC21-HA/H4
+VAXstation 4000-VLC packages
+ with VRT19 (PV31A-CH/CJ)	      8/29/94	9/29/94	  PV31U-C9 & VRC21-HA
+ with VRT19 (PV31A-CK)		      8/29/94	9/29/94	  PV31U-C9 & VRC21-H4
+VAXstation 4000-60 packages
+ with VRT19 (PV61A-AH)		      8/29/94	9/29/94	  PV61A-DA & VRC21-HA
+ with VRT19 (PV61A-AJ)		      8/29/94	9/29/94	  PV61A-DB & VRC21-HA
+ with VRT19 (PV61A-AK)		      8/29/94	9/29/94	  PV61A-DB & VRC21-H4
+

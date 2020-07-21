@@ -1,0 +1,52 @@
+{CU-1994-10-15}
+
+DECbrouter 90 Multiprotocol Bridge Router with Expanded Memory
+
+In response to this problem Digital undertook a joint development effort 
+with Cisco, the result of which is the DECbrouter 90 product (SPD 48.53). 
+This product supports the Cisco proprietary protocol IGRP as well as 
+industry standard protocols Integrated IS to IS and OSPF. The DECbrouter 90 
+is the multiprotocol internetworking solution for linking Ethernet networks 
+across a wide area network in Cisco environments.
+
+Key capabilities include:
+
+o  IGRP
+o  Integrated IS to IS
+o  Integral SNMP management
+o  Protocol Translation
+
+DEWB1-D*	 DECbrouter 90T1, Single T1/E1 Port
+		 Standalone with Power Supply and
+		 Documentation (U.S., Canada, and Japan)
+
+DEWB2-D*	 DECbrouter 90, Dual Port 1xT1
+		 and 1x64 Kbps Standalone with
+		 Power Supply and Documentation
+		 Serial Interface Support for 530A,
+		 RS422, RS423, RS232, and X.21
+
+
+TECHNICAL DATA
+
+(see wiki page)
+
+Product and Service Retirements
+
+				  Last	      Last	     Recommended
+Description			  Order Date  Ship Date	     Migration
+
+ VAX-11/725 and VAX-11/730	  N/A	      N/A	     None
+   Service (Note 4)
+
+
+       (4) All of the VAX-11/725 and VAX-11/730 systems have been retired. 
+           Digital is now retiring them from hardware service. All hardware 
+           service contracts will expire on June 30, 1996, with the date of 
+           last service being the same. Users can purchase spares and 
+           training, if available within a three-month period beyond the End 
+           of Service Life date. Call 1-800-DIGITAL for assistance in 
+           setting up a customized plan. The local service organizations are 
+           in the process of contacting users who will be affected by this 
+           change in service obligation.
+

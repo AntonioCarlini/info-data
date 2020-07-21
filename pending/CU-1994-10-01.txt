@@ -1,0 +1,46 @@
+{CU-1994-10-01}
+
+DIGITAL ALPHASERVER 2100 4/190 VME
+
+DWPVC PCI-VME Adapter Bridges AlphaServer to VMEbus
+
+DECserver 90TL Memory Upgrade Kit and Process
+
+HIGHLIGHTS
+
+o  4 Mbyte SIMM Upgrade Kit for DECserver 90TL now available
+o  User installable kit -- mandatory return no longer needed
+o  DECserver Network Access software license included
+
+POLYCENTER NetWorker Save and Restore V2.2 for OpenVMS VAX Cancelled
+
+POLYCENTER NetWorker Save and Restore (NSR) V2.2 for OpenVMS VAX systems has 
+been cancelled. The release had been announced in December 1993 with a 
+planned shipment date in the spring of 1994. Digital is working to provide 
+alternatives for users who have included this product in their storage 
+management plans.
+
+Service Retirements
+
+ 			     Last           Last           Recommended
+Description		     Order Date	    Ship Date	   Migration
+
+PDP-11/20 and PDP-11/35
+ System Service		     12/31/95	    N/A		   Note 1
+
+LNO1 and LA30 Printer	     11/30/95	    N/A		   Note 1
+ Service
+
+DEFAT Ethernet Fiber Optic   11/30/95	    N/A		   Note 1
+ Server Service
+
+NOTES: (1) All of these systems have already been retired. Digital is now 
+           retiring them from hardware service.
+
+       	   Users can purchase spares and training, if available, within a 
+           three-month period beyond the End of Service Life date. Call 
+           1-800-DIGITAL for assistance in setting up a customized plan. The 
+           local service organizations are in the process of contacting 
+           users who will be affected by this change in service obligation.
+
+

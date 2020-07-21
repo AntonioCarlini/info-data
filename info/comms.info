@@ -758,3 +758,10 @@
 **Speed**vref{1}: 9600bps
 **End-comms-entry{DF296-DA}
 
+**Start-comms-entry{DETMI}{HUB90}
+**Sys-name: DETMI
+**Desc-name: DECrepeater 90TS
+**Def-lref{1} = ref{CU-1994-09-15}
+**Announcement**vref{1}: 1994-09-15
+**Num-ports**vref{1}: 8
+**End-comms-entry{DETMI}

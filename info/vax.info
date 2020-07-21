@@ -669,10 +669,14 @@
 **def-lref{6} = ref{CU-V5-8B}
 **def-lref{7} = ref{4500-6600-PERF-SUMM}
 **def-lref{8} = ref{CU-1993-10-12}
+**Def-lref{9} = ref{CU-1994-09-01}
 ! vref{8} makes it clear that 4500->4500A needs a redesigned CPU card that offers an optional extra pair of DSSI buses
 **Sys-name: VAX 4000-500A
 **Desc-name: VAX 4000 Model 500A
 **Html-target: vax450x
+**Last-ship**vref{9}: 1994-12-30
+! vref{9} says 3/30/94 but that is presumed to be a typo for3/30/95! 
+**Last-order**vref{9}: 1995-03-30
 **OS-support-VMS**vref{3}: V5.5-2H4, VMS V6.1 or later
 **OS-support-MDM**vref{3}: Release 139
 **CPU-module**vref{2,3}: KA681-AA
@@ -803,9 +807,13 @@
 **def-lref{2} = ref{EK-496AB-TI-B01}
 **def-lref{3} = ref{CU-V5-8B}
 **def-lref{4} = ref{CU-1993-10-12}
+**Def-lref{5} = ref{CU-1994-09-01}
 **Sys-name: VAX 4000-700A
 **Desc-name: VAX 4000 Model 700A
 **Announcement**vref{4}: 1993-10-12
+**Last-ship**vref{5}: 1994-12-30
+! vref{9} says 3/30/94 but that is presumed to be a typo for3/30/95! 
+**Last-order**vref{5}: 1995-03-30
 **Html-target: vax470x
 **OS-support-VMS**vref{2}: V5.5-2H4, V6.1 or later
 **OS-support-MDM**vref{2}: Release 139
@@ -3004,6 +3012,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{VXFT810}{VAX}{VAXFT}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
 **def-lref{2} = ref{CU-1993-10-12}
+**def-lref{3} = ref{CU-1991-09-06}
 **document=doc{DEC:EK-VX810-CG.A01} ! VAXft Systems Configuring the Model 810
 **document=doc{DEC:EK-FTV81-IP-A01} ! VAXft 810 System IPB
 **document=doc{DEC:EK-VXFTA-IN-A01} ! VAXft Systems Model 810 Installation Information
@@ -3013,6 +3022,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-VXFTA-SI-A01} ! VAXft Model 810 Service Information
 **document=doc{DEC:EK-VXFTA-SP-A01} ! VAXft Systems Model 810 Site Preparation Guide
 **Announcement**vref{2}: 1993-10-12
+**Last-order**vref{3}: 1994-12-09
 ! **OS-support-VMS**vref{2}: VMS V5.5-2hf
 **OS-support-VMS: V5.5-2HF and V6.2 (only)
 **Sys-name: VAXft 810
@@ -4689,14 +4699,17 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{8} = ref{EK-VAXCT-CG-006}
 **def-lref{9} = ref{CBR-PR-1992-01-28}
 **def-lref{10} = ref{CU-1992-01-10}
+**Def-lref{11} = ref{CU-1994-09-01}
 **document=doc{DEC:EK-A0514-MG-001} ! MicroVAX 3100 Platform KA47 CPU System Maintenance
 **document=doc{DEC:EK-A0523-IN.001} ! MicroVAX 3100 Model 40 and Model 80 Installation Information
 **document=doc{DEC:EK-A0524-UG.001} ! MicroVAX 3100 Model 40 and Model 80 Operator Information
 **document=doc{DEC:EK-A0525-TD-001} ! MicroVAX 3100 Model 40 and Model 80
-! **Announcement**vref{9}: 28 January 1992, but that is the date of the article: it doesn't explicitly state an announcement date
-**Announcement**vref{10}: 10 January 1992
 **Sys-name: MicroVAX 3100-80
 **Desc-name: MicroVAX 3100 Model 80
+! **Announcement**vref{9}: 28 January 1992, but that is the date of the article: it doesn't explicitly state an announcement date
+**Announcement**vref{10}: 10 January 1992
+**Last-ship**vref{11}: 1994-12-30
+**Last-order**vref{11}: 1995-03-30
 **Codename: Waverly-Mariah
 **Html-target: uv3180
 **OS-support-VMS**vref{10}: VMS V5.5

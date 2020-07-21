@@ -89,8 +89,10 @@
 
 **Start-storage-entry{TF85}{DSSI}{TF}
 **Def-lref{1} = ref{EK-OTF85-OM-002}
+**Def-lref{2} = ref{CU-1994-12-15}
 **Sys-name: TF85
 **Desc-name: TF85 Tape Cartridge Subsystem
+**Last-order**vref{2}: 1995-03-31
 **Capacity**lref{1}: 2.6GB
 ![1] Will read TK50/TK52 carts
 **Read/write-speed**lref{1}: 100in/s
@@ -298,6 +300,9 @@
 **Sys-name: TK70
 **Desc-name: TK70 Streaming Tape Drive
 **Def-lref{1} = ref{EK-OTK70-OM-001}
+**Def-lref{2} = ref{CU-1994-09-01}
+**Last-ship**vref{2}: 1994-11-30
+**Last-order**vref{2}: 1994-12-31
 **Capacity**htref{1}: 296MB
 **Peak-transfer-rate**htref{1}:{125KB/s:(total)}{90KB/s:(user data)}
 **Recording-format**htref{1}: Multiple track serpentine
@@ -540,10 +545,12 @@
 **Sys-name: TLZ06
 **Desc-name: TLZ06 Cassette Tape Drive
 **Def-lref{1} = ref{EK-TLZ06-OM-004}
-**def-lref{2} = ref{CU-1992-07-15}
-**def-lref{3} = ref{CU-1992-07-20}
+**Def-lref{2} = ref{CU-1992-07-15}
+**Def-lref{3} = ref{CU-1992-07-20}
+**Def-lref{4} = ref{CU-1994-12-15}
 ! SCSI interface. 4mm DAT using DDS (Digital Data Storage) with data compression. Read/write compatible with TLZ04 -->
 **Announcement**vref{2}: 15 July 1992
+**Last-order**vref{4}: 1995-01-27
 **OS-Support-vms**vref{2}: VMS V5.5-1
 **OS-support-ultrix**vref{2}: Ultrix 4.2c
 **OS-support-sco**vref{3}: SCO Unix V3.2.4
@@ -576,18 +583,19 @@
 **Desc-name: TLZ07 Cassette Tape Drive
 **Def-lref{1} = ref{EK-TLZ07-OM-A01}
 **Def-lref{2} = ref{CU-V5-11A}
+**Def-lref{3} = ref{CU-1994-11-03}
 !-- [1]: TLZ7L autoloader, 4- or 12- cartridge loaders available; SCSI-2 interface -->
 !-- [1]: TLZ07-DA: tabletop
 !	TLZ07-AA: 3.5" HH internal drive
 !	TLZ07-VA: StorageWorks drive
-**Announcement**htref{2}: 1 November 1994
-**OS-Support-vms**htref{1}: OpenVMS VAX V6.1
-!!? **OS-Support-vms**htref{1}: OpenVMS AXP V6.1
-**OS-support-du**htref{1}: DEC OSF/1 V2.0
-**OS-support-wnt**htref{1}: Windows NT V3.5
+**Announcement**vref{3}: 1994-11-03
+**OS-Support-vms**vref{3}: OpenVMS VAX V6.1
+!!? **OS-Support-vms**vref{3}: OpenVMS AXP V6.1
+**OS-support-du**vref{3}: DEC OSF/1 V2.0
+**OS-support-wnt**vref{3}: Windows NT V3.5
 **Capacity**htref{1}: {8.0GB:(compressed)}{4.0GB:(native)}
 **Sustained-transfer-rate**htref{1}: {400KB/s:(native)}{810KB/s:(compressed)}
-**Data-buffer**htref{1}: 1MB
+**Data-buffer**vref{3}: 1MB
 **Hard-error-rate**htref{1}: 1 in 10^15
 **Recording-technology**uref{*122}: Helical scan
 **Recording-format**htref{1}: DDS-2, DDS, DC
@@ -606,7 +614,7 @@
 **Depth**htref{1}: 228.6mm
 **Weight**htref{1}: 2.2kg
 **Dimensions-end{TLZ07}
-![2]:
+![2]: vref{3}
 !          3.5-INCH              5.25-INCH
 !          EMBEDDED              EMBEDDED                TABLETOP
 !
@@ -660,6 +668,9 @@
 **Sys-name: TSZ05
 **Desc-name: TSZ05 Tape Drive
 **Def-lref{1} = ref{EK-TSZ05-OM-001}
+**Def-lref{2} = ref{CU-1994-09-01}
+**Last-ship**vref{2}: 1994-08-19
+**Last-order**vref{2}: 1994-12-31
 !**Capacity:	46MB	**htref{*}160KB/s	**htref{<}Recording method	<TD> Phase Encoded	**htref{<}ROWSPAN=2 VALIGN=TOP>
 !**Read/write-speed**htref{1}: 100in/s streaming
 !	**htref{<}25in/s start/stop
@@ -843,6 +854,8 @@
 **Sys-name: TZ30
 **Desc-name: TZ30 Tape Drive
 **Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{CU-1994-12-15}
+**Last-order**vref{2}: 1994-12-30
 **Capacity**htref{1}: 95MB
 **Form-factor**uref{58}: 5-1/4" half height
 **Peak-transfer-rate**htref{1}: 62.5KB/s
@@ -867,6 +880,7 @@
 **Start-storage-entry{TZ85}{SCSI_TAPE}{TZ}
 **Def-lref{1} = ref{EK-OTF85-OM-002}
 **def-lref{2} = ref{CU-1991-12-20}
+**Def-lref{3} = ref{CU-1994-12-15}
 ! More info from https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c00331564:
 ! 1.1 MBytes/second raw data rate to media
 ! Up to 800 KBytes/second sustained data rates
@@ -900,6 +914,7 @@
 
 **Sys-name: TZ85
 **Desc-name: TZ85 Tape Cartridge Subsystem
+**Last-order**vref{2}: 1995-03-31
 **OS-support-vms**uref{SUE Jul 1992}: VMS V5.4-1
 **OS-support-ultrix**uref{SUE Jul 1992}: Ultrix V4.2
 **Announcement**vref{2}: 1991-12-20
@@ -1062,11 +1077,13 @@
 **Sys-name: TZK10
 **Desc-name: TZK10 Cartridge Tape Drive
 **Def-lref{1} = ref{EK-TZK10-OG-002}
+**Def-lref{2} = ref{CU-1994-12-15}
 !-- From *11: 36W. bus load: 1, 1.0A@240Vac, 1A@12V, 1.2A@5V, 8.5"Hx5.75"Wx3.25"D 2kg. -->
 !-- Tape speed: &	120 in/s \\	% [130] -->
 !-- Rewind time: &	100s \\	% [124] -->
 !-- Size: &	5 1/4" half height \\	% [58] -->
 !-- Hard error rate: &	1 in $10^15$ \\	% [124] -->
+**Last-order**vref{2}: 1994-12-30
 **Capacity**htref{1}: 525MB
 **OS-Support-vms**htref{1}: VMS V5.4-2
 **OS-Support-ultrix**htref{1}: Ultrix V4.1

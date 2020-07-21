@@ -1,0 +1,19 @@
+{CU-1994-11-03}
+
+PBXGA-AA	 ZLXp-E1 for OpenVMS, DEC OSF/1,		
+		 8 plane, 72Hz, 1280x1024 			
+
+PBXGA-BA	 ZLXp-E2 for OpenVMS, DEC OSF/1,		
+		 24 plane, 72Hz, 1280X1024			
+
+PBXGA-CA	 ZLXp-E3 for OpenVMS, DEC OSF/1,		
+		 24 plane with 24-bit Z buffer,			
+		 72Hz, 1280x1024
+
+
+ZLX-L1 3D Solids Midrange Graphics Accelerator
+
+DECwanrouter 90 Hardware and WANrouter 90/250 Software Features
+
+DECwanrouter 90 ISDN Offers Fully Integrated Solution
+

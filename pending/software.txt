@@ -1023,3 +1023,92 @@ Business Recovery Server V1.2: T3 Disaster Tolerance
 
 POLYCENTER NetWorker Save and Restore V3.0 for DEC OSF/1 AXP
 
+{CU-1994-09-15}
+
+POLYCENTER Manager on NetView V3.1 for DEC OSF/1 AXP
+POLYCENTER Security Intrusion Detector V1.2 for DEC OSF/1
+Digital's SoftWindows V1.0, SoftPC V5.0
+Jabberwocky Toolkit V2.0
+Storage Library System V2.4 for OpenVMS
+
+{CU-1994-10-01}
+
+
+ALL-IN-1 Integrated Office Server V3.1 for OpenVMS AXP and VAX
+TeamLinks V2.1 for Windows and Macintosh
+TeamRoute for ALL-IN-1 V1.2
+LinkWorks V2.1 Update, The Solution Framework
+PATHWORKS V5.1 for DOS and Windows Clients
+PATHWORKS Remote V5.1 for DOS and Windows
+DEC TCP/IP Services V3.2 for OpenVMS VAX and AXP
+DECnet/OSI V5.8 for OpenVMS VAX and AXP
+DCE V1.1 for Windows NT
+Forte V1.1 Eases Development of Object Oriented Distributed Applications
+ObjectFlow V1.0 Advanced Developer's Kit
+VAX 2780/3780 Protocol Emulator V1.8
+DECserver Network Access Software V1.4
+POLYCENTER System Watchdog V2.2
+POLYCENTER Security Compliance Manager V1.0 for Novell Netware V3.11
+POLYCENTER System Census V1.3 and 33% Price Reduction on Agent Licenses
+POLYCENTER Application Trace SDK V3.0 for DEC OSF/1
+OpenVMS Management Station V1.0 for OpenVMS VAX
+ACCESSWORKS DB Integrator Gateway V3.1 for SequeLink
+ACCESSWORKS DB Integrator Gateway V3.1 for EDA/SQL
+ACCESSWORKS DB Integrator Gateway V3.1 for PC Data
+DEC ODBC Driver V2.0
+Reliable Transaction Router V3.0 Front End for Windows NT AXP
+COHESIONworX V2.1 Distributed UNIX Software Development Environment
+COHESION Team/SEE V1.1
+DEC Fortran V3.5 for DEC OSF/1 AXP Systems
+DEC Fortran 90 V1.1 for DEC OSF/1 AXP Systems
+DEC Ada V3.2 for DEC OSF/1 AXP V3.0 Systems
+
+{CU-1994-10-15}
+
+
+System V Environment for DEC OSF/1 V3.0
+POLYCENTER Hierarchical Storage Management V1.0 for OpenVMS
+HSC High Performance Software V8.4 Expands SCSI Support and Adds Jukeboxes
+StorageWorks RAID Software V2.1 for OpenVMS Systems
+
+{CU-1994-11-03}
+
+Microsoft Windows NT V3.5
+DEC FUSE V2.0 for DEC OSF/1 Systems
+File Transfer Spooler for Open Systems V1.0
+POLYCENTER Save Set Manager V1.0 for OpenVMS VAX
+DECmigrate V1.1A for OpenVMS AXP Systems
+
+{CU-1994-11-15}
+
+
+DEC ACB V2.2 for OpenVMS
+
+DECnet/OSI V3.0 for DEC OSF/1
+DEC SNA Domain Gateway V2.0
+X.25 V1.1 for DEC OSF/1
+
+{CU-1994-12-01}
+
+
+PATHWORKS V5.0 for OS/2
+TeMIP V2.0 Product Set for DEC OSF/1
+cc:Mail Connection for MailWorks V1.0
+Storage Library System V2.4a for OpenVMS VAX and AXP
+MailWorks for DEC OSF/1 V1.5
+
+DEC C V4.1 for OpenVMS AXP
+
+{CU-1994-12-15}
+
+POLYCENTER AssetWORKS V1.0
+PATHWORKS V1.0C for OpenVMS (NetWare)
+PATHWORKS V5.0C for OpenVMS (LAN Manager)
+NetCon for ManageWORKS V2.2
+DEC SoftPC V5.0/SoftWindows V1.0 on OpenVMS AXP
+LSF V2.0 Load Sharing and Distributed Batch Software for UNIX Networks
+StorageWorks Advanced Media Library V1.0 for UNIX, Software Developer's Kit
+OSI Application Developer's Toolkit V2.2
+Microsoft's Systems Management Server V1.0
+
+
