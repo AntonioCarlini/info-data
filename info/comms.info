@@ -551,6 +551,17 @@
 **Dimensions-end{DS90TL}
 **End-comms-entry{DS90TL}{TERMSERVER}
 
+**Start-comms-entry{DS900GM}{TERMSERVER}
+**Sys-name: DSRVY
+**Desc-name: DECserver 900GM Terminal Server
+**Def-lref{1} = ref{CU-1995-02-15}
+**Announcement**vref{1}: 1995-02-15
+**FRS-date**vref{1}: 1993-10
+**Ports**vref{1}: 32
+**Speed**vref{1}:  up to 115.2 kbps
+**Maximum-Memory**vref{1}: 8 MB
+**End-comms-entry{DS900GM}
+
 **Start-comms-entry{DS900TM}{TERMSERVER}
 **Sys-name: DSRVZ
 **Desc-name: DECserver 900TM Terminal Server

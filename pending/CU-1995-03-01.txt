@@ -1,0 +1,38 @@
+{CU-1995-03-01}
+
+PRODUCT POSITIONING
+
+The AlphaStation 200 and 400 series are PCI/ISA bus systems that replace 
+Digital's low- to mid-range DEC 3000 TURBOchannel based workstations. The 
+new AlphaStation 200 4/100 becomes the entry level system in the $5,000 to 
+$6,000 range. The AlphaStation 200 4/166 takes the performance lead from the 
+DEC 3000 Model 300X in the $10,000 range. The AlphaStation 200 4/233 and 
+AlphaStation 400 4/233, providing users a choice in packaging and in-box 
+expansion features, become Digital's workstation price/performance leaders 
+in the under $15,000 range.
+
+Model         Enclosure	   CPU       SPECint    SPECfp  Slots  Bays Bus
+
+AlphaStation  Desktop	   100 MHz   74.5	95.2	3      4    PCI/ISA
+ 200 4/100
+AlphaStation  Desktop	   166 MHz   107.7	134.8	3      4    PCI/ISA
+ 200 4/166
+AlphaStation  Desktop	   233 MHz   157.6	183.8	3      4    PCI/ISA
+ 200 4/233
+AlphaStation  Mini tower   233 MHz   157.6	183.8	6      5    PCI/ISA
+ 400 4/233
+DEC 3000      Desktop	   125 MHz   63.1	77.7	2      2    TURBO-
+ 300LX	      		   	     			       	    Channel
+DEC 3000      Desktop	   175 MHz   90.3	101.9	2      2    TURBO-
+ 300X	      		   	     			       	    Channel
+
+
+
+
+STORAGEWORKS RAID ARRAY 230 SUBSYSTEM
+
+
+DECHUB ONE-MX SINGLE SLOT HUB FOR DECHUB 900 MODULES
+
+DECREPEATER 900FL FIBER TOKEN RING REPEATER
+

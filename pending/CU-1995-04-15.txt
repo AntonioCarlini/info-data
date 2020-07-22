@@ -1,0 +1,38 @@
+{CU-1995-04-15}
+
+LG04PLUS LINE MATRIX PRINTER
+
+Product and Service Retirements
+Taken from EISNER.
+
+
+   PRODUCT/SERVICE                NOTES
+
+   TRANSLAN REMOTE BRIDGE	  Digital is retiring the NSC/Vitalink 
+   FAMILY, TRANSPATH ROUTER	  Translan and Transpath product families, 
+   FAMILY, AND ALL ASSOCIATED	  which will now be orderable on a project 
+   SOFTWARE, DOCUMENTATION,	  basis only. All of the retired products
+   CABLES, AND ACCESSORIES	  will continue to be supported until the 
+                                  end of September 1996.
+
+   Translan III, 320, 335, 350	  Last Order Date: Past
+   (Hardware: DETLB-**,		  Migration: Leafbridge (DEWAB-**) in
+   DETLX-**; Software UPI: VTQ,	  Europe only; DEC WANrouter 90 (DEWAR-**),
+   VTS, YGM, GV1)		  or DECbrouter 90 (DEWBR-**) and/or DECNIS 
+                                  (DNS**-**) in all other areas
+
+   Transpath 335 and 350	  Last Order Date: Past
+   (Hardware: DETLB-**,		  Migration: DEC WANrouter 90, DECNIS, or
+   DETLX-**; Software UPI: YP6,	  DECbrouter 90
+   GV2)
+
+   NSC 6601 and 6607 Routers	  Last Order Date: Past
+   (Hardware: DETLB-H*, 	  Migration: DEC WANrouter 90, DECNIS, or
+   DETLX-**; Software UPI: 09E)	  DECbrouter 90
+
+   -------------------------------------------------------------------------
+   ALL DEC 3000 Model 300LX	  
+   SYSTEMS			  
+   
+   PE32B-**                       Last Order Date: June 23, 1995
+                                  Migration: AlphaStation 200 family

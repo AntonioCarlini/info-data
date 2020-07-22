@@ -310,6 +310,9 @@
 **Start-monitors-entry{VR417}{MONITOR}{VR}
 **Sys-name: VR417 17" Colour Monitor
 **Def-lref{1} = ref{CU-V6-2B}
+**Def-lref{2} = ref{CU-1995-02-15}
+**Announcement**vref{2}: 1995-02-15
+**FRS-date**vref{2}: 1995-02-15
 ! [1] also known as Sony VRT17 -->
 ! [1] 17", 16" viewable autoscanning colour display -->
 !   [1]:
@@ -334,6 +337,7 @@
 **V-front-porch: 3 horizontal lines  
 **V-sync-pulse: 3 horizontal lines  
 **Vertical-period: 15.0434ms   
+**OEM-device**vref{2}: Sony VRT17
 **Dimensions-start{VR417}
 **Height**htref{1}: 414mm     
 **Width**htref{1}: 406mm     

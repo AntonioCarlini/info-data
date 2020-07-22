@@ -25,6 +25,7 @@
 **Def-lref{8} = ref{DECpc-AXP-150-Announcement}
 **Def-lref{9} = ref{Product-and-Service-Retirements-1995-02-07}
 **Def-lref{10} = ref{CU-1994-12-15}
+**Def-lref{11} = ref{CU-1995-02-01}
 **Codename: Jensen
 **OS-support-VMS: V1.5-1H1
 **OS-support-NT**vref{8}: 3.1
@@ -36,7 +37,8 @@
 **CPU-cycle**vref{5}: 6.6ns
 **Cache**vref{6}: 8KB-I/8KB-D
 **Announcement**vref{8}: 25 May 1993
-**Last-order**vref{10}: 1994-12-30 (for the DEC 2000 Model 500)
+**Last-order**vref{11}: 1995-02-28
+!**Last-order**vref{10}: 1994-12-30 (for the DEC 2000 Model 500)
 !**Last-order**vref{9}: 28 February 1994 | Probably really meant 1995!
 **Backup-cache**vref{6}: 512KB (17ns)
 **SPECint92**vref{7}: 80.9
@@ -206,7 +208,8 @@
 **Def-lref{4} = ref{CU-V6-5}
 **Def-lref{5} = ref{SOC-JAN1995}
 **Def-lref{6} = ref{CU-1994-02-14}
-**Last-order**htref{4}: 23 June 1995
+**Def-lref{7} = ref{CU-1995-04-15}
+**Last-order**vref{7}: 1995-06-23
 **OS-support-VMS**vref{6}: OpenVMS AXP V1.5
 **OS-support-DU**vref{6}: OSF/1 V1.3a
 **CPU-module: KN16-DA
@@ -721,14 +724,15 @@
 **Sys-name: AlphaServer 400 4/166
 **Def-lref{1} = ref{CU-V6-3A}
 **Def-lref{2} = ref{CU-V6-10B}
-**Announcement**htref{1}: 1 March 1995
+**Def-lref{3} = ref{CU-1995-03-01}
+**Announcement**vref{3}: 1995-03-01
 **OS-support-vms: OpenVMS V6.1-1H1
 **Num-proc: 1
-**CPU-clock**htref{1}: 166MHz
-**Maximum-memory**htref{1}: 192MB
-**BUS-PCI**htref{1}:  2 slots @ 132MB/s
-**BUS-ISA**htref{1}: 3 slots
-**BUS-PCI-or-ISA**htref{1}: 1 slot
+**CPU-clock**vref{3}: 166MHz
+**Maximum-memory**vref{3}: 192MB
+**BUS-PCI**vref{3}:  2 slots @ 132MB/s
+**BUS-ISA**vref{3}: 3 slots
+**BUS-PCI-or-ISA**vref{3}: 1 slot
 **BUS-SCSI: 1 @ 10MB/s
 **Option-title: Memory
 **Option: {boards:MSP01-AA}{8MB SIMM package}
@@ -1016,9 +1020,15 @@
 **Sys-name: AlphaServer 2000 4/233
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{CU-V5-11A}
+**Def-lref{3} = ref{CU-1995-04-11}
+**Announcement**vref{3}: 1995-04-11
+**FRS-date**vref{3}: 1995-04-11
+**OS-support-vms**vref{3}: OpenVMS Alpha V6.1
+**OS-support-du**vref{3}: Digital UNIX V3.2
+**OS-support-nt**vref{3}: Windows NT Server V3.5
 **Num-proc: 1-2
-**CPU-chip**htref{1}: DECchip 21064A
-**CPU-clock**htref{1}: 233MHz
+**CPU-chip**vref{3}: DECchip 21064A
+**CPU-clock**vref{3}: 233MHz
 **Backup-cache**htref{1}: 1MB
 **Minimum-memory**htref{1}: 128MB
 **Maximum-memory**htref{1}: 1GB
@@ -1028,18 +1038,20 @@
 **Sys-name: AlphaServer 2000 4/275
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{CU-V5-11A}
-**Announcement**htref{1}: 11 April 1995
-**OS-support-vms**htref{1}: OpenVMS Alpha V6.1
-**OS-support-du**htref{1}: Digital UNIX V3.2
-**OS-support-nt**htref{1}: Windows NT Server V3.5
-**Num-proc**htref{1}: 1-2
-**CPU-chip**htref{1}: DECchip 21064A
-**CPU-clock**htref{1}: 275MHz
-**Backup-cache**htref{1}: 4MB
-**Minimum-memory**htref{1}: 64MB
-**Maximum-memory**htref{1}: 1GB
-**BUS-PCI**htref{1}: 3 slots
-**BUS-EISA**htref{1}: 7
+**Def-lref{3} = ref{CU-1995-04-11}
+**Announcement**vref{3}: 1995-04-11
+**FRS-date**vref{3}: 1995-04-11
+**OS-support-vms**vref{3}: OpenVMS Alpha V6.1
+**OS-support-du**vref{3}: Digital UNIX V3.2
+**OS-support-nt**vref{3}: Windows NT Server V3.5
+**Num-proc**vref{3}: 1-2
+**CPU-chip**vref{3}: DECchip 21064A
+**CPU-clock**vref{3}: 275MHz
+**Backup-cache**vref{3}: 4MB
+**Minimum-memory**vref{3}: 64MB
+**Maximum-memory**vref{3}: 1GB
+**BUS-PCI**vref{3}: 3 slots
+**BUS-EISA**vref{3}: 7
 **End-systems-entry{AS2000-4-275}
 
 **Start-systems-entry{AS2000-5-375}{ALPHA}{ALPHASERVER}
@@ -1081,12 +1093,15 @@
 **Start-systems-entry{AS2100-4-233}{ALPHA}{ALPHASERVER}
 **Def-lref{1} = ref{CU-V5-11A}
 **Def-lref{2} = ref{CU-V6-4A}
+**Def-lref{3} = ref{CU-1995-04-11}
 **Sys-name: AlphaServer 2100 4/233
-**Announcement**htref{2}: 11 April 1995
+**Announcement**vref{3}: 1995-04-11
+**FRS-date**vref{3}: 1995-04-11
+!**FRS-date**vref{3}: 1995-04-11
 **Num-proc**htref{2}: 1-4
-**CPU-chip**htref{2}: DECchip 21064A
-**CPU-clock**htref{2}: 233MHz
-**Backup-cache**htref{2}: 1MB
+**CPU-chip**vref{3}: DECchip 21064A
+**CPU-clock**vref{3}: 233MHz
+**Backup-cache**vref{3}: 1MB
 **End-systems-entry{AS2100-4-233}
 
 **Start-systems-entry{AS2100-4-275}{ALPHA}{ALPHASERVER}
@@ -1115,19 +1130,21 @@
 **Sys-name: AlphaServer 2100 5/250
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{SPEC-res-9509}
-**Announcement**htref{1}: 11 April 1995
-**OS-support-vms**htref{1}: OpenVMS Alpha V6.2
-**OS-support-du**htref{1}: Digital UNIX V3.2B
-**OS-support-nt**htref{1}: Windows NT Server V3.51
-**Num-proc**htref{1}: 1-4
-**CPU-chip**htref{1}: DECchip 21164
-**CPU-clock**htref{1}: 250MHz
+**Def-lref{3} = ref{CU-1995-04-11}
+**Announcement**vref{3}: 1995-04-11
+**FRS-date**vref{3}: 1995-05
+**OS-support-vms**vref{3}: OpenVMS Alpha V6.2
+**OS-support-du**vref{3}: Digital UNIX V3.2B
+**OS-support-nt**vref{3}: Windows NT Server V3.51
+**Num-proc**vref{3}: 1-4
+**CPU-chip**vref{3}: DECchip 21164
+**CPU-clock**vref{3}: 250MHz
 **Backup-cache**htref{1}: 4MB
 **SPECint95**vref{2}: 5.96
 **SPECfp95**vref{2}: 8.39
-**Minimum-memory**htref{1}: 128MB
-**Maximum-memory**htref{1}: 2GB
-!-- [1]: 4-CPUs only 1GB of RAM possible -->
+**Minimum-memory**vref{3}: 128MB
+**Maximum-memory**vref{3}: 2GB
+!-- [1] and vref{3}: 4-CPUs only 1GB of RAM possible -->
 **BUS-PCI**htref{1}: 3 slots
 **BUS-EISA**htref{1}: 8 slots
 **End-systems-entry{AS2100-5-250}
@@ -1261,10 +1278,19 @@
 
 **Start-systems-entry{AS8200-5-300}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8200 5/300
-**OS-support-vms: OpenVMS V6.2
 **Def-lref{1} = ref{SPEC-res-9512}
+**Def-lref{2} = ref{CU-1995-04-11}
+**Announcement**vref{2}: 1995-04-11
+**FRS-date**vref{2}: 1995-04-11
+**OS-support-VMS**vref{2}: V6.2
+**OS-support-DU**vref{2}: V3.2
+**CPU-clock**vref{2}: 300 MHz
+**Num-proc**vref{2}: 1-6
 **SPECint95**vref{1}: 7.43 (1-CPU)
 **SPECfp95**vref{1}: 12.4 (1-CPU)
+**Minimum-memory**vref{2}: 128 MB
+**Maximum-memory**vref{2}: 6 GB
+**BUS-EISA**vref{2}: 8 slots
 **End-systems-entry{AS8200-5-300}
 
 **Start-systems-entry{AS8200-5-350}{ALPHA}{ALPHASERVER}
@@ -1308,10 +1334,26 @@
 
 **Start-systems-entry{AS8400-5-300}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8400 5/300
-**OS-support-vms: OpenVMS V6.2
 **Def-lref{1} = ref{SPEC-res-9512}
+**Def-lref{2} = ref{CU-1995-04-11}
+**Announcement**vref{2}: 1995-04-11
+**FRS-date**vref{2}: 1995-04-11
+**OS-support-VMS**vref{2}: V6.2
+**OS-support-DU**vref{2}: V3.2
+**CPU-clock**vref{2}: 300 MHz
+**Num-proc**vref{2}: 1-12
+**Minimum-memory**vref{2}: 256 MB
+**Maximum-memory**vref{2}: 14 GB
 **SPECint95**vref{1}: 7.43 (1-CPU)
 **SPECfp95**vref{1}: 12.4 (1-CPU)
+**BUS-PCI**vref{2}: 144 slots (max)
+**BUS-EISA**vref{2}: 8 slots
+**Dimensions-start{8400}
+**Height**vref{2}: 1700 mm
+**Width**vref{2}: 800 mm
+**Depth**vref{2}: 875 mm
+**Weight**vref{2}: 408 kg (without batteries)
+**Dimensions-End{8400}
 **End-systems-entry{AS8400-5-300}
 
 **Start-systems-entry{AS8400-5-350}{ALPHA}{ALPHASERVER}
@@ -1575,15 +1617,16 @@
 **Def-lref{4} = ref{CU-V6-3}
 **Def-lref{5} = ref{SPEC-res-9509}
 **Def-lref{6} = ref{SPEC-res-96q3}
-**Announcement: 1 March 1995
-**OS-support-vms**htref{4}: OpenVMS V6.1-1H2
+**Def-lref{7} = ref{CU-1995-03-01}
+**Announcement**vref{7}: 1995-03-01
 ! Flowchart has V6.1-1H1
-**OS-support-du**htref{4}: DEC OSF/1 V3.2
-**OS-support-nt**htref{4}: Windows NT V3.5
+**OS-support-vms**vref{7}: OpenVMS V6.1-1H2
+**OS-support-du**vref{7}: DEC OSF/1 V3.2
+**OS-support-nt**vref{7}: Windows NT V3.5
 **Num-proc: 1
-**CPU-chip**htref{1}: DECchip 21064
-**CPU-clock**htref{1}: 100MHz
-**Backup-cache**htref{1}: 512KB
+**CPU-chip**vref{7}: DECchip 21064
+**CPU-clock**vref{7}: 100MHz
+**Backup-cache**vref{7}: 512KB
 !-- all have 512KB in Customer Update. Volume 7 Issue 3B. 15th March 1996
 **SPECint92**htref{1}: 74.5
 **SPECfp92**htref{1}: 95.2
@@ -1594,13 +1637,13 @@
 !-- from Customer Update. Volume 7 Issue 3B. 15th March 1996. :
 !	specint 95: 1.48 (/100), 2.31 (/166), 3.39 (/266)
 !	specfp95:   2.43 (/100), 3.22 (/166), 3.95 (/266)
-**Minimum-memory**htref{1}: 16MB
-**Maximum-memory**htref{1}: 192MB
+**Minimum-memory**vref{7}: 16MB
+**Maximum-memory**vref{7}: 192MB
 **BUS-SCSI**htref{1}: 1 @ 10MB/s
-**BUS-PCI**htref{1}: 1 slot @ 132MB/s
-**BUS-ISA**htref{1}: 1 slot
-**BUS-PCI-or-ISA**htref{1}: 1 slot
-**LAN-support**htref{1}: 1 (10BASE-T/10BASE2)
+**BUS-PCI**vref{7}: 1 slot @ 132MB/s
+**BUS-ISA**vref{7}: 1 slot
+**BUS-PCI-or-ISA**vref{7}: 1 slot
+**LAN-support**vref{7}: 1 (10BASE-T/10BASE2)
 !-- options from [1] for AlphaStation 4/100 -->
 **Option-title: Graphics controllers
 **Option: {boards:ZLXp-E1}{ZLXp-E1  8 plane 2D/3D graphics}
@@ -1694,17 +1737,19 @@
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{SPEC-res-9509}
 **Def-lref{3} = ref{SPEC-res-96q3}
+**Def-lref{4} = ref{CU-1995-04-11}
 **Sys-name: AlphaStation 250 4/266
-**Announcement**htref{1}: 11 April 1995
-**OS-support-vms**htref{1}: OpenVMS V6.1-1H2
+**Announcement**vref{4}: 1995-04-11
+**FRS-date**vref{4}: 1995-04-11
+**OS-support-vms**vref{4}: OpenVMS V6.1-1H2
 ! Flowchart has V6.1-1H1
-**OS-support-du**htref{1}: Digital UNIX V3.2
-**OS-support-nt**htref{1}: Windows NT V3.5
+**OS-support-du**vref{4}: Digital UNIX V3.2
+**OS-support-nt**vref{4}: Windows NT V3.5
 **Num-proc: 1
 **CPU-chip**htref{1}: DECchip 21064A
 **CPU-clock**htref{1}: 266MHz
 **Cache**htref{1}: 16KB-I/16KB-D
-**Backup-cache**htref{1}: 2MB
+**Backup-cache**vref{4}: 2MB
 **SPECint92**htref{1}: 198.6
 **SPECfp92**htref{1}: 262.5
 !**SPECint95**vref{2}: 4.18
@@ -1715,10 +1760,10 @@
 **Maximum-memory**htref{1}: 256MB
 !-- [1] implies future support for 512MB -->
 **BUS-SCSI**htref{1}: 1 @ 10MB/s
-**BUS-PCI**htref{1}: 1 @ 132MB/s, 33MHz
-**BUS-ISA**htref{1}: 1
-**BUS-PCI-or-ISA: 1
-**LAN-support**htref{1}: 1
+**BUS-PCI**vref{4}: 1 @ 132MB/s, 33MHz
+**BUS-ISA**vref{4}: 1
+**BUS-PCI-or-ISA**vref{4}: 1
+**LAN-support**vref{4}: 1
 !-- options from [1] for AlphaStation 250 4/266 -->
 !<TR> <TD COLSPAN=2> <B> Graphics controllers </B> </TR>
 !<TR> <TD> <A HREF="../boards/zlxpe1.html"> ZLXp-E1     </A> <TD> ZLXp-E1  8 plane 2D/3D graphics	</TR>

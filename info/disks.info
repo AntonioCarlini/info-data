@@ -2202,15 +2202,19 @@
 **Start-storage-entry{RZ29B}{SCSI_DISK}{RZ}
 **Sys-name: RZ29B
 **Desc-name: RZ29B 4.3GB SCSI-2 Disk
+**Def-lref{1} = ref{CU-1995-03-01}
+**Announcement**vref{1}: 1995-03-01
+!Capacity**vref{1}: 4290 MB
 **Capacity: 4.3GB
 **Form-factor: 3-1/2"
-**Interface: SCSI-2
+**Interface**vref{1}: SCSI-2
 **Peak-transfer-rate: 20.0MB/s:(synch)
 **Read-ahead-cache: 1024KB
-**Average-seek: 8ms
+**Average-seek**vref{1}: 8.0ms
 **Average-latency: 4.17ms
 **Head-type: Thin film
-**Rotational-speed: 7200rpm
+**Rotational-speed**vref{1}: 7200rpm
+**MTBF**vref{1}: 800,000 hr
 **Power-start{RZ29B}
 **Power: 12.0W:(idle)
 **Power-end{RZ29B}
