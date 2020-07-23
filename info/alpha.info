@@ -801,6 +801,7 @@
 **def-lref{3} = ref{CU-V5-11A}
 **Def-lref{4} = ref{SOC-JAN1995}
 **Def-lref{5} = ref{CU-1994-11-03}
+**Def-lref{6} = ref{CU-1995-05-01}
 !-- [1] has more data about physical size -->
 !-- [3] indicates 4/200 has integrated SVGA controller -->
 !-- [3] indicates memory options for 4/200:
@@ -809,6 +810,7 @@
 !	PB7MA-AC         64 MB RAM
 !	PB7MA-AD         128 MB RAM
 **Announcement**vref{5}: 1994-11-03
+**Last-order**vref{6}: Past
 **OS-support-vms**vref{5}: OpenVMS V6.1-1H2
 **OS-support-du**vref{5}: OSF/1 V3.0b
 **Num-proc**vref{4}: 1
@@ -831,19 +833,21 @@
 **def-lref{1} = ref{CU-V6-5A}
 **def-lref{2} = ref{CU-V6-10B}
 **def-lref{3} = ref{CU-V5-11A}
+**def-lref{4} = ref{CU-1995-05-01}
 !-- [1] has more data about physical size -->
-**Announcement**htref{1}: 1 May 1995
+**Announcement**vref{4}: 1995-05-01
+**FRS-date**vref{4}: 1995-05-01
 **OS-support-vms: OpenVMS V6.1-1H2
 **Num-proc**htref{1}: 1
-**CPU-clock**htref{1}: 233MHz
-**SPECint92**htref{1}: 165.3
-**SPECfp92**htref{1}: 222.9
-**TPC-A**htref{1}: 300:(e)
-**Maximum-memory**htref{1}: 512MB
-**Memory-checking**htref{1}: ECC
-**BUS-PCI**htref{1}: 2 slots
-**BUS-EISA**htref{1}: 7 slots
-**BUS-PCI-or-EISA**htref{1}: 1 slot
+**CPU-clock**vref{4}: 233MHz
+**SPECint92**vref{4}: 165.3
+**SPECfp92**vref{4}: 222.9
+**TPC-A**vref{4}: 300:(estimated)
+**Maximum-memory**vref{4}: 512MB
+**Memory-checking**vref{4}: ECC
+**BUS-PCI**vref{4}: 2 slots
+**BUS-EISA**vref{4}: 7 slots
+**BUS-PCI-or-EISA**vref{4}: 1 slot
 **End-systems-entry{AS1000-4-233}
 
 **Start-systems-entry{AS1000-4-266}{ALPHA}{AS1000}

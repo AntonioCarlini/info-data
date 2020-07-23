@@ -150,10 +150,12 @@
 **Def-lref{1} = ref{EK-OTX86-OM-001}
 **def-lref{2} = ref{CU-1992-07-15}
 **def-lref{3} = ref{CU-1992-07-20}
+**def-lref{4} = ref{CU-1995-05-01}
 **Sys-name: TF86
 **Desc-name: TF86 Tape Cartridge Subsystem
 **Announcement**vref{2}: 1992-07-15
 **FCS-date**vref{3}: 1992-07-30
+**Last-order**vref{4}: 1995-05-19
 **Capacity**htref{1}: 6.0GB
 **OS-support-VMS**htref{1}: V5.4-2
 ![1] Will read/write TK85 (2.6GB) and TK86 (6.0GB) both using CompacTape III media
@@ -1065,9 +1067,11 @@
 
 **Start-storage-entry{TKZ09}{SCSI_TAPE}{TKZ}
 **Def-lref{1} = ref{CU-1992-08-10}
+**Def-lref{2} = ref{CU-1995-06-01}
 **Sys-name: TKZ09
 **Desc-name: TKZ09 5GB 8mm Cartridge Tape Drive
 **FRS-date**vref{1}: 1992-08-10
+**Last-order**vref{2}: 1995-06-30
 **Capacity**vref{1}: 5GB
 **Peak-transfer-rate**vref{1}: 500KB/s
 **OEM-Device**vref{1}: Exabyte EXB-8500

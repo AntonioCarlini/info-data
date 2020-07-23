@@ -6,16 +6,20 @@
 
 **Start-storage-entry{EF51R}{DSSI}{SOLID}
 **Def-lref{1} = ref{CU-1992-11-23}
+**Def-lref{2} = ref{CU-1995-05-01}
 **Sys-name: EF51R
 **Desc-name: EF51R Solid State Disk
+**Last-order**vref{2}: 1995-06-30
 **Capacity**vref{1}: 107 MB
 **OS-support-VMS**vref{1}: V5.4-3
 **End-storage-entry{EF51R}
 
 **Start-storage-entry{EF52R}{DSSI}{SOLID}
 **Def-lref{1} = ref{CU-1992-11-23}
+**Def-lref{2} = ref{CU-1995-05-01}
 **Sys-name: EF52R
 **Desc-name: EF52R Solid State Disk
+**Last-order**vref{2}: 1995-06-30
 **Capacity**vref{1}: 205 MB
 **OS-support-VMS**vref{1}: V5.4-3
 **End-storage-entry{EF52R}
@@ -47,8 +51,10 @@
 **Sys-name: ESE50-A
 **Desc-name: ESE50 120MB/600MB/1GB Solid State Disk
 **Def-lref{1} = ref{CU-1992-05-15}
+**Def-lref{2} = ref{CU-1995-05-01}
 **Announcement**vref{1}: 1992-5-15
 **FRS-date**uref{*SUE Sep 1992}: May 1992
+**Last-order**vref{2}: 1995-06-30
 **Capacity**vref{1}: {120MB} {600MB} {1GB}
 **OS-support-VMS**uref{*142}: V5.5
 **OS-support-CRONIC**vref{1}: CRONIC V6.0
@@ -2007,7 +2013,9 @@
 **Desc-name: RZ25L 535MB SCSI Disk
 **Def-lref{1} = ref{EK-A0718-TI.B01}
 **Def-lref{2} = ref{{1993-08-02}
+**Def-lref{3} = ref{CU-1995-06-01}
 **Announcement**vref{2}: 1993-08-02
+**Last-order**vref{3}: 1995-06-15
 **OS-support-VMS**vref{2}: V5.5-2 (OpenVMS AXP V1.5)
 **OS-support-DU**vref{2}: OSF V1.2
 **OS-support-ULTRIX**vref{2}: V4.3A
@@ -2028,6 +2036,17 @@
 **Power**vref{2}: 10.8W:(seeking)
 **Power-end{RZ25L}
 **End-storage-entry{RZ25L}
+
+**Start-storage-entry{RZ25M}{SCSI_DISK}{RZ}
+**Sys-name: RZ25M
+**Desc-name: RZ25M 535MB SCSI Disk
+**Def-lref{1} = ref{CU-1995-06-01}
+**Announcement**vref{1}: 1995-06-01
+**Capacity**vref{1}: 535 MB
+**Form-factor**vref{1}: 
+**Rotational-speed**vref{1}: 4500 rpm
+**MTBF**vref{1}: 300000 hours
+**End-storage-entry{RZ25M}
 
 **Start-storage-entry{RZ26}{SCSI_DISK}{RZ}
 **Def-lref{1} = ref{EK-A0718-TI.B01}

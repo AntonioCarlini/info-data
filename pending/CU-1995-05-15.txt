@@ -1,0 +1,67 @@
+{CU-1995-05-15}
+
+STORAGEWORKS HSD10 DSSI TO SCSI-2 ARRAY CONTROLLER
+
+16 BIT SCSI STORAGEWORKS SERVER EXPANSION PEDESTAL  BA346-KB
+
+DECSWITCH 400 ETHERNET/ATM SWITCH
+
+RAPIDPRINT 200
+
+The RapidPrint 200 is a network interface box that directly replaces the 
+DECserver 250. Unlike the DECserver 250, it supports Alpha and Digital UNIX 
+(formerly called DEC OSF/1) platforms. It has two ports: one serial and one 
+parallel. Both ports can be active simultaneously.
+
+Product and Service Retirements
+Taken from EISNER.
+
+   PRODUCT/SERVICE                NOTES
+
+   ALL VAX SYSTEMS AND            The new VAX upgrades (see "VAX to VAX 
+   UPGRADES WITH OLD		  Upgrades" article in the April 1995 issue 
+   WARRANTY			  of Digital's Customer Update) and 
+                                  ADVANTAGE SERVER 
+   				  systems with the new three-year warranty 
+                                  (see articles on VAX 4000 Model 106A, 
+   				  VAXstation 4000 Model 96, and MicroVAX 
+                                  3100 Model 96 in the April 1995 issue of 
+                                  Digital's Customer Update) are replacing 
+                                  the corresponding older VAX products with 
+                                  the one-year warranty, except for the VAX 
+                                  7000 which carries a one-year warranty at 
+                                  list price. Note also that most Base 
+                                  Systems and some ADVANTAGE SERVERS with 
+                                  low memory content do not have a migration 
+                                  product.
+
+   				  As of July 1, 1995 -- one month prior to 
+                                  the last order date -- all of the retiring 
+                                  VAX systems and upgrades will increase in 
+                                  price by 10 percent in the U.S. In Europe, 
+                                  this increase was effective May 2, 1995,
+   				  and some older VAX to VAX upgrades have 
+                                  already been retired. The standard 
+                                  trade-in policy applies in Europe; 
+                                  standard system part numbers are used 
+                                  instead of special upgrade part numbers, 
+                                  with the exception of the SMP upgade part 
+                                  numbers.
+
+   				  Last Order Date: July 29, 1995 (for all 
+                                  older VAX systems and upgrades)
+  
+   Older products with old 	  Migration: Corresponding newer product
+   warranty: all VAX 7000 Model	  with new warranty (except as stated above)
+   700 ADVANTAGE SERVERS; VAX
+   7000 Model 600 ADVANTAGE
+   SERVERS; VAX 4000 Model 705A
+   SBBs and ADVANTAGE SERVERS;
+   VAX 4000 Model 505A SBBs and
+   ADVANTAGE SERVER; MicroVAX 3100
+   Model 85 Base Systems and
+   ADVANTAGE SERVER; MicroVAX
+   3100 Model 40 Base System
+   and ADVANTAGE SERVER; and all
+   older VAX TO VAX upgrades
+

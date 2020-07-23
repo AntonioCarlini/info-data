@@ -110,6 +110,7 @@
 **Def-lref{4} = ref{CU-V6-4A}
 **Def-lref{5} = ref{CU-V8-1B}
 **Def-lref{6} = ref{CU-1994-04-12}
+**Def-lref{7} = ref{CU-1995-05-15}
 **document=doc{DEC:EK-514AA-TI.B01} ! VAX 4000 Model 105A/106A Customer Technical Information
 **document=doc{DEC:EK-512AA-IN-B01} ! VAX 4000 Model 105A/106A Installation Information
 **document=doc{DEC:EK-513AA-OP-B01} ! VAX 4000 Model 105A/106A Operator Information
@@ -118,6 +119,7 @@
 **document=doc{DEC:EK-V4156-UP-A01} ! VAX 4000 Model 105A Upgrade to Model 106A
 ! This corroborated by web newspaper articles. uv3100-95 on the same day.
 **Announcement**vref{6}: 12 April 1994
+**Last-order**vref{7}: 1995-07-29
 **Html-target: vax410x
 **OS-support-VMS**vref{6}: VMS V5.5-2H4 and VMS V6.1 onwards
 **CPU-module**vref{1}: KA53-AA
@@ -4556,7 +4558,9 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Sys-name: VS4090A
 **Desc-name: VAXstation 4000 Model 90A
 **Def-lref{1} = ref{CU-1994-03-14}
+**Def-lref{2} = ref{CU-1995-05-15}
 **Announcement**vref{1}: 1994-03-14
+**Last-order**vref{2}: 1995-07-25
 **SPECmarks**vref{1}: 38.5
 **SPECint92**vref{1}: 19.5
 **SPECfp92**vref{1}: 37.2
@@ -4858,12 +4862,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{4} = ref{CU-V6-4A}
 **Def-lref{5} = ref{CU-V8-1B}
 **Def-lref{6} = ref{CU-1994-04-12}
+**Def-lref{7} = ref{CU-1995-05-15}
 **document=doc{DEC:EK-A0718-TI-C01} ! MicroVAX 3100 Model 85/95/96 Customer Technical Information
 **document=doc{DEC:EK-A0716-IN-C01} ! MicroVAX 3100 Model 85/95/96 Installation Information
 **document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
 **document=doc{DEC:EK-A0719-TM-C01} ! MicroVAX 3100 Model 85/95/96 Troubleshooting & Diagnostics Info
 **Announcement**vref{6}: 12 April 1994
-**Last-order**htref{4}: 29 July 1995
+**Last-order**vref{7}: 1995-07-29
 **Html-target: uv319x
 **OS-support-VMS**vref{6}: VMS V5.5-2H4, VMS V6.1 onwards
 **CPU-module**vref{2}: KA51
