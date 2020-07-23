@@ -353,10 +353,14 @@
 
 **Start-systems-entry{DST5133}{DECMIPS}{DS5100}
 **Def-lref{1} = ref{DECdirect-FEB92}
-**def-lref{2} = ref{CU-1991-12-20}
+**Def-lref{2} = ref{CU-1991-12-20}
+**Def-lref{3} = ref{CU-1995-09-15}
 **Sys-name: DECstation 5000 Model 133
 **Announcement**vref{2}: 1991-12-20
 **FCS-date**vref{2}: 1992-02
+**Last-order**vref{3}: 1995-12-31
+! vref{3} actually says Last Ship Date: March 31, 1995 but this must be a typo
+**Last-ship**vref{3}: 1996-03-31
 **Num-proc: 1
 **CPU-chip**vref{1}: R3000A
 **FPU-chip**vref{1}: R3010
@@ -419,9 +423,13 @@
 **Start-systems-entry{DST5240}{DECMIPS}{DS5200}
 **Def-lref{1} = ref{EK-PM38C-MG-002}
 **Def-lref{2} = ref{DECdirect-FEB92}
-**def-lref{3} = ref{CU-1991-12-20}
+**Def-lref{3} = ref{CU-1991-12-20}
+**Def-lref{4} = ref{CU-1995-09-15}
 ! [1]: MS02-AA MS02L-AB (8MB)   MS02-CA MS02-NV (NVRAM module) H7878A
 **Sys-name: DECstation 5000 Model 240
+**Last-order**vref{4}: 1995-12-31
+! vref{4} actually says Last Ship Date: March 31, 1995 but this must be a typo
+**Last-ship**vref{4}: 1996-03-31
 **Num-proc**vref{1}: 1
 **CPU-module**vref{1}: KN03-GA
 **Module**vref{1}: 54-20627-01

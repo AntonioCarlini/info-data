@@ -1,0 +1,58 @@
+{CU-1995-09-15} (presumed)
+
+CELEBRIS GL DESKTOP PCS FOR WINDOWS 95
+
+These systems feature both Low Profile (LP) Celebris GL 590, 5100, 5120, and 
+5133, and Short Tower (ST) Celebris GL 5100 ST, 5120 ST and 5133 ST 
+configurations. Digital pre-installs Windows 95 and Windows for Workgroups 
+3.11 on all hard drive models. This dual installation offers the user a 
+choice of operating systems. At initial boot, the user will choose one of 
+the two operating systems and the operating system not selected will be 
+deleted from the hard disk.
+
+
+VENTURIS 5133 PC WITH 133 MHZ PENTIUM PROCESSOR
+
+The Venturis 5133 slimline and full-profile desktop PCs are designed for the 
+most demanding corporate small to medium business, education, and government 
+environments. They also meets the performance requirements of the MIS 
+professional who needs to confidently acquire and deploy an 
+industry-standard desktop personal computer into an existing environment 
+with minimal technical support.
+
+
+
+PCI PRESTOSERVE NVRAM OPTION FOR DIGITAL UNIX
+
+BA362 AND BA364 STORAGEWORKS OFFICE ENCLOSURES
+
+PBXDI ISA/SYNCHRONOUS COMMUNICATIONS CONTROLLER
+
+DIGITAL MULTISTACK SYSTEM FOR STACKABLE ETHERNET HUBS
+
+PRODUCT AND SERVICE RETIREMENTS
+Taken from EISNER.
+
+PRODUCT/SERVICE                  NOTES
+                                 
+VAX 4000 MODEL 50 SYSTEMS        
+                                 
+2T-V405A-A*                      Last Order Date: Past
+                                 
+                                 Last Ship Date: September 29, 1995
+                                 
+                                 Migration: None
+                                 
+DECSYSTEM 5000 MODEL
+240, AND DECSYSTEM 5000 MODEL
+240 R4000 UPGRADES
+                                 
+PM338-3Y, PM339-S*, PM38U-*Y,    Last Order Date: December 31, 1995
+PM390-A*, PM399-C*, PM40U-*A,
+PM42U-*A, PM48U-*A, PM49U-BA,
+                                 
+                                 Last Ship Date: March 31, 1995
+                                 
+                                 Migration: AlphaStation family of
+                                 products
+                                 
