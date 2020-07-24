@@ -1521,11 +1521,14 @@
 **def-lref{3} = ref{EK-70TBA-T4.A01}
 **def-lref{4} = ref{CU-1992-07-15}
 **def-lref{5} = ref{CU-1995-01-15}
+**Def-lref{6} = ref{CU-1995-11-01}
 **document=doc{DEC:EK-KA7AA-TM-001} ! VAX 7000/10000 KA7AA CPU Technical Manual
 **Sys-name: VAX 7000-600
 **Desc-name: VAX 7000 Model 600 series
 **Announcement**vref{4}: 15 July 1992
-**Last-order**vref{5}: 1995-06-30
+!**Last-order**vref{5}: 1995-06-30
+**Last-order**vref{6}: 1995-03-30
+**Last-ship**vref{6}: 1995-06-29
 **Codename**uref{*102}: Laser/Neon
 **OS-support-VMS**uref{102}: VMS V5.5-2
 ! Flowchart has V5.5-2HW; V6.0 for 7650,7660
@@ -1610,7 +1613,8 @@
 **Desc-name: VAX 7000 Model 800 series
 **Def-lref{1} = ref{CU-V6-11A}
 **Def-lref{2} = ref{EK-70TBA-T4.A01}
-**Announcement**htref{1}: 1 November 1995
+**Def-lref{3} = ref{CU-1995-11-01}
+**Announcement**vref{3}: 1995-11-01
 ! ref{VAX-FINAL-LETTER-JESSIE_LIPCON}: already no supply
 **Codename: Xenon
 **OS-support-VMS: VMS V6.0
@@ -1624,7 +1628,7 @@
 **CPU-chip**vref{2}: NV5
 **Compatibility-mode: No
 **Console-processor: CPU
-**TPC-A**htref{1}: 375:(VAX 7000-810)
+**TPC-A**vref{3}: 375:(VAX 7000-810)
 ! VAX 7000-860 gt than 1200 tpsA
 **Minimum-memory: 128MB
 **Maximum-memory: 3.5GB

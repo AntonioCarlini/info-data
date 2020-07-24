@@ -1054,6 +1054,16 @@
 **Dimensions-end{TZ87}
 **End-storage-entry{TZ87}
 
+**Start-storage-entry{TZ88}{SCSI_TAPE}{TZ}
+**Sys-name: TZ88
+**Desc-name: TZ88 Digital Linear Tape Drive
+**Def-lref{1} = ref{CU-1995-11-15}
+**Announcement**vref{1}: 1995-11-15
+**Capacity**vref{1}: 20 GB (native)
+**Form-factor**vref{1}: 5.25"
+! vref{1}: Read/write compatibility with Tx85, Tx86, and Tx87
+**End-storage-entry{TZ88}
+
 **Start-storage-entry{TKZ08}{SCSI_TAPE}{TKZ}
 **Sys-name: TKZ08
 **Desc-name: TKZ08 2.3GB 8mm Cartridge Tape Drive

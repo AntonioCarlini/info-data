@@ -130,6 +130,16 @@
 **Dimensions-end{RRD44}
 **End-storage-entry{RRD44}
 
+**Start-storage-entry{RRD45}{SCSI}{RRD}
+**Sys-name: RRD45
+**Desc-name: RRD45 CD-ROM Drive
+**Def-lref{1} = ref{CU-1995-11-15}
+**Announcement**vref{1}: 1995-11-15
+**Capacity**vref{1}: 600 MB
+**Loading**vref{1}: Motorized Tray
+! vref{1}: 4x
+**End-storage-entry{RRD45}
+
 **Start-storage-entry{RRD46}{SCSI}{RRD}
 **Sys-name: RRD46
 **Desc-name: RRD46 CD-ROM Drive

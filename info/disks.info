@@ -2196,16 +2196,22 @@
 **Start-storage-entry{RZ28D}{SCSI_DISK}{RZ}
 **Sys-name: RZ28D
 **Desc-name: RZ28D 2.1GB SCSI-2 Disk
-**Capacity: 2.1GB
-**Form-factor: 3-1/2"
+**Def-lref{1} = ref{CU-1995-11-15}
+**Announcement**vref{1}: 1995-11-15
+**OS-support-vms**vref{1}: OpenVMS VAX V5.5-2, OpenVMS Alpha V6.1
+**OS-support-du**Vref{1}: V3.2
+**OS-support-nt**vref{1}: 3.5
+**Capacity**vref{1}: 2.1 GB
+**Form-factor**vref{1}: 3-1/2"
 **Interface: SCSI-2
 **Peak-transfer-rate: 10.0MB/s:(synch)
 **Read-ahead-cache: 512KB
-**Average-seek: 8ms
-**Average-latency: 4.17ms
+**Average-seek**vref{1}: 8.0 ms
+**Average-latency**vref{1}: 4.17 ms
 **Head-type: Thin Film
-**Rotational-speed: 7200rpm
+**Rotational-speed**vref{1}: 7200 rpm
 **Recording-mode: RLL
+**MTBF**vref{1}: 800000 hours
 **Power-start{RZ28D}
 **Power: 8.8W:(idle)
 **Power-end{RZ28D}
