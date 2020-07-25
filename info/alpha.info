@@ -462,12 +462,15 @@
 **Def-lref{6} = ref{CU-1994-07-18}
 **Def-lref{7} = ref{CU-1995-07-15}
 **Def-lref{8} = ref{CU-1995-10-15}
+**Def-lref{9} = ref{CU-1996-01-18}
 **Codename: Sandpiper45
 **Announcement**vref{6}: 18 July 1994
 **FRS-date**vref{6}: August 1994
 ! **Last-order**vref{7}: 1995-10-02 later extended!
-**Last-order**vref{8}: 1995-12-30
-**Last-ship**vref{8}: 1996-03-01
+!**Last-order**vref{8}: 1995-12-30
+**Last-order**vref{9}: 1996-03-30
+!**Last-ship**vref{8}: 1996-03-01
+**Last-ship**vref{9}: 1996-06-01
 **OS-support-vms**vref{6}: OpenVMS AXP V6.1
 **OS-support-du**vref{6}: DEC OSF/1 AXP V2.1
 **CPU-module: KN17-BB
@@ -555,11 +558,14 @@
 **Def-lref{6} = ref{CU-1994-07-18}
 **Def-lref{7} = ref{CU-1995-07-15}
 **Def-lref{8} = ref{CU-1995-10-15}
+**Def-lref{9} = ref{CU-1996-01-18}
 **Announcement**vref{6}: 1994-07-18
 **FRS-date**vref{6}: 1994-08
 ! **Last-order**vref{7}: 1995-10-02 later extended!
-**Last-order**vref{8}: 1995-12-30
-**Last-ship**vref{8}: 1996-03-01
+!**Last-order**vref{8}: 1995-12-30
+**Last-order**vref{9}: 1996-03-30
+!**Last-ship**vref{8}: 1996-03-01
+**Last-ship**vref{8}: 1996-06-01
 **OS-support-vms**vref{6}: OpenVMS AXP V6.1
 **OS-support-du**vref{6}: DEC OSF/1 AXP V2.1
 **Codename: Flamingo45
@@ -902,39 +908,41 @@
 
 **Start-systems-entry{AS1000A-4-233}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000A 4/233
-**def-lref{1} = ref{CU-V7-2A}
+**Def-lref{1} = ref{CU-V7-2A}
+**Def-lref{2} = ref{CU-1996-01-31}
 !-- [1]: integrated SVGA controller for both 4/233 and 4/266 -->
 !-- V7-3B 1-Mar-1996 gives Rackmount variant dimensions as: 10.50-inches high by 19-inches wide by 27 inches deep -->
-**Announcement**htref{1}: 1 February 1996
+**Announcement**vref{2}: 1996-01-31
 **FRS-date**htref{1}: March 1996
 **Num-proc: 1
-**CPU-clock**htref{1}: 233MHz
+**CPU-clock**vref{2}: 233MHz
 **Backup-cache**htref{1}: 2MB
-**Maximum-memory**htref{1}: 1GB
-**BUS-PCI**htref{1}: 7 slots @ 132MB/s
-**BUS-EISA**htref{1}: 2 slots @ 33MB/s
-**BUS-PCI-or-EISA**htref{1}: 1 slot
+**Maximum-memory**vref{2}: 1GB
+**BUS-PCI**vref{2}: 7 slots @ 132MB/s
+**BUS-EISA**vref{2}: 2 slots @ 33MB/s
+**BUS-PCI-or-EISA**htref{1}: 1 slots
 **BUS-SCSI**htref{1}: 1 FW
 **End-systems-entry{AS1000A-4-233}
 
 **Start-systems-entry{AS1000A-4-266}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000A 4/266
-**def-lref{1} = ref{CU-V7-2A}
-**def-lref{2} = ref{AS1000A-TECHSUM}
-**def-lref{3} = ref{SPEC-res-96q1}
+**Def-lref{1} = ref{CU-V7-2A}
+**Def-lref{2} = ref{AS1000A-TECHSUM}
+**Def-lref{3} = ref{SPEC-res-96q1}
+**Def-lref{4} = ref{CU-1996-01-31}
 !-- [1]: integrated SVGA controller for both 4/233 and 4/266 -->
 !-- V7-3B 1-Mar-1996 gives Rackmount variant dimensions as: 10.50-inches high by 19-inches wide by 27 inches deep -->
-**Announcement**htref{1}: 1 February 1996
+**Announcement**vref{4}: 1996-01-31a
 **OS-support-vms: OpenVMS V6.2-1H2
 **FRS-date**htref{1}: March 1996
 **Num-proc: 1
-**CPU-clock**htref{1}: 266MHz
+**CPU-clock**vref{4}: 266MHz
 **Backup-cache**htref{1}: 2MB
 **SPECint95**vref{3}: 4.34
 **SPECfp95**vref{3}: 6.03
-**Maximum-memory**htref{1}: 1GB
-**BUS-PCI**htref{1}: 7 slots @ 132MB/s
-**BUS-EISA**htref{1}: 2 slots @ 33MB/s
+**Maximum-memory**vref{4}: 1GB
+**BUS-PCI**vref{4}: 7 slots @ 132MB/s
+**BUS-EISA**vref{4}: 2 slots @ 33MB/s
 **BUS-PCI-or-EISA**htref{1}: 1 slot
 **BUS-SCSI**htref{1}: 1 FW
 **End-systems-entry{AS1000A-4-266}
@@ -1107,6 +1115,18 @@
 **Maximum-memory**vref{1}: 1 GB
 **End-systems-entry{AS2000-5-250}
 
+**Start-systems-entry{AS2000-5-300}{ALPHA}{ALPHASERVER}
+**Def-lref{1} = ref{CU-1996-01-31}
+**Sys-name: AS2000-5/300
+**Desc-name: AlphaServer 2000 5/300
+**Announcement**vref{1}: 1996-01-31
+**OS-support-vms**vref{1}: OpenVMS V6.2
+**OS-support-du**vref{1}: Digital UNIX V3.2B
+**OS-support-nt**vref{1}: Windows NT Server V3.51
+**CPU-clock**vref{1}: 291 MHz
+**CPU-chip**vref{1}: DECchip 21164
+**End-systems-entry{AS2000-5-300}
+
 **Start-systems-entry{AS2000-5-375}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2000 5/375
 **Def-lref{1} = ref{SPEC-res-96q4}
@@ -1203,10 +1223,18 @@
 **End-systems-entry{AS2100-5-250}
 
 **Start-systems-entry{AS2100-5-300}{ALPHA}{ALPHASERVER}
-**Sys-name: AlphaServer 2100 5/300
+**Sys-name: AS2100-5/300
+**Desc-name: AlphaServer 2100 5/300
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{SPEC-res-9512}
+**Def-lref{3} = ref{CU-1996-01-31}
+**Announcement**vref{3}: {CU-1996-01-31}
+**OS-support-vms**vref{3}: OpenVMS V6.2
+**OS-support-du**vref{3}: Digital UNIX V3.2B
+**OS-support-nt**vref{3}: Windows NT Server V3.51
+! **CPU-clock**vref{3}: 291 MHz
 **CPU-clock: 300MHz
+**CPU-chip**vref{3}: DECchip 21164
 **SPECint95**vref{2}: 7.03
 **SPECfp95**vref{2}:  9.64
 **End-systems-entry{AS2100-5-300}
@@ -1214,17 +1242,32 @@
 **Start-systems-entry{AS2100A-4-275}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2100A 4/275	
 **OS-support-vms: OpenVMS V6.2-1H2
+**Def-lref{1} = ref{CU-1996-01-31}
+**Announcement**vref{1}: 1996-01-31
+**Num-proc**vref{1}: 1-4
+**Minimum-memory**vref{1}: 128 MB
+**Maximum-memory**vref{1}: 2 GB
 **End-systems-entry{AS2100A-4-275}
 
 **Start-systems-entry{AS2100A-5-250}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2100A 5/250	
 **OS-support-vms: OpenVMS V6.2-1H2
+**Def-lref{1} = ref{CU-1996-01-31}
+**Announcement**vref{1}: 1996-01-31
+**Num-proc**vref{1}: 1-4
+**Minimum-memory**vref{1}: 128 MB
+**Maximum-memory**vref{1}: 2 GB
 **End-systems-entry{AS2100A-5-250}
 
 **Start-systems-entry{AS2100A-5-300}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2100A 5/300
 **OS-support-vms: OpenVMS V6.2-1H2
 **Def-lref{1} = ref{SPEC-res-96q2}
+**Def-lref{2} = ref{CU-1996-01-31}
+**Announcement**vref{2}: 1996-01-31
+**Num-proc**vref{2}: 1-4
+**Minimum-memory**vref{2}: 128 MB
+**Maximum-memory**vref{2}: 2 GB
 **SPECint95**vref{1}: 8.02 (1-CPU)
 **SPECfp95**vref{1}: 13.9 (2-CPU) 19.4 (4-CPU)
 **End-systems-entry{AS2100A-5-300}
@@ -1351,6 +1394,8 @@
 **OS-support-vms: OpenVMS V6.2
 **Def-lref{1} = ref{SPEC-res-96q1}
 **Def-lref{2} = ref{SPEC-res-96q2}
+**Def-lref{3} = ref{CU-1996-01-31}
+**Announcement**vref{3}: 1996-01-31
 **SPECint95**vref{1}: 10.1
 **SPECfp95**vref{1}: 14.2
 !**SPECfp95**vref{2} 20.3 (2-CPU) 27.9 (4-CPU) 31.4 (6-CPU)
@@ -1413,6 +1458,8 @@
 **Sys-name: AlphaServer 8400 5/350
 **OS-support-vms: OpenVMS V6.2
 **Def-lref{1} = ref{SPEC-res-96q1}
+**Def-lref{2} = ref{CU-1996-01-31}
+**Announcement**vref{2}: 1996-01-31
 **SPECint95**vref{1}: 10.1
 **SPECfp95**vref{1}: 14.2 (1-CPU) 38.5 (8-CPU)
 **End-systems-entry{AS8400-5-350}
@@ -1723,7 +1770,10 @@
 **Def-lref{6} = ref{SPEC-res-9509}
 **Def-lref{7} = ref{SPEC-res-96q3}
 **Def-lref{8} = ref{CU-1994-11-03}
+**Def-lref{9} = ref{CU-1996-01-31}
 **Announcement**vref{8}: 1994-11-03
+**Last-order**vref{5}: 1995-12-30
+**Last-ship**vref{5}: 1996-06-30
 **OS-support-vms**vref{8}: OpenVMS V6.1-1H1
 **OS-support-DU**vref{8}: OSF/1 V3.0
 **OS-support-NT**vref{8}: V3.5
@@ -1794,9 +1844,12 @@
 **Def-lref{2} = ref{SPEC-res-9509}
 **Def-lref{3} = ref{SPEC-res-96q3}
 **Def-lref{4} = ref{CU-1995-04-11}
+**Def-lref{5} = ref{CU-1996-01-31}
 **Sys-name: AlphaStation 250 4/266
 **Announcement**vref{4}: 1995-04-11
 **FRS-date**vref{4}: 1995-04-11
+**Last-order**vref{5}: 1995-12-30
+**Last-ship**vref{5}: 1996-06-30
 **OS-support-vms**vref{4}: OpenVMS V6.1-1H2
 ! Flowchart has V6.1-1H1
 **OS-support-du**vref{4}: Digital UNIX V3.2

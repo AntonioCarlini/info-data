@@ -719,11 +719,14 @@
 **def-lref{6} = ref{CU-V5-8B}
 **def-lref{7} = ref{4500-6600-PERF-SUMM}
 **Def-lref{8} = ref{CU-1994-08-15}
+**Def-lref{9} = ref{CU-1996-01-31}
 ! The 4000-600A seems to be the same CPU (but there is a different box lable mentioned in EK-508AB-IPB)
 **Sys-name: VAX 4000-505A
 **Desc-name: VAX 4000 Model 505A
 **Html-target: vax450x
 **Announcement**vref{8}: 1994-08-15
+**Last-order**vref{9}: 1996-06-30
+**Last-ship**vref{9}: 1996-09-30
 **OS-support-VMS**vref{3}: V5.5-2H4, VMS V6.1 or later
 **OS-support-MDM**vref{3}: Release 139
 !**CPU-module**vref{2}: KA691
@@ -2742,6 +2745,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{3} = ref{EC-N0626-51}
 **Def-lref{4} = ref{DECdirect-FEB92}
 **def-lref{5} = ref{CU-1991-10-30}
+**Def-lref{6} = ref{CU-1996-01-31}
 **document=doc{DEC:EK-PMARI-OM-A02} ! VAXstation 4000 Model 60 Owner's Guide and Manual
 **document=doc{DEC:EK-VX690-UP-A01} ! VAXstation 4000 Model 60 to VAXstation 4000 Model 90 Upgrade Guide
 **document=doc{DEC:VS TCA} ! VAXstation 4000 Model 60/90 TURBOchannel Bus Adapter Specification
@@ -2757,6 +2761,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Sys-name: VAXstation 4000-60
 **Desc-name: VAXstation 4000 Model 60
 **Announcement**vref{5}: 30 October 1991
+**Last-order**vref{6}: 1996-03-30
+**Last-ship**vref{6}: 1996-06-30
 **Codename**uref{*2}: Pmariah
 **OS-support-VMS**vref{5}: V5.5
 **CPU-module**vref{1}: KA46
