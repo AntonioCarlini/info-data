@@ -1015,11 +1015,14 @@
 **Def-lref{2} = ref{TZ87-TECH}
 **Def-lref{3} = ref{EK-TZ877-SM.A01}
 **Def-lref{4} = ref{CU-1993-12-06}
+**Def-lref{5} = ref{CU-1996-05-29}
 !**Document-ref: EK-OTZ87-OM.A01
 !**Document-ref: EK-OTZ87-RC
 **Sys-name: TZ87
 **Desc-name: TZ87 Tape Cartridge
 **Announcement**vref{4}: 1993-12-06
+**Last-order**vref{5}: 1996-08-31
+**Last-ship**vref{5}: 1996-12-31
 **Capacity**vref{4}: 10GB
 **Form-factor**lref{2}: 5-1/4" full-height
 **OS-support-vms**lref{1}: VMS V5.3
