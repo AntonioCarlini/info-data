@@ -1622,7 +1622,10 @@
 **def-lref{1} = ref{CU-V6-10}
 **def-lref{2} = ref{EK-ALXLA-UG.D01}
 **def-lref{3} = ref{CU-1995-10-01}
+**Def-lref{4} = ref{CU-1996-03-14}
 **Announcement**vref{3}: 1995-10-01
+**Last-order**vref{4}: 1996-03-22
+**Last-ship**vref{4}: 1996-04-26
 **OS-support-nt**vref{3}: Windows NT V3.51
 **Num-proc: 1
 **Backup-cache**htref{1}: 512KB
@@ -1721,7 +1724,10 @@
 **Def-lref{5} = ref{SPEC-res-9509}
 **Def-lref{6} = ref{SPEC-res-96q3}
 **Def-lref{7} = ref{CU-1995-03-01}
+**Def-lref{8} = ref{CU-1996-03-14}
 **Announcement**vref{7}: 1995-03-01
+**Last-order**vref{8}: 1996-04-30
+**Last-ship**vref{8}: 1996-06-01
 ! Flowchart has V6.1-1H1
 **OS-support-vms**vref{7}: OpenVMS V6.1-1H2
 **OS-support-du**vref{7}: DEC OSF/1 V3.2
@@ -1811,7 +1817,10 @@
 **Def-lref{6} = ref{SPEC-res-9509}
 **Def-lref{7} = ref{SPEC-res-96q3}
 **Def-lref{8} = ref{CU-1994-11-03}
+**Def-lref{9} = ref{CU-1996-03-14}
 **Announcement**vref{8}: 1994-11-03
+**Last-order**vref{9}: 1996-04-30
+**Last-ship**vref{9}: 1996-06-01
 **OS-support-vms**vref{8}: OpenVMS V6.1-1H1
 **OS-support-DU**vref{8}: OSF/1 V3.0
 **OS-support-NT**vref{8}: V3.5
@@ -1889,22 +1898,23 @@
 **Sys-name: AlphaStation 255/233
 **Def-lref{1} = ref{CU-V7-3B}
 **Def-lref{2} = ref{SPEC-res-96q3}
-**Announcement**htref{1}: 15 March 1996
+**Def-lref{3} = ref{CU-1996-03-14}
+**Announcement**vref{3}: 1996-03-12
 **OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
 ! Flowchart has V6.2-1H2
 **OS-support-du**htref{1}: Digital UNIX V3.2D
 **OS-support-nt**htref{1}: Windows NT V3.51
 **Num-proc: 1
 **CPU-chip**htref{1}: DECchip 21064A
-**CPU-clock**htref{1}: 233MHz
-**Backup-cache**htref{1}: 1MB
-**SPECint92**htref{1}: 180
-**SPECfp92**htref{1}: 210
-!**SPECint95**htref{1}: 3.80
-!**SPECfp95**htref{1}: 5.09
+**CPU-clock**vref{3}: 233MHz
+**Backup-cache**vref{3}: 1MB
+**SPECint92**vref{3}: 180
+**SPECfp92**vref{3}: 210
+!**SPECint95**vref{3}: 3.80
+!**SPECfp95**vref{3}: 5.09
 **SPECint95**vref{2}: 4.27
 **SPECfp95**vref{2}: 5.09
-**Minimum-memory**htref{1}: 32MB
+**Minimum-memory**vref{3}: 32MB
 **Maximum-memory**htref{1}: 512MB
 **BUS-PCI**htref{1}: 2 slots @ 132MB/s
 **BUS-ISA**htref{1}: 1 slot
@@ -1924,22 +1934,23 @@
 **Sys-name: AlphaStation 255/300
 **Def-lref{1} = ref{CU-V7-3B}
 **Def-lref{2} = ref{SPEC-res-96q3}
-**Announcement**htref{1}: 15 March 1996
+**Def-lref{3} = ref{CU-1996-03-14}
+**Announcement**vref{3}: 1996-03-12
 **OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
 ! Flowchart has V6.2-1H2
 **OS-support-du**htref{1}: Digital UNIX V3.2D
 **OS-support-nt**htref{1}: Windows NT V3.51
 **Num-proc: 1
 **CPU-chip**htref{1}: DECchip 21064A
-**CPU-clock**htref{1}: 300MHz
-**Backup-cache**htref{1}: 1MB
-**SPECint92**htref{1}: 215
-**SPECfp92**htref{1}: 245
-!**SPECint95**htref{1}: 4.51
-!**SPECfp95**htref{1}: 5.71
+**CPU-clock**vref{3}: 300MHz
+**Backup-cache**vref{3}: 1MB
+**SPECint92**vref{3}: 215
+**SPECfp92**vref{3}: 245
+!**SPECint95**vref{3}: 4.51
+!**SPECfp95**vref{3}: 5.71
 **SPECint95**vref{2}: 5.23
 **SPECfp95**vref{2}: 5.81
-**Minimum-memory**htref{1}: 32MB
+**Minimum-memory**vref{3}: 32MB
 **Maximum-memory**htref{1}: 1GB
 **BUS-PCI**htref{1}: 2 slots @ 132MB/s
 **BUS-ISA**htref{1}: 1 slot
@@ -1960,7 +1971,10 @@
 **Def-lref{1} = ref{CU-V6-3A}
 **Def-lref{2} = ref{CU-V5-11A}
 **Def-lref{3} = ref{CU-1994-11-03}
+**Def-lref{4} = ref{CU-1996-03-14}
 **Announcement**vref{3}: 1994-11-03
+**Last-order**vref{4}: 1996-04-30
+**Last-ship**vref{4}: 1996-06-01
 **OS-support-vms**htref{3}: OpenVMS AXP V6.1-1H1
 **OS-support-du**htref{3}: DEC OSF/1 V3.0
 **OS-support-nt**htref{3}: Windows NT V3.5
@@ -1982,6 +1996,9 @@
 
 **Start-systems-entry{AST-400-266}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 400 4/266	
+**Def-lref{1} = ref{CU-1996-03-14}
+**Last-order**vref{1}: 1996-04-30
+**Last-ship**vref{1}: 1996-06-01
 **OS-support-vms: OpenVMS V6.1-1H1
 **End-systems-entry{AST-400-266}
 
@@ -1989,22 +2006,23 @@
 **Sys-name: AlphaStation 500/266
 **Def-lref{1} = ref{CU-V7-3B}
 **Def-lref{2} = ref{SPEC-res-96q3}
-**Announcement**htref{1}: 15 March 1996
+**Def-lref{3} = ref{CU-1996-03-14}
+**Announcement**vref{3}: 1996-03-12
 **OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
 **OS-support-du**htref{1}: Digital UNIX V3.2D
 **OS-support-nt**htref{1}: Windows NT V3.51
 **Num-proc: 1
-**CPU-chip**htref{1}: DECchip 21164
-**CPU-clock**htref{1}: 266MHz
+**CPU-chip**vref{3}: DECchip 21164
+**CPU-clock**vref{3}: 266MHz
 **Cache**htref{1}: 8KB-I/8KB-D
 **Primary-cache**htref{1}: 96KB
-**Backup-cache**htref{1}: 2MB
+**Backup-cache**vref{3}: 2MB
 **SPECint95**vref{2}: 7.93
 **SPECfp95**vref{2}: 11.1
 **Minimum-memory**htref{1}: 32MB
 **Maximum-memory**htref{1}: 512MB
 **Memory-checking**htref{1}: ECC
-**BUS-PCI**htref{1}: 4 slots
+**BUS-PCI**vref{3}: 4 slots
 **BUS-SCSI**htref{1}: 1 @ 10MB/s
 **LAN-support**htref{1}: 1 (10BASE-T/10BASE2)
 **Option-title: Graphics controllers
@@ -2018,23 +2036,24 @@
 **Sys-name: AlphaStation 500/333
 **Def-lref{1} = ref{CU-V7-3B}
 **def-lref{2} = ref{SPEC-res-96q2}
-**Announcement**htref{1}: 15 March 1996
+**Def-lref{3} = ref{CU-1996-03-14}
+**Announcement**vref{3}: 1996-03-12
 **OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
 ! Flowchart has V6.2-1H3
 **OS-support-du**htref{1}: Digital UNIX V3.2D
 **OS-support-nt**htref{1}: Windows NT V3.51
 **Num-proc: 1
-**CPU-chip**htref{1}: DECchip 21164
-**CPU-clock**htref{1}: 333MHz
+**CPU-chip**vref{3}: DECchip 21164
+**CPU-clock**vref{3}: 333MHz
 **Cache**htref{1}: 8KB-I/8KB-D
 **Primary-cache**htref{1}: 96KB
-**Backup-cache**htref{1}: 2MB
+**Backup-cache**vref{3}: 2MB
 **SPECint95**vref{2}: 9.82
 **SPECfp95**vref{2}: 12.5
 **Minimum-memory**htref{1}: 32MB
 **Maximum-memory**htref{1}: 512MB
 **Memory-checking**htref{1}: ECC
-**BUS-PCI**htref{1}: 4 slots
+**BUS-PCI**vref{3}: 4 slots
 **BUS-SCSI**htref{1}: 1 @ 10MB/s
 **LAN-support**htref{1}: 1 (10BASE-T/10BASE2)
 **Option-title: Graphics controllers
@@ -2111,6 +2130,8 @@
 **OS-support-vms: OpenVMS V6.2-1H3
 **Def-lref{1} = ref{SPEC-res-96q1}
 **Def-lref{2} = ref{SPEC-res-96q2}
+**Def-lref{3} = ref{CU-1996-02-27}
+**Announcement**vref{3}: 1996-02-27
 **SPECint95**vref{1}: 9.23 Specfp95 13.2
 !**SPECint95**vref{2}: 9.78 **Specfp95**vref{2}: 13.4 **double check against the above
 **End-systems-entry{AST600-5-333}
