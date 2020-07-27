@@ -26,6 +26,7 @@
 **Def-lref{9} = ref{Product-and-Service-Retirements-1995-02-07}
 **Def-lref{10} = ref{CU-1994-12-15}
 **Def-lref{11} = ref{CU-1995-02-01}
+**Def-lref{12} = ref{SUE-1994-06}
 **Codename: Jensen
 **OS-support-VMS: V1.5-1H1
 **OS-support-NT**vref{8}: 3.1
@@ -48,7 +49,9 @@
 **TPC-A**vref{7}: 110
 **Minimum-memory**vref{1,3}: 16MB
 ! vref{7} gives 256MB
-**Maximum-memory**vref{1,3}: 128MB
+!**Maximum-memory**vref{1,3}: 128MB
+! vref{12} says max mem *increased*
+**Maximum-memory**vref{12}: 256 MB
 ! 256MB : Digital WWW 
 **Memory-checking**vref{5}: Longword parity
 **Max-I/O-throughput**vref{7}: 33MB/s

@@ -1,0 +1,27 @@
+{SUE-1994-06}
+
+DECpc 433SXLPx+, DECpc 433DXLPx+, DECpc 450D2LPx+, DECpc 466D2LPx+, DECpc 4100LPx+, DECpc 450S2LPx+
+
+DECpc XL 590
+DECpc XL 4100
+
+DECpc MTE 4100
+
+DECpc XL Server 590
+DECpc XL Server 4100
+
+
+TZ875 100GB DLT Mini-Library
+
+
+Embedded HSD05
+
+RWZ52 1.2 GB Multifunctional Optical Drive
+
+
+KFMSB DSSI Adapter
+
+DEClaser 1800 Laser Printer (LN11)
+
+Retirements
+uV 3100-90 

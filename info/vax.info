@@ -3415,6 +3415,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Announcement**vref{3}: 15 July 1992
 **FCS-date**vref{3}: Late September 1992
 **Last-order**vref{5}: 1994-06-30
+! {SUE-1994-06} has Last-ship: 1994-09-30
 **Last-ship**vref{5}: 1994-08-30
 **Codename: Cheetah-W
 **OS-support-VMS**vref{4}: V5.5-2HW

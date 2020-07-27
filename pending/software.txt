@@ -1484,3 +1484,29 @@ DIGITAL REMOTE ACCESS SECURITY V1.0
 
 STORAGE LIBRARY SYSTEM V2.7 FOR OPENVMS
 
+{SUE-1994-06}
+
+OSMS V.32
+
+DECmodel for Windows V1.1
+
+DECforms Development Subset V1.4 for OpenVMS AXP
+
+FTSV V3.0
+
+Virtual Notebook System V3.1
+
+RoamAbout V2.0
+
+PATHWORKS V5.0A for DOS and Windows
+PATHWORKS V5.0A for OpenVMS
+PATHWORKS V4.1 for OS/2
+PATHWORKS V5.0A for OS/2
+
+
+DCE for OpenVMS V1.2
+
+TSM V2.1
+
+DEC C++ V1.3A for DEC OSF/1 AXP
+

@@ -1071,11 +1071,12 @@
 **Sys-name: TKZ08
 **Desc-name: TKZ08 2.3GB 8mm Cartridge Tape Drive
 **Def-lref{1} = ref{CU-1994-06-06}
+**Def-lref{2} = ref{SUE-1994-06}
 ! ?? is this TKZ08 or TZK08 ?? -->
 **Capacity**uref{SUE Aug 1992}: 2.2GB
 **FRS-date**uref{SUE Aug 1992 Iss 1}: May 1991
-**Last-order**vref{1}: 1994-06-06
-**Last-ship**vref{1}: 1994-06-06
+**Last-order**vref{2}: 1994-05-06
+**Last-ship**vref{2}: 1994-05-27
 **End-storage-entry{TKZ08}
 
 **Start-storage-entry{TKZ09}{SCSI_TAPE}{TKZ}
