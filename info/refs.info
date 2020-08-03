@@ -1637,6 +1637,12 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-partno: EK-RRD42-OM-002
 **End-ref{EK-RRD42-OM-002}
 
+**Start-ref{EK–RRDCD–IN.A01}
+**Ref-text: RRD43 CD-ROM Disc Drive Information for VAX 4000 Model 100 Systems
+**Ref-partno: EK–RRDCD–IN.A01
+**Ref-processed: Yes
+**End-ref{EK–RRDCD–IN.A01}
+
 **Start-ref{EK-V1000-UG-001}
 **Ref-text: Installing and Using The VT1000 Video Terminal
 **Ref-partno: EK-V1000-UG-001

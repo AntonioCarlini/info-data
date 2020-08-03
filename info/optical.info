@@ -67,14 +67,15 @@
 **Desc-name: RRD43 CD-ROM Drive
 **Def-lref{1} = ref{EK-RRD43-IN.A02}
 **Def-lref{2} = ref{CU-1994-03-14}
+**Def-lref{3} = ref{EK–RRDCD–IN.A01}
 **Announcement**vref{2}: 1994-03-14
 **OS-support-VMS**vref{2}: VMS V6.0 and OpenVMS AXP V1.5
 **OS-support-DU**vref{2}: OSF/1 AXP V1.3 and V2.0
 ! vref{2} says Support for ULTRIX V4.4 is scheduled for early April 1994.
 **Capacity**vref{2}: 600MB
-**Average-transfer-rate**lref{1}: 300KB/s
+**Average-transfer-rate**vref{3}: {1X: 150 KB/s}  {2X: 300 KB/s}
 **Peak-transfer-rate**lref{1}: 4.2MB/s
-**Average-access**vref{2}: 320ms
+**Average-access**vref{2,3}: 320ms
 **Read-ahead-cache**vref{2}: 64 KB
 **Loading**vref{2}: Tray
 **Start-time**lref{1}: 2.7s

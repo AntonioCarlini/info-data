@@ -2856,7 +2856,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Minimum-memory**vref{1}: 8MB
 **On-board-memory**vref{1}: 0MB
 **Maximum-memory**vref{1}: 24MB
-!	[1]: 
+!	vref{1}: 
 !	SIMMs required in pairs, max of 3 pairs, only 4MB SIMMs available 
 !	MS40-AA SIMMs only allowed
 **BUS-SCSI**vref{1}: 1
