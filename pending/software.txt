@@ -1510,3 +1510,75 @@ TSM V2.1
 
 DEC C++ V1.3A for DEC OSF/1 AXP
 
+{SUE-1994-12}
+
+PATHWORKS V5.0 for OS/2
+
+TeMIP V2.0 for DEC OSF/1
+
+DECnet/OSI V3.0 for DEC/OSF/1
+
+DEC SNA Domain Gateway V2.0
+
+X.25 V1.1 for DEC OSF/1
+
+SLS V2.4a
+
+DEC ACB V2.2 for OpenVMS
+
+DEC VTX V2.1
+
+DEC C V4.1 for OpenVMS AXP
+
+{SUE-1994-09}
+
+ALL-IN-1 V3.1 for OpenVMS
+
+TeamLinks V2.1 for Windows and Macintosh
+
+TeamRoute for ALL-IN-1 V1.2
+
+Mailbus 400 Message Router (XMR) Gateway
+
+PATHWORKS V5.1 for DOS and Windows
+PATHWORKS Remote V5.1 for DOS and Windows
+
+DEC TCP/IP Services V3.2 for OpenVMS
+
+DECnet/OSI V5.8 for OpenVMS
+
+DEC V1.1 for WNT
+
+DCE V1.3
+
+POLYCENTER NetWorker Save and restore V3.0 for DEC OSF/1 AXP
+
+{SUE-1994-09}
+
+
+LinkWorks V2.1
+
+OpenVMS MAnagement Station V1.0
+
+HUBwatch V3.1
+
+DNAS V1.4
+
+VAX 2780/3780 PE V1.8
+
+DEC Fortran V3.5 for DEC OSF/1 AXP
+
+DEC Fortran 90 V3.5 for DEC OSF/1 AXP
+
+DEC Ada V3.2 for DEC OSF/1 AXP
+
+DEC SoftWindows V1.0
+
+Jabberwocky Toolkit V2.0
+
+SLS V2.4 for OpenVMS
+
+
+
+
+

@@ -385,6 +385,22 @@
 ! ref_1: 100-120V 220-240V 47-63Hz 150W max power consumption -->
 **End-monitors-entry{VRC16}
 
+**Start-monitors-entry{VRC20}{MONITOR}{VRC}
+**Sys-name: VRC20 20" Colour Monitor
+**Def-lref{1} = ref{SUE-1994-12}
+**Announcement**vref{1}: 1994-11
+! vref{1}: Shadow Mask, auto sync, picture 340mmx270mm
+**Screen-size**vref{1}: 1280 x 1024 pixels
+**H-frequency**vref{1}: 20 - 82 kHz
+**V-frequency**vref{1}: 50 - 80 Hz non-interlaced
+**Dimensions-start{VRC20}
+**Height**htref{1}: 450 mm
+**Width**htref{1}: 480 mm
+**Depth**htref{1}: 480 mm
+**Weight**htref{1}: 30 kg
+**Dimensions-end{VRC20}
+**End-monitors-entry{VRC20}
+
 **Start-monitors-entry{VRT16}{MONITOR}{VRT}
 **Sys-name: VRT16 17" Colour Monitor
 **Def-lref{1} = ref{EK-PM32C-OG-002}

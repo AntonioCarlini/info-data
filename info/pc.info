@@ -1,5 +1,6 @@
 **Start-systems-entry{LPvplus-4100}{DECPC}{PC433WS}
 **Def-lref{1} = ref{SUE-1994-06}
+**Sys-name: LPvPlus-4100
 **Desc-name: DECpc LPv+ 4100
 **Announcement**vref{1}: 1994-06
 !vref{1}: 3.5" x 16.1" x 15.6"
@@ -7,6 +8,7 @@
 
 **Start-systems-entry{LPvplus-450s2}{DECPC}{PC433WS}
 **Def-lref{1} = ref{SUE-1994-06}
+**Sys-name: LPvPlus-450s2
 **Desc-name: DECpc LPv+ 450s2
 **Announcement**vref{1}: 1994-06
 !vref{1}: 3.5" x 16.1" x 15.6"
