@@ -2746,6 +2746,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{4} = ref{DECdirect-FEB92}
 **def-lref{5} = ref{CU-1991-10-30}
 **Def-lref{6} = ref{CU-1996-01-31}
+**def-lref{7} = ref{EK-PMARI-OM-A02}
 **document=doc{DEC:EK-PMARI-OM-A02} ! VAXstation 4000 Model 60 Owner's Guide and Manual
 **document=doc{DEC:EK-VX690-UP-A01} ! VAXstation 4000 Model 60 to VAXstation 4000 Model 90 Upgrade Guide
 **document=doc{DEC:VS TCA} ! VAXstation 4000 Model 60/90 TURBOchannel Bus Adapter Specification
@@ -2768,7 +2769,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **CPU-module**vref{1}: KA46
 **Firmware-version**uref{personally verified}: V1.2
 **CPU-name-VMS**uref{*105}: KA46
-**CPU-name-console**uref{*105}: KA46-A
+**CPU-name-console**vref{7}: KA46-A
 **VMS-CPU: 18
 **VMS-XCPU: 4
 **SID: 12000003
