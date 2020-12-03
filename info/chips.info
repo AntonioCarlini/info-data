@@ -10,18 +10,21 @@
 
 **Start-chips-entry{DC003}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Def-lref{2} = ref{EK-DHV11-TM-001}
 **Part-number**vref{1}: DC003
 **Desc-name**vref{1}: Dual-interrupt Circuit
 **End-chips-entry{DC003}
 
 **Start-chips-entry{DC004}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Def-lref{2} = ref{EK-DHV11-TM-001}
 **Part-number**vref{1}: DC004
 **Desc-name**vref{1}: Register Selector (Protocol) Logic
 **End-chips-entry{DC004}
 
 **Start-chips-entry{DC005}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Def-lref{2} = ref{EK-DHV11-TM-001}
 **Part-number**vref{1}: DC005
 **Desc-name**vref{1}: 4-bit Transceiver
 **End-chips-entry{DC005}
@@ -34,12 +37,14 @@
 
 **Start-chips-entry{DC010}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Def-lref{2} = ref{EK-DHV11-TM-001}
 **Part-number**vref{1}: DC010
 **Desc-name**vref{1}: Direct Memroy Access
 **End-chips-entry{DC010}
 
 **Start-chips-entry{DC013}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Def-lref{2} = ref{EK-DHU11-TM-001}
 **Part-number**vref{1}: DC013
 **Desc-name**vref{1}: UNIBUS Request Logic
 **End-chips-entry{DC013}
@@ -308,6 +313,11 @@
 **Part-number**vref{1}: 78584-GA
 **Desc-name**vref{1}: Dynamic RAM Controller (DYRC)
 **End-chips-entry{DC5003}
+
+**Start-chips-entry{DC7044C}{CHIP}{GENERAL}
+**Def-lref{1} = ref{EK-DHQ11-TM-002}
+**Desc-name**vref{1}: OCTART
+**End-chips-entry{DC7044C}
 
 ! **Def-lref{3} = ref{EC-H2315-46}
 ! has 20164 data in appendix B
