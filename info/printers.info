@@ -1,3 +1,17 @@
+! DECwriter 100i: https://groups.google.com/forum/#!topic/biz.digital.articles/HEqwaA6rZM0
+! DECwriter 195: https://groups.google.com/forum/#!topic/biz.digital.articles/3dR5QZGJejg
+! LP29-QA 2000 LPM Printer: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.35
+! LA100-CA and LA100-CB retirement: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.42
+! LA310 MultiPrinter: https://groups.google.com/forum/#!topic/biz.dec/d_ATnX5JWvc
+! LA600 MultiPrinter: https://groups.google.com/forum/#!topic/biz.dec/zCq1fCSUUi0
+! LA65 DECwriter: https://groups.google.com/forum/#!topic/biz.dec.decnews/KpXVqGkqeBc
+! LG04plus: https://groups.google.com/forum/#!topic/biz.digital.articles/91DCd9SMnpY
+!  LJ250/LJ252: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.4
+! LN03X-DE Bar Code Font Cartridge: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=160.0
+! LP37 Impact Printer: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=328.*&f4=t
+! LPV11-SA Printer Controller: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.19
+
+
 **Start-printers-entry{DCL1100}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-DCL11-SV.B01}
 **Def-lref{2} = ref{1993-09-13}
@@ -32,13 +46,15 @@
 **Start-printers-entry{DCL1152}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-DCL11-SV.B01}
 **Def-lref{2} = ref{CU-1992-11-23}
+**Def-lref{3} = ref{DEC-PR-1992-10-26}
 **Sys-name: LN07C
 **Desc-name: DEClaser 1152 Laser Printer
-**Announcement**vref{2}: 1992-11-23
+**Announcement**vref{3}: 1992-10-26
 ![1]: 1152: 2MB-4MB RAM; two optional font carts
 ![1]: interface: parallel + serial + LocalTalk
 **Resolution**lref{1}: 300 dpi
-**Print-speed**lref{1}: 8 pages/min
+!**Print-speed**lref{1}: 8 pages/min
+**Print-speed**vref{3}: 4 pages/min
 **Sheet-capacity**lref{1}: 50 sheets
 **Dimensions-start{DCL1152}
 ![1]: height is 259mm with optional paper feed unit and cassette installed
@@ -97,16 +113,20 @@
 
 **Start-printers-entry{LJ250}{PRINTER}{LJ}
 **Def-lref{1} = ref{CU-1992-08-10}
+**Def-lref{2} = ref{DA-1987-08-25}
 **Sys-name: LJ250
 **Desc-name: LJ250
+**Announcement**vref{2}: 1987-09-02
 **Last-order**vref{1}: 1992-08
 **End-printers-entry{LJ250}
 
 **Start-printers-entry{LJ252}{PRINTER}{LJ}
 **Def-lref{1} = ref{CU-1992-05-15}
 **Def-lref{2} = ref{CU-1992-08-10}
+**Def-lref{3} = ref{DA-1987-08-25}
 **Sys-name: LJ252
 **Desc-name: LJ252 Companion Colour Printer
+**Announcement**vref{3}: 1987-09-02
 **Last-order**vref{1}: 1992-06
 **Last-ship**vref{2}: 1992-08-30
 **Technology**vref{1}: Ink-jet
@@ -426,13 +446,17 @@
 
 **Start-printers-entry{LN05}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-LN05X-SV-001}
-**Sys-name: DEClaser 2100
+**Def-lref{2} = ref{DEC-PR-1990-06-05}
+**Sys-name: LN05
+**Desc-name: DEClaser 2100
+**Announcement**vref{2}: 1990-06-05
 **Resolution**lref{1}: 300 dpi
 **Print-speed**lref{1}: 8 pages/min
 ! [1] two optional external font carts, optional postscript capability
 ! [1] 1-,2- or 3-MB RAM addon; 0.5MB built-in; two optional font carts
 ! [1] parallel port and serial port
 ! [1] Laser power 5mW
+! [2]: simplex
 **Sheet-capacity**lref{1}: 200 sheets
 **Dimensions-start{LN05}
 **Height**lref{1}: 228mm
@@ -453,8 +477,10 @@
 **Start-printers-entry{LN06}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-LN06X-SV-001}
 **Def-lref{2} = ref{CU-1993-07-19}
+**Def-lref{3} = ref{DEC-PR-1990-06-05}
 **Sys-name: LN06
 **Desc-name: DEClaser 2200
+**Announcement**vref{3}: 1990-06-05
 **Last-order**vref{2}: 1993-07-19
 **Last-ship**vref{2}: 1993-07-19
 **Resolution**lref{1}: 300 dpi
@@ -463,7 +489,7 @@
 ! [1] 1-,2- or 3-MB RAM addon; 0.5MB built-in; two optional font carts
 ! [1] parallel port and serial port
 ! [1] Laser power 5mW (max)
-![1] Duplex printing
+![1][3] Duplex printing
 **Sheet-capacity**lref{1}: 200 sheets
 **Dimensions-start{LN06}
 **Height**lref{1}: 228mm
@@ -480,6 +506,42 @@
 **Power**lref{1}:  790W
 **Power-end{LN06-220}
 **End-printers-entry{LN06}
+
+**Start-printers-entry{LN14}{PRINTER}{LN}
+**Def-lref{1} = ref{DEC-PR-1994-11-16}
+**Sys-name: LN14
+**Desc-name: DEClaser 3500
+**Announcement**vref{1}: 1994-11-16
+**Processor**vref{1}: 29200/20 MHz
+**Min-memory**vref{1}: 3 MB
+**Max-memory**vref{1}: 19 MB
+**Print-speed**vref{1}: 12 pages/min
+**Resolution**vref{1}: 600 dpi
+**Duplex**vref{1}: No
+**Sheet-capacity**vref{1}: 800 sheets
+**End-printers-entry{LN14}
+
+**Start-printers-entry{LN14P}{PRINTER}{LN}
+**Def-lref{1} = ref{DEC-PR-1995-10-20}
+**Sys-name: LN14P
+**Desc-name: DEClaser 3500P
+**Announcement**vref{1}: 1995-10-20
+**Print-speed**vref{1}: 12 pages/min
+**End-printers-entry{LN14P}
+
+**Start-printers-entry{LN14}{PRINTER}{LN}
+**Def-lref{1} = ref{DEC-PR-1994-11-16}
+**Sys-name: LN14
+**Desc-name: DEClaser 3500
+**Announcement**vref{1}: 1994-11-16
+**Processor**vref{1}: 29200/20 MHz
+**Min-memory**vref{1}: 3 MB
+**Max-memory**vref{1}: 19 MB
+**Print-speed**vref{1}: 12 pages/min
+**Resolution**vref{1}: 600 dpi
+**Duplex**vref{1}: No
+**Sheet-capacity**vref{1}: 800 sheets
+**End-printers-entry{LN14}
 
 **Start-printers-entry{LN09}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-LNX09-SV-A01}
@@ -571,7 +633,7 @@
 **Interfaces**vref{1}: Ethernet
 **Pagedescription-language**vref{1}: PostScript
 **Emulations**vref{1}: {HP-PCL} {ASCII} {ANSI} {TEKTRONIX} {ReGIS}
-**DuplexY: Standard
+**Duplex: Standard
 **End-printers-entry{LPS32}
 
 **Start-printers-entry{LQP02}{PRINTER}{LQ}

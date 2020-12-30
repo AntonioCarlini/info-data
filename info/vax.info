@@ -2900,11 +2900,12 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{VS8000}{VAX}{VAXstation}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
 **def-lref{2} = ref{OVMS-REL-HIST-20100621}
+**def-lref{3} = ref{DA-1988-02-02}
 **document=doc{DEC:EK-VS800-OM-001} ! VAXstation 8000 Owner's Manual
 **document=doc{DEC:EK-VS800-SG-001.TXT} ! VAXstation 8000 Service Guide
 **document=doc{DEC:EK-VS800-IG-001} ! VAXstation 8000 Installation Guide
 **Sys-name: VAXstation 8000
-**Announcement: February 1988
+**Announcement**vref{3}: 02 February 1988
 **Codename**uref{*102 *DU MAR-1988}: Lynx
 ! vref{2} only says support starts at V4.7
 **OS-support-VMS**vref{2}: V4.7 to V5.3-2
@@ -3169,6 +3170,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{3} = ref{EB-31692-46}
 **def-lref{4} = ref{DTJ-V1-7}
 **def-lref{5} = ref{CU-1992-11-02}
+**def-lref{6} = ref{NYT-1985-05-13}
 **document=doc{DEC:AZ-FE05A-TN} ! MicroVAX II 630QY, 630QZ Owner's Manual
 **document=doc{DEC:AZ-FE06A-TN} ! MicroVAX II 630QY, 630QZ Technical Manual
 **document=doc{DEC:AZ-GLBAA-MN} ! MicroVAX-II 630QB Technical Manual
@@ -3192,7 +3194,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-A0209-SG-001} ! Compact MicroVAX II Troubleshooting Service Guide
 **document=doc{DEC:EK-A0210-IS-001} ! Compact MicroVAX II Technical Information
 **document=doc{DEC:DTJ-V1-2} ! "MicroVAX II System", Digital Technical Journal, Vol 1 No 2, March 1986
-**Announcement**uref{*40}: 14 May 1985
+**Announcement**vref{6}: 1985-05-13
 **FRS-date: May 1985
 **Last-order**vref{5}: 1991-03-31
 **Codename: Mayflower
@@ -3474,6 +3476,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{5} = ref{CBR-PR-1988-10-19}
 **Def-lref{6} = ref{CU-1992-01-10}
 **def-lref{7} = ref{CU-1992-11-02}
+**Def-lref{8} = ref{DEC-PR-1988-10-19}
 **Announcement**vref{5}: 18th October 1988
 ! vref{7} has last ship for uV3400 October 1, 1991
 **Last-order**vref{6,7}: 1992-03-31
@@ -3481,9 +3484,9 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**uref{*47}: Mayfair II
 !**OS-support-VMS**uref{*26,*137}: V5.0-2A
 **OS-support-VMS**vref{4}: V5.0-2A
-**OS-support-ULTRIX**uref{*137}: V3.0
-**OS-support-ELN**uref{*137}: V3.2
-**CPU-module: KA640
+**OS-support-ULTRIX**vref{8}: V3.0
+**OS-support-ELN**vref{8}: V3.2
+**CPU-module**vref{8}: KA640
 **Module: M7xxx
 **CPU-name-VMS**uref{2}: KA640
 **CPU-name-console**uref{2}: KA640-A
@@ -3506,7 +3509,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **SPECmarks**htref{1}: 2.7
 **Minimum-memory**uref{*15,*4}: 4MB
 **On-board-memory**uref{*15,*4}: 4MB
-**Maximum-memory**uref{*15,*83}: 32MB
+**Maximum-memory**vref{8}: 28 MB
 ! <!-- *15, *83~52MB for uVAX 3400 -->
 !-- 400ns 32-bit read -->
 **Max-I/O-throughput**uref{*137}: 3.3MB/s
@@ -3555,7 +3558,6 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Announcement**vref{7}: 9 September 1987
 **Last-order**vref{8}: 1990-03-31
 **Codename**uref{*47}: Mayfair
-!**OS-support-VMS**uref{*26}: V4.7A
 **OS-support-VMS**vref{6}: V4.7A
 **OS-support-ULTRIX**htref{4}: ULTRIX V2.2
 **CPU-module**vref{3}: KA650
@@ -3636,7 +3638,6 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{5} = ref{CBR-PR-1989-04-10}
 **def-lref{6} = ref{CU-1992-11-02}
 **document=doc{DEC:EK-KA655-TM-001} ! KA655 CPU Module Technical Manual
-!**Announcementuref{*27 p14}: 10 April 1989
 **Announcement**vref{5}: 10 April 1989
 ! vref{6} confirms this for 3500 and 3600
 **Last-order**vref{6}: 1991-06-30
@@ -3665,11 +3666,9 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-!**VUPs**uref{*15,*18}: 3.8
 **VUPs**vref{3}: 3.8
 **SPECmarks**htref{2}: 4.0
 **Minimum-memory**uref{*28}: 16MB
-!**Maximum-memory**uref{*15,*18}: 64MB
 **Maximum-memory**vref{3}: 64MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
 **BUS-Qbus: 1 @ 3.3MB/s
@@ -4271,10 +4270,12 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{VS3100-30-38-76-PERF}
 **Def-lref{6} = ref{EC-N0857-51}
 **def-lref{7} = ref{OVMS-REL-HIST-20100621}
+**Def-lref{8} = ref{DA-1989-01-09-VS3100-30}
 **document=doc{DEC:EK-265AA-OM-001} ! VAXstation 3100 Model 30 Owner's Manual
 **document=doc{DEC:EK-331AA-AD-001} ! VAXstation 3100 Maintenance Guide Addendum: Options Installation
 **document=doc{DEC:EK-288AA-IP-001} ! *ipb* VAXstation 3100
 **document=doc{DEC:VS3100_SYS_ENCL} ! VS3100 System Enclosure Engineering Specification
+**Announcement**vref{8}: 1989-01-09
 **Last-order**uref{*108}: 30 August 1991
 **Last-ship**uref{*108}: 27 September 1991
 **Codename: PVAX0			

@@ -319,6 +319,27 @@
 **Desc-name**vref{1}: OCTART
 **End-chips-entry{DC7044C}
 
+**Start-chips-entry{DC21030}{CHIP}{GENERAL}
+**Def-lref{1} = ref{DEC-PR-1994-02-21}
+**Announcement**vref{1}: 1994-02-21
+**Part-number**vref{1}: DECchip 21030
+**Desc-name**vref{1}: DECchip 21030 Graphics Chip
+**End-chips-entry{DC21030}
+
+**Start-chips-entry{DC21040}{CHIP}{GENERAL}
+**Def-lref{1} = ref{DEC-PR-1993-11-12}
+**Announcement**vref{1}: 1993-11-12
+**Part-number**vref{1}: DECchip 21040
+**Desc-name**vref{1}: DECchip 21040 Ethernet Controller
+**End-chips-entry{DC21040}
+
+**Start-chips-entry{DC21050}{CHIP}{GENERAL}
+**Def-lref{1} = ref{DEC-PR-1994-01-17}
+**Announcement**vref{1}: 1993-11-12
+**Part-number**vref{1}: DECchip 21050
+**Desc-name**vref{1}: DECchip 21050 PCI to PCI Bridge
+**End-chips-entry{DC21050}
+
 ! **Def-lref{3} = ref{EC-H2315-46}
 ! has 20164 data in appendix B
 
