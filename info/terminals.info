@@ -197,6 +197,8 @@
 **Start-terminals-entry{VT220}{DECVT}{VT200}
 **Sys-name: VT220 Video Terminal
 **Def-lref{1} = ref{EK-V220-UG-003}
+**Def-lref{2} = ref{DA-1987-08-25-VT2xx}
+**Retirement**vref{2} = 1987-08-25
 **Screen-diagonal**htref{1}: 305mm
 **Rendition**htref{1}: Monochrome
 **Status-line**htref{1}: No
@@ -247,12 +249,16 @@
 
 **Start-terminals-entry{VT240}{DECVT}{VT200}
 **Sys-name: VT240 Video Terminal
+**Def-lref{1} = ref{DA-1987-08-25-VT2xx}
+**Retirement**vref{1} = 1987-08-25
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 6 2 ; Ps c
 **End-terminals-entry{VT240}
 
 **Start-terminals-entry{VT241}{DECVT}{VT200}
 **Sys-name: VT241 Video Terminal
+**Def-lref{1} = ref{DA-1987-08-25-VT2xx}
+**Retirement**vref{1} = 1987-08-25
 **End-terminals-entry{VT241}
 
 **Start-terminals-entry{VT320}{DECVT}{VT300}
@@ -260,6 +266,8 @@
 **Def-lref{1} = ref{EK-VT320-UU-001}
 **Def-lref{2} = ref{EK-VT3XX-UU-002}
 **Def-lref{3} = ref{EK-VT3XX-TP-002}
+**Def-lref{4} = ref{DA-1987-08-25-VT320}
+**Announcement**vref{1} = 1987-08-25
 **Html-target: vt300
 **Screen-diagonal**htref{1}: 305mm
 **Rendition**htref{1}: Monochrome
