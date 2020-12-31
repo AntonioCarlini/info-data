@@ -1,3 +1,31 @@
+! DECbrouter 90: https://groups.google.com/forum/#!topic/biz.dec.decnews/fQpUK29XxAo
+! DECconcentrator 900MX: https://groups.google.com/forum/#!topic/biz.dec/mowsXFe0MMI
+! DECconcentrator 900TH: https://groups.google.com/forum/#!topic/biz.digital.articles/hGO8f_sUG2Y
+! DEChub 900 MultiSwitch: https://groups.google.com/forum/#!search/biz.dec$20announcement/biz.dec/hTirGw-wOuQ/5kf6UgvEMmcJ
+! DEChub ONE-MX: https://groups.google.com/forum/#!topic/biz.digital.articles/Ip8uYPLTg6U
+! DEClancontroller 400 (DEMNA): https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=421.0
+! DECmau 900TH: https://groups.google.com/forum/#!topic/biz.digital.articles/g941DRw8RAM
+! DECmau 900TL: https://groups.google.com/forum/#!topic/biz.dec/1UIFlSOSLYU
+! DECNIS MPC-2: https://groups.google.com/forum/#!topic/biz.digital.articles/A2auy7KME7M
+! DECrepeater 900FL: https://groups.google.com/forum/#!topic/biz.digital.articles/PGio5C4Y6-Y
+! DECbridge 900MX: https://groups.google.com/forum/#!topic/biz.dec.decnews/yTn9DqsItyg
+! DECrepeater 90TS: https://groups.google.com/forum/#!topic/biz.digital.articles/GwH3abi-tvA
+! DECrepeater 90FL, 90FA, DECbridge 90FL, DECwanrouter 90, DECagent 90 and HUBwatch: https://groups.google.com/forum/#!topic/biz.dec/XQpSOqWT1EA
+! DECserver 500: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.24
+! DECserver 510 and MUXserver 310: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=495.0
+! DECswitch 400: https://groups.google.com/forum/#!topic/biz.digital.articles/_7nVJxeGMpo
+! DECswitch 900 Router: https://groups.google.com/forum/#!topic/biz.digital.articles/KwH8gAQHCwo
+! DECbridge 900MX renamed to DECswitch 900EF: https://groups.google.com/forum/#!topic/biz.digital.articles/gDARt7VtuL4
+! DECwanrouter 90 ISDN: https://groups.google.com/forum/#!topic/biz.digital.articles/DJB0ZCzJsJ4
+! DELQA-M: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.10
+! DESPR: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.22
+! End-Of-Life for DF112-AA/AM and DF124-AA/AM: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.39
+! DF242-CA: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.23
+! DFA01: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.15
+! DHQ11: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.6
+! GIGAswitch/ATM: https://groups.google.com/forum/#!topic/biz.digital.articles/GSYt_kABFzs
+! MUXserver 90: https://groups.google.com/forum/#!original/biz.dec/dJlqqhz1VB8/hW9jpKreeDQJ
+
 **Start-comms-entry{DECNIS500}{NIS}
 **Def-lref{1} = ref{CU-1991-10-18}
 **Sys-name: DECnis 500

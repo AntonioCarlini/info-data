@@ -1,3 +1,11 @@
+! DECpc 433 SLC Premium: https://groups.google.com/forum/#!topic/biz.dec/Qxw4x6KAyyE
+! DECpc LP family: https://groups.google.com/forum/#!topic/biz.dec/y9tBcQNxhwA
+! DECpc LPx 560 and LPx 566: https://groups.google.com/forum/#!topic/biz.digital.articles/g6PD-96JOPY
+! DECpc XL PCs: https://groups.google.com/forum/#!topic/biz.dec.decnews/CswdOyBLtcI
+! DECstation 210, DECstation 316 and DECstation 320: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=211.4
+! HiNote and HiNote Ultra: https://groups.google.com/forum/#!topic/biz.digital.articles/6AWZGWQgHEg
+! HiNote Ultra 4X Mobile Media Module: https://groups.google.com/forum/#!topic/biz.digital.articles/inU-0EIibEU
+
 **Start-systems-entry{LPvplus-4100}{DECPC}{PC433WS}
 **Def-lref{1} = ref{SUE-1994-06}
 **Sys-name: LPvPlus-4100
