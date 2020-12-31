@@ -1,3 +1,18 @@
+! DSP5350 and DSP3160 OEM disks: https://groups.google.com/forum/#!topic/biz.dec/ET4n7Jb7POE
+! DSP5400: https://groups.google.com/forum/#!topic/biz.dec/f49hbySxaJo
+! DWZZB: https://groups.google.com/forum/#!msg/biz.digital.articles/eawz1EOLzgU/PiXhYYQ-ObcJ
+! ESE50: https://groups.google.com/forum/#!topic/biz.dec/MCoheO_7pUk
+! ESP510 and ESP530: https://groups.google.com/forum/#!topic/biz.dec/DomCX_cz_Vg
+! ESP540: https://groups.google.com/forum/#!topic/biz.dec/dZ8--l7y9-0
+! HSC40 and HSC5X-DA: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=230.2
+! HSD05: https://groups.google.com/forum/#!msg/biz.dec.decnews/1P3jfxncWDY/X92MZmt4L7oJ
+! HSD10: https://groups.google.com/forum/#!topic/biz.digital.articles/4ZGMc4lxmWw
+! HSD30: https://groups.google.com/forum/#!topic/biz.digital.articles/CCJ7NOzqYKM
+! HSZ40: https://groups.google.com/forum/#!topic/biz.digital.articles/kpk8-xxWcBA
+! KDM70: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=422.0
+! KFESB: https://groups.google.com/forum/#!topic/biz.digital.articles/M7zbo7K8QLs
+! KZTSA: https://groups.google.com/forum/#!original/biz.dec/YD6TqRzqaUk/7_tH3nA956kJ
+!
 ! Intended for:
 ! HDD "spinning rust"
 ! true SSDs
@@ -739,16 +754,18 @@
 **Sys-name: RD31
 **Desc-name: RD31 Winchester Disk
 **Def-lref{1} = ref{CU-1992-02-21}
+**Def-lref{2} = ref{DA-1987-07-10-RD52}
 ! [11]: 1.2A @ 5V, 2.6A @12V, 39W, 57.8BTU/hr, 1.59kg
 **Last-order**vref{1}: 26 June 1992	
 !**Last-order**uref{[SUE Feb-2 1992]}: 26 June 1992	
 **Last-ship**uref{SUE Feb-2 1992}: 25 Sept 1992
-**Capacity**uref{[13] [31]}: 20MB	
-**Form-factor**uref{[13] [31]}: 5-1/4" half height	
-**Average-access**uref{[11] [13] [110] [31]}: 73.3ms	
+**Capacity**vref{2}: 20MB	
+!  half height	
+**Form-factor**vref{2}: 5-1/4"
+**Average-access**vref{2}: 73ms	
 **Average-seek: 64.5ms
 **Average-latency: 8.33ms
-**Transfer-rate**uref{[11] [13] [110] [31]}: 625KB/s	
+**Transfer-rate**vref{2}: 625 KB/s
 **Bytes-per-sector**uref{[13]}: 512	
 **Sectors-per-track**uref{[13]}: 18	
 **Tracks-per-drive**uref{[13]}: 2460	
@@ -763,12 +780,14 @@
 **Sys-name: RD32
 **Desc-name: RD32 Winchester Disk
 **Def-lref{1} = ref{EK-MVXAA-OM-001}
+**Def-lref{2} = ref{DA-1987-07-10-RD52}
 **Lifetime**uref{*31}: Nov 1989
-**Capacity**uref{*13 *31}: 42MB
-**Form-factor: 5-1/4" half height	
-**Average-access**uref{*13}: 48ms	
+**Capacity**vref{2}: 42MB
+!  half height	
+**Form-factor**vref{2}: 5-1/4"
+**Average-access**vref{2}: 48ms	
 **Average-seek:  40ms
-**Transfer-rate**htref{1}: 625KB/s
+**Transfer-rate**vtref{2}: 625 KB/s
 **Bytes-per-sector**uref{*13}: 512	
 **Rotational-speed: 3600rpm
 **Num-heads**htref{1}: @@
@@ -811,16 +830,20 @@
 **Start-storage-entry{RD52}{STORAGE_MISC}{RD}
 **Sys-name: RD52
 **Desc-name: RD52 Winchester Disk
+**Def-lref{1} = ref{DA-1987-07-10-RD52}
 ! [11]: 35W, 1A@5V, 2.6A@12V, BTU/hr: 119, 3.2kg -->
 **Lifetime**uref{[*DU JUN-86]}:	1984-1985	
 **Announcement**uref{[*SUE 6.5]}: September 1984	
-**Capacity**uref{[11] [78]}: 31MB	
-**Form-factor: 5-1/4" 
-**Average-access**uref{11}: 57.7ms	
+**Last-order**vref{1}: 1987-09-14
+**Last-ship**vref{1}: 1987-12-24
+**Capacity**vref{1}: 31MB	
+**Form-factor**vref{1}: 5-1/4" 
+**Average-access**vref{1}: 57ms	
 ! 57.5ms [78]*SOEE85 [*SUE 6.5] -->
+**Controller**vref{1}: RQDX2/RQDX3
 **Average-seek: 57ms
 **Average-latency**uref{[78]}: 8.5ms	
-**Peak-transfer-rate**uref{[11] [78]}: 625KB/s	
+**Peak-transfer-rate**vref{1}: 625 KB/s
 !!!**Data-surfaces**uref{[78]}: 8	
 **Tracks-per-drive**uref{*SOEE85}: 3485	
 **Sectors-per-track**uref{*SOEE85}: 18	
@@ -832,16 +855,18 @@
 **Desc-name: RD53 Winchester Disk
 **Def-lref{1} = ref{EK-MVXAA-OM-001}
 **Def-lref{2} = ref{CU-1992-02-21}
+**Def-lref{3} = ref{DA-1987-07-10-RD52}
 !**Last-order**uref{*SUE Feb-2 1992}: 26 June 1992
 **Last-order**vref{2}: 26 June 1992
 **Last-ship**uref{*SUE Feb-2 1992}: 25 Sept 1992
 **Lifetime**uref{*DU-JUN86}: 1983- 
-**Capacity**uref{*31,*11}: 71MB
-**Form-factor**uref{*31}: 5-1/4" full height
-**Average-access**uref{*31,*11}: 38ms
+**Capacity**ref{3}: 71MB
+! full height
+**Form-factor**uref{3}: 5-1/4"
+**Average-access**vref{31}: 38ms
 **Average-seek**htref{1}: 30ms
 **Average-latency: 8.33ms
-**Transfer-rate**htref{1}: 625KB/s
+**Transfer-rate**vtref{3}: 625 KB/s
 **Bytes-per-sector: 512
 **Sectors-per-track: 16
 **Tracks-per-drive: 8192
@@ -1439,6 +1464,7 @@
 **Start-storage-entry{RL02}{STORAGE_MISC}{RL}
 **Sys-name: RL02
 **Desc-name: RL02 Cartridge Disk Drive
+**Def-lref{1} = ref{DA-1987-07-13-RL02}
 !
 !An embedded closed-loop servo positioning system improves data
 !integrity by continuously sampling servo information with the same
@@ -1449,6 +1475,9 @@
 !each controller.
 !
 ! [11]: 160W, 25.A@240VAC, 600BTU/hr, Standard panel: 10.4"x17.5"x26.5", 75lbs -->
+! vref{1}: in excess of 100,000 units
+**Last-order**vref{1}: 1987-09-14
+**Last-ship**vref{1}: 1987-12-24
 **Lifetime**uref{DU-JUN86}: 1979-
 **Capacity**uref{*SOEE85}: 10.4MB
 **Average-access**uref{*SOEE85,11,78}: 67.5ms
