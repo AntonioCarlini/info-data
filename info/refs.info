@@ -1651,23 +1651,101 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: https://web.archive.org/web/20040206064230/http://www.hp.com:80/hpinfo/newsroom/press/2001pmc/pr2001101601.html
 **End-ref{CPQ-PR-2001-10-16}
 
+**Start-ref{DEC-PR-1987-07-10}
+**Ref-text: DEC Announces the RD52 Goes End-Of-Life
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.9
+**End-ref{DEC-PR-1987-07-10}
+
+**Start-ref{DEC-PR-1987-09-10}
+**Ref-text: DEC Announces the  RA70, RA82, and TK70
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.11
+**End-ref{DEC-PR-1987-09-10}
+
+**Start-ref{DEC-PR-1988-04-05}
+**Ref-text: DEC Announces the RV20 Write-Once Optical Storage Drive
+**Ref-processed: Yes
+**Ref-url: https: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=50.0
+**End-ref{DEC-PR-1988-04-05}
+
+**Start-ref{DEC-PR-1988-05-09}
+**Ref-text: DEC Announces the rtVAX 3200, rtVAX 3500 and rtVAX 3600
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=42.14
+**End-ref{DEC-PR-1988-05-09}
+
+**Start-ref{DEC-PR-1988-06-06}
+**Ref-text: DEC Announces End-Of-Life for RC25 Disk Drive
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.46
+**End-ref{DEC-PR-1988-06-06}
+
+**Start-ref{DEC-PR-1988-07-14}
+**Ref-text: DEC Announces End-Of-Life for RA81 Disk Drive
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.34
+**End-ref{DEC-PR-1988-07-14}
+
 **Start-ref{DEC-PR-1988-10-19}
 **Ref-text: DEC Announces the MicroVAX 3300 and MicroVAX 3400
 **Ref-processed: Yes
 **Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=156.0
 **End-ref{DEC-PR-1988-10-19}
 
-**Start-ref{DEC-PR-1989-01-09}
+**Start-ref{DEC-PR-1989-01-09-DS3100}
 **Ref-text: DEC Announces the DECstation 3100 and DECstation 3100S
 **Ref-processed: Yes
 **Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=211.2
-**End-ref{DEC-PR-1989-01-09}
+**End-ref{DEC-PR-1989-01-09-DS3100}
+
+**Start-ref{DEC-PR-1989-01-09-RRD40}
+**Ref-text: DEC Announces the RRD40 Compact Disk Drive
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=212.0
+**End-ref{DEC-PR-1989-01-09-RRD40}
+
+**Start-ref{DEC-PR-1989-01-09-RX23}
+**Ref-text: DEC Announces the RX23 Diskette Drive
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=212.3
+**End-ref{DEC-PR-1989-01-09-RX23}
+
+**Start-ref{DEC-PR-1989-01-09-TZ30}
+**Ref-text: DEC Announces the TZ30 Tape Drive
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=212.2
+**End-ref{DEC-PR-1989-01-09-TZ30}
+
+**Start-ref{DEC-PR-1989-04-10}
+**Ref-text: DEC Announces the rtVAX 3800
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=312.0
+**End-ref{DEC-PR-1989-04-10}
+
+**Start-ref{DEC-PR-1990-05-07}
+**Ref-text: DEC Announces the PDP-11/93 and PDP-11/94
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/range?f1=PDP-11&f2=314.1
+**End-ref{DEC-PR-1990-05-07}
 
 **Start-ref{DEC-PR-1990-06-05}
 **Ref-text: DEC Announces the DEClaser 2100 and 2200
 **Ref-processed: Yes
 **Ref-url: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=515.0
 **End-ref{DEC-PR-1990-06-05}
+
+**Start-ref{DEC-PR-1992-06-10-THZ02}
+**Ref-text: DEC Announces the THZ02 tape drive
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.dec/s_cnjS0bsXU
+**End-ref{DEC-PR-1992-06-10-THZ02}
+
+**Start-ref{DEC-PR-1992-06-26}
+**Ref-text: DECnews/Fact Sheet: Personal DECstation 5000 Model 33
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/g/biz.dec/c/YRPeSVAawVw
+**End-ref{DEC-PR-1992-06-26}
 
 **Start-ref{DEC-PR-1992-10-26}
 **Ref-text: DEC Announces the DEClaser 1152 laser printer
@@ -1681,6 +1759,12 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: https://groups.google.com/forum/#!topic/biz.dec/8Ks0sIoo50Q
 **End-ref{DEC-PR-1993-11-12}
 
+**Start-ref{DEC-PR-1993-05-14-TA92}
+**Ref-text: DEC TA92 Cartridge Subsystem Announcement
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.dec/koOncHQofPg
+**End-ref{DEC-PR-1993-05-14-TA92}
+
 **Start-ref{DEC-PR-1994-01-17}
 **Ref-text: DEC Announces the DECchip 21050 PCI to PCI Bridge
 **Ref-processed: Yes
@@ -1692,6 +1776,12 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-processed: Yes
 **Ref-url: https://groups.google.com/forum/#!topic/biz.dec/FFYfM37fivM
 **End-ref{DEC-PR-1994-02-21}
+
+**Start-ref{DEC-PR-1994-06-06}
+**Ref-text: DEC Announces the RWZ52 1.2 Gbyte Multifunction Optical Drive
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/WYq7R_Xzcw0
+**End-ref{DEC-PR-1994-06-06}
 
 **Start-ref{DEC-PR-1994-11-16}
 **Ref-text: DEC Announces the DEClaser 3500
@@ -1710,6 +1800,12 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-processed: Yes
 **Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/pIQM_5eMgLM
 **End-ref{DEC-PR-1995-10-20}
+
+**Start-ref{DEC-PR-1995-11-15-TKZ61-62}
+**Ref-text: DEC  Announces the TKZ61 and TKZ62 10-Cartridge Tape Drives
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/AQC6cRot-dY
+**End-ref{DEC-PR-1995-11-15-TKZ61-62}
 
 **Start-ref{HP-PR-2003-01-20}
 **Ref-text: PR Announces the AlphaServer GS1280, ES80 and ES47
@@ -1759,11 +1855,23 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=29.0
 **End-ref{DA-1988-02-02}
 
+**Start-ref{DA-1989-01-09-RZxx}
+**Ref-text: Digital Announcement: 1989-01-09 (RZxx Disks)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=212.1
+**End-ref{DA-1989-01-09-RZxx}
+
 **Start-ref{DA-1989-01-09-VS3100-30}
 **Ref-text: Digital Announcement: 1989-01-09 (VS3100-30)
 **Ref-processed: Yes
 **Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=211.1
 **End-ref{DA-1989-01-09-VS3100-30}
+
+**Start-ref{DA-1989-01-24-TA90}
+**Ref-text: DEC Announces the TA90 Cartridge Tape Subsystem
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=230.3
+**End-ref{DA-1989-01-24-TA90}
 
 **Start-ref{EC-N0136-72}
 **Ref-text: DECchip 21064-150, -166, -200 Microprocessor Data Sheet

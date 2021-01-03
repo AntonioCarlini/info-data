@@ -1,3 +1,5 @@
+! PDP-11/84E: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=41.2
+! PDP-11Z93 and PDP-11Z53: https://groups.google.com/forum/#!topic/biz.dec/TTCosRUZBss
 **Start-systems-entry{PDP1110}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{DEC-11-H05SS-B-D}
 **Def-lref{2} = ref{EK-11005-TM-003}
@@ -415,11 +417,13 @@
 **Start-systems-entry{PDP1194}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EK-PDP94-MG-001}
 **Def-lref{2} = ref{EK-403AA-MM-XX}
+**Def-lref{3} = ref{DEC-PR-1990-05-07}
 **Sys-name: PDP-11/94 
 ! vref{2} KDJ11-EB has 4MB, KDJ11-EA has 2MB. Neither supports additional memory.
 ! vref{2} EIS and FP
 ! vref{1}: KTJ11-B M8191 Unibus Adapter Module
 ! vref{2}: M9714 APS (Alternate Power Source) Module
+**Announcement**vref{3}: 1990-05-07
 **CPU-name-console**vref{2}: KDJ11-E
 **CPU-module**vref{1}: KDJ11-E
 **Module**vref{2}: M8981
@@ -546,8 +550,11 @@
 **CPU-clock**vref{1}: 18MHz
 **End-systems-entry{MicroPDP1183}
 
-**Start-systems-entry{PDP1193}{PDP11}{QBUS}
-**Sys-name: PDP-11/93
-**End-systems-entry{PDP1193}
+**Start-systems-entry{MicroPDP1193}{PDP11}{QBUS}
+**Sys-name: MicroPDP1193
+**Desc-name: MicroPDP-11/93
+**Def-lref{1} = ref{DEC-PR-1990-05-07}
+**Announcement**vref{1}: 1990-05-07
+**End-systems-entry{MicroPDP1193}
 
 

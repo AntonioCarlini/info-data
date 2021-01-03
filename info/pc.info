@@ -5,6 +5,10 @@
 ! DECstation 210, DECstation 316 and DECstation 320: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=211.4
 ! HiNote and HiNote Ultra: https://groups.google.com/forum/#!topic/biz.digital.articles/6AWZGWQgHEg
 ! HiNote Ultra 4X Mobile Media Module: https://groups.google.com/forum/#!topic/biz.digital.articles/inU-0EIibEU
+! Prioris HX 5100MP SMP: https://groups.google.com/forum/#!topic/biz.digital.articles/r8klpSf281A
+! Prioris HX Server 590 and 590DP: https://groups.google.com/forum/#!topic/biz.digital.articles/PGxNrIHR6YY
+! Prioris LX: https://groups.google.com/forum/#!topic/biz.digital.articles/r8klpSf281A
+! Prioris XL Server 575, 5100, and 5100DP (New Processor Variants): https://groups.google.com/forum/#!topic/biz.digital.articles/-2DfYZSZ7zE
 
 **Start-systems-entry{LPvplus-4100}{DECPC}{PC433WS}
 **Def-lref{1} = ref{SUE-1994-06}

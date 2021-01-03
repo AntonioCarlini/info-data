@@ -2,6 +2,8 @@
 ! htref{} and lref{}: exact meaning forgotten
 ! uref{}: unverified reference.
 !
+! DIGITAL Announces Tempest VAX 8700 and VAX 8800 Systems: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=43.8
+
 ! VAX 4000-600		V5.5
 ! VAX 4000-600A		V5.5-2H4
 ! VAX 4000-800A		V5.5-2H4
@@ -5007,10 +5009,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **End-systems-entry{rtVAX1000}
 
 **Start-systems-entry{rtVAX3200}{VAX}{rtVAX}
-**def-lref{1} = ref{CU-1992-11-02}
+**Def-lref{1} = ref{CU-1992-11-02}
+**Def-lref{2} = ref{DEC-PR-1988-05-09}
 **Sys-name: rtVAX3200
 **Desc-name: rtVAX 3200
+**Announcement**vref{2}: 1988-05-09
 **Last-order**vref{1}: 1991-06-31
+**CPU-module**vref{2}: KA650-BA
 **End-systems-entry{rtVAX3200}
 
 **Start-systems-entry{rtVAX3300}{VAX}{rtVAX}
@@ -5021,24 +5026,34 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **End-systems-entry{rtVAX3300}
 
 **Start-systems-entry{rtVAX3500}{VAX}{rtVAX}
-**def-lref{1} = ref{CU-1992-11-02}
+**Def-lref{1} = ref{CU-1992-11-02}
+**Def-lref{2} = ref{DEC-PR-1988-05-09}
 **Sys-name: rtVAX3500
 **Desc-name: rtVAX 3500
+**Announcement**vref{2}: 1988-05-09
 **Last-order**vref{1}: 1991-06-31
+**CPU-module**vref{2}: KA650-BA
 **End-systems-entry{rtVAX3500}
 
 **Start-systems-entry{rtVAX3600}{VAX}{rtVAX}
-**def-lref{1} = ref{CU-1992-11-02}
+**Def-lref{1} = ref{CU-1992-11-02}
+**Def-lref{2} = ref{DEC-PR-1988-05-09}
 **Sys-name: rtVAX3600
 **Desc-name: rtVAX 3600
+**Announcement**vref{2}: 1988-05-09
 **Last-order**vref{1}: 1991-06-31
+**CPU-module**vref{2}: KA650-BA
 **End-systems-entry{rtVAX3600}
 
 **Start-systems-entry{rtVAX3800}{VAX}{rtVAX}
-**def-lref{1} = ref{CU-1992-11-02}
+**Def-lref{1} = ref{CU-1992-11-02}
+**Def-lref{2} = ref{DEC-PR-1989-04-10}
 **Sys-name: rtVAX3800
 **Desc-name: rtVAX 3800
+**Announcement**vref{2}: 1989-04-10
 **Last-order**vref{1}: 1991-06-31
+**OS-support-ELN**vref{2}: V3.2
+**CPU-cycle**vref{2}: 60ns
 **End-systems-entry{rtVAX3800}
 
 **Start-systems-entry{rtVAX4200}{VAX}{rtVAX}

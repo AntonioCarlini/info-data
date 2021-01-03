@@ -1,4 +1,10 @@
 ! Intended for tape storage devices of all sorts
+! TLZ07: https://groups.google.com/forum/#!topic/biz.digital.articles/0ogLUjNs2nY
+! TLZ7L: https://groups.google.com/forum/#!topic/biz.digital.articles/Geems2m3NxQ
+! TZ87N and TZ877: https://groups.google.com/forum/#!topic/biz.dec.decnews/O33N8kKU1YM
+! TZ87/TZ877 New Variants and Additional Support: https://groups.google.com/forum/#!original/biz.dec.decnews/bgnMAFXeh0w/9-IdbCa8EnAJ
+! TZ88: https://groups.google.com/forum/#!topic/biz.digital.articles/pOCe6FJfVoE
+
 **Start-storage-entry{PCXAT-A*}{TAPE}{PC}
 **Sys-name: PCXAT-A*
 **Desc-name: PCXAT-A* Cartridge Tape Drive
@@ -23,11 +29,16 @@
 **Sys-name: TA90
 **Desc-name: TA90 Magnetic Tape Cartridge Drives
 **Html-target: ta90
+**Def-lref{1} = ref{DEC-PR-1989-01-24-TA90}
+**Announcement**vref{1} = 1989-01-24
 !
 !When released the TA90 was Digital's highest performance device for
 !VAXCluster backup. These high-end tape subsystems are rugged units designed
 !for heavy duty commercial applications and offer full compatibility with
 !the IBM 3840 family of tape subsystems.
+! From vref{1}: Read/Write Compatible with IBM 3480
+! vref{1}: HSC software V3.90. Operating system  support  is provided in VAX V5.0.
+! vref{1}: TA90 shipments begin in March 1989.
 !
 ! [31]: IDRC - Improved Data Recording Capacity -->
 !
@@ -48,6 +59,15 @@
 **Capacity**uref{SUE Jul 1992}: 2.4GB
 **Max-data-transfer-speed**uref{SUE Jul 1992}: 2.33MB/s
 **End-storage-entry{TA91}
+
+**Start-storage-entry{TA92}{STI}{TA}
+**Sys-name: TA92
+**Desc-name: TA92 Magnetic Tape Cartridge Drive
+**Def-lref{1} = ref{DEC-PR-1993-05-14-TA92}
+**Announcement**vref{1}: 1993-05-14
+**Tracks**vref{1}: 36
+**Capacity**vref{1}: 800 MB/cartridge, 19.2 GB/unit (including compression)
+**End-storage-entry{TA92}
 
 **Start-storage-entry{TF70C}{DSSI}{TF}
 **Sys-name: TF70C
@@ -177,8 +197,10 @@
 
 **Start-storage-entry{THZ02}{STORAGE_MISC}{THZ02}
 **Def-lref{1} = ref{EK-THZ02-SG.A01}
+**Def-lref{2} = ref{DEC_PR-1992-06-10-THZ02}
 **Sys-name: THZ02
 **Desc-name: THZ02 Cartridge Tape Drive
+**Announcement**vref{2}: 1992-06-10
 ![1] cartridge capacity is 6GB, 42GB with media loader
 **Capacity**lref{1}: 6GB
 **Cache**lref{1}: 512KB
@@ -305,13 +327,16 @@
 **Desc-name: TK70 Streaming Tape Drive
 **Def-lref{1} = ref{EK-OTK70-OM-001}
 **Def-lref{2} = ref{CU-1994-09-01}
+**Def-lref{3} = ref{DEC-PR-1987-09-10}
+**Announcement**vref{3} = 1987-09-10
 **Last-ship**vref{2}: 1994-11-30
 **Last-order**vref{2}: 1994-12-31
-**Capacity**htref{1}: 296MB
+**Capacity**vref{3}: 296 MB
+**Form-factor**vref{3}: 5.25"
 **Peak-transfer-rate**htref{1}:{125KB/s:(total)}{90KB/s:(user data)}
 **Recording-format**htref{1}: Multiple track serpentine
-**Read/write-speed**htref{1}: 100in/s streaming
-**Tracks**htref{1}: 48
+**Read/write-speed**vref{3}: 100in/s streaming
+**Tracks**vref{3}: 48
 **Recording-density**htref{1}: 10000 bpi
 **Track-density**htref{1}: 96 tpi
 **Tape-width**htref{1}: 12.77mm
@@ -376,7 +401,12 @@
 
 **Start-storage-entry{TKZ61}{SCSI_TAPE}{TK}
 **Def-lref{1} = ref{EK-TKZ62-TM-002}
+**Def-lref{2} = ref{DEC-PR-1995-11-15-TKZ61-62}
 **Sys-name: TKZ61
+**Announcement**vref{2}: 1995-11-15
+**OS-support-VMS**vref{2}: OpenVMS VAX V5.5-2, OpenVMS Alpha V1.5
+**OS-support-DU**vref{2}: V2.0
+! vref{2}: HSD/HSJ HS Operating Firmware (minimum V2.0)
 ![1] 3480/3490  carts
 ![1] native is 200MB
 **Capacity**htref{1}: 200MB
@@ -412,7 +442,12 @@
 
 **Start-storage-entry{TKZ62}{SCSI_TAPE}{TK}
 **Def-lref{1} = ref{EK-TKZ62-TM-002}
+**Def-lref{2} = ref{DEC-PR-1995-11-15-TKZ61-62}
 **Sys-name: TKZ62
+**Announcement**vref{2}: 1995-11-15
+**OS-support-VMS**vref{2}: OpenVMS VAX V5.5-2, OpenVMS Alpha V1.5
+**OS-support-DU**vref{2}: V2.0
+! vref{2}: HSD/HSJ HS Operating Firmware (minimum V2.0)
 ![1] 3480/3490  and 3490E carts
 ![1] native is 800MB
 **Capacity**htref{1}: 800MB
@@ -859,15 +894,18 @@
 **Desc-name: TZ30 Tape Drive
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{CU-1994-12-15}
+**Def-lref{3} = ref{DEC-PR-1989-01-09-TZ30}
+**Announcement**vref{3} = 1989-01-09
 **Last-order**vref{2}: 1994-12-30
-**Capacity**htref{1}: 95MB
-**Form-factor**uref{58}: 5-1/4" half height
-**Peak-transfer-rate**htref{1}: 62.5KB/s
+**Capacity**vref{3}: 95MB
+**Form-factor**vref{3}: 5-1/4" half height
+**Peak-transfer-rate**vref{3}: 62.5 KB/s
 **Recording-format**htref{1}: serpentine pattern
 **Read/write-speed**htref{1}: 75in/s streaming
 **Tracks**htref{1}: 22
 **Recording-density**htref{1}: 6667bpi
 **Tape-width**htref{1}: 12.77mm
+**Interface**vref{3}: SCSI
 **Power-start{TZ30}
 **+5V-current**uref{103}: 1.2A
 **+12V-current**uref{103}: 1.0A

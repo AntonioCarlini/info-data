@@ -25,6 +25,9 @@
 ! DHQ11: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.6
 ! GIGAswitch/ATM: https://groups.google.com/forum/#!topic/biz.digital.articles/GSYt_kABFzs
 ! MUXserver 90: https://groups.google.com/forum/#!original/biz.dec/dJlqqhz1VB8/hW9jpKreeDQJ
+! PEswitch 900TX: https://groups.google.com/forum/#!topic/biz.digital.articles/o9NIsf-S-9k
+! PORTswitch 900 Family: https://groups.google.com/forum/#!topic/biz.digital.articles/T7fle7L1-zU
+! TRNcontroller 700: https://groups.google.com/forum/#!topic/biz.dec.decnews/2AjqnREkoP8
 
 **Start-comms-entry{DECNIS500}{NIS}
 **Def-lref{1} = ref{CU-1991-10-18}

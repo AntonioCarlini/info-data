@@ -10,7 +10,10 @@
 ! LN03X-DE Bar Code Font Cartridge: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=160.0
 ! LP37 Impact Printer: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=328.*&f4=t
 ! LPV11-SA Printer Controller: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.19
-
+! PrintGate/32 Network Printer: https://groups.google.com/forum/#!topic/biz.dec/kciTiFLuPW4
+! PrintServer 17/600 : https://groups.google.com/forum/#!original/biz.dec/25xVUKOpo6o/PmbByQf8LoAJ
+! PrintServer 32: https://groups.google.com/forum/#!topic/biz.dec/WxCiEgmo2DI
+! PrintServer 32 plus: https://groups.google.com/forum/#!topic/biz.digital.articles/c8sTAs6yEfA
 
 **Start-printers-entry{DCL1100}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-DCL11-SV.B01}

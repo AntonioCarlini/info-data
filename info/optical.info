@@ -1,3 +1,6 @@
+! RRD43 and RRD44 CDROM Drives Highlights: https://groups.google.com/forum/#!topic/biz.dec.decnews/tl5SZL5GijI
+!    and http://odrc2.flexbl.co.uk/mediawiki/index.php/DIGITAL_Announces_StorageWorks_Capacity_Breakthrough_For_DSSI
+
 ! Intended for:
 ! CDROM/CD-R/CDRW etc.
 ! DVDROM/DVD-R etc.
@@ -8,6 +11,8 @@
 **Desc-name: RRD40 Optical Disc Drive
 **Def-lref{1} = ref{EK-RRD40-OM-002}
 **Def-lref{2} = ref{EK-302AB-OG-002}
+**Def-lref{3} = ref{DEC-PR-1989-01-09-RRD40}
+**Announcement**vref{3}: 1989-01-09
 **Capacity**htref{1}: 635MB
 **Average-transfer-rate**htref{1}: 175.2KB/s
 **Average-access**htref{2}: 500ms
@@ -183,9 +188,12 @@
 **Start-storage-entry{RV20}{UNK}{OPTICAL}
 **Sys-name: RV20
 **Desc-name: RV20 Write-Once Optical Drive
-**def-lref{1} = ref{CU-1992-09-21}
+**Def-lref{1} = ref{CU-1992-09-21}
+**Def-lref{1} = ref{DEC-PR-1988-04-05}
+**Announcement**vref{1}: 1988-04-05
 **Last-order**vref{1}: 1992-12-31
 **Last-ship**vref{1}: 1993 Q1
+**Average-access**vref{2}: 150 - 250 ms
 **End-storage-entry{RV20}
 
 **Start-storage-entry{RV64}{UNK}{OPTICAL}
@@ -234,4 +242,14 @@
 **Weight**vref{2}: 4.5kg
 **Dimensions-end{RZW21}
 **End-storage-entry{RWZ21}
+
+**Start-storage-entry{RWZ52}{SCSI}{OPTICAL}
+**Def-lref{1} = ref{DEC-PR-1994-06-06}
+**Sys-name: RWZ52
+**Desc-name: RWZ52 Magneto-Optical Drive
+**Announcement**vref{1}: 1994-06-06
+**Capacity**vref{1}: 1.2 GB
+**Average-access**vref{1}: 36.0 ms
+**Sustained-transfer-rate**vref{1}: 1.6 MB/s (read) 0.53 MB/s (write)
+**End-storage-entry{RWZ52}
 

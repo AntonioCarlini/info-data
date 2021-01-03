@@ -44,7 +44,7 @@
 **Def-lref{2} = ref{EK-302AB-OG-002}
 **Def-lref{3} = ref{DECdirect-AUG91}
 **Def-lref{4} = ref{CU-1992-11-23}
-**Def-lref{5} = ref{DEC-PR-1989-01-09}
+**Def-lref{5} = ref{DEC-PR-1989-01-09-DS3100}
 **Sys-name: DECstation 3100
 **Announcement**vref{5}: 1989-01-09
 **Last-order**vref{4}: 1992-12-18
@@ -100,20 +100,20 @@
 **Def-lref{2} = ref{EK-PM30F-MG-004}
 **Def-lref{3} = ref{DECdirect-FEB92}
 **Def-lref{4} = ref{CU-1993-12-06}
-**Sys-name: DECstation 5000 Model 20
+**Def-lref{5} = ref{DEC-PR-1992-06-26}
+**Sys-name: DS5020
+**Desc-name: DECstation 5000 Model 20
 **Last-order**vref{4}: 1994-01-28
 **Last-ship**vref{4}: 1994-04-01
-**Num-proc: 1
+**Num-proc**vref{5}: 1
 **CPU-module**htref{2}: KN02-BC
 **Module**htref{2}: 54-20165-01
 !**CPU-chip**uref{*131}: R3000A
-**CPU-chip**vref{3}: R3000A
-!**FPU-chip**uref{*131}: R3010A
-**FPU-chip**vref{3}: R3010A
-**CPU-clock**uref{*131}: 20MHz
-**Cache**uref{*131}: 64KB-I/64KB-D
-!**SPECmarks**uref{*131}: 16.3
-**SPECmarks**vref{3}: 16.3
+**CPU-chip**vref{3,5}: R3000A
+**FPU-chip**vref{3,5}: R3010A
+**CPU-clock**vref{5}: 20MHz
+**Cache**vref{5}: 64KB-I/64KB-D
+**SPECmarks**vref{3,5}: 16.3
 !--
 !  ref_1: (probably only for 20 & 25):
 !
@@ -137,11 +137,11 @@
 !
 !**Minimum-memory**htref{1}: 8MB:(on board)
 **Minimum-memory**vref{3}: 8MB
-!**Maximum-memory**htref{1}: 40MB
-**Maximum-memory**vref{3}: 40MB
-**Bus-SCSI**uref{*131}: 1 @ 5MB/s
-**Bus-TC**uref{*131}: 1 @ 50MB/s
-**LAN-support: 1
+**Maximum-memory**vref{3,5}: 40MB
+!**Bus-SCSI**uref{*131}: 1 @ 5MB/s
+**Bus-SCSI**vref{5}: 1
+**Bus-TC**vref{5}: 2 @ 50MB/s
+**LAN-support**vref{5}: 1
 **Power-start{DST50x0-230V}
 **Supply**htref{1}: 230V 1-phase
 **I-max**htref{1}: 0.8A
@@ -165,20 +165,19 @@
 **Def-lref{2} = ref{EK-PM30F-MG-004}
 **Def-lref{3} = ref{DECdirect-FEB92}
 **Def-lref{4} = ref{CU-1993-12-06}
-**Sys-name: DECstation 5000 Model 25
+**Def-lref{5} = ref{DEC-PR-1992-06-26}
+**Sys-name: DS5025
+**Desc-name: DECstation 5000 Model 25
 **Last-order**vref{4}: 1994-01-28
 **Last-ship**vref{4}: 1994-04-01
-**Num-proc: 1
+**Num-proc**vref{5}: 1
 **CPU-module**htref{2}: KN02-CC
 **Module**htref{2}: 54-20165-02
-!**CPU-chip**uref{*131}: R3000A
-**CPU-chip**vref{3}: R3000A
-!**FPU-chip**uref{*131}: R3010A
-**FPU-chip**vref{3}: R3010A
-**CPU-clock**uref{*131}: 25MHz
-**Cache**htref{2}: 64KB-I/64KB-D
-!**SPECmarks**uref{*131}: 19.1
-**SPECmarks**vref{3}: 19.1
+**CPU-chip**vref{3,5}: R3000A
+**FPU-chip**vref{3,5}: R3010A
+**CPU-clock**vref{5}: 25MHz
+**Cache**vref{5}: 64KB-I/64KB-D
+**SPECmarks**vref{3,5}: 19.1
 !--
 !  ref_1: (probably only for 20 & 25):
 !
@@ -201,10 +200,11 @@
 !
 !
 **Minimum-memory**htref{1}: 8MB:(on board)
-**Maximum-memory**htref{1}: 40MB
-**Bus-SCSI**uref{*131}: 1 @ 5MB/s
-**Bus-TC**uref{*131}: 1 @ 50MB/s
-**LAN-support: 1
+**Maximum-memory**vref{5}: 40MB
+!**Bus-SCSI**uref{*131}: 1 @ 5MB/s
+**Bus-SCSI**vref{5}: 1
+**Bus-TC**vref{5}: 2 @ 50MB/s
+**LAN-support**vref{5}: 1
 **Power-start{DST50x0-230V}
 **Supply**htref{1}: 230V 1-phase
 **I-max**htref{1}: 0.8A
@@ -229,26 +229,28 @@
 **Def-lref{3} = ref{EK-PM32G-MG-003}
 **Def-lref{4} = ref{CU-1992-06-05}
 **Def-lref{5} = ref{CU-1993-12-06}
+**Def-lref{6} = ref{DEC-PR-1992-06-26}
 **Sys-name: DS5033
 **Desc-name: DECstation 5000 Model 33
 **Announcement**vref{4}: 1992-05-15
 **Last-order**vref{5}: 1994-01-28
 **Last-ship**vref{5}: 1994-04-01
 **OS-support-ultrix**vref{4}: Ultrix V4.2A
-**Num-proc: 1
+**Num-proc**vref{6}: 1
 **CPU-module**htref{2}: KN02-DA
 ! **Module entry here looks wrong
 **Module**htref{3}: 54-221331-01
-**CPU-chip**uref{*131}: R3000A
-**FPU-chip**uref{*131}: R3010A
-**CPU-clock**uref{*131}: 33MHz
-**Cache**htref{2}: 128KB-I/64KB-D
-**SPECmarks**uref{*131}: 25.3
+**CPU-chip**vref{6}: R3000A
+**FPU-chip**vref{6}: R3010
+**CPU-clock**vref{6}: 33MHz
+**Cache**vref{6}: 128KB-I/64KB-D
+**SPECmarks**vref{6}: 25.3
 **Minimum-memory: 8MB:(on board)
-**Maximum-memory**vref{4}: 40MB
-**Bus-SCSI**uref{*131}: 1 @ 5MB/s
-**Bus-TC**uref{*131}: 1 @ 50MB/s
-**LAN-support: 1
+**Maximum-memory**vref{4,6}: 40MB
+!**Bus-SCSI**uref{*131}: 1 @ 5MB/s
+**Bus-SCSI**vref{6}: 1
+**Bus-TC**vref{6}: 2 @ 50MB/s
+**LAN-support**vref{6}: 1
 **Power-start{DST50x0-230V}
 **Supply**htref{1}: 230V 1-phase
 **I-max**htref{1}: 0.8A

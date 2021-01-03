@@ -12,7 +12,13 @@
 ! KDM70: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=422.0
 ! KFESB: https://groups.google.com/forum/#!topic/biz.digital.articles/M7zbo7K8QLs
 ! KZTSA: https://groups.google.com/forum/#!original/biz.dec/YD6TqRzqaUk/7_tH3nA956kJ
-!
+! RF30, RF71 and RA70 Removable Storage Elements: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=349.0
+! RF71 ISE and the KFQSA: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=235.1
+! RF71B-xx Storage Expansion: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=319.0
+! SA550 and SA650: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=230.0
+! SA600: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.48
+! SA600-JA and SA600-HA: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=230.1
+
 ! Intended for:
 ! HDD "spinning rust"
 ! true SSDs
@@ -388,19 +394,22 @@
 **Def-lref{1} = ref{SOC-SPR90}
 **Def-lref{2} = ref{EK-ORA7X-SM-002}
 **Def-lref{3} = ref{CU-1991-11-08}
-**def-lref{4} = ref{CU-1991-12-20}
+**Def-lref{4} = ref{CU-1991-12-20}
+**Def-lref{5} = ref{DEC-PR-1987-09-10}
+**Announcement**vref{5}: 1987-09-10
 **OS-support-eln**vref{4}: VAXELN V4.3
 **Capacity**vref{3}: 280MB
 **EOL**vref{3}: 28 March 1992
 **Last-ship**vref{3}: 27 June 1992
 **Form-factor**vref{3}: 5-1/4" full-height
-**Peak-transfer-rate**vref{3}: 1.4MB/s
+**Peak-transfer-rate**vref{3,5}: 1.4MB/s
 **Bytes-per-sector**htref{1}: 512	
 **Tracks-per-surface**htref{1}**htref{2}: 1507	
-**Areal-density**htref{1}: 38.4 Mb/sq inch	
-**Num-media-surfaces**htref{2}: 11 data, 1 servo	
+**Error-correction**vef{5}: 170-bit ECC
+**Areal-density**vref{5}: 30.4 Mb/sq inch	
+**Num-media-surfaces**vref{5}: 11 data, 1 servo	
 **Interface**vref{3}: SDI	
-**Media-type**htref{2}: Thin Film
+**Media-type**vref{5}: Thin Film
 **Num-heads**htref{2}: 12
 **Sectors-per-track**htref{2}: 33 + 1 spare	
 **Track-density**htref{2}: 1355tpi
@@ -408,8 +417,8 @@
 **Rotational-speed**htref{2}: 4000rpm	
 **Average-latency**htref{2}: 7.5ms
 **Head-switch-latency**htref{2}: 4.5ms	
-**Average-seek**vref{3}: 19.5ms
-**Average-access**vref{3}: 27.0ms
+**Average-seek**vref{3,5}: 19.5ms
+**Average-access**vref{3,5}: 27.0ms
 !**One-cylinder-seek**htref{2}: 5.5ms
 **Maximum-seek**htref{2}: 35ms
 **Interface**vref{3}: SDI
@@ -581,11 +590,13 @@
 **Start-storage-entry{RA81}{SDI}{RA}
 **Sys-name: RA81
 **Desc-name: RA81 Winchester Disk
+**Def-lref{1} = ref{DEC-PR-1988-07-14}
 **Lifetime**uref{[*DU JUN-86]}: 1982-?	
-**Capacity**uref{[*23]}: 456MB	
+**Last-order**vref{1}: 1988-12-31
+**Capacity**vref{1}: 456MB	
 **Form-factor: 14"
-**Average-access**uref{*SOEE85}: 36.3ms	
-**Average-seek**uref{[*23]}: 28ms	
+**Average-access**vref{1}: 36 ms
+**Average-seek**vref{1}: 28ms	
 **Average-latency**uref{[*23]}: 8.33ms	
 **Peak-transfer-rate**uref{[*23]}: 17.4Mbit/s	
 **Track-track-seek**uref{*SOEE85}: 6ms	
@@ -601,12 +612,17 @@
 
 **Start-storage-entry{RA82}{SDI}{RA}
 **Def-lref{1} = ref{EK-ORA82-UG-001}
+**Def-lref{2} = ref{DEC-PR-1987-09-10}
+**Def-lref{3} = ref{DEC-PR-1988-07-14}
 **Sys-name: RA82
 **Desc-name: RA82 Disk Drive
-**Capacity**htref{1}: 622MB	
-**Average-seek**htref{1}: 24ms	
+**Announcement**vref{2}: 1987-09-10
+**OS-support-VMS**vref{3}: V4.5
+**Capacity**vref{2}: 622MB	
+**Average-access**vref{3}: 32 ms
+**Average-seek**vref{2}: 24ms	
 **Average-latency**htref{1}: 8.33ms	
-**Peak-transfer-rate**htref{1}: 2.4MB/s	
+**Peak-transfer-rate**vref{2}: 2.4MB/s	
 **Bytes-per-sector: 512
 **Sectors-per-track**htref{1}: 58	
 **Track-density**htref{1}: 1063 tpi
@@ -732,6 +748,7 @@
 **Start-storage-entry{RC25}{STORAGE_MISC}{RC}
 **Sys-name: RC25
 **Desc-name: RC25 Fixed/Removable Drive
+**Def-lref{1} = ref{DEC-PR-1998-06-06}
 ![*78]:
 !The RQC25 is a combined 26MB fixed Winchester disk and 26MB sealed removable
 !cartridge disk. The RQC25 contains its own KLESI controller with onboard
@@ -741,6 +758,8 @@
 ! From [11]:
 ! Interfaces: Q-bus, UNIBUS. 2 drivers per controller, one cont. per CPU
 **Lifetime**uref{[*DU JUN-86]}:	1984-?	
+**Last-order**vref{1}: 1988-07-01
+**Last-ship**vref{1}: 1988-09-30
 **Capacity**uref{*SOEE85}: 52MB:(26MB fixed, 26MB removable)
 **Average-access**uref{[11]}: 45.5ms	
 **Average-seek**uref{*SOEE85 ?????}: 35ms	
@@ -781,6 +800,7 @@
 **Desc-name: RD32 Winchester Disk
 **Def-lref{1} = ref{EK-MVXAA-OM-001}
 **Def-lref{2} = ref{DA-1987-07-10-RD52}
+**Def-lref{3} = ref{DEC-PR-1987-07-10}
 **Lifetime**uref{*31}: Nov 1989
 **Capacity**vref{2}: 42MB
 !  half height	
@@ -1675,7 +1695,9 @@
 **Sys-name: RX23
 **Desc-name: RX23 Diskette Drive
 **Def-lref{1} = ref{EK-PM32C-OG-002}
-**Def-lref{2} = {CU-1991-10-30}
+**Def-lref{2} = ref{CU-1991-10-30}
+**Def-lref{3} = ref{DEC-PR-1989-01-09-RX23}
+**Announcement**vref{3}: 1989-01-09
 **Capacity**vref{2}: {1.44MB:HD}{720KB:DD}
 ! [110]: R/O 720KB -->
 !**Form-factor**htref{1}: 3.5" half height
@@ -1803,14 +1825,18 @@
 **Def-lref{1} = ref{EK-VSM30-OM-002}
 **Def-lref{2} = ref{EK-RZXXD-PS-005}
 **Def-lref{3} = ref{CU-1993-01-04}
+**Def-lref{4} = ref{DA-1989-01-09-RZxx}
 **Sys-name: RZ22
 **Desc-name: RZ22 52MB SCSI Disk
+**Announcement**vref{4}: 1989-01-09
 **Last-order**vref{3}: 1993-01-23
 **Last-ship**vref{3}: 1993-03-27
-**Capacity**htref{1}: 52MB
-**Form-factor**htref{2}: 3-1/2" half-height
-**Peak-transfer-rate**htref{1}: {1.25MB/s:to/from media}{1.25MB/s:to/from buffer)}
-**Average-access**uref{20}: 33.4ms
+**Capacity**vref{4}: 52 MB
+**Form-factor**vref{4}: 3-1/2" half-height
+!**Peak-transfer-rate**htref{1}: {1.25MB/s:to/from media}{1.25MB/s:to/from buffer)}
+**Peak-transfer-rate**vref{4}: 1.25 MB/s
+!**Average-access**uref{20}: 33.4ms
+**Average-access**vref{4}: 33 ms
 **Average-latency**htref{1}: 8.4ms
 **Average-seek**htref{1}: 25ms
 **Track-track-seek**htref{1}: 8ms
@@ -1842,13 +1868,17 @@
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{EK-302AB-OG-002}
 **Def-lref{3} = ref{EK-RZXXD-PS-005}
+**Def-lref{4} = ref{DA-1989-01-09-RZxx}
 **Sys-name: RZ23
 **Desc-name: RZ23 104MB SCSI Disk
 !! lref{2} above was lref{1} and needs to be re-checked
-**Capacity**htref{1}: 104MB
-**Form-factor**htref{3}: 3-1/2" half-height
-**Peak-transfer-rate**htref{1}:	{1.25MB/s:to/from media}{1.66MB/s:(to/from buffer)}
-**Average-access**uref{20,*49}: 33.3ms
+**Announcement**vref{4}: 1989-01-09
+**Capacity**vref{4}: 104 MB
+**Form-factor**vref{4}: 3-1/2" half-height
+!**Peak-transfer-rate**htref{1}:	{1.25MB/s:to/from media}{1.66MB/s:(to/from buffer)}
+**Peak-transfer-rate**vref{4}:	1.25 MB/s
+! **Average-access**uref{20,*49}: 33.3ms
+**Average-access**vref{4}: 33 ms
 **Average-latency**htref{1}: 8.4ms
 **Average-seek**htref{1}: 25ms
 **Track-track-seek**htref{1}: 8ms
@@ -2150,6 +2180,7 @@
 **Desc-name: RZ26L 1.05GB SCSI Disk
 **Def-lref{1} = ref{EK-A0718-TI.B01}
 **Def-lref{2} = ref{CU-1993-12-06}
+! https://groups.google.com/forum/#!topic/biz.digital.articles/dBi1L23O4mA has announcement 01 Sep 1994
 **Announcement**vref{2}: 1993-12-06
 **OS-support-VMS**vref{2}: V6.0 and OpenVMS AXP V1.5
 **Form-factor**vref{2}: 3.5" (1" high)
@@ -2333,10 +2364,12 @@
 **Def-lref{4} = ref{EK-RZXXD-PS-005}
 **Def-lref{5} = ref{CU-1992-01-10}
 **Def-lref{6} = ref{CU-1992-04-03}
+**Def-lref{7} = ref{DA-1989-01-09-RZxx}
+**Announcement**vref{7}: 1989-01-09
 **Last-order**vref{6}: 1992-04-03
-**Capacity**vref{5}: 332MB
-**Form-factor**htref{4}: 5-1/4" full-height
-**Peak-transfer-rate**htref{1}: {1.5MB/s:(asynch)}{4.0MB/s (synch)}{1.25MB/s:(to/from media)}
+**Capacity**vref{5,7}: 332 MB
+**Form-factor**vref{7}: 5-1/4" full-height
+**Peak-transfer-rate**vref{7}: 1.25 MB/s
 **Average-access**vref{5}: 24.3ms
 **Average-latency**htref{1}: 8.3ms
 **Average-seek**vref{5}: 16ms
