@@ -1,3 +1,4 @@
+
 ! vref{} is a verified reference.
 ! htref{} and lref{}: exact meaning forgotten
 ! uref{}: unverified reference.
@@ -1045,8 +1046,9 @@
 **def-lref{4} = ref{EK-VAXCT-CG-006}
 **Def-lref{5} = ref{EK-6263M-MA}
 **Def-lref{6} = ref{EK-6234A-UP-001}
+**Def-lref{7} = ref{DEC-PR-1989-01-24-VAX6300}
 ! vref{1} January 1989
-**Announcement**uref{*DU MAR-1989 [1]}: 24 January 1989
+**Announcement**vref{7}: 1989-01-24
 **Codename**uref{*47}: Hyperion
 !**OS-support-VMS**uref{*26,*102}: V5.1
 **OS-support-VMS**vref{5}: V5.1
@@ -1063,7 +1065,7 @@
 **SID: 0A000006
 ! vref{5}: VAX 6300: 02400201 VAXserver 6300: 02400202
 **XSID : 02800201
-**Num-proc**vref{5}: 1-6
+**Num-proc**vref{5,7}: 1-6
 **CPU-names: {VAX 6310}{VAX 6320}{VAX 6330}{VAX 6340}{VAX 6350}{VAX 6360}
 **CPU-technology**vref{1,5}: CMOS-2
 **CPU-clock**vref{5}: 66.67MHz
@@ -1775,7 +1777,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{3} = ref{NYT-1984-04-04-785}
 **document=doc{DEC:EK-KC785-TD-001} ! VAX-11/785 Console Interface Technical Description
 !**Announcement**uref{SUE 5.19}: 2 April 1984
-**Announcement**vref{3}: 3 April 1984
+**Announcement**vref{3}: 1984-04-03
 **Codename: Superstar
 **OS-support-VMS**uref{*26}: VMS V3.4
 **OS-support-ULTRIX**uref{*12}: Ultrix V1.0
@@ -2269,15 +2271,16 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Sys-name: VAX 88x0
 **Desc-name: VAX 8810/8820/8830/8840
 **Def-lref{1} = ref{EB-31692-46}
-**def-lref{2} = ref{OVMS-REL-HIST-20100621}
+**Def-lref{2} = ref{OVMS-REL-HIST-20100621}
+**Def-lref{3} = ref{DEC-PR-1988-03-08-VAX88x0}
 **document=doc{DEC:EK-8840H-UG-001} ! VAX 8820/8830/8840 System Hardware User's Guide
 **document=doc{DEC:EK-8840A-IP-002} ! VAX 8820/30/40 IPB
-**Announcement**uref{*102}: March 1988
+**Announcement**vref{3}: 1988-03-08
 **FRS-date: April 1988
 **Codename**uref{*47}: PolarStar
 !**OS-support-VMS**uref{*26}: VMS V5.0
 **OS-support-VMS**vref{2}: VMS V5.0
-**Num-proc: 1-4
+**Num-proc**vref{3}: 1-4
 **CPU-names: {VAX 8810}{VAX 8820}{VAX 8830}{VAX 8840}
 **CPU-technology**vref{1}: ECL Gate Array
 **CPU-cycle**vref{1}: 45ns
@@ -2286,10 +2289,11 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **UWCS**vref{1}: 1K 144-bit words
 **Cache**vref{1}: 64KB
 **Compatibility-mode: No
-**Console-processor: MicroVAX II
+! vref{3} also says uPDP-11 console for VAX 8810
+**Console-processor**vref{3}: MicroVAX II
 **Console-device: None
 **VUPs**vref{1}: {6.0} {11.0} {17.0} {22.0}
-**Minimum-memory: 48MB
+**Minimum-memory**vref{3}: 48MB
 ! 8810: 48MB  8820/8830/8840: 128MB
 **Maximum-memory**vref{1}: 512MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
@@ -3679,7 +3683,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **End-systems-entry{UV3900}
 
 **Start-systems-entry{UV2K}{VAX}{UVAX}
-**Sys-name: MicroVAX 2000 
+**Sys-name: uV2000 
+**Desc-name: MicroVAX 2000 
 **def-lref{1} = ref{EK-VTTAA-TM.001}
 **def-lref{2} = ref{EK-V2000-SG-001}
 **def-lref{3} = ref{EK-MVXAA-OM-001}
@@ -3998,7 +4003,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
-**Announcement**uref{NAUTILUS 8.5 *DU JUN-1986}: 7 April 1986
+**Def-lref{4} = ref{PRN-1986-04-07-VAX8500}
+**Announcement**vref{4}: 1986-04-07
 **FRS-date: May 1986					
 **Codename**uref{*102}: Flounder
 **OS-support-VMS**uref{*26}: VMS V4.4
@@ -4102,9 +4108,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
-**def-lref{4} = ref{SOCEE-SPR90}
-**def-lref{5} = ref{OVMS-REL-HIST-20100621}
-**Announcement**uref{*101,*102}: August 1986
+**Def-lref{4} = ref{SOCEE-SPR90}
+**Def-lref{5} = ref{OVMS-REL-HIST-20100621}
+**Def-lref{6} = ref{PRN-1986-08-05-VAX8550-8700}
+**Announcement**vref{6}: 1986-08-05
 **FRS-date**uref{*102}: May 1986					
 **Codename**uref{*102}: Skipjack
 **Html-target: vax8500
@@ -4153,10 +4160,11 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
-**def-lref{4} = ref{SOCEE-SPR90}
-**def-lref{5} = ref{OVMS-REL-HIST-20100621}
+**Def-lref{4} = ref{SOCEE-SPR90}
+**Def-lref{5} = ref{OVMS-REL-HIST-20100621}
+**Def-lref{6} = ref{PRN-1986-08-05-VAX8550-8700}
 **document=doc{DEC:VAX 88X0} ! VAX 88x0/8700/85x0 Information
-**Announcement**uref{*101}: August 1986
+**Announcement**vref{6}: 1986-08-05
 **Codename**uref{*37}: Nautilus
 !**OS-support-VMS**uref{*26}: VMS V4.4
 **OS-support-VMS**vref{5}: VMS V4.4
@@ -4205,14 +4213,15 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
-**def-lref{4} = ref{SOCEE-SPR90}
+**Def-lref{4} = ref{SOCEE-SPR90}
+**Def-lref{5} = ref{DOW-1986-01-29-VAX8800}
 **document=doc{DEC:EK-KA881-TD-PRE} ! VAX 8800 System Technical Description Volume 1
 **document=doc{DEC:EK-KA882-TD-PRE} ! VAX 8800 System Technical Description Volume 2
 **document=doc{DEC:EK-KA883-TD-PRE} ! VAX 8800 System Technical Description Volume 3
 **document=doc{DEC:**-JB-036-01} ! The VAX 8800 Series
 **document=doc{DEC:KS-30186-AB} ! VAX 8800. For Your Most Demanding Applications
 **document=doc{DEC:VAX 88x0} ! VAX 88x0/8700/85x0 Information
-**Announcement**uref{*102}: 29 January 1986
+**Announcement**vref{5}: 1986-01-26
 **FRS-date**uref{*37}: February 1986
 **Codename**uref{*37}: Nautilus
 **Html-target: vax8700
@@ -4222,7 +4231,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **VMS-XCPU: 0
 **SID: 06045060
 **XSID : 000009F7
-**Num-proc**vref{3}: 2
+**Num-proc**vref{3,5}: 2
 **CPU-technology**vref{3}: ECL Gate Array
 **CPU-cycle**vref{3}: 45ns
 !From [*37]:

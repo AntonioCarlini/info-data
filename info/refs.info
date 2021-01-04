@@ -1645,6 +1645,24 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: https://www.hpcwire.com/1999/05/14/compaq-announces-the-alphaserver-ds10-single-chip-risc-system/
 **End-ref{HPCwire-1999-05-15}
 
+**Start-ref{PRN-1986-04-07-VAX8500}
+**Ref-text: DEC Announces the VAX 8500
+**Ref-processed: Yes
+**Ref-url: https://tech-insider.org/vms/research/1986/0407.html
+**End-ref{PRN-1986-04-07-VAX8500}
+
+**Start-ref{PRN-1986-08-05-VAX8550-8700}
+**Ref-text: DEC Announces the VAX 8550 and VAX 8700
+**Ref-processed: Yes
+**Ref-url: https://tech-insider.org/vms/research/1986/0805.html
+**End-ref{PRN-1986-08-05-VAX8550-8700}
+
+**Start-ref{DOW-1986-01-29-VAX8800}
+**Ref-text: DEC Announces the VAX 8800
+**Ref-processed: Yes
+**Ref-url: https://tech-insider.org/vms/research/1986/0129.html
+**End-ref{DOW-1986-01-29-VAX8800}
+
 **Start-ref{CPQ-PR-2001-10-16}
 **Ref-text: COMPAQ Announces the AlphaServer ES45
 **Ref-processed: Yes
@@ -1662,6 +1680,12 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-processed: Yes
 **Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.11
 **End-ref{DEC-PR-1987-09-10}
+
+**Start-ref{DEC-PR-1988-03-08-VAX88x0}
+**Ref-text: DEC Announces the VAX 8800 Series
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=43.10
+**End-ref{DEC-PR-1988-03-08-VAX88x0}
 
 **Start-ref{DEC-PR-1988-04-05}
 **Ref-text: DEC Announces the RV20 Write-Once Optical Storage Drive
@@ -1716,6 +1740,12 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-processed: Yes
 **Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=212.2
 **End-ref{DEC-PR-1989-01-09-TZ30}
+
+**Start-ref{DEC-PR-1989-01-24-VAX6300}
+**Ref-text: DEC Announces 
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=219.0
+**End-ref{DEC-PR-1989-01-24-VAX6300}
 
 **Start-ref{DEC-PR-1989-04-10}
 **Ref-text: DEC Announces the rtVAX 3800
