@@ -2672,9 +2672,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VS35X0}{VAX}{VAXstation}
 **Sys-name: VAXstation 3520/3540
-**def-lref{1} = ref{EK-258AA-MG-003}
-**def-lref{2} = ref{OVMS-REL-HIST-20100621}
-**def-lref{3} = ref{CU-1991-11-29}
+**Def-lref{1} = ref{EK-258AA-MG-003}
+**Def-lref{2} = ref{OVMS-REL-HIST-20100621}
+**Def-lref{3} = ref{CU-1991-11-29}
+**Def-lref{4} = ref{DEC-PR-1989-01-09-VS3520}
 **document=doc{DEC:EK-258AA-AD-001} ! VAXstation 3520/3540 Maintenance Guide Addendum
 **document=doc{DEC:EK-258AA-MG-003} ! VAXstation 3520/3540 and 3820/3840 Maintenance Guide
 **document=doc{DEC:EK-333AA-AD-001} ! VAXstation 3520/3540 DWFQA (Q-bus Adapter) Module Addendum
@@ -2688,7 +2689,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:firefox_errHandling_Dec87} ! Firefox Error-Handling Specification
 **document=doc{DEC:firefox_packaging_Dec87} ! Firefox Workstation Packaging
 **document=doc{DEC:firefox_qbusAdapter_Dec87} ! Firefox Workstation Q-Bus Adapter Module Functional Specification
-**Announcement**uref{*102}: 10 January 1989
+**Announcement**vref{4}: 1989-01-09
 **Codename**uref{*47}: Firefox
 **Last-order**vref{3}: 30 November 1991
 **Last-ship**vref{3}: 31 March 1992
@@ -2699,7 +2700,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !-- vref{1} KA60-BA is L2010 (VAXstation 38x0)
 **CPU-name-VMS: KA60
 **CPU-name-console**vref{1}: KA60
-**Num-proc**vref{1}: 2 or 4
+**Num-proc**vref{1,4}: 2 or 4
 **CPU-chip**uref{*25}: 78034
 **FPU-chip**uref{*25}: 78134
 **CPU-clock**uref{*102}: 50MHz
@@ -2709,7 +2710,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Console-processor: CPU
 **Console-device: None
 **VUPs**vref{3}: {VS3520:5} {VS3540:10}
-**Minimum-memory**vref{1}: 8MB
+**Minimum-memory**vref{1,4}: 8MB
 **Maximum-memory**vref{1}: 128MB
 !-- *8 states 4MB as min
 ! vref{1} Up to four memory arrays: 
@@ -2910,7 +2911,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-VS800-SG-001.TXT} ! VAXstation 8000 Service Guide
 **document=doc{DEC:EK-VS800-IG-001} ! VAXstation 8000 Installation Guide
 **Sys-name: VAXstation 8000
-**Announcement**vref{3}: 02 February 1988
+**Announcement**vref{3}: 1988-02-02
 **Codename**uref{*102 *DU MAR-1988}: Lynx
 ! vref{2} only says support starts at V4.7
 **OS-support-VMS**vref{2}: V4.7 to V5.3-2
