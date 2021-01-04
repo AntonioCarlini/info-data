@@ -83,3 +83,118 @@ the 140 megabit per second CI environment.
 
 IET11 TURBOchannel/IEEE488 Converter
 
+https://web.archive.org/web/20070811065001/http://h18002.www1.hp.com/alphaserver/ann_mcquaid_letter.pdf
+Alpha Last Sale date
+
+
+GS1280 press release - https://web.archive.org/web/20080905034118/http://www.hp.com/hpinfo/newsroom/press/2003/031020a.html
+
+Announcement page: https://web.archive.org/web/20080517052034/http://h18002.www1.hp.com/alphaserver/announce/oct_03.html
+
+GS1280 32 processor systems - https://web.archive.org/web/20080724025043/http://www.hp.com/hpinfo/newsroom/press/2003/030801a.html
+
+EV7 systems announcement - https://web.archive.org/web/20080517052050/http://h18002.www1.hp.com/alphaserver/announce/jan_03.html
+
+EV7 systems press release - https://web.archive.org/web/20080905040416/http://www.hp.com/hpinfo/newsroom/press/2003/030120c.html
+
+OpenVMS Alpha V7.3-1 press release - https://web.archive.org/web/20050208045526/http://www.hp.com/hpinfo/newsroom/press/25jun02b.htm
+
+OpenVMS Alpha V7.3-1 announcement - https://web.archive.org/web/20081010162335/http://h18002.www1.hp.com/alphaserver/announce/openvms_02.html
+
+DS20L/SC20 announcement - https://web.archive.org/web/20081007125559/http://h18002.www1.hp.com/alphaserver/announce/may_02.html
+
+DS20L SC20 press release - https://web.archive.org/web/20040108052526/http://www.supercomputingonline.com/article.php?sid=2073
+
+Retired Systems: https://web.archive.org/web/20080509122315/http://h18002.www1.hp.com/alphaserver/archive/
+
+MS820-CA 16MB Memory Array: [[DIGITAL Announces MS820-CA 16MB Memory Array]]
+
+DEBNA announcement: [[DIGITAL Announces DEBNA VAXBI Ethernet adapter]]
+
+DIGITAL Announces the RA70, RA82, and TK70
+
+
+DIGITAL Announces VAXstation 2000 Retirement
+DIGITAL Announces the Retirement of the VAXstation 2000
+DIGITAL Announces the VAXstation 3200 and VAXstation 3500
+DIGITAL Announces the VAXstation 3520 and VAXstation 3540
+DIGITAL Announces Availability of the VAXstation 3520 and VAXstation 3540
+DIGITAL Announces the MicroVAX 3300 and MicroVAX 3400
+DIGITAL Announces the MicroVAX 3500 and MicroVAX 3600, and the VAXserver 3500, VAXserver 3600 and VAXserver 3602
+Digital Announces the retirement of MicroVAX/VAXserver 3500/3600 Systems
+DIGITAL Announces the MicroVAX 3800 and MicroVAX 3900
+DIGITAL Announces MicroVAX 3800 and MicroVAX 3900 Systems
+DIGITAL Announces the MicroVAX and VAXserver 3800/3900 Systems
+DIGITAL Announces the VAX 6200 Series
+DIGITAL Announces the VAX 8800 Series
+DIGITAL Announces Tempest VAX 8700 and VAX 8800 Systems
+DIGITAL Announces the MicroVAX II
+DIGITAL Announces the VAX-11/785
+DIGITAL Announces the VAX 8500
+DIGITAL Announces the VAX 8550 and VAX 8700
+DIGITAL Announces retirement of the VAX-11/785 Module Upgrade
+
+DIGITAL Announces RC25 End-Of-Life
+DIGITAL Announces End-Of-Life for DF112-AA/AM and DF124-AA/AM Modems
+DIGITAL Announces End-Of-Life for RA81 Disk Drive
+DIGITAL Announces the Retirement of the LA100-CA and LA100-CB
+
+DIGITAL Announces the PDP-11/84E
+DIGITAL Announces the PDP-11/93 and PDP-11/94
+
+DIGITAL Announces the DHQ11
+DIGITAL Announces the DFA01 and DFA01/VAXPAC System
+DIGITAL Announces the SA600 Storage Array
+DIGITAL Announces the DESPR ThinWire Ethernet Single-Port Repeater
+Fact Sheet: DECstation 3100
+Fact Sheet: RF30 Integrated Storage Element
+DIGITAL Announces the HSC40 and HSC5X-DA
+DIGITAL Announces the RRD40 Compact Disk Drive
+DIGITAL Announces VAXELN V4.0
+Fact Sheet: DECstation 212 Personal Computer
+DIGITAL Announces the KDM70 XMI Disk and Tape Controller
+DIGITAL Announces the RV64 Write-Once Optical Jukebox
+DIGITAL Announces the TA90 Cartridge Tape Subsystem
+
+DIGITAL Announces the DECserver 500
+DIGITAL Announces the rtVAX 3800
+DIGITAL Announces the CISCE-AA Star-Coupler
+DIGITAL Announces the CIXCD-AA CI Interface
+DIGITAL Announces the DEClancontroller 400 (DEMNA)
+DIGITAL Announces the VRE01 19-inch Flat Panel Monitor
+DIGITAL Announces the DECsystem 3100
+DIGITAL Announces the LPV11-SA Printer Controller
+DIGITAL Announces the LP29-QA 2000 LPM Printer
+DIGITAL Announces the DEClaser 2100 and DEClaser 2200
+DIGITAL Announces the DECstation 210, DECstation 316 and DECstation 320
+DIGITAL Announces the SPX Graphics Co-processor
+DIGITAL Announces the RZ22, RZ23 and RZ55 Disk Drives
+DIGITAL Announces the RF30, RF71 and RA70 Removable Storage Elements
+DIGITAL Announces Several Machines in a "Desktop Announcement"
+DIGITAL Announces the H7317 Power Distribution System Plus and the H7318 Power Conditioning System Plus
+DIGITAL Announces the DF242-CA Scholar Plus Modem
+DIGITAL Announces the RF-VT240 Tempest Terminal
+DIGITAL Announces the HA3000 Uninterruptible Power System
+DIGITAL Announces the rtVAX 3200, rtVAX 3500 and rtVAX 3600
+DIGITAL Announces the SA600-JA and SA600-HA
+DIGITAL Announces the LN03X-DE Bar Code Font Cartridge
+DIGITAL Announces the DECstation 3100 and DECstation 3100S
+DIGITAL Announces the RF71 ISE and the KFQSA
+DIGITAL Announces the LP37 Impact Printer
+DIGITAL Announces the rtVAX 3800 System
+DIGITAL Announces the RF71B-xx Storage Expansion
+DIGITAL Announces ULTRIX DECstation 3100/3100S WorkStation
+DIGITAL Announces the SPX Graphics Co-processor
+DIGITAL Announces the StorageWorks FDDI Server
+DIGITAL Announces the StorageWorks RAID Array 210 Subsystem
+DIGITAL Announces the StorageWorks RAID Array 230 Subsystem
+DIGITAL Announces the StorageWorks RZ29B-VA 4.3GB 7200 RPM Disk Drive for HSx Cluster Controllers
+DIGITAL Announces the StorageWorks TL810 Automated Tape Library
+DIGITAL Announces the TL820 5.2 Tbyte Digital Linear Tape Library
+DIGITAL Announces the VAX 4000 Model 105A
+DIGITAL Announces the VT LAN40 Windowing Network Terminal
+DIGITAL Announces the VXT 2000+ X Window Terminal
+Digital Announces X25portal 2000 V1.0
+DECnews: ZLX Graphics Accelerators Details
+DIGITAL Announces the ZLX-E1 2D Graphics Accelerator for Alpha AXP Workstations
+DIGITAL Announces the ZLX-L1 3D Solids Midrange Graphics Accelerator
