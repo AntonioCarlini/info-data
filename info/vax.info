@@ -1586,8 +1586,7 @@
 **def-lref{5} = ref{EK-70TBA-T4.A01}
 **def-lref{6} = ref{CBR-PR-1994-08-23}
 **def-lref{7} = ref{CU-1994-08-15}
-!**Announcement**vref{6}: 23 August 1994 ! but the article does not say "today"
-**Announcement**vref{7}: 1995-08-15
+**Announcement**vref{7}: 1994-08-15
 **FRS-date**htref{2}: 1 August 1994
 ! Note that this was from {CU-V6-11} and NOT {CU-V6-11A}
 **Last-order**vref{3}: 30 March 1996
