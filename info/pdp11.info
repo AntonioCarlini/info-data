@@ -523,6 +523,8 @@
 
 **Start-systems-entry{PDP1173}{PDP11}{QBUS}
 **Sys-name: PDP-11/73
+**Def-lref{1} = ref{Glossary-CodeNames-1992-01-02}
+**Codename**vref{1}: Orion
 **End-systems-entry{PDP1173}
 
 **Start-systems-entry{MicroPDP1173}{PDP11}{QBUS}

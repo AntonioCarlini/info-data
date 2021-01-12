@@ -45,11 +45,13 @@
 **Def-lref{3} = ref{DECdirect-AUG91}
 **Def-lref{4} = ref{CU-1992-11-23}
 **Def-lref{5} = ref{DEC-PR-1989-01-09-DS3100}
+**Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
 **Sys-name: DECstation 3100
 **Announcement**vref{5}: 1989-01-09
 **Last-order**vref{4}: 1992-12-18
 **Last-ship**vref{4}: 1993-02-26
-**Codename**uref{DU FEB-1989}: PMAX
+!**Codename**uref{DU FEB-1989}: PMAX
+**Codename**vref{6}: PMAX
 **CPU-module**vref{1}: KN01
 **Num-proc**vref{1}: 1
 **CPU-chip**vref{1}: R2000
@@ -101,10 +103,12 @@
 **Def-lref{3} = ref{DECdirect-FEB92}
 **Def-lref{4} = ref{CU-1993-12-06}
 **Def-lref{5} = ref{DEC-PR-1992-06-26}
+**Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
 **Sys-name: DS5020
 **Desc-name: DECstation 5000 Model 20
 **Last-order**vref{4}: 1994-01-28
 **Last-ship**vref{4}: 1994-04-01
+**Codename**vref{6}: MAXINE LC
 **Num-proc**vref{5}: 1
 **CPU-module**htref{2}: KN02-BC
 **Module**htref{2}: 54-20165-01
@@ -166,10 +170,12 @@
 **Def-lref{3} = ref{DECdirect-FEB92}
 **Def-lref{4} = ref{CU-1993-12-06}
 **Def-lref{5} = ref{DEC-PR-1992-06-26}
+**Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
 **Sys-name: DS5025
 **Desc-name: DECstation 5000 Model 25
 **Last-order**vref{4}: 1994-01-28
 **Last-ship**vref{4}: 1994-04-01
+**Codename**vref{6}: MAXINE LC
 **Num-proc**vref{5}: 1
 **CPU-module**htref{2}: KN02-CC
 **Module**htref{2}: 54-20165-02
@@ -410,7 +416,9 @@
 
 **Start-systems-entry{DST5200}{DECMIPS}{DS5200}
 **Def-lref{1} = ref{DECdirect-AUG91}
+**Def-lref{2} = ref{Glossary-CodeNames-1992-01-02}
 **Sys-name: DECstation 5000 Model 200
+**Codename**vref{2}: 3MAX
 **CPU-chip**vref{1}: R3000A
 **FPU-chip**vref{1}: R3010
 **SPECmarks**vref{1}: 19.9
@@ -430,11 +438,13 @@
 **Def-lref{2} = ref{DECdirect-FEB92}
 **Def-lref{3} = ref{CU-1991-12-20}
 **Def-lref{4} = ref{CU-1995-09-15}
+**Def-lref{5} = ref{Glossary-CodeNames-1992-01-02}
 ! [1]: MS02-AA MS02L-AB (8MB)   MS02-CA MS02-NV (NVRAM module) H7878A
 **Sys-name: DECstation 5000 Model 240
 **Last-order**vref{4}: 1995-12-31
 ! vref{4} actually says Last Ship Date: March 31, 1995 but this must be a typo
 **Last-ship**vref{4}: 1996-03-31
+**Codename**vref{5}: 3MAX+
 **Num-proc**vref{1}: 1
 **CPU-module**vref{1}: KN03-GA
 **Module**vref{1}: 54-20627-01

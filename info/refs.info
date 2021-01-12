@@ -1741,11 +1741,11 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=212.2
 **End-ref{DEC-PR-1989-01-09-TZ30}
 
-**Start-ref{DEC-PR-1989-01-09-VS3250}
+**Start-ref{DEC-PR-1989-01-09-VS3520}
 **Ref-text: DEC Announcesthe VAXstation 3520 and VAXstation 3540 
 **Ref-processed: Yes
 **Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=211.3
-**End-ref{DEC-PR-1989-01-09-VS3250}
+**End-ref{DEC-PR-1989-01-09-VS3520}
 
 **Start-ref{DEC-PR-1989-01-24-VAX6300}
 **Ref-text: DEC Announces 
@@ -10313,6 +10313,12 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-processed: Yes
 **ref-url: https://web.archive.org/web/20080525155034/http://h18002.www1.hp.com/alphaserver/archive/comp/mar94.html
 **End-ref{ASCC-1994-03}
+
+**Start-ref{Glossary-CodeNames-1992-01-02}
+**Ref-text: Glossary of Code Names (revised 02-Jan-92)
+**Ref-processed: Yes
+**ref-url: http://simh.trailing-edge.com/semi/docs/code_names.txt
+**End-ref{{Glossary-CodeNames-1992-01-02}
 
 **Stop-processing
 
