@@ -946,7 +946,9 @@
 **Sys-name: RF30
 **Desc-name: RF30 150MB DSSI Disk
 **Def-lref{1} = ref{SOC-SPR90}
+**def-lref{2} = ref{CBR-PR-1988-10-19}
 ! Read-ahead cache: &	No \\	% [28] -->
+**Announcement**vref{2}: 18th October 1988
 **Capacity**htref{1}: 150MB
 **Form-factor**htref{1}: 5-1/4" half-height
 **Average-access**uref{*13,*58}: 29.3ms
@@ -2411,6 +2413,8 @@
 **Def-lref{2} = ref{EK-RZXXD-PS-005}
 **Def-lref{3} = ref{CU-1992-01-10}
 **Def-lref{4} = ref{CU-1993-03-08}
+**Def-lref{5} = ref{TMAI-1989-11-07}
+**Announcement**vref{5}: 1989-11-07
 **Last-order**vref{4}: 1993-07-02
 **Last-ship**vref{4}: 1993-09-24
 **Capacity**vref{3}: 655MB

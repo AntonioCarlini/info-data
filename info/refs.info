@@ -10156,6 +10156,20 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **ref-url: http://www.cbronline.com/news/dec_aims_new_microvax_3300_3400_at_as400_new_disk_bus
 **end-ref{CBR-PR-1988-10-19}
 
+**start-ref{TMAI-1989-11-07}
+**ref-text: TECHMONITOR AI and Automation. Press Release. 7th Nov 1989
+**ref-publisher: TECHMONITOR
+**ref-date: 1989-11-07
+**ref-url: https://techmonitor.ai/technology/dec_enhances_its_3100_vaxstations_with_faster_processor
+**end-ref{TMAI-1989-11-07}
+
+**start-ref{TMAI-1996-10-09}
+**ref-text: TECHMONITOR AI and Automation. Press Release. 9th Oct 1996
+**ref-publisher: TECHMONITOR
+**ref-date: 1996-10-09
+**ref-url: https://techmonitor.ai/technology/dec_upgrades_low_end_vaxes_to_see_it_through_the_decade
+**end-ref{TMAI-1996-10-09}
+
 **start-ref{NYT-1984-04-04-785}
 **ref-text: Digital Adds to Computer Line
 **ref-publisher: New York Times
@@ -10319,6 +10333,13 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-processed: Yes
 **ref-url: http://simh.trailing-edge.com/semi/docs/code_names.txt
 **End-ref{{Glossary-CodeNames-1992-01-02}
+
+**Start-ref{VMS-V071-SPD}
+**Ref-text: OpenVMS Operating System for Alpha and VAX, Version 7.1. SPD 25.01.49
+**ref-date: 1996-12
+**Ref-partno: VMS-V071-SPD
+**Ref-electronic: TXT
+**End-ref{VMS-V071-SPD}
 
 **Stop-processing
 
