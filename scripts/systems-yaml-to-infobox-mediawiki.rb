@@ -12,6 +12,7 @@ class Output
     @build_xml = build_xml
   end
 
+  # Write out text after transforming it to make it valid XML.
   def puts(text="")
     # First swap out the initial ampersands (as other swaps will put *in* ampersands)
     # The order of the other substitutions does not currently matter.
@@ -19,8 +20,95 @@ class Output
     $stdout.puts(text)
   end
 
+  # Write out text that is already valid XML.
+  # No transformation is performed.
   def puts_xml(text)
     $stdout.puts(text)
+  end
+end
+
+# A generic class to hold an item and the relevant references.
+class ItemWithReferenceKeys
+
+  attr_reader  :item
+  attr_reader  :refs
+
+  def initialize(item, refs)
+    @item = item      # Whatever the item is
+    @refs = refs      # Should be an array of keys
+  end
+  
+end
+
+# TrackLocalReferences assigns local references a number in the order that they are used.
+#
+# An entry might have:
+#   **Def-lref{1} = ref{EK-A0371-OM.002}
+#   **Def-lref{2} = ref{SOMETHING-UNUSED}
+#   **Def-lref{3} = ref{CPU-UPGR-SPRING-1992}
+#   **Def-lref{4} = ref{DECdirect-AUG91}
+#
+# If the references are used in the order ref{CPU-UPGR-SPRING-1992}, ref{EK-A0371-OM.002}, ref{DECdirect-AUG91}
+# then in the final wiki page they will be listed as:
+#   [1] ref{CPU-UPGR-SPRING-1992}
+#   [2] ref{EK-A0371-OM.002}
+#   [3] ref{DECdirect-AUG91}
+#
+# References may be used more than once, in which case they will be consistently labelled. The reference
+# number is determined by the next available number on its first use.
+#
+class TrackLocalReferences
+
+  def initialize
+    @next_local_ref_index = 1
+    @used_local_refs = {}   # Hash of index (int) => properties
+  end
+
+  # Create a single local ref.
+  # If this is the first use, create it and add it to @used_local_refs
+  # If it has already been assigned, look it up.
+  # In either case, produce the reference text.
+  #
+  # ref_key will be "EK-A0371-OM.002" or "CPU-UPGR-SPRING-1992" or "DECdirect-AUG91"
+  # ref_properties will be the corresponding entry properties from refs.yaml
+  def build_single_ref(ref_key, ref_properties)
+    ref_index = nil                         # No reference present, or invalid reference present
+    reference = @used_local_refs[ref_key]
+    if reference.nil?()
+      @used_local_refs[ref_key] = [ @next_local_ref_index, ref_properties ]
+      ref_index = @next_local_ref_index
+      @next_local_ref_index += 1
+    else
+      ref_index = reference[0]
+    end
+    ref_text = "[[#ref_#{ref_index}|[#{ref_index}]]]"
+  end
+
+  # Build a list of references for this specific data entry.
+  #
+  # ref_keys will be an array of reference keys ["EK-A0371-OM.002", "CPU-UPGR-SPRING-1992", "DECdirect-AUG91"]
+  # ref_properties will be the corresponding entry from refs.yaml
+  def build_local_refs(ref_keys, refs)
+    ref_text = ""
+    ref_keys.each() {
+      |ref_key|
+      ref_text << self.build_single_ref(ref_key, refs[ref_key])
+    }
+    ref_text = " " + ref_text unless ref_text.empty?()
+    return ref_text
+  end
+
+  # Helper function to determine if any local references were used at all
+  def empty?()
+    @used_local_refs.empty?()
+  end
+  
+  # Perform an action for every local reference that was used
+  def each_ref
+    @used_local_refs.keys().each() {
+      |key|
+      yield [key, @used_local_refs[key]]
+    }
   end
 end
 
@@ -55,14 +143,14 @@ source_file_time = File.mtime(sys_yaml)
 op.puts_xml(%q[<mediawiki xml:lang="en">]) if build_xml
 systems.keys().each() {
   |id|
-  local_refs = {} # [index, ref-hash-from-yaml] }
-  next_local_refs_index = 1
   properties = systems[id]
   system_name_array = properties["Sys-name"]
   if system_name_array.nil?()
     $stderr.puts("Cannot find Sys-name for [#{id}] so skipping")
     next
   end
+
+  lref = TrackLocalReferences.new()
 
   # Work out a plausible name; default to "UNKNOWN"
   d_name = properties["Desc-name"]
@@ -85,6 +173,19 @@ systems.keys().each() {
     op.puts_xml(%Q[      <contributor><username>antonioc-scripted</username></contributor>])
     op.puts_xml(%Q[      <text>])
   end
+  # OS-support-VMS, OS-support-VMS-early and OS-support-end need special handling.
+  # If OS-support-VMS-early exists, prepend it with a trailing comma and space to OS-support.
+  # If OS-support-VMS-end exists, append the text " to " and then OS-support-VMS-end to OS-support-VMS
+  # In either case, if OS-support-VMS does not exist, it is an error and processing should stop
+  # TODO: this is not good enough. Need to produce correct references too.
+  if properties.key?("OS-support-VMS-early")
+    raise("OS-support-VMS-early without OS-support-VMS for system #{name}") if not properties.key?("OS-support-VMS")
+    properties["OS-support-VMS"][0] = properties["OS-support-VMS-early"][0] + ", " + properties["OS-support-VMS"][0]
+  end
+  if properties.key?("OS-support-VMS-end")
+    raise("OS-support-VMS-end without OS-support-VMS for system #{name}") if not properties.key?("OS-support-VMS")
+    properties["OS-support-VMS"][0] = properties["OS-support-VMS"][0] + " to " + properties["OS-support-VMS-end"][0]
+  end
   op.puts("== #{name_prefix}#{name} systems ==")
   op.puts()
   op.puts("{{Infobox#{sys_type.upcase()}-Data")
@@ -98,23 +199,13 @@ systems.keys().each() {
     next if prop =~ /docs/i
     next if prop =~ /text_block/i
     next if prop =~ /local_references/i
+    next if prop =~ /OS-support-VMS-early/i  # folded into OS-support-VMS
+    next if prop =~ /OS-support-VMS-end/i    # folded into OS-support-VMS
+
     array_of_values = properties[prop]
     value = array_of_values.shift()
-    ref_index = nil   # No reference present, or invalid reference present
-    ref_text = ""
-    array_of_values.each() {
-      |ref_key|
-      reference = local_refs[ref_key]
-      if reference.nil?()
-        local_refs[ref_key] = [ next_local_refs_index, refs[ref_key] ]
-        ref_index = next_local_refs_index
-        next_local_refs_index += 1
-      else
-        ref_index = reference[0]
-      end
-      ref_text << "[[#ref_#{ref_index}|[#{ref_index}]]]"
-    }
-    ref_text = " " + ref_text unless ref_text.empty?()
+
+    ref_text = lref.build_local_refs(array_of_values, refs)
     op.puts("| #{tags[prop].name()} = #{value}#{ref_text}")
   }
   op.puts("}}")
@@ -127,18 +218,9 @@ systems.keys().each() {
       line.gsub!(/ \*\*tref \{ ([^}]+) \}/ix) {
         |m|
         ref_key = $1
-        ref_text = ""
-        reference = local_refs[ref_key]
-        if reference.nil?()
-          local_refs[ref_key] = [ next_local_refs_index, refs[ref_key] ]
-          ref_index = next_local_refs_index
-          next_local_refs_index += 1
-        else
-          ref_index = reference[0]
-        end
-        ref_text << "[[#ref_#{ref_index}|[#{ref_index}]]]"
+        ref_text = lref.build_single_ref(ref_key, refs[ref_key])
         "#{ref_text}"
-      }
+     }
       op.puts("#{line}") 
     }
     op.puts()
@@ -151,11 +233,11 @@ systems.keys().each() {
     op.puts()
   end
 
-  unless local_refs.empty?()
+  unless lref.empty?()
     op.puts("== References ==")
     op.puts()
     ref_text_array = []
-    local_refs.each() {
+    lref.each_ref() {
       |key, value|
       index = value[0]
       properties = value[1]

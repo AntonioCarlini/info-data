@@ -66,7 +66,21 @@
   - summary
 - OS-support-VMS:
   - OS support (VMS)
-  - Range of VMS versions that support this system
+  - First version of VMS of a continuous range until the final version that supports this system
+  - - vax
+    - alpha
+    - itanium
+  - summary
+- OS-support-VMS-end:
+  - OS support (VMS)
+  - Final VMS version that supports this system
+  - - vax
+    - alpha
+    - itanium
+  - summary
+- OS-support-VMS-early:
+  - OS support (VMS)
+  - An early version of VMS that supports the system but followed by a gap in support
   - - vax
     - alpha
     - itanium
