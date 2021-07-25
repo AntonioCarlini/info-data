@@ -10341,6 +10341,14 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-electronic: TXT
 **End-ref{VMS-V071-SPD}
 
+**Start-ref{AA-LB22C-TE}
+**Ref-text: VMS Version 5.4 Release Notes
+**ref-date: 1990-08
+**Ref-partno: AA-LB22C-TE
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.org/pdf/dec/vax/vms/5.4/Release_Notes/AA-LB22C-TE_VMS_Version_5.4_Release_Notes_199008.pdf
+**End-ref{AA-LB22C-TE}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):

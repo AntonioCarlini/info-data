@@ -987,13 +987,14 @@
 **Def-lref{5} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{6} = ref{EK-6234A-UP-001}
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{8} = ref{AA-LB22C-TE}
 **document=doc{DEC:EK-620AA-TM-001} ! VAX 6200 System Technical User's Guide
 **document=doc{DEC:EK-620AA-MG-001} ! VAX 6200 Options And Maintenance
 **document=doc{DEC:EK-6200X-IP-001} ! *ipb* VAX 6200 System
 **document=doc{DEC:EK-KA62A-RM-J}
 **Announcement**vref{3}: April 1988
 **Codename**vref{7}: Calypso
-**OS-support-VMS**vref{5}: V5.0
+**OS-support-VMS**vref{5,8}: V5.0
 **CPU-module**vref{1,2}: KA62A
 **CPU-name-VMS: KA62A
 **CPU-name-console: KA62A
@@ -1065,11 +1066,11 @@
 **Def-lref{6} = ref{EK-6234A-UP-001}
 **Def-lref{7} = ref{DEC-PR-1989-01-24-VAX6300}
 **Def-lref{8} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{9} = ref{AA-LB22C-TE}
 ! vref{1} January 1989
 **Announcement**vref{7}: 1989-01-24
 **Codename**vref{8}: Hyperion
-!**OS-support-VMS**uref{*26,*102}: V5.1
-**OS-support-VMS**vref{5}: V5.1
+**OS-support-VMS**vref{5,9}: V5.1
 **OS-support-ultrix**vref{5}: V3.0
 **OS-support-ELN**vref{5}: V3.2
 **CPU-module**vref{3}: KA62B
@@ -1138,13 +1139,13 @@
 **def-lref{6} = ref{CU-1991-10-30}
 **Def-lref{7} = ref{EK-6234A-UP-001}
 **Def-lref{8} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{9} = ref{AA-LB22C-TE}
 **document=doc{DEC:DTJ-V2-2} ! "VAX 6000 Model 400 System", Digital Technical Journal, Vol 2 No 2, Spring 1990
 **document=doc{DEC:EK-640EB-TM-002} ! VAX 6000-400 System Technical User's Guide
 **document=doc{DEC:EK-640EB-MG-002} ! VAX 6000-400 Options and Maintenance
 **Announcement**uref{*44 [1]}: 11 July 1989
 **Codename**vref{8}: Rigel
-!**OS-support-VMS**uref{*26}: V5.2 
-**OS-support-VMS**vref{5}: V5.2 
+**OS-support-VMS**vref{5,9}: V5.2 
 **CPU-module**uref{*2}: KA64A
 **Module**vref{3,7}: T2015
 **CPU-name-VMS: KA64A
@@ -2309,13 +2310,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{2} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{3} = ref{DEC-PR-1988-03-08-VAX88x0}
 **Def-lref{4} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{5} = ref{AA-LB22C-TE}
 **document=doc{DEC:EK-8840H-UG-001} ! VAX 8820/8830/8840 System Hardware User's Guide
 **document=doc{DEC:EK-8840A-IP-002} ! VAX 8820/30/40 IPB
 **Announcement**vref{3}: 1988-03-08
 **FRS-date: April 1988
 **Codename**vref{4}: PolarStar
-!**OS-support-VMS**uref{*26}: V5.0
-**OS-support-VMS**vref{2}: V5.0
+! Note that vref{5}  mentions 8820-8840 but not 8810
+**OS-support-VMS**vref{2,5}: V5.0
 **Num-proc**vref{3}: 1-4
 **CPU-names: {VAX 8810}{VAX 8820}{VAX 8830}{VAX 8840}
 **CPU-technology**vref{1}: ECL Gate Array
@@ -2408,6 +2410,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{EK-9000S-SP.004}
 **Def-lref{4} = ref{EK-9000S-SI-001}
 **Def-lref{5} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{6} = ref{AA-LB22C-TE}
 ! vref{2} states oct  1989
 **document=doc{DEC:EK-9201U-UG-002} ! VAX 9000 Model 200 Hardware User Guide
 **document=doc{DEC:EK-9120A-IN.001} ! VAX 9000 Model 100/200 Installation Guide
@@ -2415,7 +2418,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Announcement**vref{2}: 24 October 1989
 **Codename**vref{5}: Aquarius
 **Html-target: vax9000
-**OS-support-VMS: V5.4-OA
+! vref{6} just says "VAX 9000" and does not distinguish between 9000-2xx and 9000-4xx
+**OS-support-VMS**vref{6}: V5.4
 **CPU-module: KA9000
 **Num-proc**vref{4}: 1
 **CPU-names: {VAX 9210}
@@ -2487,11 +2491,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{3} = ref{EK-9000S-SP.004}
 **def-lref{4} = ref{EK-VAXCT-CG-006}
 **def-lref{5} = ref{EK-9000S-SI-001}
+**Def-lref{6} = ref{AA-LB22C-TE}
 ! vref{2} states oct  1989
 **Announcement**vref{2}: 24 October 1989
 **Codename: Aquarius
 **Html-target: vax9000
-**OS-support-VMS: V5.4-1
+! vref{6} just says "VAX 9000" and does not distinguish between 9000-2xx and 9000-4xx
+**OS-support-VMS**vref{6}: V5.4
 ! Flowchart has V5.4-OA for single processor
 **CPU-module: KA9000
 **Num-proc: 1-4
@@ -2714,6 +2720,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{2} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{3} = ref{CU-1991-11-29}
 **Def-lref{4} = ref{DEC-PR-1989-01-09-VS3520}
+**Def-lref{5} = ref{AA-LB22C-TE}
 **document=doc{DEC:EK-258AA-AD-001} ! VAXstation 3520/3540 Maintenance Guide Addendum
 **document=doc{DEC:EK-258AA-MG-003} ! VAXstation 3520/3540 and 3820/3840 Maintenance Guide
 **document=doc{DEC:EK-333AA-AD-001} ! VAXstation 3520/3540 DWFQA (Q-bus Adapter) Module Addendum
@@ -2731,8 +2738,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**uref{*47}: Firefox
 **Last-order**vref{3}: 30 November 1991
 **Last-ship**vref{3}: 31 March 1992
-!**OS-support-VMS**uref{*26}: V5.1-1
-**OS-support-VMS**vref{2}: V5.1-1
+**OS-support-VMS**vref{2,5}: V5.1-1
 **CPU-module**vref{1,3}: KA60-AA
 **Module**vref{1}: L2001
 !-- vref{1} KA60-BA is L2010 (VAXstation 38x0)
@@ -2947,6 +2953,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{2} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{3} = ref{DA-1988-02-02}
 **Def-lref{4} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{5} = ref{AA-LB22C-TE}
 **document=doc{DEC:EK-VS800-OM-001} ! VAXstation 8000 Owner's Manual
 **document=doc{DEC:EK-VS800-SG-001.TXT} ! VAXstation 8000 Service Guide
 **document=doc{DEC:EK-VS800-IG-001} ! VAXstation 8000 Installation Guide
@@ -2954,9 +2961,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Announcement**vref{3}: 1988-02-02
 !**Codename**uref{*102 *DU MAR-1988}: Lynx
 **Codename**vref{4}: Lynx
-! TODO checked vref{2} - eliminate when output checked ... perhaps end is in an SPD?
+! TODO checked vref{2} - eliminate when output checked
 **OS-support-VMS**vref{2}: V4.7
-**OS-support-VMS-end: V5.3-2
+! vref{5} explicitly states that V5.4 drops support for the VAXstation 8000
+**OS-support-VMS-end**vref{5}: V5.3-2
 ! Flowchart has V5.4
 **CPU-module**uref{*8}: KA825
 **Num-proc: 1
@@ -3011,6 +3019,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{2} = ref{SOCEE-SPR90}
 **Def-lref{3} = ref{CU-1992-04-24}
 **Def-lref{4} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{5} = ref{AA-LB22C-TE}
 **document=doc{DEC:VAXFT-ARCHITECTURE} ! VAXft 310 Architecture Overview
 **Sys-name: VAXft 310
 **Desc-name: VAXft Model 310
@@ -3019,7 +3028,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Last-order**vref{3}: 30 June 1992
 **Last-ship**vref{3}: 30 September 1992
 **Codename**vref{4}: Cirrus
-**OS-support-VMS**uref{*18}: V5.4
+! vref{5} says "VAXft 3000" but that seems to have been an early name for the VAXft 310
+**OS-support-VMS**vref{5}: V5.4
 ! Flowchart has V5.4-3
 **CPU-module**uref{*18}: KA520
 **Num-proc: 1
@@ -3534,13 +3544,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{7} = ref{CU-1992-11-02}
 **Def-lref{8} = ref{DEC-PR-1988-10-19}
 **Def-lref{9} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{10} = ref{AA-LB22C-TE}
 **Announcement**vref{5}: 18th October 1988
 ! vref{7} has last ship for uV3400 October 1, 1991
 **Last-order**vref{6,7}: 1992-03-31
 **Last-ship**vref{6}: 1992-06-30
 **Codename**vref{9}: Mayfair II
-!**OS-support-VMS**uref{*26,*137}: V5.0-2A
-**OS-support-VMS**vref{4}: V5.0-2A
+**OS-support-VMS**vref{4,10}: V5.0-2A
 **OS-support-ULTRIX**vref{8}: V3.0
 **OS-support-ELN**vref{8}: V3.2
 **CPU-module**vref{8}: KA640
@@ -3696,13 +3706,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{CBR-PR-1989-04-10}
 **Def-lref{6} = ref{CU-1992-11-02}
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{8} = ref{AA-LB22C-TE}
 **document=doc{DEC:EK-KA655-TM-001} ! KA655 CPU Module Technical Manual
 **Announcement**vref{5}: 10 April 1989
 ! vref{6} confirms this for 3500 and 3600
 **Last-order**vref{6}: 1991-06-30
 **Codename**vref{7}: Mayfair III
-!**OS-support-VMS**uref{*26}: V5.1
-**OS-support-VMS**vref{4}: V5.1-1
+**OS-support-VMS**vref{8}: V5.1
 **CPU-module: KA655
 **Module: M7625
 **Firmware-version**uref{personally verified}: V5.3
@@ -4341,6 +4351,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{7} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{8} = ref{DA-1989-01-09-VS3100-30}
 **Def-lref{9} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{10} = ref{AA-LB22C-TE}
 **document=doc{DEC:EK-265AA-OM-001} ! VAXstation 3100 Model 30 Owner's Manual
 **document=doc{DEC:EK-331AA-AD-001} ! VAXstation 3100 Maintenance Guide Addendum: Options Installation
 **document=doc{DEC:EK-288AA-IP-001} ! *ipb* VAXstation 3100
@@ -4349,8 +4360,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Last-order**uref{*108}: 30 August 1991
 **Last-ship**uref{*108}: 27 September 1991
 **Codename**vref{9}: PVAX0			
-!**OS-support-VMS**uref{*26,*102}: V5.1B
-**OS-support-VMS**vref{7}: V5.1-B
+**OS-support-VMS**vref{7,10}: V5.1-B
 !-- *31: VS3100-38/48 UWS V2.1 -->
 **CPU-module**vref{1}: KA42-AA
 **Firmware-version**uref{personally verified}: V1.3
@@ -4416,6 +4426,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{7} = ref{DECdirect-AUG91}
 **Def-lref{8} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{9} = ref{TMAI-1989-11-07}
+**Def-lref{10} = ref{AA-LB22C-TE}
 **document=doc{DEC:EK-VSM30-OM-002} ! VAXstation 3100 Model 38 Owner's Manual
 **document=doc{DEC:EK-VSM40-OM-002} ! VAXstation 3100 Model 48
 **document=doc{DEC:VS3138-OM} ! VAXstation 3100 Model 38 Owner's Manual. July 1990. (Bookreader)
@@ -4423,7 +4434,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Announcement**vref{9}: 1989-11-07
 **Codename**vref{8}: PVAX1
 **Html-target: vs3100
-**OS-support-VMS**uref{*26,*31}: V5.2-1
+**OS-support-VMS**vref{10}: V5.2-1
 !-- *31: VS3100-38/48 UWS V2.1 -->
 **CPU-module**vref{2}: KA42-BA
 **Firmware-version**uref{personally verified}: V1.5
@@ -4498,6 +4509,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{6} = ref{EC-N0857-51}
 **Def-lref{7} = ref{EK-VAXCT-CG-006}
 **Def-lref{8} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{9} = ref{AA-LB22C-TE}
 **document=doc{DEC:EK-VX31M-UG-001} ! VAXstation 3100 Model 76 Owner's Guide
 **document=doc{DEC:EK-VS31M-MG-002} ! VAXstation 3100 Model 76 Maintenance Guide
 **document=doc{DEC:EK-VX31M-CG-002} ! VAXstation 3100 Model 76 Upgrade Guide
@@ -4505,8 +4517,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Announcement**uref{*48}: 25 October 1990
 **Codename**vref{8}: Panther
 **Html-target: vs3100
-**OS-support-VMS**uref{*65}: V5.4
-! Flowchart has V5.4-1
+**OS-support-VMS**vref{9}: V5.4
 **CPU-module**vref{3}: KA43-AA
 **Firmware-version**uref{personally verified}: V1.2
 **CPU-name-VMS**uref{2**}: KA43
