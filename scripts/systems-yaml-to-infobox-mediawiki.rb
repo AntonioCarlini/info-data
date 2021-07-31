@@ -112,6 +112,47 @@ class TrackLocalReferences
   end
 end
 
+# Handle OS-support-VMS and related properties.
+# OS-support-VMS, OS-support-VMS-early and OS-support-end need special handling.
+# If OS-support-VMS-early exists, prepend it with a trailing comma and space to OS-support.
+# If OS-support-VMS-end exists, append the text " to " and then OS-support-VMS-end to OS-support-VMS
+# In either case, if OS-support-VMS does not exist, it is an error and processing should stop
+#
+# To handle the references:
+# - for each of the component parts, produce the relevant value text and add the references
+# - build up the final string (which now includes all the individual references)
+# - replace the value of OS-support-VMS with the final text (which has references embedded) and no further references
+# When OS-support-VMS is finally output, it will be written as text with the appropriate references.
+def process_os_support_vms(properties, lref, refs)
+  # Begin by building the base value of OS-support-VMS and its references
+  base_value = ""
+  if properties.key?("OS-support-VMS")
+    array_of_values = properties["OS-support-VMS"]
+    base_value = array_of_values.shift()
+    base_ref_text = lref.build_local_refs(array_of_values, refs)
+    base_value = "#{base_value}#{base_ref_text}"
+  end
+
+  # For each of the supporting properties that is present, build the text and references and add to the base value above
+  if properties.key?("OS-support-VMS-early")
+    raise("OS-support-VMS-early without OS-support-VMS for system #{name}") if not properties.key?("OS-support-VMS")
+    array_of_values = properties["OS-support-VMS-early"]
+    value = array_of_values.shift()
+    ref_text = lref.build_local_refs(array_of_values, refs)
+    base_value = "#{value}#{ref_text}, " + base_value
+  end
+  if properties.key?("OS-support-VMS-end")
+    raise("OS-support-VMS-end without OS-support-VMS for system #{name}") if not properties.key?("OS-support-VMS")
+    array_of_values = properties["OS-support-VMS-end"]
+    value = array_of_values.shift()
+    ref_text = lref.build_local_refs(array_of_values, refs)
+    base_value = "#{base_value} to " + "#{value}#{ref_text}"
+  end
+
+  # Finally, replace the OS-support-VMS property with the fully referenced text that was built
+  properties["OS-support-VMS"] = [ base_value ]
+end
+
 sys_type = ARGV.shift()    # This might be 'vax' or 'alpha' etc.
 sys_yaml = ARGV.shift()    # This is the systems YAML file
 tags_yaml = ARGV.shift()   # This is the tags YAML file
@@ -173,19 +214,10 @@ systems.keys().each() {
     op.puts_xml(%Q[      <contributor><username>antonioc-scripted</username></contributor>])
     op.puts_xml(%Q[      <text>])
   end
+
   # OS-support-VMS, OS-support-VMS-early and OS-support-end need special handling.
-  # If OS-support-VMS-early exists, prepend it with a trailing comma and space to OS-support.
-  # If OS-support-VMS-end exists, append the text " to " and then OS-support-VMS-end to OS-support-VMS
-  # In either case, if OS-support-VMS does not exist, it is an error and processing should stop
-  # TODO: this is not good enough. Need to produce correct references too.
-  if properties.key?("OS-support-VMS-early")
-    raise("OS-support-VMS-early without OS-support-VMS for system #{name}") if not properties.key?("OS-support-VMS")
-    properties["OS-support-VMS"][0] = properties["OS-support-VMS-early"][0] + ", " + properties["OS-support-VMS"][0]
-  end
-  if properties.key?("OS-support-VMS-end")
-    raise("OS-support-VMS-end without OS-support-VMS for system #{name}") if not properties.key?("OS-support-VMS")
-    properties["OS-support-VMS"][0] = properties["OS-support-VMS"][0] + " to " + properties["OS-support-VMS-end"][0]
-  end
+  
+
   op.puts("== #{name_prefix}#{name} systems ==")
   op.puts()
   op.puts("{{Infobox#{sys_type.upcase()}-Data")
@@ -201,7 +233,8 @@ systems.keys().each() {
     next if prop =~ /local_references/i
     next if prop =~ /OS-support-VMS-early/i  # folded into OS-support-VMS
     next if prop =~ /OS-support-VMS-end/i    # folded into OS-support-VMS
-
+    process_os_support_vms(properties, lref, refs) if prop =~ /OS-support-VMS/i    # pre-process OS-support-VMS, then process as any other property
+    
     array_of_values = properties[prop]
     value = array_of_values.shift()
 
