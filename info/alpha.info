@@ -671,7 +671,7 @@
 **Sys-name: DEC 4000 Model 710/720
 **Desc-name: DEC 4000 Model 710/720
 **Announcement**vref{2}: 1993-10-12
-**OS-support-vms: OpenVMS V1.5
+**OS-support-vms: V1.5
 **Num-proc**vref{2}: 1-2
 **CPU-clock**vref{1}: 190MHz
 **Cache**vref{1}: 8KB-I/8KB-D
@@ -768,7 +768,7 @@
 **Def-lref{2} = ref{CU-V6-10B}
 **Def-lref{3} = ref{CU-1995-03-01}
 **Announcement**vref{3}: 1995-03-01
-**OS-support-vms: OpenVMS V6.1-1H1
+**OS-support-vms: V6.1-1H1
 **Num-proc: 1
 **CPU-clock**vref{3}: 166MHz
 **Maximum-memory**vref{3}: 192MB
@@ -815,14 +815,14 @@
 
 **Start-systems-entry{AS800-5-333}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 800 5/333
-**OS-support-vms: OpenVMS V7.1-1H1
+**OS-support-vms: V7.1-1H1
 **End-systems-entry{AS800-5-333}
 
 **Start-systems-entry{AS800-5-400}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 800 5/400
 **Def-lref{1} = ref{SPEC-res-97q2}
 **Def-lref{2} = ref{SPEC-res-98q2}
-**OS-support-vms: OpenVMS V7.1-1H1
+**OS-support-vms: V7.1-1H1
 **SPECint95**vref{1}: 11.7 
 **SPECfp95**vref{1}: 13.7 (1-CPU)
 !**SPECint95**vref{2}: 12.4
@@ -833,7 +833,7 @@
 **Sys-name: AlphaServer 800 5/500
 **Def-lref{1} = ref{SPEC-res-97q4}
 **Def-lref{2} = ref{SPEC-res-98q2}
-**OS-support-vms: OpenVMS V7.1-1H1
+**OS-support-vms: V7.1-1H1
 **SPECint95**vref{1}: 14.2
 **SPECfp95**vref{1}: 16.1
 !**SPECint95**vref{2}: 14.7
@@ -857,7 +857,7 @@
 !	PB7MA-AD         128 MB RAM
 **Announcement**vref{5}: 1994-11-03
 **Last-order**vref{6}: Past
-**OS-support-vms**vref{5}: OpenVMS V6.1-1H2
+**OS-support-vms**vref{5}: V6.1-1H2
 **OS-support-du**vref{5}: OSF/1 V3.0b
 **Num-proc**vref{4}: 1
 **CPU-clock**vref{4}: 200MHz
@@ -885,7 +885,7 @@
 **Announcement**vref{4}: 1995-05-01
 **FRS-date**vref{4}: 1995-05-01
 **Last-order**vref{5}: 1995-08-31
-**OS-support-vms: OpenVMS V6.1-1H2
+**OS-support-vms: V6.1-1H2
 **Num-proc**htref{1}: 1
 **CPU-clock**vref{4}: 233MHz
 **SPECint92**vref{4}: 165.3
@@ -942,7 +942,7 @@
 !-- [1]: integrated SVGA controller for both 4/233 and 4/266 -->
 !-- V7-3B 1-Mar-1996 gives Rackmount variant dimensions as: 10.50-inches high by 19-inches wide by 27 inches deep -->
 **Announcement**vref{4}: 1996-01-31a
-**OS-support-vms: OpenVMS V6.2-1H2
+**OS-support-vms: V6.2-1H2
 **FRS-date**htref{1}: March 1996
 **Num-proc: 1
 **CPU-clock**vref{4}: 266MHz
@@ -958,7 +958,7 @@
 
 **Start-systems-entry{AS1000A-5-266}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 1000A 5/266	
-**OS-support-vms: OpenVMS V6.2-1H2
+**OS-support-vms: V6.2-1H2
 **End-systems-entry{AS1000A-5-266}
 
 **Start-systems-entry{AS1000A-5-300}{ALPHA}{AS1000}
@@ -987,7 +987,7 @@
 **Sys-name: AlphaServer 1000A 5/333
 **def-lref{1} = ref{AS1000A-TECHSUM}
 **Def-lref{2} = ref{SPEC-res-96q4}
-**OS-support-vms: OpenVMS V6.2-1H2
+**OS-support-vms: V6.2-1H2
 **Num-proc: 1
 **CPU-clock**vref{1}: 333MHz
 **Backup-cache**vref{1}: 2MB
@@ -1002,7 +1002,7 @@
 **Sys-name: AlphaServer 1000A 5/400
 **def-lref{1} = ref{AS1000A-TECHSUM}
 **Def-lref{2} = ref{SPEC-res-96q4}
-**OS-support-vms: OpenVMS V6.2-1H2
+**OS-support-vms: V6.2-1H2
 **Num-proc: 1
 **CPU-clock**vref{1}: 400MHz
 **Backup-cache**vref{1}: 2MB
@@ -1034,14 +1034,14 @@
 
 **Start-systems-entry{AS1200-5-466}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 1200 5/466	
-**OS-support-vms: OpenVMS V7.1-1H1
+**OS-support-vms: V7.1-1H1
 **End-systems-entry{AS1200-5-466}
 
 !
 **Start-systems-entry{AS1200-5-533}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 1200 5/533	
 **Def-lref{1} = ref{SPEC-res-97q4}
-**OS-support-vms: OpenVMS V7.1-1H1
+**OS-support-vms: V7.1-1H1
 **SPECint95**vref{1}: 16.6
 **SPECfp95**vref{1}: 21.9 (1-CPU) 30.5 (2-CPU)
 **End-systems-entry{AS1200-5-533}
@@ -1117,7 +1117,7 @@
 **Sys-name: AS2000-5/375
 **Desc-name: AlphaServer 2000 5/375
 **Announcement**vref{1}: 1995-08-01
-**OS-support-vms**vref{1}: OpenVMS V6.2
+**OS-support-vms**vref{1}: V6.2
 **OS-support-du**vref{1}: Digital UNIX V3.2B
 **OS-support-nt**vref{1}: Windows NT Server V3.51
 **Num-proc**vref{1}: 1-2
@@ -1132,7 +1132,7 @@
 **Sys-name: AS2000-5/300
 **Desc-name: AlphaServer 2000 5/300
 **Announcement**vref{1}: 1996-01-31
-**OS-support-vms**vref{1}: OpenVMS V6.2
+**OS-support-vms**vref{1}: V6.2
 **OS-support-du**vref{1}: Digital UNIX V3.2B
 **OS-support-nt**vref{1}: Windows NT Server V3.51
 **CPU-clock**vref{1}: 291 MHz
@@ -1158,7 +1158,7 @@
 ! vref{4}: Mentions: The Model A600MP consists of at least one A500MP-R system plus rackmount storage 
 ! The name change was announced 1994-11-03: https://groups.google.com/forum/#!topic/biz.digital.articles/aglT1BMpHf8
 **Announcement**vref{4}: 1994-04-12
-**OS-support-vms**vref{4}: OpenVMS V6.1
+**OS-support-vms**vref{4}: V6.1
 **OS-support-DU**vref{4}: OSF/1 V2.0B (uniprocessor),OSF/1 V3.0 (SMP) 
 **FRS-date**vref{4}: Mid-May 1994
 **Num-proc**vref{3}: 1-4
@@ -1200,7 +1200,7 @@
 **Def-lref{4} = ref{CU-1994-11-03}
 **Sys-name: AlphaServer 2100 4/275
 **Announcement**vref{4}: 1994-11-03
-**OS-support-vms: OpenVMS V6.1
+**OS-support-vms: V6.1
 **Num-proc**vref{3}: 1-4
 **CPU-clock**vref{3}: 275MHz
 **Cache**vref{3}: 16KB-I/16KB-D
@@ -1245,7 +1245,7 @@
 **Def-lref{2} = ref{SPEC-res-9512}
 **Def-lref{3} = ref{CU-1996-01-31}
 **Announcement**vref{3}: {CU-1996-01-31}
-**OS-support-vms**vref{3}: OpenVMS V6.2
+**OS-support-vms**vref{3}: V6.2
 **OS-support-du**vref{3}: Digital UNIX V3.2B
 **OS-support-nt**vref{3}: Windows NT Server V3.51
 ! **CPU-clock**vref{3}: 291 MHz
@@ -1257,7 +1257,7 @@
 
 **Start-systems-entry{AS2100A-4-275}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2100A 4/275	
-**OS-support-vms: OpenVMS V6.2-1H2
+**OS-support-vms: V6.2-1H2
 **Def-lref{1} = ref{CU-1996-01-31}
 **Announcement**vref{1}: 1996-01-31
 **Num-proc**vref{1}: 1-4
@@ -1267,7 +1267,7 @@
 
 **Start-systems-entry{AS2100A-5-250}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2100A 5/250	
-**OS-support-vms: OpenVMS V6.2-1H2
+**OS-support-vms: V6.2-1H2
 **Def-lref{1} = ref{CU-1996-01-31}
 **Announcement**vref{1}: 1996-01-31
 **Num-proc**vref{1}: 1-4
@@ -1277,7 +1277,7 @@
 
 **Start-systems-entry{AS2100A-5-300}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2100A 5/300
-**OS-support-vms: OpenVMS V6.2-1H2
+**OS-support-vms: V6.2-1H2
 **Def-lref{1} = ref{SPEC-res-96q2}
 **Def-lref{2} = ref{CU-1996-01-31}
 **Announcement**vref{2}: 1996-01-31
@@ -1298,7 +1298,7 @@
 
 **Start-systems-entry{AS4000-5-300E}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4000 5/300E	
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **End-systems-entry{AS4000-5-300E}
 
 **Start-systems-entry{AS4000-5-466}{ALPHA}{ALPHASERVER}
@@ -1358,7 +1358,7 @@
 
 **Start-systems-entry{AS4100-5-400}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4100 5/400	
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **Def-lref{1} = ref{SPEC-res-96q4}
 **Def-lref{2} = ref{SPEC-res-96q3}
 **SPECint95**vref{1,2}: 12.1
@@ -1369,7 +1369,7 @@
 **Start-systems-entry{AS4100-5-466}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4100 5/466	
 **Def-lref{1} = ref{SPEC-res-97q1}
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **SPECint95**vref{1}: 14.1
 **SPECfp95**vref{1}: 19.2 (1-CPU) 26.5 (2-CPU) 36.1 (4-CPU)
 **End-systems-entry{AS4100-5-466}
@@ -1425,7 +1425,7 @@
 
 **Start-systems-entry{AS8200-5-350}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8200 5/350
-**OS-support-vms: OpenVMS V6.2
+**OS-support-vms: V6.2
 **Def-lref{1} = ref{SPEC-res-96q1}
 **Def-lref{2} = ref{SPEC-res-96q2}
 **Def-lref{3} = ref{CU-1996-01-31}
@@ -1442,7 +1442,7 @@
 **Def-lref{3} = ref{CU-1996-05-17}
 **Announcement**vref{3}: 1996-05-17
 **FRS-date**vref{3}: 1996-08
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **SPECint95**vref{1}: 13.6
 **SPECfp95**vref{2}: 16.2 (1-CPU) 34.3 (6-CPU)
 !**SPECfp95**vref{2}: 17.0 (1-CPU) differs slightly from earlier figure, slightly different disk config
@@ -1450,7 +1450,7 @@
 
 **Start-systems-entry{AS8200-5-622}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8200 5/622	
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **End-systems-entry{AS8200-5-622}
 
 **Start-systems-entry{AS8200-5-625}{ALPHA}{ALPHASERVER}
@@ -1493,7 +1493,7 @@
 
 **Start-systems-entry{AS8400-5-350}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8400 5/350
-**OS-support-vms: OpenVMS V6.2
+**OS-support-vms: V6.2
 **Def-lref{1} = ref{SPEC-res-96q1}
 **Def-lref{2} = ref{CU-1996-01-31}
 **Announcement**vref{2}: 1996-01-31
@@ -1508,7 +1508,7 @@
 **Def-lref{3} = ref{CU-1996-05-17}
 **Announcement**vref{3}: 1996-05-17
 **FRS-date**vref{3}: 1996-08
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **SPECint95**vref{1}: 13.6
 **SPECfp95**vref{1}: 16.2 (1-CPU) 42.6 (6-CPU)
 !**SPECfp95**vref{2}: 17.0 (1-CPU) differs slightly from earlier figure
@@ -1516,7 +1516,7 @@
 
 **Start-systems-entry{AS8400-5-622}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8400 5/622	
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **End-systems-entry{AS8400-5-622}
 
 **Start-systems-entry{AS8400-5-625}{ALPHA}{ALPHASERVER}
@@ -1539,7 +1539,7 @@
 **Def-lref{1} = ref{SPEC-res-99q2}
 **Def-lref{2} = ref{HPCwire-1999-05-15}
 **Announcement**vref{2}: 1999-05-14
-**OS-support-vms: OpenVMS V7.1-2
+**OS-support-vms: V7.1-2
 **SPECint95**vref{1}: 24.6
 **SPECfp95**vref{1}: 57.7 (1-CPU) 76.3 (2-CPU) 104 (4-CPU)
 **End-systems-entry{DS10}
@@ -1554,14 +1554,14 @@
 ! This looks like a typo for DS10
 !**Start-systems-entry{VS10}{ALPHA}{ALPHASERVER}
 !**Sys-name: AlphaServer VS10
-!**OS-support-vms: OpenVMS V7.1-2
+!**OS-support-vms: V7.1-2
 !**End-systems-entry{VS10}
 
 **Start-systems-entry{ASDS20}{ALPHA}{DS20}
 **Def-lref{1} = ref{EK-AS140-UG.A01}
 **Def-lref{2} = ref{SPEC-res-99q1}
 **Sys-name: AlphaServer DS20
-**OS-support-vms**vref{1}: OpenVMS V7.1-2
+**OS-support-vms**vref{1}: V7.1-2
 **OS-support-du**vref{1}: Digital UNIX V4.0E
 **OS-support-nt**vref{1}: Windows NT v4.0 SP3
 **SPECint95**vref{2}: 27.7
@@ -1582,12 +1582,12 @@
 
 **Start-systems-entry{DS40}{ALPHA}{DS40}
 **Sys-name: AlphaServer DS40
-**OS-support-vms: OpenVMS V7.1-2
+**OS-support-vms: V7.1-2
 **End-systems-entry{DS40}
 
 **Start-systems-entry{ES40}{ALPHA}{ES40}
 **Sys-name: AlphaServer ES40
-**OS-support-vms: OpenVMS V7.1-2
+**OS-support-vms: V7.1-2
 **Def-lref{1} = ref{SPEC-res-99q2}
 **SPECint95**vref{1}: 27.3
 **SPECfp95**vref{1}: 47.9 (1-CPU)
@@ -1621,7 +1621,7 @@
 **Sys-name: AlphaServer ES47
 **Def-lref{1} = ref{HP-PR-2003-01-20}
 **Announcement**vref{1}: 2003-01-20
-**OS-support-vms**vref{1}: OpenVMS V7.3-1
+**OS-support-vms**vref{1}: V7.3-1
 **CPU-chip**vref{1}: EV7
 **End-systems-entry{ES47}
 
@@ -1629,7 +1629,7 @@
 **Sys-name: AlphaServer ES80
 **Def-lref{1} = ref{HP-PR-2003-01-20}
 **Announcement**vref{1}: 2003-01-20
-**OS-support-vms**vref{1}: OpenVMS V7.3-1
+**OS-support-vms**vref{1}: V7.3-1
 **CPU-chip**vref{1}: EV7
 **End-systems-entry{ES80}
 
@@ -1637,7 +1637,7 @@
 **Sys-name: AS-GS60
 **Desc-name: AlphaServer GS60
 **Def-lref{1} = ref{HPCwire-1998-10-23}
-**OS-support-vms: OpenVMS V7.1-2
+**OS-support-vms: V7.1-2
 **CPU-chip**vref{1}: 21264 (EV6)
 **Minimum-memory**vref{1}: 4 GB
 **Maximum-memory**vref{1}: 28 GB
@@ -1661,7 +1661,7 @@
 **Sys-name: AS-GS140
 **Desc-name: AlphaServer GS140
 **Def-lref{1} = ref{HPCwire-1998-10-23}
-**OS-support-vms: OpenVMS V7.1-2
+**OS-support-vms: V7.1-2
 **CPU-chip**vref{1}: 21264 (EV6)
 **Maximum-memory**vref{1}: 28 GB
 **End-systems-entry{GS140}
@@ -1698,7 +1698,7 @@
 **Sys-name: AlphaServer GS1280
 **Def-lref{1} = ref{HP-PR-2003-01-20}
 **Announcement**vref{1}: 2003-01-20
-**OS-support-vms**vref{1}: OpenVMS V7.3-1
+**OS-support-vms**vref{1}: V7.3-1
 **Num-proc**vref{1}: 16
 **CPU-chip**vref{1}: EV7
 **End-systems-entry{GS1280}
@@ -1830,7 +1830,7 @@
 **Last-order**vref{8}: 1996-04-30
 **Last-ship**vref{8}: 1996-06-01
 ! Flowchart has V6.1-1H1
-**OS-support-vms**vref{7}: OpenVMS V6.1-1H2
+**OS-support-vms**vref{7}: V6.1-1H2
 **OS-support-du**vref{7}: DEC OSF/1 V3.2
 **OS-support-nt**vref{7}: Windows NT V3.5
 **Num-proc: 1
@@ -1882,7 +1882,7 @@
 **Announcement**vref{8}: 1994-11-03
 **Last-order**vref{5}: 1995-12-30
 **Last-ship**vref{5}: 1996-06-30
-**OS-support-vms**vref{8}: OpenVMS V6.1-1H1
+**OS-support-vms**vref{8}: V6.1-1H1
 **OS-support-DU**vref{8}: OSF/1 V3.0
 **OS-support-NT**vref{8}: V3.5
 **Num-proc: 1
@@ -1923,7 +1923,7 @@
 **Announcement**vref{8}: 1994-11-03
 **Last-order**vref{9}: 1996-04-30
 **Last-ship**vref{9}: 1996-06-01
-**OS-support-vms**vref{8}: OpenVMS V6.1-1H1
+**OS-support-vms**vref{8}: V6.1-1H1
 **OS-support-DU**vref{8}: OSF/1 V3.0
 **OS-support-NT**vref{8}: V3.5
 **Num-proc: 1
@@ -1962,7 +1962,7 @@
 **FRS-date**vref{4}: 1995-04-11
 **Last-order**vref{5}: 1995-12-30
 **Last-ship**vref{5}: 1996-06-30
-**OS-support-vms**vref{4}: OpenVMS V6.1-1H2
+**OS-support-vms**vref{4}: V6.1-1H2
 ! Flowchart has V6.1-1H1
 **OS-support-du**vref{4}: Digital UNIX V3.2
 **OS-support-nt**vref{4}: Windows NT V3.5
@@ -2102,7 +2102,7 @@
 **Def-lref{1} = ref{CU-1996-03-14}
 **Last-order**vref{1}: 1996-04-30
 **Last-ship**vref{1}: 1996-06-01
-**OS-support-vms: OpenVMS V6.1-1H1
+**OS-support-vms: V6.1-1H1
 **End-systems-entry{AST-400-266}
 
 **Start-systems-entry{AST500-266}{ALPHA}{AlphaStation}
@@ -2168,7 +2168,7 @@
 
 **Start-systems-entry{AST500-400}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 500/400
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **Def-lref{1} = ref{SPEC-res-96q2}
 **SPECint95**vref{1}: 12.3
 **SPECfp95**vref{1}: 14.1
@@ -2180,7 +2180,7 @@
 **Def-lref{1} = ref{SPEC-res-96q3}
 **Def-lref{2} = ref{HPCwire-1996-08-09}
 **Announcement**vref{2}: 1996-08-09
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **Backup-cache**vref{2}: 8 MB
 **Maximum-memory**vref{2}: 512 MB
 **SPECint95**vref{1,2}: 15.0
@@ -2207,7 +2207,7 @@
 **Def-lref{3} = ref{CU-1995-07-15}
 **Announcement**vref{3}: 1995-07-15
 **FRS-date**vref{3}: 1995-07-15
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **CPU-clock**vref{3}: 266 MHz
 **SPECint92**vref{3}: 288
 **SPECfp92**vref{3}: 428
@@ -2226,7 +2226,7 @@
 **Def-lref{2} = ref{CU-1995-07-15}
 **Announcement**vref{2}: 1995-07-15
 **FRS-date**vref{2}: 1995 Q4
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **CPU-clock**vref{2}: 300 MHz
 **SPECint92**vref{2}: 334
 **SPECfp92**vref{2}: 503
@@ -2236,7 +2236,7 @@
 
 **Start-systems-entry{AST600-5-333}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 600 5/333
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **Def-lref{1} = ref{SPEC-res-96q1}
 **Def-lref{2} = ref{SPEC-res-96q2}
 **Def-lref{3} = ref{CU-1996-02-27}
@@ -2249,12 +2249,12 @@
 
 **Start-systems-entry{AST-600A-5-500}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 600A 5/500	
-**OS-support-vms: OpenVMS V6.2-1H3
+**OS-support-vms: V6.2-1H3
 **End-systems-entry{AST-600A-5-500}
 
 **Start-systems-entry{AB1}{ALPHA}{ALPHABOOK}
 **Sys-name: AlphaBook 1
-**OS-support-vms: OpenVMS V6.2-1H1
+**OS-support-vms: V6.2-1H1
 **End-systems-entry{AB1}
 
 **Start-systems-entry{AXPpci33}{ALPHA}{AXPPCI}
@@ -2280,7 +2280,7 @@
 
 **Start-systems-entry{CS1000}{ALPHA}{CPQPCI}
 **Sys-name: CompaqPCI CS1000
-**OS-support-vms: OpenVMS V7.1-2
+**OS-support-vms: V7.1-2
 **End-systems-entry{CS1000}
 
 **Start-systems-entry{XP900}{ALPHA}{ALPHAXP}
@@ -2311,7 +2311,7 @@
 **Start-systems-entry{DPWS-5-433au}{ALPHA}{DPWS}
 **Sys-name: DPWS 5/433au
 **Def-lref{1} = ref{SPEC-res-97q2}
-**OS-support-vms: OpenVMS V7.1-1H1
+**OS-support-vms: V7.1-1H1
 **SPECint95**vref{1}: 13.9 
 **SPECfp95**vref{1}: 18.1 
 **End-systems-entry{DPWS-5-433au}
@@ -2326,7 +2326,7 @@
 **Start-systems-entry{DPWS-5-500au}{ALPHA}{DPWS}
 **Sys-name: DPWS 5/500au
 **Def-lref{1} = ref{SPEC-res-97q2}
-**OS-support-vms: OpenVMS V7.1-1H1
+**OS-support-vms: V7.1-1H1
 **SPECint95**vref{1}: 15.7 
 **SPECfp95**vref{1}: 19.5 
 **End-systems-entry{DPWS-5-500au}
@@ -2341,7 +2341,7 @@
 **Start-systems-entry{DPWS-5-600au}{ALPHA}{DPWS}
 **Sys-name: DPWS 5/600au
 **Def-lref{1} = ref{SPEC-res-97q2}
-**OS-support-vms: OpenVMS V7.1-1H1
+**OS-support-vms: V7.1-1H1
 **SPECint95**vref{1}: 18.4 
 **SPECfp95**vref{1}: 21.3 
 **End-systems-entry{DPWS-5-600au}

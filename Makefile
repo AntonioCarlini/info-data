@@ -22,6 +22,7 @@ SCRIPTS += scripts/systems-info-to-yaml.rb
 SCRIPTS += scripts/systems-yaml-to-infobox-data.rb
 SCRIPTS += scripts/systems-yaml-to-infobox-mediawiki.rb
 SCRIPTS += scripts/systems-yaml-to-mediawiki.rb
+SCRIPTS += scripts/systems-yaml-to-os-release.rb
 
 GLOBAL_DEPENDENCIES += $(SCRIPTS)
 
@@ -40,6 +41,8 @@ all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).mediawiki.txt)
 all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).infobox.mediawiki.txt)
 
 all: $(foreach SYS,$(SYSTEMS),bin/infobox-$(SYS)-data.mediawiki.txt)
+
+all: $(foreach SYS,alpha vax,bin/$(SYS).os-release.txt)
 
 .PHONY: all
 
@@ -119,6 +122,12 @@ bin/pdp11.infobox.mediawiki.txt: $(YAML_OUTPUT)/pdp11.yaml $(REFS) $(GLOBAL_DEPE
 
 bin/vax.infobox.mediawiki.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-infobox-mediawiki.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
+
+bin/alpha.os-release.txt: $(YAML_OUTPUT)/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-os-release.rb alpha $< $(REFS) > $@
+
+bin/vax.os-release.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-os-release.rb vax $< $(REFS) > $@
 
 clean:
 	@rm -f bin/*
