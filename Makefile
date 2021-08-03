@@ -12,6 +12,7 @@ PUBS = $(YAML_OUTPUT)/pubs.yaml
 
 TAGS.SYSTEMS = scripts/systems-tags.yaml
 
+SCRIPTS += scripts/ClassTrackLocalReferences.rb
 SCRIPTS += scripts/DataPubTxt.rb
 SCRIPTS += scripts/DataRefInfo.rb
 SCRIPTS += scripts/DataSystemsInfo.rb

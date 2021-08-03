@@ -21,6 +21,7 @@
 require "pathname.rb"
 $LOAD_PATH.unshift(Pathname.new(__FILE__).realpath().dirname().dirname().dirname() + "libs" + "ruby")
 
+require_relative "ClassTrackLocalReferences.rb"
 require_relative "DataTags.rb"
 
 require "yaml"
@@ -54,6 +55,8 @@ def main
   # Load the systems YAML information
   systems = YAML.load_file(sys_yaml)
 
+  local_refs = TrackLocalReferences.new()
+
   # systems will be a hash of {system name => properties-hash} 
   # properties-hash will be {property => array-of-values}
   # array-of-values[0] will be the value, [1] onwards will be references.
@@ -75,18 +78,30 @@ def main
       name = "UNKNOWN" if name.nil?() || name.empty?()
     end
 
+
+
     vms_support_name_array = properties["OS-support-VMS"]
     vms_support_early_name_array = properties["OS-support-VMS-early"]
     vms_support_end_name_array = properties["OS-support-VMS-end"]
 
     vms_start = ""
-    vms_start = vms_support_early_name_array[0] unless vms_support_early_name_array.nil?()
+    unless vms_support_early_name_array.nil?()
+      value = vms_support_early_name_array.shift()
+      ref_text = local_refs.build_local_refs(vms_support_early_name_array, refs)
+      vms_start = "#{value}#{ref_text}"
+    end
     unless vms_support_name_array.nil?()
+      value = vms_support_name_array.shift()
+      ref_text = local_refs.build_local_refs(vms_support_name_array, refs)
       vms_start += ", " unless vms_start.empty?()
-      vms_start += vms_support_name_array[0]
+      vms_start += "#{value}#{ref_text}"
     end
     vms_end = ""
-    vms_end = vms_support_end_name_array[0] unless vms_support_end_name_array.nil?()
+    unless vms_support_end_name_array.nil?()
+      value = vms_support_end_name_array.shift()
+      ref_text = local_refs.build_local_refs(vms_support_end_name_array, refs)
+      vms_end = "#{value}#{ref_text}"
+    end
     results[name] = OsSupport.new(vms_start, vms_end)
   }
 
@@ -108,6 +123,29 @@ def main
   }
 
   puts(%Q[|}])
+  puts()
+
+  unless local_refs.empty?()
+    puts("== References ==")
+    puts()
+    ref_text_array = []
+    local_refs.each_ref() {
+      |key, value|
+      index = value[0]
+      properties = value[1]
+      entry = ""
+      entry += "[#{properties['url']} " unless properties['url'].nil?()
+      entry += properties['title']
+      entry += "]" unless properties['url'].nil?()
+      entry += ". " + properties['part-no'] unless properties['part-no'].nil?()
+      entry += ". " + properties['author'] unless properties['author'].nil?()
+      entry += ". " + properties['date'] unless properties['date'].nil?()
+      entry += ". ISBN " + properties['isbn'] unless properties['isbn'].nil?()
+      ref_text_array << %Q% <div id="ref_#{index}">[#{index}] #{entry}</div>%
+    }
+    ref_text_array.each() { |line| puts(line) }
+  end
+
   puts()
   puts("[[Category:OpenVMS]]")
 end
