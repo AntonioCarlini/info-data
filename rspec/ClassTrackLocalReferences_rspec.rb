@@ -1,7 +1,7 @@
 require "pathname.rb"
-$LOAD_PATH.unshift(Pathname.new(__FILE__).realpath().dirname() + "../scripts")
+$LOAD_PATH.unshift(Pathname.new(__FILE__).realpath().dirname().dirname())
 
-require "ClassTrackLocalReferences.rb"
+require "scripts/ClassTrackLocalReferences.rb"
 
 describe TrackLocalReferences do
 
