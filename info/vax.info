@@ -18,6 +18,19 @@
 !**def-lref{7} = ref{4500-6600-PERF-SUMM}
 !**TPC-A**htref{7}: 62.4
 
+**Start-systems-entry{VAX4050}{VAX}{VAX4000}
+**Sys-name: VAX 4000-50
+**Desc-name: VAX 4000 Model 50
+**Def-lref{1} = ref{DEC-PR-1994-03-14-VAX4050}
+**Announcement**vref{1}: 1994-03-14
+**OS-support-VMS-early**vref{1}: V5.5-2
+**OS-support-VMS**vref{1}: V6.1
+**CPU-chip**vref{1}: NVAX
+**VUPs**vref{1}: 20
+**Minimum-memory**vref{1}: 16MB
+**Maximum-memory**vref{1}: 128MB
+**End-systems-entry{VAX4105}
+
 **Start-systems-entry{VAX4100}{VAX}{VAX4000}
 **Def-lref{1} = ref{EK-467AA-TI.A01}
 **Def-lref{2} = ref{EK-473AB-MG.C01}
@@ -2189,7 +2202,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-83XUP-IN-001} ! VAX 8200 to VAX 8350 and VAX 8250 to VAX 8350 Upgrade Procedures
 **Announcement**uref{%SCORPIO:115.*}: 2 March 1987
 **Codename**uref{*102}: Sargas
-**OS-support-VMS**vref{2}: VMS V4.5
+**OS-support-VMS**vref{2}: V4.5
 ! Flowchart has V4.6
 **OS-support-ULTRIX**vref{2}: ULTRIX V2.0
 **CPU-module**vref{2}: KA825
@@ -2249,7 +2262,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**uref{*102}: Sargas
 **Html-target: vax8250
 ! Flowchart has V4.6
-**OS-support-VMS**vref{2}: VMS V4.5
+**OS-support-VMS**vref{2}: V4.5
 **OS-support-ULTRIX**vref{2}: ULTRIX V2.0
 !**CPU-module**vref{1}: KA825
 **CPU-module**vref{2}: KA825
@@ -4073,7 +4086,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Announcement**vref{4}: 1986-04-07
 **FRS-date: May 1986					
 **Codename**uref{*102}: Flounder
-**OS-support-VMS**uref{*26}: VMS V4.4
+**OS-support-VMS**uref{*26}: V4.4
 **Num-proc**vref{3}: 1
 **CPU-technology**vref{3}: ECL Gate Array
 **CPU-cycle**vref{1,3}: 45ns
@@ -4124,7 +4137,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !-- *33 8530 is 8500 with patched ucode -->
 **Announcement**uref{*102}: March 1987
 **Html-target: vax8500
-**OS-support-VMS**uref{*26}: VMS V4.6
+**OS-support-VMS**uref{*26}: V4.6
 **SID: 0683536D
 **XSID : 070009F9
 **Num-proc**htref{*3}: 1
@@ -4182,8 +4195,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **FRS-date**uref{*102}: May 1986					
 **Codename**vref{7}: Skipjack
 **Html-target: vax8500
-!**OS-support-VMS**uref{*26}: VMS V4.4
-**OS-support-VMS**vref{5}: VMS V4.4
+**OS-support-VMS**vref{5}: V4.4
 **Num-proc**vref{3}: 1
 **CPU-technology**vref{3}: ECL Gate Array
 **CPU-cycle**vref{3}: 45ns
@@ -4234,8 +4246,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:VAX 88X0} ! VAX 88x0/8700/85x0 Information
 **Announcement**vref{6}: 1986-08-05
 **Codename**vref{7}: Nautilus
-!**OS-support-VMS**uref{*26}: VMS V4.4
-**OS-support-VMS**vref{5}: VMS V4.4
+**OS-support-VMS**vref{5}: V4.4
 **CPU-module: KA88
 **Num-proc**vref{3}: 1
 **CPU-technology**vref{3}: ECL Gate Array
@@ -4293,7 +4304,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **FRS-date**uref{*37}: February 1986
 **Codename**uref{*37}: Nautilus
 **Html-target: vax8700
-**OS-support-VMS**uref{*26}: VMS V4.4
+**OS-support-VMS**uref{*26}: V4.4
 **CPU-module: KA88
 **VMS-CPU: 6
 **VMS-XCPU: 0
@@ -5032,7 +5043,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-A0719-TM-C01} ! MicroVAX 3100 Model 85/95/96 Troubleshooting & Diagnostics Info
 **Announcement**vref{6}: 1995-04-11
 **FRS-date**htref{4}: 19 May 1995
-**OS-support-VMS: VMS V5.5-2H4
+**OS-support-VMS: V5.5-2H4
 **Html-target: uv319x
 **CPU-module**vref{2}: KA56
 **Num-proc: 1
