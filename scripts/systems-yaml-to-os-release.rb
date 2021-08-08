@@ -21,28 +21,12 @@
 require "pathname.rb"
 $LOAD_PATH.unshift(Pathname.new(__FILE__).realpath().dirname().dirname().dirname() + "libs" + "ruby")
 
+require_relative "ClassOsSupport.rb"
+require_relative "ClassItemWithReferenceKeys.rb"
 require_relative "ClassTrackLocalReferences.rb"
 require_relative "DataTags.rb"
 
 require "yaml"
-
-# Sort out references
-# Add any other page data such as Category
-
-
-# OsVersionsTracker
-#
-# This class tracks start and end OS support versions for a given system.
-# Currently only OpenVMS is supported, but that may change in the future.
-class OsSupport
-  attr_reader  :support_start
-  attr_reader  :support_end
-
-  def initialize(start_version, end_version)
-    @support_start = start_version
-    @support_end = end_version
-  end
-end
 
 def main
   sys_type = ARGV.shift()    # This might be 'vax' or 'alpha' etc.
@@ -78,31 +62,19 @@ def main
       name = "UNKNOWN" if name.nil?() || name.empty?()
     end
 
+    early_support = nil
+    early_property = properties["OS-support-VMS-early"]
+    early_support = ItemWithReferenceKeys.new(early_property) unless early_property.nil?()
 
+    start_support = nil
+    start_property = properties["OS-support-VMS"]
+    start_support = ItemWithReferenceKeys.new(start_property) unless start_property.nil?()
+    
+    end_support = nil
+    end_property = properties["OS-support-VMS-end"]
+    end_support = ItemWithReferenceKeys.new(end_property) unless end_property.nil?()
 
-    vms_support_name_array = properties["OS-support-VMS"]
-    vms_support_early_name_array = properties["OS-support-VMS-early"]
-    vms_support_end_name_array = properties["OS-support-VMS-end"]
-
-    vms_start = ""
-    unless vms_support_early_name_array.nil?()
-      value = vms_support_early_name_array.shift()
-      ref_text = local_refs.build_local_refs(vms_support_early_name_array, refs)
-      vms_start = "#{value}#{ref_text}"
-    end
-    unless vms_support_name_array.nil?()
-      value = vms_support_name_array.shift()
-      ref_text = local_refs.build_local_refs(vms_support_name_array, refs)
-      vms_start += ", " unless vms_start.empty?()
-      vms_start += "#{value}#{ref_text}"
-    end
-    vms_end = ""
-    unless vms_support_end_name_array.nil?()
-      value = vms_support_end_name_array.shift()
-      ref_text = local_refs.build_local_refs(vms_support_end_name_array, refs)
-      vms_end = "#{value}#{ref_text}"
-    end
-    results[name] = OsSupport.new(vms_start, vms_end)
+    results[name] = OsSupport.new(early_support, start_support, end_support).build_text(local_refs, refs)
   }
 
   # Run through the systems in alphabetic order and display the results.
@@ -119,7 +91,7 @@ def main
   results.keys().sort().each() {
     |name|
     puts("|-")
-    puts("| #{name} || #{results[name].support_start()} || #{results[name].support_end()}")
+    puts("| #{name} || #{results[name].os_begin_support()} || #{results[name].os_finish_support()}")
   }
 
   puts(%Q[|}])
