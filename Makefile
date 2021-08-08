@@ -43,7 +43,7 @@ all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).infobox.mediawiki.txt)
 
 all: $(foreach SYS,$(SYSTEMS),bin/infobox-$(SYS)-data.mediawiki.txt)
 
-all: $(foreach SYS,alpha vax,bin/$(SYS).os-release.txt)
+all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).os-release.txt)
 
 .PHONY: all
 
@@ -126,6 +126,15 @@ bin/vax.infobox.mediawiki.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDEN
 
 bin/alpha.os-release.txt: $(YAML_OUTPUT)/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-os-release.rb alpha $< $(REFS) > $@
+
+bin/mips.os-release.txt: $(YAML_OUTPUT)/mips.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-os-release.rb decmips $< $(REFS) > $@
+
+bin/pc.os-release.txt: $(YAML_OUTPUT)/pc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-os-release.rb pc $< $(REFS) > $@
+
+bin/pdp11.os-release.txt: $(YAML_OUTPUT)/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-os-release.rb pdp11 $< $(REFS) > $@
 
 bin/vax.os-release.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-os-release.rb vax $< $(REFS) > $@

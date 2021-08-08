@@ -1828,7 +1828,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Announcement**vref{3}: 1984-04-03
 **Codename**vref{4}: Superstar
 **OS-support-VMS**uref{*26}: V3.4
-**OS-support-ULTRIX**uref{*12}: Ultrix V1.0
+**OS-support-ULTRIX**uref{*12}: V1.0
 **CPU-name-VMS: KA785
 **Num-proc: 1
 **CPU-technology**vref{1}: Advanced Schottky
@@ -2204,7 +2204,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**uref{*102}: Sargas
 **OS-support-VMS**vref{2}: V4.5
 ! Flowchart has V4.6
-**OS-support-ULTRIX**vref{2}: ULTRIX V2.0
+**OS-support-ULTRIX**vref{2}: V2.0
 **CPU-module**vref{2}: KA825
 **Module: T1001-YA
 **CPU-name-VMS: KA825
@@ -2263,7 +2263,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Html-target: vax8250
 ! Flowchart has V4.6
 **OS-support-VMS**vref{2}: V4.5
-**OS-support-ULTRIX**vref{2}: ULTRIX V2.0
+**OS-support-ULTRIX**vref{2}: V2.0
 !**CPU-module**vref{1}: KA825
 **CPU-module**vref{2}: KA825
 **Module: T1001-YA
@@ -3640,7 +3640,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Last-order**vref{8}: 1990-03-31
 **Codename**vref{9}: Mayfair
 **OS-support-VMS**vref{6}: V4.7A
-**OS-support-ULTRIX**htref{4}: ULTRIX V2.2
+**OS-support-ULTRIX**htref{4}: V2.2
 **CPU-module**vref{3}: KA650
 **Module: M7620
 **Firmware-version**uref{personally verified}: V5.3

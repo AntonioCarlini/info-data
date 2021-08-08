@@ -35,7 +35,7 @@
 **Def-lref{12} = ref{SUE-1994-06}
 **Codename: Jensen
 **OS-support-VMS: V1.5-1H1
-**OS-support-NT**vref{8}: 3.1
+**OS-support-NT**vref{8}: V3.1
 **Num-proc**vref{5}: 1
 **Module**vref{5}: PB22H-KB
 **CPU-technology: CMOS
@@ -185,7 +185,7 @@
 **Last-order**vref{8}: 1995-12-30
 **Last-ship**vref{8}: 1996-03-01
 **OS-support-VMS**vref{6}: OpenVMS AXP V1.5
-**OS-support-DU**vref{6}: OSF/1 V1.3a
+**OS-support-DU**vref{6}: DEC OSF/1 V1.3a
 **CPU-module: KN16-CA
 **Module**vref{2}: 54-22257-03
 **System-module**vref{2}: 54-22249-01
@@ -225,7 +225,7 @@
 **Def-lref{7} = ref{CU-1995-04-15}
 **Last-order**vref{7}: 1995-06-23
 **OS-support-VMS**vref{6}: OpenVMS AXP V1.5
-**OS-support-DU**vref{6}: OSF/1 V1.3a
+**OS-support-DU**vref{6}: DEC OSF/1 V1.3a
 **CPU-module: KN16-DA
 **Module**vref{2}: 54-22257-04
 **System-module**vref{2}: 54-22249-01
@@ -480,7 +480,7 @@
 **Last-order**vref{9}: 1996-03-30
 !**Last-ship**vref{8}: 1996-03-01
 **Last-ship**vref{9}: 1996-06-01
-**OS-support-vms**vref{6}: OpenVMS AXP V6.1
+**OS-support-vms**vref{6}: V6.1
 **OS-support-du**vref{6}: DEC OSF/1 AXP V2.1
 **CPU-module: KN17-BB
 **CPU-name-vms: KN17-BB
@@ -575,7 +575,7 @@
 **Last-order**vref{9}: 1996-03-30
 !**Last-ship**vref{8}: 1996-03-01
 **Last-ship**vref{8}: 1996-06-01
-**OS-support-vms**vref{6}: OpenVMS AXP V6.1
+**OS-support-vms**vref{6}: V6.1
 **OS-support-du**vref{6}: DEC OSF/1 AXP V2.1
 **Codename: Flamingo45
 **CPU-module: KN17-AB
@@ -712,7 +712,7 @@
 **Def-lref{3} = ref{CU-1994-11-03}
 **Sys-name: DEC 7000 Model 700 series
 **Announcement**vref{3}: 1994-11-03
-**OS-support-vms**vref{3}: OpenVMS AXP V6.1
+**OS-support-vms**vref{3}: V6.1
 **OS-support-du**vref{3}: DEC OSF/1 V3.0
 **Num-proc**vref{2}: 1-6
 **CPU-technology: CMOS
@@ -743,7 +743,7 @@
 ! vref{x1} => 512MB max 8SIMM slots PCI 132MB/s ISA 16MB/s 1PCI, 1 ISA, 1 PCI/ISA
 **Sys-name: AlphaServer 300 4/266
 **Announcement**htref{1}: 15 November 1996
-**OS-support-vms**vref{4}: OpenVMS AXP V6.2-1H1
+**OS-support-vms**vref{4}: V6.2-1H1
 !**OS-support-vms: OpenVMS V6.2-1H3 try to double check against an SPD?
 ! vref{2} = chipset 21072-AA
 **Codename: Melmac
@@ -858,7 +858,7 @@
 **Announcement**vref{5}: 1994-11-03
 **Last-order**vref{6}: Past
 **OS-support-vms**vref{5}: V6.1-1H2
-**OS-support-du**vref{5}: OSF/1 V3.0b
+**OS-support-du**vref{5}: DEC OSF/1 V3.0b
 **Num-proc**vref{4}: 1
 **CPU-clock**vref{4}: 200MHz
 **Cache**vref{4}: 8KB-I/8KB-D
@@ -1053,9 +1053,9 @@
 **Def-lref{3} = ref{SOC-JAN1995}
 **Def-lref{4} = ref{CU-1994-11-03}
 **Announcement**htref{4}: 1994-11-03
-**OS-support-vms**vref{4}: OpenVMS Alpha V6.1
+**OS-support-vms**vref{4}: V6.1
 **OS-support-du**htref{4}: DEC OSF/1 V3.0
-**OS-support-nt**htref{4}: Windows NT Server V3.5
+**OS-support-nt**htref{4}: V3.5
 **Num-proc**vref{3}: 1-2
 **CPU-clock**vref{3}: 190MHz
 **Cache**vref{3}: 8KB-I/8KB-D		
@@ -1081,9 +1081,9 @@
 **FRS-date**vref{3}: 1995-04-11
 **Last-order**vref{4}: 1996-06-28
 **Last-ship**vref{4}: 1996-09-27
-**OS-support-vms**vref{3}: OpenVMS Alpha V6.1
+**OS-support-vms**vref{3}: V6.1
 **OS-support-du**vref{3}: Digital UNIX V3.2
-**OS-support-nt**vref{3}: Windows NT Server V3.5
+**OS-support-nt**vref{3}: V3.5
 **Num-proc: 1-2
 **CPU-chip**vref{3}: DECchip 21064A
 **CPU-clock**vref{3}: 233MHz
@@ -1099,9 +1099,9 @@
 **Def-lref{3} = ref{CU-1995-04-11}
 **Announcement**vref{3}: 1995-04-11
 **FRS-date**vref{3}: 1995-04-11
-**OS-support-vms**vref{3}: OpenVMS Alpha V6.1
+**OS-support-vms**vref{3}: V6.1
 **OS-support-du**vref{3}: Digital UNIX V3.2
-**OS-support-nt**vref{3}: Windows NT Server V3.5
+**OS-support-nt**vref{3}: V3.5
 **Num-proc**vref{3}: 1-2
 **CPU-chip**vref{3}: DECchip 21064A
 **CPU-clock**vref{3}: 275MHz
@@ -1119,7 +1119,7 @@
 **Announcement**vref{1}: 1995-08-01
 **OS-support-vms**vref{1}: V6.2
 **OS-support-du**vref{1}: Digital UNIX V3.2B
-**OS-support-nt**vref{1}: Windows NT Server V3.51
+**OS-support-nt**vref{1}: V3.51
 **Num-proc**vref{1}: 1-2
 **CPU-clock**vref{1}: 250 MHz
 **CPU-chip**vref{1}: DECchip 21164
@@ -1134,7 +1134,7 @@
 **Announcement**vref{1}: 1996-01-31
 **OS-support-vms**vref{1}: V6.2
 **OS-support-du**vref{1}: Digital UNIX V3.2B
-**OS-support-nt**vref{1}: Windows NT Server V3.51
+**OS-support-nt**vref{1}: V3.51
 **CPU-clock**vref{1}: 291 MHz
 **CPU-chip**vref{1}: DECchip 21164
 **End-systems-entry{AS2000-5-300}
@@ -1159,7 +1159,7 @@
 ! The name change was announced 1994-11-03: https://groups.google.com/forum/#!topic/biz.digital.articles/aglT1BMpHf8
 **Announcement**vref{4}: 1994-04-12
 **OS-support-vms**vref{4}: V6.1
-**OS-support-DU**vref{4}: OSF/1 V2.0B (uniprocessor),OSF/1 V3.0 (SMP) 
+**OS-support-DU**vref{4}: DEC OSF/1 V2.0B (uniprocessor), DEC OSF/1 V3.0 (SMP) 
 **FRS-date**vref{4}: Mid-May 1994
 **Num-proc**vref{3}: 1-4
 **CPU-clock**vref{3}: 190MHz
@@ -1222,9 +1222,9 @@
 **Def-lref{3} = ref{CU-1995-04-11}
 **Announcement**vref{3}: 1995-04-11
 **FRS-date**vref{3}: 1995-05
-**OS-support-vms**vref{3}: OpenVMS Alpha V6.2
+**OS-support-vms**vref{3}: V6.2
 **OS-support-du**vref{3}: Digital UNIX V3.2B
-**OS-support-nt**vref{3}: Windows NT Server V3.51
+**OS-support-nt**vref{3}: V3.51
 **Num-proc**vref{3}: 1-4
 **CPU-chip**vref{3}: DECchip 21164
 **CPU-clock**vref{3}: 250MHz
@@ -1247,7 +1247,7 @@
 **Announcement**vref{3}: {CU-1996-01-31}
 **OS-support-vms**vref{3}: V6.2
 **OS-support-du**vref{3}: Digital UNIX V3.2B
-**OS-support-nt**vref{3}: Windows NT Server V3.51
+**OS-support-nt**vref{3}: V3.51
 ! **CPU-clock**vref{3}: 291 MHz
 **CPU-clock: 300MHz
 **CPU-chip**vref{3}: DECchip 21164
@@ -1291,7 +1291,7 @@
 **Start-systems-entry{AS2100A-5-375}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2100A 5/375	
 **Def-lref{1} = ref{SPEC-res-96q4}
-**OS-support-vms: No support
+**OS-support-vms: not supported
 **SPECint95**vref{1}: 11.5
 **SPECfp95**vref{1}: 15.1 (1-CPU) 20.7 (2-CPU) 27.3 (4-CPU)
 **End-systems-entry{AS2100A-5-375}
@@ -1328,9 +1328,9 @@
 **Def-lref{2} = ref{CU-1996-05-17}
 **Announcement**vref{2}: 1996-05-17
 **FRS-date**vref{2}: 1996-05-17
-**OS-support-vms**vref{2}: OpenVMS Alpha V6.2-1H3
+**OS-support-vms**vref{2}: V6.2-1H3
 **OS-support-du**vref{2}: DEC OSF/1 V3.2F
-**OS-support-nt**vref{2}: Windows NT Server V3.51
+**OS-support-nt**vref{2}: V3.51
 **Num-proc**vref{2}: 1-4
 **CPU-clock**vref{2}: 300MHz
 **Backup-cache**vref{2}: 2 MB
@@ -1345,9 +1345,9 @@
 **Def-lref{2} = ref{CU-1996-05-17}
 **Announcement**vref{2}: 1996-05-17
 **FRS-date**vref{2}: 1996-05-17
-**OS-support-vms**vref{2}: OpenVMS Alpha V6.2-1H3
+**OS-support-vms**vref{2}: V6.2-1H3
 **OS-support-du**vref{2}: DEC OSF/1 V3.2F
-**OS-support-nt**vref{2}: Windows NT Server V3.51
+**OS-support-nt**vref{2}: V3.51
 **Num-proc**vref{2}: 1-4
 **Maximum-memory**vref{2}: 4 GB
 **CPU-clock**vref{2}: 300MHz
@@ -1563,7 +1563,7 @@
 **Sys-name: AlphaServer DS20
 **OS-support-vms**vref{1}: V7.1-2
 **OS-support-du**vref{1}: Digital UNIX V4.0E
-**OS-support-nt**vref{1}: Windows NT v4.0 SP3
+**OS-support-nt**vref{1}: V4.0 SP3
 **SPECint95**vref{2}: 27.7
 **SPECfp95**vref{2}: 58.7 (1-CPU) 76.1 (2-CPU)
 **Dimensions-start{DS20}
@@ -1713,7 +1713,7 @@
 **Announcement**vref{3}: 1995-10-01
 **Last-order**vref{4}: 1996-03-22
 **Last-ship**vref{4}: 1996-04-26
-**OS-support-nt**vref{3}: Windows NT V3.51
+**OS-support-nt**vref{3}: V3.51
 **Num-proc: 1
 **Backup-cache**htref{1}: 512KB
 **Maximum-memory**vref{2}: 384MB
@@ -1734,7 +1734,7 @@
 **def-lref{1} = ref{EK-ALXLA-UG.D01}
 **def-lref{2} = ref{CU-1995-10-01}
 **Announcement**vref{2}: 1995-10-01
-**OS-support-nt**vref{2}: Windows NT V3.51
+**OS-support-nt**vref{2}: V3.51
 **Num-proc: 1
 **Maximum-memory**vref{1}: 384MB
 **BUS-PCI**vref{1}: 2 slot
@@ -1832,7 +1832,7 @@
 ! Flowchart has V6.1-1H1
 **OS-support-vms**vref{7}: V6.1-1H2
 **OS-support-du**vref{7}: DEC OSF/1 V3.2
-**OS-support-nt**vref{7}: Windows NT V3.5
+**OS-support-nt**vref{7}: V3.5
 **Num-proc: 1
 **CPU-chip**vref{7}: DECchip 21064
 **CPU-clock**vref{7}: 100MHz
@@ -1883,7 +1883,7 @@
 **Last-order**vref{5}: 1995-12-30
 **Last-ship**vref{5}: 1996-06-30
 **OS-support-vms**vref{8}: V6.1-1H1
-**OS-support-DU**vref{8}: OSF/1 V3.0
+**OS-support-DU**vref{8}: DEC OSF/1 V3.0
 **OS-support-NT**vref{8}: V3.5
 **Num-proc: 1
 **CPU-chip**htref{3}: DECchip 21064
@@ -1924,7 +1924,7 @@
 **Last-order**vref{9}: 1996-04-30
 **Last-ship**vref{9}: 1996-06-01
 **OS-support-vms**vref{8}: V6.1-1H1
-**OS-support-DU**vref{8}: OSF/1 V3.0
+**OS-support-DU**vref{8}: DEC OSF/1 V3.0
 **OS-support-NT**vref{8}: V3.5
 **Num-proc: 1
 **CPU-chip**htref{3}: DECchip 21064A
@@ -1965,7 +1965,7 @@
 **OS-support-vms**vref{4}: V6.1-1H2
 ! Flowchart has V6.1-1H1
 **OS-support-du**vref{4}: Digital UNIX V3.2
-**OS-support-nt**vref{4}: Windows NT V3.5
+**OS-support-nt**vref{4}: V3.5
 **Num-proc: 1
 **CPU-chip**htref{1}: DECchip 21064A
 **CPU-clock**htref{1}: 266MHz
@@ -2003,10 +2003,10 @@
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1996-03-14}
 **Announcement**vref{3}: 1996-03-12
-**OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
+**OS-support-vms**htref{1}: V6.2-1H1
 ! Flowchart has V6.2-1H2
 **OS-support-du**htref{1}: Digital UNIX V3.2D
-**OS-support-nt**htref{1}: Windows NT V3.51
+**OS-support-nt**htref{1}: V3.51
 **Num-proc: 1
 **CPU-chip**htref{1}: DECchip 21064A
 **CPU-clock**vref{3}: 233MHz
@@ -2039,10 +2039,10 @@
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1996-03-14}
 **Announcement**vref{3}: 1996-03-12
-**OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
+**OS-support-vms**htref{1}: V6.2-1H1
 ! Flowchart has V6.2-1H2
 **OS-support-du**htref{1}: Digital UNIX V3.2D
-**OS-support-nt**htref{1}: Windows NT V3.51
+**OS-support-nt**htref{1}: V3.51
 **Num-proc: 1
 **CPU-chip**htref{1}: DECchip 21064A
 **CPU-clock**vref{3}: 300MHz
@@ -2078,9 +2078,9 @@
 **Announcement**vref{3}: 1994-11-03
 **Last-order**vref{4}: 1996-04-30
 **Last-ship**vref{4}: 1996-06-01
-**OS-support-vms**htref{3}: OpenVMS AXP V6.1-1H1
+**OS-support-vms**htref{3}: V6.1-1H1
 **OS-support-du**htref{3}: DEC OSF/1 V3.0
-**OS-support-nt**htref{3}: Windows NT V3.5
+**OS-support-nt**htref{3}: V3.5
 **Codename: TurboAvanti
 **Num-proc: 1
 **CPU-chip**htref{2}: DECchip 21064A
@@ -2111,9 +2111,9 @@
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1996-03-14}
 **Announcement**vref{3}: 1996-03-12
-**OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
+**OS-support-vms**htref{1}: V6.2-1H1
 **OS-support-du**htref{1}: Digital UNIX V3.2D
-**OS-support-nt**htref{1}: Windows NT V3.51
+**OS-support-nt**htref{1}: V3.51
 **Num-proc: 1
 **CPU-chip**vref{3}: DECchip 21164
 **CPU-clock**vref{3}: 266MHz
@@ -2141,10 +2141,10 @@
 **def-lref{2} = ref{SPEC-res-96q2}
 **Def-lref{3} = ref{CU-1996-03-14}
 **Announcement**vref{3}: 1996-03-12
-**OS-support-vms**htref{1}: OpenVMS Alpha V6.2-1H1
+**OS-support-vms**htref{1}: V6.2-1H1
 ! Flowchart has V6.2-1H3
 **OS-support-du**htref{1}: Digital UNIX V3.2D
-**OS-support-nt**htref{1}: Windows NT V3.51
+**OS-support-nt**htref{1}: V3.51
 **Num-proc: 1
 **CPU-chip**vref{3}: DECchip 21164
 **CPU-clock**vref{3}: 333MHz
@@ -2264,7 +2264,6 @@
 
 **Start-systems-entry{AVME-5-352}{ALPHA}{ALPHAVME}
 **Sys-name: Alpha VME 5/352
-**OS-support-vms: OpenVMS 
 **Def-lref{1} = ref{SPEC-res-98q1}
 **SPECint95**vref{1}: 10.7
 **SPECfp95**vref{1}: 13.8
@@ -2272,7 +2271,6 @@
 
 **Start-systems-entry{AVME-5-480}{ALPHA}{ALPHAVME}
 **Sys-name: Alpha VME 5/480
-**OS-support-vms: OpenVMS 
 **Def-lref{1} = ref{SPEC-res-98q1}
 **SPECint95**vref{1}: 13.6
 **SPECfp95**vref{1}: 15.2
@@ -2372,7 +2370,6 @@
 
 **Start-systems-entry{DS3305-6500A}{ALPHA}{DIGITALSERVER}
 **Sys-name: DIGITAL Server 3305 6500A
-**OS-support-vms: OpenVMS 
 **Def-lref{1} = ref{SPEC-res-98q1}
 **SPECint95**vref{1}: 14.7
 **SPECfp95**vref{1}: 15.9
@@ -2380,7 +2377,6 @@
 
 **Start-systems-entry{DS5305-6533A}{ALPHA}{DIGITALSERVER}
 **Sys-name: DIGITAL Server 5305 6533A
-**OS-support-vms: OpenVMS 
 **Def-lref{1} = ref{SPEC-res-98q1}
 **SPECint95**vref{1}: 16.2
 **SPECfp95**vref{1}: 21.7

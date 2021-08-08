@@ -46,9 +46,19 @@ def main
   # array-of-values[0] will be the value, [1] onwards will be references.
 
   # For each system, note the system title, the starting OS-support and the end OS-support.
-  # Currently do this for VMS only but eventually consider support for other OSes
-  # Currently this is VAX-only.
-
+  # Do this for each OS supported by the platform, in the order they are specified.
+  platforms = {
+    "vax" => ["VMS", "ULTRIX", "ELN"],
+    "alpha" => ["VMS", "DU", "NT"],
+    "decmips" => ["ULTRIX"],
+    "pdp11" => ["RSX-11M"],
+    "pc" => ["NT"]
+  }
+  os_display_name = {"VMS" => "VMS", "ULTRIX" => "ULTRIX", "ELN" => "VAXELN", "DU" => "Digital UNIX", "NT" => "Windows NT"}
+  
+  platform_set = platforms[sys_type]
+  raise("Urecognised platform: [#{sys_type}]") if platform_set.nil?()
+  
   results = {}
   systems.keys().each() {
     |id|
@@ -62,19 +72,30 @@ def main
       name = "UNKNOWN" if name.nil?() || name.empty?()
     end
 
-    early_support = nil
-    early_property = properties["OS-support-VMS-early"]
-    early_support = ItemWithReferenceKeys.new(early_property) unless early_property.nil?()
+    results[name] = []
 
-    start_support = nil
-    start_property = properties["OS-support-VMS"]
-    start_support = ItemWithReferenceKeys.new(start_property) unless start_property.nil?()
+    # Loop through each specified OS, adding the support data to the results array.
+    # Note that "OS-support-???-early/end" only exist for VMS but as they will return nil for
+    # other OSes, that will appear to be the same as that particular property not being specified
+    # for this hardware. That achieves the required result and also allows for the possibility
+    # that some other OSes  may acquire these properties as more information becomes available
+    # in the future.
+    platform_set.each() {
+      |os|
+      early_support = nil
+      early_property = properties["OS-support-#{os}-early"]
+      early_support = ItemWithReferenceKeys.new(early_property) unless early_property.nil?()
+
+      start_support = nil
+      start_property = properties["OS-support-#{os}"]
+      start_support = ItemWithReferenceKeys.new(start_property) unless start_property.nil?()
     
-    end_support = nil
-    end_property = properties["OS-support-VMS-end"]
-    end_support = ItemWithReferenceKeys.new(end_property) unless end_property.nil?()
+      end_support = nil
+      end_property = properties["OS-support-VMS-#{os}"]
+      end_support = ItemWithReferenceKeys.new(end_property) unless end_property.nil?()
 
-    results[name] = OsSupport.new(early_support, start_support, end_support).build_text(local_refs, refs)
+      results[name] << OsSupport.new(early_support, start_support, end_support).build_text(local_refs, refs)
+    }
   }
 
   # Run through the systems in alphabetic order and display the results.
@@ -82,18 +103,24 @@ def main
   column_width = 20
   puts(%Q[{| class="wikitable sortable"])
   puts(%Q[! System])
-  puts(%Q[! colspan="2" | VMS Support])
+  platform_set.each() { |os| puts(%Q[! colspan="2" | #{os_display_name[os]} Support]) }
   puts(%Q[|-])
   puts(%Q[!])
-  puts(%Q[! style="width: #{column_width}ch" | Start])
-  puts(%Q[! style="width: #{column_width}ch" | End])
-
+  platform_set.each() {
+    |os|
+    puts(%Q[! style="width: #{column_width}ch" | Start])
+    puts(%Q[! style="width: #{column_width}ch" | End])
+  }
   results.keys().sort().each() {
     |name|
     puts("|-")
-    puts("| #{name} || #{results[name].os_begin_support()} || #{results[name].os_finish_support()}")
+    print("| #{name}")
+    results[name].each() {
+      |support|
+      print(" || #{support.os_begin_support()} || #{support.os_finish_support()}")
+    }
+    puts("")
   }
-
   puts(%Q[|}])
   puts()
 
