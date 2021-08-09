@@ -91,7 +91,7 @@ def main
       start_support = ItemWithReferenceKeys.new(start_property) unless start_property.nil?()
     
       end_support = nil
-      end_property = properties["OS-support-VMS-#{os}"]
+      end_property = properties["OS-support-#{os}-end"]
       end_support = ItemWithReferenceKeys.new(end_property) unless end_property.nil?()
 
       results[name] << OsSupport.new(early_support, start_support, end_support).build_text(local_refs, refs)
