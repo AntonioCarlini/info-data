@@ -146,7 +146,8 @@ def main
   end
 
   puts()
-  puts("[[Category:OpenVMS]]")
+  puts("[[Category:Classic Computing]]")
+  puts("[[Category:OpenVMS]]") if platform_set.include?("VMS")
 end
 
 main()
