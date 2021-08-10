@@ -10363,6 +10363,13 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: http://www.bitsavers.org/pdf/dec/vax/ultrix-32/4.1/AA-ME85D-TE_Ultrix_4.1_Rel_Notes_1990.pdf
 **End-ref{AA-ME85D-TE}
 
+**Start-ref{DU-RN-4.0E}
+**Ref-text: Release Notes for Version 4.0E
+**ref-date: 1998-11
+**Ref-electronic: HTML
+**Ref-url: http://www2.phys.canterbury.ac.nz/dept/docs/manuals/unix/DEC_4.0e_Docs/HTML/AQTLMDTE/TITLE.HTM
+**End-ref{DU-RN-4.0E}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):

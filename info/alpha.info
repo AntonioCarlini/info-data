@@ -262,8 +262,10 @@
 **Def-lref{3} = ref{CU-1992-11-23}
 **Def-lref{4} = ref{CU-1993-07-19}
 **Def-lref{5} = ref{CU-1994-10-15}
+**Def-lref{6} = ref{CU-1993-08-02}
 **Sys-name: DEC 3000 Model 400/400S AXP
 **Announcement**vref{3}: 1992-11-23
+**OS-Support-du**vref{6}: V1.2
 **FRS-date**vref{3}: 1992-11-23
 **Last-order**vref{5}: 1994-12-30
 **Last-ship**vref{5}: 1995-03-17
@@ -314,8 +316,10 @@
 **Def-lref{4} = ref{CU-1992-11-23}
 **def-lref{5} = ref{CU-1993-07-19}
 **Def-lref{6} = ref{CU-1994-10-15}
+**Def-lref{7} = ref{CU-1993-08-02}
 **Sys-name: DEC 3000 Model 500/500S AXP
 **Announcement**vref{4}: 1992-11-23
+**OS-Support-du**vref{7}: V1.2
 **Last-order**vref{6}: 1994-12-30
 **Last-ship**vref{6}: 1995-03-17
 **Codename: Flamingo
@@ -614,8 +618,11 @@
 **Def-lref{2} = ref{ASCC-1994-03}
 **Def-lref{3} = ref{CU-1992-11-23}
 **Def-lref{4} = ref{CU-1994-07-05}
+**Def-lref{5} = ref{CU-1993-08-02}
 **Sys-name: DEC 4000 Model 610/620
 **Announcement**vref{3}: 1992-11-23
+! vref{5}: only for one CPU, no SMP
+**OS-Support-du**vref{5}: V1.2
 **Last-order**vref{4}: 1994-09-30
 **Last-ship**vref{4}: 1995-12-31
 **Codename: Cobra
@@ -692,8 +699,11 @@
 **Def-lref{1} = ref{ASCC-1994-03}
 **Def-lref{2} = ref{CU-1992-11-23}
 **Def-lref{3} = ref{CU-1994-12-15}
+**Def-lref{4} = ref{CU-1993-08-02}
 **Sys-name: DEC 7000 Model 600 series
 **Announcement**vref{2}: 1992-11-23
+! vref{4} states 7610 single CPU (no SMP)
+**OS-Support-du**vref{4}: V1.2
 **Last-order**vref{3}: 1995-06-10
 **Num-proc**vref{1}: 1-6
 ! Originally shipped with 182MHz. 200MHz was for DEC 10000 systems. Then became available for DEC 7000-600 systems.
@@ -1637,7 +1647,9 @@
 **Sys-name: AS-GS60
 **Desc-name: AlphaServer GS60
 **Def-lref{1} = ref{HPCwire-1998-10-23}
+**Def-lref{2} = ref{DU-RN-4.0E}
 **OS-support-vms: V7.1-2
+**OS-support-du**vref{2}: V4.0E
 **CPU-chip**vref{1}: 21264 (EV6)
 **Minimum-memory**vref{1}: 4 GB
 **Maximum-memory**vref{1}: 28 GB
@@ -1661,7 +1673,9 @@
 **Sys-name: AS-GS140
 **Desc-name: AlphaServer GS140
 **Def-lref{1} = ref{HPCwire-1998-10-23}
+**Def-lref{2} = ref{DU-RN-4.0E}
 **OS-support-vms: V7.1-2
+**OS-support-du**vref{2}: V4.0E
 **CPU-chip**vref{1}: 21264 (EV6)
 **Maximum-memory**vref{1}: 28 GB
 **End-systems-entry{GS140}

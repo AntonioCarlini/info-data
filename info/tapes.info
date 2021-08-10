@@ -1143,6 +1143,7 @@
 **Desc-name: TZK10 Cartridge Tape Drive
 **Def-lref{1} = ref{EK-TZK10-OG-002}
 **Def-lref{2} = ref{CU-1994-12-15}
+**Def-lref{3} = ref{CU-1993-08-02}
 !-- From *11: 36W. bus load: 1, 1.0A@240Vac, 1A@12V, 1.2A@5V, 8.5"Hx5.75"Wx3.25"D 2kg. -->
 !-- Tape speed: &	120 in/s \\	% [130] -->
 !-- Rewind time: &	100s \\	% [124] -->
@@ -1152,6 +1153,7 @@
 **Capacity**htref{1}: 525MB
 **OS-Support-vms**htref{1}: VMS V5.4-2
 **OS-Support-ultrix**htref{1}: Ultrix V4.1
+**OS-Support-du**vref{3}: V1.3
 **Transfer-rate**htref{1}: 200KB/s:(streaming)
 **Interface**htref{1}: SCSI-2
 **Recording-format**htref{1}: Multiple track serpentine
