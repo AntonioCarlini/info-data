@@ -50,11 +50,16 @@ def main
   platforms = {
     "vax" => ["VMS", "ULTRIX", "ELN"],
     "alpha" => ["VMS", "DU", "NT"],
-    "decmips" => ["ULTRIX"],
+    "decmips" => ["ULTRIX", "DU"],
     "pdp11" => ["RSX-11M"],
     "pc" => ["NT"]
   }
   os_display_name = {"VMS" => "VMS", "ULTRIX" => "ULTRIX", "ELN" => "VAXELN", "DU" => "Digital UNIX", "NT" => "Windows NT"}
+
+  # "DU" covers OSF/1, Digital UNIX and Tru64, as the OS changed its name over its lifetime.
+  # DEC MIPS systems were only ever supported by DEC OSF/1 from V1.0 until all MIPS support was dropped in V1.2.
+  # So if the system is MIPS, the only sensible name is "DEC OSF/1".
+  os_display_name["DU"] = "DEC OSF/1" if sys_type == "decmips"
   
   platform_set = platforms[sys_type]
   raise("Urecognised platform: [#{sys_type}]") if platform_set.nil?()

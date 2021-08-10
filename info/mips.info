@@ -4,7 +4,9 @@
 **Sys-name: DECstation 2100
 **Def-lref{1} = ref{DS3100}
 **Def-lref{2} = ref{EK-302AB-OG-002}
+**Def-lref{3} = ref{CU-1992-01-31}
 **Announcement**uref{%MIPSCO:77.0}: 11 July 1989
+**OS-support-DU**vref{3}: V1.0
 **CPU-module**vref{1}: KN01
 **Num-proc**vref{1}: 1
 **CPU-chip**vref{1}: R2000
@@ -46,8 +48,10 @@
 **Def-lref{4} = ref{CU-1992-11-23}
 **Def-lref{5} = ref{DEC-PR-1989-01-09-DS3100}
 **Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{7} = ref{CU-1992-01-31}
 **Sys-name: DECstation 3100
 **Announcement**vref{5}: 1989-01-09
+**OS-support-DU**vref{7}: V1.0
 **Last-order**vref{4}: 1992-12-18
 **Last-ship**vref{4}: 1993-02-26
 !**Codename**uref{DU FEB-1989}: PMAX
@@ -311,11 +315,20 @@
 **Dimensions-end{DST5050}
 **End-systems-entry{DST5050}
 
+**Start-systems-entry{DST5100}{DECMIPS}{DS5000}
+**Def-lref{1} = ref{CU-1992-01-31}
+**Sys-name: DECstation 5000 Model 100
+**OS-support-DU**vref{1}: V1.0
+**Num-proc: 1
+**End-systems-entry{DST5100}
+
 **Start-systems-entry{DST5120}{DECMIPS}{DS5000}
 **Def-lref{1} = ref{DECdirect-AUG91}
 **Def-lref{2} = ref{CU-1992-06-05}
+**Def-lref{3} = ref{CU-1992-01-31}
 ! vref{DECdirect-AUG91} says DECstation 5000 Models 120 and 125 differ only in the CPU module
 **Sys-name: DECstation 5000 Model 120
+**OS-support-DU**vref{3}: V1.0
 **Last-order**vref{2}: 1992-06-05
 **Last-ship**vref{2}: 1992-06-05
 **Num-proc: 1
@@ -340,8 +353,10 @@
 **Def-lref{1} = ref{DECdirect-AUG91}
 **Def-lref{2} = ref{CU-1991-12-20}
 **Def-lref{3} = ref{CU-1992-08-10}
+**Def-lref{4} = ref{CU-1992-01-31}
 ! vref{DECdirect-AUG91} says DECstation 5000 Models 120 and 125 differ only in the CPU module
 **Sys-name: DECstation 5000 Model 125
+**OS-support-DU**vref{4}: V1.0
 **Last-order**vref{3}: 1992-09-25
 **Last-ship**vref{3}: 1992-12-31
 **Num-proc: 1
@@ -417,8 +432,12 @@
 **Start-systems-entry{DST5200}{DECMIPS}{DS5200}
 **Def-lref{1} = ref{DECdirect-AUG91}
 **Def-lref{2} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{3} = ref{AA-ME85D-TE}
+**Def-lref{4} = ref{CU-1992-01-31}
 **Sys-name: DECstation 5000 Model 200
+**OS-support-DU**vref{4}: V1.0
 **Codename**vref{2}: 3MAX
+**OS-support-ULTRIX**vref{3}: V4.0
 **CPU-chip**vref{1}: R3000A
 **FPU-chip**vref{1}: R3010
 **SPECmarks**vref{1}: 19.9
@@ -506,9 +525,11 @@
 **Start-systems-entry{DSYS5100}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{EK-422AA-MG.001}
 **def-lref{2} = ref{CU-1992-09-21}
+**Def-lref{3} = ref{CU-1992-01-31}
 **Sys-name: DECsystem 5100
 ! last order date: December 31, 1992; last ship date: March 31, 1993 
 ! verf{2} gives dates below for Europe; for US 
+**OS-support-DU**vref{3}: V1.0
 **Last-order**vref{2}: 1993-03-31
 **Last-ship**vref{2}: 1993-06-30
 ! MS44-AA (4MB) MS44-CA (16MB)
@@ -541,7 +562,11 @@
 
 **Start-systems-entry{DSYS5200}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{DECdirect-AUG91}
+**Def-lref{2} = ref{AA-ME85D-TE}
+**Def-lref{3} = ref{CU-1992-01-31}
 **Sys-name: DECsystem 5000 Model 200
+**OS-support-ULTRIX**vref{2}: V4.0
+**OS-support-DU**vref{3}: V1.0
 **CPU-chip**vref{1}: R3000A
 **FPU-chip**vref{1}: R3010A
 **Minimum-memory**vref{1}: 16MB
@@ -556,7 +581,9 @@
 
 **Start-systems-entry{DSYS5400}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{EK-KN210-TM-001}
+**Def-lref{2} = ref{AA-ME85D-TE}
 **Sys-name: DECsystem 5400
+**OS-support-ULTRIX**vref{2}: V4.0
 **CPU-module**htref{1}: KN210
 **Module**htref{1}: M7636
 **CPU-chip**htref{1}: R3000
@@ -612,8 +639,10 @@
 **End-systems-entry{DSYS5500}
 
 **Start-systems-entry{DSYS5800}{DECMIPS}{DSYS}
+**Def-lref{1} = ref{AA-ME85D-TE}
 **Sys-name: DECsystem 5800
 **Announcement**uref{%MIPSCO 77.0 5810 & 582}: 11 July 1989
+**OS-support-ULTRIX**vref{1}: V4.0
 **Codename**uref{%MIPSCO:79.1}: ISIS
 **CPU-module**uref{%DECSYSTEM:7.3,7.13}: KN58A
 **CPU-clock**uref{%MIPSCO:79.1}: 25MHz

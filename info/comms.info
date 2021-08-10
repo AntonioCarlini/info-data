@@ -789,7 +789,9 @@
 
 **Start-comms-entry{DF296-DA}{MODEM}
 **Def-lref{1} = ref{CU-1991-09-27}
+**Def-lref{2} = ref{AA-ME85D-TE}
 **Sys-name: DECmodem V32
+**OS-support-ULTRIX**vref{2}: V4.0
 ![1]:
 !The DECmodem V32 product is a 9600 bit per second high-speed modem that is 
 !available in either desktop (DF296-DA) or rackmount (DF196-DM) 

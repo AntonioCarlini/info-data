@@ -111,7 +111,8 @@
 - OS-support-DU:
   - OS support (Digital UNIX)
   - Range of Digital Unix or Tru64 versions that support this system
-  - alpha
+  - - decmips
+    - alpha
   - summary
 - OS-support-SYSV:
   - OS support (AT&T System V)

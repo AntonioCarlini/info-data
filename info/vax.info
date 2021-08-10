@@ -1873,6 +1873,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{SOCEE-SPR90}
 **Def-lref{6} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{8} = ref{AA-ME85D-TE}
 **document=doc{DEC:EK-KA820-TM-001} ! KA820 Processor Technical Manual
 **document=doc{DEC:AZ-GN4AC-TE} ! VAX 8200/8300 Owner's Manual
 **document=doc{DEC:AZ-GN5AC-TE} ! VAX 8200/8300 Installation Guide
@@ -1883,6 +1884,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**vref{7}: Scorpio
 ! **OS-support-VMS**uref{*26}: V4.4
 **OS-support-VMS**vref{6}: V4.3A
+**OS-support-ULTRIX**vref{8}: V4.0
 **CPU-module**vref{3}: KA820
 **Module**vref{4}: T1001-00
 **CPU-name-VMS: KA820
@@ -2041,8 +2043,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{2} = ref{VAX-HW-HB-1986-V2}
 **def-lref{3} = ref{EB-31692-46}
 **def-lref{4} = ref{EK-KA825-MA-001}
+**Def-lref{5} = ref{AA-ME85D-TE}
 **document=doc{DEC:KS-10186-AB} ! VAX 8300. The High Performance System for Departmental Computing
 **Announcement**uref{*102}: 29 January 1986
+**OS-support-ULTRIX**vref{5}: V4.0
 **Codename: Scorpio
 **Html-target: vax8200
 **OS-support-VMS**uref{*26}: V4.4
@@ -2324,6 +2328,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{DEC-PR-1988-03-08-VAX88x0}
 **Def-lref{4} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{5} = ref{AA-LB22C-TE}
+**Def-lref{6} = ref{AA-ME85D-TE}
 **document=doc{DEC:EK-8840H-UG-001} ! VAX 8820/8830/8840 System Hardware User's Guide
 **document=doc{DEC:EK-8840A-IP-002} ! VAX 8820/30/40 IPB
 **Announcement**vref{3}: 1988-03-08
@@ -2331,6 +2336,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**vref{4}: PolarStar
 ! Note that vref{5}  mentions 8820-8840 but not 8810
 **OS-support-VMS**vref{2,5}: V5.0
+! 8820/8830/8840
+**OS-support-ULTRIX**vref{6}: V4.0
 **Num-proc**vref{3}: 1-4
 **CPU-names: {VAX 8810}{VAX 8820}{VAX 8830}{VAX 8840}
 **CPU-technology**vref{1}: ECL Gate Array
@@ -2734,6 +2741,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{CU-1991-11-29}
 **Def-lref{4} = ref{DEC-PR-1989-01-09-VS3520}
 **Def-lref{5} = ref{AA-LB22C-TE}
+**Def-lref{6} = ref{AA-ME85D-TE}
 **document=doc{DEC:EK-258AA-AD-001} ! VAXstation 3520/3540 Maintenance Guide Addendum
 **document=doc{DEC:EK-258AA-MG-003} ! VAXstation 3520/3540 and 3820/3840 Maintenance Guide
 **document=doc{DEC:EK-333AA-AD-001} ! VAXstation 3520/3540 DWFQA (Q-bus Adapter) Module Addendum
@@ -2752,6 +2760,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Last-order**vref{3}: 30 November 1991
 **Last-ship**vref{3}: 31 March 1992
 **OS-support-VMS**vref{2,5}: V5.1-1
+! This is the VS3540 specifically
+**OS-support-ULTRIX**vref{6}: V4.0
 **CPU-module**vref{1,3}: KA60-AA
 **Module**vref{1}: L2001
 !-- vref{1} KA60-BA is L2010 (VAXstation 38x0)

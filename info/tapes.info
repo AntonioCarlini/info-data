@@ -30,7 +30,9 @@
 **Desc-name: TA90 Magnetic Tape Cartridge Drives
 **Html-target: ta90
 **Def-lref{1} = ref{DEC-PR-1989-01-24-TA90}
+**Def-lref{2} = ref{AA-ME85D-TE}
 **Announcement**vref{1} = 1989-01-24
+**OS-support-ULTRIX**vref{2}: V4.0
 !
 !When released the TA90 was Digital's highest performance device for
 !VAXCluster backup. These high-end tape subsystems are rugged units designed
@@ -49,6 +51,8 @@
 **Sys-name: TA90E
 **Desc-name: TA90E Magnetic Tape Cartridge Drive
 **Html-target: ta90
+**Def-lref{1} = ref{AA-ME85D-TE}
+**OS-support-ULTRIX**vref{1}: V4.0
 **Capacity**uref{60}: 7.2GB
 **Max-data-transfer-speed**uref{60}: 2.7MB/s
 **End-storage-entry{TA90E}
@@ -551,12 +555,13 @@
 **Sys-name: TLZ04
 **Desc-name: TLZ04 Cassette Tape Drive
 **Def-lref{1} = ref{EK-TLZ04-OM-002}
+**Def-lref{2} = ref{AA-ME85D-TE}
 !-- % SCSI interface *60 ref_1 -->
 !-- % From *20: 4mm DAT using DDS (Digital Data Storage) -->
 **Last-order**uref{*SUE Jul 92}: 28 August 1992
 **Last-ship**uref{*SUE Jul 92}: December 1992
 **OS-support-vms**uref{*149,*122}: VMS V5.3-2 (with patch)
-**OS-support-ultrix**uref{*149}: Ultrix 4.1
+**OS-support-ULTRIX**vref{2}: V4.0
 **Capacity**uref{*20,*57,*60,*116}: 1.2GB
 **Peak-transfer-rate**uref{*20,*57,*60,*116}: 170KB/s
 **Read/write-speed**uref{*122}: 0.87cm/s (streaming)
@@ -708,6 +713,8 @@
 **Desc-name: TSZ05 Tape Drive
 **Def-lref{1} = ref{EK-TSZ05-OM-001}
 **Def-lref{2} = ref{CU-1994-09-01}
+**Def-lref{3} = ref{AA-ME85D-TE}
+**OS-support-ULTRIX**vref{3}: V4.0
 **Last-ship**vref{2}: 1994-08-19
 **Last-order**vref{2}: 1994-12-31
 !**Capacity:	46MB	**htref{*}160KB/s	**htref{<}Recording method	<TD> Phase Encoded	**htref{<}ROWSPAN=2 VALIGN=TOP>

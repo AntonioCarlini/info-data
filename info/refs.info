@@ -10355,6 +10355,14 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: http://bitsavers.org/pdf/dec/vax/vms/5.4/Release_Notes/AA-LB22C-TE_VMS_Version_5.4_Release_Notes_199008.pdf
 **End-ref{AA-LB22C-TE}
 
+**Start-ref{AA-ME85D-TE}
+**Ref-text: ULTRIX/UWS Release Notes V4.1
+**ref-date: 1990
+**Ref-partno: AA-ME85D-TE
+**Ref-electronic: PDF
+**Ref-url: http://www.bitsavers.org/pdf/dec/vax/ultrix-32/4.1/AA-ME85D-TE_Ultrix_4.1_Rel_Notes_1990.pdf
+**End-ref{AA-ME85D-TE}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
