@@ -1062,10 +1062,10 @@
 **Def-lref{2} = ref{CU-V5-11A}
 **Def-lref{3} = ref{SOC-JAN1995}
 **Def-lref{4} = ref{CU-1994-11-03}
-**Announcement**htref{4}: 1994-11-03
+**Announcement**vref{4}: 1994-11-03
 **OS-support-vms**vref{4}: V6.1
-**OS-support-du**htref{4}: DEC OSF/1 V3.0
-**OS-support-nt**htref{4}: V3.5
+**OS-support-du**vref{4}: DEC OSF/1 V3.0
+**OS-support-nt**vref{4}: V3.5
 **Num-proc**vref{3}: 1-2
 **CPU-clock**vref{3}: 190MHz
 **Cache**vref{3}: 8KB-I/8KB-D		
@@ -1170,6 +1170,7 @@
 **Announcement**vref{4}: 1994-04-12
 **OS-support-vms**vref{4}: V6.1
 **OS-support-DU**vref{4}: DEC OSF/1 V2.0B (uniprocessor), DEC OSF/1 V3.0 (SMP) 
+**OS-support-nt**vref{4}: V3.5
 **FRS-date**vref{4}: Mid-May 1994
 **Num-proc**vref{3}: 1-4
 **CPU-clock**vref{3}: 190MHz
@@ -1210,7 +1211,9 @@
 **Def-lref{4} = ref{CU-1994-11-03}
 **Sys-name: AlphaServer 2100 4/275
 **Announcement**vref{4}: 1994-11-03
-**OS-support-vms: V6.1
+**OS-support-vms**vref{1}: V6.1
+**OS-support-DU**vref{4}: DEC OSF/1 V2.0B (uniprocessor), DEC OSF/1 V3.0 (SMP) 
+**OS-support-nt**vref{4}: V3.5
 **Num-proc**vref{3}: 1-4
 **CPU-clock**vref{3}: 275MHz
 **Cache**vref{3}: 16KB-I/16KB-D

@@ -17,7 +17,6 @@
 ! DECswitch 900 Router: https://groups.google.com/forum/#!topic/biz.digital.articles/KwH8gAQHCwo
 ! DECbridge 900MX renamed to DECswitch 900EF: https://groups.google.com/forum/#!topic/biz.digital.articles/gDARt7VtuL4
 ! DECwanrouter 90 ISDN: https://groups.google.com/forum/#!topic/biz.digital.articles/DJB0ZCzJsJ4
-! DELQA-M: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.10
 ! DESPR: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.22
 ! End-Of-Life for DF112-AA/AM and DF124-AA/AM: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.39
 ! DF242-CA: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.23
@@ -28,7 +27,18 @@
 ! PEswitch 900TX: https://groups.google.com/forum/#!topic/biz.digital.articles/o9NIsf-S-9k
 ! PORTswitch 900 Family: https://groups.google.com/forum/#!topic/biz.digital.articles/T7fle7L1-zU
 ! TRNcontroller 700: https://groups.google.com/forum/#!topic/biz.dec.decnews/2AjqnREkoP8
-
+! WANrouter90: http://odrc2.flexbl.co.uk/mediawiki/index.php/Digital_Customer_Update_1994-11-03#AlphaStation_200_Family_of_64-bit_Desktop_Workstations
+
+**Start-comms-entry{DELQA}
+**Def-lref{1} = ref{DEC-PR-1987-09-08}
+**Announcement**vref{1}: 1987-09-08
+**Board-size**vref{1}: Dual
+**AC-bus-load**vref{1}: 2.2
+**DC-bus-load**vref{1}: 0.5
+**5V-current**vref{1}: 2.5A
+**12V-current**vref{1}: 0.5A
+**End-comms-entry{DELQA}
+
 **Start-comms-entry{DECNIS500}{NIS}
 **Def-lref{1} = ref{CU-1991-10-18}
 **Sys-name: DECnis 500
@@ -36,7 +46,7 @@
 **Slots**vref{1}: 4
 **Announcement**vref{1}: 1991-10-18
 **End-comms-entry{DECNIS500}
-
+
 **Start-comms-entry{DECNIS600}{NIS}
 **Def-lref{1} = ref{CU-1991-10-18}
 **Sys-name: DECnis 600
@@ -44,7 +54,7 @@
 **Announcement**vref{1}: 1991-06
 **Slots**vref{1}: 9
 **End-comms-entry{DECNIS600}
-
+
 **Start-comms-entry{DEFAR}{NIS}
 **Sys-name: DECrepeater 90FA
 **DEF-lref{1} = ref{EK-DEFAR-OM.A01}
