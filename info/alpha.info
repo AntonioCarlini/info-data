@@ -1064,6 +1064,7 @@
 **Def-lref{4} = ref{CU-1994-11-03}
 **Announcement**vref{4}: 1994-11-03
 **OS-support-vms**vref{4}: V6.1
+! CU 1995-02-01 says uniprocessor support in DEC OSF/1 V2.1
 **OS-support-du**vref{4}: DEC OSF/1 V3.0
 **OS-support-nt**vref{4}: V3.5
 **Num-proc**vref{3}: 1-2

@@ -282,9 +282,11 @@
 **Start-systems-entry{DST5050}{DECMIPS}{DS5000}
 **Def-lref{1} = ref{EK-PM30F-MG-004}
 **Def-lref{2} = ref{CU-1993-12-06}
+**Def-lref{3} = ref{CU-1993-05-10}
 **Sys-name: DECstation 5000 Model 50
 **Last-order**vref{2}: 1994-01-28
 **Last-ship**vref{2}: 1994-04-01
+**OS-support-ULTRIX**vref{3}: V4.3A
 **Num-proc**htref{1}: 1
 **Minimum-memory**htref{1}: 8MB:(on board)
 **Maximum-memory**htref{1}: 40MB
@@ -495,7 +497,9 @@
 **Start-systems-entry{DST5260}{DECMIPS}{DS5200}
 **Def-lref{1} = ref{EK-PM38C-MG-002}
 **Def-lref{2} = ref{EK-4MMAX–OP.A01}
+**Def-lref{3} = ref{CU-1993-05-10}
 **Sys-name: DECstation 5000 Model 260
+**OS-support-ULTRIX**vref{3}: V4.3A
 **Num-proc**vref{1}: 1
 **CPU-module**vref{1,2}: KN05
 **Module**vref{1}: 54-21872-02
@@ -560,6 +564,29 @@
 **Dimensions-end{DSYS5100}
 **End-systems-entry{DSYS5100}
 
+**Start-systems-entry{DSYS51133}{DECMIPS}{DSYS}
+**Def-lref{1} = ref{DEC-PR-1992-06-22}
+**Sys-name: DECsystem 5133
+**Desc-name: DECsystem 5000 Model 133
+**OS-support-ULTRIX**vref{1}: V4.2A
+**CPU-chip**vref{1}: R3000A
+**FPU-chip**vref{1}: R3010A
+**Cache**vref{1}: 192 KB
+**Minimum-memory**vref{1}: 16MB
+**Maximum-memory**vref{1}: 480MB
+**SPECmarks**vref{1}: 25.5
+**Bus-SCSI**vref{1}: 1 @ 5 MB/s
+**LAN-support**vref{1}: 1
+**Bus-TC**vref{1}: 1 @ 50MB/s
+**End-systems-entry{DSYS5133}
+
+**Start-systems-entry{DSYS5150}{DECMIPS}{DSYS}
+**Def-lref{1} = ref{CU-1993-05-10}
+**Sys-name: DECsystem 5150
+**Desc-name: DECsystem 5000 Model 150
+**OS-support-ULTRIX**vref{1}: V4.3A
+**End-systems-entry{DSYS5150}
+
 **Start-systems-entry{DSYS5200}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{DECdirect-AUG91}
 **Def-lref{2} = ref{AA-ME85D-TE}
@@ -578,6 +605,12 @@
 **Weight**vref{1}: 20.5kg
 **Dimensions-end{DSYS5200}
 **End-systems-entry{DSYS5200}
+
+**Start-systems-entry{DSYS5260}{DECMIPS}{DSYS}
+**Def-lref{1} = ref{CU-1993-05-10}
+**Sys-name: DECsystem 5000 Model 260
+**OS-support-ULTRIX**vref{1}: V4.3A
+**End-systems-entry{DSYS5260}
 
 **Start-systems-entry{DSYS5400}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{EK-KN210-TM-001}

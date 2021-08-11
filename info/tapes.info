@@ -592,10 +592,12 @@
 **Def-lref{2} = ref{CU-1992-07-15}
 **Def-lref{3} = ref{CU-1992-07-20}
 **Def-lref{4} = ref{CU-1994-12-15}
+**Def-lref{5} = ref{CU-1993-05-10}
 ! SCSI interface. 4mm DAT using DDS (Digital Data Storage) with data compression. Read/write compatible with TLZ04 -->
 **Announcement**vref{2}: 15 July 1992
 **Last-order**vref{4}: 1995-01-27
 **OS-Support-vms**vref{2}: VMS V5.5-1
+! **OS-support-ULTRIX**vref{5}: V4.3A
 **OS-support-ultrix**vref{2}: Ultrix 4.2c
 **OS-support-sco**vref{3}: SCO Unix V3.2.4
 **Capacity**vref{3}: {4.0GB:(compressed)}{2.0GB:(native)}
@@ -1129,9 +1131,11 @@
 **Start-storage-entry{TKZ09}{SCSI_TAPE}{TKZ}
 **Def-lref{1} = ref{CU-1992-08-10}
 **Def-lref{2} = ref{CU-1995-06-01}
+**Def-lref{3} = ref{CU-1993-05-10}
 **Sys-name: TKZ09
 **Desc-name: TKZ09 5GB 8mm Cartridge Tape Drive
 **FRS-date**vref{1}: 1992-08-10
+**OS-support-ULTRIX**vref{3}: V4.3A
 **Last-order**vref{2}: 1995-06-30
 **Capacity**vref{1}: 5GB
 **Peak-transfer-rate**vref{1}: 500KB/s
