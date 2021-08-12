@@ -1203,6 +1203,7 @@
 **Def-lref{6} = ref{CU-1992-04-03}
 **Def-lref{7} = ref{CU-1993-10-25}
 **Def-lref{8} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{9} = ref{CU-1991-12-20}
 **document=doc{DEC:EK-650EA-TM-001} ! VAX 6000 Model 500 System Technical User's Guide
 **document=doc{DEC:EK-650EA-HR-001} ! VAX 6000 Model 500 Mini-Reference
 **document=doc{DEC:6500 REL NOTES} ! VAX 6000 Model 500 Hardware Release Notes
@@ -1217,7 +1218,7 @@
 **OS-support-VMS**htref{**1}: V5.4
 ! Flowchart has V5.4-OA
 **OS-support-ULTRIX**uref{59}: V4.1
-**OS-support-ELN**uref{*74}: V4.3
+**OS-support-ELN**vref{9}: V4.3
 **OS-support-SYSV**vref{6}: V3.2.1
 **CPU-module**vref{1}: KA65A
 **Module**uref{%CALYPSO:984.1}: T2052-AA

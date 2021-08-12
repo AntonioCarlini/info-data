@@ -10388,6 +10388,34 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: http://www2.phys.canterbury.ac.nz/dept/docs/manuals/unix/DEC_4.0e_Docs/HTML/AQTLMDTE/TITLE.HTM
 **End-ref{DU-RN-4.0E}
 
+**Start-ref{AA-QTLMG-TE}
+**Ref-text: Tru64 UNIX Release Notes for Version 4.0G
+**ref-date: 2000-05
+**Ref-electronic: PDF
+**Ref-url: https://manualzz.com/doc/11100913/tru64-unix-release-notes-for-version-4.0g
+**End-ref{AA-QTLMG-TE}
+
+**Start-ref{AA-RH8WB-TE}
+**Ref-text: Tru64 UNIX Release Notes for Version 5.0A
+**ref-date: 2000-04
+**Ref-electronic: PDF
+**Ref-url: http://www2.phys.canterbury.ac.nz/dept/docs/manuals/unix/DEC_5.0a_Docs/ACRO_DUX/ARH8WBTE.PDF
+**End-ref{AA-RH8WB-TE}
+
+**Start-ref{QS-TRU64-51B}
+**Ref-text: QuickSpecs HP Tru64 UNIX Operating System V5.1B
+**ref-date: 2004-04-08
+**Ref-electronic: PDF
+**Ref-url: https://h20195.www2.hpe.com/v2/getdocument.aspx?docname=c04154476
+**End-ref{QS-TRU64-51B}
+
+**Start-ref{QS-AS-ES45}
+**Ref-text: QuickSpecs HP AlphaServer ES45
+**ref-date: 2007-05-07
+**Ref-electronic: PDF
+**Ref-url: https://www.istoragenetworks.com/servermanuals/es45_quickspecs.pdf
+**End-ref{QS-AS-ES45}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):

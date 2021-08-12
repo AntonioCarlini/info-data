@@ -1,5 +1,6 @@
 This file is somewhere to store processed information for items which don't yet have an entry.
 
+# See http://www2.phys.canterbury.ac.nz/dept/docs/manuals/unix/DEC_5.0a_Docs/HTML/ADMN_LIB.HTM for mor files
 
 PCXAG-D: Graphics resolutions of 1280 x 1024, 1024 x 768, and 1024 x 864
 **Def-lref{1} = ref{CU-1991-09-06}
@@ -118,6 +119,28 @@ o  LA70 personal printer
 o  VT420 terminal
 o  RA71, RA72, RA73, and RA92 disks
 
+
+https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=653.2
+OSF/1 V3.2:
+
+o  New Hardware options:
+
+   - Asynchronous Transfer Mode (ATM) -- Support for ATM standards and 
+     Digital's ATMworks TURBOchannel adapter.
+   - TURBOchannel option -- KZTSA for Fast Wide Differential (FWD) SCSI.
+   - Large memory -- greater than 16 Gbytes on the AlphaServer 2100, and 12 
+     or 14 Gbytes on DEC 7000 and 10000 class systems.
+   - PCI options -- FDDI (DEFPA), Fast Wide Differential SCSI (KZPSA), RAID, 
+     and Prestoserve NVRAM (Non-Volatile Random Access Memory) on 
+     AlphaServer systems.
+
+
+https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=622.4
+
+The ZLX family will be available initially on DEC OSF/1 AXP systems; 
+availability is planned for the fourth quarter of 1993. DEC OSF/1 AXP V1.3 
+(or later) is a prerequisite, as is DEC Open3D V2.1 for this operating 
+system.
 
 
 MS820-CA 16MB Memory Array: [[DIGITAL Announces MS820-CA 16MB Memory Array]]

@@ -114,6 +114,12 @@
   - - decmips
     - alpha
   - summary
+- OS-support-DU-end:
+  - OS support (Digital UNIX)
+  - Final version of  Digital Unix or Tru64 that supports this system
+  - - decmips
+    - alpha
+  - summary
 - OS-support-SYSV:
   - OS support (AT&T System V)
   - Range of System V versions that suppor this system
