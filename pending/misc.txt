@@ -107,6 +107,19 @@ DS20L SC20 press release - https://web.archive.org/web/20040108052526/http://www
 
 Retired Systems: https://web.archive.org/web/20080509122315/http://h18002.www1.hp.com/alphaserver/archive/
 
+
+
+https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=600.15:
+Additional hardware supported by RSTS V10.1:
+
+o  DS90L+, DS90TL, DS250, and DS300 terminal servers
+o  DEClaser 2200 and 3200 printers
+o  LA70 personal printer
+o  VT420 terminal
+o  RA71, RA72, RA73, and RA92 disks
+
+
+
 MS820-CA 16MB Memory Array: [[DIGITAL Announces MS820-CA 16MB Memory Array]]
 
 DEBNA announcement: [[DIGITAL Announces DEBNA VAXBI Ethernet adapter]]

@@ -2117,6 +2117,9 @@
 **Desc-name: RZ25M 535MB SCSI Disk
 **Def-lref{1} = ref{CU-1995-06-01}
 **Announcement**vref{1}: 1995-06-01
+**OS-support-VMS**vref{1}: V6.1-1H2
+**OS-support-DU**vref{1}: DEC OSF/1 V3.0B / 3.2
+**OS-support-NT**vref{1}: V3.5
 **Capacity**vref{1}: 535 MB
 **Form-factor**vref{1}: 
 **Rotational-speed**vref{1}: 4500 rpm

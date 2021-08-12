@@ -619,14 +619,15 @@
 **Def-lref{3} = ref{CU-1992-11-23}
 **Def-lref{4} = ref{CU-1994-07-05}
 **Def-lref{5} = ref{CU-1993-08-02}
+**Def-lref{6} = ref{CU-1994-07-18}
 **Sys-name: DEC 4000 Model 610/620
 **Announcement**vref{3}: 1992-11-23
 ! vref{5}: only for one CPU, no SMP
-**OS-Support-du**vref{5}: V1.2
 **Last-order**vref{4}: 1994-09-30
 **Last-ship**vref{4}: 1995-12-31
 **Codename: Cobra
 **OS-support-VMS: V1.0
+**OS-Support-DU**vref{5,6}: V1.2 (uniprocessor) V3.0 (SMP)
 **CPU-module: KN430-AA
 **Module: B2001-BA
 **Num-proc**vref{1}: 1-2
@@ -675,10 +676,12 @@
 **Start-systems-entry{DEC4700}{ALPHA}{DEC4000}
 **Def-lref{1} = ref{ASCC-1994-03}
 **Def-lref{2} = ref{CU-1993-10-12}
+**Def-lref{3} = ref{CU-1994-07-18}
 **Sys-name: DEC 4000 Model 710/720
 **Desc-name: DEC 4000 Model 710/720
 **Announcement**vref{2}: 1993-10-12
 **OS-support-vms: V1.5
+**OS-support-DU: V3.0 (SMP)
 **Num-proc**vref{2}: 1-2
 **CPU-clock**vref{1}: 190MHz
 **Cache**vref{1}: 8KB-I/8KB-D
@@ -700,10 +703,11 @@
 **Def-lref{2} = ref{CU-1992-11-23}
 **Def-lref{3} = ref{CU-1994-12-15}
 **Def-lref{4} = ref{CU-1993-08-02}
+**Def-lref{5} = ref{CU-1994-07-18}
 **Sys-name: DEC 7000 Model 600 series
 **Announcement**vref{2}: 1992-11-23
 ! vref{4} states 7610 single CPU (no SMP)
-**OS-Support-du**vref{4}: V1.2
+**OS-Support-du**vref{4,5}: V1.2 (uniprocessor) V3.0 (SMP)
 **Last-order**vref{3}: 1995-06-10
 **Num-proc**vref{1}: 1-6
 ! Originally shipped with 182MHz. 200MHz was for DEC 10000 systems. Then became available for DEC 7000-600 systems.
