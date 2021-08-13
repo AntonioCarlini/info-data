@@ -1824,11 +1824,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{NYT-1984-04-04-785}
 **Def-lref{4} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{5} = ref{QS-VMS-V073}
 **document=doc{DEC:EK-KC785-TD-001} ! VAX-11/785 Console Interface Technical Description
 !**Announcement**uref{SUE 5.19}: 2 April 1984
 **Announcement**vref{3}: 1984-04-03
 **Codename**vref{4}: Superstar
 **OS-support-VMS**uref{*26}: V3.4
+**OS-support-VMS-end**vref{5}: V6.2
 **OS-support-ULTRIX**uref{*12}: V1.0
 **CPU-name-VMS: KA785
 **Num-proc: 1
@@ -1875,6 +1877,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{6} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{8} = ref{AA-ME85D-TE}
+**Def-lref{9} = ref{QS-VMS-V073}
 **document=doc{DEC:EK-KA820-TM-001} ! KA820 Processor Technical Manual
 **document=doc{DEC:AZ-GN4AC-TE} ! VAX 8200/8300 Owner's Manual
 **document=doc{DEC:AZ-GN5AC-TE} ! VAX 8200/8300 Installation Guide
@@ -1885,6 +1888,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**vref{7}: Scorpio
 ! **OS-support-VMS**uref{*26}: V4.4
 **OS-support-VMS**vref{6}: V4.3A
+**OS-support-VMS-end**vref{9}: V7.3
 **OS-support-ULTRIX**vref{8}: V4.0
 **CPU-module**vref{3}: KA820
 **Module**vref{4}: T1001-00
@@ -2045,12 +2049,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{3} = ref{EB-31692-46}
 **def-lref{4} = ref{EK-KA825-MA-001}
 **Def-lref{5} = ref{AA-ME85D-TE}
+**Def-lref{6} = ref{QS-VMS-V073}
 **document=doc{DEC:KS-10186-AB} ! VAX 8300. The High Performance System for Departmental Computing
 **Announcement**uref{*102}: 29 January 1986
 **OS-support-ULTRIX**vref{5}: V4.0
 **Codename: Scorpio
 **Html-target: vax8200
 **OS-support-VMS**uref{*26}: V4.4
+**OS-support-VMS-end**vref{6}: V7.3
 **CPU-module**vref{3}: KA820
 **Module**vref{4}: T1001-00
 **CPU-name-VMS: KA820
@@ -2202,6 +2208,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Sys-name: VAX 8250
 **Def-lref{1} = ref{EB-31692-46}
 **Def-lref{2} = ref{EK-KA825-MA-001}
+**Def-lref{3} = ref{QS-VMS-V073}
 **document=doc{DEC:EK-KA820-TM-003} ! KA820/KA825 Processor Technical Manual
 **document=doc{DEC:EK-KA825-MA-001} ! KA825 Maintenance Advisory
 **document=doc{DEC:EK-83XUP-IN-001} ! VAX 8200 to VAX 8350 and VAX 8250 to VAX 8350 Upgrade Procedures
@@ -2209,6 +2216,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**uref{*102}: Sargas
 **OS-support-VMS**vref{2}: V4.5
 ! Flowchart has V4.6
+**OS-support-VMS-end**vref{3}: V7.3
 **OS-support-ULTRIX**vref{2}: V2.0
 **CPU-module**vref{2}: KA825
 **Module: T1001-YA
@@ -2263,11 +2271,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Sys-name: VAX 8350
 **Def-lref{1} = ref{EB-31692-46}
 **Def-lref{2} = ref{EK-KA825-MA-001}
+**Def-lref{3} = ref{QS-VMS-V073}
 **Announcement**uref{%SCORPIO:115.*}: 2 March 1987
 **Codename**uref{*102}: Sargas
 **Html-target: vax8250
 ! Flowchart has V4.6
 **OS-support-VMS**vref{2}: V4.5
+**OS-support-VMS-end**vref{3}: V7.3
 **OS-support-ULTRIX**vref{2}: V2.0
 !**CPU-module**vref{1}: KA825
 **CPU-module**vref{2}: KA825
@@ -2330,6 +2340,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{4} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{5} = ref{AA-LB22C-TE}
 **Def-lref{6} = ref{AA-ME85D-TE}
+**Def-lref{7} = ref{QS-VMS-V073}
 **document=doc{DEC:EK-8840H-UG-001} ! VAX 8820/8830/8840 System Hardware User's Guide
 **document=doc{DEC:EK-8840A-IP-002} ! VAX 8820/30/40 IPB
 **Announcement**vref{3}: 1988-03-08
@@ -2337,6 +2348,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**vref{4}: PolarStar
 ! Note that vref{5}  mentions 8820-8840 but not 8810
 **OS-support-VMS**vref{2,5}: V5.0
+**OS-support-VMS-end**vref{7}: V7.3
 ! 8820/8830/8840
 **OS-support-ULTRIX**vref{6}: V4.0
 **Num-proc**vref{3}: 1-4
@@ -2432,6 +2444,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{4} = ref{EK-9000S-SI-001}
 **Def-lref{5} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{6} = ref{AA-LB22C-TE}
+**Def-lref{7} = ref{QS-VMS-V073}
 ! vref{2} states oct  1989
 **document=doc{DEC:EK-9201U-UG-002} ! VAX 9000 Model 200 Hardware User Guide
 **document=doc{DEC:EK-9120A-IN.001} ! VAX 9000 Model 100/200 Installation Guide
@@ -2441,6 +2454,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Html-target: vax9000
 ! vref{6} just says "VAX 9000" and does not distinguish between 9000-2xx and 9000-4xx
 **OS-support-VMS**vref{6}: V5.4
+**OS-support-VMS-end**vref{7}: V7.3
 **CPU-module: KA9000
 **Num-proc**vref{4}: 1
 **CPU-names: {VAX 9210}
@@ -2513,6 +2527,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{4} = ref{EK-VAXCT-CG-006}
 **def-lref{5} = ref{EK-9000S-SI-001}
 **Def-lref{6} = ref{AA-LB22C-TE}
+**Def-lref{7} = ref{QS-VMS-V073}
 ! vref{2} states oct  1989
 **Announcement**vref{2}: 24 October 1989
 **Codename: Aquarius
@@ -2520,6 +2535,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 ! vref{6} just says "VAX 9000" and does not distinguish between 9000-2xx and 9000-4xx
 **OS-support-VMS**vref{6}: V5.4
 ! Flowchart has V5.4-OA for single processor
+**OS-support-VMS-end**vref{7}: V7.3
 **CPU-module: KA9000
 **Num-proc: 1-4
 **CPU-names: {VAX 9410}{VAX 9420}{VAX 9430}{VAX 9440}
@@ -2611,6 +2627,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{2} = ref{AZ-GLNAB-MN}
 **def-lref{3} = ref{AZ-GMZAB-MN}
 **def-lref{4} = ref{AZ-GLFAB-MN}
+**Def-lref{5} = ref{QS-VMS-V073}
 **document=doc{DEC:AZ-GLFAB-MN} ! VAXstation II Technical Manual, BA23 Enclosure
 **document=doc{DEC:AZ-GMZAB-MN} ! VAXstation II Technical Manual, BA123 Enclosure
 **document=doc{DEC:AZ-GLGAB-MN} ! VCB02 Video Subsystem Technical Manual
@@ -2624,6 +2641,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 ! Announce date is for  (VAXstation II/GPX)
 **Codename**uref{*126}: Caylith
 **OS-support-VMS: MicroVMS V4.1
+**OS-support-VMS-end**vref{5}: V7.2
 **CPU-module**vref{3}: KA630
 **Module**vref{3}: M7606
 **CPU-name-VMS**uref{*2}: KA630
@@ -3016,6 +3034,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{VXFT110}{VAX}{VAXFT}
 **Def-lref{1} = ref{EK-VAXCT-CG-006}
 **Def-lref{2} = ref{CU-1994-05-23}
+**Def-lref{3} = ref{QS-VMS-V073}
 **Sys-name: VAXft 110
 **Desc-name: VAXft Model 110
 **Announcement: March 1991
@@ -3025,6 +3044,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-FTV11-IP-001} ! VAXft System Model 110 IPB
 ! AKA Elsie?
 **OS-support-VMS: V5.4-3
+**OS-support-VMS-end**vref{3}: V6.2
 **Num-proc: 1
 **Cache**uref{*83}: None
 **Compatibility-mode: No
@@ -3044,6 +3064,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{CU-1992-04-24}
 **Def-lref{4} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{5} = ref{AA-LB22C-TE}
+**Def-lref{6} = ref{QS-VMS-V073}
 **document=doc{DEC:VAXFT-ARCHITECTURE} ! VAXft 310 Architecture Overview
 **Sys-name: VAXft 310
 **Desc-name: VAXft Model 310
@@ -3054,6 +3075,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**vref{4}: Cirrus
 ! vref{5} says "VAXft 3000" but that seems to have been an early name for the VAXft 310
 **OS-support-VMS**vref{5}: V5.4
+**OS-support-VMS-end**vref{6}: V6.2
 ! Flowchart has V5.4-3
 **CPU-module**uref{*18}: KA520
 **Num-proc: 1
@@ -3090,21 +3112,25 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{VXFT410}{VAX}{VAXFT}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
 **Def-lref{2} = ref{CU-1994-05-23}
+**Def-lref{3} = ref{QS-VMS-V073}
 **Sys-name: VAXft 410
 **Desc-name: VAXft Model 410
 **Last-order**vref{2}: 1994-09-30
 **Last-ship**vref{2}: 1994-12-31
 **OS-support-VMS: V5.4-3
+**OS-support-VMS-end**vref{3}: V6.2
 **VUPs**vref{1}: 6.0
 **Maximum-memory**vref{1}: 256MB
 **End-systems-entry{VXFT410}
 
 **Start-systems-entry{VXFT610}{VAX}{VAXFT}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
+**Def-lref{2} = ref{QS-VMS-V073}
 **document=doc{DEC:EK-FTV61-IP-001} ! VAXft System Models 610 and 612 IPB
 **Sys-name: VAXft 610
 **Desc-name: VAXft Model 610
 **OS-support-VMS: V5.4-3
+**OS-support-VMS-end**vref{2}: V6.2
 **VUPs**vref{1}: 6.0
 **Maximum-memory**vref{1}: 256MB
 **End-systems-entry{VXFT610}
@@ -3113,6 +3139,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{1} = ref{EK-VAXCT-CG-006}
 **def-lref{2} = ref{CU-1993-10-12}
 **def-lref{3} = ref{CU-1991-09-06}
+**Def-lref{4} = ref{QS-VMS-V073}
 **document=doc{DEC:EK-VX810-CG.A01} ! VAXft Systems Configuring the Model 810
 **document=doc{DEC:EK-FTV81-IP-A01} ! VAXft 810 System IPB
 **document=doc{DEC:EK-VXFTA-IN-A01} ! VAXft Systems Model 810 Installation Information
@@ -3126,6 +3153,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 ! **OS-support-VMS**vref{2}: V5.5-2hf  ... verified this 2021-07-25
 !  TODO check this properly
 **OS-support-VMS: V5.5-2HF and V6.2 (only)
+**OS-support-VMS-end**vref{4}: V6.2
 **Sys-name: VAXft 810
 **Desc-name: VAXft Model 810
 **Codename: Jetstream
@@ -3156,6 +3184,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**uref{*102}: Seahorse
 ! TODO checked ref{4} - eliminated when output checked
 **OS-support-VMS: MicroVMS V1.0
+! ref{QS-VMS-V073} claims V6.2 for end of support
 **OS-support-VMS-end**vref{4}: V5.1-1
 ! Note that ref{4} refers to V5.1-1 as last supported version, it doesn't mention the first supported version.
 ! Flowchart has end after V5.1-1
@@ -3260,6 +3289,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{CU-1992-11-02}
 **Def-lref{6} = ref{NYT-1985-05-13}
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{8} = ref{QS-VMS-V073}
 **document=doc{DEC:AZ-FE05A-TN} ! MicroVAX II 630QY, 630QZ Owner's Manual
 **document=doc{DEC:AZ-FE06A-TN} ! MicroVAX II 630QY, 630QZ Technical Manual
 **document=doc{DEC:AZ-GLBAA-MN} ! MicroVAX-II 630QB Technical Manual
@@ -3288,6 +3318,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Last-order**vref{5}: 1991-03-31
 **Codename**vref{7}: Mayflower
 **OS-support-VMS: MicroVMS V4.1M
+**OS-support-VMS-end**vref{8}: V7.2
 **CPU-module**vref{1}: KA630
 !-- [1] KA630-AA with FPU, KA630-AB without FPU
 **Module**vref{1}: M7606
@@ -3781,6 +3812,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{7} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{8} = ref{CBR-PR-1987-02-10}
 **Def-lref{9} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{10} = ref{QS-VMS-V073}
 **document=doc{DEC:EK-MVXAA-OM-001} ! MicroVAX 2000 Owner's Manual
 **document=doc{DEC:EK-MVXAA-TM-001} ! MicroVAX 2000 Technical Information
 **document=doc{DEC:EK-MVXAA-IG-001} ! MicroVAX 2000 Hardware Installation Guide
@@ -3794,6 +3826,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**vref{9}: Teammate
 **Html-target: uvvs2000
 **OS-support-VMS**vref{7}: V4.5B
+**OS-support-VMS-end**vref{10}: V7.2
 **CPU-module**vref{1}: KA410
 **CPU-name-VMS**uref{*2}: KA410
 **CPU-name-console**uref{**2}: KA410-A
@@ -3869,6 +3902,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{7} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{8} = ref{CBR-PR-1987-02-10}
 **Def-lref{9} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{10} = ref{QS-VMS-V073}
 **document=doc{DEC:EK-VTTAA-TM-001} ! VAXstation 2000 and MicroVAX 2000 Technical Manual
 **document=doc{DEC:EK-V2000-SG-001} ! VAXstation 2000 System Guide
 **document=doc{DEC:VS40X} ! VS2000 Color Board option Engineering Specification
@@ -3880,6 +3914,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**vref{9}: VAXstar
 **Html-target: uvvs2000
 **OS-support-VMS**vref{7}: V4.5B
+**OS-support-VMS-end**vref{10}: V7.2
 **CPU-module: KA410
 **CPU-name-VMS**uref{*2}: KA410
 **CPU-name-console**vref{2}: KA410-B
@@ -3949,6 +3984,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{SOC-SUM85}
 **Def-lref{4} = ref{SOCEE-SPR90}
 **Def-lref{5} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{6} = ref{QS-VMS-V073}
 **document=doc{DEC:DTJ-V1-1} ! "VAX 8600 Processor", Digital Technical Journal, Vol 1 No 1, August 1985
 **document=doc{DEC:EK-8600I-IN-001} ! VAX 8600/8650 System Installation Manual
 **document=doc{DEC:EK-8600I-S1-001} ! VAX 8600 System Upgrade Procedure
@@ -3975,6 +4011,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **FRS-date: March 1985
 **Codename**vref{5}: Venus
 **OS-support-VMS**uref{*2}: V4.0
+**OS-support-VMS-end**vref{6}: V7.3
 **CPU-module: KA86
 **VMS-CPU: 4
 **VMS-XCPU: 0
@@ -4032,6 +4069,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{2} = ref{VAX-HW-HB-1986-V2}
 **def-lref{3} = ref{SOC-SUM85}
 **def-lref{4} = ref{SOCEE-SPR90}
+**Def-lref{5} = ref{QS-VMS-V073}
 **document=doc{DEC:EK-8600I-IN-001} ! VAX 8600/8650 System Installation Manual
 **document=doc{DEC:EK-8600S-MM-004} ! VAX 8600/8650 System Fault Isolation Manual
 **document=doc{DEC:EK-DB86X-TD-002} ! VAX 8600/8650 SBIA Technical Decsription
@@ -4049,6 +4087,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Announcement**uref{*SUE 6.2,*102}: 4 December 1985
 **Codename**uref{*34,*102}: Morningstar
 **OS-support-VMS: V4.3
+**OS-support-VMS-end**vref{5}: V7.3
 **Html-target: vax8600
 **CPU-module: KA865
 **Num-proc: 1
@@ -4145,10 +4184,12 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
 **def-lref{4} = ref{SOCEE-SPR90}
+**Def-lref{5} = ref{QS-VMS-V073}
 !-- *33 8530 is 8500 with patched ucode -->
 **Announcement**uref{*102}: March 1987
 **Html-target: vax8500
 **OS-support-VMS**uref{*26}: V4.6
+**OS-support-VMS-end**vref{5}: V7.3
 **SID: 0683536D
 **XSID : 070009F9
 **Num-proc**htref{*3}: 1
@@ -4202,11 +4243,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{6} = ref{PRN-1986-08-05-VAX8550-8700}
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{8} = ref{QS-VMS-V073}
 **Announcement**vref{6}: 1986-08-05
 **FRS-date**uref{*102}: May 1986					
 **Codename**vref{7}: Skipjack
 **Html-target: vax8500
 **OS-support-VMS**vref{5}: V4.4
+**OS-support-VMS-end**vref{8}: V7.3
 **Num-proc**vref{3}: 1
 **CPU-technology**vref{3}: ECL Gate Array
 **CPU-cycle**vref{3}: 45ns
@@ -4254,10 +4297,12 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{6} = ref{PRN-1986-08-05-VAX8550-8700}
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{8} = ref{QS-VMS-V073}
 **document=doc{DEC:VAX 88X0} ! VAX 88x0/8700/85x0 Information
 **Announcement**vref{6}: 1986-08-05
 **Codename**vref{7}: Nautilus
 **OS-support-VMS**vref{5}: V4.4
+**OS-support-VMS-end**vref{8}: V7.3
 **CPU-module: KA88
 **Num-proc**vref{3}: 1
 **CPU-technology**vref{3}: ECL Gate Array
@@ -4305,6 +4350,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{DTJ-V1-4}
 **Def-lref{4} = ref{SOCEE-SPR90}
 **Def-lref{5} = ref{DOW-1986-01-29-VAX8800}
+**Def-lref{6} = ref{QS-VMS-V073}
 **document=doc{DEC:EK-KA881-TD-PRE} ! VAX 8800 System Technical Description Volume 1
 **document=doc{DEC:EK-KA882-TD-PRE} ! VAX 8800 System Technical Description Volume 2
 **document=doc{DEC:EK-KA883-TD-PRE} ! VAX 8800 System Technical Description Volume 3
@@ -4316,6 +4362,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Codename**uref{*37}: Nautilus
 **Html-target: vax8700
 **OS-support-VMS**uref{*26}: V4.4
+**OS-support-VMS-end**vref{6}: V7.3
 **CPU-module: KA88
 **VMS-CPU: 6
 **VMS-XCPU: 0

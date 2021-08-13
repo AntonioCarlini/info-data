@@ -10330,6 +10330,12 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **ref-url: https://www.spec.org/cpu95/results/res2000q3/
 **end-ref{SPEC-res-2000q3}
 
+**start-ref{SPEC-res-cint95}
+**ref-text: All of the SPECint95 Results Published by SPEC 
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/cpu95/results/cint95.html
+**end-ref{SPEC-res-cint95}
+
 **Start-ref{EK-ALXLA-UG.D01}
 **Ref-text: Digital Alpha XL Family User's Guide
 **Ref-partno: EK-ALXLA-UG.D01}
@@ -10415,6 +10421,20 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-electronic: PDF
 **Ref-url: https://www.istoragenetworks.com/servermanuals/es45_quickspecs.pdf
 **End-ref{QS-AS-ES45}
+
+**Start-ref{QS-VMS-V073}
+**Ref-text: QuickSpecs HP OpenVMS Operating System for Alpha and VAX, Version 7.3 and Alpha Version 7.3-1
+**ref-date: 2003-03-09
+**Ref-electronic: PDF
+**Ref-url: https://web.archive.org/web/20170829182026/http://h30266.www3.hpe.com/PDFs/HP%20OpenVMS%20Operating%20System%20for%20Alpha%20and%20VAX,%20Version%207.3%20and%20Alpha%20Version%207.3-1.pdf
+**End-ref{QS-VMS-V073}
+
+**Start-ref{QS-VMS-V084}
+**Ref-text: QuickSpecs HP OpenVMS Version 8.4 for Integrity and Alpha servers
+**ref-date: 2011-02-14
+**Ref-electronic: PDF
+**Ref-url: https://web.archive.org/web/20171028094437/http://h30266.www3.hpe.com/PDFs/V8.4QuickSpecs12551_div.pdf
+**End-ref{QS-VMS-V084}
 
 **Stop-processing
 
