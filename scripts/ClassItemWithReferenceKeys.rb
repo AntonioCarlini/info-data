@@ -25,5 +25,10 @@ class ItemWithReferenceKeys
     }
   end
   
+  # Convert to a string
+  def value_with_refs(local_refs, global_refs)
+    text = @value + local_refs.build_local_refs(@refs, global_refs)
+  end
+  
 end
 
