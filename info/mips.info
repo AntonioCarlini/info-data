@@ -108,10 +108,12 @@
 **Def-lref{4} = ref{CU-1993-12-06}
 **Def-lref{5} = ref{DEC-PR-1992-06-26}
 **Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{7} = ref{CU-1991-12-20}
 **Sys-name: DS5020
 **Desc-name: DECstation 5000 Model 20
 **Last-order**vref{4}: 1994-01-28
 **Last-ship**vref{4}: 1994-04-01
+**OS-support-ULTRIX**vref{7}: V4.2A
 **Codename**vref{6}: MAXINE LC
 **Num-proc**vref{5}: 1
 **CPU-module**htref{2}: KN02-BC
@@ -175,10 +177,13 @@
 **Def-lref{4} = ref{CU-1993-12-06}
 **Def-lref{5} = ref{DEC-PR-1992-06-26}
 **Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{7} = ref{CU-1991-12-20}
 **Sys-name: DS5025
 **Desc-name: DECstation 5000 Model 25
+**Announcement**vref{7}: 1991-12-20
 **Last-order**vref{4}: 1994-01-28
 **Last-ship**vref{4}: 1994-04-01
+**OS-support-ULTRIX**vref{7}: V4.2A
 **Codename**vref{6}: MAXINE LC
 **Num-proc**vref{5}: 1
 **CPU-module**htref{2}: KN02-CC
@@ -284,6 +289,7 @@
 **Def-lref{2} = ref{CU-1993-12-06}
 **Def-lref{3} = ref{CU-1993-05-10}
 **Sys-name: DECstation 5000 Model 50
+**Announcement**vref{3}: 1993-05-10
 **Last-order**vref{2}: 1994-01-28
 **Last-ship**vref{2}: 1994-04-01
 **OS-support-ULTRIX**vref{3}: V4.3A
@@ -328,11 +334,12 @@
 **Def-lref{1} = ref{DECdirect-AUG91}
 **Def-lref{2} = ref{CU-1992-06-05}
 **Def-lref{3} = ref{CU-1992-01-31}
+**Def-lref{3} = ref{CU-1992-08-10}
 ! vref{DECdirect-AUG91} says DECstation 5000 Models 120 and 125 differ only in the CPU module
 **Sys-name: DECstation 5000 Model 120
 **OS-support-DU**vref{3}: V1.0
 **Last-order**vref{2}: 1992-06-05
-**Last-ship**vref{2}: 1992-06-05
+**Last-ship**vref{4}: 1992-09-25
 **Num-proc: 1
 **CPU-chip**vref{1}: R3000A
 **FPU-chip**vref{1}: R3010
@@ -460,11 +467,14 @@
 **Def-lref{3} = ref{CU-1991-12-20}
 **Def-lref{4} = ref{CU-1995-09-15}
 **Def-lref{5} = ref{Glossary-CodeNames-1992-01-02}
+**Def-lref{6} = ref{CU-1991-12-20}
 ! [1]: MS02-AA MS02L-AB (8MB)   MS02-CA MS02-NV (NVRAM module) H7878A
 **Sys-name: DECstation 5000 Model 240
+**Announcement**vref{6}: 1991-12-20
 **Last-order**vref{4}: 1995-12-31
 ! vref{4} actually says Last Ship Date: March 31, 1995 but this must be a typo
 **Last-ship**vref{4}: 1996-03-31
+**OS-support-ULTRIX**vref{6}: V4.2A
 **Codename**vref{5}: 3MAX+
 **Num-proc**vref{1}: 1
 **CPU-module**vref{1}: KN03-GA
@@ -499,6 +509,7 @@
 **Def-lref{2} = ref{EK-4MMAX–OP.A01}
 **Def-lref{3} = ref{CU-1993-05-10}
 **Sys-name: DECstation 5000 Model 260
+**Announcement**vref{3}: 1993-05-10
 **OS-support-ULTRIX**vref{3}: V4.3A
 **Num-proc**vref{1}: 1
 **CPU-module**vref{1,2}: KN05
@@ -564,10 +575,11 @@
 **Dimensions-end{DSYS5100}
 **End-systems-entry{DSYS5100}
 
-**Start-systems-entry{DSYS51133}{DECMIPS}{DSYS}
+**Start-systems-entry{DSYS5133}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{DEC-PR-1992-06-22}
 **Sys-name: DECsystem 5133
 **Desc-name: DECsystem 5000 Model 133
+**Announcement**vref{1}: 1992-06-22
 **OS-support-ULTRIX**vref{1}: V4.2A
 **CPU-chip**vref{1}: R3000A
 **FPU-chip**vref{1}: R3010A
@@ -605,6 +617,13 @@
 **Weight**vref{1}: 20.5kg
 **Dimensions-end{DSYS5200}
 **End-systems-entry{DSYS5200}
+
+**Start-systems-entry{DSYS5240}{DECMIPS}{DSYS}
+**Def-lref{1} = ref{CU-1991-12-20}
+**Sys-name: DECsystem 5000 Model 240
+**Announcement**vref{1}: 1991-12-20
+**OS-support-ULTRIX**vref{1}: V4.2A
+**End-systems-entry{DSYS5240}
 
 **Start-systems-entry{DSYS5260}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{CU-1993-05-10}
@@ -710,10 +729,13 @@
 **Def-lref{2} = ref{EK-D590A-PS-C01}
 **Def-lref{3} = ref{EK-D590A-IP-001}
 **Def-lref{4} = ref{CU-1993-12-06}
+**Def-lref{5} = ref{CU-1991-12-20}
 **Sys-name: DS5900
 **Desc-name: DECsystem 5900
+**Announcement**vref{5}: 1991-12-20
 **Last-order**vref{4}: 1994-01-28
 **Last-ship**vref{4}: 1994-04-01
+**OS-support-ULTRIX**vref{5}; V4.2A
 **Num-proc**vref{1}: 1-2
 **Minimum-memory**vref{1}: 64MB
 **Maximum-memory**vref{1}: 448MB
