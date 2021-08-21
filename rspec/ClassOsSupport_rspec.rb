@@ -2,6 +2,7 @@ require "pathname.rb"
 $LOAD_PATH.unshift(Pathname.new(__FILE__).realpath().dirname().dirname())
 
 require "scripts/ClassOsSupport.rb"
+
 require "scripts/ClassItemWithReferenceKeys.rb"
 require "scripts/ClassTrackLocalReferences.rb"
 
