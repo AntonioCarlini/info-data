@@ -28,6 +28,45 @@ require_relative "DataTags.rb"
 
 require "yaml"
 
+#+
+# This class handles any data that is to be stored and then retrieved for each system.
+# Using this rather than an array makes the code easier to understand.
+#
+class DataTracker
+  attr_accessor :announcement
+  attr_reader   :os_support
+
+  def initialize(local_refs, global_refs)
+    @announcement = nil
+    @os_support = []
+    @local_refs = local_refs
+    @global_refs = global_refs
+  end
+
+  def announcement=(announcement_property)
+    unless announcement_property.nil?()
+      item = ItemWithReferenceKeys.new(announcement_property)
+      @announcement = item.value_with_refs(@local_refs, @global_refs)
+    end
+  end
+
+  # Stores an OsSupport object for each OS that is handled.
+  # The exact number of these depends on the hardware (as each has differing sets of reported OSes).
+  # Each of os_support_early, os_support_start, os_support_end is a property value.
+  def os_support_add(os_support_early, os_support_start, os_support_end)
+      early_support = nil
+      early_support = ItemWithReferenceKeys.new(os_support_early) unless os_support_early.nil?()
+
+      start_support = nil
+      start_support = ItemWithReferenceKeys.new(os_support_start) unless os_support_start.nil?()
+    
+      end_support = nil
+      end_support = ItemWithReferenceKeys.new(os_support_end) unless os_support_end.nil?()
+
+      @os_support << OsSupport.new(early_support, start_support, end_support).build_text(@local_refs, @global_refs)
+  end
+end
+
 def main
   sys_type = ARGV.shift()    # This might be 'vax' or 'alpha' etc.
   sys_yaml = ARGV.shift()    # This is the systems YAML file
@@ -77,7 +116,10 @@ def main
       name = "UNKNOWN" if name.nil?() || name.empty?()
     end
 
-    results[name] = []
+    data = DataTracker.new(local_refs, refs)
+    data.announcement = properties["Announcement"]
+    # Start with the announcement value
+    results[name] = [ data.announcement() ]
 
     # Loop through each specified OS, adding the support data to the results array.
     # Note that "OS-support-???-early/end" only exist for VMS but as they will return nil for
@@ -87,20 +129,9 @@ def main
     # in the future.
     platform_set.each() {
       |os|
-      early_support = nil
-      early_property = properties["OS-support-#{os}-early"]
-      early_support = ItemWithReferenceKeys.new(early_property) unless early_property.nil?()
-
-      start_support = nil
-      start_property = properties["OS-support-#{os}"]
-      start_support = ItemWithReferenceKeys.new(start_property) unless start_property.nil?()
-    
-      end_support = nil
-      end_property = properties["OS-support-#{os}-end"]
-      end_support = ItemWithReferenceKeys.new(end_property) unless end_property.nil?()
-
-      results[name] << OsSupport.new(early_support, start_support, end_support).build_text(local_refs, refs)
+      data.os_support_add(properties["OS-support-#{os}-early"], properties["OS-support-#{os}"], properties["OS-support-#{os}-end"])
     }
+    results[name] = data
   }
 
   # Run through the systems in alphabetic order and display the results.
@@ -108,8 +139,10 @@ def main
   column_width = 20
   puts(%Q[{| class="wikitable sortable"])
   puts(%Q[! System])
+  puts(%Q[! Announcement])
   platform_set.each() { |os| puts(%Q[! colspan="2" | #{os_display_name[os]} Support]) }
   puts(%Q[|-])
+  puts(%Q[!])
   puts(%Q[!])
   platform_set.each() {
     |os|
@@ -120,7 +153,8 @@ def main
     |name|
     puts("|-")
     print("| #{name}")
-    results[name].each() {
+    print("|| #{results[name].announcement()}")
+    results[name].os_support().each() {
       |support|
       print(" || #{support.os_begin_support()} || #{support.os_finish_support()}")
     }
