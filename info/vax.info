@@ -134,7 +134,7 @@
 **document=doc{DEC:EK-511AB-CL.B01} ! VAX 4000 Model 105A Customer Letter
 **document=doc{DEC:EK-V4156-UP-A01} ! VAX 4000 Model 105A Upgrade to Model 106A
 ! This corroborated by web newspaper articles. uv3100-95 on the same day.
-**Announcement**vref{6}: 12 April 1994
+**Announcement**vref{6}: 1994-04-12
 **Last-order**vref{7}: 1995-07-29
 **Html-target: vax410x
 !TODO: haved checked ref{6} - eliminate comment when output checked
@@ -517,7 +517,7 @@
 **document=doc{DEC:EK-454AA-MG-001} ! KA675/KA680/KA690 CPU System Maintenance
 **Sys-name: VAX 4000-400
 **Desc-name: VAX 4000 Model 400
-**Announcement**vref{4}: 15 July 1992
+**Announcement**vref{4}: 1992-07-15
 **Last-order**vref{6}: 1993-12-30
 **Last-ship**vref{6}: 1994-03-30
 **Codename**uref{*102}: Omega-S
@@ -578,7 +578,7 @@
 **document=doc{DEC:EK-KA680-UP.C01} ! Addendum to KA680 CPU Technical Manual
 **Sys-name**vref{1}: VAX 4000-500
 **Desc-name: VAX 4000 Model 500
-**Announcement**vref{9}: 30 October 1991
+**Announcement**vref{9}: 1991-10-30
 **Last-order**vref{10}: 1993-12-30
 **Last-ship**vref{10}: 1994-03-30
 **Codename**vref{11}: Omega C/P
@@ -799,7 +799,7 @@
 **document=doc{DEC:EK-454AA-MG-001} ! KA675/KA680/KA690 CPU System Maintenance
 **Sys-name: VAX 4000-600A
 **Desc-name: VAX 4000 Model 600A
-**Announcement**vref{5}: 15 July 1992
+**Announcement**vref{5}: 1992-07-15
 **FRS-date**uref{??? *SUE Apr 1992 pt II}: 24 April 1992
 **Last-order**vref{6}: 1993-12-30
 **Last-ship**vref{6}: 1994-03-30
@@ -1005,7 +1005,7 @@
 **document=doc{DEC:EK-620AA-MG-001} ! VAX 6200 Options And Maintenance
 **document=doc{DEC:EK-6200X-IP-001} ! *ipb* VAX 6200 System
 **document=doc{DEC:EK-KA62A-RM-J}
-**Announcement**vref{3}: April 1988
+**Announcement**vref{3}: 1988-04
 **Codename**vref{7}: Calypso
 **OS-support-VMS**vref{5,8}: V5.0
 **CPU-module**vref{1,2}: KA62A
@@ -1156,7 +1156,7 @@
 **document=doc{DEC:DTJ-V2-2} ! "VAX 6000 Model 400 System", Digital Technical Journal, Vol 2 No 2, Spring 1990
 **document=doc{DEC:EK-640EB-TM-002} ! VAX 6000-400 System Technical User's Guide
 **document=doc{DEC:EK-640EB-MG-002} ! VAX 6000-400 Options and Maintenance
-**Announcement**uref{*44 [1]}: 11 July 1989
+**Announcement**uref{*44 [1]}: 1989-07-11
 **Codename**vref{8}: Rigel
 **OS-support-VMS**vref{5,9}: V5.2 
 **CPU-module**uref{*2}: KA64A
@@ -1212,7 +1212,7 @@
 **document=doc{DEC:EK-MS65A-UP-001} ! VAX 6000: Installing MS65A Memories
 **document=doc{DEC:EK-6500X-IP-001} ! *ipb* VAX 6000-500 System
 **document=doc{DEC:EK-65AMA-M-A} ! RM-65AMA-0-0 VAX 6000-500 System Revision Matrix
-**Announcement**uref{*48}: 25 October 1990
+**Announcement**uref{*48}: 1990-10-25
 **Last-order**vref{7}: 1993-09-30
 **Codename**vref{8}: Mariah
 **OS-support-VMS**htref{**1}: V5.4
@@ -1280,8 +1280,8 @@
 **document=doc{DEC:EK-660EA-MG-001} ! VAX 6000 Model 600 Service Manual
 **document=doc{DEC:EK-660EA-UP-001} ! VAX 6000: Installing Model 600 Processors
 **document=doc{DEC:VAX-6000-MA} ! VAX6000-600 MAINTENANCE ADVISORY
-**Announcement**vref{5}: 30 October 1991
-**FRS-date**vref{5}: 22 November 1991
+**Announcement**vref{5}: 1991-10-30
+**FRS-date**vref{5}: 1991-11-22
 **Last-order**vref{6}: 1993-09-30
 **Codename**Vref{7}: Neptune
 **OS-support-VMS**vref{5}: V5.5
@@ -1353,7 +1353,7 @@
 **Def-lref{3} = ref{SOCEE-SPR90}
 **Def-lref{4} = ref{VMS-V071-SPD}
 **Html-target: vax730
-**Announcement: October 1983		
+**Announcement: 1983-10
 **Codename: Low Cost Nebula
 ! vref{4} only mentions end date
 ! V3.0 cribbed from VAX-11/730 to avoid a missing start
@@ -1411,8 +1411,8 @@
 **document=doc{DEC:MP01270} ! 11730-Z Field Maintenance Print Set
 **document=doc{DEC:MP01278} ! RB730 Field Maintenance Print Set
 **document=doc{DEC:MP01364} ! FP730 Field Maintenance Print Set
-**Announcement**vref{4}: April 1982
-**FCS-date**vref{4}: May 1982
+**Announcement**vref{4}: 1982-04
+**FCS-date**vref{4}: 1982-05
 **Codename**vref{5}: Nebula
 ! check ref{4} ref{6}
 **OS-support-VMS**vref{4,6}: V3.0
@@ -1515,10 +1515,9 @@
 **document=doc{DEC:MP01390} ! 750 PCS Field Maintenance Print Set
 **document=doc{DEC:MP01647} ! CI750 Field Maintenance Print Set
 **document=doc{DEC:VAX-11/750 Workbook} ! VAX-11/750 Level II Student Workbook
-! **Announcement**uref{DU JAN-1986}: 1980
-**Announcement**vref{5}: October 1980
+**Announcement**vref{5}: 1980-10
 **Fcs-date**vref{5}: November 1980
-!**Frs-date**uref{DU JAN-1986}: October 1980
+!**Frs-date**uref{DU JAN-1986}: 1980-10
 **Codename**vref{6}: Comet
 **OS-support-VMS: V2.0
 **OS-support-VMS-end**vref{7}: V6.2
@@ -1579,7 +1578,7 @@
 **document=doc{DEC:EK-KA7AA-TM-001} ! VAX 7000/10000 KA7AA CPU Technical Manual
 **Sys-name: VAX 7000-600
 **Desc-name: VAX 7000 Model 600 series
-**Announcement**vref{4}: 15 July 1992
+**Announcement**vref{4}: 1992-07-15
 !**Last-order**vref{5}: 1995-06-30
 **Last-order**vref{6}: 1995-03-30
 **Last-ship**vref{6}: 1995-06-29
@@ -1634,7 +1633,7 @@
 **def-lref{6} = ref{CBR-PR-1994-08-23}
 **def-lref{7} = ref{CU-1994-08-15}
 **Announcement**vref{7}: 1994-08-15
-**FRS-date**htref{2}: 1 August 1994
+**FRS-date**htref{2}: 1994-08-01
 ! Note that this was from {CU-V6-11} and NOT {CU-V6-11A}
 **Last-order**vref{3}: 30 March 1996
 ! Note that this was from {CU-V6-11} and NOT {CU-V6-11A}
@@ -1725,8 +1724,8 @@
 **document = doc{DEC:MP00534}
 **document = doc{DEC:MP00539}
 **document = doc{DEC:MP01759}
-**Announcement**vref{4}: 25 October 1977
-**FCS-date**vref{5}: February 1978
+**Announcement**vref{4}: 1977-10-25
+**FCS-date**vref{5}: 1978-02
 **Codename**vref{4}: Star
 **OS-support-VMS: V1.5
 **OS-support-VMS-end**vref{6}: V6.2
@@ -1783,7 +1782,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Sys-name: VAX-11/782
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1} 
 **Def-lref{2} = ref{EG-21731-18}
-**Announcement**vref{2}: February 1982
+**Announcement**vref{2}: 1982-02
 **FCS-date**vref{2}: June 1982
 **Codename: Atlas
 **Html-target: vax780
@@ -1826,7 +1825,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{4} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{5} = ref{QS-VMS-V073}
 **document=doc{DEC:EK-KC785-TD-001} ! VAX-11/785 Console Interface Technical Description
-!**Announcement**uref{SUE 5.19}: 2 April 1984
+!**Announcement**uref{SUE 5.19}: 1984-04-02
 **Announcement**vref{3}: 1984-04-03
 **Codename**vref{4}: Superstar
 **OS-support-VMS**uref{*26}: V3.4
@@ -1884,7 +1883,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:AZ-GN6AB-TE} ! VAX 8200/8300 Mini-Reference
 **document=doc{DEC:EK-821BA-RM-A} ! RM-821BA-Y-0 REV A 8200/8300 System Revision Matrix
 **document=doc{DEC:KS-20186-AB} ! VAX 8200. The New Leader in Departmental Computing
-**Announcement**uref{*102}: 29 January 1986
+**Announcement**uref{*102}: 1986-01-29
 **Codename**vref{7}: Scorpio
 ! **OS-support-VMS**uref{*26}: V4.4
 **OS-support-VMS**vref{6}: V4.3A
@@ -2051,7 +2050,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{AA-ME85D-TE}
 **Def-lref{6} = ref{QS-VMS-V073}
 **document=doc{DEC:KS-10186-AB} ! VAX 8300. The High Performance System for Departmental Computing
-**Announcement**uref{*102}: 29 January 1986
+**Announcement**uref{*102}: 1986-01-29
 **OS-support-ULTRIX**vref{5}: V4.0
 **Codename: Scorpio
 **Html-target: vax8200
@@ -2212,7 +2211,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-KA820-TM-003} ! KA820/KA825 Processor Technical Manual
 **document=doc{DEC:EK-KA825-MA-001} ! KA825 Maintenance Advisory
 **document=doc{DEC:EK-83XUP-IN-001} ! VAX 8200 to VAX 8350 and VAX 8250 to VAX 8350 Upgrade Procedures
-**Announcement**uref{%SCORPIO:115.*}: 2 March 1987
+**Announcement**uref{%SCORPIO:115.*}: 1987-03-02
 **Codename**uref{*102}: Sargas
 **OS-support-VMS**vref{2}: V4.5
 ! Flowchart has V4.6
@@ -2272,7 +2271,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{1} = ref{EB-31692-46}
 **Def-lref{2} = ref{EK-KA825-MA-001}
 **Def-lref{3} = ref{QS-VMS-V073}
-**Announcement**uref{%SCORPIO:115.*}: 2 March 1987
+**Announcement**uref{%SCORPIO:115.*}: 1987-03-02
 **Codename**uref{*102}: Sargas
 **Html-target: vax8250
 ! Flowchart has V4.6
@@ -2344,7 +2343,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-8840H-UG-001} ! VAX 8820/8830/8840 System Hardware User's Guide
 **document=doc{DEC:EK-8840A-IP-002} ! VAX 8820/30/40 IPB
 **Announcement**vref{3}: 1988-03-08
-**FRS-date: April 1988
+**FRS-date: 1988-04
 **Codename**vref{4}: PolarStar
 ! Note that vref{5}  mentions 8820-8840 but not 8810
 **OS-support-VMS**vref{2,5}: V5.0
@@ -2449,7 +2448,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-9201U-UG-002} ! VAX 9000 Model 200 Hardware User Guide
 **document=doc{DEC:EK-9120A-IN.001} ! VAX 9000 Model 100/200 Installation Guide
 **document=doc{DEC:EK-9000X-IP-001} ! *ipb* VAX 9000 Model 210 System
-**Announcement**vref{2}: 24 October 1989
+**Announcement**vref{2}: 1989-10-24
 **Codename**vref{5}: Aquarius
 **Html-target: vax9000
 ! vref{6} just says "VAX 9000" and does not distinguish between 9000-2xx and 9000-4xx
@@ -2529,7 +2528,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{6} = ref{AA-LB22C-TE}
 **Def-lref{7} = ref{QS-VMS-V073}
 ! vref{2} states oct  1989
-**Announcement**vref{2}: 24 October 1989
+**Announcement**vref{2}: 1989-10-24
 **Codename: Aquarius
 **Html-target: vax9000
 ! vref{6} just says "VAX 9000" and does not distinguish between 9000-2xx and 9000-4xx
@@ -2637,7 +2636,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-630QV-IP-001} ! *ipb* 630 QV VAXstation II CPU Box
 **document=doc{DEC:EK-630QW-IP-001} ! *ipb* 630 QW VAXstation II World Box
 **document=doc{DEC:EK-GPX11-IP-001} ! *ipb* VAXstation II Family
-**Announcement**uref{DU FEB-1986}: 24 January 1986
+**Announcement**uref{DU FEB-1986}: 1986-01-24
 ! Announce date is for  (VAXstation II/GPX)
 **Codename**uref{*126}: Caylith
 **OS-support-VMS: MicroVMS V4.1
@@ -2776,8 +2775,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:firefox_qbusAdapter_Dec87} ! Firefox Workstation Q-Bus Adapter Module Functional Specification
 **Announcement**vref{4}: 1989-01-09
 **Codename**uref{*47}: Firefox
-**Last-order**vref{3}: 30 November 1991
-**Last-ship**vref{3}: 31 March 1992
+**Last-order**vref{3}: 1991-11-30
+**Last-ship**vref{3}: 1992-03-31
 **OS-support-VMS**vref{2,5}: V5.1-1
 ! This is the VS3540 specifically
 **OS-support-ULTRIX**vref{6}: V4.0
@@ -2854,7 +2853,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:VS4060-BOX} ! System Enclosure Specification VS4000 Model 60
 **Sys-name: VAXstation 4000-60
 **Desc-name: VAXstation 4000 Model 60
-**Announcement**vref{5}: 30 October 1991
+**Announcement**vref{5}: 1991-10-30
 **Last-order**vref{6}: 1996-03-30
 **Last-ship**vref{6}: 1996-06-30
 **Codename**vref{8}: Pmariah
@@ -2923,7 +2922,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-VSFAX-UP.002} ! VS 2000 and VS 3100 family to VAXstation 4000 VLC Upgrade Guide
 **document=doc{DEC:EK-VSAXP-UP-A01} ! VAXstation VLC to DEC 3000 Model 300/300L AXP Upgrade
 **document=doc{DEC:VLC} ! VLC System Enclosure Specification
-**Announcement**vref{4}: 30 October 1991
+**Announcement**vref{4}: 1991-10-30
 **Last-order**vref{5}: 1994-12-30
 **Last-ship**vref{5}: 1995-03-31
 **Codename: VLC
@@ -3001,9 +3000,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-VS800-IG-001} ! VAXstation 8000 Installation Guide
 **Sys-name: VAXstation 8000
 **Announcement**vref{3}: 1988-02-02
-!**Codename**uref{*102 *DU MAR-1988}: Lynx
 **Codename**vref{4}: Lynx
-! TODO checked vref{2} - eliminate when output checked
 **OS-support-VMS**vref{2}: V4.7
 ! vref{5} explicitly states that V5.4 drops support for the VAXstation 8000
 **OS-support-VMS-end**vref{5}: V5.3-2
@@ -3037,7 +3034,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{QS-VMS-V073}
 **Sys-name: VAXft 110
 **Desc-name: VAXft Model 110
-**Announcement: March 1991
+**Announcement: 1991-03
 **Last-order**vref{2}: 1994-09-30
 **Last-ship**vref{2}: 1994-12-31
 **Codename: Cirrus II
@@ -3068,10 +3065,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:VAXFT-ARCHITECTURE} ! VAXft 310 Architecture Overview
 **Sys-name: VAXft 310
 **Desc-name: VAXft Model 310
-**Announcement**uref{*18, %VAXFT:68.0 }: 27 February 1990
-**FRS-date**uref{%VAXFT:92.0}: 19 May 1995
-**Last-order**vref{3}: 30 June 1992
-**Last-ship**vref{3}: 30 September 1992
+**Announcement**uref{*18, %VAXFT:68.0 }: 1990-02-27
+**FRS-date**uref{%VAXFT:92.0}: 1995-05-19
+**Last-order**vref{3}: 1992-06-30
+**Last-ship**vref{3}: 1992-09-30
 **Codename**vref{4}: Cirrus
 ! vref{5} says "VAXft 3000" but that seems to have been an early name for the VAXft 310
 **OS-support-VMS**vref{5}: V5.4
@@ -3179,7 +3176,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-KD32A-OM-CN1} ! MicroVAX I Owner's Manual Release Notes
 **document=doc{DEC:EK-KD32A-PG-001} ! MicroVAX I Pocket Service Guide
 **document=doc{DEC:EK-KD32A-TD-002} ! MicroVAX I CPU Technical Description
-**Announcement**uref{*136}: October 1983
+**Announcement**uref{*136}: 1983-10
 **FRS-date**uref{*136}: late 1984
 **Codename**uref{*102}: Seahorse
 ! TODO checked ref{4} - eliminated when output checked
@@ -3439,7 +3436,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-A0616-TM-001} ! MicroVAX 3100 Model 30 Troubleshooting and
 ! vref{7}: uV3100-30: BA42-A. uV3100-40: BA42-B
 ! **Announcement**vref{6}: 28 January 1992, but that is the date of the article: it doesn't explicitly state an announcement date
-**Announcement**vref{7}: 10 January 1992
+**Announcement**vref{7}: 1992-01-10
 **Codename**vref{8}: Waverly A/B
 **OS-support-VMS**vref{7}: V5.5
 **CPU-module**vref{1,2,4}: KA45
@@ -3536,8 +3533,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-A0604-IN-B01} ! MicroVAX 3100 Model 90 Installation Information
 **document=doc{DEC:EK-A0606-TM-B01} ! MicroVAX 3100 Model 90 Customer Technical Information
 **document=doc{DEC:EK-A0607-TI-B01} ! MicroVAX 3100 Model 90 Troubleshooting and Diag Information
-**Announcement**vref{3}: 15 July 1992
-**FCS-date**vref{3}: Late September 1992
+**Announcement**vref{3}: 1992-07-15
+**FCS-date**vref{3}: Late 1992-09
 **Last-order**vref{5}: 1994-06-30
 ! {SUE-1994-06} has Last-ship: 1994-09-30
 **Last-ship**vref{5}: 1994-08-30
@@ -3600,7 +3597,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{8} = ref{DEC-PR-1988-10-19}
 **Def-lref{9} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{10} = ref{AA-LB22C-TE}
-**Announcement**vref{5}: 18th October 1988
+**Announcement**vref{5}: 1988-10-15
 ! vref{7} has last ship for uV3400 October 1, 1991
 **Last-order**vref{6,7}: 1992-03-31
 **Last-ship**vref{6}: 1992-06-30
@@ -3678,7 +3675,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{8} = ref{CU-1992-11-02}
 **Def-lref{9} = ref{Glossary-CodeNames-1992-01-02}
 ! vref{3} also announces the VAXstation 3200 and VAXstation 3500
-**Announcement**vref{7}: 9 September 1987
+**Announcement**vref{7}: 1987-09-09
 **Last-order**vref{8}: 1990-03-31
 **Codename**vref{9}: Mayfair
 **OS-support-VMS**vref{6}: V4.7A
@@ -3763,7 +3760,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{8} = ref{AA-LB22C-TE}
 **document=doc{DEC:EK-KA655-TM-001} ! KA655 CPU Module Technical Manual
-**Announcement**vref{5}: 10 April 1989
+**Announcement**vref{5}: 1989-04-10
 ! vref{6} confirms this for 3500 and 3600
 **Last-order**vref{6}: 1991-06-30
 **Codename**vref{7}: Mayfair III
@@ -3821,7 +3818,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !The MicroVAX 2000 and VAXstation 2000 are based on the same system module,
 !the KA410: a single jumper determines which system type the module is.
 !configured for.
-**Announcement**vref{8}: 9 February 1987
+**Announcement**vref{8}: 1987-02-09
 **Last-order**vref{8}: 1990-01-31
 **Codename**vref{9}: Teammate
 **Html-target: uvvs2000
@@ -3910,7 +3907,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !The MicroVAX 2000 and VAXstation 2000 are based on the same system module,
 !the KA410: a single jumper determines which system type the module is
 !configured for.
-**Announcement**vref{8}: 9 February 1987
+**Announcement**vref{8}: 1987-02-09
 **Codename**vref{9}: VAXstar
 **Html-target: uvvs2000
 **OS-support-VMS**vref{7}: V4.5B
@@ -4007,7 +4004,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EY-4818E-DX-0001} ! VAX 8600 Console Specifications
 **document=doc{DEC:EY-4818E-PP-000} ! VAX 8600 Training Print Set
 **document=doc{DEC:EY-4818E-PP-0001} ! VAX 8600 Training Print Set
-**Announcement**uref{*SUE 6.2,*102}: 31 October 1984
+**Announcement**uref{*SUE 6.2,*102}: 1984-10-31
 **FRS-date: March 1985
 **Codename**vref{5}: Venus
 **OS-support-VMS**uref{*2}: V4.0
@@ -4084,7 +4081,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-KA86V-TD-002} ! VAX 8600/8650 EMM Environmental Monitoring Module Technical Description
 **document=doc{DEC:EK-VENUS-IP-002} ! IPB-VAX 8600/8650 Illustrated Parts Breakdown
 **document=doc{DEC:EK-08650-RM-C} ! RM-8650-0-0 C REV 8650 Unit Revision Matrix
-**Announcement**uref{*SUE 6.2,*102}: 4 December 1985
+**Announcement**uref{*SUE 6.2,*102}: 1985-12-04
 **Codename**uref{*34,*102}: Morningstar
 **OS-support-VMS: V4.3
 **OS-support-VMS-end**vref{5}: V7.3
@@ -4186,7 +4183,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **def-lref{4} = ref{SOCEE-SPR90}
 **Def-lref{5} = ref{QS-VMS-V073}
 !-- *33 8530 is 8500 with patched ucode -->
-**Announcement**uref{*102}: March 1987
+**Announcement**uref{*102}: 1987-03
 **Html-target: vax8500
 **OS-support-VMS**uref{*26}: V4.6
 **OS-support-VMS-end**vref{5}: V7.3
@@ -4245,7 +4242,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{8} = ref{QS-VMS-V073}
 **Announcement**vref{6}: 1986-08-05
-**FRS-date**uref{*102}: May 1986					
+**FRS-date**uref{*102}: 1986-05
 **Codename**vref{7}: Skipjack
 **Html-target: vax8500
 **OS-support-VMS**vref{5}: V4.4
@@ -4358,7 +4355,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:KS-30186-AB} ! VAX 8800. For Your Most Demanding Applications
 **document=doc{DEC:VAX 88x0} ! VAX 88x0/8700/85x0 Information
 **Announcement**vref{5}: 1986-01-26
-**FRS-date**uref{*37}: February 1986
+**FRS-date**uref{*37}: 1986-02
 **Codename**uref{*37}: Nautilus
 **Html-target: vax8700
 **OS-support-VMS**uref{*26}: V4.4
@@ -4426,8 +4423,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-288AA-IP-001} ! *ipb* VAXstation 3100
 **document=doc{DEC:VS3100_SYS_ENCL} ! VS3100 System Enclosure Engineering Specification
 **Announcement**vref{8}: 1989-01-09
-**Last-order**uref{*108}: 30 August 1991
-**Last-ship**uref{*108}: 27 September 1991
+**Last-order**uref{*108}: 1991-08-30
+**Last-ship**uref{*108}: 1991-09-27
 **Codename**vref{9}: PVAX0			
 **OS-support-VMS**vref{7,10}: V5.1-B
 !-- *31: VS3100-38/48 UWS V2.1 -->
@@ -4583,7 +4580,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-VS31M-MG-002} ! VAXstation 3100 Model 76 Maintenance Guide
 **document=doc{DEC:EK-VX31M-CG-002} ! VAXstation 3100 Model 76 Upgrade Guide
 **document=doc{DEC:VS3176-OM} ! VAXstation 3100 Model 76 Owner's Manual. March 1991. (Bookreader)
-**Announcement**uref{*48}: 25 October 1990
+**Announcement**uref{*48}: 1990-10-25
 **Codename**vref{8}: Panther
 **Html-target: vs3100
 **OS-support-VMS**vref{9}: V5.4
@@ -4662,7 +4659,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-VAXOG-IN-B01} ! VAXstation 4000 Model 90 Owner's and System Installation Guide
 **document=doc{DEC:EK-VX690-UP-A01} ! VAXstation 4000 Model 60 to VAXstation 4000 Model 90 Upgrade Guide
 **document=doc{DEC:VS TCA} ! VAXstation 4000 Model 60/90 TURBOchannel Bus Adapter Specification
-**Announcement**vref{4}: 15 July 1992
+**Announcement**vref{4}: 1992-07-15
 **Last-order**vref{6}: 1993-12-24
 **Last-ship**vref{6}: 1994-03-25
 **Codename: Cougar
@@ -4748,8 +4745,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{4} = ref{CU-1995-05-15}
 **document=doc{DEC:EK-VAXST-CL-B01} ! VAXstation 4000 Model 96 Update Information
 **Announcement**vref{3}: 1995-04-11
-**Last-order**vref{2}: 30 September 1999
-**Last-ship**vref{2}: 31 December 1999
+**Last-order**vref{2}: 1999-09-30
+**Last-ship**vref{2}: 1999-12-31
 **OS-support-VMS-early**vref{4}: V5.5-2H4
 **OS-support-VMS**vref{4}: V6.1
 **Html-target: vs409x
@@ -4768,7 +4765,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{4} = ref{Glossary-CodeNames-1992-01-02}
-**Announcement: 11 July 1989		
+**Announcement: 1989-07-11
 **Codename**vref{4}: Teammate II
 !**OS-support-VMS**uref{*26}: V5.2
 **OS-support-VMS**vref{3}: V5.2-1
@@ -4836,7 +4833,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{4} = ref{DECdirect-FEB92}
 **Def-lref{5} = ref{CU-1992-10-12}
 **def-lref{6} = ref{CU-1992-11-02}
-**Announcement**uref{*47}: 25 October 1990
+**Announcement**uref{*47}: 1990-10-25
 ! vref{6} has 20e last ship August 7, 1992
 **Last-order**vref{5,6}: 1993-03-31
 **Last-ship**vref{5}: 1993-06-30
@@ -4890,7 +4887,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Sys-name: MicroVAX 3100-80
 **Desc-name: MicroVAX 3100 Model 80
 ! **Announcement**vref{9}: 28 January 1992, but that is the date of the article: it doesn't explicitly state an announcement date
-**Announcement**vref{10}: 10 January 1992
+**Announcement**vref{10}: 1992-01-10
 **Last-ship**vref{11}: 1994-12-30
 **Last-order**vref{11}: 1995-03-30
 **Codename: Waverly-Mariah
@@ -4959,7 +4956,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Desc-name: MicroVAX 3100 Model 85
 **Announcement**vref{8}: 1994-08-15
 **Html-target: uv3180
-**Last-order**htref{6}: 29 July 1995
+**Last-order**htref{6}: 1995-07-20
 ! TODO checked ref{8} - eliminate when output checked
 **OS-support-VMS-early**vref{8}: V5.5-2H4
 **OS-support-VMS**vref{8}: V6.1
@@ -5018,8 +5015,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{8} = ref{VAX-FINAL-LETTER-JESSIE_LIPCON}
 **Def-lref{9} = ref{TMAI-1996-10-09}
 **Announcement**vref{9}: 1996-10-08
-**Last-order**vref{8}: 30 September 2000
-**Last-ship**vref{8}: 31 December 2000
+**Last-order**vref{8}: 2000-09-30
+**Last-ship**vref{8}: 2000-12-31
 **Sys-name: MicroVAX 3100-88
 **Desc-name: MicroVAX 3100 Model 88
 **Html-target: uv3180
@@ -5046,7 +5043,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-A0716-IN-C01} ! MicroVAX 3100 Model 85/95/96 Installation Information
 **document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
 **document=doc{DEC:EK-A0719-TM-C01} ! MicroVAX 3100 Model 85/95/96 Troubleshooting & Diagnostics Info
-**Announcement**vref{6}: 12 April 1994
+**Announcement**vref{6}: 1994-04-12
 **Last-order**vref{7}: 1995-07-29
 **Html-target: uv319x
 ! TODO checked ref{6} - eliminate when output checked
@@ -5109,7 +5106,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
 **document=doc{DEC:EK-A0719-TM-C01} ! MicroVAX 3100 Model 85/95/96 Troubleshooting & Diagnostics Info
 **Announcement**vref{6}: 1995-04-11
-**FRS-date**htref{4}: 19 May 1995
+**FRS-date**htref{4}: 1995-05-19
 **OS-support-VMS-early**vref{7}: V5.5-2H4
 **OS-support-VMS**vref{7}: V6.1
 **Html-target: uv319x

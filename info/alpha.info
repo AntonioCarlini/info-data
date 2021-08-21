@@ -48,7 +48,7 @@
 **CPU-clock**vref{5,8}: 150MHz
 **CPU-cycle**vref{5}: 6.6ns
 **Cache**vref{6}: 8KB-I/8KB-D
-**Announcement**vref{8}: 25 May 1993
+**Announcement**vref{8}: 1993-05-25
 **Last-order**vref{11}: 1995-02-28
 !**Last-order**vref{10}: 1994-12-30 (for the DEC 2000 Model 500)
 !**Last-order**vref{9}: 28 February 1994 | Probably really meant 1995!
@@ -482,8 +482,8 @@
 **Def-lref{8} = ref{CU-1995-10-15}
 **Def-lref{9} = ref{CU-1996-01-18}
 **Codename: Sandpiper45
-**Announcement**vref{6}: 18 July 1994
-**FRS-date**vref{6}: August 1994
+**Announcement**vref{6}: 1994-07-18
+**FRS-date**vref{6}: 1994-08
 ! **Last-order**vref{7}: 1995-10-02 later extended!
 !**Last-order**vref{8}: 1995-12-30
 **Last-order**vref{9}: 1996-03-30
@@ -773,7 +773,7 @@
 ! vref{x1} = DIGITAL AlphaServer 300 series - Overview (https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c00342173)
 ! vref{x1} => 512MB max 8SIMM slots PCI 132MB/s ISA 16MB/s 1PCI, 1 ISA, 1 PCI/ISA
 **Sys-name: AlphaServer 300 4/266
-**Announcement**htref{1}: 15 November 1996
+**Announcement**htref{1}: 1996-11-15
 **OS-support-vms**vref{4}: V6.2-1H1
 !**OS-support-vms: OpenVMS V6.2-1H3 try to double check against an SPD?
 ! vref{2} = chipset 21072-AA
@@ -976,7 +976,7 @@
 **Def-lref{4} = ref{CU-1996-01-31}
 !-- [1]: integrated SVGA controller for both 4/233 and 4/266 -->
 !-- V7-3B 1-Mar-1996 gives Rackmount variant dimensions as: 10.50-inches high by 19-inches wide by 27 inches deep -->
-**Announcement**vref{4}: 1996-01-31a
+**Announcement**vref{4}: 1996-01-31
 **OS-support-vms: V6.2-1H2
 **FRS-date**htref{1}: March 1996
 **Num-proc: 1
@@ -1295,7 +1295,7 @@
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{SPEC-res-9512}
 **Def-lref{3} = ref{CU-1996-01-31}
-**Announcement**vref{3}: {CU-1996-01-31}
+**Announcement**vref{3}: 1996-01-31
 **OS-support-vms**vref{3}: V6.2
 **OS-support-du**vref{3}: Digital UNIX V3.2B
 **OS-support-nt**vref{3}: V3.51

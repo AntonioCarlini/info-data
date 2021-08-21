@@ -5,7 +5,7 @@
 **Def-lref{1} = ref{DS3100}
 **Def-lref{2} = ref{EK-302AB-OG-002}
 **Def-lref{3} = ref{CU-1992-01-31}
-**Announcement**uref{%MIPSCO:77.0}: 11 July 1989
+**Announcement**uref{%MIPSCO:77.0}: 1989-07-11
 **OS-support-DU**vref{3}: V1.0
 **CPU-module**vref{1}: KN01
 **Num-proc**vref{1}: 1
@@ -674,7 +674,7 @@
 **Start-systems-entry{DSYS5800}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{AA-ME85D-TE}
 **Sys-name: DECsystem 5800
-**Announcement**uref{%MIPSCO 77.0 5810 & 582}: 11 July 1989
+**Announcement**uref{%MIPSCO 77.0 5810 & 582}: 1989-07-11
 **OS-support-ULTRIX**vref{1}: V4.0
 **Codename**uref{%MIPSCO:79.1}: ISIS
 **CPU-module**uref{%DECSYSTEM:7.3,7.13}: KN58A
