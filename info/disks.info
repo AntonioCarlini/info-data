@@ -832,29 +832,48 @@
 **Start-storage-entry{RD50}{STORAGE_MISC}{RD}
 **Sys-name: RD50
 **Desc-name: RD50 Winchester Disk
-**Capacity**uref{*DU-FEB86}: 5MB
+**Def-lref{1} = ref{EK-PC300-V1-001}
+**Capacity**vref{1}: 5MB
+**Transfer-rate**vref{1}: 5Mb/s
+**Average-access**vref{1}: 170ms
+**Track-density**vref{1}: 255 tpi
+**Dimensions-start{RD50}
+**Height**vref{1}: 82.5mm
+**Width**vref{1}: 146mm
+**Depth **vref{1}: 204mm
+**Weight**vref{1}: 2.3kg
+**Dimensions-end{RD50}
 **End-storage-entry{RD50}
 
 **Start-storage-entry{RD51}{STORAGE_MISC}{RD}
 **Sys-name: RD51
 **Desc-name: RD51 Winchester Disk
+**Def-lref{1} = ref{EK-PC300-V1-001}
 **Lifetime**uref{DU JUN-86}: 1983-?	
-**Capacity**uref{78,*SOEE85}: 11MB	
+**Capacity**vref{1}: 10MB	
 **Form-factor: 5-1/4"
-**Average-access**uref{78,*SOEE85}: 93.3ms	
+**Average-access**vref{1}: 85 ms
 **Average-seek**uref{127,*DU JUN-86}: 85ms	
 **Average-latency**uref{78,*SOEE85}: 8.33ms	
-**Transfer-rate**uref{78,*SOEE85=>625Kbits/s}: 625 KB/s	
+**Transfer-rate**vref{1}: 5Mb/s
 **Bytes-per-sector**uref{*SOEE85}: 512	
 **Sectors-per-track**uref{*SOEE85}: 18	
 **Tracks-per-drive**uref{*SOEE85}: 1200	
+**Track-density**vref{1}: 345 tpi
 **Num-heads**uref{78,*SOEE85}: 4	
+**Dimensions-start{RD51}
+**Height**vref{1}: 82.5mm
+**Width**vref{1}: 146mm
+**Depth **vref{1}: 204mm
+**Weight**vref{1}: 2.3kg
+**Dimensions-end{RD51}
 **End-storage-entry{RD51}
 
 **Start-storage-entry{RD52}{STORAGE_MISC}{RD}
 **Sys-name: RD52
 **Desc-name: RD52 Winchester Disk
 **Def-lref{1} = ref{DA-1987-07-10-RD52}
+**Def-lref{2} = ref{EK-PC300-V1-001}
 ! [11]: 35W, 1A@5V, 2.6A@12V, BTU/hr: 119, 3.2kg -->
 **Lifetime**uref{[*DU JUN-86]}:	1984-1985	
 **Announcement**uref{[*SUE 6.5]}: September 1984	
@@ -862,16 +881,25 @@
 **Last-ship**vref{1}: 1987-12-24
 **Capacity**vref{1}: 31MB	
 **Form-factor**vref{1}: 5-1/4" 
+! vref{2} has abg access 37.5 ms
 **Average-access**vref{1}: 57ms	
 ! 57.5ms [78]*SOEE85 [*SUE 6.5] -->
 **Controller**vref{1}: RQDX2/RQDX3
 **Average-seek: 57ms
 **Average-latency**uref{[78]}: 8.5ms	
 **Peak-transfer-rate**vref{1}: 625 KB/s
+**Transfer-rate**vref{1}: 5Mb/s
 !!!**Data-surfaces**uref{[78]}: 8	
+**Track-density**vref{2}: 345 tpi
 **Tracks-per-drive**uref{*SOEE85}: 3485	
 **Sectors-per-track**uref{*SOEE85}: 18	
 **Bytes-per-sector**uref{*SOEE85}: 512	
+**Dimensions-start{RD52}
+**Height**vref{2}: 82.5mm
+**Width**vref{2}: 146mm
+**Depth **vref{2}: 204mm
+**Weight**vref{2}: 3.18 kg
+**Dimensions-end{RD52}
 **End-storage-entry{RD52}
 
 **Start-storage-entry{RD53}{STORAGE_MISC}{RD}

@@ -10457,6 +10457,22 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: https://web.archive.org/web/20171028094437/http://h30266.www3.hpe.com/PDFs/V8.4QuickSpecs12551_div.pdf
 **End-ref{QS-VMS-V084}
 
+**Start-ref{EK-PC350-TM-001}
+**Ref-text: Professional 300 Series Technical Manual
+**Ref-date: 1982-12
+**Ref-partno: EK-PC350-TM-001
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/pdp11/pro3xx/EK-PC350-TM-001_Professional_300_Series_Technical_Manual_Dec82.pdf
+**End-ref{EK-PC350-TM-001}
+
+**Start-ref{EK-PC300-V1-001}
+**Ref-text: Professional 300 Series Technical Manual Volume I Kernel System
+**Ref-date: 1985-06
+**Ref-partno: EK-PC300-V1-001
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/pdp11/pro3xx/EK-PC300-V1-001_pro300tecV1.pdf
+**End-ref{EK-PC300-V1-001}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):

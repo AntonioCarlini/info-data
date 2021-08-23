@@ -457,6 +457,11 @@
   - MCA slot details
   - decpc
   - io
+- BUS-CTI:
+  - CTI
+  - CTI slot details
+  - pdp11
+  - io
 - LAN-support:
   - LAN support
   - Ethernet support details
@@ -550,7 +555,7 @@
   - power
 - Power:
   - Power
-  - POower consumption
+  - Power consumption
   - all
   - power
 - Heat-dissipation:

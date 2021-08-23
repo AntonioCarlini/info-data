@@ -559,4 +559,86 @@
 **Announcement**vref{1}: 1990-05-07
 **End-systems-entry{MicroPDP1193}
 
-
+**Start-systems-entry{Pro325}{PDP11}{Professional}
+**Desc-name: Professional System 325
+**Sys-name: Pro325
+**Def-lref{1} = ref{EK-PC300-V1-001}
+! vref{1}: Floppy only, no HDD for Pro325. No network OS download
+**CPU-chip**vref{1}: F-11
+**FPU-chip**vref{1}: FP11
+**BUS-CTI**vref{1}: 3 available
+**Power-start{Pro325-115V}
+**Supply**vref{1}: 115V 1-phase
+**I-max**vref{1}: 6A
+**Power**vref{1}: 320W
+**Power-end{Pro325-115V}
+**Power-start{Pro325-230V}
+**Supply**vref{1}: 230V 1-phase
+**I-max**vref{1}: 4A
+**Power**vref{1}: 320W
+**Power-end{Pro325-320V}
+**Dimensions-start{Pro325}
+**Height**vref{1}: 165 mm
+**Depth**vref{1}: 558 mm
+**Width**vref{1}: 343 mm
+**Weight**vref{1}: 15.9 kg
+**Dimensions-end{Pro325}
+**End-systems-entry{Pro325}
+
+**Start-systems-entry{Pro350}{PDP11}{Professional}
+**Sys-name: Pro350
+**Desc-name: Professional System 350
+**Def-lref{1} = ref{EK-PC350-TM-001}
+**Def-lref{2} = ref{EK-PC300-V1-001}
+! vref{1}: F-11 can address 3MB, VR201 monitor, 4 available option slots
+! 6A@115V/4A@230V 320W max
+! FPA optional
+! 1 or 2 128KB RAM cards
+! Keyboard: LK201
+**CPU-chip**vref{1}: F-11
+**FPU-chip**vref{1}: FP11
+**BUS-CTI**vref{1}: 3 available
+**Power-start{Pro350-115V}
+**Supply**vref{1}: 115V 1-phase
+**I-max**vref{1}: 6A
+**Power**vref{1}: 320W
+**Power-end{Pro350-115V}
+**Power-start{Pro350-230V}
+**Supply**vref{1}: 230V 1-phase
+**I-max**vref{1}: 4A
+**Power**vref{1}: 320W
+**Power-end{Pro350-320V}
+**Dimensions-start{Pro325}
+**Dimensions-start{Pro350}
+**Height**vref{1}: 165 mm
+**Depth**vref{1}: 558 mm
+**Width**vref{1}: 343 mm
+**Weight**vref{1}: 15.9 kg
+**Dimensions-end{Pro350}
+**End-systems-entry{Pro350}
+
+**Start-systems-entry{Pro380}{PDP11}{Professional}
+**Sys-name: Pro380
+**Desc-name: Professional System 380
+**Def-lref{1} = ref{DEC-PR-1984-09-12}
+**Def-lref{2} = ref{EK-PC300-V1-001}
+**Announcement**vref{1}: 1984-09-12
+**BUS-CTI**vref{2}: 5 available
+**Power-start{Pro380-115V}
+**Supply**vref{2}: 115V 1-phase
+**I-max**vref{2}: 6A
+**Power**vref{2}: 320W
+**Power-end{Pro380-115V}
+**Power-start{Pro380-230V}
+**Supply**vref{2}: 230V 1-phase
+**I-max**vref{2}: 4A
+**Power**vref{2}: 320W
+**Power-end{Pro380-320V}
+**Dimensions-start{Pro380}
+**Height**vref{2}: 165 mm
+**Depth**vref{2}: 558 mm
+**Width**vref{2}: 343 mm
+**Weight**vref{2}: 15.9 kg
+**Dimensions-end{Pro380}
+**End-systems-entry{Pro380}
+
