@@ -3982,6 +3982,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{4} = ref{SOCEE-SPR90}
 **Def-lref{5} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{6} = ref{QS-VMS-V073}
+**Def-lref{7} = ref{DEC-PR-1984-10-31}
 **document=doc{DEC:DTJ-V1-1} ! "VAX 8600 Processor", Digital Technical Journal, Vol 1 No 1, August 1985
 **document=doc{DEC:EK-8600I-IN-001} ! VAX 8600/8650 System Installation Manual
 **document=doc{DEC:EK-8600I-S1-001} ! VAX 8600 System Upgrade Procedure
@@ -4004,7 +4005,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EY-4818E-DX-0001} ! VAX 8600 Console Specifications
 **document=doc{DEC:EY-4818E-PP-000} ! VAX 8600 Training Print Set
 **document=doc{DEC:EY-4818E-PP-0001} ! VAX 8600 Training Print Set
-**Announcement**uref{*SUE 6.2,*102}: 1984-10-31
+**Announcement**vref{7}: 1984-10-31
 **FRS-date: March 1985
 **Codename**vref{5}: Venus
 **OS-support-VMS**uref{*2}: V4.0
