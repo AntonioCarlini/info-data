@@ -3147,9 +3147,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-VXFTA-SP-A01} ! VAXft Systems Model 810 Site Preparation Guide
 **Announcement**vref{2}: 1993-10-12
 **Last-order**vref{3}: 1994-12-09
-! **OS-support-VMS**vref{2}: V5.5-2hf  ... verified this 2021-07-25
-!  TODO check this properly
-**OS-support-VMS: V5.5-2HF and V6.2 (only)
+! Did V6.0/V6.1 suppor tthis processor? TODO: check SPDs
+**OS-support-VMS**vref{2}: V5.5-2HF
 **OS-support-VMS-end**vref{4}: V6.2
 **Sys-name: VAXft 810
 **Desc-name: VAXft Model 810

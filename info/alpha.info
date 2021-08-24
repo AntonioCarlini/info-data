@@ -185,7 +185,9 @@
 **Def-lref{6} = ref{CU-1994-02-14}
 **Def-lref{7} = ref{CU-1995-07-15}
 **Def-lref{8} = ref{CU-1995-10-15}
-**Announcement**vref{6}: 1994-02-14
+**Def-lref{9} = ref{DEC-PR-1994-02-09}
+! vref{6} is dated 1994-02-14
+**Announcement**vref{9}: 1994-02-09
 ! **Last-order**vref{7}: 1995-10-02 later extended!
 **Last-order**vref{8}: 1995-12-30
 **Last-ship**vref{8}: 1996-03-01
@@ -228,6 +230,8 @@
 **Def-lref{5} = ref{SOC-JAN1995}
 **Def-lref{6} = ref{CU-1994-02-14}
 **Def-lref{7} = ref{CU-1995-04-15}
+**Def-lref{8} = ref{DEC-PR-1994-02-09}
+**Announcement**vref{8}: 1994-02-09
 **Last-order**vref{7}: 1995-06-23
 **OS-support-VMS**vref{6}: OpenVMS AXP V1.5
 **OS-support-DU**vref{6}: DEC OSF/1 V1.3a
@@ -1695,6 +1699,7 @@
 **Desc-name: AlphaServer GS60
 **Def-lref{1} = ref{HPCwire-1998-10-23}
 **Def-lref{2} = ref{DU-RN-4.0E}
+**Announcement**vref{1}: 1998-10-23
 **OS-support-vms: V7.1-2
 **OS-support-du**vref{2}: V4.0E
 **CPU-chip**vref{1}: 21264 (EV6)
@@ -1721,6 +1726,7 @@
 **Desc-name: AlphaServer GS140
 **Def-lref{1} = ref{HPCwire-1998-10-23}
 **Def-lref{2} = ref{DU-RN-4.0E}
+**Announcement**vref{1}: 1998-10-23
 **OS-support-vms: V7.1-2
 **OS-support-du**vref{2}: V4.0E
 **CPU-chip**vref{1}: 21264 (EV6)
