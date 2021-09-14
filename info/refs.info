@@ -1676,6 +1676,13 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: https://www.1000bit.it/js/web/viewer.html?file=%2Fad%2Fbro%2Fdigital%2Fdec-pr-decmateadvwordpro.pdf
 **End-ref{DEC-PR-1982-05-10}
 
+**Start-ref{DEC-PR-1983-03-31}
+**Ref-text: Fact Sheet/VXT 2000+ Color and Grayscale X Window Terminals
+**Ref-date: 1983-03-31
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/g/biz.dec/c/j_4TBe8DkA4
+**End-ref{DEC-PR-1983-03-31}
+
 **Start-ref{DEC-PR-1984-09-12}
 **Ref-text: Professional 380 System Features Power, Speed
 **Ref-date: 1984-09-12
@@ -1852,6 +1859,12 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: https://groups.google.com/forum/#!topic/biz.dec/FFYfM37fivM
 **End-ref{DEC-PR-1994-02-21}
 
+**Start-ref{DEC-PR-1994-03-14-VAX4050}
+**Ref-text: DEC Announces the VAX 4000 Model 50 Upgrade
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!original/biz.dec.decnews/QbEYBKNbDUg/ei7j7ocHbO0J
+**End-ref{DEC-PR-1994-03-14-VAX4050}
+
 **Start-ref{DEC-PR-1994-03-15}
 **Ref-text: DEC Announces the VAXstation 4000 Model 90A
 **Ref-processed: Yes
@@ -1864,12 +1877,24 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/WYq7R_Xzcw0
 **End-ref{DEC-PR-1994-06-06}
 
+**Start-ref{DEC-PR-1994-10-18}
+**Ref-text: DEC Announces the DEClaser 3500
+**Ref-processed: Yes
+**Ref-url: http://web.archive.org/web/19961220134807/http://www.digital.com/info/PR000J/PR000JSC.TXT
+**End-ref{DEC-PR-1994-10-18}
+
 **Start-ref{DEC-PR-1994-11-16}
 **Ref-text: DEC Announces the DEClaser 3500
 **Ref-processed: Yes
 **Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/kecl8ptlV-A
 **End-ref{DEC-PR-1994-11-16}
 
+**Start-ref{DEC-PR-1995-02-23}
+**Ref-text: DEC Announces the AlphaServer 400 4/166
+**Ref-processed: Yes
+**Ref-url: http://web.archive.org/web/19961220142839/http://www.digital.com/info/PR005H/PR005HSC.TXT
+**End-ref{DEC-PR-1995-02-23}
+	
 **Start-ref{DEC-PR-1995-07-11}
 **Ref-text: DEC Announces the DEClaser 3500A
 **Ref-processed: Yes
@@ -1888,17 +1913,17 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/AQC6cRot-dY
 **End-ref{DEC-PR-1995-11-15-TKZ61-62}
 
+**Start-ref{DEC-PR-1996-01-29}
+**Ref-text: DEC Announces the AlphaStation 500 5/333
+**Ref-processed: Yes
+**Ref-url: http://web.archive.org/web/19961220144743/http://www.digital.com/info/PR00GC/PR00GCSC.TXT
+**End-ref{DEC-PR-1996-01-29}
+
 **Start-ref{HP-PR-2003-01-20}
 **Ref-text: PR Announces the AlphaServer GS1280, ES80 and ES47
 **Ref-processed: Yes
 **Ref-url: https://web.archive.org/web/20040415204928/http://www.hp.com:80/hpinfo/newsroom/press/2003/030120c.html
 **End-ref{HP-PR-2003-01-20}
-
-**Start-ref{DEC-PR-1994-03-14-VAX4050}
-**Ref-text: DEC Announces the VAX 4000 Model 50 Upgrade
-**Ref-processed: Yes
-**Ref-url: https://groups.google.com/forum/#!original/biz.dec.decnews/QbEYBKNbDUg/ei7j7ocHbO0J
-**End-ref{DEC-PR-1994-03-14-VAX4050}
 
 **Start-ref{DA-1987-07-10-RD52}
 **Ref-text: Digital Announcement: 1987-JUL-10 (RD52)

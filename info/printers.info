@@ -512,12 +512,13 @@
 
 **Start-printers-entry{LN14}{PRINTER}{LN}
 **Def-lref{1} = ref{DEC-PR-1994-11-16}
+**Def-lref{2} = ref{DEC-PR-1994-10-18}
 **Sys-name: LN14
 **Desc-name: DEClaser 3500
-**Announcement**vref{1}: 1994-11-16
+**Announcement**vref{2}: 1994-10-18
 **Processor**vref{1}: 29200/20 MHz
-**Min-memory**vref{1}: 3 MB
-**Max-memory**vref{1}: 19 MB
+**Min-memory**vref{1,2}: 3 MB
+**Max-memory**vref{1,2}: 19 MB
 **Print-speed**vref{1}: 12 pages/min
 **Resolution**vref{1}: 600 dpi
 **Duplex**vref{1}: No

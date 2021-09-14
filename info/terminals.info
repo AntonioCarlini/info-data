@@ -389,3 +389,12 @@
 **FRS-date**vref{1}: 1994-09-01
 **End-terminals-entry{VT525}
 
+**Start-terminals-entry{VXT2000PLUS}{DECVT}{VXT}
+**Sys-name: VXT2000+
+**Desc-name: VXT2000+ X Window Terminal
+**Def-lref{1} = ref{DEC-PR-1983-03-31}
+**Announcement**vref{1}: 1993-03-31
+**Minimum-memory**vref{1}: 4MB
+**Maximum-memory**vref{1}: 18MB
+**End-terminals-entry{VXT2000PLUS}
+

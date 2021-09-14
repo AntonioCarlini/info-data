@@ -1638,7 +1638,7 @@
 **Last-order**vref{3}: 30 March 1996
 ! Note that this was from {CU-V6-11} and NOT {CU-V6-11A}
 **Last-ship**vref{3}: 29 June 1996
-**OS-support-VMS**htref{2}: V6.1
+**OS-support-VMS**vref{7}: V6.1
 **Num-proc**vref{4}: 1-6
 **CPU-names: {VAX 7710}{VAX 7720}{VAX 7730}{VAX 7740}{VAX 7750}{VAX 7760}
 **CPU-name-VMS: KA7AB
@@ -1673,7 +1673,7 @@
 ! V5.5-2 supports 7810-7840 as 7610-7640
 **Num-proc: 1-6
 **CPU-names: {VAX 7810}{VAX 7820}{VAX 7830}{VAX 7840}{VAX 7850}{VAX 7860}
-!**CPU-clock**htref{1}: 170.9MHz
+!**CPU-clock**vref{3}: 170.9MHz
 **CPU-clock**vref{2}: 170.9MHz
 **CPU-name-VMS: KA7AC
 **Module: E2059-AA
