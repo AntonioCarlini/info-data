@@ -1,4 +1,3 @@
-! Digital 2100 Server Model A500MP-R: https://groups.google.com/forum/#!topic/biz.dec.decnews/pmIp3w9Ed5c
 ! Digital 2100 Server Models A500MP and A600MP: https://groups.google.com/forum/#!topic/biz.dec.decnews/tKGQ9iqtpxI
 ! Digital Personal Workstation 433a and 500a: https://www.hpcwire.com/1997/01/17/product-watch-dec-rolls-out-new-alpha-based-workstations-intranet-sdk-for-java-available-borland-announces-clientserver-suite-for-as400/
 ! DNSES: https://groups.google.com/forum/#!topic/biz.digital.articles/BC8ypvPskbg
@@ -15,6 +14,9 @@
 !**SPECint95**vref{1}: 
 !**SPECfp95**vref{1}: 
 !**End-systems-entry{AS800-5-500}
+!
+! [[Alpha Systems Part Numbers]]:
+! DEC 2000-500 CULZEAN  54-20674-04
 
 
 ! Alpha XL 266 missing ....
@@ -191,6 +193,8 @@
 ! **Last-order**vref{7}: 1995-10-02 later extended!
 **Last-order**vref{8}: 1995-12-30
 **Last-ship**vref{8}: 1996-03-01
+! Codename from DEC NOTES conference ALPHANOTES_V1
+**Codename: Pelican+
 **OS-support-VMS**vref{6}: OpenVMS AXP V1.5
 **OS-support-DU**vref{6}: DEC OSF/1 V1.3a
 **CPU-module: KN16-CA
@@ -232,6 +236,8 @@
 **Def-lref{7} = ref{CU-1995-04-15}
 **Def-lref{8} = ref{DEC-PR-1994-02-09}
 **Announcement**vref{8}: 1994-02-09
+! Codename from DEC NOTES conference ALPHANOTES_V1
+**Codename: Pelica+
 **Last-order**vref{7}: 1995-06-23
 **OS-support-VMS**vref{6}: OpenVMS AXP V1.5
 **OS-support-DU**vref{6}: DEC OSF/1 V1.3a
@@ -446,6 +452,8 @@
 **Last-ship**vref{8}: 1996-03-01
 **OS-support-VMS**vref{5}: V1.5-1H1
 **OS-support-DU**vref{5}: DEC OSF/1 AXP V1.3A
+! Codename from DEC NOTES conference ALPHANOTES_V1
+**Codename: Sandpiper+
 **CPU-module: KN17-BA
 **CPU-name-vms: KN17-BA
 **CPU-name-console: KN17-BA
@@ -485,6 +493,7 @@
 **Def-lref{7} = ref{CU-1995-07-15}
 **Def-lref{8} = ref{CU-1995-10-15}
 **Def-lref{9} = ref{CU-1996-01-18}
+! Codename from DEC NOTES conference ALPHANOTES_V1
 **Codename: Sandpiper45
 **Announcement**vref{6}: 1994-07-18
 **FRS-date**vref{6}: 1994-08
@@ -543,6 +552,7 @@
 **Last-ship**vref{5}: 1995-01-10
 **OS-support-VMS**vref{3}: V1.5-1H1
 **OS-support-DU**vref{3}: DEC OSF/1 AXP V1.3A
+! Codename from DEC NOTES conference ALPHANOTES_V1
 **Codename: Flamingo II
 **CPU-module: KN17-AA
 **CPU-name-vms: KN17-AA
@@ -590,6 +600,7 @@
 **Last-ship**vref{8}: 1996-06-01
 **OS-support-vms**vref{6}: V6.1
 **OS-support-du**vref{6}: DEC OSF/1 AXP V2.1
+! Codename from DEC NOTES conference ALPHANOTES_V1
 **Codename: Flamingo45
 **CPU-module: KN17-AB
 **CPU-name-vms: KN17-AB
@@ -636,6 +647,7 @@
 ! vref{5}: only for one CPU, no SMP
 **Last-order**vref{4}: 1994-09-30
 **Last-ship**vref{4}: 1995-12-31
+! Codename from DEC NOTES conference ALPHANOTES_V1
 **Codename: Cobra
 **OS-support-VMS: V1.0
 **OS-support-VMS-end**vref{8}: V8.2
@@ -695,6 +707,8 @@
 **Sys-name: DEC 4000 Model 710/720
 **Desc-name: DEC 4000 Model 710/720
 **Announcement**vref{2}: 1993-10-12
+! Codename from DEC NOTES conference ALPHANOTES_V1
+**Codename: Fang
 **OS-support-vms: V1.5
 **OS-support-VMS-end**vref{5}: V8.2
 **OS-support-DU: V3.0 (SMP)
@@ -1095,6 +1109,8 @@
 **Def-lref{5} = ref{QS-VMS-V084}
 **Def-lref{6} = ref{CU-1995-02-01}
 **Announcement**vref{4}: 1994-11-03
+! Codename from DEC NOTES conference ALPHANOTES_V1
+**Codename: Demi-Sable
 **OS-support-vms**vref{4}: V6.1
 **OS-support-VMS-end**vref{5}: V8.2
 **OS-support-du**vref{4,6}: DEC OSF/1 V2.1 (uniprocessor) DEC OSF/1 V3.0 (SMP)
@@ -1211,6 +1227,8 @@
 ! vref{4}: Mentions: The Model A600MP consists of at least one A500MP-R system plus rackmount storage 
 ! The name change was announced 1994-11-03: https://groups.google.com/forum/#!topic/biz.digital.articles/aglT1BMpHf8
 **Announcement**vref{4}: 1994-04-12
+! Codename from DEC NOTES conference ALPHANOTES_V1
+**Codename: Sable
 **OS-support-vms**vref{4}: V6.1
 **OS-support-DU**vref{4}: DEC OSF/1 V2.0B (uniprocessor), DEC OSF/1 V3.0 (SMP) 
 **OS-support-nt**vref{4}: V3.5
