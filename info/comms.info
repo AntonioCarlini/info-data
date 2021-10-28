@@ -812,10 +812,11 @@
 **Speed**vref{1}: 9600bps
 **End-comms-entry{DF296-DA}
 
-**Start-comms-entry{DETMI}{HUB90}
-**Sys-name: DETMI
-**Desc-name: DECrepeater 90TS
-**Def-lref{1} = ref{CU-1994-09-15}
-**Announcement**vref{1}: 1994-09-15
-**Num-ports**vref{1}: 8
-**End-comms-entry{DETMI}
+**Start-comms-entry{DECNA}{PRO}
+**Sys-name: DECNA
+**Desc-name: DECNA Ethernet LAN Controller
+**Def-lref{1} = ref{SUE-1984-05-28-V5-N23}
+! vref{1}: requires xoP/OS Hard Disk Version 2.0, also announced in this issue
+**Announcement**vref{1}: 1984-05-28
+**Dimensions**vref{1}: 5.2" x 12"
+**End-comms-entry{DECNA}

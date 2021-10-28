@@ -1824,16 +1824,17 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{3} = ref{NYT-1984-04-04-785}
 **Def-lref{4} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{5} = ref{QS-VMS-V073}
+**Def-lref{6} = ref{SUE-1984-04-02-V5-N19}
 **document=doc{DEC:EK-KC785-TD-001} ! VAX-11/785 Console Interface Technical Description
-!**Announcement**uref{SUE 5.19}: 1984-04-02
-**Announcement**vref{3}: 1984-04-03
+! vref{6}: 1984-04-02
+**Announcement**vref{3,6}: 1984-04-03
 **Codename**vref{4}: Superstar
-**OS-support-VMS**uref{*26}: V3.4
+**OS-support-VMS**vref{6}: V3.5
 **OS-support-VMS-end**vref{5}: V6.2
 **OS-support-ULTRIX**uref{*12}: V1.0
 **CPU-name-VMS: KA785
 **Num-proc: 1
-**CPU-technology**vref{1}: Advanced Schottky
+**CPU-technology**vref{1,6}: Advanced Schottky
 **CPU-cycle**vref{1}: 133ns
 **Instruction-buffer**vref{1}: 8 bytes
 **Translation-buffer**vref{1}: 128 entries

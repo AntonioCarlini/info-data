@@ -1579,6 +1579,44 @@ Jabberwocky Toolkit V2.0
 SLS V2.4 for OpenVMS
 
 
+{SUE-1984-05-28-V5-N23}
 
+VAX RPG II 1.0 available
 
+VAX FORTRAN V4.0
 
+MULTIPLAN V1.10 (for Rainbow with MS-DOS)
+
+Professional CTS-300
+
+PRO/VENIX
+
+PRO CP/M-80 V1.1
+
+P/OS Hard Disk Version 2.0 (previous version was V1.7)
+
+{S-SU-1984-01-xx}
+
+DECspell
+
+DECmate II V1.5
+
+DECdx/VMS Version 1.0
+
+ALL-IN-1 V1.3
+
+{SUE-1984-04-02-V5-N19}
+
+VAX Rdb/VMS
+
+VAXElan renamed VAXELN
+
+{S-SU-1984-04-09}
+
+VAX Rdb/ELN V1.0
+
+VAX Datatrieve V3.0
+
+{SUE-1984-04-16-V5-N20}
+
+PDP-11 SORT/MERGE V3.0

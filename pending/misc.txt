@@ -234,3 +234,30 @@ Digital Announces X25portal 2000 V1.0
 DECnews: ZLX Graphics Accelerators Details
 DIGITAL Announces the ZLX-E1 2D Graphics Accelerator for Alpha AXP Workstations
 DIGITAL Announces the ZLX-L1 3D Solids Midrange Graphics Accelerator
+
+
+{S-SU-1983-04-25}
+
+VAXcluster announcement
+VMS V3.3 & V3.4 supported
+Supports: VAX-11/750 (requires VMS V3.4), VAX-11/780, VAX-11/782, HSC50
+
+CI750 announced
+
+{S-SU-1983-11-14}
+
+uVAX I announced. no compatibility mode. Two Quad modules  (DAP and MCT)
+Floor standing: H: 622mm W: 254mm D: 724mm weight: 32 kg
+Rack: H: 133mm W: 483mm D: 648mm Weight: 25 kg
+MSV11-PK (M8067-KA) (256 KB),  MSV11-PL (M8067-LA) (512KB)
+Box: BA23-AA. H7864 PSU
+CPU: CMOS
+Memory: 1MB
+
+VAXelan announced. This was the orignial name before it was renamed VAXELN for legal reasons.
+Supported targets: uVAX I, VAX-11/730, VAX-11/750
+
+{SUE-1984-04-02-V5-N19}
+
+Original uVI supported F & G floating. A later option provided for D in place of G. H is always emulated in software.
+
