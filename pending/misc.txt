@@ -261,3 +261,28 @@ Supported targets: uVAX I, VAX-11/730, VAX-11/750
 
 Original uVI supported F & G floating. A later option provided for D in place of G. H is always emulated in software.
 
+{SUE-1984-04-30-V5-N21}
+
+KCT32
+
+{SUE-1984-05-14-V5-N22}
+
+DECsystem-1095: KL10R CPU, MCA25, 2MW system package
+DECSYSTEM-2065: KL10R CPU, MCA25, 2MW system package
+
+TK25
+55ips
+serial serpentine
+10 tracks
+8000 bpi
+max xfer rate 55KB/s
+DC600A
+60MB
+RT-11 V5.1 (non-bootable)
+RSX-11M/S V4.1, RSX-11M-PLUS V2.1, Micro/RSX V1.0 support as addon
+RSTS/E V8.0D (to be released 1984-05)
+
+TQK25-EA (this is drive + controller + cables) M7605
+
+DHV11 was announced in 1983-09-05 issue
+DEQNA announced 1983-10-03 issue

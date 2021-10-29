@@ -1620,3 +1620,34 @@ VAX Datatrieve V3.0
 {SUE-1984-04-16-V5-N20}
 
 PDP-11 SORT/MERGE V3.0	
+
+{SUE-1984-05-14-V5-N22}
+
+DATATRIEVE-20 V1.0
+DBMS-20 V6.1
+TRAFFIC-20 V4.0
+TOPS-20 PSI GATEWAY V1.1 (uses DCEnet-20 V3.0)
+
+ULTRIX-32 V1.0 (based on BSD 4.2)
+Supports VAX-11/785, VAX-11/780, VAX-11/750, VAX-11/730
+
+LN01 Font Utility
+LN01 Font Library
+
+VAX-11 3271 Protocol Emulator V2.1
+
+{S-SU-1984-05-28}
+
+VMS V4.0
+
+MicroVMS V1.0 (next version will be V4 to match VMS and avoid confusion ... there will be no V2 and no V3)
+
+DECnet-VAX V4.0
+
+
+VAX Encryption
+
+VAX-11 RSX V1.0
+
+
+
