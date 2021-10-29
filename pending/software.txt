@@ -1651,3 +1651,41 @@ VAX-11 RSX V1.0
 
 
 
+{SUE-1984-06-11-V5-N24}
+
+LAT-11 (allows many PDP-11 systems to become a terminal server)
+LAT-11 supports PDP-11/24, PDP-11/34A, PDP-11/40, PDP-11/44, PDP-11/60, PDP-11/70
+
+LAT software support on VMS V3.6
+
+{SUE-1984-06-25-V5-N25}
+
+DNC-11 (Direct Numerical Control)
+
+CDD V3.0 (Common Data Dictionary)
+
+DECnet-11M V4.0
+DECnet-11S V4.0
+DECnet-11M-PLUS V2.0
+
+
+{SUE-1984-07-23-V6-N02}
+
+RSTS/E DIBOL V5.1
+
+FORTRAN-77/RT-11
+
+CT*OS for the Pro 350
+
+{SUE-1984-08-06-V6-N03}
+
+DECnet-10 V3.0
+
+TOPS-10 V7.02
+
+VAX DECOR
+
+{SUE-1984-08-20-V6-N04}
+
+VAX DIBOL V2.2
+

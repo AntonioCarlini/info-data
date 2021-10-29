@@ -286,3 +286,31 @@ TQK25-EA (this is drive + controller + cables) M7605
 
 DHV11 was announced in 1983-09-05 issue
 DEQNA announced 1983-10-03 issue
+
+{SUE-1984-06-11-V5-N24}
+
+DECSA
+
+DC349-AA "OCTART" 8-channel UART
+
+{SUE-1984-06-25-V5-N25}
+
+RC25 technical  details (p24)
+
+{SUE-1984-07-23-V6-N02}
+
+MicroPDP-11/73
+
+{SUE-1984-08-06-V6-N03}
+
+TU81
+
+DMZ-32
+
+DHU11
+
+{SUE-1984-08-20-V6-N04}
+
+GS03
+
+
