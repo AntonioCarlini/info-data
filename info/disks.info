@@ -2565,7 +2565,7 @@
 **Start-time**uref{*128}: 30s
 **Stop-time**uref{*128}: 30s
 **Power-start{RZ58}
-**Power**uref{*81}: 33W (read/write)
+**Power**lref{3}: 33W
 **Power-end{RZ58}
 **Dimensions-start{RZ58}
 **Height**uref{*128}: 82mm
