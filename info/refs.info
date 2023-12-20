@@ -9704,6 +9704,7 @@
 **Start-ref{EK-11034-UG-001}
 **Ref-text: PDP-11/34 system user's manual
 **Ref-partno: EK-11034-UG-001
+**Ref-hardcopy: No
 **End-ref{EK-11034-UG-001}
 
 **Start-ref{EK-PDP94-MG-001}
@@ -9981,6 +9982,42 @@
 **ref-publisher: DEC
 **ref-url: https://groups.google.com/forum/#biz.digital.articles/25Q858HyjKc/ruqVBL9OD1sJ
 **end-ref{Product-and-Service-Retirements-1995-02-07}
+
+**Start-ref{EK-11004-OP-001}
+**Ref-text: PDP-11/04 system user's manual
+**Ref-partno: EK-11004-OP-001
+**Ref-hardcopy: No
+**End-ref{EK-11004-OP-001}
+
+**Start-ref{EK-LSI11-TM-003}
+**Ref-text: LSI-11, PDP-11/03 user's manual
+**Ref-partno: EK-LSI11-TM-003
+**Ref-hardcopy: No
+**End-ref{EK-LSI11-TM-003}
+
+**Start-ref{DEC-11-H05SAA-B-D}
+**Ref-text: PDP-11/05, PDP-11/10 computer manual
+**Ref-partno: DEC-11-H05SAA-B-D
+**Ref-hardcopy: No
+**End-ref{DEC-11-H05SAA-B-D}
+
+**Start-ref{DEC-11-H40SA-A-D}
+**Ref-text: PDP-11/40 system manual
+**Ref-partno: DEC-11-H40SA-A-D
+**Ref-hardcopy: No
+**End-ref{DEC-11-H40SA-A-D}
+
+**Start-ref{EK-1145-OP-001}
+**Ref-text: PDP-11/45, PDP-11/50 and PDP-11/55 system user's manual
+**Ref-partno: EK-1145-OP-001
+**Ref-hardcopy: No
+**End-ref{EK-1145-OP-001}
+
+**Start-ref{EK-1T23B-OP-001}
+**Ref-text: PDP-11/23-PLUS System Manual
+**Ref-partno: EK-1T23B-OP-001
+**Ref-hardcopy: No
+**End-ref{EK-1T23B-OP-001}
 
 **Stop-processing
 
