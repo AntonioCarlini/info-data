@@ -2106,25 +2106,27 @@
 **Start-storage-entry{RZ58}{SCSI_DISK}{RZ}
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{EK-RZXXD-PS-005}
+**Def-lref{3} = ref{CU-1992-01-10}
 **Sys-name: RZ58
 **Desc-name: RZ58 1.38GB SCSI Disk
-**Capacity**uref{*81,*128}: 1.38GB
-**Form-factor**htref{2}: 5-1/4" full-height
+**Announcement**lref{3}: 1992-01-10
+**Capacity**lref{3}: 1.38GB
+**Form-factor**lref{3}: 5-1/4" full-height
 **OS-Support-vms**uref{*102}: VMS V5.5
 **OS-Support-ultrix**uref{*102}: Ultrix V4.2
 **Peak-transfer-rate**uref{*81}: {3.75MB/s:(inner track)}{5.0MB/s:(outer track)}
-**Average-access**uref{*81}: 18.1ms
-**Average-latency**uref{*128}: 5.6ms
-**Average-seek**uref{*18,*128}: 12.5ms
+**Average-access**lref{3}: 18.1ms
+**Average-latency**lref{3}: 5.56ms
+**Average-seek**lref{3}: 12.5ms
 **Track-track-seek**uref{*128}: 2.5ms
 **Maximum-seek**uref{*128}: 25ms
-**Buffer-size**uref{*81}: 256KB
-**Rotational-speed**uref{*81,*128}: 5400rpm
-**Interface: SCSI
+**Buffer-size**lref{3}: 256KB
+**Rotational-speed**lref{3}: 5400rpm
+**Interface**lref{3}: SCSI
 **Start-time**uref{*128}: 30s
 **Stop-time**uref{*128}: 30s
 **Power-start{RZ58}
-**Power**uref{*81}: 33W (read/write)
+**Power**lref{3}: 33W
 **Power-end{RZ58}
 **Dimensions-start{RZ58}
 **Height**uref{*128}: 82mm
