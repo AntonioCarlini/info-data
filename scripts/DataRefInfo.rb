@@ -165,7 +165,9 @@ class References
         when /^Ref-hardcopy$/ix     then ; # TODO yes/no ?
         when /^Ref-processed/ix     then ; # TODO yes/no ?
         when /^Ref-date$/ix         then current.date = value
-        when /^Ref-URL$/ix          then current.url = value
+        when /^Ref-URL$/ix          then
+          # Ignore blank ref-url lines
+          current.url = value if !value.to_s().strip().empty?()   # Note: nil.to_s() is safe
         else raise("Bad line read in #{info_filename} at line #{line_num}: #{line}")
         end
       elsif line.strip().empty?()

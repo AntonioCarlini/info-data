@@ -1,0 +1,175 @@
+{CU-1994-07-18}
+
+Graphics Accelerators for Alpha AXP Workstations
+Taken from EISNER.
+
+HIGHLIGHTS
+
+o  New ZLX-E2 and ZLX-E3 2D and 3D graphics accelerators provide excellent 
+   price/performance
+
+
+StorageWorks HSD30 Array Controller
+
+
+PRODUCTS BEING RETIRED
+
+                               Last            Last           Recommended
+Description                    Order Date      Ship Date      Migration
+
+Selected Memory Modules:
+MS11-LD, MS60-AA, MS60-BA,     8/30/94	       9/30/94	      None
+MS60-CA, MS630-BA, MS730-CA, 
+MS750-CA, MS750-HB, MS780-FD, 
+MS780-JA, MS86-CA, MS86-DA, 
+MS88-CA, MS820-BA, MS820-CA, 
+MS900-BA, MSV11-DC, MSV11-JD,
+MSV11-PK, VX10X-MA
+
+DEC Microserver Based Devices (Note 1): 
+X.25 Router Server package     9/30/94	       10/14/94	      B
+ (DEMSA-XA/XE/XG/XI/XJ/XP/XT/
+ XX/XZ)
+X.25 Router 2000, ULTRIX RISC  Same	       Same	      Same
+ (DEMSA-FA) 
+DECrouter 2000 Server	       Same	       Same	      Same		
+ (DEMSA-DA/DD/DE/DG/DI/DK/DP/DX)
+DEC WANrouter 500	       Same	       Same	      Same		
+ (DEMSA-WA/WE/WG/WI/WK/WX/WZ)
+DEC X.25 Gateway 500	       Same	       Same	      Same		
+ (DEMSA-HA/HE/HG/HI/HK/HT/HX)
+
+DEC Microserver SP Based Devices (Note 1): 
+1-line X.25 Router Server      9/30/94	       10/14/94	      C
+ (DEMSB-XA/XD/XE/XI/XX/XZ)    
+X.25 Router 100, ULTRIX RISC   Same 	       Same 	      B
+ (DEMSB-FA)
+DEC WANrouter 100	       Same 	       Same 	      C
+ (DEMSB-WA/WE/WG/WI/WK/WX/WZ)
+DEC X.25 Gateway 100	       Same 	       Same 	      B
+ (DEMSB-HA/HD/HE/HI/KKHT/HX/HZ)
+
+DEC WANserver 150 Based Devices (Note 1): 
+DEC WANserver 150	       Effective       Effective      None
+ (DSRVJ-AA/AB)		       Immediately     Immediately
+DECrouter 150		       Same	       Same 	      A
+ (DSRVJ-DA/DE/DK/DP/DX)	       		       		      			
+DEC WANrouter 150	       Same	       Same	      Same
+ (DSRVJ-WA/WE/WI/WK/WP/WT/WX)
+
+RWZ01 and RWZ21 Optical Disc Drives (Note 2 ): 
+1.2 GB 5.25 inch desktop       7/30/94	       8/30/94	      RWZ52
+ magneto-optical disc subsystem 
+ (RWZ01-AA) 
+128 MB 3.5 inch desktop	       Same	       Same	      None 
+ magneto-optical disc subsystem 
+ (RWZ21-AA)		       
+Driver software for RWZ21      Same	       Same	      Same
+ (QB-0HY*A-SB)		       
+
+Mid-Range and High-End DEC 3000 Systems (Note 5):
+Model 400 Workstations:	       9/12/94	       11/23/94	      PE400-BA/BB,
+ 32/64 MB, VRT19, DEC OSF/1    		       		      PE400-CA/CB,
+ or OpenVMS AXP, 120 or 240 V, 		       		      PE400-EA/EB, or
+ Northern or Southern Hemisphere	       		      PE400-FA/FB
+ (PE400-B*, -C*, -E*, -F*)
+
+ SBB, 128 or 256 MB, DEC OSF/1 or
+ OpenVMS AXP, 120 or 240V
+ (PE400-G*, -H*, -J*, K*)
+
+ No software, 240 V (PE400-ZB) 
+
+ 32 MB, VR319 or VRT19, RZ25 or 
+ RZ26, DEC OSF/1, 120 or 240 V,
+ Northern or Southern Hemisphere
+ (PE401-C*, -D*)
+
+ 64 MB, VRT19 or 19C, PXG+8P or
+ PXGt+24P, DEC OSF/1, 120 or 240 V,
+ Northern or Southern Hemisphere
+ (PE401-E*, -F*, G*)	       
+ 
+ 32 MB, VRT16, VRT19, or VR319,
+ RZ25, RZ26, or TX, DEC OSF/1 or
+ OpenVMS AXP, 120 or 240 V, 
+ Northern or Southern Hemisphere
+ (PE401-H*, -J*, -M*, -N*)
+
+ 64 MB, VRT19 or 19C, PXG+8P or
+ PXGt+24P, OpenVMS AXP, 120 or
+ 240 V, Northern or Southern
+ Hemisphere (PE401-P*, -R*, -S*)
+
+ 32 MB, VRT16 or VRT19, RZ25, RZ26,
+ or TX, OpenVMS AXP or DEC OSF/1,
+ 120 or 240 V, Northern or Southern
+ Hemisphere (PE401-T*, -V*) 
+
+ 64 MB, 19C, DEC OSF/1 or OpenVMS AXP,
+ 120 or 240 V, Northern or Southern
+ Hemisphere (PE40S-A*, -B*) 
+
+Model 400 Servers:	       9/12/94	       11/23/94	      N/A
+ SBB, 32, 64, 128, or 256 MB, DEC 
+ OSF/1 or OpenVMS AXP, 120 or 240 V 
+ (PE410-B*, -C*, E*, -F*, -G*, -H*,
+ J*, -K*)
+
+ SBB, 32 or 64 MB, 1 GB CDROM, DEC
+ OSF/1 or OpenVMS AXP, 120 or 240 V
+ (PE411-S*, -T*, -V*, -W*)
+
+Model 500 Systems:	       9/12/94	       11/23/94	      PE500-A* or	
+ DS, 64 MB, DEC OSF/1 or OpenVMS AXP,	       		      PE500-B*
+ 120 or 240 V
+ (PE500-C*, -D*)	       		       
+ 
+ SBB, 128 or 256 MB, DEC OSF/1 or
+ OpenVMS AXP, 120 or 240 V
+ (PE500-E*, -F*, -G*, -H*)
+
+ No software, 240 V (PE500-ZB) 
+
+ DS, 32 or 64 MB, 2D 8P, TX 24P, PXG+8P, 
+ or PXGt+24P, DEC OSF/1 or OpenVMS AXP,
+ 120 or 240 V, Northern or Southern
+ Hemisphere (PE501-A*, -B*, -C*, -D*,
+ -E*, -G*, -H*, -J*, -K*, -L*)
+
+ 96 MB, 19C, DEC OSF/1 or OpenVMS AXP,
+ 120 or 240 V, Northern or Southern
+ Hemisphere (PE50S-A*, -B*)
+
+Model 500 Servers:	       9/12/94	       11/23/94	      N/A
+ SBB, 256 MB, DEC OSF/1 or OpenVMS AXP,
+ 120 or 240 V (PE510-G*, -H*)
+
+Model 600 Clients:	       9/12/94	       11/23/94	      PE420-**
+ 64 MB, VRT19, ZLX/M1, DEC OSF/1 or OpenVMS
+ AXP, Northern or Southern Hemisphere
+ (PE421-D*, -P*)
+
+Model 600 Servers:	       9/12/94	       11/23/94	      PE430-**
+ 64 MB, RZ26L/CDROM for DEC OSF/1, or
+ NAS 200 package for OpenVMS AXP 
+ (PE431-AA, -LA)
+
+Model 800 Clients:	       9/12/94	       11/23/94	      PE520-*
+ 64 or 96 MB, HX+ with 19C and RZ28, or 
+ VRT19 with ZLX/M2, DEC OSF/1 or OpenVMS
+ AXP, Northern or Southern Hemisphere
+ (PE521-B*, -C*, -D*, -M*, -N*, -P*)
+ 
+Model 800 Servers:	       9/12/94	       11/23/94	      PE533-*
+ SBB, 32, 64, 128, or 256 MB, DEC OSF/1
+ or OpenVMS AXP (PE530-AA through -HA)
+
+ 64 MB, RZ28 with CDROM for DEC OSF/1,
+ or NAS 200 package for OpenVMS AXP
+ (PE531-AA, -LA)
+
+Model 800 Server Upgrades:     9/12/94	       11/23/94	      N/A
+ Upgrades from Model 500S and DECsystem,
+ DEC OSF/1 or OpenVMS AXP
+ (PE53U-A*, -B*)

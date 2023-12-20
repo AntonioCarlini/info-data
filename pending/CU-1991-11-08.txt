@@ -1,0 +1,129 @@
+{CU-1991-11-08}
+
+SA71 and SA72 Storage Array Building Blocks
+
+SA900 DECarray Storage
+
+stands 1700 mm (67 inches) high and houses a mix of up to ten 
+half-rack SA71 and SA72 storage array building blocks (with the new RA71 and 
+RA72 5.25-inch disk drives) and RA92 disk storage devices.
+
+SA905 Program Announcement
+
+Digital's Flexible Disk Family Highlights
+
+
+			      RX23	 RX26		RX33
+
+Form factor		      3.5-inch	 3.5-inch	5.25-inch
+Capacity (MB)(formatted)      0.7, 1.4	 0.7, 1.4, 2.8	0.6, 1.2
+Access Time (ms)	      195	 195		178
+Peak transfer rate (KB/sec)   500	 1000		500
+
+
+The RX26 diskette drive is fully supported by VMS V5.4-3 software.
+
+DEC WANrouter 150 and 250 Multiprotocol Routers
+
+Available in the January to March 1992 timeframe.
+
+PMAG-J TX Frame Buffer for DECstation 5000 System
+
+The TX product is a 24-plane color frame buffer for the RISC ULTRIX 
+DECstation 5000 system. It occupies one TURBOchannel slot
+The TX frame buffer 
+supports monitors with a resolution of 1280 by 1024 (VRT19, VRT16, and VR320 
+monitors) and supports both 8-bit and 24-bit access mode for graphics.  Two 
+product variations support both the existing 66 Hz monitors and the new 72 
+Hz monitors.
+
+
+Hierarchical Network Storage Server Program Announcement
+
+PHASEDOWN OF LK200 FAMILY OF KEYBOARDS
+
+    ===================================================================
+       
+    o  The LK200 series of keyboards will move to maintenance-only 
+       status on March 15, 1992
+    
+    o  The LK400 series of keyboards will be direct replacements for 
+       the LK200 series of keyboards
+
+
+LK207-**
+
+There is no plan to replace the LK207-** keyboard. Last build will take 
+place in March 1992.
+
+LK250-**
+
+A replacement for the LK250 keyboard is under development, with announcement 
+expected later in 1991. 
+
+
+LK401 Keyboard
+
+The LK401 keyboard is similar to the LK201 keyboard, but Digital has made it 
+2 inches shorter, added three new keys on the row with the space bar (right 
+compose key and two ALT-Function keys), distinguished between the left and 
+right shift keys to send unique scan codes, removed the Compose and Wait 
+LEDs, and labeled the top row function keys (F1-F20) directly, eliminating a 
+permanent legend strip.
+
+The VSXXX-AA Boston mouse will move to maintenance-only status on December 
+13, 1991; no further orders are being accepted and the last build will take 
+place by December 27, 1991; final shipments will be made by the spring of 
+1992.
+
+
+The VSXXX-GA Logitech mouse will be a direct replacement for the VSXXX-AA 
+Boston mouse.  The VSXXX-GA has a rectangular design rather than the round 
+design of the Boston mouse but is otherwise directly comparable with it. The 
+VSXXX-GA mouse began shipping in October 1991.
+
+  The phasedown schedule for the DECsystem 5800 system/server is:
+    
+       - Last order date: December 31, 1991
+       - Last ship date: March 31, 1992
+
+
+System Comparisons 
+
+                          DECsystem 5810/20/30/40    DECsystem 5500
+
+Processor Performance	  1 to 4 R3000/25 MHz	     R3000A/30 MHz
+- SPECmarks		  10.7/20.2/29.8/39	     23.0
+- MIPS			  18.7/35/49/62		     32.2
+
+Memory Expansion	  256/256/192/128 MB	     256 MB
+
+Storage			  Up to 144 GB		     28 GB
+- Architectures		  SDI			     SCSI, DSSI, SDI
+
+Prestoserve		  n/a			     Yes
+
+Communications Bus	  VAXBI			     Q-bus*
+
+
+RETIREMENT OF VAX Rdb/ELN V2.3 
+
+    ===================================================================
+    
+    o  VAX Rdb/ELN V2.3 will be phased down over an 18-month period 
+       starting in October 1991 and ending in April 1993 
+    
+    ===================================================================
+
+
+
+October 21, 1991:  The following model numbers have moved to maintenance 
+                   mode:
+
+Model No.	   Description
+
+QA-D07AA-H*	   VAX Rdb/ELN V2.3 H-kits
+QA-D07AA-GZ	   VAX Rdb/ELN V2.3 Documentation kit			    
+QL-D07A*-**	   VAX Rdb/ELN V2.3 Licenses
+
+

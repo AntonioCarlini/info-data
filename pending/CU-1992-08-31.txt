@@ -1,0 +1,11 @@
+{CU-1992-08-31}
+
+TU90 SLAVE FOR TA90/E SUBSYSTEMS RETIRING
+
+Effective December 31, 1992, the TU90 drive will be moved to maintenance- 
+only status. (TU90 parts and maintenance will continue to be available.)
+
+Final orders for the TU90 tape drives will be accepted through November 30, 
+1992. These orders will be shipped in the first quarter of 1993. If you will 
+require TU90 deliveries beyond March 31, 1993, please contact your local 
+Digital sales office now.

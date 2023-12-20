@@ -1,0 +1,67 @@
+{CU-1992-06-26}
+
+DEFEA-AA DEC FDDIcontroller/EISA Network Interface Card
+
+Electrical specifications:   Maximum  5 V, 3.3 A
+			     Maximum 12 V, 0.1 A
+
+Module size:		     4.8 inches x 13.4 inches (34 cm x 11.4 cm)
+
+DECsystem 5000 Model 133 Server
+
+Key characteristics of the DECsystem 5000 Model 133 server are as follows:
+
+SPECintegers		20.9						    
+MIPS			34.4						    
+AIMs			16.6						    
+Cost/AIM		$1,218						    
+
+Maximum Memory		128 MB						    
+Maximum Storage:
+ Internal		852 MB						    
+ Total			33.5 GB
+
+The DECsystem 5000 Model 133 server is available now.
+
+All DECsystem 5000 Model 133 servers require ULTRIX V4.2A or later 
+   software.
+
+TURBOchannel-to-VME Adapter for DECstation 5000 Systems
+
+DWTVX
+
+ ULTRIX V4.2 or higher software or OSF/1 software running on a DECstation 
+   5000 series system.
+
+PV61E-AA VAXstation 4000 Model 60 Quad Screen System
+
+DECsystem-10 AND DECSYSTEM-20 SERVICE RETIRING
+
+Digital ceased manufacturing DECsystem-10 and DECSYSTEM-20 systems in 1983 
+and announced the retirement of hardware and software support for these 
+systems to both Digital and non-Digital users
+
+After December 31, 1993, hardware support services can be performed on a 
+best effort (per call) basis only.  Best effort depends primarily on 
+existing shelf spares and secondary sources to replace defective material.  
+Digital cannot guarantee material availability once these spares sources are 
+depleted, because the industry is phasing out of the DECsystem-10 and 
+DECSYSTEM-20 chip technology.  
+
+Software product services will be discontinued for the TOPS-10 and TOPS-20 
+operating systems on December 31, 1993.  The last engineering updates for 
+the operating systems were released in 1990.  Telephone support for many of 
+the DECsystem-10 and DECSYSTEM-20 software layered products has already been 
+retired.
+
+LLF01 LONG LINE FIBER OPTIC INTERFACE RETIRING
+
+The LLF01 long line fiber optic interface (LLF01-A/B; country kits: 
+-MA/MB/KD/KE/KI/KJ) is retiring, with the last orders being accepted June 
+30, 1992, and the last shipments July 24, 1992. Services such as spare parts 
+and repairs will still be available up to 10 years after the last shipment. 
+Service calls will be handled through your normal service channels.
+
+Engineering support will continue to be offered for the life of the product. 
+No changes in the current service offerings are expected in the immediate 
+future.  Prices will be reviewed on a regular basis.

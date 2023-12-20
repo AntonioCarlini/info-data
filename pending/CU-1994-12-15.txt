@@ -1,0 +1,303 @@
+{CU-1994-12-15}
+
+HiNote and HiNote Ultra Notebook Line
+
+HiNote Configurations
+
+HiNote 433	9.5 Monochrome, 486SX 33 MHz, 4 MB RAM, 120 MB HDD
+HiNote CS 433	9.5 Color DSTN, 486SX 33 MHz, 4 MB RAM, 240 MB HDD
+HiNote CS 450	9.5 Color DSTN, 486DX2 50 MHz, 4 MB RAM, 340 MB HDD
+HiNote CT 450	9.5 Color TFT, 486DX2 50 MHz, 4 MB RAM, 240 MB HDD
+HiNote CT 475	9.5 Color TFT, 486DX4 75 MHz, 4 MB RAM, 340 MB HDD
+
+HiNote Ultra Configurations
+
+HiNote Ultra 433    9.5 Monochrome, 486SX 33 MHz, 4 MB RAM 170 MB HDD
+HiNote Ultra CS 433 9.5 Color DSTN, 486SX 33 MHz, 4 MB RAM, 240 MB HDD
+HiNote Ultra CS 450 9.5 Color DSTN, 486DX2 50 MHz, 4 MB RAM, 340 MB HDD
+HiNote Ultra CT 450 9.5 Color TFT, 486DX2 50 MHz, 8 MB RAM, 340 MB HDD
+HiNote Ultra CT 475 9.5 Color TFT, 486DX4 75 MHz, 8 MB RAM, 340 MB HDD
+
+
+HiNote Feature Matrix
+
+ 		HiNote CS    HiNote CS     HiNote CT    HiNote CT HiNote
+ 		433          433           450          450      475
+
+CPU		486SX 	     486SX 	   486DX2 	486DX2	 486DX4
+ 		33 MHz	     33 MHz	   50 MHz	50 MHz	 75 MHz
+
+Hard drive	120 MB	     240 MB	   340 MB	240 MB	 340 MB
+
+System memory	4 MB 5V	     4 MB 5V	   4 MB 5V	4 MB 5V	 4 MB 5V
+ included
+
+System memory 	20 MB	     20 MB	   20 MB	20 MB	 20 MB
+ maximum
+
+System memory	8K	     8K		   8K		8K	 16K W/T
+ cache
+
+Display		9.5" Mono    9.5" DSTN	   9.5" DSTN	9.5" TFT 9.5" TFT
+ size/type
+
+Display		640x480	     640x480	   640x480	640x480	 640x480
+ resolution
+
+Display 	64 Gray	     256 Clrs	   256 Clrs	256 Clrs 256 Clrs
+ colors
+
+32-bit local 	Yes	     Yes	   Yes		Yes	 Yes
+ bus video
+
+Simultaneous 	No	     No		   Yes		Yes	 Yes
+ display
+
+Maximum		1024x768     1024x768	   1024x768	1024x768 1024x768
+ external 	x16	     x16	   x256		x256	 x256
+ video resolution
+
+Video memory	512 KB	     512 KB	   1 MB		1 MB	 1 MB
+
+Keyboard 	82/12	     82/12	   82/12	82/12	 82/12
+ keys/function
+
+Embedded	Yes	     Yes	   Yes		Yes	 Yes
+ numeric keyboard
+
+Integrated	Yes	     Yes	   Yes		Yes	 Yes
+ trackball (19mm)
+
+Internal floppy	Yes	     Yes	   Yes		Yes	 Yes
+ (1.44 MB)
+
+Internal PCMCIA	1/1	      2/1	   2/1		2/1	 2/1
+ Type II/Type III
+
+Parallel ECP/	Yes	     Yes	   Yes		Yes	 Yes
+ EPP port
+
+RS 232C serial	Yes	     Yes	   Yes		Yes	 Yes
+ port
+
+External video 	Yes	     Yes	   Yes		Yes	 Yes
+ (SVGA) port
+
+PS/2 (external	Yes	     Yes	   Yes		Yes	 Yes
+ mouse or keyboard)
+ port
+
+Port		Yes	     Yes	   Yes		Yes	 Yes
+ replicator option
+
+PCMCIA port	Yes	     Yes	   Yes		Yes	 Yes
+ replicator option
+
+Battery		NiCad	     NiMH	   NiMH		NiMH	 NiMH
+
+Battery life	2-3 Hrs	     4-6 Hrs	   4-6 Hrs	3-5 Hrs	 3-5 Hrs
+ 
+Battery weight	14.1 oz	     14.1 oz	   14.1 oz	14.1 oz	 14.1 oz
+
+System weight	4.9 lbs	     5.4 lbs	   5.4 lbs	5.5 lbs	 5.5 lbs
+
+System size	8.5x11	     8.5x11	   8.5x11	8.5x11	 8.5x11
+ (inches)	x1.5	     x1.7	   x1.7		x1.7	 x1.7
+
+AC adapter	Yes	     Yes	   Yes		Yes	 Yes
+ (size: 4.78x
+ 2.36x1.26 inches,
+ 10 oz, auto sensing)
+
+Plug and play 	Yes	     Yes	   Yes		Yes	 Yes
+ BIOS
+
+Windows '95	Yes	     Yes	   Yes		Yes	 Yes
+ ready
+
+Three-year	Yes	     Yes	   Yes		Yes	 Yes
+ warranty
+
+HiNote Ultra Feature Matrix
+
+ 	 HiNote	     HiNote	  HiNote       HiNote	     HiNote
+         Ultra 433   Ultra CS 433 Ultra CS 450 Ultra CT 450  Ultra CT 475
+
+CPU	 486SX	     486SX	  486DX2       486DX2	     486DX4
+ 	 33 MHz	     33 MHz	  50 MHz       50 MHz	     75 MHz
+
+Hard 	 170 MB	     240 MB	  340 MB       340 MB	     340 MB
+ drive
+ capacity
+
+System	 4 MB 3.3V   4 MB 3.3V	  4 MB 3.3V    8 MB 3.3V     8 MB 3.3V
+ memory
+ included
+
+ maximum 20 MB	     20 MB	  20 MB	       24 MB	     24 MB
+ cache	 8K	     8K		  8K	       8K	     16K W/T
+
+Display
+ size/ 	 9.5" Mono   9.5" DSTN	  9.5" DSTN    9.5" TFT	     9.5" TFT
+ type
+ resolution
+ 	 640 x 480   640 x 480	  640 x 480    640 x 480     640 x 480
+ colors	 64 gray     256 colors	  256 colors   256 colors    256 colors
+
+32-bit 	 Yes	     Yes	  Yes	       Yes	     Yes
+ local bus
+ video
+
+Simultaneous
+ display No	     No		  Yes	       Yes	     Yes
+
+Maximum external
+ video resolution
+ 	 1024x768    1024x768	  1024x768     1024x768	     1024x768
+ 	 x16	     x16	  x256	       x256	     x256
+
+Video	 512 KB	     512 KB	  1 MB	       1 MB	     1 MB
+ memory
+
+Keyboard 82/12	     82/12	  82/12	       82/12	     82/12
+ keys/function
+
+Embedded Yes	     Yes	  Yes	       Yes	     Yes
+ numeric
+ keyboard
+
+Trackball Yes	     Yes	  Yes	       Yes	     Yes
+ (16 mm)
+
+External Yes	     Yes	  Yes	       Yes	     Yes
+ 1.44 MB FD (included)		  
+
+Internal PCMCIA
+ Type II/Type III
+ 	 2/1	     2/1	  2/1	       2/1	     2/1
+
+Parallel Yes	     Yes	  Yes	       Yes	     Yes
+ ECP/EPP
+ port
+
+RS 232C	 Yes	     Yes	  Yes	       Yes	     Yes
+ serial port
+
+External Yes	     Yes	  Yes	       Yes	     Yes
+ video (SVGA) port
+
+PS/2 port Yes	     Yes	  Yes	       Yes	     Yes
+ (external mouse or
+ keyboard)
+
+Integrated
+ infrared Yes	     Yes	  Yes	       Yes	     Yes
+
+Audio	 No	     No		  Yes	       Yes	     Yes
+ in/out
+
+Built-in
+ microphone
+ 	 No	     No		  Yes	       Yes	     Yes
+
+Integrated
+ hidden speaker	     
+ 	 No	     No		  Yes	       Yes	     Yes
+
+PCMCIA floppy dock option
+ 	 No	     No		  Yes	       Yes	     Yes
+
+Battery type
+ 	 Lithium Ion Lithium Ion  Lithium Ion  Lithium Ion   Lithium Ion
+
+Battery life
+ 	 4-6 Hours   4-6 Hours	  4-6 Hours    4-6 Hours     4-6 Hours
+
+Battery weight
+ 	 10.7 oz     10.7 oz	  10.7 oz      10.7 oz	     10.7 oz
+
+System	 3.5 lbs     3.9 lbs	  3.9 lbs      4.0 lbs	     4.0 lbs
+ weight
+ weight (including FDD)
+ 	 3.9 lbs     4.3 lbs	  4.3 lbs      4.4 lbs	     4.4 lbs
+ size	 8.5x11x1.0  8.5x11x1.2	  8.5x11x1.2   8.5x11x1.2    8.5x11x1.2
+ (inches)
+
+AC adapter size: 4.1x1.66x1.0
+ 	 Yes	     Yes	  Yes	       Yes	     Yes
+ weight - 9 oz
+ 	 Yes	     Yes	  Yes	       Yes	     Yes
+ auto sensing
+ 	 Yes	     Yes	  Yes	       Yes	     Yes
+
+Plug and play BIOS
+ 	 Yes	     Yes	  Yes	       Yes	     Yes
+
+Windows '95 ready
+ 	 Yes	     Yes	  Yes	       Yes	     Yes
+
+Three-year warranty
+ 	 Yes	     Yes	  Yes	       Yes	     Yes
+
+
+
+Prioris HX Server 590 and 590DP -- New Intel Based Applications Servers
+
+
+
+
+
+   PRODUCT/SERVICE                NOTES
+
+   HARDWARE SERVICE FOR 	  The RK01, RK02, RK06, RP01, RP02, RP03, 
+   RK01, RK02, RK06, RP01,	  RP04, and RP07 disks have already been 
+   RP02, RP03, RP04, AND	  retired; Digital is now retiring them from
+   RP07 DISKS			  hardware service.
+   				  
+   RK06, RP04, RP07		  Last Order Date: January 31, 1995
+   				  
+   RK01, RK02, RP01, RP02,	  Last Order Date: February 28, 1995
+   RP03				  
+   				  Migration: Users can purchase spare parts 
+                                  and training, if available, within a 
+                                  three-month period beyond the end-of-
+   				  service-life date. Contact Digital 
+                                  Assisted Services at 1-800-DIGITAL for 
+                                  assistance in setting up a customized 
+                                  plan. 
+
+   UPGRADES TO SINGLE-DENSITY	  The RW500 family of optical libraries 
+   RW500 LIBRARIES 		  provides storage capacities of 19 to 170 
+                                  Gbytes within a single optical jukebox, 
+                                  depending on the model. By increasing the 
+                                  capacity on each platter, the total cost 
+                                  of storage is significantly reduced. 
+   				  Upgrades allow users to preserve 
+   				  investments in earlier purchases while 
+   				  taking advantage of the latest 
+   				  technologies.
+
+   				  The upgrade procedure involves replacing 
+                                  the original optical drives within the 
+                                  library with double-density drives. To 
+                                  obtain maximum storage capacity with the 
+                                  double-density drives, all optical 
+                                  platters must be replaced with the 
+                                  RWX5K-01 (rewritable), RWX5K-02 (WORM), or 
+                                  equivalents. Upgrades can normally be 
+                                  completed within two hours.
+
+   				  Please note that after December 31, 1994, 
+                                  users will no longer be able to upgrade 
+                                  their single-density RW500 libraries.
+   				  
+   RW504-ZA to RW524-ZA   	  Last Order Date: December 31, 1994
+   Upgrade (RW524-UB), 		  Migration: None 
+   RW510-ZC to RW530-ZC
+   Upgrade (RW530-UB),
+   RW514-ZF to RW534-ZF
+   Upgrade (RW536-UB), and
+   RW516-ZF to RW536-ZF
+   Upgrade ((RW536-UB)
+
+   ________________________________________________________________________

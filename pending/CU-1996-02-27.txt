@@ -1,0 +1,36 @@
+{CU-1996-02-27}
+
+ETHERWORKS HUB 8TX
+
+FVS60 FDDI STORAGE SERVER
+
+PRODUCT AND SERVICE RETIREMENTS
+Taken from EISNER.
+
+ PRODUCT/SERVICE              NOTES
+ 
+ DEC 7000 FAMILY OF SYSTEMS   
+                              
+                              Last Order Date: March 29, 1996
+                              
+                              Last Ship Date: June 29, 1996
+                              
+ 7KAM*-**, 7KASA-D*, 7KATA-   Migration: DEC 7000 system users can
+ **, 7KAVA-*C, 7KAX*-**,      upgrade to the AlphaServer 8000 family
+ 7KB*A-F*, CS-7**VA-*A,       of systems in one of two ways. Users
+ 7HA*A-**, 7HAX*-**, 7HB*A-   may upgrade their current system with
+ **, 7H*UA-MA, SY-7H*D*-A*,   one of several in-cabinet upgrades.
+ 7YC*A-A*, 7YEHA-D*, 9HATA-   Users may also participate in the
+ ND                           TradeIn '96 Business Practices Program
+                              to secure a credit towards either an
+                              AlphaServer 8200 or AlphaServer 8400
+                              system. For more information on the
+                              TradeIn '96 Business Practices program,
+                              see the January 1996 printed version
+                              and December 15, 1995, online version of
+                              Customer Update.
+                              Users who are unable to migrate to the
+                              AlphaServer 8000 family may order DEC
+                              7000 refurbished units on an "as-
+                              available" basis.
+                              

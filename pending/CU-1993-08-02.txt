@@ -1,0 +1,53 @@
+{1993-08-02}
+
+Products Being Retired
+
+						  Last     Last
+						  Order	   Ship
+Order No.       Description			  Date     Date	    Migration
+
+
+DEFZA-AA	DEC FDDIcontroller 700		  7/8/93   10/8/93  (2)
+
+		RZ58 Disk Drives:		  9/24/93  12/24/93 (3)
+RZ58-LF/LG	1.38 GB 5.25-inch SCSI disk drive 
+RZ58-UK		1.38 GB RZ58 upgrade to BA42
+RZ58-UL		1.38 GB SCSI upgrade to BA46
+RZ58E-AA/AF	1.38 GB 5.25-inch SCSI disk drive
+SZ12J-JA/JB	SZ12 Expander Box 2 RZ58 120V/240V
+SZ12J-XA/XB	SZ12 Expander Box 1 RZ58 120V/240V
+SZ16J-JA/JB	SZ16 Expander Box 2 RZ58 120V/240V
+SZ16J-XA/XB	SZ16 Expander Box 1 RZ58 120V/240V
+
+		VAX 4000 Model 400, 500, and 600  12/30/93 3/30/94   
+		systems and upgrades
+
+
+PRODUCT DESCRIPTION
+
+The RZ25L device is a 1-inch-high SCSI-2 hard disk drive that provides a 
+low-cost, high-performance replacement to the RZ25 and RZ56 drives.  The 
+RZ25L drive provides four times the cache of the RZ25 product, faster 
+average access time, and superior bandwidth for workstation applications. It 
+features 535 Mbytes of capacity and a 3.5-inch form factor.
+
+Disk Drive Comparison
+
+			       RZ25	 RZ25L	   RZ26
+Form Factor 		       3.5"	 3.5"	   3.5"
+Height 			       1.625"  	 1" 	   1.625"
+Capacity (MBF)		       426	 535	   1050
+Average seek (MS)	       14	 10.5	   9.5
+Access time (MS)	       20	 16	   15.1
+Buffer size (KB)	       60	 240	   512
+Rotational speed (RPM)	       4412	 5400	   5400
+Transfer rate:
+ To/from media (MB/second)     3.1   	 2.6-4.4   3.3
+ Max Bus Bandwidth(MB/second)  4.0	 10.0	   10.0
+Power (seeking), in Watts      12 	 10.3 	   13.7
+
+
+EZ5x High-Performance SCSI-2 Solid State Disks
+
+TLZ6L 4mm DAT Tabletop Autoloader
+

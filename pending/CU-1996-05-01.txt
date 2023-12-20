@@ -1,0 +1,158 @@
+{CU-1996-05-01}
+
+LN17 AND LN17PS HIGH-PERFORMANCE NETWORK PRINTERS
+
+
+EZ3X AND EZ6X HIGH-PERFORMANCE SOLID STATE DISKS
+
+EZ31 -W      134 MB 3.5-inch 16-bit SCSI Solid State Disks, Data Retention
+EZ31-VW      134 MB EZ31-W in StorageWorks Building Block
+EZ32 -W      268 MB 3.5-inch 16-bit SCSI Solid State Disks, Data Retention
+EZ32-VW      268 MB EZ32-W in StorageWorks Building Block
+EZ64 -E      475 MB 5.25-inch 8-bit SCSI Solid State Disks, Data Retention
+EZ64-VA      475 MB EZ64-E in StorageWorks Building Block
+EZ69 -E      950 MB 5.25-inch 8-bit SCSI Solid State Disks, Data Retention
+EZ69-VA      950 MB EZ69-E in StorageWorks Building Block
+
+
+INFOSERVER 1000 STORAGE SERVER
+
+ALPHASERVER 1000 AND 1000A WINDOWS NT PACKAGES
+
+
+AVAILABILITY EXTENDED AND PRICES CHANGED FOR MICROVAX 3100 SYSTEMS
+
+In order to ensure user satisfaction and respond to the continuous high 
+demand for the MicroVAX 3100 Model 40 system, Digital has extended the 
+availability date of this system through the spring of 1997 from its 
+original last order date of June 30, 1996.
+
+In addition, to better align the prices of its MicroVAX 3100 products, 
+Digital has increased prices on specific Model 40 and Model 85 systems. 
+The price change for the MicroVAX 3100 Model 40 is effective May 1996; 
+the price change for the MicroVAX 3100 Model 85 is effective July 1996.
+
+Order No.     Description
+
+DV-31GAB-B9   MicroVAX 3100 Model 40 Base System, 8 MB Memory, NAS 200
+DV-31JCB-EA   MicroVAX 3100 Model 85 Advantage Server, 64 MB Memory, 
+              NAS 200
+
+
+PRODUCT AND SERVICE RETIREMENTS
+
+
+ PRODUCT/SERVICE        NOTES
+ SELECTED HS-VARIANT    
+ CONTROLLERS
+                        
+                        Note: Digital will continue to support
+                        these controllers with a complete range
+                        of onsite contract services.
+                        
+                        Last Order Date: May 31, 1996
+                        
+                        Last Ship Date: June 29, 1996
+                        
+                        Migration: All HSxxx-Cx variants ship
+                        with and will only operate with StorageWorks 
+                        Hierachical Storage Operating Firmware 
+                        (HSOF) V2.7.
+
+ HSJ30-AA               HSJ30-CA
+ HSJ30-AD               HSJ30-CD
+ HSJ30-AF               HSJ30-CF
+ HSJ40-AD               HSJ40-CD
+ HSJ40-AF               HSJ40-CF
+ HSJ42-AD               HSJ42-CD
+ HSJ42-AF               HSJ42-CF
+ HSJ44-AD               HSJ44-CD
+ HSJ44-AF               HSJ44-CF
+ HSD30-AA               HSD30-CA
+ HSD30-AD               HSD30-CD
+ HSD30-AF               HSD30-CF
+ HSZ40-BA               HSZ40-CA
+ HSZ40-BD               HSZ40-CD
+ HSZ40-BF               HSZ40-CF
+ HSZ40-TL               HSZ40-TL
+ HS1CP-AF               HS1CP-CF
+                        
+
+ SELECTED EZ SOLID      
+ STATE DEVICES
+                        
+                        Last Order Date: Past
+                        
+                        Last Ship Date: Past
+                        
+                        Migration: These products are being
+                        replaced by the new EZ3X and EZ6X
+                        products. For more information, refer to
+                        the "EZ3X and EZ6X High-Performance Solid
+                        State Disks" article in this issue of
+                        Customer Update.
+ EZ51R*A                Migration: EZ31 and EZ32
+ EZ54R*A                Migration: EZ64
+ EZ58R*A                Migration: EZ69
+                        
+
+ 
+ SELECTED DECNIS 500    
+ and 600 MANAGEMENT
+ PROCESSOR CARDS AND
+ PACKAGED SYSTEMS
+                        
+                        Note: The MPC-I card (DNSAN-AH) does not
+                        have sufficient memory to run some of the
+                        features in the DECNIS Software V3.1,
+                        which requires the MPC-II (DNSAN-BH).
+                        With this change, DECNIS should now be
+                        ordered a la carte using the DECNIS 500-
+                        SPX and DECNIS 600-SPX base platforms,
+                        which include MPC-II; all network
+                        interface cards must now be ordered
+                        separately. The replacement platforms
+                        include the MPC-II (DNSAN-BH) and can,
+                        therefore, run DECNIS V3.1 and future
+                        software releases. Existing users whose
+                        DECNIS systems use the MPC-I will
+                        continue to receive hardware and software
+                        maintenance for a period of nine months
+                        from September 1996. These users can
+                        upgrade to MPC-II under a trade-in
+                        program (4A-DNSAN-UG).
+                        
+                        Last Order Date: June 28, 1996
+                        
+                        Last Ship Date: August 30, 1996
+                        
+ DNSAN-AH               Migration: DNSAN-BH
+ DNSDA-B*, DNSDAB-B*,   Migration: DNSBE-C*, DNSAE-AA, DNSCB-A*
+ DNSDAC-B*
+ DNSDG-B*, DNSDH-B*,    Migration: DNSBE-C*, DNSAE-AA, DNSCA-A*
+ DNSDI-B*
+ DNSDJ-B*               Migration: DNSBE-C*, DNSAE-AA, DNSCA-BA
+ DNSDK-B*, DNSDL-B*     Migration: DNSBE-C*, DNSAE-B*
+ DNSEA-B*, DNSEB-B*,    Migration: DNSBA-C,  DNSAE-AA, DNSCB-A*
+ DNSEC-B*
+ DNSED-B*, DNSEE-B*,    Migration: DNSBA-C*, DNSAE-AA, DNSCA-A*
+ DNSEF-B*
+                        
+
+
+ PLANAR ELT320          
+ TERMINALS              Last Order Date: May 1, 1996
+                        
+                        Last Ship Date: None; Digital will ship
+                        all orders placed by May 1, 1996.
+                        
+ VTELT-*A               Migration: Users can continue to purchase
+                        these terminals directly from Planar
+                        Display Solutions, which will also
+                        continue to provide technical support.
+                        For more information or to purchase these
+                        terminals, contact Shelda Oglesby at
+                        Planar Display Solutions, P.O. Box 4001,
+                        Beaverton, Oregon 97076; Telephone: (503)
+                        614-4118; Fax: (503) 614-4194; mail:
+                        display_solutions@planar.com.

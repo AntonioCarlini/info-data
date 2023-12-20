@@ -1,4 +1,4 @@
-**Start-ref{VAX-HW-HB-1986-V1} 
+b**Start-ref{VAX-HW-HB-1986-V1} 
 **Ref-text: VAX Hardware Handbook Volume 1 - 1986
 **End-ref{VAX-HW-HB-1986-V1} 
 
@@ -821,6 +821,101 @@
 **Ref-electronic: PDF
 **End-ref{EK-FLMUL-OG.B01}
 
+**Start-ref{S-SU-1983-04-25}
+**Ref-text: Sales Update. Special Issue. 25 April 1983
+**Ref-processed: Yes
+**End-ref{S-SU-1983-04-25}
+
+**Start-ref{S-SU-1983-11-14}
+**Ref-text: Sales Update. Special Issue. 14 November 1983
+**Ref-processed: Yes
+**End-ref{S-SU-1983-11-14}
+
+**Start-ref{S-SU-1984-01-xx}
+**Ref-text: Sales Update. Special Issue. January 1984
+**Ref-processed: Yes
+**End-ref{S-SU-1984-01-xx}
+
+**Start-ref{SUE-1984-04-02-V5-N19}
+**Ref-text: Europe Sales Update. 2 April 1984
+**Ref-processed: Yes
+**End-ref{SUE-1984-04-02-V5-N19}
+
+**Start-ref{S-SU-1984-04-09}
+**Ref-text: Europe Sales Update. Special Issue. 9 April 1984
+**Ref-processed: Yes
+**End-ref{S-SU-1984-04-09}
+
+**Start-ref{SUE-1984-04-16-V5-N20}
+**Ref-text: Europe Sales Update. 16 April 1984
+**Ref-processed: Yes
+**End-ref{SUE-1984-04-16-V5-N20}
+
+**Start-ref{SUE-1984-04-30-V5-N21}
+**Ref-text: Europe Sales Update. 30 April 1984
+**Ref-processed: Yes
+**End-ref{SUE-1984-04-30-V5-N21}
+
+**Start-ref{SUE-1984-05-14-V5-N22}
+**Ref-text: Europe Sales Update. 14 May 1984
+**Ref-processed: Yes
+**End-ref{SUE-1984-05-14-V5-N22}
+
+**Start-ref{SUE-1984-05-28-V5-N23}
+**Ref-text: Europe Sales Update. 28 May 1984
+**Ref-processed: Yes
+**End-ref{SUE-1984-05-28-V5-N23}
+
+**Start-ref{S-SU-1984-05-28}
+**Ref-text: Europe Sales Update. Special Issue. 28 May 1984
+**Ref-processed: Yes
+**End-ref{S-SU-1984-05-28}
+
+**Start-ref{SUE-1984-06-11-V5-N24}
+**Ref-text: Europe Sales Update. 11 June 1984
+**Ref-processed: Yes
+**End-ref{SUE-1984-06-11-V5-N24}
+
+**Start-ref{SUE-1984-06-25-V5-N25}
+**Ref-text: Europe Sales Update. 25 June 1984
+**Ref-processed: Yes
+**End-ref{SUE-1984-06-25-V5-N25}
+
+**Start-ref{SUE-1984-07-23-V6-N02}
+**Ref-text: Europe Sales Update. 23 July 1984
+**Ref-processed: Yes
+**End-ref{SUE-1984-07-23-V6-N02}
+
+**Start-ref{SUE-1984-08-06-V6-N03}
+**Ref-text: Europe Sales Update. 8 August 1984
+**Ref-processed: Yes
+**End-ref{SUE-1984-08-06-V6-N03}
+
+**Start-ref{SUE-1984-08-20-V6-N04}
+**Ref-text: Europe Sales Update. 20 August 1984
+**Ref-processed: Yes
+**End-ref{SUE-1984-08-20-V6-N04}
+
+**Start-ref{SUE-1994-06}
+**Ref-text: Sales Update Europe. June 1994
+**Ref-processed: Yes
+**End-ref{SUE-1994-06}
+
+**Start-ref{SUE-1994-09}
+**Ref-text: Sales Update Europe. September 1994. V26 N2
+**Ref-processed: Yes
+**End-ref{SUE-1994-09}
+
+**Start-ref{SUE-1994-10}
+**Ref-text: Sales Update Europe. October 1994. V26 N3
+**Ref-processed: Yes
+**End-ref{SUE-1994-10}
+
+**Start-ref{SUE-1994-12}
+**Ref-text: Sales Update Europe. December 1994. V26 N5
+**Ref-processed: Yes
+**End-ref{SUE-1994-12}
+
 **Start-ref{CU-V5-4A}
 **Ref-text: Customer Update. Volume 5 Issue 4A. 12th April 1994
 **Ref-processed: Yes
@@ -958,341 +1053,341 @@
 **End-ref{CU-V8-2A}
 
 **Start-ref{CU-1991-09-06}
-**Ref-text: Digital's Customer Update September 6, 1991
+**Ref-text: Digital's Customer Update. 6th September 1991
 **Ref-date: 1991-09-06
 **Ref-processed: Yes
 **ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=550.0
 **End-ref{CU-1991-09-06}
 
 **Start-ref{CU-1991-09-27}
-**Ref-text: Digital's Customer Update September 27, 1991
+**Ref-text: Digital's Customer Update. 27th September 1991
 **Ref-date: 1991-09-27
-**Ref-processed: No
+**Ref-processed: Yes
 **ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=551.0
 **End-ref{CU-1991-09-27}
 
 **Start-ref{CU-1991-10-18}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 18th October 1991
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=552.0
 **End-ref{CU-1991-10-18}
 
 **Start-ref{CU-1991-10-30}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 30th October 1991
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=553.0
 **End-ref{CU-1991-10-30}
 
 **Start-ref{CU-1991-11-08}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 8th November 1991
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=555.0
 **End-ref{CU-1991-11-08}
 
 **Start-ref{CU-1991-11-29}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 29th November 1991
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=556.0
 **End-ref{CU-1991-11-29}
 
 **Start-ref{CU-1991-12-20}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 20th December 1991
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=557.0
 **End-ref{CU-1991-12-20}
 
 **Start-ref{CU-1992-01-10}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 10th January 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=560.0
 **End-ref{CU-1992-01-10}
 
 **Start-ref{CU-1992-01-31}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 31st January 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=561.0
 **End-ref{CU-1992-01-31}
 
 **Start-ref{CU-1992-02-21}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 21st February 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=563.0
 **End-ref{CU-1992-02-21}
 
 **Start-ref{CU-1992-02-25}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 25th February 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=565.0
 **End-ref{CU-1992-02-25}
 
 **Start-ref{CU-1992-03-13}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 13th March 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=567.0
 **End-ref{CU-1992-03-13}
 
 **Start-ref{CU-1992-04-03}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 3rd April 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=568.0
 **End-ref{CU-1992-04-03}
 
 **Start-ref{CU-1992-04-24}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 24th April 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=569.0
 **End-ref{CU-1992-04-24}
 
 **Start-ref{CU-1992-05-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th May 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=571.0
 **End-ref{CU-1992-05-15}
 
 **Start-ref{CU-1992-06-05}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 5th June 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=572.0
 **End-ref{CU-1992-06-05}
 
 **Start-ref{CU-1992-06-26}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 26th June 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=575.0
 **End-ref{CU-1992-06-26}
 
 **Start-ref{CU-1992-07-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th July 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=579.0
 **End-ref{CU-1992-07-15}
 
 **Start-ref{CU-1992-07-20}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 20th July 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=580.0
 **End-ref{CU-1992-07-20}
 
 **Start-ref{CU-1992-08-10}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 10th August 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=581.0
 **End-ref{CU-1992-08-10}
 
 **Start-ref{CU-1992-08-31}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 31st August 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=582.0
 **End-ref{CU-1992-08-31}
 
 **Start-ref{CU-1992-09-21}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 21st September 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=585.0
 **End-ref{CU-1992-09-21}
 
 **Start-ref{CU-1992-10-12}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 12th October 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=588.0
 **End-ref{CU-1992-10-12}
 
 **Start-ref{CU-1992-11-02}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 2nd November 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=594.0
 **End-ref{CU-1992-11-02}
 
 **Start-ref{CU-1992-11-23}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 23rd November 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=597.0
 **End-ref{CU-1992-11-23}
 
 **Start-ref{CU-1992-12-14}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 14th December 1992
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=600.0
 **End-ref{CU-1992-12-14}
 
 **Start-ref{CU-1993-01-04}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 4th January 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=603.0b
 **End-ref{CU-1993-01-04}
 
 **Start-ref{CU-1993-01-25}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 25th January 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=605.0
 **End-ref{CU-1993-01-25}
 
 **Start-ref{CU-1993-02-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th February 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=606.0
 **End-ref{CU-1993-02-15}
 
 **Start-ref{CU-1993-03-08}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 8th March 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=608.0
 **End-ref{CU-1993-03-08}
 
 **Start-ref{CU-1993-03-29}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 29th March 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=609.0
 **End-ref{CU-1993-03-29}
 
 **Start-ref{CU-1993-04-19}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 19th April 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=610.0
 **End-ref{CU-1993-04-19}
 
 **Start-ref{CU-1993-05-10}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 10th May 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=611.0
 **End-ref{CU-1993-05-10}
 
 **Start-ref{CU-1993-05-31}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 31st May 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=612.0
 **End-ref{CU-1993-05-31}
 
 **Start-ref{CU-1993-06-21}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 21st June 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=615.0
 **End-ref{CU-1993-06-21}
 
 **Start-ref{CU-1993-07-12}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 12th July 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=616.0
 **End-ref{CU-1993-07-12}
 
 **Start-ref{CU-1993-07-19}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 19th July 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=617.0
 **End-ref{CU-1993-07-19}
 
 **Start-ref{CU-1993-08-02}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 2nd August 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=618.0
 **End-ref{CU-1993-08-02}
 
 **Start-ref{CU-1993-08-16}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 16th August 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=619.0
 **End-ref{CU-1993-08-16}
 
 **Start-ref{CU-1993-08-30}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 30th August 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=620.0
 **End-ref{CU-1993-08-30}
 
 **Start-ref{CU-1993-09-13}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 13th September 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=621.0
 **End-ref{CU-1993-09-13}
 
 **Start-ref{CU-1993-09-27}
 **Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=622.0
 **End-ref{CU-1993-09-27}
 
 **Start-ref{CU-1993-10-12}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 12th October 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=623.0
 **End-ref{CU-1993-10-12}
 
 **Start-ref{CU-1993-10-25}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 25th October 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=624.0
 **End-ref{CU-1993-10-25}
 
 **Start-ref{CU-1993-11-08}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 8th November 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=625.0
 **End-ref{CU-1993-11-08}
 
 **Start-ref{CU-1993-11-22}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 22nd November 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=626.0
 **End-ref{CU-1993-11-22}
 
 **Start-ref{CU-1993-12-06}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 6th December 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=627.0
 **End-ref{CU-1993-12-06}
 
 **Start-ref{CU-1993-12-20}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 20th December 1993
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=628.0
 **End-ref{CU-1993-12-20}
 
 **Start-ref{CU-1994-01-03}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 3rd January 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=629.0
 **End-ref{CU-1994-01-03}
 
 **Start-ref{CU-1994-01-17}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 17th January 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=630.0
 **End-ref{CU-1994-01-17}
 
 **Start-ref{CU-1994-02-14}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 14th February 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=631.0
 **End-ref{CU-1994-02-14}
 
 **Start-ref{CU-1994-02-28}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 28th February 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=632.0
 **End-ref{CU-1994-02-28}
 
 **Start-ref{CU-1994-03-14}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 14th March 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=633.0
 **End-ref{CU-1994-03-14}
 
 **Start-ref{CU-1994-04-12}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 12th April 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=634.0
 **End-ref{CU-1994-04-12}
 
 **Start-ref{CU-1994-04-25}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 25th April 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=635.0
 **End-ref{CU-1994-04-25}
 
 **Start-ref{CU-1994-05-09}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 9th May 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=636.0
 **End-ref{CU-1994-05-09}
 
 **Start-ref{CU-1994-05-23}
@@ -1302,304 +1397,668 @@
 **End-ref{CU-1994-05-23}
 
 **Start-ref{CU-1994-06-06}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 6th June 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=639.0
 **End-ref{CU-1994-06-06}
 
 **Start-ref{CU-1994-06-20}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 20th June 1994
+**Ref-processed: Yes
+**Ref-url: 
 **End-ref{CU-1994-06-20}
 
 **Start-ref{CU-1994-07-05}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 5th July 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=641.0
 **End-ref{CU-1994-07-05}
 
 **Start-ref{CU-1994-07-18}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 18th July 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=642.0
 **End-ref{CU-1994-07-18}
 
 **Start-ref{CU-1994-08-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st August 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=643.0
 **End-ref{CU-1994-08-01}
 
 **Start-ref{CU-1994-08-08}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 8th August 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=644.0
 **End-ref{CU-1994-08-08}
 
 **Start-ref{CU-1994-08-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th August 1994
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/message/raw?msg=biz.digital.articles/S-gR4b_OMv0/q5lZVzafgEsJ
 **End-ref{CU-1994-08-15}
 
 **Start-ref{CU-1994-09-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st September 1994
+**Ref-processed: Yes
+**Ref-url:  https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=645.0
 **End-ref{CU-1994-09-01}
 
 **Start-ref{CU-1994-09-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th September 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=646.0
 **End-ref{CU-1994-09-15}
 
 **Start-ref{CU-1994-10-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st October 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=647.0
 **End-ref{CU-1994-10-01}
 
 **Start-ref{CU-1994-10-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th October 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=648.0
 **End-ref{CU-1994-10-15}
 
 **Start-ref{CU-1994-11-03}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 3rd November 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=649.0
 **End-ref{CU-1994-11-03}
 
 **Start-ref{CU-1994-11-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th November 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=650.0
 **End-ref{CU-1994-11-15}
 
 **Start-ref{CU-1994-12-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st December 1994
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!original/biz.digital.articles/AqMXyg6_wAo/sqxZ7k5izOYJbiz.digital.articles
 **End-ref{CU-1994-12-01}
 
 **Start-ref{CU-1994-12-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th December 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=651.0
 **End-ref{CU-1994-12-15}
 
 **Start-ref{CU-1995-01-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st January 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=652.0
 **End-ref{CU-1995-01-01}
 
 **Start-ref{CU-1995-01-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th January 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=653.0
 **End-ref{CU-1995-01-15}
 
 **Start-ref{CU-1995-02-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st February 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=654.0
 **End-ref{CU-1995-02-01}
 
 **Start-ref{CU-1995-02-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th February 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=655.0
 **End-ref{CU-1995-02-15}
 
 **Start-ref{CU-1995-03-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st March 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=657.0
 **End-ref{CU-1995-03-01}
 
 **Start-ref{CU-1995-03-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update.15th March 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=658.0
 **End-ref{CU-1995-03-15}
 
 **Start-ref{CU-1995-04-11}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 11th April 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=659.0
 **End-ref{CU-1995-04-11}
 
 **Start-ref{CU-1995-04-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th April 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=660.0
 **End-ref{CU-1995-04-15}
 
 **Start-ref{CU-1995-05-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st May 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=662.0
 **End-ref{CU-1995-05-01}
 
 **Start-ref{CU-1995-05-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th May 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=664.0
 **End-ref{CU-1995-05-15}
 
 **Start-ref{CU-1995-06-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st June 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=665.0
 **End-ref{CU-1995-06-01}
 
 **Start-ref{CU-1995-06-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th June 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=667.0
 **End-ref{CU-1995-06-15}
 
 **Start-ref{CU-1995-07-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st July 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=668.0
 **End-ref{CU-1995-07-01}
 
 **Start-ref{CU-1995-07-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th July 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=669.0
 **End-ref{CU-1995-07-15}
 
 **Start-ref{CU-1995-08-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st August 1994
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=670.0
 **End-ref{CU-1995-08-01}
 
 **Start-ref{CU-1995-08-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th August 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=671.02
 **End-ref{CU-1995-08-15}
 
 **Start-ref{CU-1995-09-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st September 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=672.0
 **End-ref{CU-1995-09-01}
 
 **Start-ref{CU-1995-09-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th September 1995 (presumed)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=673.0
 **End-ref{CU-1995-09-15}
 
 **Start-ref{CU-1995-10-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st October 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=674.0
 **End-ref{CU-1995-10-01}
 
 **Start-ref{CU-1995-10-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th October 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=675.0
 **End-ref{CU-1995-10-15}
 
 **Start-ref{CU-1995-11-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st November 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=676.0
 **End-ref{CU-1995-11-01}
 
 **Start-ref{CU-1995-11-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th Novemver 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=677.0
 **End-ref{CU-1995-11-15}
 
 **Start-ref{CU-1995-12-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st December 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=678.0
 **End-ref{CU-1995-12-01}
 
 **Start-ref{CU-1995-12-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th December 1995
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=679.0
 **End-ref{CU-1995-12-15}
 
 **Start-ref{CU-1995-12-29}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 29th December 1995 (presumed)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=680.0
 **End-ref{CU-1995-12-29}
 
 **Start-ref{CU-1996-01-18}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 18th January 1996 (presumed)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=681.0
 **End-ref{CU-1996-01-18}
 
 **Start-ref{CU-1996-01-31}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 31st January 1996 (presumed)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=682.0
 **End-ref{CU-1996-01-31}
 
 **Start-ref{CU-1996-02-15}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 15th February 1996 (presumed)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=683.0
 **End-ref{CU-1996-02-15}
 
 **Start-ref{CU-1996-02-27}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 27th February 1996 (presumed)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=684.0
 **End-ref{CU-1996-02-27}
 
 **Start-ref{CU-1996-03-14}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 14th March 1996 (presumed)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=685.0
 **End-ref{CU-1996-03-14}
 
 **Start-ref{CU-1996-03-29}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 29th March 1996 (presumed)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=686.0
 **End-ref{CU-1996-03-29}
 
 **Start-ref{CU-1996-04-23}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 23rd April 1996 (presumed)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=687.0
 **End-ref{CU-1996-04-23}
 
 **Start-ref{CU-1996-05-01}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 1st May 1996 (presumed)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=688.0
 **End-ref{CU-1996-05-01}
 
 **Start-ref{CU-1996-05-17}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 17th May 1996 (presumed)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=689.0
 **End-ref{CU-1996-05-17}
 
 **Start-ref{CU-1996-05-29}
-**Ref-text: Digital's Customer Update
-**Ref-processed: No
-**Ref-url:
+**Ref-text: Digital's Customer Update. 29th May 1996 (presumed)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=690.0
 **End-ref{CU-1996-05-29}
+
+**Start-ref{NYT-1985-05-13}
+**Ref-text: New York Times: DEC Announces the MicroVAX II
+**Ref-processed: Yes
+**Ref-url: https://tech-insider.org/vms/research/1985/0513.html
+**End-ref{NYT-1985-05-13}
+
+**Start-ref{HPCwire-1996-08-09}
+**Ref-text: HPCwire: DEC Announces the AlphaStation 500/500
+**Ref-processed: Yes
+**Ref-url: https://www.hpcwire.com/1998/10/23/compaq-announces-new-64-bit-alphaservers/
+**End-ref{HPCwire-1998-10-23}
+
+**Start-ref{HPCwire-1998-10-23}
+**Ref-text: HPCwire: Compaq Announces the AlphaServer GS60 and GS140
+**Ref-processed: Yes
+**Ref-url: https://www.hpcwire.com/1998/10/23/compaq-announces-new-64-bit-alphaservers/
+**End-ref{HPCwire-1998-10-23}
+
+**Start-ref{HPCwire-1999-05-15}
+**Ref-text: HPCwire: Compaq Announces the AlphaServer DS10 Single Chip RISC System
+**Ref-processed: Yes
+**Ref-url: https://www.hpcwire.com/1999/05/14/compaq-announces-the-alphaserver-ds10-single-chip-risc-system/
+**End-ref{HPCwire-1999-05-15}
+
+**Start-ref{PRN-1986-04-07-VAX8500}
+**Ref-text: DEC Announces the VAX 8500
+**Ref-processed: Yes
+**Ref-url: https://tech-insider.org/vms/research/1986/0407.html
+**End-ref{PRN-1986-04-07-VAX8500}
+
+**Start-ref{PRN-1986-08-05-VAX8550-8700}
+**Ref-text: DEC Announces the VAX 8550 and VAX 8700
+**Ref-processed: Yes
+**Ref-url: https://tech-insider.org/vms/research/1986/0805.html
+**End-ref{PRN-1986-08-05-VAX8550-8700}
+
+**Start-ref{DOW-1986-01-29-VAX8800}
+**Ref-text: DEC Announces the VAX 8800
+**Ref-processed: Yes
+**Ref-url: https://tech-insider.org/vms/research/1986/0129.html
+**End-ref{DOW-1986-01-29-VAX8800}
+
+**Start-ref{CPQ-PR-2001-10-16}
+**Ref-text: COMPAQ Announces the AlphaServer ES45
+**Ref-processed: Yes
+**Ref-url: https://web.archive.org/web/20040206064230/http://www.hp.com:80/hpinfo/newsroom/press/2001pmc/pr2001101601.html
+**End-ref{CPQ-PR-2001-10-16}
+
+**Start-ref{DEC-PR-1982-05-10}
+**Ref-text: DEC Announces the DECmate II
+**Ref-date: 1982-05-10
+**Ref-processed: Yes
+**Ref-url: https://www.1000bit.it/js/web/viewer.html?file=%2Fad%2Fbro%2Fdigital%2Fdec-pr-decmateadvwordpro.pdf
+**End-ref{DEC-PR-1982-05-10}
+
+**Start-ref{DEC-PR-1983-03-31}
+**Ref-text: Fact Sheet/VXT 2000+ Color and Grayscale X Window Terminals
+**Ref-date: 1983-03-31
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/g/biz.dec/c/j_4TBe8DkA4
+**End-ref{DEC-PR-1983-03-31}
+
+**Start-ref{DEC-PR-1984-09-12}
+**Ref-text: Professional 380 System Features Power, Speed
+**Ref-date: 1984-09-12
+**Ref-processed: Yes
+**Ref-url: https://www.1000bit.it/js/web/viewer.html?file=%2Fad%2Fbro%2Fdigital%2Fdec%2Ddecmatepro380system%2Epdf
+**End-ref{DEC-PR-1984-09-12}
+
+**Start-ref{DEC-PR-1984-10-31}
+**Ref-text: New VAX 8600 System Underscores Digital's Preeminence in Engineering/Scientific Market
+**Ref-date: 1984-10-31
+**Ref-processed: Yes
+**Ref-url: https://www.1000bit.it/js/web/viewer.html?file=%2Fad%2Fbro%2Fdigital%2Fdec%2Dvax8600%2Dengandsecmarket%2Epdf
+**End-ref{DEC-PR-1984-10-31}
+
+**Start-ref{DEC-PR-1987-07-10}
+**Ref-text: DEC Announces the RD52 Goes End-Of-Life
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.9
+**End-ref{DEC-PR-1987-07-10}
+
+**Start-ref{DEC-PR-1987-09-08}
+**Ref-text: THE DELQA-M -- REPLACEMENT PRODUCT FOR THE DEQNA-M 
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.10
+**End-ref{DEC-PR-1987-09-08}
+
+**Start-ref{DEC-PR-1987-09-10}
+**Ref-text: DEC Announces the  RA70, RA82, and TK70
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.11
+**End-ref{DEC-PR-1987-09-10}
+
+**Start-ref{DEC-PR-1988-03-08-VAX88x0}
+**Ref-text: DEC Announces the VAX 8800 Series
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=43.10
+**End-ref{DEC-PR-1988-03-08-VAX88x0}
+
+**Start-ref{DEC-PR-1988-04-05}
+**Ref-text: DEC Announces the RV20 Write-Once Optical Storage Drive
+**Ref-processed: Yes
+**Ref-url: https: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=50.0
+**End-ref{DEC-PR-1988-04-05}
+
+**Start-ref{DEC-PR-1988-05-09}
+**Ref-text: DEC Announces the rtVAX 3200, rtVAX 3500 and rtVAX 3600
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=42.14
+**End-ref{DEC-PR-1988-05-09}
+
+**Start-ref{DEC-PR-1988-06-06}
+**Ref-text: DEC Announces End-Of-Life for RC25 Disk Drive
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.46
+**End-ref{DEC-PR-1988-06-06}
+
+**Start-ref{DEC-PR-1988-07-14}
+**Ref-text: DEC Announces End-Of-Life for RA81 Disk Drive
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.34
+**End-ref{DEC-PR-1988-07-14}
+
+**Start-ref{DEC-PR-1988-10-19}
+**Ref-text: DEC Announces the MicroVAX 3300 and MicroVAX 3400
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=156.0
+**End-ref{DEC-PR-1988-10-19}
+
+**Start-ref{DEC-PR-1989-01-09-DS3100}
+**Ref-text: DEC Announces the DECstation 3100 and DECstation 3100S
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=211.2
+**End-ref{DEC-PR-1989-01-09-DS3100}
+
+**Start-ref{DEC-PR-1989-01-09-RRD40}
+**Ref-text: DEC Announces the RRD40 Compact Disk Drive
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=212.0
+**End-ref{DEC-PR-1989-01-09-RRD40}
+
+**Start-ref{DEC-PR-1989-01-09-RX23}
+**Ref-text: DEC Announces the RX23 Diskette Drive
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=212.3
+**End-ref{DEC-PR-1989-01-09-RX23}
+
+**Start-ref{DEC-PR-1989-01-09-TZ30}
+**Ref-text: DEC Announces the TZ30 Tape Drive
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=212.2
+**End-ref{DEC-PR-1989-01-09-TZ30}
+
+**Start-ref{DEC-PR-1989-01-09-VS3520}
+**Ref-text: DEC Announcesthe VAXstation 3520 and VAXstation 3540 
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=211.3
+**End-ref{DEC-PR-1989-01-09-VS3520}
+
+**Start-ref{DEC-PR-1989-01-24-VAX6300}
+**Ref-text: DEC Announces 
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=219.0
+**End-ref{DEC-PR-1989-01-24-VAX6300}
+
+**Start-ref{DEC-PR-1989-04-10}
+**Ref-text: DEC Announces the rtVAX 3800
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=312.0
+**End-ref{DEC-PR-1989-04-10}
+
+**Start-ref{DEC-PR-1990-05-07}
+**Ref-text: DEC Announces the PDP-11/93 and PDP-11/94
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/range?f1=PDP-11&f2=314.1
+**End-ref{DEC-PR-1990-05-07}
+
+**Start-ref{DEC-PR-1990-06-05}
+**Ref-text: DEC Announces the DEClaser 2100 and 2200
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=515.0
+**End-ref{DEC-PR-1990-06-05}
+
+**Start-ref{DEC-PR-1992-06-10-THZ02}
+**Ref-text: DEC Announces the THZ02 tape drive
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.dec/s_cnjS0bsXU
+**End-ref{DEC-PR-1992-06-10-THZ02}
+
+**Start-ref{DEC-PR-1992-06-22}
+**Ref-text: DECnews/Fact Sheet: DECsystem 5000 Model 133 Server
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/g/biz.dec/c/xdFkppGtiP4/m/wbH2auXua9EJ
+**End-ref{DEC-PR-1992-06-22}
+
+**Start-ref{DEC-PR-1992-06-26}
+**Ref-text: DECnews/Fact Sheet: Personal DECstation 5000 Model 33
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/g/biz.dec/c/YRPeSVAawVw
+**End-ref{DEC-PR-1992-06-26}
+
+**Start-ref{DEC-PR-1992-10-26}
+**Ref-text: DEC Announces the DEClaser 1152 laser printer
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.dec/bSMGP6gEYSk
+**End-ref{DEC-PR-1992-10-26}
+
+**Start-ref{DEC-PR-1993-11-12}
+**Ref-text: DEC Announces the DECchip 21040 Ethernet Controller
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.dec/8Ks0sIoo50Q
+**End-ref{DEC-PR-1993-11-12}
+
+**Start-ref{DEC-PR-1993-05-14-TA92}
+**Ref-text: DEC TA92 Cartridge Subsystem Announcement
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.dec/koOncHQofPg
+**End-ref{DEC-PR-1993-05-14-TA92}
+
+**Start-ref{DEC-PR-1994-01-17}
+**Ref-text: DEC Announces the DECchip 21050 PCI to PCI Bridge
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.dec.decnews/0O_Pnf_RyZE
+**End-ref{DEC-PR-1994-01-17}
+
+**Start-ref{DEC-PR-1994-02-09}
+**Ref-text: DIGITAL Announces the DEC 3000 Models 300X and 300LX Systems
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/g/biz.dec.decnews/c/NeaOJo-vq58
+**End-ref{DEC-PR-1994-02-09}
+
+**Start-ref{DEC-PR-1994-02-21}
+**Ref-text: DEC Announces the DECchip 21030 Graphics Chip
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.dec/FFYfM37fivM
+**End-ref{DEC-PR-1994-02-21}
+
+**Start-ref{DEC-PR-1994-03-14-VAX4050}
+**Ref-text: DEC Announces the VAX 4000 Model 50 Upgrade
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!original/biz.dec.decnews/QbEYBKNbDUg/ei7j7ocHbO0J
+**End-ref{DEC-PR-1994-03-14-VAX4050}
+
+**Start-ref{DEC-PR-1994-03-15}
+**Ref-text: DEC Announces the VAXstation 4000 Model 90A
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/g/biz.dec.decnews/c/rGju5pxeoc4
+**End-ref{DEC-PR-1994-03-15}
+
+**Start-ref{DEC-PR-1994-06-06}
+**Ref-text: DEC Announces the RWZ52 1.2 Gbyte Multifunction Optical Drive
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/WYq7R_Xzcw0
+**End-ref{DEC-PR-1994-06-06}
+
+**Start-ref{DEC-PR-1994-10-18}
+**Ref-text: DEC Announces the DEClaser 3500
+**Ref-processed: Yes
+**Ref-url: http://web.archive.org/web/19961220134807/http://www.digital.com/info/PR000J/PR000JSC.TXT
+**End-ref{DEC-PR-1994-10-18}
+
+**Start-ref{DEC-PR-1994-11-16}
+**Ref-text: DEC Announces the DEClaser 3500
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/kecl8ptlV-A
+**End-ref{DEC-PR-1994-11-16}
+
+**Start-ref{DEC-PR-1995-02-23}
+**Ref-text: DEC Announces the AlphaServer 400 4/166
+**Ref-processed: Yes
+**Ref-url: http://web.archive.org/web/19961220142839/http://www.digital.com/info/PR005H/PR005HSC.TXT
+**End-ref{DEC-PR-1995-02-23}
+	
+**Start-ref{DEC-PR-1995-07-11}
+**Ref-text: DEC Announces the DEClaser 3500A
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/wt18Z1smEKE
+**End-ref{DEC-PR-1995-07-11}
+
+**Start-ref{DEC-PR-1995-10-20}
+**Ref-text: DEC Announces the DEClaser 3500P
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/pIQM_5eMgLM
+**End-ref{DEC-PR-1995-10-20}
+
+**Start-ref{DEC-PR-1995-11-15-TKZ61-62}
+**Ref-text: DEC  Announces the TKZ61 and TKZ62 10-Cartridge Tape Drives
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/AQC6cRot-dY
+**End-ref{DEC-PR-1995-11-15-TKZ61-62}
+
+**Start-ref{DEC-PR-1996-01-29}
+**Ref-text: DEC Announces the AlphaStation 500 5/333
+**Ref-processed: Yes
+**Ref-url: http://web.archive.org/web/19961220144743/http://www.digital.com/info/PR00GC/PR00GCSC.TXT
+**End-ref{DEC-PR-1996-01-29}
+
+**Start-ref{HP-PR-2003-01-20}
+**Ref-text: PR Announces the AlphaServer GS1280, ES80 and ES47
+**Ref-processed: Yes
+**Ref-url: https://web.archive.org/web/20040415204928/http://www.hp.com:80/hpinfo/newsroom/press/2003/030120c.html
+**End-ref{HP-PR-2003-01-20}
+
+**Start-ref{DA-1987-07-10-RD52}
+**Ref-text: Digital Announcement: 1987-JUL-10 (RD52)
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.9
+**End-ref{DA-1987-07-10-RD52}
+
+**Start-ref{DA-1987-07-13-RL02}
+**Ref-text: Digital Announcement: 1987-JUL-13 (RL02)
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.8
+**End-ref{DA-1987-07-13-RL02}
+
+**Start-ref{DA-1987-08-25-Tapes}
+**Ref-text: Digital Announcement: 1987-AUG-25 (Tapes)
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.4
+**End-ref{DA-1987-08-25-Tapes}
+
+**Start-ref{DA-1987-08-25-VT2xx}
+**Ref-text: Digital Announcement: 1987-AUG-25 (VT2xx Terminals)
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.1
+**End-ref{DA-1987-08-25-VT2xx}
+
+**Start-ref{DA-1987-08-25VT320}
+**Ref-text: Digital Announcement: 1987-AUG-25 (VT320)
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.1
+**End-ref{DA-1987-08-25-VT320}
+
+**Start-ref{DA-1987-09-02}
+**Ref-text: Digital Announcement: 1987-SEP-02
+**Ref-processed: Yes
+**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=43.6
+**End-ref{DA-1987-09-02}
+
+**Start-ref{DA-1988-02-02}
+**Ref-text: Digital Announcement: 1988-FEB-02
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=29.0
+**End-ref{DA-1988-02-02}
+
+**Start-ref{DA-1989-01-09-RZxx}
+**Ref-text: Digital Announcement: 1989-01-09 (RZxx Disks)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=212.1
+**End-ref{DA-1989-01-09-RZxx}
+
+**Start-ref{DA-1989-01-09-VS3100-30}
+**Ref-text: Digital Announcement: 1989-01-09 (VS3100-30)
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=211.1
+**End-ref{DA-1989-01-09-VS3100-30}
+
+**Start-ref{DA-1989-01-24-TA90}
+**Ref-text: DEC Announces the TA90 Cartridge Tape Subsystem
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=230.3
+**End-ref{DA-1989-01-24-TA90}
 
 **Start-ref{EC-N0136-72}
 **Ref-text: DECchip 21064-150, -166, -200 Microprocessor Data Sheet
@@ -1616,6 +2075,12 @@
 **Ref-text: RRD42 Disc Drive Owner's Manual
 **Ref-partno: EK-RRD42-OM-002
 **End-ref{EK-RRD42-OM-002}
+
+**Start-ref{EK–RRDCD–IN.A01}
+**Ref-text: RRD43 CD-ROM Disc Drive Information for VAX 4000 Model 100 Systems
+**Ref-partno: EK–RRDCD–IN.A01
+**Ref-processed: Yes
+**End-ref{EK–RRDCD–IN.A01}
 
 **Start-ref{EK-V1000-UG-001}
 **Ref-text: Installing and Using The VT1000 Video Terminal
@@ -4267,6 +4732,12 @@
 **Ref-electronic: PDF
 **End-ref{EK-624EA-MG-001}
 
+**Start-ref{EK-6234A-UP-001}
+**Ref-text: VAX 6000: Installing Model 200/300/400 Processors
+**Ref-partno: EK-6234A-UP-001
+**Ref-electronic: PDF
+**End-ref{EK-6234A-UP-001}
+
 **Start-ref{EK-62X34-IN-003}
 **Ref-text: VAX 6000 CI/Embedded Storage Installation Manual
 **Ref-partno: EK-62X34-IN-003
@@ -5646,6 +6117,12 @@
 **Ref-partno: EK-KN450-SV.B01
 **Ref-electronic: PDF
 **End-ref{EK-KN450-SV.B01}
+
+**Start-ref{EK-KN450-OP.B01}
+**Ref-text: AlphaServer 2100 Owner's Guide
+**Ref-partno: EK-KN450-OP.B01
+**Ref-electronic: PDF
+**End-ref{EK-KN450-OP.B01}
 
 **Start-ref{EK-SYS450-IP.D01}
 **Ref-text: AlphaServer 2100/2100A Series Illustrated Parts Breakdown
@@ -9831,6 +10308,20 @@
 **ref-url: http://www.cbronline.com/news/dec_aims_new_microvax_3300_3400_at_as400_new_disk_bus
 **end-ref{CBR-PR-1988-10-19}
 
+**start-ref{TMAI-1989-11-07}
+**ref-text: TECHMONITOR AI and Automation. Press Release. 7th Nov 1989
+**ref-publisher: TECHMONITOR
+**ref-date: 1989-11-07
+**ref-url: https://techmonitor.ai/technology/dec_enhances_its_3100_vaxstations_with_faster_processor
+**end-ref{TMAI-1989-11-07}
+
+**start-ref{TMAI-1996-10-09}
+**ref-text: TECHMONITOR AI and Automation. Press Release. 9th Oct 1996
+**ref-publisher: TECHMONITOR
+**ref-date: 1996-10-09
+**ref-url: https://techmonitor.ai/technology/dec_upgrades_low_end_vaxes_to_see_it_through_the_decade
+**end-ref{TMAI-1996-10-09}
+
 **start-ref{NYT-1984-04-04-785}
 **ref-text: Digital Adds to Computer Line
 **ref-publisher: New York Times
@@ -9967,6 +10458,12 @@
 **ref-url: https://www.spec.org/cpu95/results/res2000q3/
 **end-ref{SPEC-res-2000q3}
 
+**start-ref{SPEC-res-cint95}
+**ref-text: All of the SPECint95 Results Published by SPEC 
+**ref-publisher: SPEC
+**ref-url: https://www.spec.org/cpu95/results/cint95.html
+**end-ref{SPEC-res-cint95}
+
 **Start-ref{EK-ALXLA-UG.D01}
 **Ref-text: Digital Alpha XL Family User's Guide
 **Ref-partno: EK-ALXLA-UG.D01}
@@ -10018,6 +10515,106 @@
 **Ref-partno: EK-1T23B-OP-001
 **Ref-hardcopy: No
 **End-ref{EK-1T23B-OP-001}
+
+**Start-ref{ASCC-1994-03}
+**Ref-text: AlphaServer comparison chart. March 1994 edition.
+**Ref-processed: Yes
+**ref-url: https://web.archive.org/web/20080525155034/http://h18002.www1.hp.com/alphaserver/archive/comp/mar94.html
+**End-ref{ASCC-1994-03}
+
+**Start-ref{Glossary-CodeNames-1992-01-02}
+**Ref-text: Glossary of Code Names (revised 02-Jan-92)
+**Ref-processed: Yes
+**ref-url: http://simh.trailing-edge.com/semi/docs/code_names.txt
+**End-ref{{Glossary-CodeNames-1992-01-02}
+
+**Start-ref{VMS-V071-SPD}
+**Ref-text: OpenVMS Operating System for Alpha and VAX, Version 7.1. SPD 25.01.49
+**ref-date: 1996-12
+**Ref-partno: VMS-V071-SPD
+**Ref-electronic: TXT
+**End-ref{VMS-V071-SPD}
+
+**Start-ref{AA-LB22C-TE}
+**Ref-text: VMS Version 5.4 Release Notes
+**ref-date: 1990-08
+**Ref-partno: AA-LB22C-TE
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.org/pdf/dec/vax/vms/5.4/Release_Notes/AA-LB22C-TE_VMS_Version_5.4_Release_Notes_199008.pdf
+**End-ref{AA-LB22C-TE}
+
+**Start-ref{AA-ME85D-TE}
+**Ref-text: ULTRIX/UWS Release Notes V4.1
+**ref-date: 1990
+**Ref-partno: AA-ME85D-TE
+**Ref-electronic: PDF
+**Ref-url: http://www.bitsavers.org/pdf/dec/vax/ultrix-32/4.1/AA-ME85D-TE_Ultrix_4.1_Rel_Notes_1990.pdf
+**End-ref{AA-ME85D-TE}
+
+**Start-ref{DU-RN-4.0E}
+**Ref-text: Release Notes for Version 4.0E
+**ref-date: 1998-11
+**Ref-electronic: HTML
+**Ref-url: http://www2.phys.canterbury.ac.nz/dept/docs/manuals/unix/DEC_4.0e_Docs/HTML/AQTLMDTE/TITLE.HTM
+**End-ref{DU-RN-4.0E}
+
+**Start-ref{AA-QTLMG-TE}
+**Ref-text: Tru64 UNIX Release Notes for Version 4.0G
+**ref-date: 2000-05
+**Ref-electronic: PDF
+**Ref-url: https://manualzz.com/doc/11100913/tru64-unix-release-notes-for-version-4.0g
+**End-ref{AA-QTLMG-TE}
+
+**Start-ref{AA-RH8WB-TE}
+**Ref-text: Tru64 UNIX Release Notes for Version 5.0A
+**ref-date: 2000-04
+**Ref-electronic: PDF
+**Ref-url: http://www2.phys.canterbury.ac.nz/dept/docs/manuals/unix/DEC_5.0a_Docs/ACRO_DUX/ARH8WBTE.PDF
+**End-ref{AA-RH8WB-TE}
+
+**Start-ref{QS-TRU64-51B}
+**Ref-text: QuickSpecs HP Tru64 UNIX Operating System V5.1B
+**ref-date: 2004-04-08
+**Ref-electronic: PDF
+**Ref-url: https://h20195.www2.hpe.com/v2/getdocument.aspx?docname=c04154476
+**End-ref{QS-TRU64-51B}
+
+**Start-ref{QS-AS-ES45}
+**Ref-text: QuickSpecs HP AlphaServer ES45
+**ref-date: 2007-05-07
+**Ref-electronic: PDF
+**Ref-url: https://www.istoragenetworks.com/servermanuals/es45_quickspecs.pdf
+**End-ref{QS-AS-ES45}
+
+**Start-ref{QS-VMS-V073}
+**Ref-text: QuickSpecs HP OpenVMS Operating System for Alpha and VAX, Version 7.3 and Alpha Version 7.3-1
+**ref-date: 2003-03-09
+**Ref-electronic: PDF
+**Ref-url: https://web.archive.org/web/20170829182026/http://h30266.www3.hpe.com/PDFs/HP%20OpenVMS%20Operating%20System%20for%20Alpha%20and%20VAX,%20Version%207.3%20and%20Alpha%20Version%207.3-1.pdf
+**End-ref{QS-VMS-V073}
+
+**Start-ref{QS-VMS-V084}
+**Ref-text: QuickSpecs HP OpenVMS Version 8.4 for Integrity and Alpha servers
+**ref-date: 2011-02-14
+**Ref-electronic: PDF
+**Ref-url: https://web.archive.org/web/20171028094437/http://h30266.www3.hpe.com/PDFs/V8.4QuickSpecs12551_div.pdf
+**End-ref{QS-VMS-V084}
+
+**Start-ref{EK-PC350-TM-001}
+**Ref-text: Professional 300 Series Technical Manual
+**Ref-date: 1982-12
+**Ref-partno: EK-PC350-TM-001
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/pdp11/pro3xx/EK-PC350-TM-001_Professional_300_Series_Technical_Manual_Dec82.pdf
+**End-ref{EK-PC350-TM-001}
+
+**Start-ref{EK-PC300-V1-001}
+**Ref-text: Professional 300 Series Technical Manual Volume I Kernel System
+**Ref-date: 1985-06
+**Ref-partno: EK-PC300-V1-001
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/pdp11/pro3xx/EK-PC300-V1-001_pro300tecV1.pdf
+**End-ref{EK-PC300-V1-001}
 
 **Stop-processing
 

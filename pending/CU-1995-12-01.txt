@@ -1,0 +1,31 @@
+{CU-1995-12-01}
+
+DIGITAL CELEBRIS XL PENTIUM PRO SERIES
+
+TECHNICAL DATA
+
+CPUs supported     P6-150/256 KB secondary write-back cache
+                   
+CPU upgrade via    Intel Pentium Pro-based processors (P6 and P6T)
+CPU card           Alpha AXP 266 (PowerGrade)
+                   
+Internal cache     16 KB, write-back
+                   
+Packaged cache     P6-150/256 KB - 256 KB, 4 way, set
+                   associative, write-back cache, packaged
+                   in dual cavity PGA with CPU
+                   
+External cache     Not required
+                   
+System memory      16 MB/256 MB with parity ECC supported
+future             through chipset
+
+                   All memory is cacheable
+
+
+DEC COMMSERVER 100 AND 150 NETWORK ACCESS SERVERS
+
+DIGITAL HINOTE ULTRA 4X MOBILE MEDIA MODULE
+
+FR-PCXCV-Vx - 14V COLOR SVGA AUTO-SYNC MONITOR
+

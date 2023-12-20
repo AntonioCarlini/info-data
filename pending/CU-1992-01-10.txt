@@ -1,0 +1,234 @@
+{CU-1992-01-10}
+
+MicroVAX 3100 Model 30, 40, and 80 Systems
+
+MicroVAX 3100 Family Configuration Overview Chart
+
+
+     		   Model 10e    Model 30        Model 40        Model 80      
+
+Features 
+                                                                           
+Enclosure*   	   BA42-A	BA42-A		BA42-B		BA42-B        
+ 
+CPU Performance    3.5 VUPs     5.0 VUPs     	5.0 VUPs       	10.0 VUPs     
+(increase over 	               	(1.5 times)    	(1.5 times)     (3 times)    
+Model 10e and 
+20e systems) 
+                                          
+Memory      	   4 to 32 MB 	8 to 32 MB 	8 to 32 MB  	8 to 72 MB    
+
+SCSI Performance        
+ 		   1.5 MB/s    	4.0 MB/s    	4.0 MB/s    	4.0 MB/s      
+
+Storage Disk                                                                 
+(Internal)     	   3             3              5              	5           
+
+Internal Capacity    
+(Minimum)          121 MB      	121 MB      	121 MB      	121 MB                                                                   
+(Maximum)    	   1.2 GB       1.2 GB         	2.0 GB         	2.0 GB        
+              	   (3 x RZ25)   (3 x RZ25)     	(5 x RZ25)      (5 x RZ25)     
+                                                                          
+Total Capacity***                                                                             
+(Maximum)      	   5.2 GB	6.8 GB		6.8 GB External 6.8 GB        
+                                                                          
+Communication                                                            
+(Minimum)   	   4 async.    4 async.    	4 async.    	4 async.      
+              	   (1 modem)   (1 modem)    	(1 modem)      	(1 modem)     
+
+Communication                                                            
+Expansion   	   8 async.**   8 async.       8/16 async.    	8/16 async.   
+              	   (12 Total)   (12 Total)     (20 Total)     	(20 Total)    
+or	           -          	4 Modem        	8 Modem     	8 Modem       
+                            	(5 Total)      	(9 Total)       (9 Total)     
+and         	   1 sync.**    1 sync.        	2 sync.        	2 sync.       
+
+Notes:
+
+*   The Model 10e enclosure is the same size as the Model 30 enclosure; 
+    however, there are internal and back panel differences. The same 
+    situation exists for the Model 20e compared to the Model 40 and 80 
+    systems.
+
+**  MicroVAX 3100 Model 10e system combines the 8 asynchronous lines and 1 
+    synchronous line in the DSH32 option.  The MicroVAX 3100 Model 30, 40, 
+    and 80 systems can be configured with either the additional asynchronous 
+    lines or modem lines, but not both.
+
+*** You can add three RZ25 drives internally to all models of the MicroVAX 
+    3100 system. In addition, you can add four RZ57 drives to the MicroVAX 
+    3100 Model 10e, but the drives must be added externally. You can also 
+    add four RZ58 drives to the MicroVAX 3100 Model 30, 40, and 80 system, 
+    but these must be added externally as well.
+
+
+
+o  The Model 30 and 40 systems use the system-on-a-chip (SOC) CPU that 
+   combines the CPU, FPU, clock, and 6 Kbytes of cache on one chip.  This 
+   high-performance CPU is also used in the VAX 4000 Model 200 system.
+
+o  The Model 80 uses a chip set that includes the CPU, FPU, clock, and over 
+   128 Kbytes of cache. This higher performance CPU is also used in the VAX 
+   6000 Model 500 system.
+
+
+The MicroVAX 3100 Model 30 and 40 systems support 
+up to 32 Mbytes of memory. The maximum configuration is attained by adding 
+three MS44L-BA SIMMs to 8 Mbytes of on-board memory.  The MicroVAX 3100 
+Model 80 supports up to 72 Mbytes of memory.  The maximum configuration is 
+attained by adding two MS44-DA SIMMs to 8 Mbytes of on-board memory.
+
+SA100 Cartridge Tape Subsystem
+
+RF73 Removable Storage Element for DSSI Systems
+
+
+			       RF31 RSE	    RF72 RSE       RF73 RSE
+
+Capacity (MBf)		       381	    1000	   2000
+
+Size			       5.25" HH	    5.25" FH	   5.25" FH
+
+Number of platters	       4	    11		   11
+
+Areal density (Mbits/sq inch)  56.4	    56.4	   107
+
+Transfer rate (MB/s)	       2.0	    2.0		   2.7
+
+Cache (tracks/		       4/128K	    4/128K	   11/512K
+read ahead cache)
+
+ORDERING AND AVAILABILITY INFORMATION
+
+The RF73 removable disk element is available now.
+
+VMS V5.5 software is required for the RF73 removable storage element.
+
+RZ58 5.25-inch SCSI Drive
+
+RZ FAMILY POSITIONING
+			     RZ55      RZ56     RZ57     RZ58
+
+Capacity (MB, formatted)     332       665	1,000	 1,380
+Avg Seek Time (ms)	     16	       16	14.5	 12.5
+Avg Access Time (ms)	     24.3      24.3	22.8	 18.1
+RPM			     3,600     3,600	3,600	 5,400
+Media Transfer Rate (MB/s)   1.25      1.875	2.2	 3.75 (inner track)
+			     	       			 5 (outer track)
+Buffer Size (KB)	     64	       64	256	 256
+Power (R/W) (watts)	     25.2      32	32	 33
+
+ULTRIX V4.2A software provides latent support for the RZ58 drive on the 
+DECsystem 5900 system.
+
+The RZ58 SCSI disk drive is available now.
+
+SPECIFICATIONS
+
+Operation
+Start/stop time (max)	    30s/30s
+Rotational speed	    5,400 RPM
+
+Data Organization
+Bytes per sector	    512
+Sectors per track	    73 - inner track; 95 - outer track
+Track density		    1,854 TPI
+
+Performance
+Max Bandwidth		    5 MB/s (burst)
+
+Power Requirements
+Max Seek @ 5 V		    27.7 watts
+Max Seek @ 12 V		    5.3 watts
+
+Physical Characteristics
+Form Factor		    5.25-inch
+Height			    3.25 inches
+Width			    5.75 inches
+Depth			    8.00 inches
+Weight			    8.4 pounds
+
+Operational Environment
+Temperature Range (amb)	    10 to 55o C
+Relative Humidity	    8 to 80 percent
+Maximum Wet Bulb	    25.6o C
+Maximum Altitude	    15,000 feet
+Mechanical Shock	    10 G Pk, 10 ms +/-3 ms
+ (no hard read errors)
+Vibration (sine)	    .01 inch DA @5-22 Hz
+			    .25 G Pk @22-500 Hz
+Average Acoustic Noise	    5.0 Bels Avg
+ (ISE DIS 7779)		    5.7 Bels Idle  
+
+EtherWORKS Router/DECnet V1.0
+
+The EtherWORKS Router/DECnet V1.0 software is a communications product that 
+provides routing service for DECnet nodes on an Ethernet/802.3 LAN.
+
+The new 
+EtherWORKS Router DE206-AA hardware is a PC/AT bus-compatible, full-size 
+option card that is based on a Motorola MC68302 with embedded 68000 
+processor. The associated EtherWORKS Router/DECnet V1.0 software is a DECnet 
+Phase IV product that supports intra-area (Level 1) and inter-area (Level 2) 
+routing of messages between DECnet nodes.
+
+DECtalk PC Speech Synthesizer Option
+
+
+TF85 AND TF857 ERROR IN SYSTEMS AND OPTIONS CATALOG
+
+There is an error in the Systems and Options Catalog on page 8.104, in the 
+section entitled "Tape Comparison Chart": The "Typical Time to Back Up 1 
+Gbyte Disk (minutes)" shows the TF85/TF857 drives taking up to 40 minutes to 
+back up 1 Gbyte of disk storage. The correct figure should be 24 minutes. 
+Note that the TF85 and TF857 drives have won the 1992 Digital Review Target 
+Award as best tape products.
+
+
+RETIREMENT OF FOUR COMMUNICATIONS PRODUCTS
+
+The four items listed below will move to maintenance-only status on 
+January 24, 1992.
+
+Model No.	 Description
+
+DL11-M		 ASYNC LINE UNIT DATASET CTL
+DL11-N		 EIA ASYNC LINE/LINE CLOCK
+CK-DL11-AD	 CAB KIT RS-232 W/MC, PDP-11
+CK-DL11-DD	 CAB KIT RS-232 N/MC VAX, PDP-11
+
+To replace the DL11-M, you can select a lower-price, host-node-based 
+interface module such as the DHU11. There is no Digital provided functional 
+replacement for the DL11-N.
+
+DEC EtherWORKS Turbo TP/BNC (DE202-AA):
+
+o  Supports AT and EISA-bus PCs and compatibles.
+
+o  Supports ISA-specified bus speeds of 8.33 MHz and most PCs with a bus 
+   speed greater than 8.33 MHz. Refer to the PC Interoperability Guide for 
+   Digital supported configured system compatibility.
+
+o  AT and EISA full-slot compatible packaging.
+
+o  High-performance, 16-bit data path and 64 Kbyte RAM for multibuffering.
+
+o  FCC Class "A".
+
+o  Supports Ethernet V2.0, BNC 10Base2, UTP 10BaseT, and IEEE 802.3 10Base5.
+
+o  Hardware interface: 10BaseT UTP (RJ45) or ThinWire (BNC) connections.
+
+DEC EtherWORKS MicroChannel MC/TP (DE212-AA):
+
+o  Supports MicroChannel architecture, PS/2 Models 50-80, and compatibles.
+
+o  PS/2 full-slot compatible packaging.
+
+o  High-performance, 16-bit data path and 64 Kbyte RAM for multibuffering.
+
+o  FCC Class "A".
+
+o  Supports Ethernet V2.0, BNC 10Base2, UTP 10BaseT, and IEEE 802.3 10Base5.
+
+o  Hardware interface: 10BaseT UTP (RJ45) or ThinWire (BNC) connections.

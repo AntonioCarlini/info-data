@@ -1,0 +1,1691 @@
+{CU-1991-09-06}
+
+DEC Realtime Test Integrator
+QL-YWQA9-QB   VMS development license V2.1				    
+QL-YUQA9-QB   ULTRIX development license V1.1
+QL-B15A9-JB   VMS runtime license V2.1 					    
+QL-YV8AA-AA   ULTRIX runtime license V2.1
+
+LOTUS 1-2-3 V1.0-2 available for VMS
+
+DEC SecurityGate V1.0 for VMS
+
+VAX APL V4.0
+
+Digital Cartridge Server Component for VMS (DCSC) V1.1
+
+{CU-1991-09-27}
+
+DECdecision V1.5
+
+DECinspect for VMS V2.1 and DECsrf for VMS V1.1
+
+WPS-PLUS V4 Option for ALL-IN-1 V2.4
+
+Lotus 1-2-3 For ULTRIX For RISC
+
+{CU-1991-10-18}
+DECmcc TCP/IP SNMP Access Module V1.1
+
+DECmcc Management Station for ULTRIX V1.1
+
+ULTRIX/SNA Server V1.0
+
+
+DECnet/SNA ULTRIX Terminal/Print Services V1.0
+
+
+DECnet/SNA ULTRIX Remote Job Entry (RJE) V1.0
+
+DECnet/SNA ULTRIX APPC/LU6.2 V1.0
+
+
+PATHWORKS for Macintosh V1.1
+
+Electronic Data Interchange (DEC/EDI) V1.1
+DECwrite SGML Gateway and DEC SGML Development Tools
+
+DECnsr Network Backups for ULTRIX
+
+DEC Ada V1.0 for RISC ULTRIX Systems
+
+DEC COBOL Preprocessor for ULTRIX/SQL V2.0 for RISC
+
+VAX DECalc V4.0
+VAX DECalc-DECgraph Package V4.0
+VAX DECalc-PLUS V4.0
+
+DECpresent V1.5 for Sun's SPARCstation
+
+DECprint Printing Services for VMS V4.1
+
+DECwrite V2.0
+
+Adobe Illustrator V3.0 for ULTRIX and VAX Workstations
+
+{CU-1991-10-30}
+
+DEC Reliable Transaction Router for VMS, V2.0
+
+DEC SoftPC V3.0 Available for VAX VMS and RISC ULTRIX
+
+{CU-1991-11-08}
+
+XMedia Tools V1.0
+
+DECstation FaxServer
+
+Digital Text Processing Utility V3.0 for ULTRIX
+
+DEC AVS V3.0
+
+DEC FUSE Family V1.1
+
+DECfonts Typeface Collection V1.2
+
+DECview3D Concurrent View and Edit VMS V2.1
+
+
+Synchronizer V2.0
+
+VAX BASIC V3.5
+
+{CU-1991-11-29}
+
+DECperformance Solution V1.0
+
+DECpc MS-DOS V5.0
+
+VWS V4.4 and the VAXuisx and VWS Migration Tools Kit V1.0
+
+DEC RALLY Runtime for MS-DOS V3.0
+
+
+DECedms
+
+{CU-1991-12-20}
+
+PATHWORKS Browser for Windows V1.0
+
+PATHWORKS Conferencing for Windows V1.0
+
+ALL-IN-1 MAIL for Windows V1.0
+
+TeamLinks for PATHWORKS V1.0
+
+DECquery V2.0
+
+DECreport for Windows V1.0
+
+eXcursion for Windows V1.0
+
+DEC VTX V5.0
+
+VAX NOTES V2.2
+
+ALL-IN-1 IOS Server for VMS V3.0
+
+DECelx Realtime Tools For ULTRIX V1.0
+
+DEC File Optimizer for VMS V1.0
+
+
+DSM for ULTRIX V1.0
+
+DECserver 300 V2.1 Software
+
+
+PATHWORKS for DOS (NetWare Coexistence) V1.1
+
+VAXcluster Console System V1.4
+
+VAX DIBOL V4.2 Software Available
+
+{CU-1992-01-10}
+
+EtherWORKS Router/DECnet V1.0
+
+ALL-IN-1 Manager for LANs/WANs V1.0
+
+DECimage EXpress V2.0 Document Image Management System
+
+DECspin V1.0
+
+DEC C++ for ULTRIX V1.0
+
+DEC FUSE Support for DEC C++ for ULTRIX V1.1
+
+DEC InstantSQL for Rdb/VMS V1.0
+
+BASEstar for VMS V3.1
+
+DECnet-11M V4.7, DECnet-11S V4.7, DECnet-11M-PLUS V4.4, and 
+       DECnet-Micro/RSX V4.4 are now available
+
+o  DECnet-11M V4.7 SPD 10.75.16
+o  DECnet-11S V4.7 SPD 10.74.16
+o  DECnet-11M-PLUS V4.4 SPD 10.66.09
+o  DECnet-Micro/RSX V4.4 SPD 18.27.04
+
+SCO Open Desktop V1.1 Available for DECpc 433
+
+WPS-PLUS FOR DOS V4.1 AVAILABILITY
+
+
+{CU-1992-01-31}
+
+DEC OSF/1 V1.0: shipping in March, can be ordered now
+
+Distributed Computing Environment Starter Kit V1.0
+
+DEC Fortran V3.1 on DEC OSF/1 and RISC ULTRIX
+
+DEC Pascal V1.2 on DEC OSF/1 and RISC ULTRIX
+
+DEC OPS5 V4.0 on DEC OSF/1 and RISC ULTRIX
+
+DEC Reliable Transaction Router for MS-DOS Client V1.0
+
+DECcashier Point-of-Sale Terminal
+
+VAX Wide Area Network Device Drivers V1.2
+
+DECnet/SNA Data Transfer Facility V3.1
+
+
+{CU-1992-02-21}
+
+VMS POSIX V1.0
+
+DECnet/OSI for VMS V5.5
+
+DECnet/OSI for ULTRIX V5.1
+
+DECnet for SCO UNIX V1.1
+
+DEC VUIT V2.0 for SPARCstations
+
+
+Availability Manager for Distributed Systems V1.0
+
+DECtp Desktop for ACMS V1.1
+
+FAX Network Gateway ST
+
+
+{CU-1992-03-13}
+
+DECphoto Imaging Solution V1.0 for VMS
+
+SQL Multimedia for Rdb/VMS V1.0
+
+DECscheduler for VMS V2.0 Program Announcement
+
+ULTRIX MLS+ V1.0 Trusted Worksystem Software
+
+Application Control Architecture Services V2.1
+
+DECimage Scan Software V3.0 for VMS and RISC ULTRIX
+
+DECmessageQ V2.0 Provides UNIX Message Servers
+
+DEC RALLY V4.0 Works on Multiple Platforms
+
+Open Desktop Development System V1.1
+
+SCO MPX Update Kit for SCO UNIX and Open Desktop
+
+PDP-11 C V1.2 Language Compiler
+
+VAX DOCUMENT V2.1
+
+{CU-1992-04-03}
+
+DEC Realtime Integrator (DECrti) V3.0
+
+VAX System V V3.2.1
+
+DEC RdbAccess for VAX RMS on VMS V2.0
+
+WPS-PLUS for VMS V4.1
+
+{CU-1992-04-24}
+
+DECmcc Extended LAN Manager V1.2
+
+DECmcc UNIX Distributed Management PASS V1.2
+
+DECinspect Security Reporting Facility for VMS V2.0
+
+DECinspect Intrusion Detector for VMS V1.0
+
+DECalert V1.2
+
+VAX REMS V1.4
+
+DECscheduler for VMS V2.0
+
+CDA Developer's Kit V1.0
+
+DECvoiceBuilder V1.0
+
+VXT 2000 V1.1
+
+DEC Reliable Transaction Router for ULTRIX Clients V1.0
+
+DEC Remote Operation Service (DECros)
+
+PL/I for RISC ULTRIX V1.0
+
+DSM for ULTRIX V1.0A
+
+{CU-1992-05-15}
+
+VAX COBOL V5.0 for VAX VMS
+
+DEC3GL Implementation Toolkit V1.0
+
+DEC VTX Text Retrieval System V1.0
+
+Electronic Data Control System II V2.2
+
+Terminal Server Manager V1.6
+
+VAX DATATRIEVE V6.0
+
+VAXELN Window Server V1.2
+
+DEC VTX V5.1
+
+{CU-1992-06-05}
+
+PATHWORKS for DOS (TCP/IP) V2.0
+
+Vivace for Windows V1.0 Desktop Integrator
+
+InfoServer 150 Software V2.1
+
+F11CD - ISO 9660 Support for VMS V5.5
+
+
+DEC RdbExpert for Rdb/VMS V2.0
+
+VAX PL/I V3.5
+
+XMedia Tools V1.1
+
+ULTRIX Disk Shadowing V1.1
+
+DEC C V1.2 for RISC ULTRIX Systems
+
+{CU-1992-06-26}
+
+CDA Runtime Services V1.0
+
+InfoServer Client for Macintosh V1.0
+BASEstar CIMfast for VMS V1.1
+DEC/EDI V1.2
+DEC Network Save and Restore V1.1
+DECview3D and DECview3D CVE for ULTRIX V2.2
+VMS DECwindows Motif V1.1
+DECwindows Motif for the Sun SPARCstation V1.1.3
+VAX Storage Library System ACS V1.0
+
+Lotus 1-2-3 for VMS V1.5
+
+Lotus 1-2-3 ULTRIX for RISC Systems V1.2
+
+{CU-1992-07-15}
+
+DEC TCP/IP Services for OpenVMS V2.0
+
+SQL Access Server for Rdb/VMS V1.0
+
+
+{CU-1992-07-20}
+
+PATHWORKS for DOS Maintenance Release
+
+FAX Network Gateway V2.0
+
+DEC Graphical Schema Editor for Rdb/VMS V1.0
+
+DECtalk MAIL ACCESS V1.1 RETIRING
+
+{CU-1992-08-10}
+
+DEC Object/DB V1.0
+
+DECdesign V2.0
+
+VAX Data Distributor V2.3
+
+DECmpp Software V1.1 for Massively Parallel Systems
+
+DEC Network Integration Server (DECNIS) Software V1.1
+
+DECnet/OSI for ULTRIX V5.1
+
+DECtrade Platform V2.0
+
+PATHWORKS Desktop Backup V1.0
+
+{CU-1992-08-31}
+
+DECforms for ULTRIX RISC and OpenVMS VAX V1.4
+
+ULTRIX and ULTRIX Worksystem Software (UWS) V4.3
+
+ULTRIX MLS+ Trusted Worksystem Software V1.0A
+
+DEC GKS V5.0
+
+DECADMIRE for OpenVMS V1.0
+
+PATHWORKS for DOS Supports LAN Manager V2.1
+
+PrintServer Software for SPARC Systems V4.1
+
+{CU-1992-09-21}
+
+DEComni for VMS V2.0 and DEComni for ULTRIX V2.0
+
+DECosap for VMS V2.0 and DECosap for ULTRIX V2.0
+
+DECathena V1.1
+
+POLYCENTER SNA Manager for OpenVMS V1.0
+
+POLYCENTER System Census Product Set V1.0
+
+POLYCENTER System Watchdog for OpenVMS V1.0
+
+POLYCENTER Account Manager for OpenVMS V1.0
+
+MAILbus Conversion Manager for OpenVMS V1.0
+
+MAILbus Postmaster for LANs/WANs V2.0
+
+PATHWORKS X.25 (DOS) V1.0
+
+CDA Converter Library V2.0 for OpenVMS and ULTRIX
+
+DEC Realtime Integrator V3.0 for VAXELN Software
+
+Enhanced DECserver Terminal Server Software
+
+OpenVMS VAX V5.5-2HW Limited Hardware Release
+
+DECreport for Windows V1.0A
+
+New Release of Lotus 1-2-3 for ALL-IN-1
+
+{CU-1992-10-12}
+
+DEC LMF Usage Assignment Editor for VMS V1.0
+
+DEC LMF License Usage Monitor for ULTRIX V1.0
+
+DECmcc Terminal Server Access Module V1.0
+
+DEC LANcontroller 602 and DECNIS V1.2 Software
+
+
+{CU-1992-11-02}
+
+
+POLYCENTER SNMP Manager 300 V1.2
+
+POLYCENTER Common Agent for ULTRIX V1.0
+
+DECnsr V2.0 Network Backups for UNIX and PC Systems
+
+DEC C++ for ULTRIX V1.2
+
+DEC C++ for OpenVMS VAX V1.1
+
+NAS 250 for SunOS SPARCstation
+
+DECnet/OSI for OpenVMS VAX V5.5
+
+OSI Application Developer's Toolkit V1.1
+
+DEC InstantSQL for Rdb/VMS V1.1
+
+RT-11 V5.6 Operating System
+
+TPframe V1.1
+
+VIDA for DB2 V1.1
+
+VAX DECcalc TO LOTUS 1-2-3 FOR OpenVMS V1.5
+
+HUBwatch for POLYCENTER SNMP Manager 300 V1.2
+
+{CU-1992-11-23}
+
+DEC OSF/1 Operating System V1.2
+
+System V Environment for DEC OSF/1 V1.2
+
+DEC OSF/1 Developer's Extensions V1.2
+
+DEC OSF/1 Server Extensions V1.2
+
+DECnet/OSI for DEC OSF/1 Alpha AXP V1.0
+
+DEC X.25 for DEC OSF/1 Alpha AXP V1.0
+
+DECmigrate for DEC OSF/1 V1.2
+
+Migration Program for DEC OSF/1 V1.2
+
+OpenVMS AXP V1.0
+
+DECnet for OpenVMS AXP V1.0
+
+DECwindows Motif for OpenVMS AXP V1.1
+
+DEC FMS for OpenVMS AXP V2.4
+
+MACRO-64 Assembler for OpenVMS AXP V1.0
+
+DECmigrate for OpenVMS AXP V1.0
+
+DECset V11.0 Programming Environment for OpenVMS AXP
+
+DECram for OpenVMS V1.1
+
+{CU-1992-12-14}
+
+DECps V1.1
+
+DECtrace for VMS V1.2
+
+TeMIP V1.0 for ULTRIX
+
+DECelx Realtime Tools for ULTRIX V2.0
+
+BASEstar Graphics Enabler for VMS and ULTRIX V1.0
+
+DECprint Supervisor for OpenVMS V1.0
+
+DEC Rdb for OpenVMS V4.2
+
+VAX Data Distributor V2.4
+
+DEC SERdb for Security Enhanced VMS V4.2
+
+DECmcc BMS V1.1 to DECmcc ELM AM Upgrade Solution
+
+DEC Ada V1.1 for ULTRIX RISC Systems
+
+RSTS/E V10.1
+
+InfoServer 150 Kernel Software V2.2
+
+{CU-1993-01-04}
+
+DEC RdbAccess for Custom Drivers V2.1
+
+DEC RdbAccess for RMS V2.1
+
+VAXELN Toolkit V4.4
+
+VWS V4.5; VAXuisx and VWS Migration Tools Kit V1.1
+
+VAX Disk Striping Driver for OpenVMS V2.0B
+
+{CU-1993-01-25}
+
+DEC MediaImpact V1.0 for ULTRIX RISC Systems
+
+DECsafe Failover V1.0 for ULTRIX RISC Systems
+
+IMSL Mathematics Library for DECmpp 12000/Sx Systems
+
+DEC Rdb for OpenVMS AXP V5.0
+
+DECphoto Imaging Solution V1.1 for VMS and ULTRIX
+
+DECquery V2.1
+
+Poste V2.1
+
+EtherWORKS Router/DECnet V1.0
+
+{CU-1993-02-15}
+
+POLYCENTER Console Manager V1.0
+
+DECtrace for OpenVMS V2.0
+
+o POLYCENTER Framework V1.3
+
+o POLYCENTER Network Manager 200 and 400 V1.3
+
+o POLYCENTER Software Distribution V2.4
+
+o New DECps Name: POLYCENTER Performance Solution
+
+o Storage Library System (SLS) for OpenVMS V2.3
+
+o POLYCENTER Scheduler for OpenVMS V2.1
+
+DECmessageQ for OpenVMS AXP V2.0 and Custom Services
+
+FAX Network Gateway SO V2.0
+
+o DEC ACA Services V2.1
+
+o DECimage EXpress V2.1
+
+o DSM V6.2 for OpenVMS AXP and OpenVMS VAX
+
+o PATHWORKS for VMS V4.2
+
+
+
+{CU-1993-03-08}
+
+DEC Distributed Queuing Service V1.2 for OpenVMS AXP
+
+DECforms Runtime System V1.4 for OpenVMS AXP
+
+DEC GKS V5.1 for OpenVMS AXP and DEC OSF/1 AXP
+
+CDD/Repository V5.2 for OpenVMS VAX and OpenVMS AXP
+
+DEC InstantSQL for Rdb/VMS V1.1
+
+Digital DCE Developers Kit for OpenVMS VAX V1.0
+
+DEC DBMS V5.0 for OpenVMS VAX and OpenVMS AXP
+
+{CU-1993-03-29}
+
+POLYCENTER Performance Solution for UNIX Systems V1.0
+
+POLYCENTER Advanced File System V1.0
+
+POLYCENTER Advanced File System Utilities V1.0
+
+DEC OSF/1 Freeware V1.0 for AXP Systems
+
+OSI Application Developer's Toolkit V2.0
+
+SCO Open Desktop R2.0
+
+PATHWORKS ISDN (DOS) V1.0
+
+PowerFrame V2.0
+
+DECtp Desktop for ACMS V1.2
+
+DEC Rdb for OpenVMS V5.1
+
+DECADMIRE for OpenVMS V1.1
+
+{CU-1993-03-29}
+
+POLYCENTER Performance Solution for UNIX Systems V1.0
+POLYCENTER Advanced File System V1.0
+POLYCENTER Advanced File System Utilities V1.0
+DEC OSF/1 Freeware V1.0 for AXP Systems
+OSI Application Developer's Toolkit V2.0
+SCO Open Desktop R2.0
+SCO Software Updates
+Release 3 of DECadvantage Products
+PATHWORKS ISDN (DOS) V1.0
+PowerFrame V2.0
+
+DEC OSF/1 DEVELOPER'S TOOLKIT V1.2
+
+Enhancements and new features in V4.4 of RSX-11M-PLUS and Micro/RSX software 
+and in V4.7 of RSX-11M and RSX-11S software are as follows
+
+
+
+{CU-1993-04-19}
+
+OpenVMS AXP V1.5
+OpenVMS VAX V6.0
+DEC Fortran V6.0 for OpenVMS VAX
+VXT 2000 Software V2.0
+ALL-IN-1 Mail Janitor Utility V3.0
+DECwindows XUI Packaging and Licensing Changes
+PATHWORKS for Macintosh V1.2 and PATHWORKS for VMS (Macintosh) V1.2
+ALL-IN-1 Performance Reports for OpenVMS V1.0A Repackaged
+DEC Object/DB for OSF/1 AXP V1.0
+
+{CU-1993-05-10}
+
+DECserver Network Access Software V1.0
+Terminal Server Manager V2.0
+
+DEC X.500 Directory Service V1.0
+
+
+
+DEC Rdb for OpenVMS V6.0
+DEC DBMS for OpenVMS V6.0
+DEC Data Distributor V5.1
+DEC RdbAccess for ORACLE V2.0
+DEC RdbAccess for DB2 V2.0
+DEC ODBC Driver for MS Windows
+DEC DATATRIEVE V6.1 for OpenVMS AXP and OpenVMS VAX
+DECtalk PC Speech Synthesizer V4.1
+ULTRIX and ULTRIX Worksystem Software V4.3A
+
+{CU-1993-05-31}
+
+POLYCENTER Scheduler OpenVMS V2.1
+
+DECimage MEGADOC V1.0
+
+DECNIS V2.1/V2.2 Software Releases
+
+DECprint Supervisor for OpenVMS V1.0 for Alpha AXP
+
+Distributed Computing Environment (DCE) V1.1 for DEC OSF/1
+
+{CU-1993-06-21}
+
+DEC MediaImpact V1.0
+o DECfonts Typeface Collection V1.3
+o DEC RALLY V3.1
+o DECset Component Products on OpenVMS AXP
+Striping for OpenVMS VAX V2.1
+
+
+DECnet/OSI V5.6 for OpenVMS VAX
+
+EtherWORKS Router/DECnet V1.1
+
+{CU-1993-07-12}
+
+ALL-IN-1 V3.0 Supported Options, Future Directions
+ALL-IN-1 TeamLinks Connection Package V2.0
+TeamLinks for Microsoft Windows V2.0 Products
+Alpha AXP Design Portfolio for Embedded Applications
+DECtransporter Mobil Communications Software
+DECwrite V3.0 Program Announcement
+DEC InstantSQL for OpenVMS V1.1
+MAILbus Postmaster for LANs/WANs V3.0
+TeamLinks Mail for Windows V1.1
+DEC MAILworks Server for OpenVMS V1.2
+DECfax Mail V1.1
+DEC Electronic Data Interchange V1.3
+DEC OPS5 V4.0A
+POLYCENTER DECathena V1.2
+DEC X.25 Client V1.0 for OpenVMS AXP Systems
+
+
+{CU-1993-07-19}
+
+DEC SoftPC V4.0 for OpenVMS VAX and ULTRIX RISC
+PATHWORKS V5.0 Program Announcement
+DEC C++ for OpenVMS AXP V1.3
+
+{1993-08-02}
+
+DECprint Supervisor for KODAK Printers V1.0 for OpenVMS VAX
+
+DEC OSF/1 V1.3 Operating System
+
+PATHWORKS V1.2 for DEC OSF/1 AXP
+
+StorageWorks PATHWORKS Desktop Backup V1.1
+
+{1993-08-16}
+
+Reliable Broadcast Software V1.0 for RISC ULTRIX
+Digital Standard M V1.0 for DEC OSF/1 AXP
+Reliable Transaction Router (RTR) V2.1 for OpenVMS VAX
+DECimage MEGADOC V1.1
+
+Multimedia Services V1.0 for DEC OSF/1 AXP
+
+DECspin V1.1 for DEC OSF/1 AXP
+
+{1993-08-30}
+
+eXcursion for Windows NT -- Special Introductory Price
+DECvoice Software V2.2
+Disk Shadowing V1.2 for DEC OSF/1 Systems
+PrintServer Software V4.2
+
+HUBwatch for OpenVMS VAX V2.0
+
+
+{1993-09-13}
+
+COHESION Team/SEE V1.0
+DECndu Plus V1.0
+OSI Application Developer's Toolkit V2.0 on DEC OSF/1 AXP
+DEC TCP/IP Services V3.0 for OpenVMS AXP
+VTX Conductor
+DECdmt Disk Management Tool
+
+DEC NETWORK SAVE AND RESTORE (DECnsr) FOR ULTRIX V2.1
+
+{1993-09-27}
+
+DEC X.500 Directory Service V1.1
+
+{1993-10-12}
+
+DEC OSF/1 V2.0 Operating System
+
+System V Environment for DEC OSF/1
+DECsafe Available Server for DEC OSF/1 AXP V1.0
+ACMSxp V1.0 for OSF/1 AXP
+DEC Rdb for OSF/1 AXP Software Developer's Kit
+DEC FullSail V1.2
+DEC Data Distributor V6.0
+DEC DB Integrator V1.0
+ACCESSWORKS V2.0 Servers Extend Database Access
+Business Recovery Server V1.1
+
+POLYCENTER Performance Solution V2.0
+POLYCENTER NetWorker Save and Restore V2.2
+POLYCENTER Common Agent V1.0
+POLYCENTER Capacity Planner V2.0
+3270 for DECadvantage Windows V1.0
+Remote PC for DECadvantage V6.1
+ObjectBroker V2.5
+DEC Notes V2.5 and Conferencing for Windows V1.2
+Digital Extended Math Library V2.5
+
+Reliable Transaction Router V2.1 for OpenVMS AXP
+
+DEC SNA Peer Server V1.0
+DEC SNA Domain Gateway V1.1
+
+{CU-1993-10-25}
+
+DECmodel for Windows V1.0
+DECplan V2.0 on DEC OSF/1 and SunOS Systems
+DECram for OpenVMS V2.0
+POLYCENTER System Census for PC LANs and System Census V1.1
+PATHWORKS for SCO UNIX V1.1
+
+
+{CU-1993-11-08}
+
+Sequential Media Filesystem V1.0 for Active Data
+HSM V1.0 for Dormant Data
+Archive/Backup V1.0 for Inactive Data
+ULTRIX MLS+ Trusted Worksystem Software V2.0
+DEC Ada V3.1 and DEC FUSE V1.2 Ada Support
+DECnet/OSI V2.0 for OpenVMS AXP
+DECserver Network Access Software V1.3
+
+
+{CU-1993-11-08}
+
+DEC RALLY V3.2							    
+
+DEC X.500 Directory Service V1.2
+
+
+ALL-IN-1 Systidy V2.0
+
+DECnmail V9.3-4
+
+{CU-1993-12-06}
+
+DSM V6.3 for OpenVMS VAX and OpenVMS AXP Systems
+DEC PL/I V4.0 for OpenVMS AXP Systems
+DEC BASIC V1.0 for OpenVMS AXP Systems Program Announcement
+
+POLYCENTER NetWorker Save and Restore V2.2 FOR OpenVMS VAX
+
+{CU-1993-12-20}
+
+OpenDATA Manager V1.0 for Data and Document Management
+DEC VOICE:mail V1.3 for OpenVMS
+DECvoiceBuilder V1.3
+CDA Converter Library V2.2 for OpenVMS
+DEC SoftPC V4.0 for DEC OSF/1 AXP Systems
+
+{CU-1994-01-03}
+
+PATHWORKS X.25 (DOS/Windows) V5.0
+DECwrite V3.0 for OpenVMS VAX, OpenVMS AXP, and Windows
+DECimage EXpress V2.2 and Application Services V3.2
+
+{CU-1994-01-17}
+
+DEC DB Integrator Gateway for DSM V1.0
+MAILbus View V1.0 Graphical User Interface
+DECnet/OSI V5.7 for OpenVMS VAX
+VXT 2000 Software V2.1
+
+{CU-1994-02-14}
+
+LinkWorks V2.1 Update
+TeamLinks for Macintosh V2.0
+Forti V1.0
+DECADMIRE V2.0
+DEC RALLY V4.0
+ACMS V4.0 for OpenVMS AXP
+DECforms V2.0 for OpenVMS VAX
+DEC SQL V6.0 License Options
+DEC Rdb V6.1 for OSF/1 AXP
+DECsafe Available Server for DEC OSF/1 V1.0
+DEC OSF/1 Logical Storage Manager V1.0
+
+COHESIONworX V2.0 Open Client/Server Software Engineering
+DEC COBOL V1.1 for OSF/1 AXP Systems
+
+OpenDATA Manager V1.0 Update
+ACCESSWORKS V3.0 for OpenVMS AXP and OpenVMS VAX
+ACCESSWORKS V1.0 for DEC OSF/1 AXP Program Announcement
+
+POLYCENTER Manager on NetView for DEC OSF/1 AXP V2.1
+POLYCENTER PathDoctor V1.0
+POLYCENTER System Census for PC LANs V1.2
+POLYCENTER Software Distribution V3.0
+
+POLYCENTER Console Manager V1.1
+
+POLYCENTER Hierarchical Storage Management Solution V1.1
+POLYCENTER Advanced File System Utilities V2.0
+RoamAbout Transport for MS-DOS, Windows, and OpenVMS V2.0
+DECNIS Software V2.3
+
+HUBwatch for OpenVMS VAX V3.0
+
+DEC MLS+ V3.0 Trusted UNIX Operating System
+DECwindows Motif V1.2 for OpenVMS VAX and OpenVMS AXP
+ULTRIX and ULTRIX Worksystem Software V4.4
+System V Environment for DEC OSF/1 V2.0
+DEC VTX V6.0 for OpenVMS VAX and V2.0 for MS-Windows
+
+{CU-1994-02-28}
+
+eXcursion V1.2 for Windows and Windows NT
+eXcursion (SDK) V1.2 for Windows NT
+DECtalk Software V4.1 for DEC OSF/1 AXP and Windows NT
+DECadvantage V4.1
+DEC OSF/1 V2.0 Native Language and Localization Support
+PrintServer Software V5.0
+
+{CU-1994-03-14}
+
+DECimage Editor V1.0
+PATHWORKS WAN ACCESS (DOS/Windows) V1.0
+VAX ACMS Task Translator V1.0
+OpenVMS SNA V2.2 Communicates with IBM Systems
+DEC Object/DB V2.2 for AXP, VAX, and RISC Platforms
+
+{CU-1994-04-12}
+
+DEC Fortran 90 V1.0 for DEC OSF/1 AXP Systems
+Microsoft SQL Server for Windows NT 4.21 for Alpha AXP
+OpenVMS AXP V6.1
+OpenVMS VAX V6.1
+VAXcluster and VMScluster Software for OpenVMS V6.1
+DEC BASIC V1.0 for OpenVMS AXP Systems
+PATHWORKS Software Developer's Kit (SDK) V5.1
+TeamLinks for Macintosh V2.0
+DECimage V3.0
+DECmessageQ V3.0
+Performance Solution V2.1 for OpenVMS
+File Optimizer for OpenVMS V2.0
+DEC/EDI V2.0
+DEC/EDI FileBridge V1.1
+TUXEDO Software V2.1 for DEC OSF/1 AXP Systems
+DECmigrate V1.2 for DEC OSF/1 AXP V2.0 Systems
+DEC SNA Peer Server V1.1 and IBM Interconnect Access
+
+{CU-1994-04-25}
+
+HealthView Connectivity V2.0
+DEC Rdb for OpenVMS V6.0 and DEC SQL Packaging Options
+DECagent 90 V2.0 Firmware Upgrade
+MAILbus Organizer V1.0
+DEC C V4.0 for OpenVMS Systems
+DEC SNA 3270 Application Services V1.1
+MEP VT for DEC SNA 3270 Application Services V3.0
+DEC ACB (Automatic Call Back) for OpenVMS V2.1
+DEC Disk Striping for OpenVMS AXP V1.5
+KAP to Support Parallel Programming for DEC OSF/1 AXP
+DEC ODBC Driver for MS-Windows V1.1
+DEC Distributed Queuing Service for OpenVMS V1.3
+DECprint Supervisor (DCPS) for OpenVMS V1.0c
+DECtalk PC for DOS V4.2 Update Kit
+
+{CU-1994-05-09}
+
+X.25 V1.0 for OpenVMS AXP
+
+DECnet/OSI V5.7 for OpenVMS AXP
+
+RAID Software V2.0 for OpenVMS VAX and AXP
+
+{CU-1994-05-23}
+
+NAS Base Server 200 V5.0 for DEC OSF/1 AXP
+DECforms Development Subset V1.4 for OpenVMS AXP
+Special OpenVMS V6.1 Update Service
+DEC C++ V1.3A for DEC OSF/1
+
+{CU-1994-06-06}
+
+
+File Transfer Spooler for OpenVMS V3.0 for Europe
+PATHWORKS V5.0A for OpenVMS
+OpenDATA Manager V1.1 for Data and Document Management
+3270 for DECadvantage Windows V1.1
+TCP for DECadvantage V6.2
+TCP for DOS V6.1 and TCP for DOS Runtime V6.1
+Optical Storage Management Software V3.2 for Clusters
+Terminal Server Manager V2.1
+ALL-IN-1 Sysuser V2.2 from Digital Solutions Library
+
+{CU-1994-06-20}
+
+RoamAbout Mobile IP Client/Server Network Software V2.0
+PATHWORKS V5.0A for DOS and Windows
+PATHWORKS V4.1 for OS/2 and PATHWORKS V5.0 for OS/2
+DCE for OpenVMS V1.2
+DECmodel for Windows V1.1
+
+{CU-1994-07-05}
+
+
+DECforms V2.0 for OpenVMS VAX Adds Motif User Interface
+POLYCENTER AdvFS Utilities V3.0 for DEC OSF/1 Systems
+DECathena V1.3
+DEC X.500 Directory Service V1.3 on OpenVMS AXP
+
+{CU-1994-07-18}
+
+DEC OSF/1 Operating System V3.0
+MAILbus 400 Message Store V1.0 on DEC OSF/1
+DECdfs V2.0 for OpenVMS Systems
+DECprint Supervisor (DCPS) for OpenVMS V1.1
+DECprint Supervisor for KODAK Printers (KPS) for OpenVMS
+POLYCENTER Print Queue Manager V4.3
+
+{CU-1994-08-01}
+
+Multimedia Services V1.2 for DEC OSF/1 AXP
+Business Recovery Server V1.2: T3 Disaster Tolerance
+
+{CU-1994-08-08}
+
+
+{CU-1994-08-15}
+
+
+POLYCENTER NetWorker Save and Restore V3.0 for DEC OSF/1 AXP
+
+{CU-1994-09-15}
+
+POLYCENTER Manager on NetView V3.1 for DEC OSF/1 AXP
+POLYCENTER Security Intrusion Detector V1.2 for DEC OSF/1
+Digital's SoftWindows V1.0, SoftPC V5.0
+Jabberwocky Toolkit V2.0
+Storage Library System V2.4 for OpenVMS
+
+{CU-1994-10-01}
+
+
+ALL-IN-1 Integrated Office Server V3.1 for OpenVMS AXP and VAX
+TeamLinks V2.1 for Windows and Macintosh
+TeamRoute for ALL-IN-1 V1.2
+LinkWorks V2.1 Update, The Solution Framework
+PATHWORKS V5.1 for DOS and Windows Clients
+PATHWORKS Remote V5.1 for DOS and Windows
+DEC TCP/IP Services V3.2 for OpenVMS VAX and AXP
+DECnet/OSI V5.8 for OpenVMS VAX and AXP
+DCE V1.1 for Windows NT
+Forte V1.1 Eases Development of Object Oriented Distributed Applications
+ObjectFlow V1.0 Advanced Developer's Kit
+VAX 2780/3780 Protocol Emulator V1.8
+DECserver Network Access Software V1.4
+POLYCENTER System Watchdog V2.2
+POLYCENTER Security Compliance Manager V1.0 for Novell Netware V3.11
+POLYCENTER System Census V1.3 and 33% Price Reduction on Agent Licenses
+POLYCENTER Application Trace SDK V3.0 for DEC OSF/1
+OpenVMS Management Station V1.0 for OpenVMS VAX
+ACCESSWORKS DB Integrator Gateway V3.1 for SequeLink
+ACCESSWORKS DB Integrator Gateway V3.1 for EDA/SQL
+ACCESSWORKS DB Integrator Gateway V3.1 for PC Data
+DEC ODBC Driver V2.0
+Reliable Transaction Router V3.0 Front End for Windows NT AXP
+COHESIONworX V2.1 Distributed UNIX Software Development Environment
+COHESION Team/SEE V1.1
+DEC Fortran V3.5 for DEC OSF/1 AXP Systems
+DEC Fortran 90 V1.1 for DEC OSF/1 AXP Systems
+DEC Ada V3.2 for DEC OSF/1 AXP V3.0 Systems
+
+{CU-1994-10-15}
+
+
+System V Environment for DEC OSF/1 V3.0
+POLYCENTER Hierarchical Storage Management V1.0 for OpenVMS
+HSC High Performance Software V8.4 Expands SCSI Support and Adds Jukeboxes
+StorageWorks RAID Software V2.1 for OpenVMS Systems
+
+{CU-1994-11-03}
+
+Microsoft Windows NT V3.5
+DEC FUSE V2.0 for DEC OSF/1 Systems
+File Transfer Spooler for Open Systems V1.0
+POLYCENTER Save Set Manager V1.0 for OpenVMS VAX
+DECmigrate V1.1A for OpenVMS AXP Systems
+
+{CU-1994-11-15}
+
+
+DEC ACB V2.2 for OpenVMS
+
+DECnet/OSI V3.0 for DEC OSF/1
+DEC SNA Domain Gateway V2.0
+X.25 V1.1 for DEC OSF/1
+
+{CU-1994-12-01}
+
+
+PATHWORKS V5.0 for OS/2
+TeMIP V2.0 Product Set for DEC OSF/1
+cc:Mail Connection for MailWorks V1.0
+Storage Library System V2.4a for OpenVMS VAX and AXP
+MailWorks for DEC OSF/1 V1.5
+
+DEC C V4.1 for OpenVMS AXP
+
+{CU-1994-12-15}
+
+POLYCENTER AssetWORKS V1.0
+PATHWORKS V1.0C for OpenVMS (NetWare)
+PATHWORKS V5.0C for OpenVMS (LAN Manager)
+NetCon for ManageWORKS V2.2
+DEC SoftPC V5.0/SoftWindows V1.0 on OpenVMS AXP
+LSF V2.0 Load Sharing and Distributed Batch Software for UNIX Networks
+StorageWorks Advanced Media Library V1.0 for UNIX, Software Developer's Kit
+OSI Application Developer's Toolkit V2.2
+Microsoft's Systems Management Server V1.0
+
+
+{CU-1995-01-01}
+
+
+DECnet/OSI V6.0 for OpenVMS VAX and AXP
+
+InfoBroker Server V2.0 for DEC OSF/1
+
+HelpSTAR for Windows V3.1 Integration with PATHWORKS ManageWORKS
+
+{CU-1995-01-15}
+
+POLYCENTER NETWORKER SAVE AND RESTORE V3.1 FOR DEC OSF/1 SYSTEMS
+DEC OSF/1 OPERATING SYSTEM V3.2
+MICROSOFT VISUAL C++ V2.0 DEVELOPMENT SYSTEM FOR ALPHA PLATFORM
+DATATRIEVE CLIENT V1.0 FOR WINDOWS AND V7.0 FOR OPENVMS SYSTEMS
+FRAMEMAKER V3.1 AUTHORING AND DOCUMENT MANAGEMENT FOR DEC OSF/1
+
+{CU-1995-02-01}
+
+DEC OSF/1 V2.1 Now Supports AlphaServer 2000 4/200
+ICS Builder Xcessory V3.5 on DEC OSF/1, SunOS, Solaris 2, HP/700, and SGI
+
+{CU-1995-02-15}
+
+NOVELL'S TUXEDO ENTERPRISE TP SYSTEM 5.0 FOR DEC OSF/1 V3.0
+TEAMLINKS LIBRARY SERVICES V1.0 FOR MACINTOSH
+ASSETS MULTI-DESTINATION PRINT SYSTEM V2.0 FOR OPENVMS
+POLYCENTER NETWORKER SAVE AND RESTORE V3.0 NOW PACKAGED WITH DEC OSF/1,
+DECSERVER NETWORK ACCESS SOFTWARE V1.5
+
+DECNIS V3.0 SOFTWARE FOR DECNIS 500 AND 600 ROUTER PLATFORMS
+
+ASSETS MULTI-DESTINATION PRINT SYSTEM V2.0 FOR OPENVMS
+
+{CU-1995-03-01}
+
+LINKWORKS V3.0 -- THE SOLUTION FRAMEWORK
+DECSAFE AVAILABLE SERVER V1.2 FOR DEC OSF/1
+EDULINK V1.0 FOR ENHANCED WORK INTEGRATION AND COLLABORATION IN EDUCATION
+DECWINDOWS MOTIF V1.2-3 FOR OPENVMS
+DECIMAGE EXPRESS V2.3 INCLUDES DECIMAGE EDITOR V1.1 FOR WINDOWS
+DECADMIRE V2.1, DECADMIRE V2.1 FOR VISUAL BASIC, V3.0 PROGRAM ANNOUNCEMENT
+POLYCENTER Security Intrusion Detector V1.2 for OpenVMS
+POLYCENTER ADVANCED FILE SYSTEM AND UTILITIES V3.2 FOR DEC OSF/1
+PATHWORKS V1.3 FOR OPENVMS (MACINTOSH) SOFTWARE SUPPORTS ALPHA
+TEAMROUTE FOR ALL-IN-1 V1.3
+
+DEC FORTRAN V6.3 FOR OPENVMS VAX SYSTEMS
+
+{CU-1995-03-15}
+
+POLYCENTER SEQUENTIAL MEDIA FILESYSTEM FOR OPENVMS VAX V1.0
+PATHWORKS V5.0 for DEC OSF/1 (NetWare)
+DEC ADA V3.2 FOR OPENVMS ALPHA SYSTEMS
+DEC FORTRAN 90 V1.3 AND DIGITAL PARALLEL SOFTWARE ENVIRONMENT V1.0
+DCE V1.3 PRIVACY OPTION FOR DEC OSF/1 FALLS UNDER EXPORT RESTRICTIONS
+
+{CU-1995-04-11}
+
+
+LEAFBRIDGE V2.0 REMOTE BRIDGE FOR EUROPE ONLY
+DIGITAL'S UNIX OPERATING SYSTEM NAME CHANGES FROM DEC OSF/1 TO DIGITAL
+MULTIMEDIA SERVICES FOR DIGITAL UNIX V1.5
+INFOBROKER SERVER V2.1 FOR DIGITAL UNIX
+LSF V2.1 LOAD SHARING AND DISTRIBUTED BATCH SOFTWARE
+PURVEYOR V1.0 WORLD WIDE WEB SERVER SOFTWARE FOR WINDOWS NT
+DECDOCUMENT V2.3 FOR OPENVMS ALPHA
+DECIMAGE V3.1
+POLYCENTER NETWORK MANAGEMENT HARDWARE AND SOFTWARE PACKAGES V3.0
+POLYCENTER CAPACITY PLANNER V3.0
+BUSINESS RECOVERY SERVER V1.3 SUPPORTS OPENVMS VAX AND ALPHA V6.1
+
+{CU-1995-04-15}
+
+POLYCENTER FILE OPTIMIZER V2.1 FOR OPENVMS
+STORAGE LIBRARY SYSTEM V2.5 FOR OPENVMS
+LINKWORKS V3.0 FOR HP-UX, IBM AIX, AND SCO UNIX SERVERS
+
+{CU-1995-05-01}
+
+COGNOS' POWERHOUSE V7.33 FOR DIGITAL UNIX
+OBJECTBROKER V2.5 FOR SOLARIS, OS/2, AND TANDEM
+DCE V1.3 FOR OPENVMS VAX AND ALPHA
+
+{CU-1995-05-15}
+
+
+MULTIA BASE SOFTWARE V3.0 AND MULTIA SYSTEM ADMINISTRATOR KIT V3.0
+RUMBA FOR MAINFRAME FOR MULTIA V3.0
+EXCURSION V2.0 FOR WINDOWS AND WINDOWS NT
+OPENVMS ALPHA AND VAX V6.2
+TEAMLINKS OFFICE V2.5 FOR WINDOWS AND OTHER TEAMLINKS ENHANCEMENTS
+
+{CU-1995-06-01}
+
+POLYCENTER SECURITY CONSOLE V1.0 FOR WINDOWS
+DECNET/OSI V6.2 FOR OPENVMS VAX AND ALPHA
+DECSET V12.0 FOR OPENVMS SYSTEMS
+DECforms V2.1 for OpenVMS Alpha Adds ACMS and Full Forms Development
+DECDOCUMENT V2.3 FOR OPENVMS VAX SYSTEMS
+DEC COBOL V2.2 FOR ALPHA SYSTEMS
+DEC FORTRAN 90 V2.0 FOR OPENVMS ALPHA
+DEC MLS+ V3.1
+KAP V2.1 FOR DIGITAL UNIX
+
+DEC C and DEC C++ V5.0 for OpenVMS VAX systems, and DEC C and DEC C++ V5.0 
+for OpenVMS Alpha systems are new maintenance releases.
+
+DEC FORTRAN V6.3 MAINTENANCE RELEASE FOR OPENVMS ALPHA
+
+
+WANROUTER 90/250 V1.3 SOFTWARE MAINTENANCE RELEASE
+
+{CU-1995-06-15}
+
+POLYCENTER SCHEDULER V2.1B
+DEC ADA V3.2 FOR OPENVMS VAX SYSTEMS
+FIREFOX'S NOV*IX FOR INTERNET V1.0
+WAIS, INC.'S WAISSERVER 2.0 FOR ALPHA SYSTEMS
+
+Enhancements to Storage Library System for OpenVMS VAX and Alpha V2.5B
+POLYCENTER Network Management Packages V3.0 for Europe
+
+{CU-1995-07-01}
+
+
+MAILWORKS FOR UNIX V1.7
+OPENDATA MANAGER V1.2
+POLYCENTER PERFORMANCE ADVISOR AND ADVISOR COLLECTOR V3.0 FOR DIGITAL UNIX
+POLYCENTER NETWORKER SAVE AND RESTORE V3.1A
+POLYCENTER SEQUENTIAL MEDIA FILESYSTEM V1.1 FOR OPENVMS
+POLYCENTER SAVE SET MANAGER V1.1 FOR OPENVMS
+CBL--A VAX DIBOL TO ANSI C TRANSLATOR
+
+STORAGEWORKS RAID SOFTWARE FOR OPENVMS V2.2
+
+{CU-1995-07-15}
+
+POLYCENTER CAPACITY PLANNER V3.0A
+RELIABLE TRANSACTION ROUTER V3.1 FOR SUN
+HUBWATCH V3.1 FOR SUN
+
+{CU-1995-08-01}
+
+INTERNET ALPHASERVER SOFTWARE KIT V1.2
+PROBEWATCH V3.2 AND DECPACKETPROBE UPGRADES
+DECNET-11M-PLUS V4.5 AND DECNET MICRO/RSX V4.5 FOR PDP-11 SYSTEMS
+RSX-11M-PLUS V4.5 AND MICRO/RSX V4.5 FOR PDP-11 SYSTEMS
+
+{CU-1995-08-15}
+
+WINDOWS NT WORKSTATION 3.51 AND WINDOWS NT SERVER 3.51
+POLYCENTER MANAGER ON NETVIEW V4.1 FOR DIGITAL UNIX
+RUMBA OFFICE FOR DIGITAL V2.0 AND RUMBA PACKAGES FOR HP AND INTERNET
+
+{CU-1995-09-01}
+
+POLYCENTER DECNET MANAGER V2.1
+DIGITAL DCE V1.1 FOR WINDOWS NT
+LOTUS 1-2-3 V2.1 FOR OPENVMS
+WORDPERFECT V5.1+ FOR OPENVMS
+DIGITAL AUTHENTICATION SERVER V1.0
+
+{CU-1995-09-15} (presumed)
+
+WORKGROUP WEB V1.0 FOR WINDOWS
+DEC/EDI V3.0 FOR DIGITAL UNIX
+DIGITAL X.500 INFORMATION MANAGER V1.0 FOR WINDOWS
+
+MANAGEWORKS WORKGROUP ADMINISTRATOR V2.2 FOR WINDOWS
+
+
+{CU-1995-10-01}
+
+PATHWORKS V6.0 FOR DOS AND WINDOWS
+MAILBUS 400 SMTP GATEWAY V2.0 FOR DIGITAL UNIX
+POLYCENTER MANAGER ON NETVIEW V3.0 FOR WINDOWS NT
+POLYCENTER ASSETWORKS V2.0
+
+DECWRITE V3.1 FOR OPENVMS AND MICROSOFT WINDOWS
+DECNET/OSI V6.3 FOR OPENVMS
+EDCS II V2.4 SERVER FOR OPENVMS
+LINKWORKS V3.0 FOR WINDOWS NT ON ALPHA AND INTEL SYSTEMS
+
+{CU-1995-10-15}
+
+KAP V2.1 OPTIMIZER SUPPORT FOR FORTRAN 90
+DIGITAL DB INTEGRATOR GATEWAY FOR PC DATA V3.1A
+EXCURSION V2.1 FOR WINDOWS, WINDOWS 95, AND WINDOWS NT
+
+{CU-1995-11-01}
+
+DIGITAL SNA APPC/LU6.2 PROGRAMMING INTERFACE V3.0 FOR DIGITAL UNIX
+LINKWORKS V3.0 FOR OPENVMS ALPHA
+LINKWORKS V3.0 FOR IBM OS/2
+INTERNET ALPHASERVER SOFTWARE UPDATE KIT V1.2.1
+PURVEYOR WEBSERVER V1.1 FOR WINDOWS NT
+POLYCENTER NETWORKER SAVE AND RESTORE V3.2 FOR DIGITAL UNIX
+ACMS Desktop V2.2 for OpenVMS
+TEAMLINKS V2.5 FOR MACINTOSH
+
+
+{CU-1995-11-15}
+
+DIALOGUE BUS TOOLKIT V2.1
+HSC HIGH PERFORMANCE SOFTWARE V8.5
+
+{CU-1995-12-01}
+
+OPENVMS V7.0 FOR ALPHA AND VAX SYSTEMS
+SPIRALOG V1.0 FOR OPENVMS V7.0 FOR ALPHA SYSTEMS
+DECNET/OSI V7.0 FOR OPENVMS ALPHA AND VAX SYSTEMS
+ORACLE RDB7 AND ORACLE7 FOR OPENVMS V7.0
+ACMSXP V2.0 FOR OPENVMS ALPHA AND ACMSXP V1.0 FOR WINDOWS NT
+RELIABLE TRANSACTION ROUTER V3.1 FOR WINDOWS NT
+DECADMIRE V3.0
+FORTE V2.0
+WIND/U V3.0 FOR OPENVMS
+DEC C V5.2 FOR OPENVMS
+DEC SNA PEER SERVER V1.3
+CMS CLIENT V1.0 FOR WINDOWS
+DIGITAL DRIVER V1.0 FOR CC:MAIL
+DIGITAL DRIVER V1.0 FOR MAPI
+MAILWORKS FOR UNIX V1.7-A
+POLYCENTER Sequential Media Filesystem V1.2 for OpenVMS
+POLYCENTER Hierarchical Storage Management V1.2 for OpenVMS License
+POLYCENTER ARCHIVE/BACKUP V1.1 FOR OPENVMS
+STORAGE LIBRARY SYSTEM V2.6 FOR OPENVMS ALPHA AND VAX
+STORAGEWORKS DESKTOP BACKUP/ARCHIVER V2.1
+DEC PL/I V4.0A FOR OPENVMS ALPHA
+
+{CU-1995-12-15}
+
+
+DECQUERY V2.5 FOR WINDOWS
+BUSINESS RECOVERY SERVER V1.4
+
+{CU-1995-12-29}
+
+SERVERWORKS MANAGER V1.0
+TEMIP V3.0 PRODUCT SET FOR DIGITAL UNIX
+DECDOCUMENT V3.0 FOR OPENVMS ALPHA AND VAX SYSTEMS
+DECDECISION V2.0 FOR OPENVMS VAX
+POLYCENTER PRINT QUEUE MANAGER V4.4 FOR OPENVMS
+WIDE AREA NETWORKING V2.0 FOR DIGITAL UNIX SYSTEMS
+
+{CU-1996-01-18}
+
+POLYCENTER MANAGER ON NETVIEW V3.0A FOR WINDOWS NT ON ALPHA SYSTEMS
+FRAMEWORK-BASED ENVIRONMENT (FBE) V2.0
+RULEWORKS V2.0
+DIGITAL SPEECH RECOGNITION SOFTWARE V1.0 FOR DIGITAL UNIX
+NETSCAPE NAVIGATOR V2.0
+DIGITAL UNIX OPERATING SYSTEM V3.2D
+CICS V2.1 FOR DIGITAL UNIX
+MICROSOFT SNA SERVER V2.1 FOR WINDOWS NT
+DATATRIEVE V7.1 FOR OPENVMS SYSTEMS AND DATATRIEVE CLIENT V1.1
+OPENVMS MANAGEMENT STATION V1.5
+
+{CU-1996-01-31}
+
+ServerWORKS Manager V1.1 for AlphaServer Systems
+POLYCENTER Scheduler V3.0 for Digital UNIX
+POLYCENTER NetWorker Save and Restore Client V1.0 for Macintosh
+RELIABLE TRANSACTION ROUTER CLIENT V3.1A FOR WINDOWS
+WINDOWS NT AND NETWARE DRIVER FOR ATMWORKS 350 V1.0
+DIGITAL NETRIDER V1.1 REMOTE ACCESS CLIENT SOFTWARE
+DECADVANTAGE PRODUCTS AND SCO OPENSERVER V5.0
+OpenVMS Alpha 2780/3780 Protocol Emulator -- Available in Europe
+LSF V2.2
+FILE TRANSFER SPOOLER FOR OPEN SYSTEMS V1.2
+DEC MLS+ V3.1A TRUSTED UNIX OPERATING SYSTEM
+
+{CU-1996-02-15}
+
+MEDIA ROBOT UTILITY V1.0
+INTERNET ALPHASERVER SOFTWARE V2.0 FOR DIGITAL UNIX
+DIGITAL NAS V8.0 CLIENT/SERVER PACKAGES
+PURVEYOR WEBSERVER V1.1A FOR OPENVMS
+STORAGEWORKS HSOF SOFTWARE V2.7
+
+{CU-1996-02-27}
+
+POLYCENTER SAVE SET MANAGER V1.2 FOR OPENVMS
+
+PATHWORKS V5.0D FOR OPENVMS (LAN MANAGER) SERVER SOFTWARE
+
+PATHWORKS V1.0D FOR OPENVMS (NETWARE) SERVER SOFTWARE
+
+{CU-1996-03-14}
+
+DIGITAL UNIX V4.0 OPERATING SYSTEM
+DIGITAL TAPE INTERCHANGE SYSTEM V1.0 FOR WINDOWS NT ALPHA
+DEVELOPERS' TOOLKIT FOR DIGITAL UNIX V4.0
+INTERNET ROAD MAP V2.0 FOR WINDOWS NT, INTEL AND ALPHA SYSTEMS
+LINKWORKS V3.0 FOR MOTIF V1.2
+ALL-IN-1 OFFICE SERVER V3.2 FOR OPENVMS ALPHA AND OPENVMS VAX SYSTEMS
+PURVEYOR WORLD WIDE WEB SERVER SOFTWARE V1.2 FOR WINDOWS NT SYSTEMS
+
+{CU-1996-03-29}
+
+VIRTUAL LANS AND RMON FIRMWARE FOR DECHUB 900 SWITCHES
+
+GIGASWITCH/ATM SYSTEM FIRMWARE V1.4
+
+DEC FUSE V3.0 for Digital UNIX V4.0
+
+DIGITAL FIREWALL V2.0 FOR DIGITAL UNIX
+
+OPENVMS ALPHA V6.2-1H2
+
+MULTIMEDIA SERVICES V2.1 FOR ALPHASTATION SYSTEMS
+
+DEC C++ V5.3 FOR DIGITAL UNIX
+
+DIGITAL SPEECH RECOGNITION SOFTWARE V1.1 FOR DIGITAL UNIX
+
+DECTALK SOFTWARE V4.2A FOR DIGITAL UNIX AND WINDOWS NT
+
+{CU-1996-04-23}
+
+
+TRUCLUSTER SOFTWARE V1.0 FOR DIGITAL UNIX
+
+BASEstar V3.0 Product Family
+
+POLYCENTER SOLUTIONS FOR NETWORK MANAGERS V2.0 FOR WINDOWS NT
+
+ACCESSWORKS SOFTWARE FAMILY SOLD TO ORACLE
+
+POLYCENTER MANAGER ON NETVIEW V3.1 FOR WINDOWS NT
+
+POLYCENTER CAPACITY PLANNER V3.1
+
+DECSAFE AVAILABLE SERVER SOFTWARE V1.3 FOR DIGITAL UNIX
+
+GIGASWITCH/FDDI FIRMWARE V3.0
+
+{CU-1996-05-01}
+
+DEC SOFTPC V6.0/SOFTWINDOWS V2.0 FOR DIGITAL UNIX
+
+DECMESSAGEQ V3.2 ENHANCEMENTS, NEW PRODUCTS, AND MORE PLATFORM SUPPORT
+
+{CU-1996-05-17}
+
+
+POLYCENTER NETWORKER SAVE AND RESTORE V4.2A FOR WINDOWS NT ALPHA
+
+VISUAL TEMIP DEVELOPER'S TOOLKIT V1.0 FOR DIGITAL UNIX
+
+OpenVMS Alpha V6.2-1H3
+
+
+{CU-1996-05-29}
+
+
+OPENVMS MANAGEMENT TOOLS V1.0 FOR WINDOWS NT
+OPENVMS INTERNET PRODUCT SUITE V1.0
+DIGITAL X.500 DIRECTORY SERVICES V3.0
+MAILBUS 400 MESSAGE TRANSFER AGENT V2.0
+MAILBUS MONITOR V2.0
+APPLICATION DEVELOPER'S PACKAGE FOR C/C++ V1.0
+DEC C++ V5.3 FOR OPENVMS
+ALTAVISTA MAIL V1.0 FOR WINDOWS NT
+LINKWORKS V3.0.8 WITH NEW PLATFORM SUPPORT, PACKAGING, AND ENHANCEMENTS
+DIGITAL FORTRAN V7.0 FOR OPENVMS ALPHA
+DECSERVER NETWORK ACCESS SOFTWARE V2.0
+DIGITAL REMOTE ACCESS SECURITY V1.0
+
+STORAGE LIBRARY SYSTEM V2.7 FOR OPENVMS
+
+{SUE-1994-06}
+
+OSMS V.32
+
+DECmodel for Windows V1.1
+
+DECforms Development Subset V1.4 for OpenVMS AXP
+
+FTSV V3.0
+
+Virtual Notebook System V3.1
+
+RoamAbout V2.0
+
+PATHWORKS V5.0A for DOS and Windows
+PATHWORKS V5.0A for OpenVMS
+PATHWORKS V4.1 for OS/2
+PATHWORKS V5.0A for OS/2
+
+
+DCE for OpenVMS V1.2
+
+TSM V2.1
+
+DEC C++ V1.3A for DEC OSF/1 AXP
+
+{SUE-1994-12}
+
+PATHWORKS V5.0 for OS/2
+
+TeMIP V2.0 for DEC OSF/1
+
+DECnet/OSI V3.0 for DEC/OSF/1
+
+DEC SNA Domain Gateway V2.0
+
+X.25 V1.1 for DEC OSF/1
+
+SLS V2.4a
+
+DEC ACB V2.2 for OpenVMS
+
+DEC VTX V2.1
+
+DEC C V4.1 for OpenVMS AXP
+
+{SUE-1994-09}
+
+ALL-IN-1 V3.1 for OpenVMS
+
+TeamLinks V2.1 for Windows and Macintosh
+
+TeamRoute for ALL-IN-1 V1.2
+
+Mailbus 400 Message Router (XMR) Gateway
+
+PATHWORKS V5.1 for DOS and Windows
+PATHWORKS Remote V5.1 for DOS and Windows
+
+DEC TCP/IP Services V3.2 for OpenVMS
+
+DECnet/OSI V5.8 for OpenVMS
+
+DEC V1.1 for WNT
+
+DCE V1.3
+
+POLYCENTER NetWorker Save and restore V3.0 for DEC OSF/1 AXP
+
+{SUE-1994-09}
+
+
+LinkWorks V2.1
+
+OpenVMS MAnagement Station V1.0
+
+HUBwatch V3.1
+
+DNAS V1.4
+
+VAX 2780/3780 PE V1.8
+
+DEC Fortran V3.5 for DEC OSF/1 AXP
+
+DEC Fortran 90 V3.5 for DEC OSF/1 AXP
+
+DEC Ada V3.2 for DEC OSF/1 AXP
+
+DEC SoftWindows V1.0
+
+Jabberwocky Toolkit V2.0
+
+SLS V2.4 for OpenVMS
+
+
+{SUE-1984-05-28-V5-N23}
+
+VAX RPG II 1.0 available
+
+VAX FORTRAN V4.0
+
+MULTIPLAN V1.10 (for Rainbow with MS-DOS)
+
+Professional CTS-300
+
+PRO/VENIX
+
+PRO CP/M-80 V1.1
+
+P/OS Hard Disk Version 2.0 (previous version was V1.7)
+
+{S-SU-1984-01-xx}
+
+DECspell
+
+DECmate II V1.5
+
+DECdx/VMS Version 1.0
+
+ALL-IN-1 V1.3
+
+{SUE-1984-04-02-V5-N19}
+
+VAX Rdb/VMS
+
+VAXElan renamed VAXELN
+
+{S-SU-1984-04-09}
+
+VAX Rdb/ELN V1.0
+
+VAX Datatrieve V3.0
+
+{SUE-1984-04-16-V5-N20}
+
+PDP-11 SORT/MERGE V3.0	
+
+{SUE-1984-05-14-V5-N22}
+
+DATATRIEVE-20 V1.0
+DBMS-20 V6.1
+TRAFFIC-20 V4.0
+TOPS-20 PSI GATEWAY V1.1 (uses DCEnet-20 V3.0)
+
+ULTRIX-32 V1.0 (based on BSD 4.2)
+Supports VAX-11/785, VAX-11/780, VAX-11/750, VAX-11/730
+
+LN01 Font Utility
+LN01 Font Library
+
+VAX-11 3271 Protocol Emulator V2.1
+
+{S-SU-1984-05-28}
+
+VMS V4.0
+
+MicroVMS V1.0 (next version will be V4 to match VMS and avoid confusion ... there will be no V2 and no V3)
+
+DECnet-VAX V4.0
+
+
+VAX Encryption
+
+VAX-11 RSX V1.0
+
+
+
+{SUE-1984-06-11-V5-N24}
+
+LAT-11 (allows many PDP-11 systems to become a terminal server)
+LAT-11 supports PDP-11/24, PDP-11/34A, PDP-11/40, PDP-11/44, PDP-11/60, PDP-11/70
+
+LAT software support on VMS V3.6
+
+{SUE-1984-06-25-V5-N25}
+
+DNC-11 (Direct Numerical Control)
+
+CDD V3.0 (Common Data Dictionary)
+
+DECnet-11M V4.0
+DECnet-11S V4.0
+DECnet-11M-PLUS V2.0
+
+
+{SUE-1984-07-23-V6-N02}
+
+RSTS/E DIBOL V5.1
+
+FORTRAN-77/RT-11
+
+CT*OS for the Pro 350
+
+{SUE-1984-08-06-V6-N03}
+
+DECnet-10 V3.0
+
+TOPS-10 V7.02
+
+VAX DECOR
+
+{SUE-1984-08-20-V6-N04}
+
+VAX DIBOL V2.2
+

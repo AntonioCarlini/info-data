@@ -1,0 +1,143 @@
+{CU-1991-11-29}
+
+VXT 2000 Family of Windowing Terminals
+
+The VXT 2000 software is compliant with X Window System V11 Release 4 
+   (X11R4).
+
+
+VXT 2000 Color
+
+Monitor			     VR326	     VR320
+Display			     15"	     19"
+Planes			     8		     8
+Resolution		     1024 x 768	     1280 x 1024
+Dots per Inch		     100	     100
+Refresh Rate		     72 Hz	     72 Hz
+
+VXT 2000 Monochrome
+
+Monitor			     VR315	     VRM17	     VR319
+Display			     15"	     17"	     19"
+Planes			     1		     1		     1
+Resolution		     1024 x 864	     1280 x 1024     1280 x 1024
+Dots per Inch		     100	     100	     100
+Refresh Rate		     72 Hz	     72 Hz	     72 Hz
+
+VXT 2000 Grayscale
+
+Monitor			     VRM17	     VR319
+Display			     17"	     19"
+Planes			     8		     8
+Resolution		     1280 x 1024     1280 x 1024
+Dots Per Inch		     100	     100
+Refresh Rate		     72 Hz	     72 Hz
+
+Standard Configurations
+
+o  4 Mbytes of memory standard, expandable to 16 Mbytes in 2 or 4 Mbyte SIMM 
+   increments; three slots are available for industry standard SIMM 
+   installation
+o  Ethernet card for either Thick/Thin or Thick/Twisted (10BaseT)
+o  System auto-senses which Ethernet port is activated
+o  Ethernet cables must be ordered separately
+o  Auto voltage sensing power supply
+o  Three-button mouse, 200 pulses per linear inch
+o  Mousepad
+o  Choice of keyboard:
+   -DEC Standard (LK401)
+   -DEC WPS (LK402 - GOLD KEY)
+   -UNIX (LK421)
+o  Parallel printer port 
+o  Serial port, 25 pin D-SUB (RS232 with full modem control for either host 
+   access or serial printer support)
+o  Display monitor
+
+Power Requirements
+
+                                  U.S.		      Europe
+
+Line Voltage			  120 V		      240 V
+Voltage Tolerance		  88 to 132 Vrm	      176 to 264 Vrm
+Line Frequency			  50 to 60 Hz	      50 to 60 Hz
+Input Power			  80 W		      80 W
+
+Operating Environment
+
+Temperature			  10 to 40 degrees C (50 to 104 F)
+Relative Humidity		  10 to 90% noncondensing
+Maximum Operating Altitude	  2.4 km (8,000 ft)
+
+Physical Characteristics
+
+System Box:
+
+Height: 6.1 cm (2.4 in)
+Width:  39.1 cm (15.4 in)
+Depth:  36.8 cm (14.5 in)
+Weight: 4.6 kg (10.15 lb)
+
+Display Monitors:
+
+15" monochrome	     Height: 38.2 cm (15.0 in); Width: 38.2 cm (15.0 in)
+(VR315)		     Depth:  39.6 cm (15.6 cm); Weight: 14.4 kg (32.0 lb)
+
+15" color	     Height: 38.2 cm (15.0 in); Width: 38.2 cm (15.0 in)
+(VR326)		     Depth:  39.6 cm (15.6 in); Weight: 17.2 kg (38.0 lb)
+
+17" monochrome	     Height: 41.9 cm (16.5 in); Width: 40.6 cm (16.0 in)
+(VRM17)		     Depth:  37.6 cm (14.8 in); Weight: 16.8 kg (37.0 lb)
+
+19" monochrome	     Height: 46.0 cm (18.0 in); Width: 49.5 cm (19.5 in)
+(VR319)		     Depth:  40.1 cm(15.8 in); Weight: 21.8 kg (48.0 lb)
+
+19" color	     Height: 46.0 cm (18.0 in); Width: 49.5 cm (19.5 in)
+(VR320)		     Depth:  45.2 cm (17.8 in); Weight: 29.0 kg (64.0 lb)
+
+SOFTWARE SPECIFICATIONS
+
+Supported host systems for downline load services:
+
+-  VAX system running VMS V5.4-2 or later software
+-  VAX system running ULTRIX V4.2 software 
+-  RISC system running ULTRIX V4.2 software
+-  SUN system running SunOS V4.1.1 software
+-  Hewlett-Packard system running HP-UX V8.05 software
+-  SCO UNIX V3.2 running ODT V1.0 software
+
+VT1300 MIGRATION OPTIONS
+
+The VT1300 terminal, announced by Digital in September 1990, uses the VAXELN 
+Window Server Software (EWS) to obtain DECwindows functionality and provide 
+color X Window terminal capability. The upgrade choices available to VT1300 
+users provide both investment protection and a growth path to new products 
+and technologies.
+
+
+Digital's Enhanced SCO MPX R1.2 for UNIX
+Digital Enhanced SCO MPX Release 1.2 for UNIX software is an enhanced 
+version of SCO's MPX V1.1 and is designed for use with SCO UNIX V3.2.2 
+running on the applicationDEC 433MP system.  This enhanced version greatly 
+improves the multiprocessing capabilities of the 433MP system.
+
+Digital is now shipping a new maintenance release of the VMS version of 
+dBASE IV software.  With VAX Rdb/VMS V4.0 support, dBASE IV for VMS V1.1A 
+software further extends your ability to access other databases on the 
+corporate network.
+
+RETIREMENT OF VAX MESSAGE ROUTER TELEX GATEWAY SOFTWARE
+
+RETIREMENT OF THE VAXstation 3520 AND VAXstation 3540
+
+Model No.  Description							    
+
+KA60-AA	   SMP CVAX Dual CPU, 8 MB, 64Kb cache, 3-D 			    
+	   color graphics, DSSI/SCSI interface, FBIC chip
+MS60-AA	   8 MB Memory (L2007-AA)					    
+MS60-BA	   16 MB Memory (L2007-BA)					    
+MS60-CA	   32 MB Memory (L2007-CA)					    
+VCB03-AF   Field installed 16 plane graphics extender (L2006-AA)
+VS60B-AF   Field installed TK70E-SF, TQK70-SF, M-Bus to Q-bus adapter 
+	   (L2008)
+DWFQA-AF   Field Installed M-Bus to Q-bus adapter (L2002)
+

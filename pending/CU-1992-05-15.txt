@@ -1,0 +1,95 @@
+{CU-1992-05-15}
+
+ESE50 Solid State Disk
+
+
+The ESE50 disk has the same form factor as an RA92 drive and can be 
+configured in the SA900 series storage array cabinet along with magnetic 
+disk products. It will be available initially in two capacities: 120 Mbytes 
+and 600 Mbytes.
+
+
+TEMPEST DECstation 333c and TEMPEST DECstation 425c
+
+The TEMPEST DECstation 333c is an 80386, 33 MHz personal computer with 32 
+Kbytes of cache. The combination of processor speed and cache memory makes 
+the TEMPEST DECstation 333c system ideal for applications requiring 
+intensive processing, such as windowing and networked database applications. 
+The same combination also makes the system ideal as an OS/2 server, 
+providing unparalleled integration and interoperablility of OS/2 PCs.
+
+The TEMPEST DECstation 425c system is based on Intel's powerful 80486 chip. 
+It features full expandability, 8 Kbytes of internal cache memory, and 25 
+MHz speed.  
+
+Both the DECstation 333c and DECstation 425c systems offer a new removable 
+hard disk complementing the TEMPEST and physical security features.
+
+o  High-performance Intel microprocessors: 25 MHz 80486 for TEMPEST 
+   DECstation 425c system and 33 MHz 80386 for TEMPEST DECstation 333c 
+   system
+
+o  14-inch color monitor (1024 x 768); 16-inch monitor optional
+
+o  2 Mbytes of memory, expandable to 8 Mbytes on a memory expansion card
+
+o  Maximum memory 16 Mbytes via a second memory expansion card
+
+o  32 Kbytes of internal cache memory (TEMPEST DECstation 333c system) or 8 
+   Kbytes of internal cache memory (TEMPEST DECstation 425c system)
+
+o  Three available disk storage bays: one 3.5-inch, two 5.25-inch
+
+o  3.5-inch, 1.4 Mbyte floppy drive
+
+o  5.25-inch, 1.2 Mbyte floppy drive optional
+
+o  Removable hard disk options: 52, 104, 150, 209, and 426 Mbytes
+
+o  Math coprocessor (WEITEK 4167) optional
+
+o  Six available option slots: four full, two half
+
+o  Complete with mouse, 101-key keyboard, and serial port (additional serial 
+   port and parallel port optional)
+
+o  Supports VGA graphics
+
+o  ISA-bus type
+
+o  Integrated IDE interface
+
+o  200 W power supply
+
+64 Mbyte VAXft Base Systems and Servers
+
+The new 64 Mbyte VAXft Model 410, 610, and 612 base systems and servers are 
+attractively priced when compared both with 32 Mbyte VAXft systems and 
+servers and with systems and servers from other vendors.
+
+VAXft systems allow for a maximum of four memory options. When you use the 
+MS520-CB 64 Mbyte memory options, you can grow these configurations 
+cost-effectively to the maximum of 256 Mbytes, a 100 percent increase in 
+memory size. While substantially reducing the cost of adding 32 Mbytes of 
+memory, these new options also free an additional module option slot. You 
+can use this for an extra Ethernet/DSSI option for multirail Ethernet 
+configurations, or for a WAN controller 620 synchronous communications 
+option.
+
+StorageServer 100
+
+RZ24L Replacement for RZ24 SCSI Drive
+
+PRODUCT POSITIONING
+
+                                    RZ23L      RZ24       RZ24L	    RZ25
+
+Capacity (MB, formatted)	    121	       209	  245	    426
+Form Factor			    3.5-inch   3.5-inch	  3.5-inch  3.5-inch
+Height (inches)			    1 	       1.625  	  1 	    1.625 
+Average Seek Time (ms)		    19 	       16.5 	  16 	    14 
+Average Access Time (ms)	    27 	       24.3 	  23 	    20.8 
+Media Transfer Rate (MB/sec) 	    1.5	       1.5	  3.7	    3.125
+Buffer Size (KB)		    64	       64	  256	    60
+Read/Write Power (W) 		    3.8	       6.8	  5.7	    6.8
+

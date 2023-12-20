@@ -1,0 +1,66 @@
+{CU-1996-03-14}
+
+
+POWERSTORM FAMILY OF GRAPHICS ACCELERATORS
+
+The PowerStorm 3D10 is a single-slot, DRAM PCI-bus graphics accelerator 
+designed for use in a range of 2-D applications and low-end 3-D graphics 
+applications. With up to 2 MB of DRAM and 8-bit planes, the PowerStorm 
+3D10 integrates a RAMDAC on-chip to provide cost-effective 2-D and 3-D 
+graphics on AlphaStation workstations.
+
+The PowerStorm 3D30 graphics accelerator is a single-slot, PCI-based 
+module designed for 2-D and 8-bit 3-D wireframe applications. The 
+PowerStorm 3D30 is 8 bits per pixel, offering simultaneous display of 256 
+colors. It has special hardware functionality via a patented dithering 
+algorithm, which allows the display of virtual 24-bit images.
+
+The PowerStorm 4D20 graphics accelerator is also a single-slot, PCI-based 
+module designed for 3-D wireframe applications and cost-sensitive users 
+requiring 3-D solids modeling functionality. This graphics accelerator 
+offers up to 24 bits per pixel double buffered (can display up to 16.7 
+million colors simultaneously), 4 overlay planes, and a full 24-bit 
+Z-buffer for 3-D depth cueing. The PowerStorm 4D20 also supports 
+1600x1200 resolution at 75 Hz to provide higher quality resolution and 
+larger screen sizes.
+
+TECHNICAL DATA
+
+                      PowerStorm      PowerStorm     PowerStorm
+                      3D10            3D30           4D20
+Number of             1               1              1 
+PCI slots
+
+Resolution/           1280x1024       1280x1024      1600x1200
+refresh               at 72 Hz        at 75 Hz       at 75 Hz
+
+Frame buffer          8 planes        8 planes       24 planes
+depth
+
+Number of             256             256            16.7 million
+simultaneous colors   (1280x1024)                   
+
+Double buffering      Not             Not            24+24
+                      applicable      applicable
+
+Z-buffer              Software        Software       24 bits
+
+Amount of             2 MB            2 MB           16 MB
+graphics memory
+
+Overlay planes        0               0              4
+
+Stereo support        No              Yes            Yes
+
+Color look-up-        1               1              2
+tables
+
+
+
+DIGITAL UNIX V4.0 OPERATING SYSTEM
+
+KFPSA PCI-TO-DSSI ADAPTER FOR ALPHASERVER SYSTEMS
+
+SINGLE-MODE FIBER ATM MODULE FOR THE DECSWITCH 400
+
+NEW TL8XX AUTOMATED DLT TAPE LIBRARIES

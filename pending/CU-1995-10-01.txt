@@ -1,0 +1,21 @@
+{CU-1995-10-01}
+
+CELEBRIS XL AND ALPHA XL -- DIGITAL PERSONAL WORKSTATION FOR WINDOWS NT
+
+HS2XX FAMILY OF STORAGEWORKS FDDI SERVERS
+
+The new generation of StorageWorks FDDI managed storage servers, the HS211, 
+HS221, HS241, and HS280, integrate Alpha technology and modular design. This 
+combination lets users
+
+*  Increase the storage capacity of an existing OpenVMS systems while using 
+   only one or two cluster nodes
+
+*  Add disaster-tolerant storage to an existing FDDI cluster
+
+*  Share critical information campus-wide while centralizing management to 
+   lower costs
+
+*  Increase data security by isolating storage in a separate, secure 
+   location
+

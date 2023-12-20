@@ -1,0 +1,87 @@
+{CU-1995-05-01}
+
+StorageWorks HSZ40 Array Controller for Fast, Wide Differential SCSI-2
+
+HSZ40-Bx Array Controllers are available now.
+
+DECCONCENTRATOR 900TH FDDI CONCENTRATOR
+
+DECMAU 900TH HIGH DENSITY TOKEN RING MAU
+
+PRODUCT AND SERVICE RETIREMENTS
+Taken from EISNER.
+
+   PRODUCT/SERVICE		  NOTES
+
+   HARDWARE SERVICE FOR TWO	  These products have already been retired; 
+   PRINTERS AND TWO ADAPTERS      Digital is now retiring them from hardware 
+                                  service. Service contracts for the LP06 
+                                  and LP14 printers, and FS-EMU57-AE and 
+   				  FS-EMU57-AF adapters expire on June 30, 
+                                  1996.
+
+   LP06 and LP14 Printers,	  Last Order Date: N/A
+   FS-EMU57-AE/AF Adapters	  Migration: Users can purchase spare parts
+   				  and training, if available, within a 
+                                  three-month period beyond the 
+                                  end-of-service-life date. Contact Digital 
+                                  Assisted Services at 1-800-DIGITAL for 
+                                  assistance in setting up a customized 
+                                  plan. Account representatives should work 
+                                  with their customers to develop 
+                                  appropriate solutions.
+
+   -------------------------------------------------------------------------
+   -------------------------------------------------------------------------
+   ALL SDI AND STI BACKPLANE 	  Selected upgrade kits for upgrading to the
+   CONTROLLERS AND THE HSC	  HSC95 controllers and HSC9X-SX/SZ SCSI-2 
+   FAMILY OF CONTROLLERS	  channel cards will continue to be offered 
+                                  through December 1995. For assistance in 
+                                  planning an HSC migration, contact your 
+                                  local storage specialist or the 
+                                  StorageWorks Hotline, 800-STORWOR 
+                                  (800-786-7967) or (508) 841-7000.
+
+   UDA50 Backplane Controller	  Last Order Date: Past
+   				  Migration: None
+
+   KDA50, KDB50, and KDM70	  Last Order Date: June 30, 1995
+   Backplane Controllers	  Migration: StorageWorks SCSI-2 based
+   and HSC Controller Family	  products. For smaller system requirements,
+   				  the StorageWorks HSD05 and HSD30 DSSI 
+                                  Array Controllers are recommended. For 
+                                  larger system requirements, the 
+                                  StorageWorks HSJ30 and HSJ40 CI Array 
+                                  Controllers or HS1** FDDI Storage Servers 
+                                  are recommended. 
+
+   -------------------------------------------------------------------------
+   -------------------------------------------------------------------------
+
+   ALL NON-COMPRESSION VERSIONS	  The non-compression versions of the TKZ60 
+   OF TKZ60 IBM 3480 COMPATIBLE	  tape drive are being replaced by TKZ60 
+   TAPE DRIVE			  data compression variants that can read 
+                                  and write IBM 18-track non-compressed and 
+                                  compressed tape media. Thus, the 
+                                  recommended migration products are both 
+                                  IBM 3480 and 3490 compliant.
+
+   				  In addition, all 2R-TKB60-** VAXBI 
+                                  variants (which include a VAXBI/SCSI 
+                                  adapter, a 25-foot SCSI cable, and a 
+                                  differential SCSI TKZ60 tape drive), have 
+                                  been modified to include the TKZ60 
+                                  differential SCSI compression version. 
+                                  Users who order the old VAXBI 2R-TKB60-** 
+                                  model numbers (may not be available in all 
+                                  territories) will receive the data 
+                                  compression versions of the TKZ60 tape 
+                                  drive. However, for daisy chaining 
+                                  additional tape drives to the VAXBI 
+                                  variants, users should now order the 
+                                  TKZ60-GA/GC/HA/HC differential variants.
+
+   				  Last Order Date: June 2, 1995
+                                  Migration: Data compression variants of 
+                                  the TKZ60 tape drive
+

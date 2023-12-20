@@ -1,0 +1,9 @@
+{CU-1993-05-31}
+
+RW500 Optical Libraries and Optical Storage Software
+
+(1)  The last order date for the RZ56 disk drive was April 23, 1993, not 
+     July 2, 1993, as stated in the March 8, 1993, issue of Digital's 
+     Customer Update. All orders that were in the Digital order system as of 
+     April 5, 1993, will be honored. Orders entered after April 6 will be 
+     filled on an FIFO basis until the supply is depleted.

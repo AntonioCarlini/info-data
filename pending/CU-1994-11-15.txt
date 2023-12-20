@@ -1,0 +1,92 @@
+{CU-1994-11-15}
+
+DEClaser 3500 -- The Perfect Laser Printer for Small Workgroups
+
+Product and Service Retirements
+
+
+DECmodem V32 FAMILY	The DECmodem V32 family of modems will be available 
+                        only while current supplies last. The Last Order 
+                        Date is approximate and may vary based on material 
+                        availability.
+
+Rackmount Modem		Migration: Third party product.
+Enclosure (DF108-RM)
+			Last Order Date: December 2, 1994
+
+DECmodem V32 Rackmount	Migration: Third party product.
+and Desktop Modems
+(DF196-DM; DF296-DA)	Last Order Date: January 27, 1995
+
+----------------------------------------------------------------------------
+
+SELECTED ENTRY-LEVEL	
+DEC 3000 WORKSTATIONS	
+			
+Model 300 SBB, 32 MB,	Migration: PE320-C*
+DEC OSF/1, 120V
+(PE300-CA)		Last Order Date: January 9, 1995
+
+Model 300, 32 MB,	Migration: PE321-F*
+ZVRT19, ZLX, DEC OSF/1,
+120V (PE301-FA)		Last Order Date: January 9, 1995
+
+Model 300L, no		Migration: PE32B-ZA
+software, 120V/240V
+(PE30B-ZA/ZB)		Last Order Date: January 9, 1995
+
+Model 300X, 32 MB,	Migration: PE321-C* and appropriate RZ26L, DEC 21C,
+DEC OSF/1, ZLX-M1	graphics option (PMAGC-AA)
+(PE321-FA/FB)
+			Last Order Date: January 9, 1995
+
+
+ALL DEC 3000 MODEL	The Last Order Date for all DEC 3000 Model 800 
+800 SYSTEMS		clients and servers is December 2, 1994, except in 
+			the U.S. and Canada, where it is January 27, 1995.
+			
+Client Systems		Migration: DEC 3000 Model 900 (PE54*)
+(PE520/21-**) 
+Upgrades (PE52U-**) 	Last Order Date: December 2, 1994; January 27, 1995
+			for U.S. and Canada
+
+Server Systems		Migration: DEC 2100 Series
+(PE530-**)
+			Last Order Date: December 2, 1994; January 27, 1995
+			for U.S. and Canada
+EC 4000 MODEL 700	
+SYSTEMS AND UPGRADES	
+
+All DEC 4000 Model 700	Migration: AlphaServer 2100 4/200 and 4/275 systems
+Systems and Easy
+System Upgrades		Last Order Date: February 28, 1995
+(DA/DY-471**-**,
+DA-42/44/46/59AU*-A9,
+DY-42/44/46/47/59-AU*
+with the exception of
+refurbished products)
+
+DEC 4000 Model 700	Last Order Date: February 28, 1996; CPU upgrades
+CPU Upgrades		continue to be offered one year beyond the system
+(DA/DY-431XR-**)	retirements
+
+MISCELLANEOUS MEMORY	
+OPTIONS
+
+Memory Part Numbers:	Migration: None
+MS01V-CA, MS02V-CA,
+MS400-BA/CA, MS40V-BA,	Last Order Date: November 15, 1994
+MS430-UA/UB,
+MS44V-BB/DA,
+MS520-BB/CA/CB,
+MS560-AA/BA, MS62A-AB,
+MS630-BB/BF/CA/CF,
+MS650-AA/AF,
+MS65A-UC/UD, MS6V1-BF,
+MS750-HB, MS7AA-UA/UB,
+MSV11-DA/DE/JD/JE/SA,
+DL-MS44A-DA,
+DL-MS44L-BA,
+DL-MS560-AA/BA,
+DL-MS65A-DA, MS88-DA
+

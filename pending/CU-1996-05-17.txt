@@ -1,0 +1,27 @@
+{CU-1996-05-17}
+
+ALPHASERVER 4100 SYSTEMS
+
+
+5/400 CPU upgrade
+
+This announcement includes the introduction of a limited-time AlphaServer 
+4100 5/400 upgrade program that will allow users to upgrade their 
+AlphaServer 4100 5/300 packaged systems to the 5/400 CPU at a special 
+price when the 5/400 system is released in the fall of 1996. The program 
+is available to users who purchase and take delivery of  the AlphaServer 
+4100 5/300 server system through June 30, 1996. For more information, 
+refer to the "Special AlphaServer 4100 CPU Upgrade Program" article in 
+this issue of Customer Update.
+
+
+
+KZPDA PCI-TO-FWSE SCSI CONTROLLER CARD
+
+*  Provides Fast Wide Single-ended (FWSE) SCSI functionality
+
+*  Supports 8-bit and 16-bit SCSI devices
+
+
+TL826 Automated DLT Tape Library
+

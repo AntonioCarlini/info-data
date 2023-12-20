@@ -12,6 +12,7 @@ PUBS = $(YAML_OUTPUT)/pubs.yaml
 
 TAGS.SYSTEMS = scripts/systems-tags.yaml
 
+SCRIPTS += scripts/ClassTrackLocalReferences.rb
 SCRIPTS += scripts/DataPubTxt.rb
 SCRIPTS += scripts/DataRefInfo.rb
 SCRIPTS += scripts/DataSystemsInfo.rb
@@ -22,6 +23,7 @@ SCRIPTS += scripts/systems-info-to-yaml.rb
 SCRIPTS += scripts/systems-yaml-to-infobox-data.rb
 SCRIPTS += scripts/systems-yaml-to-infobox-mediawiki.rb
 SCRIPTS += scripts/systems-yaml-to-mediawiki.rb
+SCRIPTS += scripts/systems-yaml-to-os-release.rb
 
 GLOBAL_DEPENDENCIES += $(SCRIPTS)
 
@@ -40,6 +42,8 @@ all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).mediawiki.txt)
 all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).infobox.mediawiki.txt)
 
 all: $(foreach SYS,$(SYSTEMS),bin/infobox-$(SYS)-data.mediawiki.txt)
+
+all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).os-release.txt)
 
 .PHONY: all
 
@@ -119,6 +123,21 @@ bin/pdp11.infobox.mediawiki.txt: $(YAML_OUTPUT)/pdp11.yaml $(REFS) $(GLOBAL_DEPE
 
 bin/vax.infobox.mediawiki.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-infobox-mediawiki.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
+
+bin/alpha.os-release.txt: $(YAML_OUTPUT)/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-os-release.rb alpha $< $(REFS) > $@
+
+bin/mips.os-release.txt: $(YAML_OUTPUT)/mips.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-os-release.rb decmips $< $(REFS) > $@
+
+bin/pc.os-release.txt: $(YAML_OUTPUT)/pc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-os-release.rb pc $< $(REFS) > $@
+
+bin/pdp11.os-release.txt: $(YAML_OUTPUT)/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-os-release.rb pdp11 $< $(REFS) > $@
+
+bin/vax.os-release.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-os-release.rb vax $< $(REFS) > $@
 
 clean:
 	@rm -f bin/*

@@ -1,0 +1,72 @@
+{CU-1993-02-15}
+
+
+Note introduction of HSC65/HSC95:
+
+Note that all HSC65 and HSC95 products have been shipping SCSI ready since 
+their introduction this past September. These new controllers have the new 
+back door that provides the space to accommodate SCSI drive cabling and 
+connectivity.
+
+PRODUCT POSITIONING
+
+                             HSC40  HSC60  HSC65  HSC70	 HSC90  HSC95  RM HSC95	
+ 
+SDI/STI              	     Y      Y      Y      Y      Y      Y      Y         
+SCSI                 	     Y      Y      Y      Y      Y      Y      Y         
+Max SDI/STI         	     12     20     20     32     48     48     28        
+Max SCSI            	     20     20     20     26     26     26     56        
+Max SDI and SCSI     	     12/20  20/20  20/20  16/26  20/26  20/26  20/28     
+Max Total Devices   	     20     20     20     42     46     46     48/56      
+Cache Option (MB)    	     N      32     N      N      32     N      N        
+Embedded Cache (MB)  	     N      N      64*    N      N     	64*    64*       
+Rackmountable        	     N      N      N      N      N      N      Y        
+Max No. of Drives    	     14     14     14     14     14     14     56**      
+ in Cabinet
+Sustained Transfer (MB/Sec)  4.0    4.0    4.0    4.0    4.0    4.0    4.0       
+I/O Requests/Sec     	     1150   1300   1800   1150   1300   1800   1800   
+
+*  32 Mbytes of cache will be operational when the product is shipped; a 
+   second 32 Mbytes will be operational with a later software release at no 
+   extra charge.
+** One rackmount HSC95 unit in a DECarray 400 can access a maximum of 56 
+   drives in that cabinet. A DECarray 400 can also accommodate two rackmount 
+   HSC95 devices plus 56 drives.
+
+
+Digital Ethernet Multiport Office Network (DEMON)
+
+o  Compact, flexible packaging -- The repeater measures only 18.4 cm (7.2 
+   inches) by 5.7 cm (2.2 inches) by 3.8 cm (1.5 inches). It can be 
+   installed anywhere -- on desktops, solid walls, or office partitions.
+
+
+DEC EtherWORKS 3 TURBO
+
+128 KBYTE EXTERNAL CACHE FOR DECpc 433 WORKSTATION
+
+A 128 Kbyte external cache is now available for the DECpc 433 workstation. 
+The order number is PCWXM-AC. This product replaces the cache (PCWXM-AB) 
+formerly available for this workstation. 
+
+
+PRODUCTS BEING RETIRED
+
+			 Last         Last           Recommended
+Product	                 Order Date   Ship Date	     Migration
+
+TU58			 1/31/93      4/30/93	     No direct replacement
+
+TU81, TA81		 1/31/93      4/30/93	     TSZ07 and TSB07
+			 	      		     (TSZ07 accommodates BI, 
+			 	      		     SCSI, STI, and Q-bus 
+			 	      		     interfaces; contact 
+			 	      		     Digital at 800-832-6277
+			 	      		     to assist with UNIBUS 
+			 	      		     adapters)
+
+KLESI-QC Adapter	 1/31/93      4/30/93	     Contact Digital at 
+			 	      		     800-832-6277
+
+TA78-UG			 1/31/93      4/30/93	     Not applicable
+

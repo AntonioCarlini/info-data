@@ -1,13 +1,46 @@
 ! Intended for tape storage devices of all sorts
+! TLZ07: https://groups.google.com/forum/#!topic/biz.digital.articles/0ogLUjNs2nY
+! TLZ7L: https://groups.google.com/forum/#!topic/biz.digital.articles/Geems2m3NxQ
+! TZ87N and TZ877: https://groups.google.com/forum/#!topic/biz.dec.decnews/O33N8kKU1YM
+! TZ87/TZ877 New Variants and Additional Support: https://groups.google.com/forum/#!original/biz.dec.decnews/bgnMAFXeh0w/9-IdbCa8EnAJ
+! TZ88: https://groups.google.com/forum/#!topic/biz.digital.articles/pOCe6FJfVoE
+
+**Start-storage-entry{PCXAT-A*}{TAPE}{PC}
+**Sys-name: PCXAT-A*
+**Desc-name: PCXAT-A* Cartridge Tape Drive
+**Def-lref{1} = ref{CU-1991-09-06}
+**Capacity**vref{1}: 525MB
+**Sustained-transfer-rate**vref{1}: 200KB/s
+**Peak-transfer-rate**htref{1}: 3MB/s:(asynchronous)
+**End-storage-entry{PCXAT-A*}
+
+**Start-storage-entry{TA79}{STI}{TA}
+**Def-lref{1} = ref{CU-1992-08-10}
+**Def-lref{2} = ref{DA-1987-09-02-Tapes}
+**Announcement**vref{2}: 1987-09-02
+**Last-order**vref{1}: 1992-12-31
+**Last-ship**vref{1}: 1993 Q1
+**Capacity**vref{1}: 145 MB
+**Recording-density**vref{1}: {1600bpi} {6250bpi}
+**Interface**vref{1}: STI
+**End-storage-entry{TA79}
+
 **Start-storage-entry{TA90}{STI}{TA}
 **Sys-name: TA90
 **Desc-name: TA90 Magnetic Tape Cartridge Drives
 **Html-target: ta90
+**Def-lref{1} = ref{DEC-PR-1989-01-24-TA90}
+**Def-lref{2} = ref{AA-ME85D-TE}
+**Announcement**vref{1} = 1989-01-24
+**OS-support-ULTRIX**vref{2}: V4.0
 !
 !When released the TA90 was Digital's highest performance device for
 !VAXCluster backup. These high-end tape subsystems are rugged units designed
 !for heavy duty commercial applications and offer full compatibility with
 !the IBM 3840 family of tape subsystems.
+! From vref{1}: Read/Write Compatible with IBM 3480
+! vref{1}: HSC software V3.90. Operating system  support  is provided in VAX V5.0.
+! vref{1}: TA90 shipments begin in March 1989.
 !
 ! [31]: IDRC - Improved Data Recording Capacity -->
 !
@@ -18,6 +51,8 @@
 **Sys-name: TA90E
 **Desc-name: TA90E Magnetic Tape Cartridge Drive
 **Html-target: ta90
+**Def-lref{1} = ref{AA-ME85D-TE}
+**OS-support-ULTRIX**vref{1}: V4.0
 **Capacity**uref{60}: 7.2GB
 **Max-data-transfer-speed**uref{60}: 2.7MB/s
 **End-storage-entry{TA90E}
@@ -29,6 +64,15 @@
 **Max-data-transfer-speed**uref{SUE Jul 1992}: 2.33MB/s
 **End-storage-entry{TA91}
 
+**Start-storage-entry{TA92}{STI}{TA}
+**Sys-name: TA92
+**Desc-name: TA92 Magnetic Tape Cartridge Drive
+**Def-lref{1} = ref{DEC-PR-1993-05-14-TA92}
+**Announcement**vref{1}: 1993-05-14
+**Tracks**vref{1}: 36
+**Capacity**vref{1}: 800 MB/cartridge, 19.2 GB/unit (including compression)
+**End-storage-entry{TA92}
+
 **Start-storage-entry{TF70C}{DSSI}{TF}
 **Sys-name: TF70C
 **Desc-name: TF70C Cartridge Tape Drive
@@ -39,6 +83,7 @@
 
 **Start-storage-entry{TF837}{DSSI}{TF}
 **Def-lref{1} = ref{EK-TF837-SM-001}
+**Def-lref{2} = ref{CU-1991-09-06}
 **Sys-name: TF837
 **Desc-name: TF837 Magazine Tape Subsystem
 !
@@ -52,6 +97,8 @@
 ![1] Note that the tape drive writes only 296MB per cart
 **Capacity**htref{1}: 2GB
 **OS-support-VMS**htref{1}: V5.4
+**Last-order**vref{2}: 1991-07-25
+**Last-ship**vref{2}: 1991-08-15
 **Max-data-transfer-speed**uref{58}: 90KB/s:(user-data)
 **Media**htref{1}: Up to 7 TK-52 cartridges per magazine
 **Interface**htref{1}: DSSI
@@ -68,8 +115,10 @@
 
 **Start-storage-entry{TF85}{DSSI}{TF}
 **Def-lref{1} = ref{EK-OTF85-OM-002}
+**Def-lref{2} = ref{CU-1994-12-15}
 **Sys-name: TF85
 **Desc-name: TF85 Tape Cartridge Subsystem
+**Last-order**vref{2}: 1995-03-31
 **Capacity**lref{1}: 2.6GB
 ![1] Will read TK50/TK52 carts
 **Read/write-speed**lref{1}: 100in/s
@@ -86,6 +135,7 @@
 **End-storage-entry{TF85}
 
 **Start-storage-entry{TF857}{DSSI}{TF}
+**Def-lref{1} = ref{CU-1991-09-06}
 **Sys-name: TF857
 **Desc-name: TF857 Magazine Tape Subsystem
 !The TF857 tape subsystem is an upgraded version of the TF837 using a new
@@ -102,6 +152,7 @@
 !% Streaming drive, uses two tracks at a time serial serpentine recording.
 !% TK70 and TZK10 are single track.
 !
+**Announcement**vref{1}: 1991-03-11
 **Capacity**uref{60}: 18.2GB
 **Cache**uref{60}: 500KB
 **Read/write-speed**uref{121}: 100 in/s:(streaming)
@@ -123,8 +174,14 @@
 
 **Start-storage-entry{TF86}{DSSI}{TF}
 **Def-lref{1} = ref{EK-OTX86-OM-001}
+**def-lref{2} = ref{CU-1992-07-15}
+**def-lref{3} = ref{CU-1992-07-20}
+**def-lref{4} = ref{CU-1995-05-01}
 **Sys-name: TF86
 **Desc-name: TF86 Tape Cartridge Subsystem
+**Announcement**vref{2}: 1992-07-15
+**FCS-date**vref{3}: 1992-07-30
+**Last-order**vref{4}: 1995-05-19
 **Capacity**htref{1}: 6.0GB
 **OS-support-VMS**htref{1}: V5.4-2
 ![1] Will read/write TK85 (2.6GB) and TK86 (6.0GB) both using CompacTape III media
@@ -144,8 +201,10 @@
 
 **Start-storage-entry{THZ02}{STORAGE_MISC}{THZ02}
 **Def-lref{1} = ref{EK-THZ02-SG.A01}
+**Def-lref{2} = ref{DEC_PR-1992-06-10-THZ02}
 **Sys-name: THZ02
 **Desc-name: THZ02 Cartridge Tape Drive
+**Announcement**vref{2}: 1992-06-10
 ![1] cartridge capacity is 6GB, 42GB with media loader
 **Capacity**lref{1}: 6GB
 **Cache**lref{1}: 512KB
@@ -212,6 +271,9 @@
 **Desc-name: TK50 Tape Drive
 **Def-lref{1} = ref{EK-MVXAA-OM-001}
 **Def-lref{2} = ref{EK-OTK50-UG-004}
+**Def-lref{3} = ref{CU-1994-06-06}
+**Last-order**vref{3}: 1994-07-30
+**Last-ship**vref{3}: 1994-09-29
 **Capacity**htref{1}: 94.5MB
 **Peak-transfer-rate: {62.5KB/s:(total)}{45KB/s:(user data)}
 !! Check ref for peak-xfer-rate, appears to be **htref{2}
@@ -268,11 +330,17 @@
 **Sys-name: TK70
 **Desc-name: TK70 Streaming Tape Drive
 **Def-lref{1} = ref{EK-OTK70-OM-001}
-**Capacity**htref{1}: 296MB
+**Def-lref{2} = ref{CU-1994-09-01}
+**Def-lref{3} = ref{DEC-PR-1987-09-10}
+**Announcement**vref{3} = 1987-09-10
+**Last-ship**vref{2}: 1994-11-30
+**Last-order**vref{2}: 1994-12-31
+**Capacity**vref{3}: 296 MB
+**Form-factor**vref{3}: 5.25"
 **Peak-transfer-rate**htref{1}:{125KB/s:(total)}{90KB/s:(user data)}
 **Recording-format**htref{1}: Multiple track serpentine
-**Read/write-speed**htref{1}: 100in/s streaming
-**Tracks**htref{1}: 48
+**Read/write-speed**vref{3}: 100in/s streaming
+**Tracks**vref{3}: 48
 **Recording-density**htref{1}: 10000 bpi
 **Track-density**htref{1}: 96 tpi
 **Tape-width**htref{1}: 12.77mm
@@ -287,19 +355,21 @@
 **Sys-name: TKZ15
 **Desc-name: TKZ15 8mm Cartridge Tape Drive
 **Def-lref{1} = ref{CU-V5-7B}
+**Def-lref{2} = ref{CU-1994-07-18}
 !! <TD> Customer Update. Volume 5 Issue 7B. 18th July 1994
 ! [1]: half-height 5-1/4" 112m tapes, previous 8mm drives: TKZ08, TLZ08, TKZ09 (TKZ15 is backwards-compatible with these) -->
-**Announcement**htref{1}: 18 July 1994
-**OS-Support-vms**htref{1}: OpenVMS VAX V5.5-2
-!**OS-Support-vms**htref{1}: OpenVMS AXP V1.5
-**OS-support-du**htref{1}: DEC OSF/1 V2.0
+**Announcement**vref{2}: 1994-07-18
+**OS-Support-vms**vref{2}: OpenVMS VAX V5.5-2
+!**OS-Support-vms**vref{2}: OpenVMS AXP V1.5
+**OS-support-du**vref{2}: DEC OSF/1 V2.0
+**OS-support-ULTRIX**vref{2}: V4.3A
 **OS-support-ultrix**htref{1}: ULTRIX V4.3A
-**Capacity**htref{1}: {10.0GB:(compressed)}{5.0GB:(native)}
+**Capacity**vref{2}: {10.0GB:(compressed)}{5.0GB:(native)}
 **Peak-transfer-rate: 
-**Sustained-transfer-rate**htref{1}: {500KB/s:(native)}{1MB/s:(compressed)}
-**Rewind-speed**htref{1}: 32.7 ips
-**Corrected-error-rate**htref{1}: < 1 in 10^17
-**Interface**htref{1}: SCSI
+**Sustained-transfer-rate**vref{2}: {500KB/s:(native)}{1MB/s:(compressed)}
+**Rewind-speed**vref{2}: 32.7 ips
+**Corrected-error-rate**vref{2}: < 1 in 10^17
+**Interface**vref{2}: SCSI
 **End-storage-entry{TKZ15}
 
 **Start-storage-entry{TKZ60}{SCSI_TAPE}{TK}
@@ -335,7 +405,12 @@
 
 **Start-storage-entry{TKZ61}{SCSI_TAPE}{TK}
 **Def-lref{1} = ref{EK-TKZ62-TM-002}
+**Def-lref{2} = ref{DEC-PR-1995-11-15-TKZ61-62}
 **Sys-name: TKZ61
+**Announcement**vref{2}: 1995-11-15
+**OS-support-VMS**vref{2}: OpenVMS VAX V5.5-2, OpenVMS Alpha V1.5
+**OS-support-DU**vref{2}: V2.0
+! vref{2}: HSD/HSJ HS Operating Firmware (minimum V2.0)
 ![1] 3480/3490  carts
 ![1] native is 200MB
 **Capacity**htref{1}: 200MB
@@ -371,7 +446,12 @@
 
 **Start-storage-entry{TKZ62}{SCSI_TAPE}{TK}
 **Def-lref{1} = ref{EK-TKZ62-TM-002}
+**Def-lref{2} = ref{DEC-PR-1995-11-15-TKZ61-62}
 **Sys-name: TKZ62
+**Announcement**vref{2}: 1995-11-15
+**OS-support-VMS**vref{2}: OpenVMS VAX V5.5-2, OpenVMS Alpha V1.5
+**OS-support-DU**vref{2}: V2.0
+! vref{2}: HSD/HSJ HS Operating Firmware (minimum V2.0)
 ![1] 3480/3490  and 3490E carts
 ![1] native is 800MB
 **Capacity**htref{1}: 800MB
@@ -475,12 +555,13 @@
 **Sys-name: TLZ04
 **Desc-name: TLZ04 Cassette Tape Drive
 **Def-lref{1} = ref{EK-TLZ04-OM-002}
+**Def-lref{2} = ref{AA-ME85D-TE}
 !-- % SCSI interface *60 ref_1 -->
 !-- % From *20: 4mm DAT using DDS (Digital Data Storage) -->
 **Last-order**uref{*SUE Jul 92}: 28 August 1992
 **Last-ship**uref{*SUE Jul 92}: December 1992
 **OS-support-vms**uref{*149,*122}: VMS V5.3-2 (with patch)
-**OS-support-ultrix**uref{*149}: Ultrix 4.1
+**OS-support-ULTRIX**vref{2}: V4.0
 **Capacity**uref{*20,*57,*60,*116}: 1.2GB
 **Peak-transfer-rate**uref{*20,*57,*60,*116}: 170KB/s
 **Read/write-speed**uref{*122}: 0.87cm/s (streaming)
@@ -508,12 +589,18 @@
 **Sys-name: TLZ06
 **Desc-name: TLZ06 Cassette Tape Drive
 **Def-lref{1} = ref{EK-TLZ06-OM-004}
+**Def-lref{2} = ref{CU-1992-07-15}
+**Def-lref{3} = ref{CU-1992-07-20}
+**Def-lref{4} = ref{CU-1994-12-15}
+**Def-lref{5} = ref{CU-1993-05-10}
 ! SCSI interface. 4mm DAT using DDS (Digital Data Storage) with data compression. Read/write compatible with TLZ04 -->
-**Announcement**uref{*SUE Jul 1992 Spec}: 7 July 1992
-**OS-Support-vms**uref{*SUE Jul 1992 Spec}: VMS V5.5-1
-**OS-support-ultrix**uref{*SUE Jul 1992 Spec}: Ultrix 4.2c
-**OS-support-sco**uref{*SUE Jul 1992 Spec}: SCO Unix
-**Capacity**htref{1}: {4.0GB:(compressed)}{2.0GB:(native)}
+**Announcement**vref{2}: 15 July 1992
+**Last-order**vref{4}: 1995-01-27
+**OS-Support-vms**vref{2}: VMS V5.5-1
+! **OS-support-ULTRIX**vref{5}: V4.3A
+**OS-support-ultrix**vref{2}: Ultrix 4.2c
+**OS-support-sco**vref{3}: SCO Unix V3.2.4
+**Capacity**vref{3}: {4.0GB:(compressed)}{2.0GB:(native)}
 **Peak-transfer-rate**htref{1}: {183KB/s:(native)
 **Read/write-speed**uref{*122}: 0.87cm/s (streaming)
 **Formatted-transfer-rate**uref{*20}: 140KB/s
@@ -542,18 +629,19 @@
 **Desc-name: TLZ07 Cassette Tape Drive
 **Def-lref{1} = ref{EK-TLZ07-OM-A01}
 **Def-lref{2} = ref{CU-V5-11A}
+**Def-lref{3} = ref{CU-1994-11-03}
 !-- [1]: TLZ7L autoloader, 4- or 12- cartridge loaders available; SCSI-2 interface -->
 !-- [1]: TLZ07-DA: tabletop
 !	TLZ07-AA: 3.5" HH internal drive
 !	TLZ07-VA: StorageWorks drive
-**Announcement**htref{2}: 1 November 1994
-**OS-Support-vms**htref{1}: OpenVMS VAX V6.1
-!!? **OS-Support-vms**htref{1}: OpenVMS AXP V6.1
-**OS-support-du**htref{1}: DEC OSF/1 V2.0
-**OS-support-wnt**htref{1}: Windows NT V3.5
+**Announcement**vref{3}: 1994-11-03
+**OS-Support-vms**vref{3}: OpenVMS VAX V6.1
+!!? **OS-Support-vms**vref{3}: OpenVMS AXP V6.1
+**OS-support-du**vref{3}: DEC OSF/1 V2.0
+**OS-support-wnt**vref{3}: Windows NT V3.5
 **Capacity**htref{1}: {8.0GB:(compressed)}{4.0GB:(native)}
 **Sustained-transfer-rate**htref{1}: {400KB/s:(native)}{810KB/s:(compressed)}
-**Data-buffer**htref{1}: 1MB
+**Data-buffer**vref{3}: 1MB
 **Hard-error-rate**htref{1}: 1 in 10^15
 **Recording-technology**uref{*122}: Helical scan
 **Recording-format**htref{1}: DDS-2, DDS, DC
@@ -572,7 +660,7 @@
 **Depth**htref{1}: 228.6mm
 **Weight**htref{1}: 2.2kg
 **Dimensions-end{TLZ07}
-![2]:
+![2]: vref{3}
 !          3.5-INCH              5.25-INCH
 !          EMBEDDED              EMBEDDED                TABLETOP
 !
@@ -626,6 +714,11 @@
 **Sys-name: TSZ05
 **Desc-name: TSZ05 Tape Drive
 **Def-lref{1} = ref{EK-TSZ05-OM-001}
+**Def-lref{2} = ref{CU-1994-09-01}
+**Def-lref{3} = ref{AA-ME85D-TE}
+**OS-support-ULTRIX**vref{3}: V4.0
+**Last-ship**vref{2}: 1994-08-19
+**Last-order**vref{2}: 1994-12-31
 !**Capacity:	46MB	**htref{*}160KB/s	**htref{<}Recording method	<TD> Phase Encoded	**htref{<}ROWSPAN=2 VALIGN=TOP>
 !**Read/write-speed**htref{1}: 100in/s streaming
 !	**htref{<}25in/s start/stop
@@ -697,6 +790,9 @@
 **Sys-name: TU58
 **Desc-name: TU58 DECtape II
 **Def-lref{1} = ref{EK-OTU58-UG-004}
+**Def-lref{2} = ref{CU-1993-02-15}
+**Last-order**vref{2}: 1991-01-31
+**Last-ship**vref{2}: 1993-04-30
 **Capacity**htref{1}: 256KB
 **Average-access**htref{1}: 9.3s
 **Maximum-access**htref{1}: 28s
@@ -806,14 +902,19 @@
 **Sys-name: TZ30
 **Desc-name: TZ30 Tape Drive
 **Def-lref{1} = ref{EK-PM32C-OG-002}
-**Capacity**htref{1}: 95MB
-**Form-factor**uref{58}: 5-1/4" half height
-**Peak-transfer-rate**htref{1}: 62.5KB/s
+**Def-lref{2} = ref{CU-1994-12-15}
+**Def-lref{3} = ref{DEC-PR-1989-01-09-TZ30}
+**Announcement**vref{3} = 1989-01-09
+**Last-order**vref{2}: 1994-12-30
+**Capacity**vref{3}: 95MB
+**Form-factor**vref{3}: 5-1/4" half height
+**Peak-transfer-rate**vref{3}: 62.5 KB/s
 **Recording-format**htref{1}: serpentine pattern
 **Read/write-speed**htref{1}: 75in/s streaming
 **Tracks**htref{1}: 22
 **Recording-density**htref{1}: 6667bpi
 **Tape-width**htref{1}: 12.77mm
+**Interface**vref{3}: SCSI
 **Power-start{TZ30}
 **+5V-current**uref{103}: 1.2A
 **+12V-current**uref{103}: 1.0A
@@ -829,6 +930,8 @@
 
 **Start-storage-entry{TZ85}{SCSI_TAPE}{TZ}
 **Def-lref{1} = ref{EK-OTF85-OM-002}
+**def-lref{2} = ref{CU-1991-12-20}
+**Def-lref{3} = ref{CU-1994-12-15}
 ! More info from https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c00331564:
 ! 1.1 MBytes/second raw data rate to media
 ! Up to 800 KBytes/second sustained data rates
@@ -862,13 +965,20 @@
 
 **Sys-name: TZ85
 **Desc-name: TZ85 Tape Cartridge Subsystem
+**Last-order**vref{2}: 1995-03-31
 **OS-support-vms**uref{SUE Jul 1992}: VMS V5.4-1
 **OS-support-ultrix**uref{SUE Jul 1992}: Ultrix V4.2
-**Capacity**lref{1}: 2.6GB
-![1] Will read TK50/TK52 carts
+**Announcement**vref{2}: 1991-12-20
+**Capacity**lref{1,2}: 2.6GB
+! vref{2}:
+! Both the TZ85 and SZ100 tape subsystems use the TK85K (Compactape III) 
+! cartridge with the TF85 and TF857 family of products.
+![1,2] Will read TK50/TK52 carts
 **Read/write-speed**lref{1}: 100in/s
 **Recording-format**lref{1}: two-track parallel, serpentine 
 **Recording-density**lref{1}: 42500 bpi
+**Cartridge**vref{2}: TK85K
+**Cache**vref{2}: 512kB
 **Tracks**lref{1}: 48
 **Track-density**lref{1}: 96 tpi
 **Interface**lref{1}: SCSI
@@ -881,6 +991,7 @@
 
 **Start-storage-entry{TZ86}{SCSI_TAPE}{TZ}
 **Def-lref{1} = ref{EK-OTX86-OM-001}
+**def-lref{2} = ref{CU-1992-07-20}
 ! From https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c00336295:
 ! Capacity:
 ! 6.0 GBytes on CompacTape III cartridge (42GB with a loader)
@@ -930,6 +1041,7 @@
 ! Half-Rack and near-5.25" Form Factors
 **Sys-name: TZ86
 **Desc-name: TZ86 Tape Cartridge Subsystem
+**FCS-date**vref{2}: 1992-09-15
 **Capacity**lref{1}: 6.0GB
 **OS-support-VMS**lref{1}: V5.3
 ![1] Will read/write TK85 (2.6GB) and TK86 (6.0GB) both using CompacTape III media
@@ -951,11 +1063,16 @@
 **Def-lref{1} = ref{EK-OTZ87-OM.A01}
 **Def-lref{2} = ref{TZ87-TECH}
 **Def-lref{3} = ref{EK-TZ877-SM.A01}
+**Def-lref{4} = ref{CU-1993-12-06}
+**Def-lref{5} = ref{CU-1996-05-29}
 !**Document-ref: EK-OTZ87-OM.A01
 !**Document-ref: EK-OTZ87-RC
 **Sys-name: TZ87
 **Desc-name: TZ87 Tape Cartridge
-**Capacity**lref{1}: 10GB
+**Announcement**vref{4}: 1993-12-06
+**Last-order**vref{5}: 1996-08-31
+**Last-ship**vref{5}: 1996-12-31
+**Capacity**vref{4}: 10GB
 **Form-factor**lref{2}: 5-1/4" full-height
 **OS-support-vms**lref{1}: VMS V5.3
 **Recording-format**lref{1}: Two-track parallel serpentine
@@ -989,35 +1106,58 @@
 **Dimensions-end{TZ87}
 **End-storage-entry{TZ87}
 
-**Start-storage-entry{TZK08}{SCSI_TAPE}{TZK}
-**Sys-name: TZK08
-**Desc-name: TZK08 2.3GB 8mm Cartridge Tape Drive
+**Start-storage-entry{TZ88}{SCSI_TAPE}{TZ}
+**Sys-name: TZ88
+**Desc-name: TZ88 Digital Linear Tape Drive
+**Def-lref{1} = ref{CU-1995-11-15}
+**Announcement**vref{1}: 1995-11-15
+**Capacity**vref{1}: 20 GB (native)
+**Form-factor**vref{1}: 5.25"
+! vref{1}: Read/write compatibility with Tx85, Tx86, and Tx87
+**End-storage-entry{TZ88}
+
+**Start-storage-entry{TKZ08}{SCSI_TAPE}{TKZ}
+**Sys-name: TKZ08
+**Desc-name: TKZ08 2.3GB 8mm Cartridge Tape Drive
+**Def-lref{1} = ref{CU-1994-06-06}
+**Def-lref{2} = ref{SUE-1994-06}
 ! ?? is this TKZ08 or TZK08 ?? -->
 **Capacity**uref{SUE Aug 1992}: 2.2GB
 **FRS-date**uref{SUE Aug 1992 Iss 1}: May 1991
-**End-storage-entry{TZK08}
+**Last-order**vref{2}: 1994-05-06
+**Last-ship**vref{2}: 1994-05-27
+**End-storage-entry{TKZ08}
 
-**Start-storage-entry{TZK09}{SCSI_TAPE}{TZK}
-**Sys-name: TZK09
-**Desc-name: TZK09 5GB 8mm Cartridge Tape Drive
-!-- %% This is an Exabyte EXB-8500 from TTI -->
-!-- ?? is this TZK09 or TKZ09 ?? -->
-**FRS-date**uref{SUE Aug 1992 Iss 1}: August 1992
-**Capacity**uref{SUE Aug 1992 Iss 1}: 5GB
-**End-storage-entry{TZK09}
+**Start-storage-entry{TKZ09}{SCSI_TAPE}{TKZ}
+**Def-lref{1} = ref{CU-1992-08-10}
+**Def-lref{2} = ref{CU-1995-06-01}
+**Def-lref{3} = ref{CU-1993-05-10}
+**Sys-name: TKZ09
+**Desc-name: TKZ09 5GB 8mm Cartridge Tape Drive
+**FRS-date**vref{1}: 1992-08-10
+**OS-support-ULTRIX**vref{3}: V4.3A
+**Last-order**vref{2}: 1995-06-30
+**Capacity**vref{1}: 5GB
+**Peak-transfer-rate**vref{1}: 500KB/s
+**OEM-Device**vref{1}: Exabyte EXB-8500
+**End-storage-entry{TKZ09}
 
 **Start-storage-entry{TZK10}{SCSI_TAPE}{TZK}
 **Sys-name: TZK10
 **Desc-name: TZK10 Cartridge Tape Drive
 **Def-lref{1} = ref{EK-TZK10-OG-002}
+**Def-lref{2} = ref{CU-1994-12-15}
+**Def-lref{3} = ref{CU-1993-08-02}
 !-- From *11: 36W. bus load: 1, 1.0A@240Vac, 1A@12V, 1.2A@5V, 8.5"Hx5.75"Wx3.25"D 2kg. -->
 !-- Tape speed: &	120 in/s \\	% [130] -->
 !-- Rewind time: &	100s \\	% [124] -->
 !-- Size: &	5 1/4" half height \\	% [58] -->
 !-- Hard error rate: &	1 in $10^15$ \\	% [124] -->
+**Last-order**vref{2}: 1994-12-30
 **Capacity**htref{1}: 525MB
 **OS-Support-vms**htref{1}: VMS V5.4-2
 **OS-Support-ultrix**htref{1}: Ultrix V4.1
+**OS-Support-du**vref{3}: V1.3
 **Transfer-rate**htref{1}: 200KB/s:(streaming)
 **Interface**htref{1}: SCSI-2
 **Recording-format**htref{1}: Multiple track serpentine
@@ -1052,43 +1192,46 @@
 
 **Start-storage-entry{TZK11}{SCSI_TAPE}{TZK}
 **Sys-name: TZK11
-**Desc-name: TZK11 Cartridge Tape Drive
+**Desc-name: TZK11 Data Cartridge Tape Drive
 **Def-lref{1} = ref{EK-TZK11-UG.A01}
-**Capacity**lref{1}: 2.5GB
+**Def-lref{2} = ref{1993-08-16}
+! Name verified in vref{1}: definitely T then Z then K !
+**Announcement**vref{2}: 1993-08-16
+**Capacity**vref{1}: 2.5GB
 ![1] OpenVMS AXP 1.5, NT AXP 3.1
-**OS-Support-vms**lref{1}: V5.5-2
-**OS-Support-du**lref{1}: 1.3
-**Form-factor**lref{1}: 5-1/4" half-height
+**OS-Support-vms**vref{1}: V5.5-2
+**OS-Support-du**vref{1}: 1.3
+**Form-factor**vref{1}: 5-1/4" half-height
 ![1] QIC
 ![1]: read-only: QIC-24 read-write: QIC-2GB, QIC-1GB, QIC-525, QIC-150, QIC-120
-**Peak-transfer-rate**lref{1}: {300KB/s:(average, streaming)}{3MB/s:(burst, sync)}
-**Interface**lref{1}: SCSI-2
-**Recording-format**lref{1}: Multiple track serpentine recording
-**Tracks**lref{1}: 42
-![1] buffer has parity
-**Buffer-size**lref{1}: 256KB
-**Recording-density**htref{1}: 40640 bpi
-![1]: QIC-1GB: 53.3/80 in/s  QIC-320/525: 120 in/s QIC-24/120/150: 96 in/s
-**Tape-speed**lref{1}: 70.9 in/s:(QIC-2GB)
-**Rewind-speed**lref{1}: 120 in/s
+**Peak-transfer-rate**vref{1}: {300KB/s:(average, streaming)}{3MB/s:(burst, sync)}
+**Interface**vref{1}: SCSI-2
+**Recording-format**vref{1}: Multiple track serpentine recording
+**Tracks**vref{1}: 42
+! vref{1} buffer has parity
+**Buffer-size**vref{1}: 256KB
+**Recording-density**vref{1}: 40640 bpi
+! vref{1}: QIC-1GB: 53.3/80 in/s  QIC-320/525: 120 in/s QIC-24/120/150: 96 in/s
+**Tape-speed**vref{1}: 70.9 in/s:(QIC-2GB)
+**Rewind-speed**vref{1}: 120 in/s
 **Power-start{TZK11}
-**+12V-current**lref{1}: 1.0A
-**+5V-current**lref{1}:  1.2A
-**Power**lref{1}: 33W:(peak)
+**+12V-current**vref{1}: 1.0A
+**+5V-current**vref{1}:  1.2A
+**Power**vref{1}: 33W (peak), 20W (nominal)
 **Power-end{TZK11}
 **Dimensions-start{TZK11-embedded}
 **Label: Embedded
-**Height**lref{1}: 43mm
-**Width**lref{1}:  149mm
-**Depth**lref{1}:  216mm
-**Weight**lref{1}: 1.1kg
+**Height**vref{1}: 43mm
+**Width**vref{1}:  149mm
+**Depth**vref{1}:  216mm
+**Weight**vref{1}: 1.1kg
 **Dimensions-end{TZK11-embedded}
 **Dimensions-start{TZK11-tabletop}
 **Label: Table-top
-**Height**lref{1}: 98mm
-**Width**lref{1}:  167mm
-**Depth**lref{1}:  360mm
-**Weight**lref{1}: 3.73kg
+**Height**vref{1}: 98mm
+**Width**vref{1}:  167mm
+**Depth**vref{1}:  360mm
+**Weight**vref{1}: 3.73kg
 **Dimensions-end{TZK11-tabletop}
 **End-storage-entry{TZK11}
 
@@ -1148,4 +1291,43 @@
 ! up to 10 cartridges, is available.
 **Interface: SCSI
 **End-storage-entry{TZK60}
+
+**Start-storage-entry{TLZ08}{SCSI_TAPE}{TLZ}
+**Sys-name: TLZ08
+**Desc-name: TLZ08 Tape Drive
+**Def-lref{1} = ref{CU-1992-06-05}
+**Annoucment**vref{1}: 1992-06-05
+**Capacity**vref{1}: 2.2GB
+**Peak-transfer-rate**vref{1}: 246kB/s
+**Technology**vref{1}: 8mm helican scan
+**OEM-Device**vref{1}: Exabyte EXB-8200
+**Interface**vref{1}: SCSI
+**End-storage-entry{TLZ08}
+
+**Start-storage-entry{TLZ09}{SCSI_TAPE}{TLZ}
+**Sys-name: TLZ09
+**Desc-name: TLZ09 Tape Drive
+**Def-lref{1} = ref{CU-1992-06-05}
+**Annoucment**vref{1}: 1992-06-05
+**Capacity**vref{1}: 5GB
+**Peak-transfer-rate**vref{1}: 500kB/s
+**Technology**vref{1}: 8mm helican scan
+**OEM-Device**vref{1}: Exabyte EXB-8500
+**Interface**vref{1}: SCSI
+**End-storage-entry{TLZ09}
+
+**Start-storage-entry{TU79}{MASSBUS}{TU}
+**Def-lref{1} = ref{CU-1992-08-10}
+**Def-lref{2} = ref{DA-1987-09-02-Tapes}
+**Announcement**vref{2}: 1987-09-02
+**Last-order**vref{1}: 1992-12-31
+**Last-ship**vref{1}: 1993 Q1
+**Interface**vref{1}: MASSBUS
+**End-storage-entry{TU79}
+
+**Start-storage-entry{TU90}{MASSBUS}{TU}
+**Def-lref{1} = ref{CU-1992-08-31}
+**Last-order**vref{1}: 1992-11-30
+**Last-ship**vref{1}: 1993 Q1
+**End-storage-entry{TU90}
 

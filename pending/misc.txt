@@ -1,0 +1,316 @@
+This file is somewhere to store processed information for items which don't yet have an entry.
+
+# See http://www2.phys.canterbury.ac.nz/dept/docs/manuals/unix/DEC_5.0a_Docs/HTML/ADMN_LIB.HTM for mor files
+
+PCXAG-D: Graphics resolutions of 1280 x 1024, 1024 x 768, and 1024 x 864
+**Def-lref{1} = ref{CU-1991-09-06}
+**Processor**vref{1}: TMS34020
+**Resolution**vref{1}: 1280 x 1024, 1024 x 768, and 1024 x 864
+**Colours**vref{1}: Up to 256 colors, from a palette of 1.6 million
+o  An optional Texas Instruments TMS34082 floating-point graphic coprocessor 
+   socket to allow for future performance enhancement; this processor 
+   interfaces directly with the address and data buses of the TMS34020, and 
+   performs compute-intensive functions at up to 40 Megaflops   
+
+{CU-1991-09-27}
+
+DECmpp 12000
+
+MP101-AA/AB/AC	   Model 1A, 1K Processor Elements, 16 Mbytes RAM
+MP102-AA/AB/AC	   Model 1B, 1K Processor Elements, 64 Mbytes RAM	    
+MP103-AA/AB/AC	   Model 4A, 4K Processor Elements, 64 Mbytes RAM
+MP104-AA/AB/AC	   Model 4B, 4K Processor Elements, 256 Mbytes RAM	    
+MP105-AA/AB/AC	   Model 8A, 8K Processor Elements, 128 Mbytes RAM	    
+MP106-AA/AB/AC	   Model 8B, 8K Processor Elements, 512 Mbytes RAM	    
+MP107-AA/AB/AC	   Model 16A, 16K Processor Elements, 256 Mbytes RAM	    
+MP108-AA/AB/AC	   Model 16B, 16K Processor Elements, 1 Gbyte RAM
+
+IEZ11 SCSI/IEEE488 Bus Converter Option
+
+The IEZ11 device is an IEEE488 bus converter that allows communication 
+between VAX systems and IEEE488 instruments. To offer the same features and 
+benefits of this product to ULTRIX system based users, the IEZ11 product 
+family has been enhanced with the SCSI to IEEE488 Bus Converter Inclusive 
+Cable Kit, 120 V (IEZ11-DA) option.
+
+It supports up to 14 
+IEEE488 devices and achieves a data throughput of more than 500 Kbytes per 
+second.
+
+{CU-1992-04-03}
+
+Super VGA Card for Non-Interlaced Monitors
+
+
+The 1024 x 768 non-interlaced adapter (PCXAG-AC) is an IBM PC/AT compatible 
+option board that provides 640 x 480 resolution with 256 colors or 1024 x 
+768 resolution with 16 color super VGA capability for DECpc and DECstation 
+series personal computers. With a video memory upgrade of 512 Kbytes, 
+monitors will display with 1024 x 768 resolution and 256 colors.
+
+The adapter consists of the PVGA1D video subsystem, BIOS, display memory, 
+RAMDAC, board configuration circuitry, and I/O to the host computer. The 
+hardware is transparent to you. Its associated BIOS firmware provides the 
+interface between your application and the hardware.
+
+
+Graphic Memory Upgrade for Super VGA Card
+
+
+
+The PC4GM-AA is a 512 Kbyte, 70 nanosecond, graphic memory upgrade kit.  
+When used on the 1024 x 768 non-interlaced super video graphics adapter 
+(PCXAG-AC), it allows you to operate at a resolution of 1024 x 768 and 
+display 256 colors on DECpc and DECstation series personal computers.
+
+
+Industry Standard Floppy Drive with Brackets
+
+The PCXDR-AA is an industry standard 3.5-inch, 1.44 Mbyte floppy drive with 
+two brackets for mounting in 5.25-inch bay DECpc and DECstation series 
+personal computers.
+
+
+
+{CU-1992-06-05}
+
+CITCA-AA
+
+The TURBOchannel to CI adapter (CITCA-AA) is a triple-wide TURBOchannel 
+module that connects DECsystem 5900 or DECsystem 5000 Model 240 systems to 
+the 140 megabit per second CI environment.
+
+{CU-1992-08-31}
+
+IET11 TURBOchannel/IEEE488 Converter
+
+https://web.archive.org/web/20070811065001/http://h18002.www1.hp.com/alphaserver/ann_mcquaid_letter.pdf
+Alpha Last Sale date
+
+
+GS1280 press release - https://web.archive.org/web/20080905034118/http://www.hp.com/hpinfo/newsroom/press/2003/031020a.html
+
+Announcement page: https://web.archive.org/web/20080517052034/http://h18002.www1.hp.com/alphaserver/announce/oct_03.html
+
+GS1280 32 processor systems - https://web.archive.org/web/20080724025043/http://www.hp.com/hpinfo/newsroom/press/2003/030801a.html
+
+EV7 systems announcement - https://web.archive.org/web/20080517052050/http://h18002.www1.hp.com/alphaserver/announce/jan_03.html
+
+EV7 systems press release - https://web.archive.org/web/20080905040416/http://www.hp.com/hpinfo/newsroom/press/2003/030120c.html
+
+OpenVMS Alpha V7.3-1 press release - https://web.archive.org/web/20050208045526/http://www.hp.com/hpinfo/newsroom/press/25jun02b.htm
+
+OpenVMS Alpha V7.3-1 announcement - https://web.archive.org/web/20081010162335/http://h18002.www1.hp.com/alphaserver/announce/openvms_02.html
+
+DS20L/SC20 announcement - https://web.archive.org/web/20081007125559/http://h18002.www1.hp.com/alphaserver/announce/may_02.html
+
+DS20L SC20 press release - https://web.archive.org/web/20040108052526/http://www.supercomputingonline.com/article.php?sid=2073
+
+Retired Systems: https://web.archive.org/web/20080509122315/http://h18002.www1.hp.com/alphaserver/archive/
+
+
+
+https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=600.15:
+Additional hardware supported by RSTS V10.1:
+
+o  DS90L+, DS90TL, DS250, and DS300 terminal servers
+o  DEClaser 2200 and 3200 printers
+o  LA70 personal printer
+o  VT420 terminal
+o  RA71, RA72, RA73, and RA92 disks
+
+
+https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=653.2
+OSF/1 V3.2:
+
+o  New Hardware options:
+
+   - Asynchronous Transfer Mode (ATM) -- Support for ATM standards and 
+     Digital's ATMworks TURBOchannel adapter.
+   - TURBOchannel option -- KZTSA for Fast Wide Differential (FWD) SCSI.
+   - Large memory -- greater than 16 Gbytes on the AlphaServer 2100, and 12 
+     or 14 Gbytes on DEC 7000 and 10000 class systems.
+   - PCI options -- FDDI (DEFPA), Fast Wide Differential SCSI (KZPSA), RAID, 
+     and Prestoserve NVRAM (Non-Volatile Random Access Memory) on 
+     AlphaServer systems.
+
+
+https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=622.4
+
+The ZLX family will be available initially on DEC OSF/1 AXP systems; 
+availability is planned for the fourth quarter of 1993. DEC OSF/1 AXP V1.3 
+(or later) is a prerequisite, as is DEC Open3D V2.1 for this operating 
+system.
+
+
+MS820-CA 16MB Memory Array: [[DIGITAL Announces MS820-CA 16MB Memory Array]]
+
+DEBNA announcement: [[DIGITAL Announces DEBNA VAXBI Ethernet adapter]]
+
+DIGITAL Announces the RA70, RA82, and TK70
+
+
+DIGITAL Announces VAXstation 2000 Retirement
+DIGITAL Announces the Retirement of the VAXstation 2000
+DIGITAL Announces the VAXstation 3200 and VAXstation 3500
+DIGITAL Announces the VAXstation 3520 and VAXstation 3540
+DIGITAL Announces Availability of the VAXstation 3520 and VAXstation 3540
+DIGITAL Announces the MicroVAX 3300 and MicroVAX 3400
+DIGITAL Announces the MicroVAX 3500 and MicroVAX 3600, and the VAXserver 3500, VAXserver 3600 and VAXserver 3602
+Digital Announces the retirement of MicroVAX/VAXserver 3500/3600 Systems
+DIGITAL Announces the MicroVAX 3800 and MicroVAX 3900
+DIGITAL Announces MicroVAX 3800 and MicroVAX 3900 Systems
+DIGITAL Announces the MicroVAX and VAXserver 3800/3900 Systems
+DIGITAL Announces the VAX 6200 Series
+DIGITAL Announces the VAX 8800 Series
+DIGITAL Announces Tempest VAX 8700 and VAX 8800 Systems
+DIGITAL Announces the MicroVAX II
+DIGITAL Announces the VAX-11/785
+DIGITAL Announces the VAX 8500
+DIGITAL Announces the VAX 8550 and VAX 8700
+DIGITAL Announces retirement of the VAX-11/785 Module Upgrade
+
+DIGITAL Announces RC25 End-Of-Life
+DIGITAL Announces End-Of-Life for DF112-AA/AM and DF124-AA/AM Modems
+DIGITAL Announces End-Of-Life for RA81 Disk Drive
+DIGITAL Announces the Retirement of the LA100-CA and LA100-CB
+
+DIGITAL Announces the PDP-11/84E
+DIGITAL Announces the PDP-11/93 and PDP-11/94
+
+DIGITAL Announces the DHQ11
+DIGITAL Announces the DFA01 and DFA01/VAXPAC System
+DIGITAL Announces the SA600 Storage Array
+DIGITAL Announces the DESPR ThinWire Ethernet Single-Port Repeater
+Fact Sheet: DECstation 3100
+Fact Sheet: RF30 Integrated Storage Element
+DIGITAL Announces the HSC40 and HSC5X-DA
+DIGITAL Announces the RRD40 Compact Disk Drive
+DIGITAL Announces VAXELN V4.0
+Fact Sheet: DECstation 212 Personal Computer
+DIGITAL Announces the KDM70 XMI Disk and Tape Controller
+DIGITAL Announces the RV64 Write-Once Optical Jukebox
+DIGITAL Announces the TA90 Cartridge Tape Subsystem
+
+DIGITAL Announces the DECserver 500
+DIGITAL Announces the rtVAX 3800
+DIGITAL Announces the CISCE-AA Star-Coupler
+DIGITAL Announces the CIXCD-AA CI Interface
+DIGITAL Announces the DEClancontroller 400 (DEMNA)
+DIGITAL Announces the VRE01 19-inch Flat Panel Monitor
+DIGITAL Announces the DECsystem 3100
+DIGITAL Announces the LPV11-SA Printer Controller
+DIGITAL Announces the LP29-QA 2000 LPM Printer
+DIGITAL Announces the DEClaser 2100 and DEClaser 2200
+DIGITAL Announces the DECstation 210, DECstation 316 and DECstation 320
+DIGITAL Announces the SPX Graphics Co-processor
+DIGITAL Announces the RZ22, RZ23 and RZ55 Disk Drives
+DIGITAL Announces the RF30, RF71 and RA70 Removable Storage Elements
+DIGITAL Announces Several Machines in a "Desktop Announcement"
+DIGITAL Announces the H7317 Power Distribution System Plus and the H7318 Power Conditioning System Plus
+DIGITAL Announces the DF242-CA Scholar Plus Modem
+DIGITAL Announces the RF-VT240 Tempest Terminal
+DIGITAL Announces the HA3000 Uninterruptible Power System
+DIGITAL Announces the rtVAX 3200, rtVAX 3500 and rtVAX 3600
+DIGITAL Announces the SA600-JA and SA600-HA
+DIGITAL Announces the LN03X-DE Bar Code Font Cartridge
+DIGITAL Announces the DECstation 3100 and DECstation 3100S
+DIGITAL Announces the RF71 ISE and the KFQSA
+DIGITAL Announces the LP37 Impact Printer
+DIGITAL Announces the rtVAX 3800 System
+DIGITAL Announces the RF71B-xx Storage Expansion
+DIGITAL Announces ULTRIX DECstation 3100/3100S WorkStation
+DIGITAL Announces the SPX Graphics Co-processor
+DIGITAL Announces the StorageWorks FDDI Server
+DIGITAL Announces the StorageWorks RAID Array 210 Subsystem
+DIGITAL Announces the StorageWorks RAID Array 230 Subsystem
+DIGITAL Announces the StorageWorks RZ29B-VA 4.3GB 7200 RPM Disk Drive for HSx Cluster Controllers
+DIGITAL Announces the StorageWorks TL810 Automated Tape Library
+DIGITAL Announces the TL820 5.2 Tbyte Digital Linear Tape Library
+DIGITAL Announces the VAX 4000 Model 105A
+DIGITAL Announces the VT LAN40 Windowing Network Terminal
+DIGITAL Announces the VXT 2000+ X Window Terminal
+Digital Announces X25portal 2000 V1.0
+DECnews: ZLX Graphics Accelerators Details
+DIGITAL Announces the ZLX-E1 2D Graphics Accelerator for Alpha AXP Workstations
+DIGITAL Announces the ZLX-L1 3D Solids Midrange Graphics Accelerator
+
+
+{S-SU-1983-04-25}
+
+VAXcluster announcement
+VMS V3.3 & V3.4 supported
+Supports: VAX-11/750 (requires VMS V3.4), VAX-11/780, VAX-11/782, HSC50
+
+CI750 announced
+
+{S-SU-1983-11-14}
+
+uVAX I announced. no compatibility mode. Two Quad modules  (DAP and MCT)
+Floor standing: H: 622mm W: 254mm D: 724mm weight: 32 kg
+Rack: H: 133mm W: 483mm D: 648mm Weight: 25 kg
+MSV11-PK (M8067-KA) (256 KB),  MSV11-PL (M8067-LA) (512KB)
+Box: BA23-AA. H7864 PSU
+CPU: CMOS
+Memory: 1MB
+
+VAXelan announced. This was the orignial name before it was renamed VAXELN for legal reasons.
+Supported targets: uVAX I, VAX-11/730, VAX-11/750
+
+{SUE-1984-04-02-V5-N19}
+
+Original uVI supported F & G floating. A later option provided for D in place of G. H is always emulated in software.
+
+{SUE-1984-04-30-V5-N21}
+
+KCT32
+
+{SUE-1984-05-14-V5-N22}
+
+DECsystem-1095: KL10R CPU, MCA25, 2MW system package
+DECSYSTEM-2065: KL10R CPU, MCA25, 2MW system package
+
+TK25
+55ips
+serial serpentine
+10 tracks
+8000 bpi
+max xfer rate 55KB/s
+DC600A
+60MB
+RT-11 V5.1 (non-bootable)
+RSX-11M/S V4.1, RSX-11M-PLUS V2.1, Micro/RSX V1.0 support as addon
+RSTS/E V8.0D (to be released 1984-05)
+
+TQK25-EA (this is drive + controller + cables) M7605
+
+DHV11 was announced in 1983-09-05 issue
+DEQNA announced 1983-10-03 issue
+
+{SUE-1984-06-11-V5-N24}
+
+DECSA
+
+DC349-AA "OCTART" 8-channel UART
+
+{SUE-1984-06-25-V5-N25}
+
+RC25 technical  details (p24)
+
+{SUE-1984-07-23-V6-N02}
+
+MicroPDP-11/73
+
+{SUE-1984-08-06-V6-N03}
+
+TU81
+
+DMZ-32
+
+DHU11
+
+{SUE-1984-08-20-V6-N04}
+
+GS03
+
+

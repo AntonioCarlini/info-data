@@ -1,0 +1,129 @@
+
+{CU-1991-10-30}
+
+
+
+
+VAX 6000 Model 600 announced 1GB 6000-610: 83.6 tpsA-Local 1-6 CPU 32-150VUPS
+
+                           SPEC Benchmarks
+                     Aggregate Throughput x VAX-11/780
+
+                        SPECmark       SPECint	      SPECfp
+
+    VAX 6000 Model 410	   7.0		  6.9		 7.1
+
+    VAX 6000 Model 510	  13.2		 13.2		13.3
+
+    VAX 6000 Model 610	  40.5		 30.8		48.6
+
+
+ 
+                        SPEC Multistream Benchmarks
+             Aggregate Throughput x VAX-11/780 (MP Efficiency)
+
+                                       SPECint	      SPECfp
+    			SPECthruput    Throughput     Throughput
+
+VAX 6000 Model 610	  39.7 (1.0)	 30.4 (1.0)	47.4 (1.0)
+
+VAX 6000 Model 620	  72.3 (1.8)	 56.1 (1.8)	85.7 (1.8)
+
+VAX 6000 Model 630*	 103.3 (2.6)	 78.7 (2.6)    123.6 (2.6)
+
+VAX 6000 Model 640	 134.0 (3.4)	101.2 (3.3)    161.6 (3.4)
+
+VAX 6000 Model 650*	 165.5 (4.2)	122.6 (4.0)    202.2 (4.3)
+
+VAX 6000 Model 660	 196.9 (5.0)	143.9 (4.7)    242.7 (5.1)
+
+New VAX 6000 Model 600 systems and upgrades can be ordered now. Systems 
+begin shipping November 22, 1991. 
+
+VAX 4500:
+MS690-BA	32 MB ECC Memory					    
+MS690-CA	64 MB ECC Memory					    
+MS690-DA	128 MB ECC Memory					    
+
+There are two categories of upgrade packages: those for "early" VAX 4000
+Model 300 systems and those for "late" systems:
+
+Early Systems Serial Numbers:	     Late Systems Serial Numbers:
+WF04899999 and lower		     WF0400000 and higher
+AYO4700100 and lower		     AYO700101 and higher
+				     ALL starting with KAO or NIO
+
+new 17-inch monitor (VRM17)
+
+Color VLC 
+systems are offered with the 13-inch Trinitron monitor (VRT13), and the 
+16-inch monitor (VRC16)
+
+Other color monitors including the 16-inch Trinitron (VRT16), 19-inch color 
+(VR320), and 19-inch Trinitron (VRT19) monitors are suited to applications 
+where maximum resolution and screen space are required. These monitors are 
+available on the Model 60 and VLC workstations.
+
+The VAXstation 4000 VLC and Model 60 systems require VMS V5.5 to operate.
+
+SPECIFICATIONS
+
+You can use the following data to help choose the proper system for your 
+needs and applications:
+
+  			     VLC			Model 60
+
+CPU performance		     6.2 SPECmarks		12.0 SPECmarks
+Graphics		     1024 x 768			1280 x 1024
+  			     1280 x 1024		Dual 1280 x 1024
+  			     8 plane color		8 plane color
+  			     8 plane grayscale		4 plane grayscale
+2-D performance		     150K 2-D V/sec		208K 2-D V/sec
+Memory			     8 to 24 MB			8 to 104 MB
+Ethernet		     Thick--adapter to ThinWire	Thick or ThinWire
+Internal fixed storage (max) 121 MB (RZ23L)		852 MB (2 x RZ25)
+Internal removable storage   None			Floppy/CD/QIC tape
+External fixed storage (max) 6.1 GB			6.8 GB
+External removable storage   Floppy, DAT tape, CD,	Floppy, DAT tape, CD,
+  			     TZ30, QIC			TZ30, QIC
+Bus			     SCSI			SCSI or TURBOchannel
+Internal options	     None			Synch Communications
+Box dimensions (HxWxD)	     2.4" x 15.5" x 14.5"	4.5" x 18.9" x 16"
+  			     6.0cm x 39.4cm x 36.8cm 	11.4cm x 48cm x 40.6cm
+Monitor
+  1024 x 768 mono	     17"			N/A
+  1024 x 768 color 	     13/16"			N/A
+  1280 x 1024 mono 	     19"			17/19"
+  1280 x 1024 color	     16/19" 			16/19"
+Keyboard		     LK401			LK401
+Mouse			     Logitech			Logitech
+
+Program Announcement: VAX 9000 Model 600
+
+The VAX 6000 VME adapter option (DWMVA-AA) is the interface between the XMI 
+system bus of the VAX 6000 Model 200, 300, 400, 500, and 600 systems and the 
+VMEbus.
+
+The BA62-BA/BB VMEbus enclosure
+
+The VAX 6000 Model 600 requires VMS V5.5 (which supports VAX VME). The VAX 
+6000 Model 200 through 500 systems must have VMS V5.4-3. ROMs will be 
+required in some instances for later model systems. Digital will provide the 
+required ECO to make it possible for VME to operate properly.
+
+
+RF73 Drive
+
+VMS V5.5 is required for support of the RF73 and SF210 products.
+
+The RF73 drive, all SF73 variations, and SF210 storage array subsystems will 
+be available for shipment starting in November 1991.
+
+
+VMS V5.5
+
+VMS V5.5 software supports the following new CPUs:
+
+-  VAXstation 4000 Model 60 and VLC systems
+-  VAX 4000 Model 500 systems
+-  VAX 6000 Model 600 series systems

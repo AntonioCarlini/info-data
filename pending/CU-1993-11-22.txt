@@ -1,0 +1,55 @@
+{CU-1993-11-22}
+
+AVAILABILITY AND ORDERING
+
+The DECpc XL 433dx and 466d2 will be available on November 30, 1993, the 
+DECpc XL 560 on December 15, 1993, the DECpc XL 566 in January 1994, and the 
+Alpha AXP CPU upgrade card during the first half of 1994.
+
+o  The DECpc XL offers you a choice of current and future i486, Pentium, and 
+   Alpha AXP microprocessors. It allows for upgrades of processor boards 
+   from one technology to another. Your benefit: flexibility of choice and 
+   investment protection. 
+
+
+TECHNICAL DATA
+
+MS-DOS and Microsoft Windows are preinstalled in the DECpc XL systems. OS/2, 
+SCO UNIX, and Windows NT are also available. The systems have the following 
+components:
+
+o  DECpc XL 400 Series
+   - 486 processor family (33 MHz dx or 66 MHz dx2)
+   - Upgradable to Pentium Overdrive in an upgrade socket (ZIF) or to full 
+     Pentium via CPU card
+   - Choice of S3 928 or Diamond Viper (63M Winmarks) graphics cards
+   - Integrated PCI local bus SCSI-II
+   - 6 slots (2 PCI, 3 ISA, 1 interleaved)
+   - 5 bays (1 internal, 4 external)
+   - SCSI dual speed CDROM 
+   - 1.44 MB floppy disk drive
+   - 340 SCSI to 1 GB SCSI hard disk drive -- and beyond
+   - 8 MB to 128 MB 70 ns standard memory
+   - 128 KB cache upgradable to 256 KB cache
+   - Easy access enclosure (no screws)
+   - 2 RS232C serial ports, external SCSI-II port, parallel port, keyboard 
+     and mouse port
+   - 300 watt power supply with 3.3 volt support
+
+o  DECpc XL 500 Series
+   - Pentium processor family (60 MHz or 66 MHz)
+   - Overdrive ready
+   - Choice of S3 928 or Diamond Viper (86M Winmarks) graphics cards
+   - Integrated PCI local bus SCSI-II
+   - 6 slots (2 PCI, 3 ISA, 1 interleaved)
+   - 5 bays (1 internal, 4 external)
+   - 340 MB SCSI to 1 GB SCSI hard disk drive -- and beyond
+   - 1.44 MB floppy disk drive
+   - SCSI dual speed CDROM 
+   - 8 MB to 192 MB 70 ns standard memory
+   - 256 KB cache standard
+   - 2 RS232C serial ports, external SCSI-II port, parallel port, keyboard 
+     and mouse port
+   - Easy access enclosure (no screws)
+   - 300 watt power supply with 3.3 volt support
+

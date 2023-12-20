@@ -1,0 +1,47 @@
+{CU-1992-03-13}
+
+applicationDEC 400xP
+
+MS650-BC
+New 32 Mbyte memory option for VAX 4000 Model 200 and MicroVAX Model 
+   3300, 3400, 3500, 3600, 3800, and 3900 systems
+
+The RZ58 1.38 Gbyte SCSI disk drive is now supported on MicroVAX 3100 
+   Model 30, 40, and 80 systems, and on VAXstation 4000 Model 60 and VLC 
+   systems
+
+POSITIONING
+                              	  RZ56      RZ57      RZ58
+
+Capacity (MB, formatted)	  665	    1,000     1,380
+Average Seek Time (ms)		  16	    14.5      12.5
+Average Access Time (ms)	  24.3	    22.8      18.1
+RPM				  3600	    3600      5400
+Media Transfer Rate (MB/sec)	  1.875	    2.2	      3.75 (inner track)
+				  	    	      5 (outer track)
+Buffer Size (KB)		  64	    256	      256
+Power (R/W) (watts)		  32	    32	      33
+
+ The 
+5400 RPM rotational speed reduces average latency time from 8.33 ms to 
+5.56 ms and contributes to a very fast average access time of 18.1 ms. The 
+media transfer rate on the outer track is an industry-leading 5 Mbytes per 
+second.
+
+DECphoto Imaging Solution V1.0 for VMS
+
+SQL Multimedia for Rdb/VMS V1.0
+
+ULTRIX MLS+ V1.0 Trusted Worksystem Software
+
+Application Control Architecture Services V2.1
+
+DECimage Scan Software V3.0 for VMS and RISC ULTRIX
+
+
+Open Desktop Development System V1.1
+
+PDP-11 C V1.2
+
+VAX DOCUMENT V2.1
+

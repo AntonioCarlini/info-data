@@ -1,0 +1,4 @@
+{CU-1993-06-21}
+
+DECpc 560ST and applicationDEC 500xP with Intel Pentium CPU
+

@@ -1,3 +1,5 @@
+! RF-VT240: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.47
+
 **Start-terminals-entry{VT50}{DECVT}{VT5x}
 **Sys-name: VT50 Video Terminal
 **End-terminals-entry{VT50}
@@ -197,6 +199,8 @@
 **Start-terminals-entry{VT220}{DECVT}{VT200}
 **Sys-name: VT220 Video Terminal
 **Def-lref{1} = ref{EK-V220-UG-003}
+**Def-lref{2} = ref{DA-1987-08-25-VT2xx}
+**Retirement**vref{2} = 1987-08-25
 **Screen-diagonal**htref{1}: 305mm
 **Rendition**htref{1}: Monochrome
 **Status-line**htref{1}: No
@@ -247,12 +251,16 @@
 
 **Start-terminals-entry{VT240}{DECVT}{VT200}
 **Sys-name: VT240 Video Terminal
+**Def-lref{1} = ref{DA-1987-08-25-VT2xx}
+**Retirement**vref{1} = 1987-08-25
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 6 2 ; Ps c
 **End-terminals-entry{VT240}
 
 **Start-terminals-entry{VT241}{DECVT}{VT200}
 **Sys-name: VT241 Video Terminal
+**Def-lref{1} = ref{DA-1987-08-25-VT2xx}
+**Retirement**vref{1} = 1987-08-25
 **End-terminals-entry{VT241}
 
 **Start-terminals-entry{VT320}{DECVT}{VT300}
@@ -260,6 +268,8 @@
 **Def-lref{1} = ref{EK-VT320-UU-001}
 **Def-lref{2} = ref{EK-VT3XX-UU-002}
 **Def-lref{3} = ref{EK-VT3XX-TP-002}
+**Def-lref{4} = ref{DA-1987-08-25-VT320}
+**Announcement**vref{4} = 1987-08-25
 **Html-target: vt300
 **Screen-diagonal**htref{1}: 305mm
 **Rendition**htref{1}: Monochrome
@@ -333,6 +343,15 @@
 **Dev-req-resp: ESC [ ? 6 3 ; Ps c
 **End-terminals-entry{VT330}
 
+**Start-terminals-entry{VT330PLUS}{DECVT}{VT300}
+**Sys-name: VT330+ Video Terminal
+**Def-lref{1} = ref{CU-1992-08-10}
+**Last-order**vref{1}: 1992-08-10
+**Html-target: vt300
+**Dev-req: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 6 3 ; Ps c
+**End-terminals-entry{VT330PLUS}
+
 **Start-terminals-entry{VT340}{DECVT}{VT300}
 **Sys-name: VT340 Video Terminal
 **Html-target: vt300
@@ -345,3 +364,37 @@
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 6 4 ; Ps c
 **End-terminals-entry{VT420}
+
+**Start-terminals-entry{VT510}{DECVT}{VT500}
+**Sys-name: VT510
+**Desc-name: VT510 Video Terminal
+**Def-lref{1} = ref{CU-1993-09-13}
+**Announcement**vref{1}: 1993-09-13
+**Keyboard-type: LK411 (VT108) or LK412(VT108-WPS) or PCXAL (PC101/PC102)
+**End-terminals-entry{VT510}
+
+**Start-terminals-entry{VT520}{DECVT}{VT500}
+**Sys-name: VT520
+**Desc-name: VT520 MonochromeVideo Terminal
+**Def-lref{1} = ref{CU-1994-09-01}
+**Announcement**vref{1}: 1994-09-01
+**FRS-date**vref{1}: 1994-09-01
+**End-terminals-entry{VT520}
+
+**Start-terminals-entry{VT525}{DECVT}{VT500}
+**Sys-name: VT525
+**Desc-name: VT525 Colour Video Terminal
+**Def-lref{1} = ref{CU-1994-09-01}
+**Announcement**vref{1}: 1994-09-01
+**FRS-date**vref{1}: 1994-09-01
+**End-terminals-entry{VT525}
+
+**Start-terminals-entry{VXT2000PLUS}{DECVT}{VXT}
+**Sys-name: VXT2000+
+**Desc-name: VXT2000+ X Window Terminal
+**Def-lref{1} = ref{DEC-PR-1983-03-31}
+**Announcement**vref{1}: 1993-03-31
+**Minimum-memory**vref{1}: 4MB
+**Maximum-memory**vref{1}: 18MB
+**End-terminals-entry{VXT2000PLUS}
+

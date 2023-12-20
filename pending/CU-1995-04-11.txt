@@ -1,0 +1,43 @@
+{CU-1995-04-11}
+
+
+MACH64 GRAPHICS ACCELERATOR FOR ALPHASTATION 200 4/100
+
+
+FAST WIDE 16 BIT 1 GB AND 2 GB SCSI DISKS
+
+The new RZ26L-VW 1 GB and RZ28-VW 2 GB fast wide disk drives are fully 
+compatible with SCSI-2 single-ended interface standards. The drives are 
+supported in the new BA356 storage enclosure. The BA356-KC StorageWorks 
+deskside expansion pedestal support 16 bit devices when connected to a 
+qualified 16 bit host adapter. The BA356-KC also supports the DWZZB-VW 
+differential converter for use with the host adapters, such as the KZPSA or 
+for where system layouts of more than 3 meters of SCSI bus length are 
+required.
+
+DWZZB 16-BIT SCSI BUS EXTENDER AND SIGNAL CONVERTER
+
+PORTSWITCH 900 FAMILY OF PER-PORT SWITCHING PRODUCTS
+
+
+
+
+  PRODUCT/SERVICE                NOTES
+
+   HARDWARE SERVICE FOR A DISK	  Both of these products have already been 
+   DRIVE AND PRINTER		  retired; Digital is now retiring them from 
+                                  hardware service. Service contracts for 
+                                  the RP05 disk drive expire on January 31, 
+                                  1996. Service contracts for the LP05 
+                                  printer expire on May 31, 1996.
+   
+   RP05 Disk Drive, LP05 Printer  Last Order Date: N/A
+   				  Migration: Users can purchase spare parts 
+                                  and training, if available, within a 
+                                  three-month period beyond the 
+                                  end-of-service-life date. Contact Digital 
+                                  Assisted Services at 1-800-DIGITAL for 
+                                  assistance in setting up a customized 
+                                  plan. 
+
+

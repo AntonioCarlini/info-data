@@ -1,0 +1,67 @@
+{CU-1992-09-21}
+
+Digital is announcing a family of LP (Low Profile) "Built Better. Priced 
+Right." DECpc desktop personal computers based on Intel 386 and 486 
+microprocessors. It has designed, engineered, and manufactured these systems 
+to provide you with the power and reliability you need at a competitive 
+price. The new family is as follows:
+
+Product Name                    Processor       CPU Speed
+
+DECpc 333sx LP			386SX		33 MHz
+DECpc 340dx LP			386DX		40 MHz
+DECpc 425sx LP			486SX		25 MHz
+DECpc 433dx LP			486DX		33 MHz
+DECpc 450d2 LP			486DX2		50 MHz
+DECpc 466d2 LP			486DX2		66 MHz
+
+DECmpp 12000/Sx and 12000-LC/Sx Model 100 Systems
+
+
+DECsystem 5100 RETIRING
+
+The following chart refers to the follow-on products: DECsystem 5000 Models 
+133 and Models 240.
+
+		      DECsystem 5100  DECsystem 5000/133  DECsystem 5000/240
+
+Processor(s)		R3000		  R3000A	     R3000B
+ SPECmarks		18.9		  25.5		     32.4
+ MIPS			21.6		  34.4		     42.9
+Memory Max.		128 MB		  128 MB	     480 MB
+Storage Int. Max.	2.1 GB		  852 GB 	     None
+Storage Int/Ext. Max.	6.5 GB		  35.5 GB	     33.1 GB
+Architecture		SCSI		  SCSI		     SCSI
+Communications Bus	N/A		  TURBOchannel	     TURBOchannel
+Prestoserve		Yes		  Yes		     Yes
+
+
+DSM-11 RETIRING
+
+Highlights
+
+o  DSM-11 is now on maintenance-only status (current DSM-11 service users 
+   have been notified of the service retirement)
+
+o  DSM is highly portable across Digital hardware platforms; two migration 
+   paths are available: DSM for ULTRIX on DECsystem computers, and DSM for 
+   OpenVMS on VAX systems
+
+Migration Solution
+
+The DSM-11 product is an operating system that runs on the PDP-11. It has 
+been shipping since 1978.
+
+
+MUXserver 300 AND 310 RETIRING
+
+The MUXserver 300 and 310 remote terminal servers will move to 
+maintenance-only status on October 1, 1992. This includes the following 
+model numbers:
+
+
+ULTRIX SQL RETIRING
+
+Highlights
+
+o  Last order date: September 4, 1992; last ship date: September 30, 1992

@@ -1,0 +1,21 @@
+{CU-1994-06-20}
+
+DECtalk Express Speech Synthesizer
+
+PRODUCTS BEING RETIRED
+
+                                 Last            Last            Recommended
+Description                      Order Date      Ship Date       Migration      
+
+DEClaser 3200/3250 Printers	 Effective	 Effective	 LN09 or
+ (LN08, LN08U, LN08R)		 Immediately	 Immediately	 LPS17/600 (1)	
+
+VXT 2000+ Product Components
+ VR326 15" Color Monitor	 Effective	 Effective	 VR425 15"
+ 				 Immediately	 Immediately	 Color Monitor
+
+Trinitron 19" Color		 Effective	 Effective	 VRC21 21"
+ Monitor (See Note 5)		 Immediately	 Immediately	 Mitsubishi
+ 				 		 		 DiamondTron
+ 				 		 		 Color Monitor
+

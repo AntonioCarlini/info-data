@@ -1,0 +1,70 @@
+{CU-1992-12-14}
+
+RZ26 Disk
+
+o  1050 Mbyte (formatted) 3.5 inch SCSI-2 Winchester disk drive -- 146 
+   percent more capacity than the RZ25 426 Mbyte (formatted) disk
+o  21 percent lower price per megabyte than the RZ25 disk
+o  32 percent faster average seek time than the RZ25 disk
+o  27 percent faster access time than all 3.5 inch disks, because of higher 
+   rotational speed 
+o  Up to 35 percent higher maximum random I/O
+
+POSITIONING DIGITAL'S 3.5 INCH DISK DRIVE SERIES
+
+                                 RZ23L      RZ24       RZ25       RZ26
+
+Capacity (MBF)			 121	    209	       426	  1050	    
+Average seek time (ms)		 19	    16	       14	  9.5	    
+Average access time (ms)	 27	    24.6       20.8	  15.1	    
+Rotational speed (rpm)		 3500	    3500       4400	  5400	    
+Servo type			 Embedded   Embedded   Dedicated  Embedded
+Maximum transfer rates (MB per second)*
+ From media			 1.5	    1.5	       3.125	  3.3	    
+ Across bus, asynchronous**	 3.0	    3.0	       3.0	  5.0	    
+ Across bus, synchronous**	 4.0	    4.0	       4.0	  10.0	    
+Buffer size (KB)		 64	    64	       60	  512	    
+
+*  Burst rate during data transfer; sustained throughput dependent on system 
+   configuration.
+** Maximum theoretical transfer across bus with buffering.
+
+
+PCXAR-AD 1.0 Gbyte SCSI Disk Drive for DECpc Systems
+
+SZ200 RAID Subsystem
+
+MFX600 Multiple Screen Color or Grayscale X Terminal
+
+LA310 MultiPrinter
+
+HA4000 Uninterruptible Power Systems
+
+DEC Commserver 100/150 with Simpact ICP3222 Module
+
+RSX-11M-PLUS AND Micro/RSX V4.3 QUEUE MANAGER UPDATE
+
+The queue manager in V4.3 and prior versions of RSX 11M-PLUS and Micro/RSX 
+software contains a problem that will appear beginning January 1, 1993. Jobs 
+that are queued for execution on a specified date/time after December 31, 
+1992, will be executed immediately. The problem occurs because the date 
+field stored in the queue file (QUEUE.SYS) is not large enough to represent 
+a date after December 31, 1992. The queue manager update kit will correct 
+this problem and support dates up to the year 2000. The complete 
+implementation of this change will be included in V4.4 of the RSX-11M-PLUS 
+and Micro/RSX products.
+
+ULTRIX MLS+ SOURCES V1.0A
+
+RQDX3 INTELLIGENT CONTROLLER RETIRING
+
+The RQDX3 intelligent Q-bus controller supports RD50/51/52/53/54 Winchester 
+disks and RX33 floppy disk drives on PDP-11 and MicroVAX systems. 
+
+It will move to maintenance only status December 24, 1992; its last ship 
+date will be March 26, 1993. Orders will be processed until December 24 or 
+until certain limited parts are no longer available.
+
+RT1000 and other PDP-11 users will need to order the RQDX3 controller before 
+December 24, 1992, as there is no other Digital supplied storage subsystem 
+for migration.

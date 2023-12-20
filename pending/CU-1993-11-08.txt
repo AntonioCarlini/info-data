@@ -1,0 +1,78 @@
+{CU-1993-11-08}
+
+VAXstation 4000 MODEL 60 AND 90 CONFIGURATION NOTICE
+
+Please note that an internal TZK10 drive can not be configured on a 
+VAXstation 4000 Model 60 or Model 90 with an internal RZ25L drive: failures 
+will result. The TZK10 drive can be used in an external expansion box.
+
+PRODUCTS BEING RETIRED
+
+		   				 Last      Last
+                                                 Order     Ship
+Order No.          Description                   Date      Date	    Migration
+
+		   TSV05 and TS05 Tape and Cable (Note 1):
+TSV05-AA/AB/AC/AD  Q-bus magtape system w/o cab	 02/24/94  03/25/94 TSZ07-AA
+
+-------------------------------------------------------------------------------
+		   Software Licenses, Kits, Services:
+Q*-GJ7**-**	   DECnet for SCO UNIX V1.2	 11/15/93  12/03/93 Note 3
+		   license, media/documentation,
+		   developer's kit, software 
+		   product services
+-------------------------------------------------------------------------------
+		   PDP-11 Software Products (Note 4):      
+AA-EB26C-TC	   DECnet-RSX user's pckt guide	 Effective 	    None
+AA-H225F-TC	   NETGEN installation guide	 Immediately	      
+AA-J517H-TC	   Supplemental information	 	   	     
+AA-X923D-TC	   Programmer pocket guide	 	   	      
+AA-X924D-TC	   NETMGR pocket guide		 	   	     
+QY805-**	   Micro/RSX BASIC+2		 	   	    
+QJ913-**	   BASIC-11, RT-11		 	   	    
+QJ921-DZ	   MU-BASIC, RT-11		 	   	    
+QL-138**-**	   PDP FORTRAN-77, VAX to RSX	 	   	    
+QR100-**	   Micro/RSTS FORTRAN-77	 	   	    
+QY100-**
+QY810-H3
+QP230-**	   FORTRAN IV, RSX		 	   	    
+QY230-UZ
+QJ813-**	   FORTRAN UV RT-11		 	   	    
+Q5107-**	   FORTRAN IV, VAX to RSX	 	   	    
+QA-107**-**
+QL-107**-**
+QA-YEJ**-**	   PDP-11 C, VMS VAX 		 	   	    
+QL-YEJ**-**
+QJ994-**	   COBOL-81, RSX		 	   	    
+QY994-**
+QJ993-**	   COBOL-81, RSTS/E		 	   	    
+QY993-**
+QJ354-**	   CTS-300			 	   	    
+QY354-UZ
+QP300-**	   DATATRIEVE-11 RSTS/E		 	   	    
+QY300-**
+Q*105-HZ	   PDP-11 DATATRIEVE/VAX	 	   	    
+QA-105**-**
+QL-105**-**
+QY819-**	   Micro/RSX DATATRIEVE-11	 	   	    
+QJ716-**	   FMS-11/RSTS			 	   	    
+QY716-**
+QJ731-**
+QY731-**
+QY519-**	   RSTS/E DIBOL			 	   	    
+QP528-**
+QY528-**
+QL-139**-**	   PDP-11 SYM DBG VAX-RSX	 	   	    
+QA-139**-**  
+QP233-**	   PDP-11 SYM DEB RSTS
+QY233-**     
+QB-17T**-**	   VAX doc, LN03 fonts		 	   	    
+QB-17U**-**
+Q*708-**	   DECdx/VMS			 	   	    
+Q9-QJ708-**
+QA-708**-**
+QL-708**-**
+QPV55-**	   WPS-PLUS RSTS		 	   	    
+QPV56-**
+QWA01-**	   DECmate WPS package		 	   	         
+QWA03-**	   DECmate WPS DECspell		

@@ -1,0 +1,66 @@
+{CU-1996-03-29}
+
+RETIREMENT OF THE PDP-11 PRODUCT FAMILY
+
+VRC21-LX/WX ULTRA-HIGH RESOLUTION COLOR MONITORS
+
+120P COLOR SVGA AUTO-SYNC MONITOR
+
+PRODUCT AND SERVICE RETIREMENTS
+
+
+ PRODUCT/SERVICE            NOTES
+
+ SELECTED VRC21 COLOR       
+ MONITORS                   Last Order Date: Past
+                            Last Ship Date: Past
+                            
+ VRC21-HA, VRC21-PA         Migration: These two monitors are being
+                            replaced by the new VRC21-LA monitor. For
+                            more information, see the "VRC21-Lx/Wx
+                            Ultra-High Resolution Color Monitors"
+                            article in this issue of Customer Update.
+                            
+ SELECTED MEDIA SUPPLIES    
+                            Last Order Date: May 3, 1996
+                            Last Ship Date: June 28, 1996
+                            
+ RA60 P, RK05K08, RK07KAC,  Migration: It is recommended that users
+ RK07KDC, RK07KEF, RK06KAC, purchase equivalent products from
+ RK06KEF, RL01KAT, RL01KDC, PinPoint Engineering, 4007 Leonard Drive,
+ RL01KEF, RM03 P, RM03 PX,  Fredericksburg, VA 22408, (540) 891-2001
+ RP06P, 22-00007-00
+                            
+ RC25KDC                    Migration: It is recommended that users
+                            purchase equivalent products from
+                            SpringBoard Technology, 1 Federal Street,
+                            Springfield, MA 01105,
+                            (413) 747-2663
+                            
+ RXA5KHC, RXA8KHC, RX24K10, Migration: It is recommended that users
+ RX24KFM, RV6XPHA,          purchase equivalent products from Sony
+ DLRWX1KBA, RWX1K02         Electronics, Inc., 3175-A Northwoods
+                            Parkway, Norcross, GA 30071, (404) 263-9888
+                            
+ RX31K10, RX33KAJ, RX50KDM, Migration: It is recommended that users
+ RX50KAJ                    purchase equivalent products from Lan
+                            Technologies, Inc., 145 William White
+                            Boulevard, Pueblo, CO 81001, (719) 948-1613
+                            
+ E0TUN06S, E0TUN12C,        Migration: It is recommended that users
+ E0TUN12S, TUC0100, TUC03,  purchase equivalent products from Anacomp
+ TUN06CN, TUN06SL, TUN12CN, Magnetics at 2115 Monroe Drive North
+ TUN12SL                    East, Atlanta, GA 30324, (404) 876-3361,
+                            or at Intermediate Road, Brynmawr, Gwent,
+                            UK, [44] 495311000
+                            
+ RV02K01                    Migration: It is recommended that users
+                            purchase equivalent products from Philips
+                            LMSI, 1 Overlook Drive, Amherst, NH
+                            03031, (603) 672-1522
+                            
+ RX02KAJ, RX05K10, RWX1HAA, Migration: It is recommended that users
+ RWX2FAA, RWX2HAA, RWX2MAA, purchase equivalent products from 3M Data
+ PC4XTDA                    Storage, 3M Center Building, St. Paul, MN
+                            55144, (612) 733-3075
+

@@ -1,0 +1,64 @@
+{CU-1992-11-02}
+
+DEC FDDIcontroller/ISA NIC Program Announcement DEFIA-AA
+
+DECagent 90
+
+VAX AND VAXserver 4000 MODEL 300 SYSTEMS RETIRING
+
+System/Product            Last Order Date      Replacement System/Product*
+
+MicroVAX 2000		  January 31, 1990     MicroVAX 3100e
+MicroVAX II (Pkgd)	  March 31, 1990       compact VAX 4000 Model 100
+MicroVAX II		  March 31, 1991       Contact local sales office
+ (SBB/BA23 Rackmount)
+630XR Upgrades		  March 31, 1992       n/a
+MicroVAX and VAXserver	  March 31, 1993       MicroVAX and VAXserver
+ Model 10E		  		       	3100 Model 30
+MicroVAX and VAXserver	  August 7, 1992       MicroVAX and VAXserver
+ 3100 Model 20E		  		       	3100 Models 40/80
+MicroVAX 3300		  March 31, 1992       compact VAX 4000 Model 100
+ (Base System)
+MicroVAX 3300		  June 30, 1991	       compact VAX 4000 Model 100
+ (Pkgd System w/RF30)
+VAXserver 3300		  March 31, 1992       compact VAX 4000 Model 100
+ (Base System)
+VAXserver 3300		  June 30, 1991	       compact VAX 4000 Model 100
+ (Pkgd System w/RF30)
+MicroVAX 3400		  October 1, 1991      compact VAX 4000 Model 100
+VAXserver 3400		  October 1, 1991      compact VAX 4000 Model 100
+MicroVAX 3500		  March 31, 1990       compact VAX 4000 Model 100 and 
+ 			  		       	VAX 4000 Model 400
+VAXserver 3500		  March 31, 1990       compact VAX 4000 Model 100 and 
+ 			  		       	VAX 4000 Model 400
+MicroVAX 3600		  March 31, 1990       compact VAX 4000 Model 100 and 
+ 			  		       	VAX 4000 Model 400
+VAXserver 3600		  March 31, 1990       compact VAX 4000 Model 100 and 
+ 			  		       	VAX 4000 Model 400
+MicroVAX 3800		  June 30, 1991	       compact VAX 4000 Model 100 and 
+ 			  		       	VAX 4000 Model 400
+VAXserver 3800		  June 30, 1991	       compact VAX 4000 Model 100 and 
+ 			  		       	VAX 4000 Model 400
+MicroVAX 3900		  June 30, 1991	       compact VAX 4000 Model 100 and 
+ 			  		       	VAX 4000 Model 400
+VAXserver 3900		  June 30, 1991	       compact VAX 4000 Model 100 and 
+ 			  		       	VAX 4000 Model 400
+VAX and VAXserver	  n/a		       compact VAX 4000 Model 100
+ 4000 Model 200		  		       	(partial replacement)
+VAX and VAXserver	  June 30, 1993	       VAX 4000 Model 400
+ 4000 Model 300
+2T-KA655-xx Upgrades	  On-going 	       Contact local sales office
+2T-KA660-xx Upgrades	  On-going	       Contact local sales office
+MIRA_AS 3400/3800	  June 30, 1991	       MIRA_AS 4000 Models 200 and 300
+Rackmount 3400/3800	  June 30, 1991	       Rackmount 4000 Models 200 and 400
+MicroVAX 3400/3800	  June 30, 1991	       compact VAX 4000 Model 100 and 
+ ESUs			  		       	VAX 4000 Model 400 ESUs
+rtVAX 1000/KA620	  On-going	       n/a
+rtVAX 3200		  June 30, 1991	       Contact local sales office
+rtVAX 3300/3305/3400	  On-going	       n/a
+rtVAX 3500		  June 30, 1991	       rtVAX 4000 Model 200
+rtVAX 3600		  June 30, 1991	       rtVAX 4000 Model 200
+rtVAX 3800		  June 30, 1991	       rtVAX 4000 Models 200 and 300
+rtVAX 4000-200/300	  June 30, 1993	       n/a
+
+*The 4000 series systems are not supported by the ULTRIX operating system.

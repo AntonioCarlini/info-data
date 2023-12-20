@@ -1,0 +1,61 @@
+{CU-1991-10-18}
+
+DEC Network Integration Server 500 and 600
+
+		   Hardware   Line	   Data	    Routing   Bridging
+Product Name	   Type	      Interfaces   Links    Support   Support 
+
+DEC WANrouter 500  bounded    1x802.3	   DDCMP    DECnet    N/A
+		   	      4x64K	   HDLC	    TCP/IP
+		   	      3x256K	   X.25	    OSI
+		   	      		   FR
+
+DEC WANrouter 250  bounded    1x802.3	   DDCMP    DECnet    N/A
+		   	      8x19.2K	   HDLC	    TCP/IP
+		   	      2x64K	   	    OSI
+
+DEC WANrouter 150  bounded    1x802.3	   DDCMP    DECnet    N/A
+		   	      2x19.2K	   HDLC	    TCP/IP
+		   	      1x64K	   	    OSI
+
+DEC WANrouter 100  bounded    1x802.3	   DDCMP    DECnet    N/A
+		   	      1x64K	   HDLC	    TCP/IP
+		   	      		   X.25	    OSI
+		   	      		   FR
+
+The DEC WANcontroller 618 product supports up to eight synchronous line 
+interfaces at speeds from 1.2 Kbits per second to 56 or 64 Kbits per second.  
+A separate distribution panel is required to connect to specific physical 
+interface standard cables.  A 50-way loopback connector is provided.  Order 
+the appropriate DNSCA package which includes the correct distribution panel 
+(V.35, V.11, or EIA 232).
+
+The DEC WANcontroller 622 supports up to two synchronous line interfaces at 
+speeds from 56 Kbits per second up to 2048 Kbits per second. Separate 
+physical interface adapter cables are required to connect the two standard 
+50-way connectors to the required physical interface connector. A 50-way 
+loopback connector is provided.  Order the appropriate DNSCB package which 
+includes the correct adapter cables (V.35 or V.11 cables).
+
+The DEC LANcontroller 601 is a single port IEEE 802.3/Ethernet network 
+interface card.
+
+
+
+DECwand Bar Code Reader
+
+DECpc 316sx Personal Computer
+
+DEClaser 3200 and DEClaser 3250 Printers
+
+LG06 600 LPM Printer Offers Improved Price/Performance
+
+LA75 Plus Companion Printer: includes LA75 and LA70 data
+
+InfoServer 150 Storage Server
+
+Adobe Illustrator V3.0 for ULTRIX and VAX Workstations
+
+Memory Price Reductions for Workstations: includes memory part numbers
+
+VMS V5.4-3 announced

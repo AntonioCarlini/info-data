@@ -1,0 +1,59 @@
+{CU-1992-01-31}
+
+DECpc 320P Notebook Personal Computer
+
+VT420 PCterm: VT420 Text Terminal with PCterm
+
+VAXft Performance Enhancements
+
+The introduction of the MS520-CB memory option allows the VAXft Model 410, 
+610, and 612 systems to support up to 256 Mbytes of memory, an increase in 
+memory size of 100 percent. The MS520-CB memory option provides the same 
+fault-tolerant features as the 32-Mbyte MS520-BB option; the price has been 
+simultaneously reduced.  The MS520-CB and the MS520-BB memory options now 
+offer a reduction in cost per Mbyte of 33 percent and 20 percent 
+respectively.
+
+VMS V5.5 or higher is required to use the RF73 disk drive. VMS V5.4-3 or 
+higher software is required to use the MS520-CB memory.
+
+RF35 Integrated Storage Element
+
+DSSI PRODUCT POSITIONING
+
+			     RF31      RF72      RF73      RF35
+
+Capacity (MBf)		     381       1000	 2000	   852
+Form Factor (inches)	     5.25 HH   5.25 FH	 5.25 FH   3.5 FH
+Media (type)		     TFM       TFM	 TFM	   TFM
+Number of Platters	     4	       11	 11	   7
+Heads (type)		     MIG       MIG	 TFH	   TFH
+Interface		     DSSI      DSSI	 DSSI	   DSSI
+Areal Density		     56.4      56.4	 107	   128		    
+(Mbits/sq inch)
+Peak Media Transfer Rate     2.0       2.0	 2.7	   3.3
+(MB/sec)		     	       
+Cache (tracks/		     4/128K    4/128K	 11/512K   13/512K
+read ahead cache)	     	       
+Rotation (rpm)		     3600      3600	 3600	   5400		    
+Average Seek Time (ms)	     15.3      13.4	 12.9	   9.5		    
+Average Access Time (ms)     23.6      21.7	 21.2	   15.1		    
+Power (typical)		     18.7 W    23 W	 23 W	   13.4 W	    
+I/Os per Second		     41	       44	 47	   73               
+(100 ms completion time)
+
+Full Availability of the RF73 DSSI ISE
+
+The RF73 options were initially announced on October 28, 1991, with limited 
+availability.  All variants of the RF73 disk drive are currently available 
+with the general release of VMS V5.5 software.
+
+VAX Wide Area Network Device Drivers V1.2
+
+DECnet/SNA Data Transfer Facility V3.1
+
+
+DECmpp FORTRAN Compiler for DECmpp 12000 Systems
+
+PrintServer Source Kit V4.0
+

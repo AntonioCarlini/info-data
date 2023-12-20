@@ -1,0 +1,16 @@
+{CU-1995-02-15}
+
+DECNIS 500 AND 600 ROUTERS PLUS MANAGEMENT PROCESSOR AND HIGH-SPEED CARDS
+MPC-II
+
+HIGHLIGHTS
+
+o  DECNIS Management Processor Card (MPC-II) has a console port and more 
+   memory 
+
+o  High-speed synchronous DEC WANcontroller 622/HS card supports 2 lines, 
+   each at up to 10 Mb per second 
+
+o  DECNIS 500-SPX and 600-SPX base router platforms are available with the 
+   new DECNIS Management Processor Car
+

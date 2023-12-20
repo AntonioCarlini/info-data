@@ -1,0 +1,59 @@
+{CU-1992-04-24}
+
+DECmpp 12000 and 12000-LC
+
+VXT 2000
+
+The VXT 2000 single box, 15-inch monochrome windowing terminal will be 
+available in May.
+
+VXT 2000 17-inch Color Windowing Terminal
+
+The VXT 2000 17-inch color windowing terminal will be available in May.
+
+HARDWARE SPECIFICATIONS
+
+Monitor		    VRC16
+Display		    17-inch
+Planes		    8
+Resolution	    1024 x 768 pixels; 100 dpi
+Refresh Rate	    72 Hz
+
+HSC90
+
+HSC40 AND HSC70 RETIRING CONTROLLERS
+
+The last order date for the HSC40 and HSC70 controllers is April 26, 1992, 
+and the last shipment date is June 27, 1992. Both hardware and software 
+service will still be available for the HSC40 and HSC70 controllers. The 
+following are the HSC40 and HSC70 variants that will be affected:
+
+RA60 MEDIA FOR ULTRIX RETIRING
+
+As of June 1, 1992, RA60 distribution media will no longer be available.  
+After this date, RA60 users need to begin using alternate media such as TK50 
+cartridge tape, CDROM discs, or MT9 magtape.
+
+VAX DEC/Shell RETIRING
+
+The VAX/Shell product has been retired as of April 4, 1992. There are 
+alternative product directions for existing users of VAX DEC/Shell software 
+to consider. Digital expects that VAX DEC/Shell software will continue to 
+operate with the current VMS version and current VAX processors.  However, 
+there is no guarantee that it will continue to operate on future VMS 
+versions or future VAX processors.  There will be no support for the VAX 
+DEC/Shell product after October 30, 1993.
+
+LA324 MultiPrinter RETIRING
+
+Digital will be phasing out the LA324 MultiPrinter printer. The printer will 
+be placed on maintenance-only status on May 1, and the last shipment will be 
+May 29, 1992. The replacement product is the LA424 MultiPrinter printer.
+
+
+VT1300 RETIRING
+
+VT1300 terminals are being retired as of June 30, 1992.  Orders will be 
+accepted up to that date on an availability basis only as quantities are 
+limited. The VT1300 color windowing terminal is replaced by the VXT 2000 
+color models:
