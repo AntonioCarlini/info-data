@@ -1,0 +1,4 @@
+{CU-1994-07-05}
+
+TL820 5.2 Tbyte Digital Linear Tape library
+

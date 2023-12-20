@@ -1,8 +1,16 @@
 ! CU-1991-09-06: PCXCV 14-inch diagonal measured VGA-compatible
-! CU-1991-09-06: 
-! CU-1991-09-06: 
-! CU-1991-09-06: 
-! CU-1991-09-06: 
+! VRE01: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=491.0   https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=491.1
+
+**Start-monitors-entry{ELT320}{FLATPANEL}{ELT}
+**Def-lref{1} = ref{CU-1992-08-10}
+**Emulations**vref{1}: {VT320} {VT220}
+**Display-size**vref{1}: 9"
+**Keyboard**vref{1}: {LK401-AA} {LK402-AA}
+**Dimensions-start{ELT320}
+**Weight**vref{1}: 4.3lb
+**Dimensions-end{ELT320}
+**End-monitors-entry{ELT320}
+
 **Start-monitors-entry{VR150}{MONITOR}{VR}
 **Sys-name: VR150 15" Monochrome Monitor
 **Def-lref{1} = ref{EK-302AB-OG-002}
@@ -33,6 +41,37 @@
 **Power**uref{1}: 70W:nominal
 **Power-end{VR150}
 **End-monitors-entry{VR150}
+
+**Start-monitors-entry{PC7XVD}{MONITOR}{PC7XV}
+**Sys-name: PC7XV-D
+**Desc-name: PC7XV-D 14" Colour Monitor
+**Def-lref{1} = ref{CU-1992-09-21}
+! vref{1}: intended for worldwide use
+**Screen-size**vref{1}: 14"
+**V-frequency**vref{1}: 60 Hz - 72 Hz
+**H-frequency**vref{1}: 31.5 kHz - 57 kHz
+**Screen-size**vref{1}: {640x480 pixels} {1024x864 pixels}
+**End-monitors-entry{PC7XVD}
+
+**Start-monitors-entry{PC7XVE}{MONITOR}{PC7XV}
+**Sys-name: PC7XV-E
+**Desc-name: PC7XV-E 14" Colour Monitor
+**Def-lref{1} = ref{CU-1992-09-21}
+! vref{1}: intended for European use
+**Screen-size**vref{1}: 14"
+**V-frequency**vref{1}: 60 Hz / 70 Hz
+**H-frequency**vref{1}: 31.5 kHz
+**End-monitors-entry{PC7XVE}
+
+**Start-monitors-entry{PC7XVL}{MONITOR}{PC7XV}
+**Sys-name: PC7XV-L
+**Desc-name: PC7XV-L 14" Monochrome Monitor
+**Def-lref{1} = ref{CU-1992-09-21}
+! vref{1}: intended for European use
+**Screen-size**vref{1}: 14"
+**V-frequency**vref{1}: 60 Hz / 70 Hz
+**H-frequency**vref{1}: 31.5 kHz
+**End-monitors-entry{PC7XVL}
 
 **Start-monitors-entry{VR160}{MONITOR}{VR}
 **Sys-name: VR160 15" Colour Monitor
@@ -132,6 +171,11 @@
 **Start-monitors-entry{VR297}{MONITOR}{VR}
 **Sys-name: VR297 17" Colour Monitor
 **Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{CU-1993-08-30}
+**Def-lref{3} = ref{TMAI-1989-11-07}
+**Announcement**vref{3}: 1989-11-07
+**Last-order**vref{2}: 1993-08-10
+**Last-ship**vref{2}: 1993-08-10
 **Screen-diagonal**htref{1}: 432mm
 **Dot-pitch**htref{1}: 0.26mm       
 **Screen-size**htref{1}: 1024x864 pixels  
@@ -269,6 +313,9 @@
 **Start-monitors-entry{VR417}{MONITOR}{VR}
 **Sys-name: VR417 17" Colour Monitor
 **Def-lref{1} = ref{CU-V6-2B}
+**Def-lref{2} = ref{CU-1995-02-15}
+**Announcement**vref{2}: 1995-02-15
+**FRS-date**vref{2}: 1995-02-15
 ! [1] also known as Sony VRT17 -->
 ! [1] 17", 16" viewable autoscanning colour display -->
 !   [1]:
@@ -293,6 +340,7 @@
 **V-front-porch: 3 horizontal lines  
 **V-sync-pulse: 3 horizontal lines  
 **Vertical-period: 15.0434ms   
+**OEM-device**vref{2}: Sony VRT17
 **Dimensions-start{VR417}
 **Height**htref{1}: 414mm     
 **Width**htref{1}: 406mm     
@@ -339,6 +387,22 @@
 **Power-end{VRC16}
 ! ref_1: 100-120V 220-240V 47-63Hz 150W max power consumption -->
 **End-monitors-entry{VRC16}
+
+**Start-monitors-entry{VRC20}{MONITOR}{VRC}
+**Sys-name: VRC20 20" Colour Monitor
+**Def-lref{1} = ref{SUE-1994-12}
+**Announcement**vref{1}: 1994-11
+! vref{1}: Shadow Mask, auto sync, picture 340mmx270mm
+**Screen-size**vref{1}: 1280 x 1024 pixels
+**H-frequency**vref{1}: 20 - 82 kHz
+**V-frequency**vref{1}: 50 - 80 Hz non-interlaced
+**Dimensions-start{VRC20}
+**Height**htref{1}: 450 mm
+**Width**htref{1}: 480 mm
+**Depth**htref{1}: 480 mm
+**Weight**htref{1}: 30 kg
+**Dimensions-end{VRC20}
+**End-monitors-entry{VRC20}
 
 **Start-monitors-entry{VRT16}{MONITOR}{VRT}
 **Sys-name: VRT16 17" Colour Monitor
@@ -411,9 +475,9 @@
 **Sys-name: PCXCV
 **Desc-name: PCXCV 14" Colour Monitor
 **Def-lref{1} = ref{CU-1991-09-06}
-**Processor**vref{1}: TMS34020
-**Resolution**vref{1}: 1280 x 1024, 1024 x 768, and 1024 x 864
-**Colours**vref{1}: Up to 256 colors, from a palette of 1.6 million
+**Display-size**vref{1}: 14"
+**Resolution**verf{1}: 640 x 480 VGA
+**OEM**vref{1}: Philips
 **End-storage-entry{PCXCV}
 
 **Stop-processing
@@ -421,6 +485,9 @@
 **Start-monitors-entry{VRM17}
 **Sys-name: VRM17 17" Monochrome Monitor
 **Def-lref{1} = ref{EK-PM30E-RB-002}
+**Def-lref{2} = ref{CU-1994-06-20}
+**last-order**vref{2}: 1994-06-20
+**last-ship**vref{2}: 1994-06-20
 **Screen-diagonal**htref{1}: 431.8mm
 **Screen-size**htref{1}: 1280x1024 or 1024x768pixels
 **Video-termination**htref{1}: 75ohm BNC

@@ -1,0 +1,40 @@
+{CU-1996-04-23}
+
+DECSWITCH 900FO FOR DECHUB 900 MULTISWITCH
+
+DECSWITCH 400 ETHERNET-TO-ATM ENHANCEMENTS
+
+ALPHASTATION 200 4/166 ENTRY PACKAGE
+
+DIGITAL CELEBRIS XL PENTIUM PRO 6180 AND 6200 PERSONAL WORKSTATIONS
+
+
+
+DIGITAL CELEBRIS GL CONFIGURATIONS
+
+The Digital Celebris GL 5133 and 5166 PCs are the latest addition to the 
+GL line of high-performance, affordable desktop personal computers. These 
+Pentium PCs are packed with a combination of cutting-edge features, 
+including PCI Ethernet, 32 MB EDO memory, 256 KB pipeline burst cache, 
+64-bit 3-D graphics, and audio, that break traditional PC performance 
+barriers and make the Celebris GL ideal for Windows NT client deployment.
+
+
+DIGITAL HINOTE VP AND ULTRA II PENTIUM NOTEBOOKS
+
+STORAGEWORKS TZ885 AND TZ887 DLT TAPE LOADER SUBSYSTEMS
+
+
+PRODUCT AND SERVICE RETIREMENTS
+
+ PRODUCT/SERVICE           NOTES
+
+ KCM44 AND TC44 TAPE       
+ CONTROLLERS FOR           
+ CONNECTION TO STORAGETEK  
+ LIBRARIES                                            
+                           Last Order Date: June 28, 1996
+                           
+                           Last Ship Date: July 10, 1996
+                           
+                           

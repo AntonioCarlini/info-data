@@ -1,0 +1,97 @@
+{CU-1993-01-25}
+
+PCXAT-BB
+
+The PCXAT-BB is a low cost, high performance quarter inch cartridge (QIC) 
+tape drive. It provides capacities of 80 or 120 Mbytes of uncompressed data, 
+or 160 or 250 Mbytes of compressed data, using software data compression, on 
+205 ft or 307 ft DC2000 series standard cartridges. The PCXAT-BB can be 
+configured internally in either a 3.5 inch or 5.25 inch cavity. It uses the 
+QIC minicartridge (TZK2X-CA, single cartridge); a five pack (TZK2X-CB) is 
+also available.
+
+The PCXAT-BB uses a QIC-117 floppy drive interface supporting IBM PC XT/AT 
+compatibles via a floppy drive controller either on the mother board or on 
+an adapter card. It coexists with up to two floppy drives on the same floppy 
+drive controller.
+
+The PCXAT-BB is an MS-DOS only product at present.
+
+PERFORMANCE
+
+o  Capacity
+   Standard length tape (205 ft)   83 MB uncompressed (80 MB actual)
+   				   166 MB compressed
+   Long length tape		   125 MB uncompressed (120 MB actual)
+   				   250 MB compressed
+o  Recording format		   QIC-80
+o  Interface			   QIC-117
+o  Read interchange		   QIC-40/80
+o  Tracks			   28
+o  Tape speed			   34/68/85 ips 
+o  Transfer rate at 34 ips	   500 Kbits/s
+o  Transfer rate at 68 ips	   1.0 Mbits/s
+o  Transfer/tape speed select	   Autoselect
+o  File access time		   <1 minute (maximum)
+o  Loading			   Full insert
+o  Eject			   Mechanical
+o  MTBF				   60K PO hours
+
+SPECIFICATIONS
+
+                        Without	            With
+                        Rails               Rails
+
+o  Height		1.0 in.		    1.6 in.
+o  Width		4.0 in.		    5.25 in.
+o  Depth		4.75 in.	    4.75 in.
+o  Weight		1.0 lb		    1.6 lb
+
+PCXAG-AG VGA Video 924 S3 Chip ISA Half Card for DECpco  Color specifications:
+
+   Type	        Resolution      Colors    Memory      V.Freq (Hz)
+   
+   Graphics	1280 x 1024	16	  1 MB	      45
+   Graphics	1024 x 768	256	  1 MB	      43, 60, 70
+   Graphics	1024 x 768	16	  512 KB      43, 60, 70
+   Graphics	800 x 600	256	  1 MB	      50, 60, 72
+   Graphics	640 x 480	16.7 M	  1 MB	      60
+   Graphics	640 x 480	65,536	  1 MB	      60
+   Graphics	640 x 480	32,768	  1 MB	      60
+   Graphics	640 x 480	256	  512 KB      60, 72
+   Graphics	640 x 480	16	  512 KB      60, 72
+   Text		132 x 44	16	  1 MB	      60
+   Text		132 x 22	16	  1 MB	      60
+   
+PERFORMANCE
+
+The PCXAR-AG measures 7 to 8 million Winmarks on a 386/33 CPU at 1024 x 768 
+resolution with 256 colors. This compares with 1 to 1.5 million Winmarks for 
+the PCXAG-AC. The performance is very visible in 1024 x 768 and 1280 x 1024 
+modes under Windows.
+
+PRODUCTS BEING RETIRED
+
+			   Last	       Last
+Product			   Order Date  Ship Date  Recommended Migration
+
+VAX and VAXserver 4000 	   6/30/93     9/30/93	  VAX and VAXserver 4000 
+Model 200 systems	   	       		  Model 100 systems
+
+Realtime MicroVAX and	   1/30/93     3/30/93	  Contact Digital or other
+VAXserver 3000 		   	       		  sources of Digital products 
+Models 300 and 400
+
+VMS FTAM (SPD 29.86.00)	   12/21/92    12/21/92	  DECnet/OSI
+VMS OSAK (SPD 27.47.00)
+(contracted service 
+support will end 6/93)
+
+VICfax ASSETS Package	   1/25/93     1/25/93	  DECfax Mail
+(VICfax Migration 
+Program provides upgrades
+at minimal price)
+
+DECpc 433 workstation	   1/29/93     2/26/93	  DECpc LP series
+(PCW10-AA/A2, PCW11-AA/A2, 	       		  DECpc 400ST family
+PCWXE-AA/A2)

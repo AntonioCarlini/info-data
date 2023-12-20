@@ -1,0 +1,58 @@
+{CU-1993-04-19}
+
+
+PRODUCT POSITIONING
+
+The following table compares the DECwriter 95 printer with Digital's other 
+narrow carriage dot matrix printers. Note that while the DECwriter 95 
+printer does not support the ANSI (PPL2) protocol, unlike the other Digital 
+printers, it does offer an optional serial (RS232) interface card that lets 
+a PC user connected to a VAX system print ASCII text.
+
+ 		DECwriter 95       Personal Printer      Companion Printer
+
+Model Number	LA95		   LA70			 LA75S
+Printhead	24 wire		   9 wire		 24 wire
+Interface	Parallel	   Serial		 Serial
+ 		(serial optional)  Parallel		 Parallel
+Speed at 10 cpi    
+ Draft		215		   200			 250
+ Memo 				   100
+ NLQ				   40
+ LQ		66		   			 83
+Resolution	360 x 360	   180 x 144		 360 x 180
+Resident Fonts	13		   1			 1
+Emulations	Epson ESC P/2	   Digital ANSI		 Digital ANSI
+ 		Epson LQ-570	   IBM ProPrinter	 IBM ProPrinter
+ 		IBM ProPrinter 
+Memory		8 KB		   4 KB			 8 KB
+ Optional	128 KB		   N/A			 N/A
+Noise Level	43 dBA		   52 dBA		 51 dBA
+Color		Yes		   No			 Yes 
+Paper Path	Top, Rear,	   Rear			 Rear, Bottom 
+ 		Bottom
+Copies		4		   3			 4
+Setup		LCD		   LED			 LED
+MTBF (hours)	4K @ 25%	   10K @ 5%		 15K @ 5%  
+Duty Cycle	1000 pages	   1000 pages		 2000 pages
+
+FDDI DECconcentrator 500 Six Port ANSI/MIC Module
+
+DECconcentrator 500 Microcode V3.2
+
+DEC FDDIcontroller and TURBOchannel NIC
+
+RETIREMENTS
+
+TSU05 UNIBUS magnetic tape   5/30/93	 6/30/93      None
+subsystem (1)
+
+DZV11 asynchronous 	     3/93	 	      DZQ11
+multiplexer for Q-bus
+
+DHU11 communications	     3/93	 	      An appropriate
+controller		     		 	      terminal server
+
+DLVE1 Q-bus interface	     3/93	 	      DHQ11
+
+

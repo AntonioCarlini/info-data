@@ -1,0 +1,63 @@
+{CU-1995-11-15}
+
+TKZ61 AND TKZ62 10-CARTRIDGE TAPE DRIVES -- AVAILABLE IN EUROPE
+
+PRODUCT AND SERVICE RETIREMENTS
+Taken from EISNER.
+
+PRODUCT/SERVICE             	  NOTES
+                            
+VXT 2000 FAMILY OF          
+MONOCHROME AND COLOR
+MONITORS
+                            
+VX225-**, VX219-**, VX59G-AA,  	  Last Order Date: Past
+
+				  Last Ship Date: Past
+                            
+VX295-**                    	  Last Order Date: November 15, 1995
+                            
+                            	  Last Ship Date: December 29, 1995
+                            
+VX227, VX297, VX299, VX69T  	  Last Order Date: December 29, 1995,
+                            	  in Europe; March 8, 1996, in all
+                            	  other non-European countries
+                            
+                            	  Last Ship Date: December 29, 1995 in
+                            	  Europe; March 29, 1996 in all other
+                            	  non-European countries
+                            
+                            	  Migration: Multia family of
+                            	  multiclient desktops
+                            
+NON-COMPRESSION AND LOADER  
+VERSIONS OF THE TKZ60 TAPE
+DRIVE
+                            
+                            	  Note: The non-compression and loader
+                            	  versions of the TKZ60 can be
+                            	  replaced with members of the non-
+                            	  loader compression variants of the
+                            	  TKZ60 family. Users can also replace
+                            	  these products with a loader version
+                            	  of the new generation of 36-track
+                            	  TKZ61 and TKZ62 products, which will
+                            	  be available at the end of November
+                            	  1995. For more information, see the
+                            	  "TKZ61 and TKZ62 Cartridge Tape
+                            	  Drive and Loader" article in this
+                            	  issue of Customer Update. The
+                            	  recommended migration path for each
+                            	  product is below.
+                            
+TKZ60-AA, TKZ60-AC, TKZ60-BA,  	  Last Order Date: Past
+TKZ60-BC
+                            
+                            	  Migration: TKZ60-EA, TKZ60-EC, 
+				  TKZ60-FA, TKZ60-FC
+                            
+TKZ60-EC, TKZ60-FC, TKZ60-GC, 	  Last Order Date: Past
+TKZ60-HC
+                            
+                            	  Migration: TKZ61-AA, TKZ61-AC, 
+				  TKZ61-AD, TKZ61-AF

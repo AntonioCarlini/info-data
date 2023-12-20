@@ -1,0 +1,33 @@
+{SUE-1994-09}
+
+Alpha 21164
+
+AlphaServer 2100 4/190 VME
+
+PCI-VME Adapter
+
+KZPAA PCI-to-SCSI
+
+KZASA FWD SCSI
+
+DECserver 90TL Memory Upgrade
+
+DECrepeater 90TS
+
+PEswitch 900TX
+
+Multiport DECswitch 900EE
+
+DECbridge 900MX name changed to DECswitch 900EF
+
+PLOYCENTER NSR V2.2 for OpenVMS VAX cancelled
+
+Service Retirements
+
+PDP-11/20 and PDP-11/35
+LN01
+LA30
+DEFAT
+
+
+

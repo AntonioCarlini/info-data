@@ -1,0 +1,18 @@
+{CU-1994-02-14}
+
+RoamAbout Access Point and PCMCIA Wireless Network Adapter
+
+DECrepeater 900FP, 90FS, and 900GM Ethernet Repeaters
+
+DECbridge 900MX Packet Switching Ethernet Bridge
+DEC EtherWORKS Pocket Ethernet PC Adapters
+DEC TRNcontroller 700 Token Ring Interface Card
+
+
+Functional Equivalence of OpenVMS VAX and AXP with V6.1
+
+
+DEC 3000 Models 300X and 300LX
+
+Digital Cluster Parallel System 4000
+

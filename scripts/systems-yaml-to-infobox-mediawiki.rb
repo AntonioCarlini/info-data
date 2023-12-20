@@ -3,6 +3,7 @@
 require "pathname.rb"
 $LOAD_PATH.unshift(Pathname.new(__FILE__).realpath().dirname().dirname().dirname() + "libs" + "ruby")
 
+require_relative "ClassTrackLocalReferences.rb"
 require_relative "DataTags.rb"
 
 require "yaml"
@@ -12,6 +13,7 @@ class Output
     @build_xml = build_xml
   end
 
+  # Write out text after transforming it to make it valid XML.
   def puts(text="")
     # First swap out the initial ampersands (as other swaps will put *in* ampersands)
     # The order of the other substitutions does not currently matter.
@@ -19,9 +21,65 @@ class Output
     $stdout.puts(text)
   end
 
+  # Write out text that is already valid XML.
+  # No transformation is performed.
   def puts_xml(text)
     $stdout.puts(text)
   end
+end
+
+# A generic class to hold an item and the relevant references.
+class ItemWithReferenceKeys
+
+  attr_reader  :item
+  attr_reader  :refs
+
+  def initialize(item, refs)
+    @item = item      # Whatever the item is
+    @refs = refs      # Should be an array of keys
+  end
+  
+end
+
+# Handle OS-support-VMS and related properties.
+# OS-support-VMS, OS-support-VMS-early and OS-support-end need special handling.
+# If OS-support-VMS-early exists, prepend it with a trailing comma and space to OS-support.
+# If OS-support-VMS-end exists, append the text " to " and then OS-support-VMS-end to OS-support-VMS
+# In either case, if OS-support-VMS does not exist, it is an error and processing should stop
+#
+# To handle the references:
+# - for each of the component parts, produce the relevant value text and add the references
+# - build up the final string (which now includes all the individual references)
+# - replace the value of OS-support-VMS with the final text (which has references embedded) and no further references
+# When OS-support-VMS is finally output, it will be written as text with the appropriate references.
+def process_os_support_vms(properties, lref, refs)
+  # Begin by building the base value of OS-support-VMS and its references
+  base_value = ""
+  if properties.key?("OS-support-VMS")
+    array_of_values = properties["OS-support-VMS"]
+    base_value = array_of_values.shift()
+    base_ref_text = lref.build_local_refs(array_of_values, refs)
+    base_value = "#{base_value}#{base_ref_text}"
+  end
+
+  # For each of the supporting properties that is present, build the text and references and add to the base value above
+  if properties.key?("OS-support-VMS-early")
+    raise("OS-support-VMS-early without OS-support-VMS for system #{name}") if not properties.key?("OS-support-VMS")
+    array_of_values = properties["OS-support-VMS-early"]
+    value = array_of_values.shift()
+    ref_text = lref.build_local_refs(array_of_values, refs)
+    base_value = "#{value}#{ref_text}, " + base_value
+  end
+  if properties.key?("OS-support-VMS-end")
+    raise("OS-support-VMS-end without OS-support-VMS for system #{name}") if not properties.key?("OS-support-VMS")
+    array_of_values = properties["OS-support-VMS-end"]
+    value = array_of_values.shift()
+    ref_text = lref.build_local_refs(array_of_values, refs)
+    base_value = "#{base_value} to " + "#{value}#{ref_text}"
+  end
+
+  # Finally, replace the OS-support-VMS property with the fully referenced text that was built
+  properties["OS-support-VMS"] = [ base_value ]
 end
 
 sys_type = ARGV.shift()    # This might be 'vax' or 'alpha' etc.
@@ -55,14 +113,14 @@ source_file_time = File.mtime(sys_yaml)
 op.puts_xml(%q[<mediawiki xml:lang="en">]) if build_xml
 systems.keys().each() {
   |id|
-  local_refs = {} # [index, ref-hash-from-yaml] }
-  next_local_refs_index = 1
   properties = systems[id]
   system_name_array = properties["Sys-name"]
   if system_name_array.nil?()
     $stderr.puts("Cannot find Sys-name for [#{id}] so skipping")
     next
   end
+
+  lref = TrackLocalReferences.new()
 
   # Work out a plausible name; default to "UNKNOWN"
   d_name = properties["Desc-name"]
@@ -85,6 +143,10 @@ systems.keys().each() {
     op.puts_xml(%Q[      <contributor><username>antonioc-scripted</username></contributor>])
     op.puts_xml(%Q[      <text>])
   end
+
+  # OS-support-VMS, OS-support-VMS-early and OS-support-end need special handling.
+  
+
   op.puts("== #{name_prefix}#{name} systems ==")
   op.puts()
   op.puts("{{Infobox#{sys_type.upcase()}-Data")
@@ -98,23 +160,14 @@ systems.keys().each() {
     next if prop =~ /docs/i
     next if prop =~ /text_block/i
     next if prop =~ /local_references/i
+    next if prop =~ /OS-support-VMS-early/i  # folded into OS-support-VMS
+    next if prop =~ /OS-support-VMS-end/i    # folded into OS-support-VMS
+    process_os_support_vms(properties, lref, refs) if prop =~ /OS-support-VMS/i    # pre-process OS-support-VMS, then process as any other property
+    
     array_of_values = properties[prop]
     value = array_of_values.shift()
-    ref_index = nil   # No reference present, or invalid reference present
-    ref_text = ""
-    array_of_values.each() {
-      |ref_key|
-      reference = local_refs[ref_key]
-      if reference.nil?()
-        local_refs[ref_key] = [ next_local_refs_index, refs[ref_key] ]
-        ref_index = next_local_refs_index
-        next_local_refs_index += 1
-      else
-        ref_index = reference[0]
-      end
-      ref_text << "[[#ref_#{ref_index}|[#{ref_index}]]]"
-    }
-    ref_text = " " + ref_text unless ref_text.empty?()
+
+    ref_text = lref.build_local_refs(array_of_values, refs)
     op.puts("| #{tags[prop].name()} = #{value}#{ref_text}")
   }
   op.puts("}}")
@@ -127,18 +180,9 @@ systems.keys().each() {
       line.gsub!(/ \*\*tref \{ ([^}]+) \}/ix) {
         |m|
         ref_key = $1
-        ref_text = ""
-        reference = local_refs[ref_key]
-        if reference.nil?()
-          local_refs[ref_key] = [ next_local_refs_index, refs[ref_key] ]
-          ref_index = next_local_refs_index
-          next_local_refs_index += 1
-        else
-          ref_index = reference[0]
-        end
-        ref_text << "[[#ref_#{ref_index}|[#{ref_index}]]]"
+        ref_text = lref.build_single_ref(ref_key, refs[ref_key])
         "#{ref_text}"
-      }
+     }
       op.puts("#{line}") 
     }
     op.puts()
@@ -151,11 +195,11 @@ systems.keys().each() {
     op.puts()
   end
 
-  unless local_refs.empty?()
+  unless lref.empty?()
     op.puts("== References ==")
     op.puts()
     ref_text_array = []
-    local_refs.each() {
+    lref.each_ref() {
       |key, value|
       index = value[0]
       properties = value[1]

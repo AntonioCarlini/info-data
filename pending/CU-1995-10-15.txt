@@ -1,0 +1,60 @@
+{CU-1995-10-15}
+
+PRIORIS HX 5133 PENTIUM BASED SERVERS
+
+The Prioris HX 5133 server comes with one 133 MHz Pentium processor and one 
+512 KB of write back cache module. The Prioris HX 5133DP server comes with 
+two 133 MHz Pentium processors and one 512 KB of write back cache module. 
+Both models include either a 2 channel Adaptec 2940W SCSI controller or a 2 
+channel Mylex PCI RAID with a variety of SCSI hard drive configurations.
+
+
+DECLASER 3500P PRINTER
+
+PRINTSERVER 32 PLUS PRINTER
+
+KFESB DSSI ADAPTER/CONTROLLER FOR OPENVMS CLUSTER SYSTEMS
+
+WINDOWS 95 OPTIMIZATION KIT FOR DIGITAL HINOTE NOTEBOOK PCS
+
+PCI RAID CONTROLLER FOR PRIORIS SERVERS
+
+
+PRODUCT AND SERVICE RETIREMENTS
+
+PRODUCT/SERVICE            NOTES
+                           
+TKZ60 FAMILY OF LOADER     
+TAPE DRIVES
+                           
+                           The TKZ60 family of IBM 3480/3490
+                           compatible tape drives with front mounted
+                           cartridge loader is being replaced by the
+                           2T-TKZ60 family of 10-cartridge integrated
+                           loader variants that can both read and
+                           write IBM 18-track non-compressed and
+                           compressed tape media. The non-loader
+                           versions will remain available.
+                           
+                           Last Order Date: November 6, 1995
+                           
+                           Last Ship Date: December 1, 1995
+                           
+                           Migration:
+TKZ60-EC                   2T-TKZ60-JA
+TKZ60-FC                   2T-TKZ60-JC
+TKZ60-GC                   2T-TKZ60-JD
+TKZ60-HC                   2T-TKZ60-JF
+                           
+KFESA-AA EISA DSSI ADAPTER 
+                           
+                           Last Order Date: October 23, 1995
+                           
+                           Last Ship Date: November 30, 1995
+                           
+KFESA-AA                   Migration: KFESB-AA
+                           
+                           For more information on the KFESB-AA
+                           adapter, see the Storage section of this
+                           issue.
+                           

@@ -1,0 +1,20 @@
+{CU-1992-02-21}
+
+VMS V5.5 Now Shipping
+
+Desktop MD30C Color Scanner
+
+MUXserver 320 and 380 Remote Terminal Servers
+
+MUXserver 300 and 310 and DECmux 300 Price Reductions
+
+VAX 6000 MODEL 300 MOVING TO MAINTENANCE-ONLY STATUS
+
+With the introduction of the VAX 6000 Model 600 system, the VAX 6000 Model 
+300 system has been moved to maintenance-only status.  The VAX 6000 Model 
+300 family, however, subject to availability, will continue to be available.  
+Announcements about the retirement of individual options will be made at a 
+later time.
+
+For new users, the current VAX 6000 product offerings -- Model 410, 510, and 
+600 systems -- are recommended.

@@ -1,0 +1,174 @@
+{CU-1992-10-12}
+
+o  DEC LANcontroller 602 -- The DEC LANcontroller 602 network interface card 
+   has two Ethernet ports for high performance bridging and routing with a 
+   choice of thick wire, ThinWire, or UTP connectors. The DEC LANcontroller 
+   602 provides high performance bridging and routing, with 14,880 pps full 
+   media rate filtering, and around 12,000 pps for bridge forwarding and IP 
+   routing. Performance increases as more DEC LANcontroller 602s are added, 
+   providing performance in excess of 70,000 pps for IP routing and bridging 
+   between seven Ethernet pairs for a fully populated DECNIS 600 enclosure.
+
+
+HSC65 and HSC95
+
+The embedded HSC 
+cache will be 32 Mbytes at initial ship, but a future software release will 
+upgrade the cache module to 64 Mbytes at no extra charge.
+
+HSC High Performance Software V7.0 Included
+
+The HSC65 and HSC95 controllers are supported on VMS V5.4-1; Digital expects 
+support in a future release of the ULTRIX operating system, but no support 
+is planned for VAX System V software.
+
+o  HSC65, HSC95 Devices
+   - Initial availability: September 18, 1992
+   - FastShip: October 15, 1992
+
+o  HSS65 and HSS95 VAXcluster Starter Packages
+   - Initial availability: September 18, 1992
+
+TZ30, TK50, and TK70 Read Compatibility
+
+Now both Tx86 and Tx867 drives can read the older TZ30, TK50, and TK70 tape 
+formats. This increased functionality means that the Tx86 family of products 
+can be used as software load devices (most Digital software is distributed 
+on TK50 media). Choose the Tx85 family for fast backup times, high capacity, 
+and lower cost. With up to 42 Gbytes of unattended backup per seven 
+cartridge magazine, choose the Tx86 family of products when higher capacity 
+is required. Both families offer the same functionality.
+
+LF10P Portable Notebook Printer
+
+SPECIFICATIONS
+
+o  Up to 160 characters per line
+
+o  Printing speed: 1 page per minute (up to 80 cps)
+
+o  Size: 11.7 inches wide, 3.5 inches deep, 2.0 inches high 
+
+o  Weight: 2.0 lb without battery, 2.5 lb with battery
+
+o  Resident Centronics parallel interface
+
+o  Emulation: Epson LQ500/850, IBM X24, Citizen GSX
+
+o  Input buffer: 4 Kbytes
+
+o  Fonts: Roman, Courier
+
+o  Paper type: Cut sheets, letterhead, envelopes, labels, transparencies
+
+o  Paper handling: automatic rear and bottom friction feed
+
+o  Power: 120 Vac, 36 W adapter/charger; rechargeable NiCd battery; 25 pages
+   per charge (average)
+
+LF10P support is provided by the manufacturer, Citizen America Corporation, 
+via its Executive Service Program. You can call (310) 453-6649 between 8:00 
+a.m. and 4:00 p.m. or (310) 453-0614 Ext. 266 anytime.
+
+
+LATprint Ethernet Interface
+
+The LATprint product is a two port ThinWire Ethernet interface that provides 
+a cost-effective network server dedicated to printers. Because it can 
+integrate two serial printer connections into a distributed computing 
+network, the printers become shared resources, available to any host and to 
+any user on the Ethernet local area network (LAN).
+
+SPECIFICATIONS
+
+Physical Dimensions
+
+Height			3.18 cm (1.25 inches)
+Width			27.31 cm (10.75 inches)
+Depth			12.70 cm (5.0 inches)
+Weight			0.77 kg (1.7 lb)
+
+Network Interface
+
+Physical connection: ThinWire coaxial Ethernet (10Base2)
+
+Serial Ports
+
+Quantity		Two
+Physical connection	MMJ (DECconnect)
+Compatibility		RS-232C (via adapter), EIA423
+Protocol		Xon-Xoff
+Operating mode		Full duplex
+Data format		7 or 8 bit ASCII, or binary; one stop bit, 
+			asynchronous, no parity
+Data rate		1200, 2400, 4800, 9600, 19.2 K, and 38.4 K baud
+			Factory settings: Port 1 = 19.2 K baud; Port 2 = 
+			38.4 K baud
+
+Electrical Requirements
+
+Line voltage		100-120 V, 200-240 V
+Line frequency		50-60 Hz
+
+REPLACEMENT OPTIONS FOR MS01-AA AND MS02-AA MEMORY
+
+Product Description
+
+The MS01L-AB memory option has replaced the MS0l-AA option for DECstation 
+5000 Models 20, 25, 33, 100, 120, 125, and 133. The MS01L-AB can not be used 
+on DECstation 2100 and 3100 systems (see the chart below). The MS01L-AB uses 
+4 Mbit DRAM technology; the MS01-AA uses 1 Mbit DRAM technology.
+
+The MS02L-AB memory option has replaced the MS02-AA option. The MS02L-AB is 
+an 8 Mbyte ECC memory for the DECstation and DECsystem 5000 Models 200 and 
+240 and the DECsystem 5900 system. The new MS02L-AB uses 4 Mbit DRAM 
+technology; the MS02-AA uses 1 Mbit DRAM technology.
+
+HSC60 AND HSC90 END OF MANUFACTURING LIFE
+
+Manufacturing is ending for the HSC60 and HSC90 controllers and MG-EIC 
+rackmount HSC products. All related variants and upgrade kits are being 
+retired. 
+
+The last build for HSC60 and HSC90 controllers will be January 1993; the 
+last order date will be December 30, 1992. Complete packages for migration 
+to the HSC65 and HSC95 controllers will be available for HSC users (see the 
+"New High Performance HSC Controllers" article in this issue for further 
+information).
+
+RACKMOUNT VAX 6000 MODEL 400 ON MAINTENANCE STATUS
+
+The Rackmount VAX 6000 Model 400 system has moved to maintenance-only 
+status. The last date for orders was September 30, 1992. Delivery must be 
+taken before December 31, 1992.
+
+Digital recommends that for cost-effective expansion you consider Rackmount 
+VAX 6000 Models 510 and 610.
+
+
+TWO MicroVAX 3100 MODELS AND DSH32 OPTION RETIRING
+
+MicroVAX 3100 Model 10e systems for the OpenVMS and ULTRIX operating systems 
+and MicroVAX 3100 Model 20e systems for the ULTRIX operating system are 
+retiring, along with the DSH32 communications option.
+
+The last order date for the systems is March 31, 1993; the last ship date is 
+June 30, 1993. The last order date for the DSH32 communications option is 
+September 30, 1993; the last ship date is December 30, 1993.
+
+All MicroVAX 3100 Model 10e and 20e OpenVMS systems have been replaced by 
+the MicroVAX 3100 Model 30, 40, 80, and 90 systems. The following migration 
+paths show the performance enhancements you can achieve:
+
+	MicroVAX 3100 Model 10e	 ---------->  Model 30
+		      3.5 VUPS	 	      5.0 VUPS
+
+	MicroVAX 3100 Model 20e	 ---------->  Models 40, 80, and higher
+		      3.5 VUPS	 	      5.0 VUPS 	  10.0 VUPS
+
+After the last order dates, the systems and the communications option will 
+be on maintenance-only status. Refurbished systems will continue to be 
+offered, subject to availability.
+
+PrintServer 40 PLUS RETIRING/REPRICED
+

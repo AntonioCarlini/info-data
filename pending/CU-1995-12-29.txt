@@ -1,0 +1,54 @@
+{CU-1995-12-29}
+
+NEW DIGITAL VENTURIS FAMILY MEMBERS
+
+Digital has released six new models in the Venturis Pentium series. These 
+new models are
+
+*  Venturis 466 (slimline and full profile) with 630 MB hard disk drive
+*  Venturis 575 (slimline and full profile) with 630 MB hard disk drive
+*  Venturis 590 (slimline and full profile) with 630 MB hard disk drive
+*  Venturis 5100 (slimline and full profile) with 630 MB hard disk drive
+*  Venturis 5120 (slimline and full profile) with 630 MB hard disk drive
+*  Venturis 5133 (slimline and full profile) with 630 MB hard disk drive
+
+
+DECCONCENTRATOR 900FH
+
+TKZ61 AND TKZ62 IBM FORMAT COMPATIBLE TAPE DRIVES
+
+GRAPHICS ACCELERATOR OPTION FOR CELEBRIS XL PENTIUM PCS
+
+Effective immediately in the Americas, the Diamond Stealth64 PCI Graphics 
+Accelerator is available as an option for the Digital Celebris XL Pentium 
+Series.
+
+PRODUCT AND SERVICE RETIREMENTS
+Taken from EISNER.
+
+PRODUCT/SERVICE                  NOTES
+
+RW534 OPTICAL LIBRARY PRODUCTS  
+                                
+                                 Note: Digital will continue to
+                                 support the RW534 product set
+                                 with a complete range of onsite
+                                 "hardware only" and "integrated
+                                 hardware and software" service
+                                 products for a minimum of seven
+                                 years after the end of the
+                                 manufacturing life of the
+                                 product.
+                                
+                                 Last Order Date: December 31, 1995
+                                
+                                 Last Ship Date: January 31, 1996
+                                
+RW534-ZF, RW534-MF, SWXOW-JC     Migration: Although the RW532-ZF
+                                 and RW536-ZF optical library
+                                 products are not direct
+                                 replacements for the RW534-ZF,
+                                 these products overlap the
+                                 capacity range previously
+                                 covered by the RW534-ZF products.
+                                

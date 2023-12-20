@@ -1,0 +1,15 @@
+{CU-1994-08-01}
+
+Digital 2100 Server Model A500MP Packages with More Memory
+
+o  New packaged system variants start with more memory, make maximum memory 
+   capacity of 2 Gbytes achievable without swapping out memory boards
+
+PCXAV-EC 17 Inch Color Monitor
+
+DECwriter 195 Color Capable Dot Matrix Printer
+
+DECwriter 195 Color Capable Dot Matrix Printer
+
+TKZ60 Tape Drive for TA90/91 and IBM 3480/90 Compatibility
+

@@ -1,0 +1,35 @@
+{CU-1995-03-15}
+
+ZLX-L2 SOLIDS UPPER MIDRANGE GRAPHICS ACCELERATOR
+
+The ZLX-L2 requires DEC OSF V3.0 or higher, OPEN/3D V2.5 or higher, or 
+OpenVMS V6.1 or higher.
+
+Product and Service Retirements
+Taken from EISNER.
+
+   PRODUCT/SERVICE		  NOTES
+
+   HARDWARE SERVICE FOR SELECTED  All of these products have already been 
+   VIDEO TERMINALS, A TAPE	  retired; Digital is now retiring them from
+   DRIVE, A PRINTER, AND A	  hardware service. Service contracts for 
+   SPECIALIZED PDP-11 SYSTEM	  the VT110 video terminals end on March 31, 
+                                  1995; contracts for the VR290 and VR299 
+                                  terminals expire on April 30, 1995; and  
+                                  contracts for the VT103 terminals end on 
+                                  March 31, 1996. Service contracts for the 
+                                  TU77 tape drive and LP04 printer expire on 
+                                  April 30, 1996. Service contracts for the 
+                                  MNC11 specialized PDP system end on June 
+                                  30, 1996.
+
+   VT110, VR290, VR299, and  	  Last Order Date: N/A
+   VT103 Video Terminals; TU77    Migration: Users can purchase spare parts
+   Tape Drive; LP04 Printer;	  and training, if available, within a
+   MNC11 Specialized PDP System	  three-month period beyond the end-of- 
+                                  service-life date. Contact Digital 
+                                  Assisted Services at 1-800-DIGITAL for 
+                                  assistance in setting up a customized 
+                                  plan. 
+
+

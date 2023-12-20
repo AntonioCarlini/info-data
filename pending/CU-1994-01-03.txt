@@ -1,0 +1,5 @@
+{CU-1994-01-03}
+
+Digital's BTL Family of Bar Code Scanners
+
+DEC WANcontroller 720 Supports AXP TURBOchannel Systems DSYT1-BA

@@ -1,0 +1,286 @@
+{CU-1991-12-20} : MISSING SOME POSTS THAT ARE AVAILABLE ON EISNER - FIX THIS!
+
+
+
+DECstation FAMILY POSITIONING
+
+The DECstation family meets the requirements of professional users, both 
+technical and commercial, looking for more performance and functionality 
+than can be provided by PCs, with the ACE initiative providing further 
+evolution towards low-cost, high-performance computing. The following table 
+compares the three new members of the DECstation family. 
+
+                 DECstation WORKSTATION FAMILY POSITIONING 
+
+			     Personal	      DECstation       DECstation
+			     DECstation	      5000/100	       5000/240
+
+Model Number 		     PM300-SA	      PM326-HG	       PM380-AD
+CPU Processor		     R3000A	      R3000A	       R3000A
+Clock Speed		     20 MHz/25 MHz    25 MHz/33 MHz    40 MHz
+Performance:
+- SPECmark		     16.3/19.1	      19.3/25.5	       32.4
+- MIPS			     21.6/26.7	      27.0/34.4	       42.9
+Minimum Memory		     8 MB	      8 MB	       16 MB
+Maximum Memory		     40 MB	      128 MB	       480 MB
+Memory SIMMs		     Parity	      Parity	       ECC
+Internal Storage	     One 3.5" disk    Two 3.5" disks   None
+			     One 3.5" floppy  One 5.25" drive
+Entry Graphics:
+- Resolution		     1024 x 768	      1280 x 1024      1280 x 1024
+- Planes, Refresh	     8-plane, 72 Hz   1-plane, 72 Hz   1-plane, 72 Hz
+- Mechanism		     Built-in	      MX graphics      MX graphics
+- 2D Vectors/Sec	     153 K/183 K      114 K/124 K      248 K
+- Megapixels/Sec	     5.7 M/6.4 M      8.0 M/8.1 M      20.3 M
+Multimedia:
+- Sound In/Out		     Built-in	      TURBOchannel     TURBOchannel
+- Speaker (8-bit @ 8 KHz),
+    Telephone Quality	     Internal	      External	       External
+Onboard I/O Interfaces:
+- SCSI			     Yes	      Yes	       Yes
+- Ethernet		     Thick	      Thick	       Thick
+- Serial		     1 RS-232	      2 RS-232	       2 RS-232
+- X.25/Full Modem Control    Yes	      Yes	       Yes
+TURBOchannel Bus:	     2 slots	      3 slots	       3 slots
+- MX			     Yes	      Yes	       Yes
+- HX			     Yes	      Yes	       Yes
+- TX			     Yes	      Yes	       Yes
+- DECvideo/PIP		     Yes	      Yes	       Yes
+- PXG/8 plane		     Yes	      Yes	       Yes
+- PXG+/8 plane		     Yes	      Yes	       Yes
+- PXG+/24 pl/Z		     Yes	      Yes	       Yes
+- PXG/Turbo+/96 Pl	     Yes through      Yes	       Yes
+			         TcE box
+Multiscreen Support	     Yes	      Yes	       Yes
+TURBOchannel Expander Box    Yes	      Yes	       Yes
+
+
+Personal DECstation 5000 Series
+
+The Personal DECstation 5000 family consists of the Personal DECstation 5000 
+Model 20, the Personal DECstation 5000 Model 25, and the DECsystem 5000 
+Model 25.
+
+Custom systems that include 8 Mbytes of memory can add up to two MS01-AA 
+units (total system = 16 Mbytes) or two MS01-CA units (total system = 40 
+Mbytes). MS01-AA (1 Mbit DRAM) memory cannot be mixed with MS01-CA (4 Mbit 
+DRAM) memory.
+
+MS01-AA		   4 MB factory installed memory (1 Mbit DRAM)		    
+MS01-CA		   16 MB factory installed memory (4 Mbit DRAM)
+
+DECstation 5000 Model 133
+
+DECstation 5000 Model 240 and DECsystem 5000 Model 240
+
+The DECstation 5000 Model 240 32.4 SPECmarks
+
+The DECstation 5000 Model 240 includes:
+
+o  MIPS R3400B CPU/FPU at 40 MHz
+o  128 Kbyte cache--64 Kbyte instruction/64 Kbyte data
+o  16 Mbyte memory expandable in 8 Mbyte increments (1 Mbit DRAM) to 120 
+   Mbytes
+o  32 Mbyte option (4 Mbit DRAM), allowing memory expansion to 480 Mbytes
+o  Integral DMA SCSI--supports up to seven external devices
+o  Integral DMA thickwire Ethernet controller
+o  Two 25-pin synchronous/asynchronous ports
+o  Three TURBOchannel slots at 100 Mbytes per sec (25 MHz)
+
+DECsystem 5000 Model 240
+
+The DECsystem 5000 Model 240 uses the same technology as the DECstation 5000 
+Model 240 without the graphics options. This allows the DECsystem 5000 Model 
+240 to be used as a compute server, a file server, or a peripheral server.
+
+Digital's RISC ULTRIX DECsystem Family
+
+Desktop Systems
+
+o  DECsystem 5000 Model 25
+   -Lowest cost DECsystem offering
+   -RISC power for PC database environment
+   -TURBOchannel based system
+   -Daughter card upgrade to R4000 (future)
+
+o  DECsystem 5100
+   -Entry-level multiuser system
+   -Storage and communications in system box
+   -Synchronous and asynchronous communication
+   -Prestoserve optional
+
+o  DECsystem 5000 Model 240
+   -Multiuser system that is multipurpose
+   -Upgrade from DECsystem 5000 Model 200
+   -Prestoserve optional
+   -Daughter card upgrade to R4000 (future)
+
+Deskside System
+
+o  DECsystem 5500
+   -One-box office packaging
+   -Prestoserve standard
+   -Optional DSSI device support
+   -Upgrade from DECsystem 5400
+
+Datacenter System
+
+o  DECsystem 5900
+   -Database server with leadership storage capacity
+   -Preserve investment in existing disk farms
+   -Prestoserve standard
+   -Daughter card upgrade to R4000 (future)
+
+DECsystem 5900 Third-Generation RISC ULTRIX Server
+
+ULTRIX V4.2A and ULTRIX Worksystem Software V4.2A
+
+
+Recent price reductions on the DECsystem 5100, DECsystem 5000 Model 200, 
+DECsystem 5500 systems, and DECsystem 5400 to DECsystem 5500 upgrade offer 
+you price savings of up to 37 percent. These systems have proven track 
+records as outstanding systems for both commercial and technical UNIX 
+applications.  In addition, recent advances in compiler technology have 
+enabled the DECsystem systems to achieve 15 percent improvement in CPU 
+performance benchmarks.  These performance increases, combined with lower 
+system prices, mean improved price/performance for you.
+
+DECsystem PERFORMANCE SUMMARY
+
+			   SPECmark	SPECint	 SPECfp	   MFLOPS     MIPS
+			(new)   (old)                    (sp)  (dp)       
+
+DECsystem 5100 system	18.9	16.2	15.6	 21.4	 5.38  3.01   21.6
+
+DECsystem 5000 Model 200 
+system			23.5	19.9	19.5	 26.7	 6.81  3.73   27.27
+
+DECsystem 5500 system	27.3	23.0	22.7	 30.9	 8.23  4.25   32.51
+
+
+
+VAXELN V4.3
+
+rtVAX 9000 Model 110 and 310 Systems
+
+=== SOME ENTRIES PRESENT ON EISNER BUT MISSING IN WIKI ===
+
+
+SZ12 COMPONENT SPECIFICATIONS
+
+The following table includes important information on all components that 
+are supported in the SZ12 expansion box:
+
+	 RZ55	 RZ56	 RZ57	 RX23	  RX33	  TZ30	 TZK10	 RRD42	 RZ25
+	 Disk	 Disk	 Disk	 Floppy	  Floppy  Tape	 Tape	 CDROM	 Disk
+
+Capacity 332 MB  665 MB  1.0 GB	 1.44 MB  1.2 MB  95 MB  525 MB  600 MB  426 MB 
+(formatted) 
+
+Transfer 1.25 MB 1.88 MB 2.20 MB --	  --	  63 KB  200 KB	 150 KB	 3.13 MB
+Rate 
+(per second)
+
+Form	 FH	 FH	 FH	 HH	  HH	  HH	 HH	 HH	 HH
+Factor	 5.25"	 5.25"	 5.25"	 3.5"	  5.25"	  5.25"	 5.25"	 5.25"	 3.5"
+
+All these drives are available now with the SZ12 expansion box. All are 
+supported by both ULTRIX V4.2 and VMS V5.4-2 software. 
+
+DISK DRIVE PRODUCT POSITIONING
+
+Device:			      RA70     RA60	RA71	 RA72
+
+Capacity (formatted)	      280 MB   205 MB	700 MB	 1000 MB
+Size			      5.25"    14"	5.25"	 5.25"
+Interface		      SDI      SDI	SDI	 SDI
+Peak Transfer Rate (MB/sec)   1.4      2.0	2.0	 2.0
+Seek time (ms)		      19.5     50	12.5	 12.5
+
+
+Digital's new MS690 memories are especially designed to maximize the 
+performance of VAX 4000 Model 500 systems through a tight integration with 
+the system architecture.  The memory subsystem's 64 bit wide data path is 
+twice the width of other VAX 4000 systems, boosting memory performance to 
+support the faster processors. Three memory options--128 Mbyte (MS690-DA),  
+64 Mbyte (MS690-CA), and 32 Mbyte (MS690-BA) offer extensive configuration 
+flexibility and maximum memory capacity of 512 Mbytes. The MS690 memory 
+options are built from advanced semiconductor parts--4 Mbit DRAMs in the 
+MS690-CA and MS690-DA and 1 Mbit DRAMs in the MS690-BA memory--and offer 
+ECC-based reliability.
+
+VAX 4000 MEMORY OPTION CHART
+
+The following chart lists the various models of the VAX 4000 system and the 
+memory options you can order for a specific model.
+
+
+
+		     MS650-BA/BB  MS670-CA/BA  MS690-DA/CA/BA   MS690-UC/UD
+
+VAX 4000 Model 200   X
+
+VAX 4000 Model 300   		  X
+
+VAX 4000 Model 500   		  	       X
+
+VAX 4000 Model 300   		  	       			X 
+Upgrade to VAX 4000  		  	       			
+Model 500
+
+Package	  Description             Option Purchased    Mandatory Return
+
+MS690-UD  64 MB to 128 MB upgrade 1 MS690-DA	      1 MS670-CA or
+	  			  		      2 MS670-BAs
+MS690-UC  32 MB to 64 MB upgrade  1 MS690-CA	      1 MS670-BA
+
+
+
+RETIREMENT OF LN03Q IMAGE PRINTER
+
+The LN03Q printer, an image-capable printer for Q-bus based systems, will 
+retire on January 31, 1991; orders placed after this date will not be 
+accepted. The LN03Q printer variants are LN03Q-BA, LN03Q-CA, LN03Q-EA, and 
+LN03Q-FA. The last ship date is February 28, 1992.
+
+If you require more information on DECimage products, call your local 
+Digital sales office or 1-800-832-6277.
+
+RETIREMENT OF VAX LISP VMS AND VAX LISP ULTRIX
+
+VAX Lisp VMS and VAX Lisp ULTRIX software will be retired on December 30, 
+1991; Digital users who have software product service (SPS) contracts will 
+be notified prior to this date. Remedial support will be provided by 
+Customer Support Centers; the end of all service is scheduled on or before 
+June 9, 1993, based on contract expiration.
+
+DECrepeater 90C AND DECrepeater 90T AVAILABILITY
+
+The DECrepeater 90T repeater, which is a 10BaseT multiport repeater, and the 
+DECrepeater 90C repeater, which is a ThinWire multiport repeater are now 
+shipping worldwide. Orders placed now are being processed and shipped within 
+the standard 30-day lead time. International orders, which are processed 
+through local order administration organizations, may require additional 
+lead time in accordance with individual country requirements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

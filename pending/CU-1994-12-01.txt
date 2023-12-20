@@ -1,0 +1,167 @@
+{CU-1994-12-01}
+
+Multia Family of MultiClient Desktops
+
+VRC20 20-Inch Color Monitor for VXT 2000 and Multia Family
+
+Venturis Line of Desktop PCs -- A New Value Standard for Desktops
+
+Slimline Models:
+
+Venturis 433sx		i486SX/33 MHz slimline, 4/8 MB system memory, 0 KB
+                        secondary cache standard, S3 Trio 32-bit graphics
+                        accelerator, 1 MB video DRAM, 0/270/540 MB IDE HDD
+                        models, MS-DOS 6.22, and Windows for Workgroups 3.11
+
+Venturis 450s2		Am486 SX2/50 MHz slimline, 4/8 MB system memory, 0
+                        KB secondary cache standard, S3 32-bit graphics
+                        accelerator, 1 MB video DRAM, 0/270/540 MB IDE HDD
+                        models, MS-DOS 6.22, and Windows for Workgroups 3.11
+
+Venturis 466		Am486 DX2/66 MHz slimline, 4/8 MB system memory, 0
+                        KB secondary cache standard, S3 Trio 32-bit graphics
+                        accelerator, 1 MB video DRAM, 0/270/540 MB IDE HDDs
+                        models, MS-DOS 6.22, and Windows for Workgroups 3.11
+
+Venturis 4100		IntelDX4/100 MHz slimline, 4/8 MB system memory, 0
+                        KB secondary cache standard, S3 Trio 32-bit graphics
+                        accelerator, 1 MB video DRAM, 0/270/540 MB IDE HDDs
+                        models, MS-DOS 6.22, and Windows for Workgroups 3.11
+
+Venturis 560		Pentium 60 MHz slimline, 4/8 MB system memory, 256
+                        KB secondary cache standard, S3 864 64-bit graphics
+                        accelerator, 1 MB video DRAM, 270/540MB IDE HDDs
+                        models, MS-DOS 6.22, and Windows for Workgroups 3.11
+
+Full-profile Models:
+
+Venturis FP 450s2	Am486 SX2/50 MHz full-profile, 4/8 MB system memory,
+                        0 KB secondary cache standard, S3 Trio 64-bit
+                        graphics accelerator, 1 MB video DRAM, 0/270/540 MB
+                        IDE HDD models, MS-DOS 6.22, and Windows for
+                        Workgroups 3.11
+
+Venturis FP 466		Am486 DX2/66 MHz full-profile, 4/8 MB system memory,
+                        0 KB secondary cache standard, S3 Trio 64-bit
+                        graphics accelerator, 1 MB video DRAM, 09/270/540/MB
+                        IDE HDD models, MS-DOS 6.22, and Windows for
+                        Workgroups 3.11
+
+Venturis FP 4100	IntelDX4/100 MHz full-profile, 4/8 MB system memory,
+                        0 KB secondary cache standard, S3 Trio 64-bit
+                        graphics accelerator, 1 MB video DRAM, 0/270/540 MB
+                        IDE HDDs models, MS-DOS 6.22, and Windows for
+                        Workgroups 3.11
+
+Venturis Line Feature Matrix
+
+MODEL:
+      433sx    450s2    466      4100     560        FP 450s2 FP 466   FP 4100
+
+CPU:
+      i486SX   Am486	Am486	 IntelDX4 Pentium60  AM486    Am486    IntelDX4
+      	       SX2/50	DX2/66	 	  	     SX2/50   DX2/66
+
+CPU INTERNAL CLOCK SPEED:
+      33 MHz   50 MHz	66 MHz	 100 MHz  60 MHz     50 MHz   66 MHz   100 MHz
+
+OVERDRIVE UPGRADEABLE:
+      Yes      Yes	Yes	 Yes	  Yes	     Yes      Yes      Yes
+
+ZIF CPU SOCKET:
+      Yes      Yes	Yes	 Yes	  Yes	     Yes      Yes      Yes
+
+I/O BUS:
+      ISA      ISA	ISA	 ISA	  PCI/ISA    ISA      ISA      ISA
+
+LOCAL BUS:
+      Intgrtd  Intgrtd	Intgrtd	 Intgrtd  PCI	     Intgrtd  Intgrtd  Intgrtd
+      VESA LB  VESA LB	VESA LB	 VESA LB  	     VESA LB  VESA LB  VESA LB
+
+SECONDARY CACHE:
+      128 KB   128 KB	128 KB	 128 KB	  256 KB     128 KB   128 KB   128 KB
+      Direct-  Direct-	Direct-	 Direct-  Direct-    Direct-  Direct-  Direct-
+      mapped   mapped	mapped	 mapped	  mapped     mapped   mapped   mapped
+      write-   write-	write-	 write-	  write-     write-   write-   write-
+      back     back	back	 back	  through    back     back     back
+      (option) (option)	(option) (option) (stndrd)   (option) (option) (option)
+
+STANDARD RAM:
+      4/8 MB   4/8 MB	4/8 MB	 4/8 MB	  4/8 MB     4/8 MB   4/8 MB   4/8 MB
+
+MAXIMUM RAM:
+      68 MB    68 MB	68 MB	 68 MB	  64 MB	     68 MB    68 MB    68 MB
+
+GRAPHICS ACCELERATOR:
+      S3       S3	S3	 S3	  S3 864     S3	      S3       S3
+      Trio32   Trio32	Trio32	 Trio32	  64-bit     Trio32   Trio32   Trio32
+
+VIDEO DRAM STANDARD:
+      1 MB     1 MB	1 MB	 1 MB	  1 MB	     1 MB     1 MB     1 MB
+
+VIDEO DRAM OPTION:
+      No       No	No	 No	  No	     1 MB     1 MB     1 MB
+
+GRAPHICS BANDWIDTH:
+      32-bit   32-bit	32-bit	 32-bit	  64-bit     64-bit   64-bit   64-bit
+
+ENHANCED LOCAL BUS IDE:
+      Yes      Yes	Yes	 Yes	  Yes	     Yes      Yes      Yes
+
+IDE HDD:
+      270/540  270/540	270/540	 270/540  270/540    270/540  270/540  270/540
+
+EXPANSION SLOTS:
+      3	       3	3	 3	  3	     5	      5	       5
+
+DEVICE BAYS:
+      4	       4	4	 4	  4	     6	      6	       6
+
+I/O PORTS:
+      3S/1P    3S/1P	3S/1P	 3S/1P	  3S/1P	     3S/1P    3S/1P    3S/1P
+
+PCMCIA/IR:
+      No       No	No	 No	  No	     Yes      Yes      Yes
+
+PLUG AND PLAY:
+      Yes      Yes	Yes	 Yes	  Yes	     Yes      Yes      Yes
+
+ENERGY STAR:
+      Yes      Yes	Yes	 Yes	  Yes	     Yes      Yes      Yes
+
+DMI READY:
+      Yes      Yes	Yes	 Yes	  Yes	     Yes      Yes      Yes
+
+BUFFERED SERIAL PORTS:
+      Yes      Yes	Yes	 Yes	  Yes	     Yes      Yes      Yes
+
+ENHANCED PARALLEL PORT:
+      Yes      Yes	Yes	 Yes	  Yes	     Yes      Yes      Yes
+
+PREINSTALLED SOFTWARE/MS-DOS 6.22/Windows For Workgroups 3.11:
+      Yes      Yes	Yes	 Yes	  Yes	     Yes      Yes      Yes
+
+KEYBOARD (PS/2-style):
+      Yes      Yes	Yes	 Yes	  Yes	     Yes      Yes      Yes
+
+MOUSE (PS/2-style):
+      Yes      Yes	Yes	 Yes	  Yes	     Yes      Yes      Yes
+
+POWER SUPPLY:
+      100 w    100 w	100 w	 100 w	  100 w	     200 w    200 w    200 w
+
+WARRANTY (in Years):
+      3	       3	3	 3	  3	     3	      3	       3
+
+
+
+GIGAswitch/ATM Joins Family of High Performance Network Switches
+
+ATMworks 750 ATM Interface Card
+
+DE434 EtherWORKS PCI Turbo Network Interface Card
+
+DEC FDDIcontroller/PCI Industry Standard FDDI Controller Family
+
+FVS30 FDDI Storage Server for OpenVMS Clusters and FDDI Networks
+

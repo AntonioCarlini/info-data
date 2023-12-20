@@ -1,0 +1,13 @@
+{CU-1994-05-09}
+
+DEChub ONE High Powered Docking Station for DEChub 900
+Taken from EISNER.
+
+HIGHLIGHTS
+
+o  New DEHUA-C*/D* Ethernet docking station for DEChub 900 modules provides 
+   90 W of power versus 45 W for DEHUA-A*/B*, which it replaces
+
+DECpc 433 SE and 433 SE Color Notebooks
+
+HSZ40 Array Controller

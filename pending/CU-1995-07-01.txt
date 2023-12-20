@@ -1,0 +1,274 @@
+{CU-1995-07-01}
+
+DIGITAL PRIORIS HX 5100MP SMP SYSTEMS
+
+DIGITAL PRIORIS LX SERVERS
+
+
+The Prioris LX 575 and 590 servers offer:
+
+*    Prioris LX 575/Pentium is 75 MHz; the Prioris LX 590/Pentium is 90 MHz
+*    16 MB standard memory, upgradable to 192 MB (ECC optional)
+*    256 KB Async cache upgradable to 512 KB async/sync
+*    Six expansion slots: 3 EISA, 2 PCI, 1 shared EISA/PCI
+*    300W auto sensing power supply
+*    Mini tower enclosure for flexible configurability/expandability
+*    Rackmountable
+*    Supported and certified operating systems:
+     -    Windows for MS-DOS
+     -    Windows for Workgroups
+     -    Windows NT Workstation
+     -    Windows NT Server
+     -    IBM OS/2
+     -    SCO UNIX
+     -    Banyan Vines
+     -    Digital PATHWORKS
+     -    Novell NetWare
+
+
+DIGITAL PRIORIS XL SERVER WITH NEW PROCESSOR VARIANTS
+
+*  New processor variants to the Digital Prioris XL Server: Prioris
+   XL Server 575, 5100, and 5100DP
+*  PowerGrade program addition lets users upgrade from an i486
+   Prioris XL Server to a Prioris 5100
+   
+NEW DIGITAL HINOTE AND HINOTE ULTRA NOTEBOOKS
+
+New Digital HiNote System
+
+The Digital HiNote CS475 provides mobile professionals with a slim and light 
+full-featured notebook. This model introduces a 9.5-inch color Dual Scan LCD 
+panel paired with a DX4-75 MHz processor and 510 MB hard disk drive to 
+provide the best performance at an attractive price. HiNote averages 21 
+percent smaller and 12 percent lighter than full-featured competitive 
+notebooks in its class.
+
+Digital HiNote Ultra Systems
+
+The new HiNote Ultra CS475 and CT475 systems continue to deliver on the 
+promise of "no compromise" computing, with no sacrifice for users in terms 
+of weight, size, speed, storage, and raw computing power. With 528 MB hard 
+disk drive capacity, these systems deliver a new standard of performance in 
+notebook computers and are, on average, 24 percent smaller and 11 percent 
+lighter than other systems in its class. 
+
+DIGITAL VENTURIS 575, 590, AND 5100 -- DESKTOP PCS WITH PENTIUM POWER
+
+TECHNICAL DATA
+
+Microprocessors
+
+*  Venturis 575 -- Pentium 75 MHz processor at iCOMP index 610\75
+*  Venturis 590 -- Pentium 90 MHz processor at iCOMP index 735\90
+*  Venturis 5100 -- Pentium 100 MHz processor at iCOMP index 815\100
+
+
+MOBILIZER V1.0 FOR WINDOWS
+
+STORAGEWORKS RAID ARRAY 230 SUBSYSTEM FOR PC NETWORKS
+
+STORAGEWORKS RAID SOFTWARE FOR OPENVMS V2.2
+
+RW525-ZA OPTICAL LIBRARY
+
+RW525-ZA OPTICAL LIBRARY
+
+DECLASER 3500A PRINTER
+
+
+PRODUCT/SERVICE		       NOTES
+
+ALL AlphaServer 2000 4/200     The AlphaServer 2000 4/200 pedestal systems
+PEDESTAL SYSTEMS; 	       and AlphaServer 2100 4/200 pedestal, 
+AlphaServer 2100 4/200         rackmount, and cabinet systems are being
+PEDESTAL, RACKMOUNT, AND       replaced by the new AlphaServer 2000 4/233
+Cabinet Systems; AND           systems, respectively.  The 4/233 models
+AlphaServer 2100 4/275	       have features similar to those of the 
+SYSTEMS WITH RZ28-VA NARROW    Model 4/200, but with a faster 233 MHz
+SCSI DISKS  		       processor. Pricing for the new 4/233 systems 
+                               is also the same as for the 4/200 systems. 
+                               Note that no upgrade from the 4/200 to the 
+                               4/233 models will be offered. The AlphaServer 
+                               2100 4/275 pedestal systems with the RZ28-VA 
+                               narrow SCSI disk are being replaced with 
+                               AlphaServer 2100 4/275 systems that contain
+                               an RZ28-VW wide SCSI disk. The AlphaServer 
+                               2100 4/275 rackmount and cabinet systems have 
+                               been re-numbered (see "AlphaServer 2100
+                               Rackmount and Cabinet Systems" in the April 
+                               1995 issue of Sales Update); the older 
+                               numbers have been retired.
+
+			       Last Order Date: Past
+
+AlphaServer 2000 4/200	       Migration: AlphaServer 2000 4/233 
+Pedestal systems	       pedestal Systems
+
+AlphaServer 2100 4/200 	       Migration: AlphaServer 2100 4/233
+Pedestal, Rackmount, 
+and Cabinet Systems
+
+AlphaServer 2100 4/275	       Migration: AlphaServer 2100 4/275  
+Pedestal Systems   	       with a RZ28-VW Wide SCSI Disk
+with RZ28-VA Narrow 
+SCSI Disk
+________________________________________________________________
+
+HSZ40-A* StorageWorks 
+SCSI ARRAY CONTROLLERS 	       The more competitively priced, higher 
+                               performance HSZ40-B* SCSI Array Controller is 
+                               replacing the HSZ40-A* SCSI Array Controller. 
+                               Note that the last release of HSZ40-A* 
+                               Operating Firmware (HSOF V2.5), planned for 
+                               release at the end of June, supports Disk 
+                               Mirroring (available with 
+                               HSZ40-B*controllers) and Dual Redundancy 
+                               software (available with Digital UNIX V3.2). 
+                               The order number for Digital's Disk Mirroring 
+                               product is QA-2YJAB-HS (for additional 
+                               information on Disk Mirroring software and 
+                               the HSZ40-B* controller, see "StorageWorks 
+                               HSZ40 Array Controller for Fast, Wide, 
+                               Differential SCSI-2" in the May 1995 issue of  
+                               Customer Update). Note also that dual redundant 
+                               HSZ40 configurations cannot be achieved by 
+                               mixing HSZ40-A* and HSZ40-B* controllers in 
+                               the same StorageWorks controller shelf. To 
+                               complete a dual redundant set with an 
+                               existing HSZ40-A* controller, an HSZ40-A* 
+                               controller must be used.
+
+HSZ40-AA/AD/AF 		       Last Order Date: October 26, 1995
+			       Migration: HSZ40-B* StorageWorks SCSI Array
+                               Controllers
+________________________________________________________________
+
+TLZ6L FAMILY OF DAT TAPE
+LOADER PRODUCTS
+			       The TLZ6L family of DAT tape loader products 
+                               is being replaced by the TLZ7L family. Note 
+                               that there is no replacement for the TLZ6L-RA 
+                               16-GB 4-mm Tape Loader. Please call to check 
+                               on availability of the TLZ6L products; 
+                               supplies are limited.
+
+TLZ6L-**, SWXTA-LA  	       Last Order Date: August 21, 1995
+			       Migration: TLZ7L-**
+________________________________________________________________
+
+DEClaser 5100
+LASER PRINTER
+                               Existing inventory of the 8-page per minute, 
+                               600-dpi DEClaser 5100 laser printer is
+                               available on a first come, first served 
+                               basis. All of the DEClaser 5100 accessories 
+                               and options will continue to be available 
+                               through 1995. Digital will also continue to 
+                               provide service and support for the products.
+
+LN09S-**, DL-LN09S-**,         Last Order Date: Past
+and DL-LN09E-**     	       Migration: DEClaser 3500 (LN14N-** for
+                               network ethernet connectivity, LN14M-** for 
+                               AppleTalk environments)
+________________________________________________________________
+
+WPS-PLUS FOR DOS TO WordPerfect
+V6.0 FOR DOS MIGRATION
+UPGRADE, DECwrite FOR Sun
+SPARCstation SYSTEMS, Mobilizer
+V1.0 FOR ALL-IN-1
+
+WPS-PLUS for DOS to WordPerfect
+V6.0 FOR DOS Migration Upgrade Last Order Date: Past
+(UPI:3AG)
+			       Migration: N/A (Users can still purchase 
+                               WordPerfect for DOS software from Digital 
+                               under UPI GHN.)
+DECwrite for Sun SPARCstation
+Systems   		       Last Order Date: Past
+(UPIs: XRW, MPU, MPV, MPW)     Migration: Users seeking a compound document 
+                               processor should contact Frame Technology,
+                               Inc.
+
+Mobilizer V1.0 for ALL-IN-1    Last Order Date: Past
+(UPIs: XWW, XWX)    	       Migration: Existing users should upgrade to
+                               TeamLinks software, which offers much greater 
+                               functionality and flexibility.
+________________________________________________________________
+Lotus 1-2-3 V1.5 FOR ALL-IN-1
+ON OpenVMS (UPI: YLQ)
+			       Digital's contract with Lotus Development 
+                               Corporation to resell both 1-2-3 for OpenVMS
+                               standalone and for ALL-IN-1 on OpenVMS 
+                               software has expired. Lotus has transferred 
+                               all development work and support of 1-2-3 
+                               software on OpenVMS systems to a third party, 
+                               Spire Technologies. Digital is negotiating a 
+                               distribution and support contract with Spire
+                               Technologies, Inc. for the standalone 
+                               version, which can be used with ALL-IN-1 (see
+                               "Migration").  The ALL-IN-1 version of 1-2-3 
+                               software will now be retired. As for 
+                               standalone versions, V2.0 for OpenVMS VAX 
+                               systems is available now, V2.1 is in 
+                               development, and V2.0 for OpenVMS Alpha will 
+                               be released shortly.
+
+                               Last Order Date: Past
+                               Migration: Digital recommends that users of 
+                               1-2-3 V1.5 for ALL-IN-1 software, who
+                               wish to get the latest 1-2-3 functionality, 
+                               migrate to the standalone version (1-2-3 V2.0 
+                               for OpenVMS VAX systems) and run the
+                               1-2-3 software from the OpenVMS operating 
+                               system. When needing to mail spreadsheets,
+                               ALL-IN-1 users can employ the Document 
+                               Transfer (dt) command to get the spreadsheets 
+                               into ALL-IN-1, mail them, and then "dt"
+                               them back to the 1-2-3 application for 
+                               further processing, if necessary. Printing 
+                               will have to be done from within the 1-2-3 
+                               program.
+____________________________________________________________
+HARDWARE SERVICE FOR
+SELECTED TERMINALS
+                               All of these products have already been  
+                               retired; Digital is now retiring them from 
+                               hardware service. Service contracts for
+                               the VR12, VR14, and VK100 terminals expire on 
+                               July 31, 1995. Service contracts for the
+                               VR17, VR20, and VT105 terminals end on July 
+                               31, 1996. 
+
+VR12, VR14, VR17, VR20,        Last Order Date: N/A
+VK100, and VT105 Terminals     Migration: Users can purchase spare parts and 
+                               training, if available, within a three-month
+                               period beyond the end-of-service-life date. 
+                               Contact Digital Assisted Services at
+                               1-800-DIGITAL for assistance in setting up a
+                               customized plan.
+____________________________________________________________
+POLYCENTER STRIPING FOR
+OpenVMS VAX
+                               POLYCENTER Striping software implements disk
+                               striping for OpenVMS VAX systems. This gives 
+                               users the ability to create one or more
+                               stripe sets, each comprised of two or more 
+                               physical disks. Disk striping interleaves 
+                               multiple disks to improve I/O performance. 
+                               StorageWorks RAID software for both OpenVMS 
+                               Alpha and VAX systems now offers this disk 
+                               stripping capability.
+
+QL-YELA9-AA    		       Last Order Date: August 1, 1995
+
+                               Migration: POLYCENTER Striping users with 
+                               warranty or service contracts will 
+                               automatically receive a striping-only version 
+                               of the StorageWorks RAID product. Optionally, 
+                               users can upgrade to a fully functional 
+                               version of StorageWorks RAID for OpenVMS
+                               software via a special reduced price upgrade 
+                               (see the "StorageWorks RAID Software for
+                               OpenVMS V2.2" article in this issue).

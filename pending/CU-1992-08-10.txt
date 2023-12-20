@@ -1,0 +1,46 @@
+{CU-1992-08-10}
+
+DECstation 5000 MODEL 125 RETIRING
+
+TheThe DECstation 5000 Model 100 series computers are UNIX based RISC 
+workstations featuring the MIPS R3000A CPU and R3010 FPU chipset running at 
+25 MHz and 33 MHz. The design of these systems places the CPU/FPU chipset on 
+a 3 x 5 inch (7.6 x 12.7 cm) removable daughter card that permits upgrading 
+of processing power simply by replacing the existing cards with the higher 
+performing daughter cards.
+
+DECstation 5000 Model 125 vs DECstation 5000 Model 133
+
+                        From               To
+                        DECstation         DECstation
+                        5000               5000
+                        Model 125          Model 133
+
+Processor(s)		R3000A		   R3000A
+  Clock Speed		25 MHz		   33 MHz
+  SPECmarks		19.7		   25.3
+  MIPS			26.7		   34.4
+Memory Maximum		128 MB		   128 MB
+Int. Storage Max.	852 GB		   852 GB
+Ext. Storage Max.	18.2 GB		   18.2 GB
+Architecture		SCSI		   SCSI
+Communications Bus	TURBOchannel	   TURBOchannel
+
+DECstation 5000 Model 125 vs Personal DECstation 5000 Models 20/25/33
+
+                              	  To            To             To
+                    From          Personal      Personal       Personal
+                    DECstation    DECstation    DECstation     DECstation
+                    5000          5000          5000           5000
+                    Model 125     Model 20      Model 25       Model 33
+
+Processor(s)	    R3000A	  R3000A	R3000A	       R3000A
+  Clock Speed	    25 MHz	  20 MHz	25 MHz	       33 MHz
+  SPECmarks	    19.7	  16.3		19.1	       25.3
+  MIPS		    26.7	  21.6		26.7	       34.4
+Memory Maximum	    128 MB	  40 MB		40 MB	       40 MB
+Int. Storage Max.   852 MB	  426 MB	426 MB	       426 MB
+Ext. Storage Max.   18.2 GB	  25.3 GB	25.3 GB	       25.3 GB
+Architecture	    SCSI	  SCSI		SCSI	       SCSI
+Communications Bus  TURBOchannel  TURBOchannel	TURBOchannel   TURBOchannel
+

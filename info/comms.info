@@ -1,4 +1,61 @@
-**Start-comms-entry{DEFAR}{HUB90}
+! DECbrouter 90: https://groups.google.com/forum/#!topic/biz.dec.decnews/fQpUK29XxAo
+! DECconcentrator 900MX: https://groups.google.com/forum/#!topic/biz.dec/mowsXFe0MMI
+! DECconcentrator 900TH: https://groups.google.com/forum/#!topic/biz.digital.articles/hGO8f_sUG2Y
+! DEChub 900 MultiSwitch: https://groups.google.com/forum/#!search/biz.dec$20announcement/biz.dec/hTirGw-wOuQ/5kf6UgvEMmcJ
+! DEChub ONE-MX: https://groups.google.com/forum/#!topic/biz.digital.articles/Ip8uYPLTg6U
+! DEClancontroller 400 (DEMNA): https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=421.0
+! DECmau 900TH: https://groups.google.com/forum/#!topic/biz.digital.articles/g941DRw8RAM
+! DECmau 900TL: https://groups.google.com/forum/#!topic/biz.dec/1UIFlSOSLYU
+! DECNIS MPC-2: https://groups.google.com/forum/#!topic/biz.digital.articles/A2auy7KME7M
+! DECrepeater 900FL: https://groups.google.com/forum/#!topic/biz.digital.articles/PGio5C4Y6-Y
+! DECbridge 900MX: https://groups.google.com/forum/#!topic/biz.dec.decnews/yTn9DqsItyg
+! DECrepeater 90TS: https://groups.google.com/forum/#!topic/biz.digital.articles/GwH3abi-tvA
+! DECrepeater 90FL, 90FA, DECbridge 90FL, DECwanrouter 90, DECagent 90 and HUBwatch: https://groups.google.com/forum/#!topic/biz.dec/XQpSOqWT1EA
+! DECserver 500: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.24
+! DECserver 510 and MUXserver 310: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=495.0
+! DECswitch 400: https://groups.google.com/forum/#!topic/biz.digital.articles/_7nVJxeGMpo
+! DECswitch 900 Router: https://groups.google.com/forum/#!topic/biz.digital.articles/KwH8gAQHCwo
+! DECbridge 900MX renamed to DECswitch 900EF: https://groups.google.com/forum/#!topic/biz.digital.articles/gDARt7VtuL4
+! DECwanrouter 90 ISDN: https://groups.google.com/forum/#!topic/biz.digital.articles/DJB0ZCzJsJ4
+! DESPR: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.22
+! End-Of-Life for DF112-AA/AM and DF124-AA/AM: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.39
+! DF242-CA: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.23
+! DFA01: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.15
+! DHQ11: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.6
+! GIGAswitch/ATM: https://groups.google.com/forum/#!topic/biz.digital.articles/GSYt_kABFzs
+! MUXserver 90: https://groups.google.com/forum/#!original/biz.dec/dJlqqhz1VB8/hW9jpKreeDQJ
+! PEswitch 900TX: https://groups.google.com/forum/#!topic/biz.digital.articles/o9NIsf-S-9k
+! PORTswitch 900 Family: https://groups.google.com/forum/#!topic/biz.digital.articles/T7fle7L1-zU
+! TRNcontroller 700: https://groups.google.com/forum/#!topic/biz.dec.decnews/2AjqnREkoP8
+! WANrouter90: http://odrc2.flexbl.co.uk/mediawiki/index.php/Digital_Customer_Update_1994-11-03#AlphaStation_200_Family_of_64-bit_Desktop_Workstations
+
+**Start-comms-entry{DELQA}
+**Def-lref{1} = ref{DEC-PR-1987-09-08}
+**Announcement**vref{1}: 1987-09-08
+**Board-size**vref{1}: Dual
+**AC-bus-load**vref{1}: 2.2
+**DC-bus-load**vref{1}: 0.5
+**5V-current**vref{1}: 2.5A
+**12V-current**vref{1}: 0.5A
+**End-comms-entry{DELQA}
+
+**Start-comms-entry{DECNIS500}{NIS}
+**Def-lref{1} = ref{CU-1991-10-18}
+**Sys-name: DECnis 500
+**Desc-name: DEC Network Integration Server 500
+**Slots**vref{1}: 4
+**Announcement**vref{1}: 1991-10-18
+**End-comms-entry{DECNIS500}
+
+**Start-comms-entry{DECNIS600}{NIS}
+**Def-lref{1} = ref{CU-1991-10-18}
+**Sys-name: DECnis 600
+**Desc-name: DEC Network Integration Server 600
+**Announcement**vref{1}: 1991-06
+**Slots**vref{1}: 9
+**End-comms-entry{DECNIS600}
+
+**Start-comms-entry{DEFAR}{NIS}
 **Sys-name: DECrepeater 90FA
 **DEF-lref{1} = ref{EK-DEFAR-OM.A01}
 **Interfaces**htref{1}: {AUI}{ThinWire}{10Base-FL}
@@ -341,6 +398,19 @@
 **Dimensions-end{DETPR-R}
 **End-comms-entry{DETPR}
 
+**Start-comms-entry{DS90M}{TERMSERVER}
+**Sys-name: DSRVH
+**Desc-name: DECserver 90M Terminal Server
+**Def-lref{1} = ref{CU-1993-05-10}
+**Announcement**vref{1}: 1993-05-10
+**Memory**vref{1}: 4 MB
+**Ports**vref{1}: 8
+**Speed**vref{1}:  up to 57.6 kbps
+**Data-bits**htref{1}: 8
+**Port-interface**vref{1}: MJ8
+**Network-interface**vref{1}: ThinWire, 10BaseT, DEChub
+**End-comms-entry{DS90M}
+
 **Start-comms-entry{DS100}{TERMSERVER}
 **Sys-name: DECserver 100 Terminal Server
 **Def-lref{1} = ref{AA-Z085A-TK}
@@ -411,12 +481,14 @@
 **Start-comms-entry{DS700}{TERMSERVER}
 **Sys-name: DECserver 700 Terminal Server
 **Def-lref{1} = ref{EK-DSRVW-MG.001}
+**Def-lref{2} = ref{CU-1992-01-31}
+**Announcement**vref{2}: 1992-01-31
 **Sessions-per-port**htref{1}: 4					
 **Ports**htref{1}: {8 (700-8)}{16 (700-16}
 **Port-interface**htref{1}: {RS-232 (700-8)}{RJ45(700-16}}
-**Network-interface**htref{1}: AUI or 10BaseT
-**Minimum-memory**htref{1}: 1MB
-**Maximum-memory**htref{1}: 8MB
+**Network-interface**vref{2}: AUI or 10BaseT
+**Minimum-memory**vref{2}: 1MB
+**Maximum-memory**vref{2}: 8MB
 ! ref_1: memory configs: two slots 1MB SIMM or 4MB SIMM in either 70ns or 80ns 36-bit -->
 **Dimensions-start{DS700}
 **Height**htref{1}: 44mm
@@ -469,17 +541,20 @@
 **End-comms-entry{DS90L}
 
 **Start-comms-entry{DS90LP}{TERMSERVER}
-**Sys-name: DECserver 90L+ Terminal Server
+**Sys-name: DSRVG
+**Desc-name: DECserver 90L+ Terminal Server
 **Def-lref{1} = ref{EK-DSRVD-OM-001}
 **Def-lref{2} = ref{EK-DSRVG-OM.001}
-**Sessions-per-port**htref{2}: 4
-**Ports**htref{2}: 8
+**Def-lref{3} = ref{CU-1992-01-31}
+**Announcement**vref{3}: 1992-01-31
+**Sessions-per-port**vref{3}: 4
+**Ports**vref{3}: 8
 **LAT-version**htref{2}: V5.0
-**Speed**htref{2}: 1.2K to 38.4K
+**Speed**vref{3}: 1.2K to 38.4K
 **Data-bits**htref{2}: 8
-**Port-interface**htref{2}: DEC423
+**Port-interface**vref{3}: DEC423
 **Flow-control**htref{2}: XON/XOFF or disabled
-**Network-interface**htref{2}: ThinWire or DEChub
+**Network-interface**vref{3}: ThinWire or DEChub
 **Dimensions-start{DS90LP}
 **Height**htref{2}: 31.8mm
 **Width**htref{2}: 273.1mm
@@ -498,6 +573,58 @@
 **Power-end{DS90LP-240V}
 !-- ref_2: DS90L+ requires 1.0A at 4.75V to 5.25V -->
 **End-comms-entry{DS90LP}
+
+**Start-comms-entry{DS90TL}{TERMSERVER}
+**Sys-name: DSRVE
+**Desc-name: DECserver 90TL Terminal Server
+**Def-lref{1} = ref{CU-1992-01-31}
+**Def-lref{1} = ref{CU-1992-03-13}
+**Announcement**vref{1}: 1992-01-31
+**Ports**vref{1}: 8
+**Speed**vref{1}: 75 to 57.6K
+**Port-interface**vref{1}: MJ8
+**Network-interface**vref{1}: ThinWire or DEChub
+**Dimensions-start{DS90TL}
+**Height**vref{2}: 31.8mm
+**Width**vref{2}: 273.1mm
+**Depth**vref{2}: 140.0mm
+**Weight**vref{2}: 0.77kg
+**Dimensions-end{DS90TL}
+**End-comms-entry{DS90TL}{TERMSERVER}
+
+**Start-comms-entry{DS900GM}{TERMSERVER}
+**Sys-name: DSRVY
+**Desc-name: DECserver 900GM Terminal Server
+**Def-lref{1} = ref{CU-1995-02-15}
+**Announcement**vref{1}: 1995-02-15
+**FRS-date**vref{1}: 1993-10
+**Ports**vref{1}: 32
+**Speed**vref{1}:  up to 115.2 kbps
+**Maximum-Memory**vref{1}: 8 MB
+**End-comms-entry{DS900GM}
+
+**Start-comms-entry{DS900TM}{TERMSERVER}
+**Sys-name: DSRVZ
+**Desc-name: DECserver 900TM Terminal Server
+**Def-lref{1} = ref{CU-1993-08-30}
+**Announcement**vref{1}: 1993-08-30
+**FRS-date**vref{1}: 1993-10
+**Minimum-Memory**vref{1}: 4 MB
+**Maximum-Memory**vref{1}: 8 MB
+**Ports**vref{1}: 32
+**Speed**vref{1}:  up to 115.2 kbps
+**Network-interface**vref{1}: DEChub ONE or DEChub 900
+**End-comms-entry{DS90M}
+
+**Start-comms-entry{DSYT1}{SYNCH}
+**Sys-name: DSYT1
+**Desc-name: DEC WANcontroller 720
+**Def-lref{1} = ref{CU-1992-06-05}
+**Def-lref{2} = ref{CU-1994-01-03}
+! **Announcement**vref{2}: 1994-01-03 for the DSYT1-BA variant that adds AXP support
+**Bus**vref{1}: TURBOchannel
+**Synch-ports**vref{1}: {2 @ 64kB/s} {1 @ 1.544Mb/s}
+**End-comms-entry{DSYT1}
 
 **Start-comms-entry{LB100}{BRIDGE}
 **Sys-name: LAN Bridge 100 Ethernet Bridge
@@ -623,3 +750,73 @@
 **Weight**htref{1}: 4.5kg
 **Dimensions-end{LB150-R}
 **End-comms-entry{LB150}
+
+
+**Start-comms-entry{DF124-CA}{MODEM}
+**Def-lref{1} = ref{CU-1991-09-06}
+! ref{CU-1991-09-06} also mentions the DF124-CM
+**Sys-name: DF124-CA SCHOLAR PLUS Modem
+**Last-order-date**vref{1}: 1991-06-29
+**End-comms-entry{DF124-CA}
+
+**Start-comms-entry{DF129-AA}{MODEM}
+**Def-lref{1} = ref{CU-1991-09-06}
+! ref{CU-1991-09-06} also mentions the DF129-AM
+! from [1]:
+! The DF129 modems operate at 9600 bits per second. They provide synchronous, 
+! full-duplex, point-to-point communications over unconditioned, 4-wire, 
+! voice-grade leased lines.
+
+**Sys-name: DF129-AA Modem
+**Last-order-date**vref{1}: 1991-09-28
+**Speed**vref{1}: 9600 bps
+**End-comms-entry{DF129-AA}
+
+**Start-comms-entry{DF224-AA}{MODEM}
+**Def-lref{1} = ref{CU-1991-09-06}
+! from [1]
+! The DF224-AA Scholar modem is a full-duplex modem operating at 2400 bits per 
+! second in either synchronous or asynchronous mode over dial-up lines. 
+**Sys-name: DF224-AA Scholar Modem
+**Last-order-date**vref{1}: 1991-09-28
+**Speed**vref{1}: 2400 bps
+**End-comms-entry{DF224-AA}
+
+**Start-comms-entry{DF242-CA}{MODEM}
+**Def-lref{1} = ref{CU-1991-09-06}
+**Def-lref{2} = ref{CU-1991-09-27}
+! [1] mentions this as a replacement for the DF224-AA
+! [2]:
+! The Scholar Plus modem (DF242-CA) is a 2400 bit per second standalone, 
+! full-duplex modem that communicates either asynchronously at speeds of 2400, 
+! 1200, and 300 bits per second, or synchronously at 1200 and 2400 bits per 
+! second over dial-up lines. The DF242-CA product is compatible with the 
+! industry-accepted "AT" command language and meets CCITT V.22bis, CCITT V.22, 
+!Bell 212A, and Bell 103 compatibility recommendations.
+**Sys-name: DF242-CA Scholar Plus  Modem
+**Speed**vref{2}: 2400 bps
+**End-comms-entry{DF242-CA}
+
+**Start-comms-entry{DF296-DA}{MODEM}
+**Def-lref{1} = ref{CU-1991-09-27}
+**Def-lref{2} = ref{AA-ME85D-TE}
+**Sys-name: DECmodem V32
+**OS-support-ULTRIX**vref{2}: V4.0
+![1]:
+!The DECmodem V32 product is a 9600 bit per second high-speed modem that is 
+!available in either desktop (DF296-DA) or rackmount (DF196-DM) 
+!configurations. The DECmodem is a full V.32 compliant product and has 
+!complete security, AT compatibility, and MNP Level 4 and 5 protocols for 
+!online error correction and data compression. For a full product 
+!description, please contact your local Digital sales office.
+**Speed**vref{1}: 9600bps
+**End-comms-entry{DF296-DA}
+
+**Start-comms-entry{DECNA}{PRO}
+**Sys-name: DECNA
+**Desc-name: DECNA Ethernet LAN Controller
+**Def-lref{1} = ref{SUE-1984-05-28-V5-N23}
+! vref{1}: requires xoP/OS Hard Disk Version 2.0, also announced in this issue
+**Announcement**vref{1}: 1984-05-28
+**Dimensions**vref{1}: 5.2" x 12"
+**End-comms-entry{DECNA}

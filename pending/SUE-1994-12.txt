@@ -1,0 +1,28 @@
+{SUE-1994-12}
+
+Venturis 433sx, Venturis 450s2, Venturis 466, Venturis 4100, Venturis 560
+Venturis FP 450s2
+Venturis FP 466
+Venturis FP 4100
+
+DEClaser 3500 (LN14)
+
+Gigaswitch/ATM
+
+ATMworks 750 ATM Interface Card
+
+DE434 EtherWORKS PCI Turbo Network Interface Card
+
+DEC FDDIController/PCI
+
+FVS30 FDDI Storage Server
+
+Product Retirements
+
+CMR01 CMR11 CMR21 PC500 VDP40 VDP50 VRV02
+
+DECmodem V32 family
+
+
+
+

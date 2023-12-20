@@ -1,0 +1,101 @@
+{CU-1994-02-18}
+
+VELOCITOR High Performance Storage for UNIX and OpenVMS
+
+HIGHLIGHTS
+
+o  New HSJ30 array controller provides low cost, entry level CI subsystem 
+   supporting up to 18 storage devices and delivers up to 800 I/Os per 
+   second; upgradable to HSJ40; cache options available up to 32 Mbytes
+
+o  New HSJ42 controller is a high performance, dual HSJ40 package supporting 
+   up to 72 devices and delivering up to 2200 I/Os per second 
+
+o  New HSJ44 controller supports up to 144 devices and provides performance 
+   up to 4400 I/Os per second, combining high performance, high 
+   availability, and connectivity into easy-to-order, specially priced 
+   solution
+
+o  HSJ40 controller continues as core of HSJ family now offering a low entry 
+   cost, competitive price/performance, modular expandability, and linear 
+   scalability
+
+TL820 DLT Based 5.2 Tbyte Automated Tape Library
+
+COMPARISON WITH DIGITAL'S OTHER AUTOMATED TAPE LIBRARIES
+
+In addition to the TL820 automated tape library, Digital offers three 
+libraries to support 3480/3490 cartridges. The TL820 ATL is the best choice 
+for lowest cost per megabyte and a small footprint. Choose a 3480/3490 
+library if you need compatibility for data interchange. 
+
+                     TL820                     	                StorageTek 
+                     Automated    TVL3B ATL    Wolfcreek        Full Silo
+                     DLT Library  (3480/3490)  (3480/3490)      (3480/3490)
+
+Drives per Library   3		  2	       4 or 8		Up to 16
+Cartridges	     264	  288	       Up to 1000	6000
+Cartridge Capacity   20 GB	  400 MB       400 MB or 1.6 GB	400 MB or 1.6 GB
+Total Storage	     5.2 TB	  115 GB       400 GB or 1.6 TB	2.4 TB or 9.6 TB
+Max. No. of Towers   5		  5	       16		16
+Approx. Cost/MB	     $0.02	  $0.87	       $0.75 or $0.25	$0.21 or $0.08
+
+DECpc 425 SE and DECpc 425 SE Color Portable PCs
+
+DEC 2000 Model 500 AXP Server
+
+The DEC 2000 Model 500 AXP server includes:
+
+o  A DECchip 150 MHz 21064 CPU with 512 Kbytes of secondary cache.
+
+o  Memory: 32 Mbytes minimum to 128 Mbytes maximum; parity memory using 70 
+   ns industry standard SIMMs.
+
+o  Six EISA slots, all bus mastering:
+   - One Adaptec 1742A SCSI adapter, included in the base configuration.
+   - SCSI adapter options, including Adaptec 1740.
+   - Digital DE422 EISA Ethernet options.
+   - COMPAQ QVision 1024E 1024 x 768 SVGA graphics adapter supported by all 
+     operating systems; Windows NT Advanced Server supports additional 
+     graphics options for 1280 x 1024.
+
+WANrouter 400
+
+
+PRODUCTS BEING RETIRED
+
+VRM17 and VRT16 DECstation and
+VAXstation Packages:
+VAXstation 4000 Model VLC/60, VRM17    Effective    Effective	SBB/VR319
+(PV31A-AD/AE, PV61U-CA/CB/CC)	       Immediately  Immediately
+VAXstation 4000 Model VLC/60, VRT16    Effective    Effective	SBB/VRC16
+(PV31A-CE/PV61A-AE)		       Immediately  Immediately
+DECstation 5000 Model 133, VRT16       Effective    Effective	SBB/VRT19
+(PM327-SD/SE/SF/TD/TF)		       Immediately  Immediately
+
+
+Other Systems and Options:
+VRM17 DECstation Packages: 
+DECstation 5000 Model 33, VRM17	       Effective    Effective	See Note 4
+(PM300-FA/FB/FC)		       Immediately  Immediately
+RZ25 DECstation Packages:
+DECstation 5000 Model 50, RZ25	       Effective    4/1/94	See Note 4
+(PM400-NA/NB/NC/NG/NH/NJ)	       Immediately
+DECstation 5100, 8MB, RZ24, ULTRIX     Effective    Effective	None
+4 user (DU-51MT1-A9)		       Immediately  Immediately
+DECsystem 5900 TCE option (PMTCE-BA)   Effective    4/1/94	None
+				       Immediately
+15" High-resolution mono/color	       Effective    Effective	None
+monitors (VR150-A3/AA, VR160-D4/DA)    Immediately  Immediately
+
+VAXstation 3100 OPTIONS:
+VAXstation 3100 Germany (PV01K-AG)     Effective    Effective	None
+and English/Irish (PV11K-AE) kits      Immediately  Immediately
+VAXstation 3100 upgrade option	       Effective    Effective	None
+(PV01U-AA)			       Immediately  Immediately
+SPX (WS01X-GA/GB) and SPX 8 plane      Effective    Effective	None
+options (WS01X-GE/GF)		       Immediately  Immediately
+VAXstation 3100 8 plane option	       Effective    Effective	None
+(VX40X-PA/PC)			       Immediately  Immediately
+GPX 8 plane option (VS40X-PD/PE)       Effective    Effective	None
+				       Immediately  Immediately

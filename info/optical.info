@@ -1,3 +1,6 @@
+! RRD43 and RRD44 CDROM Drives Highlights: https://groups.google.com/forum/#!topic/biz.dec.decnews/tl5SZL5GijI
+!    and http://odrc2.flexbl.co.uk/mediawiki/index.php/DIGITAL_Announces_StorageWorks_Capacity_Breakthrough_For_DSSI
+
 ! Intended for:
 ! CDROM/CD-R/CDRW etc.
 ! DVDROM/DVD-R etc.
@@ -8,6 +11,8 @@
 **Desc-name: RRD40 Optical Disc Drive
 **Def-lref{1} = ref{EK-RRD40-OM-002}
 **Def-lref{2} = ref{EK-302AB-OG-002}
+**Def-lref{3} = ref{DEC-PR-1989-01-09-RRD40}
+**Announcement**vref{3}: 1989-01-09
 **Capacity**htref{1}: 635MB
 **Average-transfer-rate**htref{1}: 175.2KB/s
 **Average-access**htref{2}: 500ms
@@ -37,6 +42,8 @@
 **Sys-name: RRD42
 **Desc-name: RRD42 CD-ROM Drive
 **Def-lref{1} = ref{EK-RRD42-OM-002}
+**def-lref{2} = ref{CU-1991-12-20}
+**OS-support-eln**vref{2}: VAXELN V4.3
 **Capacity**htref{1}: 600MB
 **Average-transfer-rate**htref{1}: 150KB/s
 **Peak-transfer-rate**htref{1}: 1.5MB/s
@@ -64,12 +71,20 @@
 **Sys-name: RRD43
 **Desc-name: RRD43 CD-ROM Drive
 **Def-lref{1} = ref{EK-RRD43-IN.A02}
-**Capacity**lref{1}: 600MB
-**Average-transfer-rate**lref{1}: 300KB/s
+**Def-lref{2} = ref{CU-1994-03-14}
+**Def-lref{3} = ref{EK–RRDCD–IN.A01}
+**Announcement**vref{2}: 1994-03-14
+**OS-support-VMS**vref{2}: VMS V6.0 and OpenVMS AXP V1.5
+**OS-support-DU**vref{2}: OSF/1 AXP V1.3 and V2.0
+! vref{2} says Support for ULTRIX V4.4 is scheduled for early April 1994.
+**Capacity**vref{2}: 600MB
+**Average-transfer-rate**vref{3}: {1X: 150 KB/s}  {2X: 300 KB/s}
 **Peak-transfer-rate**lref{1}: 4.2MB/s
-**Average-access**lref{1}: 320ms
+**Average-access**vref{2,3}: 320ms
+**Read-ahead-cache**vref{2}: 64 KB
+**Loading**vref{2}: Tray
 **Start-time**lref{1}: 2.7s
-**Interface**lref{1}: SCSI-2
+**Interface**vref{2}: SCSI-2
 **Power-start{RRD43}
 **Supply**lref{1}: 240V 1/phase
 **I-nominal**lref{1}: 0.6A
@@ -94,14 +109,24 @@
 ! This is a Toshiba XM-3401BF (rev A01) or XM-3401BN (rev A02)
 **Sys-name: RRD44
 **Desc-name: RRD44 CD-ROM Drive
-**Capacity: 600MB
+**Def-lref{1} = ref{CU-1994-03-14}
+**Def-lref{2} = ref{CU-1995-10-15}
+**Announcement**vref{1}: 1994-03-14
+**Last-order**vref{2}: Past
+**Last-ship**vref{2}: 1995-10-31
+**OS-support-VMS**vref{1}: VMS V6.0 and OpenVMS AXP V1.5
+**OS-support-DU**vref{1}: OSF/1 AXP V1.3 and V2.0
+! vref{1} says Support for ULTRIX V4.4 is scheduled for early April 1994.
+**Capacity**vref{1}: 600MB
 **Form-factor: 5-1/4" half-height
 **Average-transfer-rate: 300KB/s
 **Peak-transfer-rate: 4.2MB/s
-**Read-ahead-cache: 256KB
-**Average-access: 200ms
+**Read-ahead-cache
+**Average-access**vref{2}: 200ms
 **Maximum-access: 330ms
-**Interface: SCSI
+**Read-ahead-cache**vref{1}: 256 KB
+**Loading**vref{1}: Caddy
+**Interface**vref{1}: SCSI
 **Dimensions-start{RRD44}
 **Label: RRD44 Embedded
 **Height: 43.0mm
@@ -110,6 +135,16 @@
 **Weight: 1.1kg
 **Dimensions-end{RRD44}
 **End-storage-entry{RRD44}
+
+**Start-storage-entry{RRD45}{SCSI}{RRD}
+**Sys-name: RRD45
+**Desc-name: RRD45 CD-ROM Drive
+**Def-lref{1} = ref{CU-1995-11-15}
+**Announcement**vref{1}: 1995-11-15
+**Capacity**vref{1}: 600 MB
+**Loading**vref{1}: Motorized Tray
+! vref{1}: 4x
+**End-storage-entry{RRD45}
 
 **Start-storage-entry{RRD46}{SCSI}{RRD}
 **Sys-name: RRD46
@@ -150,11 +185,29 @@
 **Dimensions-end{RRD50-T}
 **End-storage-entry{RRD50}
 
+**Start-storage-entry{RV20}{UNK}{OPTICAL}
+**Sys-name: RV20
+**Desc-name: RV20 Write-Once Optical Drive
+**Def-lref{1} = ref{CU-1992-09-21}
+**Def-lref{1} = ref{DEC-PR-1988-04-05}
+**Announcement**vref{1}: 1988-04-05
+**Last-order**vref{1}: 1992-12-31
+**Last-ship**vref{1}: 1993 Q1
+**Average-access**vref{2}: 150 - 250 ms
+**End-storage-entry{RV20}
+
+**Start-storage-entry{RV64}{UNK}{OPTICAL}
+**Sys-name: RV64
+**Desc-name: RV64 Optical Storage Library
+**def-lref{1} = ref{CU-1992-09-21}
+**Last-order**vref{1}: 1992-08-31
+**Last-ship**vref{1}: 1993 Q1
+**End-storage-entry{RV20}
+
 **Start-storage-entry{RWZ01-AA}{SCSI}{OPTICAL}
 **Sys-name: RZW01
-**Desc-name: 
+**Desc-name: RWZ01 Rewritable Optical Disk Drive
 **Def-lref{1} = ref{CU-1991-09-27}
-**Capacity**lref{1}: RWZ01 Rewritable Optical Disk Drive
 **Form-factor**vref{1}: 5.25"
 **Capacity**vref{1}: 594MB
 **OS-support-VMS**vref{1}: VMS V5.4-1
@@ -173,8 +226,30 @@
 
 **Start-storage-entry{RWZ21}{SCSI}{OPTICAL}
 **Def-lref{1} = ref{EK-RWZ21-MG.001}
+**Def-lref{2} = ref{CU-1993-03-08}
 **Sys-name: RWZ21
 **Desc-name: RWZ21 Magneto-Optical Drive
-**Interface**htref{1}: SCSI
+**Announcement**vref{2}: 1993-03-08
+**OS-Support-VMS**vref{2}: V5.5-1
+**OS-support-ULTRIX**vref{2}: V4.2A
+! MSDOS**vref{2}: 5.0  Infoserver**vref{2}: V2.0
+**Capacity**vref{2}: 128MB
+**Interface**vref{2}: SCSI
+**Dimensions-start{RZW21}
+**Height**vref{2}: 74mm
+**Width**vref{2}: 250mm
+**Depth**vref{2}: 285mm
+**Weight**vref{2}: 4.5kg
+**Dimensions-end{RZW21}
 **End-storage-entry{RWZ21}
+
+**Start-storage-entry{RWZ52}{SCSI}{OPTICAL}
+**Def-lref{1} = ref{DEC-PR-1994-06-06}
+**Sys-name: RWZ52
+**Desc-name: RWZ52 Magneto-Optical Drive
+**Announcement**vref{1}: 1994-06-06
+**Capacity**vref{1}: 1.2 GB
+**Average-access**vref{1}: 36.0 ms
+**Sustained-transfer-rate**vref{1}: 1.6 MB/s (read) 0.53 MB/s (write)
+**End-storage-entry{RWZ52}
 

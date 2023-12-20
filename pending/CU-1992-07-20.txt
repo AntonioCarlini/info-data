@@ -1,0 +1,461 @@
+{CU-1992-07-20}
+
+DECarray 400 (SF400)
+
+DECarray 900 with TA857 Tape Subsystem and ESE50 SSD
+
+Tx86 and Tx867 Tape Subsystems
+
+
+OpenVMS Version (see OpenVMS Restrictions/Comments below)
+
+		   	     SZ100/
+                   TZ85	     TZ857     TZ86      TZ867
+
+<5.3		   X	     X	       X	 X
+5.3		   3,4	     3,4       3,4,6	 3,4,6
+5.4		   3,4	     3,4       3,4,6	 3,4,6
+5.4-1		   0,4	     3,4       4,6	 3,4,6 
+5.4-2		   0,4	     3,4,5     4,6	 3,4,5,6
+5.4-3		   0 	     3,4,5     6 	 3,4,5,6
+5.5		   0	     3,4       6	 3,4,6
+5.5-1		   0	     3,4       6	 3,4,6
+
+NOTE: VAXsimPLUS software does not support SCSI devices.
+
+OpenVMS Restrictions/Comments
+
+X = Not supported.
+0 = No restrictions.
+1 = This system cannot boot from this tape.
+2 = Cannot perform odd byte transfers.  All SCSI devices are affected, but 
+    this problem is rare or non-existent with standard OpenVMS tape 
+    utilities, since one normally specifies byte counts as even numbers.
+3 = OpenVMS SHOW DEVICE command will indicate "generic SCSI tape" and ERROR 
+    LOGGING will indicate "GENERIC MK SUBSYSTEM".  This will have little 
+    impact on most applications.
+4 = In this version of OpenVMS software, STABACKIT.COM (standalone backup) 
+    is not supported.  You cannot create a standalone backup tape.
+5 = Sequential autoloading of tapes is not supported, for example, when 
+    doing a multivolume BACKUP (the timeout is too short for the cycling 
+    operation). Therefore, operator intervention will be required.
+6 = Writing CompacTape III media with the Tx85 format is not supported, 
+    since OpenVMS and ULTRIX software does not support density select.
+
+ULTRIX Supported Systems (see ULTRIX Restrictions/Comments below)                                                
+
+                               	         SZ100/
+                               TZ85      TZ857     TZ86	     TZ867
+
+DECstation 3100		       e	 e	   e	     e
+DECstation 5000 Model 20/25    e	 e	   e	     e
+DECstation 5000 Model 200      e	 e	   e	     e
+DECstation 5500		       e	 e	   e	     e
+DECstation 5900		       e	 e	   e	     e
+
+ULTRIX Version (see ULTRIX Restrictions/Comments below)
+                               	         
+                               	         SZ100/
+                               TZ85      TZ857     TZ86	     TZ867
+
+4.2			       b	 b,c	   a,b	     a,b,c
+4.2c			       0	 d	   a	     a,d
+
+NOTE: ULTRIX software prior to the V4.2c release does not support tape file 
+      lengths greater than 2.147 Gbytes. This is not an issue for local disk 
+      backup, since disk file systems are also limited to 2.147 Gbytes.  
+      However, certain applications may be capable of writing more than this 
+      amount of data to a tape and might react inappropriately to errors 
+      that can result when trying to do I/O or positioning past this 
+      software limit.
+ 
+ULTRIX Restrictions/Comments
+
+0 = No restrictions.
+a = Writing CompacTape III media with the Tx85 format is not supported, 
+    since operating system support of density selection is not available.
+b = Tape exerciser indicates inappropriate errors. Errors should be ignored 
+    (fixed in ULTRIX V4.2c).
+c = Sequential autoloading supported only when using the "mt off-line" 
+    command.
+d = Dump/restore utilities are the only utilities that support sequential 
+    autoloading.
+e = Booting is not supported; all other tape operations are supported.
+
+TLZ06 4.0 GB 4 mm Digital Audio Tape (DAT)
+
+The TLZ06 drive is the second member of Digital's 4 mm Digital Audio Tape 
+(DAT) family. It is smaller and faster than its predecessor, the TLZ04 tape 
+drive, and has a greater capacity and a lower price. These improvements make 
+it an excellent solution for backup, archiving, and data interchange on 
+small and midrange systems.
+
+POSITIONING
+
+The following low-end and midrange tape drives offered by Digital are either 
+Digital manufactured or purchased from external suppliers:
+
+Product	            TZ30    TZK10    TLZ04    TLZ06    TF85/TZ85   TF86/TZ86
+
+Capacity	    95 MB   525 MB   1.2 GB   4.0 GB   2.6 GB	   6.0 GB
+
+Form Factor	    HH	    HH	     FH	      HH       FH	   FH
+
+Transfer Rate	    63	    200	     183      366      800	   800
+(Kbytes per second)
+
+RZ26: Digital's Highest Performing 3.5-inch SCSI Disk
+
+HIGHLIGHTS
+
+o  High capacity, 1.05 Gbyte 3.5-inch SCSI-2 disk drive for MicroVAX 3100 
+   Model 30, 40, 80, and 90 systems
+
+o  9.5 ms average seek time, 15.1 ms average access time
+
+o  21 percent lower price per megabyte than RZ25 drive
+
+POSITIONING 3.5-INCH DISK DRIVE SERIES
+
+                              RZ23L      RZ24L      RZ25       RZ26
+
+Capacity (MB formatted)	      121	 245	    426	       1050 --> NEW
+Average seek time (ms)	      19	 16	    14	       9.5  --> NEW 
+Average access time (ms)      26.8	 22.9	    20.8       15.1 --> NEW 
+RPM			      3400	 4300	    4400       5400 --> NEW 
+Servo type		      Embedded	 Optional   Dedicated  Embedded
+
+Maximum transfer rates (Mbytes/sec):*
+ From media 		      1.5	 3.75	    3.2	       3.3
+ Across bus, asynchronous**   3.0	 4.0	    3.0	       5    --> NEW
+ Across bus, synchronous**    4.0	 5.0	    4.0	       10   --> NEW
+Buffer size (KB)	      64	 256	    60	       512  --> NEW 
+   
+*  Burst rate during the data transfer. Sustained throughput dependent on 
+   system configuration.
+
+** Maximum theoretical transfer across bus with buffering. MicroVAX 3100 
+   Model 30, 40, 80, and 90 systems support actual maximum 4.0 Mbytes per 
+   second synchronous; therefore, a 10 Mbyte per second transfer rate is not 
+   achievable on MicroVAX 3100 systems at this time.
+
+The RZ26 SCSI disk can be ordered now on MicroVAX 3100 Model 30, 40, 80, and 
+90 systems.
+
+RF31T Integrated Storage Element
+
+DSSI DISK POSITIONING
+
+                             RF31        RF73        RF35        RF31T
+
+Formatted capacity (MB)	     381	 2000	     852	 381
+Size			     5.25" HH	 5.25" FH    3.5"	 3.5"
+Media (type)		     TFM	 TFM	     TFM	 TFM
+No. of platters		     4		 11	     7		 7
+Heads (type)		     MIG	 TFH	     TFH	 TFH
+Interface		     DSSI	 DSSI	     DSSI	 DSSI
+Areal density		     
+(Mbits per square inch)	     56.4	 107	     128	 128
+Peak media transfer rate
+(Mbytes per second)	     2.0	 2.7	     3.3	 3.3
+Cache (tracks/read-ahead
+cache)			     4/128K	 11/512K     13/512K	 13/512K 
+RPM			     3600	 3600	     5400	 5400	    
+Average seek time (ms)	     15.3	 12.9	     9.5	  6.9
+			     		     	   (HI-SPEED MODE 5.5)
+Average access time (ms)     23.6	 21.2	     15.1	 12.5	    
+			     		     	  (HI-SPEED MODE 11.1)
+Power (typical)		     18.7 W	 23 W	     13.7 W	 13.7 W
+I/Os per second		     		 
+(at 100 ms completion time)  41		 47	     73		 84
+
+120/240 MB IDE Drives and 245 MB SCSI Drive
+
+PCXAR-CA	 120 MB IDE hard drive, 3.5-inch			    
+PCXAR-CB	 240 MB IDE hard drive, 3.5-inch			    
+PCXAR-AG	 245 MB SCSI hard drive, 3.5-inch
+
+PCXAR-CA SPECIFICATIONS
+
+Formatted Capacity
+
+o  Per drive (megabytes)	  122.4
+o  Per surface (megabytes)	  61.35
+o  Per block (bytes)		  512
+o  User blocks per track	  44-87
+o  Blocks per drive		  238,766
+o  Spare blocks per drive	  1818
+o  Spare tracks			  0
+
+Transfer Rate
+
+o  To/from media		  1.87 MB per second minimum
+   				  3.75 MB per second maximum
+o  At bus using programmed	  5.0 MB per second maximum 
+   I/O mode
+
+Seek Time* (includes settling)
+
+o  Track to track		  2.5 msec
+o  Head switch			  2.0 msec
+o  Average**			  16  msec
+o  Maximum (full stroke) 	  Less than or equal to 30 msec
+
+*  All times are typical for nominal power and environmental conditions.
+
+** Average seek time is determined by dividing the total time required to 
+   seek between all possible pairs of track addresses in the forward and 
+   reverse direction, by the total number of these possible seeks.
+
+Other Performance Factors
+
+o  Average rotational latency	  6.97 msec 
+o  Rotational speed (10.5%)	  4306 rpm
+o  Start time (sec)		  16 nominal, 20 maximum
+o  Stop time  (sec)		  16 nominal, 20 maximum
+o  Interleave			  1:1
+
+Functional Specifications
+
+o  Interface				   IDE
+o  Recording density (bpi at ID)	38,600
+o  Flux density (fci at ID)		29,000
+o  Track density (tpi)			 1,930
+o  Tracks per surface (formatted)	 1,818
+o  Read/write heads			     2
+o  Disks				     1
+o  ECC polynomial	   96 BIT REED-SOLOMON
+
+Drive Parameters
+
+   			  Physical	Logical
+o  Cylinders		     1,818	    901
+o  Heads			 2	      5
+o  Sectors		     44-87	     53
+o  Blocks per drive	   238,766	238,766
+
+Physical Specifications
+
+o  Height			  1.00 1 0.02 inches 
+o  Width			  4.00 1 0.01 inches
+o  Depth			  5.75 1 0.024 inches
+o  Weight			  1.05 lb			            
+
+PCXAR-CB SPECIFICATIONS
+         
+Formatted Capacity
+
+o  Per drive (megabytes)	  245.4
+o  Per surface (megabytes)	  61.35
+o  Per block (bytes)		  512
+o  User blocks per track	  44-87
+o  Blocks per drive		  238,766
+o  Spare blocks per drive	  1818
+o  Spare tracks			  0
+         
+Transfer Rate
+
+o  To/from media		1.87 MB per second minimum
+   				3.75 MB per second maximum
+o  AT bus using programmed 	5.0 MB per second maximum 
+   I/O mode
+
+Seek Time* (includes settling)
+                    
+o  Track to track		2.5 msec
+o  Head  switch			2.0 msec
+o  Average**			16 msec
+o  Maximum (full stroke) 	Less than or equal to 30 msec
+         
+*  All times are typical for nominal power and environmental conditions.
+         
+** Average seek time is determined by dividing the total time required to 
+   seek between all possible pairs of track addresses in the forward and 
+   reverse direction, by the total number of these possible seeks.
+
+Other Performance Factors
+
+o  Average rotational latency		6.97 msec 
+o  Rotational speed (10.5%)		4306 rpm
+o  Start time (sec)			16 nominal, 20 maximum
+o  Stop time  (sec)			16 nominal, 20 maximum
+o  Interleave				1:1
+
+Functional Specifications
+         
+o  Interface				   IDE
+o  Recording density (bpi at ID)	38,600
+o  Flux density (fci at ID)		29,000
+o  Track density (tpi)			 1,930
+o  Tracks per surface (formatted)	 1,818
+o  Read/write heads			     4
+o  Disks				     2
+o  ECC polynomial	   96 BIT REED-SOLOMON
+
+Drive Parameters
+   			  Physical	Logical
+o  Cylinders		     1,818	    723
+o  Heads			 4	     13
+o  Sectors		     44-87	     51
+o  Blocks per drive	   479,349	479,349
+
+Physical Specifications
+
+o  Height		 1.00 1 0.02 inches 
+o  Width		 4.00 1 0.01 inches
+o  Depth		 5.75 1 0.024 inches
+o  Weight		 1.05 lb
+
+PCXAR-AG SPECIFICATIONS
+
+Formatted Capacity
+
+o  Per drive (megabytes)	  245.4
+o  Per surface (megabytes)	  61.35
+o  Per block (bytes)		  512
+o  User blocks per track	  44-87
+o  Blocks per drive		  479,350
+o  Spare blocks per drive	  1818
+o  Spare tracks			  0
+
+Transfer Rate
+
+o  To/from media		  1.87 MB per second minimum
+   				  3.75 MB per second maximum
+o  Bus asynchronous mode      	  4.0 MB per second
+o  Bus synchronous mode       	  5.0 MB per second maximum
+
+NOTE: The maximum asynchronous speed depends on the cable length and the 
+      speed of the host.  The maximum synchronous speed may be drive 
+      firmware limited.
+
+Seek Time* (includes settling)
+
+o  Track to track		  2.5 msec
+o  Head switch			  2.0 msec
+o  Average**			  16  msec
+o  Maximum (full stroke) 	  Less than or equal to 30 msec
+
+*  All times are typical for nominal power and environmental conditions.
+
+** Average seek time is determined by dividing the total time required to 
+   seek between all possible pairs of track addresses in the forward and 
+   reverse direction, by the total number of these possible seeks.
+
+Other Performance Factors
+
+o  Average rotational latency	  6.97 msec 
+o  Rotational speed (10.5%)	  4306 rpm
+o  Start time (sec)		  16 nominal, 20 maximum
+o  Stop time  (sec)		  16 nominal, 20 maximum
+o  interleave			  1:1
+
+Functional Specifications
+
+o  Interface				  SCSI
+o  Recording density (bpi at ID)	38,600
+o  Flux density (fci at ID)		29,000
+o  Track density (tpi)			 1,930
+o  Tracks per surface (formatted)	 1,818
+o  Read/write heads			     4
+o  Disks				     2
+o  Time to process ECC	      200 microseconds
+o  ECC polynomial	  96 BIT REED-SOLOMON 
+
+Physical Specifications
+
+o  Height			  1.00 1 0.02 inches 
+o  Width			  4.00 1 0.01 inches
+o  Depth			  5.75 1 0.024 inches
+o  Weight			  1.05 lb
+
+MS7AA Alpha-ready Memory Options
+
+MS7AA-AA   	 64 MB VAX 7000 and VAX 10000 memory
+MS7AA-BA	 128 MB VAX 7000 and VAX 10000 memory
+MS7AA-CA	 256 MB VAX 7000 and VAX 10000 memory
+MS7AA-DA	 512 MB VAX 7000 and VAX 10000 memory
+
+Digital's new MS44-DC and MS44L-BC memory options optimize the performance 
+of the recently announced VAXstation 4000 Model 90, MicroVAX 3100 Model 90, 
+and compact VAX 4000 Model 100 systems. Designed in conjunction with the 
+system architectures, the new options provide flexibility and large 
+capacity.  You can configure your VAXstation 4000 Model 90, MicroVAX 3100 
+Model 90, and compact VAX 4000 Model 100 systems with the right amount of 
+memory to satisfy your increasing application and performance needs. Adding 
+memory reduces accesses to disk storage and increases throughput and/or 
+improves response times in many application environments.
+
+Model No.	 Description						    
+
+MS44-DC		 64 MB ECC memory (4 x 16 MB)
+MS44L-BC	 16 MB ECC memory (4 x 4 MB)
+
+The following table lists all the MS44 memory options and the systems in 
+which they are used.
+
+	 MS44-DC       MS44L-BC	    MS44-DA        MS44L-BA      MS44-AA
+         ------------  ------------ -------------  ------------	 -----------
+	 64 MB option  16 MB option 32 MB option   8 MB option	 4 MB option
+	 4x16 MB board 4x4 MB board 2x16 MB board  2x4 MB board	 1x4 MB board
+System	 4 slot	       4 slots	    2 slots	   2 slots	 1 slot
+-------	 ------------  ------------ -------------  ------------	 ------------
+
+compact VAX 4000 
+ Model 100     X	    X
+MicroVAX 3100 
+ Model 90      X	    X
+VAXstation 4000 
+ Model 90      X	    X
+VAXstation 4000 
+ Model 60      		    		 X	       X
+DECsystem 5100 		    X		 X
+MicroVAX 3100 
+ Model 80      		    		 X	       X
+MicroVAX 3100 
+ Models 30, 40 		    		 	       X
+VAXstation 3100 
+ Model 76      		    		 	       		    X
+
+
+
+DE422 DEC EtherWORKS EISA TP/BNC
+
+RF31 AND RF31F RETIRING
+
+The RF31E-AA, AF, SA, and SF options are 381 Mbyte DSSI 5.25-inch integrated 
+storage elements primarily for the VAX 4000 Model 200 and VAX 4000 Model 300 
+systems.  They are being replaced by the RF31T-AA, AF, SA, and SF options, 
+which are 381 Mbyte DSSI 3.5-inch integrated storage elements.
+
+Despite the difference in form factors of the two drives, the RF31T drive is 
+recognized as an RF31 by OpenVMS V5.3 and later.
+
+You will see increased benefits in performance at a low price with the new 
+RF31T drive. One RF31T drive fits into the same physical space as the RF31 
+drive and has more than double the performance.  You also have the option of 
+putting two RF31T drives in the same 5.25-inch slot that previously held one 
+RF31 drive. Adding the two RF31T drives increases performance by more than 
+four times over the RF31 drive.
+
+
+TLZ04 1.2 GB 4 MM DAT DRIVE RETIRING
+
+The TLZ04 DAT drive will be replaced by the next generation 4 mm DAT drive, 
+the TLZ06 (refer to the announcement article in this issue). The TLZ06 tape 
+has four times the capacity of the TLZ04 tape drive, twice the performance, 
+a smaller form factor, and a lower price.
+
+The TLZ06 tape drive has complete read and write compatibility with the 
+TLZ04 drive, ensuring coexistence and allowing investment protection for 
+your original purchase.
+
+The TLZ04 drive comes in a 5.25-inch full-height form factor.  The 3.5-inch 
+TLZ06 drive takes up half the space of a TLZ04 drive and provides 5.25-inch 
+adapter bracketry for enclosures that can accommodate only 5.25-inch 
+removable media devices.  In addition, the unused half of the 5.25-inch 
+cavity can be filled with a half-height RRD42 CDROM for software 
+distribution and loading, at a combined price that is less than the price of 
+a TLZ04 drive. This savings makes migrating from the TLZ04 drive to the 
+TLZ06 drive a very attractive solution, and the TLZ06 drive is the tape 
+drive of choice for many new Digital systems and workstations.

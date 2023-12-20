@@ -1,0 +1,32 @@
+{CU-1995-06-15}
+
+VT LAN40 WINDOWING NETWORK TERMINAL
+
+DIGITAL ALPHA VME 2100
+
+The Digital Alpha VME 2100 system is a variation of the AlphaServer  2100 
+systems. Designed for realtime and embedded  applications, the Alpha VME 
+2100 offers the popular VME64 I/O bus in place of the EISA bus that is part
+of other AlphaServer 2100 systems. It offers users the flexibility to choose 
+from over 4,000 existing VMEbus options and combine them with high 
+performance PCI options in one integrated rackmountable system package. It 
+has CPU, memory, and standard I/O features and  functionality that
+are identical to standard AlphaServer 2100 systems. The Alpha VME 2100 
+offers 19-inch rackmount packaging for versatility and reduced footprint; 
+and runs the Digital UNIX and OpenVMS operating systems.
+
+PRODUCT AND SERVICE RETIREMENTS
+______________________________________________________________________
+StorageWorks HSD05  	Canada withtelecommunications interface
+                        capabilities
+ARRAY CONTROLLERS   	The StorageWorks HSD05 Array Controllers are being 
+                        replaced by the HSD10 controllers, which provide the 
+                        same functionality but with more bandwidth. In
+			addition, the HSD10 controllers come in 16 MB and 32 
+                        MB read cache versions. Digital will continue
+			to support the HSD05 with a complete range of onsite
+			contract services.
+
+			Last Order Date: June 21, 1995
+			Migration: StorageWorks HSD10 Array Controllers
+

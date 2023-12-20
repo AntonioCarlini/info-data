@@ -1,0 +1,19 @@
+{CU-1993-07-12}
+
+RT-11 V5.6 Support for the RQZX1 Adapter
+
+For users currently running RT-11 V5.6, no changes to the operating system 
+are needed to use the RQZX1. RT-11 V5.6 has been available since October, 
+1992.
+
+Products Being Retired
+
+PV710-**      VAXstation 4000 Model 90 		   7/16/93 8/27/93
+	      Configuration
+
+	      Services for PDP Systems:
+	      PDP-11/45, PDP-11/50, PDP-11/55,	   7/30/94
+	      PDP-14, PDP-15, PDP-12, PDP-14, 
+	      PDP-9, PDP-7, PDP-6, PDP-5, PDP-4,
+	      and PDP-1 systems
+

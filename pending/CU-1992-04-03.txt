@@ -1,0 +1,41 @@
+{CU-1992-04-03}
+
+SPXg and SPXgt 3D Graphics for VAXstation 4000 Model 60
+
+The 8-plane SPXg (PV61G-BA) option can be used for design automation 
+(CAD/CAE/CAM), molecular modeling, architectural design, and true-color 
+imaging applications. This option provides support for full double  
+buffering and 16-bit Z buffering.
+
+The higher performance, 24-plane SPXgt (PV61G-AA) option is designed for 3D 
+modeling and visualization applications. It supports full double buffering 
+and 24-bit Z buffering.
+
+MS44L-BA	 8 MB memory						    
+MS44-DA		 32 MB memory						    
+RZ25-EM		 426 MB disk, factory installed
+
+SF35 Storage Array Building Block and SF220 DECarray
+
+
+DSSI PRODUCT POSITIONING
+
+				  RF31      RF72      RF73      RF35
+
+Capacity MB(f)			  381	    1000      2000	852
+Size				  5.25"HH   5.25"FH   5.25"FH	3.5"
+Media (type)			  TFM	    TFM	      TFM	TFM
+# Platters			  4	    11	      11	7
+Heads (type)			  MIG	    MIG	      TFH	TFH
+Areal density (Mbits/sq. inch)	  56.4	    56.4      107	128
+Peak media x-rate (MB/sec)	  2.0	    2.0	      2.7	3.3
+Cache (tracks/read ahead cache)	  4/128K    4/128K    11/512K	13/512K
+RPM				  3600	    3600      3600	5400
+Avg. seek (ms)			  15.3	    13.4      12.9	9.5
+Avg. access (ms)		  23.6	    21.7      21.2	15.1
+Power (typical)			  18.7 W    23 W      23 W	13.4 W
+I/O/sec (100ms completion time)	  41	    44	      47	73
+
+WPS-PLUS for VMS V4.1
+
+RZ55 DISK DRIVE RETIRING

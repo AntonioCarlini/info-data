@@ -1,0 +1,47 @@
+{CU-1993-03-08}
+
+DECpos 320sx PC Based Point-of-Sale Terminal
+
+GIGAswitch for Easy Evolution to Switched Networks
+
+The GIGAswitch platform has 14 slots, of which 3 are reserved for system 
+components while the other 11 can be used for an optional redundant switch 
+control processor and for 2-port FDDI line cards. Redundant line cards can 
+be used and a redundant power supply included. Configurations can also 
+include redundant GIGAswitch systems.
+
+WaveLAN PC Network Interface Card for Wireless LANs
+
+
+PRODUCTS BEING RETIRED
+
+TA91 and TU91 products 	   6/30/93     9/25/93	   Digital will soon be 
+(parts and maintenance	   	       		   announcing an IBM 3480 com- 
+will continue to be 	   	       		   patible product that re-
+available)		   	       		   places this drive. If you 
+			   	       		   are considering a change, 
+			   	       		   look into the Digital Linear
+			   	       		   Technology family of tape 
+			   	       		   subsystems, TA8x7 and SA10x 
+			   	       		   products.
+
+(1)  The last order date for the RZ23L in VAXstation 4000 models VLC and 60 
+     is April 16, 1993, and the last ship date is July 2, 1993, in 
+     non-European countries.
+ 
+(2)  Digital will continue to support the RZ23L, RZ56, and RZ57 with its 
+     complete range of onsite "Hardware Only" and "Integrated Hardware and 
+     Software" service products for a minimum of seven years after the end 
+     of the product's manufacturing life. The availability of refurbished 
+     drives, spare parts, and trained engineers is ensured as a part of the 
+     standard end-of-life planning.
+
+     Digital will continue to make available both spare parts and DECmailer 
+     (board exchange) for at least seven years. The following parts continue 
+     to be supported by Digital for the RZ56 (29-27889-01 PCB, RZ56; 
+     29-27890-01 hard disk assembly, RZ56; 54-20136-01 SCSI interface card; 
+     and 54-20400-01 SCSI device I.D. panel) and the RZ57 (29-28158-01 HDA 
+     and frame assembly; and 29-28159-01 PCBA, RZ57).
+
+(3)  The last order date for the RZ57 in SZ12 and SZ16 field and factory 
+     variants is March 26, 1993, and the last ship date is April 30, 1993.
