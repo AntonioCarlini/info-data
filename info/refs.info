@@ -1856,6 +1856,12 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=211.3
 **End-ref{DEC-PR-1989-01-09-VS3520}
 
+**Start-ref{DEC-PR-1989-01-23}
+**Ref-text: New Storage, Options for MicroVAX 3000 Series
+**Ref-processed: Yes
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=235.1
+**End-ref{DEC-PR-1989-01-23}
+
 **Start-ref{DEC-PR-1989-01-24-VAX6300}
 **Ref-text: DEC Announces 
 **Ref-processed: Yes
@@ -1873,6 +1879,13 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-processed: Yes
 **Ref-url: https://eisner.decus.org/anon/htnotes/range?f1=PDP-11&f2=314.1
 **End-ref{DEC-PR-1990-05-07}
+
+**Start-ref{DEC-PR-1992-05-29}
+**Ref-text: DECnews/Digital Announces ESE50 Solid State Disk
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/g/biz.dec/c/MCoheO_7pUk/m/0uiBHJO0NvMJ
+**End-ref{DEC-PR-1992-05-29}
+
 
 **Start-ref{DEC-PR-1990-06-05}
 **Ref-text: DEC Announces the DEClaser 2100 and 2200
@@ -1898,23 +1911,41 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-url: https://groups.google.com/g/biz.dec/c/YRPeSVAawVw
 **End-ref{DEC-PR-1992-06-26}
 
+**Start-ref{DEC-PR-1992-09-29}
+**Ref-text: DECnews/Digital Extends Open Advantage to Mass Storage Subsystems
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/g/biz.dec/c/MCoheO_7pUk/m/0uiBHJO0NvMJ
+**End-ref{DEC-PR-1992-09-29}
+
 **Start-ref{DEC-PR-1992-10-26}
 **Ref-text: DEC Announces the DEClaser 1152 laser printer
 **Ref-processed: Yes
 **Ref-url: https://groups.google.com/forum/#!topic/biz.dec/bSMGP6gEYSk
 **End-ref{DEC-PR-1992-10-26}
 
-**Start-ref{DEC-PR-1993-11-12}
-**Ref-text: DEC Announces the DECchip 21040 Ethernet Controller
+**Start-ref{DEC-PR-1992-11-09}
+**Ref-text: DECnews/Digital's New Solid State Disks
 **Ref-processed: Yes
-**Ref-url: https://groups.google.com/forum/#!topic/biz.dec/8Ks0sIoo50Q
-**End-ref{DEC-PR-1993-11-12}
+**Ref-url: https://groups.google.com/g/biz.dec/c/baHCI-JrlDo/m/MK_TIEJ_SBgJ
+**End-ref{DEC-PR-1992-11-09}
 
 **Start-ref{DEC-PR-1993-05-14-TA92}
 **Ref-text: DEC TA92 Cartridge Subsystem Announcement
 **Ref-processed: Yes
 **Ref-url: https://groups.google.com/forum/#!topic/biz.dec/koOncHQofPg
 **End-ref{DEC-PR-1993-05-14-TA92}
+
+**Start-ref{DEC-PR-1993-09-07}
+**Ref-text: DECnews/Digital Announces New Generation of Text Terminals
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/g/biz.dec/c/Uazx8OCONU8/m/ieHuGqGSeQMJ
+**End-ref{DEC-PR-1993-09-07}
+
+**Start-ref{DEC-PR-1993-11-12}
+**Ref-text: DEC Announces the DECchip 21040 Ethernet Controller
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/forum/#!topic/biz.dec/8Ks0sIoo50Q
+**End-ref{DEC-PR-1993-11-12}
 
 **Start-ref{DEC-PR-1994-01-17}
 **Ref-text: DEC Announces the DECchip 21050 PCI to PCI Bridge
@@ -1933,6 +1964,12 @@ b**Start-ref{VAX-HW-HB-1986-V1}
 **Ref-processed: Yes
 **Ref-url: https://groups.google.com/forum/#!topic/biz.dec/FFYfM37fivM
 **End-ref{DEC-PR-1994-02-21}
+
+**Start-ref{DEC-PR-1994-03-08}
+**Ref-text: DECnews/StorageWorks Capacity Breakthrough For DSSI Systems Customers
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/g/biz.dec/c/MCoheO_7pUk/m/0uiBHJO0NvMJ
+**End-ref{DEC-PR-1994-03-08}
 
 **Start-ref{DEC-PR-1994-03-14-VAX4050}
 **Ref-text: DEC Announces the VAX 4000 Model 50 Upgrade

@@ -28,8 +28,10 @@
 **Start-storage-entry{EF51R}{DSSI}{SOLID}
 **Def-lref{1} = ref{CU-1992-11-23}
 **Def-lref{2} = ref{CU-1995-05-01}
+**Def-lref{3} = ref{DEC-PR-1992-11-09}
 **Sys-name: EF51R
 **Desc-name: EF51R Solid State Disk
+**Announcement**vref{3}: 1992-11-09
 **Last-order**vref{2}: 1995-06-30
 **Capacity**vref{1}: 107 MB
 **OS-support-VMS**vref{1}: V5.4-3
@@ -39,8 +41,10 @@
 **Def-lref{1} = ref{CU-1992-11-23}
 **Def-lref{2} = ref{CU-1995-05-01}
 **Def-lref{3} = ref{QS-VMS-V073}
+**Def-lref{4} = ref{DEC-PR-1992-11-09}
 **Sys-name: EF52R
 **Desc-name: EF52R Solid State Disk
+**Announcement**vref{4}: 1992-11-09
 **Last-order**vref{2}: 1995-06-30
 **Capacity**vref{1}: 205 MB
 **OS-support-VMS**vref{1}: V5.4-3
@@ -74,7 +78,8 @@
 **Desc-name: ESE50 120MB/600MB/1GB Solid State Disk
 **Def-lref{1} = ref{CU-1992-05-15}
 **Def-lref{2} = ref{CU-1995-05-01}
-**Announcement**vref{1}: 1992-5-15
+**Def-lref{3} = ref{DEC-PR-1992-05-29}
+**Announcement**vref{3}: 1992-05-29
 **FRS-date**uref{*SUE Sep 1992}: May 1992
 **Last-order**vref{2}: 1995-06-30
 **Capacity**vref{1}: {120MB} {600MB} {1GB}
@@ -208,9 +213,11 @@
 
 **Start-storage-entry{EZ58R}{SCSI_DISK}{SOLID}
 **Def-lref{1} = ref{EK-EZ5XX-UG.B01}
+**Def-lref{2} = ref{DEC-PR-1994-03-08}
 **Sys-name: EZ58R
 ! [1]: Maximum save time 16 min , min num of full save cycles: 1
 **Desc-name: EZ58R 855MB Solid State Disk
+**Announcement**vref{2}: 1994-03-08
 **Form-factor**lref{1}: 5-1/4" 
 **Capacity**lref{1}: 855.3MB
 **Interface**lref{1}: SCSI-2
@@ -541,9 +548,11 @@
 **Def-lref{3} = ref{CU-1993-01-04}
 **Def-lref{4} = ref{CU-1994-03-14}
 **Def-lref{5} = ref{CU-1993-05-10}
+**Def-lref{6} = ref{DEC-PR-1992-09-29}
 **Sys-name: RA73
 **Desc-name: RA73 Winchster Disk
 **Codename: Renner
+**Announcement**vref{6}: 1992-09-29
 **Last-order**vref{4}: 1994-05-06
 **Last-ship**vref{4}: 1994-07-29
 ! vref{3} says supported wityh restrictions (generic device) on VMS V5.4-2
@@ -1214,8 +1223,10 @@
 **Sys-name: RF71
 **Desc-name: RF71 Integrated Storage Element
 **def-lref{1} = ref{EK-RF71D-IM-001}
-**Capacity**uref{*28,*58}: 400MB
-**Form-factor**htref{1}: 5-1/4" full-height
+**def-lref{2} = ref{DEC-PR-1989-01-23}
+**Announcement**vref{2}: 1989-01-23
+**Capacity**vref{2}: 400MB
+**Form-factor**vref{2}: 5-1/4" full-height
 **Average-seek**uref{*28,*59,*58}: 21ms
 **Average-access**uref{*28,*58}: 29.3ms
 **Peak-transfer-rate**uref{*28,*59}: 1.5MB/s

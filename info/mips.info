@@ -584,7 +584,7 @@
 **FPU-chip**vref{1}: R3010A
 **Cache**vref{1}: 192 KB
 **Minimum-memory**vref{1}: 16MB
-**Maximum-memory**vref{1}: 480MB
+**Maximum-memory**vref{1}: 128MB
 **SPECmarks**vref{1}: 25.5
 **Bus-SCSI**vref{1}: 1 @ 5 MB/s
 **LAN-support**vref{1}: 1
