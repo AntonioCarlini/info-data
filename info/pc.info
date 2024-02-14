@@ -10,6 +10,49 @@
 ! Prioris LX: https://groups.google.com/forum/#!topic/biz.digital.articles/r8klpSf281A
 ! Prioris XL Server 575, 5100, and 5100DP (New Processor Variants): https://groups.google.com/forum/#!topic/biz.digital.articles/-2DfYZSZ7zE
 
+**Start-systems-entry{DECpc333sx-LP}{DECPC}{DECPC-LP}
+**Def-lref{1} = ref{DEC-PR-1992-08-25}
+**Sys-name: DECpc333sxLP
+**Desc-name: DECpc 333sx LP
+**Announcement**vref{1}: 1992-08-25
+**CPU-clock**vref{1}: 33 MHz
+**End-systems-entry{DECpc333sx-LP}
+
+**Start-systems-entry{DECpc340dx-LP}{DECPC}{DECPC-LP}
+**Def-lref{1} = ref{DEC-PR-1992-08-25}
+**Sys-name: DECpc340dxLP
+**Desc-name: DECpc 340dx LP
+**Announcement**vref{1}: 1992-08-25
+**End-systems-entry{DECpc340dx-LP}
+
+**Start-systems-entry{DECpc425sx-LP}{DECPC}{DECPC-LP}
+**Def-lref{1} = ref{DEC-PR-1992-08-25}
+**Sys-name: DECpc425sxLP
+**Desc-name: DECpc 425sx LP
+**Announcement**vref{1}: 1992-08-25
+**End-systems-entry{DECpc425sx-LP}
+
+**Start-systems-entry{DECpc433dx-LP}{DECPC}{DECPC-LP}
+**Def-lref{1} = ref{DEC-PR-1992-08-25}
+**Sys-name: DECpc433dxLP
+**Desc-name: DECpc 433dx LP
+**Announcement**vref{1}: 1992-08-25
+**End-systems-entry{DECPC433dx-LP}
+
+**Start-systems-entry{DECpc450d2-LP}{DECPC}{DECPC-LP}
+**Def-lref{1} = ref{DEC-PR-1992-08-25}
+**Sys-name: DECpc450dx2LP
+**Desc-name: DECpc 450d2 LP
+**Announcement**vref{1}: 1992-08-25
+**End-systems-entry{DECpc450d2-LP}
+
+**Start-systems-entry{DECpc466d2-LP}{DECPC}{DECPC-LP}
+**Def-lref{1} = ref{DEC-PR-1992-08-25}
+**Sys-name: DECpc466d2LP
+**Desc-name: DECpc 466d2 LP
+**Announcement**vref{1}: 1992-08-25
+**End-systems-entry{DECpc466d2-LP}
+
 **Start-systems-entry{LPvplus-4100}{DECPC}{PC433WS}
 **Def-lref{1} = ref{SUE-1994-06}
 **Sys-name: LPvPlus-4100

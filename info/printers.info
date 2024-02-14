@@ -3,7 +3,7 @@
 ! LP29-QA 2000 LPM Printer: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.35
 ! LA100-CA and LA100-CB retirement: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.42
 ! LA310 MultiPrinter: https://groups.google.com/forum/#!topic/biz.dec/d_ATnX5JWvc
-! LA600 MultiPrinter: https://groups.google.com/forum/#!topic/biz.dec/zCq1fCSUUi0
+! LA600 MultiPrinter: https://groups.google.com/forum/#!topic/biz.dec/zCq1fCSUUi0  https://groups.google.com/g/biz.dec/c/by5y2MuGek0/m/kyYEgQ51Id8J
 ! LA65 DECwriter: https://groups.google.com/forum/#!topic/biz.dec.decnews/KpXVqGkqeBc
 ! LG04plus: https://groups.google.com/forum/#!topic/biz.digital.articles/91DCd9SMnpY
 !  LJ250/LJ252: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.4
@@ -14,6 +14,7 @@
 ! PrintServer 17/600 : https://groups.google.com/forum/#!original/biz.dec/25xVUKOpo6o/PmbByQf8LoAJ
 ! PrintServer 32: https://groups.google.com/forum/#!topic/biz.dec/WxCiEgmo2DI
 ! PrintServer 32 plus: https://groups.google.com/forum/#!topic/biz.digital.articles/c8sTAs6yEfA
+! DEClaser 5100: https://groups.google.com/g/biz.dec/c/by5y2MuGek0/m/kyYEgQ51Id8J
 
 **Start-printers-entry{DCL1100}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-DCL11-SV.B01}
@@ -219,7 +220,8 @@
 **Sys-name: LA310
 **Desc-name: LA310 MultiPrinter
 **Def-lref{1} = ref{CU-1992-12-14}
-**Announcement**vref{1}: 1992-12-14
+**Def-lref{2} = ref{DEC-PR-1992-11-16}
+*Announcement**vref{2}: 1992-11-16
 **Print-speed**vref{1}: {300 cps high speed draft} {240 cps draft} {55 cps draft @ NLQ1} {55 cps draft @ NLQ2}
 **Protocols**vref{1}: DEC PPL2 (ANSI), Epson FX1050, IBM ProPrinter III
 **Interfaces**vref{1}: Serial (RS423) and Centronics parallel
@@ -626,8 +628,10 @@
 
 **Start-printers-entry{LPS32}{PRINTER}{LPS}
 **Def-lref{1} = ref{CU-1992-08-31}
+**Def-lref{2} = ref{DEC-PR-1998-09-08}
 **Sys-name: LPS32
 **Desc-name: PrintServer 32
+**Announcement**vref{2}: 1992-09-08
 **Print-speed**vref{1}: 32 pages/min
 **Monthly-usage**vref{1}: 150,000 pages
 **Input-capacity**vref{1}: 1500 sheets 
