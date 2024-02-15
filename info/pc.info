@@ -194,3 +194,15 @@
 **Sys-name: Prioris MTE
 **End-systems-entry{PRI-MTE}
 
+**Start-systems-entry{DECPC-433dx-MTE}{DECPC}{DECPC-MTE}
+**Sys-name: DECpc MTE
+**Def-lref{1} = ref{DEC-PR-1993-05-13}
+**Announcement**vref{1}: 1993-05-13
+**End-systems-entry{DECPC-433dx-MTE}
+
+**Start-systems-entry{DECPC-466d2-MTE}{DECPC}{DECPC-MTE}
+**Sys-name: DECpc MTE
+**Def-lref{1} = ref{DEC-PR-1993-05-13}
+**Announcement**vref{1}: 1993-05-13
+**End-systems-entry{DECPC-466d2-MTE}
+
