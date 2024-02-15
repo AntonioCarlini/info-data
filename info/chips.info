@@ -347,37 +347,40 @@
 **Part-number: Digital Semiconductor 21064 Alpha Microprocessor
 **Def-lref{1} = ref{EC-N0079-72}
 **Def-lref{2} = ref{EC-N0136-72}
+**Def-lref{3} = ref{EC-Q9ZUC-TE}
 **Codename: EV4
-**CPU-clock**htref{2}: {150MHz}{166MHz}{200MHz}
-**Instruction-cache**htref{1}: 8KB
-**Data-cache**htref{1}: 8KB write through
+**CPU-clock**vref{3}: {150MHz}{166MHz}{200MHz}
+**Instruction-cache**vref{3}: 8KB
+**Data-cache**vref{3}: 8KB write through
 **Icache-block-size**htref{1}: 32 bytes
-**Instruction-translation-buffer**htref{1}: 12 entry
-**Data-translation-buffer**htref{1}: 32 entry
-**Instruction-decode**htref{1}: Dual issue, in order
-**Integer-pipeline**htref{1}: 7 stage
-**FP-pipeline**htref{1}: 10 stage
-**Write-buffer**htref{1}: 4 entry
-**V-ss**htref{1}: -0.5V
-**V-dd**htref{1}: 3.6V
+**Instruction-translation-buffer**vref{3}: 12 entries
+**Data-translation-buffer**vref{3}: 32 entries
+**Instruction-decode**vref{3}: Dual issue, in order
+**Integer-pipeline**vref{3}: 7 stage
+**FP-pipeline**vref{3}: 10 stage
+**Write-buffer**vref{3}: 4 32-byte entries
+**V-ss**vref{3}: -0.5V
+**V-dd**vref{3}: 3.6V
 **Chip-power**htref{1}: 23W @ 150MHz
 **End-chips-entry{DC21064}
 
 **Start-chips-entry{DC21064A}{CHIP}{ALPHACPU}
 **Part-number: Digital Semiconductor 21064A Alpha Microprocessor
 **Def-lref{1} = ref{EC-N0079-72}
+**Def-lref{2} = ref{EC-Q9ZUC-TE}
 **Codename: EV45
-**Instruction-cache**htref{1}: 8KB
-**Data-cache**htref{1}: 8KB write through
+**CPU-clock**vref{3}: {233MHz}{275MHz}
+**Instruction-cache**vref{2}: 16KB
+**Data-cache**vref{2}: 16KB write through
 **Icache-block-size**htref{1}: 32 bytes
-**Instruction-translation-buffer**htref{1}: 12 entry
-**Data-translation-buffer**htref{1}: 32 entry
-**Instruction-decode**htref{1}: Dual issue, in order
-**Integer-pipeline**htref{1}: 7 stage
-**FP-pipeline**htref{1}: 10 stage
+**Instruction-translation-buffer**vref{2}: 12 entries
+**Data-translation-buffer**vref{2}: 32 entries
+**Instruction-decode**vref{2}: Dual issue, in order
+**Integer-pipeline**vref{2}: 7 stage
+**FP-pipeline**vref{2}: 10 stage
 **Write-buffer**htref{1}: 4 entry
-**V-ss**htref{1}: -0.5V
-**V-dd**htref{1}: 3.6V
+**V-ss**vref{2}: -0.5V
+**V-dd**vref{2}: 3.6V
 **Chip-power**htref{1}: 23W @ 150MHz
 **End-chips-entry{DC21064A}
 
