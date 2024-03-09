@@ -1701,6 +1701,7 @@
 **def-lref{4} = ref{OVMS-AT-TWENTY}
 **Def-lref{5} = ref{EG-21731-18}
 **Def-lref{6} = ref{VMS-V071-SPD}
+**Def-lref{7} = ref{EY-3459E-DP}
 **document = doc{DEC:EB-07466-20}
 **document = doc{DEC:EK-11780-UG-001}
 **document = doc{DEC:EK-SI780-IN-002}
@@ -1743,8 +1744,8 @@
 **Console-processor**vref{1}: LSI-11
 **Console-device**vref{1}: RX01
 **VUPs**vref{2}: 1.0
-**Minimum-memory**uref{*1}: 2MB
-**Maximum-memory**uref{*1}: 64MB
+**Minimum-memory**vref{7}: 0.25MB
+**Maximum-memory**vref{1}: 64MB
 **Physical-address-lines**vref{4}: 30
 **Memory-checking**vref{1}: 8-bit ECC/longword
 ! [1] has 800ns per 64-bit read, 1300ns per 64-bit read with SBE, 1400ns per 64-bit write
@@ -1846,7 +1847,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Console-processor**vref{1}: LSI-11
 **Console-device**vref{1}: RX01
 **VUPs**htref{2}: 1.7
-**Minimum-memory**htref{**1}: 2MB
+**Minimum-memory**vref{1}: 2MB
 **Maximum-memory**vref{1}: 64MB
 **Memory-checking**vref{1}: 8-bit ECC/quadword
 ! [1] 600ns per 64-bit read, 700ns per 64-bit read with SBE, 700ns per 64-bit write
