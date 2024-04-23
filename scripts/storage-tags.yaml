@@ -1,0 +1,456 @@
+---
+- Not-Allowed:
+  - Not Allowed
+  - Test entry
+  - never
+  - summary
+- Sys-name:
+  - System name
+  - System description
+  - storage
+- Html-target:
+  - HTML target
+  - HTML target (unused)
+  - all
+- Announcement:
+  - Announcement date
+  - Announcement date
+  - all
+  - summary
+  - required
+- Location:
+  - Used to specify HTML file location
+  - Used to specify HTML file location
+  - storage
+  - summary
+- FRS-date:
+  - FRS date
+  - First revenue ship date
+  - all
+  - summary
+- FCS-date:
+  - FCS date
+  - First customer ship date
+  - all
+  - summary
+- Last-order:
+  - Last order date
+  - Last order date
+  - all
+  - summary
+- Last-ship:
+  - Last ship date
+  - Last ship date
+  - all
+  - summary
+- EOSL:
+  - End of service life
+  - End of service life
+  - all
+  - summary
+- EOL:
+  - End of life
+  - End of life
+  - all
+  - summary
+- Codename:
+  - Codename
+  - Codename
+  - all
+  - summary
+  - required
+- Desc-name:
+  - Descriptive name
+  - Descriptive name
+  - all
+  - summary
+- OS-support-VMS:
+  - OS support (VMS)
+  - First version of VMS of a continuous range until the final version that supports this system
+  - all
+  - summary
+- OS-support-VMS-end:
+  - OS support (VMS)
+  - Final VMS version that supports this system
+  - all
+  - summary
+- OS-support-VMS-early:
+  - OS support (VMS)
+  - An early version of VMS that supports the system but followed by a gap in support
+  - all
+  - summary
+- OS-support-MDM:
+  - OS support (MDM)
+  - Range of MDM releases that support this device
+  - all
+  - summary
+- OS-support-ELN:
+  - OS support (ELN)
+  - Range of VAXELN releases that support this device
+  - all
+  - summary
+- OS-support-ULTRIX:
+  - OS support (ULTRIX)
+  - Range of ULTRIX versions that support this device
+  - all
+  - summary
+- OS-support-NT:
+  - OS support (NT)
+  - Range of WindowsNT versions that support this device
+  - all
+  - summary
+- OS-support-DU:
+  - OS support (Digital UNIX)
+  - Range of Digital Unix or Tru64 versions that support this device
+  - all
+  - summary
+- OS-support-DU-end:
+  - OS support (Digital UNIX)
+  - Final version of  Digital Unix or Tru64 that supports this device
+  - all
+  - summary
+- OS-support-SYSV:
+  - OS support (AT&T System V)
+  - Range of System V versions that support this device
+  - all
+  - summary
+- OS-support-SCO:
+  - OS support (SCO)
+  - Range of SCO versions that support this device
+  - all
+  - summary
+- OS-support-CRONIC:
+  - OS support (CRONIC)
+  - Range of CRONIC versions that support this device
+  - all
+  - summary
+- Firmware-version:
+  - Firmware version
+  - Firmware version
+  - all
+  - cpu_details
+- I/O-throughput:
+  - I/O throughput
+  - I/O throughput
+  - all
+  - io
+- Max-I/O-throughput:
+  - Max I/O throughput
+  - Max I/O throughput
+  - all
+  - io
+- Height:
+  - Height
+  - Height
+  - all
+  - dimensions
+- Width:
+  - Width
+  - Width
+  - all
+  - dimensions
+- Depth:
+  - Depth
+  - Depth
+  - all
+  - dimensions
+- Weight:
+  - Weight
+  - Weight
+  - all
+  - dimensions
+- Supply:
+  - Supply
+  - Mains supply characteristics
+  - all
+  - power
+- I-max:
+  - I(max)
+  - Maximum current drawn
+  - all
+  - power
+- I-inrush:
+  - I(inrush)
+  - Maximum inrush current
+  - all
+  - power
+- Power:
+  - Power
+  - Power consumption
+  - all
+  - power
+- Heat-dissipation:
+  - Heat dissipation
+  - Heat dissipation
+  - all
+  - power
+- Label:
+  - Label
+  - Label
+  - all
+  - power
+- Option-title:
+  - Options
+  - Options
+  - all
+  - option
+- Option:
+  - Option
+  - Option
+  - all
+  - option
+- Battery-Life:
+  - Battery Life
+  - Battery Life
+  - decpc
+  - summary
+- Capacity:
+  - Capacity
+  - Capacity
+  - all
+  - summary
+- Form-factor:
+  - Form factor
+  - Form factor
+  - all
+  - summary
+- Average-access:
+  - Average access
+  - Average access
+  - all
+  - io
+- Average-seek:
+  - Average seek
+  - Average seek
+  - all
+  - io
+- Maximum-seek:
+  - Maximum seek
+  - Maximum seek
+  - all
+  - io
+- Average-latency:
+  - Average latency
+  - Average latency
+  - all
+  - io
+- Head-switch-latency:
+  - Head switch latency
+  - Head switch latency
+  - all
+  - io
+- Track-track-seek:
+  - Track to track seek
+  - Track to track seek
+  - all
+  - io
+- Transfer-rate:
+  - Transfer rate
+  - Transfer rate
+  - all
+  - io
+- Spiral-transfer-rate:
+  - Sprial transfer rate
+  - Spiral transfer rate
+  - all
+  - io
+- Peak-transfer-rate:
+  - Peak transfer rate
+  - Peak transfer rate
+  - all
+  - io
+- Bytes-per-sector:
+  - Bytes per sector
+  - Bytes per sector
+  - all
+  - summary
+- Bytes-per-block:
+  - Bytes per block
+  - Bytes per block
+  - all
+  - summary
+- Sectors-per-track:
+  - Sectors per track
+  - Sectors per track
+  - all
+  - summary
+- Blocks-per-track:
+  - Blocks per track
+  - Blocks per track
+  - all
+  - summary
+- Tracks-per-drive:
+  - Tracks per drive
+  - Tracks per drive
+  - all
+  - summary
+- Buffer-size:
+  - Buffer size
+  - Buffer size
+  - all
+  - io
+- Track-density:
+  - Tracks density
+  - Tracks density
+  - all
+  - summary
+- Recording-density:
+  - Recording density
+  - Recording density
+  - all
+  - summary
+- Areal-density:
+  - Areal density
+  - Areal density
+  - all
+  - summary
+- Tracks-per-surface:
+  - Tracks per surface
+  - Tracks per surface
+  - all
+  - summary
+- Data-tracks-per-surface:
+  - Data-tracks per surface
+  - Data-tracks per surface
+  - all
+  - summary
+- Acoustic-noise:
+  - Acoustic noise
+  - Acoustic noise
+  - all
+  - summary
+- Error-correction:
+  - Error correction
+  - Error correction
+  - all
+  - summary
+- Interface:
+  - Interface
+  - Interface
+  - all
+  - summary
+- Read-ahead-cache:
+  - Read ahead cache
+  - Read ahead cache
+  - all
+  - summary
+- Read-ahead-tracks:
+  - Read ahead tracks
+  - Read ahead tracks
+  - all
+  - summary
+- Positive-5V-current:
+  - +5V current
+  - +5V current
+  - all
+  - summary
+- Positive-12V-current:
+  - +12V current
+  - +12V current
+  - all
+  - summary
+- Lifetime:
+  - Lifetime
+  - Lifetime
+  - all
+  - summary
+- Rotational-speed:
+  - Rotational speed
+  - Rotational speed
+  - all
+  - summary
+- Num-cylinders:
+  - Number of cylinders
+  - Number of cylinders
+  - all
+  - summary
+- Num-platters:
+  - Number of platters
+  - Number of platters
+  - all
+  - summary
+- Num-media-surfaces:
+  - Number of media surfaces
+  - Number of media surfaces
+  - all
+  - summary
+- Num-heads:
+  - Number of heads
+  - Number of heads
+  - all
+  - summary
+- Controller:
+  - Controller
+  - Controller
+  - all
+  - summary
+- Media-type:
+  - Media type
+  - Media type
+  - all
+  - summary
+- Head-type:
+  - Head type
+  - Head type
+  - all
+  - summary
+- Servo-type:
+  - Servo type
+  - Servo type
+  - all
+  - summary
+- Start-time:
+  - Start time
+  - Start time
+  - all
+  - summary
+- Stop-time:
+  - Stop time
+  - Stop time
+  - all
+  - summary
+- Noise:
+  - Noise
+  - Noise
+  - all
+  - summary
+- Airflow:
+  - Airflow
+  - Airflow
+  - all
+  - summary
+- Cache:
+  - Cache
+  - Cache
+  - all
+  - summary
+- Cache-tracks:
+  - Cache tracks
+  - Cache tracks
+  - all
+  - summary
+- Processor:
+  - Processor
+  - Processor
+  - all
+  - summary
+- Interleave:
+  - Interleave
+  - Interleave
+  - all
+  - summary
+- MTBF:
+  - Mean Time Between Failure
+  - Mean Time Between Failure
+  - all
+  - summary
+- Recording-mode:
+  - Recording mode
+  - Recording mode
+  - all
+  - summary
+- I-nominal:
+  - I (nominal)
+  - I (nominal)
+  - all
+  - summary
