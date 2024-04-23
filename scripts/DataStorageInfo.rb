@@ -1,6 +1,6 @@
 #!/usr/bin/ruby -w
 
-# Reads a storage definition file (e.g. disks.info) and allows production of YAML for any entries.
+# Reads a storage definition file (e.g. disks-scsi.info) and allows production of YAML for any entries.
 
 # Storage.create_from_info_file(info_filename)
 #  Builds a Storage object from a .info file.
