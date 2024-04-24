@@ -67,10 +67,6 @@ class Storage
     @text_block += extra_text
   end
 
-  def confidential(text)
-    @confidential = (text =~ /^yes$/ix)
-  end
-  
   # This function will be called when to_yaml() encounters an object of type Storage.
   # It encodes is data as though it were a hash of:
   #   { tag e.g. "FRS-date" => [value, ref#1, ref#2] }
@@ -311,7 +307,8 @@ class StorageDevices
             current.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
           end
         else
-          raise("On line #{line_num} in #{current.identifier()}, unknown tag [#{tag}] has been used. permitted=#{permitted_tags_uc}")
+          $stderr.puts("On line #{line_num} in #{current.identifier()}, unknown tag [#{tag}] has been used. permitted=#{permitted_tags_uc}")
+          fatal_error_seen = true
         end
       elsif line.strip().empty?()
         raise("Muffed empty line check")
