@@ -1,0 +1,126 @@
+**Start-storage-entry{TF70C}{DSSI}{TF}
+**Sys-name: TF70C
+**Desc-name: TF70C Cartridge Tape Drive
+! From [18]: DSSI bus interface, compatible with TK70, uses TK52-K cartridge
+**Capacity**uref{18}: 290MB
+**Peak-transfer-rate**uref{18}: 90KB/s:(user data)
+**End-storage-entry{TF70C}
+
+**Start-storage-entry{TF837}{DSSI}{TF}
+**Def-lref{1} = ref{EK-TF837-SM-001}
+**Def-lref{2} = ref{CU-1991-09-06}
+**Sys-name: TF837
+**Desc-name: TF837 Magazine Tape Subsystem
+!
+! The TF837 tape subsystem combines an automatic cartridge loading system and
+! a DSSI-based tape subsystem to provide a 2-GB backup capability.
+! Up to two TF837 systems may be incorporated into one SF200 cabinet.
+!
+![1] The internal tape drive is referred to as a TK71
+![1] Can read TK50 & TK52. Can write TK52 and native mode.
+!
+![1] Note that the tape drive writes only 296MB per cart
+**Capacity**htref{1}: 2GB
+**OS-support-VMS**htref{1}: V5.4
+**Last-order**vref{2}: 1991-07-25
+**Last-ship**vref{2}: 1991-08-15
+**Max-data-transfer-speed**uref{58}: 90KB/s:(user-data)
+**Media**htref{1}: Up to 7 TK-52 cartridges per magazine
+**Interface**htref{1}: DSSI
+**Power-start{TF837}
+**Power**htref{1}: 60W
+**Power-end{TF837}
+**Dimensions-start{TF837}
+**Height**htref{1}: 264.7mm
+**Width**htref{1}: 222.0mm
+**Depth**htref{1}: 685.4mm
+**Weight**htref{1}: 22.1kg
+**Dimensions-end{TF837}
+**End-storage-entry{TF837}
+
+**Start-storage-entry{TF85}{DSSI}{TF}
+**Def-lref{1} = ref{EK-OTF85-OM-002}
+**Def-lref{2} = ref{CU-1994-12-15}
+**Sys-name: TF85
+**Desc-name: TF85 Tape Cartridge Subsystem
+**Last-order**vref{2}: 1995-03-31
+**Capacity**lref{1}: 2.6GB
+![1] Will read TK50/TK52 carts
+**Read-write-speed**lref{1}: 100in/s
+**Recording-format**lref{1}: two-track parallel, serpentine 
+**Recording-density**lref{1}: 42500 bpi
+**Num-tracks**lref{1}: 48
+**Track-density**lref{1}: 96 tpi
+**Interface**lref{1}: DSSI
+**Power-start{TF85}
+**Positive-12V-current**lref{1}: 1.6A
+**Positive-5V-current**lref{1}: 4.5A
+**Power**lref{1}: 56W:(max)
+**Power-end{TF85}
+**End-storage-entry{TF85}
+
+**Start-storage-entry{TF857}{DSSI}{TF}
+**Def-lref{1} = ref{CU-1991-09-06}
+**Sys-name: TF857
+**Desc-name: TF857 Magazine Tape Subsystem
+!The TF857 tape subsystem is an upgraded version of the TF837 using a new
+!a DSSI-based tape subsystem to provide an 18.2-GB backup capability.
+!The system can read cartridges produced on TZ30, TK50 and TK70 drives.
+!It writes on a new cartridge type, the CompacTape III; each cartridge  holds
+!2.6-GB on 330m of half-inch MP tape.
+!% Several "packages":
+!%	TF85:	2.6GB, CompactTape III drive, DSSI interface
+!%	TF857:	TF85 with 7 cartridge magazine for 18.2GB
+!%	TZ85:	TF85 with SCSI interface
+!%	SZ100:	TF857 with SCSI interface
+!%
+!% Streaming drive, uses two tracks at a time serial serpentine recording.
+!% TK70 and TZK10 are single track.
+!
+**Announcement**vref{1}: 1991-03-11
+**Capacity**uref{60}: 18.2GB
+**Cache**uref{60}: 500KB
+**Read-write-speed**uref{121}: 100 in/s:(streaming)
+**Max-data-transfer-speed**uref{60,108,121}: 800KB/s:(user-data)
+**Repositioning-time**uref{121}: 1.3s
+**Media: Up to 7 cartridges per magazine
+**Interface**uref{60}: DSSI
+**Hard-error-rate**uref{60,108,121}: 10^17
+**Undetectable-error-rate**uref{60,108,121}: 10^30
+**Recording-format**uref{121}: 48-track serial serpentine fixed block
+!!**Recording-density**uref{121}: 42500 bit/s
+!! recording density should be bpi not bps - check this
+**Track-density**uref{121}: 96 tpi
+!% [121]:
+!%	Height	Width	Length	Weight	Power
+!%	TF85	5.70"	3.235"	8.44"	7lb	9W@5V,12W@12V
+!%	TF857	10.42"	8.74"	26.98"	65lb	35W (typ) 50W (max)
+**End-storage-entry{TF857}
+
+**Start-storage-entry{TF86}{DSSI}{TF}
+**Def-lref{1} = ref{EK-OTX86-OM-001}
+**def-lref{2} = ref{CU-1992-07-15}
+**def-lref{3} = ref{CU-1992-07-20}
+**def-lref{4} = ref{CU-1995-05-01}
+**Sys-name: TF86
+**Desc-name: TF86 Tape Cartridge Subsystem
+**Announcement**vref{2}: 1992-07-15
+**FCS-date**vref{3}: 1992-07-30
+**Last-order**vref{4}: 1995-05-19
+**Capacity**htref{1}: 6.0GB
+**OS-support-VMS**htref{1}: V5.4-2
+![1] Will read/write TK85 (2.6GB) and TK86 (6.0GB) both using CompacTape III media
+**Peak-transfer-rate**htref{1}: 800KB/s:(streaming)
+**Read-write-speed**htref{1}: 100 in/s
+**Recording-format**htref{1}: two-track parallel serpentine
+**Recording-density**htref{1}: 42500 bpi 
+**Num-tracks**htref{1}: 112
+**Track-density**htref{1}: 224 tpi
+**Interface**htref{1}: DSSI
+**Power-start{TF86}
+**Positive-12V-current**htref{1}: 1.6A
+**Positive-5V-current**htref{1}: 4.5A
+**Power**htref{1}: 56W:(max)
+**Power-end{TF86}
+**End-storage-entry{TF86}
+

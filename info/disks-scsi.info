@@ -1,0 +1,897 @@
+**Start-storage-entry{EZ51R}{SCSI}{SOLID}
+**Def-lref{1} = ref{EK-EZ5XX-UG.B01}
+**Sys-name: EZ51R
+! [1]: Maximum save time 2 min min num of full save cycles: 15
+**Desc-name: EZ51R 107MB Solid State Disk
+**Form-factor**lref{1}: 5-1/4" 
+**Capacity**lref{1}: 106.9MB
+**Interface**lref{1}: SCSI-2
+**Average-access**uref{142}: 0.25ms
+**Peak-transfer-rate**lref{1}: {6.9MB/s:to/from media}{10MB/s:to/from bus)}
+**Sectors-per-track**lref{1}: 50
+**Num-cylinders**lref{1}: 4176
+**I/O-throughput**uref{142}: 800 IO/s
+**Power-start{EZ51R}
+**Positive-12V-current**lref{1}: 1.10A
+**Power**lref{1}: 13.2W
+**Power-end{EZ51R}
+**Dimensions-start{EZ51R}
+**Height**uref{142}: 82.55mm
+**Width**uref{142}: 146.05mm
+**Depth**uref{142}: 203.2mm
+**Weight**uref{142}: 2.55kg
+**Dimensions-end{EZ51R}
+**End-storage-entry{EZ51R}
+
+**Start-storage-entry{EZ53}{SCSI}{SOLID}
+**Sys-name: EZ53
+**Desc-name: EZ53 267MB Solid State Disk
+**Capacity**uref{142}: 267MB
+**Average-access**uref{142}: 0.25ms
+**Peak-transfer-rate**uref{142}: 10MB/s:(synchronous)
+**I/O-throughput**uref{142}: 800 IO/s
+**Power-start{EZ53}
+**Power**uref{142}: 8W
+**Power-end{EZ53}
+**Dimensions-start{EZ53}
+**Height**uref{142}: 82.55mm
+**Width**uref{142}: 146.05mm
+**Depth**uref{142}: 203.2mm
+**Weight**uref{142}: 2.55kg
+**Dimensions-end{EZ53}
+**End-storage-entry{EZ53}
+
+**Start-storage-entry{EZ54R}{SCSI}{SOLID}
+**Def-lref{1} = ref{EK-EZ5XX-UG.B01}
+**Sys-name: EZ54R
+! [1]: Maximum save time 8 min , min num of full save cycles: 3
+**Desc-name: EZ54R 428MB Solid State Disk
+**Form-factor**lref{1}: 5-1/4" 
+**Capacity**lref{1}: 427.7MB
+**Interface**lref{1}: SCSI-2
+**Peak-transfer-rate**lref{1}: {6.9MB/s:to/from media}{10MB/s:to/from bus)}
+**Sectors-per-track**lref{1}: 50
+**Num-cylinders**lref{1}: 16706
+**Power-start{EZ54R}
+**Positive-12V-current**lref{1}: 1.40A
+**Power**lref{1}: 16.8W
+**Power-end{EZ54R}
+**Dimensions-start{EZ54R}
+**Dimensions-end{EZ54R}
+**End-storage-entry{EZ54R}
+
+**Start-storage-entry{EZ58R}{SCSI}{SOLID}
+**Def-lref{1} = ref{EK-EZ5XX-UG.B01}
+**Def-lref{2} = ref{DEC-PR-1994-03-08}
+**Sys-name: EZ58R
+! [1]: Maximum save time 16 min , min num of full save cycles: 1
+**Desc-name: EZ58R 855MB Solid State Disk
+**Announcement**vref{2}: 1994-03-08
+**Form-factor**lref{1}: 5-1/4" 
+**Capacity**lref{1}: 855.3MB
+**Interface**lref{1}: SCSI-2
+**Peak-transfer-rate**lref{1}: {6.9MB/s:to/from media}{10MB/s:to/from bus)}
+**Sectors-per-track**lref{1}: 50
+**Num-cylinders**lref{1}: 33414
+**Power-start{EZ58R}
+**Positive-12V-current**lref{1}: 2.05A
+**Power**lref{1}: 24.6W
+**Power-end{EZ58R}
+**Dimensions-start{EZ58R}
+**Dimensions-end{EZ58R}
+**End-storage-entry{EZ58R}
+
+**Start-storage-entry{PCXAR-AB}{SCSI}{PC}
+**Sys-name: PCXAR-AB
+**Desc-name: PCXAR-AB 426MB SCSI Disk
+**Def-lref{1} = ref{CU-1991-09-06}
+**Capacity**vref{1}: 426MB
+**Form-factor**vref{1}: 3.5"
+**Average-seek**vref{1}: 14ms
+**Buffer-size**vref{1}: 60KB
+**Weight**vref{1}:1.8lb
+**Interface**vref{1}: SCSI
+**End-storage-entry{PCXAR-AB}
+
+**Start-storage-entry{PCXAR-AD}{SCSI}{PC}
+**Sys-name: PCXAR-AD
+**Desc-name: PCXAR-AD 1 GB SCSI Disk
+**Def-lref{1} = ref{CU-1992-12-14}
+**Capacity**vref{1}: 1.0 GB
+**Form-factor**vref{1}: 3.5"
+**Average-seek**vref{1}: 10.5 ms
+**Bytes-per-block**vref{1}: 512
+**Num-platters**vref{1}: 7
+**Num-media-surfaces**vref{1}: 13
+**Rotational-speed**vref{1}: 5400rpm
+**Dimensions-start{PCXAR-AD}
+! vref{1} lists dimensions but in a confused format
+**Weight**vref{1}: 2.2 lb
+**Dimensions-end{PCXAR-AD}
+**Interface**vref{1}: SCSI
+**End-storage-entry{PCXAR-AD}
+
+**Start-storage-entry{PCXBR-AA}{SCSI}{PC}
+**Def-lref{1} = ref{CU-1991-09-06}
+**Sys-name: PCXBR-AA
+**Desc-name: PCXBR-AA 650B SCSI Disk
+**Capacity**vref{1}: 650MB
+**Form-factor**vref{1}: 5.25"
+**Buffer-size**vref{1}: 64KB
+**Interface**vref{1}: SCSI
+**End-storage-entry{PCXBR-AA}
+
+**Start-storage-entry{PCXBR-BB}{SCSI}{PC}
+**Def-lref{1} = ref{CU-1991-09-06}
+**Sys-name: PCXBR-BB
+**Desc-name: PCXBR-BB 1GB SCSI Disk
+**Capacity**vref{1}: 1MB
+**Form-factor**vref{1}: 5.25"
+**Buffer-size**vref{1}: 256KB
+**Interface**vref{1}: SCSI
+**End-storage-entry{PCXBR-BB}
+
+**Start-storage-entry{RZ22}{SCSI}{RZ}
+**Def-lref{1} = ref{EK-VSM30-OM-002}
+**Def-lref{2} = ref{EK-RZXXD-PS-005}
+**Def-lref{3} = ref{CU-1993-01-04}
+**Def-lref{4} = ref{DA-1989-01-09-RZxx}
+**Sys-name: RZ22
+**Desc-name: RZ22 52MB SCSI Disk
+**Announcement**vref{4}: 1989-01-09
+**Last-order**vref{3}: 1993-01-23
+**Last-ship**vref{3}: 1993-03-27
+**Capacity**vref{4}: 52 MB
+**Form-factor**vref{4}: 3-1/2" half-height
+!**Peak-transfer-rate**htref{1}: {1.25MB/s:to/from media}{1.25MB/s:to/from buffer)}
+**Peak-transfer-rate**vref{4}: 1.25 MB/s
+!**Average-access**uref{20}: 33.4ms
+**Average-access**vref{4}: 33 ms
+**Average-latency**htref{1}: 8.4ms
+**Average-seek**htref{1}: 25ms
+**Track-track-seek**htref{1}: 8ms
+**Maximum-seek**htref{1}: 45ms
+**Buffer-size**uref{*20}: 16KB
+**Bytes-per-block**htref{1}: 512
+**Blocks-per-track**htref{1}: 33
+**Tracks-per-drive**htref{1}: 3104
+**Rotational-speed**htref{1}: 3575rpm
+**Interface: SCSI
+**Start-time**htref{1}: 20s
+**Stop-time**htref{1}: 20s
+**Interleave**htref{1}: 1:1
+**Power-start{RZ22}
+**Positive-5V-current: 0.7A
+**Positive-12V-current:	0.5A
+**Power**htref{1}: 9W (max)
+**Heat-dissipation**htref{1}: 27.36 BTU/hr
+**Power-end{RZ22}
+**Dimensions-start{RZ22}
+**Height**htref{1}: 41.3mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 146.1mm
+**Weight**htref{1}: 0.78kg
+**Dimensions-end{RZ22}
+**End-storage-entry{RZ22}
+
+**Start-storage-entry{RZ23}{SCSI}{RZ}
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-302AB-OG-002}
+**Def-lref{3} = ref{EK-RZXXD-PS-005}
+**Def-lref{4} = ref{DA-1989-01-09-RZxx}
+**Sys-name: RZ23
+**Desc-name: RZ23 104MB SCSI Disk
+!! lref{2} above was lref{1} and needs to be re-checked
+**Announcement**vref{4}: 1989-01-09
+**Capacity**vref{4}: 104 MB
+**Form-factor**vref{4}: 3-1/2" half-height
+!**Peak-transfer-rate**htref{1}:	{1.25MB/s:to/from media}{1.66MB/s:(to/from buffer)}
+**Peak-transfer-rate**vref{4}:	1.25 MB/s
+! **Average-access**uref{20,*49}: 33.3ms
+**Average-access**vref{4}: 33 ms
+**Average-latency**htref{1}: 8.4ms
+**Average-seek**htref{1}: 25ms
+**Track-track-seek**htref{1}: 8ms
+**Maximum-seek**htref{1}: 45ms
+**Buffer-size**uref{*20}: 16KB
+**Bytes-per-sector**htref{2}: 512
+**Sectors-per-track**htref{2}: 33
+**Rotational-speed**htref{2}: 3575rpm
+! TODO **Interleave**uref{*109}**htref{2}: 1:1
+**Interface**htref{1}: SCSI
+**Power-start{RZ23}
+**Positive-5V-current**htref{1}: 0.7A
+**Positive-12V-current**htref{1}: 0.39A
+**Heat-dissipation**uref{*109}: {27.36 BTU/hr:(typical)}
+! Heat dissipation: 8W average	**htref{2}
+**Power-end{RZ23}
+**Dimensions-start{RZ23}
+**Height**htref{1}: 42.1mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 146.1mm
+**Weight**htref{1}: 0.83kg
+**Dimensions-end{RZ23}
+**End-storage-entry{RZ23}
+
+**Start-storage-entry{RZ23L}{SCSI}{RZ}
+**Sys-name: RZ23L
+**Desc-name: RZ23L 122MB SCSI Disk
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-A0718-TI.B01}
+**Def-lref{3} = ref{EK-RZXXD-PS-005}
+! TODO lref{4} was missing a ref
+**Def-lref{4} = ref{CU-1991-11-08}
+**Def-lref{5} = ref{CU-1993-03-08}
+!! above lref{2} was lref{1} and should be re-checked
+**Announcement**uref{108}: April 1991
+**Last-order**vref{5}: 1993-07-02
+**Last-ship**vref{5}: 1993-09-24
+**Capacity**vref{3}: 121MB
+**Form-factor**htref{3}: 3-1/2" half-height
+**OS-support-ultrix**uref{62}: Ultrix V4.1
+**Peak-transfer-rate**vref{4}:{3.0MB/s:(asynch)}{4.0MB/s:(synch)}{1.5MB/s:(to/from media)}
+**Average-access**vref{4}: 27ms
+**Average-latency: 8.8ms
+**Average-seek**vref{4}: 19ms
+**Track-track-seek**htref{1}: 8ms
+**Maximum-seek**htref{1}: 35ms ! 103=> 45ms -->
+**Buffer-size**vref{4}: 64KB
+**Bytes-per-sector**uref{103}: 512
+**Sectors-per-track**uref{103}: 33
+**Track-density**htref{2}: 1850tpi
+**Recording-density**htref{2}: 36250 bpi
+**Areal-density**htref{2}: 67.06 MB/sq inch
+**Recording-mode**htref{2}: Continuous frequency
+**Rotational-speed**vref{4}: 3500
+**Interface**htref{1}: SCSI
+**Power-start{RZ23L}
+**Power**htref{2}: 4.3W (seeking)
+**Heat-dissipation**uref{106}: 27.36 BTU/hr (typical)
+**Power-end{RZ23L}
+**Dimensions-start{RZ23L}
+**Height**htref{1}: 25.4mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 146.1mm
+**Weight**htref{1}: 0.54kg
+**Dimensions-end{RZ23L}
+**End-storage-entry{RZ23L}
+
+**Start-storage-entry{RZ24}{SCSI}{RZ}
+**Sys-name: RZ24
+**Desc-name: RZ24 209MB SCSI Disk
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-A0718-TI.B01}
+**Def-lref{3} = ref{EK-VSM30-OM-002}
+**Def-lref{4} = ref{EK-RZXXD-PS-005}
+! TODO lref{5} was missing a ref
+**Def-lref{5} = ref{CU-1991-11-08}
+**def-lref{6} = ref{CU-1991-12-20}
+**Def-lref{7} = ref{CU-1992-05-15}
+**Def-lref{8} = ref{AA-ME85D-TE}
+**Last-order**vref{7}: 1992-05-15
+**OS-support-ULTRIX**vref{8}: V4.0
+**OS-support-eln**vref{6}: VAXELN V4.3
+**Capacity**vref{5}: 209MB
+**Form-factor**htref{4}: 3-1/2" half-height
+**Peak-transfer-rate**vref{5}: {3.0MB/s:(asynch)}{4.0MB/s:(synch)}{1.5MB/s:(to/from media)}
+**Average-access**vref{5}: 24.6ms
+**Average-latency**htref{1}: 8.3ms
+**Average-seek**vref{5}: 16ms
+**Track-track-seek**htref{1}: 5ms
+**Maximum-seek**htref{1}: 35ms
+**Buffer-size**vref{5}: 64KB
+**Bytes-per-sector**htref{3}: 512
+**Sectors-per-track**htref{3}: 38
+**Track-density**htref{2}: 1700tpi
+**Recording-density**htref{2}: 31800bpi
+**Areal-density**htref{2}: 54.06 MB/sq inch
+**Recording-mode**htref{2}: Continuous frequency
+**Rotational-speed**vref{5}: 3500 rpm
+**Start-time**htref{3}: 20s (max)
+**Stop-time**htref{3}: 20s (max)
+**Interface**htref{1}: SCSI
+**Power-start{RZ24}
+**Positive-5V-current**uref{20}: 0.3A
+**Positive-12V-current**uref{20}: 0.4A
+**Power**htref{2}: 10.4W (seeking)
+**Heat-dissipation**htref{3}: 6.8W
+**Power-end{RZ24}
+**Dimensions-start{RZ24}
+**Height**htref{1}: 41.4mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 146.1mm
+**Weight**htref{1}: 0.77kg
+**Dimensions-end{RZ24}
+**End-storage-entry{RZ24}
+
+!!*** checked-up-to-here-only
+
+**Start-storage-entry{RZ24L}{SCSI}{RZ}
+**Sys-name: RZ24L
+**Desc-name: RZ24L 245MB SCSI Disk
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+**Def-lref{2} = ref{CU-1992-05-15}
+**Def-lref{3} = ref{CU-1993-09-27}
+**Def-lref{4} = ref{CU-1993-05-10}
+**Announcement**vref{2}: 1992-05-15
+**OS-support-ULTRIX**vref{4}: V4.3A
+**Last-order**vref{3}: 1993-12-24
+**Last-ship**vref{3}: 1994-03-25
+**Capacity**vref{2}: 245MB
+**Form-factor**vref{2}: 3.5"
+**Peak-transfer-rate**htref{1}: {4.0MB/s:(asynch)}{5.0MB/s:(synch)}{1.87MB/s:(to/from media)}
+**Average-latency**htref{1}: 6.97ms
+**Average-seek**vref{2}: 16ms
+**Average-access**vref{2}: 23ms
+**Maximum-seek**htref{1}: < 30ms
+**Buffer-size**vref{2}: 256KB
+**Track-density**htref{1}: 1930 tpi
+**Recording-density**htref{1}: 38600 bpi
+**Recording-mode**htref{1}: Zone bit recording
+**Num-heads**htref{1}: 4
+**Interface**htref{1}: SCSI
+**Power-start{RZ24L}
+**Power**htref{1}: 6.7W:(seeking)
+**Power-end{RZ24L}
+**End-storage-entry{RZ24L}
+
+**Start-storage-entry{RZ25}{SCSI}{RZ}
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-RZXXD-PS-005}
+**Def-lref{3} = ref{CU-1991-11-08}
+**def-lref{4} = ref{CU-1991-12-20}
+**def-lref{5} = ref{CU-1993-11-08}
+**Sys-name: RZ25
+**Desc-name: RZ25 426MB SCSI Disk
+**Announcement**vref{3}: 1991-11-08
+**Last-order**vref{5}: 1993-12-23
+**Last-ship**vref{5}: 1994-04-01
+**Capacity**vref{3}: 426MB
+**Form-factor**htref{2}: 3-1/2" half-height
+**OS-Support-vms**vref{3}: VMS V5.4-1
+**OS-Support-ultrix**uref{*108}: Ultrix V4.2
+**OS-support-eln**vref{4}: VAXELN V4.3
+**OS-Support-sco**uref{*108}: SCO Unix 3.2.2
+**Peak-transfer-rate**htref{1}: {4.0MB/s:(asynch)}{5.0MB/s:(synch)}{16MB/s-25MB/s:(to/from media)}
+! NB - from Personal DECstation 5000 User's Guide:
+!	asynch: 3.0MB/sec, synch: 4.0MB/s, media: 2.1-3.2MB/s	-->
+! vref{3}: bus-asynch: 4.0MB/s bus-synch: 5.0MB/s from media: 3.2MB/s
+**Average-access**vref{3}: 20.8ms
+**Average-latency**htref{1}: 6.8ms
+**Average-seek**vref{3}: 14ms
+**Track-track-seek**htref{1}: 2.5ms
+**Maximum-seek**htref{1}: 26ms
+**Buffer-size**vref{3}: 60KB
+**Bytes-per-sector**vref{3}: 512
+**Sectors-per-track**vref{3}: 48 - 74
+**Track-density**vref{3}: 1760tpi
+**Rotational-speed**vref{3}: 4400rpm
+**Interface**htref{1}: SCSI
+**Power-start{RZ25}
+**Positive-5V-current**vref{3}: 0.7A
+**Positive-12V-current**vref{3}: 0.7A
+**Power-end{RZ25}
+! vref{3}
+!Physical Characteristics
+! Form factor			3.5-inch
+! Height				1.625-inch
+! Width				4.0-inch
+! Depth				5.75-inch
+! Weight				1.8 lbs
+**Dimensions-start{RZ25}
+**Height**htref{1}: 41.4mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 146.1mm
+**Weight**htref{1}: 0.82kg
+**Dimensions-end{RZ25}
+**End-storage-entry{RZ25}
+
+**Start-storage-entry{RZ25L}{SCSI}{RZ}
+**Sys-name: RZ25L
+**Desc-name: RZ25L 535MB SCSI Disk
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+! TODO ref{2} was misformatted, verify
+**Def-lref{2} = ref{CU-1993-08-02}
+**Def-lref{3} = ref{CU-1995-06-01}
+**Announcement**vref{2}: 1993-08-02
+**Last-order**vref{3}: 1995-06-15
+**OS-support-VMS**vref{2}: V5.5-2 (OpenVMS AXP V1.5)
+**OS-support-DU**vref{2}: OSF V1.2
+**OS-support-ULTRIX**vref{2}: V4.3A
+**Capacity**vref{2}: 535MB
+**Peak-transfer-rate**htref{1}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{2.6MB/s-4.4MB/s:(to/from media)}
+**Average-access**vref{2}: 16ms
+**Average-latency**htref{1}: 5.6ms
+**Average-seek**vref{2}: 10.5ms
+**Maximum-seek**htref{1}: 20ms
+**Buffer-size**vref{2}: 240 KB
+**Rotational-speed**vref{2}: 5400 rpm
+**Blocks-per-track**htref{1}: 94.6 (average)
+**Track-density**htref{1}: 2150 tpi
+**Recording-mode**htref{1}: Zone bit recording
+**Num-heads**htref{1}: 7
+**Interface**vref{2}: SCSI-2
+**Power-start{RZ25L}
+**Power**vref{2}: 10.8W:(seeking)
+**Power-end{RZ25L}
+**End-storage-entry{RZ25L}
+
+**Start-storage-entry{RZ25M}{SCSI}{RZ}
+**Sys-name: RZ25M
+**Desc-name: RZ25M 535MB SCSI Disk
+**Def-lref{1} = ref{CU-1995-06-01}
+**Announcement**vref{1}: 1995-06-01
+**OS-support-VMS**vref{1}: V6.1-1H2
+**OS-support-DU**vref{1}: DEC OSF/1 V3.0B / 3.2
+**OS-support-NT**vref{1}: V3.5
+**Capacity**vref{1}: 535 MB
+**Form-factor**vref{1}: 
+**Rotational-speed**vref{1}: 4500 rpm
+**MTBF**vref{1}: 300000 hours
+**End-storage-entry{RZ25M}
+
+**Start-storage-entry{RZ26}{SCSI}{RZ}
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+**Def-lref{2} = ref{EK-RZXXD-RM-004}
+**Def-lref{3} = ref{CU-1992-07-15}
+**Def-lref{4} = ref{CU-1993-12-20}
+**Def-lref{5} = ref{CU-1993-05-10}
+**Sys-name: RZ26
+**Desc-name: RZ26 1.05GB SCSI Disk
+**Announcement**vref{3}: 15 July 1992
+**OS-support-ULTRIX**vref{5}: V4.3A
+**Last-order**vref{4}: 1994-02-25
+**Last-ship**vref{4}: 1994-04-01
+**Capacity**vref{3}: 1.05GB
+**Form-factor**uref{SUE Jul 1992 Spec}: 3-1/2"
+**Peak-transfer-rate**htref{1}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{3.3MB/s:(to/from media)}
+**Average-access**vref{3}: 15.1ms
+**Average-latency**htref{1}: 5.6ms
+**Average-seek**vref{3}: 9.5ms
+**Maximum-seek**htref{1}: 20ms
+**Buffer-size**htref{1}: 512KB
+**Blocks-per-track**htref{1}: 57
+**Track-density**htref{1}: 2756 tpi
+![2] has 55530bpi, 2756 tpi, 2627 tracks-per-surface
+**Recording-density**htref{1}: 56000 bpi
+**Areal-density**htref{1}: 154 MB/sq inch
+**Recording-mode**htref{1}: RLL 1,7
+**Num-heads**htref{1}: 14
+**Rotational-speed**htref{2}: 5363 rpm
+**Tracks-per-surface**htref{2}: 2627
+**Interface**htref{1}: SCSI
+**Power-start{RZ26}
+**Power**htref{1}: 16.5W:(seeking)
+**Power-end{RZ26}
+**End-storage-entry{RZ26}
+
+**Start-storage-entry{RZ26B}{SCSI}{RZ}
+**Sys-name: RZ26B
+**Desc-name: RZ26B 1.05GB SCSI Disk
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+**Def-lref{2} = ref{CU-1992-11-23}
+**Def-lref{3} = ref{CU-1993-12-06}
+**Def-lref{4} = ref{CU-1994-07-05}
+**Announcement**vref{2}: 1992-11-23
+!**Last-order**vref{3}: 1994-01-28
+**Last-order**vref{4}: 1994-08-26
+!**Last-ship**vref{3}: 1994-04-01
+**Last-ship**vref{4}: 1994-11-25
+**OS-support-VMS**vref{2}: V5.5-1
+**Capacity**vref{2}: 1.05GB
+**Peak-transfer-rate**htref{1}: {2.5MB/s:(asynch)}{5.0MB/s:(synch)}{2.6MB/s-4.4MB/s:(to/from media)}
+**Average-access**vref{2}: 16ms
+**Average-latency**htref{1}: 5.6ms
+**Average-seek**vref{2}: 10.5ms
+**Maximum-seek**htref{1}: 22ms
+**Buffer-size**htref{1}: 265KB
+**Blocks-per-track**htref{1}: 56 - 96
+**Track-density**htref{1}: 2304 tpi
+**Recording-density**htref{1}: 49986 bpi
+**Areal-density**htref{1}: 115.17 MB/sq inch
+**Recording-mode**htref{1}: RLL
+**Num-heads**htref{1}: 13
+**Interface**vref{2}: SCSI
+**Power-start{RZ26B}
+**Power**htref{1}: 16.1W (seeking)
+**Power-end{RZ26B}
+**End-storage-entry{RZ26B}
+
+**Start-storage-entry{RZ26L}{SCSI}{RZ}
+**Sys-name: RZ26L
+**Desc-name: RZ26L 1.05GB SCSI Disk
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+**Def-lref{2} = ref{CU-1993-12-06}
+! https://groups.google.com/forum/#!topic/biz.digital.articles/dBi1L23O4mA has announcement 01 Sep 1994
+**Announcement**vref{2}: 1993-12-06
+**OS-support-VMS**vref{2}: V6.0 and OpenVMS AXP V1.5
+**Form-factor**vref{2}: 3.5" (1" high)
+**Capacity**htref{1}: 1.05GB
+**Peak-transfer-rate**htref{1}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{2.7MB/s-5.6MB/s:(to/from media)}
+**Average-access**vref{2}: 15.1ms
+**Average-latency**htref{1}: 5.6ms
+**Average-seek**vref{2}: 9.5ms
+**Maximum-seek**htref{1}: 20ms
+**Buffer-size**htref{1}: 512KB
+**Blocks-per-track**htref{1}: 59 - 119
+**Track-density**htref{1}: 3256 tpi
+**Recording-density**htref{1}: 58000 - 61500 bpi
+**Areal-density**htref{1}: 191.4 - 200.3 MB/sq inch
+**Recording-mode**htref{1}: RLL 1,7
+**Num-heads**htref{1}: 8
+**Interface**vref{2}: SCSI
+**Power-start{RZ26L}
+**Power**htref{1}: 12.3W:(seeking)
+**Power-end{RZ26L}
+**End-storage-entry{RZ26L}
+
+**Start-storage-entry{RZ28}{SCSI}{RZ}
+**Sys-name: RZ28
+**Desc-name: RZ28 2.1GB SCSI Disk
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+! TODO ref{2} was missing CU-
+**Def-lref{2} = ref{CU-1993-08-02}
+**Def-lref{3} = ref{CU-1995-09-15}
+**Announcement**vref{2}: 1993-08-02
+**Last-order**vref{3}: 1995-09-30
+**Last-ship**vref{3}: 1995-12-31
+**Capacity**vref{2}:	2.1GB
+**Peak-transfer-rate**htref{1}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{2.7MB/s-5.5MB/s (to/from media)}
+**Average-access**htref{1}: 15.3ms
+**Average-latency**htref{1}: 5.6ms
+**Average-seek**htref{1}: 9.7ms
+**Maximum-seek**htref{1}: 19ms
+**Buffer-size**htref{1}: 1MB
+**Blocks-per-track**htref{1}: 59 - 118
+**Track-density**htref{1}: 3256tpi
+**Recording-density**htref{1}: 58400 - 64000 bpi
+**Areal-density**htref{1}: 187.6 - 216.11 MB/sq inch
+**Recording-mode**htref{1}: RLL 1,7
+**Num-heads**htref{1}: 16
+**Interface**vref{2}: SCSI-2
+**Power-start{RZ28}
+**Power**htref{1}: 16.6W:(seeking)
+**Power-end{RZ28}
+**End-storage-entry{RZ28}
+
+**Start-storage-entry{RZ28B}{SCSI}{RZ}
+**Sys-name: RZ28B
+**Desc-name: RZ28B 2.1GB SCSI Disk
+**Def-lref{1} = ref{EK-A0718-TI.B01}
+**Def-lref{2} = ref{CU-1994-04-25}
+**Announcement**vref{2}: 1994-04-25
+**Capacity**vref{2}: 2.1GB
+**Peak-transfer-rate**htref{1}: {10.0MB/s:(synch)}{3.4MB/s-5.4MB/s:(to/from media)}
+**Average-access**htref{1}: 16ms
+**Average-latency**htref{1}: 5.54ms
+**Average-seek**htref{1}: {9.0ms:(read)}{10.5ms:(write)}
+**Maximum-seek**htref{1}: 19ms
+**Buffer-size**htref{1}: 256KB
+**Blocks-per-track**htref{1}: 82.5
+**Track-density**htref{1}: 3000 tpi
+**Rotational-speed**vref{2}: 5400 rpm
+**Servo-type**vref{2}: Dedicated
+**Recording-mode**htref{1}: RLL/ZBR
+**Num-heads**htref{1}: 19
+**Interface**htref{1}: SCSI
+**End-storage-entry{RZ28B}
+
+**Start-storage-entry{RZ28D}{SCSI}{RZ}
+**Sys-name: RZ28D
+**Desc-name: RZ28D 2.1GB SCSI-2 Disk
+**Def-lref{1} = ref{CU-1995-11-15}
+**Announcement**vref{1}: 1995-11-15
+**OS-support-vms**vref{1}: OpenVMS VAX V5.5-2, OpenVMS Alpha V6.1
+**OS-support-du**Vref{1}: V3.2
+**OS-support-nt**vref{1}: 3.5
+**Capacity**vref{1}: 2.1 GB
+**Form-factor**vref{1}: 3-1/2"
+**Interface: SCSI-2
+**Peak-transfer-rate: 10.0MB/s:(synch)
+**Read-ahead-cache: 512KB
+**Average-seek**vref{1}: 8.0 ms
+**Average-latency**vref{1}: 4.17 ms
+**Head-type: Thin Film
+**Rotational-speed**vref{1}: 7200 rpm
+**Recording-mode: RLL
+**MTBF**vref{1}: 800000 hours
+**Power-start{RZ28D}
+**Power: 8.8W:(idle)
+**Power-end{RZ28D}
+**End-storage-entry{RZ28D}
+
+**Start-storage-entry{RZ29}{SCSI}{RZ}
+**Sys-name: RZ29
+**Desc-name: RZ29 4.2GB SCSI Disk
+**Def-lref{1} = ref{CU-V6-3}
+**Capacity**htref{1}: 4.2GB
+**Peak-transfer-rate**htref{1}: 5.9MB/s-9MB/s
+**Average-access**htref{1}: 12.2ms
+**Average-seek**htref{1}: 8.0ms
+**Rotational-speed**htref{1}: 7200rpm
+**Interface**htref{1}: Fast SCSI-2
+**MTBF**htref{1}: 800000 hours
+**End-storage-entry{RZ29}
+
+**Start-storage-entry{RZ29B}{SCSI}{RZ}
+**Sys-name: RZ29B
+**Desc-name: RZ29B 4.3GB SCSI-2 Disk
+**Def-lref{1} = ref{CU-1995-03-01}
+**Announcement**vref{1}: 1995-03-01
+!Capacity**vref{1}: 4290 MB
+**Capacity: 4.3GB
+**Form-factor: 3-1/2"
+**Interface**vref{1}: SCSI-2
+**Peak-transfer-rate: 20.0MB/s:(synch)
+**Read-ahead-cache: 1024KB
+**Average-seek**vref{1}: 8.0ms
+**Average-latency: 4.17ms
+**Head-type: Thin film
+**Rotational-speed**vref{1}: 7200rpm
+**MTBF**vref{1}: 800,000 hr
+**Power-start{RZ29B}
+**Power: 12.0W:(idle)
+**Power-end{RZ29B}
+**End-storage-entry{RZ29B}
+
+**Start-storage-entry{RZ35}{SCSI}{RZ}
+**Def-lref{1} = ref{EK-RZXXD-RM-004}
+**Sys-name: RZ35
+**Desc-name: RZ35 852MB SCSI Disk
+**Capacity**lref{1}: 852MB
+**Codename: Patriot
+**Form-factor: 3-1/2" 
+**Average-access: 15.1ms
+**Average-seek**lref{1}: 9.5ms
+**Peak-transfer-rate: {2.7MB/s:to/from media}{5.0MB/s:(asynch)}{10.0MB/s:(synch)}
+**I/O-throughput: 73 IO/s @ 100ms
+**Recording-density**lref{1}: 48300 bpi
+**Track-density**lref{1}: 2650 tpi
+**Tracks-per-surface**lref{1}: 2086
+**Sectors-per-track**lref{1}: 56 data, 1 spare
+**Rotational-speed**lref{1}: 5363 rpm
+**Interface**lref{1}: SCSI
+**Power-start{RZ35}
+**Power**lref{1}: 18.7W
+**Power-end{RZ35}
+**End-storage-entry{RZ35}
+
+**Start-storage-entry{RZ40}{SCSI}{RZ}
+**Sys-name: RZ40
+**Desc-name: RZ40 9.1GB SCSI-2 Disk
+**Capacity: 9.1GB
+**Form-factor: 3-1/2"
+**Interface: SCSI-2
+**Peak-transfer-rate: 10.0MB/s:(synch)
+**OS-support-vms: V6.0
+!!**OS-support-vms: V6.2 (Alpha)
+**OS-support-nt: 3.51-1
+**OS-support-du: V3.2c
+**Read-ahead-cache: 1024KB
+**Average-seek: 8ms
+**Average-latency: 4.17ms
+**Head-type: MR
+**Recording-mode: Peak
+**Rotational-speed: 7200rpm
+**Power-start{RZ40}
+**Power: 12.0W:(idle)
+**Power-end{RZ40}
+**End-storage-entry{RZ40}
+
+**Start-storage-entry{RZ55}{SCSI}{RZ}
+**Sys-name: RZ55
+**Desc-name: RZ55 332MB SCSI Disk
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-302AB-OG-002}
+**Def-lref{3} = ref{EK-VSM30-OM-002}
+**Def-lref{4} = ref{EK-RZXXD-PS-005}
+**Def-lref{5} = ref{CU-1992-01-10}
+**Def-lref{6} = ref{CU-1992-04-03}
+**Def-lref{7} = ref{DA-1989-01-09-RZxx}
+**Announcement**vref{7}: 1989-01-09
+**Last-order**vref{6}: 1992-04-03
+**Capacity**vref{5,7}: 332 MB
+**Form-factor**vref{7}: 5-1/4" full-height
+**Peak-transfer-rate**vref{7}: 1.25 MB/s
+**Average-access**vref{5}: 24.3ms
+**Average-latency**htref{1}: 8.3ms
+**Average-seek**vref{5}: 16ms
+**Track-track-seek**htref{1}: 4ms
+**Maximum-seek**htref{1}: 35ms
+**Buffer-size**vref{5}: 64KB
+**Read-ahead-cache**uref{*28}: No
+**Bytes-per-sector**htref{2}: 512
+**Sectors-per-track**htref{2}: 36
+**Rotational-speed**vref{5}: 3600rpm
+**Interleave**htref{2}: 1:1
+**Interface**htref{1}: SCSI
+**Power-start{RZ55}
+**Positive-5V-current: 1.3A
+**Positive-12V-current: 2.0A
+**Power**htref{3}: 160W
+**Heat-dissipation**htref{2}: 32W
+**Power-end{RZ55}
+**Dimensions-start{RZ55-I}
+**Label: RZ55 internal
+**Height**htref{2}: 82.5mm
+**Width **htref{2}: 146.0mm
+**Depth **htref{2}: 208.2mm
+**Weight**htref{2}: 3.78kg
+**Dimensions-end{RZ55-I}
+**Dimensions-start{RZ55-E}
+**Label: RZ55 external
+**Height**htref{2}: 140mm
+**Width **htref{2}: 330mm
+**Depth **htref{2}: 290mm
+**Weight**htref{2}: 13.2kg
+**Dimensions-end{RZ55-E}
+**End-storage-entry{RZ55}
+
+**Start-storage-entry{RZ56}{SCSI}{RZ}
+**Sys-name: RZ56
+**Desc-name: RZ56 655MB SCSI Disk
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-RZXXD-PS-005}
+**Def-lref{3} = ref{CU-1992-01-10}
+**Def-lref{4} = ref{CU-1993-03-08}
+**Def-lref{5} = ref{TMAI-1989-11-07}
+**Def-lref{6} = ref{AA-ME85D-TE}
+**Announcement**vref{5}: 1989-11-07
+**OS-support-ULTRIX**vref{6}: V4.0
+**Last-order**vref{4}: 1993-07-02
+**Last-ship**vref{4}: 1993-09-24
+**Capacity**vref{3}: 655MB
+! 665MB: 31 58 66 -->
+**Form-factor**htref{2}: 5-1/4" full-height
+**Peak-transfer-rate**htref{1}: {1.6MB/s:(asynch)}{4.0MB/s:(synch)}{1.875MB/s:(to/from media)}
+**Average-access**vref{3}: 24.3ms
+**Average-latency**htref{1}: 8.3ms
+**Average-seek**vref{3}: 16ms
+**Track-track-seek**htref{1}: 4ms
+**Maximum-seek**htref{1}: 35ms
+**Buffer-size**vref{3}: 64KB
+**Read-ahead-cache**uref{*28}: Yes
+**Bytes-per-sector**uref{*66,*31}: 512
+**Sectors-per-track**uref{*66,*31}: 54
+**Rotational-speed**vref{3}: 3600rpm
+**Interleave**uref{*66,*31}: 1:1
+**Interface**htref{1}: SCSI
+**Power-start{RZ56}
+**Positive-5V-current**uref{*31}: 1.3A
+**Positive-12V-current**uref{*31}: 2.0A
+**Power**uref{66}: 160W
+**Heat-dissipation**uref{*31}: 28W
+**Power-end{RZ56}
+**Dimensions-start{RZ56}
+**Height**htref{1}: 82.6mm
+**Width**htref{1}: 146.1mm
+**Depth**htref{1}: 203.2mm
+**Weight**htref{1}: 3.81kg
+**Dimensions-end{RZ56}
+**End-storage-entry{RZ56}
+
+**Start-storage-entry{RZ57}{SCSI}{RZ}
+**Sys-name: RZ57
+**Desc-name: RZ57 1.0GB SCSI Disk
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-RZXXD-PS-005}
+**def-lref{3} = ref{CU-1991-12-20}
+**Def-lref{4} = ref{CU-1992-01-10}
+**Def-lref{5} = ref{CU-1993-03-08}
+**Def-lref{6} = ref{AA-ME85D-TE}
+**OS-support-ULTRIX**vref{6}: V4.0
+**Last-order**vref{5}: 1993-07-02
+**Last-ship**vref{5}: 1993-09-24
+**OS-support-eln**vref{3}: VAXELN V4.3
+**Capacity**vref{4}: 1.0GB
+**Form-factor**uref{2}: 5-1/4" full-height
+**Peak-transfer-rate**htref{1}: {1.6MB/s:(asynch)}{4.0MB/s:(synch)}{2.5MB/s:(to/from media)}
+**Average-access**vref{4}: 22.8ms
+**Average-latency**htref{1}: 8.3ms
+**Average-seek**vref{4}: 14.5ms
+**Track-track-seek**htref{1}: 4ms
+**Maximum-seek**htref{1}: 33ms
+**Buffer-size**uref{*20}: 256KB
+**Bytes-per-sector**uref{*66,*20}: 512
+**Sectors-per-track**uref{*66,*20}: 71
+**Rotational-speed**vref{4}: 3600rpm
+**Interleave**uref{*66}: 1:1
+**Interface**vref{4}: SCSI
+**Power-start{RZ57}
+**Positive-5V-current**uref{*20}: 1.7A
+**Positive-12V-current**uref{*20}: 2.25A
+**Power**uref{*20,*66}: 160W
+**Heat-dissipation**uref{*66}: 33W
+**Power-end{RZ57}
+**Dimensions-start{RZ57}
+**Height**htref{1}: 82.6mm
+**Width**htref{1}: 146.1mm
+**Depth**htref{1}: 203.2mm
+**Weight**htref{1}: 3.81kg
+**Dimensions-end{RZ57}
+**End-storage-entry{RZ57}
+
+**Start-storage-entry{RZ58}{SCSI}{RZ}
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{EK-RZXXD-PS-005}
+**Def-lref{3} = ref{CU-1992-01-10}
+**Def-lref{4} = ref{{1993-08-02}
+**Def-lref{5} = ref{CU-1993-08-30}
+**Sys-name: RZ58
+**Desc-name: RZ58 1.38GB SCSI Disk
+**Announcement**vref{3}: 1992-01-10
+!**Last-order**vref{4}: 1993-09-24
+**Last-order**vref{5}: 1993-12-24
+!**Last-ship**vref{4}: 1993-12-24
+**Last-ship**vref{5}: 1994-03-25
+**Capacity**vref{3}: 1.38GB
+!vref{3} says 5.25" but not FH
+**Form-factor**htref{2}: 5-1/4" full-height
+**OS-Support-vms**uref{*102}: VMS V5.5
+**OS-Support-ultrix**vref{3}: Ultrix V4.2 (latent)
+**Peak-transfer-rate**uref{*81}: {3.75MB/s:(inner track)}{5.0MB/s:(outer track)}
+**Average-access**vref{3}: 18.1ms
+**Average-latency**vref{3}: 5.6ms
+**Average-seek**vref{3}: 12.5ms
+**Track-track-seek**uref{*128}: 2.5ms
+**Maximum-seek**uref{*128}: 25ms
+**Buffer-size**vref{3}: 256KB
+**Rotational-speed**vref{3}: 5400rpm
+**Interface**vref{3}: SCSI
+**Start-time**uref{*128}: 30s
+**Stop-time**uref{*128}: 30s
+**Power-start{RZ58}
+**Power**lref{3}: 33W
+**Power-end{RZ58}
+**Dimensions-start{RZ58}
+**Height**uref{*128}: 82mm
+**Width**uref{*128}: 150mm
+**Depth**uref{*128}: 200mm
+**Weight**uref{*128}: 3.8kg
+**Dimensions-end{RZ58}
+**End-storage-entry{RZ58}
+
+**Start-storage-entry{RZ73}{SCSI}{RZ}
+**Def-lref{1} = ref{EK-RZXXD-PS-005}
+**Def-lref{2} = ref{EK-RZXXD-RM-004}
+**Sys-name: RZ73
+**Desc-name: RZ73 2.0GB SCSI Disk
+! TODO no ref{3} specified ??
+! **Announcement**vref{3}: 1993-08-16
+**Capacity**htref{1}: 2.0GB
+**Form-factor**htref{1}: 5-1/4" full-height
+**Codename: Shamrock
+**Average-access: 21.3ms
+**Average-seek**htref{2}: 12.0-15.0ms
+**Peak-transfer-rate**htref{2}: {2.7MB/s:(to/from media)}{5.0MB/s:(synch)}{10.0MB/s:(asynch)}
+**Rotational-speed**htref{2}: 3600 rpm
+**Recording-density**htref{2}: 43880 bpi
+**Track-density**htref{2}: 2432 tpi
+**Tracks-per-surface**htref{2}: 2620
+**Sectors-per-track**htref{2}: 71 data, 1 spare
+**Power-start{RZ73}
+**Power**htref{2}: 22.9W
+**Power-end{RZ73}
+**End-storage-entry{RZ73}
+
+**Start-storage-entry{RZ74}{SCSI}{RZ}
+**Sys-name: RZ74
+**Desc-name: RZ74 3.57GB SCSI Disk
+**Def-lref{1} = ref{CU-1993-05-10}
+**Def-lref{2} = ref{CU-1994-04-25}
+**Announcement: 26 April 1993
+**Last-order**vref{2}: 1994-05-06
+**Last-ship**vref{2}: 1994-07-29
+**OS-support-VMS**vref{1}: VMS V5.5-2 (OpenVMS AXP V1.5)
+**Capacity**vref{1}: 3.57GB
+**Form-factor: 5-1/4" full height
+**Average-seek**vref{1}: 12.0ms
+**Average-access: 17.6ms
+**Transfer-rate**vref{1}: 6.95MB/s
+**Read-ahead-cache**vref{1}: 512KB
+**Rotational-speed**vref{1}: 5400rpm
+**Power-start{RZ74}
+**Power: 35W:(typical)
+**Power-end{RZ74}
+**End-storage-entry{RZ74}
+

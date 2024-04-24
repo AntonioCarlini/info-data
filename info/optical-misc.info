@@ -1,0 +1,20 @@
+**Start-storage-entry{RV20}{MISC}{OPTICAL}
+**Sys-name: RV20
+**Desc-name: RV20 Write-Once Optical Drive
+**Def-lref{1} = ref{CU-1992-09-21}
+! TODO: this was miswritten as ref{2}, so check everything
+**Def-lref{2} = ref{DEC-PR-1988-04-05}
+**Announcement**vref{1}: 1988-04-05
+**Last-order**vref{1}: 1992-12-31
+**Last-ship**vref{1}: 1993 Q1
+**Average-access**vref{2}: 150 - 250 ms
+**End-storage-entry{RV20}
+
+**Start-storage-entry{RV64}{MISC}{OPTICAL}
+**Sys-name: RV64
+**Desc-name: RV64 Optical Storage Library
+**def-lref{1} = ref{CU-1992-09-21}
+**Last-order**vref{1}: 1992-08-31
+**Last-ship**vref{1}: 1993 Q1
+**End-storage-entry{RV20}
+

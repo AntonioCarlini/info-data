@@ -1,0 +1,241 @@
+**Start-storage-entry{THZ02}{MISC}{THZ02}
+**Def-lref{1} = ref{EK-THZ02-SG.A01}
+**Def-lref{2} = ref{DEC_PR-1992-06-10-THZ02}
+**Sys-name: THZ02
+**Desc-name: THZ02 Cartridge Tape Drive
+! TODO bad vref **Announcement**vref{2}: 1992-06-10
+![1] cartridge capacity is 6GB, 42GB with media loader
+**Capacity**lref{1}: 6GB
+**Cache**lref{1}: 512KB
+**Peak-transfer-rate**lref{1}: {1.1MB/s:(raw, streaming)}{800KB/s:(streaming)}
+**Repositioning-time**lref{1}: < 1.3s
+**Undetectable-error-rate**lref{1}: 10^30
+**Unrecovered-error-rate**lref{1}: 10^17
+**Hard-error-rate**lref{1}: 10^17
+**Error-correction**lref{1}: 64-bit CRC per 2KB on media
+**Interface**lref{1}: SCSI-2
+**CPU**lref{1}: 68020
+**CPU-clock**lref{1}: 15MHz
+**Read-write-speed**lref{1}: 100 in/s streaming
+**MTBF**lref{1}: 60000 hours
+**Power-start{THZ02}
+**Positive-5V-current**lref{1}: 4.50A:(max)
+**Positive-12V-current**lref{1}: 1.22A:(max)
+**Power**lref{1}: 40W:(max)
+**Power-end{THZ02}
+**Dimensions-start{THZ02}
+**Height**lref{1}: 100.3mm
+**Width**lref{1}: 144.7mm
+**Depth**lref{1}: 228.6mm
+**Weight**lref{1}: 2.95kg
+**Dimensions-end{THZ02}
+**End-storage-entry{THZ02}
+
+**Start-storage-entry{TK25}{MISC}{TK}
+**Sys-name: TK25
+**Desc-name: TK25 Cartridge Tape Drive
+! From [SUE Jul 1992 Spec] but without full details:
+!	Tx86 and Tx867 systems introduced 7 July 1992. 6GB (42GB stacker)
+!	Tx85 read compatible but NOT TZ30/TK50/TK70.
+!
+**Announcement**uref{SUE 5.22}: 14 May 1984
+**Capacity**uref{*SOEE85,79}: 60 MB
+!!??<TR> <TD> Access time (from insertion)	<TD> 100s (min) 270s (max)	</TR> <!-- [79] -->
+!!??<TR> <TD> Access time (from rest)	<TD> 61ms (nominal)	</TR> <!-- [79] -->
+**Transfer-rate**uref{*SOEE85,79}: 55 kbit/s
+**Data-tracks**uref{*SOEE85,79}: 10
+**Recording-density**uref{*SOEE85,79}: 8000 bpi
+**Read-write-speed**uref{*SOEE85,79}: 55 in/s streaming
+!!	  Stop/start distance	<TD> 1.2in (minimum)	</TR> <!-- [79] -->
+!!?? 1.4in (nominal)	</TR> <!-- [79] -->
+!!?? 1.9in (maximum)	</TR> <!-- [79] -->
+**Recording-format**uref{79}: Single track, NRZI, serpentine
+**Tape-length**uref{*SUE 5.22,79}: 600'
+**Recoverable-write-data-error**uref{79}: 1 in 10^7
+**Recoverable-read-data-error**uref{79}: 1 in 10^8
+!! Check these to be sure
+!!**Recoverable-read-data-error**uref{79}: 1 in 10^10
+**Power-start{TK25}
+**Heat-dissipation**uref{79}: {45W:(idle)}{55W:(moving, nominal)}{75W:(moving, max)}
+**Power-end{TK25}
+**Dimensions-start{TK25}
+**Height**uref{*SUE 5.22}: 9"
+**Width**uref{*SUE 5.22}: 8.75"
+**Depth**uref{*SUE 5.22}: 18.5"
+**Dimensions-end{TK25}
+**End-storage-entry{TK25}
+
+**Start-storage-entry{TK50}{MISC}{TK}
+**Sys-name: TK50
+**Desc-name: TK50 Tape Drive
+**Def-lref{1} = ref{EK-MVXAA-OM-001}
+**Def-lref{2} = ref{EK-OTK50-UG-004}
+**Def-lref{3} = ref{CU-1994-06-06}
+**Last-order**vref{3}: 1994-07-30
+**Last-ship**vref{3}: 1994-09-29
+**Capacity**htref{1}: 94.5MB
+**Peak-transfer-rate: {62.5KB/s:(total)}{45KB/s:(user data)}
+!! Check ref for peak-xfer-rate, appears to be **htref{2}
+**Recording-format**htref{1}: MFM, Serial, serpentine pattern
+**Record-size: Variable 1 byte to 64KB
+**Read-write-speed**htref{1}: 75in/s streaming
+**Num-tracks**htref{1}: 22
+**Start-time**htref{2}: 130ms min, 300ms max
+**Stop-time**htref{2}: 90ms min, 130ms max
+**Recording-density**htref{2}: 6667bpi
+**Tape-width**htref{1}: 12mm
+**Tape-length**htref{1}: 185m
+**Dimensions-start{TK50}
+**Height: 82.6mm
+**Width : 146mm
+**Depth : 214.4mm
+**Weight: 2.27kg
+**Dimensions-end{TK50}
+**End-storage-entry{TK50}
+
+**Start-storage-entry{TK70}{MISC}{TK}
+**Sys-name: TK70
+**Desc-name: TK70 Streaming Tape Drive
+**Def-lref{1} = ref{EK-OTK70-OM-001}
+**Def-lref{2} = ref{CU-1994-09-01}
+**Def-lref{3} = ref{DEC-PR-1987-09-10}
+! TODO check announcement
+**Announcement**vref{3}: 1987-09-10
+**Last-ship**vref{2}: 1994-11-30
+**Last-order**vref{2}: 1994-12-31
+**Capacity**vref{3}: 296 MB
+**Form-factor**vref{3}: 5.25"
+**Peak-transfer-rate**htref{1}:{125KB/s:(total)}{90KB/s:(user data)}
+**Recording-format**htref{1}: Multiple track serpentine
+**Read-write-speed**vref{3}: 100in/s streaming
+**Num-tracks**vref{3}: 48
+**Recording-density**htref{1}: 10000 bpi
+**Track-density**htref{1}: 96 tpi
+**Tape-width**htref{1}: 12.77mm
+**Power-start{TK70}
+**Positive-5V-current**htref{1}: 1.1A
+**Positive-12V-current**htref{1}: 1.6A
+**Power**htref{1}: 40W
+**Power-end{TK70}
+**End-storage-entry{TK70}
+
+**Start-storage-entry{TU58}{MISC}{TU}
+**Sys-name: TU58
+**Desc-name: TU58 DECtape II
+**Def-lref{1} = ref{EK-OTU58-UG-004}
+**Def-lref{2} = ref{CU-1993-02-15}
+**Last-order**vref{2}: 1991-01-31
+**Last-ship**vref{2}: 1993-04-30
+**Capacity**htref{1}: 256KB
+**Average-access**htref{1}: 9.3s
+**Maximum-access**htref{1}: 28s
+**Data-transfer-rate**htref{1}: 24KB/s
+**Interface-speed**htref{1}: 150 - 38.4k baud
+**Bytes-per-block**htref{1}: 512
+**Blocks-per-track**htref{1}: 256
+**Num-tracks**htref{1}: 2
+**Cartridge-life**htref{1}: 5000 passes (min)
+**Soft-error-rate**htref{1}: 1 in 10^7
+**Hard-error-rate**htref{1}: 1 in 10^9
+**Error-checking**htref{1}: Checksum
+**Tape-speed**htref{1}: 30in/s
+**Recording-density**htref{1}: 800bpi
+**Recording-format**htref{1}: Ratio encoding
+**Dimensions-start{TU58-D}
+**Label: TU58 Drive
+**Height**htref{1}: 81mm
+**Width **htref{1}: 106mm
+**Depth **htref{1}: 83mm
+**Weight**htref{1}: 0.23kg
+**Dimensions-end{TU58-D}
+**Dimensions-start{TU58-B}
+**Label: TU58 Board
+**Height**htref{1}: 132mm
+**Width **htref{1}: 35mm
+**Depth **htref{1}: 265mm
+**Weight**htref{1}: 0.24kg
+**Dimensions-end{TU58-B}
+**Dimensions-start{TU58-CA}
+**Label: TU58-CA
+**Height**htref{1}: 132mm
+**Width **htref{1}: 48.3mm
+**Depth **htref{1}: 381mm
+**Weight**htref{1}: 9kg
+**Dimensions-end{TU58-CA}
+**Dimensions-start{TU58-EA}
+**Label: TU58-EA
+**Height**htref{1}: 92mm
+**Width **htref{1}: 337mm
+**Depth **htref{1}: 295mm
+**Dimensions-end{TU58-EA}
+!-- ref_1: heat disspiation -CA/-DA/-EA/-EB 120BTU/hr, -AB-BB-VA 34BTU/hr -->
+!-- ref_1:
+!	-CA: rackmount, two drives + serial interface controller
+!	-DA: tabletop chassis, two drives + controller
+**End-storage-entry{TU58}
+
+**Start-storage-entry{TU80}{MISC}{TU}
+**Sys-name: TU80
+**Desc-name: TU80 Magnetic Tape Subsystems
+**Def-lref{1} = ref{EK-OTU80-UG-002}
+**Def-lref{2} = ref{EK-TUA81-UG-004}
+**Html-target: tu80
+!
+! TU81 fits here too!
+!The TU80 tape subsystem  consists of a streaming nine-track top-loading
+!reel-reel tape drive with its own formatter and power supply. 
+!
+!The TU81 and TA81 tape subsystems feature the same tape transport but 
+!differ in their method of attachment to a host: the TU81 interfaces
+!via a UNIBUS LESI interface while the TA81 is a standard STI tape and
+!interfaces to an HSC tape controller.
+!
+!The TU81 PLUS is identical to the TU81 but has a 256KB data buffer.
+!
+!A disk drive may optionally be mounted in the base of the any of
+!the tape cabinets.
+!!\section{TA81 Magnetic Tape}
+!!% From [11]:
+!!%	A TU81 without cache. 1600/6250. 
+!!%	300-500W, 1 bus load, 4A@5V, BTU/hr:1024, 41.5"Hx21.33"Wx30"D
+!!%	235lbs, 1 quad slot, 256KB cache.
+!!%
+!!Rewind speed: &	192 in/s \\	% [11]
+!<TR> <TH> &nbsp;	<TH> TU80	<TH> TU81/TA81	<TH> TU81 PLUS	</TR>
+!<TR> <TD> Speed (start/stop)	<TD> 25in/s **htref{/}	<TD COLSPAN=2> 25in/s **htref{
+!}<TD> Speed (streaming)	<TD> 100in/s **htref{/}	<TD COLSPAN=2> 75in/s **htref{
+!}Data format	<TD> PE **htref{/}	<TD COLSPAN=2> PE or GCR **htref{
+!}ROWSPAN=2 VALIGN=TOP>
+!	  Recording density	<TD> 1600bpi **htref{/}	<TD COLSPAN=2> 1600bpi (PE) **htref{<}&nbsp;	<TD COLSPAN=2> 6250bpi (GCR) **htref{<}ROWSPAN=2 VALIGN=TOP>
+!	  Tape Capacity	<TD> 40MB (PE) **htref{/}	<TD COLSPAN=2> 40MB (PE) **htref{<}&nbsp;	<TD COLSPAN=2> 140MB (GCR) **htref{
+!}COLSPAN=4> <B><A NAME="data">Data Transfer Rate</A></B> </TR>
+!<TR> <TD ROWSPAN=2 VALIGN=TOP>
+!	  Start/stop	<TD> 40KB/s (PE) **htref{/}	<TD COLSPAN=2> 40KB/s (PE) **htref{<}&nbsp;	<TD COLSPAN=2> 156KB/s (GCR) **htref{<}ROWSPAN=2 VALIGN=TOP>
+!	  Streaming	<TD> 160KB/s (PE) **htref{/}	<TD COLSPAN=2> 120KB/s (PE) **htref{<}&nbsp;	<TD COLSPAN=2> 469KB/s (GCR) **htref{<}<P>
+!
+!<TR>             <TH>            Model <TH> Supply	<TH>  I(max) <TH> Power   <TH> Heat          </TR>
+!<TR ALIGN=RIGHT> <TD ALIGN=LEFT> TU80-AA **htref{	}120V 1-phase 60Hz	<TD> &nbsp;	  <TD> &nbsp;  <TD> 1024BTU/hr    </TR>
+!<TR ALIGN=RIGHT> <TD ALIGN=LEFT> TU80-AB **htref{	}240V 1-phase 60Hz	<TD> &nbsp;	  <TD> &nbsp;  <TD> 1024BTU/hr    </TR>
+!<TR ALIGN=RIGHT> <TD ALIGN=LEFT> TU81/TA81 **htref{	}120V 1-phase 60Hz	<TD>  300VA-550VA <TD>  3.0A   <TD> 1100BTU/hr    </TR>
+!<TR ALIGN=RIGHT> <TD ALIGN=LEFT> TU80/TA81 **htref{	}240V 1-phase 60Hz	<TD> &nbsp;	  <TD> &nbsp;  <TD> 1100BTU/hr    </TR>
+!
+!<TABLE WIDTH=100% BORDER=1>
+!<TR> <TH> Model	<TH> Height   <TH> Width   <TH> Depth   <TH> Weight  </TR>
+!<TR> <TD> TU80 **htref{	}1057mm <TD>   546mm <TD>   762mm <TD> 127kg   </TR>
+!<TR> <TD> TU81/TA81 **htref{	}1057mm <TD>   546mm <TD>   762mm <TD> 139kg   </TR>
+!
+!!-- ref_1: TU80 UNIBUS Adapter Module: M7454 draws 4.0A at +5V dc, jumpers p6-16 -->
+!!-- ref_2: TU81 UNIBUS Adapter Module: M8739 draws 4.0A at +5V dc, quad height, jumpers p 89 -->
+!!-- ref_2: TU81 Q-bus  Adapter Module: M7740 draws 3.0A at +5V dc, dual height, ac load 2.3 dc load 1.0, jumpers p86  -->
+!
+**End-storage-entry{TU80}
+
+**Start-storage-entry{PCXAT-A*}{MISC}{PC}
+**Sys-name: PCXAT-A*
+**Desc-name: PCXAT-A* Cartridge Tape Drive
+**Def-lref{1} = ref{CU-1991-09-06}
+**Capacity**vref{1}: 525MB
+**Sustained-transfer-rate**vref{1}: 200KB/s
+**Peak-transfer-rate**htref{1}: 3MB/s:(asynchronous)
+**End-storage-entry{PCXAT-A*}
+

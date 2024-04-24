@@ -1,0 +1,205 @@
+**Start-storage-entry{RD31}{ST506}{RD}
+**Sys-name: RD31
+**Desc-name: RD31 Winchester Disk
+**Def-lref{1} = ref{CU-1992-02-21}
+**Def-lref{2} = ref{DA-1987-07-10-RD52}
+! [11]: 1.2A @ 5V, 2.6A @12V, 39W, 57.8BTU/hr, 1.59kg
+**Last-order**vref{1}: 26 June 1992	
+!**Last-order**uref{[SUE Feb-2 1992]}: 26 June 1992	
+**Last-ship**uref{SUE Feb-2 1992}: 25 Sept 1992
+**Capacity**vref{2}: 20MB	
+!  half height	
+**Form-factor**vref{2}: 5-1/4"
+**Average-access**vref{2}: 73ms	
+**Average-seek: 64.5ms
+**Average-latency: 8.33ms
+**Transfer-rate**vref{2}: 625 KB/s
+**Bytes-per-sector**uref{[13]}: 512	
+**Sectors-per-track**uref{[13]}: 18	
+**Tracks-per-drive**uref{[13]}: 2460	
+**Acoustic-noise**uref{[110]}: 4.6 bels (average)	
+**Power-start{RD31}
+**Positive-5V-current**uref{[13]}: 0.9A	
+**Positive-12V-current**uref{[13]}: 0.9A	
+**Power-end{RD31}
+**End-storage-entry{RD31}
+
+**Start-storage-entry{RD32}{ST506}{RD}
+**Sys-name: RD32
+**Desc-name: RD32 Winchester Disk
+**Def-lref{1} = ref{EK-MVXAA-OM-001}
+**Def-lref{2} = ref{DA-1987-07-10-RD52}
+**Def-lref{3} = ref{DEC-PR-1987-07-10}
+**Lifetime**uref{*31}: Nov 1989
+**Capacity**vref{2}: 42MB
+!  half height	
+**Form-factor**vref{2}: 5-1/4"
+**Average-access**vref{2}: 48ms	
+**Average-seek:  40ms
+! Check that Transfer-rate really is vref{2} ... was vtref{2} !!
+**Transfer-rate**vref{2}: 625 KB/s
+**Bytes-per-sector**uref{*13}: 512	
+**Rotational-speed: 3600rpm
+**Num-heads**htref{1}: @@
+**Num-cylinders**htref{1}: 820
+**Power-start{RD32}
+**Positive-5V-current: 0.95A
+**Positive-12V-current**uref{*13}: 0.65A	
+**Power**uref{*13}: 12.55 W	
+**Power-end{RD32}
+**Dimensions-start{RD32}
+**Height**htref{1}: 43mm
+**Width **htref{1}: 146mm
+**Depth **htref{1}: 203.2mm
+**Weight**htref{1}: 1.31kg
+**Dimensions-end{RD32}
+**End-storage-entry{RD32}
+
+**Start-storage-entry{RD50}{ST506}{RD}
+**Sys-name: RD50
+**Desc-name: RD50 Winchester Disk
+**Def-lref{1} = ref{EK-PC300-V1-001}
+**Capacity**vref{1}: 5MB
+**Transfer-rate**vref{1}: 5Mb/s
+**Average-access**vref{1}: 170ms
+**Track-density**vref{1}: 255 tpi
+**Dimensions-start{RD50}
+**Height**vref{1}: 82.5mm
+**Width**vref{1}: 146mm
+**Depth **vref{1}: 204mm
+**Weight**vref{1}: 2.3kg
+**Dimensions-end{RD50}
+**End-storage-entry{RD50}
+
+**Start-storage-entry{RD51}{ST506}{RD}
+**Sys-name: RD51
+**Desc-name: RD51 Winchester Disk
+**Def-lref{1} = ref{EK-PC300-V1-001}
+**Lifetime**uref{DU JUN-86}: 1983-?	
+**Capacity**vref{1}: 10MB	
+**Form-factor: 5-1/4"
+**Average-access**vref{1}: 85 ms
+**Average-seek**uref{127,*DU JUN-86}: 85ms	
+**Average-latency**uref{78,*SOEE85}: 8.33ms	
+**Transfer-rate**vref{1}: 5Mb/s
+**Bytes-per-sector**uref{*SOEE85}: 512	
+**Sectors-per-track**uref{*SOEE85}: 18	
+**Tracks-per-drive**uref{*SOEE85}: 1200	
+**Track-density**vref{1}: 345 tpi
+**Num-heads**uref{78,*SOEE85}: 4	
+**Dimensions-start{RD51}
+**Height**vref{1}: 82.5mm
+**Width**vref{1}: 146mm
+**Depth **vref{1}: 204mm
+**Weight**vref{1}: 2.3kg
+**Dimensions-end{RD51}
+**End-storage-entry{RD51}
+
+**Start-storage-entry{RD52}{ST506}{RD}
+**Sys-name: RD52
+**Desc-name: RD52 Winchester Disk
+**Def-lref{1} = ref{DA-1987-07-10-RD52}
+**Def-lref{2} = ref{EK-PC300-V1-001}
+! [11]: 35W, 1A@5V, 2.6A@12V, BTU/hr: 119, 3.2kg -->
+**Lifetime**uref{[*DU JUN-86]}:	1984-1985	
+**Announcement**uref{[*SUE 6.5]}: September 1984	
+**Last-order**vref{1}: 1987-09-14
+**Last-ship**vref{1}: 1987-12-24
+**Capacity**vref{1}: 31MB	
+**Form-factor**vref{1}: 5-1/4" 
+! vref{2} has abg access 37.5 ms
+**Average-access**vref{1}: 57ms	
+! 57.5ms [78]*SOEE85 [*SUE 6.5] -->
+**Controller**vref{1}: RQDX2/RQDX3
+**Average-seek: 57ms
+**Average-latency**uref{[78]}: 8.5ms	
+**Peak-transfer-rate**vref{1}: 625 KB/s
+**Transfer-rate**vref{1}: 5Mb/s
+!!!**Data-surfaces**uref{[78]}: 8	
+**Track-density**vref{2}: 345 tpi
+**Tracks-per-drive**uref{*SOEE85}: 3485	
+**Sectors-per-track**uref{*SOEE85}: 18	
+**Bytes-per-sector**uref{*SOEE85}: 512	
+**Dimensions-start{RD52}
+**Height**vref{2}: 82.5mm
+**Width**vref{2}: 146mm
+**Depth **vref{2}: 204mm
+**Weight**vref{2}: 3.18 kg
+**Dimensions-end{RD52}
+**End-storage-entry{RD52}
+
+**Start-storage-entry{RD53}{ST506}{RD}
+**Sys-name: RD53
+**Desc-name: RD53 Winchester Disk
+**Def-lref{1} = ref{EK-MVXAA-OM-001}
+**Def-lref{2} = ref{CU-1992-02-21}
+**Def-lref{3} = ref{DA-1987-07-10-RD52}
+!**Last-order**uref{*SUE Feb-2 1992}: 26 June 1992
+**Last-order**vref{2}: 26 June 1992
+**Last-ship**uref{*SUE Feb-2 1992}: 25 Sept 1992
+**Lifetime**uref{*DU-JUN86}: 1983- 
+! verify capacity is mentioned in vref{3}, was written ref{3}!
+**Capacity**vref{3}: 71MB
+! full height
+**Form-factor**uref{3}: 5-1/4"
+! verify average access is vref{3} and not vref{31}!!
+**Average-access**vref{3}: 38ms
+**Average-seek**htref{1}: 30ms
+**Average-latency: 8.33ms
+! verify transfer-rate is vref{3} and not vtref{3}!
+**Transfer-rate**vref{3}: 625 KB/s
+**Bytes-per-sector: 512
+**Sectors-per-track: 16
+**Tracks-per-drive: 8192
+**Num-cylinders**htref{1}: 1024
+**Rotational-speed**htref{1}: 3600rpm
+**Power-start{RD53}
+**Positive-5V-current: 0.9A
+**Positive-12V-current: 2.5A
+**Power: 34.5W
+**Power-end{RD53}
+!-- From *11: -->
+!-- 0.9A@5V (typ+max), 2.5A@12V (typical) 4.7A@12V (max) -->
+!-- BTU/hr:122, 64W (startup), 36W (seeking), 7lbs -->
+**Dimensions-start{RD53}
+**Label: RD53 Drive
+**Height: 825mm
+**Width: 146mm
+**Depth: 203.2mm
+**Weight: 3.18kg
+**Dimensions-end{RD53}
+**End-storage-entry{RD53}
+
+**Start-storage-entry{RD54}{ST506}{RD}
+**Sys-name: RD54
+**Desc-name: RD54 Winchester Disk
+**Def-lref{1} = ref{EK-LEP07-OM-001}
+**Def-lref{2} = ref{CU-1992-02-21}
+!**Last-order**uref{*SUE Feb-2 1992}: 26 June 1992
+**Last-order**vref{2}: 26 June 1992
+**Last-ship**uref{*SUE Feb-2 1992}: 25 Sept 1992
+**Capacity**vref{2}: 159MB
+**Form-factor**uref{*31}: 5-1/4" full height
+**Average-access**htref{1}: 30ms
+**Average-latency**htref{1}: 8.33ms
+**Transfer-rate**htref{1}: 625KB/s
+**Bytes-per-sector: 512
+**Sectors-per-track**htref{1}: 17
+**Tracks-per-drive**htref{1}: 18374
+**Num-cylinders**htref{1}: 1221
+**Num-heads**htref{1}: 15
+**Power-start{RD54}
+**Positive-5V-current: 1.4A
+**Positive-12V-current:	1.34A
+**Power: 23.7W	
+**Power-end{RD54}
+**Dimensions-start{RD54-Drive}
+**Label: RD54 Drive
+**Height: 82.6mm
+**Width: 146mm
+**Depth: 203.2mm
+**Weight: 3.15kg
+**Dimensions-end{RD54-Drive}
+! [1]: RQDX1 & RQDX2 do *not* support RD54. RQDX3 needs min microcode rev 1.10
+**End-storage-entry{RD54}
+

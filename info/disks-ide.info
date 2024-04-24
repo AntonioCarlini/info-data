@@ -1,0 +1,79 @@
+**Start-storage-entry{PCXAR-BA}{IDE}{PC}
+**Sys-name: PCXAR-BA
+**Desc-name: PCXAR-BA 85.2MB IDE Disk
+**Def-lref{1} = ref{CU-1992-02-21}
+**Capacity**vref{1}: 85MB
+ **Form-factor**vref{1}: 3.5"
+**Average-seek**vref{1}: <19ms
+**Bytes-per-block**vref{1}: 512
+**Sectors-per-track**vref{1}: 38
+**Peak-transfer-rate**vref{1}: 6.5MB/s (to/from buffer)
+**Rotational-speed**vref{1}: 3486rpm	
+**Track-density**vref{1}: 2350 tpi
+**Recording-density**vref{1}: 44,400 bpi (at I.D.)
+**Tracks-per-surface**vref{1}: 1096
+**Num-platters**vref{1}: 2
+**Num-heads**vref{1}: 4 data heads
+**Interface**vref{1}: IDE
+**Dimensions-start{PCXAR-BA}
+**Height**vref{1}: 0.75"
+**Width**vref{1}: 2.7"
+**Depth **vref{1}: 4.0"
+**Weight**vref{1}: 7.0oz
+**Dimensions-end{PCXAR-BA}
+**End-storage-entry{PCXAR-AB}
+
+**Start-storage-entry{PCXAR-CC}{IDE}{PC}
+**Def-lref{1} = ref{CU-1992-10-12}
+**Sys-name: PCXAR-CC
+**Desc-name: PCXAR-CC 122MB IDE Disk
+**Announcement**vref{1}: 1992-10-12
+! vref{1} lists further characteristics
+**Capacity**vref{1}: 122.4 MB
+**Bytes-per-block**vref{1}: 512
+**Peak-transfer-rate**vref{1}: {1.87MB/s:to media} {3.75MB/s:from media}
+**Average-seek**vref{1}: 16 ms
+**Rotational-speed**vref{1}: 4306 rpm
+**Interleave**vref{1}: 1:1
+**Track-track-seek**vref{1}: 2.5 ms
+**Head-switch-latency**vref{1}: 2.0 ms
+**Interface**vref{1}: IDE
+**Dimensions-start{PCXAR-CC}
+! vref{1} has H W D but in a badly formatted format
+**Weight**vref{1}: 1.05 lb
+**Dimensions-end{PCXAR-CC}
+**End-storage-entry{PCXAR-CC}{IDE}{PC}
+
+**Start-storage-entry{PCXAR-CD}{IDE}{PC}
+**Def-lref{1} = ref{CU-1992-10-12}
+**Sys-name: PCXAR-CD
+**Desc-name: PCXAR-CD 245MB IDE Disk
+**Announcement**vref{1}: 1992-10-12
+! vref{1} lists further characteristics
+**Capacity**vref{1}: 245.4 MB
+**Bytes-per-block**vref{1}: 512
+**Peak-transfer-rate**vref{1}: {1.87MB/s:to media} {3.75MB/s:from media}
+**Average-seek**vref{1}: 16 ms
+**Rotational-speed**vref{1}: 4306 rpm
+**Interleave**vref{1}: 1:1
+**Track-track-seek**vref{1}: 2.5 ms
+**Head-switch-latency**vref{1}: 2.0 ms
+**Interface**vref{1}: IDE
+**Dimensions-start{PCXAR-CC}
+! vref{1} has H W D but in a badly formatted format
+**Weight**vref{1}: 1.05 lb
+**Dimensions-end{PCXAR-CC}
+**End-storage-entry{PCXAR-CC}{IDE}{PC}
+
+**Start-storage-entry{PCWXR-CA}{IDE}{PC}
+**Sys-name: PCWXR-CA
+**Desc-name: PCWXR-CA 40MB IDE Disk
+**Def-lref{1} = ref{CU-1991-09-06}
+**Capacity**vref{1}: 40MB
+**Form-factor**vref{1}: 2.5"
+**Average-seek**vref{1}: 19ms
+**Buffer-size**vref{1}: 32KB
+**Weight**vref{1}: 7oz
+**Interface**vref{1}: IDE
+**End-storage-entry{PCWXR-CA}
+

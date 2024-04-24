@@ -1,0 +1,395 @@
+**Start-storage-entry{EF51R}{DSSI}{SOLID}
+**Def-lref{1} = ref{CU-1992-11-23}
+**Def-lref{2} = ref{CU-1995-05-01}
+**Def-lref{3} = ref{DEC-PR-1992-11-09}
+**Sys-name: EF51R
+**Desc-name: EF51R Solid State Disk
+**Announcement**vref{3}: 1992-11-09
+**Last-order**vref{2}: 1995-06-30
+**Capacity**vref{1}: 107 MB
+**OS-support-VMS**vref{1}: V5.4-3
+**End-storage-entry{EF51R}
+
+**Start-storage-entry{EF52R}{DSSI}{SOLID}
+**Def-lref{1} = ref{CU-1992-11-23}
+**Def-lref{2} = ref{CU-1995-05-01}
+**Def-lref{3} = ref{QS-VMS-V073}
+**Def-lref{4} = ref{DEC-PR-1992-11-09}
+**Sys-name: EF52R
+**Desc-name: EF52R Solid State Disk
+**Announcement**vref{4}: 1992-11-09
+**Last-order**vref{2}: 1995-06-30
+**Capacity**vref{1}: 205 MB
+**OS-support-VMS**vref{1}: V5.4-3
+**End-storage-entry{EF52R}
+
+**Start-storage-entry{RF30}{DSSI}{RF}
+**Sys-name: RF30
+**Desc-name: RF30 150MB DSSI Disk
+**Def-lref{1} = ref{SOC-SPR90}
+**def-lref{2} = ref{CBR-PR-1988-10-19}
+! Read-ahead cache: &	No \\	% [28] -->
+**Announcement**vref{2}: 18th October 1988
+**Capacity**htref{1}: 150MB
+**Form-factor**htref{1}: 5-1/4" half-height
+**Average-access**uref{*13,*58}: 29.3ms
+**Average-seek**uref{*13,*58}: 21ms
+**Average-latency**uref{*13,*58}: 8.3ms
+**Peak-transfer-rate**uref{*13,*58}: 1.5MB/s
+**I/O-throughput**uref{*57}: 32 IO/s @ 150ms
+**Track-track-seek**uref{*13}: 3.0ms
+**Maximum-seek:	45ms
+**Buffer-size**uref{*28}: None
+**Bytes-per-sector**uref{*13}: 512
+**Sectors-per-track**uref{*13}: 37 + 1 reserved
+**Tracks-per-surface**uref{*13}: 1331
+**Track-density: 9779 tpi
+**Recording-density: 38600 bpi
+!!**Areal-density**htref{0}: 38600 MB/sq inch
+!!**!!Recording-mode**htref{0}: Zone bit recording
+!!**!!Num-heads**htref{0}: 6
+!!**!!Num-cylinders**htref{0}: 820
+!!**!!Num-media-surfaces**htref{0}: 6 data, 4 protective
+**Rotational-speed**uref{*13}: 3600rpm
+**Error-correction**uref{*13}: 264-bit ECC
+!!**Servo-type**uref{0}: Fully embedded
+**Interface**htref{1}: DSSI
+**Power-start{RF30}
+**Power**uref{*28}: 14W:(average)
+**Power-end{RF30}
+**Dimensions-start{RF30}
+**Height**uref{*13}: 41.1mm
+**Width**uref{*13}: 147.1mm
+**Depth**uref{*13}: 208.5mm
+**Weight**uref{*13}: 1.5kg
+**Dimensions-end{RF30}
+**End-storage-entry{RF30}
+
+**Start-storage-entry{RF31}{DSSI}{RF}
+**Def-lref{1} = ref{EK-RF72D-UG-003}
+**Def-lref{2} = ref{EK-RF72D-SV-002}
+**Def-lref{3} = ref{CU-1991-11-08}
+**Def-lref{4} = ref{AA-ME85D-TE}
+**Sys-name: RF31
+**Desc-name: RF31 Integrated Storage Element
+!-- VMS V5.3 onwards *58 -->
+**OS-support-ULTRIX**vref{4}: V4.0
+**Last-order**uref{*SUE Jul 1992}: 30 Sept 1992
+**Last-ship**uref{*SUE Jul 1992}: 31 Dec 1992
+**Capacity**vref{3}: 381 MB
+**Form-factor**vref{3}: 5-1/4" half-height
+**Average-access**vref{3}: 23.6ms
+**Average-seek**vref{3}: 15.3ms
+**Transfer-rate**vref{3}: 2.0MB/s
+**I/O-throughput**uref{*57,*59}: {45 IO/s @ 150ms}
+!!?**I/O-throughput**uref{*SUE Jul 1992}: {41 IO/s @ 100ms}
+**Read-ahead-cache**vref{3}: 128KB
+**Read-ahead-tracks**vref{3}: 4
+**Error-correction**htref{1}: 264-bit ECC
+**Data-tracks-per-surface**htref{2}: 1861
+**Sectors-per-track**htref{1}: 50 data, 1 replacement
+!!?**Data-surfaces-per-drive**htref{1}: 8
+**Track-density**htref{1}: 1875tpi
+! [2] has **Recording-density**htref{1}: 30064 bpi
+**Recording-density**htref{1}: 30520 bpi
+**Num-platters**vref{3}: 4
+**Areal-density**vref{3}: 56.4 Mb/sq in
+**Media-type**vref{3}: Thin film
+**Head-type**vref{3}: MIG
+**Interface**vref{3}: DSSI
+**Rotational-speed**htref{2}: 3600rpm
+**Servo-type**htref{1}: Fully embedded
+**Start-time**htref{1}: < 60s
+**Stop-time**htref{1}: < 15s
+**Noise**htref{1}: < 5.6 Bels
+**Airflow**htref{1}: < 10 cu.ft/min
+**Power-start{RF31}
+**Positive-5V-current**htref{2}: 1.2A
+**Positive-12V-current**htref{2}: 3.0A:peak
+**Power**vref{3}: 18.7W:typical
+**Power-end{RF31}
+!-- *75: 1.2Amax@5V, @12V: 3.0Apeak(3s of spin up), 0.7A max(idle) -->
+!--      1.3Amax(continuous random seeks). 12.6W typical (idle), 18.7W typical -->
+!--	(continuous random seeks). -->
+**Dimensions-start{RF31}
+**Label: RF31 Drive
+**Height**htref{2}: 41.2mm
+**Width**htref{2}: 147mm
+**Depth**htref{2}: 209mm
+**Dimensions-end{RF31}
+**End-storage-entry{RF31}
+
+**Start-storage-entry{RF31F}{DSSI}{RF}
+**Def-lref{1} = ref{EK-RF72D-SV-002}
+**Def-lref{2} = ref{CU-1991-11-08}
+**def-lref{3} = ref{CU-1991-12-20}
+**Sys-name: RF31F
+**Desc-name: RF31F Integrated Storage Element
+**Last-order**uref{SUE Jul 1992}: 30 Sept 1992
+**Last-ship**uref{SUE Jul 1992}: 31 Dec 1992
+**OS-support-eln**vref{3}: VAXELN V4.3
+**Capacity**vref{2}: 200 MB
+**Form-factor**vref{2}: 5-1/4" full-height
+**Average-access**vref{2}: 20.5ms
+**Average-seek**vref{2}: 12.2ms
+**Transfer-rate**vref{2}: 2.0MB/s
+**Read-ahead-cache**vref{2}: 128KB
+**Read-ahead-tracks**vref{2}: 4
+**Error-correction**uref{58}: 264-bit ECC
+**Servo-type**htref{1}: Fully embedded
+**Rotational-speed**htref{1}: 3600rpm
+**Track-density**htref{1}: 1875tpi
+**Areal-density**vref{2}: 56.4Mb/sq in
+**Recording-density**htref{1}: 30064 bpi
+**Data-tracks-per-surface**htref{1}: 984
+**Sectors-per-track**htref{1}: 50 data, 1 replacement
+**Media-type**vref{2}: Thin film
+**Head-type**vref{2}: MIG
+**Interface**vref{2}: DSSI
+**Num-platters**vref{2}: 4
+**Start-time**htref{1}: < 60s
+**Stop-time**htref{1}: < 15s
+**Power-start{RF31F}
+**Positive-5V-current**htref{1}: 1.2A
+**Positive-12V-current**htref{1}: 3.0A:peak
+**Power**vref{2}: 18.7W:typical
+**Power-end{RF31F}
+**Dimensions-start{RF31F}
+**Label: RF31F Drive
+**Height**htref{1}: 41.2mm
+**Width**htref{1}: 147mm
+**Depth**htref{1}: 209mm
+**Dimensions-end{RF31F}
+**End-storage-entry{RF31F}
+
+**Start-storage-entry{RF31T}{DSSI}{RF}
+**def-lref{1} = ref{CU-1992-07-15}
+**def-lref{2} = ref{CU-1994-05-09}
+**Sys-name: RF31T
+**Desc-name: RF31T Integrated Storage Element
+**Announcement**vref{1}: 15 July 1992
+**Last-order**vref{2}: 1994-07-01
+**Last-ship**vref{2}: 1994-09-30
+**OS-support-vms**uref{*SUE Jul 1992 Spec}: VMS V5.3-1
+**Capacity**uref{*SUE Jul 1992 Spec}: 380 MB
+**Form-factor**vref{1}: 3-1/2"
+**Average-seek**uref{*SUE Jul 1992 Spec}: 6.9ms
+**Average-access**uref{*SUE Jul 1992 Spec}: 12.5ms
+!!?**Variant-start{HISPEED}
+!!?**Label: HISPEED mode
+!!?**Average-seek**uref{*SUE Jul 1992 Spec}: 5.5ms
+!!?**Average-access**uref{*SUE Jul 1992 Spec}: 11.1ms
+!!?**Variant-end{HISPEED}
+**I/O-throughput**uref{*SUE Jul 1992 Spec}: 84 IO/s @ 100ms
+**Peak-transfer-rate**uref{*SUE Jul 1992 Spec}:	3.3MB/s	(from media)
+**Cache**vref{1}: 512KB read-ahead
+**Cache-tracks**uref{*SUE Jul 1992 Spec}: 13 tracks
+**Rotational-speed**uref{*SUE Jul 1992 Spec}: 5400 rpm
+**Num-platters**uref{*SUE Jul 1992 Spec}: 7
+**Head-type**uref{*SUE Jul 1992 Spec}: TFH
+**Areal-density**uref{*SUE Jul 1992 Spec}: 128Mb/sq in
+**Power-start{RF31T}
+**Power**uref{*SUE Jul 1992 Spec}: 13.7W
+**Power-end{RF31F}
+**End-storage-entry{RF31T}
+
+**Start-storage-entry{RF35}{DSSI}{RF}
+**Def-lref{1} = ref{EK-RF72D-SV-002}
+**Def-lref{2} = ref{CU-1992-01-31}
+**Def-lref{3} = ref{CU-1993-05-10}
+**def-lref{4} = ref{CU-1994-05-09}
+**Sys-name: RF35
+**Desc-name: RF35 Integrated Storage Element
+**Announcement**vref{2}: 1992-01-31
+**Last-order**vref{4}: 1994-07-01
+**Last-ship**vref{4}: 1994-09-30
+**Capacity**vref{2,3}: 852MB
+**Codename: Patriot
+**Form-factor**vref{2}: 3-1/2" full-height
+**Average-access**vref{2,3}: 15.1ms
+**Average-seek**vref{2,3}: 9.5ms
+**Average-latency**uref{129}: 5.6ms
+**Peak-transfer-rate**uref{129}: 3.3MB/s
+**I/O-throughput**uref{SUE Jul 1992}: 73 IO/s @ 100ms
+**Rotational-speed**vref{2,3}: 5400rpm
+**Read-ahead-cache**vref{2,3}: 512KB
+**Read-ahead-tracks**uref{SUE Jul 1992}: 13
+**Media-type**vref{3}: TFM
+**Head-type**vref{3}: TFH
+**Num-platters**vref{3}: 7
+**Servo-type**htref{1}: Fully embedded
+**Track-density**htref{1}: 2650tpi
+**Recording-density**htref{1}: 48300 bpi
+**Areal-density**vref{3}: 128 Mb/sq in
+**Data-tracks-per-surface**htref{1}: 2086
+**Sectors-per-track**htref{1}: 57 data, 1 replacement
+**Start-time**htref{1}: < 30s
+**Stop-time**htref{1}: < 15s
+**Power-start{RF35}
+**Positive-5V-current**htref{1}: 0.85A
+**Positive-12V-current**htref{1}: 2.55A:peak
+**Power**htref{1}: 13.7W:typical
+**Power-end{RF35}
+**Dimensions-start{RF35}
+**Label: RF35 Drive
+**Height**htref{1}: 41.2mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 146mm
+**Dimensions-end{RF35}
+**End-storage-entry{RF35}
+
+**Start-storage-entry{RF36}{DSSI}{RF}
+**Sys-name: RF36
+**Desc-name: RF36 Integrated Storage Element
+**Def-lref{1} = ref{CU-1993-05-10}
+**Def-lref{2} = ref{CU-1995-09-01}
+**Last-order**vref{2}: 1995-09-29
+**Last-ship**vref{2}: 1995-09-29
+**Capacity**vref{1}: 1.6GB
+**Form-factor**vref{1}: 3.5"
+**Average-access**vref{1}: 15.1ms
+**Average-seek**vref{1}: 9.5ms
+**Peak-transfer-rate: 3.1MB/s-6.25MB/s
+**Read-ahead-cache**vref{1}: 512 KB
+**Rotational-speed**vref{1}: 5400rpm
+**Areal-density**vref{1}: 150 Mb/sq inch
+**Num-platters**vref{1}: 8
+**Media-type**vref{1}: TFM
+**Head-type**vref{1}: TFH
+**Interface**vref{1}: DSSI
+**End-storage-entry{RF36}
+
+**Start-storage-entry{RF71}{DSSI}{RF}
+**Sys-name: RF71
+**Desc-name: RF71 Integrated Storage Element
+**def-lref{1} = ref{EK-RF71D-IM-001}
+**def-lref{2} = ref{DEC-PR-1989-01-23}
+**Announcement**vref{2}: 1989-01-23
+**Capacity**vref{2}: 400MB
+**Form-factor**vref{2}: 5-1/4" full-height
+**Average-seek**uref{*28,*59,*58}: 21ms
+**Average-access**uref{*28,*58}: 29.3ms
+**Peak-transfer-rate**uref{*28,*59}: 1.5MB/s
+**I/O-throughput**uref{*57,*59}: 32 IO/s @ 150ms
+**Read-ahead-cache**uref{*28}: No
+**Power-start{RF71}
+**Power**uref{*28}: 24W
+**Power-end{RF71}
+**End-storage-entry{RF71}
+
+**Start-storage-entry{RF72}{DSSI}{RF}
+**Def-lref{1} = ref{EK-RF72D-SV-002}
+**Def-lref{2} = ref{CU-1991-11-08}
+**def-lref{3} = ref{CU-1991-12-20}
+! TODO: verify that ref{CU-1993-09-27} is correct: it was ref{1993-09-27}
+**Def-lref{4} = ref{CU-1993-09-27}
+**Sys-name: RF72
+**Desc-name: RF72 Integrated Storage Element
+**Last-order**vref{4}: 1993-12-24
+**Last-ship**vref{4}: 1994-03-31
+**OS-support-eln**vref{3}: VAXELN V4.3
+**Capacity**vref{2}: 1.0GB
+**Form-factor**vref{2}: 5-1/4" full height
+**Average-seek**vref{2}: 13.4ms
+**Average-access**vref{2}: 21.7ms
+! TODO verify **Peak-transfer-rate**vref{2}: 2.0 MB/s, was **Peak-ransfer-rate (missing "t")
+**Peak-transfer-rate**vref{2}: 2.0 MB/s
+**I/O-throughput: 45 IO/s @ 100ms
+**Read-ahead-cache**vref{2}: 128KB
+**Read-ahead-tracks**vref{2}: 4
+**Num-platters**vref{2}: 11
+**Media-type**vref{2}: Thin Film
+**Head-type**vref{2}: MIG
+**Servo-type**htref{1}: Fully embedded
+**Rotational-speed**htref{1}: 3600rpm
+**Track-density**htref{1}: 1875tpi
+**Recording-density**htref{1}: 30064 bpi
+**Areal-density**vref{2}: 56.4 Mb/sq in
+**Data-tracks-per-surface**htref{1}: 1861
+**Sectors-per-track**htref{1}: 50 data, 1 replacement
+**Start-time**htref{1}: < 60s
+**Stop-time**htref{1}: < 15s
+**Interface**vref{2}: DSSI
+**Power-start{RF72}
+**Positive-5V-current**htref{1}: 1.5A
+**Positive-12V-current**htref{1}: 5.4A:peak
+**Power**vref{2}: 23W:typical
+**Power-end{RF72}
+**Dimensions-start{RF72}
+**Label: RF72 Drive
+**Height**htref{1}: 83mm
+**Width**htref{1}: 147mm
+**Depth**htref{1}: 209mm
+**Dimensions-end{RF72}
+**End-storage-entry{RF72}
+
+**Start-storage-entry{RF73}{DSSI}{RF}
+**Def-lref{1} = ref{EK-RF72D-SV-002}
+! TODO verify lref{2}, was missing "ref"
+**Def-lref{2} = ref{CU-1991-11-08}
+**Sys-name: RF73
+**Desc-name: RF73 Integrated Storage Element
+**Announcement**vref{2}: 1991-11-08
+**FCS-date**vref{2}: November 1991
+**Processor**vref{2}: 68020
+**Codename: Shamrock
+**OS-support-VMS**vref{2}: VMS V5.5
+**OS-support-eln**uref{74}: VAXELN V4.3
+**Capacity**vref{2}: 2.0GB
+**Form-factor**vref{2}: 5-1/4" full height
+**Average-seek**vref{2}: 12.5ms
+**Average-access**vref{2}: 20.8ms
+**Transfer-rate**vref{2}: 2.7 MB/s
+**Spiral-transfer-rate**uref{119}: 2.0MB/s
+!! TODO **I/O-throughput**uref{119}**uref{SUE Jul 1992}: {55 IO/s @ 150ms}{47 IO/s @ 100ms}
+**Read-ahead-cache**vref{2}: 512KB
+**Read-ahead-tracks**vref{2}: 11
+**Num-platters**vref{2}: 11
+**Servo-type**htref{1}: Fully embedded
+**Rotational-speed**htref{1}: 3600rpm
+**Track-density**htref{1}: 2432 tpi
+**Recording-density**htref{1}: 43880 bpi
+**Areal-density**vref{2}: 107 Mb/sq in
+**Data-tracks-per-surface**htref{1}: 2620
+**Sectors-per-track**htref{1}: 71 data, 1 replacement
+**Media-type**vref{2}: Thin Film
+**Interface**vref{2}: DSSI
+**Start-time**htref{1}: < 60s
+**Stop-time**htref{1}: < 15s
+**Power-start{RF73}
+**Power**vref{2}: 23W (typical)
+**Positive-5V-current**htref{1}: 1.2A
+**Positive-12V-current**htref{1}: 5.0A:typical
+**Power-end{RF73}
+**Dimensions-start{RF73}
+**Label: RF73 Drive
+**Height**htref{1}: 83mm
+**Width**htref{1}: 147mm
+**Depth**htref{1}: 209mm
+![1]**Weight**htref{1}: 6.36lbs
+**Weight**htref{1}: 2.88kg
+**Dimensions-end{RF73}
+**End-storage-entry{RF73}
+
+**Start-storage-entry{RF74}{DSSI}{RF}
+**Sys-name: RF74
+**Desc-name: RF74 Integrated Storage Element
+**Def-lref{1} = ref{CU-1993-05-10}
+**Def-lref{2} = ref{CU-1994-04-25}
+**Announcement: 26 April 1993
+**Last-order**vref{2}: 1994-05-06
+**Last-ship**vref{2}: 1994-07-29
+**OS-support-VMS**vref{1}: VMS V5.5-2 (OpenVMS AXP V1.5)
+**Capacity**vref{1}: 3.57GB
+**Form-factor: 5-1/4" full height
+**Average-seek**vref{1}: 12.0ms
+**Average-access: 17.6ms
+**Transfer-rate**vref{1}: 6.95MB/s
+**Read-ahead-cache**vref{1}: 512KB
+! TODO verify this ref ... was '*vref' with single '*'
+**Rotational-speed**vref{1}: 5400rpm
+**Power-start{RF74}
+**Power: 35W:(typical)
+**Power-end{RF74}
+**End-storage-entry{RF74}
+

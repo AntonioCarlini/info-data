@@ -1,0 +1,410 @@
+**Start-storage-entry{RC25}{MISC}{RC}
+**Sys-name: RC25
+**Desc-name: RC25 Fixed/Removable Drive
+! TODO this originally said ref{DEC-PR-1998-06-06}, so verify it
+**Def-lref{1} = ref{DEC-PR-1994-06-06}
+![*78]:
+!The RQC25 is a combined 26MB fixed Winchester disk and 26MB sealed removable
+!cartridge disk. The RQC25 contains its own KLESI controller with onboard
+!microdiagnostics. The RC25 is a similar unit but without the KLESI controller.
+!It may be added on to the RQC25 to give 104MB of storage.
+! [2 - believed] Codename: Aztec
+! From [11]:
+! Interfaces: Q-bus, UNIBUS. 2 drivers per controller, one cont. per CPU
+**Lifetime**uref{[*DU JUN-86]}:	1984-?	
+**Last-order**vref{1}: 1988-07-01
+**Last-ship**vref{1}: 1988-09-30
+**Capacity**uref{*SOEE85}: 52MB:(26MB fixed, 26MB removable)
+**Average-access**uref{[11]}: 45.5ms	
+**Average-seek**uref{*SOEE85 ?????}: 35ms	
+**Average-latency**uref{*SOEE85}: 10.5ms	
+**Peak-transfer-rate**uref{[11],*SOEE85}: 1.25 MB/s	
+**Track-track-seek**uref{*SOEE85}: 10ms	
+**Maximum-seek**uref{*SOEE85}: 55ms	
+**End-storage-entry{RC25}
+
+**Start-storage-entry{RK05}{MISC}{RK}
+**Sys-name: RK05
+**Desc-name: RK05 Cartridge Disk
+**Capacity**uref{11,95,DU-JUN86}: 2.5MB
+**Average-seek**uref{99}: 50ms
+**Average-latency**uref{99}: 20ms
+**Track-track-seek**uref{99}: 10ms
+**Maximum-seek**uref{99}: 85ms
+**Transfer-speed**uref{99}: 11.1us/16-bits
+**Num-media-surfaces**uref{99}: 2
+!!!**Tracks-per-surface**uref{99}: 200:(plus 3 spare)
+**Sectors-per-track**uref{99}: 12
+**Bytes-per-sector**uref{99}: 512
+**Servo-type**uref{11}: Transducer
+**Rotational-speed**uref{99}: 1500rpm
+**End-storage-entry{RK05}
+
+**Start-storage-entry{RK06}{MISC}{RK}
+**Sys-name: RK06
+**Desc-name: RK06 Removable Disk Drive
+**Def-lref{1} = ref{EK-RK067-UG-001}
+**Html-target: rk06
+!
+!The RK06 and RK07 drive subsystem consists of an RK611 UNIBUS controller and
+!a mixture of up to eight RK06 or RK07 drives.
+**Pack-size**htref{1}: 14"
+**Capacity: 13.8MB
+**Peak-transfer-rate:	537.5KB/s
+!! Check above to see if kB/s or KB/s
+**Average-seek: 38ms
+**Maximum-seek: 75ms
+**Average-latency**htref{1}: 12.5ms
+**Maximum-latency**htref{1}: 25.0ms
+**Rotational-speed**htref{1}: 2400rpm
+**Start-time**htref{1}: 60s:(max)
+**Stop-time**htref{1}: 60s:(max)
+**Num-media-surfaces**htref{1}: 3 data + 1 servo
+!!**Tracks-per-pack: 1233
+**Track-density: 192.3 tpi
+**Sectors-per-track: 22
+**Bytes-per-sector**htref{1}: 512
+**Power-start{RK067-EA}
+**Label: RK06-EA/RK07-EA
+**Supply**htref{1}: 115V 1-phase 60Hz
+**I-max**htref{1}: 10.5A
+**Power**htref{1}: 500W
+**Power-end{RK06-EA/RK07-EA}
+**Power-start{RK06-EB/RK07-EB}
+**Label: RK06-EB/RK07-EB
+**Supply**htref{1}: 230V 1-phase 60Hz
+**I-max**htref{1}: 5.3A
+**Power**htref{1}: 450W 
+**Power-end{RK06-EB/RK07-EB}
+**Power-start{RK06-EC/RK07-EC}
+**Label: RK06-EC/RK07-EC
+**Supply**htref{1}: 115V 1-phase 50Hz
+**I-max**htref{1}: 11.0A
+**Power**htref{1}: 550W 
+**Power-end{RK06-EC/RK07-EC}
+**Power-start{RK06-ED/RK07-ED}
+**Label: RK06-ED/RK07-ED
+**Supply**htref{1}: 230V 1-phase 50Hz
+**I-max**htref{1}: 5.5A 
+**Power**htref{1}: 500W 
+**Power-end{RK06-ED/RK07-ED}
+**Power-start{RK06-FA/RK07-FA}
+**Label: RK06-FA/RK07-FA
+**Supply**htref{1}: 115V 1-phase 60Hz
+**I-max**htref{1}: 11.3A
+**Power**htref{1}: 550W 
+**Power-end{RK06-FA/RK07-FA}
+**Power-start{RK06-FB/RK07-FB}
+**Label: RK06-FB/RK07-FB
+**Supply**htref{1}: 230V 1-phase 60Hz
+**I-max**htref{1}: 6.1A
+**Power**htref{1}: 500W 
+**Power-end{RK06-FB/RK07-FB}
+**Power-start{RK06-FC/RK07-FC}
+**Label: RK06-FC/RK07-FC
+**Supply**htref{1}: 115V 1-phase 50Hz
+**I-max**htref{1}: 11.8A
+**Power**htref{1}: 600W 
+**Power-end{RK06-FC/RK07-FC}
+**Power-start{RK06-FD/RK07-FD}
+**Label: RK06-FD/RK07-FD
+**Supply**htref{1}: 230V 1-phase 50Hz
+**I-max**htref{1}: 6.3A 
+**Power**htref{1}: 550W 
+**Power-end{RK06-FD/RK07-FD}
+!-- ref_1: note RK06-Ex is single access, RK06-Fx is dual access -->
+**End-storage-entry{RK06}
+
+**Start-storage-entry{RK07}{MISC}{RK}
+**Sys-name: RK07
+**Desc-name: RK07 Removable Disk Drive
+**Def-lref{1} = ref{EK-RK067-UG-001}
+**Html-target: rk06
+!
+!The RK06 and RK07 drive subsystem consists of an RK611 UNIBUS controller and
+!a mixture of up to eight RK06 or RK07 drives.
+**Pack-size**htref{1}: 14"
+**Capacity**htref{1}: 27.6MB
+**Peak-transfer-rate**htref{1}: 537.5KB/s
+!! Check above to see if kB/s or KB/s
+**Average-seek**htref{1}: 36.5ms
+**Maximum-seek**htref{1}: 71.0ms
+**Average-latency**htref{1}: 12.5ms
+**Maximum-latency**htref{1}: 25.0ms
+**Rotational-speed**htref{1}: 2400rpm
+**Start-time**htref{1}: 60s:(max)
+**Stop-time**htref{1}: 60s:(max)
+**Num-media-surfaces**htref{1}: 3 data + 1 servo
+!!**Tracks-per-pack**htref{1}: 2445
+**Track-density**htref{1}: 384.6 tpi
+**Sectors-per-track**htref{1}: 22
+**Bytes-per-sector**htref{1}: 512
+**Power-start{RK067-EA}
+**Label: RK06-EA/RK07-EA
+**Supply**htref{1}: 115V 1-phase 60Hz
+**I-max**htref{1}: 10.5A
+**Power**htref{1}: 500W
+**Power-end{RK06-EA/RK07-EA}
+**Power-start{RK06-EB/RK07-EB}
+**Label: RK06-EB/RK07-EB
+**Supply**htref{1}: 230V 1-phase 60Hz
+**I-max**htref{1}: 5.3A
+**Power**htref{1}: 450W 
+**Power-end{RK06-EB/RK07-EB}
+**Power-start{RK06-EC/RK07-EC}
+**Label: RK06-EC/RK07-EC
+**Supply**htref{1}: 115V 1-phase 50Hz
+**I-max**htref{1}: 11.0A
+**Power**htref{1}: 550W 
+**Power-end{RK06-EC/RK07-EC}
+**Power-start{RK06-ED/RK07-ED}
+**Label: RK06-ED/RK07-ED
+**Supply**htref{1}: 230V 1-phase 50Hz
+**I-max**htref{1}: 5.5A 
+**Power**htref{1}: 500W 
+**Power-end{RK06-ED/RK07-ED}
+**Power-start{RK06-FA/RK07-FA}
+**Label: RK06-FA/RK07-FA
+**Supply**htref{1}: 115V 1-phase 60Hz
+**I-max**htref{1}: 11.3A
+**Power**htref{1}: 550W 
+**Power-end{RK06-FA/RK07-FA}
+**Power-start{RK06-FB/RK07-FB}
+**Label: RK06-FB/RK07-FB
+**Supply**htref{1}: 230V 1-phase 60Hz
+**I-max**htref{1}: 6.1A
+**Power**htref{1}: 500W 
+**Power-end{RK06-FB/RK07-FB}
+**Power-start{RK06-FC/RK07-FC}
+**Label: RK06-FC/RK07-FC
+**Supply**htref{1}: 115V 1-phase 50Hz
+**I-max**htref{1}: 11.8A
+**Power**htref{1}: 600W 
+**Power-end{RK06-FC/RK07-FC}
+**Power-start{RK06-FD/RK07-FD}
+**Label: RK06-FD/RK07-FD
+**Supply**htref{1}: 230V 1-phase 50Hz
+**I-max**htref{1}: 6.3A 
+**Power**htref{1}: 550W 
+**Power-end{RK06-FD/RK07-FD}
+!-- ref_1: note RK06-Ex is single access, RK06-Fx is dual access -->
+**End-storage-entry{RK07}
+
+**Start-storage-entry{RL01}{MISC}{RL}
+**Sys-name: RL01
+**Desc-name: RL01 Cartridge disk drive
+**Lifetime**uref{*DU-JUN86}: 1978-1980
+**Capacity**uref{11,95}: 5.4MB
+**Average-seek**uref{DU-JUN86}:  55ms
+**Average-latency**uref{DU-JUN86}: 12.5ms
+**Peak-transfer-rate**uref{DU-JUN86}: 512KB/s
+**Sectors-per-track**uref{11}: 40
+**Servo-type**uref{11}: Embedded
+**End-storage-entry{RL01}
+
+**Start-storage-entry{RL02}{MISC}{RL}
+**Sys-name: RL02
+**Desc-name: RL02 Cartridge Disk Drive
+**Def-lref{1} = ref{DA-1987-07-13-RL02}
+!
+!An embedded closed-loop servo positioning system improves data
+!integrity by continuously sampling servo information with the same
+!head that reads and writes the data. To further ensure data integrity
+!a CRC is performed on data transfers between the drive and the controller.
+!Also a phase-locked-loop clock system and MFM recording provide reliable
+!reading and recording techniques. Up to 4 RL02 drives may be attached to
+!each controller.
+!
+! [11]: 160W, 25.A@240VAC, 600BTU/hr, Standard panel: 10.4"x17.5"x26.5", 75lbs -->
+! vref{1}: in excess of 100,000 units
+**Last-order**vref{1}: 1987-09-14
+**Last-ship**vref{1}: 1987-12-24
+**Lifetime**uref{DU-JUN86}: 1979-
+**Capacity**uref{*SOEE85}: 10.4MB
+**Average-access**uref{*SOEE85,11,78}: 67.5ms
+**Average-seek**uref{*SOEE85,11}: 55ms
+**Average-latency**uref{*SOEE85,11,78}: 12.5ms
+**Peak-transfer-rate**uref{*SOEE85,11,78}: 512KB/s
+**Track-track-seek**uref{*SOEE85}: 15ms
+**Num-media-surfaces**uref{*SOEE85,78}: 2 data
+**Tracks-per-surface**uref{*SOEE85}: 512
+**Sectors-per-track**uref{*SOEE85}: 40
+**Bytes-per-sector**uref{*SOEE85}: 256
+**Recording-density**uref{*SUE 5.25 25-6-84}: 3725bpi
+**Track-density**uref{[*SUE 5.25 25-6-84}: 256tpi
+**Servo-type**uref{11}: Embedded
+**Rotational-speed**uref{*SOEE85}: 2400rpm
+**End-storage-entry{RL02}
+
+**Start-storage-entry{RX01}{MISC}{RX}
+**Sys-name: RX01
+**Desc-name: RX01 Dual 8-inch Floppy Disk
+**Capacity**uref{95,99}: 256KB:(per drive)
+**Average-access**uref{99}: 483ms
+**Average-seek**uref{99}: 380ms
+**Average-latency**uref{99}: 83ms
+**Transfer-speed**uref{99}: 18us/byte
+**Track-track-seek**uref{99}: 10ms
+**Maximum-seek**uref{99}: 760ms
+!!**Seek-head-settling-time: 20ms
+**Num-media-surfaces**uref{99}: 1
+**Tracks-per-surface**uref{99}: 77
+**Sectors-per-track**uref{99}: 26
+**Bytes-per-sector**uref{99}: 128
+**Rotational-speed**uref{99}: 360rpm
+**End-storage-entry{RX01}
+
+**Start-storage-entry{RX02}{MISC}{RX}
+**Sys-name: RX02
+**Desc-name: RX02 8-inch Floppy Disk
+! Dual 8" floppy drive. Reads RX01 floppies. [78]
+! Will write RX01 floppies: used this on LSI-11/23 at SOM group
+**Lifetime**uref{*DU-JUN86}: 1978-1985
+**Capacity**uref{95}: 512KB:(per drive)
+**Average-access**uref{*SOEE85}: 262ms
+**Average-seek**uref{*SOEE85,78}: 154ms
+**Average-latency**uref{*SOEE85,78}: 83ms
+!!**Average-settling-time**uref{*SOEE85}: 25ms
+**Peak-transfer-rate**uref{*SOEE85}: 61kbit/s
+**Num-media-surfaces**uref{*SOEE85}: 1 data
+**Tracks-per-surface**uref{*SOEE85}: 77
+**Sectors-per-track**uref{*SOEE85}: 26
+**Bytes-per-sector**uref{*SOEE85}: 256
+**Track-track-seek**uref{*SOEE85}: 6ms
+**Rotational-speed**uref{*SOEE85}: 360rpm
+**End-storage-entry{RX02}
+
+**Start-storage-entry{RX23}{MISC}{RX}
+**Sys-name: RX23
+**Desc-name: RX23 Diskette Drive
+**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{2} = ref{CU-1991-10-30}
+**Def-lref{3} = ref{DEC-PR-1989-01-09-RX23}
+**Def-lref{4} = ref{AA-ME85D-TE}
+**Announcement**vref{3}: 1989-01-09
+**OS-support-ULTRIX**vref{4}: V4.0
+**Capacity**vref{2}: {1.44MB:HD}{720KB:DD}
+! [110]: R/O 720KB -->
+!**Form-factor**htref{1}: 3.5" half height
+**Form-factor**vref{2}: 3.5"
+!**Peak-transfer-rate**htref{1}: {500KB/s:HD}{250KB/s:DD}
+**Peak-transfer-rate**vref{2}: 500KB/s
+**Average-access**vref{2}: 195ms
+**Sectors-per-track**htref{1}: {18:HD}{9:DD}
+**Num-heads**htref{1}: 2
+!!**Tracks**htref{1}: 80
+!-- Tracks: 160 [110] -->
+!!**Step-rate**htref{1}: 3ms per track
+**Interface: SCSI
+**Power-start{RX23}
+**Power**htref{1}: 3.0W
+!-- [110]: Power: 0.22A @ 5V (typical), 0.98A @ 5V (seeking) -->
+**Power-end{RX23}
+**Dimensions-start{RX23}
+**Height**htref{1}: 30.0mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 150.1mm
+**Weight**htref{1}: 0.48kg
+**Dimensions-end{RX23}
+**End-storage-entry{RX23}
+
+**Start-storage-entry{RX24}{MISC}{RX}
+**Sys-name: RX24
+**Desc-name: RX24 Floppy Disk
+**Capacity**uref{72}: 700KB
+**Form-factor**uref{72}: 3-1/2" half height
+**End-storage-entry{RX24}
+
+**Start-storage-entry{RX26}{MISC}{RX}
+**Sys-name: RX26
+**Desc-name: RX26 Diskette Drive
+**Def-lref{1} = ref{EK-PM30E-RB-002}
+! TODO lref{2} and lref{3} both missing ref{} keyword, so verify
+**Def-lref{2} = ref{CU-1991-10-30}
+**Def-lref{3} = ref{CU-1991-11-08}
+**def-lref{4} = ref{CU-1991-12-20}
+**OS-support-vms**vref{2}: VMS V5.4-3
+**OS-support-eln**vref{4}: VAXELN V4.3
+**Capacity**vref{2}: {2.8MB:ED}{1.2MB:HD}{720KB:DD}
+**Form-factor**vref{2}: 3-1/2" half height
+! [2]
+**Peak-transfer-rate**htref{1}:	{1.0MB/s:ED}{500KB/s:HD}{250KB/s:DD}
+**Average-latency**vref{3}: 100ms
+**Average-seek**vref{3}: < 95ms
+!!**Minimum-seek**htref{1}: 3ms
+**Sectors-per-track**htref{1}: {36:ED}{18:HD}{9:DD}
+**Track-density**vref{3}: 135tpi
+**MFM-data-bit-rate**htref{1}: {1000kHz:ED}{500kHz:HD}{250kHz:DD}
+**Interface: SCSI
+**Media**vref{3}: Barium-ferrite, perpendicular
+**Recording-code**vref{3}: MFM
+**Power-start{RX26}
+**Power: 4.6W
+**Power-end{RX26}
+**Dimensions-start{RX26}
+**Height**htref{1}: 25.4mm
+**Width**htref{1}: 101.6mm
+**Depth**htref{1}: 150.0mm
+**Weight**htref{1}: 0.425kg
+**Dimensions-end{RX26}
+**End-storage-entry{RX26}
+
+**Start-storage-entry{RX33}{MISC}{RX}
+**Sys-name: RX33
+**Desc-name: RX33 Diskette Drive
+**Def-lref{1} = ref{EK-MVXAA-OM-001}
+! TODO lref{2} missing ref{}
+**Def-lref{2} = ref{CU-1991-10-30}
+**Capacity**htref{1}: {1.2MB:RX33K media}{400KB:RX50K media}
+!**Form-factor**uref{*10,*58,*17}: 5.25" half height
+**Form-factor**vref{2}: 5.25"
+**Peak-transfer-rate**vref{2}: 500k bit/s
+!**Average-access**uref{*110}: {178ms:RX33K media}{195ms:RX50K media}
+**Average-access**vref{2}: 178ms
+**Average-latency: 83ms
+**Average-seek: 92ms
+**Sectors-per-track**htref{1}: {15:RX33K media}{10:RX50K media}
+**Rotational-speed**htref{1}: {360rpm:RX33K}{300rpm:RX50K}
+**Bytes-per-sector**htref{1}: 512
+**Tracks-per-drive: 160
+!!**Tracks**htref{1}: 80
+**Num-heads**htref{1}: 2
+**Track-density**htref{1}: 96tpi
+!!**Track-step-rate**htref{1}: 3ms/track
+**MFM-data-bit-rate**htref{1}: {500kHz:RX33K}{250kHz:RX50K}
+!-- From *110: -->
+!-- R/W in 1.2MB and 400K modes -->
+!-- 0.35A@5V typ, 0.51A (max, seeking) -->
+!-- Supply	<TD> 0.35A @ 5V, 0.22A @ 12V -->
+**Dimensions-start{RX33}
+**Height**htref{1}:	43mm
+**Width**htref{1}:	146mm
+**Depth**htref{1}:	203.2mm
+**Weight**htref{1}:	1.31kg
+**Dimensions-end{RX33}
+**End-storage-entry{RX33}
+
+**Start-storage-entry{RX50}{MISC}{RX}
+**Sys-name: RX50
+**Desc-name: RX50 Floppy Disk Drive
+! % Dual diskette drive (818KB total capacity) -->
+**Lifetime**uref{*DU-JUN86}: 1983-1990
+! Retired: [17]
+**Capacity**uref{*SOEE85}: 409KB
+!!**Random-access-time**uref{*SOEE85 p6.14}: 264ms
+**Average-seek**uref{*SOEE85,78}: 164ms
+**Average-latency**uref{78,*SOEE85}: 100ms
+**Peak-transfer-rate**uref{*SOEE85,78}: 250kbit/s
+**Track-track-seek**uref{78}: 6ms
+**Num-media-surfaces**uref{*SOEE85}: 1 data
+!!**Tracks-per-diskette**uref{*SOEE85,100,80}: 80
+**Sectors-per-track**uref{*SOEE85,100}: 10
+**Bytes-per-sector**uref{*SOEE85}: 512
+!!**Diskettes-per-drive**uref{*SOEE85}: 2
+**Rotational-speed**uref{*SOEE85,78}: 300 rpm
+**Track-density**uref{*SOEE85}: 96 tpi
+**Power-start{RX50}
+**Power**uref{100}: 18W
+**Power-end{RX50}
+**End-storage-entry{RX50}
+

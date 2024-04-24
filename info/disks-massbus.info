@@ -1,0 +1,165 @@
+! DSP5350 and DSP3160 OEM disks: https://groups.google.com/forum/#!topic/biz.dec/ET4n7Jb7POE
+! DSP5400: https://groups.google.com/forum/#!topic/biz.dec/f49hbySxaJo
+! DWZZB: https://groups.google.com/forum/#!msg/biz.digital.articles/eawz1EOLzgU/PiXhYYQ-ObcJ
+! ESE50: https://groups.google.com/forum/#!topic/biz.dec/MCoheO_7pUk
+! ESP510 and ESP530: https://groups.google.com/forum/#!topic/biz.dec/DomCX_cz_Vg  https://usenetarchives.com/view.php?id=biz.dec&mid=PDE5OTJOb3YxNy4yMjA3MTUuNzA5N0BQQS5kZWMuY29tPg
+! ESP540: https://groups.google.com/forum/#!topic/biz.dec/dZ8--l7y9-0
+! HSC40 and HSC5X-DA: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=230.2
+! HSD05: https://groups.google.com/forum/#!msg/biz.dec.decnews/1P3jfxncWDY/X92MZmt4L7oJ
+! HSD10: https://groups.google.com/forum/#!topic/biz.digital.articles/4ZGMc4lxmWw
+! HSD30: https://groups.google.com/forum/#!topic/biz.digital.articles/CCJ7NOzqYKM
+! HSZ40: https://groups.google.com/forum/#!topic/biz.digital.articles/kpk8-xxWcBA
+! KDM70: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=422.0
+! KFESB: https://groups.google.com/forum/#!topic/biz.digital.articles/M7zbo7K8QLs
+! KZTSA: https://groups.google.com/forum/#!original/biz.dec/YD6TqRzqaUk/7_tH3nA956kJ
+! RF30, RF71 and RA70 Removable Storage Elements: https://eisner.decus.org/anon/htnotes/range?f1=INDUSTRY_NEWS&f2=349.0
+! RF71 ISE and the KFQSA: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=235.1
+! RF71B-xx Storage Expansion: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=319.0
+! SA550 and SA650: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=230.0
+! SA600: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.48
+! SA600-JA and SA600-HA: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=230.1
+
+! Intended for:
+! HDD "spinning rust"
+! true SSDs
+! RAM backed by HDD (e.g. ESE20)
+! Floppy disks
+
+**Start-storage-entry{RM02}{MASSBUS}{RM}
+**Sys-name: RM02
+**Desc-name: RM02 Removable Disk
+**Lifetime**uref{*DU-JUN86}: 1978-1984
+**Capacity**uref{SUE 5.25}: 67MB
+**Average-access**uref{SUE 5.25}: 42.5ms
+**Average-seek**uref{*DU-JUN86}: 30ms
+**Average-latency**uref{*DU-JUN86}: 12.5ms
+**Peak-transfer-rate**uref{SUE 5.25}: 806KB/s
+**Recording-density**uref{SUE 5.25}: 6038 bpi
+**Track-density**uref{SUE 5.25}: 384 tpi
+**End-storage-entry{RM02}
+
+**Start-storage-entry{RM03}{MASSBUS}{RM}
+**Sys-name: RM03
+**Desc-name: RM03 Removable Disk
+**Lifetime**uref{*DU-JUN86}: 1978-1984
+**Capacity**uref{*DU-JUN86}: 67MB
+**Average-seek**uref{*DU-JUN86}: 30ms
+**Average-latency**uref{*DU-JUN86}: 8.3ms
+**Peak-transfer-rate**uref{*DU-JUN86}: 1.2MB/s
+**Num-media-surfaces**uref{11}: 5 data, 1 servo
+**Tracks-per-surface**uref{11}: 823
+**Track-density**uref{11}: 384tpi
+**Num-sectors**uref{11}: 32/30
+**Rotational-speed**uref{11}: 3600rpm
+**End-storage-entry{RM03}
+
+**Start-storage-entry{RM05}{MASSBUS}{RM}
+**Sys-name: RM05
+**Desc-name: RM05 Removable Disk
+**Lifetime**uref{*DU-JUN86}: 1980-1984
+**Capacity**uref{11,*SOEE85}: 256MB
+**Average-access**uref{*SOEE85}: 38.2ms
+**Average-seek**uref{*SOEE85}: 30ms
+**Average-latency**uref{*SOEE85}: 8.3ms
+**Peak-transfer-rate**uref{*SOEE85}: 1.2MB/s
+**Track-track-seek**uref{*SOEE85}: 6ms
+**Num-media-surfaces**uref{11,*SOEE85}: 19 data, 1 servo
+**Tracks-per-surface**uref{11,*SOEE85}: 823
+**Sectors-per-track**uref{*SOEE85}: 32
+**Bytes-per-sector**uref{*SOEE85}: 512
+**Track-density**uref{11}: 384tpi
+**Num-sectors**uref{11}: 32/30
+**Rotational-speed**uref{*SOEE85,11}: 3600rpm
+**End-storage-entry{RM05}
+
+**Start-storage-entry{RM06}{MASSBUS}{RM}
+**Sys-name: RM06
+**Desc-name: RM06 Removable Disk
+**Def-lref{1} = ref{CU-1992-08-10}
+!This is a replacement drive for the RM03, RM05 and RP06. This is an optical
+!drive which provides full controller/drive emulation; no software changes are
+!required. Media is removable
+**Dimensions-start{RM06-Drive}
+**Height**vref{1}: 6in	
+**Width**vref{1}: 16in
+**Depth**vref{1}: 18in
+**Weight**vref{1}: 28lbs
+**Dimensions-end{RM06_Drive}
+**End-storage-entry{RM06}
+
+**Start-storage-entry{RP03}{MASSBUS}{RP}
+**Sys-name: RP03
+**Desc-name: RP03 Disk
+**Capacity**uref{99}: 40MB
+**Average-seek**uref{99}: 29ms
+**Average-latency**uref{99}: 12.5ms
+**Transfer-speed**uref{99}: 7.5us/16-bits
+**Track-track-seek**uref{99}: 7.5ms
+**Maximum-seek**uref{99}: 55ms
+**Num-media-surfaces**uref{99}: 20
+!!**Tracks-per-surface**uref{99}: 400:(plus 6 spare)
+**Sectors-per-track**uref{99}: 10
+**Bytes-per-sector**uref{99}: 512
+**Rotational-speed**uref{99}: 2400rpm
+**End-storage-entry{RP03}
+
+**Start-storage-entry{RP04}{MASSBUS}{RP}
+**Sys-name: RP04
+**Desc-name: RP04 Disk
+!-- removable ?? -->
+**Capacity**uref{11,99}: 88MB
+**Average-access**uref{99}: 36ms
+**Average-seek**uref{99}: 28ms
+**Average-latency**uref{99}: 8.3ms
+!!**One-cylinder-seek**uref{99}: 7ms
+**Maximum-seek**uref{0}: 50ms:(typ)
+**Transfer-rate**uref{99}: 806KB/s
+**Num-media-surfaces**uref{11}: 19 data, 1 servo
+**Tracks-per-surface**uref{11,99}: 411
+**Track-density**uref{11}: 200tpi
+**Num-sectors**uref{11}: 22/20
+**Rotational-speed**uref{11,99}: 3600rpm
+**End-storage-entry{RP04}
+
+**Start-storage-entry{RP05}{MASSBUS}{RP}
+**Sys-name: RP05
+**Desc-name: RP05 Removable Disk
+**Lifetime**uref{*DU-JUN86}: 1976-1979
+**Capacity**uref{*DU-JUN86}: 87MB
+**Average-seek**uref{*DU-JUN86}: 30ms
+**Average-latency**uref{*DU-JUN86}: 6ms
+**Peak-transfer-rate**uref{*DU-JUN86}: 830KB/s
+**End-storage-entry{RP05}
+
+**Start-storage-entry{RP06}{MASSBUS}{RP}
+**Sys-name: RP06
+**Desc-name: RP06 Removable Disk
+**Lifetime**uref{*DU-JUN86}: 1976-1982
+**Capacity**uref{*DU-JUN86}: 174MB
+**Average-seek**uref{*DU-JUN86}: 30ms
+**Average-latency**uref{*DU-JUN86}: 6ms
+**Peak-transfer-rate**uref{*DU-JUN86}: 830KB/s
+**Num-media-surfaces**uref{11}: 19 data, 1 servo
+**Tracks-per-surface**uref{11}: 815
+**Track-density**uref{11}: 400tpi
+**Num-sectors**uref{11}: 22/20
+**Rotational-speed**uref{11}: 3600rpm
+**End-storage-entry{RP06}
+
+**Start-storage-entry{RP07}{MASSBUS}{RP}
+**Sys-name: RP07
+**Desc-name: RP07 Fixed Media Disk
+**Lifetime**uref{*DU-JUN86}: 1980-1984
+**Capacity**uref{*SOEE85}: 516MB
+**Average-access**uref{*SOEE85}: 32.3ms
+**Average-seek**uref{*DU-JUN86}: 23ms
+**Average-latency**uref{*SOEE85}: 8.3ms
+**Peak-transfer-rate**uref{*SOEE85}: 1.3MB/s
+**Track-track-seek**uref{*SOEE85}: 5ms
+**Num-media-surfaces**uref{*SOEE85}: 16 data, 1 servo
+!!**Tracks-per-surface**uref{*SOEE85}: 1260 data, 4 diagnostic
+**Sectors-per-track**uref{*SOEE85}: 50
+**Bytes-per-sector**uref{*SOEE85}: 512
+**Rotational-speed**uref{*SOEE85}: 3633rpm
+**End-storage-entry{RP07}
+

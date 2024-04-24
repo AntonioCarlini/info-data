@@ -1,0 +1,497 @@
+**Start-storage-entry{ESE20}{SDI}{SOLID}
+**Sys-name: ESE20
+**Desc-name: ESE20 120MB Solid State Disk
+**Def-lref{1} = ref{SOC-SPR90}
+**Def-lref{2} = ref{CU-1992-10-12}
+**Last-order**vref{2}: 15 November 1992
+**Last-ship**vref{2}: 31 December 1992
+**Capacity**vref{2}: 120MB
+**OS-support-vms**htref{1}: VMS V5.1
+**OS-support-ultrix**htref{1}: Ultrix V3.1
+**Average-seek**htref{1}: 1ms
+**Average-latency**htref{1}: 530us
+**Peak-transfer-rate**htref{1}: 2.5MB/s
+**Spiral-transfer-rate**htref{1}: 1.8MB/s
+**I/O-throughput**htref{1}: 300 IO/s
+**Interface**htref{1}: SDI
+**Dimensions-start{ESE20}
+**Height**htref{1}: 1524.0mm
+**Width**htref{1}: 736.6mm
+**Depth**htref{1}: 660.4mm
+**Dimensions-end{ESE20}
+**End-storage-entry{ESE20}
+
+**Start-storage-entry{ESE50-A}{SDI}{SOLID}
+**Sys-name: ESE50-A
+**Desc-name: ESE50 120MB/600MB/1GB Solid State Disk
+**Def-lref{1} = ref{CU-1992-05-15}
+**Def-lref{2} = ref{CU-1995-05-01}
+**Def-lref{3} = ref{DEC-PR-1992-05-29}
+**Announcement**vref{3}: 1992-05-29
+**FRS-date**uref{*SUE Sep 1992}: May 1992
+**Last-order**vref{2}: 1995-06-30
+**Capacity**vref{1}: {120MB} {600MB} {1GB}
+**OS-support-VMS**uref{*142}: V5.5
+**OS-support-CRONIC**vref{1}: CRONIC V6.0
+! KDM70 V2.4	<!-- *142 -->
+**Average-access**uref{*142}: 0.25ms
+**Peak-transfer-rate**uref{*142}: 2.5MB/s
+**Spiral-transfer-rate**uref{*142}: 1.9MB/s
+**I/O-throughput**uref{*142}: 1800 IO/s
+**Power-start{ESE50-A}
+**Heat-dissipation**uref{*142}: 300W
+**Power-end{ESE50-A}
+**Dimensions-start{ESE50-A}
+**Height**uref{*142}: 265mm
+**Width**uref{*142}: 222mm
+**Depth**uref{*142}: 470mm
+**Weight**uref{*142}: 20.5kg
+**Dimensions-end{ESE50-A}
+**End-storage-entry{ESE50-A}
+
+**Start-storage-entry{ESE50-B}{SDI}{SOLID}
+**Sys-name: ESE50-B
+**Desc-name: ESE50 120MB/600MB/1GB Solid State Disk
+**Announcement**uref{*SUE Sep 1992}: May 1992
+**FRS-date**uref{*SUE Sep 1992}: May 1992
+**Capacity**uref{*142}: 600MB
+**OS-support-VMS**uref{*142}: V5.5
+**OS-support-CRONIC**uref{8142}: CRONIC V6.0
+! KDM70 V2.4	<!-- *142 -->
+**Average-access**uref{*142}: 0.25ms
+**Peak-transfer-rate**uref{*142}: 2.5MB/s
+**Spiral-transfer-rate**uref{*142}: 1.9MB/s
+**I/O-throughput**uref{*142}: 1800 IO/s
+**Power-start{ESE50-B}
+**heat-dissipation**uref{*142}: 300W
+**Power-end{ESE50-B}
+**Dimensions-start{ESE50-B}
+**Height**uref{*142}: 265mm
+**Width**uref{*142}: 222mm
+**Depth**uref{*142}: 470mm
+**Weight**uref{*142}: 20.5kg
+**Dimensions-end{ESE50-B}
+**End-storage-entry{ESE50-B}
+
+**Start-storage-entry{ESE50-D}{SDI}{SOLID}
+**Sys-name: ESE50-D
+**Desc-name: ESE50 120MB/600MB/1GB Solid State Disk
+**Announcement**uref{*SUE Sep 1992}: May 1992
+**FRS-date**uref{*SUE Sep 1992}: May 1992
+**Capacity**uref{*142}: 1GB
+**OS-support-VMS**uref{*142}: V5.5
+**OS-support-CRONIC**uref{8142}: CRONIC V6.0
+! KDM70 V2.4	<!-- *142 -->
+**Average-access**uref{*142}: 0.25ms
+**Peak-transfer-rate**uref{*142}: 2.5MB/s
+**Spiral-transfer-rate**uref{*142}: 1.9MB/s
+**I/O-throughput**uref{*142}: 1800 IO/s
+**Power-start{ESE50-D}
+**Heat-dissipation**uref{*142}: 300W
+**Power-end{ESE50-D}
+**Dimensions-start{ESE50-D}
+**Height**uref{*142}: 265mm
+**Width**uref{*142}: 222mm
+**Depth**uref{*142}: 470mm
+**Weight**uref{*142}: 20.5kg
+**Dimensions-end{ESE50-D}
+**End-storage-entry{ESE50-D}
+
+**Start-storage-entry{RA60}{SDI}{RA}
+**Sys-name: RA60
+**Desc-name: RA60 Removable Disk Drive
+**Def-lref{1} = ref{EK-ORA60-UG-001}
+**Announcement**uref{*DU-JUN86}: 1983
+**Capacity**htref{1}: 205MB	
+**Form-factor: 14"
+**Peak-transfer-rate**htref{1}: 1.98MB/s	
+**Average-access**uref{*SOEE85}: 50ms
+**Average-latency**htref{1}: 8.33ms	
+**Average-seek**htref{1}: 41.67ms	
+**Track-track-seek**htref{1}: 6.67ms	
+**Bytes-per-sector**htref{1}: 512	
+**Sectors-per-track**htref{1}: 43	
+**Track-density**htref{1}: 779 tpi
+**Num-heads**uref{*SOEE85}: 6
+**Rotational-speed**htref{1}: 3600rpm	
+**Interface: SDI
+!-- Power from ref_1: 7.5A@120V, 3.75A@240V both 600W typ 800W max poer factor gtr 0.75 max inrush 190Arms@120V 95Arms @240V -->
+!-- taken from ref_1
+**Dimensions-start{RA60-Drive}
+**Height**htref{1}: 265.2mm
+**Width**htref{1}: 482.6mm
+**Depth **htref{1}: 850.9mm
+**Weight**htref{1}: 68.95kg
+**Dimensions-end{RA60-Drive}
+**Dimensions-start{RA60-cab}
+**Height**htref{1}: 1063.0mm
+**Width**htref{1}: 542.0mm
+**Depth **htref{1}: 914.2mm
+**Weight**htref{1}: 90.70kg
+**Dimensions-end{RA60-cab}
+!-- 914.2mm is quoted as 14.2 and 36.00" - an obvious typo
+**End-storage-entry{RA60}
+
+**Start-storage-entry{RA70}{SDI}{RA}
+**Sys-name: RA70
+**Desc-name: RA70 280MB Disk
+**Def-lref{1} = ref{SOC-SPR90}
+**Def-lref{2} = ref{EK-ORA7X-SM-002}
+**Def-lref{3} = ref{CU-1991-11-08}
+**Def-lref{4} = ref{CU-1991-12-20}
+**Def-lref{5} = ref{DEC-PR-1987-09-10}
+**Announcement**vref{5}: 1987-09-10
+**OS-support-eln**vref{4}: VAXELN V4.3
+**Capacity**vref{3}: 280MB
+**EOL**vref{3}: 28 March 1992
+**Last-ship**vref{3}: 27 June 1992
+**Form-factor**vref{3}: 5-1/4" full-height
+**Peak-transfer-rate**vref{3,5}: 1.4MB/s
+**Bytes-per-sector**htref{1}: 512	
+! TODO **Tracks-per-surface**htref{1}**htref{2}: 1507	
+! TODO **Error-correction**vef{5}: 170-bit ECC
+**Areal-density**vref{5}: 30.4 Mb/sq inch	
+**Num-media-surfaces**vref{5}: 11 data, 1 servo	
+**Interface**vref{3}: SDI	
+**Media-type**vref{5}: Thin Film
+**Num-heads**htref{2}: 12
+**Sectors-per-track**htref{2}: 33 + 1 spare	
+**Track-density**htref{2}: 1355tpi
+**Servo-type**htref{2}: Dedicated and embedded	
+**Rotational-speed**htref{2}: 4000rpm	
+**Average-latency**htref{2}: 7.5ms
+**Head-switch-latency**htref{2}: 4.5ms	
+**Average-seek**vref{3,5}: 19.5ms
+**Average-access**vref{3,5}: 27.0ms
+!**One-cylinder-seek**htref{2}: 5.5ms
+**Maximum-seek**htref{2}: 35ms
+**Power-start{RA70}
+**Positive-5V-current**htref{1}: 3.30A
+**Positive-12V-current**htref{1}: 2.9A
+**Power**htref{1}: 51.30W
+**Power-end{RA70}
+**Dimensions-start{RA70}
+**Height**htref{2}: 89.4mm
+**Width**htref{2}: 146.6mm
+**Depth**htref{2}: 223.5mm
+**Weight**htref{2}: 4.76kg
+**Dimensions-end{RA70}
+**End-storage-entry{RA70}
+
+**Start-storage-entry{RA71}{SDI}{RA}
+**Def-lref{1} = ref{EK-ORA7X-SM-002}
+**Def-lref{2} = ref{EK-RSA7X-PG-002}
+**Def-lref{3} = ref{CU-1991-11-08}
+**def-lref{4} = ref{CU-1991-12-20}
+**Def-lref{5} = ref{CU-1993-01-04}
+**Def-lref{6} = ref{CU-1994-03-14}
+**Sys-name: RA71
+**Desc-name: RA71 Winchster Disk
+**Location: storage/ra71.html
+**Announcement**vref{3}: 1991-11-08
+**Last-order**vref{6}: 1994-05-06
+**Last-ship**vref{6}: 1994-07-29
+**OS-support-VMS**vref{5}: V5.4-2
+**OS-support-ultrix**htref{2}: Ultrix V4.2
+**OS-support-eln**vref{4}: VAXELN V4.3
+**OS-support-cronic**htref{2}: {Cronic V4.1} {Cronic V6.0}
+**Capacity**vref{3}: 700MB
+**Form-factor**vref{3}: 5.25"
+**Average-access**vref{3}: 20.8ms	
+**Average-seek**vref{3}: 12.5ms
+**Average-latency**htref{1}: 8.3ms
+**Peak-transfer-rate**vref{3}: 2.0MB/s	
+**I/O-throughput**uref{[SUE Sep 1992] but 116=>50}: {40.2 IO/s @ 50ms}{50.4 IO/s @ 100ms}
+**Num-media-surfaces**htref{1}: 14 data, 1 servo	
+**Areal-density**uref{[116]}: 58.2Mbits/in	
+**Recording-density**uref{[116]}: 30469	bpi
+**Media-type**htref{1}: Thin Film
+**Num-heads**htref{1}: 15
+**Tracks-per-surface**htref{1}: 1915
+**Sectors-per-track**htref{1}: 51 + 1 spare	
+**Track-density**htref{1}: 1921 tpi
+**Servo-type**htref{1}: Dedicated and embedded	
+**Rotational-speed**htref{1}: 3600 rpm
+**Head-switch-latency**htref{1}: 4.0ms
+!**One-cylinder-seek**htref{1}: 4.0ms
+**Maximum-seek**htref{1}: 27.0ms
+! TODO was vtref
+**Interface**vref{3}: SDI
+**Power-start{RA71}
+**Power**uref{116}: 54W
+**Heat-dissipation**uref{116}: 193BTU/hr
+**Power-end{RA71}
+**Dimensions-start{RA71}
+**Height**htref{1}: 89.4mm
+**Width**htref{1}: 146.6mm
+**Depth**htref{1}: 223.5mm
+**Weight**htref{1}: 2.9kg
+**Dimensions-end{RA71}
+**End-storage-entry{RA71}
+
+**Start-storage-entry{RA72}{SDI}{RA}
+**Def-lref{1} = ref{EK-ORA7X-SM-002}
+**Def-lref{2} = ref{EK-RSA7X-PG-002}
+**Def-lref{3} = ref{CU-1991-11-08}
+**Def-lref{4} = ref{CU-1993-01-04}
+**Def-lref{5} = ref{CU-1994-03-14}
+**Sys-name: RA72
+**Desc-name: RA72 Winchster Disk
+**Location: storage/ra72.html
+**Announcement**vref{3}: 1991-11-08
+**Last-order**vref{5}: 1994-05-06
+**Last-ship**vref{5}: 1994-07-29
+**OS-support-VMS**vref{4}: V5.4-2
+**OS-support-ultrix**htref{2}: Ultrix V4.2
+**OS-support-eln**htref{2}: VAXELN V4.3
+**OS-support-cronic**htref{2}: {Cronic V4.1} {Cronic V6.0}
+**Capacity**vref{3}: 1.0GB
+**Form-factor**vref{3}: 5.25"
+**Average-access**vref{3}: 20.8ms
+**Average-seek**vref{3}: 12.5ms
+**Average-latency**htref{1}: 8.3ms
+**Peak-transfer-rate**vref{2}: 2.0MB/s	
+**I/O-throughput**uref{[SUE Sep 1992] but [116]=>50}: {40.3 IO/s @ 50ms}{50.5 IO/s @100ms}
+**Num-media-surfaces**htref{1}: 20 data, 1 servo	
+**Areal-density**uref{[116]}: 58.2Mbits/in	
+**Recording-density**uref{[116]}: 30469 bpi
+**Media-type**htref{1}: Thin Film
+**Num-heads**htref{1}: 21
+**Tracks-per-surface**htref{1}: 1915
+**Sectors-per-track**htref{1}: 51 + 1 spare	
+**Track-density**htref{1}: 1928 tpi
+**Servo-type**htref{1}: Dedicated and embedded	
+**Rotational-speed**htref{1}: 3600 rpm
+**Head-switch-latency**htref{1}: 4.0ms
+!**One-cylinder-seek**htref{1}: 4.0ms
+**Maximum-seek**htref{1}: 27.0ms
+! TODO was vtref
+**Interface**vref{3}: SDI
+**Power-start{RA72}
+**Power**uref{[116]}: 54W:(typical)	
+**Heat-dissipation**uref{[116]}: 193BTU/hr	
+**Power-end{RA72}
+**Dimensions-start{RA72}
+**Height**uref{[116]}: 890mm	
+**Width**uref{[116]}: 146mm	
+**Depth**uref{[116]}: 224mm	
+**Weight**uref{[116]}: 3.0kg	
+**Dimensions-end{RA72}
+**End-storage-entry{RA72}
+
+**Start-storage-entry{RA73}{SDI}{RA}
+**Def-lref{1} = ref{EK-ORA7X-SM-002}
+**Def-lref{2} = ref{EK-RSA7X-PG-002}
+**Def-lref{3} = ref{CU-1993-01-04}
+**Def-lref{4} = ref{CU-1994-03-14}
+**Def-lref{5} = ref{CU-1993-05-10}
+**Def-lref{6} = ref{DEC-PR-1992-09-29}
+**Sys-name: RA73
+**Desc-name: RA73 Winchster Disk
+**Codename: Renner
+**Announcement**vref{6}: 1992-09-29
+**Last-order**vref{4}: 1994-05-06
+**Last-ship**vref{4}: 1994-07-29
+! vref{3} says supported wityh restrictions (generic device) on VMS V5.4-2
+**OS-support-VMS**vref{3}: V5.5-2
+**OS-support-ULTRIX**vref{5}: V4.3A
+**OS-support-eln**htref{2}: VAXELN V4.3-x
+**OS-support-cronic**htref{2}: {Cronic V4.1} {Cronic V6.0}
+**Capacity**htref{1}: 2.0GB	
+**Form-factor**uref{[SUE Sep 1992]}: 5.25" full-height	
+**Peak-transfer-rate**uref{[SUE Sep 1992]}: 2.0MB/s	
+**I/O-throughput**uref{[SUE Sep 1992]}:	{43.7 IO/s @50ms}{54.0 IO/s @ 100ms}
+**Num-media-surfaces**htref{1}: 21 data, 1 servo	
+**Media-type**htref{1}: Thin Film
+**Num-heads**htref{1}: 22
+**Tracks-per-surface**htref{1}: 2667
+**Sectors-per-track**htref{1}: 70 + 1 spare	
+**Track-density**htref{1}: 2468tpi
+**Servo-type**htref{1}: Dedicated and embedded	
+**Rotational-speed**htref{1}: 3600 rpm
+**Average-latency**htref{1}: 8.3ms
+**Head-switch-latency**htref{1}: 4.0ms
+**Average-seek**htref{1}: 12.5ms
+**Average-access**htref{1}: 23.3ms
+!**One-cylinder-seek**htref{1}: 4.0ms
+**Maximum-seek**htref{1}: 27.0ms
+**End-storage-entry{RA73}
+
+**Start-storage-entry{RA80}{SDI}{RA}
+**Sys-name: RA80
+**Desc-name: RA80 Winchester Disk
+!-- Also available as RM80 (Massbus) and R80 (on IDC on VAX-11/725 and VAX-11/730) -->
+**Lifetime**uref{*DU JUN-86}: 1982	
+**Capacity**uref{*SOEE85}: 121MB	
+**Average-access**uref{*SOEE85}: 33.3ms	
+**Average-seek**uref{*SOEE85}: 25ms	
+**Average-latency**uref{*SOEE85}: 8.33ms	
+**Peak-transfer-rate**uref{*SOEE85}: 1.2MB/s	
+**Track-track-seek**uref{*SOEE85}: 6ms	
+**Bytes-per-sector**uref{*SOEE85}: 512	
+**Sectors-per-track**uref{*SOEE85}: 31	
+**Tracks-per-surface**uref{*SOEE85}: 1092	
+**Num-media-surfaces**uref{*SOEE85}: 7 data, 1 servo	
+**Rotational-speed**uref{*SOEE85}: 3600rpm	
+**End-storage-entry{RA80}
+
+**Start-storage-entry{RA81}{SDI}{RA}
+**Sys-name: RA81
+**Desc-name: RA81 Winchester Disk
+**Def-lref{1} = ref{DEC-PR-1988-07-14}
+**Lifetime**uref{[*DU JUN-86]}: 1982-?	
+**Last-order**vref{1}: 1988-12-31
+**Capacity**vref{1}: 456MB	
+**Form-factor: 14"
+**Average-access**vref{1}: 36 ms
+**Average-seek**vref{1}: 28ms	
+**Average-latency**uref{[*23]}: 8.33ms	
+**Peak-transfer-rate**uref{[*23]}: 17.4Mbit/s	
+**Track-track-seek**uref{*SOEE85}: 6ms	
+**Head-switch-latency**uref{[*23]}: 6ms	
+**Num-media-surfaces**uref{[*23]}: 7 data, 1 servo	
+**Num-heads**uref{[*23]}: 2 per surface	
+!!!**Num-cylinders**uref{[*23]}: 1258:per head	
+**Tracks-per-surface**uref{[*23]}: 2496	
+**Bytes-per-sector**uref{*SOEE85}: 512	
+**Sectors-per-track**uref{[*23] but *SOEE85=>51}: 52	
+**Rotational-speed**uref{[*23]}: 3600rpm	
+**End-storage-entry{RA81}
+
+**Start-storage-entry{RA82}{SDI}{RA}
+**Def-lref{1} = ref{EK-ORA82-UG-001}
+**Def-lref{2} = ref{DEC-PR-1987-09-10}
+**Def-lref{3} = ref{DEC-PR-1988-07-14}
+**Sys-name: RA82
+**Desc-name: RA82 Disk Drive
+**Announcement**vref{2}: 1987-09-10
+**OS-support-VMS**vref{3}: V4.5
+**Capacity**vref{2}: 622MB	
+**Average-access**vref{3}: 32 ms
+**Average-seek**vref{2}: 24ms	
+**Average-latency**htref{1}: 8.33ms	
+**Peak-transfer-rate**vref{2}: 2.4MB/s	
+**Bytes-per-sector: 512
+**Sectors-per-track**htref{1}: 58	
+**Track-density**htref{1}: 1063 tpi
+**Recording-density**htref{1}: 12800 bpi
+**Num-heads**htref{1}: 15 data, 1 servo	
+**Num-media-surfaces**htref{1}: 7-1/2 data, 1/2 servo	
+**Rotational-speed**htref{1}: 3600rpm	
+**Servo-type**htref{1}: Fully embedded	
+**Interface: SDI
+**Start-time**htref{1}: 50s	
+**Stop-time**htref{1}: 20s	
+**Dimensions-start{RA82}
+**Height**htref{1}: 264mm	
+**Width**htref{1}: 445mm	
+**Depth**htref{1}: 673mm	
+**Weight**htref{1}: 61.2kg	
+**Dimensions-end{RA82}
+**Power-start{RA82-120V}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 35A
+**I-nominal**htref{1}: 7.8A
+**Power**htref{1}: 936W
+**Heat-dissipation**htref{1}: 1911 BTU/hr
+**Power-end{RA82-120V}
+**Power-start{RA82-240V}
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 18A
+! TODO differs from above! **I-nominal**htref{1}: 3.5A
+**Power**htref{1}: 840W
+**Heat-dissipation**htref{1}: 1911 BTU/hr
+**Power-end{RA82-240V}
+! ref_1 has error codes on p2-4, LED error codes on p A-1-->
+**End-storage-entry{RA82}
+
+**Start-storage-entry{RA90}{SDI}{RA}
+**Def-lref{1} = ref{EK-ORA90-UG-002}
+**Def-lref{2} = ref{EK-ORA90-SV-003}
+**Def-lref{3} = ref{CU-1991-11-08}
+**Sys-name: RA90
+**Desc-name: RA90 Disk Drive
+**EOL**vref{3}: 28 March 1992
+**Last-ship**vref{3}: 27 June 1992
+**Capacity**vref{3}: 1.216GB	
+**Average-seek**vref{3}: 18.5ms
+**Average-access**vref{3}: 26.8ms	
+**Average-latency**htref{1}: 8.33ms	
+**Peak-transfer-rate**vref{3}: 2.8MB/s	
+**Track-track-seek**htref{1}: 5.5ms	
+! TODO **Maximum-seek**htref{1}**htref{2}: 31.5ms	
+**Bytes-per-sector: 512
+**Sectors-per-track**htref{1}: 69 + 1 spare	
+**Tracks-per-drive**htref{1}: 34437	
+**Track-density**htref{1}: 1750 tpi
+**Num-heads**htref{1}: 13 data, 1 servo	
+**Rotational-speed**htref{1}: 3600rpm	
+**Servo-type**htref{1}: Dedicated and embedded	
+!**One-cylinder-seek**htref{2}: 5.5ms
+**Interface**vref{3}: SDI
+**Start-time**htref{1}: 40s	
+**Dimensions-start{RA90}
+**Height**htref{1}: 265.6mm	
+**Width**htref{1}: 221.9mm	
+**Depth**htref{1}: 684.7mm	
+**Weight**htref{1}: 31.8kg	
+**Dimensions-end{RA90}
+**Power-start{RA92-120V}
+**Supply**htref{1}: 120V 1-phase
+**I-max**htref{1}: 60A
+**I-nominal**htref{1}: 5.0A
+**Power**htref{1}: 281W
+**Heat-dissipation**htref{1}: 960 BTU/hr
+**Power-end{RA92-120V}
+**Power-start{RA92-240V}
+**Supply**htref{1}: 240V 1-phase
+**I-max**htref{1}: 70A
+! TODO differs from above **I-nominal**htref{1}: 2.35A
+**Power**htref{1}: 271W
+**Heat-dissipation**htref{1}: 976 kJ/hr
+**Power-end{RA92-240V}
+**End-storage-entry{RA90}
+
+**Start-storage-entry{RA92}{SDI}{RA}
+**Def-lref{1} = ref{EK-ORA90-UG-002}
+**Def-lref{2} = ref{EK-ORA90-SV-003}
+**Def-lref{3} = ref{CU-1991-11-08}
+**def-lref{4} = ref{CU-1991-12-20}
+**Def-lref{5} = ref{CU-1992-12-14}
+**Def-lref{6} = ref{AA-ME85D-TE}
+**Sys-name: RA92
+**Desc-name: RA92 Disk Drive
+**Last-order**vref{5}: 1993-02-27
+**Last-ship**vref{5}: 1993-05-22
+**OS-support-eln**vref{4}: VAXELN V4.3
+**OS-support-ULTRIX**vref{6}: V4.0
+**Capacity**vref{3}: 1506MB
+**Form-factor**vref{3}: 9"
+**Average-seek**vref{3}: 16.1ms	
+**Average-access**vref{3}: 24.8ms	
+**Average-latency**htref{1}: 8.81ms	
+**Peak-transfer-rate**vref{3}: 2.8MB/s	
+**Track-track-seek**htref{1}: 3ms	
+**Maximum-seek**htref{1}: 29ms	
+**Bytes-per-sector: 512
+**Sectors-per-track**htref{1}: 73 + 1 spare	
+**Tracks-per-drive**htref{1}: 40287	
+**Track-density**htref{1}: 2045 tpi
+**Recording-density**htref{1}: 38600 bpi
+**Areal-density**htref{1}: 38600MB/sq inch
+**Recording-mode**htref{1}: Zone bit recording
+**Num-heads**htref{1}: 13 data, 1 servo	
+**Num-cylinders**htref{1}: 820	
+**Num-media-surfaces**htref{1}: 6 data, 4 protective	
+**Rotational-speed**htref{1}: 3405rpm	
+**Servo-type**htref{1}: Dedicated and embedded	
+**Interface**vref{3}: SDI
+**Start-time**htref{1}: 40s	
+**Dimensions-start{RA92}
+**Height**htref{1}: 265.6mm	
+**Width**htref{1}: 221.9mm	
+**Depth**htref{1}: 684.7mm	
+**Weight**htref{1}: 31.8kg	
+**Dimensions-end{RA92}
+**End-storage-entry{RA92}
+

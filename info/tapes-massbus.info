@@ -1,0 +1,22 @@
+! Intended for tape storage devices of all sorts
+! TLZ07: https://groups.google.com/forum/#!topic/biz.digital.articles/0ogLUjNs2nY
+! TLZ7L: https://groups.google.com/forum/#!topic/biz.digital.articles/Geems2m3NxQ
+! TZ87N and TZ877: https://groups.google.com/forum/#!topic/biz.dec.decnews/O33N8kKU1YM
+! TZ87/TZ877 New Variants and Additional Support: https://groups.google.com/forum/#!original/biz.dec.decnews/bgnMAFXeh0w/9-IdbCa8EnAJ
+! TZ88: https://groups.google.com/forum/#!topic/biz.digital.articles/pOCe6FJfVoE
+
+**Start-storage-entry{TU79}{MASSBUS}{TU}
+**Def-lref{1} = ref{CU-1992-08-10}
+**Def-lref{2} = ref{DA-1987-09-02-Tapes}
+! TODO bad ref **Announcement**vref{2}: 1987-09-02
+**Last-order**vref{1}: 1992-12-31
+**Last-ship**vref{1}: 1993 Q1
+**Interface**vref{1}: MASSBUS
+**End-storage-entry{TU79}
+
+**Start-storage-entry{TU90}{MASSBUS}{TU}
+**Def-lref{1} = ref{CU-1992-08-31}
+**Last-order**vref{1}: 1992-11-30
+**Last-ship**vref{1}: 1993 Q1
+**End-storage-entry{TU90}
+

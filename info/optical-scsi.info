@@ -20,7 +20,7 @@
 **Average-latency**htref{1}: {155ms:outer track}{60ms:inner track}
 **Power-start{RRD40}
 **Heat-dissipation**htref{2}: 14W:(typical)
-**Heat-dissipation**htref{2}**uref{*122}: 50W:(tabletop)
+! TODO **Heat-dissipation**htref{2}**uref{*122}: 50W:(tabletop)
 **Power-end{RRD40}
 **Dimensions-start{RRD40-E}
 **Label: RRD40 Embedded
@@ -123,7 +123,7 @@
 **Form-factor: 5-1/4" half-height
 **Average-transfer-rate: 300KB/s
 **Peak-transfer-rate: 4.2MB/s
-**Read-ahead-cache
+! TODO **Read-ahead-cache
 **Average-access**vref{2}: 200ms
 **Maximum-access: 330ms
 **Read-ahead-cache**vref{1}: 256 KB
@@ -186,25 +186,6 @@
 **Weight**htref{1}: 5.2kg
 **Dimensions-end{RRD50-T}
 **End-storage-entry{RRD50}
-
-**Start-storage-entry{RV20}{UNK}{OPTICAL}
-**Sys-name: RV20
-**Desc-name: RV20 Write-Once Optical Drive
-**Def-lref{1} = ref{CU-1992-09-21}
-**Def-lref{1} = ref{DEC-PR-1988-04-05}
-**Announcement**vref{1}: 1988-04-05
-**Last-order**vref{1}: 1992-12-31
-**Last-ship**vref{1}: 1993 Q1
-**Average-access**vref{2}: 150 - 250 ms
-**End-storage-entry{RV20}
-
-**Start-storage-entry{RV64}{UNK}{OPTICAL}
-**Sys-name: RV64
-**Desc-name: RV64 Optical Storage Library
-**def-lref{1} = ref{CU-1992-09-21}
-**Last-order**vref{1}: 1992-08-31
-**Last-ship**vref{1}: 1993 Q1
-**End-storage-entry{RV20}
 
 **Start-storage-entry{RWZ01-AA}{SCSI}{OPTICAL}
 **Sys-name: RZW01
