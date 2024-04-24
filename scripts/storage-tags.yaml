@@ -234,6 +234,11 @@
   - Average latency
   - all
   - io
+- Maximum-latency:
+  - Maximum latency
+  - Maximum latency
+  - all
+  - io
 - Head-switch-latency:
   - Head switch latency
   - Head switch latency
@@ -249,6 +254,31 @@
   - Transfer rate
   - all
   - io
+- Data-transfer-rate:
+  - Data-transfer rate
+  - Data-transfer rate
+  - all
+  - io
+- Read-write-speed:
+  - Read/write speed
+  - Read/write speed
+  - all
+  - io
+- Transfer-speed:
+  - Transfer speed
+  - Transfer speed
+  - all
+  - io
+- Max-data-transfer-speed:
+  - Maximum data transfer speed
+  - Maximum data transfer speed
+  - all
+  - io
+- Sustained-transfer-rate:
+  - Sustained transfer rate
+  - Sustained transfer rate
+  - all
+  - io
 - Spiral-transfer-rate:
   - Sprial transfer rate
   - Spiral transfer rate
@@ -257,6 +287,11 @@
 - Peak-transfer-rate:
   - Peak transfer rate
   - Peak transfer rate
+  - all
+  - io
+- Average-transfer-rate:
+  - Average transfer rate
+  - Average transfer rate
   - all
   - io
 - Bytes-per-sector:
@@ -272,6 +307,16 @@
 - Sectors-per-track:
   - Sectors per track
   - Sectors per track
+  - all
+  - summary
+- Num-sectors:
+  - Number of sectors
+  - Number of sectors
+  - all
+  - summary
+- Num-tracks:
+  - Number of tracks
+  - Number of tracks
   - all
   - summary
 - Blocks-per-track:
@@ -452,5 +497,180 @@
 - I-nominal:
   - I (nominal)
   - I (nominal)
+  - all
+  - summary
+- Maximum-access:
+  - Maximum access
+  - Maximum access
+  - all
+  - summary
+- Loading:
+  - Loading
+  - Media loading mechanism for optical media
+  - all
+  - summary
+- Data-buffer:
+  - Data buffer size
+  - Data buffer size
+  - all
+  - summary
+- Soft-error-rate:
+  - Soft error rate
+  - Soft error rate
+  - all
+  - summary
+- Hard-error-rate:
+  - Hard error rate
+  - Hard error rate
+  - all
+  - summary
+- Undetectable-error-rate:
+  - Undetectable error rate
+  - Undetectable error rate
+  - all
+  - summary
+- Corrected-error-rate:
+  - Corrected error rate
+  - Corrected error rate
+  - all
+  - summary
+- Pack-size:
+  - Pack size
+  - Pack size
+  - all
+  - summary
+- MFM-data-bit-rate:
+  - Pack size
+  - Pack size
+  - all
+  - summary
+- Media:
+  - Media
+  - Media material details
+  - all
+  - summary
+- Recording-code:
+  - Recording code
+  - Data recording method
+  - all
+  - summary
+- Recording-format:
+  - Recording format
+  - Data recording method
+  - all
+  - summary
+- Recording-technology:
+  - Recording technology
+  - Recording technology
+  - all
+  - summary
+- Repositioning-time:
+  - Repositioning time
+  - Repositioning time
+  - all
+  - summary
+- Rewind-speed:
+  - Rewind speed
+  - Rewind speed
+  - all
+  - summary
+- Rewind-time:
+  - Rewind time
+  - Rewind time
+  - all
+  - summary
+- Average-file-access-time:
+  - Average file access time
+  - Average file access time
+  - all
+  - summary
+- Cartridge:
+  - Cartridge
+  - Cartridge
+  - all
+  - summary
+- Tape-speed:
+  - Tape speed
+  - Tape speed
+  - all
+  - summary
+- Unrecovered-error-rate:
+  - Unrecovered-error-rate
+  - Unrecovered-error-rate
+  - all
+  - summary
+- CPU:
+  - CPU
+  - CPU
+  - all
+  - summary
+- CPU-clock:
+  - CPU clock
+  - CPU clock
+  - all
+  - summary
+- Data-tracks:
+  - Data tracks
+  - Data tracks
+  - all
+  - summary
+- Tape-length:
+  - Tape length
+  - Tape length
+  - all
+  - summary
+- Recoverable-read-data-error:
+  - Recoverable read data-error
+  - Recoverable read data-error
+  - all
+  - summary
+- Recoverable-write-data-error:
+  - Recoverable write data-error
+  - Recoverable write data-error
+  - all
+  - summary
+- Record-size:
+  - Record size
+  - Record size
+  - all
+  - summary
+- Tape-width:
+  - Tape width
+  - Tape width
+  - all
+  - summary
+- Interface-speed:
+  - Interface-speed
+  - Interface-speed
+  - all
+  - summary
+- Cartridge-life:
+  - Cartridge-life
+  - Cartridge-life
+  - all
+  - summary
+- Error-checking:
+  - Error-checking
+  - Error-checking
+  - all
+  - summary
+- OEM-Device:
+  - OEM-Device
+  - OEM-Device
+  - all
+  - summary
+- Formatted-transfer-rate:
+  - Formatted-transfer-rate
+  - Formatted-transfer-rate
+  - all
+  - summary
+- Track-width:
+  - Track-width
+  - Track-width
+  - all
+  - summary
+- Technology:
+  - Technology
+  - Technology
   - all
   - summary
