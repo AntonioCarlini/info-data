@@ -13,7 +13,7 @@
 #
 # Ref.encode_with(coder)
 #  This is the function that is invoked when to_yaml() is called on a Ref object.
-#
+
 # Meanings of the fields:
 #
 # identifier: This is the key used to access the item and will often match the part number. It is always present.
@@ -22,11 +22,13 @@
 # electronic-format: The format, if the document is electronic, e.g. PDF, MEM, TXT, BOOKREADER, LN3, PS, HTML
 # format: UNKNOWN
 # location: UNKNOWN
-# confidential
+# confidential: Yes or No, depending on whether the document is marked as "Confidential" or "Internal Use Only" etc.
 # isbn: ISBN
 # author: Author names
 # publisher: Publisher (but not used for DEC manuals)
 # url: where to find the document online
+# hardcopy: Yes if the document consulted is hardcopy, otherwise No
+# processed: Yes if the document has been mined for info, otherwise No
 #
 class Ref
   attr_accessor :author
@@ -56,12 +58,40 @@ class Ref
     @publisher = nil
     @date = nil
     @url = nil
+    @hardcopy = false
+    @processed = false
   end
   
-  def confidential(text)
-    @confidential = (text =~ /^yes$/ix)
+  def confidential=(text)
+    if text =~ /^(y|yes)$/ix
+      @confidential = true
+    elsif text =~ /^(n|no)$/ix
+      @confidential = false
+    else
+      raise("Invalid value for Ref-confidential, only yes/No permitted but saw [#{text}].")
+    end
   end
-  
+
+  def hardcopy=(text)
+    if text =~ /^(y|yes)$/ix
+      @hardcopy = true
+    elsif text =~ /^(n|no)$/ix
+      @hardcopy = false
+    else
+      raise("Invalid value for Ref-hardcopy, only yes/No permitted but saw [#{text}].")
+    end
+  end
+
+  def processed=(text)
+    if text =~ /^(y|yes)$/ix
+      @processed = true
+    elsif text =~ /^(n|no)$/ix
+      @processed = false
+    else
+      raise("Invalid value for Ref-processed, only yes/No permitted but saw [#{text}].")
+    end
+  end
+
   # This function will be called when to_yaml() encounters an object of type Ref.
   # It encodes is data as though it were a hash of:
   #   { identifier => {hash of relevant member variables} }
@@ -79,7 +109,9 @@ class Ref
     h["publisher"] = @publisher unless @publisher.nil?()
     h["date"] = @date unless @date.nil?()
     h["url"] = @url unless @url.nil?()
-
+    h["hardcopy"] = @hardcopy ? 'Yes' : 'No'
+    h["processed"] = @processed ? 'Yes' : 'No'
+    
     coder.represent_map(nil, h)
   end
 end
@@ -136,15 +168,16 @@ class References
         raise("Duplicate reference [#{id}] read in #{info_filename} at line #{line_num}: #{line} (originally #{ret[id].line_num()})") if ret[id] != nil
         current = Ref.new(id, line_num)
         next
-      elsif line =~ /\*\*End-ref\{.*\}/ix
-        # TODO - check closing the right one, then add to pile
+      elsif line =~ /\*\*End-ref\{(.*)\}/ix
+        end_id = $1.strip()
+        raise("Bad end-ref [#{end_id}], expected #{current.identifier()}; read in #{info_filename} at line #{line_num}: #{line}") if end_id != current.identifier()
         ret.add_ref(current)
         next
       elsif line =~ / \s* \! /ix
         # skip comment line
         next
       elsif current == nil
-        # TODO - line outside of reference?
+        raise("Non-blank, non-comment line outside of reference: in #{info_filename} at line #{line_num}: #{line}")
         next
       end
       
@@ -158,12 +191,12 @@ class References
         when /^Ref-electronic$/ix   then current.electronic_format = value
         when /^Ref-format$/ix       then current.format = value # TODO ?
         when /^Ref-location$/ix     then current.location = value
-        when /^Ref-confidential$/ix then ; # TODO current.confidential = value
+        when /^Ref-confidential$/ix then current.confidential = value
         when /^Ref-ISBN$/ix         then current.isbn = value
         when /^Ref-authors?$/ix     then current.author = value # Allow "author" or "authors"
         when /^Ref-publisher$/ix    then current.publisher = value
-        when /^Ref-hardcopy$/ix     then ; # TODO yes/no ?
-        when /^Ref-processed/ix     then ; # TODO yes/no ?
+        when /^Ref-hardcopy$/ix     then current.hardcopy = value
+        when /^Ref-processed/ix     then current.processed = value
         when /^Ref-date$/ix         then current.date = value
         when /^Ref-URL$/ix          then
           # Ignore blank ref-url lines

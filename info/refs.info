@@ -1707,7 +1707,7 @@
 **Ref-text: HPCwire: DEC Announces the AlphaStation 500/500
 **Ref-processed: Yes
 **Ref-url: https://www.hpcwire.com/1998/10/23/compaq-announces-new-64-bit-alphaservers/
-**End-ref{HPCwire-1998-10-23}
+**End-ref{HPCwire-1996-08-09}
 
 **Start-ref{HPCwire-1998-10-23}
 **Ref-text: HPCwire: Compaq Announces the AlphaServer GS60 and GS140
@@ -2098,7 +2098,7 @@
 **Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.1
 **End-ref{DA-1987-08-25-VT2xx}
 
-**Start-ref{DA-1987-08-25VT320}
+**Start-ref{DA-1987-08-25-VT320}
 **Ref-text: Digital Announcement: 1987-AUG-25 (VT320)
 **Ref-processed: Yes
 **Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.1
@@ -2899,7 +2899,7 @@
 **Ref-text: pdp11 processor handbook pdp11/20/15/r20
 **Ref-partno: D-09-25
 **Ref-hardcopy: Yes
-**End-ref{D09-25}
+**End-ref{D-09-25}
 
 **Start-ref{EB-19402-20}
 **Ref-text: pdp11 processor handbook pdp11/04/24/34a/44/70 1981
@@ -4413,7 +4413,7 @@
 **Start-ref{LK201}
 **Ref-text: LK201 Keyboard Design Specification
 **Ref-electronic: PDF
-**Ref-confidential: Yes
+**Ref-confidential: yes
 **End-ref{LK201}
 
 **Start-ref{LK401}
@@ -10410,7 +10410,7 @@
 **ref-date: 1987-09-10
 **ref-url: http://www.nytimes.com/1987/09/10/business/aggressive-prices-set-on-digital-s-new-array.html
 **Ref-author: Calvin Sims
-**end-ref{NYT-1984-04-04-785}
+**end-ref{NYT-1987-09-10-uv3500}
 
 **Start-ref{AS1000A-TECHSUM}
 **Ref-text: AlphaServer 1000A Technical Summary
@@ -10600,7 +10600,7 @@
 **Ref-text: Glossary of Code Names (revised 02-Jan-92)
 **Ref-processed: Yes
 **ref-url: http://simh.trailing-edge.com/semi/docs/code_names.txt
-**End-ref{{Glossary-CodeNames-1992-01-02}
+**End-ref{Glossary-CodeNames-1992-01-02}
 
 **Start-ref{VMS-V071-SPD}
 **Ref-text: OpenVMS Operating System for Alpha and VAX, Version 7.1. SPD 25.01.49
