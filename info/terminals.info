@@ -20,7 +20,7 @@
 **Status-line**htref{1}: No
 **Printer-port**htref{1}: No
 **Host-interface**htref{1}: {RS-232}{20mA current loop (optional)}
-**2nd-host-interface**htref{1}: No
+**Second-host-interface**htref{1}: No
 **SSU-support**htref{1}: No
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 1 ; Ps c
@@ -48,14 +48,14 @@
 **Power**htref{1}: 150W
 **Power-end{VT100-230V}
 **Dimensions-start{VT100}
-**Label: VT100
+! TODO **Label: VT100
 **Height**htref{1}: 368.3mm
 **Width **htref{1}: 457.2mm
 **Depth **htref{1}: 362.0mm
 **Weight**htref{1}: 13.6kg
 **Dimensions-end{VT100}
 **Dimensions-start{VT100KBD}
-**Label: Keyboard
+! TODO **Label: Keyboard
 **Height**htref{1}: 88.9mm
 **Width **htref{1}: 457.2mm
 **Depth **htref{1}: 203.2mm
@@ -109,7 +109,7 @@
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 7 c
 **Host-interface**htref{1}: {RS-232}{20mA current loop (optional)}
-**2nd-host-interface**htref{1}: No
+**Second-host-interface**htref{1}: No
 **SSU-support**htref{1}: No
 **VT52-compatibility**htref{1}: Yes
 **Tektronix-4010**htref{1}: No
@@ -137,14 +137,14 @@
 **Power**htref{1}: 70W
 **Power-end{VT131-240V}
 **Dimensions-start{VT131-Monitor}
-**Label: Monitor
+! TODO **Label: Monitor
 **Height**htref{1}: 368.3mm
 **Width **htref{1}: 457.2mm
 **Depth **htref{1}: 362.0mm
 **Weight**htref{1}: 13.6kg
 **Dimensions-end{VT131-Monitor}
 **Dimensions-start{VT131-KBD}
-**Label: Keyboard
+! TODO **Label: Keyboard
 **Height**htref{1}: 88.9mm
 **Width **htref{1}: 457.2mm
 **Depth **htref{1}: 203.2mm
@@ -170,7 +170,7 @@
 **Status-line: No
 **Printer-port: (2nd interface)
 **Host-interface: DEC-423 or RS-232
-**2nd-host-interface: DEC-423
+**Second-host-interface: DEC-423
 **SSU-support: No
 **VT52-compatibility: Yes
 **Tektronix-4010: No
@@ -200,7 +200,8 @@
 **Sys-name: VT220 Video Terminal
 **Def-lref{1} = ref{EK-V220-UG-003}
 **Def-lref{2} = ref{DA-1987-08-25-VT2xx}
-**Retirement**vref{2} = 1987-08-25
+! TODO misformed Retirement line, so re-check
+**Retirement**vref{2}: 1987-08-25
 **Screen-diagonal**htref{1}: 305mm
 **Rendition**htref{1}: Monochrome
 **Status-line**htref{1}: No
@@ -208,7 +209,7 @@
 **Dev-req-resp: ESC [ ? 6 2 ; Ps c
 **Printer-port**htref{1}: 9 pin submin D
 **Host-interface**htref{1}: {RS-232}{20mA current loop}
-**2nd-host-interface**htref{1}: No
+**Second-host-interface**htref{1}: No
 **SSU-support**htref{1}: No
 **VT52-compatibility**htref{1}: Yes
 **Tektronix-4010**htref{1}: No
@@ -234,14 +235,14 @@
 **Power**htref{1}: 60W
 **Power-end{VT220-240V}
 **Dimensions-start{VT220-Monitor}
-**Label: VT220 monitor
+! TODO **Label: VT220 monitor
 **Height**htref{1}: 283mm
 **Width **htref{1}: 333mm
 **Depth **htref{1}: 387mm
 **Weight**htref{1}: 11.8kg
 **Dimensions-end{VT220-Monitor}
 **Dimensions-start{VT220-KBD}
-**Label: VT220 keyboard
+! TODO **Label: VT220 keyboard
 **Height**htref{1}: 51mm
 **Width **htref{1}: 533mm
 **Depth **htref{1}: 171mm
@@ -252,7 +253,8 @@
 **Start-terminals-entry{VT240}{DECVT}{VT200}
 **Sys-name: VT240 Video Terminal
 **Def-lref{1} = ref{DA-1987-08-25-VT2xx}
-**Retirement**vref{1} = 1987-08-25
+! TODO misformed Retirement line, so re-check
+**Retirement**vref{1}: 1987-08-25
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 6 2 ; Ps c
 **End-terminals-entry{VT240}
@@ -260,7 +262,8 @@
 **Start-terminals-entry{VT241}{DECVT}{VT200}
 **Sys-name: VT241 Video Terminal
 **Def-lref{1} = ref{DA-1987-08-25-VT2xx}
-**Retirement**vref{1} = 1987-08-25
+! TODO misformed Retirement line, so re-check
+**Retirement**vref{1}: 1987-08-25
 **End-terminals-entry{VT241}
 
 **Start-terminals-entry{VT320}{DECVT}{VT300}
@@ -269,7 +272,8 @@
 **Def-lref{2} = ref{EK-VT3XX-UU-002}
 **Def-lref{3} = ref{EK-VT3XX-TP-002}
 **Def-lref{4} = ref{DA-1987-08-25-VT320}
-**Announcement**vref{4} = 1987-08-25
+! TODO misformed Announcement line, so re-check
+**Announcement**vref{4}: 1987-08-25
 **Html-target: vt300
 **Screen-diagonal**htref{1}: 305mm
 **Rendition**htref{1}: Monochrome
@@ -278,7 +282,7 @@
 **Dev-req-resp: ESC [ ? 6 3 ; Ps c
 **Printer-port**htref{1}: DEC-423
 **Host-interface**htref{1}: DEC-423 or RS-232
-**2nd-host-interface**htref{1}: No
+**Second-host-interface**htref{1}: No
 **SSU-support**htref{1}: No
 **VT52-compatibility**htref{1}: Yes
 **Tektronix-4010**htref{1}: No
@@ -300,14 +304,14 @@
 **Power**htref{1}: 50W
 **Power-end{VT320-240V}
 **Dimensions-start{VT320}
-**Label: VT320 monitor
+! TODO **Label: VT320 monitor
 **Height**htref{1}: 252.7mm
 **Width **htref{1}: 313.6mm
 **Depth **htref{1}: 314.9mm
 **Weight**htref{1}: 6.6kg
 **Dimensions-end{VT320}
 **Dimensions-start{KBD}
-**Label: VT300 keyboard
+! TODO **Label: VT300 keyboard
 **Height**htref{1}: 51mm
 **Width **htref{1}: 533mm
 **Depth **htref{1}: 171mm
