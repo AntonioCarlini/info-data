@@ -39,7 +39,7 @@
 **Def-lref{1} = ref{EB-29465-71}
 **Def-lref{2} = ref{EK-DHV11-TM-001}
 **Part-number**vref{1}: DC010
-**Desc-name**vref{1}: Direct Memroy Access
+**Desc-name**vref{1}: Direct Memory Access
 **End-chips-entry{DC010}
 
 **Start-chips-entry{DC013}{CHIP}{GENERAL}
