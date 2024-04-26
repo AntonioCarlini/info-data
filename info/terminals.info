@@ -10,6 +10,24 @@
 
 **Start-terminals-entry{VT55}{DECVT}{VT52}
 **Sys-name: VT55 Video Terminal
+**def-lref{1} = ref{EK-VT55E-TM-001}
+**def-lref{2} = ref{CU-1993-05-31}
+**document=doc{DEC:AA-4949A-TC} ! VT55 Programming Manual
+**Retirement**vref{2}: 1993-05-31
+**Screen-sizes**vref{1}: 80 x 24
+**Active-display-size**vref{1}: 203 mm x 127mm
+**Character-matrix**vref{1}: 7x7
+**Screen-diagonal**vref{1}: 305mm
+**Phosphor**vref{1}: P4
+**Copier**vref{1}: Yes (Models -F and -J only)
+! vref{1}: Graphics resolution: 512h x 236v
+! vref{1}: M7024 VT55 Graphing Control Module
+**Host-interface**vref{1}: {RS-232, for some models}{20mA current loop, for some models}
+**Height**vref{1}: 360mm
+**Width **vref{1}: 530mm
+**Depth **vref{1}: 690mm
+**Weight**htref{1}: {25.8kg (with copier)}{22.2kg (without copier)}
+
 **End-terminals-entry{VT55}
 
 **Start-terminals-entry{VT100}{DECVT}{VT100}
@@ -155,7 +173,7 @@
 **Printer-port**htref{1}: RS-232
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 7 c
-**Host-interface**htref{1}: {RS-232}{20mA current loop (optional)}
+<**Host-interface**htref{1}: {RS-232}{20mA current loop (optional)}
 **Second-host-interface**htref{1}: No
 **SSU-support**htref{1}: No
 **VT52-compatibility**htref{1}: Yes
@@ -345,17 +363,91 @@
 **Start-terminals-entry{VT240}{DECVT}{VT200}
 **Sys-name: VT240 Video Terminal
 **Def-lref{1} = ref{DA-1987-08-25-VT2xx}
-! TODO misformed Retirement line, so re-check
+**Def-lref{2} = ref{EK-VT240-UG-003}
+**document=doc{EK-VT240-PS-002} ! VT240 Series Pocket Service Guide
+**document=doc{EK-VT240-UG-003} ! VT240 Series Owner's Manual
+**document=doc{EK-VT240-TM-001} ! VT240 Series Technical Manual
+**document=doc{EK-VT240-HR-002} ! VT240 Series Programmer Pocket Guide
 **Retirement**vref{1}: 1987-08-25
+**Rendition**vef{2}: Monochrome
+**Regis**vref{2}: Yes
+**Host-interface**vref{2}: {RS-232}{20mA current loop}
+**Printer-port**vref{2}: Yes
+**Numeric-keypad**vref{2}: Yes
+**Arrow-keys**vref{2}: Yes
+**Editing-keypad**vref{2}: Yes
+**Function-keys**vref{2}: 20
+**Screen-sizes**vref{2}: {80 x 24}{132 x 24}
+**Character-matrix**vref{2}: {7x9 @ 80 columns}{5x9 @ 132 columns}
+**Character-size**vref{2}: {3.35mmx2.0mm @ 80 columns}{3.35mmx1.3mm @ 132 columns}
+**Active-display-size**vref{2}: 202 mm x 115mm
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 6 2 ; Ps c
+**Dimensions-start{VT240}
+**Label: VT240
+**Height**vref{2}: 102mm
+**Width **vref{2}: 457mm
+**Depth **vref{2}: 305mm
+**Weight**vref{2}: 7.2kg
+**Dimensions-end{VT240}
+**Dimensions-start{VT240KBD}
+**Label: VT240 Keyboard
+**Height**vref{2}: 51mm
+**Width **vref{2}: 533mm
+**Depth **vref{2}: 171mm
+**Weight**vref{2}: 2kg
+**Dimensions-end{VT240KBD}
+**Dimensions-start{VT240MON}
+**Label: VT240 Monochrome Monitor
+**Height**vref{2}: 292mm
+**Width **vref{2}: 349mm
+**Depth **vref{2}: 311mm
+**Weight**vref{2}: 6.4kg
+**Dimensions-end{VT240MON}
 **End-terminals-entry{VT240}
 
 **Start-terminals-entry{VT241}{DECVT}{VT200}
 **Sys-name: VT241 Video Terminal
 **Def-lref{1} = ref{DA-1987-08-25-VT2xx}
-! TODO misformed Retirement line, so re-check
+**Def-lref{2} = ref{EK-VT240-UG-003}
+**document=doc{EK-VT240-PS-002} ! VT240 Series Pocket Service Guide
+**document=doc{EK-VT240-UG-003} ! VT240 Series Owner's Manual
+**document=doc{EK-VT240-TM-001} ! VT240 Series Technical Manual
+**document=doc{EK-VT240-HR-002} ! VT240 Series Programmer Pocket Guide
 **Retirement**vref{1}: 1987-08-25
+**Rendition**vef{2}: Colour
+**Regis**vref{2}: Yes
+**Host-interface**vref{2}: {RS-232}{20mA current loop}
+**Printer-port**vref{2}: Yes
+**Numeric-keypad**vref{2}: Yes
+**Arrow-keys**vref{2}: Yes
+**Editing-keypad**vref{2}: Yes
+**Function-keys**vref{2}: 20
+**Screen-sizes**vref{2}: {80 x 24}{132 x 24}
+**Character-matrix**vref{2}: {7x9 @ 80 columns}{5x9 @ 132 columns}
+**Character-size**vref{2}: {3.35mmx2.0mm @ 80 columns}{3.35mmx1.3mm @ 132 columns}
+**Active-display-size**vref{2}: 202 mm x 115mm
+**Dimensions-start{VT241}
+**Label: VT241
+**Height**vref{2}: 102mm
+**Width **vref{2}: 457mm
+**Depth **vref{2}: 305mm
+**Weight**vref{2}: 7.2kg
+**Dimensions-end{VT241}
+**Dimensions-start{VT241KBD}
+**Label: VT241 Keyboard
+**Height**vref{2}: 51mm
+**Width **vref{2}: 533mm
+**Depth **vref{2}: 171mm
+**Weight**vref{2}: 2kg
+**Dimensions-end{VT241KBD}
+**Dimensions-start{VT241MON}
+**Label: VT241 Colour Monitor
+**Height**vref{2}: 324mm
+**Width **vref{2}: 380mm
+**Depth **vref{2}: 421mm
+**Weight**vref{2}: 16.6kg
+**Dimensions-end{VT241MON}
 **End-terminals-entry{VT241}
 
 **Start-terminals-entry{VT320}{DECVT}{VT300}

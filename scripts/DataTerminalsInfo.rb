@@ -34,12 +34,13 @@ class InfoFileHandlerOuter
 
   attr_reader     :fatal_error_seen
 
-  def initialize(permitted_tags, info_filename, expected_entry_type, refs, devices)
+  def initialize(permitted_tags, info_filename, expected_entry_type, refs, pubs, devices)
     @permitted_tags = permitted_tags
     @permitted_tags_uc = @permitted_tags.map(&:upcase)
     @info_filename = info_filename
     @expected_entry_type = expected_entry_type
     @refs = refs
+    @pubs = pubs
     @fatal_error_seen = false
     @devices  = devices
   end
@@ -59,7 +60,7 @@ class InfoFileHandlerOuter
         raise("Unexpected system type [#{type}], expected [#{@expected_entry_type}]") if type.downcase() != @expected_entry_type
         ## TODO raise("Duplicate reference [#{id}] read in #{info_filename} at line #{line_num}: #{line} (originally #{terminal_devices[id].line_num()})") unless terminal_devices[id].nil?()
         entry = Terminal.new(id, @expected_entry_type, entry_class, line_num, @permitted_tags)
-        return HandlerResult::STACK_HANDLER, InfoFileHandlerTerminal.new(entry, @info_filename, @permitted_tags_uc, @refs)
+        return HandlerResult::STACK_HANDLER, InfoFileHandlerTerminal.new(entry, @info_filename, @permitted_tags_uc, @refs, @pubs)
       elsif line =~ /^ \s* \! /ix
         # TODO why is this here .. .why can this not be handled above?
         $stderr.puts("Skipping comment [#{line}]")
@@ -89,7 +90,7 @@ class InfoFileHandlerTerminal
   attr_reader     :entry
   attr_reader     :fatal_error_seen
   
-  def initialize(entry, info_filename, permitted_tags_uc, refs)
+  def initialize(entry, info_filename, permitted_tags_uc, refs, pubs)
     @fatal_error_seen = false
     @permitted_tags_uc = permitted_tags_uc
     @info_filename = info_filename
@@ -98,6 +99,7 @@ class InfoFileHandlerTerminal
     @local_refs_non_vref_count = {}
     @entry = entry
     @refs = refs
+    @pubs = pubs
   end
 
   def process_line(line, line_num)
@@ -120,8 +122,8 @@ class InfoFileHandlerTerminal
       return HandlerResult::CONTINUE, nil
     elsif line =~ /^\s*\*\*document\s*=\s*doc\{(.*)\}\s*(!.*)?$/i
       doc_id = $1
-      doc = pubs[doc_id]
-      process_document_declaration(doc_id, doc)
+      doc = @pubs[doc_id]
+      process_document_declaration(line_num, doc_id, doc)
       return HandlerResult::CONTINUE, nil
     elsif line =~ /^\s*\*\*Text-start\s*$/i
       # Text-start seen, so switch to text-block mode
@@ -168,7 +170,7 @@ class InfoFileHandlerTerminal
         @entry.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
       end
     else
-      $stderr.puts("On line #{line_num} in #{current.identifier()}, unknown tag [#{tag}] has been used. permitted=#{permitted_tags_uc}")
+      $stderr.puts("On line #{line_num} in #{@entry.identifier()}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
       @fatal_error_seen = true
     end
   end
@@ -192,18 +194,18 @@ class InfoFileHandlerTerminal
     if doc.nil?()
       $stderr.puts("Doc [#{doc_id}] not found on #{line_num} of #{@info_filename}")
       fatal_error_seen = true
-    elsif !local_docs[doc_id].nil?()
+    elsif !@local_docs[doc_id].nil?()
       $stderr.puts("Doc [#{doc_id}] repeated on #{line_num} of #{@info_filename}")
-      fatal_error_seen = true
+      @fatal_error_seen = true
     else
       # Skip documents that have no title: what could they possibly mean?
       if doc["title"].nil?()
         $stderr.puts("Doc [#{doc_id}] has no title on #{line_num} of #{@info_filename}")
-        fatal_error_seen = true
+        @fatal_error_seen = true
       else
         entry = doc["title"] + ". "
         entry += doc["part-no"] unless doc["part-no"].nil?()
-        local_docs[doc_id] = entry
+        @local_docs[doc_id] = entry
       end
     end
   end
@@ -320,7 +322,7 @@ class TerminalsCollection
     ## TODO total_uses = 0   # local uses of unverified refs
     within_text_block = false
 
-    handlers = [ InfoFileHandlerOuter.new(permitted_tags, info_filename, type_expected, refs, devices) ]
+    handlers = [ InfoFileHandlerOuter.new(permitted_tags, info_filename, type_expected, refs, pubs, devices) ]
     IO.foreach(info_filename) {
       |line|
       current_handler = handlers[-1]

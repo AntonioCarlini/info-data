@@ -340,7 +340,17 @@
   - all
   - summary
 - VT105-compatibility:
-  - VT105compatibility
-  - VT105compatibility
+  - VT105 compatibility
+  - VT105 compatibility
+  - all
+  - summary
+- Phosphor:
+  - Phosphor
+  - Phosphor
+  - all
+  - summary
+- Copier:
+  - Copier
+  - Copier
   - all
   - summary

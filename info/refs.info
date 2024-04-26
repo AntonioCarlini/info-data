@@ -7629,6 +7629,39 @@
 **Ref-hardcopy: Yes
 **End-ref{EK-VT240-PS}
 
+! Note that it is unclear whether ref{EK-VT240-PS} in this file is the same document or not
+**Start-ref{EK-VT240-PS-002}
+**Ref-text: VT240 Series Pocket Service Guide
+**Ref-date: 1984-10
+**Ref-partno: EK-VT240-PS-002
+**Ref-electronic: PDF
+**Ref-url: https://manx-docs.org/mirror/vt100.net/dec/ek-vt240-ps-002.pdf
+**End-ref{EK-VT240-PS-002}
+
+**Start-ref{EK-VT240-UG-003}
+**Ref-text: VT240 Series Owner's Manual
+**Ref-date: 1984-12
+**Ref-partno: EK-VT240-UG-003
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt240/EK-VT240-UG-003_VT240_Series_Owners_Manual_Dec84.pdf
+**End-ref{EK-VT240-UG-003}
+
+**Start-ref{EK-VT240-TM-001}
+**Ref-text: VT240 Series Technical Manual
+**Ref-date: 
+**Ref-partno: EK-VT240-TM-001
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt240/EK-VT240-TM-001_VT240_Technical_Manual_Aug84.pdf
+**End-ref{EK-VT240-TM-001}
+
+**Start-ref{EK-VT240-HR-002}
+**Ref-text: VT240 Series Programmer Pocket Guide
+**Ref-date: 1984-09
+**Ref-partno: EK-VT240-HR-002
+**Ref-electronic: PDF
+**Ref-url: https://manx-docs.org/mirror/vt100.net/dec/ek-vt240-hr-002.pdf
+**End-ref{EK-VT240-HR-002}
+
 **Start-ref{EK-0LA50-UG-001}
 **Ref-text: Installing and Using the LA50 Printer
 **Ref-partno: EK-0LA50-UG-001
@@ -10705,6 +10738,22 @@
 **Ref-electronic: PDF
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt132/EK-VT132-UG-002_VT132_User_Guide_Nov79.pdf
 **End-ref{EK-VT132-UG-002}
+
+**Start-ref{AA-4949A-TC}
+**Ref-text: VT55 Programming Manual
+**Ref-date: 1977-02
+**Ref-partno: AA-4949A-TC
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/AA-4949A-TC%20VT55%20Programming%20Manual.pdf
+**End-ref{AA-4949A-TC}
+
+**Start-ref{EK-VT55E-TM-001}
+**Ref-text: VT55-E,F,H,J DECgGraphic Scope User's Manual
+**Ref-date: 1976-12
+**Ref-partno: EK-VT55E-TM-001
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/EK-VT55E-TM-001%20VT55-E%2C%20F%2C%20H%2C%20J%20DECgraphic%20Scope%20User's%20Manual.pdf
+**End-ref{EK-VT55E-TM-001}
 
 **Stop-processing
 
