@@ -1,0 +1,346 @@
+---
+- Not-Allowed:
+  - Not Allowed
+  - Test entry
+  - never
+  - summary
+- Sys-name:
+  - System name
+  - System description
+  - storage
+- Html-target:
+  - HTML target
+  - HTML target (unused)
+  - all
+- Announcement:
+  - Announcement date
+  - Announcement date
+  - all
+  - summary
+  - required
+- Location:
+  - Used to specify HTML file location
+  - Used to specify HTML file location
+  - storage
+  - summary
+- FRS-date:
+  - FRS date
+  - First revenue ship date
+  - all
+  - summary
+- FCS-date:
+  - FCS date
+  - First customer ship date
+  - all
+  - summary
+- Last-order:
+  - Last order date
+  - Last order date
+  - all
+  - summary
+- Last-ship:
+  - Last ship date
+  - Last ship date
+  - all
+  - summary
+- EOSL:
+  - End of service life
+  - End of service life
+  - all
+  - summary
+- EOL:
+  - End of life
+  - End of life
+  - all
+  - summary
+- Codename:
+  - Codename
+  - Codename
+  - all
+  - summary
+  - required
+- Desc-name:
+  - Descriptive name
+  - Descriptive name
+  - all
+  - summary
+- OS-support-VMS:
+  - OS support (VMS)
+  - First version of VMS of a continuous range until the final version that supports this system
+  - all
+  - summary
+- OS-support-VMS-end:
+  - OS support (VMS)
+  - Final VMS version that supports this system
+  - all
+  - summary
+- OS-support-VMS-early:
+  - OS support (VMS)
+  - An early version of VMS that supports the system but followed by a gap in support
+  - all
+  - summary
+- OS-support-MDM:
+  - OS support (MDM)
+  - Range of MDM releases that support this device
+  - all
+  - summary
+- OS-support-ELN:
+  - OS support (ELN)
+  - Range of VAXELN releases that support this device
+  - all
+  - summary
+- OS-support-ULTRIX:
+  - OS support (ULTRIX)
+  - Range of ULTRIX versions that support this device
+  - all
+  - summary
+- OS-support-NT:
+  - OS support (NT)
+  - Range of WindowsNT versions that support this device
+  - all
+  - summary
+- OS-support-DU:
+  - OS support (Digital UNIX)
+  - Range of Digital Unix or Tru64 versions that support this device
+  - all
+  - summary
+- OS-support-DU-end:
+  - OS support (Digital UNIX)
+  - Final version of  Digital Unix or Tru64 that supports this device
+  - all
+  - summary
+- OS-support-SYSV:
+  - OS support (AT&T System V)
+  - Range of System V versions that support this device
+  - all
+  - summary
+- OS-support-SCO:
+  - OS support (SCO)
+  - Range of SCO versions that support this device
+  - all
+  - summary
+- OS-support-CRONIC:
+  - OS support (CRONIC)
+  - Range of CRONIC versions that support this device
+  - all
+  - summary
+- Firmware-version:
+  - Firmware version
+  - Firmware version
+  - all
+  - cpu_details
+- Height:
+  - Height
+  - Height
+  - all
+  - dimensions
+- Width:
+  - Width
+  - Width
+  - all
+  - dimensions
+- Depth:
+  - Depth
+  - Depth
+  - all
+  - dimensions
+- Weight:
+  - Weight
+  - Weight
+  - all
+  - dimensions
+- Supply:
+  - Supply
+  - Mains supply characteristics
+  - all
+  - power
+- I-max:
+  - I(max)
+  - Maximum current drawn
+  - all
+  - power
+- I-inrush:
+  - I(inrush)
+  - Maximum inrush current
+  - all
+  - power
+- Power:
+  - Power
+  - Power consumption
+  - all
+  - power
+- Heat-dissipation:
+  - Heat dissipation
+  - Heat dissipation
+  - all
+  - power
+- Label:
+  - Label
+  - Label
+  - all
+  - power
+- Screen-rows:
+  - Screen rows
+  - Screen rows
+  - all
+  - summary
+- Second-host-interface:
+  - Second host interface
+  - second host interface
+  - all
+  - summary
+- Arrow-keys:
+  - Arrow keys
+  - Arrow keys
+  - all
+  - summary
+- Bits-per-char:
+  - Bits per char
+  - Bits per char
+  - all
+  - summary
+- Character-matrix:
+  - Character matrix
+  - Character matrix
+  - all
+  - summary
+- Character-size:
+  - Character size
+  - Character size
+  - all
+  - summary
+- Compose-characters:
+  - Compose characters
+  - Compose characters
+  - all
+  - summary
+- Composite-video:
+  - Composite video
+  - Composite video
+  - all
+  - summary
+- Dev-req:
+  - Device Request
+  - Device Request
+  - all
+  - summary
+- Dev-req-resp:
+  - Device Request Response
+  - Device Request Response
+  - all
+  - summary
+- Editing-keypad:
+  - Editing keypad
+  - Editing keypad
+  - all
+  - summary
+- Frame-rate:
+  - Frame rate
+  - Frame rate
+  - all
+  - summary
+- Function-keys:
+  - Function keys
+  - Function keys
+  - all
+  - summary
+- Host-interface:
+  - Host interface
+  - Host interface
+  - all
+  - summary
+- Keyboard-type:
+  - Keyboard type
+  - Keyboard type
+  - all
+  - summary
+- Last-order:
+  - Last-order
+  - Last-order
+  - all
+  - summary
+- Maximum-memory:
+  - Maximum memory
+  - Maximum memory
+  - all
+  - summary
+- Minimum-memory:
+  - Minimum memory
+  - Minimum memory
+  - all
+  - summary
+- Numeric-keypad:
+  - Numeric keypad
+  - Numeric keypad
+  - all
+  - summary
+- Printer-port:
+  - Printer port
+  - Printer port
+  - all
+  - summary
+- Regis:
+  - Regis
+  - Regis
+  - all
+  - summary
+- Rendition:
+  - Rendition
+  - Rendition
+  - all
+  - summary
+- Retirement:
+  - Retirement
+  - Retirement
+  - all
+  - summary
+- SSU-support:
+  - SSU support
+  - SSU support
+  - all
+  - summary
+- Screen-diagonal:
+  - Screen diagonal
+  - Screen diagonal
+  - all
+  - summary
+- Screen-sizes:
+  - Screen sizes
+  - Screen sizes
+  - all
+  - summary
+- Active-display-size:
+  - Active display size
+  - Active display size
+  - all
+  - summary
+- Status-line:
+  - Status line
+  - Status line
+  - all
+  - summary
+- Supply:
+  - Supply
+  - Supply
+  - all
+  - summary
+- Sys-name:
+  - Sys name
+  - Sys name
+  - all
+  - summary
+- Tektronix-4010:
+  - Tektronix 4010
+  - Tektronix 4010
+  - all
+  - summary
+- VT52-compatibility:
+  - VT52 compatibility
+  - VT52 compatibility
+  - all
+  - summary
+- VT105-compatibility:
+  - VT105compatibility
+  - VT105compatibility
+  - all
+  - summary
