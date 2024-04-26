@@ -4,18 +4,39 @@ SYSTEMS += pc
 SYSTEMS += pdp11
 SYSTEMS += vax
 
+STORAGE += disks-dssi
+STORAGE += disks-ide
+STORAGE += disks-massbus
+STORAGE += disks-misc
+STORAGE += disks-scsi
+STORAGE += disks-sdi
+STORAGE += disks-st506
+STORAGE += optical-misc
+STORAGE += optical-scsi
+STORAGE += tapes-dssi
+STORAGE += tapes-massbus
+STORAGE += tapes-misc
+STORAGE += tapes-scsi
+STORAGE += tapes-sti
+
+TERMINALS += terminals
+
 YAML_OUTPUT = bin/yaml
 
 REFS = $(YAML_OUTPUT)/refs.yaml
 
 PUBS = $(YAML_OUTPUT)/pubs.yaml
 
+TAGS.STORAGE = scripts/storage-tags.yaml
 TAGS.SYSTEMS = scripts/systems-tags.yaml
+TAGS.TERMINALS = scripts/terminals-tags.yaml
 
 SCRIPTS += scripts/ClassTrackLocalReferences.rb
 SCRIPTS += scripts/DataPubTxt.rb
 SCRIPTS += scripts/DataRefInfo.rb
+SCRIPTS += scripts/DataStorageInfo.rb
 SCRIPTS += scripts/DataSystemsInfo.rb
+#SCRIPTS += scripts/DataTerminalsInfo.rb
 SCRIPTS += scripts/DataTags.rb
 SCRIPTS += scripts/pub-txt-to-yaml.rb
 SCRIPTS += scripts/refs-info-to-yaml.rb
@@ -24,6 +45,9 @@ SCRIPTS += scripts/systems-yaml-to-infobox-data.rb
 SCRIPTS += scripts/systems-yaml-to-infobox-mediawiki.rb
 SCRIPTS += scripts/systems-yaml-to-mediawiki.rb
 SCRIPTS += scripts/systems-yaml-to-os-release.rb
+SCRIPTS += scripts/storage-info-to-yaml.rb
+SCRIPTS += scripts/terminals-info-to-yaml.rb
+SCRIPTS += scripts/VariableWithReference.rb
 
 GLOBAL_DEPENDENCIES += $(SCRIPTS)
 
@@ -35,9 +59,15 @@ all: $(REFS)
 
 all: $(PUBS)
 
+all: $(foreach STORE,$(STORAGE),$(YAML_OUTPUT)/$(STORE).yaml)
+
 all: $(foreach SYS,$(SYSTEMS),$(YAML_OUTPUT)/$(SYS).yaml)
 
+all: $(foreach TERM,$(TERMINALS),$(YAML_OUTPUT)/$(TERM).yaml)
+
 all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).mediawiki.txt)
+
+all: $(foreach STORE,$(STORAGE),bin/$(STORE).infobox.mediawiki.txt)
 
 all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).infobox.mediawiki.txt)
 
@@ -59,6 +89,7 @@ $(PUBS):  info/pubs-refs.txt $(GLOBAL_DEPENDENCIES)
 $(REFS):  info/refs.info $(GLOBAL_DEPENDENCIES)
 	scripts/refs-info-to-yaml.rb $< > $@
 
+# systems -> YAML
 $(YAML_OUTPUT)/alpha.yaml:  info/alpha.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb alpha $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
@@ -74,6 +105,7 @@ $(YAML_OUTPUT)/pdp11.yaml:  info/pdp11.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GL
 $(YAML_OUTPUT)/vax.yaml:  info/vax.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-info-to-yaml.rb vax $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
+# systems -> infobox-data
 bin/infobox-alpha-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
 	scripts/systems-yaml-to-infobox-data.rb alpha $(TAGS.SYSTEMS) > $@
 
@@ -89,6 +121,7 @@ bin/infobox-pdp11-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
 bin/infobox-vax-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
 	scripts/systems-yaml-to-infobox-data.rb vax $(TAGS.SYSTEMS) > $@
 
+# systems -> mediawiki
 bin/alpha.mediawiki.txt: $(YAML_OUTPUT)/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	@mkdir -p bin
 	scripts/systems-yaml-to-mediawiki.rb alpha $< $(TAGS.SYSTEMS) $(REFS) > $@
@@ -109,6 +142,7 @@ bin/vax.mediawiki.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	@mkdir -p bin
 	scripts/systems-yaml-to-mediawiki.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
 
+# systems -> infobox-mediawiki
 bin/alpha.infobox.mediawiki.txt: $(YAML_OUTPUT)/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-infobox-mediawiki.rb alpha $< $(TAGS.SYSTEMS) $(REFS) > $@
 
@@ -138,6 +172,93 @@ bin/pdp11.os-release.txt: $(YAML_OUTPUT)/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIE
 
 bin/vax.os-release.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-os-release.rb vax $< $(REFS) > $@
+
+# storage -> YAML
+$(YAML_OUTPUT)/disks-dssi.yaml:  info/disks-dssi.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb dssi $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/disks-ide.yaml:  info/disks-ide.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb ide $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/disks-massbus.yaml:  info/disks-massbus.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb massbus $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/disks-misc.yaml:  info/disks-misc.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb misc $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/disks-scsi.yaml:  info/disks-scsi.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb scsi $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/disks-sdi.yaml:  info/disks-sdi.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb sdi $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/disks-st506.yaml:  info/disks-st506.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb st506 $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/optical-misc.yaml:  info/optical-misc.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb misc $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/optical-scsi.yaml:  info/optical-scsi.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb scsi $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/tapes-dssi.yaml:  info/tapes-dssi.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb dssi $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/tapes-massbus.yaml:  info/tapes-massbus.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb massbus $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/tapes-misc.yaml:  info/tapes-misc.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb misc $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/tapes-scsi.yaml:  info/tapes-scsi.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb scsi $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+$(YAML_OUTPUT)/tapes-sti.yaml:  info/tapes-sti.info $(TAGS.STORAGE) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-info-to-yaml.rb sti $< $(TAGS.STORAGE) $(REFS) $(PUBS) > $@
+
+# storage -> infobox-mediawiki
+bin/disks-dssi.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-dssi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+bin/disks-ide.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-ide.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+bin/disks-massbus.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-massbus.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+bin/disks-misc.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-misc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+bin/disks-scsi.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-scsi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+bin/disks-sdi.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-sdi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+bin/optical-misc.infobox.mediawiki.txt: $(YAML_OUTPUT)/optical-misc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+bin/optical-scsi.infobox.mediawiki.txt: $(YAML_OUTPUT)/optical-scsi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+bin/tapes-dssi.infobox.mediawiki.txt: $(YAML_OUTPUT)/tapes-dssi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+bin/tapes-massbus.infobox.mediawiki.txt: $(YAML_OUTPUT)/tapes-massbus.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+bin/tapes-misc.infobox.mediawiki.txt: $(YAML_OUTPUT)/tapes-misc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+bin/tapes-scsi.infobox.mediawiki.txt: $(YAML_OUTPUT)/tapes-scsi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+bin/tapes-sti.infobox.mediawiki.txt: $(YAML_OUTPUT)/tapes-sti.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
+# terminals -> YAML
+$(YAML_OUTPUT)/terminals.yaml:  info/terminals.info $(TAGS.TERMINALS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/terminals-info-to-yaml.rb decvt $< $(TAGS.TERMINALS) $(REFS) $(PUBS) > $@
 
 clean:
 	@rm -f bin/*
