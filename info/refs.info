@@ -10690,6 +10690,22 @@
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/pdp11/pro3xx/EK-PC300-V1-001_pro300tecV1.pdf
 **End-ref{EK-PC300-V1-001}
 
+**Start-ref{EK-VT125-UG-002}
+**Ref-text: VT125 Graphics Terminal User Guide
+**Ref-date: 1982-06
+**Ref-partno: EK-VT125-UG-002
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt125/EK-VT125-UG-002_VT125_Users_Guide_Sep81.pdf
+**End-ref{EK-VT125-UG-002}
+
+**Start-ref{EK-VT132-UG-002}
+**Ref-text: VT132 Graphics Terminal User Guide
+**Ref-date: 1979-11
+**Ref-partno: EK-VT132-UG-002
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt132/EK-VT132-UG-002_VT132_User_Guide_Nov79.pdf
+**End-ref{EK-VT132-UG-002}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
