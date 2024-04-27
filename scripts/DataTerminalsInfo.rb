@@ -72,9 +72,13 @@ class InfoFileHandlerOuter
       end
   end
   
-  # TODO this should be invoked with a InfoFileHandlerTerminal
+  # This should be invoked with a InfoFileHandlerTerminal. Anything else is an error.
   def process_sub_handler(sub_handler)
-    @devices.add_terminal(sub_handler.entry())  # TODO actually this should be passed to the handler that caused it to be invoked
+    if sub_handler.respond_to?(:entry)
+      @devices.add_terminal(sub_handler.entry())  # TODO actually this should be passed to the handler that caused it to be invoked
+    else
+      raise("Expecting object with .entry() but handed #{sub_handler.class.name()}")
+    end
   end
   
 end
@@ -84,7 +88,6 @@ end
 # It will skip empty lines and those that have only a comment and it will hand over to another handler if a valid start-ABC-entry is seen.
 # TODO: Any non-blank lines should trigger a failure, but currently they do not.
 #-
-
 class InfoFileHandlerTerminal
 
   attr_reader     :entry
@@ -128,7 +131,7 @@ class InfoFileHandlerTerminal
     elsif line =~ /^\s*\*\*Text-start\s*$/i
       # Text-start seen, so switch to text-block mode
       # TODO: need to handle this properly but start by ignoring it!
-      return HandlerResult::CONTINUE, nil
+      return HandlerResult::STACK_HANDLER, InfoFileHandlerText.new(@local_refs)
     elsif line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|lref|uref|vref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
       tag = $1
       ref_type = $2
@@ -210,6 +213,60 @@ class InfoFileHandlerTerminal
     end
   end
   
+  # Currently this should only be invoked with an object of type InfoFileHandlerText
+  def process_sub_handler(sub_handler)
+    if sub_handler.respond_to?(:text_block)
+      @entry.add_text(sub_handler.text_block())
+    else
+      raise("Expecting object with .text_block() but handed #{sub_handler.class.name()}")
+    end
+  end
+end
+
+#+
+# The InfoFileHandlerText class handles free form text.
+# Text of the form '**vref{N}' will be turned into that specific reference , but everything else will be left untouched.
+#-
+class InfoFileHandlerText
+
+  attr_reader     :fatal_error_seen
+  attr_reader     :text_block
+
+  def initialize(local_refs)
+    @local_refs = local_refs
+    @text_block = []
+    @fatal_error_seen = false
+  end
+
+  def process_line(line, line_num)
+    if line =~ /^\s*\*\*Text-end\s*$/i
+      return HandlerResult::COMPLETED
+    else
+      line.gsub!(/ \*\*vref \{ ([^}]+) \}/ix) {
+        given_ref = $1
+        # Build an array of the valid references used here
+        ref_array = []
+        reference = nil
+        unless given_ref.nil?()
+          given_ref.split(",").each() {
+            |lref|
+            reference = @local_refs[lref]
+            if reference.nil?()
+              $stderr.puts("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{info_filename}") 
+              fatal_error_seen = true
+            end
+            unless reference.nil?()
+              ref_array << reference
+            end
+          }
+        end
+        rtext = ""
+        ref_array.each() {|ra| rtext << "**tref{#{ra}}"}
+        rtext
+      }
+      @text_block << line
+    end
+  end
 end
 
 # Encapsulates a Terminal entry
