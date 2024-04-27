@@ -36,7 +36,7 @@
 **Screen-diagonal**htref{1}: 305mm
 **Rendition**htref{1}: Monochrome
 **Status-line**htref{1}: No
-**Printer-port**htref{1}: No
+
 **Host-interface**htref{1}: {RS-232}{20mA current loop (optional)}
 **Second-host-interface**htref{1}: No
 **SSU-support**htref{1}: No
@@ -93,8 +93,48 @@
 
 **Start-terminals-entry{VT101}{DECVT}{VT100}
 **Sys-name: VT101 Video Terminal
-**Dev-req: ESC [ 0 c
-**Dev-req-resp: ESC [ ? 1 ; 0 c
+**Def-lref{1} = ref{EK-V1001-UG-002}
+**document=doc{MP-01066-00} ! VT101 Family Field Maintenance Print Set
+**Phosphor**vref{1}: P4
+**Screen-sizes**vref{1}: {80 x 24}{132 x 14}
+**Character-matrix**vref{1}: 7 x 10
+**Character-size**vref{1}: {3.35mmx2.0mm @ 80 columns}{3.35mmx1.3mm @ 132 columns}
+**Active-display-size**vref{1}: 202 mm x 115mm
+**Screen-diagonal**vref{1}: 12"
+**Editing-Keypad**vref{1}: No
+**Arrow-keys**vref{1}: Yes
+**Numeric-Keypad**vref{1}: Yes
+**Function-keys**vref{1}: 0
+**VT52-compatibility**vref{1}: Yes
+**Printer-port**vref{1}: No
+**Host-interface**vref{1}: RS-232
+**Composite-video**vref{1}:  RS170-like
+**Dev-req**vref{1}: ESC [ 0 c
+**Dev-req-resp**vref{1}: ESC [ ? 1 ; 0 c
+**Dimensions-start{VT101}
+**Label: VT101
+**Height**vref{1}: 368.3mm
+**Width **vref{1}: 457.2mm
+**Depth **vreff{1}: 362.0mm
+**Weight**vref{1}: 13.6kg
+**Dimensions-end{VT101}
+**Dimensions-start{VT101KBD}
+**Label: Keyboard
+**Height**vref{1}: 88.9mm
+**Width **vref{1}: 457.2mm
+**Depth **vref{1}: 203.2mm
+**Weight**htref{1}: 2.0kg
+**Dimensions-end{VT101KBD}
+**Power-start{VT101-120V}
+**Supply**vref{1}: 99V - 128V 1-phase
+**I-max**vref{1}: 0.70A
+**Power**vref{1}: 70W
+**Power-end{VT101-120V}
+**Power-start{VT101-240V}
+**Supply**vref{1}: 198V - 256V 1-phase
+**I-max**vref{1}: 0.4A
+**Power**vref{1}: 70W
+**Power-end{VT101-240V}
 **End-terminals-entry{VT101}
 
 **Start-terminals-entry{VT102}{DECVT}{VT100}
@@ -134,7 +174,7 @@
 **Function-keys: 0
 **Compose-characters: No
 **Character-size**vref{1}: {3.35mmx2.0mm @ 80 columns}{3.35mmx1.3mm @ 132 columns}
-**Active-display-size**vref{1}: 202 mm x 115mm
+
 **Screen-sizes**vref{1}: {80 x 24}{132 x 14}{132 x 24:(with AVO)}
 **Bits-per-char: 7
 **Composite-video**vref{1}:  RS170-like

@@ -10755,6 +10755,20 @@
 **Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/EK-VT55E-TM-001%20VT55-E%2C%20F%2C%20H%2C%20J%20DECgraphic%20Scope%20User's%20Manual.pdf
 **End-ref{EK-VT55E-TM-001}
 
+**Start-ref{EK-V1001-UG-002}
+**Ref-text: Installing and Using The VT1000 Video Terminal
+**Ref-date: 1981-04
+**Ref-partno: EK-V1001-UG-002
+**Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/EK-VT101-UG-002%20VT101%20Video%20Terminal%20User%20Guide.pdf
+**End-ref{EK-V1001-UG-002}
+
+**Start-ref{MP-01066-00}
+**Ref-text: VT101 Family Field Maintenance Print Set
+**Ref-date: 1981-02-27
+**Ref-partno: MP-01066-00
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt101/MP-01066-00C_VT101_Family_Field_Maintenance_Print_Set_Apr82.pdf
+**End-ref{MP-01066-00}
+
 **Stop-processing
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
