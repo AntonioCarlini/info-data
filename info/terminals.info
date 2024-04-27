@@ -566,9 +566,50 @@
 
 **Start-terminals-entry{VT330}{DECVT}{VT300}
 **Sys-name: VT330 Video Terminal
+**Def-lref{1} = ref{EK-VT3XX-UU-002}
+**document = doc{EK-VT3XX-TP-002}    ! VT330/VT340 Programmer Reference Manual. Volume 1: Text Processing
+**document = doc{EK-VT3XX-HR-002}    ! VT330/VT340 Programmer Pocket Guide
+**document = doc{EK-VT3XX-HR-001}    ! VT330/VT340 Programmer Pocket Guide
 **Html-target: vt300
+**Active-display-size**vref{1}: 230mm x 150mm
+**Screen-sizes**vref{1}: 80 x 24
+**Regis**vref{1}: Yes
+**Tektronix-4010**vref{1}: Yes
+**Function-keys**vref{1}: 20
+**Editing-keypad**vref{1}: Yes
+**Numeric-keypad**vref{1}: Yes
+**Arrow-keys**vref{1}: Yes
+! vref[1}: dual session support
+**Status-line**vref{1}: Yes
+! vref[1}: Sixel graphics
+**Rendition**vref{1}: Monochrome
+**VT52-compatibility**vref{1}: Yes
+**Host-interface**vref{1}: {RS-232}{DEC-423}
+**SSU-support**vref{1}: Yes
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 6 3 ; Ps c
+**Dimensions-start{VT330}
+**Label: Terminal
+**Height**vref{1}: 343mm
+**Width **vref{1}: 343mm
+**Depth **vref{1}: 350mm
+**Weight**vref{1}: 10.2kg
+**Dimensions-end{VT330}
+**Dimensions-start{VT330KBD}
+**Label: Keyboard
+**Height**vref{1}: 51mm
+**Width **vref{1}: 533mm
+**Depth **vref{1}: 171mm
+**Weight**vref{1}: 2kg
+**Dimensions-end{VT330KBD}
+**Power-start{VT330-120V}
+**Supply**vref{1}: 88V - 132V 1-phase
+**Power**vref{1}: 140W
+**Power-end{VT330-120V}
+**Power-start{VT330-240V}
+**Supply**vref{1}: 176V - 262V 1-phase
+**Power**vref{1}: 140W
+**Power-end{VT330-240V}
 **End-terminals-entry{VT330}
 
 **Start-terminals-entry{VT330PLUS}{DECVT}{VT300}
@@ -582,9 +623,52 @@
 
 **Start-terminals-entry{VT340}{DECVT}{VT300}
 **Sys-name: VT340 Video Terminal
+**Def-lref{1} = ref{EK-VT3XX-UU-002}
+**document = doc{EK-VT3XX-TP-002}    ! VT330/VT340 Programmer Reference Manual. Volume 1: Text Processing
+**document = doc{EK-VT3XX-HR-002}    ! VT330/VT340 Programmer Pocket Guide
+**document = doc{EK-VT3XX-HR-001}    ! VT330/VT340 Programmer Pocket Guide
+**document = doc{K-TC-VT340-0-1}     ! VT340 Color Graphics Terminal Engineering Drawings
+**document = doc{EK-VT340-IP-003}    ! VT340 Video Terminal Illustrated Parts Breakdown
 **Html-target: vt300
+**Active-display-size**vref{1}: 240mm x 150mm
+**Screen-sizes**vref{1}: 80 x 24
+**Regis**vref{1}: Yes
+**Tektronix-4010**vref{1}: Yes
+**Function-keys**vref{1}: 20
+**Editing-keypad**vref{1}: Yes
+**Numeric-keypad**vref{1}: Yes
+**Arrow-keys**vref{1}: Yes
+! vref[1}: dual session support
+**Status-line**vref{1}: Yes
+! vref[1}: Sixel graphics
+**Rendition**vref{1}: Colour (16 colours from 4096)
+**VT52-compatibility**vref{1}: Yes
+**Host-interface**vref{1}: {RS-232}{DEC-423}
+**SSU-support**vref{1}: Yes
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 6 3 ; Ps c
+**Dimensions-start{VT340}
+**Label: Terminal
+**Height**vref{1}: 385mm
+**Width **vref{1}: 397mm
+**Depth **vref{1}: 436mm
+**Weight**vref{1}: 15.7kg
+**Dimensions-end{VT340}
+**Dimensions-start{VT340KBD}
+**Label: Keyboard
+**Height**vref{1}: 51mm
+**Width **vref{1}: 533mm
+**Depth **vref{1}: 171mm
+**Weight**vref{1}: 2kg
+**Dimensions-end{VT340KBD}
+**Power-start{VT340-120V}
+**Supply**vref{1}: 88V - 132V 1-phase
+**Power**vref{1}: 140W
+**Power-end{VT340-120V}
+**Power-start{VT340-240V}
+**Supply**vref{1}: 176V - 262V 1-phase
+**Power**vref{1}: 140W
+**Power-end{VT340-240V}
 **End-terminals-entry{VT340}
 
 **Start-terminals-entry{VT420}{DECVT}{VT400}
@@ -604,7 +688,7 @@
 
 **Start-terminals-entry{VT520}{DECVT}{VT500}
 **Sys-name: VT520
-**Desc-name: VT520 MonochromeVideo Terminal
+**Desc-name: VT520 Monochrome Video Terminal
 **Def-lref{1} = ref{CU-1994-09-01}
 **Announcement**vref{1}: 1994-09-01
 **FRS-date**vref{1}: 1994-09-01
