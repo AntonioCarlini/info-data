@@ -10784,7 +10784,21 @@
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt101/MP-01066-00C_VT101_Family_Field_Maintenance_Print_Set_Apr82.pdf
 **End-ref{MP-01066-00}
 
+**Start-ref{EK-V1200-UG-001}
+**Ref-text: Installing and Using The VT1200 Video Terminal
+**Ref-date: 1990-07
+**Ref-partno: EK-V1200-UG-001
+**Ref-url: https://web.archive.org/web/20071006194408/http://deathrow.vistech.net/~cvisors/DEC94MDS/v1200ug1.pdf
+**End-ref{EK-V1200-UG-001}
+
 **Stop-processing
+
+**Start-ref
+**Ref-text: 
+**Ref-date: 
+**Ref-partno: 
+**Ref-url: 
+**End-ref
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
 

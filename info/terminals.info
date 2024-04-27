@@ -312,27 +312,29 @@
 **Start-terminals-entry{VT1000}{DECVT}{VT1000}
 **Sys-name: VT1000 Video Terminal
 **Def-lref{1} = ref{EK-V1000-UG-001}
-**OS-support-VMS**htref{1}: V5.3-1
-**OS-support-Ultrix**htref{1}: V3.1
+**document = doc{EK-V1000-SV-002}   ! VT1000/VT1200 and DECimage 1200 Service guide
+**OS-support-VMS**vref{1}: V5.3-1
+**OS-support-Ultrix**vref{1}: V3.1
+! vref{1}: supported monitors: VR150, VR262, VR315, VR319, VRE01
 **Screen-diagonal: 359mm
-**Rendition: Monochrome
+**Rendition**vref{1}: Monochrome
 **Frame-rate: 70Hz
 **Status-line: No
-**Printer-port: (2nd interface)
-**Host-interface: DEC-423 or RS-232
-**Second-host-interface: DEC-423
+**Printer-port**vref{1}: Yes
+**Host-interface**vref{1}: DEC-423
+**Second-host-interface**vref{1}: DEC-423
 **SSU-support: No
 **VT52-compatibility: Yes
 **Tektronix-4010: No
 **Regis: No
-**Keyboard-type: LK401
-**Numeric-keypad: Yes
-**Arrow-keys: Yes
-**Editing-keypad: Yes
-**Function-keys: 20
-**Compose-characters: Yes
+**Keyboard-type**vref{1}: LK401
+**Numeric-keypad**vref{1}: Yes
+**Arrow-keys**vref{1}: Yes
+**Editing-keypad**vref{1}: Yes
+**Function-keys**vref{1}: 20
+**Compose-characters**vref{1}: Yes
 !!**Screen-rows: {24}{36}{48}
-**Screen-sizes: {80 x 24}{132 x 24}
+**Screen-sizes**vref{1}: {80 x 24}{132 x 24}
 **Bits-per-char: 8
 **Composite-video: No
 !	From ref_1:
@@ -344,7 +346,45 @@
 !	EThernet: ThinWire
 !	RAM:		1MB (standard)
 !			4MB (*max)
+**Dimensions-start{VT1000-System-Box}
+**Height**vref{1}: 60mm
+**Width**vref{1}: 394mm
+**Depth**vref{1}: 368mm
+**Weight**vref{1}: 5.4kg
+**Dimensions-end{VT1000-System-Box}
+**Dimensions-start{VT1000-LK401}
+**Height**vref{1}: 45mm
+**Width**vref{1}: 478mm
+**Depth**vref{1}: 191mm
+**Weight**vref{1}: 1.4kg
+**Dimensions-end{VT1000-LK401}
 **End-terminals-entry{VT1000}
+
+**Start-terminals-entry{VT1200}{DECVT}{VT1000}
+**Sys-name: VT1200 Video Terminal
+**Def-lref{1} = ref{EK-V1200-UG-001}
+**document = doc{EK-V1000-SV-002}   ! VT1000/VT1200 and DECimage 1200 Service guide
+! vref{1}: supported monitors: VR315, VR319, VRE01
+**OS-support-VMS**vref{1}: V5.3-1
+**OS-support-Ultrix**vref{1}: V3.1
+**Screen-diagonal: 359mm
+**Rendition**vref{1}: Monochrome
+**Printer-port**vref{1}: Yes
+**Host-interface**vref{1}: DEC-423
+**Second-host-interface**vref{1}: DEC-423
+**SSU-support: No
+**VT52-compatibility: No
+**Tektronix-4010: No
+**Regis: No
+**Keyboard-type**vref{1}: LK401
+**Numeric-keypad**vref{1}: Yes
+**Arrow-keys**vref{1}: Yes
+**Editing-keypad**vref{1}: Yes
+**Function-keys**vref{1}: 20
+**Compose-characters**vref{1}: Yes
+**Minimum-memory**vref{1}: 2MB
+**Maximum-memory**vref{1}: 4MB
+**End-terminals-entry{VT1200}
 
 **Start-terminals-entry{VT220}{DECVT}{VT200}
 **Sys-name: VT220 Video Terminal
