@@ -60,7 +60,7 @@ class InfoFileHandlerOuter
         entry_class = $4.strip()
         raise("Unexpected system type [#{type}], expected [#{@expected_entry_type}]") if type.downcase() != @expected_entry_type
         ## TODO raise("Duplicate reference [#{id}] read in #{info_filename} at line #{line_num}: #{line} (originally #{terminal_devices[id].line_num()})") unless terminal_devices[id].nil?()
-        raise("Only 'terminals' allowed for now: rejecting '#{entry_name}'") if entry_name != "terminals"
+        ## TODO restrict to 'terminals' raise("Only 'terminals' allowed for now: rejecting '#{entry_name}'") if entry_name != "terminals"
         entry = Entry.new(id, @expected_entry_type, entry_class, line_num, @permitted_tags)
         return HandlerResult::STACK_HANDLER, InfoFileHandlerEntry.new(entry, entry_name, @info_filename, @permitted_tags_uc, @refs, @pubs)
       elsif line =~ /^ \s* \! /ix
@@ -82,7 +82,11 @@ class InfoFileHandlerOuter
       raise("Expecting object with .entry() but handed #{sub_handler.class.name()}")
     end
   end
-  
+
+  # Just by defining this function, we are saying that '**stop-processing' is valid here.
+  # Any handler that processes lines within an entry will *not* have this defined and so will signal a fatal error.
+  def stop_processing_is_valid()
+  end
 end
 
 #+
@@ -113,7 +117,7 @@ class InfoFileHandlerEntry
       # e.g. **End-storage-entry{RX50}
       end_id = $1.strip()
       if end_id != @entry.identifier()
-        $stderr.puts("FATAL_ERROR: **end-#{@entry_name}-entry\{#{end_id}\} does not match **end-#{@entry_name}-entry\{#{@entry.identifier()}\}") if end_id != @entry.identifier()
+        $stderr.puts("FATAL_ERROR: On line #{line_num} **end-#{@entry_name}-entry\{#{end_id}\} does not match **start-#{@entry_name}-entry\{#{@entry.identifier()}\}") if end_id != @entry.identifier()
         @fatal_error_seen = true
       end
       @local_refs.keys().each() {
@@ -284,6 +288,7 @@ class InfoFileHandlerText
       }
       @text_block << line
     end
+    return HandlerResult::CONTINUE, nil
   end
 end
 
@@ -406,21 +411,25 @@ class EntriesCollection
       result, extra = current_handler.process_line(line, line_num)
       case result
       when HandlerResult::IMMEDIATE_STOP
-        raise("saw unhandled result: IMMEDIATE_STOP for #{line_num}: [#{line}]")
+        if current_handler.respond_to?(:stop_processing_is_valid)
+          break
+        else
+          raise("Saw IMMEDIATE_STOP inside an entry: line #{line_num}: [#{line}]")
+        end
       when HandlerResult::CONTINUE
-        #$stderr.puts("saw CONTINUE for #{line_num}: [#{line}]")
+        # $stderr.puts("saw CONTINUE for #{line_num}: [#{line}]")
       when HandlerResult::STACK_HANDLER
         # Use replacement handler
         handlers << extra
         current_handler = extra
-        #$stderr.puts("processed result: STACK_HANDLER for #{line_num}: [#{line}]")
+        # $stderr.puts("processed result: STACK_HANDLER for #{line_num}: [#{line}]")
       when HandlerResult::COMPLETED
         fatal_error_seen = true if current_handler.fatal_error_seen()
         handlers.pop()
         handlers[-1].process_sub_handler(current_handler)  # TODO actually this should be passed to the handler that caused it to be invoked
-        #$stderr.puts("saw  result: COMPLETED for #{line_num}: [#{line}]")
+        # $stderr.puts("saw  result: COMPLETED for #{line_num}: [#{line}]")
       else
-        raise("saw UNKNOWN result: #{result} for #{line_num}: [#{line}]")
+        raise("saw UNKNOWN result: #{result} for line #{line_num}: [#{line}]")
       end
     }
 
