@@ -1080,11 +1080,11 @@
 **Def-lref{1} = ref{SPEC-res-98q2}
 **SPECint95**vref{1}: 16.8
 **SPECfp95**vref{1}: 21.7
-**End-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
+**End-systems-entry{AS1200-5-333}
 
 **Start-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
 **Sys-name: AlphaServer 1200 5/400
-**End-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
+**End-systems-entry{AS1200-5-400}
 
 **Start-systems-entry{AS1200-5-466}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 1200 5/466	
@@ -1645,7 +1645,7 @@
 **Width**vref{1}: 350mm
 **Depth**vref{1}: 530mm
 **Dimensions-end{DS20}
-**End-systems-entry{ASDS20}{ALPHA}{DS20}
+**End-systems-entry{ASDS20}
 
 **Start-systems-entry{ASDS20E}{ALPHA}{DS20}
 **Sys-name: AlphaServer DS20E
@@ -1654,7 +1654,7 @@
 **OS-support-DU**vref{2}: V5.0A
 **SPECint95**vref{1}: 40.1
 **SPECfp95**vref{1}: 83.6 (1-CPU) 110 (2-CPU)
-**End-systems-entry{ASDS20E}{ALPHA}{DS20}
+**End-systems-entry{ASDS20E}
 
 **Start-systems-entry{DS40}{ALPHA}{DS40}
 **Sys-name: AlphaServer DS40
@@ -1757,7 +1757,7 @@
 **Def-lref{1} = ref{SPEC-res-98q3}
 **SPECint95**vref{1}: 27.9
 **SPECfp95**vref{1}: 45.2 (1-CPU) 105 (8-CPU)
-**End-systems-entry{GS140-6-625}
+**End-systems-entry{GS140-6-525}
 
 **Start-systems-entry{GS140-6-700}{ALPHA}{GS140}
 **Sys-name: AlphaServer GS140 6/700

@@ -37,7 +37,7 @@
 **Sys-name: DECpc433dxLP
 **Desc-name: DECpc 433dx LP
 **Announcement**vref{1}: 1992-08-25
-**End-systems-entry{DECPC433dx-LP}
+**End-systems-entry{DECpc433dx-LP}
 
 **Start-systems-entry{DECpc450d2-LP}{DECPC}{DECPC-LP}
 **Def-lref{1} = ref{DEC-PR-1992-08-25}

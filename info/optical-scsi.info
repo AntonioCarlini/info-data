@@ -205,7 +205,7 @@
 **Depth**vref{1}: 310mm
 **Weight**vref{1}: 6.8kg
 **Dimensions-end{RZW01}
-**End-storage-entry{RZW01-AA}
+**End-storage-entry{RWZ01-AA}
 
 **Start-storage-entry{RWZ21}{SCSI}{OPTICAL}
 **Def-lref{1} = ref{EK-RWZ21-MG.001}

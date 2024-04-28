@@ -21,7 +21,7 @@
 **Depth **vref{1}: 4.0"
 **Weight**vref{1}: 7.0oz
 **Dimensions-end{PCXAR-BA}
-**End-storage-entry{PCXAR-AB}
+**End-storage-entry{PCXAR-BA}
 
 **Start-storage-entry{PCXAR-CC}{IDE}{PC}
 **Def-lref{1} = ref{CU-1992-10-12}
@@ -42,7 +42,7 @@
 ! vref{1} has H W D but in a badly formatted format
 **Weight**vref{1}: 1.05 lb
 **Dimensions-end{PCXAR-CC}
-**End-storage-entry{PCXAR-CC}{IDE}{PC}
+**End-storage-entry{PCXAR-CC}
 
 **Start-storage-entry{PCXAR-CD}{IDE}{PC}
 **Def-lref{1} = ref{CU-1992-10-12}
@@ -63,7 +63,7 @@
 ! vref{1} has H W D but in a badly formatted format
 **Weight**vref{1}: 1.05 lb
 **Dimensions-end{PCXAR-CC}
-**End-storage-entry{PCXAR-CC}{IDE}{PC}
+**End-storage-entry{PCXAR-CD}
 
 **Start-storage-entry{PCWXR-CA}{IDE}{PC}
 **Sys-name: PCWXR-CA

@@ -29,7 +29,7 @@
 **VUPs**vref{1}: 20
 **Minimum-memory**vref{1}: 16MB
 **Maximum-memory**vref{1}: 128MB
-**End-systems-entry{VAX4105}
+**End-systems-entry{VAX4050}
 
 **Start-systems-entry{VAX4100}{VAX}{VAX4000}
 **Def-lref{1} = ref{EK-467AA-TI.A01}
@@ -2517,7 +2517,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !**<A HREF="../boards/dsb32.html">   DSB32 </A> <TD> 2-line Synchronous Interface	</TR>
 !**<A HREF="../boards/dhb32.html">   DHB32 </A> <TD> 16-line Asynchronous Interface	</TR>
 !**<A HREF="../boards/cixcd.html">   CIXCD </A> <TD> XMI CI Interface			</TR>
-**End-systems-entry{VAX9200}
+**End-systems-entry{VAX9210}
 
 **Start-systems-entry{VAX9400}{VAX}{VAX9000}
 **Sys-name: VAX 9000-400
