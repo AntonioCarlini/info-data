@@ -74694,3 +74694,27 @@ start-publication DEC:AS-1000A-TS
   part-no = AS-1000A-TS
   publisher = DEC
 end-publication DEC:AS-1000A-TS
+
+start-publication DEC:MP-01066-00
+  title =  VT101 Family Field Maintenance Print Set
+  part-no = MP-01066-00
+  publisher = DEC
+end-publication DEC:MP-01066-00
+
+start-publication DEC:EK-V1200-UG-001
+  title = Installing and Using The VT1200 Video Terminal
+  part-no = EK-V1200-UG-001
+  publisher = DEC
+end-publication DEC:EK-V1200-UG-001
+
+start-publication DEC:EK-VT240-UG-003
+  title = VT240 Series Owner's Manual
+  part-no = EK-VT240-UG-003
+end-publication DEC:EK-VT240-UG-003
+
+start-publication DEC:K-TC-VT340-0-1
+  title = VT340 Color Graphics Terminal Engineering Drawings
+  part-no = K-TC-VT340-0-1
+end-publication DEC:K-TC-VT340-0-1
+
+

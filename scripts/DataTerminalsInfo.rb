@@ -5,17 +5,17 @@ $LOAD_PATH.unshift(Pathname.new(__FILE__).realpath().dirname().dirname().dirname
 
 require_relative "VariableWithReference.rb"
 
-# Reads a terminal definition file (e.g. terminals.info) and allows production of YAML for any entries.
+# Reads a definition file (e.g. terminals.info) and allows production of YAML for any entries.
 
-# TerminalsCollection.create_from_info_file(info_filename)
-#  Builds a TerminalsCollection object from a .info file.
-#  TerminalsCollection is a collection of Terminal objects, each of which represents a single terminal device entry.
+# EntriesCollection.create_from_info_file(info_filename)
+#  Builds a EntriesCollection object from a .info file.
+#  EntriesCollection is a collection of Entry objects, each of which represents a single device entry.
 #
-# TerminalsCollection.each()
-#  Allows each contained Terminal object to be accessed in turn.
+# EntriesCollection.each()
+#  Allows each contained Entry object to be accessed in turn.
 #
-# TerminalsCollection.encode_with(coder)
-#  This is the function that is invoked when to_yaml() is called on a TerminalsCollection object.
+# EntriesCollection.encode_with(coder)
+#  This is the function that is invoked when to_yaml() is called on a EntriesCollection object.
 #
 
 module HandlerResult
@@ -52,30 +52,32 @@ class InfoFileHandlerOuter
       elsif line =~ /^\s*\*\*Stop-processing\s*$/i
         # Stop if a line with just "**Stop-processing" is seen.
         return HandlerResult::IMMEDIATE_STOP, nil
-      elsif line =~ /^\s*\*\*Start-terminals-entry\{(.*)\}{(.*)}{(.*)}\s*$/ix
+      elsif line =~ /^\s*\*\*Start-(.*?)-entry\{(.*)\}{(.*)}{(.*)}\s*$/ix
         # **Start-terminals-entry{RX50}{MISC}{RX}
-        id = $1.strip()
-        type = $2.strip()
-        entry_class = $3.strip()
+        entry_name = $1.strip()
+        id = $2.strip()
+        type = $3.strip()
+        entry_class = $4.strip()
         raise("Unexpected system type [#{type}], expected [#{@expected_entry_type}]") if type.downcase() != @expected_entry_type
         ## TODO raise("Duplicate reference [#{id}] read in #{info_filename} at line #{line_num}: #{line} (originally #{terminal_devices[id].line_num()})") unless terminal_devices[id].nil?()
-        entry = Terminal.new(id, @expected_entry_type, entry_class, line_num, @permitted_tags)
-        return HandlerResult::STACK_HANDLER, InfoFileHandlerTerminal.new(entry, @info_filename, @permitted_tags_uc, @refs, @pubs)
+        raise("Only 'terminals' allowed for now: rejecting '#{entry_name}'") if entry_name != "terminals"
+        entry = Entry.new(id, @expected_entry_type, entry_class, line_num, @permitted_tags)
+        return HandlerResult::STACK_HANDLER, InfoFileHandlerEntry.new(entry, entry_name, @info_filename, @permitted_tags_uc, @refs, @pubs)
       elsif line =~ /^ \s* \! /ix
         # TODO why is this here .. .why can this not be handled above?
         $stderr.puts("Skipping comment [#{line}]")
         # skip comment line
         return HandlerResult::CONTINUE, nil
       else
-        # TODO - line outside of terminal? - this should FAIL
+        # TODO - line outside of entry? - this should FAIL
         return HandlerResult::CONTINUE, nil
       end
   end
   
-  # This should be invoked with a InfoFileHandlerTerminal. Anything else is an error.
+  # This should be invoked with a InfoFileHandlerEntry. Anything else is an error.
   def process_sub_handler(sub_handler)
     if sub_handler.respond_to?(:entry)
-      @devices.add_terminal(sub_handler.entry())  # TODO actually this should be passed to the handler that caused it to be invoked
+      @devices.add_entry(sub_handler.entry())  # TODO actually this should be passed to the handler that caused it to be invoked
     else
       raise("Expecting object with .entry() but handed #{sub_handler.class.name()}")
     end
@@ -84,16 +86,16 @@ class InfoFileHandlerOuter
 end
 
 #+
-# The InfoFileHandlerTerminal class handles everything from a start-terminals-entry to an end-terminals-entry.
+# The InfoFileHandlerEntry class handles everything from a 'start-???-entry' to a matching 'end-???-entry'.
 # It will skip empty lines and those that have only a comment and it will hand over to another handler if a valid start-ABC-entry is seen.
 # TODO: Any non-blank lines should trigger a failure, but currently they do not.
 #-
-class InfoFileHandlerTerminal
+class InfoFileHandlerEntry
 
   attr_reader     :entry
   attr_reader     :fatal_error_seen
   
-  def initialize(entry, info_filename, permitted_tags_uc, refs, pubs)
+  def initialize(entry, entry_name, info_filename, permitted_tags_uc, refs, pubs)
     @fatal_error_seen = false
     @permitted_tags_uc = permitted_tags_uc
     @info_filename = info_filename
@@ -101,17 +103,22 @@ class InfoFileHandlerTerminal
     @local_docs = {}
     @local_refs_non_vref_count = {}
     @entry = entry
+    @entry_name = entry_name
     @refs = refs
     @pubs = pubs
   end
 
   def process_line(line, line_num)
-    if line =~ /\*\*End-terminals-entry\{(.*)\}/ix
-      # **End-terminal-entry{RX50}
-      # TODO - check closing the right one, then add to pile
+    if line =~ /\*\*End-#{@entry_name}-entry\{(.*)\}/ix
+      # e.g. **End-storage-entry{RX50}
+      end_id = $1.strip()
+      if end_id != @entry.identifier()
+        $stderr.puts("FATAL_ERROR: **end-#{@entry_name}-entry\{#{end_id}\} does not match **end-#{@entry_name}-entry\{#{@entry.identifier()}\}") if end_id != @entry.identifier()
+        @fatal_error_seen = true
+      end
       @local_refs.keys().each() {
         |k|
-        ## TODO is this needed total_uses += @local_refs_non_vref_count[k]
+        ## TODO is this needed? total_uses += @local_refs_non_vref_count[k]
         count_text = "%3.3d" % @local_refs_non_vref_count[k]
       }
       @entry.set_docs(@local_docs.values())
@@ -139,6 +146,16 @@ class InfoFileHandlerTerminal
       value = $4
       process_value(line_num, tag, ref_type, given_ref, value)
       return HandlerResult::CONTINUE, nil
+    elsif line =~ /^\*\*(Dimensions|Power)-(start|end)\{/ix
+      # Ignore Power and Dimensions for now
+      return HandlerResult::CONTINUE, nil
+    elsif line.strip().empty?() || line =~ /^\s*!/ix
+        # ignore blank lines and commented out lines
+      return HandlerResult::CONTINUE, nil
+    else
+      $stderr.puts("FATAL ERROR: Invalid line #{line_num}: #{line}")
+      @fatal_error_seen = true
+      return HandlerResult::CONTINUE, nil
     end
   end
   
@@ -164,8 +181,9 @@ class InfoFileHandlerTerminal
       # TODO
       # At the moment Dimensions and Power are not handled properly, so skip them otherwise these tags are seen repeatedly and the checking fails
       return if ["Height","Width","Depth","Weight","Supply","I-max","Power","Heat-dissipation","Option-title","Option","Label"].include?(tag)
+      return if ["Power-start","Power-end","Dimensions-start","Dimensions-end"].include?(tag)
       # If the instance variable already exists then something has been defined twice
-      instance_variable_name = TerminalsCollection.tag_to_instance_variable_name(tag)
+      instance_variable_name = EntriesCollection.tag_to_instance_variable_name(tag)
       if @entry.instance_variable_defined?(instance_variable_name)
         raise("On line #{line_num} in #{current.identifier()}, tag #{tag} has been defined again.")
       else
@@ -173,7 +191,7 @@ class InfoFileHandlerTerminal
         @entry.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
       end
     else
-      $stderr.puts("On line #{line_num} in #{@entry.identifier()}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
+      $stderr.puts("FATAL ERROR: On line #{line_num} in #{@entry.identifier()}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
       @fatal_error_seen = true
     end
   end
@@ -195,15 +213,15 @@ class InfoFileHandlerTerminal
   def process_document_declaration(line_num, doc_id, doc)
     # Have a function process 'document'
     if doc.nil?()
-      $stderr.puts("Doc [#{doc_id}] not found on #{line_num} of #{@info_filename}")
+      $stderr.puts("FATAL ERROR: Doc [#{doc_id}] not found on #{line_num} of #{@info_filename}")
       fatal_error_seen = true
     elsif !@local_docs[doc_id].nil?()
-      $stderr.puts("Doc [#{doc_id}] repeated on #{line_num} of #{@info_filename}")
+      $stderr.puts("FATAL ERROR: Doc [#{doc_id}] repeated on #{line_num} of #{@info_filename}")
       @fatal_error_seen = true
     else
       # Skip documents that have no title: what could they possibly mean?
       if doc["title"].nil?()
-        $stderr.puts("Doc [#{doc_id}] has no title on #{line_num} of #{@info_filename}")
+        $stderr.puts("FATAL ERROR: Doc [#{doc_id}] has no title on #{line_num} of #{@info_filename}")
         @fatal_error_seen = true
       else
         entry = doc["title"] + ". "
@@ -252,7 +270,7 @@ class InfoFileHandlerText
             |lref|
             reference = @local_refs[lref]
             if reference.nil?()
-              $stderr.puts("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{info_filename}") 
+              $stderr.puts("FATAL ERROR: vref refers to non-existent lref{#{lref}} on line #{line_num} of #{info_filename}") 
               fatal_error_seen = true
             end
             unless reference.nil?()
@@ -269,18 +287,18 @@ class InfoFileHandlerText
   end
 end
 
-# Encapsulates a Terminal entry
-class Terminal
+# Encapsulates a Entry entry
+class Entry
 
   attr_reader :identifier
   attr_reader :line_num
   attr_reader :sys_class
-  attr_reader :terminal_type
+  attr_reader :entry_type
 
   def initialize(identifier, type, sys_class, line_num, possible_tags)
     @identifier = identifier
     @line_num = line_num
-    @terminal_type = type
+    @entry_type = type
     @sys_class = VariableWithReference.new(sys_class, nil)
     @possible_tags = possible_tags
     @docs = []
@@ -302,7 +320,7 @@ class Terminal
     @text_block += extra_text
   end
 
-  # This function will be called when to_yaml() encounters an object of type Terminal.
+  # This function will be called when to_yaml() encounters an object of type Entry.
   # It encodes is data as though it were a hash of:
   #   { tag e.g. "FRS-date" => [value, ref#1, ref#2] }
   #
@@ -312,7 +330,7 @@ class Terminal
     # For each possible tag, if it is present, represent it in the output.
     @possible_tags.each() {
       |key|
-      instance_variable_name = TerminalsCollection.tag_to_instance_variable_name(key)
+      instance_variable_name = EntriesCollection.tag_to_instance_variable_name(key)
       if self.instance_variable_defined?(instance_variable_name)
         # Use tag (i.e. the key) for the "name" and represent the value as an array with the first element as the actual value
         # and any further elements representing references.
@@ -333,7 +351,7 @@ class Terminal
   end
 end
 
-class TerminalsCollection
+class EntriesCollection
 
   DATA_REFERENCES_ID = "DataReferences"
 
@@ -343,39 +361,39 @@ class TerminalsCollection
   end
 
   def initialize()
-    @terminals = {}
+    @entries = {}
   end
 
-  def add_terminal(terminal)
-    @terminals[terminal.identifier()] = terminal
+  def add_entry(entry)
+    @entries[entry.identifier()] = entry
   end
   
   def [](identifier)
-    @terminals[identifier]
+    @entries[identifier]
   end
   
   def each()
-    @terminals.keys().sort().each() {
+    @entries.keys().sort().each() {
       |id|
       yield id
     }
   end
 
   def to_yaml()
-    @terminals.to_yaml()
+    @entries.to_yaml()
   end
 
-  # Reads a terminal .info file and processes it.
+  # Reads an .info file and processes it.
   #
   # info_filename: the filepath of the .info file
   # type_expected: type of device: decvt etc.
   # permitted_tags: an array of permitted tags
   # refs: references (from refs.info)
   # refs: publications (from pubs.info)
-  def TerminalsCollection.create_from_info_file(info_filename, type_expected, permitted_tags, refs, pubs)
+  def EntriesCollection.create_from_info_file(info_filename, type_expected, permitted_tags, refs, pubs)
     fatal_error_seen = false
     line_num = 0
-    devices = TerminalsCollection.new()
+    devices = EntriesCollection.new()
     ## TODO total_uses = 0   # local uses of unverified refs
     within_text_block = false
 
@@ -390,21 +408,23 @@ class TerminalsCollection
       when HandlerResult::IMMEDIATE_STOP
         raise("saw unhandled result: IMMEDIATE_STOP for #{line_num}: [#{line}]")
       when HandlerResult::CONTINUE
-        $stderr.puts("saw CONTINUE for #{line_num}: [#{line}]")
+        #$stderr.puts("saw CONTINUE for #{line_num}: [#{line}]")
       when HandlerResult::STACK_HANDLER
         # Use replacement handler
         handlers << extra
         current_handler = extra
-        $stderr.puts("processed result: STACK_HANDLER for #{line_num}: [#{line}]")
+        #$stderr.puts("processed result: STACK_HANDLER for #{line_num}: [#{line}]")
       when HandlerResult::COMPLETED
         fatal_error_seen = true if current_handler.fatal_error_seen()
         handlers.pop()
         handlers[-1].process_sub_handler(current_handler)  # TODO actually this should be passed to the handler that caused it to be invoked
-        $stderr.puts("saw  result: COMPLETED for #{line_num}: [#{line}]")
+        #$stderr.puts("saw  result: COMPLETED for #{line_num}: [#{line}]")
+      else
+        raise("saw UNKNOWN result: #{result} for #{line_num}: [#{line}]")
       end
     }
 
-    raise("Stopping because of one or more above fatal errors") if fatal_error_seen
+    raise("FATAL ERROR: Stopping because of one or more above fatal errors") if fatal_error_seen
 
     return devices
   end

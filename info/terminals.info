@@ -94,7 +94,7 @@
 **Start-terminals-entry{VT101}{DECVT}{VT100}
 **Sys-name: VT101 Video Terminal
 **Def-lref{1} = ref{EK-V1001-UG-002}
-**document=doc{MP-01066-00} ! VT101 Family Field Maintenance Print Set
+**document=doc{DEC:MP-01066-00} ! VT101 Family Field Maintenance Print Set
 **Phosphor**vref{1}: P4
 **Screen-sizes**vref{1}: {80 x 24}{132 x 14}
 **Character-matrix**vref{1}: 7 x 10
@@ -115,7 +115,7 @@
 **Label: VT101
 **Height**vref{1}: 368.3mm
 **Width **vref{1}: 457.2mm
-**Depth **vreff{1}: 362.0mm
+**Depth **vref{1}: 362.0mm
 **Weight**vref{1}: 13.6kg
 **Dimensions-end{VT101}
 **Dimensions-start{VT101KBD}
@@ -213,7 +213,7 @@
 **Printer-port**htref{1}: RS-232
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 7 c
-<**Host-interface**htref{1}: {RS-232}{20mA current loop (optional)}
+**Host-interface**htref{1}: {RS-232}{20mA current loop (optional)}
 **Second-host-interface**htref{1}: No
 **SSU-support**htref{1}: No
 **VT52-compatibility**htref{1}: Yes
@@ -312,7 +312,7 @@
 **Start-terminals-entry{VT1000}{DECVT}{VT1000}
 **Sys-name: VT1000 Video Terminal
 **Def-lref{1} = ref{EK-V1000-UG-001}
-**document = doc{EK-V1000-SV-002}   ! VT1000/VT1200 and DECimage 1200 Service guide
+**document = doc{DEC:EK-V1000-SV-002}   ! VT1000/VT1200 and DECimage 1200 Service guide
 **OS-support-VMS**vref{1}: V5.3-1
 **OS-support-Ultrix**vref{1}: V3.1
 ! vref{1}: supported monitors: VR150, VR262, VR315, VR319, VRE01
@@ -363,7 +363,7 @@
 **Start-terminals-entry{VT1200}{DECVT}{VT1000}
 **Sys-name: VT1200 Video Terminal
 **Def-lref{1} = ref{EK-V1200-UG-001}
-**document = doc{EK-V1000-SV-002}   ! VT1000/VT1200 and DECimage 1200 Service guide
+**document = doc{DEC:EK-V1000-SV-002}   ! VT1000/VT1200 and DECimage 1200 Service guide
 ! vref{1}: supported monitors: VR315, VR319, VRE01
 **OS-support-VMS**vref{1}: V5.3-1
 **OS-support-Ultrix**vref{1}: V3.1
@@ -444,12 +444,12 @@
 **Sys-name: VT240 Video Terminal
 **Def-lref{1} = ref{DA-1987-08-25-VT2xx}
 **Def-lref{2} = ref{EK-VT240-UG-003}
-**document=doc{EK-VT240-PS-002} ! VT240 Series Pocket Service Guide
-**document=doc{EK-VT240-UG-003} ! VT240 Series Owner's Manual
-**document=doc{EK-VT240-TM-001} ! VT240 Series Technical Manual
-**document=doc{EK-VT240-HR-002} ! VT240 Series Programmer Pocket Guide
+**document=doc{DEC:EK-VT240-PS-002} ! VT240 Series Pocket Service Guide
+**document=doc{DEC:EK-VT240-UG-003} ! VT240 Series Owner's Manual
+**document=doc{DEC:EK-VT240-TM-001} ! VT240 Series Technical Manual
+**document=doc{DEC:EK-VT240-HR-002} ! VT240 Series Programmer Pocket Guide
 **Retirement**vref{1}: 1987-08-25
-**Rendition**vef{2}: Monochrome
+**Rendition**vref{2}: Monochrome
 **Regis**vref{2}: Yes
 **Host-interface**vref{2}: {RS-232}{20mA current loop}
 **Printer-port**vref{2}: Yes
@@ -490,12 +490,12 @@
 **Sys-name: VT241 Video Terminal
 **Def-lref{1} = ref{DA-1987-08-25-VT2xx}
 **Def-lref{2} = ref{EK-VT240-UG-003}
-**document=doc{EK-VT240-PS-002} ! VT240 Series Pocket Service Guide
-**document=doc{EK-VT240-UG-003} ! VT240 Series Owner's Manual
-**document=doc{EK-VT240-TM-001} ! VT240 Series Technical Manual
-**document=doc{EK-VT240-HR-002} ! VT240 Series Programmer Pocket Guide
+**document=doc{DEC:EK-VT240-PS-002} ! VT240 Series Pocket Service Guide
+**document=doc{DEC:EK-VT240-UG-003} ! VT240 Series Owner's Manual
+**document=doc{DEC:EK-VT240-TM-001} ! VT240 Series Technical Manual
+**document=doc{DEC:EK-VT240-HR-002} ! VT240 Series Programmer Pocket Guide
 **Retirement**vref{1}: 1987-08-25
-**Rendition**vef{2}: Colour
+**Rendition**vref{2}: Colour
 **Regis**vref{2}: Yes
 **Host-interface**vref{2}: {RS-232}{20mA current loop}
 **Printer-port**vref{2}: Yes
@@ -607,9 +607,9 @@
 **Start-terminals-entry{VT330}{DECVT}{VT300}
 **Sys-name: VT330 Video Terminal
 **Def-lref{1} = ref{EK-VT3XX-UU-002}
-**document = doc{EK-VT3XX-TP-002}    ! VT330/VT340 Programmer Reference Manual. Volume 1: Text Processing
-**document = doc{EK-VT3XX-HR-002}    ! VT330/VT340 Programmer Pocket Guide
-**document = doc{EK-VT3XX-HR-001}    ! VT330/VT340 Programmer Pocket Guide
+**document = doc{DEC:EK-VT3XX-TP-002}    ! VT330/VT340 Programmer Reference Manual. Volume 1: Text Processing
+**document = doc{DEC:EK-VT3XX-HR-002}    ! VT330/VT340 Programmer Pocket Guide
+**document = doc{DEC:EK-VT3XX-HR-001}    ! VT330/VT340 Programmer Pocket Guide
 **Html-target: vt300
 **Active-display-size**vref{1}: 230mm x 150mm
 **Screen-sizes**vref{1}: 80 x 24
@@ -664,11 +664,11 @@
 **Start-terminals-entry{VT340}{DECVT}{VT300}
 **Sys-name: VT340 Video Terminal
 **Def-lref{1} = ref{EK-VT3XX-UU-002}
-**document = doc{EK-VT3XX-TP-002}    ! VT330/VT340 Programmer Reference Manual. Volume 1: Text Processing
-**document = doc{EK-VT3XX-HR-002}    ! VT330/VT340 Programmer Pocket Guide
-**document = doc{EK-VT3XX-HR-001}    ! VT330/VT340 Programmer Pocket Guide
-**document = doc{K-TC-VT340-0-1}     ! VT340 Color Graphics Terminal Engineering Drawings
-**document = doc{EK-VT340-IP-003}    ! VT340 Video Terminal Illustrated Parts Breakdown
+**document = doc{DEC:EK-VT3XX-TP-002}    ! VT330/VT340 Programmer Reference Manual. Volume 1: Text Processing
+**document = doc{DEC:EK-VT3XX-HR-002}    ! VT330/VT340 Programmer Pocket Guide
+**document = doc{DEC:EK-VT3XX-HR-001}    ! VT330/VT340 Programmer Pocket Guide
+**document = doc{DEC:K-TC-VT340-0-1}     ! VT340 Color Graphics Terminal Engineering Drawings
+**document = doc{DEC:EK-VT340-IP-003}    ! VT340 Video Terminal Illustrated Parts Breakdown
 **Html-target: vt300
 **Active-display-size**vref{1}: 240mm x 150mm
 **Screen-sizes**vref{1}: 80 x 24
