@@ -18,7 +18,8 @@
 
 **Start-printers-entry{DCL1100}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-DCL11-SV.B01}
-**Def-lref{2} = ref{1993-09-13}
+! TODO lref{2} misspecified: re-verify
+**Def-lref{2} = ref{CU-1993-09-13}
 **Sys-name: LN07
 **Desc-name: DEClaser 1100 Laser Printer
 ![1]: 512KB-2.5MB RAM; two optional font carts
@@ -117,20 +118,21 @@
 
 **Start-printers-entry{LJ250}{PRINTER}{LJ}
 **Def-lref{1} = ref{CU-1992-08-10}
-**Def-lref{2} = ref{DA-1987-08-25}
+!! TODO No lref{2} **Def-lref{2} = ref{DA-1987-08-25}
 **Sys-name: LJ250
 **Desc-name: LJ250
-**Announcement**vref{2}: 1987-09-02
+!! vref{2} broken and no obvious candidate
+!!**Announcement**vref{2}: 1987-09-02
 **Last-order**vref{1}: 1992-08
 **End-printers-entry{LJ250}
 
 **Start-printers-entry{LJ252}{PRINTER}{LJ}
 **Def-lref{1} = ref{CU-1992-05-15}
 **Def-lref{2} = ref{CU-1992-08-10}
-**Def-lref{3} = ref{DA-1987-08-25}
+!! TODO No lref **Def-lref{3} = ref{DA-1987-08-25}
 **Sys-name: LJ252
 **Desc-name: LJ252 Companion Colour Printer
-**Announcement**vref{3}: 1987-09-02
+!! TODO broekn vref **Announcement**vref{3}: 1987-09-02
 **Last-order**vref{1}: 1992-06
 **Last-ship**vref{2}: 1992-08-30
 **Technology**vref{1}: Ink-jet
@@ -221,10 +223,10 @@
 **Desc-name: LA310 MultiPrinter
 **Def-lref{1} = ref{CU-1992-12-14}
 **Def-lref{2} = ref{DEC-PR-1992-11-16}
-*Announcement**vref{2}: 1992-11-16
+**Announcement**vref{2}: 1992-11-16
 **Print-speed**vref{1}: {300 cps high speed draft} {240 cps draft} {55 cps draft @ NLQ1} {55 cps draft @ NLQ2}
 **Protocols**vref{1}: DEC PPL2 (ANSI), Epson FX1050, IBM ProPrinter III
-**Interfaces**vref{1}: Serial (RS423) and Centronics parallel
+**Interface**vref{1}: Serial (RS423) and Centronics parallel
 **Monthly-usage**vref{1}: 3,500 pages
 **Data-rate**vref{1}: 150-9600
 **End-printers-entry{LA310}
@@ -248,7 +250,7 @@
 **End-printers-entry{LA34}
 
 **Start-printers-entry{LA324}{PRINTER}{LA}
-**Sys-desc: LA324
+**Sys-name: LA324
 **Desc-name: LA324 Printer
 **Def-lref{1} = ref{CU-1992-04-24}
 **Last-order**vref{1}: 1992-05-01
@@ -256,13 +258,13 @@
 **End-printers-entry{LA324}
 
 **Start-printers-entry{LA424}{PRINTER}{LA}
-**Sys-desc: LA424
+**Sys-name: LA424
 **Desc-name: LA424 Printer
 **Def-lref{1} = ref{CU-1992-04-24}
 **Announcement**vref{1}: 1992-04-24
 **FCS-date**vref{1}: 1992-05
 **Print-speed**vref{1}: {480 cps draft @ 12 cpi} {400 cps draft @ 10 cpi} {133 cps letter quality @ 10 cpi}
-**Printhead**vref{1}: 24-wire
+**Print-head**vref{1}: 24-wire
 **Buffer**vref{1}: 8 KB
 **Interface**vref{1}:  RS423 serial and IBM/Centronic Parallel
 **End-printers-entry{LA424}
@@ -304,7 +306,7 @@
 **Sys-name: LA75 Printer
 **Def-lref{1} = ref{EK-OLA75-RM-002}
 **Def-lref{2} = ref{CU-1991-10-18}
-**Last-ship-date**vref{2}: 1992-03-30
+**Last-ship**vref{2}: 1992-03-30
 **Character-pitch**htref{1}: 5, 6, 10 and 12 cpi
 **Data-interface**htref{1}: RS-232
 **Data-rate**htref{1}: 110 - 4800
@@ -335,13 +337,13 @@
 **Desc-name: DECwriter 95 Personal Printer
 **def-lref{1} = ref{CU-1993-04-19}
 **Announcement**vref{1}: 1993-04-19
-**Printheaf**vref{1}: 24 wire
+**Print-head**vref{1}: 24 wire
 **Interface**vref{1}: Parallel (serial optional)
 **Print-speed**vref{1}: {215 draft} {66 LQ}
 **Resolution**vref{1}: 360 x 360
-**Emulations**vref{1}: {Epson ESC P/2} {Epson LQ-570} {IBM ProPrinter}
-**Min-memory**vref{1}: 8 KB
-**Max-memory**vref{1}: 128 KB
+**Emulation**vref{1}: {Epson ESC P/2} {Epson LQ-570} {IBM ProPrinter}
+**Minimum-memory**vref{1}: 8 KB
+**Maximum-memory**vref{1}: 128 KB
 **Colour**vref{1}: Yes
 **Setup**vref{1}: LCD
 **End-printers-entry{LA95}
@@ -354,7 +356,7 @@
 **FRS-date**vref{1}: 1994-02-01
 **Print-speed**vref{1}: 2 pages/min
 **Resolution**vref{1}: 300 x 600 dpi
-**Min-memory**vref{1}: 8 MB
+**Minimum-memory**vref{1}: 8 MB
 **Data-interface**vref{1}: RS-232, parallel, AppleTalk
 **End-printers-entry{LF02}
 
@@ -519,8 +521,8 @@
 **Desc-name: DEClaser 3500
 **Announcement**vref{2}: 1994-10-18
 **Processor**vref{1}: 29200/20 MHz
-**Min-memory**vref{1,2}: 3 MB
-**Max-memory**vref{1,2}: 19 MB
+**Minimum-memory**vref{1,2}: 3 MB
+**Maximum-memory**vref{1,2}: 19 MB
 **Print-speed**vref{1}: 12 pages/min
 **Resolution**vref{1}: 600 dpi
 **Duplex**vref{1}: No
@@ -541,8 +543,8 @@
 **Desc-name: DEClaser 3500
 **Announcement**vref{1}: 1994-11-16
 **Processor**vref{1}: 29200/20 MHz
-**Min-memory**vref{1}: 3 MB
-**Max-memory**vref{1}: 19 MB
+**Minimum-memory**vref{1}: 3 MB
+**Maximum-memory**vref{1}: 19 MB
 **Print-speed**vref{1}: 12 pages/min
 **Resolution**vref{1}: 600 dpi
 **Duplex**vref{1}: No
@@ -604,13 +606,13 @@
 **Resolution**vref{1}: 600 dpi
 **Minimum-memory**vref{1}: 8 MB
 **Maximum-memory**vref{1}: 32 MB
-**Interfaces**vref{1}: Ethernet
+**Interface**vref{1}: Ethernet
 **End-printers-entry{LPS17}
 
 **Start-printers-entry{LPS20}{PRINTER}{LPS}
 **Def-lref{1} = ref{EK-TPS20-SG-0011}
-**Sys-name: PrintServer 20
-**Sys-name: PrintServer 20
+**Sys-name: LPS 20
+**Desc-name: PrintServer 20
 ! [1] Duplex
 ! [1] Duplex printing is 16 pages/min
 ! [1] Built-in PostScript support
@@ -628,19 +630,19 @@
 
 **Start-printers-entry{LPS32}{PRINTER}{LPS}
 **Def-lref{1} = ref{CU-1992-08-31}
-**Def-lref{2} = ref{DEC-PR-1998-09-08}
+!! TODO NO lref[2} **Def-lref{2} = ref{DEC-PR-1998-09-08}
 **Sys-name: LPS32
 **Desc-name: PrintServer 32
-**Announcement**vref{2}: 1992-09-08
+!! TODO broken lref **Announcement**vref{2}: 1992-09-08
 **Print-speed**vref{1}: 32 pages/min
 **Monthly-usage**vref{1}: 150,000 pages
 **Input-capacity**vref{1}: 1500 sheets 
 **Output-capacity**vref{1}: 1500 sheets 
-** RAM**vref{1}: 12 MB
+! TODO is this max or min ordefault? **Memory**vref{1}: 12 MB
 **Fonts**vref{1}: 29 resident
-**Interfaces**vref{1}: Ethernet
-**Pagedescription-language**vref{1}: PostScript
-**Emulations**vref{1}: {HP-PCL} {ASCII} {ANSI} {TEKTRONIX} {ReGIS}
+**Interface**vref{1}: Ethernet
+**Page-description-language**vref{1}: PostScript
+**Emulation**vref{1}: {HP-PCL} {ASCII} {ANSI} {TEKTRONIX} {ReGIS}
 **Duplex: Standard
 **End-printers-entry{LPS32}
 
