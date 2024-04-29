@@ -75,8 +75,6 @@ all: $(foreach SYS,$(SYSTEMS),bin/infobox-$(SYS)-data.mediawiki.txt)
 
 all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).os-release.txt)
 
-all: $(YAML_OUTPUT)/vax-new.yaml
-
 .PHONY: all
 
 .PHONY: build.tree
