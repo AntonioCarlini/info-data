@@ -173,7 +173,11 @@ class InfoFileHandlerEntry
       given_ref.split(",").each() {
         |lref|
         reference = @local_refs[lref]
-        raise("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{@info_filename}") if ref_type =~ /vref/i && reference.nil?()
+        if ref_type =~ /vref/i && reference.nil?()
+          $stderr.puts("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{@info_filename}")
+          @fatal_error_seen = true
+          return
+        end
         unless reference.nil?()
           @local_refs_non_vref_count[lref] += 1 unless ref_type =~ /vref/i  # count any reference except a vref
           ref_array << reference if ref_type =~ /vref/i
