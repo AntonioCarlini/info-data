@@ -1,10 +1,6 @@
 MONITORS += monitors
 
-SYSTEMS += alpha
-SYSTEMS += mips
-SYSTEMS += pc
-SYSTEMS += pdp11
-SYSTEMS += vax
+PRINTERS += printers
 
 STORAGE += disks-dssi
 STORAGE += disks-ide
@@ -21,6 +17,12 @@ STORAGE += tapes-misc
 STORAGE += tapes-scsi
 STORAGE += tapes-sti
 
+SYSTEMS += alpha
+SYSTEMS += mips
+SYSTEMS += pc
+SYSTEMS += pdp11
+SYSTEMS += vax
+
 TERMINALS += terminals
 
 YAML_OUTPUT = bin/yaml
@@ -30,6 +32,7 @@ REFS = $(YAML_OUTPUT)/refs.yaml
 PUBS = $(YAML_OUTPUT)/pubs.yaml
 
 TAGS.MONITORS = scripts/monitors-tags.yaml
+TAGS.PRINTERS = scripts/printers-tags.yaml
 TAGS.STORAGE = scripts/storage-tags.yaml
 TAGS.SYSTEMS = scripts/systems-tags.yaml
 TAGS.TERMINALS = scripts/terminals-tags.yaml
@@ -64,6 +67,8 @@ all: $(PUBS)
 
 all: $(foreach MON,$(MONITORS),$(YAML_OUTPUT)/$(MON).yaml)
 
+all: $(foreach PRN,$(PRINTERS),$(YAML_OUTPUT)/$(PRN).yaml)
+
 all: $(foreach STORE,$(STORAGE),$(YAML_OUTPUT)/$(STORE).yaml)
 
 all: $(foreach SYS,$(SYSTEMS),$(YAML_OUTPUT)/$(SYS).yaml)
@@ -77,6 +82,7 @@ all: $(foreach STORE,$(STORAGE),bin/$(STORE).infobox.mediawiki.txt)
 all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).infobox.mediawiki.txt)
 
 all: $(foreach TERM,$(TERMINAL),bin/$(TERM).infobox.mediawiki.txt)
+
 
 all: $(foreach SYS,$(SYSTEMS),bin/infobox-$(SYS)-data.mediawiki.txt)
 
@@ -279,6 +285,13 @@ $(YAML_OUTPUT)/monitors.yaml:  info/monitors.info $(TAGS.MONITORS) $(REFS) $(PUB
 
 bin/monitors.infobox.mediawiki.txt: $(YAML_OUTPUT)/monitors.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/entry-yaml-to-infobox-mediawiki.rb Terminal $< $(TAGS.MONITORS) $(REFS) > $@
+
+# printers -> YAML
+$(YAML_OUTPUT)/printers.yaml:  info/printers.info $(TAGS.PRINTERS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.PRINTERS) $(REFS) $(PUBS) > $@
+
+bin/printers.infobox.mediawiki.txt: $(YAML_OUTPUT)/printers.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/entry-yaml-to-infobox-mediawiki.rb Printer $< $(TAGS.PRINTERS) $(REFS) > $@
 
 clean:
 	@rm -f bin/*
