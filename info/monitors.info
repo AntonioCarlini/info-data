@@ -53,7 +53,7 @@
 **Screen-size**vref{1}: 14"
 **V-frequency**vref{1}: 60 Hz - 72 Hz
 **H-frequency**vref{1}: 31.5 kHz - 57 kHz
-**Screen-size**vref{1}: {640x480 pixels} {1024x864 pixels}
+! TODO conflicts with definition above **Screen-size**vref{1}: {640x480 pixels} {1024x864 pixels}
 **End-monitors-entry{PC7XVD}
 
 **Start-monitors-entry{PC7XVE}{MONITOR}{PC7XV}
@@ -196,7 +196,7 @@
 **V-blanking-interval**htref{1}: 37 horizontal lines:max 
 **V-frequency**htref{1}: 60Hz        
 **V-front-porch**htref{1}: 0 horizontal lines  
-**Lines-displayed**htref{1}**htref{1}: 868      
+**Lines-displayed**htref{1}: 868      
 **V-sync-pulse**htref{1}: 3 horizontal lines  
 **Vertical-period**htref{1}: 16.67ms   
 **Dimensions-start{VR297}
@@ -482,9 +482,9 @@
 **Desc-name: PCXCV 14" Colour Monitor
 **Def-lref{1} = ref{CU-1991-09-06}
 **Display-size**vref{1}: 14"
-**Resolution**verf{1}: 640 x 480 VGA
-**OEM**vref{1}: Philips
-**End-storage-entry{PCXCV}
+**Resolution**vref{1}: 640 x 480 VGA
+**OEM-manufacturer**vref{1}: Philips
+**End-monitors-entry{PCXCV}
 
 **Stop-processing
 

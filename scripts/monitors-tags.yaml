@@ -1,0 +1,297 @@
+---
+- Not-Allowed:
+  - Not Allowed
+  - Test entry
+  - never
+  - summary
+- Sys-name:
+  - System name
+  - System description
+  - all
+  - summary
+- Html-target:
+  - HTML target
+  - HTML target (unused)
+  - all
+- Announcement:
+  - Announcement date
+  - Announcement date
+  - all
+  - summary
+  - required
+- Location:
+  - Used to specify HTML file location
+  - Used to specify HTML file location
+  - storage
+  - summary
+- FRS-date:
+  - FRS date
+  - First revenue ship date
+  - all
+  - summary
+- FCS-date:
+  - FCS date
+  - First customer ship date
+  - all
+  - summary
+- Last-order:
+  - Last order date
+  - Last order date
+  - all
+  - summary
+- Last-ship:
+  - Last ship date
+  - Last ship date
+  - all
+  - summary
+- EOSL:
+  - End of service life
+  - End of service life
+  - all
+  - summary
+- EOL:
+  - End of life
+  - End of life
+  - all
+  - summary
+- Codename:
+  - Codename
+  - Codename
+  - all
+  - summary
+  - required
+- Desc-name:
+  - Descriptive name
+  - Descriptive name
+  - all
+  - summary
+- OS-support-VMS:
+  - OS support (VMS)
+  - First version of VMS of a continuous range until the final version that supports this system
+  - all
+  - summary
+- OS-support-VMS-end:
+  - OS support (VMS)
+  - Final VMS version that supports this system
+  - all
+  - summary
+- OS-support-VMS-early:
+  - OS support (VMS)
+  - An early version of VMS that supports the system but followed by a gap in support
+  - all
+  - summary
+- OS-support-MDM:
+  - OS support (MDM)
+  - Range of MDM releases that support this device
+  - all
+  - summary
+- OS-support-ELN:
+  - OS support (ELN)
+  - Range of VAXELN releases that support this device
+  - all
+  - summary
+- OS-support-ULTRIX:
+  - OS support (ULTRIX)
+  - Range of ULTRIX versions that support this device
+  - all
+  - summary
+- OS-support-NT:
+  - OS support (NT)
+  - Range of WindowsNT versions that support this device
+  - all
+  - summary
+- OS-support-DU:
+  - OS support (Digital UNIX)
+  - Range of Digital Unix or Tru64 versions that support this device
+  - all
+  - summary
+- OS-support-DU-end:
+  - OS support (Digital UNIX)
+  - Final version of  Digital Unix or Tru64 that supports this device
+  - all
+  - summary
+- OS-support-SYSV:
+  - OS support (AT&T System V)
+  - Range of System V versions that support this device
+  - all
+  - summary
+- OS-support-SCO:
+  - OS support (SCO)
+  - Range of SCO versions that support this device
+  - all
+  - summary
+- OS-support-CRONIC:
+  - OS support (CRONIC)
+  - Range of CRONIC versions that support this device
+  - all
+  - summary
+- Display-size:
+  - Display-size
+  - Display-size
+  - all
+  - summary
+- Emulations:
+  - Emulations
+  - Emulations
+  - all
+  - summary
+- H-active-video:
+  - Horizontal active video
+  - Horizontal active video
+  - all
+  - summary
+- H-back-porch:
+  - Horizontal back porch
+  - Horizontal back porch
+  - all
+  - summary
+- H-blanking-interval:
+  - Horizontal blanking interval
+  - Horizontal blanking interval
+  - all
+  - summary
+- H-frequency:
+  - Horizontal frequency
+  - Horizontal frequency
+  - all
+  - summary
+- H-front-porch:
+  - Horizontal front porch
+  - Horizontal front porch
+  - all
+  - summary
+- H-sync-pulse:
+  - Horizontal sync pulse
+  - Horizontal sync pulse
+  - all
+  - summary
+- Horizontal-period:
+  - Horizontal-period
+  - Horizontal-period
+  - all
+  - summary
+- Keyboard:
+  - Keyboard
+  - Keyboard
+  - all
+  - summary
+- Screen-diagonal:
+  - Screen-diagonal
+  - Screen-diagonal
+  - all
+  - summary
+- Screen-size:
+  - Screen-size
+  - Screen-size
+  - all
+  - summary
+- V-active-video:
+  - Vertical active-video
+  - Vertical active-video
+  - all
+  - summary
+- V-back-porch:
+  - Vertical back-porch
+  - Vertical back-porch
+  - all
+  - summary
+- V-blanking-interval:
+  - Vertical blanking interval
+  - Vertical blanking interval
+  - all
+  - summary
+- V-frequency:
+  - Vertical frequency
+  - Vertical frequency
+  - all
+  - summary
+- V-front-porch:
+  - Vertical front porch
+  - Vertical front porch
+  - all
+  - summary
+- V-sync-pulse:
+  - V sync pulse
+  - V sync pulse
+  - all
+  - summary
+- Vertical-period:
+  - Vertical period
+  - Vertical period
+  - all
+  - summary
+- Video-amplitude:
+  - Video amplitude
+  - Video amplitude
+  - all
+  - summary
+- Video-termination:
+  - Video termination
+  - Video termination
+  - all
+  - summary
+- Height:
+  - Height
+  - Height
+  - all
+  - summary
+- Width:
+  - Width
+  - Width
+  - all
+  - summary
+- Depth:
+  - Depth
+  - Depth
+  - all
+  - summary
+- Weight:
+  - Weight
+  - Weight
+  - all
+  - summary
+- Power:
+  - Power
+  - Power
+  - all
+  - summary
+- Synch-signal:
+  - Synch signal
+  - Synch signal
+  - all
+  - summary
+- Dot-pitch:
+  - Dot pitch
+  - Dot pitch
+  - all
+  - summary
+- Pixels-displayed:
+  - Pixels displayed
+  - Pixels displayed
+  - all
+  - summary
+- Lines-displayed:
+  - Lines displayed
+  - Lines displayed
+  - all
+  - summary
+- Triad-pitch:
+  - Triad pitch
+  - Triad pitch
+  - all
+  - summary
+- OEM-device:
+  - OEM device
+  - OEM device
+  - all
+  - summary
+- OEM-manufacturer:
+  - OEM manufacturer
+  - OEM manufacturer
+  - all
+  - summary
+- Resolution:
+  - Resolution
+  - Resolution
+  - all
+  - summary

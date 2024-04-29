@@ -1,3 +1,5 @@
+MONITORS += monitors
+
 SYSTEMS += alpha
 SYSTEMS += mips
 SYSTEMS += pc
@@ -27,6 +29,7 @@ REFS = $(YAML_OUTPUT)/refs.yaml
 
 PUBS = $(YAML_OUTPUT)/pubs.yaml
 
+TAGS.MONITORS = scripts/monitors-tags.yaml
 TAGS.STORAGE = scripts/storage-tags.yaml
 TAGS.SYSTEMS = scripts/systems-tags.yaml
 TAGS.TERMINALS = scripts/terminals-tags.yaml
@@ -59,6 +62,8 @@ all: $(REFS)
 
 all: $(PUBS)
 
+all: $(foreach MON,$(MONITORS),$(YAML_OUTPUT)/$(MON).yaml)
+
 all: $(foreach STORE,$(STORAGE),$(YAML_OUTPUT)/$(STORE).yaml)
 
 all: $(foreach SYS,$(SYSTEMS),$(YAML_OUTPUT)/$(SYS).yaml)
@@ -70,6 +75,8 @@ all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).mediawiki.txt)
 all: $(foreach STORE,$(STORAGE),bin/$(STORE).infobox.mediawiki.txt)
 
 all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).infobox.mediawiki.txt)
+
+all: $(foreach TERM,$(TERMINAL),bin/$(TERM).infobox.mediawiki.txt)
 
 all: $(foreach SYS,$(SYSTEMS),bin/infobox-$(SYS)-data.mediawiki.txt)
 
@@ -262,6 +269,16 @@ bin/tapes-sti.infobox.mediawiki.txt: $(YAML_OUTPUT)/tapes-sti.yaml $(REFS) $(GLO
 # terminals -> YAML
 $(YAML_OUTPUT)/terminals.yaml:  info/terminals.info $(TAGS.TERMINALS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.TERMINALS) $(REFS) $(PUBS) > $@
+
+bin/terminals.infobox.mediawiki.txt: $(YAML_OUTPUT)/terminals.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/entry-yaml-to-infobox-mediawiki.rb Terminal $< $(TAGS.TERMINALS) $(REFS) > $@
+
+# monitors -> YAML
+$(YAML_OUTPUT)/monitors.yaml:  info/monitors.info $(TAGS.MONITORS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.MONITORS) $(REFS) $(PUBS) > $@
+
+bin/monitors.infobox.mediawiki.txt: $(YAML_OUTPUT)/monitors.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/entry-yaml-to-infobox-mediawiki.rb Terminal $< $(TAGS.MONITORS) $(REFS) > $@
 
 clean:
 	@rm -f bin/*
