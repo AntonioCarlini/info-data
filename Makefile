@@ -235,6 +235,9 @@ bin/disks-scsi.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-scsi.yaml $(REFS) $(G
 bin/disks-sdi.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-sdi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
+bin/disks-st506.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-st506.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+
 bin/optical-misc.infobox.mediawiki.txt: $(YAML_OUTPUT)/optical-misc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
