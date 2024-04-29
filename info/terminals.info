@@ -2,10 +2,64 @@
 
 **Start-terminals-entry{VT50}{DECVT}{VT5x}
 **Sys-name: VT50 Video Terminal
+**Def-lref{1} = ref{DEC-00-HVTUA-A-D}
+**document = doc{DEC:EK-VT502-PG-001}    ! VT50/VT52 Pocket Service Guide
+**document = doc{DEC:EK-VT5C-OP-003}     ! VT50-Series Copier User's Manual
+**Screen-sizes**vref{1}: 80 x 12
+**Character-matrix**vref{1}: 7x7
+**Character-size**vref{1}: 2.0mm x 4.0mm
+**Active-display-size**vref{1}: 210 mm x 105mm
+**Phosphor**vref{1}: P4
+**Host-interface**vref{1}: {20mA current loop}{RS-232 (optional)}
+**Power-start{VT50-115V}
+**Supply**vref{1}: 100V - 126V 1-phase
+**Power**vref{1}: 110W
+**Power-end{VT50-115V}
+**Power-start{VT50-230V}
+**Supply**vref{1}: 191V - 238V 1-phase
+**Power**vref{1}: 110W
+**Power-end{VT50-230V}
+**Dimensions-start{VT50}
+**Height**vref{1}: 360mm
+**Width **vref{1}: 530mm
+**Depth **vref{1}: 690mm
+**Weight**vref{1}: 20kg
+**Dimensions-end{VT50}
 **End-terminals-entry{VT50}
 
 **Start-terminals-entry{VT52}{DECVT}{VT5x}
 **Sys-name: VT52 Video Terminal
+**Def-lref{1} = ref{EK-VT5X-OP-001}
+**Def-lref{2} = ref{EK-VT52-MM-002}
+**document = doc{DEC:EK-VT52-MM-002}     ! VT52 DECscope Maintenance Manual
+**document = doc{DEC:EK-VT502-PG-001}    ! VT50/VT52 Pocket Service Guide
+**document = doc{DEC:MP00035}            ! VT52 Field Maintenance Print Set
+**Phosphor**vref{1}: P4
+**Arrow-keys**vref{1}: Yes
+**Numeric-keypad**vref{1}: Yes
+**Editing-keypad: No
+**Function-keys**vref{2}: None
+**Screen-sizes**vref{2}: 80 x 24
+**Character-matrix**vref{2}: 7x7
+**Character-size**vref{2}: 2.4mm x 3.4mm
+**Active-display-size**vref{2}: 218 mm x 114mm
+**Printer-port**vref{2}: Optional
+**Dev-req**vref{1}: ESC Z
+**Dev-req-resp**vref{1}: {ESC / K (without copier)}{ESC / L (with copier)}
+**Power-start{VT52-115V}
+**Supply**vref{1}: 100V - 126V 1-phase
+**Power**vref{1}: 110W
+**Power-end{VT52-115V}
+**Power-start{VT52-230V}
+**Supply**vref{1}: 191V - 238V 1-phase
+**Power**vref{1}: 110W
+**Power-end{VT52-230V}
+**Dimensions-start{VT52}
+**Height**vref{1,2}: 360mm
+**Width **vref{1,2}: 530mm
+**Depth **vref{1,2}: 690mm
+**Weight**vref{1,2}: 20kg
+**Dimensions-end{VT52}
 **End-terminals-entry{VT52}
 
 **Start-terminals-entry{VT55}{DECVT}{VT52}
@@ -27,7 +81,6 @@
 **Width **vref{1}: 530mm
 **Depth **vref{1}: 690mm
 **Weight**htref{1}: {25.8kg (with copier)}{22.2kg (without copier)}
-
 **End-terminals-entry{VT55}
 
 **Start-terminals-entry{VT100}{DECVT}{VT100}
@@ -174,7 +227,6 @@
 **Function-keys: 0
 **Compose-characters: No
 **Character-size**vref{1}: {3.35mmx2.0mm @ 80 columns}{3.35mmx1.3mm @ 132 columns}
-
 **Screen-sizes**vref{1}: {80 x 24}{132 x 14}{132 x 24:(with AVO)}
 **Bits-per-char: 7
 **Composite-video**vref{1}:  RS170-like
@@ -713,8 +765,45 @@
 
 **Start-terminals-entry{VT420}{DECVT}{VT400}
 **Sys-name: VT420 Video Terminal
+**Def-lref{1} = ref{EK-VT420-UU-001}
+**Def-lref{2} = ref{EK-VT420-UU-002}
+**Screen-sizes**vref{2}: {80 x 24,36,48}{132 x 24,36,484}
+**Active-display-size**vref{2}: 232 mm x 168mm
+**Keyboard-type**vref{1}: LK401
+**Editing-Keypad**vref{2}: Yes
+**Arrow-keys**vref{2}: Yes
+**Numeric-Keypad**vref{1}: Yes
+**Function-keys**vref{1}: 20
+**VT52-compatibility**vref{1}: Yes
+**Printer-port**vref{2}: Yes
+**Host-interface**vref{1}: DEC-423
+**Second-host-interface**vref{1}: DEC-423
+**SSU-support**vref{1}: Yes
 **Dev-req: ESC [ 0 c
-**Dev-req-resp: ESC [ ? 6 4 ; Ps c
+**Dev-req-resp: ESC [ ? 1 ; 0 c
+**Dimensions-start{VT420}
+**Label: VT420
+**Height**vref{1,2}: 282mm
+**Width **vref{1,2}: 320mm
+**Depth **vref{1,2}: 331mm
+**Weight**vref{1,2}:8kg
+**Dimensions-end{VT420}
+**Dimensions-start{VT420KBD}
+! vref{2} values seem about right, vref{1}: say mm but are probably cm, weight is also off
+**Label: LK401 Keyboard
+**Height**vref{2}: 45mm
+**Width **vref{2}: 478mm
+**Depth **vref{2}: 191mm
+**Weight**vref{2}: 1.4kg
+**Dimensions-end{VT420KBD}
+**Power-start{VT420-125V}
+**Supply**vref{1}: 125V 1-phase
+**Power**vref{1}: 67W
+**Power-end{VT420-125V}
+**Power-start{VT420-240V}
+**Supply**vref{2}: 100V - 240V 1-phase
+**Power**vref{2}: 67W
+**Power-end{VT420-240V}
 **End-terminals-entry{VT420}
 
 **Start-terminals-entry{VT510}{DECVT}{VT500}

@@ -2202,6 +2202,13 @@
 **Ref-partno: EK-VT420-UU-002
 **End-ref{EK-VT420-UU-002}
 
+**Start-ref{EK-VT420-UU-001}
+**Ref-text: Installing and Using the VT420 Video Terminal (North American Model)
+**Ref-date: 1989-11
+**Ref-partno: EK-VT420-UU-001
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt420/EK-VT420-UG-001_Installing_and_Using_The_VT420_Video_Terminal_Nov89.pdf
+**End-ref{EK-VT420-UU-001}
+
 **Start-ref{EK-DELQA-UG-002}
 **Ref-text: DELQA User Guide
 **Ref-partno: EK-DELQA-UG-002
@@ -10791,14 +10798,56 @@
 **Ref-url: https://web.archive.org/web/20071006194408/http://deathrow.vistech.net/~cvisors/DEC94MDS/v1200ug1.pdf
 **End-ref{EK-V1200-UG-001}
 
+**Start-ref{DEC-00-HVTUA-A-D}
+**Ref-text: VT50 Video Terminal Users Manual
+**Ref-date: 1975
+**Ref-partno: DEC-00-HVTUA-A-D
+**Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/DEC-00-HVTUA-A-D%20VT50%20Video%20Terminal.pdf
+**End-ref{DEC-00-HVTUA-A-D}
+
+**Start-ref{EK-VT502-PG-001}
+**Ref-text: VT50/VT52 Pocket Service Guide
+**Ref-date: 1979-01
+**Ref-partno: EK-VT502-PG-001
+**Ref-url: https://manx-docs.org/mirror/vt100.net/dec/ek-vt502-pg-001.pdf
+**End-ref{EK-VT502-PG-001}
+
+**Start-ref{EK-VT5C-OP-003}
+**Ref-text: VT50-Series Copier User's Manual
+**Ref-date: 1976
+**Ref-partno: EK-VT5C-OP-003
+**Ref-url: https://manx-docs.org/mirror/vt100.net/dec/ek-vt5c-op-003.pdf
+**End-ref{EK-VT5C-OP-003}
+
+**Start-ref{EK-VT52-MM-002}
+**Ref-text: VT52 DECscope Maintenance Manual
+**Ref-date: 1978-07
+**Ref-partno: EK-VT52-MM-002
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt52/EK-VT52-MM-002_maint_Jul78.pdf
+**End-ref{EK-VT52-MM-002}
+
+**Start-ref{EK-VT5X-OP-001}
+**Ref-text: DECscope User's Manual
+**Ref-date: 1977-03
+**Ref-partno: EK-VT5X-OP-001
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt52/EK-VT5X-OP-001_DECscope_Users_Manual_Mar77.pdf
+**End-ref{EK-VT5X-OP-001}
+
+**Start-ref{MP00035}
+**Ref-text: VT52 Field Maintenance Print Set
+**Ref-date: 1976-02-16
+**Ref-partno: MP00035
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt52/MP00035_VT52schem.pdf
+**End-ref{MP00035}
+
 **Stop-processing
 
-**Start-ref
+**Start-ref{
 **Ref-text: 
 **Ref-date: 
 **Ref-partno: 
 **Ref-url: 
-**End-ref
+**End-ref{
 
 Manuals to be logged (now in DOCS.DAT for CD 3):
 

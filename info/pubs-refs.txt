@@ -15785,6 +15785,12 @@ start-publication DEC:EK-VT502-PG-001
   publisher = DEC
 end-publication DEC:EK-VT502-PG-001
 
+start-publication DEC:EK-VT5C-OP-003
+  title = VT50-Series Copier User's Manual
+  part-no = EK-VT5C-OP-003
+  publisher = DEC
+end-publication DEC:EK-VT5C-OP-003
+
 start-publication DEC:EK-VT52-MM-001
   title = VT52 DECscope Maintenance Manual
   part-no = EK-VT52-MM-001
@@ -74260,6 +74266,12 @@ start-publication DEC:EK-VT50-IP-001
   fonds = fiche://EP-00020-IP-R
 end-publication DEC:EK-VT50-IP-001
 
+start-publication DEC:DEC-00-HVTUA-A-D
+  title = VT50 Video Terminal Users Manual
+  part-no = DEC:DEC-00-HVTUA-A-D
+  publisher = DEC
+end-publication DEC:DEC-00-HVTUA-A-D
+
 start-publication DEC:EK-VT52-IP-001
   title = VT52 DECscope IPB
   part-no = EP-VT52-IP-001
@@ -74717,4 +74729,17 @@ start-publication DEC:K-TC-VT340-0-1
   part-no = K-TC-VT340-0-1
 end-publication DEC:K-TC-VT340-0-1
 
+start-publication DEC:EK-VT52-MM-002
+  title = VT52 DECscope Maintenance Manual
+  part-no = EK-VT52-MM-002
+end-publication DEC:EK-VT52-MM-002
 
+start-publication DEC:EK-VT5X-OP-001
+  title = DECscope User's Manual
+  part-no = EK-VT5X-OP-001
+end-publication DEC:EK-VT5X-OP-001
+
+start-publication DEC:MP00035
+  title = VT52 Field Maintenance Print Set
+  part-no = MP00035
+end-publication DEC:MP00035
