@@ -25,6 +25,12 @@ SYSTEMS += vax
 
 TERMINALS += terminals
 
+ENTRIES += $(MONITORS)
+ENTRIES += ${PRINTERS}
+ENTRIES += ${STORAGE}
+ENTRIES += ${SYSTEMS}
+ENTRIES += ${TERMINALS}
+
 YAML_OUTPUT = bin/yaml
 
 REFS = $(YAML_OUTPUT)/refs.yaml
@@ -65,24 +71,11 @@ all: $(REFS)
 
 all: $(PUBS)
 
-all: $(foreach MON,$(MONITORS),$(YAML_OUTPUT)/$(MON).yaml)
+all: $(foreach ENT,$(ENTRIES),$(YAML_OUTPUT)/$(ENT).yaml)
 
-all: $(foreach PRN,$(PRINTERS),$(YAML_OUTPUT)/$(PRN).yaml)
-
-all: $(foreach STORE,$(STORAGE),$(YAML_OUTPUT)/$(STORE).yaml)
-
-all: $(foreach SYS,$(SYSTEMS),$(YAML_OUTPUT)/$(SYS).yaml)
-
-all: $(foreach TERM,$(TERMINALS),$(YAML_OUTPUT)/$(TERM).yaml)
+all: $(foreach ENT,$(ENTRIES),bin/$(ENT).infobox.mediawiki.txt)
 
 all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).mediawiki.txt)
-
-all: $(foreach STORE,$(STORAGE),bin/$(STORE).infobox.mediawiki.txt)
-
-all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).infobox.mediawiki.txt)
-
-all: $(foreach TERM,$(TERMINAL),bin/$(TERM).infobox.mediawiki.txt)
-
 
 all: $(foreach SYS,$(SYSTEMS),bin/infobox-$(SYS)-data.mediawiki.txt)
 
