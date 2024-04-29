@@ -28,7 +28,6 @@ end
 #+
 # The InfoFileHandlerOuter class handles the outer layer of a .info file, i.e. everything that does not lie inside a valid start-ABC-entry/end-ABC-entry pair.
 # It will skip empty lines and those that have only a comment and it will hand over to another handler if a valid start-ABC-entry is seen.
-# TODO: Any non-blank lines should trigger a failure, but currently they do not.
 #-
 class InfoFileHandlerOuter
 
@@ -58,8 +57,7 @@ class InfoFileHandlerOuter
         id = $2.strip()
         type = $3.strip()
         entry_class = $4.strip()
-        raise("Unexpected system type [#{type}], expected [#{@expected_entry_type}]") if type.downcase() != @expected_entry_type
-        ## TODO raise("Duplicate reference [#{id}] read in #{info_filename} at line #{line_num}: #{line} (originally #{terminal_devices[id].line_num()})") unless terminal_devices[id].nil?()
+        ## TODO raise("Unexpected system type [#{type}], expected [#{@expected_entry_type}]") if type.downcase() != @expected_entry_type
         ## TODO restrict to 'terminals' raise("Only 'terminals' allowed for now: rejecting '#{entry_name}'") if entry_name != "terminals"
         entry = Entry.new(id, @expected_entry_type, entry_class, line_num, @permitted_tags)
         return HandlerResult::STACK_HANDLER, InfoFileHandlerEntry.new(entry, entry_name, @info_filename, @permitted_tags_uc, @refs, @pubs)
@@ -69,7 +67,8 @@ class InfoFileHandlerOuter
         # skip comment line
         return HandlerResult::CONTINUE, nil
       else
-        # TODO - line outside of entry? - this should FAIL
+        $stderr.puts("FATAL_ERROR: Unknown contents outside of entry on line #{line_num} in #{@info_filename} [#{line}]")
+        @fatal_error_seen = true
         return HandlerResult::CONTINUE, nil
       end
   end
@@ -189,7 +188,7 @@ class InfoFileHandlerEntry
       # If the instance variable already exists then something has been defined twice
       instance_variable_name = EntriesCollection.tag_to_instance_variable_name(tag)
       if @entry.instance_variable_defined?(instance_variable_name)
-        raise("On line #{line_num} in #{current.identifier()}, tag #{tag} has been defined again.")
+        raise("On line #{line_num} in #{@entry.identifier()}, tag #{tag} has been defined again.")
       else
         # Set the appropriate instance variable to the value+reference(s) specified
         @entry.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
@@ -412,6 +411,7 @@ class EntriesCollection
       case result
       when HandlerResult::IMMEDIATE_STOP
         if current_handler.respond_to?(:stop_processing_is_valid)
+          fatal_error_seen = true if current_handler.fatal_error_seen()
           break
         else
           raise("Saw IMMEDIATE_STOP inside an entry: line #{line_num}: [#{line}]")
@@ -432,6 +432,16 @@ class EntriesCollection
         raise("saw UNKNOWN result: #{result} for line #{line_num}: [#{line}]")
       end
     }
+
+    # Here the end of the file has been reached or **stop-processing was seen.
+    # Either way, there should be one handler on the stack and it should be the Outer one
+    # (which is the only one that allows **stop-processing).
+    if (handlers.size() > 1) or !handlers[0].respond_to?(:stop_processing_is_valid)
+      $stderr.puts("Finished processing mid-entry for file #{info-filename}")
+      fatal_error_seen = true
+    elsif handlers[0].fatal_error_seen()
+      fatal_error_seen = true           # Catch the Outer handler's fatal error if one has been seen
+    end
 
     raise("FATAL ERROR: Stopping because of one or more above fatal errors") if fatal_error_seen
 
