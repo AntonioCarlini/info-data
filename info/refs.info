@@ -2171,12 +2171,12 @@
 **Ref-partno: EK-VT320-UU-001
 **End-ref{EK-VT320-UU-001}
 
-**Start-ref{EK-VT3XX-UU-002}
+**Start-ref{EK-VT3XX-UG-002}
 **Ref-text: Installing and Using the VT330/VT340 Video Terminal
 **Ref-date: 1988-05
-**Ref-partno: EK-VT3XX-UU-002
+**Ref-partno: EK-VT3XX-UG-002
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt340/EK-VT3XX-UG-002_VT330_VT340_Users_Guide_May88.pdf
-**End-ref{EK-VT3XX-UU-002}
+**End-ref{EK-VT3XX-UG-002}
 
 **Start-ref{EK-VT3XX-TP-002}
 **Ref-text: VT330/VT340 Programmer Reference Manual. Volume 1: Text Processing
@@ -2196,6 +2196,13 @@
 **Ref-partno: K-TC-VT340-0-1
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt340/MP02412_VT340_EngrDrws_Feb87.pdf
 **End-ref{K-TC-VT340-0-1}
+
+**Start-ref{K-TC-VT330-0-1}
+**Ref-text: VT330 Graphics Terminal Engineering Drawings
+**Ref-date: 1987-02-03
+**Ref-partno: K-TC-VT330-0-1
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt330/K-TC-VT330_Schematic_Feb87.pdf
+**End-ref{K-TC-VT330-0-1}
 
 **Start-ref{EK-VT420-UU-002}
 **Ref-text: Installing and Using the VT420 Video Terminal (Worldwide Model)
@@ -5256,11 +5263,34 @@
 **Ref-electronic: PDF
 **End-ref{EK-VT510-RM-B01}
 
+**Start-ref{Boundless:598-0013866}
+**Ref-text: VT510 Video Terminal Installation and Operating Information
+**Ref-date: 1996-11
+**Ref-partno: 598-0013866
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt5xx/598-0013866_VT510_Installation_Nov96.pdf
+**End-ref{Boundless:598-0013866}
+
 **Start-ref{EK-VT520-RM-A01}
-**Ref-text: VT520/VT525 Video terminal Programmer Information
+**Ref-text: VT520/VT525 Video Terminal Programmer Information
 **Ref-partno: EK-VT520-RM-A01
 **Ref-electronic: PDF
 **End-ref{EK-VT520-RM-A01}
+
+**Start-ref{EK-VT520-IN.B01}
+**Ref-text: VT520 Video Terminal Installation and Operating Information
+**Ref-date: 1995-01
+**Ref-partno: EK-VT520-IN.B01
+**Ref-electronic: PDF
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/term/vt520inb.pdf
+**End-ref{EK-VT520-IN.B01}
+
+**Start-ref{Boundless:EK-VT525-IN}
+**Ref-text: VT520 Video Terminal Installation and Operating Information
+**Ref-date: 1999-07
+**Ref-partno: EK-VT520-IN.B01
+**Ref-electronic: PDF
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt5xx/VT525_Installation_and_Operating.pdf
+**End-ref{Boundless:EK-VT525-IN}
 
 **Start-ref{EK-V1000-SV-002}
 **Ref-text: VT1000/VT1200 and DECimage 1200 Service guide
@@ -10839,6 +10869,20 @@
 **Ref-partno: MP00035
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt52/MP00035_VT52schem.pdf
 **End-ref{MP00035}
+
+**Start-ref{EK-VT103-UG-001}
+**Ref-text: VT103 LSi-11 Video Terminal User's Guide
+**Ref-date: 1979-09
+**Ref-partno: EK-VT103-UG-001
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt103/EK-VT103-UG-001_VT103_User_Guide_Sep79.pdf
+**End-ref{EK-VT103-UG-001}
+
+**Start-ref{EK-VT105-TM-001}
+**Ref-text: VT105 Graphic Terminal Technical Manual
+**Ref-date: 1979-09
+**Ref-partno: EK-VT105-TM-001
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt105/EK-VT105-TM-001_VT105_Graphic_Terminal_Technical_Manual_Sep79.pdf
+**End-ref{EK-VT105-TM-001}
 
 **Stop-processing
 

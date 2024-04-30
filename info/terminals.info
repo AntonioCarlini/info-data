@@ -198,10 +198,100 @@
 
 **Start-terminals-entry{VT103}{DECVT}{VT100}
 **Sys-name: VT103 Video Terminal
+**Def-lref{1} = ref{EK-VT103-UG-001}
+**Screen-diagonal**vref{1}: 305mm
+**Rendition: Monochrome
+**Phosphor**vref{1}: P4
+**Status-line: No
+**Host-interface**vref{1}: RS-232
+**Second-host-interface: No
+**SSU-support: No
+**Dev-req**vref{1}: ESC [ 0 c
+**Dev-req-resp: ESC [ ? 1 ; Ps c
+**VT52-compatibility**vref{1}: Yes
+**Tektronix-4010: No
+**Regis: No
+**Character-matrix**vref{1}: 7x9
+**Numeric-keypad**vref{1}: Yes
+**Arrow-keys**vref{1}: Yes
+**Editing-keypad**vref{1}: No
+**Function-keys**vref{1}: 4
+**Compose-characters: No
+**Character-size**vref{1}: {3.35mmx2.0mm @80 columns}{3.35mmx1.3mm @132 columns}
+**Screen-sizes**vref{1}: {80 x 24}{132 x 14}
+**Composite-video**vref{1}:  RS170-like
+**Power-start{VT103-115V}
+**Supply**vref{1}: 90V - 128V 1-phase
+**I-max**vref{1}: 4.0A
+**Power-end{VT103-115V}
+**Power-start{VT103-230V}
+**Supply**vref{1}: 180V - 256V 1-phase
+**I-max**vref{1}: 2.0A
+**Power-end{VT103-230V}
+**Dimensions-start{VT103}
+**Label: VT103
+**Height**vref{1}: 368.3mm
+**Width **vref{1}: 457.2mm
+**Depth **vref{1}: 362.0mm
+**Weight**vref{1}: 15kg
+**Dimensions-end{VT103}
+**Dimensions-start{VT103KBD}
+**Label: Keyboard
+**Height**vref{1}: 88.9mm
+**Width **vref{1}: 457.2mm
+**Depth **vref{1}: 203.2mm
+**Weight**vref{1}: 2.0kg
+**Dimensions-end{VT103KBD}
 **End-terminals-entry{VT103}
 
 **Start-terminals-entry{VT105}{DECVT}{VT100}
 **Sys-name: VT105 Video Terminal
+**Def-lref{1} = ref{EK-VT105-TM-001}
+**Screen-diagonal**vref{1}: 305mm
+**Rendition: Monochrome
+**Phosphor**vref{1}: P4
+**Status-line: No
+**Host-interface**vref{1}: {RS-232}{20mA current loop (optional)}
+**Second-host-interface: No
+**SSU-support: No
+**Dev-req**vref{1}: ESC [ 0 c
+**Dev-req-resp**vref{1}: ESC [ ? 1 ; Ps c
+**VT52-compatibility**vref{1}: Yes
+**Tektronix-4010: No
+**Regis: No
+**Character-matrix**vref{1}: 7x9
+**Numeric-keypad**vref{1}: Yes
+**Arrow-keys**vref{1}: Yes
+**Editing-keypad**vref{1}: No
+**Function-keys**vref{1}: 4
+**Compose-characters: No
+**Character-size**vref{1}: {3.35mmx2.0mm @80 columns}{3.35mmx1.3mm @132 columns}
+**Screen-sizes**vref{1}: {80 x 24}{132 x 14}
+**Composite-video**vref{1}:  RS170-like{132 x 24 (with AVO)}
+**Power-start{VT105-115V}
+**Supply**vref{1}: 90V - 128V 1-phase
+**I-max**vref{1}: 3.0A
+**Power**vref{1}: 150W
+**Power-end{VT105-115V}
+**Power-start{VT105-230V}
+**Supply**vref{1}: 180V - 256V 1-phase
+**I-max**vref{1}: 1.5A
+**Power**vref{1}: 150W
+**Power-end{VT105-230V}
+**Dimensions-start{VT105}
+**Label: VT105
+**Height**vref{1}: 368.3mm
+**Width **vref{1}: 457.2mm
+**Depth **vref{1}: 362.0mm
+**Weight**vref{1}: 13.6kg
+**Dimensions-end{VT105}
+**Dimensions-start{VT105KBD}
+**Label: Keyboard
+**Height**vref{1}: 88.9mm
+**Width **vref{1}: 457.2mm
+**Depth **vref{1}: 203.2mm
+**Weight**vref{1}: 2.0kg
+**Dimensions-end{VT105KBD}
 **End-terminals-entry{VT105}
 
 **Start-terminals-entry{VT125}{DECVT}{VT100}
@@ -585,7 +675,7 @@
 **Start-terminals-entry{VT320}{DECVT}{VT300}
 **Sys-name: VT320 Video Terminal
 **Def-lref{1} = ref{EK-VT320-UU-001}
-**Def-lref{2} = ref{EK-VT3XX-UU-002}
+**Def-lref{2} = ref{EK-VT3XX-UG-002}
 **Def-lref{3} = ref{EK-VT3XX-TP-002}
 **Def-lref{4} = ref{DA-1987-08-25-VT320}
 ! TODO misformed Announcement line, so re-check
@@ -597,7 +687,7 @@
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 6 3 ; Ps c
 **Printer-port**htref{1}: DEC-423
-**Host-interface**htref{1}: DEC-423 or RS-232
+
 **Second-host-interface**htref{1}: No
 **SSU-support**htref{1}: No
 **VT52-compatibility**htref{1}: Yes
@@ -658,10 +748,11 @@
 
 **Start-terminals-entry{VT330}{DECVT}{VT300}
 **Sys-name: VT330 Video Terminal
-**Def-lref{1} = ref{EK-VT3XX-UU-002}
+**Def-lref{1} = ref{EK-VT3XX-UG-002}
 **document = doc{DEC:EK-VT3XX-TP-002}    ! VT330/VT340 Programmer Reference Manual. Volume 1: Text Processing
 **document = doc{DEC:EK-VT3XX-HR-002}    ! VT330/VT340 Programmer Pocket Guide
 **document = doc{DEC:EK-VT3XX-HR-001}    ! VT330/VT340 Programmer Pocket Guide
+**document = doc{DEC:K-TC-VT330-0-1}     ! VT330 Graphics Terminal Engineering Drawings
 **Html-target: vt300
 **Active-display-size**vref{1}: 230mm x 150mm
 **Screen-sizes**vref{1}: 80 x 24
@@ -715,7 +806,7 @@
 
 **Start-terminals-entry{VT340}{DECVT}{VT300}
 **Sys-name: VT340 Video Terminal
-**Def-lref{1} = ref{EK-VT3XX-UU-002}
+**Def-lref{1} = ref{EK-VT3XX-UG-002}
 **document = doc{DEC:EK-VT3XX-TP-002}    ! VT330/VT340 Programmer Reference Manual. Volume 1: Text Processing
 **document = doc{DEC:EK-VT3XX-HR-002}    ! VT330/VT340 Programmer Pocket Guide
 **document = doc{DEC:EK-VT3XX-HR-001}    ! VT330/VT340 Programmer Pocket Guide
@@ -811,24 +902,77 @@
 **Desc-name: VT510 Video Terminal
 **Def-lref{1} = ref{CU-1993-09-13}
 **Def-lref{2} = ref{DEC-PR-1993-09-07}
+**Def-lref{3} = ref{Boundless:598-0013866}
 **Announcement**vref{2}: 1993-09-07
-**Keyboard-type: LK411 (VT108) or LK412(VT108-WPS) or PCXAL (PC101/PC102)
+**Keyboard-type: LK411 (VT108) or LK412 (VT108-WPS) or PCXAL (PC101/PC102)
+**Screen-sizes**vref{3}:25, 42 or 53 lines
+**Screen-diagonal**vref{3}: 350mm
+**Rendition**vref{2}: Monochrome
+**Dimensions-start{VT510}
+**Label: VT510
+**Height**vref{3}: 320mm
+**Width **vref{3}: 315mm
+**Depth **vref{3}: 330mm
+**Weight**vref{3}: 7.9kg
+**Dimensions-end{VT510}
 **End-terminals-entry{VT510}
 
 **Start-terminals-entry{VT520}{DECVT}{VT500}
 **Sys-name: VT520
 **Desc-name: VT520 Monochrome Video Terminal
 **Def-lref{1} = ref{CU-1994-09-01}
+**Def-lref{2} = ref{EK-VT520-IN.B01}
 **Announcement**vref{1}: 1994-09-01
 **FRS-date**vref{1}: 1994-09-01
+**Screen-diagonal**vref{2}: 350mm
+**Screen-sizes**vref{2}:25, 42 or 53 lines
+**Keyboard-type**vref{2}: Industry-standard PS/2
+**Host-interface**vref{2}: {RS-232}{DEC-423}
+**Dimensions-start{VT520}
+**Label: VT520
+**Height**vref{2}: 320mm
+**Width **vref{2}: 315mm
+**Depth **vref{2}: 330mm
+**Weight**vref{2}: 7.9kg
+**Dimensions-end{VT520}
 **End-terminals-entry{VT520}
 
 **Start-terminals-entry{VT525}{DECVT}{VT500}
 **Sys-name: VT525
 **Desc-name: VT525 Colour Video Terminal
 **Def-lref{1} = ref{CU-1994-09-01}
+**Def-lref{2} = ref{Boundless:EK-VT525-IN}
 **Announcement**vref{1}: 1994-09-01
-**FRS-date**vref{1}: 1994-09-01
+**FRS-date**vref{2}: 1994-09-01
+**Host-interface**vref{2}: {RS-232}{DEC-423}
+**Dimensions-start{VT525-With-Stand}
+**Label: VT525 with stand
+**Height**vref{2}: 343mm
+**Width **vref{2}: 57mm
+**Depth **vref{2}: 318mm
+**Weight**vref{2}: 16.5kg
+**Dimensions-end{VT525-With-Stand}
+**Dimensions-start{VT525-No-Stand}
+**Label: VT525 without stand
+**Height**vref{2}: 50mm
+**Width **vref{2}: 295mm
+**Depth **vref{2}: 324mm
+**Weight**vref{2}: 14.3kg
+**Dimensions-end{VT525-No-Stand}
+**Dimensions-start{VT525-With-Stand}
+**Label: VT525 with stand
+**Height**vref{2}: 343mm
+**Width **vref{2}: 57mm
+**Depth **vref{2}: 318mm
+**Weight**vref{2}: 16.5kg
+**Dimensions-end{VT525-With-Stand}
+**Dimensions-start{VT525-No-Stand}
+**Label: VT525 without stand
+**Height**vref{2}: 50mm
+**Width **vref{2}: 295mm
+**Depth **vref{2}: 324mm
+**Weight**vref{2}: 14.3kg
+**Dimensions-end{VT525-No-Stand}
 **End-terminals-entry{VT525}
 
 **Start-terminals-entry{VXT2000PLUS}{DECVT}{VXT}
