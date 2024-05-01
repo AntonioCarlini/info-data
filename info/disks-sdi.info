@@ -118,12 +118,14 @@
 !-- Power from ref_1: 7.5A@120V, 3.75A@240V both 600W typ 800W max poer factor gtr 0.75 max inrush 190Arms@120V 95Arms @240V -->
 !-- taken from ref_1
 **Dimensions-start{RA60-Drive}
+**Label: RA60 Drive
 **Height**htref{1}: 265.2mm
 **Width**htref{1}: 482.6mm
 **Depth **htref{1}: 850.9mm
 **Weight**htref{1}: 68.95kg
 **Dimensions-end{RA60-Drive}
 **Dimensions-start{RA60-cab}
+**Label: RA60 Cabinet
 **Height**htref{1}: 1063.0mm
 **Width**htref{1}: 542.0mm
 **Depth **htref{1}: 914.2mm

@@ -80,11 +80,12 @@
 !drive which provides full controller/drive emulation; no software changes are
 !required. Media is removable
 **Dimensions-start{RM06-Drive}
+**Label: RM06
 **Height**vref{1}: 6in	
 **Width**vref{1}: 16in
 **Depth**vref{1}: 18in
 **Weight**vref{1}: 28lbs
-**Dimensions-end{RM06_Drive}
+**Dimensions-end{RM06-Drive}
 **End-storage-entry{RM06}
 
 **Start-storage-entry{RP03}{MASSBUS}{RP}

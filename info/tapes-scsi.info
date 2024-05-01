@@ -106,18 +106,21 @@
 **Power**htref{1}: 150W
 **Power-end{TKZ61}
 **Dimensions-start{TKZ61-Rack}
+**Label: TKZ61 Rack
 **Height**htref{1}: 177mm
 **Width**htref{1}: 432mm
 **Depth**htref{1}: 611mm
 **Weight**htref{1}: 24.9kg
 **Dimensions-end{TKZ61-Rack}
 **Dimensions-start{TKZ61-Desktop}
+**Label: TKZ61 Desktop
 **Height**htref{1}: 177mm
 **Width**htref{1}: 460mm
 **Depth**htref{1}: 611mm
 **Weight**htref{1}: 27.2kg
 **Dimensions-end{TKZ61-Desktop}
 **Dimensions-start{TKZ61-Tower}
+**Label: TKZ61 Tower
 **Height**htref{1}: 483mm
 **Width**htref{1}: 177mm
 **Depth**htref{1}: 612mm
@@ -147,18 +150,21 @@
 **Power**htref{1}: 150W
 **Power-end{TKZ62}
 **Dimensions-start{TKZ62-Rack}
+**Label: TKZ62 Rack
 **Height**htref{1}: 177mm
 **Width**htref{1}: 432mm
 **Depth**htref{1}: 611mm
 **Weight**htref{1}: 24.9kg
 **Dimensions-end{TKZ62-Rack}
 **Dimensions-start{TKZ62-Desktop}
+**Label: TKZ62 Desktop
 **Height**htref{1}: 177mm
 **Width**htref{1}: 460mm
 **Depth**htref{1}: 611mm
 **Weight**htref{1}: 27.2kg
 **Dimensions-end{TKZ62-Desktop}
 **Dimensions-start{TKZ62-Tower}
+**Label: TKZ62 Tower
 **Height**htref{1}: 483mm
 **Width**htref{1}: 177mm
 **Depth**htref{1}: 612mm
