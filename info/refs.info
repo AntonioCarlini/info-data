@@ -10884,6 +10884,13 @@
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt105/EK-VT105-TM-001_VT105_Graphic_Terminal_Technical_Manual_Sep79.pdf
 **End-ref{EK-VT105-TM-001}
 
+**Start-ref{EK-OTA79-TM-001}
+**Ref-text: TA79, TU79, TA78, TU78 Magnetic Tape Subsystem Technical Manual
+**Ref-date: 1988-03
+**Ref-partno: EK-OTA79-TM-001
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/magtape/ta79/EK-OTA79-TM-001_Mar88.pdf
+**End-ref{EK-OTA79-TM-001}
+
 **Stop-processing
 
 **Start-ref{
