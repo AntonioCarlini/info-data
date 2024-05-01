@@ -8,16 +8,16 @@
 **Start-storage-entry{TU79}{MASSBUS}{TU}
 **Sys-name: TU79 Magnetic Tape Susbsystem
 **Def-lref{1} = ref{CU-1992-08-10}
-**Def-lref{2} = ref{DA-1987-09-02-Tapes}
-**Def-lref{3} = ref{EK-OTA79-TM-001}
+**Def-lref{2} = ref{EK-OTA79-TM-001}
+! Was lref{2}, all vrefs updated**Def-lref{3} = ref{DA-1987-09-02-Tapes}
 ! TODO bad ref **Announcement**vref{2}: 1987-09-02
 **Last-order**vref{1}: 1992-12-31
 **Last-ship**vref{1}: 1993 Q1
-**Interface**vref{1,3}: MASSBUS
-**Read-write-speed**vref{3}: 125in/s streaming
+**Interface**vref{1,2}: MASSBUS
+**Read-write-speed**vref{2}: 125in/s streaming
 **Rewind-speed**vref{2}: 440in/s
-**Num-tracks**vref{3}: 9
-**Recording-density**vref{3}: {1600bpi in PE}{6250bpi in GCR}
+**Num-tracks**vref{2}: 9
+**Recording-density**vref{2}: {1600bpi in PE}{6250bpi in GCR}
 **End-storage-entry{TU79}
 
 **Start-storage-entry{TU90}{MASSBUS}{TU}
