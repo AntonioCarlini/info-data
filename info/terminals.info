@@ -12,10 +12,12 @@
 **Phosphor**vref{1}: P4
 **Host-interface**vref{1}: {20mA current loop}{RS-232 (optional)}
 **Power-start{VT50-115V}
+**Label: 115V
 **Supply**vref{1}: 100V - 126V 1-phase
 **Power**vref{1}: 110W
 **Power-end{VT50-115V}
 **Power-start{VT50-230V}
+**Label: 230V
 **Supply**vref{1}: 191V - 238V 1-phase
 **Power**vref{1}: 110W
 **Power-end{VT50-230V}
@@ -47,10 +49,12 @@
 **Dev-req**vref{1}: ESC Z
 **Dev-req-resp**vref{1}: {ESC / K (without copier)}{ESC / L (with copier)}
 **Power-start{VT52-115V}
+**Label: 115V
 **Supply**vref{1}: 100V - 126V 1-phase
 **Power**vref{1}: 110W
 **Power-end{VT52-115V}
 **Power-start{VT52-230V}
+**Label: 230V
 **Supply**vref{1}: 191V - 238V 1-phase
 **Power**vref{1}: 110W
 **Power-end{VT52-230V}
@@ -109,11 +113,13 @@
 **Bits-per-char**htref{1}: 7
 **Composite-video**htref{1}:  RS170-like
 **Power-start{VT100-115V}
+**Label: 115V
 **Supply**htref{1}: 115V 1-phase
 **I-max**htref{1}: 3.0A
 **Power**htref{1}: 150W
 **Power-end{VT100-115V}
 **Power-start{VT100-230V}
+**Label: 230V
 **Supply**htref{1}: 230V 1-phase
 **I-max**htref{1}: 1.5A
 **Power**htref{1}: 150W
@@ -179,11 +185,13 @@
 **Weight**htref{1}: 2.0kg
 **Dimensions-end{VT101KBD}
 **Power-start{VT101-120V}
+**Label: 120V
 **Supply**vref{1}: 99V - 128V 1-phase
 **I-max**vref{1}: 0.70A
 **Power**vref{1}: 70W
 **Power-end{VT101-120V}
 **Power-start{VT101-240V}
+**Label: 240V
 **Supply**vref{1}: 198V - 256V 1-phase
 **I-max**vref{1}: 0.4A
 **Power**vref{1}: 70W
@@ -221,10 +229,12 @@
 **Screen-sizes**vref{1}: {80 x 24}{132 x 14}
 **Composite-video**vref{1}:  RS170-like
 **Power-start{VT103-115V}
+**Label: 115V
 **Supply**vref{1}: 90V - 128V 1-phase
 **I-max**vref{1}: 4.0A
 **Power-end{VT103-115V}
 **Power-start{VT103-230V}
+**Label: 230V
 **Supply**vref{1}: 180V - 256V 1-phase
 **I-max**vref{1}: 2.0A
 **Power-end{VT103-230V}
@@ -269,11 +279,13 @@
 **Screen-sizes**vref{1}: {80 x 24}{132 x 14}
 **Composite-video**vref{1}:  RS170-like{132 x 24 (with AVO)}
 **Power-start{VT105-115V}
+**Label: 115V
 **Supply**vref{1}: 90V - 128V 1-phase
 **I-max**vref{1}: 3.0A
 **Power**vref{1}: 150W
 **Power-end{VT105-115V}
 **Power-start{VT105-230V}
+**Label: 230V
 **Supply**vref{1}: 180V - 256V 1-phase
 **I-max**vref{1}: 1.5A
 **Power**vref{1}: 150W
@@ -321,11 +333,13 @@
 **Bits-per-char: 7
 **Composite-video**vref{1}:  RS170-like
 **Power-start{VT125-120V}
+**Label: 120V
 **Supply**htref{1}: 99V - 128V 1-phase
 **I-max**htref{1}: 2.20A
 **Power**htref{1}: 150W
 **Power-end{VT125-120V}
 **Power-start{VT125-240V}
+**Label: 240V
 **Supply**htref{1}: 198V - 256V 1-phase
 **I-max**htref{1}: 1.10A
 **Power**htref{1}: 150W
@@ -374,11 +388,13 @@
 ! ref_1: p 165 8th bit always sent as 0 and ignored on receipt in 8-bit mode -->
 ! ref_1: VT1XX-CA 20ma Current Loop option -->
 **Power-start{VT131-120V}
+**Label: 120V
 **Supply**htref{1}: 120V 1-phase
 **I-max**htref{1}: 0.7A
 **Power**htref{1}: 70W
 **Power-end{VT131-120V}
 **Power-start{VT131-240V}
+**Label: 240V
 **Supply**htref{1}: 240V 1-phase
 **I-max**htref{1}: 0.4A
 **Power**htref{1}: 70W
@@ -426,11 +442,13 @@
 **Screen-sizes**vref{1}: {80 x 24}{132 x 24}
 **Composite-video**vref{1}:  RS170-like
 **Power-start{VT132-115V}
+**Label: 115V
 **Supply**vref{1}: 98V - 128V 1-phase
 **I-max**vref{1}: 1.9A
 **Power**vref{1}: 150W
 **Power-end{VT132-115V}
 **Power-start{VT132-230V}
+**Label: 230V
 **Supply**vref{1}: 180V - 256V 1-phase
 **I-max**vref{1}: 1.0A
 **Power**vref{1}: 150W
@@ -557,11 +575,13 @@
 **Bits-per-char**htref{1}: 8
 **Composite-video: Yes
 **Power-start{VT220-120V}
+**Label: 120V
 **Supply**htref{1}: 120V 1-phase
 **I-max**htref{1}: 0.48A
 **Power**htref{1}: 60W
 **Power-end{VT220-120V}
 **Power-start{VT220-240V}
+**Label: 240V
 **Supply**htref{1}: 240V 1-phase
 **I-max**htref{1}: 0.24A
 **Power**htref{1}: 60W
@@ -702,10 +722,12 @@
 **Bits-per-char**htref{1}: 8
 **Composite-video**htref{1}: No
 **Power-start{VT320-120V}
+**Label: 120V
 **Supply**htref{1}: 120V 1-phase
 **Power**htref{1}: 50W
 **Power-end{VT320-120V}
 **Power-start{VT320-240V}
+**Label: 240V
 **Supply**htref{1}: 240V 1-phase
 **Power**htref{1}: 50W
 **Power-end{VT320-240V}
@@ -786,10 +808,12 @@
 **Weight**vref{1}: 2kg
 **Dimensions-end{VT330KBD}
 **Power-start{VT330-120V}
+**Label: 120V
 **Supply**vref{1}: 88V - 132V 1-phase
 **Power**vref{1}: 140W
 **Power-end{VT330-120V}
 **Power-start{VT330-240V}
+**Label: 240V
 **Supply**vref{1}: 176V - 262V 1-phase
 **Power**vref{1}: 140W
 **Power-end{VT330-240V}
@@ -845,10 +869,12 @@
 **Weight**vref{1}: 2kg
 **Dimensions-end{VT340KBD}
 **Power-start{VT340-120V}
+**Label: 120V
 **Supply**vref{1}: 88V - 132V 1-phase
 **Power**vref{1}: 140W
 **Power-end{VT340-120V}
 **Power-start{VT340-240V}
+**Label: 240V
 **Supply**vref{1}: 176V - 262V 1-phase
 **Power**vref{1}: 140W
 **Power-end{VT340-240V}
@@ -888,10 +914,12 @@
 **Weight**vref{2}: 1.4kg
 **Dimensions-end{VT420KBD}
 **Power-start{VT420-125V}
+**Label: 125V
 **Supply**vref{1}: 125V 1-phase
 **Power**vref{1}: 67W
 **Power-end{VT420-125V}
 **Power-start{VT420-240V}
+**Label: 240V
 **Supply**vref{2}: 100V - 240V 1-phase
 **Power**vref{2}: 67W
 **Power-end{VT420-240V}

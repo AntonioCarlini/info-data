@@ -105,11 +105,13 @@
 **Weight**vref{1}: 18.18kg
 **Dimensions-end{VAX4100}
 **Power-start{VAX4100-100A-110V}
+**Label: 110V
 **Supply**vref{1}: 110V 1-phase
 **I-max**vref{1}: 2.2A
 **Power**vref{1}: 200W
 **Power-end{VAX4100-100A-110V}
 **Power-start{VAX4100-100A-220V}
+**Label: 220V
 **Supply**vref{1}: 220V 1-phase
 **I-inrush**vref{1}: 2.0A
 **I-max**vref{1}: 1.1A
@@ -172,11 +174,13 @@
 **BUS-DSSI**vref{1}: 1-2
 **LAN-support**vref{1}: 1 embedded
 **Power-start{VAX4105-100A-110V}
+**Label: 110V
 **Supply**vref{1}: 110V 1-phase
 **I-max**vref{1}: 2.2A
 **Power**vref{1}: 200W
 **Power-end{VAX4105-100A-110V}
 **Power-start{VAX4105-100A-220V}
+**Label: 220V
 **Supply**vref{1}: 220V 1-phase
 **I-inrush**vref{1}: 2.0A
 **I-max**vref{1}: 1.1A
@@ -244,11 +248,13 @@
 **BUS-DSSI**vref{1}: 1-2
 **LAN-support**vref{1}: 1 embedded
 **Power-start{VAX4106-100A-110V}
+**Label: 110V
 **Supply**vref{1}: 110V 1-phase
 **I-max**vref{1}: 2.2A
 **Power**vref{1}: 200W
 **Power-end{VAX4106-100A-110V}
 **Power-start{VAX4106-100A-220V}
+**Label: 220V
 **Supply**vref{1}: 220V 1-phase
 **I-inrush**vref{1}: 2.0A
 **I-max**vref{1}: 1.1A
@@ -365,11 +371,13 @@
 ! vref{1} LAN 10Mb/s
 **LAN-support**vref{1}: 1 (SGEC - embedded) (DC541)
 **Power-start{BA215}
+**Label: BA215
 **Supply: 240V 1-phase
 **I-max: 2.4A
 **Power: 340W
 **Power-end{BA215}
 **Power-start{BA430}
+**Label: BA430
 **Supply: 240V 1-phase
 **I-max: 4.7A
 **Power: 670W
@@ -452,11 +460,13 @@
 !!**BUS-DSSI**uref{*28}: 2 optional
 **LAN-support**vref{1}: 1 (SGEC - embedded) (DC541)
 **Power-start{4300-120V}
+**Label: 120V
 **Supply**vref{3}: 120V 1-phase
 **I-max**vref{3}: 8.6A
 **Heat-dissipation**vref{3}: 2978 BTU/hr
 **Power-end{4300-120V}
 **Power-start{4300-240V}
+**Label: 240V
 **Supply**vref{3}: 240V 1-phase
 **I-max**vref{3}: 4.7A
 **Heat-dissipation**vref{3}: 2978 BTU/hr
@@ -1461,7 +1471,7 @@
 **I-max: 7A
 **Power: 1205W
 **Heat-dissipation: 4109 BTU/hr	
-**Power-End{VAX-730-dual-RL02}
+**Power-End{VAX-730-RL02-R80}
 ! These from [*82]
 **Dimensions-start{VAX-730-box}
 **Label: VAX-11/730 (box)
@@ -1926,7 +1936,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **I-max**vref{1}: 8.0A
 **Power**vref{1}: 1690W
 **Heat-dissipation**vref{1}: 5760 BTU/hr
-**Power-end{Rackmount box 240V}
+**Power-end{RB-240V}
 
 **Power-start{RB-120V}
 **Label: Rackmount box
@@ -2387,7 +2397,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Supply**vref{1}: 380V 3-phase (Y)
 **Power**vref{1}: 7800W
 **Heat-dissipation**htref{1}: 33800 BTU/hr
-**Power-end{8830}
+**Power-end{8820}
 
 **Power-start{8830}
 **Label: VAX 8830
@@ -2689,7 +2699,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 6.0A
 **Power**vref{1}: 690W
-**Power-end{BA123-120V}
+**Power-end{BA123-240V}
 
 **Power-start{BA23-120V}
 **Label: BA23 enclosure
@@ -2901,11 +2911,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !	Weight: &		4.5 kg \\			% [105]
 **Dimensions-end{VS4060}
 **Power-start{VS4060-240V}
+**Label: 240V
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 4.0A
 **Power**vref{1}: 251W
 **Power-end{VS4060-240V}
 **Power-start{VS4060-120V}
+**Label: 120V
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 2.0A
 **Power**vref{1}: 251W
@@ -2969,11 +2981,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Weight**uref{*106}: 3.6kg
 **Dimensions-end{VLC}
 **Power-start{VLC-240V}
+**Label: 240V
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 2.0A
 **Power**vref{1}: 163W
 **Power-end{VLC-240V}
 **Power-start{VLC-120V}
+**Label: 120V
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 4.0A
 **Power**vref{1}: 163W
@@ -3569,11 +3583,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **BUS-SCSI**vref{2}: 1-2
 **LAN-support**vref{2}: 1 SGEC embedded (DC541)
 **Power-start{3190-110V}
+**Label: 110V
 **Supply**vref{1}: 110V 1-phase
 **I-max**vref{1}: 3.0A
 **Power**vref{1}: 215W
 **Power-end{3190-110V}
 **Power-start{3190-220V}
+**Label: 220V
 **Supply**vref{1}: 220V 1-phase
 **I-max**vref{1}: 1.5A
 **Power**vref{1}: 215W
@@ -4823,7 +4839,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 1.0A
 **Power**vref{1}: 160W
-**Power-end{3100-M10-110V}
+**Power-end{3100-M10-240V}
 **End-systems-entry{UV3110}
 
 **Start-systems-entry{UV3110E}{VAX}{UVAX}

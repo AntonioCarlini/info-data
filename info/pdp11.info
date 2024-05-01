@@ -89,10 +89,12 @@
 **Weight**vref{1}: 120lbs (CPU)	
 **Dimensions-end{1135}
 **Power-start{1135}
+**Label: PDP-11/35
 **Supply**vref{1}: 110v 1-phase
 **I-max**vref{1}: 7A
 **Power-end{1135}
 **Power-start{1140}
+**Label: PDP-11/40
 **Supply**vref{1}: 110v 1-phase
 **I-max**vref{1}: 7A
 **Power-end{1140}
@@ -170,7 +172,7 @@
 **Label: Tabletop (120V)
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 5.0A
-**Power-start{120V}
+**Power-end{120V}
 **End-systems-entry{PDP1115}
 
 **Start-systems-entry{PDP1120}{PDP11}{UNIBUS}
@@ -207,7 +209,7 @@
 **Label: Tabletop (120V)
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 5.0A
-**Power-start{120V}
+**Power-end{120V}
 **End-systems-entry{PDP1120}
 
 **Start-systems-entry{PDP1124}{PDP11}{UNIBUS}
@@ -296,14 +298,16 @@
 **Relative-performance**vref{2}: 0.75 x PDP-11/70
 **BUS-UNIBUS**vref{2}: 1
 **Power-start{120V}
+**Label: 120V
 **Supply**vref{1,2}: 120V 1-phase
 **I-max**vref{1,2}: 19A
 **Power-end{120V}
 **Power-start{240V}
+**Label: 240V
 **Supply**vref{1,2}: 240V 1-phase
 **I-max**vref{1,2}: 9.5A
 **Power-end{240V}
-**Dimensions-start{1144}
+**Dimensions-start{PDP1144}
 **Label: CPU box
 **Height**vref{1}: 263.4mm
 **Height**vref{1}: 422.1mm
@@ -461,24 +465,28 @@
 **Physical-address-lines**vref{1}: 22
 **Memory-checking**vref{1}: Parity
 **Power-start{1194E-120V}
+**Label: 11/94E 230V
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 15A
 **Power**vref{1}: 1100W
 **Heat-dissipation**vref{1}: 3750 BTU
 **Power-end{1194E-120V}
 **Power-start{1194E-240V}
+**Label: 11/94E 230V
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 7.5A
 **Power**vref{1}: 1100W
 **Heat-dissipation**vref{1}: 3750 BTU
 **Power-end{1194E-240V}
 **Power-start{11X94EAND11W94E-120V}
+**Label: 11X94E & 11W94E 120V
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 24A
 **Power**vref{1}: 1728W
 **Heat-dissipation**vref{1}: 3750 BTU
 **Power-end{11X94EAND11W94E-120V}
 **Power-start{11X94EAND11W94E-240V}
+**Label: 11X94E & 11W94E 240V
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 12A
 **Power**vref{1}: 1728W
@@ -608,6 +616,7 @@
 **FPU-chip**vref{1}: FP11
 **BUS-CTI**vref{1}: 3 available
 **Power-start{Pro325-115V}
+**Label: 115V
 **Supply**vref{1}: 115V 1-phase
 **I-max**vref{1}: 6A
 **Power**vref{1}: 320W
@@ -616,7 +625,8 @@
 **Supply**vref{1}: 230V 1-phase
 **I-max**vref{1}: 4A
 **Power**vref{1}: 320W
-**Power-end{Pro325-320V}
+**Power-end{Pro325-230V}
+**Label: 230V
 **Dimensions-start{Pro325}
 **Height**vref{1}: 165 mm
 **Depth**vref{1}: 558 mm
@@ -639,15 +649,17 @@
 **FPU-chip**vref{1}: FP11
 **BUS-CTI**vref{1}: 3 available
 **Power-start{Pro350-115V}
+**Label: 115V
 **Supply**vref{1}: 115V 1-phase
 **I-max**vref{1}: 6A
 **Power**vref{1}: 320W
 **Power-end{Pro350-115V}
 **Power-start{Pro350-230V}
+**Label: 230V
 **Supply**vref{1}: 230V 1-phase
 **I-max**vref{1}: 4A
 **Power**vref{1}: 320W
-**Power-end{Pro350-320V}
+**Power-end{Pro350-230V}
 **Dimensions-start{Pro325}
 **Dimensions-start{Pro350}
 **Height**vref{1}: 165 mm
@@ -665,15 +677,17 @@
 **Announcement**vref{1}: 1984-09-12
 **BUS-CTI**vref{2}: 5 available
 **Power-start{Pro380-115V}
+**Label: 115V
 **Supply**vref{2}: 115V 1-phase
 **I-max**vref{2}: 6A
 **Power**vref{2}: 320W
 **Power-end{Pro380-115V}
 **Power-start{Pro380-230V}
+**Label: 230V
 **Supply**vref{2}: 230V 1-phase
 **I-max**vref{2}: 4A
 **Power**vref{2}: 320W
-**Power-end{Pro380-320V}
+**Power-end{Pro380-230V}
 **Dimensions-start{Pro380}
 **Height**vref{2}: 165 mm
 **Depth**vref{2}: 558 mm

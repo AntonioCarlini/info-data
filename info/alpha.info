@@ -79,11 +79,13 @@
 **Weight**vref{1}: 21.0kg
 **Dimensions-end{axp150}
 **Power-start{150-240V}
+**Label: 240V
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 3.4A
 **Power**vref{1}: 254W
 **Power-end{150-240V}
 **Power-start{150-120V}
+**Label: 120V
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 5.99A
 **Power**vref{1}: 254W
@@ -358,11 +360,13 @@
 **BUS-TC**vref{2}: 6 slots @ 100MB/s
 **LAN-support**vref{1,2}: 1 (10BASE-T/AUI)
 **Power-start{DEC3500-240V}
+**Label: 240V
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 10A
 **Power**vref{1}: 400W
 **Power-end{DEC3500-240V}
 **Power-start{DEC3500-120V}
+**Label: 120V
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 5A
 **Power**vref{1}: 400W
@@ -409,10 +413,12 @@
 **BUS-TC**vref{1}: 5 slots @ 100MB/s
 **LAN-support**vref{1}: 1 (10BASE-T/AUI)
 **Power-start{DEC3500X-120V}
+**Label: 120V
 **Supply**vref{1}: 120V 1-phase
 **Power**vref{1}: 746W
 **Power-end{DEC3500X-120V}
 **Power-start{DEC3500X-240V}
+**Label: 240V
 **Supply**vref{1}: 240V 1-phase
 **Power**vref{1}: 746W
 **Power-end{DEC3500X-240V}

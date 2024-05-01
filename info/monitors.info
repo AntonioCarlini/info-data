@@ -93,7 +93,7 @@
 **Power-start{VR160}
 **Power**uref{1}: {150W:max @ 250VA}
 ! {125W:nominal @ 200VA}
-**Power-end{VR160}}
+**Power-end{VR160}
 **End-monitors-entry{VR160}
 
 **Start-monitors-entry{VR260}{MONITOR}{VR}
@@ -440,7 +440,7 @@
 **Dimensions-end{VRT16}
 **Power-start{VRT16}
 **Power**uref{1}: 200W:maximum
-**Power-end{VT16}
+**Power-end{VRT16}
 **End-monitors-entry{VRT16}
 
 **Start-monitors-entry{VRT19}{MONITOR}{VRT}

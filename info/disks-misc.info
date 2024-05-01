@@ -69,13 +69,13 @@
 **Supply**htref{1}: 115V 1-phase 60Hz
 **I-max**htref{1}: 10.5A
 **Power**htref{1}: 500W
-**Power-end{RK06-EA/RK07-EA}
-**Power-start{RK06-EB/RK07-EB}
+**Power-end{RK067-EA}
+**Power-start{RK067-EB}
 **Label: RK06-EB/RK07-EB
 **Supply**htref{1}: 230V 1-phase 60Hz
 **I-max**htref{1}: 5.3A
 **Power**htref{1}: 450W 
-**Power-end{RK06-EB/RK07-EB}
+**Power-end{RK067-EB}
 **Power-start{RK06-EC/RK07-EC}
 **Label: RK06-EC/RK07-EC
 **Supply**htref{1}: 115V 1-phase 50Hz
@@ -144,7 +144,7 @@
 **Supply**htref{1}: 115V 1-phase 60Hz
 **I-max**htref{1}: 10.5A
 **Power**htref{1}: 500W
-**Power-end{RK06-EA/RK07-EA}
+**Power-end{RK067-EA}
 **Power-start{RK06-EB/RK07-EB}
 **Label: RK06-EB/RK07-EB
 **Supply**htref{1}: 230V 1-phase 60Hz

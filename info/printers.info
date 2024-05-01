@@ -37,11 +37,13 @@
 **Weight**lref{1}: 11.0kg
 **Dimensions-end{DCL1100}
 **Power-start{DCL1100-115}
+**Label: 115V
 **Supply**lref{1}: 115V 1-phase
 **I-max**lref{1}:  4.8A
 **Power**lref{1}:  550W:(max)
 **Power-end{DCL1100-115}
 **Power-start{DCL1100-220}
+**Label: 220V
 **Supply**lref{1}: 220V 1-phase
 **I-max**lref{1}:  2.5A
 **Power**lref{1}:  550W:(max)
@@ -69,12 +71,14 @@
 **Weight**lref{1}: 11.0kg
 **Dimensions-end{DCL1152}
 **Power-start{DCL1152-115}
+**Label: 115V
 **Supply**lref{1}: 115V 1-phase
 **I-max**lref{1}:  4.8A
 **Power**lref{1}:  550W:(max)
 **Power-end{DCL1152-115}
 **Power-start{DCL1152-220}
 **Supply**lref{1}: 220V 1-phase
+**Label: 220V
 **I-max**lref{1}:  2.5A
 **Power**lref{1}:  550W:(max)
 **Power-end{DCL1152-220}
@@ -162,10 +166,12 @@
 **Depth**htref{1}: 417mm
 **Dimensions-end{LA100}
 **Power-start{LA100-120V}
+**Label: 120V
 **Supply**htref{3}: 120V 1-phase
 **Power**htref{3}: 45W
 **Power-end{LA100-120V}
 **Power-start{LA100-240V}
+**Label: 240V
 **Supply**htref{3}: 240V 1-phase
 **Power**htref{3}: 45W
 **Power-end{LA100-240V}
@@ -186,11 +192,13 @@
 !		LA12X-DL is i/p buffer expansion which increases buffer to 4KB
 **Dev-req**htref{1}: ESC [ 0 c
 **Dev-req-resp**htref{1}: ESC [ ? 2 c
-**Power-start{LA200-240V}
+**Power-start{LA120-240V}
+**Label: 240V
 **Supply**htref{1}: 240V 1-phase
 **Power**htref{1}: 440W
 **Power-end{LA120-240V}
-**Power-start{LA200-120V}
+**Power-start{LA120-120V}
+**Label: 120V
 **Supply**htref{1}: 120V 1-phase
 **I-max**htref{1}: 4.2A
 **Power**htref{1}: 440W
@@ -285,10 +293,12 @@
 **Weight**htref{1}: 8.5kg
 **Dimensions-end{LA50}
 **Power-start{LA50-120V}
+**Label: 120V
 **Supply**htref{1}: 120V 1-phase
 **Power**htref{1}: 180W
 **Power-end{LA50-120V}
 **Power-start{LA50-240V}
+**Label: 240V
 **Supply**htref{1}: 240V 1-phase
 **Power**htref{1}: 180W
 **Power-end{LA50-240V}
@@ -323,10 +333,12 @@
 **Weight**htref{1}: 9.5kg
 **Dimensions-end{LA75}
 **Power-start{LA75-120V}
+**Label: 120V
 **Supply**htref{1}: 120V 1-phase
 **Power**htref{1}: 180W
 **Power-end{LA75-120V}
 **Power-start{LA75-240V}
+**Label: 240V
 **Supply**htref{1}: 240V 1-phase
 **Power**htref{1}: 180W
 **Power-end{LA75-240V}
@@ -395,11 +407,13 @@
 **Weight**lref{1}: 102kg
 **Dimensions-end{LG06}
 **Power-start{LG106-120}
+**Label: 120V
 **Supply**lref{1}: 120V 1-phase
 **I-max**lref{1}: 8A
 **Power**lref{1}: 360W:(operating)
 **Power-end{LG106-120}
 **Power-start{LG106-230}
+**Label: 230V
 **Supply**lref{1}: 230V 1-phase
 **I-max**lref{1}: 4A
 **Power**lref{1}: 360W:(operating)
@@ -437,9 +451,11 @@
 **Weight**htref{1}: 80lbs
 **Dimensions-end{LN03}
 **Power-start{LN03-A2}
+**Label: LN03 A2
 **Supply**htref{1}: 120V 1-phase
 **Power-end{LN03-A2}
 **Power-start{LN03-A3}
+**Label: LN03 A3
 **Supply**htref{1}: 240V 1-phase
 **Power-end{LN03-A3}
 !	ref_1: DA response
@@ -472,10 +488,12 @@
 **Weight**lref{1}: 20.6kg
 **Dimensions-end{LN05}
 **Power-start{LN05-115}
+**Label: 115V
 **Supply**lref{1}: 115V 1-phase
 **Power**lref{1}:  810W
 **Power-end{LN05-115}
 **Power-start{LN05-220}
+**Label: 220V
 **Supply**lref{1}: 220V 1-phase
 **Power**lref{1}:  790W
 **Power-end{LN05-220}
@@ -505,10 +523,12 @@
 **Weight**lref{1}: 20.6kg
 **Dimensions-end{LN06}
 **Power-start{LN06-115}
+**Label: 115V
 **Supply**lref{1}: 115V 1-phase
 **Power**lref{1}:  810W
 **Power-end{LN06-115}
 **Power-start{LN06-220}
+**Label: 220V
 **Supply**lref{1}: 220V 1-phase
 **Power**lref{1}:  790W
 **Power-end{LN06-220}
@@ -573,10 +593,12 @@
 **Weight**lref{1}: 17.0kg
 **Dimensions-end{LN09}
 **Power-start{LN09-115}
+**Label: 115V
 **Supply**lref{1}: 115V 1-phase
 **Power**lref{1}:  530W
 **Power-end{LN09-115}
 **Power-start{LN09-220}
+**Label: 220V
 **Supply**lref{1}: 220V 1-phase
 **Power**lref{1}:  520W
 **Power-end{LN09-220}
@@ -670,10 +692,12 @@
 **Weight**htref{1}:  12.2kg
 **Dimensions-end{LQP03}
 **Power-start{LQP03-A}
+**Label: LQP03 A
 **Supply**htref{1}: 120V 1-phase
 **Power**htref{1}: 100W
 **Power-end{LQP03-A}
 **Power-start{LQP03-B}
+**Label: LQP03 B
 **Supply**htref{1}: 240V 1-phase
 **Power**htref{1}: 100W
 **Power-end{LQP03-B}
@@ -694,10 +718,12 @@
 **Depth**htref{2}: 417mm
 **Dimensions-end{LW100}
 **Power-start{LW100-120V}
+**Label: 120V
 **Supply**htref{2}: 120V 1-phase
 **Power**htref{2}: 45W
 **Power-end{LW100-120V}
 **Power-start{LW100-240V}
+**Label: 240V
 **Supply**htref{2}: 240V 1-phase
 **Power**htref{2}: 45W
 **Power-end{LW100-240V}

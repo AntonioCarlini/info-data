@@ -387,6 +387,7 @@
 **Weight**htref{1}: 61.2kg	
 **Dimensions-end{RA82}
 **Power-start{RA82-120V}
+**Label: RA82 120V
 **Supply**htref{1}: 120V 1-phase
 **I-max**htref{1}: 35A
 **I-nominal**htref{1}: 7.8A
@@ -394,6 +395,7 @@
 **Heat-dissipation**htref{1}: 1911 BTU/hr
 **Power-end{RA82-120V}
 **Power-start{RA82-240V}
+**Label: RA82 240V
 **Supply**htref{1}: 240V 1-phase
 **I-max**htref{1}: 18A
 ! TODO differs from above! **I-nominal**htref{1}: 3.5A
@@ -435,6 +437,7 @@
 **Weight**htref{1}: 31.8kg	
 **Dimensions-end{RA90}
 **Power-start{RA92-120V}
+**Label: RA92 120V
 **Supply**htref{1}: 120V 1-phase
 **I-max**htref{1}: 60A
 **I-nominal**htref{1}: 5.0A
@@ -442,6 +445,7 @@
 **Heat-dissipation**htref{1}: 960 BTU/hr
 **Power-end{RA92-120V}
 **Power-start{RA92-240V}
+**Label: RA92 240V
 **Supply**htref{1}: 240V 1-phase
 **I-max**htref{1}: 70A
 ! TODO differs from above **I-nominal**htref{1}: 2.35A

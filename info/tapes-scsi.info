@@ -17,12 +17,14 @@
 **Weight**htref{1}: 12.70kg
 **Dimensions-end{TK50Z}
 **Power-start{TK50Z-120V}
+**Label: 120V
 **Supply**htref{1}: 120V 1-phase
 **I-nominal**htref{1}: 2.4A
 **Power**htref{1}: 160W
 **Heat-dissipation**htref{1}: 32W (max)
 **Power-end{TK50Z-120V}
 **Power-start{TK50Z-240V}
+**Label: 240V
 **Supply**htref{1}: 240V 1-phase
 ! TODO repeated definition, albeit within different block
 !**I-nominal**htref{1}: 1.3A
@@ -175,9 +177,11 @@
 **Unrecovered-error-rate**htref{1}: 10^13
 **MTBF**htref{1}: 35000 hours
 **Power-start{TKZ63-100V}
+**Label: 100V
 **I-max**htref{1}: 2.8A
 **Power-end{TKZ63-100V}
 **Power-start{TKZ63-240V}
+**Label: 240V
 **I-max**htref{1}: 1.7A
 **Power-end{TKZ63-240V}
 **Dimensions-start{TKZ63}
@@ -200,9 +204,11 @@
 **Unrecovered-error-rate**htref{1}: 10^13
 **CPU**htref{1}:{68000}{80188}{V40}
 **Power-start{TKZ64-100V}
+**Label: 100V
 **I-max**htref{1}: 2.8A
 **Power-end{TKZ64-100V}
 **Power-start{TKZ64-240V}
+**Label: 240V
 **I-max**htref{1}: 1.7A
 **Power-end{TKZ64-240V}
 **Dimensions-start{TKZ64}
@@ -252,9 +258,11 @@
 **Recording-format**htref{1}: DDS
 **Recording-density**uref{*122}: 61000 bpi
 **Power-start{embedded}
+**Label: Embedded
 **Power**uref{*122}: 15W (average)
 **Power-end{embedded}
 **Power-start{tabletop}
+**Label: Tabletop
 **Power**uref{*122}: 50W (average)
 **Power-end{tabletop}
 !-- From *122 -->
@@ -290,9 +298,11 @@
 **Recording-format**htref{1}: DDS, DC
 **Recording-density**htref{1}: 61000 bpi
 **Power-start{embedded}
+**Label: Embedded
 **Power**uref{*122}: 15W (average)
 **Power-end{embedded}
 **Power-start{tabletop}
+**Label: Tabletop
 **Power**uref{*122}: 50W (average)
 **Power-end{tabletop}
 !-- From *122: -->
@@ -455,10 +465,12 @@
 **Weight**htref{1}: 106.6kg
 **Dimensions-end{TSZ07-C}
 **Power-start{TSZ07-120V}
+**Label: 120V
 **Supply**htref{1}: 120V 1-phase
 **Power**htref{1}: 400W:(max)
 **Power-end{TSZ07-120V}
 **Power-start{TSZ07-240V}
+**Label: 240V
 **Supply**htref{1}: 240V 1-phase
 **Power**htref{1}: 400W:(max)
 **Power-end{TSZ07-240V}
