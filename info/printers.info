@@ -144,9 +144,9 @@
 **End-printers-entry{LJ252}
 
 **Start-printers-entry{LA30N}{PRINTER}{LA}
+**Sys-name: LA30N Dot Matrix Companion Printer
 **Def-lref{1} = ref{CU-1996-02-27}
 **Announcement**vref{1}: 1996-02-27
-
 **End-printers-entry{LA30N}
 
 **Start-printers-entry{LA100}{PRINTER}{LA}
@@ -373,18 +373,21 @@
 **End-printers-entry{LF02}
 
 **Start-printers-entry{LG01}{PRINTER}{LG}
+**Sys-name: LG01 Line Printer
 **Def-lref{1} = ref{CU-1992-01-31}
 **Last-order**vref{1}: 1992-06-26
 **Last-ship**vref{1}: 1992-09-30
 **End-printers-entry{LG01}
 
 **Start-printers-entry{LG02}{PRINTER}{LG}
+**Sys-name: LG02 Line Printer
 **Def-lref{1} = ref{CU-1992-01-31}
 **Last-order**vref{1}: 1992-06-26
 **Last-ship**vref{1}: 1992-09-30
 **End-printers-entry{LG02}
 
 **Start-printers-entry{LG04PLUS}{PRINTER}{LG}
+**Sys-name: LG04plus Line Matrix Printer
 **Def-lref{1} = ref{CU-1996-03-29}
 **Announcement**vref{1}: 1996-03-29
 **End-printers-entry{LG04PLUS}
@@ -421,11 +424,13 @@
 **End-printers-entry{LG06}
 
 **Start-printers-entry{LG08PLUS}{PRINTER}{LG}
+**Sys-name: LG08plus Line Matrix Printer
 **Def-lref{1} = ref{CU-1996-03-29}
 **Announcement**vref{1}: 1996-03-29
 **End-printers-entry{LG08PLUS}
 
 **Start-printers-entry{LG12PLUS}{PRINTER}{LG}
+**Sys-name: LG12plus Line Matrix Printer
 **Def-lref{1} = ref{CU-1996-03-29}
 **Announcement**vref{1}: 1996-03-29
 **End-printers-entry{LG12PLUS}
@@ -736,11 +741,13 @@
 
 **Start-printers-entry{LGL4PLUS}{PRINTER}{LGLPLUS}
 **Def-lref{1} = ref{DEC-PR-1996-10-09}
+**Sys-name: LGL8plus
 **Announcement**vref{1}: 1996-10-09
 **Technology**vref{1}: Line matrix
 **End-printers-entry{LGL4PLUS}
 
 **Start-printers-entry{LGL8PLUS}{PRINTER}{LGLPLUS}
+**Sys-name: LGL8plus
 **Def-lref{1} = ref{DEC-PR-1996-10-09}
 **Announcement**vref{1}: 1996-10-09
 **Technology**vref{1}: Line matrix
