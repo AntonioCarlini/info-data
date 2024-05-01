@@ -1,4 +1,5 @@
 **Start-storage-entry{TA79}{STI}{TA}
+**Sys-name: TA79 Magnetic Tape Susbsystem
 **Def-lref{1} = ref{CU-1992-08-10}
 **Def-lref{2} = ref{DA-1987-09-02-Tapes}
 ! TODO bad vref **Announcement**vref{2}: 1987-09-02
@@ -13,10 +14,9 @@
 **Sys-name: TA90
 **Desc-name: TA90 Magnetic Tape Cartridge Drives
 **Html-target: ta90
-**Def-lref{1} = ref{DEC-PR-1989-01-24-TA90}
+**Def-lref{1} = ref{DA-1989-01-24-TA90}
 **Def-lref{2} = ref{AA-ME85D-TE}
-! TODO verify announcement
-!**Announcement**vref{1}: 1989-01-24
+**Announcement**vref{1}: 1989-01-24
 **OS-support-ULTRIX**vref{2}: V4.0
 !
 !When released the TA90 was Digital's highest performance device for
