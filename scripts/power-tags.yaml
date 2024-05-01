@@ -1,0 +1,45 @@
+- Label:
+  - Label
+  - Label
+  - all
+  - summary
+- Supply:
+  - Supply
+  - Supply
+  - all
+  - summary
+- Power:
+  - Power
+  - Power
+  - all
+  - summary
+- I-max:
+  - I (max)
+  - I (max)
+  - all
+  - summary
+- I-inrush:
+  - I (inrush)
+  - I (inrush)
+  - all
+  - summary
+- I-nominal:
+  - I (nominal)
+  - I (nominal)
+  - all
+  - summary
+- Positive-5V-current:
+  - Positive-5V-current
+  - Positive-5V-current
+  - all
+  - summary
+- Positive-12V-current:
+  - Positive-12V-current
+  - Positive-12V-current
+  - all
+  - summary
+- Heat-dissipation:
+  - Heat dissipation
+  - Heat dissipation
+  - all
+  - summary

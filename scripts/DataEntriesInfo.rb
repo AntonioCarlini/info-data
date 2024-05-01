@@ -109,6 +109,7 @@ class InfoFileHandlerEntry
     @entry_name = entry_name
     @refs = refs
     @pubs = pubs
+    @power = []
   end
 
   def process_line(line, line_num)
@@ -126,7 +127,7 @@ class InfoFileHandlerEntry
       }
       @entry.set_docs(@local_docs.values())
       @entry.set_local_references(@local_refs)
-      return HandlerResult::COMPLETED, @entry
+      return HandlerResult::COMPLETED, nil
     elsif line =~ /^\s*\*\*Def-lref\{(\d+)\}\s*=\s*ref\{(.*)\}\s*$/i
       id = $1
       ref_name = $2
@@ -140,7 +141,6 @@ class InfoFileHandlerEntry
       return HandlerResult::CONTINUE, nil
     elsif line =~ /^\s*\*\*Text-start\s*$/i
       # Text-start seen, so switch to text-block mode
-      # TODO: need to handle this properly but start by ignoring it!
       return HandlerResult::STACK_HANDLER, InfoFileHandlerText.new(@local_refs)
     elsif line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|lref|uref|vref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
       tag = $1
@@ -149,6 +149,10 @@ class InfoFileHandlerEntry
       value = $4
       process_value(line_num, tag, ref_type, given_ref, value)
       return HandlerResult::CONTINUE, nil
+    elsif line =~ /^\s*\*\*Power-start\{(.*?)\}/ix
+      # Text-start seen, so switch to power-block mode
+      id = $1.strip()
+      return HandlerResult::STACK_HANDLER, InfoFileHandlerPower.new(id, @info_filename, line_num, @local_refs, @refs, @pubs)
     elsif line =~ /^\*\*(Dimensions|Power)-(start|end)\{/ix
       # Ignore Power and Dimensions for now
       return HandlerResult::CONTINUE, nil
@@ -188,7 +192,7 @@ class InfoFileHandlerEntry
       # TODO
       # At the moment Dimensions and Power are not handled properly, so skip them otherwise these tags are seen repeatedly and the checking fails
       return if ["Height","Width","Depth","Weight","Supply","I-max","Power","Heat-dissipation","Option-title","Option","Label"].include?(tag)
-      return if ["Power-start","Power-end","Dimensions-start","Dimensions-end"].include?(tag)
+      return if ["Dimensions-start","Dimensions-end"].include?(tag)
       # If the instance variable already exists then something has been defined twice
       instance_variable_name = EntriesCollection.tag_to_instance_variable_name(tag)
       if @entry.instance_variable_defined?(instance_variable_name)
@@ -242,6 +246,19 @@ class InfoFileHandlerEntry
   def process_sub_handler(sub_handler)
     if sub_handler.respond_to?(:text_block)
       @entry.add_text(sub_handler.text_block())
+    elsif sub_handler.respond_to?(:power)
+      # If a second power block is being added, report if the first has no label
+      if (@power.size() == 1) and !@power[0].label_defined?()
+        $stderr.puts("Power block #{@power[0].identifier()} starting on line #{@power[0].line_num} has no label")
+        @fatal_error_seen = true
+      end
+      # If any block after the first is being added, report if it does not have a label
+      power = sub_handler.power()
+      if !power.label_defined? and @power.size() > 1
+        $stderr.puts("Power block #{power.identifier()} starting on line #{power.line_num} has no label, but needs one")
+        @fatal_error_seen = true
+      end     
+      @power << power
     else
       raise("Expecting object with .text_block() but handed #{sub_handler.class.name()}")
     end
@@ -265,7 +282,7 @@ class InfoFileHandlerText
 
   def process_line(line, line_num)
     if line =~ /^\s*\*\*Text-end\s*$/i
-      return HandlerResult::COMPLETED
+      return HandlerResult::COMPLETED, nil
     else
       line.gsub!(/ \*\*vref \{ ([^}]+) \}/ix) {
         given_ref = $1
@@ -295,7 +312,125 @@ class InfoFileHandlerText
   end
 end
 
-# Encapsulates a Entry entry
+#+
+# The InfoFileHandlerPower class handles a block of declarations representing power information.
+#-
+class InfoFileHandlerPower
+
+  attr_reader     :entry
+  attr_reader     :fatal_error_seen
+  attr_reader     :power
+
+  def initialize(id, info_filename, line_num, local_refs, refs, pubs)
+    @fatal_error_seen = false
+    @id = id
+    @info_filename = info_filename
+    @local_refs = local_refs
+    @local_refs_non_vref_count = {}
+    @refs = refs
+    @pubs = pubs
+    permitted_tags = DataTags.new('scripts/power-tags.yaml', 'systems', 'decvt').tags()  ## TODO hard-coded filename for now
+    @permitted_tags_uc = permitted_tags.map(&:upcase)
+    @power = Power.new(@id, line_num, permitted_tags)
+  end
+
+  def process_line(line, line_num)
+    if line =~ /\*\*Power-end\{(.*)\}/ix
+      # e.g. **Power-end{VT100KBD}
+      end_id = $1.strip()
+      if end_id != @id
+        $stderr.puts("FATAL_ERROR: On line #{line_num} **Power-end\{#{end_id}\} does not match **Power-start\{#{@id}\}") if end_id != @id
+        @fatal_error_seen = true
+      end
+      @local_refs.keys().each() {
+        |k|
+        ## TODO is this needed? total_uses += @local_refs_non_vref_count[k]
+        ## TOOD count_text = "%3.3d" % @local_refs_non_vref_count[k]
+      }
+      return HandlerResult::COMPLETED, nil
+    elsif line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|lref|uref|vref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
+      tag = $1
+      ref_type = $2
+      given_ref = $3
+      value = $4
+      process_value(line_num, tag, ref_type, given_ref, value)
+      return HandlerResult::CONTINUE, nil
+    elsif line.strip().empty?() || line =~ /^\s*!/ix
+        # ignore blank lines and commented out lines
+      return HandlerResult::CONTINUE, nil
+    else
+      $stderr.puts("FATAL ERROR: Invalid line #{line_num}: #{line}")
+      @fatal_error_seen = true
+      return HandlerResult::CONTINUE, nil
+    end
+  end
+  
+  def process_value(line_num, tag, ref_type, given_ref, value)
+    # skip values of "@@" as these mean "this value is not known"
+    return if value =~ /^\s*@@\s*$/
+
+    # Build an array of the valid references used here
+    ref_array = []
+    reference = nil
+    unless given_ref.nil?()
+      given_ref.split(",").each() {
+        |lref|
+        reference = @local_refs[lref]
+        if ref_type =~ /vref/i && reference.nil?()
+          $stderr.puts("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{@info_filename}")
+          @fatal_error_seen = true
+          return
+        end
+        unless reference.nil?()
+          ## TODO @local_refs_non_vref_count[lref] += 1 unless ref_type =~ /vref/i  # count any reference except a vref
+          ref_array << reference if ref_type =~ /vref/i
+        end
+      }
+    end
+    if @permitted_tags_uc.include?(tag.upcase())
+      # TODO
+      # At the moment Dimensions and Power are not handled properly, so skip them otherwise these tags are seen repeatedly and the checking fails
+      ## TOOD return if ["Height","Width","Depth","Weight","Supply","I-max","Power","Heat-dissipation","Option-title","Option","Label"].include?(tag)
+      ## TODO return if ["Power-start","Power-end","Dimensions-start","Dimensions-end"].include?(tag)
+      # If the instance variable already exists then something has been defined twice
+      instance_variable_name = EntriesCollection.tag_to_instance_variable_name(tag)
+      if @entry.instance_variable_defined?(instance_variable_name)
+        raise("On line #{line_num} in #{@entry.identifier()}, tag #{tag} has been defined again.")
+      else
+        # Set the appropriate instance variable to the value+reference(s) specified
+        @power.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
+      end
+    else
+      $stderr.puts("FATAL ERROR: On line #{line_num} in #{@id}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
+      ## TODO @fatal_error_seen = true
+    end
+  end
+  
+  # Currently this should only be invoked with an object of type InfoFileHandlerText
+  def process_sub_handler(sub_handler)
+    raise("No sub block expected but handed #{sub_handler.class.name()}")
+  end
+end
+
+# Encapsulates a Power block
+class Power
+
+  attr_reader     :identifier
+  attr_reader     :line_num
+  
+  def initialize(identifier, line_num, possible_tags)
+    @identifier = identifier
+    @line_num = line_num
+    @possible_tags = possible_tags
+  end
+
+  def label_defined?()
+    return self.instance_variable_defined?("@label")
+  end
+  
+end
+
+# Encapsulates an Entry
 class Entry
 
   attr_reader :identifier
@@ -329,7 +464,7 @@ class Entry
   end
 
   # This function will be called when to_yaml() encounters an object of type Entry.
-  # It encodes is data as though it were a hash of:
+  # It encodes its data as though it were a hash of:
   #   { tag e.g. "FRS-date" => [value, ref#1, ref#2] }
   #
   def encode_with(coder)
@@ -441,7 +576,7 @@ class EntriesCollection
     # Either way, there should be one handler on the stack and it should be the Outer one
     # (which is the only one that allows **stop-processing).
     if (handlers.size() > 1) or !handlers[0].respond_to?(:stop_processing_is_valid)
-      $stderr.puts("Finished processing mid-entry for file #{info-filename}")
+      $stderr.puts("Finished processing mid-entry for file #{info_filename}")
       fatal_error_seen = true
     elsif handlers[0].fatal_error_seen()
       fatal_error_seen = true           # Catch the Outer handler's fatal error if one has been seen
