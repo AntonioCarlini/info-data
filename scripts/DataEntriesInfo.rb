@@ -110,6 +110,8 @@ class InfoFileHandlerEntry
     @refs = refs
     @pubs = pubs
     @power = []
+    @dimensions = []
+    @options = []
   end
 
   def process_line(line, line_num)
@@ -150,17 +152,22 @@ class InfoFileHandlerEntry
       process_value(line_num, tag, ref_type, given_ref, value)
       return HandlerResult::CONTINUE, nil
     elsif line =~ /^\s*\*\*Power-start\{(.*?)\}/ix
-      # Text-start seen, so switch to power-block mode
+      # Power-start seen, so switch to power-block mode
       id = $1.strip()
       return HandlerResult::STACK_HANDLER, InfoFileHandlerPower.new(id, @info_filename, line_num, @local_refs, @refs, @pubs)
-    elsif line =~ /^\*\*(Dimensions|Power)-(start|end)\{/ix
-      # Ignore Power and Dimensions for now
-      return HandlerResult::CONTINUE, nil
+    elsif line =~ /^\s*\*\*Dimensions-start\{(.*?)\}/ix
+      # Dimensions-start seen, so switch to dimensions-block mode
+      id = $1.strip()
+      return HandlerResult::STACK_HANDLER, InfoFileHandlerDimensions.new(id, @info_filename, line_num, @local_refs, @refs, @pubs)
     elsif line.strip().empty?() || line =~ /^\s*!/ix
         # ignore blank lines and commented out lines
       return HandlerResult::CONTINUE, nil
+    elsif line =~ /^\s*\*\*Options-start\{(.*?)\}/ix
+      # Options-start seen, so switch to options-block mode
+      id = $1.strip()
+      return HandlerResult::STACK_HANDLER, InfoFileHandlerOptions.new(id, @info_filename, line_num, @local_refs, @refs, @pubs)
     else
-      $stderr.puts("FATAL ERROR: Invalid line #{line_num}: #{line}")
+      $stderr.puts("FATAL ERROR in Entry: Invalid line #{line_num}: #{line}")
       @fatal_error_seen = true
       return HandlerResult::CONTINUE, nil
     end
@@ -189,10 +196,6 @@ class InfoFileHandlerEntry
       }
     end
     if @permitted_tags_uc.include?(tag.upcase())
-      # TODO
-      # At the moment Dimensions and Power are not handled properly, so skip them otherwise these tags are seen repeatedly and the checking fails
-      return if ["Height","Width","Depth","Weight","Supply","I-max","Power","Heat-dissipation","Option-title","Option","Label"].include?(tag)
-      return if ["Dimensions-start","Dimensions-end"].include?(tag)
       # If the instance variable already exists then something has been defined twice
       instance_variable_name = EntriesCollection.tag_to_instance_variable_name(tag)
       if @entry.instance_variable_defined?(instance_variable_name)
@@ -202,7 +205,7 @@ class InfoFileHandlerEntry
         @entry.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
       end
     else
-      $stderr.puts("FATAL ERROR: On line #{line_num} in #{@entry.identifier()}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
+      $stderr.puts("FATAL ERROR in Entry: On line #{line_num} in #{@entry.identifier()}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
       @fatal_error_seen = true
     end
   end
@@ -224,10 +227,10 @@ class InfoFileHandlerEntry
   def process_document_declaration(line_num, doc_id, doc)
     # Have a function process 'document'
     if doc.nil?()
-      $stderr.puts("FATAL ERROR: Doc [#{doc_id}] not found on #{line_num} of #{@info_filename}")
+      $stderr.puts("FATAL ERROR in Entry: Doc [#{doc_id}] not found on #{line_num} of #{@info_filename}")
       fatal_error_seen = true
     elsif !@local_docs[doc_id].nil?()
-      $stderr.puts("FATAL ERROR: Doc [#{doc_id}] repeated on #{line_num} of #{@info_filename}")
+      $stderr.puts("FATAL ERROR in Entry: Doc [#{doc_id}] repeated on #{line_num} of #{@info_filename}")
       @fatal_error_seen = true
     else
       # Skip documents that have no title: what could they possibly mean?
@@ -259,6 +262,21 @@ class InfoFileHandlerEntry
         @fatal_error_seen = true
       end     
       @power << power
+    elsif sub_handler.respond_to?(:dimensions)
+      # If a second dimensions block is being added, report if the first has no label
+      if (@dimensions.size() == 1) and !@dimensions[0].label_defined?()
+        $stderr.puts("Dimensions block #{@dimensions[0].identifier()} starting on line #{@dimensions[0].line_num} has no label")
+        @fatal_error_seen = true
+      end
+      # If any block after the first is being added, report if it does not have a label
+      dimensions = sub_handler.dimensions()
+      if !dimensions.label_defined?{} and @dimensions.size() > 1
+        $stderr.puts("Dimensions block #{dimensions.identifier()} starting on line #{dimensions.line_num} has no label, but needs one")
+        @fatal_error_seen = true
+      end
+      @dimensions << dimensions
+    elsif sub_handler.respond_to?(:options)
+      @options << sub_handler.options()
     else
       raise("Expecting object with .text_block() but handed #{sub_handler.class.name()}")
     end
@@ -388,10 +406,6 @@ class InfoFileHandlerPower
       }
     end
     if @permitted_tags_uc.include?(tag.upcase())
-      # TODO
-      # At the moment Dimensions and Power are not handled properly, so skip them otherwise these tags are seen repeatedly and the checking fails
-      ## TOOD return if ["Height","Width","Depth","Weight","Supply","I-max","Power","Heat-dissipation","Option-title","Option","Label"].include?(tag)
-      ## TODO return if ["Power-start","Power-end","Dimensions-start","Dimensions-end"].include?(tag)
       # If the instance variable already exists then something has been defined twice
       instance_variable_name = EntriesCollection.tag_to_instance_variable_name(tag)
       if @entry.instance_variable_defined?(instance_variable_name)
@@ -406,7 +420,192 @@ class InfoFileHandlerPower
     end
   end
   
-  # Currently this should only be invoked with an object of type InfoFileHandlerText
+  # No sub handlers are allowed: i.e. no new type can start inside this one
+  def process_sub_handler(sub_handler)
+    raise("No sub block expected but handed #{sub_handler.class.name()}")
+  end
+end
+
+#+
+# The InfoFileHandlerDimensions class handles a block of declarations representing dimensions information.
+#-
+class InfoFileHandlerDimensions
+
+  attr_reader     :entry
+  attr_reader     :fatal_error_seen
+  attr_reader     :dimensions
+
+  def initialize(id, info_filename, line_num, local_refs, refs, pubs)
+    @fatal_error_seen = false
+    @id = id
+    @info_filename = info_filename
+    @local_refs = local_refs
+    @local_refs_non_vref_count = {}
+    @refs = refs
+    @pubs = pubs
+    permitted_tags = DataTags.new('scripts/dimensions-tags.yaml', 'systems', 'decvt').tags()  ## TODO hard-coded filename for now
+    @permitted_tags_uc = permitted_tags.map(&:upcase)
+    @dimensions = Dimensions.new(@id, line_num, permitted_tags)
+  end
+
+  def process_line(line, line_num)
+    if line =~ /\*\*Dimensions-end\{(.*)\}/ix
+      # e.g. **Dimensions-end{VT100KBD}
+      end_id = $1.strip()
+      if end_id != @id
+        $stderr.puts("FATAL_ERROR: On line #{line_num} **Dimensions-end\{#{end_id}\} does not match **dimensions-start\{#{@id}\}")
+        @fatal_error_seen = true
+      end
+      @local_refs.keys().each() {
+        |k|
+        ## TODO is this needed? total_uses += @local_refs_non_vref_count[k]
+        ## TOOD count_text = "%3.3d" % @local_refs_non_vref_count[k]
+      }
+      return HandlerResult::COMPLETED, nil
+    elsif line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|lref|uref|vref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
+      tag = $1
+      ref_type = $2
+      given_ref = $3
+      value = $4
+      process_value(line_num, tag, ref_type, given_ref, value)
+      return HandlerResult::CONTINUE, nil
+    elsif line.strip().empty?() || line =~ /^\s*!/ix
+        # ignore blank lines and commented out lines
+      return HandlerResult::CONTINUE, nil
+    else
+      $stderr.puts("FATAL ERROR: Invalid line #{line_num}: #{line}")
+      @fatal_error_seen = true
+      return HandlerResult::CONTINUE, nil
+    end
+  end
+  
+  def process_value(line_num, tag, ref_type, given_ref, value)
+    # skip values of "@@" as these mean "this value is not known"
+    return if value =~ /^\s*@@\s*$/
+
+    # Build an array of the valid references used here
+    ref_array = []
+    reference = nil
+    unless given_ref.nil?()
+      given_ref.split(",").each() {
+        |lref|
+        reference = @local_refs[lref]
+        if ref_type =~ /vref/i && reference.nil?()
+          $stderr.puts("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{@info_filename}")
+          @fatal_error_seen = true
+          return
+        end
+        unless reference.nil?()
+          ## TODO @local_refs_non_vref_count[lref] += 1 unless ref_type =~ /vref/i  # count any reference except a vref
+          ref_array << reference if ref_type =~ /vref/i
+        end
+      }
+    end
+    if @permitted_tags_uc.include?(tag.upcase())
+      # If the instance variable already exists then something has been defined twice
+      instance_variable_name = EntriesCollection.tag_to_instance_variable_name(tag)
+      if @entry.instance_variable_defined?(instance_variable_name)
+        raise("On line #{line_num} in #{@entry.identifier()}, tag #{tag} has been defined again.")
+      else
+        # Set the appropriate instance variable to the value+reference(s) specified
+        @dimensions.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
+      end
+    else
+      $stderr.puts("FATAL ERROR: On line #{line_num} in #{@id}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
+      ## TODO @fatal_error_seen = true
+    end
+  end
+  
+  # No sub handlers are allowed: i.e. no new type can start inside this one
+  def process_sub_handler(sub_handler)
+    raise("No sub block expected but handed #{sub_handler.class.name()}")
+  end
+end
+
+#+
+# The InfoFileHandlerOptions class handles a block of declarations representing options information.
+#-
+class InfoFileHandlerOptions
+
+  attr_reader     :entry
+  attr_reader     :fatal_error_seen
+  attr_reader     :options
+
+  def initialize(id, info_filename, line_num, local_refs, refs, pubs)
+    @fatal_error_seen = false
+    @id = id
+    @info_filename = info_filename
+    @local_refs = local_refs
+    @local_refs_non_vref_count = {}
+    @refs = refs
+    @pubs = pubs
+    @options = Options.new(@id, line_num)
+  end
+
+  def process_line(line, line_num)
+    if line =~ /\*\*Options-end\{(.*)\}/ix
+      # e.g. **Options-end{DEC4600}
+      end_id = $1.strip()
+      if end_id != @id
+        $stderr.puts("FATAL_ERROR: On line #{line_num} **Options-end\{#{end_id}\} does not match **Options-start\{#{@id}\}")
+        @fatal_error_seen = true
+      end
+      return HandlerResult::COMPLETED, nil
+    elsif line =~ /^ \s* \*\*Option\s*:\s*(.*)\s*$/ix
+      option_text = $1.strip()
+      #TODO process_option(option_text)
+      return HandlerResult::CONTINUE, nil
+    elsif line =~ /^ \s* \*\*Option-title\s*:\s*(.*)\s*$/ix
+      title = $1.strip()
+      return HandlerResult::CONTINUE, nil
+    elsif line.strip().empty?() || line =~ /^\s*!/ix
+        # ignore blank lines and commented out lines
+      return HandlerResult::CONTINUE, nil
+    else
+      $stderr.puts("FATAL ERROR in Option: Invalid line #{line_num}: #{line}")
+      @fatal_error_seen = true
+      return HandlerResult::CONTINUE, nil
+    end
+  end
+  
+  def process_option(line_num, tag, ref_type, given_ref, value)
+    # skip values of "@@" as these mean "this value is not known"
+    return if value =~ /^\s*@@\s*$/
+
+    # Build an array of the valid references used here
+    ref_array = []
+    reference = nil
+    unless given_ref.nil?()
+      given_ref.split(",").each() {
+        |lref|
+        reference = @local_refs[lref]
+        if ref_type =~ /vref/i && reference.nil?()
+          $stderr.puts("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{@info_filename}")
+          @fatal_error_seen = true
+          return
+        end
+        unless reference.nil?()
+          ## TODO @local_refs_non_vref_count[lref] += 1 unless ref_type =~ /vref/i  # count any reference except a vref
+          ref_array << reference if ref_type =~ /vref/i
+        end
+      }
+    end
+    if @permitted_tags_uc.include?(tag.upcase())
+      # If the instance variable already exists then something has been defined twice
+      instance_variable_name = EntriesCollection.tag_to_instance_variable_name(tag)
+      if @entry.instance_variable_defined?(instance_variable_name)
+        raise("On line #{line_num} in #{@entry.identifier()}, tag #{tag} has been defined again.")
+      else
+        # Set the appropriate instance variable to the value+reference(s) specified
+        @options.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
+      end
+    else
+      $stderr.puts("FATAL ERROR: On line #{line_num} in #{@id}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
+      ## TODO @fatal_error_seen = true
+    end
+  end
+  
+  # No sub handlers are allowed: i.e. no new type can start inside this one
   def process_sub_handler(sub_handler)
     raise("No sub block expected but handed #{sub_handler.class.name()}")
   end
@@ -428,6 +627,36 @@ class Power
     return self.instance_variable_defined?("@label")
   end
   
+end
+
+# Encapsulates a Dimensions block
+class Dimensions
+
+  attr_reader     :identifier
+  attr_reader     :line_num
+  
+  def initialize(identifier, line_num, possible_tags)
+    @identifier = identifier
+    @line_num = line_num
+    @possible_tags = possible_tags
+  end
+
+  def label_defined?()
+    return self.instance_variable_defined?("@label")
+  end
+  
+end
+
+# Encapsulates an options block
+class Options
+
+  attr_reader     :identifier
+  attr_reader     :line_num
+  
+  def initialize(identifier, line_num)
+    @identifier = identifier
+    @line_num = line_num
+  end
 end
 
 # Encapsulates an Entry
