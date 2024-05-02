@@ -173,7 +173,7 @@
 **Width**htref{1}: 406.4mm
 **Depth**htref{1}: 431.8mm
 **Weight**htref{1}: 6.80kg
-**Dimensions-end{DST50x00}
+**Dimensions-end{DST50x0}
 **End-systems-entry{DST5020}
 
 **Start-systems-entry{DST5025}{DECMIPS}{DS5000}
@@ -243,7 +243,7 @@
 **Width**htref{1}: 406.4mm
 **Depth**htref{1}: 431.8mm
 **Weight**htref{1}: 6.80kg
-**Dimensions-end{DST50x00}
+**Dimensions-end{DST50x0}
 **End-systems-entry{DST5025}
 
 **Start-systems-entry{DST5033}{DECMIPS}{DS5000}
@@ -291,7 +291,7 @@
 **Width**htref{1}: 406.4mm
 **Depth**htref{1}: 431.8mm
 **Weight**htref{1}: 6.80kg
-**Dimensions-end{DST50x00}
+**Dimensions-end{DST50x0}
 **End-systems-entry{DST5033}
 
 **Start-systems-entry{DST5050}{DECMIPS}{DS5000}

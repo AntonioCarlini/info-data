@@ -83,9 +83,11 @@
 **Memory-checking**vref{3}: Parity
 **Physical-address-lines**htref{**1}: 18
 **Dimensions-start{1140}
+**Label: PDP-11/40
 **Weight**vref{1}: 200lbs (CPU)	
 **Dimensions-end{1140}
 **Dimensions-start{1135}
+**Label: PDP-11/35
 **Weight**vref{1}: 120lbs (CPU)	
 **Dimensions-end{1135}
 **Power-start{1135}
@@ -154,11 +156,13 @@
 **Sys-name: PDP-11/15 
 **CPU-module**vref{1,2}: KC11
 **Dimensions-start{tabletop}
+**Label: Tabletop
 **Height**vref{1}: 11"
 **Width**vref{1}: 20"
 **Depth**vref{1}: 25-5/8"
 **Dimensions-end{tabletop}
 **Dimensions-start{rackmount}
+**Label: Rackmount
 **Height**vref{1}: 8-3/4"
 **Width**vref{1}: 19"
 **Depth**vref{1}: 23"
@@ -186,16 +190,19 @@
 ! PDP-11/20R is a Ruggedized PDP-11/20.
 **Bus-UNIBUS**vref{1}: 1
 **Dimensions-start{tabletop}
+**Label: Tabletop
 **Height**vref{1}: 11"
 **Width**vref{1}: 20"
 **Depth**vref{1}: 25-5/8"
 **Dimensions-end{tabletop}
 **Dimensions-start{rackmount}
+**Label: Rackmount
 **Height**vref{1}: 8-3/4"
 **Width**vref{1}: 19"
 **Depth**vref{1}: 23"
 **Dimensions-end{rackmount}
 **Dimensions-start{ruggedized}
+**Label: Ruggedised
 **Height**vref{1}: 10-1/2"
 **Width**vref{1}: 19"
 **Depth**vref{1}: 25"
@@ -313,7 +320,7 @@
 **Height**vref{1}: 422.1mm
 **Height**vref{1}: 660.1mm
 **Weight**vref{1,2}: 40.5kg
-**Dimensions-end{1144}
+**Dimensions-end{PDP1144}
 **End-systems-entry{PDP1144}
 
 **Start-systems-entry{PDP1145}{PDP11}{UNIBUS}
@@ -441,7 +448,7 @@
 **Width**vref{1}: 539mm
 **Depth**vref{1}: 800mm
 **Weight**vref{1}: 150kg
-**Dimensions-end{Box}
+**Dimensions-end{Cabinet}
 **End-systems-entry{PDP1184}
 
 **Start-systems-entry{PDP1194}{PDP11}{UNIBUS}
@@ -660,7 +667,7 @@
 **I-max**vref{1}: 4A
 **Power**vref{1}: 320W
 **Power-end{Pro350-230V}
-**Dimensions-start{Pro325}
+!TODO ?? **Dimensions-start{Pro325}
 **Dimensions-start{Pro350}
 **Height**vref{1}: 165 mm
 **Depth**vref{1}: 558 mm
