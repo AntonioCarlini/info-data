@@ -400,7 +400,7 @@
 **Power**htref{1}: 70W
 **Power-end{VT131-240V}
 **Dimensions-start{VT131-Monitor}
-! TODO **Label: Monitor
+**Label: Monitor
 **Height**htref{1}: 368.3mm
 **Width **htref{1}: 457.2mm
 **Depth **htref{1}: 362.0mm
@@ -507,12 +507,14 @@
 !	RAM:		1MB (standard)
 !			4MB (*max)
 **Dimensions-start{VT1000-System-Box}
+**Label: System box
 **Height**vref{1}: 60mm
 **Width**vref{1}: 394mm
 **Depth**vref{1}: 368mm
 **Weight**vref{1}: 5.4kg
 **Dimensions-end{VT1000-System-Box}
 **Dimensions-start{VT1000-LK401}
+**Label: Keyboard
 **Height**vref{1}: 45mm
 **Width**vref{1}: 478mm
 **Depth**vref{1}: 191mm
@@ -587,7 +589,7 @@
 **Power**htref{1}: 60W
 **Power-end{VT220-240V}
 **Dimensions-start{VT220-Monitor}
-! TODO **Label: VT220 monitor
+**Label: VT220 monitor
 **Height**htref{1}: 283mm
 **Width **htref{1}: 333mm
 **Depth **htref{1}: 387mm
@@ -732,7 +734,7 @@
 **Power**htref{1}: 50W
 **Power-end{VT320-240V}
 **Dimensions-start{VT320}
-! TODO **Label: VT320 monitor
+**Label: VT320 monitor
 **Height**htref{1}: 252.7mm
 **Width **htref{1}: 313.6mm
 **Depth **htref{1}: 314.9mm

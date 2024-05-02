@@ -192,6 +192,7 @@
 **Depth**vref{1}: 400.0mm
 **Weight**vref{1}: 18.18kg
 **Dimensions-end{VAX4105}
+**Options-start{VAX4105}
 **Option-title: Internal mass storage options
 **Option: {storage:RF31T}{381MB DDSI Disk}
 **Option: {storage:RF35}{852MB DDSI Disk}
@@ -206,8 +207,8 @@
 **Option-title: Communications Interfaces
 **Option: {comms:DHW42}{8-/16-line Asynchronous Multiplexer}
 **Option: {comms:DSW42}{2-line Synchronous Interface}
+**Options-end{VAX4105}
 **End-systems-entry{VAX4105}
-
 
 **Start-systems-entry{VAX4106}{VAX}{VAX4000}
 **Sys-name: VAX 4000-106A
@@ -383,11 +384,13 @@
 **Power: 670W
 **Power-end{BA430}
 **Dimensions-start{BA215}
+**Label: BA215
 **Height: 690mm
 **Width: 350mm
 **Depth: 450mm
 **Dimensions-end{BA215}
 **Dimensions-start{BA430}
+**Label: BA430
 **Height: 690mm
 **Width: 530mm
 **Depth: 450mm
@@ -2266,12 +2269,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Heat-dissipation**vref{1}: 6800 BTU/hr
 **Power-end{8250-8350}
 **Dimensions-start{8250-8350}
+**Label: Normal
 **Height**vref{1}: 1060mm
 **Width**vref{1}: 540mm
 **Depth**vref{1}: 810mm
 **Weight**vref{1}: 260kg
 **Dimensions-end{8250-8350}
 **Dimensions-start{8250-8350-R}
+**Label: Rackmount
 **Height**vref{1}: 266.7mm
 **Width**vref{1}: 482.6mm
 **Depth**vref{1}: 660.4mm
@@ -2330,12 +2335,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Heat-dissipation**vref{1}: 6800 BTU/hr
 **Power-end{8250-8350}
 **Dimensions-start{8250-8350}
+**Label: Normal
 **Height**vref{1}: 1060mm
 **Width**vref{1}: 540mm
 **Depth**vref{1}: 810mm
 **Weight**vref{1}: 260kg
 **Dimensions-end{8250-8350}
 **Dimensions-start{8250-8350-R}
+**Label: Rackmount
 **Height**vref{1}: 266.7mm
 **Width**vref{1}: 482.6mm
 **Depth**vref{1}: 660.4mm
@@ -2824,6 +2831,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Depth**vref{1}: 450.8mm
 **Weight**vref{1}: 40.5kg
 **Dimensions-end{35x0}
+**options-start{VS35X0}
 **Option-title: Monitors
 **Option: {monitors:VR295}{Colour Monitor}
 **Option-title: Controllers
@@ -2840,6 +2848,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Option-title: External mass storage options
 **Option: {RRD40}{SCSI CDROM drive}
 **Option: {TS05}{1600bpi Tape Drive}
+**options-end{VS35X0}
 **End-systems-entry{VS35X0}
 
 **Start-systems-entry{VS4060}{VAX}{VAXstation}
@@ -3397,6 +3406,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !<TR ALIGN=RIGHT> <TD ALIGN=LEFT>
 !	H9642 <CITE> <A HREF=#ref_2> [2] </A> </CITE>
 !!			: 1060mm  <TD>  656mm <TD>  914mm <TD>       kg </TR>
+**options-start{UV2}
 **Option-title: Internal controllers
 **Option: {boards:DEQNA}{Q-bus Ethernet Adapter}
 **Option: {boards:DELQA}{Q-bus Ethernet Adapter}
@@ -3428,6 +3438,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Option: {storage:TU81-Plus}
 **Option: {storage:TSV05}
 **Option: {storage:RC25}{26MB fixed + 26MB removable disk subsystem}
+**options-end{UV2}
 **End-systems-entry{UV2}
 
 **Start-systems-entry{UV3130}{VAX}{UVAX}
@@ -3898,11 +3909,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Width **vref{1}: 323.9mm
 **Depth **vref{1}: 285.8mm
 **Weight**vref{1}: 9.1kg
-**Dimensions-end{BA40A}
+**Dimensions-end{BA40B}
+**options-start{UV2K}
 **Option-title: Internal mass storage options
 **Option: {RX33}{Diskette Drive}
 **Option: {RD32}{Disk Drive}
 **Option: {RD53}{Disk Drive}
+**options-end{UV2K}
 **End-systems-entry{UV2K}
 
 **Start-systems-entry{VS2K}{VAX}{VAXstation}
@@ -3983,12 +3996,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Depth **vref{1}: 285.8mm
 **Weight**vref{1}: 9.1kg
 **Dimensions-end{BA40A}
+**options-start{VS2K}
 **Option-title: Internal options
 **Option: {GPX}{GPX colour graphics option}
 **Option-title: Internal mass storage options
 **Option: {RX33}{Diskette Drive}
 **Option: {RD32}{Disk Drive}
 **Option: {RD53}{Disk Drive}
+**options-end{VS2K}
 **End-systems-entry{VS2K}
 
 **Start-systems-entry{VAX8600}{VAX}{UNIBUS}
@@ -4485,6 +4500,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !-- ref_3: options: GPX,SPX, RZ22,RZ24,RZ24,RX23 -->
 !-- ref_3 includes fault code info esp App C -->
 !-- ref_3: min memory shipped is 8MB (2x4MB SIMM). SIMMs are all 4MB. 8 slots total hence 32MB max -->
+**options-start{VS3130}
 **Option-title: Graphics Options
 **Option: {GPX}{GPX graphics option}
 **Option: {SPX}{SPX graphics option}
@@ -4496,6 +4512,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Option: {storage:RZ55}{SCSI disk drive}
 **Option: {storage:RRD40}{SCSI CD-ROM}
 **Option: {storage:TK50Z}{}
+**options-end{VS3130}
 **End-systems-entry{VS3130}
 
 **Start-systems-entry{VS3138}{VAX}{VAXstation}
@@ -4569,6 +4586,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !-- ref_3: options: GPX,SPX, RZ22,RZ24,RZ24,RX23 -->
 !-- ref_3 includes fault code info esp App C -->
 !-- ref_3: min memory shipped is 8MB (2x4MB SIMM). SIMMs are all 4MB. 8 slots total hence 32MB max -->
+**options-start{VS3138}
 **Option-title: Graphics Options
 **Option: {GPX}{GPX graphics option}
 **Option: {SPX}{SPX graphics option}
@@ -4580,6 +4598,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Option: {storage:RZ55}{SCSI disk drive}
 **Option: {storage:RRD40}{SCSI CD-ROM}
 **Option: {storage:TK50Z}{}
+**options-end{VS3138}
 **End-systems-entry{VS3138}
 
 **Start-systems-entry{VS3176}{VAX}{VAXstation}
@@ -4650,6 +4669,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Dimensions-end{VS3176}
 !-- ref_3 includes fault code info esp App C -->
 !-- ref_3: min memory shipped is 8MB (2x4MB SIMM). SIMMs are all 4MB. 8 slots total hence 32MB max -->
+**Options-start{VS3176}
 **Option-title: Graphics Options
 **Option: {GPX}{GPX graphics option}
 **Option: {SPX}{SPX graphics option}
@@ -4661,6 +4681,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Option: {storage:RZ55}{SCSI disk drive}
 **Option: {storage:RRD40}{SCSI CD-ROM}
 **Option: {storage:TK50Z}{}
+**Options-end{VS3176}
 **End-systems-entry{VS3176}
 
 **Start-systems-entry{VS4090}{VAX}{VAXstation}
@@ -4729,12 +4750,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **I-max**vref{1}: 2.0A
 **Power**vref{1}: 286W
 **Power-end{VS4090-240V}
+**Options-start{VS4090}
 **Option-title: Internal controllers
 **Option: {boards:LCSPX}{Low Cost Graphics Adapter}
 **Option: {boards:SPXg}{8-planeHigh Performance Graphics}
 **Option: {boards:SPXgt}{24-plane High Performance Graphics}
 **Option: {boards:DSW21}{1-line Synchronous Interface}
 !-- [1]: Graphics modules: LCSPX, SPXg, SPXgt -->
+**Options-end{VS4090}
 **End-systems-entry{VS4090}
 
 **Start-systems-entry{VS4090A}{VAX}{VAXstation}
@@ -4817,12 +4840,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **BUS-SCSI**vref{1}: 1 @ 10MB/s
 **LAN-support: embedded
 **Dimensions-start{3100-M10}
+**Label: MicroVAX 3100 Model 10
 **Height**vref{1}: 100.3mm
 **Width**vref{1}: 463.8mm
 **Depth**vref{1}: 400.0mm
 **Weight**vref{1}: 11.4kg
 **Dimensions-end{3100-M10}
 **Dimensions-start{3100-M20}
+**Label: MicroVAX 3100 Model 20
 **Height**vref{1}: 149.9mm
 **Width**vref{1}: 463.8mm
 **Depth**vref{1}: 400.0mm
