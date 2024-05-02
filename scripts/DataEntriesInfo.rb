@@ -25,6 +25,16 @@ module HandlerResult
   COMPLETED = 3
 end
 
+# Function to simplify logging of fatal errors
+def log_fatal(this, line_num, filename, text)
+  $stderr.puts("FATAL ERROR from #{this.class().name()}: line #{line_num} in #{filename}: #{text}")
+end
+
+# Function to simplify logging of debug
+def log_debug(this, line_num, filename, text)
+  # $stderr.puts("DEBUG from #{this.class().name()}: line #{line_num} in #{filename}: #{text}")
+end
+
 #+
 # The InfoFileHandlerOuter class handles the outer layer of a .info file, i.e. everything that does not lie inside a valid start-ABC-entry/end-ABC-entry pair.
 # It will skip empty lines and those that have only a comment and it will hand over to another handler if a valid start-ABC-entry is seen.
@@ -63,16 +73,16 @@ class InfoFileHandlerOuter
         return HandlerResult::STACK_HANDLER, InfoFileHandlerEntry.new(entry, entry_name, @info_filename, @permitted_tags_uc, @refs, @pubs)
       elsif line =~ /^ \s* \! /ix
         # TODO why is this here .. .why can this not be handled above?
-        $stderr.puts("Skipping comment [#{line}]")
+        log_debug(self, line_num, @info_filename, "Skipping comment [#{line}]")
         # skip comment line
         return HandlerResult::CONTINUE, nil
       else
-        $stderr.puts("FATAL_ERROR: Unknown contents outside of entry on line #{line_num} in #{@info_filename} [#{line}]")
+        log_fatal(self, line_num, @info_filename, "Unknown contents outside of entry: [#{line}]")
         @fatal_error_seen = true
         return HandlerResult::CONTINUE, nil
       end
   end
-  
+
   # This should be invoked with a InfoFileHandlerEntry. Anything else is an error.
   def process_sub_handler(sub_handler)
     if sub_handler.respond_to?(:entry)
@@ -97,7 +107,7 @@ class InfoFileHandlerEntry
 
   attr_reader     :entry
   attr_reader     :fatal_error_seen
-  
+
   def initialize(entry, entry_name, info_filename, permitted_tags_uc, refs, pubs)
     @fatal_error_seen = false
     @permitted_tags_uc = permitted_tags_uc
@@ -119,7 +129,7 @@ class InfoFileHandlerEntry
       # e.g. **End-storage-entry{RX50}
       end_id = $1.strip()
       if end_id != @entry.identifier()
-        $stderr.puts("FATAL_ERROR: On line #{line_num} **end-#{@entry_name}-entry\{#{end_id}\} does not match **start-#{@entry_name}-entry\{#{@entry.identifier()}\}") if end_id != @entry.identifier()
+        log_fatal(self, line_num, @info_filename, "**end-#{@entry_name}-entry\{#{end_id}\} does not match **start-#{@entry_name}-entry\{#{@entry.identifier()}\}") if end_id != @entry.identifier()
         @fatal_error_seen = true
       end
       @local_refs.keys().each() {
@@ -167,12 +177,12 @@ class InfoFileHandlerEntry
       id = $1.strip()
       return HandlerResult::STACK_HANDLER, InfoFileHandlerOptions.new(id, @info_filename, line_num, @local_refs, @refs, @pubs)
     else
-      $stderr.puts("FATAL ERROR in Entry: Invalid line #{line_num}: #{line}")
+      log_fatal(self, line_num, @info_filename, "Invalid line: #{line}")
       @fatal_error_seen = true
       return HandlerResult::CONTINUE, nil
     end
   end
-  
+
   def process_value(line_num, tag, ref_type, given_ref, value)
     # skip values of "@@" as these mean "this value is not known"
     return if value =~ /^\s*@@\s*$/
@@ -185,7 +195,7 @@ class InfoFileHandlerEntry
         |lref|
         reference = @local_refs[lref]
         if ref_type =~ /vref/i && reference.nil?()
-          $stderr.puts("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{@info_filename}")
+          log_fatal(self, line_num, @info_filename, "vref refers to non-existent lref{#{lref}}")
           @fatal_error_seen = true
           return
         end
@@ -205,15 +215,15 @@ class InfoFileHandlerEntry
         @entry.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
       end
     else
-      $stderr.puts("FATAL ERROR in Entry: On line #{line_num} in #{@entry.identifier()}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
+      log_fatal(self, line_num, @info_filename, "In #{@entry.identifier()}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
       @fatal_error_seen = true
     end
   end
-  
+
   def process_local_reference_definition(line_num, id, ref_name)
     ref = @refs[ref_name]
     if ref.nil?()
-      $stderr.puts("lref{#{id}} of [#{ref_name}] not found on line #{line_num}")
+      log_fatal(self, line_num, @info_filename, "lref{#{id}} of [#{ref_name}] not found")
     else
       if @local_refs[id].nil?()
         @local_refs[id] = ref_name
@@ -223,19 +233,19 @@ class InfoFileHandlerEntry
       end
     end
   end
-  
+
   def process_document_declaration(line_num, doc_id, doc)
     # Have a function process 'document'
     if doc.nil?()
-      $stderr.puts("FATAL ERROR in Entry: Doc [#{doc_id}] not found on #{line_num} of #{@info_filename}")
-      fatal_error_seen = true
+      log_fatal(self, line_num, @info_filename, "Doc [#{doc_id}] not found")
+      @fatal_error_seen = true
     elsif !@local_docs[doc_id].nil?()
-      $stderr.puts("FATAL ERROR in Entry: Doc [#{doc_id}] repeated on #{line_num} of #{@info_filename}")
+      log_fatal(self, line_num, @info_filename, "Doc [#{doc_id}] repeated")
       @fatal_error_seen = true
     else
       # Skip documents that have no title: what could they possibly mean?
       if doc["title"].nil?()
-        $stderr.puts("FATAL ERROR: Doc [#{doc_id}] has no title on #{line_num} of #{@info_filename}")
+        log_fatal(self, line_num, @info_filename, "Doc [#{doc_id}] has no title")
         @fatal_error_seen = true
       else
         entry = doc["title"] + ". "
@@ -244,34 +254,34 @@ class InfoFileHandlerEntry
       end
     end
   end
-  
-  # Currently this should only be invoked with an object of type InfoFileHandlerText
+
+  # Invoked to process an enclosed block that has now been completely parsed
   def process_sub_handler(sub_handler)
     if sub_handler.respond_to?(:text_block)
       @entry.add_text(sub_handler.text_block())
     elsif sub_handler.respond_to?(:power)
       # If a second power block is being added, report if the first has no label
       if (@power.size() == 1) and !@power[0].label_defined?()
-        $stderr.puts("Power block #{@power[0].identifier()} starting on line #{@power[0].line_num} has no label")
+        log_fatal(self, @power[0].line_num(), @info_filename, "Power block #{@power[0].identifier()} starting on line #{@power[0].line_num} has no label")
         @fatal_error_seen = true
       end
       # If any block after the first is being added, report if it does not have a label
       power = sub_handler.power()
       if !power.label_defined? and @power.size() > 1
-        $stderr.puts("Power block #{power.identifier()} starting on line #{power.line_num} has no label, but needs one")
+        log_fatal(self, power.line_num(), @info_filename, "Power block #{power.identifier()} starting on line #{power.line_num} has no label, but needs one")
         @fatal_error_seen = true
-      end     
+      end
       @power << power
     elsif sub_handler.respond_to?(:dimensions)
       # If a second dimensions block is being added, report if the first has no label
       if (@dimensions.size() == 1) and !@dimensions[0].label_defined?()
-        $stderr.puts("Dimensions block #{@dimensions[0].identifier()} starting on line #{@dimensions[0].line_num} has no label")
+        log_fatal(self, @dimensions[0].line_num(), @info_filename, "Dimensions block #{@dimensions[0].identifier()} starting on line #{@dimensions[0].line_num} has no label")
         @fatal_error_seen = true
       end
       # If any block after the first is being added, report if it does not have a label
       dimensions = sub_handler.dimensions()
       if !dimensions.label_defined?{} and @dimensions.size() > 1
-        $stderr.puts("Dimensions block #{dimensions.identifier()} starting on line #{dimensions.line_num} has no label, but needs one")
+        log_fatal(self, dimensions.line_num(), @info_filename, "Dimensions block #{dimensions.identifier()} starting on line #{dimensions.line_num} has no label, but needs one")
         @fatal_error_seen = true
       end
       @dimensions << dimensions
@@ -312,8 +322,8 @@ class InfoFileHandlerText
             |lref|
             reference = @local_refs[lref]
             if reference.nil?()
-              $stderr.puts("FATAL ERROR: vref refers to non-existent lref{#{lref}} on line #{line_num} of #{info_filename}") 
-              fatal_error_seen = true
+              log_fatal(self, line_num, @info_filename, "vref refers to non-existent lref{#{lref}}")
+              @fatal_error_seen = true
             end
             unless reference.nil?()
               ref_array << reference
@@ -357,7 +367,7 @@ class InfoFileHandlerPower
       # e.g. **Power-end{VT100KBD}
       end_id = $1.strip()
       if end_id != @id
-        $stderr.puts("FATAL_ERROR: On line #{line_num} **Power-end\{#{end_id}\} does not match **Power-start\{#{@id}\}") if end_id != @id
+        log_fatal(self, line_num, @info_filename, "**Power-end\{#{end_id}\} does not match **Power-start\{#{@id}\}") if end_id != @id
         @fatal_error_seen = true
       end
       @local_refs.keys().each() {
@@ -377,12 +387,12 @@ class InfoFileHandlerPower
         # ignore blank lines and commented out lines
       return HandlerResult::CONTINUE, nil
     else
-      $stderr.puts("FATAL ERROR: Invalid line #{line_num}: #{line}")
+      log_fatal(self, line_num, @info_filename, "Invalid line: #{line}")
       @fatal_error_seen = true
       return HandlerResult::CONTINUE, nil
     end
   end
-  
+
   def process_value(line_num, tag, ref_type, given_ref, value)
     # skip values of "@@" as these mean "this value is not known"
     return if value =~ /^\s*@@\s*$/
@@ -395,7 +405,7 @@ class InfoFileHandlerPower
         |lref|
         reference = @local_refs[lref]
         if ref_type =~ /vref/i && reference.nil?()
-          $stderr.puts("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{@info_filename}")
+          log_fatal(self, line_num, @info_filename, "vref refers to non-existent lref{#{lref}}")
           @fatal_error_seen = true
           return
         end
@@ -415,11 +425,11 @@ class InfoFileHandlerPower
         @power.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
       end
     else
-      $stderr.puts("FATAL ERROR: On line #{line_num} in #{@id}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
-      ## TODO @fatal_error_seen = true
+      log_fatal(self, line_num, @info_filename, "In #{@id}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
+      @fatal_error_seen = true
     end
   end
-  
+
   # No sub handlers are allowed: i.e. no new type can start inside this one
   def process_sub_handler(sub_handler)
     raise("No sub block expected but handed #{sub_handler.class.name()}")
@@ -453,7 +463,7 @@ class InfoFileHandlerDimensions
       # e.g. **Dimensions-end{VT100KBD}
       end_id = $1.strip()
       if end_id != @id
-        $stderr.puts("FATAL_ERROR: On line #{line_num} **Dimensions-end\{#{end_id}\} does not match **dimensions-start\{#{@id}\}")
+        log_fatal(self, line_num, @info_filename, "**Dimensions-end\{#{end_id}\} does not match **dimensions-start\{#{@id}\}")
         @fatal_error_seen = true
       end
       @local_refs.keys().each() {
@@ -473,12 +483,12 @@ class InfoFileHandlerDimensions
         # ignore blank lines and commented out lines
       return HandlerResult::CONTINUE, nil
     else
-      $stderr.puts("FATAL ERROR: Invalid line #{line_num}: #{line}")
+      log_fatal(self, line_num, @info_filename, "Invalid line: #{line}")
       @fatal_error_seen = true
       return HandlerResult::CONTINUE, nil
     end
   end
-  
+
   def process_value(line_num, tag, ref_type, given_ref, value)
     # skip values of "@@" as these mean "this value is not known"
     return if value =~ /^\s*@@\s*$/
@@ -491,7 +501,7 @@ class InfoFileHandlerDimensions
         |lref|
         reference = @local_refs[lref]
         if ref_type =~ /vref/i && reference.nil?()
-          $stderr.puts("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{@info_filename}")
+          log_fatal(self, line_num, @info_filename, "vref refers to non-existent lref{#{lref}}")
           @fatal_error_seen = true
           return
         end
@@ -511,11 +521,11 @@ class InfoFileHandlerDimensions
         @dimensions.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
       end
     else
-      $stderr.puts("FATAL ERROR: On line #{line_num} in #{@id}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
-      ## TODO @fatal_error_seen = true
+      log_fatal(self, line_num, @info_filename, "In #{@id}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
+      @fatal_error_seen = true
     end
   end
-  
+
   # No sub handlers are allowed: i.e. no new type can start inside this one
   def process_sub_handler(sub_handler)
     raise("No sub block expected but handed #{sub_handler.class.name()}")
@@ -540,6 +550,7 @@ class InfoFileHandlerOptions
     @refs = refs
     @pubs = pubs
     @options = Options.new(@id, line_num)
+    log_debug(self, line_num, @info_filename, "Options-start\{#{@id}\}")
   end
 
   def process_line(line, line_num)
@@ -547,9 +558,10 @@ class InfoFileHandlerOptions
       # e.g. **Options-end{DEC4600}
       end_id = $1.strip()
       if end_id != @id
-        $stderr.puts("FATAL_ERROR: On line #{line_num} **Options-end\{#{end_id}\} does not match **Options-start\{#{@id}\}")
+        log_fatal(self, line_num, @info_filename, "**Options-end\{#{end_id}\} does not match **Options-start\{#{@id}\}")
         @fatal_error_seen = true
       end
+      log_debug(self, line_num, @info_filename, "Options-end\{#{@id}\}")
       return HandlerResult::COMPLETED, nil
     elsif line =~ /^ \s* \*\*Option\s*:\s*(.*)\s*$/ix
       option_text = $1.strip()
@@ -562,49 +574,16 @@ class InfoFileHandlerOptions
         # ignore blank lines and commented out lines
       return HandlerResult::CONTINUE, nil
     else
-      $stderr.puts("FATAL ERROR in Option: Invalid line #{line_num}: #{line}")
+      log_fatal(self, line_num, @info_filename, "Invalid line: #{line}")
       @fatal_error_seen = true
       return HandlerResult::CONTINUE, nil
     end
   end
-  
-  def process_option(line_num, tag, ref_type, given_ref, value)
-    # skip values of "@@" as these mean "this value is not known"
-    return if value =~ /^\s*@@\s*$/
 
-    # Build an array of the valid references used here
-    ref_array = []
-    reference = nil
-    unless given_ref.nil?()
-      given_ref.split(",").each() {
-        |lref|
-        reference = @local_refs[lref]
-        if ref_type =~ /vref/i && reference.nil?()
-          $stderr.puts("vref refers to non-existent lref{#{lref}} on line #{line_num} of #{@info_filename}")
-          @fatal_error_seen = true
-          return
-        end
-        unless reference.nil?()
-          ## TODO @local_refs_non_vref_count[lref] += 1 unless ref_type =~ /vref/i  # count any reference except a vref
-          ref_array << reference if ref_type =~ /vref/i
-        end
-      }
-    end
-    if @permitted_tags_uc.include?(tag.upcase())
-      # If the instance variable already exists then something has been defined twice
-      instance_variable_name = EntriesCollection.tag_to_instance_variable_name(tag)
-      if @entry.instance_variable_defined?(instance_variable_name)
-        raise("On line #{line_num} in #{@entry.identifier()}, tag #{tag} has been defined again.")
-      else
-        # Set the appropriate instance variable to the value+reference(s) specified
-        @options.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
-      end
-    else
-      $stderr.puts("FATAL ERROR: On line #{line_num} in #{@id}, unknown tag [#{tag}] has been used. permitted=#{@permitted_tags_uc}")
-      ## TODO @fatal_error_seen = true
-    end
+  # Currently unused
+  def process_option(line_num, tag, ref_type, given_ref, value)
   end
-  
+
   # No sub handlers are allowed: i.e. no new type can start inside this one
   def process_sub_handler(sub_handler)
     raise("No sub block expected but handed #{sub_handler.class.name()}")
@@ -616,7 +595,7 @@ class Power
 
   attr_reader     :identifier
   attr_reader     :line_num
-  
+
   def initialize(identifier, line_num, possible_tags)
     @identifier = identifier
     @line_num = line_num
@@ -626,7 +605,7 @@ class Power
   def label_defined?()
     return self.instance_variable_defined?("@label")
   end
-  
+
 end
 
 # Encapsulates a Dimensions block
@@ -634,7 +613,7 @@ class Dimensions
 
   attr_reader     :identifier
   attr_reader     :line_num
-  
+
   def initialize(identifier, line_num, possible_tags)
     @identifier = identifier
     @line_num = line_num
@@ -644,7 +623,7 @@ class Dimensions
   def label_defined?()
     return self.instance_variable_defined?("@label")
   end
-  
+
 end
 
 # Encapsulates an options block
@@ -652,7 +631,7 @@ class Options
 
   attr_reader     :identifier
   attr_reader     :line_num
-  
+
   def initialize(identifier, line_num)
     @identifier = identifier
     @line_num = line_num
@@ -677,7 +656,7 @@ class Entry
     @text_block = []
     @local_references = []
   end
-  
+
   def set_docs(docs)
     @docs = docs  # Intended to be an array
   end
@@ -739,11 +718,11 @@ class EntriesCollection
   def add_entry(entry)
     @entries[entry.identifier()] = entry
   end
-  
+
   def [](identifier)
     @entries[identifier]
   end
-  
+
   def each()
     @entries.keys().sort().each() {
       |id|
@@ -785,17 +764,17 @@ class EntriesCollection
           raise("Saw IMMEDIATE_STOP inside an entry: line #{line_num}: [#{line}]")
         end
       when HandlerResult::CONTINUE
-        # $stderr.puts("saw CONTINUE for #{line_num}: [#{line}]")
+        log_debug(self, line_num, info_filename, "saw CONTINUE for: [#{line}]")
       when HandlerResult::STACK_HANDLER
         # Use replacement handler
         handlers << extra
         current_handler = extra
-        # $stderr.puts("processed result: STACK_HANDLER for #{line_num}: [#{line}]")
+        log_debug(self, line_num, info_filename, "processed result: STACK_HANDLER for: [#{line}]")
       when HandlerResult::COMPLETED
         fatal_error_seen = true if current_handler.fatal_error_seen()
         handlers.pop()
         handlers[-1].process_sub_handler(current_handler)  # TODO actually this should be passed to the handler that caused it to be invoked
-        # $stderr.puts("saw  result: COMPLETED for #{line_num}: [#{line}]")
+        log_debug(self, line_num, info_filename, "saw  result: COMPLETED for: [#{line}]")
       else
         raise("saw UNKNOWN result: #{result} for line #{line_num}: [#{line}]")
       end
@@ -805,7 +784,7 @@ class EntriesCollection
     # Either way, there should be one handler on the stack and it should be the Outer one
     # (which is the only one that allows **stop-processing).
     if (handlers.size() > 1) or !handlers[0].respond_to?(:stop_processing_is_valid)
-      $stderr.puts("Finished processing mid-entry for file #{info_filename}")
+      log_fatal(self, line_num, info_filename, "Finished processing mid-entry")
       fatal_error_seen = true
     elsif handlers[0].fatal_error_seen()
       fatal_error_seen = true           # Catch the Outer handler's fatal error if one has been seen
