@@ -1,0 +1,72 @@
+
+
+**Start-systems-entry{VAX4050}{VAX}{VAX4000}
+**Sys-name: VAX 4000-50
+**Desc-name: VAX 4000 Model 50
+**Def-lref{1} = ref{DEC-PR-1994-03-14-VAX4050}
+**Announcement**vref{1}: 1994-03-14
+**OS-support-VMS-early**vref{1}: V5.5-2
+**OS-support-VMS**vref{1}: V6.1
+**CPU-chip**vref{1}: NVAX
+**VUPs**vref{1}: 20
+**Minimum-memory**vref{1}: 16MB
+**Maximum-memory**vref{1}: 128MB
+**End-systems-entry{VAX4050}
+
+Invalid line to be spotted by parser
+
+**Start-systems-entry{VAX4100}{VAX}{VAX4000}
+Badly formed line within entry
+**No-such-tag-in-entry: foo
+**document = doc{this-document-does-not-exist}
+**document = doc{DEC:EK-473AA-MG-A01}
+**document = doc{DEC:EK-473AA-MG-A01}
+**Def-lref{1} = ref{EK-467AA-TI.A01}
+**Def-lref{2} = ref{EK-473AB-MG.C01}
+**def-lref{3} = ref{EK-VAXCT-CG-006}
+**def-lref{4} = ref{CU-1992-07-15}
+**def-lref{5} = ref{CU-1992-09-21}
+**def-lref{6} = ref{CU-1993-10-12}
+**Def-lref{7} = ref{CU-1994-05-23}
+**Text-start
+foo **vref{100} fee
+**Text-end
+
+**Power-start{test0}
+**I-max**vref{101}: 100W
+**Power-end{test0}
+
+**Dimensions-start{test0}
+**Height**vref{102}: 10mm
+**Dimensions-end{test0}
+
+**CPU-module**vref{99}: KA52-AA
+
+**Power-start{Test}
+Bad line in power
+**No-such-tag-in-power: foo
+**Power-end{Test}
+**Dimensions-start{test}
+Bad line in dimensions
+**No-such-tag-in-dimensions: foo
+**Dimensions-end{test}
+**Options-start{test}
+bad line in options
+**Options-end{test}
+**Power-start{test2}
+**Power-end{test2}
+
+**Power-start{test3}
+**Label: foo
+**Power-end{test2}
+**Dimensions-start{test3}
+**Label: foo
+**Dimensions-end{test2}
+**Options-start{test3}
+**Label: foo
+**options-end{test2}
+
+**def-lref{61} = ref{bad-ref}
+
+**End-systems-entry{VAX4100}
+

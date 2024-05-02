@@ -286,6 +286,10 @@ $(YAML_OUTPUT)/printers.yaml:  info/printers.info $(TAGS.PRINTERS) $(REFS) $(PUB
 bin/printers.infobox.mediawiki.txt: $(YAML_OUTPUT)/printers.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/entry-yaml-to-infobox-mediawiki.rb Printer $< $(TAGS.PRINTERS) $(REFS) > $@
 
+# test data
+$(YAML_OUTPUT)/test.yaml:  info/test.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/entries-info-to-yaml.rb vax $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
+
 clean:
 	@rm -f bin/*
 
