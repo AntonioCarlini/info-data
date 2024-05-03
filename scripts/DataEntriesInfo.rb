@@ -139,6 +139,9 @@ class InfoFileHandlerEntry
       }
       @entry.set_docs(@local_docs.values())
       @entry.set_local_references(@local_refs)
+      @entry.set_power(@power)
+      @entry.set_dimensions(@dimensions)
+      @entry.set_options(@options)
       return HandlerResult::COMPLETED, nil
     elsif line =~ /^\s*\*\*Def-lref\{(\d+)\}\s*=\s*ref\{(.*)\}\s*$/i
       id = $1
@@ -606,6 +609,27 @@ class Power
     return self.instance_variable_defined?("@label")
   end
 
+  # This function will be called when to_yaml() encounters an object of type Power.
+  # It encodes its data as though it were a hash of:
+  #   { tag e.g. "FRS-date" => [value, ref#1, ref#2] }
+  #
+  def encode_with(coder)
+    h = {}
+
+    # For each possible tag, if it is present, represent it in the output.
+    @possible_tags.each() {
+      |key|
+      instance_variable_name = EntriesCollection.tag_to_instance_variable_name(key)
+      if self.instance_variable_defined?(instance_variable_name)
+        # Use tag (i.e. the key) for the "name" and represent the value as an array with the first element as the actual value
+        # and any further elements representing references.
+        h[key] = self.instance_variable_get(instance_variable_name).as_array()
+      end
+    }
+
+    coder.represent_map(nil, h)
+  end
+
 end
 
 # Encapsulates a Dimensions block
@@ -624,9 +648,29 @@ class Dimensions
     return self.instance_variable_defined?("@label")
   end
 
+  # This function will be called when to_yaml() encounters an object of type Dimensions.
+  # It encodes its data as though it were a hash of:
+  #   { tag e.g. "FRS-date" => [value, ref#1, ref#2] }
+  #
+  def encode_with(coder)
+    h = {}
+
+    # For each possible tag, if it is present, represent it in the output.
+    @possible_tags.each() {
+      |key|
+      instance_variable_name = EntriesCollection.tag_to_instance_variable_name(key)
+      if self.instance_variable_defined?(instance_variable_name)
+        # Use tag (i.e. the key) for the "name" and represent the value as an array with the first element as the actual value
+        # and any further elements representing references.
+        h[key] = self.instance_variable_get(instance_variable_name).as_array()
+      end
+    }
+
+    coder.represent_map(nil, h)
+  end
 end
 
-# Encapsulates an options block
+# Encapsulates an Options block
 class Options
 
   attr_reader     :identifier
@@ -635,6 +679,16 @@ class Options
   def initialize(identifier, line_num)
     @identifier = identifier
     @line_num = line_num
+  end
+
+  # This function will be called when to_yaml() encounters an object of type Options.
+  # It encodes its data as though it were a hash of:
+  #   { tag e.g. "FRS-date" => [value, ref#1, ref#2] }
+  #
+  def encode_with(coder)
+    h = {}
+    ## TODO currently no data present
+    coder.represent_map(nil, h)
   end
 end
 
@@ -655,6 +709,9 @@ class Entry
     @docs = []
     @text_block = []
     @local_references = []
+    @power_block = []
+    @dimensions_block = []
+    @options_block = []
   end
 
   def set_docs(docs)
@@ -663,6 +720,18 @@ class Entry
 
   def set_local_references(refs)
     @local_references = refs # Intended to be an array
+  end
+
+  def set_power(power)
+    @power_block = power  # Intended to be an array
+  end
+
+  def set_dimensions(dimensions)
+    @dimensions_block = dimensions  # Intended to be an array
+  end
+
+  def set_options(options)
+    @options_block = options  # Intended to be an array
   end
 
   def add_text(extra_text)
@@ -697,6 +766,15 @@ class Entry
 
     # If @text_block is present and not empty, try representing it
     h["text_block"] = @text_block unless @text_block.nil?() || @text_block.empty?()
+
+    # If @power_block is present, try representing it
+    h["power_block"] = @power_block unless @power_block.nil?() || @power_block.empty?()
+
+    # If @dimensions_block is present, try representing it
+    h["dimensions_block"] = @dimensions_block unless @dimensions_block.nil?() || @dimensions_block.empty?()
+
+    # If @options_block is present, try representing it
+    h["options_block"] = @options_block unless @options_block.nil?() || @options_block.empty?()
 
     coder.represent_map(nil, h)
   end

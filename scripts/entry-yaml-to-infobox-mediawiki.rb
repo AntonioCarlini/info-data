@@ -159,6 +159,9 @@ entry_data.keys().each() {
     next if prop =~ /option-title/i
     next if prop =~ /docs/i
     next if prop =~ /text_block/i
+    next if prop =~ /power_block/i
+    next if prop =~ /dimensions_block/i
+    next if prop =~ /options_block/i
     next if prop =~ /local_references/i
     next if prop =~ /OS-support-VMS-early/i  # folded into OS-support-VMS
     next if prop =~ /OS-support-VMS-end/i    # folded into OS-support-VMS
@@ -167,6 +170,7 @@ entry_data.keys().each() {
     array_of_values = properties[prop]
     value = array_of_values.shift()
     ref_text = lref.build_local_refs(array_of_values, refs)
+    op.puts("DEBUG prop=[#{prop}]")
     op.puts("| #{tags[prop].name()} = #{value}#{ref_text}")
   }
   op.puts("}}")

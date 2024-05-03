@@ -159,6 +159,9 @@ storage.keys().each() {
     next if prop =~ /option-title/i
     next if prop =~ /docs/i
     next if prop =~ /text_block/i
+    next if prop =~ /power_block/i
+    next if prop =~ /dimensions_block/i
+    next if prop =~ /options_block/i
     next if prop =~ /local_references/i
     next if prop =~ /OS-support-VMS-early/i  # folded into OS-support-VMS
     next if prop =~ /OS-support-VMS-end/i    # folded into OS-support-VMS
