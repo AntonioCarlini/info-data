@@ -52,6 +52,7 @@ SCRIPTS += scripts/DataSystemsInfo.rb
 SCRIPTS += scripts/DataTags.rb
 SCRIPTS += scripts/VariableWithReference.rb
 SCRIPTS += scripts/entries-info-to-yaml.rb
+SCRIPTS += scripts/entry-yaml-to-infobox-mediawiki.rb
 SCRIPTS += scripts/pub-txt-to-yaml.rb
 SCRIPTS += scripts/refs-info-to-yaml.rb
 SCRIPTS += scripts/storage-info-to-yaml.rb
