@@ -82,6 +82,7 @@ def process_os_support_vms(properties, lref, refs)
   properties["OS-support-VMS"] = [ base_value ]
 end
 
+entry_class = ARGV.shift()     # This is the entry class : 'systems' or 'storage' etc.
 entry_type = ARGV.shift()      # This might be 'st506' or 'dssi' etc.
 entry_yaml = ARGV.shift()      # This is the entry YAML file
 tags_yaml = ARGV.shift()       # This is the tags YAML file
@@ -96,7 +97,7 @@ refs = YAML.load_file(refs_yaml)
 entry_data = YAML.load_file(entry_yaml)
 
 # Load the supplied tags
-tags = DataTags.new(tags_yaml, 'storage', entry_type)
+tags = DataTags.new(tags_yaml, entry_class, entry_type)
 
 op = Output.new(build_xml)
 
@@ -170,7 +171,6 @@ entry_data.keys().each() {
     array_of_values = properties[prop]
     value = array_of_values.shift()
     ref_text = lref.build_local_refs(array_of_values, refs)
-    op.puts("DEBUG prop=[#{prop}]")
     op.puts("| #{tags[prop].name()} = #{value}#{ref_text}")
   }
   op.puts("}}")

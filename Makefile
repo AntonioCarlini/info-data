@@ -57,7 +57,6 @@ SCRIPTS += scripts/refs-info-to-yaml.rb
 SCRIPTS += scripts/storage-info-to-yaml.rb
 SCRIPTS += scripts/systems-info-to-yaml.rb
 SCRIPTS += scripts/systems-yaml-to-infobox-data.rb
-SCRIPTS += scripts/systems-yaml-to-infobox-mediawiki.rb
 SCRIPTS += scripts/systems-yaml-to-mediawiki.rb
 SCRIPTS += scripts/systems-yaml-to-os-release.rb
 
@@ -150,19 +149,19 @@ bin/vax.mediawiki.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 
 # systems -> infobox-mediawiki
 bin/alpha.infobox.mediawiki.txt: $(YAML_OUTPUT)/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/systems-yaml-to-infobox-mediawiki.rb alpha $< $(TAGS.SYSTEMS) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb systems alpha $< $(TAGS.SYSTEMS) $(REFS) > $@
 
 bin/mips.infobox.mediawiki.txt: $(YAML_OUTPUT)/mips.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/systems-yaml-to-infobox-mediawiki.rb decmips $< $(TAGS.SYSTEMS) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb systems decmips $< $(TAGS.SYSTEMS) $(REFS) > $@
 
 bin/pc.infobox.mediawiki.txt: $(YAML_OUTPUT)/pc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/systems-yaml-to-infobox-mediawiki.rb decpc $< $(TAGS.SYSTEMS) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb systems decpc $< $(TAGS.SYSTEMS) $(REFS) > $@
 
 bin/pdp11.infobox.mediawiki.txt: $(YAML_OUTPUT)/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/systems-yaml-to-infobox-mediawiki.rb pdp11 $< $(TAGS.SYSTEMS) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb systems pdp11 $< $(TAGS.SYSTEMS) $(REFS) > $@
 
 bin/vax.infobox.mediawiki.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/systems-yaml-to-infobox-mediawiki.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb systems vax $< $(TAGS.SYSTEMS) $(REFS) > $@
 
 bin/alpha.os-release.txt: $(YAML_OUTPUT)/alpha.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-os-release.rb alpha $< $(REFS) > $@
@@ -224,67 +223,67 @@ $(YAML_OUTPUT)/tapes-sti.yaml:  info/tapes-sti.info $(TAGS.STORAGE) $(REFS) $(PU
 
 # storage -> infobox-mediawiki
 bin/disks-dssi.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-dssi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/disks-ide.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-ide.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/disks-massbus.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-massbus.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/disks-misc.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-misc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/disks-scsi.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-scsi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/disks-sdi.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-sdi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/disks-st506.infobox.mediawiki.txt: $(YAML_OUTPUT)/disks-st506.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/optical-misc.infobox.mediawiki.txt: $(YAML_OUTPUT)/optical-misc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/optical-scsi.infobox.mediawiki.txt: $(YAML_OUTPUT)/optical-scsi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/tapes-dssi.infobox.mediawiki.txt: $(YAML_OUTPUT)/tapes-dssi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/tapes-massbus.infobox.mediawiki.txt: $(YAML_OUTPUT)/tapes-massbus.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/tapes-misc.infobox.mediawiki.txt: $(YAML_OUTPUT)/tapes-misc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/tapes-scsi.infobox.mediawiki.txt: $(YAML_OUTPUT)/tapes-scsi.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 bin/tapes-sti.infobox.mediawiki.txt: $(YAML_OUTPUT)/tapes-sti.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/storage-yaml-to-infobox-mediawiki.rb Disk $< $(TAGS.STORAGE) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb storage Disk $< $(TAGS.STORAGE) $(REFS) > $@
 
 # terminals -> YAML
 $(YAML_OUTPUT)/terminals.yaml:  info/terminals.info $(TAGS.TERMINALS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.TERMINALS) $(REFS) $(PUBS) > $@
 
 bin/terminals.infobox.mediawiki.txt: $(YAML_OUTPUT)/terminals.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/entry-yaml-to-infobox-mediawiki.rb Terminal $< $(TAGS.TERMINALS) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb terminal Terminal $< $(TAGS.TERMINALS) $(REFS) > $@
 
 # monitors -> YAML
 $(YAML_OUTPUT)/monitors.yaml:  info/monitors.info $(TAGS.MONITORS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.MONITORS) $(REFS) $(PUBS) > $@
 
 bin/monitors.infobox.mediawiki.txt: $(YAML_OUTPUT)/monitors.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/entry-yaml-to-infobox-mediawiki.rb Terminal $< $(TAGS.MONITORS) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb monitor Monitor $< $(TAGS.MONITORS) $(REFS) > $@
 
 # printers -> YAML
 $(YAML_OUTPUT)/printers.yaml:  info/printers.info $(TAGS.PRINTERS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.PRINTERS) $(REFS) $(PUBS) > $@
 
 bin/printers.infobox.mediawiki.txt: $(YAML_OUTPUT)/printers.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
-	scripts/entry-yaml-to-infobox-mediawiki.rb Printer $< $(TAGS.PRINTERS) $(REFS) > $@
+	scripts/entry-yaml-to-infobox-mediawiki.rb printer Printer $< $(TAGS.PRINTERS) $(REFS) > $@
 
 # test data
 $(YAML_OUTPUT)/test.yaml:  info/test.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
