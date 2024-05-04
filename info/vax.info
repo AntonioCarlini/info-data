@@ -4753,7 +4753,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Options-start{VS4090}
 **Option-title: Internal controllers
 **Option: {boards:LCSPX}{Low Cost Graphics Adapter}
-**Option: {boards:SPXg}{8-planeHigh Performance Graphics}
+**Option: {boards:SPXg}{8-planeH igh Performance Graphics}
 **Option: {boards:SPXgt}{24-plane High Performance Graphics}
 **Option: {boards:DSW21}{1-line Synchronous Interface}
 !-- [1]: Graphics modules: LCSPX, SPXg, SPXgt -->
