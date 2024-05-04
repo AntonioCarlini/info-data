@@ -4,7 +4,8 @@
 ! **Def-lref{2} = ref{EK-V1000-UG-001}  VR315 27.2 kg HWD  457 mm 495 mm 452 mm
 
 **Start-monitors-entry{ELT320}{FLATPANEL}{ELT}
-**Sys-name: Planar ELT320 Video Terminal
+**Sys-name: ELT320
+**Desc-name: Planar ELT320 Video Terminal
 **Def-lref{1} = ref{CU-1992-08-10}
 **Emulations**vref{1}: {VT320} {VT220}
 **Display-size**vref{1}: 9"
@@ -15,7 +16,8 @@
 **End-monitors-entry{ELT320}
 
 **Start-monitors-entry{VR150}{MONITOR}{VR}
-**Sys-name: VR150 15" Monochrome Monitor
+**Sys-name: VR150
+**Desc-name: VR150 15" Monochrome Monitor
 **Def-lref{1} = ref{EK-302AB-OG-002}
 **Def-lref{2} = ref{EK-V1000-UG-001}
 **Screen-diagonal**htref{1}: 383mm
@@ -79,6 +81,7 @@
 
 **Start-monitors-entry{VR160}{MONITOR}{VR}
 **Sys-name: VR160 15" Colour Monitor
+**Desc-name: VR160
 **Def-lref{1} = ref{EK-302AB-OG-002}
 **Screen-diagonal**htref{1}: 383mm:(15")  
 **Screen-size**htref{1}: 1024x864 pixels  
@@ -98,7 +101,8 @@
 **End-monitors-entry{VR160}
 
 **Start-monitors-entry{VR260}{MONITOR}{VR}
-**Sys-name: VR260 19" Monochrome Monitor
+**Sys-name: VR260
+**Desc-name: VR260 19" Monochrome Monitor
 **Def-lref{1} = ref{EK-VR260-IN-001}
 **Screen-diagonal**htref{1}: 482mm
 **Dot-pitch**htref{1}: 0.3mm
@@ -117,7 +121,8 @@
 **End-monitors-entry{VR260}
 
 **Start-monitors-entry{VR262}{MONITOR}{VR}
-**Sys-name: VR262 19" Monochrome Monitor
+**Sys-name: VR262
+**Desc-name: VR262 19" Monochrome Monitor
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{EK-VR262-IN-003}
 **Def-lref{3} = ref{EK-V1000-UG-001}
@@ -152,7 +157,8 @@
 **End-monitors-entry{VR262}
 
 **Start-monitors-entry{VR290}{MONITOR}{VR}
-**Sys-name: VR290 19" Colour Monitor
+**Sys-name: VR290
+**Desc-name: VR290 19" Colour Monitor
 **Def-lref{1} = ref{EK-VR290-IN-002}
 **Screen-diagonal**htref{1}: 480mm
 **Dot-pitch**htref{1}: 0.31mm       
@@ -174,7 +180,8 @@
 **End-monitors-entry{VR290}
 
 **Start-monitors-entry{VR297}{MONITOR}{VR}
-**Sys-name: VR297 17" Colour Monitor
+**Sys-name: VR297
+**Desc-name: VR297 17" Colour Monitor
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{CU-1993-08-30}
 **Def-lref{3} = ref{TMAI-1989-11-07}
@@ -209,7 +216,8 @@
 **End-monitors-entry{VR297}
 
 **Start-monitors-entry{VR299}{MONITOR}{VR}
-**Sys-name: VR299 20" Colour Monitor
+**Sys-name: VR299
+**Desc-name: VR299 20" Colour Monitor
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{EK-VR299-IN}
 **Screen-diagonal**lref{2}: 480mm:(20")  
@@ -246,7 +254,8 @@
 ! **Def-lref{3} = ref{EK-V1000-UG-001} VR315 H:400mm Width:400mm D:395mm Weight:13kg
 
 **Start-monitors-entry{VR319-C}{MONITOR}{VR}
-**Sys-name: VR319-C 19" Monochrome Monitor
+**Sys-name: VR319
+**Desc-name: VR319-C 19" Monochrome Monitor
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Html-target: VR319
 ! WARNING WARNING
@@ -282,7 +291,8 @@
 **End-monitors-entry{VR319-C}
 
 **Start-monitors-entry{VR319-D}{MONITOR}{VR}
-**Sys-name: VR319-D 19" Monochrome Monitor
+**Sys-name: VR319-D
+**Desc-name: VR319-D 19" Monochrome Monitor
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Html-target: VR319
 ! WARNING WARNING
@@ -318,7 +328,8 @@
 **End-monitors-entry{VR319-D}
 
 **Start-monitors-entry{VR417}{MONITOR}{VR}
-**Sys-name: VR417 17" Colour Monitor
+**Sys-name: VR417
+**Desc-name: VR417 17" Colour Monitor
 **Def-lref{1} = ref{CU-V6-2B}
 **Def-lref{2} = ref{CU-1995-02-15}
 **Announcement**vref{2}: 1995-02-15
@@ -357,7 +368,8 @@
 **End-monitors-entry{VR417}
 
 **Start-monitors-entry{VRC16}{MONITOR}{VRC}
-**Sys-name: VRC16 17" Colour Monitor
+**Sys-name: VRC16
+**Desc-name: VRC16 17" Colour Monitor
 **Def-lref{1} = ref{EK-PM30E-RB-002}
 **Def-lref{2} = ref{ER-VRC16-IG.002}
 ! from
@@ -396,7 +408,8 @@
 **End-monitors-entry{VRC16}
 
 **Start-monitors-entry{VRC20}{MONITOR}{VRC}
-**Sys-name: VRC20 20" Colour Monitor
+**Sys-name: VRC20
+**Desc-name: VRC20 20" Colour Monitor
 **Def-lref{1} = ref{SUE-1994-12}
 **Announcement**vref{1}: 1994-11
 ! vref{1}: Shadow Mask, auto sync, picture 340mmx270mm
@@ -412,7 +425,8 @@
 **End-monitors-entry{VRC20}
 
 **Start-monitors-entry{VRT16}{MONITOR}{VRT}
-**Sys-name: VRT16 17" Colour Monitor
+**Sys-name: VRT16
+**Desc-name: VRT16 17" Colour Monitor
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Screen-diagonal**htref{1}: 432mm:(17")
 **Triad-pitch**htref{1}: 0.25mm
@@ -445,7 +459,8 @@
 **End-monitors-entry{VRT16}
 
 **Start-monitors-entry{VRT19}{MONITOR}{VRT}
-**Sys-name: VRT19 20" Colour Monitor
+**Sys-name: VRT19
+**Desc-name: VRT19 20" Colour Monitor
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Screen-diagonal**htref{1}: 508mm
 **Triad-pitch**htref{1}: 0.31mm
@@ -490,7 +505,8 @@
 **Stop-processing
 
 **Start-monitors-entry{VRM17}
-**Sys-name: VRM17 17" Monochrome Monitor
+**Sys-name: VRM17
+**Desc-name: VRM17 17" Monochrome Monitor
 **Def-lref{1} = ref{EK-PM30E-RB-002}
 **Def-lref{2} = ref{CU-1994-06-20}
 **last-order**vref{2}: 1994-06-20
