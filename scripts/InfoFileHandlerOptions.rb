@@ -5,6 +5,11 @@ $LOAD_PATH.unshift(Pathname.new(__FILE__).realpath().dirname().dirname().dirname
 
 require_relative "VariableWithReference.rb"
 
+module OptionPart
+  TITLE = 0
+  TEXT = 1
+end
+
 #+
 # The InfoFileHandlerOptions class handles a block of declarations representing options information.
 #-
@@ -38,10 +43,11 @@ class InfoFileHandlerOptions
       return HandlerResult::COMPLETED, nil
     elsif line =~ /^ \s* \*\*Option\s*:\s*(.*)\s*$/ix
       option_text = $1.strip()
-      #TODO process_option(option_text)
+      process_option(line_num, option_text)
       return HandlerResult::CONTINUE, nil
     elsif line =~ /^ \s* \*\*Option-title\s*:\s*(.*)\s*$/ix
       title = $1.strip()
+      @options.add_title(title)
       return HandlerResult::CONTINUE, nil
     elsif line.strip().empty?() || line =~ /^\s*!/ix
         # ignore blank lines and commented out lines
@@ -53,8 +59,24 @@ class InfoFileHandlerOptions
     end
   end
 
-  # Currently unused
-  def process_option(line_num, tag, ref_type, given_ref, value)
+  # Process the value part of a single line of the form
+  #
+  # **Option: {class:name}{text}
+  #
+  # e.g.
+  #
+  # {storage:RF35}{852MB DDSI Disk}
+  #
+  # Currently ignore the first part and use the second part as a text string
+  #
+  def process_option(line_num, value)
+    if value =~ /^\{(.*?)\}\s*\{(.*?)\}$/ix
+      @options.add_option($1.strip(), $2.strip())
+    elsif value =~ /^\{(.*?)\}$/ix
+      @options.add_option($1.strip(), "")
+    else
+      raise("Badly formed option on line #{line_num} in #{@info_filename}")
+    end
   end
 
   # No sub handlers are allowed: i.e. no new type can start inside this one
@@ -72,15 +94,30 @@ class Options
   def initialize(identifier, line_num)
     @identifier = identifier
     @line_num = line_num
+    @options = []
+  end
+
+  def add_option(device, text)
+    @options << [OptionPart::TEXT, [device, text]]
+  end
+
+  def add_title(title)
+    @options << [OptionPart::TITLE, title]
   end
 
   # This function will be called when to_yaml() encounters an object of type Options.
-  # It encodes its data as though it were a hash of:
-  #   { tag e.g. "FRS-date" => [value, ref#1, ref#2] }
-  #
   def encode_with(coder)
-    h = {}
-    ## TODO currently no data present
+    h = []
+    @options.each() {
+      |opt|
+      if opt[0] == OptionPart::TEXT
+        h << ['option_text', opt[1]]
+      elsif opt[0] == OptionPart::TITLE
+        h << ['option_title', opt[1]]
+      else
+        raise("Error parsing options")
+      end
+    }
     coder.represent_map(nil, h)
   end
 end
