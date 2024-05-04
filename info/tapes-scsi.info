@@ -88,6 +88,7 @@
 **Def-lref{1} = ref{EK-TKZ62-TM-002}
 **Def-lref{2} = ref{DEC-PR-1995-11-15-TKZ61-62}
 **Sys-name: TKZ61
+**Desc-name: TKZ61 Cartridge Tape Drive
 **Announcement**vref{2}: 1995-11-15
 **OS-support-VMS**vref{2}: OpenVMS VAX V5.5-2, OpenVMS Alpha V1.5
 **OS-support-DU**vref{2}: V2.0
@@ -132,6 +133,7 @@
 **Def-lref{1} = ref{EK-TKZ62-TM-002}
 **Def-lref{2} = ref{DEC-PR-1995-11-15-TKZ61-62}
 **Sys-name: TKZ62
+**Desc-name: TKZ62 Cartridge Tape Drive
 **Announcement**vref{2}: 1995-11-15
 **OS-support-VMS**vref{2}: OpenVMS VAX V5.5-2, OpenVMS Alpha V1.5
 **OS-support-DU**vref{2}: V2.0
@@ -175,6 +177,7 @@
 **Start-storage-entry{TKZ63}{SCSI}{TK}
 **Def-lref{1} = ref{EK-TKZ63-TM}
 **Sys-name: TKZ63
+**Desc-name: TKZ63 Cartridge Tape Drive
 **Capacity**htref{1}: 800MB
 **Interface**htref{1}: SCSI-2
 **Cache**htref{1}: 4MB
@@ -201,6 +204,7 @@
 **Start-storage-entry{TKZ64}{SCSI}{TK}
 **Def-lref{1} = ref{EK-TKZ64-TM}
 **Sys-name: TKZ64
+**Desc-name: TKZ64 Cartridge Tape Drive
 **Capacity**htref{1}: 833MB
 **Cache**htref{1}: 4MB
 **Interface**htref{1}: SCSI-2
