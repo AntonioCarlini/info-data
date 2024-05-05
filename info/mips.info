@@ -2,6 +2,7 @@
 ! DECsystem 5000 Model 133 Server: https://groups.google.com/forum/#!original/biz.dec/xdFkppGtiP4/wbH2auXua9EJ
 **Start-systems-entry{DST2100}{DECMIPS}{DS3100}
 **Sys-name: DECstation 2100
+**Desc-name: DECstation 2100
 **Def-lref{1} = ref{DS3100}
 **Def-lref{2} = ref{EK-302AB-OG-002}
 **Def-lref{3} = ref{CU-1992-01-31}
@@ -52,6 +53,7 @@
 **Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{7} = ref{CU-1992-01-31}
 **Sys-name: DECstation 3100
+**Desc-name: DECstation 3100
 **Announcement**vref{5}: 1989-01-09
 **OS-support-DU**vref{7}: V1.0
 **Last-order**vref{4}: 1992-12-18
@@ -113,7 +115,7 @@
 **Def-lref{5} = ref{DEC-PR-1992-06-26}
 **Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{7} = ref{CU-1991-12-20}
-**Sys-name: DS5020
+**Sys-name: DECstation 5000-20
 **Desc-name: DECstation 5000 Model 20
 **Last-order**vref{4}: 1994-01-28
 **Last-ship**vref{4}: 1994-04-01
@@ -184,7 +186,7 @@
 **Def-lref{5} = ref{DEC-PR-1992-06-26}
 **Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{7} = ref{CU-1991-12-20}
-**Sys-name: DS5025
+**Sys-name: DECstation 5000-25
 **Desc-name: DECstation 5000 Model 25
 **Announcement**vref{7}: 1991-12-20
 **Last-order**vref{4}: 1994-01-28
@@ -253,7 +255,7 @@
 **Def-lref{4} = ref{CU-1992-06-05}
 **Def-lref{5} = ref{CU-1993-12-06}
 **Def-lref{6} = ref{DEC-PR-1992-06-26}
-**Sys-name: DS5033
+**Sys-name: DECstation 5000-33
 **Desc-name: DECstation 5000 Model 33
 **Announcement**vref{4}: 1992-05-15
 **Last-order**vref{5}: 1994-01-28
@@ -298,7 +300,8 @@
 **Def-lref{1} = ref{EK-PM30F-MG-004}
 **Def-lref{2} = ref{CU-1993-12-06}
 **Def-lref{3} = ref{CU-1993-05-10}
-**Sys-name: DECstation 5000 Model 50
+**Sys-name: DECstation 5000-50
+**Desc-name: DECstation 5000 Model 50
 **Announcement**vref{3}: 1993-05-10
 **Last-order**vref{2}: 1994-01-28
 **Last-ship**vref{2}: 1994-04-01
@@ -337,7 +340,8 @@
 
 **Start-systems-entry{DST5100}{DECMIPS}{DS5000}
 **Def-lref{1} = ref{CU-1992-01-31}
-**Sys-name: DECstation 5000 Model 100
+**Sys-name: DECstation 5000-100
+**Desc-name: DECstation 5000 Model 100
 **OS-support-DU**vref{1}: V1.0
 **Num-proc: 1
 **End-systems-entry{DST5100}
@@ -347,7 +351,8 @@
 **Def-lref{2} = ref{CU-1992-06-05}
 **Def-lref{3} = ref{CU-1992-01-31}
 ! vref{DECdirect-AUG91} says DECstation 5000 Models 120 and 125 differ only in the CPU module
-**Sys-name: DECstation 5000 Model 120
+**Sys-name: DECstation 5000-120
+**Desc-name: DECstation 5000 Model 120
 **OS-support-DU**vref{3}: V1.0
 **Last-order**vref{2}: 1992-06-05
 **Last-ship**vref{2}: 1992-09-25
@@ -375,7 +380,8 @@
 **Def-lref{3} = ref{CU-1992-08-10}
 **Def-lref{4} = ref{CU-1992-01-31}
 ! vref{DECdirect-AUG91} says DECstation 5000 Models 120 and 125 differ only in the CPU module
-**Sys-name: DECstation 5000 Model 125
+**Sys-name: DECstation 5000-125
+**Desc-name: DECstation 5000 Model 125
 **OS-support-DU**vref{4}: V1.0
 **Last-order**vref{3}: 1992-09-25
 **Last-ship**vref{3}: 1992-12-31
@@ -401,7 +407,8 @@
 **Def-lref{1} = ref{DECdirect-FEB92}
 **Def-lref{2} = ref{CU-1991-12-20}
 **Def-lref{3} = ref{CU-1995-09-15}
-**Sys-name: DECstation 5000 Model 133
+**Sys-name: DECstation 5000-133
+**Desc-name: DECstation 5000 Model 133
 **Announcement**vref{2}: 1991-12-20
 **FCS-date**vref{2}: 1992-02
 **Last-order**vref{3}: 1995-12-31
@@ -423,7 +430,8 @@
 
 **Start-systems-entry{DST5150}{DECMIPS}{DS5100}
 **Def-lref{1} = ref{EK-4MMIN-OP.A01}
-**Sys-name: DECstation 5000 Model 150
+**Sys-name: DECstation 5000-150
+**Desc-name: DECstation 5000 Model 150
 **Num-proc**vref{1}: 1
 **SPECmarks**vref{1}: 50
 **Primary-Cache**vref{1}: 8KB-I/8KB-D
@@ -456,7 +464,8 @@
 **Def-lref{2} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{3} = ref{AA-ME85D-TE}
 **Def-lref{4} = ref{CU-1992-01-31}
-**Sys-name: DECstation 5000 Model 200
+**Sys-name: DECstation 5000-200
+**Desc-name: DECstation 5000 Model 200
 **OS-support-DU**vref{4}: V1.0
 **Codename**vref{2}: 3MAX
 **OS-support-ULTRIX**vref{3}: V4.0
@@ -482,7 +491,8 @@
 **Def-lref{5} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{6} = ref{CU-1991-12-20}
 ! [1]: MS02-AA MS02L-AB (8MB)   MS02-CA MS02-NV (NVRAM module) H7878A
-**Sys-name: DECstation 5000 Model 240
+**Sys-name: DECstation 5000-240
+**Desc-name: DECstation 5000 Model 240
 **Announcement**vref{6}: 1991-12-20
 **Last-order**vref{4}: 1995-12-31
 ! vref{4} actually says Last Ship Date: March 31, 1995 but this must be a typo
@@ -523,7 +533,8 @@
 **Def-lref{1} = ref{EK-PM38C-MG-002}
 **Def-lref{2} = ref{EK-4MMAX–OP.A01}
 **Def-lref{3} = ref{CU-1993-05-10}
-**Sys-name: DECstation 5000 Model 260
+**Sys-name: DECstation 5000-260
+**Desc-name: DECstation 5000 Model 260
 **Announcement**vref{3}: 1993-05-10
 **OS-support-ULTRIX**vref{3}: V4.3A
 **Num-proc**vref{1}: 1
@@ -559,6 +570,7 @@
 **def-lref{2} = ref{CU-1992-09-21}
 **Def-lref{3} = ref{CU-1992-01-31}
 **Sys-name: DECsystem 5100
+**Desc-name: DECsystem 5100
 ! last order date: December 31, 1992; last ship date: March 31, 1993 
 ! verf{2} gives dates below for Europe; for US 
 **OS-support-DU**vref{3}: V1.0
@@ -596,7 +608,7 @@
 
 **Start-systems-entry{DSYS5133}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{DEC-PR-1992-06-22}
-**Sys-name: DECsystem 5133
+**Sys-name: DECsystem 5000-133
 **Desc-name: DECsystem 5000 Model 133
 **Announcement**vref{1}: 1992-06-22
 **OS-support-ULTRIX**vref{1}: V4.2A
@@ -613,7 +625,7 @@
 
 **Start-systems-entry{DSYS5150}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{CU-1993-05-10}
-**Sys-name: DECsystem 5150
+**Sys-name: DECsystem 5000-150
 **Desc-name: DECsystem 5000 Model 150
 **OS-support-ULTRIX**vref{1}: V4.3A
 **End-systems-entry{DSYS5150}
@@ -622,7 +634,8 @@
 **Def-lref{1} = ref{DECdirect-AUG91}
 **Def-lref{2} = ref{AA-ME85D-TE}
 **Def-lref{3} = ref{CU-1992-01-31}
-**Sys-name: DECsystem 5000 Model 200
+**Sys-name: DECsystem 5000-200
+**Desc-name: DECsystem 5000 Model 200
 **OS-support-ULTRIX**vref{2}: V4.0
 **OS-support-DU**vref{3}: V1.0
 **CPU-chip**vref{1}: R3000A
@@ -639,14 +652,16 @@
 
 **Start-systems-entry{DSYS5240}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{CU-1991-12-20}
-**Sys-name: DECsystem 5000 Model 240
+**Sys-name: DECsystem 5000-240
+**Desc-name: DECsystem 5000 Model 240
 **Announcement**vref{1}: 1991-12-20
 **OS-support-ULTRIX**vref{1}: V4.2A
 **End-systems-entry{DSYS5240}
 
 **Start-systems-entry{DSYS5260}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{CU-1993-05-10}
-**Sys-name: DECsystem 5000 Model 260
+**Sys-name: DECsystem 5000-260
+**Desc-name: DECsystem 5000 Model 260
 **OS-support-ULTRIX**vref{1}: V4.3A
 **End-systems-entry{DSYS5260}
 
@@ -654,6 +669,7 @@
 **Def-lref{1} = ref{EK-KN210-TM-001}
 **Def-lref{2} = ref{AA-ME85D-TE}
 **Sys-name: DECsystem 5400
+**Desc-name: DECsystem 5400
 **OS-support-ULTRIX**vref{2}: V4.0
 **CPU-module**htref{1}: KN210
 **Module**htref{1}: M7636
@@ -679,6 +695,7 @@
 **Def-lref{2} = ref{EK-375AA-SM-001}
 **Def-lref{3} = ref{DECdirect-AUG91}
 **Sys-name: DECsystem 5500
+**Desc-name: DECsystem 5500
 **OS-support-ultrix**vref{2}: V4.0
 **OS-support-MDM**vref{2}: Release 133
 **CPU-module**vref{1}: KN220
@@ -712,6 +729,7 @@
 **Start-systems-entry{DSYS5800}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{AA-ME85D-TE}
 **Sys-name: DECsystem 5800
+**Desc-name: DECsystem 5800
 **Announcement**uref{%MIPSCO 77.0 5810 & 582}: 1989-07-11
 **OS-support-ULTRIX**vref{1}: V4.0
 **Codename**uref{%MIPSCO:79.1}: ISIS
@@ -749,7 +767,7 @@
 **Def-lref{3} = ref{EK-D590A-IP-001}
 **Def-lref{4} = ref{CU-1993-12-06}
 **Def-lref{5} = ref{CU-1991-12-20}
-**Sys-name: DS5900
+**Sys-name: DECsystem 5900
 **Desc-name: DECsystem 5900
 **Announcement**vref{5}: 1991-12-20
 **Last-order**vref{4}: 1994-01-28
@@ -787,7 +805,8 @@
 **Def-lref{2} = ref{EK-PM30F-MG-004}
 **Def-lref{3} = ref{EK-370AA-MG-002}
 ! Ref[2]: MS02-AA VR262 VR297 VR299 VRT19 RZ55 RZ56  RZ57 RRD40 TK50Z TLZ04 VSXXX-AA LK201
-**Sys-name: DECstation 5000 Model 200
+**Sys-name: DECstation 5000-200
+**Desc-name: DECstation 5000 Model 200
 **CPU-module: KN02
 **Num-proc: 1
 **CPU-chip**vref{1}: R3000

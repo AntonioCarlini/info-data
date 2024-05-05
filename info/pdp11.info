@@ -6,6 +6,7 @@
 **Def-lref{3} = ref{D-09-25}
 **Def-lref{4} = ref{EB-26077-41}
 **Sys-name: PDP-11/05-S and PDP-11/10-S
+**Desc-name: PDP-11/05-S and PDP-11/10-S
 **Generation**vref{4}: 2nd
 **CPU-module**vref{1,3,4}: KD11-B
 **CPU-cycle**htref{**1}: 310ns
@@ -66,6 +67,7 @@
 **Def-lref{3} = ref{EB-05138-75}
 **Def-lref{4} = ref{DEC-11-H40SA-A-D}
 **Sys-name: PDP-11/35 and PDP-11/40
+**Desc-name: PDP-11/35 and PDP-11/40
 **Generation**vref{2}: 2nd
 **CPU-module**vref{2,4}: KD11-A
 ! vref{1}
@@ -129,6 +131,7 @@
 **Def-lref{3} = ref{EB-26077-41}
 **Def-lref{4} = ref{EK-11004-OP-001}
 **Sys-name: PDP-11/04 
+**Desc-name: PDP-11/04 
 **Generation**vref{3}: 3rd
 **CPU-module**vref{1,4}: KD11-D
 ! vref{2} has a minimum of 16KB
@@ -154,6 +157,7 @@
 **Def-lref{1} = ref{D-09-25}
 **Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/15 
+**Desc-name: PDP-11/15 
 **CPU-module**vref{1,2}: KC11
 **Dimensions-start{tabletop}
 **Label: Tabletop
@@ -183,6 +187,7 @@
 **Def-lref{1} = ref{D-09-25}
 **Def-lref{2} = ref{EB-26077-41}
 **Sys-name: PDP-11/20 
+**Desc-name: PDP-11/20 
 **Generation**vref{2}: 1st
 **CPU-module**vref{1,2}: KA11
 ! vref{1}
@@ -222,6 +227,7 @@
 **Start-systems-entry{PDP1124}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-26077-41}
 **Sys-name: PDP-11/24 
+**Desc-name: PDP-11/24 
 **Generation**vref{1}: 4th
 **CPU-module**vref{1}: KDF11-UA
 ! vref{1}: DC302 chip performs arithmetic and logical functions
@@ -246,6 +252,7 @@
 ! PDP-11/34:  KD11-E + M8264 Sack Timeout module
 ! PDP-11/34A: KD11-EA (M8265, M8266)
 **Sys-name: PDP-11/34 
+**Desc-name: PDP-11/34 
 **CPU-module**vref{2,3}: KD11-E
 **Module**vref{3}: M7265 and M7266
 **Maximum-memory**vref{1}: 248KB (124KW)
@@ -264,6 +271,7 @@
 **Def-lref{2} = ref{EB-26077-41}
 **Def-lref{3} = ref{EK-11034-UG-001}
 **Sys-name: PDP-11/34A
+**Desc-name: PDP-11/34A
 **Generation**vref{2}: 3rd
 **CPU-module**vref{2}: KD11-EA
 **Module**vref{3}: M8265 and M8266
@@ -292,6 +300,7 @@
 **Def-lref{2} = ref{EB-26077-41}
 **Def-lref{3} = ref{EB-24944-18}
 **Sys-name: PDP-11/44
+**Desc-name: PDP-11/44
 **Announcement**vref{3}: 1979
 **Generation**vref{1,2}: 4th
 **CPU-module**vref{2}: KD11-Z
@@ -331,6 +340,7 @@
 **Def-lref{5} = ref{EB-05138-75}
 **Def-lref{6} = ref{EK-1145-OP-001}
 **Sys-name: PDP-11/45 
+**Desc-name: PDP-11/45 
 **Announcement**vref{4}: 1972
 **Generation**vref{3}: 2nd
 ! vref{3} gives KD11-A or KD11-D
@@ -354,6 +364,7 @@
 **Def-lref{2} = ref{EK-1145-OP-001}
 ! vref{1}: MOS based. Core version is 11/45
 **Sys-name: PDP-11/55 
+**Desc-name: PDP-11/55 
 **CPU-module**vref{2}: KB11-D
 **Minimum-memory**vref{1}: 64KB (32KW)
 **Maximum-memory**vref{1}: 248KB (124KW)
@@ -364,6 +375,7 @@
 **Def-lref{2} = ref{EB-17716-18}
 **Def-lref{3} = ref{EB-26077-41}
 **Sys-name: PDP-11/60 
+**Desc-name: PDP-11/60 
 **Generation**vref{3}: 1st
 **CPU-module**vref{3}: KD11-K
 **Cache**vref{1,2}: 2KB
@@ -387,6 +399,7 @@
 **Def-lref{2} = ref{EB-26077-41}
 **Def-lref{3} = ref{EB-24944-18}
 **Sys-name: PDP-11/70 
+**Desc-name: PDP-11/70 
 **Announcement**vref{3}: 1975
 **Generation**vref{2}: 3rd
 ! vref{2} gives KB11-B or KB11-C
@@ -399,11 +412,13 @@
 
 **Start-systems-entry{PDP1174}{PDP11}{UNIBUS}
 **Sys-name: PDP-11/74 
+**Desc-name: PDP-11/74 
 **End-systems-entry{PDP1174}
 
 **Start-systems-entry{PDP1184}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-26077-41}
 **Sys-name: PDP-11/84 
+**Desc-name: PDP-11/84 
 **Announcement**vref{1}: 1985
 **Generation**vref{1}: 5th
 **CPU-module**vref{1}: KDJ11-B
@@ -456,6 +471,7 @@
 **Def-lref{2} = ref{EK-403AA-MM-XX}
 **Def-lref{3} = ref{DEC-PR-1990-05-07}
 **Sys-name: PDP-11/94 
+**Desc-name: PDP-11/94 
 ! vref{2} KDJ11-EB has 4MB, KDJ11-EA has 2MB. Neither supports additional memory.
 ! vref{2} EIS and FP
 ! vref{1}: KTJ11-B M8191 Unibus Adapter Module
@@ -505,6 +521,7 @@
 **Def-lref{1} = ref{EB-24944-18}
 **Def-lref{2} = ref{EK-LSI11-TM-003}
 **Sys-name: PDP-11/03 
+**Desc-name: PDP-11/03 
 **Announcement**vref{1}: 1975
 **CPU-module**vref{2}: KD11-F
 ! vref{2}:
@@ -517,6 +534,7 @@
 **Def-lref{1} = ref{EB-26077-41}
 **Def-lref{2} = ref{EB-24944-18}
 **Sys-name: PDP-11/23
+**Desc-name: PDP-11/23
 **Announcement**vref{2}: 1979
 **CPU-module**vref{1}: KDF11-A or KDF11-B
 **End-systems-entry{PDP1123}
@@ -526,6 +544,7 @@
 **Def-lref{2} = ref{EB-24944-18}
 **Def-lref{3} = ref{EK-1T23B-OP-001}
 **Sys-name: PDP-11/23 PLUS
+**Desc-name: PDP-11/23 PLUS
 **Announcement**vref{2}: 1981
 **CPU-module**vref{1}: KDF11-BA
 **Module**vref{1}: M8189
@@ -547,6 +566,7 @@
 **Start-systems-entry{MicroPDP1123}{PDP11}{QBUS}
 **Def-lref{1} = ref{EK-MIC11-SG-001}
 **Sys-name: MicroPDP-11/23
+**Desc-name: MicroPDP-11/23
 ! vref{1} KDF11-BE has been replaced by the KDF11-BF
 **CPU-module**vref{1}: KDF11-BE or KDF11-BF
 ! vref{1} M8189 identification:
@@ -559,6 +579,7 @@
 
 **Start-systems-entry{PDP1153}{PDP11}{QBUS}
 **Sys-name: PDP-11/53
+**Desc-name: PDP-11/53
 **End-systems-entry{PDP1153}
 
 **Start-systems-entry{MicroPDP1153}{PDP11}{QBUS}
@@ -566,6 +587,7 @@
 ! uPDP-11/83 enclosures: BA23, BA123, BA213, H9642
 **Def-lref{1} = ref{SOCEE-SPR90}
 **Sys-name: MicroPDP-11/53
+**Desc-name: MicroPDP-11/53
 **CPU-chip**vref{1}: J-11
 **CPU-clock**vref{1}: 15MHz
 **Module**vref{1}: KDJ11-DA
@@ -578,6 +600,7 @@
 
 **Start-systems-entry{PDP1173}{PDP11}{QBUS}
 **Sys-name: PDP-11/73
+**Desc-name: PDP-11/73
 **Def-lref{1} = ref{Glossary-CodeNames-1992-01-02}
 **Codename**vref{1}: Orion
 **End-systems-entry{PDP1173}
@@ -585,6 +608,7 @@
 **Start-systems-entry{MicroPDP1173}{PDP11}{QBUS}
 **Def-lref{1} = ref{EK-MIC11-SG-001}
 **Sys-name: MicroPDP-11/73
+**Desc-name: MicroPDP-11/73
 ! vref{1}: KDJ11-BB - 15MHz, no FPP, (FPJ11-AA upgrade available)
 ! vref{1}: KDJ11-BC - 15MHz, no FPP, (no FPP upgrade available)
 **CPU-module**vref{1}: KDJ11-BC or KDJ11-BB
@@ -595,11 +619,13 @@
 
 **Start-systems-entry{PDP1183}{PDP11}{QBUS}
 **Sys-name: PDP-11/83
+**Desc-name: PDP-11/83
 **End-systems-entry{PDP1183}
 
 **Start-systems-entry{MicroPDP1183}{PDP11}{QBUS}
 **Def-lref{1} = ref{EK-MIC11-SG-001}
 **Sys-name: MicroPDP-11/83
+**Desc-name: MicroPDP-11/83
 ! vref{1}: KDJ11-BF includes FPJ11-AB
 **CPU-module**vref{1}: KDJ11-BF
 **Module**vref{1}: M8190-AE
@@ -608,15 +634,15 @@
 **End-systems-entry{MicroPDP1183}
 
 **Start-systems-entry{MicroPDP1193}{PDP11}{QBUS}
-**Sys-name: MicroPDP1193
+**Sys-name: MicroPDP-11/93
 **Desc-name: MicroPDP-11/93
 **Def-lref{1} = ref{DEC-PR-1990-05-07}
 **Announcement**vref{1}: 1990-05-07
 **End-systems-entry{MicroPDP1193}
 
 **Start-systems-entry{Pro325}{PDP11}{Professional}
-**Desc-name: Professional System 325
 **Sys-name: Pro325
+**Desc-name: Professional System 325
 **Def-lref{1} = ref{EK-PC300-V1-001}
 ! vref{1}: Floppy only, no HDD for Pro325. No network OS download
 **CPU-chip**vref{1}: F-11
