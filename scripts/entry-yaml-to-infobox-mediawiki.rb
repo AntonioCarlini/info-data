@@ -38,7 +38,7 @@ class ItemWithReferenceKeys
     @item = item      # Whatever the item is
     @refs = refs      # Should be an array of keys
   end
-  
+
 end
 
 # Handle OS-support-VMS and related properties.
@@ -87,6 +87,34 @@ entry_type = ARGV.shift()      # This might be 'st506' or 'dssi' etc.
 entry_yaml = ARGV.shift()      # This is the entry YAML file
 tags_yaml = ARGV.shift()       # This is the tags YAML file
 refs_yaml = ARGV.shift()       # This is the references YAML file
+options_yaml = ARGV.shift()    # This is the YAML holding options
+
+options_data = {}
+opt_entries = YAML.load_file(options_yaml)
+opt_entries.keys().each() {
+    |id|
+    sys_name = opt_entries[id]['Sys-name']
+    sys_name = sys_name[0] unless sys_name.nil?()
+    desc_name = opt_entries[id]['Desc-name']
+    desc_name = desc_name[0] unless desc_name.nil?()
+
+    desc_name = sys_name if desc_name.nil?() || desc_name.empty?()
+
+    # The final system name must not be empty
+    raise("Options YAML: ID [#id] has empty system name.") if sys_name.nil?() || sys_name.empty?()
+    # The final description must not be empty
+    raise("Options YAML: ID [#id] has empty desciption.") if desc_name.nil?() || desc_name.empty?()
+
+    # Use id as an index but ensure that it is unique
+    raise("Options YAML: entry for ID [#{id}] has already been seen.") if options_data.key?(id)
+    options_data[id] = desc_name
+
+    # Only use sys_name as an index if it differs from id
+    if sys_name != id
+      raise("Options YAML: entry for ID [#{sys_name}] has already been seen.") if options_data.key?(sys_name)
+      options_data[id] = desc_name
+    end
+}
 
 build_xml = true
 
@@ -107,7 +135,7 @@ page_time = Time.now().strftime("%Y-%m-%dT%H:%M:%SZ")
 # The comment will indicate the latest modification time of the source file
 source_file_time = File.mtime(entry_yaml)
 
-# entry_data will be a hash of {device name => properties-hash} 
+# entry_data will be a hash of {device name => properties-hash}
 # properties-hash will be {property => array-of-values}
 # array-of-values[0] will be the value, [1] onwards will be references.
 
@@ -146,7 +174,7 @@ entry_data.keys().each() {
   end
 
   # OS-support-VMS, OS-support-VMS-early and OS-support-end need special handling.
-  
+
 
   op.puts("== #{name_prefix}#{name} ==")
   op.puts()
@@ -167,7 +195,7 @@ entry_data.keys().each() {
     next if prop =~ /OS-support-VMS-early/i  # folded into OS-support-VMS
     next if prop =~ /OS-support-VMS-end/i    # folded into OS-support-VMS
     process_os_support_vms(properties, lref, refs) if prop =~ /OS-support-VMS/i    # pre-process OS-support-VMS, then process as any other property
-    
+
     array_of_values = properties[prop]
     value = array_of_values.shift()
     ref_text = lref.build_local_refs(array_of_values, refs)
@@ -186,7 +214,7 @@ entry_data.keys().each() {
         ref_text = lref.build_single_ref(ref_key, refs[ref_key])
         "#{ref_text}"
      }
-      op.puts("#{line}") 
+      op.puts("#{line}")
     }
     op.puts()
   end
