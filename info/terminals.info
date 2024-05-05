@@ -1,7 +1,8 @@
 ! RF-VT240: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.47
 
 **Start-terminals-entry{VT50}{DECVT}{VT5x}
-**Sys-name: VT50 Video Terminal
+**Sys-name: VT50
+**Desc-name: VT50 Video Terminal
 **Def-lref{1} = ref{DEC-00-HVTUA-A-D}
 **document = doc{DEC:EK-VT502-PG-001}    ! VT50/VT52 Pocket Service Guide
 **document = doc{DEC:EK-VT5C-OP-003}     ! VT50-Series Copier User's Manual
@@ -30,7 +31,8 @@
 **End-terminals-entry{VT50}
 
 **Start-terminals-entry{VT52}{DECVT}{VT5x}
-**Sys-name: VT52 Video Terminal
+**Sys-name: VT52
+**Desc-name: VT52 Video Terminal
 **Def-lref{1} = ref{EK-VT5X-OP-001}
 **Def-lref{2} = ref{EK-VT52-MM-002}
 **document = doc{DEC:EK-VT52-MM-002}     ! VT52 DECscope Maintenance Manual
@@ -67,7 +69,8 @@
 **End-terminals-entry{VT52}
 
 **Start-terminals-entry{VT55}{DECVT}{VT52}
-**Sys-name: VT55 Video Terminal
+**Sys-name: VT55
+**Desc-name: VT55 Video Terminal
 **def-lref{1} = ref{EK-VT55E-TM-001}
 **def-lref{2} = ref{CU-1993-05-31}
 **document=doc{DEC:AA-4949A-TC} ! VT55 Programming Manual
@@ -88,7 +91,8 @@
 **End-terminals-entry{VT55}
 
 **Start-terminals-entry{VT100}{DECVT}{VT100}
-**Sys-name: VT100 Video Terminal
+**Sys-name: VT100
+**Desc-name: VT100 Video Terminal
 **def-lref{1} = ref{EK-VT100-UG-001}
 **Screen-diagonal**htref{1}: 305mm
 **Rendition**htref{1}: Monochrome
@@ -151,7 +155,8 @@
 **End-terminals-entry{VT100}
 
 **Start-terminals-entry{VT101}{DECVT}{VT100}
-**Sys-name: VT101 Video Terminal
+**Sys-name: VT101
+**Desc-name: VT101 Video Terminal
 **Def-lref{1} = ref{EK-V1001-UG-002}
 **document=doc{DEC:MP-01066-00} ! VT101 Family Field Maintenance Print Set
 **Phosphor**vref{1}: P4
@@ -199,13 +204,15 @@
 **End-terminals-entry{VT101}
 
 **Start-terminals-entry{VT102}{DECVT}{VT100}
-**Sys-name: VT102 Video Terminal
+**Sys-name: VT102
+**Desc-name: VT102 Video Terminal
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 6 c
 **End-terminals-entry{VT102}
 
 **Start-terminals-entry{VT103}{DECVT}{VT100}
-**Sys-name: VT103 Video Terminal
+**Sys-name: VT103
+**Desc-name: VT103 Video Terminal
 **Def-lref{1} = ref{EK-VT103-UG-001}
 **Screen-diagonal**vref{1}: 305mm
 **Rendition: Monochrome
@@ -255,7 +262,8 @@
 **End-terminals-entry{VT103}
 
 **Start-terminals-entry{VT105}{DECVT}{VT100}
-**Sys-name: VT105 Video Terminal
+**Sys-name: VT105
+**Desc-name: VT105 Video Terminal
 **Def-lref{1} = ref{EK-VT105-TM-001}
 **Screen-diagonal**vref{1}: 305mm
 **Rendition: Monochrome
@@ -307,7 +315,8 @@
 **End-terminals-entry{VT105}
 
 **Start-terminals-entry{VT125}{DECVT}{VT100}
-**Sys-name: VT125 Video Terminal
+**Sys-name: VT125
+**Desc-name: VT125 Video Terminal
 **Def-lref{1} = ref{EK-VT125-UG-002}
 **Screen-diagonal: 305mm
 **Rendition: Monochrome
@@ -361,7 +370,8 @@
 **End-terminals-entry{VT125}
 
 **Start-terminals-entry{VT131}{DECVT}{VT100}
-**Sys-name: VT131 Video Terminal
+**Sys-name: VT131
+**Desc-name: VT131 Video Terminal
 **Def-lref{1} = ref{EK-VT131-UG-003}
 **Screen-diagonal**htref{1}: 305mm
 **Rendition**htref{1}: Monochrome
@@ -419,7 +429,8 @@
 **End-terminals-entry{VT131}
 
 **Start-terminals-entry{VT132}{DECVT}{VT100}
-**Sys-name: VT132 Video Terminal
+**Sys-name: VT132
+**Desc-name: VT132 Video Terminal
 **Def-lref{1} = ref{EK-VT132-UG-002}
 **Rendition: Monochrome
 **Status-line: No
@@ -470,7 +481,8 @@
 **End-terminals-entry{VT132}
 
 **Start-terminals-entry{VT1000}{DECVT}{VT1000}
-**Sys-name: VT1000 Video Terminal
+**Sys-name: VT1000
+**Desc-name: VT1000 Video Terminal
 **Def-lref{1} = ref{EK-V1000-UG-001}
 **document = doc{DEC:EK-V1000-SV-002}   ! VT1000/VT1200 and DECimage 1200 Service guide
 **OS-support-VMS**vref{1}: V5.3-1
@@ -523,7 +535,8 @@
 **End-terminals-entry{VT1000}
 
 **Start-terminals-entry{VT1200}{DECVT}{VT1000}
-**Sys-name: VT1200 Video Terminal
+**Sys-name: VT1200
+**Desc-name: VT1200 Video Terminal
 **Def-lref{1} = ref{EK-V1200-UG-001}
 **document = doc{DEC:EK-V1000-SV-002}   ! VT1000/VT1200 and DECimage 1200 Service guide
 ! vref{1}: supported monitors: VR315, VR319, VRE01
@@ -549,7 +562,8 @@
 **End-terminals-entry{VT1200}
 
 **Start-terminals-entry{VT220}{DECVT}{VT200}
-**Sys-name: VT220 Video Terminal
+**Sys-name: VT220
+**Desc-name: VT220 Video Terminal
 **Def-lref{1} = ref{EK-V220-UG-003}
 **Def-lref{2} = ref{DA-1987-08-25-VT2xx}
 ! TODO misformed Retirement line, so re-check
@@ -605,7 +619,8 @@
 **End-terminals-entry{VT220}
 
 **Start-terminals-entry{VT240}{DECVT}{VT200}
-**Sys-name: VT240 Video Terminal
+**Sys-name: VT240
+**Desc-name: VT240 Video Terminal
 **Def-lref{1} = ref{DA-1987-08-25-VT2xx}
 **Def-lref{2} = ref{EK-VT240-UG-003}
 **document=doc{DEC:EK-VT240-PS-002} ! VT240 Series Pocket Service Guide
@@ -651,7 +666,8 @@
 **End-terminals-entry{VT240}
 
 **Start-terminals-entry{VT241}{DECVT}{VT200}
-**Sys-name: VT241 Video Terminal
+**Sys-name: VT241
+**Desc-name: VT241 Video Terminal
 **Def-lref{1} = ref{DA-1987-08-25-VT2xx}
 **Def-lref{2} = ref{EK-VT240-UG-003}
 **document=doc{DEC:EK-VT240-PS-002} ! VT240 Series Pocket Service Guide
@@ -695,7 +711,8 @@
 **End-terminals-entry{VT241}
 
 **Start-terminals-entry{VT320}{DECVT}{VT300}
-**Sys-name: VT320 Video Terminal
+**Sys-name: VT320
+**Desc-name: VT320 Video Terminal
 **Def-lref{1} = ref{EK-VT320-UU-001}
 **Def-lref{2} = ref{EK-VT3XX-UG-002}
 **Def-lref{3} = ref{EK-VT3XX-TP-002}
@@ -771,7 +788,8 @@
 **End-terminals-entry{VT320}
 
 **Start-terminals-entry{VT330}{DECVT}{VT300}
-**Sys-name: VT330 Video Terminal
+**Sys-name: VT330
+**Desc-name: VT330 Video Terminal
 **Def-lref{1} = ref{EK-VT3XX-UG-002}
 **document = doc{DEC:EK-VT3XX-TP-002}    ! VT330/VT340 Programmer Reference Manual. Volume 1: Text Processing
 **document = doc{DEC:EK-VT3XX-HR-002}    ! VT330/VT340 Programmer Pocket Guide
@@ -822,7 +840,8 @@
 **End-terminals-entry{VT330}
 
 **Start-terminals-entry{VT330PLUS}{DECVT}{VT300}
-**Sys-name: VT330+ Video Terminal
+**Sys-name: VT330+
+**Desc-name: VT330+ Video Terminal
 **Def-lref{1} = ref{CU-1992-08-10}
 **Last-order**vref{1}: 1992-08-10
 **Html-target: vt300
@@ -831,7 +850,8 @@
 **End-terminals-entry{VT330PLUS}
 
 **Start-terminals-entry{VT340}{DECVT}{VT300}
-**Sys-name: VT340 Video Terminal
+**Sys-name: VT340
+**Desc-name: VT340 Video Terminal
 **Def-lref{1} = ref{EK-VT3XX-UG-002}
 **document = doc{DEC:EK-VT3XX-TP-002}    ! VT330/VT340 Programmer Reference Manual. Volume 1: Text Processing
 **document = doc{DEC:EK-VT3XX-HR-002}    ! VT330/VT340 Programmer Pocket Guide
@@ -883,7 +903,8 @@
 **End-terminals-entry{VT340}
 
 **Start-terminals-entry{VT420}{DECVT}{VT400}
-**Sys-name: VT420 Video Terminal
+**Sys-name: VT420
+**Desc-name: VT420 Video Terminal
 **Def-lref{1} = ref{EK-VT420-UU-001}
 **Def-lref{2} = ref{EK-VT420-UU-002}
 **Screen-sizes**vref{2}: {80 x 24,36,48}{132 x 24,36,484}
