@@ -144,13 +144,15 @@
 **End-printers-entry{LJ252}
 
 **Start-printers-entry{LA30N}{PRINTER}{LA}
-**Sys-name: LA30N Dot Matrix Companion Printer
+**Sys-name: LA30N
+**Desc-name: LA30N Dot Matrix Companion Printer
 **Def-lref{1} = ref{CU-1996-02-27}
 **Announcement**vref{1}: 1996-02-27
 **End-printers-entry{LA30N}
 
 **Start-printers-entry{LA100}{PRINTER}{LA}
-**Sys-name: LA100 Letterprinter
+**Sys-name: LA100
+**Desc-name: LA100 Letterprinter
 **Def-lref{1} = ref{EK-LA100-RG-001}
 **Def-lref{2} = ref{EK-LP100-OP-001}
 **Def-lref{3} = ref{EK-LP100-IN-001}
@@ -178,7 +180,8 @@
 **End-printers-entry{LA100}
 
 **Start-printers-entry{LA120}{PRINTER}{LA}
-**Sys-name: LA120 Printer
+**Sys-name: LA120
+**Desc-name: LA120 Printer
 **Def-lref{1} = ref{EK-LA120-UG-003}
 **Technology**htref{1}: Impact dot-matrix
 **Character-size**htref{1}: 7x7
@@ -212,7 +215,8 @@
 **End-printers-entry{LA120}
 
 **Start-printers-entry{LA210}{PRINTER}{LA}
-**Sys-name: LA210 Letterprinter
+**Sys-name: LA210
+**Desc-name: LA210 Letterprinter
 **Def-lref{1} = ref{EK-LA210-RM-001}
 **Def-lref{2} = ref{CU-1993-06-21}
 **Last-ship**vref{2}: 1993-06-21
@@ -240,7 +244,8 @@
 **End-printers-entry{LA310}
 
 **Start-printers-entry{LA34}{PRINTER}{LA}
-**Sys-name: LA34 Printer
+**Sys-name: LA34
+**Desc-name: LA34 Printer
 **Def-lref{1} = ref{EK-OLA34-UG-001}
 **Character-pitch**htref{1}: 10, 12, 13.2 and 16.5 cpi
 **Line-spacing**htref{1}: 2, 3, 4, 6, 8 or 12 lines/in
@@ -278,7 +283,8 @@
 **End-printers-entry{LA424}
 
 **Start-printers-entry{LA50}{PRINTER}{LA}
-**Sys-name: LA50 Printer
+**Sys-name: LA50
+**Desc-name: LA50 Printer
 **Def-lref{1} = ref{EK-OLA50-RM-002}
 **Character-pitch**htref{1}: 5, 6, 10 and 12 cpi
 **Data-interface**htref{1}: RS-232
@@ -313,7 +319,8 @@
 **End-printers-entry{LA65}
 
 **Start-printers-entry{LA75}{PRINTER}{LA}
-**Sys-name: LA75 Printer
+**Sys-name: LA75
+**Desc-name: LA75 Printer
 **Def-lref{1} = ref{EK-OLA75-RM-002}
 **Def-lref{2} = ref{CU-1991-10-18}
 **Last-ship**vref{2}: 1992-03-30
@@ -373,21 +380,24 @@
 **End-printers-entry{LF02}
 
 **Start-printers-entry{LG01}{PRINTER}{LG}
-**Sys-name: LG01 Line Printer
+**Sys-name: LG01
+**Desc-name: LG01 Line Printer
 **Def-lref{1} = ref{CU-1992-01-31}
 **Last-order**vref{1}: 1992-06-26
 **Last-ship**vref{1}: 1992-09-30
 **End-printers-entry{LG01}
 
 **Start-printers-entry{LG02}{PRINTER}{LG}
-**Sys-name: LG02 Line Printer
+**Sys-name: LG02
+**Desc-name: LG02 Line Printer
 **Def-lref{1} = ref{CU-1992-01-31}
 **Last-order**vref{1}: 1992-06-26
 **Last-ship**vref{1}: 1992-09-30
 **End-printers-entry{LG02}
 
 **Start-printers-entry{LG04PLUS}{PRINTER}{LG}
-**Sys-name: LG04plus Line Matrix Printer
+**Sys-name: LG04plus
+**Desc-name: LG04plus Line Matrix Printer
 **Def-lref{1} = ref{CU-1996-03-29}
 **Announcement**vref{1}: 1996-03-29
 **End-printers-entry{LG04PLUS}
@@ -424,19 +434,21 @@
 **End-printers-entry{LG06}
 
 **Start-printers-entry{LG08PLUS}{PRINTER}{LG}
-**Sys-name: LG08plus Line Matrix Printer
+**Sys-name: LG08plus
+**Desc-name: LG08plus Line Matrix Printer
 **Def-lref{1} = ref{CU-1996-03-29}
 **Announcement**vref{1}: 1996-03-29
 **End-printers-entry{LG08PLUS}
 
 **Start-printers-entry{LG12PLUS}{PRINTER}{LG}
-**Sys-name: LG12plus Line Matrix Printer
+**Sys-name: LG12plus
+**Desc-name: LG12plus Line Matrix Printer
 **Def-lref{1} = ref{CU-1996-03-29}
 **Announcement**vref{1}: 1996-03-29
 **End-printers-entry{LG12PLUS}
 
 **Start-printers-entry{LN03}{PRINTER}{LN}
-**Sys-name: LN03 Plus Laser Printer
+**Sys-name: LN03
 **Desc-name: LN03 and LN03 Plus Laser Printers
 **Def-lref{1} = ref{EK-OLN03-RM-002}
 **Def-lref{2} = ref{EK-LN03S-RM-001}
@@ -648,7 +660,8 @@
 
 **Start-printers-entry{tLPS20}{PRINTER}{LPS}
 **Def-lref{1} = ref{EK-TPS20-SG-0011}
-**Sys-name: turbo PrintServer 20
+**Sys-name: tPS20
+**Desc-name: turbo PrintServer 20
 ! [1] Duplex
 ! [1] Duplex printing is 16 pages/min
 ! [1] Built-in PostScript support
@@ -674,13 +687,15 @@
 **End-printers-entry{LPS32}
 
 **Start-printers-entry{LQP02}{PRINTER}{LQ}
-**Sys-name: LQP02 Printer
+**Sys-name: LQP02
+**Desc-name: LQP02 Printer
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 1 3 ; Ps c
 **End-printers-entry{LQP02}
 
 **Start-printers-entry{LQP03}{PRINTER}{LQ}
-**Sys-name: LQP03 Printer
+**Sys-name: LQP03
+**Desc-name: LQP03 Printer
 **Def-lref{1} = ref{EK-LQP03-RM-001}
 **Character-pitch**htref{1}: 10, 12 and 15 cpi
 **Data-interface**htref{1}: RS-232
@@ -711,7 +726,8 @@
 **End-printers-entry{LQP03}
 
 **Start-printers-entry{LW100}{PRINTER}{LW}
-**Sys-name: LW100 Letterwriter
+**Sys-name: LW100
+**Desc-name: LW100 Letterwriter
 **Def-lref{1} = ref{EK-LW100-OP-001}
 **Def-lref{2} = ref{EK-LW100-IN-001}
 **Technology**htref{1}: Impact dot-matrix
@@ -733,21 +749,18 @@
 **Power**htref{2}: 45W
 **Power-end{LW100-240V}
 **End-printers-entry{LW100}
-**Start-printers-entry{LG01}{PRINTER}{LG}
-**Def-lref{1} = ref{CU-1992-01-31}
-**Last-order**vref{1}: 1992-06-26
-**Last-ship**vref{1}: 1992-09-30
-**End-printers-entry{LG01}
 
 **Start-printers-entry{LGL4PLUS}{PRINTER}{LGLPLUS}
 **Def-lref{1} = ref{DEC-PR-1996-10-09}
-**Sys-name: LGL8plus
+**Sys-name: LGL4plus
+**Desc-name: LGL4plus Line Matrix Printer
 **Announcement**vref{1}: 1996-10-09
 **Technology**vref{1}: Line matrix
 **End-printers-entry{LGL4PLUS}
 
 **Start-printers-entry{LGL8PLUS}{PRINTER}{LGLPLUS}
 **Sys-name: LGL8plus
+**Desc-name: LGL8plus Line Matrix Printer
 **Def-lref{1} = ref{DEC-PR-1996-10-09}
 **Announcement**vref{1}: 1996-10-09
 **Technology**vref{1}: Line matrix
