@@ -23,6 +23,7 @@
 
 **Start-systems-entry{AXP150}{ALPHA}{DEC2000}
 **Sys-name: DECpc axp 150 and DEC 2000 Model 300 AXP
+**Desc-name: DECpc axp 150 and DEC 2000 Model 300 AXP
 ! Note: the PDF version of {EK-A0636-TM.001} is preliminary and does NOT have dimensions
 **def-lref{1} = ref{EK-A0636-TM.001}
 **def-lref{2} = ref{EK-A0634-OM.001}
@@ -103,7 +104,8 @@
 **End-systems-entry{AXP150}
 
 **Start-systems-entry{DEC3300}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 300
+**Sys-name: DEC 3000-300
+**Desc-name: DEC 3000 Model 300
 **def-lref{2} = ref{EK-PELCN-SV.B01}
 **def-lref{3} = ref{EC-H2315-46}
 **def-lref{4} = ref{CU-1993-04-19}
@@ -141,7 +143,8 @@
 **End-systems-entry{DEC3300}
 
 **Start-systems-entry{DEC3300L}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 300L
+**Sys-name: DEC 3000-300L
+**Desc-name: DEC 3000 Model 300L
 **def-lref{2} = ref{EK-PELCN-SV.B01}
 **def-lref{3} = ref{EC-H2315-46}
 **def-lref{4} = ref{CU-1993-04-19}
@@ -181,7 +184,8 @@
 **End-systems-entry{DEC3300L}
 
 **Start-systems-entry{DEC3300X}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 300X
+**Sys-name: DEC 3000-300X
+**Desc-name: DEC 3000 Model 300X
 **Def-lref{2} = ref{EK-PELCN-SV.B01}
 **Def-lref{3} = ref{CU-V6-3A}
 **Def-lref{4} = ref{CU-V6-5}
@@ -229,7 +233,8 @@
 **End-systems-entry{DEC3300X}
 
 **Start-systems-entry{DEC3300LX}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 300LX
+**Sys-name: DEC 3000-300LX
+**Desc-name: DEC 3000 Model 300LX
 **Def-lref{2} = ref{EK-PELCN-SV.B01}
 **Def-lref{3} = ref{CU-V6-3A}
 **Def-lref{4} = ref{CU-V6-5}
@@ -280,7 +285,8 @@
 **Def-lref{4} = ref{CU-1993-07-19}
 **Def-lref{5} = ref{CU-1994-10-15}
 **Def-lref{6} = ref{CU-1993-08-02}
-**Sys-name: DEC 3000 Model 400/400S AXP
+**Sys-name: DEC 3000-400/400S AXP
+**Desc-name: DEC 3000 Model 400/400S AXP
 **Announcement**vref{3}: 1992-11-23
 **OS-Support-du**vref{6}: V1.2
 **FRS-date**vref{3}: 1992-11-23
@@ -334,7 +340,8 @@
 **def-lref{5} = ref{CU-1993-07-19}
 **Def-lref{6} = ref{CU-1994-10-15}
 **Def-lref{7} = ref{CU-1993-08-02}
-**Sys-name: DEC 3000 Model 500/500S AXP
+**Sys-name: DEC 3000-500/500S AXP
+**Desc-name: DEC 3000 Model 500/500S AXP
 **Announcement**vref{4}: 1992-11-23
 **OS-Support-du**vref{7}: V1.2
 **Last-order**vref{6}: 1994-12-30
@@ -388,7 +395,8 @@
 **End-systems-entry{DEC3500}
 
 **Start-systems-entry{DEC3500X}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 500X AXP
+**Sys-name: DEC 3000-500X AXP
+**Desc-name: DEC 3000 Model 500X AXP
 **Def-lref{1} = ref{EC-H2315-46}
 **def-lref{2} = ref{CU-1993-04-19}
 **def-lref{3} = ref{CU-1993-07-19}
@@ -439,7 +447,8 @@
 **End-systems-entry{DEC3500X}
 
 **Start-systems-entry{DEC3600}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 600
+**Sys-name: DEC 3000-600
+**Desc-name: DEC 3000 Model 600
 **Def-lref{1} = ref{CU-V5-7B}
 **Def-lref{2} = ref{EK-SNDPL-OG.B01}
 **Def-lref{3} = ref{CU-V6-4A}
@@ -489,7 +498,8 @@
 **End-systems-entry{DEC3600}
 
 **Start-systems-entry{DEC3700}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 700
+**Sys-name: DEC 3000-700
+**Desc-name: DEC 3000 Model 700
 **def-lref{1} = ref{CU-V5-7B}
 **def-lref{2} = ref{EK-SNDPL-OG.B01}
 **def-lref{3} = ref{CU-V6-4A}
@@ -543,7 +553,8 @@
 **End-systems-entry{DEC3700}
 
 **Start-systems-entry{DEC3800}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 800/800S
+**Sys-name: DEC 3000-800/800S
+**Desc-name: DEC 3000 Model 800/800S
 **Def-lref{1} = ref{EK-FLMUL-OG.B01}
 **Def-lref{2} = ref{ASCC-1994-03}
 **Def-lref{3} = ref{CU-1993-10-12}
@@ -587,7 +598,8 @@
 **End-systems-entry{DEC3800}
 
 **Start-systems-entry{DEC3900}{ALPHA}{DEC3000}
-**Sys-name: DEC 3000 Model 900
+**Sys-name: DEC 3000-900
+**Desc-name: DEC 3000 Model 900
 **def-lref{1} = ref{CU-V5-7B}
 **def-lref{2} = ref{EK-FLMUL-OG.B01}
 **def-lref{3} = ref{CU-V6-8B}
@@ -648,7 +660,8 @@
 **Def-lref{6} = ref{CU-1994-07-18}
 **Def-lref{7} = ref{QS-TRU64-51B}
 **Def-lref{8} = ref{QS-VMS-V084}
-**Sys-name: DEC 4000 Model 610/620
+**Sys-name: DEC 4000-610/620
+**Desc-name: DEC 4000 Model 610/620
 **Announcement**vref{3}: 1992-11-23
 ! vref{5}: only for one CPU, no SMP
 **Last-order**vref{4}: 1994-09-30
@@ -712,7 +725,7 @@
 **Def-lref{3} = ref{CU-1994-07-18}
 **Def-lref{4} = ref{QS-TRU64-51B}
 **Def-lref{5} = ref{QS-VMS-V084}
-**Sys-name: DEC 4000 Model 710/720
+**Sys-name: DEC 4000-710/720
 **Desc-name: DEC 4000 Model 710/720
 **Announcement**vref{2}: 1993-10-12
 ! Codename from DEC NOTES conference ALPHANOTES_V1
@@ -744,7 +757,8 @@
 **Def-lref{4} = ref{CU-1993-08-02}
 **Def-lref{5} = ref{CU-1994-07-18}
 **Def-lref{6} = ref{QS-TRU64-51B}
-**Sys-name: DEC 7000 Model 600 series
+**Sys-name: DEC 7000-600
+**Desc-name: DEC 7000 Model 600 series
 **Announcement**vref{2}: 1992-11-23
 ! vref{4} states 7610 single CPU (no SMP)
 **OS-Support-du**vref{4,5}: V1.2 (uniprocessor) V3.0 (SMP)
@@ -766,7 +780,8 @@
 **Def-lref{2} = ref{SOC-JAN1995}
 **Def-lref{3} = ref{CU-1994-11-03}
 **Def-lref{4} = ref{QS-TRU64-51B}
-**Sys-name: DEC 7000 Model 700 series
+**Sys-name: DEC 7000-700
+**Desc-name: DEC 7000 Model 700 series
 **Announcement**vref{3}: 1994-11-03
 **OS-support-vms**vref{3}: V6.1
 **OS-support-du**vref{3}: DEC OSF/1 V3.0
@@ -799,6 +814,7 @@
 ! vref{x1} = DIGITAL AlphaServer 300 series - Overview (https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c00342173)
 ! vref{x1} => 512MB max 8SIMM slots PCI 132MB/s ISA 16MB/s 1PCI, 1 ISA, 1 PCI/ISA
 **Sys-name: AlphaServer 300 4/266
+**Desc-name: AlphaServer 300 4/266
 **Announcement**htref{1}: 1996-11-15
 **OS-support-vms**vref{4}: V6.2-1H1
 !**OS-support-vms: OpenVMS V6.2-1H3 try to double check against an SPD?
@@ -821,6 +837,7 @@
 
 **Start-systems-entry{AS400-4-166}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 400 4/166
+**Desc-name: AlphaServer 400 4/166
 **Def-lref{1} = ref{CU-V6-3A}
 **Def-lref{2} = ref{CU-V6-10B}
 **Def-lref{3} = ref{CU-1995-03-01}
@@ -847,6 +864,7 @@
 
 **Start-systems-entry{AS400-4-233}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 400 4/233
+**Desc-name: AlphaServer 400 4/233
 **Def-lref{1} = ref{CU-V6-3A}
 **Def-lref{2} = ref{CU-V6-10B}
 **Def-lref{3} = ref{SOC-JAN1995}
@@ -881,11 +899,13 @@
 
 **Start-systems-entry{AS800-5-333}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 800 5/333
+**Desc-name: AlphaServer 800 5/333
 **OS-support-vms: V7.1-1H1
 **End-systems-entry{AS800-5-333}
 
 **Start-systems-entry{AS800-5-400}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 800 5/400
+**Desc-name: AlphaServer 800 5/400
 **Def-lref{1} = ref{SPEC-res-97q2}
 **Def-lref{2} = ref{SPEC-res-98q2}
 **OS-support-vms: V7.1-1H1
@@ -897,6 +917,7 @@
 
 **Start-systems-entry{AS800-5-500}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 800 5/500
+**Desc-name: AlphaServer 800 5/500
 **Def-lref{1} = ref{SPEC-res-97q4}
 **Def-lref{2} = ref{SPEC-res-98q2}
 **OS-support-vms: V7.1-1H1
@@ -908,6 +929,7 @@
 
 **Start-systems-entry{AS1000-4-200}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000 4/200
+**Desc-name: AlphaServer 1000 4/200
 **def-lref{1} = ref{CU-V6-5A}
 **def-lref{2} = ref{CU-V6-10B}
 **def-lref{3} = ref{CU-V5-11A}
@@ -942,6 +964,7 @@
 
 **Start-systems-entry{AS1000-4-233}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000 4/233
+**Desc-name: AlphaServer 1000 4/233
 **def-lref{1} = ref{CU-V6-5A}
 **def-lref{2} = ref{CU-V6-10B}
 **def-lref{3} = ref{CU-V5-11A}
@@ -966,6 +989,7 @@
 
 **Start-systems-entry{AS1000-4-266}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000 4/266
+**Desc-name: AlphaServer 1000 4/266
 **def-lref{1} = ref{CU-V6-5A}
 **def-lref{2} = ref{CU-V6-10B}
 **def-lref{3} = ref{CU-V5-11A}
@@ -983,6 +1007,7 @@
 
 **Start-systems-entry{AS1000A-4-233}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000A 4/233
+**Desc-name: AlphaServer 1000A 4/233
 **Def-lref{1} = ref{CU-V7-2A}
 **Def-lref{2} = ref{CU-1996-01-31}
 !-- [1]: integrated SVGA controller for both 4/233 and 4/266 -->
@@ -1001,6 +1026,7 @@
 
 **Start-systems-entry{AS1000A-4-266}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000A 4/266
+**Desc-name: AlphaServer 1000A 4/266
 **Def-lref{1} = ref{CU-V7-2A}
 **Def-lref{2} = ref{AS1000A-TECHSUM}
 **Def-lref{3} = ref{SPEC-res-96q1}
@@ -1024,11 +1050,13 @@
 
 **Start-systems-entry{AS1000A-5-266}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 1000A 5/266	
+**Desc-name: AlphaServer 1000A 5/266	
 **OS-support-vms: V6.2-1H2
 **End-systems-entry{AS1000A-5-266}
 
 **Start-systems-entry{AS1000A-5-300}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000A 5/300
+**Desc-name: AlphaServer 1000A 5/300
 **def-lref{1} = ref{EK-ALPSV-SV.B01}
 **def-lref{2} = ref{SPEC-res-96q3}
 ! [1] has:
@@ -1051,6 +1079,7 @@
 
 **Start-systems-entry{AS1000A-5-333}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000A 5/333
+**Desc-name: AlphaServer 1000A 5/333
 **def-lref{1} = ref{AS1000A-TECHSUM}
 **Def-lref{2} = ref{SPEC-res-96q4}
 **OS-support-vms: V6.2-1H2
@@ -1066,6 +1095,7 @@
 
 **Start-systems-entry{AS1000A-5-400}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000A 5/400
+**Desc-name: AlphaServer 1000A 5/400
 **def-lref{1} = ref{AS1000A-TECHSUM}
 **Def-lref{2} = ref{SPEC-res-96q4}
 **OS-support-vms: V6.2-1H2
@@ -1081,6 +1111,7 @@
 
 **Start-systems-entry{AS1000A-5-500}{ALPHA}{AS1000}
 **Sys-name: AlphaServer 1000A 5/500
+**Desc-name: AlphaServer 1000A 5/500
 **Def-lref{1} = ref{SPEC-res-97q2}
 **SPECint95**vref{1}: 14.4 
 **SPECfp95**vref{1}: 17.8 
@@ -1089,6 +1120,7 @@
 
 **Start-systems-entry{AS1200-5-333}{ALPHA}{AS1200}
 **Sys-name: AlphaServer 1200 5/333
+**Desc-name: AlphaServer 1200 5/333
 **Def-lref{1} = ref{SPEC-res-98q2}
 **SPECint95**vref{1}: 16.8
 **SPECfp95**vref{1}: 21.7
@@ -1096,16 +1128,19 @@
 
 **Start-systems-entry{AS1200-5-400}{ALPHA}{AS1200}
 **Sys-name: AlphaServer 1200 5/400
+**Desc-name: AlphaServer 1200 5/400
 **End-systems-entry{AS1200-5-400}
 
 **Start-systems-entry{AS1200-5-466}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 1200 5/466	
+**Desc-name: AlphaServer 1200 5/466	
 **OS-support-vms: V7.1-1H1
 **End-systems-entry{AS1200-5-466}
 
 !
 **Start-systems-entry{AS1200-5-533}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 1200 5/533	
+**Desc-name: AlphaServer 1200 5/533	
 **Def-lref{1} = ref{SPEC-res-97q4}
 **OS-support-vms: V7.1-1H1
 **SPECint95**vref{1}: 16.6
@@ -1114,6 +1149,7 @@
 
 **Start-systems-entry{AS2000-4-200}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2000 4/200
+**Desc-name: AlphaServer 2000 4/200
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{CU-V5-11A}
 **Def-lref{3} = ref{SOC-JAN1995}
@@ -1144,6 +1180,7 @@
 
 **Start-systems-entry{AS2000-4-233}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2000 4/233
+**Desc-name: AlphaServer 2000 4/233
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{CU-V5-11A}
 **Def-lref{3} = ref{CU-1995-04-11}
@@ -1167,6 +1204,7 @@
 
 **Start-systems-entry{AS2000-4-275}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2000 4/275
+**Desc-name: AlphaServer 2000 4/275
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{CU-V5-11A}
 **Def-lref{3} = ref{CU-1995-04-11}
@@ -1220,6 +1258,7 @@
 
 **Start-systems-entry{AS2000-5-375}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2000 5/375
+**Desc-name: AlphaServer 2000 5/375
 **Def-lref{1} = ref{SPEC-res-96q4}
 **Def-lref{2} = ref{QS-VMS-V084}
 **OS-support-VMS-end**vref{2}: V8.2
@@ -1232,7 +1271,7 @@
 **Def-lref{2} = ref{CU-V6-4A}
 **Def-lref{3} = ref{SOC-JAN1995}
 **Def-lref{4} = ref{CU-1994-04-12}
-**Sys-name: AS2100-4-200
+**Sys-name: AlphaServer 2100 4/200
 **Desc-name: AlphaServer 2100 4/200
 ! vref{1}: The AlphaServer 2100 4/200 was originally known as the Digital 2100 Server A500MP. Backed up by ref{CU-1994-11-03}
 ! Name change also mentioned in https://groups.google.com/forum/#!topic/biz.digital.articles/St7NBS-DS8I
@@ -1266,6 +1305,7 @@
 **Def-lref{3} = ref{CU-1995-04-11}
 **Def-lref{4} = ref{CU-1996-04-23}
 **Sys-name: AlphaServer 2100 4/233
+**Desc-name: AlphaServer 2100 4/233
 **Announcement**vref{3}: 1995-04-11
 **FRS-date**vref{3}: 1995-04-11
 !**FRS-date**vref{3}: 1995-04-11
@@ -1283,6 +1323,7 @@
 **Def-lref{3} = ref{SOC-JAN1995}
 **Def-lref{4} = ref{CU-1994-11-03}
 **Sys-name: AlphaServer 2100 4/275
+**Desc-name: AlphaServer 2100 4/275
 **Announcement**vref{4}: 1994-11-03
 **OS-support-vms**vref{1}: V6.1
 **OS-support-DU**vref{4}: DEC OSF/1 V2.0B (uniprocessor), DEC OSF/1 V3.0 (SMP) 
@@ -1303,6 +1344,7 @@
 
 **Start-systems-entry{AS2100-5-250}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2100 5/250
+**Desc-name: AlphaServer 2100 5/250
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{SPEC-res-9509}
 **Def-lref{3} = ref{CU-1995-04-11}
@@ -1325,7 +1367,7 @@
 **End-systems-entry{AS2100-5-250}
 
 **Start-systems-entry{AS2100-5-300}{ALPHA}{ALPHASERVER}
-**Sys-name: AS2100-5/300
+**Sys-name: AlphaServer 2100 5/300
 **Desc-name: AlphaServer 2100 5/300
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{SPEC-res-9512}
@@ -1343,6 +1385,7 @@
 
 **Start-systems-entry{AS2100A-4-275}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2100A 4/275	
+**Desc-name: AlphaServer 2100A 4/275	
 **OS-support-vms: V6.2-1H2
 **Def-lref{1} = ref{CU-1996-01-31}
 **Announcement**vref{1}: 1996-01-31
@@ -1353,6 +1396,7 @@
 
 **Start-systems-entry{AS2100A-5-250}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2100A 5/250	
+**Desc-name: AlphaServer 2100A 5/250	
 **OS-support-vms: V6.2-1H2
 **Def-lref{1} = ref{CU-1996-01-31}
 **Announcement**vref{1}: 1996-01-31
@@ -1363,6 +1407,7 @@
 
 **Start-systems-entry{AS2100A-5-300}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2100A 5/300
+**Desc-name: AlphaServer 2100A 5/300
 **OS-support-vms: V6.2-1H2
 **Def-lref{1} = ref{SPEC-res-96q2}
 **Def-lref{2} = ref{CU-1996-01-31}
@@ -1376,6 +1421,7 @@
 
 **Start-systems-entry{AS2100A-5-375}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 2100A 5/375	
+**Desc-name: AlphaServer 2100A 5/375	
 **Def-lref{1} = ref{SPEC-res-96q4}
 **OS-support-vms: not supported
 **SPECint95**vref{1}: 11.5
@@ -1384,11 +1430,13 @@
 
 **Start-systems-entry{AS4000-5-300E}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4000 5/300E	
+**Desc-name: AlphaServer 4000 5/300E	
 **OS-support-vms: V6.2-1H3
 **End-systems-entry{AS4000-5-300E}
 
 **Start-systems-entry{AS4000-5-466}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4000 5/466
+**Desc-name: AlphaServer 4000 5/466
 **Def-lref{1} = ref{SPEC-res-97q1}
 **SPECint95**vref{1}: 14.1
 **SPECfp95**vref{1}: 19.2 (1-CPU) 26.5 (2-CPU)
@@ -1396,6 +1444,7 @@
 
 **Start-systems-entry{AS4000-5-533}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4000 5/533
+**Desc-name: AlphaServer 4000 5/533
 **Def-lref{1} = ref{SPEC-res-97q4}
 **SPECint95**vref{1}: 16.6
 **SPECfp95**vref{1}: 21.9 (1-CPU) 30.5 (2-CPU)
@@ -1403,6 +1452,7 @@
 
 **Start-systems-entry{AS4000-5-600}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4000 5/533
+**Desc-name: AlphaServer 4000 5/533
 **Def-lref{1} = ref{SPEC-res-97q4}
 **SPECint95**vref{1}: 18.8
 **SPECfp95**vref{1}: 29.2 (1-CPU) 38.9 (2-CPU)
@@ -1410,6 +1460,7 @@
 
 **Start-systems-entry{AS4100-5-300}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4100 5/300
+**Desc-name: AlphaServer 4100 5/300
 **Def-lref{1} = ref{SPEC-res-96q2}
 **Def-lref{2} = ref{CU-1996-05-17}
 **Announcement**vref{2}: 1996-05-17
@@ -1427,6 +1478,7 @@
 
 **Start-systems-entry{AS4100-5-300E}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4100 5/300E
+**Desc-name: AlphaServer 4100 5/300E
 **Def-lref{1} = ref{SPEC-res-96q2}
 **Def-lref{2} = ref{CU-1996-05-17}
 **Announcement**vref{2}: 1996-05-17
@@ -1444,6 +1496,7 @@
 
 **Start-systems-entry{AS4100-5-400}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4100 5/400	
+**Desc-name: AlphaServer 4100 5/400	
 **OS-support-vms: V6.2-1H3
 **Def-lref{1} = ref{SPEC-res-96q4}
 **Def-lref{2} = ref{SPEC-res-96q3}
@@ -1454,6 +1507,7 @@
 
 **Start-systems-entry{AS4100-5-466}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4100 5/466	
+**Desc-name: AlphaServer 4100 5/466	
 **Def-lref{1} = ref{SPEC-res-97q1}
 **OS-support-vms: V6.2-1H3
 **SPECint95**vref{1}: 14.1
@@ -1462,6 +1516,7 @@
 
 **Start-systems-entry{AS4100-5-533}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4100 5/533
+**Desc-name: AlphaServer 4100 5/533
 **Def-lref{1} = ref{SPEC-res-97q4}
 !**Def-lref{2} = ref{SPEC-res-98q2}
 **SPECint95**vref{1}: 16.6
@@ -1472,6 +1527,7 @@
 
 **Start-systems-entry{AS4100-5-600}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4100 5/600
+**Desc-name: AlphaServer 4100 5/600
 **Def-lref{1} = ref{SPEC-res-97q4}
 **SPECint95**vref{1}: 18.8
 **SPECfp95**vref{1}: 29.2 (1-CPU) 38.9 (2-CPU) 51.4 (4-CPU)
@@ -1481,6 +1537,7 @@
 **Def-lref{1} = ref{EK-4100A-SV.PRE}
 ! NB - THIS MAY BE DATA FROM A GENERIC MANUAL
 **Sys-name: AlphaServer 4100
+**Desc-name: AlphaServer 4100
 **Num-proc**vref{1}: 1-4
 **Cache**vref{1}: 8KB-I/8KB-D
 **CPU-technology**vref{1}: 0.5 micron CMOS
@@ -1494,6 +1551,7 @@
 
 **Start-systems-entry{AS8200-5-300}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8200 5/300
+**Desc-name: AlphaServer 8200 5/300
 **Def-lref{1} = ref{SPEC-res-9512}
 **Def-lref{2} = ref{CU-1995-04-11}
 **Announcement**vref{2}: 1995-04-11
@@ -1511,6 +1569,7 @@
 
 **Start-systems-entry{AS8200-5-350}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8200 5/350
+**Desc-name: AlphaServer 8200 5/350
 **OS-support-vms: V6.2
 **Def-lref{1} = ref{SPEC-res-96q1}
 **Def-lref{2} = ref{SPEC-res-96q2}
@@ -1523,6 +1582,7 @@
 
 **Start-systems-entry{AS8200-5-440}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8200 5/440	
+**Desc-name: AlphaServer 8200 5/440	
 **Def-lref{1} = ref{SPEC-res-96q3}
 **Def-lref{2} = ref{SPEC-res-96q4}
 **Def-lref{3} = ref{CU-1996-05-17}
@@ -1536,11 +1596,13 @@
 
 **Start-systems-entry{AS8200-5-622}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8200 5/622	
+**Desc-name: AlphaServer 8200 5/622	
 **OS-support-vms: V6.2-1H3
 **End-systems-entry{AS8200-5-622}
 
 **Start-systems-entry{AS8200-5-625}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8200 5/625	
+**Desc-name: AlphaServer 8200 5/625	
 **Def-lref{1} = ref{SPEC-res-97q4}
 **SPECint95**vref{1}: 18.4
 **SPECfp95**vref{1}: 20.8 (1-CPU) 30.8 (2-CPU) 44.0 (4-CPU) 48.0 (6-CPU)
@@ -1548,6 +1610,7 @@
 
 **Start-systems-entry{AS8200-6-575}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8200 6/575	
+**Desc-name: AlphaServer 8200 6/575	
 **Def-lref{1} = ref{SPEC-res-98q3}
 **SPECint95**vref{1}: 30.1
 **SPECfp95**vref{1}: 44.8 (1-CPU) 57.1 (2-CPU) 82.0 (4-CPU)
@@ -1555,6 +1618,7 @@
 
 **Start-systems-entry{AS8400-5-300}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8400 5/300
+**Desc-name: AlphaServer 8400 5/300
 **Def-lref{1} = ref{SPEC-res-9512}
 **Def-lref{2} = ref{CU-1995-04-11}
 **Announcement**vref{2}: 1995-04-11
@@ -1579,6 +1643,7 @@
 
 **Start-systems-entry{AS8400-5-350}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8400 5/350
+**Desc-name: AlphaServer 8400 5/350
 **OS-support-vms: V6.2
 **Def-lref{1} = ref{SPEC-res-96q1}
 **Def-lref{2} = ref{CU-1996-01-31}
@@ -1589,6 +1654,7 @@
 
 **Start-systems-entry{AS8400-5-440}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8400 5/440	
+**Desc-name: AlphaServer 8400 5/440	
 **Def-lref{1} = ref{SPEC-res-96q3}
 **Def-lref{2} = ref{SPEC-res-96q4}
 **Def-lref{3} = ref{CU-1996-05-17}
@@ -1602,11 +1668,13 @@
 
 **Start-systems-entry{AS8400-5-622}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8400 5/622	
+**Desc-name: AlphaServer 8400 5/622	
 **OS-support-vms: V6.2-1H3
 **End-systems-entry{AS8400-5-622}
 
 **Start-systems-entry{AS8400-5-625}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8400 5/625	
+**Desc-name: AlphaServer 8400 5/625	
 **Def-lref{1} = ref{SPEC-res-97q4}
 **SPECint95**vref{1}: 18.4
 **SPECfp95**vref{1}: 20.8 (1-CPU) 30.8 (2-CPU) 45.0 (4-CPU) 52.1 (6-CPU) 56.7 (8-CPU)
@@ -1614,13 +1682,14 @@
 
 **Start-systems-entry{AS8400-6-575}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 8400 6/575	
+**Desc-name: AlphaServer 8400 6/575	
 **Def-lref{1} = ref{SPEC-res-98q3}
 **SPECint95**vref{1}: 30.3
 **SPECfp95**vref{1}: 47.7 (1-CPU) 63.5 (2-CPU) 89.5 (4-CPU) 105 (6-CPU) 114 (8-CPU)
 **End-systems-entry{AS8400-6-575}
 
 **Start-systems-entry{DS10}{ALPHA}{DS10}
-**Sys-name: AS-DS10
+**Sys-name: AlphaServer DS10
 **Desc-name: AlphaServer DS10
 **Def-lref{1} = ref{SPEC-res-99q2}
 **Def-lref{2} = ref{HPCwire-1999-05-15}
@@ -1632,6 +1701,7 @@
 
 **Start-systems-entry{DS10-6-600}{ALPHA}{DS10}
 **Sys-name: AlphaServer DS10 6/600
+**Desc-name: AlphaServer DS10 6/600
 **Def-lref{1} = ref{SPEC-res-2000q3}
 **SPECint95**vref{1}: 35.3
 **SPECfp95**vref{1}: 56.1 (1-CPU)
@@ -1640,6 +1710,7 @@
 ! This looks like a typo for DS10
 !**Start-systems-entry{VS10}{ALPHA}{ALPHASERVER}
 !**Sys-name: AlphaServer VS10
+!**Desc-name: AlphaServer VS10
 !**OS-support-vms: V7.1-2
 !**End-systems-entry{VS10}
 
@@ -1647,6 +1718,7 @@
 **Def-lref{1} = ref{EK-AS140-UG.A01}
 **Def-lref{2} = ref{SPEC-res-99q1}
 **Sys-name: AlphaServer DS20
+**Desc-name: AlphaServer DS20
 **OS-support-vms**vref{1}: V7.1-2
 **OS-support-du**vref{1}: Digital UNIX V4.0E
 **OS-support-nt**vref{1}: V4.0 SP3
@@ -1661,6 +1733,7 @@
 
 **Start-systems-entry{ASDS20E}{ALPHA}{DS20}
 **Sys-name: AlphaServer DS20E
+**Desc-name: AlphaServer DS20E
 **Def-lref{1} = ref{SPEC-res-2000q1}
 **Def-lref{2} = ref{AA-RH8WB-TE}
 **OS-support-DU**vref{2}: V5.0A
@@ -1670,11 +1743,13 @@
 
 **Start-systems-entry{DS40}{ALPHA}{DS40}
 **Sys-name: AlphaServer DS40
+**Desc-name: AlphaServer DS40
 **OS-support-vms: V7.1-2
 **End-systems-entry{DS40}
 
 **Start-systems-entry{ES40}{ALPHA}{ES40}
 **Sys-name: AlphaServer ES40
+**Desc-name: AlphaServer ES40
 **OS-support-vms: V7.1-2
 **Def-lref{1} = ref{SPEC-res-99q2}
 **SPECint95**vref{1}: 27.3
@@ -1683,6 +1758,7 @@
 
 **Start-systems-entry{ES40-6-667}{ALPHA}{ES40}
 **Sys-name: AlphaServer ES40 6/667
+**Desc-name: AlphaServer ES40 6/667
 **Def-lref{1} = ref{SPEC-res-2000q1}
 **SPECint95**vref{1}: 40.0
 **SPECfp95**vref{1}: 82.7 (1-CPU) 109 (2-CPU) 147 (4-CPU)
@@ -1690,13 +1766,14 @@
 
 **Start-systems-entry{ES40-6-833}{ALPHA}{ES40}
 **Sys-name: AlphaServer ES40 6/833
+**Desc-name: AlphaServer ES40 6/833
 **Def-lref{1} = ref{SPEC-res-2000q3}
 **SPECint95**vref{1}: 50.0
 **SPECfp95**vref{1}: 100.0 (1-CPU)
 **End-systems-entry{ES40-6-833}
 
 **Start-systems-entry{ES45}{ALPHA}{ES45}
-**Sys-name: AS-ES45
+**Sys-name: AlphaServer ES45
 **Desc-name: AlphaServer ES45
 **Def-lref{1} = ref{CPQ-PR-2001-10-16}
 **Def-lref{2} = ref{QS-AS-ES45}
@@ -1711,6 +1788,7 @@
 
 **Start-systems-entry{ES47}{ALPHA}{ES47}
 **Sys-name: AlphaServer ES47
+**Desc-name: AlphaServer ES47
 **Def-lref{1} = ref{HP-PR-2003-01-20}
 **Announcement**vref{1}: 2003-01-20
 **OS-support-vms**vref{1}: V7.3-1
@@ -1719,6 +1797,7 @@
 
 **Start-systems-entry{ES80}{ALPHA}{ES80}
 **Sys-name: AlphaServer ES80
+**Desc-name: AlphaServer ES80
 **Def-lref{1} = ref{HP-PR-2003-01-20}
 **Announcement**vref{1}: 2003-01-20
 **OS-support-vms**vref{1}: V7.3-1
@@ -1726,7 +1805,7 @@
 **End-systems-entry{ES80}
 
 **Start-systems-entry{GS60}{ALPHA}{GS60}
-**Sys-name: AS-GS60
+**Sys-name: AlphaServer GS60
 **Desc-name: AlphaServer GS60
 **Def-lref{1} = ref{HPCwire-1998-10-23}
 **Def-lref{2} = ref{DU-RN-4.0E}
@@ -1740,6 +1819,7 @@
 
 **Start-systems-entry{GS60-6-625}{ALPHA}{GS60}
 **Sys-name: AlphaServer GS60 6/625
+**Desc-name: AlphaServer GS60 6/625
 **Def-lref{1} = ref{SPEC-res-98q3}
 **SPECint95**vref{1}: 27.8
 **SPECfp95**vref{1}: 42.5 (1-CPU) 79.7 (4-CPU)
@@ -1747,13 +1827,14 @@
 
 **Start-systems-entry{GS60E-6-700}{ALPHA}{GS60}
 **Sys-name: AlphaServer GS60E 6/700
+**Desc-name: AlphaServer GS60E 6/700
 **Def-lref{1} = ref{SPEC-res-99q3}
 **SPECint95**vref{1}: 39.1
 **SPECfp95**vref{1}: 68.1 (1-CPU)
 **End-systems-entry{GS60E-6-700}
 
 **Start-systems-entry{GS140}{ALPHA}{GS140}
-**Sys-name: AS-GS140
+**Sys-name: AlphaServer GS140
 **Desc-name: AlphaServer GS140
 **Def-lref{1} = ref{HPCwire-1998-10-23}
 **Def-lref{2} = ref{DU-RN-4.0E}
@@ -1766,6 +1847,7 @@
 
 **Start-systems-entry{GS140-6-525}{ALPHA}{GS140}
 **Sys-name: AlphaServer GS140 6/525
+**Desc-name: AlphaServer GS140 6/525
 **Def-lref{1} = ref{SPEC-res-98q3}
 **SPECint95**vref{1}: 27.9
 **SPECfp95**vref{1}: 45.2 (1-CPU) 105 (8-CPU)
@@ -1773,6 +1855,7 @@
 
 **Start-systems-entry{GS140-6-700}{ALPHA}{GS140}
 **Sys-name: AlphaServer GS140 6/700
+**Desc-name: AlphaServer GS140 6/700
 **Def-lref{1} = ref{SPEC-res-99q3}
 **SPECint95**vref{1}: 39.1
 **SPECfp95**vref{1}: 68.1 (1-CPU)
@@ -1780,6 +1863,7 @@
 
 **Start-systems-entry{GS160-6-731}{ALPHA}{GS160}
 **Sys-name: AlphaServer GS160 6/731
+**Desc-name: AlphaServer GS160 6/731
 **Def-lref{1} = ref{SPEC-res-2000q2}
 **Def-lref{2} = ref{AA-QTLMG-TE}
 **OS-support-DU**vref{2}: V4.0G
@@ -1789,6 +1873,7 @@
 
 **Start-systems-entry{GS320-6-731}{ALPHA}{GS320}
 **Sys-name: AlphaServer GS320 6/731
+**Desc-name: AlphaServer GS320 6/731
 **Def-lref{1} = ref{SPEC-res-2000q3}
 **SPECint95**vref{1}: 39.5
 **SPECfp95**vref{1}: 65.9 (1-CPU)
@@ -1796,6 +1881,7 @@
 
 **Start-systems-entry{GS1280}{ALPHA}{GS1280}
 **Sys-name: AlphaServer GS1280
+**Desc-name: AlphaServer GS1280
 **Def-lref{1} = ref{HP-PR-2003-01-20}
 **Announcement**vref{1}: 2003-01-20
 **OS-support-vms**vref{1}: V7.3-1
@@ -1806,6 +1892,7 @@
 ! vref{2} model 4
 **Start-systems-entry{XL233}{ALPHA}{ALPHAXL}
 **Sys-name: Alpha XL 233
+**Desc-name: Alpha XL 233
 **def-lref{1} = ref{CU-V6-10}
 **def-lref{2} = ref{EK-ALXLA-UG.D01}
 **def-lref{3} = ref{CU-1995-10-01}
@@ -1831,6 +1918,7 @@
 ! vref{1} model 4
 **Start-systems-entry{XL266}{ALPHA}{ALPHAXL}
 **Sys-name: Alpha XL 266
+**Desc-name: Alpha XL 266
 **def-lref{1} = ref{EK-ALXLA-UG.D01}
 **def-lref{2} = ref{CU-1995-10-01}
 **Announcement**vref{2}: 1995-10-01
@@ -1851,6 +1939,7 @@
 ! vref{1} model 5
 **Start-systems-entry{XL300}{ALPHA}{ALPHAXL}
 **Sys-name: Alpha XL 300
+**Desc-name: Alpha XL 300
 **def-lref{1} = ref{EK-ALXLA-UG.D01}
 **def-lref{2} = ref{CU-1996-05-01}
 **Announcement**vref{2}: 1996-05-01
@@ -1876,6 +1965,7 @@
 ! vref{1} model 5
 **Start-systems-entry{XL366}{ALPHA}{ALPHAXL}
 **Sys-name: Alpha XL 366
+**Desc-name: Alpha XL 366
 **def-lref{1} = ref{EK-ALXLA-UG.D01}
 **def-lref{2} = ref{CU-1996-05-01}
 **Announcement**vref{2}: 1996-05-01
@@ -1901,6 +1991,7 @@
 ! vref{1} model 5
 **Start-systems-entry{XL433}{ALPHA}{ALPHAXL}
 **Sys-name: Alpha XL 433
+**Desc-name: Alpha XL 433
 **def-lref{1} = ref{EK-ALXLA-UG.D01}
 **Num-proc: 1
 **Maximum-memory**vref{1}: 512MB
@@ -1918,6 +2009,7 @@
 
 **Start-systems-entry{AST200-4-100}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 200 4/100
+**Desc-name: AlphaStation 200 4/100
 **Def-lref{1} = ref{CU-V6-3A}
 **Def-lref{2} = ref{CU-V7-4B}
 **Def-lref{3} = ref{CU-V5-11A}
@@ -1970,6 +2062,7 @@
 
 **Start-systems-entry{AST200-4-166}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 200 4/166
+**Desc-name: AlphaStation 200 4/166
 **Def-lref{1} = ref{CU-V6-3A}
 **Def-lref{2} = ref{CU-V7-4B}
 **Def-lref{3} = ref{CU-V5-11A}
@@ -2012,6 +2105,7 @@
 
 **Start-systems-entry{AST200-4-233}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 200 4/233
+**Desc-name: AlphaStation 200 4/233
 **Def-lref{1} = ref{CU-V6-3A}
 **Def-lref{2} = ref{CU-V7-4B}
 **Def-lref{3} = ref{CU-V5-11A}
@@ -2057,7 +2151,7 @@
 **Def-lref{3} = ref{SPEC-res-96q3}
 **Def-lref{4} = ref{CU-1995-04-11}
 **Def-lref{5} = ref{CU-1996-01-31}
-**Sys-name: AST-250-4-266
+**Sys-name: AlphaStation 250 4/266
 **Desc-name: AlphaStation 250 4/266
 **Announcement**vref{4}: 1995-04-11
 **FRS-date**vref{4}: 1995-04-11
@@ -2100,6 +2194,7 @@
 
 **Start-systems-entry{AST255-233}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 255/233
+**Desc-name: AlphaStation 255/233
 **Def-lref{1} = ref{CU-V7-3B}
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1996-03-14}
@@ -2138,6 +2233,7 @@
 
 **Start-systems-entry{AST255-300}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 255/300
+**Desc-name: AlphaStation 255/300
 **Def-lref{1} = ref{CU-V7-3B}
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1996-03-14}
@@ -2176,6 +2272,7 @@
 
 **Start-systems-entry{AST400-4-233}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 400 4/233
+**Desc-name: AlphaStation 400 4/233
 **Def-lref{1} = ref{CU-V6-3A}
 **Def-lref{2} = ref{CU-V5-11A}
 **Def-lref{3} = ref{CU-1994-11-03}
@@ -2204,6 +2301,7 @@
 
 **Start-systems-entry{AST-400-266}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 400 4/266	
+**Desc-name: AlphaStation 400 4/266	
 **Def-lref{1} = ref{CU-1996-03-14}
 **Last-order**vref{1}: 1996-04-30
 **Last-ship**vref{1}: 1996-06-01
@@ -2212,6 +2310,7 @@
 
 **Start-systems-entry{AST500-266}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 500/266
+**Desc-name: AlphaStation 500/266
 **Def-lref{1} = ref{CU-V7-3B}
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1996-03-14}
@@ -2244,6 +2343,7 @@
 
 **Start-systems-entry{AST500-300}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 500/333
+**Desc-name: AlphaStation 500/333
 **Def-lref{1} = ref{CU-V7-3B}
 **def-lref{2} = ref{SPEC-res-96q2}
 **Def-lref{3} = ref{CU-1996-03-14}
@@ -2277,6 +2377,7 @@
 
 **Start-systems-entry{AST500-400}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 500/400
+**Desc-name: AlphaStation 500/400
 **OS-support-vms: V6.2-1H3
 **Def-lref{1} = ref{SPEC-res-96q2}
 **SPECint95**vref{1}: 12.3
@@ -2284,7 +2385,7 @@
 **End-systems-entry{AST500-400}
 
 **Start-systems-entry{AST500-500}{ALPHA}{AlphaStation}
-**Sys-name: AST-500-500
+**Sys-name: AlphaStation 500/500
 **Desc-name: AlphaStation 500/500
 **Def-lref{1} = ref{SPEC-res-96q3}
 **Def-lref{2} = ref{HPCwire-1996-08-09}
@@ -2306,11 +2407,13 @@
 ! Stub this out: no real information yet.
 !**Start-systems-entry{AST600A5-500}{ALPHA}{AlphaStation}
 !**Sys-name: AlphaStation 600A 5/500
+!**Desc-name: AlphaStation 600A 5/500
 !**Def-lref{1} = ref{EK-AL655-IP.A01}
 !**End-systems-entry{AST600A5-500}{ALPHA}{AlphaStation}
 
 **Start-systems-entry{AST600-5-266}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 600 5/266
+**Desc-name: AlphaStation 600 5/266
 **Def-lref{1} = ref{SPEC-res-9509}
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1995-07-15}
@@ -2331,6 +2434,7 @@
 
 **Start-systems-entry{AST600-5-300}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 600 5/300
+**Desc-name: AlphaStation 600 5/300
 **Def-lref{1} = ref{SPEC-res-9509}
 **Def-lref{2} = ref{CU-1995-07-15}
 **Announcement**vref{2}: 1995-07-15
@@ -2345,6 +2449,7 @@
 
 **Start-systems-entry{AST600-5-333}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 600 5/333
+**Desc-name: AlphaStation 600 5/333
 **OS-support-vms: V6.2-1H3
 **Def-lref{1} = ref{SPEC-res-96q1}
 **Def-lref{2} = ref{SPEC-res-96q2}
@@ -2358,11 +2463,13 @@
 
 **Start-systems-entry{AST-600A-5-500}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 600A 5/500	
+**Desc-name: AlphaStation 600A 5/500	
 **OS-support-vms: V6.2-1H3
 **End-systems-entry{AST-600A-5-500}
 
 **Start-systems-entry{AB1}{ALPHA}{ALPHABOOK}
 **Sys-name: AlphaBook 1
+**Desc-name: AlphaBook 1
 **Def-lref{1} = ref{QS-VMS-V073}
 **OS-support-vms: V6.2-1H1
 **OS-support-VMS-end**vref{1}: V7.3-1
@@ -2370,11 +2477,13 @@
 
 **Start-systems-entry{AXPpci33}{ALPHA}{AXPPCI}
 **Sys-name: AXPpci 33
+**Desc-name: AXPpci 33
 **OS-support-vms: not supported
 **End-systems-entry{AXPpci33}
 
 **Start-systems-entry{AVME-5-352}{ALPHA}{ALPHAVME}
 **Sys-name: Alpha VME 5/352
+**Desc-name: Alpha VME 5/352
 **Def-lref{1} = ref{SPEC-res-98q1}
 **SPECint95**vref{1}: 10.7
 **SPECfp95**vref{1}: 13.8
@@ -2382,6 +2491,7 @@
 
 **Start-systems-entry{AVME-5-480}{ALPHA}{ALPHAVME}
 **Sys-name: Alpha VME 5/480
+**Desc-name: Alpha VME 5/480
 **Def-lref{1} = ref{SPEC-res-98q1}
 **SPECint95**vref{1}: 13.6
 **SPECfp95**vref{1}: 15.2
@@ -2389,11 +2499,13 @@
 
 **Start-systems-entry{CS1000}{ALPHA}{CPQPCI}
 **Sys-name: CompaqPCI CS1000
+**Desc-name: CompaqPCI CS1000
 **OS-support-vms: V7.1-2
 **End-systems-entry{CS1000}
 
 **Start-systems-entry{XP900}{ALPHA}{ALPHAXP}
 **Sys-name: Compaq XP900 Workstation
+**Desc-name: Compaq XP900 Workstation
 **Def-lref{1} = ref{SPEC-res-99q3}
 **SPECint95**vref{1}: 24.6
 **SPECfp95**vref{1}: 47.9 (1-CPU)
@@ -2401,6 +2513,7 @@
 
 **Start-systems-entry{XP1000}{ALPHA}{ALPHAXP}
 **Sys-name: Compaq XP1000 Workstation
+**Desc-name: Compaq XP1000 Workstation
 **Def-lref{1} = ref{SPEC-res-99q1}
 **Def-lref{2} = ref{SPEC-res-99q3}
 **OS-support-vms: not supported
@@ -2412,6 +2525,7 @@
 
 **Start-systems-entry{DPWS-5-433a}{ALPHA}{DPWS}
 **Sys-name: DPWS 5/433a
+**Desc-name: DPWS 5/433a
 **Def-lref{1} = ref{SPEC-res-97q2}
 **SPECint95**vref{1}: 12.2 
 **SPECfp95**vref{1}: 15.3 
@@ -2419,6 +2533,7 @@
 
 **Start-systems-entry{DPWS-5-433au}{ALPHA}{DPWS}
 **Sys-name: DPWS 5/433au
+**Desc-name: DPWS 5/433au
 **Def-lref{1} = ref{SPEC-res-97q2}
 **OS-support-vms: V7.1-1H1
 **SPECint95**vref{1}: 13.9 
@@ -2427,6 +2542,7 @@
 
 **Start-systems-entry{DPWS-5-500a}{ALPHA}{DPWS}
 **Sys-name: DPWS 5/500a
+**Desc-name: DPWS 5/500a
 **Def-lref{1} = ref{SPEC-res-97q2}
 **SPECint95**vref{1}: 13.9 
 **SPECfp95**vref{1}: 16.5 
@@ -2434,6 +2550,7 @@
 
 **Start-systems-entry{DPWS-5-500au}{ALPHA}{DPWS}
 **Sys-name: DPWS 5/500au
+**Desc-name: DPWS 5/500au
 **Def-lref{1} = ref{SPEC-res-97q2}
 **OS-support-vms: V7.1-1H1
 **SPECint95**vref{1}: 15.7 
@@ -2442,6 +2559,7 @@
 
 **Start-systems-entry{DPWS-5-600a}{ALPHA}{DPWS}
 **Sys-name: DPWS 5/600a
+**Desc-name: DPWS 5/600a
 **Def-lref{1} = ref{SPEC-res-97q2}
 **SPECint95**vref{1}: 16.3 
 **SPECfp95**vref{1}: 18.4 
@@ -2449,6 +2567,7 @@
 
 **Start-systems-entry{DPWS-5-600au}{ALPHA}{DPWS}
 **Sys-name: DPWS 5/600au
+**Desc-name: DPWS 5/600au
 **Def-lref{1} = ref{SPEC-res-97q2}
 **OS-support-vms: V7.1-1H1
 **SPECint95**vref{1}: 18.4 
@@ -2474,6 +2593,7 @@
 
 **Start-systems-entry{DS3305-6400A}{ALPHA}{DIGITALSERVER}
 **Sys-name: DIGITAL Server 3305 6400A
+**Desc-name: DIGITAL Server 3305 6400A
 **Def-lref{1} = ref{SPEC-res-98q2}
 **SPECint95**vref{1}: 12.4
 **SPECfp95**vref{1}: 14.4
@@ -2481,6 +2601,7 @@
 
 **Start-systems-entry{DS3305-6500A}{ALPHA}{DIGITALSERVER}
 **Sys-name: DIGITAL Server 3305 6500A
+**Desc-name: DIGITAL Server 3305 6500A
 **Def-lref{1} = ref{SPEC-res-98q1}
 **SPECint95**vref{1}: 14.7
 **SPECfp95**vref{1}: 15.9
@@ -2488,6 +2609,7 @@
 
 **Start-systems-entry{DS5305-6533A}{ALPHA}{DIGITALSERVER}
 **Sys-name: DIGITAL Server 5305 6533A
+**Desc-name: DIGITAL Server 5305 6533A
 **Def-lref{1} = ref{SPEC-res-98q1}
 **SPECint95**vref{1}: 16.2
 **SPECfp95**vref{1}: 21.7
@@ -2495,6 +2617,7 @@
 
 **Start-systems-entry{DS7305-6533A}{ALPHA}{DIGITALSERVER}
 **Sys-name: DIGITAL Server 7305 6533A
+**Desc-name: DIGITAL Server 7305 6533A
 **Def-lref{1} = ref{SPEC-res-98q2}
 **SPECint95**vref{1}: 16.9
 **SPECfp95**vref{1}: 21.7
@@ -2502,6 +2625,7 @@
 
 **Start-systems-entry{DS7310-6533A}{ALPHA}{DIGITALSERVER}
 **Sys-name: DIGITAL Server 7310 6533A
+**Desc-name: DIGITAL Server 7310 6533A
 **Def-lref{1} = ref{SPEC-res-98q2}
 **SPECint95**vref{1}: 19.3
 **SPECfp95**vref{1}: 28.6
@@ -2509,6 +2633,7 @@
 
 **Start-systems-entry{AXPPC164SX}{ALPHA}{ALPHAPC}
 **Sys-name: Alpha PC164SX
+**Desc-name: Alpha PC164SX
 **Def-lref{1} = ref{SPEC-res-97q4}
 **SPECint95**vref{1}: 12.4
 **SPECfp95**vref{1}: 16.1

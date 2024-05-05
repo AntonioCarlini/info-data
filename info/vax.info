@@ -1361,6 +1361,7 @@
 
 **Start-systems-entry{VAX725}{VAX}{UNIBUS}
 **Sys-name: VAX-11/725
+**Desc-name: VAX-11/725
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{SOCEE-SPR90}
@@ -1405,6 +1406,7 @@
 
 **Start-systems-entry{VAX730}{VAX}{UNIBUS}
 **Sys-name: VAX-11/730
+**Desc-name: VAX-11/730
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1}
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{3} = ref{SOCEE-SPR90}
@@ -1708,6 +1710,7 @@
 
 **Start-systems-entry{VAX780}{VAX}{UNIBUS}
 **Sys-name: VAX-11/780
+**Desc-name: VAX-11/780
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1} 
 **def-lref{2} = ref{SOCEE-SPR90}
 **def-lref{3} = ref{EY-3459E-DP}
@@ -1794,6 +1797,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX782}{VAX}{UNIBUS}
 **Sys-name: VAX-11/782
+**Desc-name: VAX-11/782
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1} 
 **Def-lref{2} = ref{EG-21731-18}
 **Announcement**vref{2}: 1982-02
@@ -1833,6 +1837,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX785}{VAX}{UNIBUS}
 **Sys-name: VAX-11/785
+**Desc-name: VAX-11/785
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1} 
 **Def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **Def-lref{3} = ref{NYT-1984-04-04-785}
@@ -1883,6 +1888,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX8200}{VAX}{VAXBI}
 **Sys-name: VAX 8200
+**Desc-name: VAX 8200
 **def-lref{1} = ref{AZ-GN5AC-TE}
 **Def-lref{2} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{3} = ref{EB-31692-46}
@@ -2058,6 +2064,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX8300}{VAX}{VAXBI}
 **Sys-name: VAX 8300
+**Desc-name: VAX 8300
 **def-lref{1} = ref{AZ-GN5AC-TE}
 **Def-lref{2} = ref{VAX-HW-HB-1986-V2}
 **def-lref{3} = ref{EB-31692-46}
@@ -2220,6 +2227,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX8250}{VAX}{VAXBI}
 **Sys-name: VAX 8250
+**Desc-name: VAX 8250
 **Def-lref{1} = ref{EB-31692-46}
 **Def-lref{2} = ref{EK-KA825-MA-001}
 **Def-lref{3} = ref{QS-VMS-V073}
@@ -2285,6 +2293,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX8350}{VAX}{VAXBI}
 **Sys-name: VAX 8350
+**Desc-name: VAX 8350
 **Def-lref{1} = ref{EB-31692-46}
 **Def-lref{2} = ref{EK-KA825-MA-001}
 **Def-lref{3} = ref{QS-VMS-V073}
@@ -2641,6 +2650,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VS2}{VAX}{VAXstation}
 **Sys-name: VAXstation II
+**Desc-name: VAXstation II
 **def-lref{1} = ref{AZ-GMXAA-MN}
 **def-lref{2} = ref{AZ-GLNAB-MN}
 **def-lref{3} = ref{AZ-GMZAB-MN}
@@ -2773,6 +2783,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VS35X0}{VAX}{VAXstation}
 **Sys-name: VAXstation 3520/3540
+**Desc-name: VAXstation 3520/3540
 **Def-lref{1} = ref{EK-258AA-MG-003}
 **Def-lref{2} = ref{OVMS-REL-HIST-20100621}
 **Def-lref{3} = ref{CU-1991-11-29}
@@ -2935,6 +2946,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-Systems-entry{VS4VLC}{VAX}{VAXstation}
 **Sys-name: VAXstation 4000 VLC
+**Desc-name: VAXstation 4000 VLC
 **def-lref{1} = ref{EK-V48VB-SV.001}
 **def-lref{2} = ref{EC-N0857-51}
 **Def-lref{3} = ref{DECdirect-FEB92}
@@ -3024,6 +3036,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **document=doc{DEC:EK-VS800-SG-001.TXT} ! VAXstation 8000 Service Guide
 **document=doc{DEC:EK-VS800-IG-001} ! VAXstation 8000 Installation Guide
 **Sys-name: VAXstation 8000
+**Desc-name: VAXstation 8000
 **Announcement**vref{3}: 1988-02-02
 **Codename**vref{4}: Lynx
 **OS-support-VMS**vref{2}: V4.7
@@ -3193,6 +3206,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{UV1}{VAX}{UVAX}
 **Sys-name: MicroVAX I
+**Desc-name: MicroVAX I
 **def-lref{1} = ref{EB-25156-47}
 **def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{3} = ref{SOCEE-SPR90}
@@ -3303,6 +3317,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{UV2}{VAX}{UVAX}
 **Sys-name: MicroVAX II
+**Desc-name: MicroVAX II
 **Def-lref{1} = ref{AZ-FE06A-TN}
 **Def-lref{2} = ref{EB-30991-41}
 **Def-lref{3} = ref{EB-31692-46}
@@ -3615,6 +3630,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{UV3300}{VAX}{UVAX}
 **Sys-name: MicroVAX 3300/3400
+**Desc-name: MicroVAX 3300/3400
 **def-lref{1} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{2} = ref{EC-N0377-46}
 **def-lref{3} = ref{EK-VAXCT-CG-006}
@@ -3693,6 +3709,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{UV3600}{VAX}{UVAX}
 **Sys-name: MicroVAX 3500/3600
+**Desc-name: MicroVAX 3500/3600
 **Def-lref{1} = ref{EB-30991-41}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-7}
@@ -3779,6 +3796,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{UV3900}{VAX}{UVAX}
 **Sys-name: MicroVAX 3800/3900
+**Desc-name: MicroVAX 3800/3900
 **Def-lref{1} = ref{EK-KA655-TM-001}
 **Def-lref{2} = ref{EC-N0377-46}
 **Def-lref{3} = ref{EK-VAXCT-CG-006}
@@ -3920,6 +3938,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VS2K}{VAX}{VAXstation}
 **Sys-name: VAXstation 2000 
+**Desc-name: VAXstation 2000 
 **Def-lref{1} = ref{EK-VTTAA-TM.001}
 **Def-lref{2} = ref{EK-V2000-SG-001}
 **Def-lref{3} = ref{EK-MVXAA-OM-001}
@@ -4008,6 +4027,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX8600}{VAX}{UNIBUS}
 **Sys-name: VAX 8600
+**Desc-name: VAX 8600
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1}
 **Def-lref{2} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{3} = ref{SOC-SUM85}
@@ -4095,6 +4115,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX8650}{VAX}{UNIBUS}
 **Sys-name: VAX 8650
+**Desc-name: VAX 8650
 **def-lref{1} = ref{VAX-HW-HB-1986-V1}
 **def-lref{2} = ref{VAX-HW-HB-1986-V2}
 **def-lref{3} = ref{SOC-SUM85}
@@ -4159,6 +4180,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX8500}{VAX}{VAXBI}
 **Sys-name: VAX 8500
+**Desc-name: VAX 8500
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
@@ -4210,6 +4232,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX8530}{VAX}{VAXBI}
 **Sys-name: VAX 8530
+**Desc-name: VAX 8530
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
@@ -4266,6 +4289,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX8550}{VAX}{VAXBI}
 **Sys-name: VAX 8550
+**Desc-name: VAX 8550
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
@@ -4320,6 +4344,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX8700}{VAX}{VAXBI}
 **Sys-name: VAX 8700
+**Desc-name: VAX 8700
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
@@ -4375,6 +4400,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{VAX8800}{VAX}{VAXBI}
 **Sys-name: VAX 8800
+**Desc-name: VAX 8800
 **Def-lref{1} = ref{VAX-HW-HB-1986-V2}
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
@@ -4761,7 +4787,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **End-systems-entry{VS4090}
 
 **Start-systems-entry{VS4090A}{VAX}{VAXstation}
-**Sys-name: VS4090A
+**Sys-name: VAXstation 4000-90A
 **Desc-name: VAXstation 4000 Model 90A
 **Def-lref{1} = ref{CU-1994-03-14}
 **Def-lref{2} = ref{CU-1995-05-15}
@@ -5199,6 +5225,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{rtVAX300}{VAX}{rtVAX}
 **Def-lref{1} = ref{EK-382AB-UG-002}
 **Sys-name: rtVAX 300
+**Desc-name: rtVAX 300
 ! vref{1}: The rtVAX 300 is a target processor designed to be embedded.
 ! vref{1}: runs VAXELN but not VMS or ULTRIX
 **CPU-chip**vref{1}: CVAX
@@ -5212,7 +5239,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{rtVAX1000}{VAX}{rtVAX}
 **def-lref{1} = ref{CU-1992-11-02}
-**Sys-name: rtVAX1000
+**Sys-name: rtVAX 1000
 **Desc-name: rtVAX 1000
 **Module**vref{1}: KA620
 **End-systems-entry{rtVAX1000}
@@ -5220,7 +5247,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{rtVAX3200}{VAX}{rtVAX}
 **Def-lref{1} = ref{CU-1992-11-02}
 **Def-lref{2} = ref{DEC-PR-1988-05-09}
-**Sys-name: rtVAX3200
+**Sys-name: rtVAX 3200
 **Desc-name: rtVAX 3200
 **Announcement**vref{2}: 1988-05-09
 **Last-order**vref{1}: 1991-06-31
@@ -5230,14 +5257,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{rtVAX3300}{VAX}{rtVAX}
 **def-lref{1} = ref{CU-1992-11-02}
 ! vref{1} lists: rtVAX 3300/3305/3400
-**Sys-name: rtVAX3300
+**Sys-name: rtVAX 3300
 **Desc-name: rtVAX 3300
 **End-systems-entry{rtVAX3300}
 
 **Start-systems-entry{rtVAX3500}{VAX}{rtVAX}
 **Def-lref{1} = ref{CU-1992-11-02}
 **Def-lref{2} = ref{DEC-PR-1988-05-09}
-**Sys-name: rtVAX3500
+**Sys-name: rtVAX 3500
 **Desc-name: rtVAX 3500
 **Announcement**vref{2}: 1988-05-09
 **Last-order**vref{1}: 1991-06-31
@@ -5247,7 +5274,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{rtVAX3600}{VAX}{rtVAX}
 **Def-lref{1} = ref{CU-1992-11-02}
 **Def-lref{2} = ref{DEC-PR-1988-05-09}
-**Sys-name: rtVAX3600
+**Sys-name: rtVAX 3600
 **Desc-name: rtVAX 3600
 **Announcement**vref{2}: 1988-05-09
 **Last-order**vref{1}: 1991-06-31
@@ -5257,7 +5284,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Start-systems-entry{rtVAX3800}{VAX}{rtVAX}
 **Def-lref{1} = ref{CU-1992-11-02}
 **Def-lref{2} = ref{DEC-PR-1989-04-10}
-**Sys-name: rtVAX3800
+**Sys-name: rtVAX 3800
 **Desc-name: rtVAX 3800
 **Announcement**vref{2}: 1989-04-10
 **Last-order**vref{1}: 1991-06-31
@@ -5267,14 +5294,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 
 **Start-systems-entry{rtVAX4200}{VAX}{rtVAX}
 **def-lref{1} = ref{CU-1992-11-02}
-**Sys-name: rtVAX4200
+**Sys-name: rtVAX 4200
 **Desc-name: rtVAX 4200
 **Last-order**vref{1}: 1993-06-31
 **End-systems-entry{rtVAX4200}
 
 **Start-systems-entry{rtVAX4300}{VAX}{rtVAX}
 **def-lref{1} = ref{CU-1992-11-02}
-**Sys-name: rtVAX4300
+**Sys-name: rtVAX 4300
 **Desc-name: rtVAX 4300
 **Last-order**vref{1}: 1993-06-31
 **End-systems-entry{rtVAX4300}
