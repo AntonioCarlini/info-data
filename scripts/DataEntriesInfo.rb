@@ -145,6 +145,12 @@ class InfoFileHandlerEntry
       @entry.set_power(@power)
       @entry.set_dimensions(@dimensions)
       @entry.set_options(@options)
+      # Put in some sanity checks: both Sys-name and Desc-name must be present
+      sys_name = @entry.instance_variable_get("@sys_name")
+      log_fatal(self, line_num, @info_filename, "Sys-name missing for #{entry.identifier()}") if sys_name.nil?() || sys_name.value().empty?()
+      raise("Sys-name missing for #{entry.identifier()}") if sys_name.nil?() || sys_name.value().empty?()
+      desc_name = @entry.instance_variable_get("@desc_name")
+      log_fatal(self, line_num, @info_filename, "Desc-name missing for #{entry.identifier()}") if desc_name.nil?() || desc_name.value().empty?()
       return HandlerResult::COMPLETED, nil
     elsif line =~ /^\s*\*\*Def-lref\{(\d+)\}\s*=\s*ref\{(.*)\}\s*$/i
       id = $1
