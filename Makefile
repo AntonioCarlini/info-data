@@ -92,7 +92,7 @@ all: $(TOTAL.YAML)
 
 .PHONY: all
 
-.PHONY: build.tree
+.PHONY: | build.tree
 
 build.tree:
 	@mkdir -p bin
