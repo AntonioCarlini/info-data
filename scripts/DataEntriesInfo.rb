@@ -434,7 +434,14 @@ class Entry
     h["dimensions_block"] = @dimensions_block unless @dimensions_block.nil?() || @dimensions_block.empty?()
 
     # If @options_block is present, try representing it
-    h["options_block"] = @options_block unless @options_block.nil?() || @options_block.empty?()
+    unless @options_block.nil?() || @options_block.empty?()
+      options_array = []
+      @options_block.each() {
+        |opt_block|
+        options_array << opt_block.as_array()
+      }
+      h["options_block"] = options_array
+    end
 
     coder.represent_map(nil, h)
   end

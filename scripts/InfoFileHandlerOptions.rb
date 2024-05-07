@@ -105,19 +105,19 @@ class Options
     @options << [OptionPart::TITLE, title]
   end
 
-  # This function will be called when to_yaml() encounters an object of type Options.
-  def encode_with(coder)
-    h = []
+  def as_array
+    a = []
     @options.each() {
       |opt|
       if opt[0] == OptionPart::TEXT
-        h << ['option_text', opt[1]]
+        a << ['option_text', opt[1]]
       elsif opt[0] == OptionPart::TITLE
-        h << ['option_title', opt[1]]
+        a << ['option_title', opt[1]]
       else
         raise("Error parsing options")
       end
     }
-    coder.represent_map(nil, h)
+    return a
   end
+
 end

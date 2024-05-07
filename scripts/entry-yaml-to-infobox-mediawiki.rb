@@ -226,6 +226,59 @@ entry_data.keys().each() {
     op.puts()
   end
 
+  # Write out any options that have been specified for this  entry.
+  # Currently the code allows multiple Options blocks in a single .info file entry, which explains the extra level of arrays involved.
+  # However, all of these are collapsed into a single table in the final wiki page.
+  #
+  # TODO
+  # Note that, where an options_data[] entry exists for the specified key, it should be possible to generate an internal wiki
+  # link to the appropriate page (although it has to be assumed that such a page will exist as there is no way of knowing
+  # whether such a page - even if this repo generates it - will have been imported into the wiki).
+  options = properties["options_block"]
+  unless options.nil?()
+    op.puts("== Hardware Options ==")
+    op.puts()
+    options.each() {
+      |opt|
+      # Each array entry represents one options block.
+      # Each options block is an array of entries, each of which is either
+      #   ["option_title", title]
+      # or
+      #   ["option_text, ["CLASS:KEY", "DESCRIPTION"]
+      #
+      # CLASS is optional, in which case there will be no ':'
+      op.puts('{| class="wikitable"')
+      opt.each() {
+        |entry|
+        case entry[0]
+        when "option_text"
+          text_array = entry[1]
+          class_key = text_array[0].strip()
+          desc = text_array[1].strip()
+          opt_class = ""
+          opt_key = ""
+          if class_key =~ /^(.*?):(.*)$/
+            opt_class = $1.strip()
+            opt_key = $2.strip()
+          else
+            opt_key = class_key.strip()
+          end
+          value = options_data[opt_key]
+          op.puts("|-")
+          if value.nil?()
+            op.puts("| #{opt_key}  | #{desc}")
+          else
+            op.puts("| #{opt_key}  | #{value}")
+          end
+        when "option_title"
+          op.puts("|-")
+          op.puts("! colspan=\"2\" | #{entry[1]}")
+        end
+      }
+      op.puts('{|}')
+    }
+  end
+
   unless lref.empty?()
     op.puts("== References ==")
     op.puts()
