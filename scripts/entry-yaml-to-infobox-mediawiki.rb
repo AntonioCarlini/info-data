@@ -41,6 +41,27 @@ class ItemWithReferenceKeys
 
 end
 
+# A class to hold data required for each option
+class OptionInfo
+
+  attr_reader  :desc_name
+  attr_reader  :sys_name
+
+  def initialize(sys_name, desc_name)
+    @sys_name = sys_name
+    @desc_name = desc_name
+  end
+
+  # Return a description following the algorithm of the original code.
+  # As "Desc-name" should always be present, thisshould always be @desc_name, but just in case ...
+  def description()
+    desc = @desc_name
+    desc = @sys_name if desc_name.nil?() || desc_name.empty?()
+    return desc
+  end
+
+end
+
 # Keep the logic that builds a page name all in one place.
 def build_page_name(prefix, sys_name, desc_name)
   name = nil
@@ -109,6 +130,9 @@ opt_entries.keys().each() {
     desc_name = opt_entries[id]['Desc-name']
     desc_name = desc_name[0] unless desc_name.nil?()
 
+    # Record the original data before further manipulation
+    options_info = OptionInfo.new(sys_name, desc_name)
+    
     desc_name = sys_name if desc_name.nil?() || desc_name.empty?()
 
     # The final system name must not be empty
@@ -118,12 +142,12 @@ opt_entries.keys().each() {
 
     # Use id as an index but ensure that it is unique
     raise("Options YAML: entry for ID [#{id}] has already been seen.") if options_data.key?(id)
-    options_data[id] = desc_name
+    options_data[id] = options_info
 
     # Only use sys_name as an index if it differs from id
     if sys_name != id
       raise("Options YAML: entry for ID [#{sys_name}] has already been seen.") if options_data.key?(sys_name)
-      options_data[id] = desc_name
+      options_data[id] = options_info
     end
 }
 
@@ -274,7 +298,7 @@ entry_data.keys().each() {
           if value.nil?()
             op.puts("| #{opt_key}  | #{desc}")
           else
-            op.puts("| #{opt_key}  | #{value}")
+            op.puts("| #{opt_key}  | #{value.description()}")
           end
         when "option_title"
           op.puts("|-")
