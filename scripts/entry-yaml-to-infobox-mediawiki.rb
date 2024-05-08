@@ -299,9 +299,9 @@ entry_data.keys().each() {
           value = options_data[opt_key]
           op.puts("|-")
           if value.nil?()
-            op.puts("| #{opt_key}  | #{desc}")
+            op.puts("| #{opt_key}  || #{desc}")
           else
-            op.puts("| [[#{value.page_name()} | #{opt_key}]]  | #{value.description()}")
+            op.puts("| [[#{value.page_name()} | #{opt_key}]]  || #{value.description()}")
           end
         when "option_title"
           op.puts("|-")
