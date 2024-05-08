@@ -45,11 +45,13 @@ end
 class OptionInfo
 
   attr_reader  :desc_name
+  attr_reader  :page_name
   attr_reader  :sys_name
 
-  def initialize(sys_name, desc_name)
+  def initialize(page_name_prefix, sys_name, desc_name)
     @sys_name = sys_name
     @desc_name = desc_name
+    @page_name, _ = build_page_name(page_name_prefix, sys_name, desc_name)
   end
 
   # Return a description following the algorithm of the original code.
@@ -121,6 +123,8 @@ tags_yaml = ARGV.shift()       # This is the tags YAML file
 refs_yaml = ARGV.shift()       # This is the references YAML file
 options_yaml = ARGV.shift()    # This is the YAML holding options
 
+page_name_prefix = "DEC "      # prefix all pages with DEC to produce "DEC device"
+
 options_data = {}
 opt_entries = YAML.load_file(options_yaml)
 opt_entries.keys().each() {
@@ -131,7 +135,7 @@ opt_entries.keys().each() {
     desc_name = desc_name[0] unless desc_name.nil?()
 
     # Record the original data before further manipulation
-    options_info = OptionInfo.new(sys_name, desc_name)
+    options_info = OptionInfo.new(page_name_prefix, sys_name, desc_name)
     
     desc_name = sys_name if desc_name.nil?() || desc_name.empty?()
 
@@ -190,8 +194,7 @@ entry_data.keys().each() {
 
   d_name = properties["Desc-name"]
   s_name = properties["Sys-name"]
-  name_prefix = "DEC "  # prefix all pages with DEC to produce "DEC device"
-  page_name, name = build_page_name(name_prefix, s_name[0], d_name[0])
+  page_name, name = build_page_name(page_name_prefix, s_name[0], d_name[0])
 
   if build_xml
     op.puts_xml(%Q[  <page>])
@@ -298,14 +301,14 @@ entry_data.keys().each() {
           if value.nil?()
             op.puts("| #{opt_key}  | #{desc}")
           else
-            op.puts("| #{opt_key}  | #{value.description()}")
+            op.puts("| [[#{value.page_name()} | #{opt_key}]]  | #{value.description()}")
           end
         when "option_title"
           op.puts("|-")
           op.puts("! colspan=\"2\" | #{entry[1]}")
         end
       }
-      op.puts('{|}')
+      op.puts('|}')
     }
   end
 
