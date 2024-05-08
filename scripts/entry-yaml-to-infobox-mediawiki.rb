@@ -41,6 +41,17 @@ class ItemWithReferenceKeys
 
 end
 
+# Keep the logic that builds a page name all in one place.
+def build_page_name(prefix, sys_name, desc_name)
+  name = nil
+  name = desc_name unless desc_name.nil?()
+  if name.nil?()
+    name = sys_name unless sys_name.nil?()
+    name = "UNKNOWN" if name.nil?() || name.empty?()
+  end
+  return prefix + name, name
+end
+
 # Handle OS-support-VMS and related properties.
 # OS-support-VMS, OS-support-VMS-early and OS-support-end need special handling.
 # If OS-support-VMS-early exists, prepend it with a trailing comma and space to OS-support.
@@ -152,20 +163,15 @@ entry_data.keys().each() {
   lref = TrackLocalReferences.new()
 
   # Work out a plausible name; default to "UNKNOWN"
+
   d_name = properties["Desc-name"]
   s_name = properties["Sys-name"]
-  name = nil
-  name = d_name[0] unless d_name.nil?()
-  if name.nil?()
-    name = s_name[0] unless s_name.nil?()
-    name = "UNKNOWN" if name.nil?() || name.empty?()
-  end
-
   name_prefix = "DEC "  # prefix all pages with DEC to produce "DEC device"
+  page_name, name = build_page_name(name_prefix, s_name[0], d_name[0])
 
   if build_xml
     op.puts_xml(%Q[  <page>])
-    op.puts_xml(%Q[    <title>#{name_prefix}#{name}</title>])
+    op.puts_xml(%Q[    <title>#{page_name}</title>])
     op.puts_xml(%Q[    <revision>])
     op.puts_xml(%Q[      <timestamp>#{page_time}</timestamp>])
     op.puts_xml(%Q[      <comment>Created from #{File.basename(entry_yaml)}, last modified at #{source_file_time}</comment>])
@@ -176,7 +182,7 @@ entry_data.keys().each() {
   # OS-support-VMS, OS-support-VMS-early and OS-support-end need special handling.
 
 
-  op.puts("== #{name_prefix}#{name} ==")
+  op.puts("== #{page_name} ==")
   op.puts()
   op.puts("{{Infobox#{entry_type.upcase()}-Data")
   op.puts("| name = #{name}")
