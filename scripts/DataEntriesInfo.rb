@@ -89,7 +89,8 @@ class InfoFileHandlerOuter
   # This should be invoked with a InfoFileHandlerEntry. Anything else is an error.
   def process_sub_handler(sub_handler)
     if sub_handler.respond_to?(:entry)
-      @devices.add_entry(sub_handler.entry())  # TODO actually this should be passed to the handler that caused it to be invoked
+      result = @devices.add_entry(sub_handler.entry(), sub_handler.entry().line_num(), @info_filename)
+      @fatal_error_seen if result == nil
     else
       raise("Expecting object with .entry() but handed #{sub_handler.class.name()}")
     end
@@ -460,8 +461,14 @@ class EntriesCollection
     @entries = {}
   end
 
-  def add_entry(entry)
-    @entries[entry.identifier()] = entry
+  def add_entry(entry, line_num, filename)
+    if @entries.has_key?(entry.identifier())
+      log_fatal(self, line_num, filename, "Duplicate entry #{entry.identifier()}, original declared on line #{@entries[entry.identifier()].line_num()}")
+      return nil
+    else
+      @entries[entry.identifier()] = entry
+      return entry
+    end
   end
 
   def [](identifier)
