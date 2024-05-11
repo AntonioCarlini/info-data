@@ -300,6 +300,10 @@
 **Def-lref{1} = ref{EK-PM30F-MG-004}
 **Def-lref{2} = ref{CU-1993-12-06}
 **Def-lref{3} = ref{CU-1993-05-10}
+**Def-lref{4} = ref{EK–4MAXI-OP-A01}
+**document=doc{DEC:EK-4MAXI-OP-A01}    ! Personal DECstation 5000 Model 50 Operator’s Guide
+**document=doc{DEC:EK-PM30E-RB.003}    ! Personal DECstation 5000 User’s Guide
+**document=doc{DEC:EK-D5000-IP-A01}    ! Illustrated Parts Breakdown DECstation/DECsystem 5000 MODELS 50/150/260
 **Sys-name: DECstation 5000-50
 **Desc-name: DECstation 5000 Model 50
 **Announcement**vref{3}: 1993-05-10
@@ -312,30 +316,40 @@
 ! [1]: SIMMs: MS01-AA or MS01L-AB (2MB) or MS01-CA (8MB)
 ! [1]: 1024x768, 72Hz, 8-plane cfb supports VRC16, VRM17
 ! [1] LK501, VSXXX-GB
+! vref{4}: LK501
 **CPU-module**htref{1}: KN04-AA
 **Module**htref{1}: 54-21325-01
 **Cache**htref{1}: 1MB
 **Bus-SCSI**htref{1}: 1
 **Bus-TC**htref{1}: 1
 **LAN-support**htref{1}: 1
+**Keyboard**vref{4}: LK501
 **Power-start{DST5050-230V}
 **Label: 230V
-**Supply**htref{1}: 230V 1-phase
-**I-max**htref{1}: 0.8A
-**Power**htref{1}: 123W
+**Supply**vref{4}: 220V - 240V 1-phase
+**I-max**vref{4}: 0.8A
+**Power**vref{4}: 123W
 **Power-end{DST5050-230V}
 **Power-start{DST5050-115V}
 **Label: 115V
-**Supply**htref{1}: 115V 1-phase
-**I-max**htref{1}: 1.6A
-**Power**htref{1}: 123W
+**Supply**vref{4}: 100V - 120V 1-phase
+**I-max**vref{4}: 1.6A
+**Power**vref{4}: 123W
 **Power-end{DST5050-115V}
 **Dimensions-start{DST5050}
-**Height**htref{1}: 91.4mm
-**Width**htref{1}: 406.4mm
-**Depth**htref{1}: 431.8mm
-**Weight**htref{1}: 6.80kg
+**Height**vref{4}: 91.4mm
+**Width**vref{4}: 406.4mm
+**Depth**vref{4}: 431.8mm
+**Weight**vref{4}: 6.80kg
 **Dimensions-end{DST5050}
+**Options-start{DST5050}
+**Option-title: Monitors
+**Option**vref{4}: {monitor:VRC16}
+**Option**vref{4}: {monitor:VRT16}
+**Option**vref{4}: {monitor:VRT19}
+**Option**vref{4}: {monitor:VR319}
+**Option**vref{4}: {monitor:VR320}
+**Options-end{DST5050}
 **End-systems-entry{DST5050}
 
 **Start-systems-entry{DST5100}{DECMIPS}{DS5000}
