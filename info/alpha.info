@@ -711,8 +711,8 @@
 **Option-title: Internal controllers
 **Option: {MRV11}{Programmable ROM Module}
 **Option-title: Internal mass storage options
-**Option: {RF71}{400MB DDSI Disk}
-**Option: {RF31}{381MB DDSI Disk}
+**Option: {RF71}{400MB DSSI Disk}
+**Option: {RF31}{381MB DSSI Disk}
 **Option-title: External mass storage options
 **Option: {RA60}{205MB Removable Disk Drive}
 **Option: {RA81}{456MB Disk Drive}

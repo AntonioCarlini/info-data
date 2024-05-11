@@ -194,9 +194,9 @@
 **Dimensions-end{VAX4105}
 **Options-start{VAX4105}
 **Option-title: Internal mass storage options
-**Option: {storage:RF31T}{381MB DDSI Disk}
-**Option: {storage:RF35}{852MB DDSI Disk}
-**Option: {storage:RF36}{1.6GB DDSI Disk}
+**Option: {storage:RF31T}{381MB DSSI Disk}
+**Option: {storage:RF35}{852MB DSSI Disk}
+**Option: {storage:RF36}{1.6GB DSSI Disk}
 **Option: {storage:RRD42}{SCSI CDROM drive}
 **Option: {storage:RRD43}{SCSI CDROM drive}
 **Option: {storage:TZ30}{95MB Tape Drive}
@@ -490,8 +490,8 @@
 !<TR> <TD COLSPAN=2> <B> Internal mass storage options </B> </TR>
 !<TR> <TD> <A HREF="../storage/tk70.html">   TK70  </A> <TD> </TR>
 !<TR> <TD> <A HREF="../storage/rrd40.html">  RRD40 </A> <TD> SCSI CDROM drive 			</TR>
-!<TR> <TD> <A HREF="../storage/rf71.html">   RF71  </A> <TD> 400MB DDSI Disk			</TR>
-!<TR> <TD> <A HREF="../storage/rf31.html">   RF31  </A> <TD> 381MB DDSI Disk			</TR>
+!<TR> <TD> <A HREF="../storage/rf71.html">   RF71  </A> <TD> 400MB DSSI Disk			</TR>
+!<TR> <TD> <A HREF="../storage/rf31.html">   RF31  </A> <TD> 381MB DSSI Disk			</TR>
 !<TR> <TD COLSPAN=2> <B> External mass storage options </B> </TR>
 !<TR> <TD> <A HREF="../storage/ra60.html">  RA60 </A> <TD> 205MB Removable Disk Drive 		</TR>
 !<TR> <TD> <A HREF="../storage/ra81.html">  RA81 </A> <TD> 456MB Disk Drive 			</TR>
@@ -3023,7 +3023,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !**<A HREF="../monitors/vrt16.html">   VRT16 </A> <TD> 					</TR>
 !**<A HREF="../monitors/vrt19.html">   VRT19 </A> <TD> 					</TR>
 !<TR> <TD COLSPAN=2> <B> Internal mass storage options </B> </TR>
-!**<A HREF="../storage/rz23l.html">    RZ23L </A> <TD> DDSI Disk				</TR>
+!**<A HREF="../storage/rz23l.html">    RZ23L </A> <TD> DSSI Disk				</TR>
 **End-systems-entry{VS4VLC}
 
 **Start-systems-entry{VS8000}{VAX}{VAXstation}
@@ -3285,8 +3285,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !<TR> <TD COLSPAN=2> <B> Internal mass storage options </B> </TR>
 !!**<A HREF="../storage/tk70.html">   TK70  </A> <TD> </TR>
 !**<A HREF="../storage/rrd40.html">  RRD40 </A> <TD> SCSI CDROM drive 			</TR>
-!**<A HREF="../storage/rf71.html">   RF71  </A> <TD> 400MB DDSI Disk			</TR>
-!**<A HREF="../storage/rf31.html">   RF31  </A> <TD> 381MB DDSI Disk			</TR>
+!**<A HREF="../storage/rf71.html">   RF71  </A> <TD> 400MB DSSI Disk			</TR>
+!**<A HREF="../storage/rf31.html">   RF31  </A> <TD> 381MB DSSI Disk			</TR>
 !<TR> <TD COLSPAN=2> <B> External mass storage options </B> </TR>
 !**<A HREF="../storage/ra60.html">  RA60 </A> <TD> 205MB Removable Disk Drive 		</TR>
 !**<A HREF="../storage/ra81.html">  RA81 </A> <TD> 456MB Disk Drive 			</TR>
