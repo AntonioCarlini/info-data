@@ -41,9 +41,10 @@ class InfoFileHandlerOptions
       end
       log_debug(self, line_num, @info_filename, "Options-end\{#{@id}\}")
       return HandlerResult::COMPLETED, nil
-    elsif line =~ /^ \s* \*\*Option\s*:\s*(.*)\s*$/ix
-      option_text = $1.strip()
-      process_option(line_num, option_text)
+    elsif line =~ /^ \s* \*\*Option\s* (?: \*\*vref \{ ([^}]+) \})? \s* : \s*(.*)\s*$/ix
+      given_ref = $1
+      option_text = $2.strip()
+      process_option(line_num, option_text, given_ref)
       return HandlerResult::CONTINUE, nil
     elsif line =~ /^ \s* \*\*Option-title\s*:\s*(.*)\s*$/ix
       title = $1.strip()
@@ -69,11 +70,28 @@ class InfoFileHandlerOptions
   #
   # Currently ignore the first part and use the second part as a text string
   #
-  def process_option(line_num, value)
+  def process_option(line_num, value, given_ref)
+    unless given_ref.nil?()
+      ref_array = []
+      reference = nil
+      given_ref.strip().split(",").each() {
+        |lref|
+        reference = @local_refs[lref]
+        if reference.nil?()
+          log_fatal(self, line_num, @info_filename, "vref refers to non-existent lref{#{lref}}")
+          @fatal_error_seen = true
+          return
+        end
+        unless reference.nil?()
+          ## TODO @local_refs_non_vref_count[lref] += 1 unless ref_type =~ /vref/i  # count any reference except a vref
+          ref_array << reference
+        end
+      }
+    end
     if value =~ /^\{(.*?)\}\s*\{(.*?)\}$/ix
-      @options.add_option($1.strip(), $2.strip())
+      @options.add_option($1.strip(), $2.strip(), ref_array)
     elsif value =~ /^\{(.*?)\}$/ix
-      @options.add_option($1.strip(), "")
+      @options.add_option($1.strip(), "", ref_array)
     else
       raise("Badly formed option on line #{line_num} in #{@info_filename}")
     end
@@ -97,8 +115,12 @@ class Options
     @options = []
   end
 
-  def add_option(device, text)
-    @options << [OptionPart::TEXT, [device, text]]
+  def add_option(device, text, ref_array)
+    if !ref_array.nil?() && !ref_array.empty?()
+      @options << [OptionPart::TEXT, [device, text, ref_array].flatten()]
+    else
+      @options << [OptionPart::TEXT, [device, text]]
+    end
   end
 
   def add_title(title)
