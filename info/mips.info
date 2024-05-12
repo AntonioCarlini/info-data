@@ -115,6 +115,7 @@
 **Def-lref{5} = ref{DEC-PR-1992-06-26}
 **Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{7} = ref{CU-1991-12-20}
+**document=doc{DEC:EK-PM30F-MG-004}    ! Personal DECstation/DECsystem 5000 Series Maintenance Guide
 **Sys-name: DECstation 5000-20
 **Desc-name: DECstation 5000 Model 20
 **Last-order**vref{4}: 1994-01-28
@@ -122,9 +123,8 @@
 **OS-support-ULTRIX**vref{7}: V4.2A
 **Codename**vref{6}: MAXINE LC
 **Num-proc**vref{5}: 1
-**CPU-module**htref{2}: KN02-BC
-**Module**htref{2}: 54-20165-01
-!**CPU-chip**uref{*131}: R3000A
+**CPU-module*vref{2}: KN02-BC
+**Module**vref{2}: 54-20165-01 or 54-21337-01
 **CPU-chip**vref{3,5}: R3000A
 **FPU-chip**vref{3,5}: R3010A
 **CPU-clock**vref{5}: 20MHz
@@ -151,10 +151,8 @@
 !		RZ23L, RZ24, RZ25, TZ50Z, TSZ05, TSZ07, TLZ04, TLZ08, TKZ08
 !
 !
-!**Minimum-memory**htref{1}: 8MB:(on board)
-**Minimum-memory**vref{3}: 8MB
+**Minimum-memory**vref{3}: 8MB (on board)
 **Maximum-memory**vref{3,5}: 40MB
-!**Bus-SCSI**uref{*131}: 1 @ 5MB/s
 **Bus-SCSI**vref{5}: 1
 **Bus-TC**vref{5}: 2 @ 50MB/s
 **LAN-support**vref{5}: 1
@@ -186,6 +184,7 @@
 **Def-lref{5} = ref{DEC-PR-1992-06-26}
 **Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{7} = ref{CU-1991-12-20}
+**document=doc{DEC:EK-PM30F-MG-004}    ! Personal DECstation/DECsystem 5000 Series Maintenance Guide
 **Sys-name: DECstation 5000-25
 **Desc-name: DECstation 5000 Model 25
 **Announcement**vref{7}: 1991-12-20
@@ -195,7 +194,7 @@
 **Codename**vref{6}: MAXINE LC
 **Num-proc**vref{5}: 1
 **CPU-module**htref{2}: KN02-CC
-**Module**htref{2}: 54-20165-02
+**Module**vref{2}: 54-20165-02 or 54-21337-02
 **CPU-chip**vref{3,5}: R3000A
 **FPU-chip**vref{3,5}: R3010A
 **CPU-clock**vref{5}: 25MHz
@@ -222,7 +221,7 @@
 !		RZ23L, RZ24, RZ25, TZ50Z, TSZ05, TSZ07, TLZ04, TLZ08, TKZ08
 !
 !
-**Minimum-memory**htref{1}: 8MB:(on board)
+**Minimum-memory**vref{2}: 8MB:(on board)
 **Maximum-memory**vref{5}: 40MB
 !**Bus-SCSI**uref{*131}: 1 @ 5MB/s
 **Bus-SCSI**vref{5}: 1
@@ -255,6 +254,7 @@
 **Def-lref{4} = ref{CU-1992-06-05}
 **Def-lref{5} = ref{CU-1993-12-06}
 **Def-lref{6} = ref{DEC-PR-1992-06-26}
+**document=doc{DEC:EK-PM30F-MG-004}    ! Personal DECstation/DECsystem 5000 Series Maintenance Guide
 **Sys-name: DECstation 5000-33
 **Desc-name: DECstation 5000 Model 33
 **Announcement**vref{4}: 1992-05-15
@@ -263,14 +263,13 @@
 **OS-support-ultrix**vref{4}: V4.2A
 **Num-proc**vref{6}: 1
 **CPU-module**htref{2}: KN02-DA
-! **Module entry here looks wrong
-**Module**htref{3}: 54-221331-01
+**Module**vref{2}: 54-21331-01
 **CPU-chip**vref{6}: R3000A
 **FPU-chip**vref{6}: R3010
 **CPU-clock**vref{6}: 33MHz
 **Cache**vref{6}: 128KB-I/64KB-D
 **SPECmarks**vref{6}: 25.3
-**Minimum-memory: 8MB:(on board)
+**Minimum-memory**vref{2}: 8MB:(on board)
 **Maximum-memory**vref{4,6}: 40MB
 !**Bus-SCSI**uref{*131}: 1 @ 5MB/s
 **Bus-SCSI**vref{6}: 1
@@ -304,6 +303,7 @@
 **document=doc{DEC:EK-4MAXI-OP-A01}    ! Personal DECstation 5000 Model 50 Operator’s Guide
 **document=doc{DEC:EK-PM30E-RB.003}    ! Personal DECstation 5000 User’s Guide
 **document=doc{DEC:EK-D5000-IP-A01}    ! Illustrated Parts Breakdown DECstation/DECsystem 5000 MODELS 50/150/260
+**document=doc{DEC:EK-PM30F-MG-004}    ! Personal DECstation/DECsystem 5000 Series Maintenance Guide
 **Sys-name: DECstation 5000-50
 **Desc-name: DECstation 5000 Model 50
 **Announcement**vref{3}: 1993-05-10
@@ -311,17 +311,17 @@
 **Last-ship**vref{2}: 1994-04-01
 **OS-support-ULTRIX**vref{3}: V4.3A
 **Num-proc**htref{1}: 1
-**Minimum-memory**htref{1}: 8MB:(on board)
-**Maximum-memory**htref{1}: 40MB
+**Minimum-memory**vref{1}: 8MB:(on board)
+**Maximum-memory**vref{1}: 40MB
 ! [1]: SIMMs: MS01-AA or MS01L-AB (2MB) or MS01-CA (8MB)
 ! [1]: 1024x768, 72Hz, 8-plane cfb supports VRC16, VRM17
 ! [1] LK501, VSXXX-GB
 ! vref{4}: LK501
-**CPU-module**htref{1}: KN04-AA
-**Module**htref{1}: 54-21325-01
-**Cache**htref{1}: 1MB
-**Bus-SCSI**htref{1}: 1
-**Bus-TC**htref{1}: 1
+**CPU-module**vref{1}: KN04-AA
+**Module**vref{1}: 54-21874-01
+**Cache**vref{1}: 1MB
+**Bus-SCSI**vref{1}: 1
+**Bus-TC**vref{1}: 2
 **LAN-support**htref{1}: 1
 **Keyboard**vref{4}: LK501
 **Power-start{DST5050-230V}
