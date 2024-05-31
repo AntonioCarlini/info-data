@@ -206,6 +206,51 @@
 **Desc-name: Prioris LX
 **End-systems-entry{PRI-LX}
 
+**Start-systems-entry{DECPC-433dx-MT}{DECPC}{DECPC-MT}
+**Sys-name: DECpc433dxMT
+**Desc-name: DECpc 433dx MT
+**Def-lref{1} = ref{DEC-PR-1993-03-02}
+**Announcement**vref{1}: 1993-03-02
+**Minimum-memory**vref{1}: 4 MB
+**Maximum-memory**vref{1}: 64 MB
+**Cache**vref{1}: 128 KB to 256 KB
+**Dimensions-start{DECpc433dxMT}
+**Height**vref{1}: 17"
+**Width**vref{1}: 7"
+**Depth**vref{1}: 17"
+**Dimensions-end{DECpc433dxMT}
+**End-systems-entry{DECPC-433dx-MT}
+
+**Start-systems-entry{DECPC-450d2-MT}{DECPC}{DECPC-MT}
+**Sys-name: DECpc450d2MT
+**Desc-name: DECpc 450d2 MT
+**Def-lref{1} = ref{DEC-PR-1993-03-02}
+**Announcement**vref{1}: 1993-03-02
+**Minimum-memory**vref{1}: 4 MB
+**Maximum-memory**vref{1}: 64 MB
+**Cache**vref{1}: 128 KB to 256 KB
+**Dimensions-start{DECpc450d2MT}
+**Height**vref{1}: 17"
+**Width**vref{1}: 7"
+**Depth**vref{1}: 17"
+**Dimensions-end{DECpc450d2MT}
+**End-systems-entry{DECPC-450d2-MT}
+
+**Start-systems-entry{DECPC-466d2-MT}{DECPC}{DECPC-MT}
+**Sys-name: DECpc466d2MT
+**Desc-name: DECpc 466d2 MT
+**Def-lref{1} = ref{DEC-PR-1993-03-02}
+**Announcement**vref{1}: 1993-03-02
+**Minimum-memory**vref{1}: 4 MB
+**Maximum-memory**vref{1}: 64 MB
+**Cache**vref{1}: 128 KB to 256 KB
+**Dimensions-start{DECpc466d2MT}
+**Height**vref{1}: 17"
+**Width**vref{1}: 7"
+**Depth**vref{1}: 17"
+**Dimensions-end{DECpc466d2MT}
+**End-systems-entry{DECPC-466d2-MT}
+
 **Start-systems-entry{PRI-MTE}{DECPC}{PRIORIS}
 **Sys-name: Prioris MTE
 **Desc-name: Prioris MTE
