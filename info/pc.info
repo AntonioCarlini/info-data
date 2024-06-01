@@ -149,9 +149,24 @@
 **End-systems-entry{PC5100}
 
 **Start-systems-entry{PC3010}{DECPC}{PC3000}
+**Def-lref{1} = ref{CU-V8-10B}
 **Sys-name: PC 3010
+**Announcement**vref{1}: 1997-11-03
+! vref{1} SiS 5597 UMA PCI chipset with integrated 64-bit 2-D graphics
+! vref{1} 1.0-2.5 MB of video RAM, BIOS configurable
+! vref{1} 2 DIMM sockets, supporting up to 256 MB of SDRAM
+! vref{1} Integrated Open USB support -- 2 USB ports
+! vref{1} 256K pipeline burst secondary cache
+! vref{1} 2 serial ports, 1 parallel port
+! vref{1} Advanced Configuration and Power Interface (ACPI) V1.0 support 
 **Desc-name: DIGITAL PC 3010
 **Codename: Zinfandel
+**CPU-chip**vref{1}: AMD-K6 MMX or Intel Pentium with MMX
+**CPU-clock**vref{1}: 166MHz
+**Maximum-memory**vref{1}: 256MB
+**BUS-PCI**vref{1}: 1 slot
+**BUS-ISA**vref{1}: 1 slot
+**BUS-PCI-or-ISA**vref{1}: 1 slot
 **End-systems-entry{PC3010}
 
 **Start-systems-entry{PC3100}{DECPC}{PC3000}

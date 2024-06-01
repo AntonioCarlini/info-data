@@ -444,7 +444,8 @@
 - BUS-PCI-or-ISA:
   - PCI or ISA
   - Details of slots that may be PCI or ISA
-  - alpha
+  - - alpha
+    - decpc
   - io
 - BUS-ISA:
   - ISA
