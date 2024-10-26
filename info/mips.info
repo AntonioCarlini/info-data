@@ -19,6 +19,7 @@
 **Minimum-memory**vref{1}: 4MB	
 **Maximum-memory**vref{1}: 24MB
 **Memory-checking**vref{1}: Parity
+! Note: **uref(*32) is "Digital information brochure EC E0372 46/89 10 23 125.0 CTS"
 **Max-I/O-throughput**uref{*32}: 4.0MB/s
 **Bus-SCSI**vref{1}: 1
 **LAN-support**vref{1}: 1
@@ -74,6 +75,7 @@
 **Minimum-memory**vref{1}: 4MB
 **Maximum-memory**vref{1}: 24MB
 **Memory-checking**vref{1}: Parity
+! Note: **uref(*32) is "Digital information brochure EC E0372 46/89 10 23 125.0 CTS"
 **Max-I/O-throughput**uref{*32}: 4.0MB/s
 **Bus-SCSI**vref{1}: 1
 **LAN-support**vref{1}: 1
@@ -293,6 +295,11 @@
 **Depth**htref{1}: 431.8mm
 **Weight**htref{1}: 6.80kg
 **Dimensions-end{DST50x0}
+**Text-start
+The DECstation 5000 Model 33 is targeted at low-end commercial and technical
+applications. The CPU/FPU chipset is located on a daughter card to provide for
+future upgrades. Audio capabily is built-in as standard.
+**Text-end
 **End-systems-entry{DST5033}
 
 **Start-systems-entry{DST5050}{DECMIPS}{DS5000}
