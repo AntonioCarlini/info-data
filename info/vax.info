@@ -1512,6 +1512,7 @@
 **Def-lref{5} = ref{EG-21731-18}
 **Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{7} = ref{VMS-V071-SPD}
+**Def-lref{8} = ref{SOC-SUM85}
 **document=doc{DEC:EK-SI750-IN-003} ! VAX-11/750 Installation and Acceptance Manual
 **document=doc{DEC:EK-D5283-SG-002} ! DIGITAL VAX-11/750 Magic Book
 **document=doc{DEC:EK-VAXV3-HB-001} ! VAX Maintenance Handbook VAX-11/750
@@ -1566,8 +1567,8 @@
 !
 !**Max-I/O-throughput**htref{**1}: 5.0MB/s
 **Max-I/O-throughput**vref{4}: 5.0MB/s
-**BUS-UNIBUS**uref{*82}: 1 @ 1.5MB/s
-**BUS-massbus**uref{*82}: 3@ 2.0MB/s
+**BUS-UNIBUS**vref{8}: 1 @ 1.5MB/s
+**BUS-massbus**vref{8}: 3@ 2.0MB/s
 **LAN-support: optional
 **Power-start{750}
 **Supply**vref{1}: 240V 1-phase
@@ -1723,6 +1724,7 @@ VAX/VMS and ULTRIX-32 are supported.
 **Def-lref{5} = ref{EG-21731-18}
 **Def-lref{6} = ref{VMS-V071-SPD}
 **Def-lref{7} = ref{EY-3459E-DP}
+**Def-lref{8} = ref{SOC-SUM85}
 **document = doc{DEC:EB-07466-20}
 **document = doc{DEC:EK-11780-UG-001}
 **document = doc{DEC:EK-SI780-IN-002}
@@ -1771,8 +1773,8 @@ VAX/VMS and ULTRIX-32 are supported.
 **Memory-checking**vref{1}: 8-bit ECC/longword
 ! [1] has 800ns per 64-bit read, 1300ns per 64-bit read with SBE, 1400ns per 64-bit write
 **Max-I/O-throughput: 5.0MB/s
-**BUS-UNIBUS**uref{*82}: 4 @ 1.5MB/s
-**BUS-MASSBUS**uref{*82}: 4 @ 2.0MB/s
+**BUS-UNIBUS**vref{8}: 4 @ 1.5MB/s
+**BUS-MASSBUS**vref{8}: 4 @ 2.0MB/s
 **LAN-support: optional
 **Power-start{780}
 **Supply: 240V 3-phase
@@ -1849,6 +1851,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{4} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{5} = ref{QS-VMS-V073}
 **Def-lref{6} = ref{SUE-1984-04-02-V5-N19}
+**Def-lref{7} = ref{SOC-SUM85}
 **document=doc{DEC:EK-KC785-TD-001} ! VAX-11/785 Console Interface Technical Description
 ! vref{6}: 1984-04-02
 **Announcement**vref{3,6}: 1984-04-03
@@ -1875,8 +1878,8 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Memory-checking**vref{1}: 8-bit ECC/quadword
 ! [1] 600ns per 64-bit read, 700ns per 64-bit read with SBE, 700ns per 64-bit write
 **Max-I/O-throughput**vref{1}: 13.3MB/s
-**BUS-UNIBUS**uref{**1}: 4 @ 1.5MB/s
-**BUS-MASSBUS**uref{**1}: 4 @ 2.0MB/s
+**BUS-UNIBUS**vref{7}: 4 @ 1.5MB/s
+**BUS-MASSBUS**vref{7}: 4 @ 2.0MB/s
 **LAN-support: optional
 **Power-start{785}
 **Supply**vref{1}: 240V 3-phase
@@ -3229,6 +3232,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **def-lref{2} = ref{CPU-UPGR-SPRING-1992}
 **def-lref{3} = ref{SOCEE-SPR90}
 **def-lref{4} = ref{VMS-V071-SPD}
+**def-lref{5} = ref{SOC-SUM85}
 **document=doc{DEC:EK-KD32A-OM-CN1} ! MicroVAX I Owner's Manual Release Notes
 **document=doc{DEC:EK-KD32A-PG-001} ! MicroVAX I Pocket Service Guide
 **document=doc{DEC:EK-KD32A-TD-002} ! MicroVAX I CPU Technical Description
@@ -3241,13 +3245,13 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **OS-support-VMS-end**vref{4}: V5.1-1
 ! Note that ref{4} refers to V5.1-1 as last supported version, it doesn't mention the first supported version.
 ! Flowchart has end after V5.1-1
-**CPU-module**htref{1}: KD32-AA
+**CPU-module**vref{5}: KD32-AA
 !
 !	  Module	: M7135 (Data Path Module)	<CITE> <A HREF=#ref_1> [1] </A> </CITE> </TR>
 !<TR>			: M7136 (Memory Controller Module)
 **Num-proc: 1
-**Translation-buffer**htref{1}: 512 entries
-**Cache**uref{*78}: 8KB
+**Translation-buffer**vref{5}: 512 entries
+**Cache**vref{5}: 8KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
@@ -3255,7 +3259,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **VUPs**vref{3}: 0.36
 **Minimum-memory**uref{*SI 14-11-83}: 512KB
 ! *1 ~ 1MB
-**Maximum-memory**uref{*1}: 4MB
+**Maximum-memory**vref{5}: 4MB
 **BUS-Qbus: 1 @ 3.3MB/s
 **LAN-support: optional
 **Power-start{UV1-120V}
@@ -3274,24 +3278,24 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Power-end{UV1-240V}
 **Dimensions-start{Rackmount}
 **Label: Rackmount
-**Height**htref{1}: 133mm
-**Width **htref{1}: 483mm
-**Depth **htref{1}: 643mm
-**Weight**htref{1}: 24kg
+**Height**vref{5}: 133mm
+**Width **vref{5}: 483mm
+**Depth **vref{5}: 643mm
+**Weight**vref{5}: 24kg
 **Dimensions-end{Rackmount}
 **Dimensions-start{Tabletop}
 **Label: Tabletop
-**Height**htref{1}: 177mm
-**Width **htref{1}: 565mm
-**Depth **htref{1}: 726mm
-**Weight**htref{1}: 29.5kg
+**Height**vref{5}: 177mm
+**Width **vref{5}: 562mm
+**Depth **vref{5}: 726mm
+**Weight**vref{5}: 29.5kg
 **Dimensions-end{Tabletop}
 **Dimensions-start{Floorstand}
 **Label: Floorstand
-**Height**htref{1}: 622mm
-**Width **htref{1}: 254mm
-**Depth **htref{1}: 726mm
-**Weight**htref{1}: 32kg
+**Height**vref{5}: 642mm
+**Width **vref{1}: 254mm
+**Depth **vref{1}: 726mm
+**Weight**vref{1}: 31.7kg
 **Dimensions-end{Floorstand}
 !<TR> <TD COLSPAN=2> <B> Internal controllers </B> </TR>
 !**<A HREF="../boards/kda50.html">   KDA50 </A> <TD> SDI Disk Controller			</TR>
