@@ -1581,6 +1581,11 @@
 **Depth**vref{1}: 762mm
 **Weight**vref{1}: 182kg
 **Dimensions-end{750}
+**Text-start
+The VAX-11/750 features 4 KB of bipolar cache memory with parity checking, a programmable real-time clock and a time-of-year clock with battery backup.
+The system may be clustered by connecing to a star coupler with a CI750.
+VAX/VMS and ULTRIX-32 are supported.
+**text-end
 **End-systems-entry{VAX750}
 
 **Start-systems-entry{VAX7600}{VAX}{VAX7000}
@@ -1884,6 +1889,19 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Depth**vref{1}: 762mm
 **Weight**vref{1}: 498kg
 **Dimensions-end{785}
+**Text-start
+The VAX-11/785 is an enhanced version of the VAX-11/780. Based on FAST
+(Fairchild Advanced Schottky Technology) the VAX-11/785 almost doubles
+the processing power of the VAX-11/780.
+The VAX-11/785 features G and H floating point data types as
+standard, a 32KB two-way set-associative cache, a programmable real-time
+clock, a time-of-year clock with battery backup and eight 256-Kwords 
+(99-bit words) of writable control store.
+The system may be clustered by connecting to a star coupler with a CI780.
+Compatibility mode is supported as the microcode is the same as that used
+in the VAX-11/780 (although 11/780 had in ROM, 11/785 has it in RAM).
+Both VAX/VMS and ULTRIX-32 are supported.
+**Text-end
 **End-systems-entry{VAX785}
 
 **Start-systems-entry{VAX8200}{VAX}{VAXBI}
@@ -3313,6 +3331,13 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 !**<A HREF="../boards/ibq01.html">   IBQ01 </A> <TD>  RS-485 Interface				</TR>
 !**<A HREF="../boards/ieq11.html">   IEQ11 </A> <TD>  IEC/IEEE Interface				</TR>
 !**<A HREF="../boards/kwv11.html">   KWV11 </A> <TD>  Programmable Real-Time Clock		</TR>
+**Text-start
+This was the first microcomputer member of the 32-bit VAX family and was also the first VAX to be based on the extended Q-bus.
+The MicroVAX I is designed to operate in normal office conditions and does not require anyspecial air conditioning.
+The CPU functions are spread across two quad-height modules: the data path module (DAP) and the memory controller module (MCT).
+Either D or G floating point can be supplied as firmware.
+VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
+**Text-end
 **End-systems-entry{UV1}
 
 **Start-systems-entry{UV2}{VAX}{UVAX}
@@ -4111,6 +4136,16 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Depth**vref{1}: 762mm
 **Weight**vref{1}: 782.1kg
 **Dimensions-end{8600}
+**Text-start
+The VAX 8600 is the last VAX to be based on the UNIBUS (apart from the
+VAX 8650 follow-on) and was released shortly before the first of the BI bus based machines.
+It features F,D,G and H floating point as standard, a 16KB 
+two-way set-associative write back cache, 
+a programmable real-time clock, a time-of-year clock with battery
+backup and 8 Kwords (86-bit words) of writable control store.
+The system was designed using 10K ECL technology.
+The system may be clustered by connecting to a star coupler using a CI780.
+**Text-end
 **End-systems-entry{VAX8600}
 
 **Start-systems-entry{VAX8650}{VAX}{UNIBUS}
