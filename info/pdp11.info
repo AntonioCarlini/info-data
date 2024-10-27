@@ -226,6 +226,7 @@
 
 **Start-systems-entry{PDP1124}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-26077-41}
+**Def-lref{2} = ref{SOC-SUM85}
 **Sys-name: PDP-11/24 
 **Desc-name: PDP-11/24 
 **Generation**vref{1}: 4th
@@ -239,8 +240,18 @@
 ! vref{1}: memories: MS11-LD 18-bit 256KB access times noted
 ! vref{1}: memories: MS11-PB 22-bit   1MB access times noted
 **Physical-address-lines**vref{1}: 22
+**Minimum-memory**vref{2}: 1MB
+**Maximum-memory**vref{2}: 4MB
 **Relative-performance**vref{1}: 0.30 x PDP-11/70
-**BUS-UNIBUS**vref{1}: 1
+**BUS-UNIBUS**vref{1,2}: 1
+**Dimensions-start{Rackmount}
+**Label: Ruggedised
+**Height**vref{2}: 133 mm
+**Width**vref{2}: 422 mm
+**Depth**vref{2}: 690mm
+**Weight**vref{2}: 20 kg
+**Dimensions-end{Rackmount}
+**Heat-dissipation**vref{2}: 598 BTU
 ! vref{1}: notes sizes and power.
 **End-systems-entry{PDP1124}
 
@@ -565,6 +576,7 @@
 
 **Start-systems-entry{MicroPDP1123}{PDP11}{QBUS}
 **Def-lref{1} = ref{EK-MIC11-SG-001}
+**Def-lref{2} = ref{SOC-SUM85}
 **Sys-name: MicroPDP-11/23
 **Desc-name: MicroPDP-11/23
 ! vref{1} KDF11-BE has been replaced by the KDF11-BF
@@ -575,6 +587,9 @@
 ! KDF11-BF has ROMS 23-183E4 and 23-184E4  (MicroPDP-11/23)
 ! A PDP-11/23 PLUS (KDF11-BA) can be upgraded by installing new ROMS and changing jumpers
 **Module**vref{1}: M8189
+**CPU-chip**vref{2}: F-11
+**Minimum-memory**vref{2}: 256KB
+**Maximum-memory**vref{2}: 4MB
 **End-systems-entry{MicroPDP1123}
 
 **Start-systems-entry{PDP1153}{PDP11}{QBUS}
@@ -607,14 +622,19 @@
 
 **Start-systems-entry{MicroPDP1173}{PDP11}{QBUS}
 **Def-lref{1} = ref{EK-MIC11-SG-001}
+**Def-lref{2} = ref{SOC-SUM85}
 **Sys-name: MicroPDP-11/73
 **Desc-name: MicroPDP-11/73
 ! vref{1}: KDJ11-BB - 15MHz, no FPP, (FPJ11-AA upgrade available)
 ! vref{1}: KDJ11-BC - 15MHz, no FPP, (no FPP upgrade available)
 **CPU-module**vref{1}: KDJ11-BC or KDJ11-BB
-**CPU-chip**vref{1}: J-11
+**CPU-chip**vref{1,2}: J-11
 **CPU-clock**vref{1}: 15MHz
 **Module**vref{1}: M1890 (for KDJ11-BC) or M81890-AB (for KDJ11-BB)
+**Minimum-memory**vref{2}: 512KB
+**Maximum-memory**vref{2}: 4MB
+! vref{2}: Floorstanding: 152.0mmH x 565.0mmW x 744.0mmD 32.0kg
+! vref{2]: Rackmount: 133.0mmH x 483.0mmW x 649.0mmD 25.0kg
 **End-systems-entry{MicroPDP1173}
 
 **Start-systems-entry{PDP1183}{PDP11}{QBUS}
