@@ -527,6 +527,7 @@
 **def-lref{4} = ref{CU-1992-07-15}
 **def-lref{5} = ref{CU-1992-09-21}
 **def-lref{6} = ref{CU-1993-10-12}
+**def-lref{7} = ref{DTJ-V4-3}
 **document=doc{DEC:EK-454AA-MG-001} ! KA675/KA680/KA690 CPU System Maintenance
 **Sys-name: VAX 4000-400
 **Desc-name: VAX 4000 Model 400
@@ -561,7 +562,7 @@
 **Console-processor: CPU
 **Console-device: None
 **VUPs**vref{3}: 16
-**SPECmarks**uref{*145}: 22.3
+**SPECmarks**vref{7}: 22.3
 **TPC-A: 51
 **Minimum-memory**vref{2}: 32MB
 **Maximum-memory**vref{2,3}: 512MB
@@ -838,7 +839,6 @@
 **Console-processor: CPU
 **Console-device: None
 **VUPs**vref{4}: 32
-!**SPECmarks**uref{*145}: 41.1
 **SPECmarks**vref{4}: 40.9
 **TPC-A**uref{*145}: 103.0
 **Minimum-memory**uref{*SUE Apr 1992 pt II}: 64MB
@@ -1725,6 +1725,7 @@ VAX/VMS and ULTRIX-32 are supported.
 **Def-lref{6} = ref{VMS-V071-SPD}
 **Def-lref{7} = ref{EY-3459E-DP}
 **Def-lref{8} = ref{SOC-SUM85}
+**def-lref{9} = ref{DTJ-V1-1}
 **document = doc{DEC:EB-07466-20}
 **document = doc{DEC:EK-11780-UG-001}
 **document = doc{DEC:EK-SI780-IN-002}
@@ -1756,7 +1757,7 @@ VAX/VMS and ULTRIX-32 are supported.
 **CPU-name-VMS: KA780
 **Num-proc: 1
 **CPU-technology**vref{5}: Bipolar Schottky
-**Gate-delay**uref{34}: 3ns
+**Gate-delay**vref{9}: 3ns
 **CPU-cycle**vref{1}: 200ns
 **Instruction-buffer**vref{1}: 8 bytes
 **Translation-buffer**vref{1}: 128 entries
@@ -1911,14 +1912,15 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Sys-name: VAX 8200
 **Desc-name: VAX 8200
 **def-lref{1} = ref{AZ-GN5AC-TE}
-**Def-lref{2} = ref{VAX-HW-HB-1986-V2}
-**Def-lref{3} = ref{EB-31692-46}
-**Def-lref{4} = ref{EK-KA825-MA-001}
-**Def-lref{5} = ref{SOCEE-SPR90}
-**Def-lref{6} = ref{OVMS-REL-HIST-20100621}
-**Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
-**Def-lref{8} = ref{AA-ME85D-TE}
-**Def-lref{9} = ref{QS-VMS-V073}
+**def-lref{2} = ref{VAX-HW-HB-1986-V2}
+**def-lref{3} = ref{EB-31692-46}
+**def-lref{4} = ref{EK-KA825-MA-001}
+**def-lref{5} = ref{SOCEE-SPR90}
+**def-lref{6} = ref{OVMS-REL-HIST-20100621}
+**def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
+**def-lref{8} = ref{AA-ME85D-TE}
+**def-lref{9} = ref{QS-VMS-V073}
+**def-lref{10} = ref{AZ-GN4AC-TE}
 **document=doc{DEC:EK-KA820-TM-001} ! KA820 Processor Technical Manual
 **document=doc{DEC:AZ-GN4AC-TE} ! VAX 8200/8300 Owner's Manual
 **document=doc{DEC:AZ-GN5AC-TE} ! VAX 8200/8300 Installation Guide
@@ -1949,8 +1951,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Cache**vref{2,3}: 8KB
 **Compatibility-mode: No
 **Console-processor: CPU
-!**Console-device**uref{*24}: RX50
-**Console-device**vref{2}: RX50
+**Console-device**vref{2,10}: RX50
 **VUPs**vref{3,5}: 1.0
 **Maximum-memory**vref{3}: 128MB
 **Memory-checking**vref{2}: 7-bit ECC/longword
@@ -2092,6 +2093,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **def-lref{4} = ref{EK-KA825-MA-001}
 **Def-lref{5} = ref{AA-ME85D-TE}
 **Def-lref{6} = ref{QS-VMS-V073}
+**def-lref{7} = ref{AZ-GN4AC-TE}
 **document=doc{DEC:KS-10186-AB} ! VAX 8300. The High Performance System for Departmental Computing
 **Announcement**uref{*102}: 1986-01-29
 **OS-support-ULTRIX**vref{5}: V4.0
@@ -2113,7 +2115,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Cache**vref{2}: 8KB
 **Compatibility-mode: No
 **Console-processor: CPU
-!**Console-device**uref{*24}: RX50
+!**Console-device**vref{7}: RX50
 **Console-device**vref{2}: RX50
 **VUPs**vref{3}: 1.9
 **Maximum-memory**vref{3}: 128MB
@@ -4054,7 +4056,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **options-end{VS2K}
 **End-systems-entry{VS2K}
 
-**Start-systems-entry{VAX8600}{VAX}{UNIBUS}
+**Start-systems-entry{VAX8600}{780}VAX}{UNIBUS}
 **Sys-name: VAX 8600
 **Desc-name: VAX 8600
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1}
@@ -4064,6 +4066,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Def-lref{5} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{6} = ref{QS-VMS-V073}
 **Def-lref{7} = ref{DEC-PR-1984-10-31}
+**def-lref{8} = ref{DTJ-V1-1}
 **document=doc{DEC:DTJ-V1-1} ! "VAX 8600 Processor", Digital Technical Journal, Vol 1 No 1, August 1985
 **document=doc{DEC:EK-8600I-IN-001} ! VAX 8600/8650 System Installation Manual
 **document=doc{DEC:EK-8600I-S1-001} ! VAX 8600 System Upgrade Procedure
@@ -4098,7 +4101,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **XSID : 00000000
 **Num-proc: 1
 **CPU-technology: ECL Gate Array
-**Gate-delay**uref{*34}: 1ns
+**Gate-delay**vref{8}: 1ns
 **CPU-clock: 50MHz
 **CPU-cycle**vref{1}: 80ns
 **Instruction-buffer**vref{1}: 8 bytes
