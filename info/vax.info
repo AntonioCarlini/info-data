@@ -1921,6 +1921,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **def-lref{8} = ref{AA-ME85D-TE}
 **def-lref{9} = ref{QS-VMS-V073}
 **def-lref{10} = ref{AZ-GN4AC-TE}
+**def-lref{11} = ref{ESOC-SPR87}
 **document=doc{DEC:EK-KA820-TM-001} ! KA820 Processor Technical Manual
 **document=doc{DEC:AZ-GN4AC-TE} ! VAX 8200/8300 Owner's Manual
 **document=doc{DEC:AZ-GN5AC-TE} ! VAX 8200/8300 Installation Guide
@@ -2082,6 +2083,15 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Weight**vref{1}: 79.38kg	
 **Dimensions-end{BA11}
 !-- *133 gives 250kg for VAX 8200
+**options-start{VAX8200}
+**Option-title: Memory
+**Option**vref{11}: {memory:MS820-BA}{4MB Memory VAXBI}
+**Option**vref{11}: {misc:H7231-L}{VAX 8200/8300 Battery Backup}
+**Option-title: Communications
+**Option**vref{11}: {comms:DMB32-M}{DMB32 Asynchronous /Synchronous Multiplexer}
+**Option-title: Storage
+**Option**vref{11}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
+**options-end{VAX8200}
 **End-systems-entry{VAX8200}
 
 **Start-systems-entry{VAX8300}{VAX}{VAXBI}
@@ -2094,6 +2104,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Def-lref{5} = ref{AA-ME85D-TE}
 **Def-lref{6} = ref{QS-VMS-V073}
 **def-lref{7} = ref{AZ-GN4AC-TE}
+**def-lref{8} = ref{ESOC-SPR87}
 **document=doc{DEC:KS-10186-AB} ! VAX 8300. The High Performance System for Departmental Computing
 **Announcement**uref{*102}: 1986-01-29
 **OS-support-ULTRIX**vref{5}: V4.0
@@ -2246,6 +2257,15 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Weight**vref{1}: 79.38kg	
 **Dimensions-end{BA11}
 !-- *133 gives 250kg for VAX 8200
+**options-start{VAX8300}
+**Option-title: Memory
+**Option**vref{8}: {memory:MS820-BA}{4MB Memory VAXBI}
+**Option**vref{8}: {misc:H7231-L}{VAX 8200/8300 Battery Backup}
+**Option-title: Communications
+**Option**vref{8}: {comms:DMB32-M}{DMB32 Asynchronous /Synchronous Multiplexer}
+**Option-title: Storage
+**Option**vref{8}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
+**options-end{VAX8300}
 **End-systems-entry{VAX8300}
 
 **Start-systems-entry{VAX8250}{VAX}{VAXBI}
