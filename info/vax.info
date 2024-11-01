@@ -2715,6 +2715,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **def-lref{3} = ref{AZ-GMZAB-MN}
 **def-lref{4} = ref{AZ-GLFAB-MN}
 **Def-lref{5} = ref{QS-VMS-V073}
+**Def-lref{6} = ref{ESOC-SPR87}
 **document=doc{DEC:AZ-GLFAB-MN} ! VAXstation II Technical Manual, BA23 Enclosure
 **document=doc{DEC:AZ-GMZAB-MN} ! VAXstation II Technical Manual, BA123 Enclosure
 **document=doc{DEC:AZ-GLGAB-MN} ! VCB02 Video Subsystem Technical Manual
@@ -2825,6 +2826,25 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Depth**vref{4}: 643mm
 **Weight**vref{4}: 24.0kg
 **Dimensions-end{BA23R}
+**Options-start{VS2}
+**Option-title: Enclosures
+**Option**vref{6}: {enclosure:BA23}{BA23 Floor-standing Pedestal Enclosure}
+**Option**vref{6}: {enclosure:BA123}{BA123 Caster-Mounted Enclosure}
+**Option-title: Memory
+**Option**vref{6}: {boards:MS630-AA}{1MB MOS Memory}
+**Option**vref{6}: {boards:MS630-BA}{2MB MOS Memory}
+**Option**vref{6}: {boards:MS630-BB}{4MB MOS Memory}
+**Option**vref{6}: {boards:MS630-CA}{8MB MOS Memory}
+**Option-title: Internal controllers
+**Option**vref{6}: {boards:DEQNA}{Q-bus Ethernet Adapter}
+**Option**vref{6}: {boards:VCB01}{Graphics Board}
+**Option**vref{6}: {boards:TQK50}{TK50 Controller}
+**Option-title: Internal mass storage options
+**Option**vref{6}: {storage:RD52}
+**Option**vref{6}: {storage:RD53}
+**Option**vref{6}: {storage:RD54}
+**Option**vref{6}: {storage:RX50}
+**Option**vref{6}: {storage:TK50}
 !<TR> <TD COLSPAN=2> <B> Internal options </B> </TR>
 !**<A HREF="../baords/vcb01.html">  VCB01 </A> <TD> Monochrome Video controller		</TR>
 !**<A HREF="../baords/rqdx3.html">  VCB01 </A> <TD> Disk/floppy controller		</TR>
@@ -2838,6 +2858,8 @@ Both VAX/VMS and ULTRIX-32 are supported.
 !**<A HREF="../storage/rd53.html">  RD53  </A> <TD> 71MB Fixed Disk			</TR>
 !**<A HREF="../storage/rd54.html">  RD54  </A> <TD> 159MB Fixed Disk			</TR>
 !**<A HREF="../storage/tk50.html">  TK50  </A> <TD> 95MB Tape Drive			</TR>
+**Options-end{VS2}
+! vref{6} refers to VAXstation II/RC and AI VAXstation II
 **End-systems-entry{VS2}
 
 **Start-systems-entry{VS35X0}{VAX}{VAXstation}
@@ -3936,6 +3958,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Def-lref{8} = ref{CBR-PR-1987-02-10}
 **Def-lref{9} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{10} = ref{QS-VMS-V073}
+**def-lref{11} = ref{ESOC-SPR87}
 **document=doc{DEC:EK-MVXAA-OM-001} ! MicroVAX 2000 Owner's Manual
 **document=doc{DEC:EK-MVXAA-TM-001} ! MicroVAX 2000 Technical Information
 **document=doc{DEC:EK-MVXAA-IG-001} ! MicroVAX 2000 Hardware Installation Guide
@@ -4009,10 +4032,12 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Weight**vref{1}: 9.1kg
 **Dimensions-end{BA40B}
 **options-start{UV2K}
+**Option-title: Enclosures
+**Option**vref{11}: {enclosure:BA40A-AA}{BA40A-AA MicroVAX 2000 Expansion Adapter}
 **Option-title: Internal mass storage options
 **Option: {RX33}{Diskette Drive}
-**Option: {RD32}{Disk Drive}
-**Option: {RD53}{Disk Drive}
+**Option**vref{11}: {RD32}{RD52 Disk Drive}
+**Option**vref{11}: {RD53}{RD53 Disk Drive}
 **options-end{UV2K}
 **End-systems-entry{UV2K}
 
