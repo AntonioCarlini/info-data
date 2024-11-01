@@ -12,13 +12,13 @@ The remainder handle conversion of the raw data into various formats. Most of
 the data is intended to be converted into mediawiki pages that make use of
 InfoBox format. There are other conversion scripts though, such as
 bus-module-to-mediawiki.rb that produces tables of known modules grouped by bus
-and systems-yaml-to-os-release.rb that produces tables os systems along with
+and systems-yaml-to-os-release.rb that produces tables of systems along with
 the range of supported operating systems for each (where known).
 
 ## History ##
 
 I started to gather this information in the late 1980s, intending to turn it
-into neatly formatted TeX pages. That never got very far but it mean that my
+into neatly formatted TeX pages. That never got very far but it meant that my
 data initially started out as tables of text in almost-TeX. (Almost-TeX because
 I never had time to actually run the stuff through TeX and produce printable
 output).
@@ -37,4 +37,3 @@ document). Earlier refrences ("htref" and "uref") sometimes refer to a number
 in a now lost list and sometimes refer to a specific document (which could be
 followed up and added to the main list of references, but I haven't had time to
 chase all of these up yet).
-
