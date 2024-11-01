@@ -4967,7 +4967,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Options-start{VS4090}
 **Option-title: Internal controllers
 **Option: {boards:LCSPX}{Low Cost Graphics Adapter}
-**Option: {boards:SPXg}{8-planeH igh Performance Graphics}
+**Option: {boards:SPXg}{8-plane High Performance Graphics}
 **Option: {boards:SPXgt}{24-plane High Performance Graphics}
 **Option: {boards:DSW21}{1-line Synchronous Interface}
 !-- [1]: Graphics modules: LCSPX, SPXg, SPXgt -->
