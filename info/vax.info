@@ -1792,7 +1792,7 @@ VAX/VMS and ULTRIX-32 are supported.
 **Dimensions-end{780}
 **options-start{VAX780}
 **Option-title: I/O Expansion
-**Option**vref{10}: {adapter:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
+**Option**vref{10}: {boards:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
 **options-end{VAX780}
 **Text-start
 The VAX-11/780 was the first member to ship of the VAX-11 family of supercomputers.
@@ -1901,7 +1901,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Dimensions-end{785}
 **options-start{VAX785}
 **Option-title: I/O Expansion
-**Option**vref{8}: {adapter:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
+**Option**vref{8}: {boards:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
 **options-end{VAX785}
 **Text-start
 The VAX-11/785 is an enhanced version of the VAX-11/780. Based on FAST
@@ -3393,6 +3393,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Def-lref{6} = ref{NYT-1985-05-13}
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{8} = ref{QS-VMS-V073}
+**def-lref{9} = ref{ESOC-SPR87}
 **document=doc{DEC:AZ-FE05A-TN} ! MicroVAX II 630QY, 630QZ Owner's Manual
 **document=doc{DEC:AZ-FE06A-TN} ! MicroVAX II 630QY, 630QZ Technical Manual
 **document=doc{DEC:AZ-GLBAA-MN} ! MicroVAX-II 630QB Technical Manual
@@ -3489,37 +3490,49 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 !	H9642 <CITE> <A HREF=#ref_2> [2] </A> </CITE>
 !!			: 1060mm  <TD>  656mm <TD>  914mm <TD>       kg </TR>
 **options-start{UV2}
+**Option-title: Enclosures
+**Option**vref{9}: {enclosure:BA23}{BA23 Floor-standing Pedestal Enclosure}
+**Option**vref{9}: {enclosure:BA123}{BA123 Caster-Mounted Enclosure}
+**Option**vref{9}: {enclosure:H9642}{H9642 High-Capacity Enclosure}
+**Option-title: Memory
+**Option**vref{9}: {boards:MS630-AA}{1MB MOS Memory}
+**Option**vref{9}: {boards:MS630-BA}{2MB MOS Memory}
+**Option**vref{9}: {boards:MS630-BB}{4MB MOS Memory}
+**Option**vref{9}: {boards:MS630-CA}{8MB MOS Memory}
 **Option-title: Internal controllers
-**Option: {boards:DEQNA}{Q-bus Ethernet Adapter}
+**Option**vref{9}: {boards:DEQNA}{Q-bus Ethernet Adapter}
 **Option: {boards:DELQA}{Q-bus Ethernet Adapter}
-**Option: {boards:DHV11}{Asynchronous Multiplexer}
-**Option: {boards:DLVJ1}{4-line Asynchronous Interface}
-**Option: {boards:DMV11}{Synchronous Interface}
-**Option: {boards:DPV11}{Synchronous Interface}
+**Option**vref{9}: {boards:DHV11}{Asynchronous Multiplexer}
+**Option**vref{9}: {boards:DLVJ1}{4-line Asynchronous Interface}
+**Option**vref{9}: {boards:DMV11}{Synchronous Interface}
+**Option**vref{9}: {boards:DPV11}{Synchronous Interface}
 **Option: {boards:DRV11-J}{High Density Parallel Interface}
-**Option: {boards:DZQ11}{Asynchronous Multiplexer}
+**Option**vref{9}: {boards:DZQ11}{Asynchronous Multiplexer}
 **Option: {boards:DVQ11}{Asynchronous Multiplexer}
-**Option: {boards:LPV11}{Printer Interface}
-**Option: {boards:RQDX2}{Disk Drive Controller}
+**Option**vref{9}: {boards:KMV1A}{Single Line Programmable Communications Controller}
+**Option**vref{9}: {boards:LPV11}{LPV11 Printer Interface}
+**Option: {boards:RQDX2}{RQDX2 Disk Drive Controller}
+**Option**vref{9}: {boards:RQDX3}{RQDX3 Disk Drive Controller}
 **Option: {boards:KLESI-Q}{Q-bus RC25 Controller}
-**Option: {boards:TQK50}{TK50 Controller}
+**Option**vref{9}: {boards:TQK50}{TK50 Controller}
 **Option: {boards:TQK70}{TK70 Controller}
+**Option: {boards:KDA50}{KDA50 SDI Disk Controller}
 **Option-title: Internal mass storage options
 **Option: {storage:RD51}
-**Option: {storage:RD52}
-**Option: {storage:RD53}
-**Option: {storage:RD54}
-**Option: {storage:RX50}
-**Option: {storage:TK50}
+**Option**vref{9}: {storage:RD52}
+**Option**vref{9}: {storage:RD53}
+**Option**vref{9}: {storage:RD54}
+**Option**vref{9}: {storage:RX50}
+**Option**vref{9}: {storage:TK50}
 **Option: {storage:TK70}
 **Option-title: External mass storage options
 **Option: {storage:RA60}
-**Option: {storage:RA81}
+**Option**vref{9}: {storage:RA81}
 **Option: {storage:RA82}
 **Option: {storage:RA82}
 **Option: {storage:TU81-Plus}
 **Option: {storage:TSV05}
-**Option: {storage:RC25}{26MB fixed + 26MB removable disk subsystem}
+**Option**vref{9}: {storage:RC25}{26MB fixed + 26MB removable disk subsystem}
 **options-end{UV2}
 **End-systems-entry{UV2}
 
@@ -4189,7 +4202,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Option**vref{9}: {enclosure:H9652-FD}{VAX 8600 Series UNIBUS Expansion Cabinet}
 **Option**vref{9}: {enclosure:H9652-FF}{VAX 8600 Series UNIBUS Expansion Cabinet}
 **Option**vref{9}: {enclosure:H9652-CB}{VAX 8600 Series SBI Expansion Cabinet}
-**Option**vref{9}: {adapter:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
+**Option**vref{9}: {boards:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
 **options-end{VAX8600}
 **Text-start
 The VAX 8600 is the last VAX to be based on the UNIBUS (apart from the
@@ -4269,7 +4282,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Power-end{8650}
 **options-start{VAX8650}
 **Option-title: I/O Expansion
-**Option**vref{6}: {adapter:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
+**Option**vref{6}: {boards:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
 **options-end{VAX8650}
 **End-systems-entry{VAX8650}
 
@@ -4331,7 +4344,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Option-title: I/O Expansion
 **Option**vref{5}: {enclosure:DB88-AD}{Additional VAXBI channel}
 **Option**vref{5}: {enclosure:BA32-BB}{12-slot VAXBI Backplane Enclosure}
-**Option**vref{5}: {adapter:DWBUA-CA}{UNIBUS Adapter}
+**Option**vref{5}: {boards:DWBUA-CA}{UNIBUS Adapter}
 **Option**vref{5}: {enclosure:H9652-ED}{Expansion Cabinet}
 **Option-title: Storage
 **Option**vref{5}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
@@ -4455,7 +4468,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Option-title: I/O Expansion
 **Option**vref{9}: {enclosure:DB88-AD}{Additional VAXBI channel}
 **Option**vref{9}: {enclosure:BA32-BB}{12-slot VAXBI Backplane Enclosure}
-**Option**vref{9}: {adapter:DWBUA-CA}{UNIBUS Adapter}
+**Option**vref{9}: {boards:DWBUA-CA}{UNIBUS Adapter}
 **Option**vref{9}: {enclosure:H9652-ED}{Expansion Cabinet}
 **Option-title: Storage
 **Option**vref{9}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
@@ -4525,7 +4538,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Option**vref{9}: {enclosure:BA32-BB}{12-slot VAXBI Backplane Enclosure}
 **Option**vref{9}: {enclosure:BA11-AX}{UNIBUS Expansion Box}
 **Option**vref{9}: {enclosure:DD11-DK}{UNIBUS Backplane}
-**Option**vref{9}: {adapter:DWBUA-CA}{UNIBUS Adapter}
+**Option**vref{9}: {boards:DWBUA-CA}{UNIBUS Adapter}
 **Option**vref{9}: {enclosure:H9652-ED}{Expansion Cabinet}
 **Option-title: Storage
 **Option**vref{9}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
@@ -4606,7 +4619,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Option**vref{7}: {enclosure:BA32-BB}{12-slot VAXBI Backplane Enclosure}
 **Option**vref{7}: {enclosure:BA11-AX}{UNIBUS Expansion Box}
 **Option**vref{7}: {enclosure:DD11-DK}{UNIBUS Backplane}
-**Option**vref{7}: {adapter:DWBUA-CA}{UNIBUS Adapter}
+**Option**vref{7}: {boards:DWBUA-CA}{UNIBUS Adapter}
 **Option**vref{7}: {enclosure:H9652-ED}{Expansion Cabinet}
 **Option-title: Storage
 **Option**vref{7}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
