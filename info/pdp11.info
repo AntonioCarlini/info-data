@@ -575,8 +575,9 @@
 **End-systems-entry{PDP1123PLUS}
 
 **Start-systems-entry{MicroPDP1123}{PDP11}{QBUS}
-**Def-lref{1} = ref{EK-MIC11-SG-001}
-**Def-lref{2} = ref{SOC-SUM85}
+**def-lref{1} = ref{EK-MIC11-SG-001}
+**def-lref{2} = ref{SOC-SUM85}
+**def-lref{3} = ref{ESOC-SPR87}
 **Sys-name: MicroPDP-11/23
 **Desc-name: MicroPDP-11/23
 ! vref{1} KDF11-BE has been replaced by the KDF11-BF
@@ -590,6 +591,21 @@
 **CPU-chip**vref{2}: F-11
 **Minimum-memory**vref{2}: 256KB
 **Maximum-memory**vref{2}: 4MB
+**Options-start{MicroPDP-11/23}
+**Option-title: CPU Options
+**Option**vref{3}: {boards:KDF11-AA}{PDP-11/23 SBC with MMU (4MB addressing)}
+**Option**vref{3}: {boards:KDF11-AC}{PDP-11/23 SBC without MMU (64KB addressing)}
+**Option**vref{3}: {boards:KEF11-AA}{FPU for KDF11}
+**Option**vref{3}: {boards:KTF11-AA}{MMU for KDF11-AC}
+**Option-title: Backplanes
+**Option**vref{3}: {backplanes:H9270-Q}{4 x 4-slot 22-bit Q-bus Backplane}
+**Option**vref{3}: {backplanes:H9273-A}{4 x 9-slot 22-bit Q-bus Backplane}
+**Option**vref{3}: {backplanes:H9275-A}{4 x 9-slot 22-bit Q-bus Backplane, with CD interconnect}
+**Option-title: Enclosures
+**Option**vref{3}: {enclosures:BA23-A}{BA23 Expansion Box}
+**Option**vref{3}: {enclosures:BA11-SB}{9-slot Expander Box}
+**Option**vref{3}: {enclosures:H9642-JB}{Micro System Cabinet}
+**Options-end{MicroPDP-11/23}
 **End-systems-entry{MicroPDP1123}
 
 **Start-systems-entry{PDP1153}{PDP11}{QBUS}
@@ -600,29 +616,65 @@
 **Start-systems-entry{MicroPDP1153}{PDP11}{QBUS}
 ! Enclosure: BA23
 ! uPDP-11/83 enclosures: BA23, BA123, BA213, H9642
-**Def-lref{1} = ref{SOCEE-SPR90}
+**def-lref{1} = ref{SOCEE-SPR90}
+**def-lref{2} = ref{ESOC-SPR87}
 **Sys-name: MicroPDP-11/53
 **Desc-name: MicroPDP-11/53
-**CPU-chip**vref{1}: J-11
-**CPU-clock**vref{1}: 15MHz
+**CPU-chip**vref{1,2}: J-11
+**CPU-clock**vref{1,2}: 15MHz
 **Module**vref{1}: KDJ11-DA
 ! vref{1} uPDP-11/53+ has 1.5MB on board using KDJ11-DB
 **Minimum-memory**vref{1}: 512KB
 **On-board-memory**vref{1}: 512KB
-**Maximum-memory**vref{1}: 4MB
+**Maximum-memory**vref{1,2}: 4MB
 **BUS-QBUS**vref{1}: 1 (22-bit)
+**Options-start{MicroPDP-11/53}
+**Option-title: Memory
+**Option**vref{2}: {boards:MSV11-QC}{4MB ECC MOS Memory}
+**Option**vref{2}: {boards:MSV11-QB}{2MB ECC MOS Memory}
+**Option**vref{2}: {boards:MSV11-QA}{1MB ECC MOS Memory}
+**Option**vref{2}: {boards:MSV11-PL}{512KB Parity Memory}
+**Option**vref{2}: {boards:MSV11-PK}{256KB Parity Memory}
+**Option-title: Communications Options
+**Option**vref{2}: {boards:DEQNA}{Ethernet Communications Controller}
+**Option**vref{2}: {boards:DHV11}{8-line EIA Multiplexer with Modem Control}
+**Option**vref{2}: {boards:DZQ11}{4-line Asynchronous Multiplexer with Modem Control}
+**Option**vref{2}: {boards:DLVJ1}{4-line EIA Interface}
+**Option**vref{2}: {boards:DLVE1}{single-line EIA Interface with Modem Control}
+**Option**vref{2}: {boards:DMV11}{Single-line Asynchronous Interface}
+**Option**vref{2}: {boards:DPV11}{Single-line Synchronous Interface}
+**Option**vref{2}: {boards:DUV11}{Synchronous Interface}
+**Option**vref{2}: {boards:KMV1A}{Single-line Synchronous Interface}
+**Option**vref{2}: {boards:KTX11-CA}{T-11-based I/O Processor}
+**Option-title: Storage
+**Option**vref{2}: {storage:RA81}{456MB Fixed Disk Drive}
+! Note that vref{2} incorrectly states 250MB ... simple typo
+**Option**vref{2}: {storage:RA60}{205MB Removable Drive}
+**Option**vref{2}: {storage:RD31}{20MB Half-height Fixed Disk Drive}
+**Option**vref{2}: {storage:RD54}{159MB Fixed Disk Drive}
+**Option**vref{2}: {storage:RD53}{71MB Fixed Disk Drive}
+**Option**vref{2}: {storage:RD52}{31MB Fixed Disk Drive}
+**Option**vref{2}: {storage:RX33}{1.2MB Half-height Floppy Disk Drive}
+**Option**vref{2}: {storage:RX50}{Integrated Dual Diskette Drive}
+**Option-title: Enclosures
+**Option**vref{2}: {enclosures:BA23-CD}{BA23 Expansion Box}
+**Option**vref{2}: {enclosures:BA11-SF}{9-slot Expander Box}
+**Option**vref{2}: {enclosures:H9642-JB}{Micro System Cabinet}
+**Options-end{MicroPDP-11/53}
 **End-systems-entry{MicroPDP1153}
 
 **Start-systems-entry{PDP1173}{PDP11}{QBUS}
+**def-lref{1} = ref{Glossary-CodeNames-1992-01-02}
 **Sys-name: PDP-11/73
 **Desc-name: PDP-11/73
-**Def-lref{1} = ref{Glossary-CodeNames-1992-01-02}
 **Codename**vref{1}: Orion
+**Maximum-memory**vref{1}: 4MB
 **End-systems-entry{PDP1173}
 
 **Start-systems-entry{MicroPDP1173}{PDP11}{QBUS}
 **Def-lref{1} = ref{EK-MIC11-SG-001}
 **Def-lref{2} = ref{SOC-SUM85}
+**def-lref{3} = ref{ESOC-SPR87}
 **Sys-name: MicroPDP-11/73
 **Desc-name: MicroPDP-11/73
 ! vref{1}: KDJ11-BB - 15MHz, no FPP, (FPJ11-AA upgrade available)
@@ -635,6 +687,38 @@
 **Maximum-memory**vref{2}: 4MB
 ! vref{2}: Floorstanding: 152.0mmH x 565.0mmW x 744.0mmD 32.0kg
 ! vref{2]: Rackmount: 133.0mmH x 483.0mmW x 649.0mmD 25.0kg
+**Options-start{MicroPDP-11/73}
+**Option-title: Memory
+**Option**vref{3}: {boards:MSV11-QC}{4MB ECC MOS Memory}
+**Option**vref{3}: {boards:MSV11-QB}{2MB ECC MOS Memory}
+**Option**vref{3}: {boards:MSV11-QA}{1MB ECC MOS Memory}
+**Option**vref{3}: {boards:MSV11-PL}{512KB Parity Memory}
+**Option**vref{3}: {boards:MSV11-PK}{256KB Parity Memory}
+**Option-title: Communications Options
+**Option**vref{3}: {boards:DEQNA}{Ethernet Communications Controller}
+**Option**vref{3}: {boards:DHV11}{8-line EIA Multiplexer with Modem Control}
+**Option**vref{3}: {boards:DZQ11}{4-line Asynchronous Multiplexer with Modem Control}
+**Option**vref{3}: {boards:DLVJ1}{4-line EIA Interface}
+**Option**vref{3}: {boards:DLVE1}{single-line EIA Interface with Modem Control}
+**Option**vref{3}: {boards:DMV11}{Single-line Asynchronous Interface}
+**Option**vref{3}: {boards:DPV11}{Single-line Synchronous Interface}
+**Option**vref{3}: {boards:DUV11}{Synchronous Interface}
+**Option**vref{3}: {boards:KMV1A}{Single-line Synchronous Interface}
+**Option**vref{3}: {boards:KTX11-CA}{T-11-based I/O Processor}
+**Option-title: Storage
+**Option**vref{3}: {storage:RA81}{456MB Fixed Disk Drive}
+! Note that vref{3} incorrectly states 250MB ... simple typo
+**Option**vref{3}: {storage:RA60}{205MB Removable Drive}
+**Option**vref{3}: {storage:RD54}{159MB Fixed Disk Drive}
+**Option**vref{3}: {storage:RD53}{71MB Fixed Disk Drive}
+**Option**vref{3}: {storage:RD52}{31MB Fixed Disk Drive}
+**Option**vref{3}: {storage:RX33}{1.2MB Half-height Floppy Disk Drive}
+**Option**vref{3}: {storage:RX50}{Integrated Dual Diskette Drive}
+**Option-title: Enclosures
+**Option**vref{3}: {enclosures:BA23-CD}{BA23 Expansion Box}
+**Option**vref{3}: {enclosures:BA11-SF}{9-slot Expander Box}
+**Option**vref{3}: {enclosures:H9642-JB}{Micro System Cabinet}
+**Options-end{MicroPDP-11/73}
 **End-systems-entry{MicroPDP1173}
 
 **Start-systems-entry{PDP1183}{PDP11}{QBUS}
@@ -644,6 +728,7 @@
 
 **Start-systems-entry{MicroPDP1183}{PDP11}{QBUS}
 **Def-lref{1} = ref{EK-MIC11-SG-001}
+**def-lref{2} = ref{ESOC-SPR87}
 **Sys-name: MicroPDP-11/83
 **Desc-name: MicroPDP-11/83
 ! vref{1}: KDJ11-BF includes FPJ11-AB
@@ -651,6 +736,35 @@
 **Module**vref{1}: M8190-AE
 **CPU-chip**vref{1}: J-11
 **CPU-clock**vref{1}: 18MHz
+**Options-start{MicroPDP-11/83}
+**Option-title: Memory
+**Option**vref{2}: {boards:MSV11-JE}{2MB PMI ECC MOS Memory}
+**Option**vref{2}: {boards:MSV11-JD}{1MB PMI ECC MOS Memory}
+**Option-title: Communications Options
+**Option**vref{2}: {boards:DEQNA}{Ethernet Communications Controller}
+**Option**vref{2}: {boards:DHV11}{8-line EIA Multiplexer with Modem Control}
+**Option**vref{2}: {boards:DZQ11}{4-line Asynchronous Multiplexer with Modem Control}
+**Option**vref{2}: {boards:DLVJ1}{4-line EIA Interface}
+**Option**vref{2}: {boards:DLVE1}{single-line EIA Interface with Modem Control}
+**Option**vref{2}: {boards:DMV11}{Single-line Asynchronous Interface}
+**Option**vref{2}: {boards:DPV11}{Single-line Synchronous Interface}
+**Option**vref{2}: {boards:DUV11}{Synchronous Interface}
+**Option**vref{2}: {boards:KMV1A}{Single-line Synchronous Interface}
+**Option**vref{2}: {boards:KTX11-CA}{T-11-based I/O Processor}
+**Option-title: Storage
+**Option**vref{2}: {storage:RA81}{456MB Fixed Disk Drive}
+! Note that vref{2} incorrectly states 250MB ... simple typo
+**Option**vref{2}: {storage:RA60}{205MB Removable Drive}
+**Option**vref{2}: {storage:RD54}{159MB Fixed Disk Drive}
+**Option**vref{2}: {storage:RD53}{71MB Fixed Disk Drive}
+**Option**vref{2}: {storage:RD52}{31MB Fixed Disk Drive}
+**Option**vref{2}: {storage:RX33}{1.2MB Half-height Floppy Disk Drive}
+**Option**vref{2}: {storage:RX50}{Integrated Dual Diskette Drive}
+**Option-title: Enclosures
+**Option**vref{2}: {enclosures:BA23-CD}{BA23 Expansion Box}
+**Option**vref{2}: {enclosures:BA11-SF}{9-slot Expander Box}
+**Option**vref{2}: {enclosures:H9642-JB}{Micro System Cabinet}
+**Options-end{MicroPDP-11/83}
 **End-systems-entry{MicroPDP1183}
 
 **Start-systems-entry{MicroPDP1193}{PDP11}{QBUS}
