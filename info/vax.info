@@ -1726,6 +1726,7 @@ VAX/VMS and ULTRIX-32 are supported.
 **Def-lref{7} = ref{EY-3459E-DP}
 **Def-lref{8} = ref{SOC-SUM85}
 **def-lref{9} = ref{DTJ-V1-1}
+**def-lref{10} = ref{ESOC-SPR87}
 **document = doc{DEC:EB-07466-20}
 **document = doc{DEC:EK-11780-UG-001}
 **document = doc{DEC:EK-SI780-IN-002}
@@ -1789,6 +1790,10 @@ VAX/VMS and ULTRIX-32 are supported.
 **Depth**vref{1}: 762mm
 **Weight**vref{1}: 498kg
 **Dimensions-end{780}
+**options-start{VAX780}
+**Option-title: I/O Expansion
+**Option**vref{10}: {adapter:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
+**options-end{VAX780}
 **Text-start
 The VAX-11/780 was the first member to ship of the VAX-11 family of supercomputers.
 It was announced on October 25<sup>th</sup>, 1977 at Digital Equipment Corporation's Annual Meeting of Shareholders.**vref{4}
@@ -1853,6 +1858,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{5} = ref{QS-VMS-V073}
 **Def-lref{6} = ref{SUE-1984-04-02-V5-N19}
 **Def-lref{7} = ref{SOC-SUM85}
+**def-lref{8} = ref{ESOC-SPR87}
 **document=doc{DEC:EK-KC785-TD-001} ! VAX-11/785 Console Interface Technical Description
 ! vref{6}: 1984-04-02
 **Announcement**vref{3,6}: 1984-04-03
@@ -1893,6 +1899,10 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Depth**vref{1}: 762mm
 **Weight**vref{1}: 498kg
 **Dimensions-end{785}
+**options-start{VAX785}
+**Option-title: I/O Expansion
+**Option**vref{8}: {adapter:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
+**options-end{VAX785}
 **Text-start
 The VAX-11/785 is an enhanced version of the VAX-11/780. Based on FAST
 (Fairchild Advanced Schottky Technology) the VAX-11/785 almost doubles
@@ -2091,6 +2101,9 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Option**vref{11}: {comms:DMB32-M}{DMB32 Asynchronous /Synchronous Multiplexer}
 **Option-title: Storage
 **Option**vref{11}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
+**Option-title: I/O Expansion
+**Option**vref{11}: {enclosure:H9642-FB}{VAX 8200/8300 Series UNIBUS Expansion Cabinet}
+**Option**vref{11}: {enclosure:H9642-FD}{VAX 8200/8300 Series UNIBUS Expansion Cabinet}
 **options-end{VAX8200}
 **End-systems-entry{VAX8200}
 
@@ -2265,6 +2278,9 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Option**vref{8}: {comms:DMB32-M}{DMB32 Asynchronous /Synchronous Multiplexer}
 **Option-title: Storage
 **Option**vref{8}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
+**Option-title: I/O Expansion
+**Option**vref{8}: {enclosure:H9642-FB}{VAX 8200/8300 Series UNIBUS Expansion Cabinet}
+**Option**vref{8}: {enclosure:H9642-FD}{VAX 8200/8300 Series UNIBUS Expansion Cabinet}
 **options-end{VAX8300}
 **End-systems-entry{VAX8300}
 
@@ -4087,6 +4103,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Def-lref{6} = ref{QS-VMS-V073}
 **Def-lref{7} = ref{DEC-PR-1984-10-31}
 **def-lref{8} = ref{DTJ-V1-1}
+**def-lref{9} = ref{ESOC-SPR87}
 **document=doc{DEC:DTJ-V1-1} ! "VAX 8600 Processor", Digital Technical Journal, Vol 1 No 1, August 1985
 **document=doc{DEC:EK-8600I-IN-001} ! VAX 8600/8650 System Installation Manual
 **document=doc{DEC:EK-8600I-S1-001} ! VAX 8600 System Upgrade Procedure
@@ -4163,6 +4180,17 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Depth**vref{1}: 762mm
 **Weight**vref{1}: 782.1kg
 **Dimensions-end{8600}
+**options-start{VAX8600}
+**Option-title: Memory
+**Option**vref{9}: {memory:MS86-AA}{4MB ECC MOS (256K chip) Memory Module}
+**Option**vref{9}: {memory:MS86-CA}{16MB ECC MOS (256K chip) Memory Module}
+**Option-title: I/O Expansion
+**Option**vref{9}: {enclosure:H9652-FB}{VAX 8600 Series UNIBUS Expansion Cabinet}
+**Option**vref{9}: {enclosure:H9652-FD}{VAX 8600 Series UNIBUS Expansion Cabinet}
+**Option**vref{9}: {enclosure:H9652-FF}{VAX 8600 Series UNIBUS Expansion Cabinet}
+**Option**vref{9}: {enclosure:H9652-CB}{VAX 8600 Series SBI Expansion Cabinet}
+**Option**vref{9}: {adapter:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
+**options-end{VAX8600}
 **Text-start
 The VAX 8600 is the last VAX to be based on the UNIBUS (apart from the
 VAX 8650 follow-on) and was released shortly before the first of the BI bus based machines.
@@ -4183,6 +4211,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **def-lref{3} = ref{SOC-SUM85}
 **def-lref{4} = ref{SOCEE-SPR90}
 **Def-lref{5} = ref{QS-VMS-V073}
+**def-lref{6} = ref{ESOC-SPR87}
 **document=doc{DEC:EK-8600I-IN-001} ! VAX 8600/8650 System Installation Manual
 **document=doc{DEC:EK-8600S-MM-004} ! VAX 8600/8650 System Fault Isolation Manual
 **document=doc{DEC:EK-DB86X-TD-002} ! VAX 8600/8650 SBIA Technical Decsription
@@ -4238,6 +4267,10 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Power: 6500W
 **Heat-dissipation: 22000 BTU/hr
 **Power-end{8650}
+**options-start{VAX8650}
+**Option-title: I/O Expansion
+**Option**vref{6}: {adapter:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
+**options-end{VAX8650}
 **End-systems-entry{VAX8650}
 
 **Start-systems-entry{VAX8500}{VAX}{VAXBI}
@@ -4247,6 +4280,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Def-lref{2} = ref{EB-31692-46}
 **Def-lref{3} = ref{DTJ-V1-4}
 **Def-lref{4} = ref{PRN-1986-04-07-VAX8500}
+**def-lref{5} = ref{ESOC-SPR87}
 **Announcement**vref{4}: 1986-04-07
 **FRS-date: May 1986					
 **Codename**uref{*102}: Flounder
@@ -4263,7 +4297,8 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Console-processor: PRO 380
 **Console-device: None
 **VUPs**htref{2}: 3.0
-**Minimum-memory**uref{*6}: 16MB
+! Min memory also see: "VAX. Digital's VAX Systems. Brochure EA 29382-46/87 02 65 100.0"
+**Minimum-memory**vref{5}: 16MB
 **Maximum-memory: 320MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
 **Max-I/O-throughput**vref{3}: 16MB/s
@@ -4290,6 +4325,17 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Depth**vref{1}: 762mm
 **Weight**vref{1}: 295kg
 **Dimensions-end{8500}
+**options-start{VAX8500}
+**Option-title: Memory
+**Option**vref{5}: {memory:MS88-CA}{16MB 256K ECC MOS Memory}
+**Option-title: I/O Expansion
+**Option**vref{5}: {enclosure:DB88-AD}{Additional VAXBI channel}
+**Option**vref{5}: {enclosure:BA32-BB}{12-slot VAXBI Backplane Enclosure}
+**Option**vref{5}: {adapter:DWBUA-CA}{UNIBUS Adapter}
+**Option**vref{5}: {enclosure:H9652-ED}{Expansion Cabinet}
+**Option-title: Storage
+**Option**vref{5}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
+**options-end{VAX8500}
 **End-systems-entry{VAX8500}
 
 **Start-systems-entry{VAX8530}{VAX}{VAXBI}
@@ -4360,6 +4406,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Def-lref{6} = ref{PRN-1986-08-05-VAX8550-8700}
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{8} = ref{QS-VMS-V073}
+**def-lref{9} = ref{ESOC-SPR87}
 **Announcement**vref{6}: 1986-08-05
 **FRS-date**uref{*102}: 1986-05
 **Codename**vref{7}: Skipjack
@@ -4402,6 +4449,17 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Depth**vref{1}: 762mm
 **Weight**vref{1}: 295kg
 **Dimensions-end{8550}
+**options-start{VAX8550}
+**Option-title: Memory
+**Option**vref{9}: {memory:MS88-CA}{16MB 256K ECC MOS Memory}
+**Option-title: I/O Expansion
+**Option**vref{9}: {enclosure:DB88-AD}{Additional VAXBI channel}
+**Option**vref{9}: {enclosure:BA32-BB}{12-slot VAXBI Backplane Enclosure}
+**Option**vref{9}: {adapter:DWBUA-CA}{UNIBUS Adapter}
+**Option**vref{9}: {enclosure:H9652-ED}{Expansion Cabinet}
+**Option-title: Storage
+**Option**vref{9}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
+**options-end{VAX8550}
 **End-systems-entry{VAX8550}
 
 **Start-systems-entry{VAX8700}{VAX}{VAXBI}
@@ -4415,6 +4473,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Def-lref{6} = ref{PRN-1986-08-05-VAX8550-8700}
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{8} = ref{QS-VMS-V073}
+**def-lref{9} = ref{ESOC-SPR87}
 **document=doc{DEC:VAX 88X0} ! VAX 88x0/8700/85x0 Information
 **Announcement**vref{6}: 1986-08-05
 **Codename**vref{7}: Nautilus
@@ -4458,6 +4517,19 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Depth **vref{1}: 762mm
 **Weight**vref{1}: 802kg
 **Dimensions-end{8700}
+**options-start{VAX8700}
+**Option-title: Memory
+**Option**vref{9}: {memory:MS88-CA}{16MB 256K ECC MOS Memory}
+**Option-title: I/O Expansion
+**Option**vref{9}: {enclosure:DB88-AC}{Additional VAXBI channel}
+**Option**vref{9}: {enclosure:BA32-BB}{12-slot VAXBI Backplane Enclosure}
+**Option**vref{9}: {enclosure:BA11-AX}{UNIBUS Expansion Box}
+**Option**vref{9}: {enclosure:DD11-DK}{UNIBUS Backplane}
+**Option**vref{9}: {adapter:DWBUA-CA}{UNIBUS Adapter}
+**Option**vref{9}: {enclosure:H9652-ED}{Expansion Cabinet}
+**Option-title: Storage
+**Option**vref{9}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
+**options-end{VAX8700}
 **End-systems-entry{VAX8700}
 
 **Start-systems-entry{VAX8800}{VAX}{VAXBI}
@@ -4469,6 +4541,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Def-lref{4} = ref{SOCEE-SPR90}
 **Def-lref{5} = ref{DOW-1986-01-29-VAX8800}
 **Def-lref{6} = ref{QS-VMS-V073}
+**def-lref{7} = ref{ESOC-SPR87}
 **document=doc{DEC:EK-KA881-TD-PRE} ! VAX 8800 System Technical Description Volume 1
 **document=doc{DEC:EK-KA882-TD-PRE} ! VAX 8800 System Technical Description Volume 2
 **document=doc{DEC:EK-KA883-TD-PRE} ! VAX 8800 System Technical Description Volume 3
@@ -4523,6 +4596,21 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Depth **vref{1}: 762mm
 **Weight**vref{1}: 836kg
 **Dimensions-end{8800}
+
+**options-start{VAX8800}
+**Option-title: Memory
+**Option**vref{7}: {memory:MS88-CA}{16MB 256K ECC MOS Memory}
+**Option-title: I/O Expansion
+**Option**vref{7}: {enclosure:DB88-AE}{VAX 8800 Third VAXBI channel}
+**Option**vref{7}: {enclosure:DB88-AD}{VAX 8800 Fourth VAXBI channel}
+**Option**vref{7}: {enclosure:BA32-BB}{12-slot VAXBI Backplane Enclosure}
+**Option**vref{7}: {enclosure:BA11-AX}{UNIBUS Expansion Box}
+**Option**vref{7}: {enclosure:DD11-DK}{UNIBUS Backplane}
+**Option**vref{7}: {adapter:DWBUA-CA}{UNIBUS Adapter}
+**Option**vref{7}: {enclosure:H9652-ED}{Expansion Cabinet}
+**Option-title: Storage
+**Option**vref{7}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
+**options-end{VAX8800}
 
 **End-systems-entry{VAX8800}
 
