@@ -427,13 +427,15 @@
 **End-systems-entry{PDP1174}
 
 **Start-systems-entry{PDP1184}{PDP11}{UNIBUS}
-**Def-lref{1} = ref{EB-26077-41}
+**def-lref{1} = ref{EB-26077-41}
+**def-lref{2} = ref{ESOC-SPR87}
 **Sys-name: PDP-11/84 
 **Desc-name: PDP-11/84 
 **Announcement**vref{1}: 1985
 **Generation**vref{1}: 5th
 **CPU-module**vref{1}: KDJ11-B
-**CPU-chip**vref{1}: J-11
+**CPU-chip**vref{1,2}: J-11
+**CPU-clock**vref{2}: 18MHz
 **Cache**vref{1}: 8KB
 **Relative-performance**vref{1}: 1.1 x PDP-11/70
 ! vref{1}: processor connects to memory via PMI
@@ -475,6 +477,36 @@
 **Depth**vref{1}: 800mm
 **Weight**vref{1}: 150kg
 **Dimensions-end{Cabinet}
+**options-start{PDP1184}
+**option-title: Memory
+**Option**vref{2}: {boards:MSV11-JB}{1MB PMI ECC MOS Memory}
+**Option**vref{2}: {boards:MSV11-JC}{2MB PMI ECC MOS Memory}
+**Option-title: Communications
+**Option**vref{2}: {boards:DHU11-M}{16-line Asynchronous DMA Multiplexer}
+**Option**vref{2}: {boards:DUP11-M}{Single-line Synchronous Interface}
+**Option**vref{2}: {boards:DMR11-M}{Single-line Synchronous Interface}
+**Option**vref{2}: {boards:DMP11-M}{Single-line Synchronous Interface}
+**Option**vref{2}: {boards:PCL11-B}{Multiport Parallel Communications Link}
+**Option**vref{2}: {boards:KMS1P-M}{Single-line Synchronous Communications Front-end Processor}
+**Option**vref{2}: {boards:DELUA}{High-performance Ethernet Communications Controller}
+**Option-title: Enclosures
+**Option**vref{2}: {enclosure:H7231-E}{11X84 Battery Backup Option}
+**Option**vref{2}: {enclosure:H7231-F}{11X84 Battery Backup Option}
+**Option**vref{2}: {enclosure:BA11-K}{Rackmount Expansion Box}
+**Option**vref{2}: {enclosure:DB11-M}{UNIBUS Repeater}
+**Option**vref{2}: {enclosure:DD11-CK}{Four-slot Expansion Backplane}
+**Option**vref{2}: {enclosure:DD11-DK}{Nine-slot Expansion Backplane}
+**Option**vref{2}: {enclosure:H9642-FA}{UNIBUS Expansion Cabinet}
+**Option**vref{2}: {enclosure:H9642-EA}{Top-loading stand-alone cabinet for CPU}
+**Option**vref{2}: {enclosure:H9642-AP}{Top-loading cabinet for RA60 Removable Disk}
+**Option-title: Storage
+**Option**vref{2}: {storage:RA81}{456MB Fixed Disk Drive}
+**Option**vref{2}: {storage:RA60}{205MB Removable-Disk Drive
+**Option**vref{2}: {boards:UDA50-A}{SDI Disk Controller}
+**Option**vref{2}: {boards:RL211-AK}{10MB Removable-disk and Controller}
+**Option**vref{2}: {storage:RX50-D}{800KB Dual Floppy Diskette Drive}
+**Option**vref{2}: {boards:RUX50-YP}{UNIBUS Controller for RX50}
+**options-end{PDP1184}
 **End-systems-entry{PDP1184}
 
 **Start-systems-entry{PDP1194}{PDP11}{UNIBUS}
