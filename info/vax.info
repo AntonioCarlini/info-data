@@ -4400,7 +4400,7 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **CPU-cycle**vref{2}: 45ns
 **Instruction-buffer**vref{2}: 16 bytes
 **Translation-buffer**htref{*3}: 1024 entries
-**WCS**vref[2}: 16K 144-bit words
+**WCS**vref{2}: 16K 144-bit words
 **UWCS**vref{2}: 1K 144-bit words
 **Cache**vref{2}: 64KB
 **Compatibility-mode: No
@@ -4469,7 +4469,7 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 !**VUPs**htref{2}: 6.0
 **VUPs**vref{4}: 6.0
 **Minimum-memory**uref{*6}: 16MB
-**Maximum-memory**vef{2}: 320MB
+**Maximum-memory**vref{2}: 320MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
 **Max-I/O-throughput**vref{3}: 16MB/s
 ! [2]
