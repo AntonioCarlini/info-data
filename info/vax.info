@@ -2716,6 +2716,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **def-lref{4} = ref{AZ-GLFAB-MN}
 **Def-lref{5} = ref{QS-VMS-V073}
 **Def-lref{6} = ref{ESOC-SPR87}
+**def-lref{7} = ref{SOC-SUM85}
 **document=doc{DEC:AZ-GLFAB-MN} ! VAXstation II Technical Manual, BA23 Enclosure
 **document=doc{DEC:AZ-GMZAB-MN} ! VAXstation II Technical Manual, BA123 Enclosure
 **document=doc{DEC:AZ-GLGAB-MN} ! VCB02 Video Subsystem Technical Manual
@@ -2742,7 +2743,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **CPU-technology**uref{*5,*6,*35}: ZMOS
 **CPU-chip**uref{*35}: 78032
 **FPU-chip**uref{*35}: 78132
-**CPU-clock**uref{*1}: 40MHz
+**CPU-clock**vref{7}: 40MHz
 **CPU-cycle**uref{*40}: 200ns
 **Instruction-buffer : 8 bytes
 **Cache: None
@@ -4325,19 +4326,19 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **OS-support-VMS**uref{*26}: V4.4
 **Num-proc**vref{3}: 1
 **CPU-technology**vref{3}: ECL Gate Array
-**CPU-cycle**vref{1,3}: 45ns
+**CPU-cycle**vref{1,2,3}: 45ns
 **Instruction-buffer**vref{3}: 16 bytes
 **Translation-buffer**vref{3}: 1024 entries
 **WCS**vref{3}: 15K 143-bit words
 **UWCS**vref{3}: 1K 143-bit words
-**Cache**vref{3}: 64KB
+**Cache**vref{2,3}: 64KB
 **Compatibility-mode: No
 **Console-processor: PRO 380
 **Console-device: None
 **VUPs**htref{2}: 3.0
 ! Min memory also see: "VAX. Digital's VAX Systems. Brochure EA 29382-46/87 02 65 100.0"
 **Minimum-memory**vref{5}: 16MB
-**Maximum-memory: 320MB
+**Maximum-memory**vref{2}: 320MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
 **Max-I/O-throughput**vref{3}: 16MB/s
 !-- 8500/8530:
@@ -4374,6 +4375,9 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Option-title: Storage
 **Option**vref{5}: {storage:KDB50}{KDB50 VAXBI Disk Controller}
 **options-end{VAX8500}
+**Text-start
+The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most VAX 8500 systems have been upgraded to a VAX 8530.
+**Text-end
 **End-systems-entry{VAX8500}
 
 **Start-systems-entry{VAX8530}{VAX}{VAXBI}
@@ -4393,21 +4397,21 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **XSID : 070009F9
 **Num-proc**htref{*3}: 1
 **CPU-technology**htref{*3}: ECL Gate Array
-**CPU-cycle**htref{*1}: 45ns
-**Instruction-buffer**htref{*1}: 16 bytes
+**CPU-cycle**vref{2}: 45ns
+**Instruction-buffer**vref{2}: 16 bytes
 **Translation-buffer**htref{*3}: 1024 entries
-**WCS: 15K 143-bit words
-**UWCS**htref{*1}: 1K 143-bit words
-**Cache**htref{*3}: 64KB
+**WCS**vref[2}: 16K 144-bit words
+**UWCS**vref{2}: 1K 144-bit words
+**Cache**vref{2}: 64KB
 **Compatibility-mode: No
 **Console-processor: PRO 380
 **Console-device: None
 !**VUPs**htref{*2}: 4.0
 **VUPs**vref{4}: 4.0
-**Minimum-memory**uref{*6}: 16MB
-**Maximum-memory: 320MB
-**Memory-checking**htref{*1}: 7-bit ECC/longword
-**Max-I/O-throughput**htref{*3}: 16MB/s
+**Minimum-memory**vref{2}: 32MB
+**Maximum-memory**vref{2}: 320MB
+**Memory-checking**vref{2}: 7-bit ECC/longword
+**Max-I/O-throughput**vref{2}: 16MB/s
 !-- 8500/8530:
 !Memory cycle: & 	1260/495ns per 256-bit hexaword read \\ % [133]
 !			540/270ns per 128-bit octaword write \\ % [133]
@@ -4422,14 +4426,14 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **LAN-support**htref{*1}: standard
 **Power-start{8530}
 **Supply: 415V 3-phase
-**Power**htref{*1}: 3200W
+**Power**vref{2}: 3200W
 **Heat-dissipation**htref{*1}: 12000 BTU/hr
 **Power-end{8530}
 **Dimensions-start{8530}
-**Height**htref{*1}: 1520mm
-**Width**htref{*1}: 685mm
-**Depth**htref{*1}: 762mm
-**Weight**htref{*1}: 295kg
+**Height**vref{2}: 1520mm
+**Width**vref{2}: 685mm
+**Depth**vref{2}: 762mm
+**Weight**vref{2}: 295kg
 **Dimensions-end{8530}
 **End-systems-entry{VAX8530}
 
@@ -4453,7 +4457,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **OS-support-VMS-end**vref{8}: V7.3
 **Num-proc**vref{3}: 1
 **CPU-technology**vref{3}: ECL Gate Array
-**CPU-cycle**vref{3}: 45ns
+**CPU-cycle**vref{2,3}: 45ns
 **Instruction-buffer**vref{3}: 16 bytes
 **Translation-buffer**vref{3}: 1024 entries
 **WCS**vref{3}: 15K 143-bit words
@@ -4465,7 +4469,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 !**VUPs**htref{2}: 6.0
 **VUPs**vref{4}: 6.0
 **Minimum-memory**uref{*6}: 16MB
-**Maximum-memory**htref{2}: 320MB
+**Maximum-memory**vef{2}: 320MB
 **Memory-checking**vref{1}: 7-bit ECC/longword
 **Max-I/O-throughput**vref{3}: 16MB/s
 ! [2]
