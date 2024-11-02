@@ -100,20 +100,21 @@
 **Start-storage-entry{RA60}{SDI}{RA}
 **Sys-name: RA60
 **Desc-name: RA60 Removable Disk Drive
-**Def-lref{1} = ref{EK-ORA60-UG-001}
+**def-lref{1} = ref{EK-ORA60-UG-001}
+**def-lref{2} = ref{ESOC-SPR87}
 **Announcement**uref{*DU-JUN86}: 1983
 **Capacity**htref{1}: 205MB	
 **Form-factor: 14"
-**Peak-transfer-rate**htref{1}: 1.98MB/s	
-**Average-access**uref{*SOEE85}: 50ms
-**Average-latency**htref{1}: 8.33ms	
-**Average-seek**htref{1}: 41.67ms	
+**Peak-transfer-rate**vref{2}: 1.98MB/s	
+**Average-access**vref{2}: 50ms
+**Average-latency**vref{2}: 8.33ms	
+**Average-seek**vref{2}: 41.7ms	
 **Track-track-seek**htref{1}: 6.67ms	
 **Bytes-per-sector**htref{1}: 512	
 **Sectors-per-track**htref{1}: 43	
 **Track-density**htref{1}: 779 tpi
 **Num-heads**uref{*SOEE85}: 6
-**Rotational-speed**htref{1}: 3600rpm	
+**Rotational-speed**vref{2}: 3600rpm	
 **Interface: SDI
 !-- Power from ref_1: 7.5A@120V, 3.75A@240V both 600W typ 800W max poer factor gtr 0.75 max inrush 190Arms@120V 95Arms @240V -->
 !-- taken from ref_1
@@ -339,23 +340,25 @@
 **Sys-name: RA81
 **Desc-name: RA81 Winchester Disk
 **Def-lref{1} = ref{DEC-PR-1988-07-14}
+**def-lref{2} = ref{ESOC-SPR87}
 **Lifetime**uref{[*DU JUN-86]}: 1982-?	
 **Last-order**vref{1}: 1988-12-31
 **Capacity**vref{1}: 456MB	
 **Form-factor: 14"
 **Average-access**vref{1}: 36 ms
 **Average-seek**vref{1}: 28ms	
-**Average-latency**uref{[*23]}: 8.33ms	
-**Peak-transfer-rate**uref{[*23]}: 17.4Mbit/s	
+**Average-latency**vref{2}: 8.33ms	
+!**Peak-transfer-rate**uref{[*23]}: 17.4Mbit/s	
+**Peak-transfer-rate**vref{2}: 2.2MB/s
 **Track-track-seek**uref{*SOEE85}: 6ms	
 **Head-switch-latency**uref{[*23]}: 6ms	
-**Num-media-surfaces**uref{[*23]}: 7 data, 1 servo	
+**Num-media-surfaces**vref{2}: 7 data, 1 servo	
 **Num-heads**uref{[*23]}: 2 per surface	
 !!!**Num-cylinders**uref{[*23]}: 1258:per head	
-**Tracks-per-surface**uref{[*23]}: 2496	
-**Bytes-per-sector**uref{*SOEE85}: 512	
-**Sectors-per-track**uref{[*23] but *SOEE85=>51}: 52	
-**Rotational-speed**uref{[*23]}: 3600rpm	
+**Tracks-per-surface**vref{2}: 2496	
+**Bytes-per-sector**vref{2}: 512	
+**Sectors-per-track**vref{2}: 51
+**Rotational-speed**vref{2}: 3600rpm	
 **End-storage-entry{RA81}
 
 **Start-storage-entry{RA82}{SDI}{RA}
@@ -499,3 +502,6 @@
 **Dimensions-end{RA92}
 **End-storage-entry{RA92}
 
+! ESOC SPR 1987 p4.12
+!**Start-storage-entry{SA485}{SDI}{RA}
+!**End-storage-entry{SA485}

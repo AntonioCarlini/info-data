@@ -355,18 +355,19 @@
 **Def-lref{1} = ref{EK-MVXAA-OM-001}
 ! TODO lref{2} missing ref{}
 **Def-lref{2} = ref{CU-1991-10-30}
+**def-lref{3} = ref{ESOC-SPR87}
 **Capacity**htref{1}: {1.2MB:RX33K media}{400KB:RX50K media}
 !**Form-factor**uref{*10,*58,*17}: 5.25" half height
 **Form-factor**vref{2}: 5.25"
 **Peak-transfer-rate**vref{2}: 500k bit/s
 !**Average-access**uref{*110}: {178ms:RX33K media}{195ms:RX50K media}
 **Average-access**vref{2}: 178ms
-**Average-latency: 83ms
-**Average-seek: 92ms
+**Average-latency**vref{3}: 83ms
+**Average-seek**vref{3}: 92ms
 **Sectors-per-track**htref{1}: {15:RX33K media}{10:RX50K media}
 **Rotational-speed**htref{1}: {360rpm:RX33K}{300rpm:RX50K}
-**Bytes-per-sector**htref{1}: 512
-**Tracks-per-drive: 160
+**Bytes-per-sector**vref{3}: 512
+**Tracks-per-drive**vref{3}: 160
 !!**Tracks**htref{1}: 80
 **Num-heads**htref{1}: 2
 **Track-density**htref{1}: 96tpi
@@ -385,6 +386,7 @@
 **End-storage-entry{RX33}
 
 **Start-storage-entry{RX50}{MISC}{RX}
+**def-lref{1} = ref{ESOC-SPR87}
 **Sys-name: RX50
 **Desc-name: RX50 Floppy Disk Drive
 ! % Dual diskette drive (818KB total capacity) -->
@@ -392,15 +394,15 @@
 ! Retired: [17]
 **Capacity**uref{*SOEE85}: 409KB
 !!**Random-access-time**uref{*SOEE85 p6.14}: 264ms
-**Average-seek**uref{*SOEE85,78}: 164ms
+**Average-seek**vref{1}: 164ms
 **Average-latency**uref{78,*SOEE85}: 100ms
-**Peak-transfer-rate**uref{*SOEE85,78}: 250kbit/s
+**Peak-transfer-rate**vref{1}: 250kbit/s
 **Track-track-seek**uref{78}: 6ms
 **Num-media-surfaces**uref{*SOEE85}: 1 data
-!!**Tracks-per-diskette**uref{*SOEE85,100,80}: 80
-**Sectors-per-track**uref{*SOEE85,100}: 10
-**Bytes-per-sector**uref{*SOEE85}: 512
-!!**Diskettes-per-drive**uref{*SOEE85}: 2
+!!**Tracks-per-diskette**vref{1}: 80
+**Sectors-per-track**vref{1}: 10
+**Bytes-per-sector**vref{1}: 512
+!**Diskettes-per-drive**vref{1}: 2
 **Rotational-speed**uref{*SOEE85,78}: 300 rpm
 **Track-density**uref{*SOEE85}: 96 tpi
 **Power-start{RX50}

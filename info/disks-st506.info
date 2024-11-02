@@ -3,6 +3,7 @@
 **Desc-name: RD31 Winchester Disk
 **Def-lref{1} = ref{CU-1992-02-21}
 **Def-lref{2} = ref{DA-1987-07-10-RD52}
+**def-lref{3} = ref{ESOC-SPR87}
 ! [11]: 1.2A @ 5V, 2.6A @12V, 39W, 57.8BTU/hr, 1.59kg
 **Last-order**vref{1}: 26 June 1992	
 !**Last-order**uref{[SUE Feb-2 1992]}: 26 June 1992	
@@ -14,9 +15,9 @@
 **Average-seek: 64.5ms
 **Average-latency: 8.33ms
 **Transfer-rate**vref{2}: 625 KB/s
-**Bytes-per-sector**uref{[13]}: 512	
-**Sectors-per-track**uref{[13]}: 18	
-**Tracks-per-drive**uref{[13]}: 2460	
+**Bytes-per-sector**vref{3}: 512	
+**Sectors-per-track**vref{3}: 18	
+**Tracks-per-drive**vref{2}: 2460	
 **Acoustic-noise**uref{[110]}: 4.6 bels (average)	
 **Power-start{RD31}
 **Positive-5V-current**uref{[13]}: 0.9A	
@@ -30,6 +31,7 @@
 **Def-lref{1} = ref{EK-MVXAA-OM-001}
 **Def-lref{2} = ref{DA-1987-07-10-RD52}
 **Def-lref{3} = ref{DEC-PR-1987-07-10}
+**def-lref{4} = ref{ESOC-SPR87}
 **Lifetime**uref{*31}: Nov 1989
 **Capacity**vref{2}: 42MB
 !  half height	
@@ -38,7 +40,7 @@
 **Average-seek:  40ms
 ! Check that Transfer-rate really is vref{2} ... was vtref{2} !!
 **Transfer-rate**vref{2}: 625 KB/s
-**Bytes-per-sector**uref{*13}: 512	
+**Bytes-per-sector**vref{4}: 512	
 **Rotational-speed: 3600rpm
 **Num-heads**htref{1}: @@
 **Num-cylinders**htref{1}: 820
@@ -134,6 +136,7 @@
 **Def-lref{1} = ref{EK-MVXAA-OM-001}
 **Def-lref{2} = ref{CU-1992-02-21}
 **Def-lref{3} = ref{DA-1987-07-10-RD52}
+**def-lref{4} = ref{ESOC-SPR87}
 !**Last-order**uref{*SUE Feb-2 1992}: 26 June 1992
 **Last-order**vref{2}: 26 June 1992
 **Last-ship**uref{*SUE Feb-2 1992}: 25 Sept 1992
@@ -145,17 +148,17 @@
 ! verify average access is vref{3} and not vref{31}!!
 **Average-access**vref{3}: 38ms
 **Average-seek**htref{1}: 30ms
-**Average-latency: 8.33ms
+**Average-latency**vref{4}: 8.33ms
 ! verify transfer-rate is vref{3} and not vtref{3}!
-**Transfer-rate**vref{3}: 625 KB/s
+**Transfer-rate**vref{3,4}: 625 KB/s
 **Bytes-per-sector: 512
-**Sectors-per-track: 16
-**Tracks-per-drive: 8192
+**Sectors-per-track**vref{4}: 16
+**Tracks-per-drive**vref{4}: 8192
 **Num-cylinders**htref{1}: 1024
 **Rotational-speed**htref{1}: 3600rpm
 **Power-start{RD53}
-**Positive-5V-current: 0.9A
-**Positive-12V-current: 2.5A
+**Positive-5V-current**vref{4}: 0.9A
+**Positive-12V-current**vref{4}: 2.5A
 **Power: 34.5W
 **Power-end{RD53}
 !-- From *11: -->
@@ -175,22 +178,23 @@
 **Desc-name: RD54 Winchester Disk
 **Def-lref{1} = ref{EK-LEP07-OM-001}
 **Def-lref{2} = ref{CU-1992-02-21}
+**def-lref{3} = ref{ESOC-SPR87}
 !**Last-order**uref{*SUE Feb-2 1992}: 26 June 1992
 **Last-order**vref{2}: 26 June 1992
 **Last-ship**uref{*SUE Feb-2 1992}: 25 Sept 1992
 **Capacity**vref{2}: 159MB
 **Form-factor**uref{*31}: 5-1/4" full height
-**Average-access**htref{1}: 30ms
-**Average-latency**htref{1}: 8.33ms
-**Transfer-rate**htref{1}: 625KB/s
-**Bytes-per-sector: 512
-**Sectors-per-track**htref{1}: 17
-**Tracks-per-drive**htref{1}: 18374
+**Average-access**vref{3}: 38.3ms
+**Average-latency**vref{3}: 8.3ms
+**Transfer-rate**vref{3}: 625KB/s
+**Bytes-per-sector**vref{3}: 512
+**Sectors-per-track**vref{3}: 17
+**Tracks-per-drive**vref{3}: 9800
 **Num-cylinders**htref{1}: 1221
 **Num-heads**htref{1}: 15
 **Power-start{RD54}
-**Positive-5V-current: 1.4A
-**Positive-12V-current:	1.34A
+**Positive-5V-current**vref{3}: 1.3A
+**Positive-12V-current**vref{3}: 1.34A
 **Power: 23.7W	
 **Power-end{RD54}
 **Dimensions-start{RD54-Drive}
