@@ -501,7 +501,7 @@
 **Option**vref{2}: {enclosure:H9642-AP}{Top-loading cabinet for RA60 Removable Disk}
 **Option-title: Storage
 **Option**vref{2}: {storage:RA81}{456MB Fixed Disk Drive}
-**Option**vref{2}: {storage:RA60}{205MB Removable-Disk Drive
+**Option**vref{2}: {storage:RA60}{205MB Removable-Disk Drive}
 **Option**vref{2}: {boards:UDA50-A}{SDI Disk Controller}
 **Option**vref{2}: {boards:RL211-AK}{10MB Removable-disk and Controller}
 **Option**vref{2}: {storage:RX50-D}{800KB Dual Floppy Diskette Drive}
