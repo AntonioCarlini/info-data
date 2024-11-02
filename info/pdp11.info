@@ -873,7 +873,10 @@
 **Desc-name: Professional System 380
 **Def-lref{1} = ref{DEC-PR-1984-09-12}
 **Def-lref{2} = ref{EK-PC300-V1-001}
+**def-lref{3} = ref{ESOC-SPR87}
 **Announcement**vref{1}: 1984-09-12
+**Minimum-memory**vref{3}: 512KB
+**Maximum-memory**vref{3}: 1MB
 **BUS-CTI**vref{2}: 5 available
 **Power-start{Pro380-115V}
 **Label: 115V
@@ -893,5 +896,16 @@
 **Width**vref{2}: 343 mm
 **Weight**vref{2}: 15.9 kg
 **Dimensions-end{Pro380}
+**options-start{Pro380}
+**Option-title: Memory
+**Option**vref{3}: {boards:MSC11-B}{512KB Memory for Professional 380}
+**Option-title: Storage
+**Option**vref{3}: {storage:RCD31-A}{20MB Hard Drive}
+**Option**vref{3}: {storage:RCD52-A}{33MB Hard Drive}
+**Option-title: Other
+**Option**vref{3}: {boards:PC3XS-AA}{Z80 Auxiliary Processor with 64KB Memory}
+**Option**vref{3}: {boards:VC241-B}{Extended Bitmap Module for Professional 380}
+**Option**vref{3}: {boards:DECNA-K}{Ethernet Controller for Professional 380}
+**options-end{Pro380}
 **End-systems-entry{Pro380}
 
