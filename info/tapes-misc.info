@@ -71,18 +71,20 @@
 **Def-lref{1} = ref{EK-MVXAA-OM-001}
 **Def-lref{2} = ref{EK-OTK50-UG-004}
 **Def-lref{3} = ref{CU-1994-06-06}
+**def-lref{4} = ref{ESOC-SPR87}
 **Last-order**vref{3}: 1994-07-30
 **Last-ship**vref{3}: 1994-09-29
 **Capacity**htref{1}: 94.5MB
-**Peak-transfer-rate: {62.5KB/s:(total)}{45KB/s:(user data)}
+**Peak-transfer-rate**vref{4}: {62.5KB/s:(total)}{45KB/s:(user data)}
 !! Check ref for peak-xfer-rate, appears to be **htref{2}
-**Recording-format**htref{1}: MFM, Serial, serpentine pattern
-**Record-size: Variable 1 byte to 64KB
-**Read-write-speed**htref{1}: 75in/s streaming
-**Num-tracks**htref{1}: 22
+**Recording-format**vref{4}: MFM, Serial, serpentine pattern
+**Record-size**vref{1}: Variable 1 byte to 64KB
+**Read-write-speed**vref{4}: 75in/s streaming
+**Num-tracks**vref{4}: 22
 **Start-time**htref{2}: 130ms min, 300ms max
 **Stop-time**htref{2}: 90ms min, 130ms max
 **Recording-density**htref{2}: 6667bpi
+**Recording-medium**vref{4}: 182.9m long, 1.3cm wide magnetc tape
 **Tape-width**htref{1}: 12mm
 **Tape-length**htref{1}: 185m
 **Dimensions-start{TK50}
@@ -179,7 +181,16 @@
 **Desc-name: TU80 Magnetic Tape Subsystems
 **Def-lref{1} = ref{EK-OTU80-UG-002}
 **Def-lref{2} = ref{EK-TUA81-UG-004}
+**def-lref{3} = ref{ESOC-SPR87}
 **Html-target: tu80
+**Read-write-speed**vref{3}: 100in/s and 25in/s (streaming), 25in/s (start/stop)
+**Data-transfer-rate**vref{3}: 160KB/s
+**Rewind-speed**vref{3}: 192in/s
+**Rewind-time**vref{3}: 2.5min (2400' reel)
+**Num-Tracks**vref{3}: 9
+**Recording-format**vref{3}: PE
+**Recording-density**vref{3}: 1600bits/in (PE)
+**Capacity**vref{3}: 40MB (PE)
 !
 ! TU81 fits here too!
 !The TU80 tape subsystem  consists of a streaming nine-track top-loading
@@ -230,6 +241,20 @@
 !
 **End-storage-entry{TU80}
 
+**Start-storage-entry{TU81PLUS}{MISC}{TU}
+**def-lref{1} = ref{ESOC-SPR87}
+**Sys-name: TU81-Plus
+**Desc-name: TU81-Plus Magnetic Tape
+**Read-write-speed**vref{1}: 75in/s and 25in/s streaming, 25in/s start/stop
+**Data-transfer-rate**vref{1}: 468KB/s
+**Rewind-speed**vref{1}: 192in/s
+**Rewind-time**vref{1}: 2.5min (2400' reel)
+**Num-Tracks**vref{1}: 9
+**Recording-format**vref{1}: GCR and PE
+**Recording-density**vref{1}: 6250bits/in (GCR), 1600bits/in (PE)
+**Capacity**vref{1}: 145MB (GCR), 40MB (PE)
+**End-storage-entry{TU81PLUS}
+
 **Start-storage-entry{PCXAT-A*}{MISC}{PC}
 **Sys-name: PCXAT-A*
 **Desc-name: PCXAT-A* Cartridge Tape Drive
@@ -238,4 +263,55 @@
 **Sustained-transfer-rate**vref{1}: 200KB/s
 **Peak-transfer-rate**htref{1}: 3MB/s:(asynchronous)
 **End-storage-entry{PCXAT-A*}
+
+**Start-storage-entry{TS05}{MISC}{TS}
+**def-lref{1} = ref{ESOC-SPR87}
+**Sys-name: TS05
+**Desc-name: TS05 Magnetic Tape
+**Read-write-speed**vref{1}: 25in/s and 100in/s
+**Data-transfer-rate**vref{1}: 160KB/s
+**Rewind-speed**vref{1}: 180in/s
+**Rewind-time**vref{1}: 2.8min (2400' reel)
+**Num-Tracks**vref{1}: 9
+**Recording-density**vref{1}: 1600bits/in
+**Capacity**vref{1}: 40MB
+**End-storage-entry{TS05}
+
+**Start-storage-entry{TU78}{MISC}{TU}
+**def-lref{1} = ref{ESOC-SPR87}
+**Sys-name: TU78
+**Desc-name: TU78 Magnetic Tape
+**Read-write-speed**vref{1}: 125in/s
+**Data-transfer-rate**vref{1}: 781KB/s
+**Rewind-speed**vref{1}: 440in/s
+**Rewind-time**vref{1}: 70s (2400' reel)
+**Recording-format**vref{1}: GCR and PE
+**Recording-density**vref{1}: 6250bits/in (GCR), 1600bits/in (PE)
+**Capacity**vref{1}: 145MB (GCR)
+**End-storage-entry{TU78}
+
+**Start-storage-entry{TA78}{MISC}{TA}
+**def-lref{1} = ref{ESOC-SPR87}
+**Sys-name: TA78
+**Desc-name: TA78 Magnetic Tape
+**Read-write-speed**vref{1}: 125in/s
+**Data-transfer-rate**vref{1}: 781KB/s (GCR), 200KB/s (PE)
+**Rewind-speed**vref{1}: 440in/s
+**Rewind-time**vref{1}: 65s (2400' reel)
+**Recording-format**vref{1}: GCR and PE
+**Recording-density**vref{1}: 6250bits/in (GCR), 1600bits/in (PE)
+**Capacity**vref{*1}: 140MB (GCR), 40MB (PE)
+**End-storage-entry{TA78}
+
+**Start-storage-entry{TA81}{MISC}{TA}
+**def-lref{1} = ref{ESOC-SPR87}
+**Sys-name: TA81
+**Desc-name: TA81 Magnetic Tape
+**Read-write-speed**vref{1}: 75in/s and 25in/s (streaming), 25in/s (start/stop)
+**Data-transfer-rate**vref{1}: 468KB/s
+**Rewind-speed**vref{1}: 192in/s
+**Recording-format**vref{1}: GCR and PE
+**Recording-density**vref{1}: 6250bits/in (GCR), 1600bits/in (PE)
+**Capacity**vref{1}: 140MB (GCR), 40MB (PE)
+**End-storage-entry{TA81}
 
