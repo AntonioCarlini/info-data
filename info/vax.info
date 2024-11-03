@@ -2427,6 +2427,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Def-lref{5} = ref{AA-LB22C-TE}
 **Def-lref{6} = ref{AA-ME85D-TE}
 **Def-lref{7} = ref{QS-VMS-V073}
+**Def-lref{8} = ref{ESOC-SPR87}
 **document=doc{DEC:EK-8840H-UG-001} ! VAX 8820/8830/8840 System Hardware User's Guide
 **document=doc{DEC:EK-8840A-IP-002} ! VAX 8820/30/40 IPB
 **Announcement**vref{3}: 1988-03-08
@@ -2519,6 +2520,22 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Depth**uref{*7,*87}: 760mm
 **Weight**uref{*7,*87}: 1302kg
 **Dimensions-end{8840}
+**Options-start{88X0}
+**Option-title: Expansion
+**Option**vref{8}: {enclosures:DB88-DC}{Third or Fifth VAXBI Channel}
+**Option**vref{8}: {enclosures:DB88-AD}{Fourth or Sixth VAXBI Channel}
+**Option**vref{8}: {enclosures:H9657-EB}{VAXBI Expansion Cabinet}
+**Option**vref{8}: {boards:DWBUA-CA}{UNIBUS Expansion Adapter}
+**Option**vref{8}: {enclosures:BA11-AX}{UNIBUS Expansion Enclosure}
+**Option**vref{8}: {enclosures:DD11-DK}{UNIBUS Expansion Backplane}
+**Option-title: Memory
+**Option**vref{8}: {boards:MS88-CA}{16MB Nautilus Memory}
+**Option**vref{8}: {boards:MS88-DA}{64MB Nautilus Memory}
+**Option-title: Communication
+**Option**vref{8}: {boards:DEBNA-M}{Ethernet Controller}
+**Option**vref{8}: {boards:DMB32-M}{8-line Asynchronous/Printer Controller}
+**Option**vref{8}: {boards:DHB32-M}{16-line Asynchronous Controller}
+**Options-end{88X0}
 **End-systems-entry{VAX88X0}
 
 **Start-systems-entry{VAX9210}{VAX}{VAX9000}
