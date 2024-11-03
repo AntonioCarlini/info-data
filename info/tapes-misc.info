@@ -84,7 +84,7 @@
 **Start-time**htref{2}: 130ms min, 300ms max
 **Stop-time**htref{2}: 90ms min, 130ms max
 **Recording-density**htref{2}: 6667bpi
-**Recording-medium**vref{4}: 182.9m long, 1.3cm wide magnetc tape
+**Recording-medium**vref{4}: 182.9m long, 1.3cm wide magnetic tape
 **Tape-width**htref{1}: 12mm
 **Tape-length**htref{1}: 185m
 **Dimensions-start{TK50}
@@ -300,7 +300,7 @@
 **Rewind-time**vref{1}: 65s (2400' reel)
 **Recording-format**vref{1}: GCR and PE
 **Recording-density**vref{1}: 6250bits/in (GCR), 1600bits/in (PE)
-**Capacity**vref{*1}: 140MB (GCR), 40MB (PE)
+**Capacity**vref{1}: 140MB (GCR), 40MB (PE)
 **End-storage-entry{TA78}
 
 **Start-storage-entry{TA81}{MISC}{TA}
