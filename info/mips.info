@@ -53,6 +53,7 @@
 **Def-lref{5} = ref{DEC-PR-1989-01-09-DS3100}
 **Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{7} = ref{CU-1992-01-31}
+**def-lref{8} = ref{SOCEE-SPR89}
 **Sys-name: DECstation 3100
 **Desc-name: DECstation 3100
 **Announcement**vref{5}: 1989-01-09
@@ -77,6 +78,7 @@
 **Memory-checking**vref{1}: Parity
 ! Note: **uref(*32) is "Digital information brochure EC E0372 46/89 10 23 125.0 CTS"
 **Max-I/O-throughput**uref{*32}: 4.0MB/s
+**Keyboard**vref{8}: LK201
 **Bus-SCSI**vref{1}: 1
 **LAN-support**vref{1}: 1
 **Dimensions-start{DST3100}
