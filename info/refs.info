@@ -604,6 +604,10 @@
 **Ref-text: Systems & Options Catalog. European Edition. Spring 1990
 **End-ref{SOCEE-SPR90}
 
+**Start-ref{SOCEE-SPR89}
+**Ref-text: Systems & Options Catalog. European Edition. Spring 1989
+**End-ref{SOCEE-SPR89}
+
 **Start-ref{EC-N0857-51}
 **Ref-text: Digital's VAXstation 4000 Performance Summary. Version 3.0 July 1992
 **Ref-partno: EC-N0857-51
@@ -2037,7 +2041,7 @@
 **End-ref{DEC-PR-1994-10-18}
 
 **Start-ref{DEC-PR-1994-11-16}
-**Ref-text: DEC Announces the DEClaser 3500
+**Ref-text: DEClaser 3500 -- The Perfect Laser Printer for Small Workgroups
 **Ref-processed: Yes
 **Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/kecl8ptlV-A
 **End-ref{DEC-PR-1994-11-16}

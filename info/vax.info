@@ -3761,6 +3761,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Def-lref{8} = ref{DEC-PR-1988-10-19}
 **Def-lref{9} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{10} = ref{AA-LB22C-TE}
+**def-lref{11} = ref{SOCEE-SPR89}
 **Announcement**vref{5}: 1988-10-15
 ! vref{7} has last ship for uV3400 October 1, 1991
 **Last-order**vref{6,7}: 1992-03-31
@@ -3791,7 +3792,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 ! ref{DECdirect-AUG91} says 2.2 SPECmarks
 **SPECmarks**htref{1}: 2.7
 **Minimum-memory**uref{*15,*4}: 4MB
-**On-board-memory**uref{*15,*4}: 4MB
+**On-board-memory**vref{11}: 4MB
 **Maximum-memory**vref{8}: 28 MB
 ! <!-- *15, *83~52MB for uVAX 3400 -->
 !-- 400ns 32-bit read -->
@@ -3825,6 +3826,20 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Depth **uref{*7}: 450mm
 **Weight**uref{*7}: 64.0kg
 **Dimensions-end{3400}
+**Options-start{uV3300}
+**option-title: Enclosures
+! ref{11} says uV3400 uses BA213 (same as UV3500)
+**option**vref{11}: {enclosure:BA215}{Floor-standing Pedestal Enclosure}
+**option-title: Memory
+**option**vref{11}: {boards:MS650-AA}{8MB Memory Array}
+**option-title: Communications
+**option**vref{11}: {boards:CXA16-AA}{16-line Asynchronous Serial Lines, RS423A, no Modem Control}
+**option**vref{11}: {boards:CXB16-AA}{16-line Asynchronous Serial Lines, RS422, no Modem Control}
+**option**vref{11}: {boards:CXY08-AA}{8 Asynchronous Serial Lines, EIA 232D, Modem Control}
+**option**vref{11}: {boards:DESQA-SA}{Ethernet Interface - ThickWire or ThickWire}
+**option**vref{11}: {boards:DPV11-SA}{Synchronous Serial Line}
+**option**vref{11}: {boards:DSV11-SA}{Synchronous Serial Line}
+**Options-end{uV3300}
 **End-systems-entry{UV3300}
 
 **Start-systems-entry{UV3600}{VAX}{UVAX}
@@ -3925,6 +3940,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Def-lref{6} = ref{CU-1992-11-02}
 **Def-lref{7} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{8} = ref{AA-LB22C-TE}
+**def-lref{9} = ref{ESOC-SPR87}
 **document=doc{DEC:EK-KA655-TM-001} ! KA655 CPU Module Technical Manual
 **Announcement**vref{5}: 1989-04-10
 ! vref{6} confirms this for 3500 and 3600
@@ -3961,6 +3977,21 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **BUS-Qbus: 1 @ 3.3MB/s
 **LAN-support: optional
 ! [1]: MS650-BA: 16MB, 360ns, 7-bit ECC/longword 1MB DRAM Quad height
+**Options-start{uV38003900}
+**option-title: Enclosures
+**option**vref{9}: {enclosure:BA213}{Floor-standing Pedestal Enclosure}
+**option**vref{9}: {enclosure:H9644}{Floor-standing Pedestal Enclosure}
+**option-title: Memory
+**option**vref{9}: {boards:MS650-BA}{16MB Memory Option}
+**option-title: Communications
+**option**vref{9}: {boards:CXA16-AA}{16-line Asynchronous Serial Lines, RS423A, no Modem Control}
+**option**vref{9}: {boards:CXB16-AA}{16-line Asynchronous Serial Lines, RS422, no Modem Control}
+**option**vref{9}: {boards:CXY08-AA}{8 Asynchronous Serial Lines, EIA 232D, Modem Control}
+**option**vref{9}: {boards:DELQA-SA}{Ethernet Interface - ThickWire)}
+**option**vref{9}: {boards:DESQA-SA}{Ethernet Interface - ThickWire or ThickWire}
+**option**vref{9}: {boards:DSV11-SA}{Synchronous Serial Line}
+**option**vref{9}: {boards:KDA50-SB}{SDI Disk Interface}
+**Options-end{uV38003900}
 **End-systems-entry{UV3900}
 
 **Start-systems-entry{UV2K}{VAX}{UVAX}
@@ -4686,6 +4717,7 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Def-lref{8} = ref{DA-1989-01-09-VS3100-30}
 **Def-lref{9} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{10} = ref{AA-LB22C-TE}
+**def-lref{11} = ref{SOCEE-SPR89}
 **document=doc{DEC:EK-265AA-OM-001} ! VAXstation 3100 Model 30 Owner's Manual
 **document=doc{DEC:EK-331AA-AD-001} ! VAXstation 3100 Maintenance Guide Addendum: Options Installation
 **document=doc{DEC:EK-288AA-IP-001} ! *ipb* VAXstation 3100
@@ -4719,10 +4751,31 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **On-board-memory**vref{1}: 8MB
 **BUS-SCSI: 1
 **LAN-support: embedded
-**Power-start{VS3130}
+**Keyboard**vref{11}: LK201
+**Power-start{VS3130-240V}
 **Label: Model 30
 **Supply: 240V 1-phase
-**Power-end{VS3130}
+**Power**vref{11}: 190W
+**I-max**vref{11}: 1.5A
+**Power-end{VS3130-240V}
+**Power-start{VS3130-120V}
+**Label: Model 30
+**Supply: 120V 1-phase
+**Power**vref{11}: 190W
+**I-max**vref{11}: 2.8A
+**Power-end{VS3130-120V}
+**Power-start{VS3140-240V}
+**Label: Model 40
+**Supply: 240V 1-phase
+**Power**vref{11}: 300W
+**I-max**vref{11}: 2.3AA
+**Power-end{VS3140-240V}
+**Power-start{VS3140-120V}
+**Label: Model 40
+**Supply: 120V 1-phase
+**Power**vref{11}: 300W
+**I-max**vref{11}: 4.5A
+**Power-end{VS3140-120V}
 **Dimensions-start{VS3130}
 **Label: Model 30
 **Height**vref{1}: 103mm
