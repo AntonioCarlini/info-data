@@ -4,6 +4,7 @@
 **Def-lref{1} = ref{CU-1992-02-21}
 **Def-lref{2} = ref{DA-1987-07-10-RD52}
 **def-lref{3} = ref{ESOC-SPR87}
+**def-lref{4} = ref{SOCEE-SPR89}
 ! [11]: 1.2A @ 5V, 2.6A @12V, 39W, 57.8BTU/hr, 1.59kg
 **Last-order**vref{1}: 26 June 1992	
 !**Last-order**uref{[SUE Feb-2 1992]}: 26 June 1992	
@@ -20,8 +21,8 @@
 **Tracks-per-drive**vref{2}: 2460	
 **Acoustic-noise**uref{[110]}: 4.6 bels (average)	
 **Power-start{RD31}
-**Positive-5V-current**uref{[13]}: 0.9A	
-**Positive-12V-current**uref{[13]}: 0.9A	
+**Positive-5V-current**vref{4}: 0.9A	
+**Positive-12V-current**vref{4}: 0.9A	
 **Power-end{RD31}
 **End-storage-entry{RD31}
 
@@ -32,14 +33,14 @@
 **Def-lref{2} = ref{DA-1987-07-10-RD52}
 **Def-lref{3} = ref{DEC-PR-1987-07-10}
 **def-lref{4} = ref{ESOC-SPR87}
+**def-lref{5} = ref{SOCEE-SPR89}
 **Lifetime**uref{*31}: Nov 1989
 **Capacity**vref{2}: 42MB
 !  half height	
 **Form-factor**vref{2}: 5-1/4"
 **Average-access**vref{2}: 48ms	
 **Average-seek:  40ms
-! Check that Transfer-rate really is vref{2} ... was vtref{2} !!
-**Transfer-rate**vref{2}: 625 KB/s
+**Transfer-rate**vref{2,5}: 625 KB/s
 **Bytes-per-sector**vref{4}: 512	
 **Rotational-speed: 3600rpm
 **Num-heads**htref{1}: @@
@@ -137,6 +138,7 @@
 **Def-lref{2} = ref{CU-1992-02-21}
 **Def-lref{3} = ref{DA-1987-07-10-RD52}
 **def-lref{4} = ref{ESOC-SPR87}
+**def-lref{5} = ref{SOCEE-SPR89}
 !**Last-order**uref{*SUE Feb-2 1992}: 26 June 1992
 **Last-order**vref{2}: 26 June 1992
 **Last-ship**uref{*SUE Feb-2 1992}: 25 Sept 1992
@@ -151,9 +153,9 @@
 **Average-latency**vref{4}: 8.33ms
 ! verify transfer-rate is vref{3} and not vtref{3}!
 **Transfer-rate**vref{3,4}: 625 KB/s
-**Bytes-per-sector: 512
+**Bytes-per-sector**vref{5}: 512
 **Sectors-per-track**vref{4}: 16
-**Tracks-per-drive**vref{4}: 8192
+**Tracks-per-drive**vref{4,5}: 8192
 **Num-cylinders**htref{1}: 1024
 **Rotational-speed**htref{1}: 3600rpm
 **Power-start{RD53}
