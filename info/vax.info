@@ -17,6 +17,9 @@
 ! VAX4500
 !**def-lref{7} = ref{4500-6600-PERF-SUMM}
 !**TPC-A**htref{7}: 62.4
+!
+! VAXstation 3200: SOCEE-89
+! VAXstation 3500: SOCEE-89
 
 **Start-systems-entry{VAX4050}{VAX}{VAX4000}
 **Sys-name: VAX 4000-50
@@ -2889,6 +2892,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Def-lref{4} = ref{DEC-PR-1989-01-09-VS3520}
 **Def-lref{5} = ref{AA-LB22C-TE}
 **Def-lref{6} = ref{AA-ME85D-TE}
+**def-lref{7} = ref{SOCEE-SPR89}
 **document=doc{DEC:EK-258AA-AD-001} ! VAXstation 3520/3540 Maintenance Guide Addendum
 **document=doc{DEC:EK-258AA-MG-003} ! VAXstation 3520/3540 and 3820/3840 Maintenance Guide
 **document=doc{DEC:EK-333AA-AD-001} ! VAXstation 3520/3540 DWFQA (Q-bus Adapter) Module Addendum
@@ -2918,8 +2922,8 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **CPU-chip**uref{*25}: 78034
 **FPU-chip**uref{*25}: 78134
 **CPU-clock**uref{*102}: 50MHz
-**Cache**uref{*8}: 1KB
-**Secondary-cache**uref{*8}: 64KB
+**Cache**vref{7}: 1KB
+**Secondary-cache**vref{7}: 64KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
@@ -2932,6 +2936,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **bus-Qbus**vref{1}: 1 @ 3.3MB/s
 **bus-SCSI**vref{1}: 1
 **LAN-support**vref{1}: 1
+**Keyboard**vref{7}: LK201
 **Power-start{3520}
 **Power**vref{1}: 670W
 **Power-end{3520}
@@ -2942,6 +2947,9 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Weight**vref{1}: 40.5kg
 **Dimensions-end{35x0}
 **options-start{VS35X0}
+**Option-title: Memory
+**Option: {boards:MS60-AA}{8MB Memory for VAXstation 3520/40}
+**Option: {boards:MS60-BA}{16MB Memory for VAXstation 3520/40}
 **Option-title: Monitors
 **Option: {monitors:VR295}{Colour Monitor}
 **Option-title: Controllers
@@ -4103,6 +4111,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Def-lref{8} = ref{CBR-PR-1987-02-10}
 **Def-lref{9} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{10} = ref{QS-VMS-V073}
+**Def-lref{11} = ref{SOCEE-SPR89}
 **document=doc{DEC:EK-VTTAA-TM-001} ! VAXstation 2000 and MicroVAX 2000 Technical Manual
 **document=doc{DEC:EK-V2000-SG-001} ! VAXstation 2000 System Guide
 **document=doc{DEC:VS40X} ! VS2000 Color Board option Engineering Specification
@@ -4115,6 +4124,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Html-target: uvvs2000
 **OS-support-VMS**vref{7}: V4.5B
 **OS-support-VMS-end**vref{10}: V7.2
+**OS-support-ULTRIX**vref{11}: V2.0
 **CPU-module: KA410
 **CPU-name-VMS**uref{*2}: KA410
 **CPU-name-console**vref{2}: KA410-B
@@ -4134,6 +4144,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Memory-checking**vref{1}: Byte parity
 **Max-I/O-throughput: 3.3MB/s
 **LAN-support: Optional
+**Keyboard**vref{11}: LK201
 ! ref_1: one additional memory module: either MS400-AA (2MB) or MS400-BA (4MB) or MS400-CA (12MB) -->
 ! ref_1: monochrome monitor is VR260 -->
 **Power-start{UV2K-120V}
