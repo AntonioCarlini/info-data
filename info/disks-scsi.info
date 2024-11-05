@@ -136,6 +136,7 @@
 **Def-lref{2} = ref{EK-RZXXD-PS-005}
 **Def-lref{3} = ref{CU-1993-01-04}
 **Def-lref{4} = ref{DA-1989-01-09-RZxx}
+**def-lref{5} = ref{SOCEE-SPR89}
 **Sys-name: RZ22
 **Desc-name: RZ22 52MB SCSI Disk
 **Announcement**vref{4}: 1989-01-09
@@ -148,7 +149,7 @@
 !**Average-access**uref{20}: 33.4ms
 **Average-access**vref{4}: 33 ms
 **Average-latency**htref{1}: 8.4ms
-**Average-seek**htref{1}: 25ms
+**Average-seek**vref{5}: 25ms
 **Track-track-seek**htref{1}: 8ms
 **Maximum-seek**htref{1}: 45ms
 **Buffer-size**uref{*20}: 16KB
@@ -167,10 +168,10 @@
 **Heat-dissipation**htref{1}: 27.36 BTU/hr
 **Power-end{RZ22}
 **Dimensions-start{RZ22}
-**Height**htref{1}: 41.3mm
-**Width**htref{1}: 101.6mm
-**Depth**htref{1}: 146.1mm
-**Weight**htref{1}: 0.78kg
+**Height**vref{5}: 41.3mm
+**Width**vref{5}: 101.6mm
+**Depth**vref{5}: 146.0mm
+**Weight**vref{5}: 0.78kg
 **Dimensions-end{RZ22}
 **End-storage-entry{RZ22}
 
@@ -179,6 +180,7 @@
 **Def-lref{2} = ref{EK-302AB-OG-002}
 **Def-lref{3} = ref{EK-RZXXD-PS-005}
 **Def-lref{4} = ref{DA-1989-01-09-RZxx}
+**def-lref{5} = ref{SOCEE-SPR89}
 **Sys-name: RZ23
 **Desc-name: RZ23 104MB SCSI Disk
 !! lref{2} above was lref{1} and needs to be re-checked
@@ -190,12 +192,12 @@
 ! **Average-access**uref{20,*49}: 33.3ms
 **Average-access**vref{4}: 33 ms
 **Average-latency**htref{1}: 8.4ms
-**Average-seek**htref{1}: 25ms
+**Average-seek**vref{5}: 25ms
 **Track-track-seek**htref{1}: 8ms
 **Maximum-seek**htref{1}: 45ms
 **Buffer-size**uref{*20}: 16KB
-**Bytes-per-sector**htref{2}: 512
-**Sectors-per-track**htref{2}: 33
+**Bytes-per-sector**vref{5}: 512
+**Sectors-per-track**vref{5}: 33
 **Rotational-speed**htref{2}: 3575rpm
 ! TODO **Interleave**uref{*109}**htref{2}: 1:1
 **Interface**htref{1}: SCSI
@@ -206,10 +208,10 @@
 ! Heat dissipation: 8W average	**htref{2}
 **Power-end{RZ23}
 **Dimensions-start{RZ23}
-**Height**htref{1}: 42.1mm
-**Width**htref{1}: 101.6mm
-**Depth**htref{1}: 146.1mm
-**Weight**htref{1}: 0.83kg
+**Height**vref{5}: 41.3mm
+**Width**vref{5}: 101.6mm
+**Depth**vref{5}: 146.0mm
+**Weight**vref{5}: 0.83kg
 **Dimensions-end{RZ23}
 **End-storage-entry{RZ23}
 
@@ -688,6 +690,7 @@
 **Def-lref{5} = ref{CU-1992-01-10}
 **Def-lref{6} = ref{CU-1992-04-03}
 **Def-lref{7} = ref{DA-1989-01-09-RZxx}
+**def-lref{8} = ref{SOCEE-SPR89}
 **Announcement**vref{7}: 1989-01-09
 **Last-order**vref{6}: 1992-04-03
 **Capacity**vref{5,7}: 332 MB
@@ -700,8 +703,8 @@
 **Maximum-seek**htref{1}: 35ms
 **Buffer-size**vref{5}: 64KB
 **Read-ahead-cache**uref{*28}: No
-**Bytes-per-sector**htref{2}: 512
-**Sectors-per-track**htref{2}: 36
+**Bytes-per-sector**vref{8}: 512
+**Sectors-per-track**vref{8}: 36
 **Rotational-speed**vref{5}: 3600rpm
 **Interleave**htref{2}: 1:1
 **Interface**htref{1}: SCSI
@@ -713,10 +716,10 @@
 **Power-end{RZ55}
 **Dimensions-start{RZ55-I}
 **Label: RZ55 internal
-**Height**htref{2}: 82.5mm
-**Width **htref{2}: 146.0mm
-**Depth **htref{2}: 208.2mm
-**Weight**htref{2}: 3.78kg
+**Height**vref{8}: 82.6mm
+**Width **vref{8}: 146.0mm
+**Depth **vref{8}: 208.2mm
+**Weight**vref{8}: 3.8kg
 **Dimensions-end{RZ55-I}
 **Dimensions-start{RZ55-E}
 **Label: RZ55 external
