@@ -647,7 +647,7 @@
 
 **Start-systems-entry{MicroPDP1153}{PDP11}{QBUS}
 ! Enclosure: BA23
-! uPDP-11/83 enclosures: BA23, BA123, BA213, H9642
+! uPDP-11/83 enclosures: BA23, BA123, BA213 (typo??), H9642
 **def-lref{1} = ref{SOCEE-SPR90}
 **def-lref{2} = ref{ESOC-SPR87}
 **Sys-name: MicroPDP-11/53
@@ -761,6 +761,7 @@
 **Start-systems-entry{MicroPDP1183}{PDP11}{QBUS}
 **Def-lref{1} = ref{EK-MIC11-SG-001}
 **def-lref{2} = ref{ESOC-SPR87}
+**def-lref{3} = ref{SOCEE-SPR89}
 **Sys-name: MicroPDP-11/83
 **Desc-name: MicroPDP-11/83
 ! vref{1}: KDJ11-BF includes FPJ11-AB
@@ -768,6 +769,8 @@
 **Module**vref{1}: M8190-AE
 **CPU-chip**vref{1}: J-11
 **CPU-clock**vref{1}: 18MHz
+**Minimum-memory**vref{3}: 2MB
+**Maximum-memory**vref{3}: 4MB
 **Options-start{MicroPDP-11/83}
 **Option-title: Memory
 **Option**vref{2}: {boards:MSV11-JE}{2MB PMI ECC MOS Memory}
@@ -796,6 +799,7 @@
 **Option**vref{2}: {enclosures:BA23-CD}{BA23 Expansion Box}
 **Option**vref{2}: {enclosures:BA11-SF}{9-slot Expander Box}
 **Option**vref{2}: {enclosures:H9642-JB}{Micro System Cabinet}
+**Option**vref{3}: {enclosures:BA123}{BA123 Enclosure}
 **Options-end{MicroPDP-11/83}
 **End-systems-entry{MicroPDP1183}
 
