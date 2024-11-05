@@ -26,23 +26,24 @@
 **Start-storage-entry{RF30}{DSSI}{RF}
 **Sys-name: RF30
 **Desc-name: RF30 150MB DSSI Disk
-**Def-lref{1} = ref{SOC-SPR90}
+**def-lref{1} = ref{SOC-SPR90}
 **def-lref{2} = ref{CBR-PR-1988-10-19}
+**def-lref{3} = ref{SOCEE-SPR89}
 ! Read-ahead cache: &	No \\	% [28] -->
 **Announcement**vref{2}: 18th October 1988
-**Capacity**htref{1}: 150MB
+**Capacity**vref{3}: 150MB
 **Form-factor**htref{1}: 5-1/4" half-height
-**Average-access**uref{*13,*58}: 29.3ms
-**Average-seek**uref{*13,*58}: 21ms
-**Average-latency**uref{*13,*58}: 8.3ms
-**Peak-transfer-rate**uref{*13,*58}: 1.5MB/s
+**Average-access**vref{3}: 29.3ms
+**Average-seek**vref{3}: 21ms
+**Average-latency**vref{3}: 8.3ms
+**Peak-transfer-rate**vref{3}: 1.5MB/s
 **I/O-throughput**uref{*57}: 32 IO/s @ 150ms
 **Track-track-seek**uref{*13}: 3.0ms
 **Maximum-seek:	45ms
 **Buffer-size**uref{*28}: None
 **Bytes-per-sector**uref{*13}: 512
-**Sectors-per-track**uref{*13}: 37 + 1 reserved
-**Tracks-per-surface**uref{*13}: 1331
+**Sectors-per-track**vref{3}: 37 + 1 reserved
+**Tracks-per-surface**vref{3}: 1331
 **Track-density: 9779 tpi
 **Recording-density: 38600 bpi
 !!**Areal-density**htref{0}: 38600 MB/sq inch
@@ -50,18 +51,18 @@
 !!**!!Num-heads**htref{0}: 6
 !!**!!Num-cylinders**htref{0}: 820
 !!**!!Num-media-surfaces**htref{0}: 6 data, 4 protective
-**Rotational-speed**uref{*13}: 3600rpm
-**Error-correction**uref{*13}: 264-bit ECC
+**Rotational-speed**vref{3}: 3600rpm
+**Error-correction**vref{3}: 264-bit ECC
 !!**Servo-type**uref{0}: Fully embedded
 **Interface**htref{1}: DSSI
 **Power-start{RF30}
-**Power**uref{*28}: 14W:(average)
+**Power**vref{3}: 14W:(average)
 **Power-end{RF30}
 **Dimensions-start{RF30}
-**Height**uref{*13}: 41.1mm
-**Width**uref{*13}: 147.1mm
-**Depth**uref{*13}: 208.5mm
-**Weight**uref{*13}: 1.5kg
+**Height**vref{3}: 41.1mm
+**Width**vref{3}: 147.1mm
+**Depth**vref{3}: 208.5mm
+**Weight**vref{3}: 1.5kg
 **Dimensions-end{RF30}
 **End-storage-entry{RF30}
 
@@ -264,14 +265,17 @@
 **Desc-name: RF71 Integrated Storage Element
 **def-lref{1} = ref{EK-RF71D-IM-001}
 **def-lref{2} = ref{DEC-PR-1989-01-23}
+**def-lref{3} = ref{SOCEE-SPR89}
 **Announcement**vref{2}: 1989-01-23
 **Capacity**vref{2}: 400MB
 **Form-factor**vref{2}: 5-1/4" full-height
-**Average-seek**uref{*28,*59,*58}: 21ms
-**Average-access**uref{*28,*58}: 29.3ms
-**Peak-transfer-rate**uref{*28,*59}: 1.5MB/s
+**Average-seek**vref{3}: 21ms
+**Average-access**vref{3}: 29.3ms
+**Average-latency**vref{3}: 8.3ms
+**Peak-transfer-rate**vref{3}: 1.5MB/s
 **I/O-throughput**uref{*57,*59}: 32 IO/s @ 150ms
 **Read-ahead-cache**uref{*28}: No
+**Tracks-per-surface**vref{3}: 1331
 **Power-start{RF71}
 **Power**uref{*28}: 24W
 **Power-end{RF71}
