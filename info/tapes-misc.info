@@ -72,6 +72,7 @@
 **Def-lref{2} = ref{EK-OTK50-UG-004}
 **Def-lref{3} = ref{CU-1994-06-06}
 **def-lref{4} = ref{ESOC-SPR87}
+**Def-lref{5} = ref{SOCEE-SPR89}
 **Last-order**vref{3}: 1994-07-30
 **Last-ship**vref{3}: 1994-09-29
 **Capacity**htref{1}: 94.5MB
@@ -83,7 +84,7 @@
 **Num-tracks**vref{4}: 22
 **Start-time**htref{2}: 130ms min, 300ms max
 **Stop-time**htref{2}: 90ms min, 130ms max
-**Recording-density**htref{2}: 6667bpi
+**Recording-density**vref{5}: 6667bpi
 **Recording-medium**vref{4}: 182.9m long, 1.3cm wide magnetic tape
 **Tape-width**htref{1}: 12mm
 **Tape-length**htref{1}: 185m
@@ -101,6 +102,7 @@
 **Def-lref{1} = ref{EK-OTK70-OM-001}
 **Def-lref{2} = ref{CU-1994-09-01}
 **Def-lref{3} = ref{DEC-PR-1987-09-10}
+**Def-lref{4} = ref{SOCEE-SPR89}
 ! TODO check announcement
 **Announcement**vref{3}: 1987-09-10
 **Last-ship**vref{2}: 1994-11-30
@@ -111,12 +113,12 @@
 **Recording-format**htref{1}: Multiple track serpentine
 **Read-write-speed**vref{3}: 100in/s streaming
 **Num-tracks**vref{3}: 48
-**Recording-density**htref{1}: 10000 bpi
+**Recording-density**vref{4}: 10000 bpi
 **Track-density**htref{1}: 96 tpi
 **Tape-width**htref{1}: 12.77mm
 **Power-start{TK70}
-**Positive-5V-current**htref{1}: 1.1A
-**Positive-12V-current**htref{1}: 1.6A
+**Positive-5V-current**vref{4}: 1.4A
+**Positive-12V-current**vref{4}: 2.4A
 **Power**htref{1}: 40W
 **Power-end{TK70}
 **End-storage-entry{TK70}
