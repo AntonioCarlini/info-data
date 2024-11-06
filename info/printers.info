@@ -380,20 +380,48 @@
 **End-printers-entry{LF02}
 
 **Start-printers-entry{LG01}{PRINTER}{LG}
+**Def-lref{1} = ref{CU-1992-01-31}
+**Def-lref{2} = ref{SOCEE-SPR89}
 **Sys-name: LG01
 **Desc-name: LG01 Line Printer
-**Def-lref{1} = ref{CU-1992-01-31}
 **Last-order**vref{1}: 1992-06-26
 **Last-ship**vref{1}: 1992-09-30
+**Monthly-usage**vref{2}: 50,000 - 80,000 pages
+! vref{2} print speed 600lpm (draft, uppercase) - 205lpm (OCRB upper and lowercase)
 **End-printers-entry{LG01}
 
 **Start-printers-entry{LG02}{PRINTER}{LG}
+**Def-lref{1} = ref{CU-1992-01-31}
+**Def-lref{2} = ref{SOCEE-SPR89}
 **Sys-name: LG02
 **Desc-name: LG02 Line Printer
-**Def-lref{1} = ref{CU-1992-01-31}
 **Last-order**vref{1}: 1992-06-26
 **Last-ship**vref{1}: 1992-09-30
+**Monthly-usage**vref{2}: 50,000 - 80,000 pages
+! vref{2} print speed 600lpm (draft, uppercase) - 205lpm (OCRB upper and lowercase)
 **End-printers-entry{LG02}
+
+**Start-printers-entry{LG31}{PRINTER}{LG}
+**Def-lref{1} = ref{SOCEE-SPR89}
+**Def-lref{2} = ref{EK-LG31E-TM-002}
+**Sys-name: LG31
+**Desc-name: LG31 Line Matrix Printer
+**Character-pitch**vref{2}: 5, 10, 12, 13.3, 15, 16.7 (plus horizontal and vertical expansion of each)
+**Line-spacing**vref{2}: 6, 8, 10 lines/in
+**Monthly-usage**vref{1}: 50,000 - 80,000 pages
+! vref{1} print speed 300lpm (DP font, uppercase) - 240lpm (DP font, upper and lowercase)
+! vref{2}: line length 335mm, paper slew 50cm/s, line feed 12.5ms @ 6lpi, horizontal tabs 198 pos, vertical tabs 66 pos
+! vref{2}: print speeds 65 LPM ~ 300 LPM
+**Dimensions-start{LG31}
+**Height**vref{2}: 1230mm
+**Width**vref{2}: 737.5mm
+**Depth**vref{2}: 635mm
+**Weight**vref{2}: 131kg
+**Dimensions-end{LG31}
+**Power-start{LG31}
+**Power**lref{2}: 400W (printing)
+**Power-end{LG31}
+**End-printers-entry{LG31}
 
 **Start-printers-entry{LG04PLUS}{PRINTER}{LG}
 **Sys-name: LG04plus
@@ -621,6 +649,52 @@
 **Maximum-memory**vref{1}: 5 MB
 **End-printers-entry{LN11}
 
+**Start-printers-entry{LP27}{PRINTER}{LP}
+**Def-lref{1} = ref{SOCEE-SPR89}
+**Def-lref{2} = ref{YM-AS37A-00}
+**Sys-name: LP27
+**Desc-name: LP27 Impact Line Printer
+**Monthly-usage**vref{1}: 200,000 pages
+**Character-pitch**vref{1}: 10 cpi
+! vref{1} vertical spacing 6 or 8 line/in
+! vref{1} print speed {64-char set: 1200 lines/min}{96 @ 800 lines/min}
+! vref{1} columns: 132
+! vref{1} slew speed 127 cm/s
+! vref{1} line advance 14m/sec
+! vref{1} buffer: 132 chars, single line
+! vref{1} self-test: Yes
+! vref{1} paper type: pin-feed
+**Dimensions-start{LP27}
+**Height**vref{2}: 1244.6mm
+**Width**vref{2}: 889.0mm
+**Depth**vref{2}: 749.3mm
+**Weight**vref{2}: 257.19kg
+**Dimensions-end{LP27}
+**End-printers-entry{LP27}
+
+**Start-printers-entry{LP29}{PRINTER}{LP}
+**Def-lref{1} = ref{SOCEE-SPR89}
+**Def-lref{2} = ref{EC-F0349-49}
+**Sys-name: LP29
+**Desc-name: LP29 Impact Line Printer
+**Monthly-usage**vref{1}: 300,000 pages
+**Character-pitch**vref{1}: 10 cpi
+! vref{1} vertical spacing 6 or 8 line/in
+! vref{1} print speed {64-char optimised set: 2000 lines/min}{64-char standard ASCII: 1650 lines/min}{96 @ 1150 lines/min}
+! vref{1} columns: 132
+! vref{1} slew speed 127 cm/s
+! vref{1} line advance 10m/sec
+! vref{1} buffer: 132 chars, single line
+! vref{1} self-test: Yes
+! vref{1} paper type: pin-feed
+**Dimensions-start{LP29}
+**Height**vref{2}: 1245mm
+**Width**vref{2}: 890mm
+**Depth**vref{2}: 1255mm
+**Weight**vref{2}: 278kg
+**Dimensions-end{LP29}
+**End-printers-entry{LP29}
+
 **Start-printers-entry{LPS17}{PRINTER}{LPS}
 **Def-lref{1} = ref{CU-1994-02-28}
 **Sys-name: LPS17
@@ -671,6 +745,20 @@
 **Emulation**vref{1}: {HP-PCL} {ASCII} {ANSI} {TEKTRONIX} {ReGIS}
 **Duplex: Standard
 **End-printers-entry{LPS32}
+
+**Start-printers-entry{LPS40}{PRINTER}{LPS}
+**Def-lref{1} = ref{SOCEE-SPR89}
+**Sys-name: LPS40
+**Desc-name: PrintServer 40
+**Print-speed**vref{1}: 40 pages/min
+**Monthly-usage**vref{1}: 30,000 - 100,000 pages
+**Input-capacity**vref{1}: 2500 sheets 
+**Fonts**vref{1}: 29 resident
+**Interface**vref{1}: Ethernet
+**Page-description-language**vref{1}: PostScript
+**Resolution**vref{1}: 300 dpi
+**Duplex**vref{1}: Standard
+**End-printers-entry{LPS40}
 
 **Start-printers-entry{LQP02}{PRINTER}{LQ}
 **Sys-name: LQP02
