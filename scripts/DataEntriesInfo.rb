@@ -31,6 +31,7 @@ end
 # Function to simplify logging of fatal errors
 def log_fatal(this, line_num, filename, text)
   $stderr.puts("FATAL ERROR from #{this.class().name()}: line #{line_num} in #{filename}: #{text}")
+  this.fatal_error_seen = true
 end
 
 # Function to simplify logging of debug
@@ -44,7 +45,7 @@ end
 #-
 class InfoFileHandlerOuter
 
-  attr_reader     :fatal_error_seen
+  attr_accessor     :fatal_error_seen
 
   def initialize(permitted_tags, info_filename, expected_entry_type, refs, pubs, devices)
     @permitted_tags = permitted_tags
@@ -110,7 +111,7 @@ end
 class InfoFileHandlerEntry
 
   attr_reader     :entry
-  attr_reader     :fatal_error_seen
+  attr_accessor   :fatal_error_seen
 
   def initialize(entry, entry_name, info_filename, permitted_tags_uc, refs, pubs)
     @fatal_error_seen = false
@@ -312,7 +313,7 @@ end
 #-
 class InfoFileHandlerText
 
-  attr_reader     :fatal_error_seen
+  attr_accessor   :fatal_error_seen
   attr_reader     :text_block
 
   def initialize(local_refs)
@@ -507,6 +508,7 @@ class EntriesCollection
       line_num += 1
       line = line.chomp().strip()
       result, extra = current_handler.process_line(line, line_num)
+      fatal_error_seen = true if current_handler.fatal_error_seen()
       case result
       when HandlerResult::IMMEDIATE_STOP
         if current_handler.respond_to?(:stop_processing_is_valid)

@@ -662,29 +662,28 @@
 **Announcement**vref{4}: 1993-12-06
 **Last-order**vref{5}: 1996-08-31
 **Last-ship**vref{5}: 1996-12-31
-**Capacity**vref{4}: 10GB
+**Capacity**vref{1,4}: 10GB
 **Form-factor**lref{2}: 5-1/4" full-height
-**OS-support-vms**lref{1}: VMS V5.3
-**Recording-format**lref{1}: Two-track parallel serpentine
-**Num-tracks**lref{1}: 128
-**Tape-speed**lref{1}: 110in/s:approx
-**Media**lref{1}: CompacTape III
+**OS-support-vms**vref{1}: VMS V5.3
+**Recording-format**vref{1}: Two-track parallel serpentine
+**Num-tracks**vref{1}: 128
+**Tape-speed**vref{1}: 110in/s:approx
+**Media**vref{1}: CompacTape III
 **Tape-length**lref{3}: 1200'
 ! [1] Reads TK50, TK52; reads/writes CompacTape III in 85,86,87 mode
 **Interface**lref{2}: SCSI-2
-**Peak-transfer-rate**lref{1}: 1.25MB/s:(user data, native)
+**Peak-transfer-rate**vref{1}: 1.25MB/s:(user data, native)
 **Cache**lref{2}: 2MB
 **CPU**lref{2}: 68020
 **CPU-clock**lref{2}: 25MHz
 **Undetectable-error-rate**lref{2}: 10^30
 **Unrecovered-error-rate**lref{2}: 10^17
-**Tape-width**lref{1}: 12.7mm
-!! TODO check lref as vref! **Rewind-speed**lref{1}**lref{2}: 150 in/s
+**Tape-width**vref{1}: 12.7mm
+**Rewind-speed**vref{1}: 150 in/s
 **Track-density**lref{1}: 333.3tpi
 **MTBF**lref{2}: 80000 hours
 !! TODO REDEFINED **Recording-format**lref{2}: 2,7 RLL code (TZ87), MFM (TK85/86)
-!! TODO REDEFINED **Num-tracks**lref{2}: 128
-**Recording-density**lref{2}: 62500 bpi
+**Recording-density**vref{1}: 62500 bpi
 **Power-start{TZ87}
 **Power**lref{2}: 27W:(max)
 **Power-end{TZ87}
@@ -784,9 +783,9 @@
 **Sys-name: TZK11
 **Desc-name: TZK11 Data Cartridge Tape Drive
 **Def-lref{1} = ref{EK-TZK11-UG.A01}
-**Def-lref{2} = ref{1993-08-16}
+**Def-lref{2} = ref{CU-1993-08-16}
 ! Name verified in vref{1}: definitely T then Z then K !
-!! TODO NO SUCH LREF?? **Announcement**vref{2}: 1993-08-16
+**Announcement**vref{2}: 1993-08-16
 **Capacity**vref{1}: 2.5GB
 ![1] OpenVMS AXP 1.5, NT AXP 3.1
 **OS-Support-vms**vref{1}: V5.5-2

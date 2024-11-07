@@ -2121,7 +2121,7 @@
 **Start-ref{DA-1987-09-02}
 **Ref-text: Digital Announcement: 1987-SEP-02
 **Ref-processed: Yes
-**Ref-url: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=43.6
+**Ref-url: https://eisner.decus.org/anon/htnotes/range?f1=HARDWARE_HELP&f2=43.6
 **End-ref{DA-1987-09-02}
 
 **Start-ref{DA-1988-02-02}
@@ -9438,6 +9438,13 @@
 **Ref-confidential: Yes
 **Ref-processed: Yes
 **End-ref{TZ87-TECH}
+
+**Start-ref{EK-OTZ87-OM.A01}
+**Ref-text: TZ87 Series Tape Cartridge Subsystem Owner's Manual
+**Ref-partno: EK-OTZ87-OM.A01}
+**Ref-electronic: PDF
+**Ref-processed: Yes
+**End-ref{EK-OTZ87-OM.A01}
 
 **Start-ref{EK-TZK11-UG.A01}
 **Ref-text: TZK11 Tape Backup System User Guide

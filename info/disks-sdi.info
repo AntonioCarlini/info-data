@@ -1,7 +1,7 @@
 **Start-storage-entry{ESE20}{SDI}{SOLID}
 **Sys-name: ESE20
 **Desc-name: ESE20 120MB Solid State Disk
-**Def-lref{1} = ref{SOC-SPR90}
+**Def-lref{1} = ref{SOCEE-SPR90}
 **Def-lref{2} = ref{CU-1992-10-12}
 **Last-order**vref{2}: 15 November 1992
 **Last-ship**vref{2}: 31 December 1992
@@ -139,7 +139,7 @@
 **Start-storage-entry{RA70}{SDI}{RA}
 **Sys-name: RA70
 **Desc-name: RA70 280MB Disk
-**Def-lref{1} = ref{SOC-SPR90}
+**Def-lref{1} = ref{SOCEE-SPR90}
 **Def-lref{2} = ref{EK-ORA7X-SM-002}
 **Def-lref{3} = ref{CU-1991-11-08}
 **Def-lref{4} = ref{CU-1991-12-20}

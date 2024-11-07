@@ -1,9 +1,9 @@
 **Start-storage-entry{THZ02}{MISC}{THZ02}
 **Def-lref{1} = ref{EK-THZ02-SG.A01}
-**Def-lref{2} = ref{DEC_PR-1992-06-10-THZ02}
+**Def-lref{2} = ref{DEC-PR-1992-06-10-THZ02}
 **Sys-name: THZ02
 **Desc-name: THZ02 Cartridge Tape Drive
-! TODO bad vref **Announcement**vref{2}: 1992-06-10
+**Announcement**vref{2}: 1992-06-10
 ![1] cartridge capacity is 6GB, 42GB with media loader
 **Capacity**lref{1}: 6GB
 **Cache**lref{1}: 512KB

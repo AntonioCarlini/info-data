@@ -26,7 +26,7 @@
 **Start-storage-entry{RF30}{DSSI}{RF}
 **Sys-name: RF30
 **Desc-name: RF30 150MB DSSI Disk
-**def-lref{1} = ref{SOC-SPR90}
+**def-lref{1} = ref{SOCEE-SPR90}
 **def-lref{2} = ref{CBR-PR-1988-10-19}
 **def-lref{3} = ref{SOCEE-SPR89}
 ! Read-ahead cache: &	No \\	% [28] -->
