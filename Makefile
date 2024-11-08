@@ -90,6 +90,8 @@ all: $(foreach SYS,$(SYSTEMS),bin/$(SYS).os-release.txt)
 
 all: $(TOTAL.YAML)
 
+.DELETE_ON_ERROR:
+
 .PHONY: all
 
 .PHONY: | build.tree
