@@ -304,7 +304,7 @@
 **Option**vref{1}: {boards:DEPCA-BA}{DECPA Ethernet Interface}
 **Option-title: Monitors
 **Option**vref{1}: {monitor:PC6XV-A3}{12" VGA Monochrome Monitor}
-**Option**vref{1}:{monitor:PC6XV-B3}{14" VGA Colour  Monitor}
+**Option**vref{1}: {monitor:PC6XV-B3}{14" VGA Colour  Monitor}
 **Options-end{DS220}
 **Dimensions-start{DECstation220}
 **Height**vref{1}: 109mm
@@ -313,4 +313,59 @@
 **Weight**vref{1}: 9kg
 **Dimensions-end{DECstation220}
 **End-systems-entry{DECPC-DECstation220}
+ 
+**Start-systems-entry{DECPC-DECstation300}{DECPC}{DECstation}
+**Def-lref{1} = ref{SOCEE-SPR90}
+**Sys-name: DECPC-DECstation 300
+**Desc-name: DECPC-DECstation 300
+**CPU-chip**vref{1}: 80386SX
+**CPU-clock**vref{1}: 16 MHz
+**BUS-ISA**vref{1}: 5 slots (16-bit) (2 available), 3 slots (8-bit) (3 available)
+**Minimum-memory**vref{1}: 2MB
+**Maximum-memory**vref{1}: 12MB
+**Keyboard**vref{1}: LK250
+**Options-start{DS220}
+**Option-title: Memory
+**Option**vref{1}: {memory:PC62M-BA}{2MB Memory Upgrade for Motherboard}
+**Option**vref{1}: {memory:PC62M-AA}{2MB Memory Expansion Board}
+**Option**vref{1}: {memory:PC62M-AB}{Additional 2MB Memory for PC62M-AA}
+**Options-end{DS220}
+**Dimensions-start{DECstation300}
+**Height**vref{1}: 147mm
+**Width**vref{1}: 358mm
+**Depth**vref{1}: 394mm
+**Weight**vref{1}: 12.5kg
+**Dimensions-end{DECstation300}
+**End-systems-entry{DECPC-DECstation300}
+
+**Start-systems-entry{DECPC-DECstation350}{DECPC}{DECstation}
+**Def-lref{1} = ref{SOCEE-SPR90}
+**Sys-name: DECPC-DECstation 350
+**Desc-name: DECPC-DECstation 350
+**CPU-chip**vref{1}: 80386
+**CPU-clock**vref{1}: 20 MHz
+**BUS-ISA**vref{1}: 2 slots (16-bit), 2 slots (8-bit) (2 available)
+! vref{1} also notes 3 x 32-bit slots, 2 available
+**Minimum-memory**vref{1}: 2MB
+**Maximum-memory**vref{1}: 48MB
+**Keyboard**vref{1}: LK250
+**Options-start{DS350}
+**Option-title: Memory
+**Option**vref{1}: {memory:PC63M-BA}{4MB Memory Expansion Board}
+**Option**vref{1}: {memory:PC63M-BB}{Additional 4MB for PC63M-BA}
+**Option**vref{1}: {memory:PC63M-AA}{1MB Memory Expansion Board}
+**Option**vref{1}: {memory:PC63M-AB}{Additional 1MB Memory for PC63M-AA or DECstation 350 Motherboard}
+**Option-title: Communication Devices
+**Option**vref{1}: {boards:DEPCA-BA}{DECPA Ethernet Interface}
+**Option-title: Monitors
+**Option**vref{1}: {monitor:PC6XV-A3}{12" VGA Monochrome Monitor}
+**Option**vref{1}: {monitor:PC6XV-B3}{14" VGA Colour  Monitor}
+**Options-end{DS350}
+**Dimensions-start{DECstation350}
+**Height**vref{1}: 185mm
+**Width**vref{1}: 380mm
+**Depth**vref{1}: 410mm
+**Weight**vref{1}: 9kg
+**Dimensions-end{DECstation350}
+**End-systems-entry{DECPC-DECstation350}
 
