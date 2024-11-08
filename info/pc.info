@@ -285,3 +285,32 @@
 **Announcement**vref{1}: 1993-05-13
 **End-systems-entry{DECPC-466d2-MTE}
 
+**Start-systems-entry{DECPC-DECstation220}{DECPC}{DECstation}
+**Def-lref{1} = ref{SOCEE-SPR90}
+**Sys-name: DECPC-DECstation 220
+**Desc-name: DECPC-DECstation 220
+**CPU-chip**vref{1}: 80286
+**CPU-clock**vref{1}: 12 MHz
+**BUS-ISA**vref{1}: 3 slots (16-bit)
+**Minimum-memory**vref{1}: 1MB
+**Keyboard**vref{1}: LK250
+**Options-start{DS220}
+**Option-title: Memory
+**Option**vref{1}: {memory:PC64M-BA}{1MB Memory Upgrade for Motherboard}
+**Option**vref{1}: {memory:PC64M-BB}{2MB Memory Upgrade for Motherboard}
+**Option**vref{1}: {memory:PC64M-AA}{2MB Memory Expansion Board}
+**Option**vref{1}: {memory:PC64M-AB}{Additional 2MB Memory for PC64M-AA}
+**Option-title: Communication Devices
+**Option**vref{1}: {boards:DEPCA-BA}{DECPA Ethernet Interface}
+**Option-title: Monitors
+**Option**vref{1}: {monitor:PC6XV-A3}{12" VGA Monochrome Monitor}
+**Option**vref{1}:{monitor:PC6XV-B3}{14" VGA Colour  Monitor}
+**Options-end{DS220}
+**Dimensions-start{DECstation220}
+**Height**vref{1}: 109mm
+**Width**vref{1}: 412mm
+**Depth**vref{1}: 393mm
+**Weight**vref{1}: 9kg
+**Dimensions-end{DECstation220}
+**End-systems-entry{DECPC-DECstation220}
+
