@@ -15,8 +15,9 @@ end
 #-
 class InfoFileHandlerOptions
 
+  attr_accessor   :fatal_error_seen
+
   attr_reader     :entry
-  attr_reader     :fatal_error_seen
   attr_reader     :options
 
   def initialize(id, info_filename, line_num, local_refs, refs, pubs)

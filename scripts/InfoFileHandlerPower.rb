@@ -10,8 +10,9 @@ require_relative "VariableWithReference.rb"
 #-
 class InfoFileHandlerPower
 
+  attr_accessor   :fatal_error_seen
+
   attr_reader     :entry
-  attr_reader     :fatal_error_seen
   attr_reader     :power
 
   def initialize(id, info_filename, line_num, local_refs, refs, pubs)
