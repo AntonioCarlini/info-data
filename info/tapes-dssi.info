@@ -44,18 +44,18 @@
 **Sys-name: TF85
 **Desc-name: TF85 Tape Cartridge Subsystem
 **Last-order**vref{2}: 1995-03-31
-**Capacity**lref{1}: 2.6GB
+**Capacity**vref{1}: 2.6GB
 ![1] Will read TK50/TK52 carts
-**Read-write-speed**lref{1}: 100in/s
-**Recording-format**lref{1}: two-track parallel, serpentine 
-**Recording-density**lref{1}: 42500 bpi
-**Num-tracks**lref{1}: 48
-**Track-density**lref{1}: 96 tpi
-**Interface**lref{1}: DSSI
+**Read-write-speed**vref{1}: 100in/s
+**Recording-format**vref{1}: two-track parallel, serpentine 
+**Recording-density**vref{1}: 42500 bpi
+**Num-tracks**vref{1}: 48
+**Track-density**vref{1}: 96 tpi
+**Interface**vref{1}: DSSI
 **Power-start{TF85}
-**Positive-12V-current**lref{1}: 1.6A
-**Positive-5V-current**lref{1}: 4.5A
-**Power**lref{1}: 56W:(max)
+**Positive-12V-current**vref{1}: 1.6A
+**Positive-5V-current**vref{1}: 4.5A
+**Power**vref{1}: 56W:(max)
 **Power-end{TF85}
 **End-storage-entry{TF85}
 
