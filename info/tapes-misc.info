@@ -5,29 +5,28 @@
 **Desc-name: THZ02 Cartridge Tape Drive
 **Announcement**vref{2}: 1992-06-10
 ![1] cartridge capacity is 6GB, 42GB with media loader
-**Capacity**lref{1}: 6GB
-**Cache**lref{1}: 512KB
-**Peak-transfer-rate**lref{1}: {1.1MB/s:(raw, streaming)}{800KB/s:(streaming)}
-**Repositioning-time**lref{1}: < 1.3s
-**Undetectable-error-rate**lref{1}: 10^30
-**Unrecovered-error-rate**lref{1}: 10^17
-**Hard-error-rate**lref{1}: 10^17
-**Error-correction**lref{1}: 64-bit CRC per 2KB on media
-**Interface**lref{1}: SCSI-2
-**CPU**lref{1}: 68020
-**CPU-clock**lref{1}: 15MHz
-**Read-write-speed**lref{1}: 100 in/s streaming
-**MTBF**lref{1}: 60000 hours
+**Capacity**vref{1}: 6GB
+**Cache**vref{1}: 512KB
+**Peak-transfer-rate**vref{1}: {1.1MB/s:(raw, streaming)}{800KB/s:(streaming)}
+**Repositioning-time**vref{1}: < 1.3s
+**Undetectable-error-rate**vref{1}: 10^30
+**Unrecovered-error-rate**vref{1}: 10^17
+**Error-correction**vref{1}: 64-bit CRC per 2KB on media
+**Interface**vref{1}: SCSI-2
+**CPU**vref{1}: 68020
+**CPU-clock**vref{1}: 15MHz
+**Read-write-speed**vref{1}: 100 in/s streaming
+**MTBF**vref{1}: 60000 hours
 **Power-start{THZ02}
-**Positive-5V-current**lref{1}: 4.50A:(max)
-**Positive-12V-current**lref{1}: 1.22A:(max)
-**Power**lref{1}: 40W:(max)
+**Positive-5V-current**vref{1}: 4.50A:(max)
+**Positive-12V-current**vref{1}: 2.60A:(max)
+**Power**vref{1}: 40W:(max)
 **Power-end{THZ02}
 **Dimensions-start{THZ02}
-**Height**lref{1}: 100.3mm
-**Width**lref{1}: 144.7mm
-**Depth**lref{1}: 228.6mm
-**Weight**lref{1}: 2.95kg
+**Height**vref{1}: 100.3mm
+**Width**vref{1}: 144.7mm
+**Depth**vref{1}: 228.6mm
+**Weight**vref{1}: 2.95kg
 **Dimensions-end{THZ02}
 **End-storage-entry{THZ02}
 
