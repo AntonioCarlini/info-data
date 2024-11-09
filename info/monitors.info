@@ -220,34 +220,35 @@
 **Desc-name: VR299 20" Colour Monitor
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{EK-VR299-IN}
-**Screen-diagonal**lref{2}: 480mm:(20")  
-**Dot-pitch**lref{2}: 0.32mm       
-**Screen-size**lref{2}: 1024x864 pixels  
-**Video-termination**lref{2}: 75ohm BNC    
-**Synch-signal**lref{2}: Green
-**Video-amplitude**lref{2}: {0.7Vpp Red}{1.0Vpp Green}{0.7Vpp Blue}
-**H-active-video**lref{2}: 14.8us  
-**H-back-porch**lref{2}: 1680ns   
-**H-blanking-interval**lref{2}: 3.70us:(max)
-**H-frequency**lref{2}: 54.054kHz   
-**H-front-porch**lref{2}: 160ns     
-**Horizontal-period**lref{2}: 18.5us  
-**H-sync-pulse**lref{2}: 1850ns   
-**V-active-video**lref{2}: 16.0ms   
-**V-blanking-interval**lref{2}: 37 horizontal lines
-**V-frequency**lref{2}: 60Hz        
-**V-front-porch**lref{2}: 0 horizontal lines  
-**Lines-displayed**lref{2}: 864
-**V-sync-pulse**lref{2}: 3 horizontal lines  
-**Vertical-period**lref{2}: 16.67ms   
+**Screen-diagonal**vref{2}: 480mm:(20")  
+**Dot-pitch**vref{2}: 0.32mm       
+**Screen-size**vref{2}: 1024x864 pixels  
+! vref{2} on re-reading, cannot find **Video-termination and **Synch-signal
+!**Video-termination**lref{2}: 75ohm BNC    
+!**Synch-signal**lref{2}: Green
+**Video-amplitude**vref{2}: {0.7Vpp Red}{1.0Vpp Green}{0.7Vpp Blue}
+**H-active-video**vref{2}: 14.8us  
+**H-back-porch**vref{2}: 1680ns   
+**H-blanking-interval**vref{2}: 3.70us:(max)
+**H-frequency**vref{2}: 54.054kHz   
+**H-front-porch**vref{2}: 160ns     
+**Horizontal-period**vref{2}: 18.5us  
+**H-sync-pulse**vref{2}: 1850ns   
+**V-active-video**vref{2}: 16.0ms   
+**V-blanking-interval**vref{2}: 37 horizontal lines
+**V-frequency**vref{2}: 60Hz        
+**V-front-porch**vref{2}: 0 horizontal lines  
+**Lines-displayed**vref{2}: 864
+**V-sync-pulse**vref{2}: 3 horizontal lines  
+**Vertical-period**vref{2}: 16.67ms   
 **Dimensions-start{VR299}
-**Height**lref{2}: 470mm
-**Width**lref{2}: 506mm
-**Depth**lref{2}: 525mm   
-**Weight**lref{2}: 37kg
+**Height**vref{2}: 470mm
+**Width**vref{2}: 506mm
+**Depth**vref{2}: 525mm   
+**Weight**vref{2}: 32kg
 **Dimensions-end{VR299}
 **Power-start{VR299}
-**Power**lref{2}: 150W:max
+**Power**vref{2}: 150W:max
 **Power-end{VR299}
 **End-monitors-entry{VR299}
 
