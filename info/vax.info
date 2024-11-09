@@ -412,6 +412,8 @@
 **Def-lref{7} = ref{CU-1991-10-30}
 **Def-lref{8} = ref{CU-1992-11-02}
 **Def-lref{9} = ref{Glossary-CodeNames-1992-01-02}
+**def-lref{10} = ref{SOCEE-SUM90}
+**def-lref{11} = ref{EK-336AC-OP-003}
 **document=doc{DEC:EC-F1108-41} ! VAX 4000 Model 200 and 300 Systems
 **document=doc{DEC:EP-BA441-IN-003} ! RACK-MOUNTABLE VAX 4000 MODEL 300 INST/OWNER'S MANUAL
 **document=doc{DEC:EC-F0565-41/90} ! VAX 4000 Model 300 Systems
@@ -464,8 +466,7 @@
 ! <!-- [1] KA670 can use up to 4 MS670 modules. MS670-BA is 32MB 100ns using 1MB DRAM -->
 ! <!-- *107 392ns/756ns per 128-bit read, 308ns/504ns per 128-bit write, 399ns/504ns per 32-bit write -->
 **BUS-Qbus**vref{1}: 1 @ 3.3MB/s
-**BUS-DSSI**vref{1}: 2 @ 4.0MB/s (SHAC embedded)
-!!**BUS-DSSI**uref{*28}: 2 optional
+**BUS-DSSI**vref{11}: 2 @ 4.0MB/s (SHAC embedded), 2 optional (via up to two KFQSA)
 **LAN-support**vref{1}: 1 (SGEC - embedded) (DC541)
 **Power-start{4300-120V}
 **Label: 120V
@@ -485,15 +486,34 @@
 **Depth**vref{3}: 450mm
 **Weight**vref{3}: 68kg
 **Dimensions-end{4300}
-!<TR> <TD COLSPAN=2> <B> Internal controllers </B> </TR>
-!<TR> <TD> <A HREF="../boards/kda50.html">   KDA50 </A> <TD> SDI Disk Controller			</TR>
-!<TR> <TD> <A HREF="../boards/kfqsa.html">   KFQSA </A> <TD> DSSI Adapter			</TR>
-!<TR> <TD> <A HREF="../boards/klesi.html">   KLESI </A> <TD> TU81-Plus Controller		</TR>
-!**Option: {TKQ70}{TK70 Tape Controller}
-!<TR> <TD> <A HREF="../boards/tsv05.html">   TSV05 </A> <TD> TSV05 Tape Controller		</TR>
+**Options-start{VAX4300}
+**Option-Title: Enclosures
+**Option**vref{11}: {enclosures:BA440}{BA440 Enclosure}
+**Option**vref{11}: {enclosures:B400X}{B400X Storage Expansion Pedestal}
+**Option**vref{11}: {enclosures:R400X}{R400X Storage Expansion Pedestal}
+**Option-title: Storage Controllers
+**Option**vref{11}: {boards:KFQSA}{KFQSA DSSI Adapter}
+**Option**vref{11}: {boards:TQK70}{TK70 cartridge Tape Interface}
+**Option**vref{11}: {boards:KDA50}{KDA50 SDI Disk Interface}
+**Option**vref{11}: {boards:KZQSA}{KZQSA SCSI Interface}
+**Option-title: Storage
+**Option**vref{11}: {optical:RRD42}{RRD42 CDROM Drive}
+**Option**vref{11}: {tapes:TSV05}{TSV05 Tape Drive}
+**Option**vref{11}: {tapes:TSZ07}{TSZ07 Tape Drive}
+**Option**vref{11}: {tapes:TF85}{DSSI TF85 Cartridge Tape Drive} 
+**Option**vref{11}: {tapes:TK70}{TK70 Cartridge Tape Drive} 
+**Option**vref{11}: {tapes:TLZ04}{TLZ04 DAT Tape Drive} 
+**Option-title: Communications
+**option**vref{11}: {boards:CXA16-AA}{16-line Asynchronous Serial Lines, RS423A, no Modem Control}
+**option**vref{11}: {boards:CXB16-AA}{16-line Asynchronous Serial Lines, RS422, no Modem Control}
+**option**vref{11}: {boards:CXY08-AA}{8 Asynchronous Serial Lines, EIA 232D, Modem Control}
+**option**vref{11}: {boards:DIV32}{DEC ISDN Controller}
+**option**vref{11}: {boards:DPV11-SA}{Synchronous Serial Line}
+**option**vref{11}: {boards:DSV11-SA}{Synchronous Serial Line}
+**option**vref{11}: {boards:KMV1A}{Programmable Communications Interface}
+**option**vref{11}: {boards:DESQA-SA}{DESQA Ethernet Controller}
 !<TR> <TD> <A HREF="../boards/mrv11.html">   MRV11 </A> <TD> Programmable ROM Module		</TR>
 !<TR> <TD COLSPAN=2> <B> Internal mass storage options </B> </TR>
-!<TR> <TD> <A HREF="../storage/tk70.html">   TK70  </A> <TD> </TR>
 !<TR> <TD> <A HREF="../storage/rrd40.html">  RRD40 </A> <TD> SCSI CDROM drive 			</TR>
 !<TR> <TD> <A HREF="../storage/rf71.html">   RF71  </A> <TD> 400MB DSSI Disk			</TR>
 !<TR> <TD> <A HREF="../storage/rf31.html">   RF31  </A> <TD> 381MB DSSI Disk			</TR>
@@ -502,16 +522,9 @@
 !<TR> <TD> <A HREF="../storage/ra81.html">  RA81 </A> <TD> 456MB Disk Drive 			</TR>
 !<TR> <TD> <A HREF="../storage/ra82.html">  RA82 </A> <TD> 623MB Disk Drive 			</TR>
 !<TR> <TD> <A HREF="../storage/ra90.html">  RA90 </A> <TD> 1.2GB Disk Drive 			</TR>
-!<TR> <TD> <A HREF="../storage/tsv05.html">  TSV05 </A> <TD> 1600bpi Tape Drive			</TR>
 !<TR> <TD> <A HREF="../storage/tu81plus.html">  TU81-Plus </A> <TD> 6250/1600bpi Tape Drive	</TR>
 !<TR> <TD COLSPAN=2> <B> Communications Interfaces </B> </TR>
-!<TR> <TD> <A HREF="../boards/cxa16.html">   CXA16 </A> <TD> 16-line Asynchronous Multiplexer	</TR>
-!<TR> <TD> <A HREF="../boards/cxb16.html">   CXB16 </A> <TD> 16-line Asynchronous Multiplexer	</TR>
-!<TR> <TD> <A HREF="../boards/cxy08.html">   CXY08 </A> <TD>  8-line Asynchronous Multiplexer	</TR>
-!<TR> <TD> <A HREF="../boards/desqa.html">   DESQA </A> <TD> Ethernet Controller			</TR>
 !<TR> <TD> <A HREF="../boards/dfa01.html">   DFA01 </A> <TD>  2-line Controller with Integral Modems </TR>
-!<TR> <TD> <A HREF="../boards/dpv11.html">   DPV11 </A> <TD>  1-line Synchronous Interface	</TR>
-!<TR> <TD> <A HREF="../boards/dsv11.html">   DSV11 </A> <TD>  2-line Synchronous Interface	</TR>
 !<TR> <TD> <A HREF="../boards/lpv11.html">   LPV11 </A> <TD>  Line Printer Interface		</TR>
 !<TR> <TD COLSPAN=2> <B> Real-Time Options </B> </TR>
 !<TR> <TD> <A HREF="../boards/aav11.html">   AAV11 </A> <TD>  2-channel Digital-Analog Converter		</TR>
@@ -523,6 +536,7 @@
 !<TR> <TD> <A HREF="../boards/ibq01.html">   IBQ01 </A> <TD>  RS-485 Interface				</TR>
 !<TR> <TD> <A HREF="../boards/ieq11.html">   IEQ11 </A> <TD>  IEC/IEEE Interface				</TR>
 !<TR> <TD> <A HREF="../boards/kwv11.html">   KWV11 </A> <TD>  Programmable Real-Time Clock		</TR>
+**Options-end{VAX4300}
 **End-systems-entry{VAX4300}
 
 **Start-systems-entry{VAX4400}{VAX}{VAX4000}

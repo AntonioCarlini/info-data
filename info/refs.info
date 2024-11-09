@@ -604,6 +604,10 @@
 **Ref-text: Systems & Options Catalog. European Edition. Spring 1990
 **End-ref{SOCEE-SPR90}
 
+**Start-ref{SOCEE-SUM90}
+**Ref-text: Systems & Options Catalog. European Edition. Summer 1990
+**End-ref{SOCEE-SUM90}
+
 **Start-ref{SOCEE-SPR89}
 **Ref-text: Systems & Options Catalog. European Edition. Spring 1989
 **End-ref{SOCEE-SPR89}
@@ -3717,6 +3721,11 @@
 **Ref-partno: EK-336AB-OP-002
 **Ref-hardcopy: Yes
 **End-ref{EK-336AB-OP-002}
+
+**Start-ref{EK-336AC-OP-003}
+**Ref-text: VAX 4000 Model 300 Operation
+**Ref-partno: EK-336AC-OP-003
+**End-ref{EK-336AC-OP-003}
 
 **Start-ref{EK-386AA-TS-001}
 **Ref-text: VAX 4000 Troubleshooting and Diagnostics
