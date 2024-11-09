@@ -13,7 +13,7 @@
 **I/O-throughput**uref{142}: 800 IO/s
 **Power-start{EZ51R}
 **Positive-12V-current**vref{1}: 1.10A
-**Power**vlref{1}: 13.2W
+**Power**vref{1}: 13.2W
 **Power-end{EZ51R}
 **Dimensions-start{EZ51R}
 **Height**uref{142}: 82.55mm
@@ -54,7 +54,7 @@
 **Num-cylinders**vref{1}: 16706
 **Power-start{EZ54R}
 **Positive-12V-current**vref{1}: 1.40A
-**Power**vlref{1}: 16.8W
+**Power**vref{1}: 16.8W
 **Power-end{EZ54R}
 **Dimensions-start{EZ54R}
 **Dimensions-end{EZ54R}
