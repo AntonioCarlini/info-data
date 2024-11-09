@@ -3,17 +3,17 @@
 **Sys-name: EZ51R
 ! [1]: Maximum save time 2 min min num of full save cycles: 15
 **Desc-name: EZ51R 107MB Solid State Disk
-**Form-factor**lref{1}: 5-1/4" 
-**Capacity**lref{1}: 106.9MB
-**Interface**lref{1}: SCSI-2
+**Form-factor**vref{1}: 5-1/4" 
+**Capacity**vref{1}: 106.9MB
+**Interface**vref{1}: SCSI-2
 **Average-access**uref{142}: 0.25ms
-**Peak-transfer-rate**lref{1}: {6.9MB/s:to/from media}{10MB/s:to/from bus)}
-**Sectors-per-track**lref{1}: 50
-**Num-cylinders**lref{1}: 4176
+**Peak-transfer-rate**vref{1}: {6.9MB/s:to/from media}{10MB/s:to/from bus)}
+**Sectors-per-track**vref{1}: 50
+**Num-cylinders**vref{1}: 4176
 **I/O-throughput**uref{142}: 800 IO/s
 **Power-start{EZ51R}
-**Positive-12V-current**lref{1}: 1.10A
-**Power**lref{1}: 13.2W
+**Positive-12V-current**vref{1}: 1.10A
+**Power**vlref{1}: 13.2W
 **Power-end{EZ51R}
 **Dimensions-start{EZ51R}
 **Height**uref{142}: 82.55mm
@@ -46,15 +46,15 @@
 **Sys-name: EZ54R
 ! [1]: Maximum save time 8 min , min num of full save cycles: 3
 **Desc-name: EZ54R 428MB Solid State Disk
-**Form-factor**lref{1}: 5-1/4" 
-**Capacity**lref{1}: 427.7MB
-**Interface**lref{1}: SCSI-2
-**Peak-transfer-rate**lref{1}: {6.9MB/s:to/from media}{10MB/s:to/from bus)}
-**Sectors-per-track**lref{1}: 50
-**Num-cylinders**lref{1}: 16706
+**Form-factor**vref{1}: 5-1/4" 
+**Capacity**vref{1}: 427.7MB
+**Interface**vref{1}: SCSI-2
+**Peak-transfer-rate**vref{1}: {6.9MB/s:to/from media}{10MB/s:to/from bus)}
+**Sectors-per-track**vref{1}: 50
+**Num-cylinders**vref{1}: 16706
 **Power-start{EZ54R}
-**Positive-12V-current**lref{1}: 1.40A
-**Power**lref{1}: 16.8W
+**Positive-12V-current**vref{1}: 1.40A
+**Power**vlref{1}: 16.8W
 **Power-end{EZ54R}
 **Dimensions-start{EZ54R}
 **Dimensions-end{EZ54R}
@@ -67,15 +67,15 @@
 ! [1]: Maximum save time 16 min , min num of full save cycles: 1
 **Desc-name: EZ58R 855MB Solid State Disk
 **Announcement**vref{2}: 1994-03-08
-**Form-factor**lref{1}: 5-1/4" 
-**Capacity**lref{1}: 855.3MB
-**Interface**lref{1}: SCSI-2
-**Peak-transfer-rate**lref{1}: {6.9MB/s:to/from media}{10MB/s:to/from bus)}
-**Sectors-per-track**lref{1}: 50
-**Num-cylinders**lref{1}: 33414
+**Form-factor**vref{1}: 5-1/4" 
+**Capacity**vref{1}: 855.3MB
+**Interface**vref{1}: SCSI-2
+**Peak-transfer-rate**vref{1}: {6.9MB/s:to/from media}{10MB/s:to/from bus)}
+**Sectors-per-track**vref{1}: 50
+**Num-cylinders**vref{1}: 33414
 **Power-start{EZ58R}
-**Positive-12V-current**lref{1}: 2.05A
-**Power**lref{1}: 24.6W
+**Positive-12V-current**vref{1}: 2.05A
+**Power**vref{1}: 24.6W
 **Power-end{EZ58R}
 **Dimensions-start{EZ58R}
 **Dimensions-end{EZ58R}
@@ -446,22 +446,22 @@
 **Last-ship**vref{4}: 1994-04-01
 **Capacity**vref{3}: 1.05GB
 **Form-factor**uref{SUE Jul 1992 Spec}: 3-1/2"
-**Peak-transfer-rate**htref{1}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{3.3MB/s:(to/from media)}
+**Peak-transfer-rate**vref{2}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{3.3MB/s:(to/from media)}
 **Average-access**vref{3}: 15.1ms
 **Average-latency**htref{1}: 5.6ms
 **Average-seek**vref{3}: 9.5ms
 **Maximum-seek**htref{1}: 20ms
 **Buffer-size**htref{1}: 512KB
-**Blocks-per-track**htref{1}: 57
-**Track-density**htref{1}: 2756 tpi
+**Blocks-per-track**vref{2}: 56 (plus 1 spare)
+**Track-density**vref{2}: 2756 tpi
 ![2] has 55530bpi, 2756 tpi, 2627 tracks-per-surface
-**Recording-density**htref{1}: 56000 bpi
+**Recording-density**vref{2}: 55,530 bpi
 **Areal-density**htref{1}: 154 MB/sq inch
 **Recording-mode**htref{1}: RLL 1,7
 **Num-heads**htref{1}: 14
-**Rotational-speed**htref{2}: 5363 rpm
-**Tracks-per-surface**htref{2}: 2627
-**Interface**htref{1}: SCSI
+**Rotational-speed**vref{2}: 5363 rpm
+**Tracks-per-surface**vref{2}: 2627
+**Interface**vref{2}: SCSI
 **Power-start{RZ26}
 **Power**htref{1}: 16.5W:(seeking)
 **Power-end{RZ26}
@@ -640,21 +640,21 @@
 **Def-lref{1} = ref{EK-RZXXD-RM-004}
 **Sys-name: RZ35
 **Desc-name: RZ35 852MB SCSI Disk
-**Capacity**lref{1}: 852MB
+**Capacity**vref{1}: 852MB
 **Codename: Patriot
-**Form-factor: 3-1/2" 
+**Form-factor**vref{1}: 3-1/2" 
 **Average-access: 15.1ms
-**Average-seek**lref{1}: 9.5ms
+**Average-seek**vref{1}: 9.5ms
 **Peak-transfer-rate: {2.7MB/s:to/from media}{5.0MB/s:(asynch)}{10.0MB/s:(synch)}
 **I/O-throughput: 73 IO/s @ 100ms
-**Recording-density**lref{1}: 48300 bpi
-**Track-density**lref{1}: 2650 tpi
-**Tracks-per-surface**lref{1}: 2086
-**Sectors-per-track**lref{1}: 56 data, 1 spare
-**Rotational-speed**lref{1}: 5363 rpm
-**Interface**lref{1}: SCSI
+**Recording-density**vref{1}: 48300 bpi
+**Track-density**vref{1}: 2650 tpi
+**Tracks-per-surface**vref{1}: 2086
+**Sectors-per-track**vref{1}: 56 data, 1 spare
+**Rotational-speed**vref{1}: 5363 rpm
+**Interface**vref{1}: SCSI
 **Power-start{RZ35}
-**Power**lref{1}: 18.7W
+**Power**vref{1}: 18.7W
 **Power-end{RZ35}
 **End-storage-entry{RZ35}
 
@@ -844,7 +844,7 @@
 **Start-time**uref{*128}: 30s
 **Stop-time**uref{*128}: 30s
 **Power-start{RZ58}
-**Power**lref{3}: 33W
+**Power**vref{3}: 33W
 **Power-end{RZ58}
 **Dimensions-start{RZ58}
 **Height**uref{*128}: 82mm
@@ -861,17 +861,17 @@
 **Desc-name: RZ73 2.0GB SCSI Disk
 ! TODO no ref{3} specified ??
 ! **Announcement**vref{3}: 1993-08-16
-**Capacity**htref{1}: 2.0GB
-**Form-factor**htref{1}: 5-1/4" full-height
+**Capacity**vref{2}: 2.0GB
+**Form-factor**vref{1}: 5-1/4" full-height
 **Codename: Shamrock
 **Average-access: 21.3ms
-**Average-seek**htref{2}: 12.0-15.0ms
-**Peak-transfer-rate**htref{2}: {2.7MB/s:(to/from media)}{5.0MB/s:(synch)}{10.0MB/s:(asynch)}
-**Rotational-speed**htref{2}: 3600 rpm
-**Recording-density**htref{2}: 43880 bpi
-**Track-density**htref{2}: 2432 tpi
-**Tracks-per-surface**htref{2}: 2620
-**Sectors-per-track**htref{2}: 71 data, 1 spare
+**Average-seek**vref{2}: 12.0-15.0ms
+**Peak-transfer-rate**vref{2}: {2.7MB/s:(to/from media)}{5.0MB/s:(synch)}{10.0MB/s:(asynch)}
+**Rotational-speed**vref{2}: 3600 rpm
+**Recording-density**vref{2}: 43880 bpi
+**Track-density**vref{2}: 2432 tpi
+**Tracks-per-surface**vref{2}: 2620
+**Sectors-per-track**vref{2}: 71 data, 1 spare
 **Power-start{RZ73}
 **Power**htref{2}: 22.9W
 **Power-end{RZ73}
