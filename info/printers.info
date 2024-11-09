@@ -26,27 +26,27 @@
 ![1]: interface: parallel + serial 
 **Last-order**vref{2}: 1993-09-13
 **Last-ship**vref{2}: 1993-09-13
-**Resolution**lref{1}: 300 dpi
-**Print-speed**lref{1}: 8 pages/min
-**Sheet-capacity**lref{1}: 50 sheets
+**Resolution**vref{1}: 300 dpi
+**Print-speed**vref{1}: 4 pages/min
+**Sheet-capacity**vref{1}: 50 sheets
 **Dimensions-start{DCL1100}
 ![1]: height is 259mm with optional paper feed unit and cassette installed
-**Height**lref{1}: 204mm
-**Width**lref{1}:  350mm
-**Depth**lref{1}:  405mm
-**Weight**lref{1}: 11.0kg
+**Height**vref{1}: 204mm
+**Width**vref{1}:  350mm
+**Depth**vref{1}:  405mm
+**Weight**vref{1}: 11.0kg
 **Dimensions-end{DCL1100}
 **Power-start{DCL1100-115}
 **Label: 115V
-**Supply**lref{1}: 115V 1-phase
-**I-max**lref{1}:  4.8A
-**Power**lref{1}:  550W:(max)
+**Supply**vref{1}: 115V 1-phase
+**I-max**vref{1}:  4.8A
+**Power**vref{1}:  550W:(max)
 **Power-end{DCL1100-115}
 **Power-start{DCL1100-220}
 **Label: 220V
-**Supply**lref{1}: 220V 1-phase
-**I-max**lref{1}:  2.5A
-**Power**lref{1}:  550W:(max)
+**Supply**vref{1}: 220V 1-phase
+**I-max**vref{1}:  2.5A
+**Power**vref{1}:  550W:(max)
 **Power-end{DCL1100-220}
 **End-printers-entry{DCL1100}
 
@@ -59,28 +59,27 @@
 **Announcement**vref{3}: 1992-10-26
 ![1]: 1152: 2MB-4MB RAM; two optional font carts
 ![1]: interface: parallel + serial + LocalTalk
-**Resolution**lref{1}: 300 dpi
-!**Print-speed**lref{1}: 8 pages/min
-**Print-speed**vref{3}: 4 pages/min
-**Sheet-capacity**lref{1}: 50 sheets
+**Resolution**vref{1}: 300 dpi
+**Print-speed**vref{1,3}: 4 pages/min
+**Sheet-capacity**vref{1}: 50 sheets
 **Dimensions-start{DCL1152}
 ![1]: height is 259mm with optional paper feed unit and cassette installed
-**Height**lref{1}: 204mm
-**Width**lref{1}:  350mm
-**Depth**lref{1}:  405mm
-**Weight**lref{1}: 11.0kg
+**Height**vref{1}: 204mm
+**Width**vref{1}:  350mm
+**Depth**vref{1}:  405mm
+**Weight**vref{1}: 11.0kg
 **Dimensions-end{DCL1152}
 **Power-start{DCL1152-115}
 **Label: 115V
-**Supply**lref{1}: 115V 1-phase
-**I-max**lref{1}:  4.8A
-**Power**lref{1}:  550W:(max)
+**Supply**vref{1}: 115V 1-phase
+**I-max**vref{1}:  4.8A
+**Power**vref{1}:  550W:(max)
 **Power-end{DCL1152-115}
 **Power-start{DCL1152-220}
-**Supply**lref{1}: 220V 1-phase
+**Supply**vref{1}: 220V 1-phase
 **Label: 220V
-**I-max**lref{1}:  2.5A
-**Power**lref{1}:  550W:(max)
+**I-max**vref{1}:  2.5A
+**Power**vref{1}:  550W:(max)
 **Power-end{DCL1152-220}
 **End-printers-entry{DCL1152}
 
@@ -419,7 +418,7 @@
 **Weight**vref{2}: 131kg
 **Dimensions-end{LG31}
 **Power-start{LG31}
-**Power**lref{2}: 400W (printing)
+**Power**vref{2}: 400W (printing)
 **Power-end{LG31}
 **End-printers-entry{LG31}
 
@@ -440,24 +439,24 @@
 !**Last-ship**vref{2}: 1994-05-23
 ![1] interface two parallel, one serial
 ![1] ASCII data format
-**Buffer-size**lref{1}: 2 lines (parallel), 1KB (serial)
+**Buffer-size**vref{1}: 2 lines (parallel), 1KB (serial)
 **Dimensions-start{LG06}
-**Height**lref{1}: 1080mm
-**Width**lref{1}:  686mm
-**Depth**lref{1}:  729mm
-**Weight**lref{1}: 102kg
+**Height**vref{1}: 1080mm
+**Width**vref{1}:  686mm
+**Depth**vref{1}:  729mm
+**Weight**vref{1}: 102kg
 **Dimensions-end{LG06}
 **Power-start{LG106-120}
 **Label: 120V
-**Supply**lref{1}: 120V 1-phase
-**I-max**lref{1}: 8A
-**Power**lref{1}: 360W:(operating)
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 8A
+**Power**vref{1}: 360W:(operating)
 **Power-end{LG106-120}
 **Power-start{LG106-230}
 **Label: 230V
-**Supply**lref{1}: 230V 1-phase
-**I-max**lref{1}: 4A
-**Power**lref{1}: 360W:(operating)
+**Supply**vref{1}: 230V 1-phase
+**I-max**vref{1}: 4A
+**Power**vref{1}: 360W:(operating)
 **Power-end{LG106-230}
 **End-printers-entry{LG06}
 
@@ -518,29 +517,29 @@
 **Sys-name: LN05
 **Desc-name: DEClaser 2100
 **Announcement**vref{2}: 1990-06-05
-**Resolution**lref{1}: 300 dpi
-**Print-speed**lref{1}: 8 pages/min
+**Resolution**vref{1}: 300 dpi
+**Print-speed**vref{1}: 8 pages/min
 ! [1] two optional external font carts, optional postscript capability
 ! [1] 1-,2- or 3-MB RAM addon; 0.5MB built-in; two optional font carts
 ! [1] parallel port and serial port
 ! [1] Laser power 5mW
 ! [2]: simplex
-**Sheet-capacity**lref{1}: 200 sheets
+**Sheet-capacity**vref{1}: 200 sheets
 **Dimensions-start{LN05}
-**Height**lref{1}: 228mm
-**Width**lref{1}:  454mm
-**Depth**lref{1}:  525mm
-**Weight**lref{1}: 20.6kg
+**Height**vref{1}: 228mm
+**Width**vref{1}:  454mm
+**Depth**vref{1}:  525mm
+**Weight**vref{1}: 20.6kg
 **Dimensions-end{LN05}
 **Power-start{LN05-115}
 **Label: 115V
-**Supply**lref{1}: 115V 1-phase
-**Power**lref{1}:  810W
+**Supply**vref{1}: 115V 1-phase
+**Power**vref{1}:  810W
 **Power-end{LN05-115}
 **Power-start{LN05-220}
 **Label: 220V
-**Supply**lref{1}: 220V 1-phase
-**Power**lref{1}:  790W
+**Supply**vref{1}: 220V 1-phase
+**Power**vref{1}:  790W
 **Power-end{LN05-220}
 **End-printers-entry{LN05}
 
@@ -553,29 +552,29 @@
 **Announcement**vref{3}: 1990-06-05
 **Last-order**vref{2}: 1993-07-19
 **Last-ship**vref{2}: 1993-07-19
-**Resolution**lref{1}: 300 dpi
-**Print-speed**lref{1}: 8 pages/min
+**Resolution**vref{1}: 300 dpi
+**Print-speed**vref{1}: 8 pages/min
 ! [1] two optional external font carts, optional postscript capability
 ! [1] 1-,2- or 3-MB RAM addon; 0.5MB built-in; two optional font carts
 ! [1] parallel port and serial port
 ! [1] Laser power 5mW (max)
 ![1][3] Duplex printing
-**Sheet-capacity**lref{1}: 200 sheets
+**Sheet-capacity**vref{1}: 200 sheets
 **Dimensions-start{LN06}
-**Height**lref{1}: 228mm
-**Width**lref{1}:  454mm
-**Depth**lref{1}:  525mm
-**Weight**lref{1}: 20.6kg
+**Height**vref{1}: 228mm
+**Width**vref{1}:  454mm
+**Depth**vref{1}:  525mm
+**Weight**vref{1}: 20.6kg
 **Dimensions-end{LN06}
 **Power-start{LN06-115}
 **Label: 115V
-**Supply**lref{1}: 115V 1-phase
-**Power**lref{1}:  810W
+**Supply**vref{1}: 115V 1-phase
+**Power**vref{1}:  810W
 **Power-end{LN06-115}
 **Power-start{LN06-220}
 **Label: 220V
-**Supply**lref{1}: 220V 1-phase
-**Power**lref{1}:  790W
+**Supply**vref{1}: 220V 1-phase
+**Power**vref{1}:  790W
 **Power-end{LN06-220}
 **End-printers-entry{LN06}
 
@@ -609,29 +608,29 @@
 **Desc-name: DEClaser 5100
 **Announcement**vref{2}: 1994-03-14
 ! [1] optional 1200x1200 dpi
-**Resolution**lref{1}: 600 dpi
-**Print-speed**lref{1}: 8 pages/min
+**Resolution**vref{1}: 600 dpi
+**Print-speed**vref{1}: 8 pages/min
 ! [1] two optional external font carts, optional PCL & postscript capability
 ! [1] 2MB built-in RAm expandable to 66MB
 ! [1] parallel port and serial port and LocalTalk and optional ethernet
 ! [1] optional 500 sheet capacity tray
 ! [1] optional 120MB HD
-**Sheet-capacity**lref{1}: 250 sheets
+**Sheet-capacity**vref{1}: 250 sheets
 **Dimensions-start{LN09}
-**Height**lref{1}: 297mm
-**Width**lref{1}:  416mm
-**Depth**lref{1}:  403mm
-**Weight**lref{1}: 17.0kg
+**Height**vref{1}: 297mm
+**Width**vref{1}:  416mm
+**Depth**vref{1}:  403mm
+**Weight**vref{1}: 17.0kg
 **Dimensions-end{LN09}
 **Power-start{LN09-115}
 **Label: 115V
-**Supply**lref{1}: 115V 1-phase
-**Power**lref{1}:  530W
+**Supply**vref{1}: 115V 1-phase
+**Power**vref{1}:  530W
 **Power-end{LN09-115}
 **Power-start{LN09-220}
 **Label: 220V
-**Supply**lref{1}: 220V 1-phase
-**Power**lref{1}:  520W
+**Supply**vref{1}: 220V 1-phase
+**Power**vref{1}:  520W
 **Power-end{LN09-220}
 **End-printers-entry{LN09}
 
@@ -715,7 +714,7 @@
 ! [1] Duplex
 ! [1] Duplex printing is 16 pages/min
 ! [1] Built-in PostScript support
-**Print-speed**lref{1}: 20 pages/min
+**Print-speed**vref{1}: 20 pages/min
 **End-printers-entry{LPS20}
 
 **Start-printers-entry{tLPS20}{PRINTER}{LPS}
@@ -725,7 +724,7 @@
 ! [1] Duplex
 ! [1] Duplex printing is 16 pages/min
 ! [1] Built-in PostScript support
-**Print-speed**lref{1}: 20 pages/min
+**Print-speed**vref{1}: 20 pages/min
 **End-printers-entry{tLPS20}
 
 **Start-printers-entry{LPS32}{PRINTER}{LPS}
