@@ -559,7 +559,8 @@
 **OS-support-vms**uref{SUE Jul 1992}: VMS V5.4-1
 **OS-support-ultrix**uref{SUE Jul 1992}: Ultrix V4.2
 **Announcement**vref{2}: 1991-12-20
-**Capacity**lref{1,2}: 2.6GB
+! vref{2} verified to be 2.6GB
+**Capacity**vref{2}: 2.6GB
 ! vref{2}:
 ! Both the TZ85 and SZ100 tape subsystems use the TK85K (Compactape III) 
 ! cartridge with the TF85 and TF857 family of products.
@@ -573,9 +574,9 @@
 **Track-density**lref{1}: 96 tpi
 **Interface**lref{1}: SCSI
 **Power-start{TZ85}
-**Positive-5V-current**lref{1}: 3.5A
-**Positive-12V-current**lref{1}: 1.2A
-**Power**lref{1}: 40W:(max)
+**Positive-5V-current**vref{1}: 3.5A
+**Positive-12V-current**vref{1}: 1.2A
+**Power**vref{1}: 40W:(max)
 **Power-end{TZ85}
 **End-storage-entry{TZ85}
 
@@ -632,10 +633,10 @@
 **Sys-name: TZ86
 **Desc-name: TZ86 Tape Cartridge Subsystem
 **FCS-date**vref{2}: 1992-09-15
-**Capacity**lref{1}: 6.0GB
-**OS-support-VMS**lref{1}: V5.3
+**Capacity**vref{1}: 6.0GB
+**OS-support-VMS**vref{1}: V5.3
 ![1] Will read/write TK85 (2.6GB) and TK86 (6.0GB) both using CompacTape III media
-**Peak-transfer-rate**lref{1}: 800KB/s:(streaming)
+**Peak-transfer-rate**vref{1}: 800KB/s:(streaming)
 **Read-write-speed**lref{1}: 100 in/s
 **Recording-format**lref{1}: two-track parallel serpentine
 **Recording-density**lref{1}: 42500 bpi 
@@ -643,9 +644,9 @@
 **Track-density**lref{1}: 224 tpi
 **Interface**lref{1}: SCSI
 **Power-start{TZ86}
-**Positive-12V-current**lref{1}: 1.2A
-**Positive-5V-current**lref{1}: 3.5A
-**Power**lref{1}: 40W:(max)
+**Positive-12V-current**vref{1}: 1.2A
+**Positive-5V-current**vref{1}: 3.5A
+**Power**vref{1}: 40W:(max)
 **Power-end{TZ86}
 **End-storage-entry{TZ86}
 
@@ -663,35 +664,36 @@
 **Last-order**vref{5}: 1996-08-31
 **Last-ship**vref{5}: 1996-12-31
 **Capacity**vref{1,4}: 10GB
-**Form-factor**lref{2}: 5-1/4" full-height
+**Form-factor**vref{2}: 5-1/4" full-height
 **OS-support-vms**vref{1}: VMS V5.3
 **Recording-format**vref{1}: Two-track parallel serpentine
 **Num-tracks**vref{1}: 128
 **Tape-speed**vref{1}: 110in/s:approx
 **Media**vref{1}: CompacTape III
-**Tape-length**lref{3}: 1200'
+**Tape-length**vref{3}: 1200'
 ! [1] Reads TK50, TK52; reads/writes CompacTape III in 85,86,87 mode
-**Interface**lref{2}: SCSI-2
+**Interface**vref{2}: SCSI-2
 **Peak-transfer-rate**vref{1}: 1.25MB/s:(user data, native)
-**Cache**lref{2}: 2MB
-**CPU**lref{2}: 68020
-**CPU-clock**lref{2}: 25MHz
-**Undetectable-error-rate**lref{2}: 10^30
-**Unrecovered-error-rate**lref{2}: 10^17
+**Cache**vref{2}: 2MB
+**CPU**vref{2}: 68020
+**CPU-clock**vref{2}: 25MHz
+**Undetectable-error-rate**vref{2}: 10^30
+**Unrecovered-error-rate**vref{2}: 10^17
 **Tape-width**vref{1}: 12.7mm
 **Rewind-speed**vref{1}: 150 in/s
-**Track-density**lref{1}: 333.3tpi
-**MTBF**lref{2}: 80000 hours
-!! TODO REDEFINED **Recording-format**lref{2}: 2,7 RLL code (TZ87), MFM (TK85/86)
+! vref{1} states 0.003 inches per track (p A-1)
+**Track-density**vref{1}: 333.3tpi
+**MTBF**vref{2}: 80000 hours
+!! TODO REDEFINED **Recording-format**vref{2}: 2,7 RLL code (TZ87), MFM (TK85/86)
 **Recording-density**vref{1}: 62500 bpi
 **Power-start{TZ87}
-**Power**lref{2}: 27W:(max)
+**Power**vref{2}: 27W:(max)
 **Power-end{TZ87}
 **Dimensions-start{TZ87}
-**Height**lref{2}: 3.235"
-**Width**lref{2}: 146mm
-**Depth**lref{2}: 228.6mm
-**Weight**lref{2}: 6 lbs
+**Height**vref{2}: 3.235"
+**Width**vref{2}: 146mm
+**Depth**vref{2}: 228.6mm
+**Weight**vref{2}: 6 lbs
 **Dimensions-end{TZ87}
 **End-storage-entry{TZ87}
 
