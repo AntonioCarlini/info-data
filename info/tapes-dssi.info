@@ -20,21 +20,22 @@
 ![1] Can read TK50 & TK52. Can write TK52 and native mode.
 !
 ![1] Note that the tape drive writes only 296MB per cart
-**Capacity**htref{1}: 2GB
-**OS-support-VMS**htref{1}: V5.4
+**Capacity**vref{1}: 2GB
+**OS-support-VMS**vref{1}: V5.4
 **Last-order**vref{2}: 1991-07-25
 **Last-ship**vref{2}: 1991-08-15
+! vref{2} has Max-data-transfer-speed 125KB/s at tape
 **Max-data-transfer-speed**uref{58}: 90KB/s:(user-data)
-**Media**htref{1}: Up to 7 TK-52 cartridges per magazine
-**Interface**htref{1}: DSSI
+**Media**vref{1}: Up to 7 cartridges per magazine
+**Interface**vref{1}: DSSI
 **Power-start{TF837}
-**Power**htref{1}: 60W
+**Power**vref{1}: 60W
 **Power-end{TF837}
 **Dimensions-start{TF837}
-**Height**htref{1}: 264.7mm
-**Width**htref{1}: 222.0mm
-**Depth**htref{1}: 685.4mm
-**Weight**htref{1}: 22.1kg
+**Height**vref{1}: 264.7mm
+**Width**vref{1}: 222.0mm
+**Depth**vref{1}: 685.4mm
+**Weight**vref{1}: 22.1kg
 **Dimensions-end{TF837}
 **End-storage-entry{TF837}
 
@@ -107,20 +108,20 @@
 **Announcement**vref{2}: 1992-07-15
 **FCS-date**vref{3}: 1992-07-30
 **Last-order**vref{4}: 1995-05-19
-**Capacity**htref{1}: 6.0GB
-**OS-support-VMS**htref{1}: V5.4-2
+**Capacity**vref{1}: 6.0GB
+**OS-support-VMS**vref{1}: V5.4-2
 ![1] Will read/write TK85 (2.6GB) and TK86 (6.0GB) both using CompacTape III media
-**Peak-transfer-rate**htref{1}: 800KB/s:(streaming)
-**Read-write-speed**htref{1}: 100 in/s
-**Recording-format**htref{1}: two-track parallel serpentine
-**Recording-density**htref{1}: 42500 bpi 
-**Num-tracks**htref{1}: 112
-**Track-density**htref{1}: 224 tpi
-**Interface**htref{1}: DSSI
+**Peak-transfer-rate**vref{1}: 800KB/s:(streaming)
+**Read-write-speed**vref{1}: 100 in/s
+**Recording-format**vref{1}: two-track parallel serpentine
+**Recording-density**vref{1}: 42500 bpi 
+**Num-tracks**vref{1}: 112
+**Track-density**vref{1}: 224 tpi
+**Interface**vref{1}: DSSI
 **Power-start{TF86}
-**Positive-12V-current**htref{1}: 1.6A
-**Positive-5V-current**htref{1}: 4.5A
-**Power**htref{1}: 56W:(max)
+**Positive-12V-current**vref{1}: 1.6A
+**Positive-5V-current**vref{1}: 4.5A
+**Power**vref{1}: 56W:(max)
 **Power-end{TF86}
 **End-storage-entry{TF86}
 
