@@ -804,10 +804,28 @@
 **End-systems-entry{MicroPDP1183}
 
 **Start-systems-entry{MicroPDP1193}{PDP11}{QBUS}
+**Def-lref{1} = ref{DEC-PR-1990-05-07}
+**Def-lref{2} = ref{SOCEE-SUM90}
 **Sys-name: MicroPDP-11/93
 **Desc-name: MicroPDP-11/93
-**Def-lref{1} = ref{DEC-PR-1990-05-07}
 **Announcement**vref{1}: 1990-05-07
+**Minimum-memory**vref{2}: 2MB
+**Maximum-memory**vref{2}: 4MB
+**Options-start{MicroPDp1193}
+**Option-title: Enclosures
+**Option**vref{2}: {enclosures:BA23-A}{BA23 Expansion Box}
+**Option-title: Storage
+**Option**vref{2}: {storage:RD31}{RD31 20MB Hard Disk}
+**Option**vref{2}: {storage:RX33}{RX33 12.MB Half-height Diskette Drive}
+**Option**vref{2}: {storage:RD53}{RD53 71MB Hard Disk}
+**Option**vref{2}: {storage:RD54}{RD54 159MB Hard Disk}
+**Option**vref{2}: {storage:TK50}{TK50 95MB Cartridge Tape Drive}
+**Option**vref{2}: {storage:TSV05}{TSV05 1600bpi Tape Drive}
+**Option-title: Communications
+**Option**vref{2}: {boards:DHQ11}{DHQ11 8 Serial Lines}
+**Option**vref{2}: {boards:DZQll}{DZQ11 4 Serial Lines}
+**Option**vref{2}: {boards:DELQ}{DELQA Ethernet Interface}
+**Options-end{MicroPDp1193}
 **End-systems-entry{MicroPDP1193}
 
 **Start-systems-entry{Pro325}{PDP11}{Professional}
