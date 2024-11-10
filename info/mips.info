@@ -842,6 +842,7 @@ future upgrades. Audio capabily is built-in as standard.
 **Def-lref{1} = ref{KN02}
 **Def-lref{2} = ref{EK-PM30F-MG-004}
 **Def-lref{3} = ref{EK-370AA-MG-002}
+**Def-lref{4} = ref{SOCEE-SUM90}
 ! Ref[2]: MS02-AA VR262 VR297 VR299 VRT19 RZ55 RZ56  RZ57 RRD40 TK50Z TLZ04 VSXXX-AA LK201
 **Sys-name: DECstation 5000-200
 **Desc-name: DECstation 5000 Model 200
@@ -853,6 +854,7 @@ future upgrades. Audio capabily is built-in as standard.
 **Console-processor: CPU
 **Console-device: None
 **SPECmarks: 19.9
+**Keyboard**vref{4}: LK201
 **Minimum-memory**vref{1}: 8MB
 **Maximum-memory**vref{1}: 480MB
 **Memory-checking**htref{1}: 7 bits per longword ECC
