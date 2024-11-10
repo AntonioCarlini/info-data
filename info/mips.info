@@ -751,24 +751,31 @@ future upgrades. Audio capabily is built-in as standard.
 
 **Start-systems-entry{DSYS5800}{DECMIPS}{DSYS}
 **Def-lref{1} = ref{AA-ME85D-TE}
+**Def-lref{2} = ref{SOCEE-SUM90}
 **Sys-name: DECsystem 5800
 **Desc-name: DECsystem 5800
 **Announcement**uref{%MIPSCO 77.0 5810 & 582}: 1989-07-11
 **OS-support-ULTRIX**vref{1}: V4.0
 **Codename**uref{%MIPSCO:79.1}: ISIS
+**Num-proc**vref{2}: 1-4
 **CPU-module**uref{%DECSYSTEM:7.3,7.13}: KN58A
 **CPU-clock**uref{%MIPSCO:79.1}: 25MHz
 **CPU-cycle**uref{%MIPSCO:79.1}: 40ns
-**Cache**uref{%MIPSCO:79.1}: 128KB
-**Backup-cache**uref{%MIPSCO:79.1}: 256KB
+!**Cache**uref{%MIPSCO:79.1}: 128KB
+**Cache**vref{2}: 128KB
+!**Backup-cache**uref{%MIPSCO:79.1}: 256KB
+**Backup-cache**vref{2}: 256KB
 **Console-processor: CPU
 **Console-device: None
 **VUPs**uref{%MIPSCO:77.2}: 13.9
+**MIPs**vref{2}: {5810:18}{5840:62}
 **Minimum-memory**uref{%MIPSCO:79.1 5810}: 32MB
 ! 64MB for 5820 %MIPSCO:79.1
-**Maximum-memory**uref{%MIPSCO:79.1 5810/5820}: 256MB
+!**Maximum-memory**uref{%MIPSCO:79.1 5810/5820}: 256MB
+**Maximum-memory**vref{2}: 256MB
 **Memory-checking**uref{%MIPSCO:79.1}: 8-bit ECC per quadword
-**Bus-VAXBI**uref{%MIPSCO:79.1}: 1-5
+!**Bus-VAXBI**uref{%MIPSCO:79.1}: 1-5
+**Bus-VAXBI**vref{2}: 1-5
 **LAN-support**uref{%MIPSCO:79.1}: 1
 **Power-start{DSYS5800}
 **Supply**uref{%MIPSCO:79.1 5810}: 240V 3-phase
@@ -782,6 +789,14 @@ future upgrades. Audio capabily is built-in as standard.
 **Depth**uref{%MIPSCO:79.1}: 760mm
 **Weight**uref{%MIPSCO:79.1}: 318kg
 **Dimensions-end{DSYS5800}
+**Options-start{DEC5800}
+**Option-title: Memory
+**Option**vref{2}: {boards:MS62A-AB}{32MB VAXBI Memory Board}
+**Option-title: Communications
+**Option**vref{2}: {boards:DEBNI-M}{VAXBI Ethernet Interface}
+**Option**vref{2}: {boards:DMB32}{DMB32 Asynchronous /Synchronous Multiplexer}
+**Option**vref{2}: {boards:DHB32-M}{16-line Asynchronous Controller}
+**Options-end{DEC5800}
 **End-systems-entry{DSYS5800}
 
 **Start-systems-entry{DSYS5900}{DECMIPS}{DSYS}

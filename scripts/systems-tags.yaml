@@ -479,6 +479,12 @@
   - - vax
     - decmips
   - performance
+- MIPs:
+  - MIPs
+  - Millions of Instructions Per Second
+  - - vax
+    - decmips
+  - performance
 - SPECmarks:
   - SPECmarks
   - SPECmark details
