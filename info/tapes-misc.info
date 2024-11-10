@@ -74,16 +74,16 @@
 **Def-lref{5} = ref{SOCEE-SPR89}
 **Last-order**vref{3}: 1994-07-30
 **Last-ship**vref{3}: 1994-09-29
-**Capacity**htref{1}: 94.5MB
+**Capacity**vref{1}: 94.5MB
 **Peak-transfer-rate**vref{4}: {62.5KB/s:(total)}{45KB/s:(user data)}
 !! Check ref for peak-xfer-rate, appears to be **htref{2}
-**Recording-format**vref{4}: MFM, Serial, serpentine pattern
+**Recording-format**vref{2,4}: MFM, Serial, serpentine pattern
 **Record-size**vref{1}: Variable 1 byte to 64KB
 **Read-write-speed**vref{4}: 75in/s streaming
 **Num-tracks**vref{4}: 22
-**Start-time**htref{2}: 130ms min, 300ms max
-**Stop-time**htref{2}: 90ms min, 130ms max
-**Recording-density**vref{5}: 6667bpi
+**Start-time**vref{2}: 130ms min, 300ms max
+**Stop-time**vref{2}: 90ms min, 130ms max
+**Recording-density**vref{2,5}: 6667bpi
 **Recording-medium**vref{4}: 182.9m long, 1.3cm wide magnetic tape
 **Tape-width**htref{1}: 12mm
 **Tape-length**htref{1}: 185m
@@ -103,22 +103,22 @@
 **Def-lref{3} = ref{DEC-PR-1987-09-10}
 **Def-lref{4} = ref{SOCEE-SPR89}
 ! TODO check announcement
-**Announcement**vref{3}: 1987-09-10
+**Announcement**vref{1,3}: 1987-09-10
 **Last-ship**vref{2}: 1994-11-30
 **Last-order**vref{2}: 1994-12-31
 **Capacity**vref{3}: 296 MB
 **Form-factor**vref{3}: 5.25"
 **Peak-transfer-rate**htref{1}:{125KB/s:(total)}{90KB/s:(user data)}
-**Recording-format**htref{1}: Multiple track serpentine
+**Recording-format**vref{1}: Multiple track serpentine
 **Read-write-speed**vref{3}: 100in/s streaming
 **Num-tracks**vref{3}: 48
 **Recording-density**vref{4}: 10000 bpi
-**Track-density**htref{1}: 96 tpi
-**Tape-width**htref{1}: 12.77mm
+**Track-density**vref{1}: 96 tpi
+**Tape-width**vref{1}: 12.77mm
 **Power-start{TK70}
 **Positive-5V-current**vref{4}: 1.4A
 **Positive-12V-current**vref{4}: 2.4A
-**Power**htref{1}: 40W
+**Power**vref{1}: 40W
 **Power-end{TK70}
 **End-storage-entry{TK70}
 
@@ -127,49 +127,56 @@
 **Desc-name: TU58 DECtape II
 **Def-lref{1} = ref{EK-OTU58-UG-004}
 **Def-lref{2} = ref{CU-1993-02-15}
+**document=doc{DEC:EK-0TU58-UG-004} ! TU58 DECtape II User's Guide
+**document=doc{DEC:EK-0TU58-PS}     ! TU58 DECtape II Pocket Service Guide
+**document=doc{DEC:EK-0TU58-TM-001} ! TU58 DECtape II Technical Manual
+**document=doc{DEC:MP00747}         ! TU58-C Field Maintenance Print Set
+**document=doc{DEC:MP01014}         ! TU58-E Field Maintenance Print Set
+**document=doc{DEC:MP01013}         ! TU58-V Field Maintenance Print Set
+**document=doc{DEC:MP01063}         ! TU58-D Field Maintenance Print Set
 **Last-order**vref{2}: 1991-01-31
 **Last-ship**vref{2}: 1993-04-30
-**Capacity**htref{1}: 256KB
-**Average-access**htref{1}: 9.3s
-**Maximum-access**htref{1}: 28s
-**Data-transfer-rate**htref{1}: 24KB/s
-**Interface-speed**htref{1}: 150 - 38.4k baud
-**Bytes-per-block**htref{1}: 512
-**Blocks-per-track**htref{1}: 256
-**Num-tracks**htref{1}: 2
-**Cartridge-life**htref{1}: 5000 passes (min)
-**Soft-error-rate**htref{1}: 1 in 10^7
-**Hard-error-rate**htref{1}: 1 in 10^9
-**Error-checking**htref{1}: Checksum
-**Tape-speed**htref{1}: 30in/s
-**Recording-density**htref{1}: 800bpi
-**Recording-format**htref{1}: Ratio encoding
+**Capacity**vref{1}: 256KB
+**Average-access**vref{1}: 9.3s
+**Maximum-access**vref{1}: 28s
+**Data-transfer-rate**vref{1}: 24Kbps
+**Interface-speed**vref{1}: 150 - 38.4k baud
+**Bytes-per-block**vref{1}: 512
+**Blocks-per-track**vref{1}: 256
+**Num-tracks**vref{1}: 2
+**Cartridge-life**vref{1}: 5000 passes (min)
+**Soft-error-rate**vref{1}: 1 in 10^7
+**Hard-error-rate**vref{1}: 1 in 10^9
+**Error-checking**vref{1}: Checksum with rotation
+**Tape-speed**vref{1}: 30in/s
+**Recording-density**vref{1}: 800bpi
+**Recording-format**vref{1}: Ratio encoding
 **Dimensions-start{TU58-D}
 **Label: TU58 Drive
-**Height**htref{1}: 81mm
-**Width **htref{1}: 106mm
-**Depth **htref{1}: 83mm
-**Weight**htref{1}: 0.23kg
+**Height**vref{1}: 81mm
+**Width **vref{1}: 106mm
+**Depth **vref{1}: 83mm
+**Weight**vref{1}: 0.23kg
 **Dimensions-end{TU58-D}
 **Dimensions-start{TU58-B}
 **Label: TU58 Board
-**Height**htref{1}: 132mm
-**Width **htref{1}: 35mm
-**Depth **htref{1}: 265mm
-**Weight**htref{1}: 0.24kg
+**Height**vref{1}: 132mm
+**Width **vref{1}: 35mm
+**Depth **vref{1}: 265mm
+**Weight**vref{1}: 0.24kg
 **Dimensions-end{TU58-B}
 **Dimensions-start{TU58-CA}
 **Label: TU58-CA
-**Height**htref{1}: 132mm
-**Width **htref{1}: 48.3mm
-**Depth **htref{1}: 381mm
-**Weight**htref{1}: 9kg
+**Height**vref{1}: 132mm
+**Width **vref{1}: 48.3mm
+**Depth **vref{1}: 381mm
+**Weight**vref{1}: 9kg
 **Dimensions-end{TU58-CA}
 **Dimensions-start{TU58-EA}
 **Label: TU58-EA
-**Height**htref{1}: 92mm
-**Width **htref{1}: 337mm
-**Depth **htref{1}: 295mm
+**Height**vref{1}: 92mm
+**Width **vref{1}: 337mm
+**Depth **vref{1}: 295mm
 **Dimensions-end{TU58-EA}
 !-- ref_1: heat disspiation -CA/-DA/-EA/-EB 120BTU/hr, -AB-BB-VA 34BTU/hr -->
 !-- ref_1:
@@ -258,11 +265,11 @@
 
 **Start-storage-entry{PCXAT-A*}{MISC}{PC}
 **Sys-name: PCXAT-A*
-**Desc-name: PCXAT-A* Cartridge Tape Drive
+**Desc-name: PCXAT-A* QIC Cartridge Tape Drive
 **Def-lref{1} = ref{CU-1991-09-06}
 **Capacity**vref{1}: 525MB
 **Sustained-transfer-rate**vref{1}: 200KB/s
-**Peak-transfer-rate**htref{1}: 3MB/s:(asynchronous)
+**Peak-transfer-rate**vref{1}: 200KB/s
 **End-storage-entry{PCXAT-A*}
 
 **Start-storage-entry{TS05}{MISC}{TS}

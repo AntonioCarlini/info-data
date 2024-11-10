@@ -3464,6 +3464,36 @@
 **Ref-hardcopy: Yes
 **End-ref{EK-OTU58-UG-004}
 
+**Start-ref{DEC:EK-0TU58-PS}
+**Ref-text: TU58 DECtape II Pocket Service Guide
+**Ref-partno: DEC:EK-0TU58-PS
+**End-ref{DEC:EK-0TU58-PS}
+
+**Start-ref{EK-0TU58-TM}
+**Ref-text: TU58 DECtape II Technical Manual
+**Ref-partno: EK-0TU58-TM
+**End-ref{EK-0TU58-TM}
+
+**Start-ref{MP00747}
+**Ref-text: TU58-C Field Maintenance Print Set
+**Ref-partno: MP00747
+**End-ref{MP00747}
+
+**Start-ref{MP01014-00}
+**Ref-text: TU58-E Field Maintenance Print Set
+**Ref-partno: MP01014-00
+**End-ref{MP01014-00}
+
+**Start-ref{MP01013-00}
+**Ref-text: TU58-V Field Maintenance Print Set
+**Ref-partno: MP01013-00
+**End-ref{MP01013-00}
+
+**Start-ref{MP01063}
+**Ref-text: TU58-D Field Maintenance Print Set
+**Ref-partno: MP01063
+**End-ref{MP01063}
+
 **Start-ref{EK-UDA50-UG-003}
 **Ref-text: UDA50 User Guide
 **Ref-partno: EK-UDA50-UG-003

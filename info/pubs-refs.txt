@@ -8558,6 +8558,12 @@ start-publication DEC:EK-OTU58-UG-004
   fonds = ARC
 end-publication DEC:EK-OTU58-UG-004
 
+start-publication DEC:EK-0TU58-PS
+  title = TU58 DECtape II Pocket Service
+  part-no = EK-0TU58-PS
+  publisher = DEC
+end-publication DEC:EK-0TU58-PS
+
 start-publication DEC:EK-OTU78-PS-001
   title = TU78 Subsystem Pocket Service Guide
   part-no = EK-OTU78-PS-001
@@ -24994,6 +25000,24 @@ start-publication DEC:MP01063
   part-no = MP01063
   publisher = DEC
 end-publication DEC:MP01063
+
+start-publication DEC:MP01013
+  title = TU58-V Field Maintenance Print Set
+  part-no = MP01013
+  publisher = DEC
+end-publication DEC:MP01013
+
+start-publication DEC:MP01063
+  title = TU58-D Field Maintenance Print Set
+  part-no = MP01063
+  publisher = DEC
+end-publication DEC:MP01063
+
+start-publication DEC:MP00747
+  title = TU58-C Field Maintenance Print Set
+  part-no = MP00747
+  publisher = DEC
+end-publication DEC:MP00747
 
 start-publication DEC:TU56-0
   title = TU56H DECtape transport engineering drawings
