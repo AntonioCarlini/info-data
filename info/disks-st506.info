@@ -43,18 +43,18 @@
 **Transfer-rate**vref{2,5}: 625 KB/s
 **Bytes-per-sector**vref{4}: 512	
 **Rotational-speed: 3600rpm
-**Num-heads**htref{1}: @@
-**Num-cylinders**htref{1}: 820
+**Num-heads**vref{1}: 6
+**Num-cylinders**vref{1}: 820
 **Power-start{RD32}
 **Positive-5V-current: 0.95A
 **Positive-12V-current**uref{*13}: 0.65A	
 **Power**uref{*13}: 12.55 W	
 **Power-end{RD32}
 **Dimensions-start{RD32}
-**Height**htref{1}: 43mm
-**Width **htref{1}: 146mm
-**Depth **htref{1}: 203.2mm
-**Weight**htref{1}: 1.31kg
+**Height**vref{1}: 43mm
+**Width **vref{1}: 146mm
+**Depth **vref{1}: 203.2mm
+**Weight**vref{1}: 1.31kg
 **Dimensions-end{RD32}
 **End-storage-entry{RD32}
 
@@ -149,15 +149,15 @@
 **Form-factor**uref{3}: 5-1/4"
 ! verify average access is vref{3} and not vref{31}!!
 **Average-access**vref{3}: 38ms
-**Average-seek**htref{1}: 30ms
+**Average-seek**vref{1}: 30ms
 **Average-latency**vref{4}: 8.33ms
 ! verify transfer-rate is vref{3} and not vtref{3}!
 **Transfer-rate**vref{3,4}: 625 KB/s
 **Bytes-per-sector**vref{5}: 512
 **Sectors-per-track**vref{4}: 16
 **Tracks-per-drive**vref{4,5}: 8192
-**Num-cylinders**htref{1}: 1024
-**Rotational-speed**htref{1}: 3600rpm
+**Num-cylinders**vref{1}: 1024
+**Rotational-speed**vref{1}: 3600rpm
 **Power-start{RD53}
 **Positive-5V-current**vref{4}: 0.9A
 **Positive-12V-current**vref{4}: 2.5A
@@ -201,10 +201,10 @@
 **Power-end{RD54}
 **Dimensions-start{RD54-Drive}
 **Label: RD54 Drive
-**Height: 82.6mm
-**Width: 146mm
-**Depth: 203.2mm
-**Weight: 3.15kg
+**Height**vref{1}: 82.6mm
+**Width**vref{1}: 146mm
+**Depth**vref{1}: 203.2mm
+**Weight**vref{1}: 3.15kg
 **Dimensions-end{RD54-Drive}
 ! [1]: RQDX1 & RQDX2 do *not* support RD54. RQDX3 needs min microcode rev 1.10
 **End-storage-entry{RD54}
