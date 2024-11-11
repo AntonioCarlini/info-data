@@ -352,7 +352,7 @@
 **CPU-clock**vref{3}: {150MHz}{166MHz}{200MHz}
 **Instruction-cache**vref{3}: 8KB
 **Data-cache**vref{3}: 8KB write through
-**Icache-block-size**htref{1}: 32 bytes
+**Icache-block-size**vref{3}: 32 bytes
 **Instruction-translation-buffer**vref{3}: 12 entries
 **Data-translation-buffer**vref{3}: 32 entries
 **Instruction-decode**vref{3}: Dual issue, in order
@@ -361,7 +361,7 @@
 **Write-buffer**vref{3}: 4 32-byte entries
 **V-ss**vref{3}: -0.5V
 **V-dd**vref{3}: 3.6V
-**Chip-power**htref{1}: 23W @ 150MHz
+**Chip-power**vref{3}: 23W @ 150MHz
 **End-chips-entry{DC21064}
 
 **Start-chips-entry{DC21064A}{CHIP}{ALPHACPU}
@@ -372,16 +372,16 @@
 **CPU-clock**vref{3}: {233MHz}{275MHz}
 **Instruction-cache**vref{2}: 16KB
 **Data-cache**vref{2}: 16KB write through
-**Icache-block-size**htref{1}: 32 bytes
+**Icache-block-size**vref{2}: 32 bytes
 **Instruction-translation-buffer**vref{2}: 12 entries
 **Data-translation-buffer**vref{2}: 32 entries
 **Instruction-decode**vref{2}: Dual issue, in order
 **Integer-pipeline**vref{2}: 7 stage
 **FP-pipeline**vref{2}: 10 stage
-**Write-buffer**htref{1}: 4 entry
+**Write-buffer**vref{2}: 4 entry
 **V-ss**vref{2}: -0.5V
 **V-dd**vref{2}: 3.6V
-**Chip-power**htref{1}: 23W @ 150MHz
+**Chip-power**vref{2}: 23W @ 150MHz
 **End-chips-entry{DC21064A}
 
 **Start-chips-entry{DC21066}{CHIP}{ALPHACPU}
