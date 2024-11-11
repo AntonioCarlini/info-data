@@ -18,25 +18,25 @@
 **Start-monitors-entry{VR150}{MONITOR}{VR}
 **Sys-name: VR150
 **Desc-name: VR150 15" Monochrome Monitor
-**Def-lref{1} = ref{EK-302AB-OG-002}
+**Def-lref{1} = ref{EK-302AB-OG-003}
 **Def-lref{2} = ref{EK-V1000-UG-001}
-**Screen-diagonal**htref{1}: 383mm
-**Screen-size**htref{1}: 1024x864 pixels  
-**Video-termination**htref{1}: 75ohm BNC    
-**Video-amplitude**htref{1}: 1.0Vpp composite video 
-**H-active-video**htref{1}: 14.8us   
-**H-back-porch**htref{1}: 1680ns   
-**H-blanking-interval**htref{1}: 3.70us:maximum  
-**H-frequency**htref{1}: 54.054kHz   
-**H-front-porch**htref{1}: 160ns     
-**Horizontal-period**htref{1}: 18.5us   
-**H-sync-pulse**htref{1}: 1850ns   
-**V-active-video**htref{1}: 16.0ms   
-**V-blanking-interval**htref{1}: 37 horizontal lines 
-**V-frequency**htref{1}: 60Hz        
-**V-front-porch**htref{1}: 0 horizontal lines  
-**V-sync-pulse**htref{1}: 3 horizontal lines  
-**Vertical-period**htref{1}: 16.67ms   
+**Screen-diagonal**vref{1}: 383mm
+**Screen-size**vref{1}: 1024x864 pixels  
+**Video-termination**vref{1}: 75ohm BNC    
+**Video-amplitude**vref{1}: 1.0Vpp composite video 
+**H-active-video**vref{1}: 14.8us   
+**H-back-porch**vref{1}: 1680ns   
+**H-blanking-interval**vref{1}: 3.70us:maximum  
+**H-frequency**vref{1}: 54.054kHz   
+**H-front-porch**vref{1}: 160ns     
+**Horizontal-period**vref{1}: 18.5us   
+**H-sync-pulse**vref{1}: 1850ns   
+**V-active-video**vref{1}: 16.0ms   
+**V-blanking-interval**vref{1}: 37 horizontal lines 
+**V-frequency**vref{1}: 60Hz        
+**V-front-porch**vref{1}: 0 horizontal lines  
+**V-sync-pulse**vref{1}: 3 horizontal lines  
+**Vertical-period**vref{1}: 16.67ms   
 **Dimensions-start{VR150}
 **Height**vref{2}: 394mm   
 **Width**vref{2}: 368mm   
@@ -44,7 +44,7 @@
 **Weight**vref{2}: 16.34kg   
 **Dimensions-end{VR150}
 **Power-start{VR150}
-**Power**uref{1}: 70W:nominal
+**Power**vref{1}: 70W:nominal
 **Power-end{VR150}
 **End-monitors-entry{VR150}
 

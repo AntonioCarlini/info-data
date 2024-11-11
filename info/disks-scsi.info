@@ -176,7 +176,7 @@
 **End-storage-entry{RZ22}
 
 **Start-storage-entry{RZ23}{SCSI}{RZ}
-**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{1} = ref{EK-PM32C-OG-003}
 **Def-lref{2} = ref{EK-302AB-OG-002}
 **Def-lref{3} = ref{EK-RZXXD-PS-005}
 **Def-lref{4} = ref{DA-1989-01-09-RZxx}
@@ -185,27 +185,27 @@
 **Desc-name: RZ23 104MB SCSI Disk
 !! lref{2} above was lref{1} and needs to be re-checked
 **Announcement**vref{4}: 1989-01-09
-**Capacity**vref{4}: 104 MB
+**Capacity**vref{1,2,4}: 104 MB
 **Form-factor**vref{4}: 3-1/2" half-height
-!**Peak-transfer-rate**htref{1}:	{1.25MB/s:to/from media}{1.66MB/s:(to/from buffer)}
+!**Peak-transfer-rate**vref{1}: {1.25MB/s:to/from media}{1.66MB/s:(to/from buffer)}
 **Peak-transfer-rate**vref{4}:	1.25 MB/s
 ! **Average-access**uref{20,*49}: 33.3ms
 **Average-access**vref{4}: 33 ms
-**Average-latency**htref{1}: 8.4ms
+**Average-latency**vref{1,2}: 8.4ms
 **Average-seek**vref{5}: 25ms
 **Track-track-seek**htref{1}: 8ms
-**Maximum-seek**htref{1}: 45ms
+**Maximum-seek**vref{2}: 45ms
 **Buffer-size**uref{*20}: 16KB
 **Bytes-per-sector**vref{5}: 512
 **Sectors-per-track**vref{5}: 33
-**Rotational-speed**htref{2}: 3575rpm
-! TODO **Interleave**uref{*109}**htref{2}: 1:1
-**Interface**htref{1}: SCSI
+**Rotational-speed**vref{2}: 3575rpm
+**Interleave**vref{2}: 1:1
+**Interface**vref{1}: SCSI
 **Power-start{RZ23}
 **Positive-5V-current**htref{1}: 0.7A
 **Positive-12V-current**htref{1}: 0.39A
 **Heat-dissipation**uref{*109}: {27.36 BTU/hr:(typical)}
-! Heat dissipation: 8W average	**htref{2}
+! **vref{2} Heat dissipation: 8W average	
 **Power-end{RZ23}
 **Dimensions-start{RZ23}
 **Height**vref{5}: 41.3mm
