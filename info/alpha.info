@@ -457,6 +457,7 @@
 **Def-lref{6} = ref{CU-1994-04-25}
 **Def-lref{7} = ref{CU-1995-07-15}
 **Def-lref{8} = ref{CU-1995-10-15}
+**Def-lref{9} = ref{SOC-AUG1994-SUP}
 **Announcement**vref{5}: 1993-10-12
 **FRS-date**vref{5}: 1993-10-12
 ! vref{6}: this is the retirement of HX 2D packages only
@@ -480,11 +481,12 @@
 **Backup-cache**vref{2}: 2MB
 **SPECint92**vref{4}: 114
 **SPECfp92**vref{4}: 162
-**Minimum-memory**vref{1}: 32MB
+**Minimum-memory**vref{1,9}: 32MB
 **Maximum-memory**vref{1}: 512MB
 **BUS-SCSI**vref{1}: 2 @ 10MB/s
-**BUS-TC**htref{1}: 3 slots @ 100MB/s
+**BUS-TC**vref{9}: 3 slots
 **LAN-support**vref{2}: 1 (10BASE-T/AUI)
+**Keyboard**vref{9}: LK401
 **Power-start{DEC3600}
 **Supply**vref{2}: 120-240V 1-phase
 **Power**vref{2}: 478W
@@ -495,6 +497,14 @@
 **Depth**vref{2}: 445mm
 **Weight**vref{2}: 20kg
 **Dimensions-end{DEC3600}
+**Options-start{DEC3600}
+**Option-title: Memory
+**Option**vref{9}: {memory:MS15-BA}{MS15-BA 16MB ECC Memory}
+**Option**vref{9}: {memory:MS15-CA}{MS15-CA 32MB ECC Memory}
+**Option**vref{9}: {memory:MS15-DA}{MS15-DA 64MB ECC Memory}
+**Option**vref{9}: {memory:MS15-EA}{MS15-EA 128MB ECC Memory}
+**Option**vref{9}: {memory:MS15-FA}{MS15-FA 256MB ECC Memory}
+**Options-end{DEC3600}
 **End-systems-entry{DEC3600}
 
 **Start-systems-entry{DEC3700}{ALPHA}{DEC3000}
@@ -509,6 +519,7 @@
 **Def-lref{7} = ref{CU-1995-07-15}
 **Def-lref{8} = ref{CU-1995-10-15}
 **Def-lref{9} = ref{CU-1996-01-18}
+**Def-lref{10} = ref{SOC-AUG1994-SUP}
 ! Codename from DEC NOTES conference ALPHANOTES_V1
 **Codename: Sandpiper45
 **Announcement**vref{6}: 1994-07-18
@@ -535,10 +546,10 @@
 **Minimum-memory**vref{2}: 32MB
 **Maximum-memory**vref{2,4}: 512MB
 **Max-I/O-throughput**vref{4}: 100MB/s
-!**BUS-SCSI**htref{1}: 2 @ 10MB/s
 **BUS-SCSI**vref{2}: 2 (SCSI-2)
-**BUS-TC**vref{4}: 3 slots
+**BUS-TC**vref{4,10}: 3 slots
 **LAN-support**vref{2}: 1 (10BASE-T/AUI)
+**Keyboard**vref{10}: LK401
 **Power-start{DEC3700}
 **Supply**vref{2}: 120-240V 1-phase
 **Power**vref{2}: 478W
@@ -550,6 +561,14 @@
 **Depth**vref{2}:  445mm
 **Weight**vref{2}: 20kg
 **Dimensions-end{DEC3700}
+**Options-start{DEC3700}
+**Option-title: Memory
+**Option**vref{10}: {memory:MS15-BA}{MS15-BA 16MB ECC Memory}
+**Option**vref{10}: {memory:MS15-CA}{MS15-CA 32MB ECC Memory}
+**Option**vref{10}: {memory:MS15-DA}{MS15-DA 64MB ECC Memory}
+**Option**vref{10}: {memory:MS15-EA}{MS15-EA 128MB ECC Memory}
+**Option**vref{10}: {memory:MS15-FA}{MS15-FA 256MB ECC Memory}
+**Options-end{DEC3700}
 **End-systems-entry{DEC3700}
 
 **Start-systems-entry{DEC3800}{ALPHA}{DEC3000}
@@ -609,6 +628,7 @@
 **Def-lref{7} = ref{CU-1995-07-15}
 **Def-lref{8} = ref{CU-1995-10-15}
 **Def-lref{9} = ref{CU-1996-01-18}
+**Def-lref{10} = ref{SOC-AUG1994-SUP}
 **Announcement**vref{6}: 1994-07-18
 **FRS-date**vref{6}: 1994-08
 ! **Last-order**vref{7}: 1995-10-02 later extended!
@@ -636,9 +656,10 @@
 **Minimum-memory**vref{2}: 32MB
 **Maximum-memory**vref{2,4}: 1GB
 **Max-I/O-throughput**vref{4}: 100MB/s
-**BUS-SCSI**htref{1}: 2 @ 10MB/s
+**BUS-SCSI**vref{10}: 2 (SCSI-2)
 **BUS-TC**vref{4}: 6 slots
 **LAN-support**vref{2}: 1 (10BASE-T/AUI)
+**Keyboard**vref{10}: LK401
 **Power-start{DEC3900}
 **Supply**vref{2}: 120-240V 1-phase
 **Power**vref{2}: 686W
@@ -649,6 +670,13 @@
 **Depth	**vref{2}: 754.4mm
 **Weight**vref{2}: 34.92kg - 42.18kg
 **Dimensions-end{DEC3900}
+**Options-start{DEC3900}
+**Option-title: Memory
+**Option**vref{10}: {memory:MS15-CA}{MS15-CA 32MB ECC Memory}
+**Option**vref{10}: {memory:MS15-DA}{MS15-DA 64MB ECC Memory}
+**Option**vref{10}: {memory:MS15-EA}{MS15-EA 128MB ECC Memory}
+**Option**vref{10}: {memory:MS15-FA}{MS15-FA 256MB ECC Memory}
+**Options-end{DEC3900}
 **End-systems-entry{DEC3900}
 
 **Start-systems-entry{DEC4600}{ALPHA}{DEC4000}
@@ -780,6 +808,7 @@
 **Def-lref{2} = ref{SOC-JAN1995}
 **Def-lref{3} = ref{CU-1994-11-03}
 **Def-lref{4} = ref{QS-TRU64-51B}
+**Def-lref{5} = ref{SOC-AUG1994-SUP}
 **Sys-name: DEC 7000-700
 **Desc-name: DEC 7000 Model 700 series
 **Announcement**vref{3}: 1994-11-03
@@ -794,8 +823,22 @@
 **Backup-cache**vref{2}:  4MB
 **SPECint92**vref{2}: 200.5
 **SPECfp92**vref{2}: 292.6
+**Minimum-memory**vref{5}: 128MB
 **Maximum-memory**vref{2}: 14GB
 **Max-I/O-throughput**vref{2}: 400MB/s
+**Dimensions-start{DEC7700}
+**height**vref{5}: 1700mm
+**Width**vref{5}: 8001mm ! given as 31.5in
+**Depth**vref{5}: 875mm
+**Weight**vref{5}: 408kg
+**Dimensions-end{DEC7700}
+**Options-start{DEC7700}
+**Option-title: Memory
+**Option**vref{5}: {memory:MS7AA-AB}{MS7AA-BA 128MB Memory Module}
+**Option**vref{5}: {memory:MS7AA-AB}{MS7AA-CA 256MB Memory Module}
+**Option**vref{5}: {memory:MS7AA-AB}{MS7AA-DA 512MB Memory Module}
+**Option**vref{5}: {memory:MS7AA-AB}{MS7AA-FA 2048MB Memory Module}
+**Options-end{DEC7700}
 **End-systems-entry{DEC7700}
 
 **Start-systems-entry{AS200-4-166}{ALPHA}{ALPHASERVER}
@@ -1329,11 +1372,13 @@
 **Def-lref{2} = ref{CU-V6-4A}
 **Def-lref{3} = ref{SOC-JAN1995}
 **Def-lref{4} = ref{CU-1994-04-12}
+**Def-lref{5} = ref{SOC-AUG1994-SUP}
 **Sys-name: AlphaServer 2100 4/200
 **Desc-name: AlphaServer 2100 4/200
 ! vref{1}: The AlphaServer 2100 4/200 was originally known as the Digital 2100 Server A500MP. Backed up by ref{CU-1994-11-03}
 ! Name change also mentioned in https://groups.google.com/forum/#!topic/biz.digital.articles/St7NBS-DS8I
 ! vref{4}: Mentions: The Model A600MP consists of at least one A500MP-R system plus rackmount storage 
+! vref{5} p77 has more details of the A600MP
 ! The name change was announced 1994-11-03: https://groups.google.com/forum/#!topic/biz.digital.articles/aglT1BMpHf8
 **Announcement**vref{4}: 1994-04-12
 ! Codename from DEC NOTES conference ALPHANOTES_V1
@@ -1354,7 +1399,13 @@
 !-- [1]: 1GB for 4 CPU model -->
 **BUS-PCI**vref{3}: 3 slots
 **BUS-EISA**vref{3}: 8 slots
-**LAN-support**htref{1}: 1
+**LAN-support**vref{5}: 1
+**Keyboard**vref{5}: LK411
+**Options-start{AS2100-4-200}
+**Option-title: Enclosures
+**Option**vref{5}: {enclosures:BA740}{BA740 Large Pedestal Enclosure}
+**Option**vref{5}: {enclosures:BA741}{BA741 Rackmount Enclosure}
+**Options-end{AS2100-4-200}
 **End-systems-entry{AS2100-4-200}
 
 **Start-systems-entry{AS2100-4-233}{ALPHA}{ALPHASERVER}
