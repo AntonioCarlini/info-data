@@ -83,20 +83,19 @@
 **Sys-name: VR160 15" Colour Monitor
 **Desc-name: VR160
 **Def-lref{1} = ref{EK-302AB-OG-002}
-**Screen-diagonal**htref{1}: 383mm:(15")  
-**Screen-size**htref{1}: 1024x864 pixels  
-**Video-termination**htref{1}: 75ohm BNC    
-**Synch-signal**htref{1}: Green
-**Video-amplitude**htref{1}: {0.7Vpp Red}{1.0Vpp Green}{0.7Vpp Blue}
+**Screen-diagonal**vref{1}: 383mm:(15")  
+**Screen-size**vref{1}: 1024x864 pixels  
+**Video-termination**vref{1}: 75ohm
+**Synch-signal**vref{1}: Green
+**Video-amplitude**vref{1}: {0.7Vpp Red}{1.0Vpp Green}{0.7Vpp Blue}
 **Dimensions-start{VR160}
-**Height**htref{1}: 394mm   
-**Width**htref{1}: 369mm   
-**Depth**htref{1}: 457mm   
-**Weight**htref{1}: 23kg      
+**Height**vref{1}: 394mm   
+**Width**vref{1}: 369mm   
+**Depth**vref{1}: 457mm   
+**Weight**vref{1}: 23kg      
 **Dimensions-end{VR160}
 **Power-start{VR160}
-**Power**uref{1}: {150W:max @ 250VA}
-! {125W:nominal @ 200VA}
+**Power**vref{1}: {150W:max @ 250VA} {125W:nominal @ 200VA}
 **Power-end{VR160}
 **End-monitors-entry{VR160}
 
@@ -126,25 +125,26 @@
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{EK-VR262-IN-003}
 **Def-lref{3} = ref{EK-V1000-UG-001}
+**Def-lref{4} = ref{EK-302AB-OG-002}
 **Screen-diagonal**htref{1}: 483mm
-**Screen-size**htref{1}: 1024x864 pixels  
+**Screen-size**vref{4}: 1024x864 pixels  
 **Video-termination**htref{1}: 75ohm BNC    
 **Video-amplitude**htref{1}: 1.0Vpp composite video 
-**H-active-video**htref{1}: 14.8us
-**H-back-porch**htref{1}: 1690ns   
-**H-blanking-interval**htref{1}: 3.70us:maximum 
-**H-frequency**htref{1}: 54.054kHz   
-**H-front-porch**htref{1}: 160ns     
-**Horizontal-period**htref{1}: 18.5us
-**Pixels-displayed**htref{1}: 1024     
-**H-sync-pulse**htref{1}: 1850ns   
-**V-active-video**htref{1}: 16.0ms   
-**V-blanking-interval**htref{1}: 37 horizontal lines:max 
-**V-frequency**htref{1}: 60Hz        
-**V-front-porch**htref{1}: 0 horizontal lines  
-**Lines-displayed**htref{2}: 864      
-**V-sync-pulse**htref{1}: 3 horizontal lines  
-**Vertical-period**htref{1}: 16.67ms   
+**H-active-video**vref{4}: 14.8us
+**H-back-porch**vref{4}: 1690ns   
+**H-blanking-interval**vref{4}: 3.70us:maximum 
+**H-frequency**vref{4}: 54.054kHz   
+**H-front-porch**vref{4}: 160ns     
+**Horizontal-period**vref{4}: 18.5us
+**Pixels-displayed**vref{4}: 1024     
+**H-sync-pulse**vref{4}: 1850ns   
+**V-active-video**vref{4}: 16.0ms   
+**V-blanking-interval**vref{4}: 37 horizontal lines:max 
+**V-frequency**vref{4}: 60Hz        
+**V-front-porch**vref{4}: 0 horizontal lines  
+**Lines-displayed**vref{4}: 864      
+**V-sync-pulse**vref{4}: 3 horizontal lines  
+**Vertical-period**vref{4}: 16.67ms   
 **Dimensions-start{VR262}
 **Height**vref{3}: 394mm   
 **Width**vref{3}: 455mm   
