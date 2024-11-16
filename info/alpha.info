@@ -2272,7 +2272,27 @@
 **BUS-SCSI**htref{3}: 1 @ 10MB/s
 **BUS-ISA**htref{3}: 1 slot
 **BUS-PCI-or-ISA**vref{5}: 2 slots
-**LAN-support**htref{3}: 1 (10BASE-T/10BASE2)
+**LAN-support**vref{5}: 1 (10BASE-T/10BASE2)
+**Keyboard**vref{5}: PCXAL
+**Options-start{AST200-4-166}
+**Option-title: Memory
+**Option**vref{5}: {memory:MSP01-AA}{MSP01-AA 8MB SIMM Memory}
+**Option**vref{5}: {memory:MSP01-AB}{MSP01-AB 16MB SIMM Memory}
+**Option**vref{5}: {memory:MSP01-AC}{MSP01-AC 32MB SIMM Memory}
+**Option**vref{5}: {memory:MSP01-AD}{MSP01-AD 64MB SIMM Memory}
+**Option-title: Internal Storage
+**Option**vref{5}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{5}: {storage:RZ25L}{RZ25L 535MB Disk Drive}
+**Option**vref{5}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{5}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
+**Option-title: Controllers
+**Option**vref{5}: {boards:KZPAA-AA}{KZPAA-AA PCI Fast SCSI-2 Controller}
+**Option**vref{5}: {boards:DE435-AA}{DE435-AA Ethernet Controller}
+**Option-title: Graphics
+**Option**vref{5}: {boards:PMAGD-AA}{PMAGD-AA ZLX-E1 8-plane 2D/3D Colour Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGD-BA}{PMAGD-BA ZLX-E2 24-plane 2D/3D Colour Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGD-CA}{PMAGD-CA ZLX-E3 24-plane 2D/3D Colour Graphics Accelerator}
+**Options-end{AST200-4-166}
 **End-systems-entry{AST200-4-166}
 
 **Start-systems-entry{AST200-4-233}{ALPHA}{AlphaStation}
@@ -2314,7 +2334,27 @@
 **BUS-SCSI**htref{1}: 1 @ 10MB/s
 **BUS-ISA**vref{5}: 1 slot
 **BUS-PCI-or-ISA**vref{5}: 2 slots
-**LAN-support**htref{3}: 1 (10BASE-T/10BASE2)
+**Keyboard**vref{5}: PCXAL
+**LAN-support**vref{5}: 1 (10BASE-T/10BASE2)
+**Options-start{AST200-4-166}
+**Option-title: Memory
+**Option**vref{5}: {memory:MSP01-AA}{MSP01-AA 8MB SIMM Memory}
+**Option**vref{5}: {memory:MSP01-AB}{MSP01-AB 16MB SIMM Memory}
+**Option**vref{5}: {memory:MSP01-AC}{MSP01-AC 32MB SIMM Memory}
+**Option**vref{5}: {memory:MSP01-AD}{MSP01-AD 64MB SIMM Memory}
+**Option-title: Internal Storage
+**Option**vref{5}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{5}: {storage:RZ25L}{RZ25L 535MB Disk Drive}
+**Option**vref{5}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{5}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
+**Option-title: Controllers
+**Option**vref{5}: {boards:KZPAA-AA}{KZPAA-AA PCI Fast SCSI-2 Controller}
+**Option**vref{5}: {boards:DE435-AA}{DE435-AA Ethernet Controller}
+**Option-title: Graphics
+**Option**vref{5}: {boards:PMAGD-AA}{PMAGD-AA ZLX-E1 8-plane 2D/3D Colour Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGD-BA}{PMAGD-BA ZLX-E2 24-plane 2D/3D Colour Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGD-CA}{PMAGD-CA ZLX-E3 24-plane 2D/3D Colour Graphics Accelerator}
+**Options-end{AST200-4-166}
 **End-systems-entry{AST200-4-233}
 
 **Start-systems-entry{AST250-4-266}{ALPHA}{ALPHASTATION}
@@ -2449,6 +2489,7 @@
 **Def-lref{2} = ref{CU-V5-11A}
 **Def-lref{3} = ref{CU-1994-11-03}
 **Def-lref{4} = ref{CU-1996-03-14}
+**Def-lref{5} = ref{SOC-JAN1995}
 **Announcement**vref{3}: 1994-11-03
 **Last-order**vref{4}: 1996-04-30
 **Last-ship**vref{4}: 1996-06-01
@@ -2457,18 +2498,35 @@
 **OS-support-nt**htref{3}: V3.5
 **Codename: TurboAvanti
 **Num-proc: 1
-**CPU-chip**htref{2}: DECchip 21064A
-**CPU-clock**htref{1}: 233MHz
+**CPU-chip**vref{5}: DECchip 21064A
+**CPU-clock**vref{5}: 233MHz
 **Cache**htref{2}: 16KB-I/16KB-D
-**Backup-cache**htref{2}: 512KB
-**SPECint92**htref{1}: 157.6
-**SPECfp92**htref{1}: 183.8
+**Backup-cache**vref{5}: 512KB
+**SPECint92**vref{5}: 157.6
+**SPECfp92**vref{5}: 183.8
 **Minimum-memory**htref{2}: 16MB
-**Maximum-memory**htref{2}: 192MB
+**Maximum-memory**vref{5}: 192MB
 **BUS-SCSI**htref{2}: 1 @ 10MB/s
-**BUS-PCI**htref{2}: 2 slots @ 132 MB/s
+**BUS-PCI**vref{5}: 2 slots @ 132 MB/s
 **BUS-ISA**htref{2}: 3 slots @ 33 MB/s
-**BUS-PCI-or-ISA**htref{2}: 1 slot
+**BUS-PCI-or-ISA**vref{5}: 1 slot
+**Keyboard**vref{5}: PCXAL
+**Dimensions-start{AS400-4-233}
+**Height**vref{5}: 430 mm
+**Width**vref{5}: 180 mm
+**Depth**vref{5}: 430 mm
+**Weight**vref{5}: 12+ kg
+**Dimensions-End{AS400-4-233}
+**Options-start{AS400-4-233}
+**Option-title: Memory
+**Option**vref{5}: {boards:MSP01-AA}{8MB SIMM package}
+**Option**vref{5}: {boards:MSP01-AB}{16MB SIMM package}
+**Option**vref{5}: {boards:MSP01-AC}{32MB SIMM package}
+**Option**vref{5}: {boards:MSP01-AD}{64MB SIMM package}
+**Option-title: Controllers
+**Option**vref{5}: {boards:KZPAA-AA}{KZPAA-AA PCI Fast SCSI-2 Controller}
+**Option**vref{5}: {boards:DE435-AA}{DE435-AA Ethernet Controller}
+**Options-end{AS400-4-233}
 **End-systems-entry{AST400-4-233}
 
 **Start-systems-entry{AST-400-266}{ALPHA}{AlphaStation}
