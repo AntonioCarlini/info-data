@@ -241,6 +241,7 @@
 **BUS-SCSI: 1 @ 5MB/s			
 **BUS-TC**vref{5}: 2 slots 			
 **LAN-support: 1 (10BASE-T)
+**Keyboard**vref{5}: LK401 or LK421
 **Power-start{DEC3300X}
 **Supply: 120/240V 1-phase
 **Power: 200W
@@ -251,6 +252,26 @@
 **Depth: 432.5mm
 **Weight: 6.8kg
 **Dimensions-end{DEC3300X}
+**Options-start{DEC3300X}
+**Option-title: Memory
+**Option**vref{5}: {memory:MS16-BA}{MS16-BA 16MB Memory Module Set}
+**Option**vref{5}: {memory:MS16-DA}{MS16-DA 64MB Memory Module Set}
+**Option-title: Internal Storage
+**Option**vref{5}: {storage:RX26}{RX26 Diskette Drive}
+**Option**vref{5}: {storage:RZ25L}{RX25L 535MB Hard Disk}
+**Option**vref{5}: {storage:RZ26L}{RZ26L 1.05GB Hard Disk}
+**Option**vref{5}: {storage:RZ28}{RZ28 2.1GB Hard Disk}
+**Option-title: Graphics
+**Option**vref{5}: {boards:PMAGD-AA}{PMAGD-AA ZLX-E1 8-plane 2D/3D Colour Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGD-BA}{PMAGD-BA ZLX-E2 24-plane 2D/3D Colour Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGD-CA}{PMAGD-CA ZLX-E3 24-plane 2D/3D Colour Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGC-AA}{PMAGC-AA ZLX-M1 24-plane 3D Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGC-BA}{PMAGC-BA ZLX-M2 24-plane 3D Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGC-DA}{PMAGC-DA ZLX-L1 3D TURBOchannel Colour Graphics Accelerator}
+**Option-title: TURBOchannel Options
+**Option**vref{5}: {boards:DEFTA}{DEFTA DEC FDDIcontroller/TURBOchannel}
+**Option**vref{5}: {boards:PMAD-AA/AB}{PMAD-AA/AB AUI Ethernet TURBOchannel Option Card}
+**Options-end{DEC3300X}
 **End-systems-entry{DEC3300X}
 
 **Start-systems-entry{DEC3300LX}{ALPHA}{DEC3000}
@@ -287,6 +308,7 @@
 **BUS-SCSI: 1 @ 5MB/s			
 **BUS-TC**vref{5}: 2 slots 			
 **LAN-support: 1 (10BASE-T)
+**Keyboard**vref{5}: LK401 or LK421
 **Power-start{DEC3300LX}
 **Supply: 120/240V 1-phase
 **Power: 200W
@@ -297,6 +319,26 @@
 **Depth: 432.5mm
 **Weight: 6.8kg
 **Dimensions-end{DEC3300LX}
+**Options-start{DEC3300LX}
+**Option-title: Memory
+**Option**vref{5}: {memory:MS16-BA}{MS16-BA 16MB Memory Module Set}
+**Option**vref{5}: {memory:MS16-DA}{MS16-DA 64MB Memory Module Set}
+**Option-title: Internal Storage
+**Option**vref{5}: {storage:RX26}{RX26 Diskette Drive}
+**Option**vref{5}: {storage:RZ25L}{RX25L 535MB Hard Disk}
+**Option**vref{5}: {storage:RZ26L}{RZ26L 1.05GB Hard Disk}
+**Option**vref{5}: {storage:RZ28}{RZ28 2.1GB Hard Disk}
+**Option-title: Graphics
+**Option**vref{5}: {boards:PMAGD-AA}{PMAGD-AA ZLX-E1 8-plane 2D/3D Colour Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGD-BA}{PMAGD-BA ZLX-E2 24-plane 2D/3D Colour Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGD-CA}{PMAGD-CA ZLX-E3 24-plane 2D/3D Colour Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGC-AA}{PMAGC-AA ZLX-M1 24-plane 3D Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGC-BA}{PMAGC-BA ZLX-M2 24-plane 3D Graphics Accelerator}
+**Option**vref{5}: {boards:PMAGC-DA}{PMAGC-DA ZLX-L1 3D TURBOchannel Colour Graphics Accelerator}
+**Option-title: TURBOchannel Options
+**Option**vref{5}: {boards:DEFTA}{DEFTA DEC FDDIcontroller/TURBOchannel}
+**Option**vref{5}: {boards:PMAD-AA/AB}{PMAD-AA/AB AUI Ethernet TURBOchannel Option Card}
+**Options-end{DEC3300LX}
 **End-systems-entry{DEC3300LX}
 
 **Start-systems-entry{DEC3400}{ALPHA}{DEC3000}
