@@ -636,16 +636,18 @@
 
 **Start-printers-entry{LN11}{PRINTER}{LN}
 **Def-lref{1} = ref{CU-1994-05-23}
+**Def-lref{2} = ref{SOC-AUG1994-SUP}
 **Sys-name: LN11
 **Desc-name: DEClaser 1800
 **Announcement**vref{1}: 1994-05-23
 **FRS-date**vref{1}: 1994-06
-**Print-speed**vref{1}: 6 pages/min
+**Print-speed**vref{1,2}: 6 pages/min
 **Monthly-usage**vref{1}: 6000 pages
-**Data-interface**vref{1}: RS-232 and parallel
-**Resolution**vref{1}: 300 x 300 dpi
-**Minimum-memory**vref{1}: 1 MB
-**Maximum-memory**vref{1}: 5 MB
+**Data-interface**vref{1,2}: RS-232 and Centronics
+**Resolution**vref{1,2}: 300 x 300 dpi
+**Minimum-memory**vref{1,2}: 1 MB
+**Maximum-memory**vref{1,2}: 5 MB
+**Processor**vref{2}: AMD 29200
 **End-printers-entry{LN11}
 
 **Start-printers-entry{LP27}{PRINTER}{LP}
