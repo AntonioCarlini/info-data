@@ -91,16 +91,37 @@
 **I-max**vref{1}: 5.99A
 **Power**vref{1}: 254W
 **Power-end{150-120V}
+**Options-start{AXP150}
+**Option-title: Enclosures
+**Option**vref{7}: {enclosures:BA55}{BA55 Tower Base System Enclosure}
+**Option-title: Video Cards (DEC AXP 150)
+**Option**vref{7}: {boards:PB2GA-AA}{PB2GA-AA Qvision SVGA+ EISA 8-bit Video Adapter (1024 x 768 resolution)}
+**Option**vref{7}: {boards:PB2GA-CA}{PB2GA-CA Number Nine GXE high-performance ISA 8-bit Video Adapter (1024 x 768, 1280 x 1024 resolution)}
+**Option**vref{7}: {boards:PB2GA-EA}{PB2EA-AA Matrox MGAI ISA 24-plane Video Adapter (1280 x 1024 resolution)}
+**Option-title: Video Cards (DEC 2000 Model 300 AXP)
+**Option**vref{7}: {boards:PB2GA-AA}{PB2GA-AA Qvision SVGA+ EISA 8-bit Video Adapter (1024 x 768 resolution)}
+**Option-title: Memory
+**Option**vref{7}: {memory:PB2MA-BD}{PB2MA-BD 16MB Parity Memory Set}
+**Option**vref{7}: {memory:PB2MA-BF}{PB2MA-BF 64MB Parity Memory Set}
+**Option**vref{7}: {memory:PC77M-AB}{PC77M-AB 16MB Memory Set}
+**Option**vref{7}: {memory:PC77M-AD}{PC77M-AD 64Memory Set}
+**Option-title: Internal Storage
+**Option**vref{7}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{7}: {storage:RRD44}{RRD44 CDROM Drive}
+**Option**vref{7}: {storage:TZK10}{TZK10 525MB QIC Tape Drive}
+**Option**vref{7}: {storage:TZK11}{TZK11 2GB QIC Tape Drive}
+**Option**vref{7}: {storage:TLZ06}{TLZ06 4GB DAT Drive}
+**Option**vref{7}: {storage:TLZ07}{TLZ07 8GB DAT Drive}
+**Option**vref{7}: {storage:RZ25L}{RZ25L 535MB Disk Drive}
+**Option**vref{7}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{7}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
+**Options-end{AXP150}
 !<TR> <TD COLSPAN=2> <B> Internal mass storage options </B> </TR>
-!<TR> <TD> <A HREF="../storage/rrd42.html">   RRD42 </A> <TD> 600MB SCSI CDROM drive		</TR>
 !<TR> <TD> <A HREF="../storage/rx26.html">    RX26  </A> <TD> 3-1/2" Floppy disk drive		</TR>
 !<TR> <TD> <A HREF="../storage/rz24l.html">   RZ24L </A> <TD> 245MB SCSI Disk			</TR>
 !<TR> <TD> <A HREF="../storage/rz25.html">    RZ25  </A> <TD> 426MB SCSI Disk			</TR>
-!<TR> <TD> <A HREF="../storage/rz25l.html">   RZ25L </A> <TD> 535MB SCSI Disk			</TR>
 !<TR> <TD> <A HREF="../storage/rz26.html">    RZ26  </A> <TD> 1.05GB SCSI Disk			</TR>
-!<TR> <TD> <A HREF="../storage/rz26l.html">   RZ26L </A> <TD> 1.05GB SCSI Disk			</TR>
 !<TR> <TD> <A HREF="../storage/tlz06.html">   TLZ06 </A> <TD> 4mm 1.2GB DAT tape drive		</TR>
-!<TR> <TD> <A HREF="../storage/tzk10.html">   TZK10 </A> <TD> QIC tape drive			</TR>
 **End-systems-entry{AXP150}
 
 **Start-systems-entry{DEC3300}{ALPHA}{DEC3000}
