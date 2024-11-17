@@ -816,8 +816,14 @@
 **Def-lref{3} = ref{CU-1994-07-18}
 **Def-lref{4} = ref{QS-TRU64-51B}
 **Def-lref{5} = ref{QS-VMS-V084}
+**Def-lref{6} = ref{SOC-JAN1995}
 **Sys-name: DEC 4000-710/720
 **Desc-name: DEC 4000 Model 710/720
+! from vref{6} **document=doc{DEC:EK-KN430-IM}  ! Information Map
+! from vref{6} **document=doc{DEC:EK-KN430-SP}  ! Site preparation Card
+! from vref{6} **document=doc{DEC:EK-KN430-IN}  ! Installation Card
+! from vref{6} **document=doc{DEC:EK-KN430-OP}  ! Owner's Guide
+! from vref{6} **document=doc{DEC:EK-BA641-IN}  ! DEC 4000 AXP Rackmount Series Installation/Owner's Guide
 **Announcement**vref{2}: 1993-10-12
 ! Codename from DEC NOTES conference ALPHANOTES_V1
 **Codename: Fang
@@ -832,6 +838,38 @@
 **Maximum-memory**vref{1}: 2GB
 **SPECint92**vref{1}: 94.0
 **SPECfp92**vref{1}: 188.4
+**Dimensions-start{DEC4700-Pedestal}
+**Label: Pedestal
+**Height**vref{6}: 882.8 mm
+**Width**vref{6}: 499.3 mm
+**Depth**vref{6}: 774.7 mm
+**Weight**vref{6}: 124.7 kg (max)
+**Dimensions-end{DEC4700-Pedestal}
+**Dimensions-start{DEC4700-Rackmount}
+**Label: Rackmount
+**Height**vref{6}: 444 mm
+**Width**vref{6}: 482 mm
+**Depth**vref{6}: 757 mm
+**Weight**vref{6}: 66.4 kg
+**Dimensions-end{DEC4700-Rackmount}
+**Options-start{DEC4700}
+**Option-title: Enclosures
+**Option**vref{6}: {enclosures:BA640}{BA640 Deskside Pedestal Enclosure}
+**Option**vref{6}: {enclosures:BA641}{BA641 Rackmount Enclosure}
+**Option-title: Memory
+**Option**vref{6}: {boards:MS430-CA}{MS430-CA 64MB Memory}
+**Option**vref{6}: {boards:MS430-DA}{MS430-DA 128MB Memory}
+**Option**vref{6}: {boards:MS430-FA}{MS430-FA 512MB Memory}
+**Option-title: Internal Storage
+**Option**vref{6}: {storage:RF36}{RF36 1.6GB DSSI Disk}
+**Option**vref{6}: {storage:RZ26L}{RZ26L 1.05GB SCSI Disk}
+**Option**vref{6}: {storage:RZ28}{RZ28 2.1GB SCSI Disk}
+**Option**vref{6}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{6}: {storage:TZ85}{TZ85 2.6GB DLT Tape Drive}
+**Option**vref{6}: {storage:TZ86}{TZ86 6GB DLT Tape Drive}
+**Option**vref{6}: {storage:TLZ06}{TLZ06 4.0GB DAT Drive}
+**Option**vref{6}: {storage:TLZ07}{TLZ07 8.0GB DAT Drive}
+**Options-end{DEC4700}
 **End-systems-entry{DEC4700}
 
 ! Alternate data available but is this for DEC 7000-600??
@@ -872,6 +910,7 @@
 **Def-lref{3} = ref{CU-1994-11-03}
 **Def-lref{4} = ref{QS-TRU64-51B}
 **Def-lref{5} = ref{SOC-AUG1994-SUP}
+**Def-lref{6} = ref{SOC-JAN1995}
 **Sys-name: DEC 7000-700
 **Desc-name: DEC 7000 Model 700 series
 **Announcement**vref{3}: 1994-11-03
@@ -896,11 +935,31 @@
 **Weight**vref{5}: 408kg
 **Dimensions-end{DEC7700}
 **Options-start{DEC7700}
+**Option-title: Enclosures
+**Option**vref{6}: {enclosures:H9F00-BA/BB/BC}{H9F00 I/O Expansion Cabinet}
+**Option**vref{6}: {enclosures:H9B00-AF}{H9B00-AF Battery option for I/O Expanion}
+**Option**vref{6}: {enclosures:H7237-AA}{H7237-AA Battery Plug-in Unit}
+**Option**vref{6}: {enclosures:H7263-AA/AB}{H7263-AA/AB 48V Power Regulator}
+**Option**vref{6}: {enclosures:H7238-AA}{H7238-AA 4-Pack Battery Option}
 **Option-title: Memory
 **Option**vref{5}: {memory:MS7AA-AB}{MS7AA-BA 128MB Memory Module}
 **Option**vref{5}: {memory:MS7AA-AB}{MS7AA-CA 256MB Memory Module}
 **Option**vref{5}: {memory:MS7AA-AB}{MS7AA-DA 512MB Memory Module}
 **Option**vref{5}: {memory:MS7AA-AB}{MS7AA-FA 2048MB Memory Module}
+**Option-title: Controllers
+**Option**vref{6}: {boards:KZMSA-AB}{KZMSA-AB Fast SCSI-2 Disk/Tape Controller}
+**Option**vref{6}: {boards:KZASA-AA}{KZASA-AA FWD SCSI Disk Controller}
+**Option**vref{6}: {boards:KFMSB-AA}{KFMSB-AA DSSI Disk/Tape Controller}
+**Option**vref{6}: {boards:KDM70-AA}{KDM70-AA XMI Disk/Tape Controller}
+**Option**vref{6}: {boards:CIXCD-AC}{CIXCD-AC XMI CI Controller}
+**Option-title: Internal Storage
+**Option**vref{6}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{6}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
+**Option**vref{6}: {storage:TLZ06}{TLZ06 4GB DAT Drive}
+**Option**vref{6}: {storage:TZ86}{TZ86 6GB DLT Tape Drive}
+**Option**vref{6}: {storage:TZ87}{TZ86 20GB DLT Tape Drive}
+**Option**vref{6}: {storage:EZ54R}{EZ54R 428MB SCSI Solid State Disk}
+**Option**vref{6}: {storage:EZ51R}{EZ51R 107MB SCSI Solid State Disk}
 **Options-end{DEC7700}
 **End-systems-entry{DEC7700}
 
