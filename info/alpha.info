@@ -1561,11 +1561,51 @@
 **BUS-PCI**vref{3}: 3 slots
 **BUS-EISA**vref{3}: 8 slots
 **LAN-support**vref{5}: 1
-**Keyboard**vref{5}: LK411
+**Keyboard**vref{3}: PCXAL or LK411
+**Dimensions-start{AS2100-4-200}
+**Label: BA740 Large Pedestal
+**Height**vref{3}: 700 mm
+**Width**vref{3}: 430 mm
+**Depth**vref{3}:  810 mm
+**Weight**vref{3}: 100 kg (maximum)
+**Dimensions-end{AS2100-4-200}
+**Power-start{AS2100-4-200-240V}
+**Label: 240V
+**Supply**vref{3}: 220 - 240V 1-phase
+**I-inrush**vref{3}: 50A
+**I-nominal**vref{3}: 4.0A
+**Power-end{AS2100-4-200-240V}
+**Power-start{AS2100-4-200-120V}
+**Label: 120V
+**Supply**vref{3}: 100 - 120V 1-phase
+**I-inrush**vref{3}: 50A
+**I-nominal**vref{3}: 8.5A
+**Power-end{AS2100-4-200-120V}
 **Options-start{AS2100-4-200}
 **Option-title: Enclosures
 **Option**vref{5}: {enclosures:BA740}{BA740 Large Pedestal Enclosure}
 **Option**vref{5}: {enclosures:BA741}{BA741 Rackmount Enclosure}
+**Option**vref{5}: {enclosures:H9A10-Cx}{H9A10-Cx Cabinet Enclosure}
+**Option-title: Memory
+**Option**vref{3}: {boards:MS450-BA}{MS450-BA 64MB Memory Module}
+**Option**vref{3}: {boards:MS450-CA}{MS450-CA 128MB Memory Module}
+**Option**vref{3}: {boards:MS451-CA}{MS451-CA 512MB Memory Module}
+**Option-title: Internal Storage
+**Option**vref{3}: {storage:RZ26L}{RZ26L 1.05GB Hard Disk}
+**Option**vref{3}: {storage:RZ28}{RZ28 2.1GB Hard Disk}
+**Option**vref{3}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{3}: {storage:TZK11}{TZK11 2.0GB SCSI QIC Tape Drive}
+**Option**vref{3}: {storage:TLZ06}{TLZ06 4.0GB SCSI DAT Drive}
+**Option**vref{3}: {storage:TLZ07}{TLZ07 8.0GB SCSI DAT Drive}
+**Option-title: Controllers
+**Option**vref{3}: {boards:KZESC-AA}{KZESC-AA Single port EISA RAID Controller}
+**Option**vref{3}: {boards:KZESC-BA}{KZESC-BA Three port EISA RAID Controller}
+**Option**vref{3}: {boards:KZPAA-AA}{KZPAA-AA PCI Single Port Fast SCSI-S Controller}
+**Option**vref{3}: {boards:DE422-SA}{DE422-SA EISA Network Controller}
+**Option**vref{3}: {boards:DEFEA-AA}{DEFEA-AA EISA FDDI Controller, Single Attachment}
+**Option**vref{3}: {boards:DEFEA-DA}{DEFEA-DA EISA FDDI Controller, Dual Attachment}
+**Option**vref{3}: {boards:DE435-AA}{DE435-AA PCI Etherworks Network Interface Card}
+**Option**vref{3}: {boards:CX101-xx}{CX101-xx EISA Asynchronous Multiplexer}
 **Options-end{AS2100-4-200}
 **End-systems-entry{AS2100-4-200}
 
@@ -1610,6 +1650,52 @@
 !-- [1]: 1GB for 4 CPU model -->
 **BUS-PCI**vref{3}: 3 slots
 **BUS-EISA**vref{3}: 8 slots
+**Keyboard**vref{3}: PCXAL or LK411
+**Dimensions-start{AS2100-4-275}
+**Label: BA740 Large Pedestal
+**Height**vref{3}: 700 mm
+**Width**vref{3}: 430 mm
+**Depth**vref{3}:  810 mm
+**Weight**vref{3}: 100 kg (maximum)
+**Dimensions-end{AS2100-4-275}
+**Power-start{AS2100-4-275-240V}
+**Label: 240V
+**Supply**vref{3}: 220 - 240V 1-phase
+**I-inrush**vref{3}: 50A
+**I-nominal**vref{3}: 4.0A
+**Power-end{AS2100-4-275-240V}
+**Power-start{AS2100-4-275-120V}
+**Label: 120V
+**Supply**vref{3}: 100 - 120V 1-phase
+**I-inrush**vref{3}: 50A
+**I-nominal**vref{3}: 8.5A
+**Power-end{AS2100-4-275-120V}
+**Options-start{AS2100-4-275}
+**Option-title: Enclosures
+**Option**vref{3}: {enclosures:BA740}{BA740 Large Pedestal Enclosure}
+**Option**vref{3}: {enclosures:BA741}{BA741 Rackmount Enclosure}
+**Option**vref{3}: {enclosures:H9A10-Cx}{H9A10-Cx Cabinet Enclosure}
+**Option-title: Memory
+**Option**vref{3}: {boards:MS450-BA}{MS450-BA 64MB Memory Module}
+**Option**vref{3}: {boards:MS450-CA}{MS450-CA 128MB Memory Module}
+**Option**vref{3}: {boards:MS451-CA}{MS451-CA 512MB Memory Module}
+**Option-title: Internal Storage
+**Option**vref{3}: {storage:RZ26L}{RZ26L 1.05GB Hard Disk}
+**Option**vref{3}: {storage:RZ28}{RZ28 2.1GB Hard Disk}
+**Option**vref{3}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{3}: {storage:TZK11}{TZK11 2.0GB SCSI QIC Tape Drive}
+**Option**vref{3}: {storage:TLZ06}{TLZ06 4.0GB SCSI DAT Drive}
+**Option**vref{3}: {storage:TLZ07}{TLZ07 8.0GB SCSI DAT Drive}
+**Option-title: Controllers
+**Option**vref{3}: {boards:KZESC-AA}{KZESC-AA Single port EISA RAID Controller}
+**Option**vref{3}: {boards:KZESC-BA}{KZESC-BA Three port EISA RAID Controller}
+**Option**vref{3}: {boards:KZPAA-AA}{KZPAA-AA PCI Single Port Fast SCSI-S Controller}
+**Option**vref{3}: {boards:DE422-SA}{DE422-SA EISA Network Controller}
+**Option**vref{3}: {boards:DEFEA-AA}{DEFEA-AA EISA FDDI Controller, Single Attachment}
+**Option**vref{3}: {boards:DEFEA-DA}{DEFEA-DA EISA FDDI Controller, Dual Attachment}
+**Option**vref{3}: {boards:DE435-AA}{DE435-AA PCI Etherworks Network Interface Card}
+**Option**vref{3}: {boards:CX101-xx}{CX101-xx EISA Asynchronous Multiplexer}
+**Options-end{AS2100-4-275}
 **End-systems-entry{AS2100-4-275}
 
 **Start-systems-entry{AS2100-5-250}{ALPHA}{ALPHASERVER}
