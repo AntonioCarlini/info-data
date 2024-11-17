@@ -1066,11 +1066,6 @@
 **Def-lref{6} = ref{CU-1995-05-01}
 !-- [1] has more data about physical size -->
 !-- [3] indicates 4/200 has integrated SVGA controller -->
-!-- [3] indicates memory options for 4/200:
-!	PB7MA-AA         16 MB MEM
-!	PB7MA-AB         32 MB RAM
-!	PB7MA-AC         64 MB RAM
-!	PB7MA-AD         128 MB RAM
 **Announcement**vref{5}: 1994-11-03
 **Last-order**vref{6}: Past
 **OS-support-vms**vref{5}: V6.1-1H2
@@ -1088,6 +1083,64 @@
 **BUS-PCI**vref{4}: 2 slots
 **BUS-EISA**vref{4}: 7 slots
 **BUS-PCI-or-ISA**vref{4}: 1 slot
+**Keyboard**vref{4}: LK411
+**Dimensions-start{AS1000-4-200-Pedestal}
+**Label: Pedestal
+**Height**vref{4}: 600 mm
+**Width**vref{4}: 430 mm
+**Depth**vref{4}: 650 mm
+**Weight**vref{4}: 39 kg (typical), 71 kg (maximum)
+**Dimensions-end{AS1000-4-200-Pedestal}
+**Dimensions-start{AS1000-4-200-Rackmount}
+**Label: Rackmount
+**Height**vref{4}: 267 mm
+**Width**vref{4}: 48.2 mm
+**Depth**vref{4}: 737 mm
+**Weight**vref{4}: 29 kg (typical)
+**Dimensions-end{AS1000-4-200-Rackmount}
+**Power-start{AS1000-4-200-240V}
+**Label: 240V
+**Supply**vref{4}: 220 - 240 V, single phase
+**I-inrush**vref{4}: 50 A
+**I-nominal**vref{4}: 4.0 A
+**Power-end{AS1000-4-200-240V}
+**Power-start{AS1000-4-200-120V}
+**Label: 110V
+**Supply**vref{4}: 100 - 120 V, single phase
+**I-inrush**vref{4}: 50 A
+**I-nominal**vref{4}: 8.0 A
+**Power-end{AS1000-4-200-120V}
+**Options-start{AS1000-4-200}
+**Option-title: Memory
+**Option**vref{4}: {memory:PB7MA-AA}{PBM7MA-AA 16 MB ECC Memory Kit}
+**Option**vref{4}: {memory:PB7MA-AB}{PBM7MA-AB 32 MB ECC Memory Kit}
+**Option**vref{4}: {memory:PB7MA-AC}{PBM7MA-AC 64 MB ECC Memory Kit}
+**Option**vref{4}: {memory:PB7MA-AD}{PBM7MA-AD 128 MB ECC Memory Kit}
+**Option-title: Internal Storage
+**Option**vref{4}: {storage:RZ26L}{RZ26L 1.05GB Hard Disk}
+**Option**vref{4}: {storage:RZ28}{RZ28 2.1GB Hard Disk}
+**Option**vref{4}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{4}: {storage:RRD44}{RRD44 CDROM Drive}
+**Option**vref{4}: {storage:TZK10{TZK10 525MB SCSI QIC Tape Drive}
+**Option**vref{4}: {storage:TZK11}{TZK11 2.0GB SCSI QIC Tape Drive}
+**Option**vref{4}: {storage:TLZ06}{TLZ06 4.0GB SCSI DAT Drive}
+**Option-title: Controllers
+**Option**vref{4}: {boards:KZESC-AA}{KZESC-AA Single port EISA RAID Controller}
+**Option**vref{4}: {boards:KZESC-BA}{KZESC-BA Three port EISA RAID Controller}
+**Option**vref{4}: {boards:KZPAA-AA}{KZPAA-AA PCI Single Port Fast SCSI-S Controller}
+**Option**vref{4}: {boards:KFESA-AA}{KFESA-AA EISA Single DSSI Controller}
+**Option**vref{4}: {boards:DE435-AA}{DE435-AA PCI Etherworks Network Interface Card}
+**Option**vref{4}: {boards:DE422-SA}{DE422-SA EISA Network Controller}
+**Option**vref{4}: {boards:DEFEA-AA}{DEFEA-AA EISA FDDI Controller, Single Attachment}
+**Option**vref{4}: {boards:DEFEA-DA}{DEFEA-DA EISA FDDI Controller, Dual Attachment}
+**Option**vref{4}: {boards:DEFEA-UA}{DEFEA-UA EISA FDDI (UTP) Controller}
+**Option**vref{4}: {boards:DNSES-AA}{DNSES-AA EISA Synchronous Communications Controller}
+**Option-title: Graphics
+**Option**vref{4}: {boards:PB2GA-AA}{PB2GA-AA EISA VGA Qvision Graphics Adapter}
+**Option**vref{4}: {boards:PB2GA-HA}{PB2GA-HA PCI VGA Qvision Graphics Adapter}
+**Option-title: Miscellaneous
+**Option**vref{4}: {psu:H7895-AA}{H7895-AA 400W PSU (for n+1 redundancy)}
+**Options-end{AS1000-4-200}
 **End-systems-entry{AS1000-4-200}
 
 **Start-systems-entry{AS1000-4-233}{ALPHA}{AS1000}

@@ -555,6 +555,11 @@
   - Maximum current drawn
   - all
   - power
+- I-nominal:
+  - I(nom.)
+  - Nominal current
+  - all
+  - power
 - I-inrush:
   - I(inrush)
   - Maximum inrush current
