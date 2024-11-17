@@ -1392,7 +1392,52 @@
 **Max-I/O-throughput**vref{3}: 132MB/s
 **BUS-PCI**vref{3}: 3 slots
 **BUS-EISA**vref{3}: 7 slots
-**LAN-support**htref{2}: optional
+**LAN-support**vref{3}: optional
+**Keyboard**vref{3}: PCXAL or LK411
+**Dimensions-start{AS2000-4-200}
+**Height**vref{3}: 605mm
+**Width**vref{3}: 430mm
+**Depth**vref{3}:  650mm
+**Weight**vref{3}: 54kg (typical), 71kg (maximum)
+**Dimensions-end{AS2000-4-200}
+**Power-start{AS2000-4-200-240V}
+**Label: 240V
+**Supply**vref{3}: 220 - 240V 1-phase
+**I-inrush**vref{3}: 50A
+**I-nominal**vref{3}: 4.0A
+**Power-end{AS2000-4-200-240V}
+**Power-start{AS2000-4-200-120V}
+**Label: 120V
+**Supply**vref{3}: 100 - 120V 1-phase
+**I-inrush**vref{3}: 50A
+**I-nominal**vref{3}: 8.0A
+**Power-end{AS2000-4-200-120V}
+**Options-start{AS2000-4-200}
+**Option-title: Memory
+**Option**vref{3}: {boards:MS452-AA}{MS452-AA 32MB Memory Board with SIMMs}
+**Option**vref{3}: {boards:MS452-BA}{MS452-BA 128MB Memory Board with SIMMs}
+**Option**vref{3}: {boards:MS452-UA}{MS452-UA 32 MB Memory SIMMs for MS452-AA}
+**Option**vref{3}: {boards:MS452-UB}{MS452-UB 128 MB Memory SIMMs for MS452-BA}
+**Option-title: Internal Storage
+**Option**vref{3}: {storage:RZ26L}{RZ26L 1.05GB Hard Disk}
+**Option**vref{3}: {storage:RZ28}{RZ28 2.1GB Hard Disk}
+**Option**vref{3}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{3}: {storage:TZK11}{TZK11 2.0GB SCSI QIC Tape Drive}
+**Option**vref{3}: {storage:TLZ06}{TLZ06 4.0GB SCSI DAT Drive}
+**Option**vref{3}: {storage:TLZ07}{TLZ07 8.0GB SCSI DAT Drive}
+**Option-title: Controllers
+**Option**vref{3}: {boards:KZESC-AA}{KZESC-AA Single port EISA RAID Controller}
+**Option**vref{3}: {boards:KZESC-BA}{KZESC-BA Three port EISA RAID Controller}
+**Option**vref{3}: {boards:KZPAA-AA}{KZPAA-AA PCI Single Port Fast SCSI-S Controller}
+**Option**vref{3}: {boards:DE435-AA}{DE435-AA PCI Etherworks Network Interface Card}
+**Option**vref{3}: {boards:DE422-SA}{DE422-SA EISA Network Controller}
+**Option**vref{3}: {boards:DEFEA-AA}{DEFEA-AA EISA FDDI Controller, Single Attachment}
+**Option**vref{3}: {boards:DEFEA-DA}{DEFEA-DA EISA FDDI Controller, Dual Attachment}
+**Option**vref{3}: {boards:CX101-xx}{CX101-xx EISA Asynchronous Multiplexer}
+**Option-title: Miscellaneous
+**Option**vref{3}: {enclosures:BA720}{BA720 Pedestal Enclosure}
+**Option**vref{3}: {psu:H7895-AA}{H7895-AA 400W PSU (for n+1 redundancy)}
+**Options-end{AS2000-4-200}
 **End-systems-entry{AS2000-4-200}
 
 **Start-systems-entry{AS2000-4-233}{ALPHA}{ALPHASERVER}
