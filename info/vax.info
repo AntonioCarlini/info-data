@@ -3030,6 +3030,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Def-lref{7} = ref{EK-PMARI-OM-A02}
 **Def-lref{8} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{9} = ref{SOC-JAN1995}
+**Def-lref{10} = ref{Online-SOC-VS4060-1996-05-04}
 **document=doc{DEC:EK-PMARI-OM-A02} ! VAXstation 4000 Model 60 Owner's Guide and Manual
 **document=doc{DEC:EK-VX690-UP-A01} ! VAXstation 4000 Model 60 to VAXstation 4000 Model 90 Upgrade Guide
 **document=doc{DEC:VS TCA} ! VAXstation 4000 Model 60/90 TURBOchannel Bus Adapter Specification
@@ -3063,22 +3064,23 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **CPU-clock**htref{3}: 55MHz
 **CPU-cycle**htref{2}: 18ns
 **Cache**uref{*105}: 2KB
-**Backup-cache**vref{1}: 256KB
+**Backup-cache**vref{1,10}: 256KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
 **VUPs**vref{5}: 12
-**SPECmarks**vref{2,5}: 12
+**SPECmarks**vref{2,5,10}: 12
 **SPECint89**htref{2}: 11.1
 **SPECfp89**htref{2}: 12.6
-**Minimum-memory**vref{1}: 8MB
-**On-board-memory**vref{1}: 8MB
-**Maximum-memory**vref{1}: 104MB
+**Minimum-memory**vref{1,10}: 8MB
+**On-board-memory**vref{1,10}: 8MB
+**Maximum-memory**vref{1,10}: 104MB
 !-- [1]: max memory supported by cache: 256MB -->
 !-- [1]: memory added in pairs of 4MB or pairs of 16MB modules - six modules (3 pairs) max hence 104MB max memory -->
 **Physical-address-lines**vref{1}: 32
 **BUS-SCSI**vref{1}: 1 @ 10MB/s
 **LAN-support**vref{1}: 1 embedded (LANCE)
+**keyboard**vref{10}: LK401
 **Dimensions-start{VS4060}
 **Height**vref{1}: 69.9mm
 **Width**vref{1}: 111.8mm
@@ -3101,6 +3103,25 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **I-max**vref{1}: 2.0A
 **Power**vref{1}: 251W
 **Power-end{VS4060-120V}
+**Options-start{VS4060}
+**Option-title: Enclosures
+**Option**vref{10}: {enclosures:BA46X-AA}{BA46X-AA Vertical Floor Stand for VAXstation 4000 System}
+**Option**vref{10}: {enclosures:H9855-AA}{H9855-AA Horizontal Floor Stand for VAXstation 4000 System}
+**Option-title: Memory
+**Option**vref{10}: {memory:MS44L-AA}{MS44L-AA 4MB Parity Memory (1 x 4MB 100ns SIMMs)}
+**Option**vref{10}: {memory:MS44-DA}{MS44-DA 32MB Parity Memory (2 x 16MB 100ns SIMMs)}
+**Option-title: Internal Storage
+**Option**vref{10}: {storage:RX26}{RX26 2.8MB Diskette Drive}
+**Option**vref{10}: {storage:RRD45}{RRD45 CDROM Drive}
+**Option**vref{10}: {storage:TLZ07}{TLZ07 8.0GB DAT Drive}
+**Option**vref{10}: {storage:RZ26N}{RZ26N 1.05GB Disk Drive}
+**Option**vref{10}: {storage:RZ28M}{RZ28M 2.1GB Disk Drive}
+**Option-title: Controllers
+**Option**vref{10}: {boards:DWCTX-BX}{DWCTX-BX TURBOchannel Adapter Module}
+**Option**vref{10}: {boards:PMAD-AB}{PMAD-AB Thick wire Ethernet TURBOchannel Option Card}
+**Option**vref{10}: {boards:PMAZ-AB}{PMAZ-AB Additional SCSI TURBOchannel Option Card}
+**Option**vref{10}: {boards:DSW21}{DSW21 Synchronous Communications Controller}
+**Options-end{VS4060}
 **End-systems-entry{VS4060}
 
 **Start-Systems-entry{VS4VLC}{VAX}{VAXstation}
