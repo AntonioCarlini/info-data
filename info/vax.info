@@ -5163,6 +5163,7 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Def-lref{2} = ref{VAX-FINAL-LETTER-JESSIE_LIPCON}
 **Def-lref{3} = ref{CU-1995-04-11}
 **Def-lref{4} = ref{CU-1995-05-15}
+**Def-lref{5} = ref{Online-SOC-VS4096-1999-01-25}
 **document=doc{DEC:EK-VAXST-CL-B01} ! VAXstation 4000 Model 96 Update Information
 **Announcement**vref{3}: 1995-04-11
 **Last-order**vref{2}: 1999-09-30
@@ -5173,9 +5174,52 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Num-proc: 1
 **CPU-chip**htref{1}: NVAX
 **CPU-cycle**htref{1}: 10ns
+**Backup-cache**vref{5}: 256KB
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
+**Minimum-memory**vref{5}: 16MB
+**Maximum-memory**vref{5}: 128MB
+**Keyboard**vref{5}: LK40W
+!! vref{5} says an adapter is available
+**Power-start{VS4096-120V}
+**Label: 120V
+**Supply**vref{5}: 88  - 132V
+**I-max**vref{5}: 6.2A
+**Power**vref{5}: 465W
+**Power-end{VS4096-120V}
+**Power-start{VS4096-240V}
+**Label: 240V
+**Supply**vref{5}: 176 - 264V
+**I-max**vref{5}: 3.1A
+**Power**vref{5}: 465W
+**Power-end{VS4096-240V}
+**Dimensions-start{VS4096}
+**Height**vref{5}: 113 mm
+**Width**vref{5}: 482 mm
+**Depth**vref{5}: 400 mm
+**Weight**vref{5}: 4.5kg
+**Dimensions-end{VS4096}
+**Options-start{VS4096}
+**option-title: Memory
+**Option**vref{5}: {memory:MS44-CA}{MS44-CA 16MB Parity Memory (1 x 16MB 100ns SIMM)}
+**Option**vref{5}: {memory:MS44-DC}{MS44-DC 64MB Parity Memory (4 x 16MB 100ns SIMM)}
+**Option**vref{5}: {memory:MS44L-EA}{MS44L-EA 4MB Parity Memory (1 x 4MB 60ns SIMM)}
+**Option**vref{5}: {memory:MS44L-FA}{MS44L-FA 16MB Parity Memory (4 x 4MB 60ns SIMM)}
+**option-title: Internal Storage
+**Option**vref{5}: {storage:RRD47}{RRD47 CDROM Drive}
+**Option**vref{5}: {storage:TLZ10}{TLZ10 8.0GB DAT Drive}
+**Option**vref{5}: {storage:TZK20}{TZK20 2.0GB QIC Tape Drive}
+**Option**vref{5}: {storage:RZ29L}{RZ29L 4.3GB Disk Drive}
+**Option**vref{5}: {storage:RZ40}{RZ40 9.1GB Disk Drive}
+**Option**vref{5}: {storage:RZ1EF}{RZ1EF 18.2GB Disk Drive}
+**Option-title: Controller
+**Option**vref{5}: {boards:DWCTX-BX}{DWCTX-BX TURBOchannel Adapter Module}
+**Option**vref{5}: {boards:DEFTA-AA}{DEFTA-AA DEC FDDIcontroller 700}
+**Option**vref{5}: {boards:DEFTA-DA}{DEFTA-DA DEC FDDIcontroller 700 (DAS-MMF variant)}
+**Option**vref{5}: {boards:DEFTA-UA}{DEFTA-UA DEC FDDIcontroller 700 (SAS-UTP variant)}
+**Option**vref{5}: {boards:DSW21-AD}{DSW21-AD Synchronous Communications Interface}
+**Options-end{VS4096}
 **End-systems-entry{VS4096}
 
 **Start-systems-entry{UV3110}{VAX}{UVAX}
