@@ -430,6 +430,7 @@ future upgrades. Audio capabily is built-in as standard.
 **Def-lref{1} = ref{DECdirect-FEB92}
 **Def-lref{2} = ref{CU-1991-12-20}
 **Def-lref{3} = ref{CU-1995-09-15}
+**Def-lref{4} = ref{SOC-JAN1995}
 **Sys-name: DECstation 5000-133
 **Desc-name: DECstation 5000 Model 133
 **Announcement**vref{2}: 1991-12-20
@@ -440,6 +441,7 @@ future upgrades. Audio capabily is built-in as standard.
 **Num-proc: 1
 **CPU-chip**vref{1}: R3000A
 **FPU-chip**vref{1}: R3010
+**CPU-clock**vref{4}: 20MHz
 **SPECmarks**vref{1}: 25.3
 **Minimum-memory**vref{1}: 16MB
 **Maximum-memory**vref{1}: 128MB
@@ -449,6 +451,20 @@ future upgrades. Audio capabily is built-in as standard.
 **Depth**vref{1}: 435mm
 **Weight**vref{1}: 12.7kg
 **Dimensions-end{DST5133}
+**Options-start{DST5133}
+**Option-title: Internal Storage
+**Option**vref{4}: {storage:RX26}{RX26 2.8MB Diskette Drive}
+**Option**vref{4}: {storage:RRD42}{RRD42 CDROM Drive}
+**Option**vref{4}: {storage:TLZ06}{TLZ06 4.0GB DAT Drive}
+**Option**vref{4}: {storage:TZK10}{TZK10 525MB QIC Tape Drive}
+**Option**vref{4}: {storage:RZ25L}{RZ25L 535MB Disk Drive}
+**Option**vref{4}: {storage:RZ26}{RZ26 1.05GB Disk Drive}
+**Option-title: Controllers
+**Option**vref{4}: {boards:DEFTA-TA}{DEFTA-TA DEC FDDIcontroller 700 (fibre optic) Communications Controller}
+**Option**vref{4}: {boards:DEFZA-CA}{DEFZA-CA DEC FDDIcontroller 700C (copper) Communications Controller}
+**Option**vref{4}: {boards:DSYT1-AB}{DSYT1-AB DEC WANcontroller 720 Synchronous Interface}
+**Option**vref{4}: {boards:PMAD-AB}{PMAD-AB Thick wire Ethernet TURBOchannel Option Card}
+**Options-end{DST5133}
 **End-systems-entry{DST5133}
 
 **Start-systems-entry{DST5150}{DECMIPS}{DS5100}
@@ -513,6 +529,7 @@ future upgrades. Audio capabily is built-in as standard.
 **Def-lref{4} = ref{CU-1995-09-15}
 **Def-lref{5} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{6} = ref{CU-1991-12-20}
+**Def-lref{7} = ref{SOC-JAN1995}
 ! [1]: MS02-AA MS02L-AB (8MB)   MS02-CA MS02-NV (NVRAM module) H7878A
 **Sys-name: DECstation 5000-240
 **Desc-name: DECstation 5000 Model 240
@@ -532,6 +549,7 @@ future upgrades. Audio capabily is built-in as standard.
 **SPECmarks**vref{2}: 32.4
 **Minimum-memory**vref{2}: 16MB
 **Maximum-memory**vref{1}: 480MB
+**Keyboard**vref{7}: LK401
 **Dimensions-start{DST5240}
 **Height**vref{1}: 91.4mm
 **Width**vref{1}: 510.3mm 
@@ -550,6 +568,19 @@ future upgrades. Audio capabily is built-in as standard.
 **I-max**vref{1}: 2.4A
 **Power**vref{1}: 359W
 **Power-end{DST5240-240V}
+**Options-start{DST5133}
+**Option-title: Memory
+**Option**vref{7}: {memory:MS02L-AB}{MS02L-AB 8MB ECC Memory}
+**Option**vref{7}: {memory:MS02-CA}{MS02-CA 32MB ECC Memory}
+**Option-title: Internal Storage
+**Option**vref{7}: {storage:RRD42}{RRD42 CDROM Drive}
+**Option**vref{7}: {storage:TLZ06}{TLZ06 4.0GB DAT Drive}
+**Option**vref{7}: {storage:TZK09}{TZK09 5.0GB 8-mm Tape Drive}
+**Option**vref{7}: {storage:TZK10}{TZK10 525MB QIC Tape Drive}
+**Option**vref{7}: {storage:TSZ06}{TSZ06 40MB/140MB 9-track Tape Drive}
+**Option**vref{7}: {storage:RW100}{RW100 19GB StorageServer 100}
+**Option**vref{7}: {storage:RZ25L}{RZ25L 535MB Disk Drive}
+**Options-end{DST5133}
 **End-systems-entry{DST5240}
 
 **Start-systems-entry{DST5260}{DECMIPS}{DS5200}
