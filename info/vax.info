@@ -3080,7 +3080,7 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Physical-address-lines**vref{1}: 32
 **BUS-SCSI**vref{1}: 1 @ 10MB/s
 **LAN-support**vref{1}: 1 embedded (LANCE)
-**keyboard**vref{10}: LK401
+**Keyboard**vref{10}: LK401
 **Dimensions-start{VS4060}
 **Height**vref{1}: 69.9mm
 **Width**vref{1}: 111.8mm
@@ -3112,8 +3112,11 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Option**vref{10}: {memory:MS44-DA}{MS44-DA 32MB Parity Memory (2 x 16MB 100ns SIMMs)}
 **Option-title: Internal Storage
 **Option**vref{10}: {storage:RX26}{RX26 2.8MB Diskette Drive}
+**Option**vref{9}: {storage:RRD43}{RRD43 CDROM Drive}
 **Option**vref{10}: {storage:RRD45}{RRD45 CDROM Drive}
+**Option**vref{9}: {storage:TLZ06}{TLZ06 4.0GB DAT Drive}
 **Option**vref{10}: {storage:TLZ07}{TLZ07 8.0GB DAT Drive}
+**Option**vref{9}: {storage:TZK10}{TZK10 525MB QIC Tape Drive}
 **Option**vref{10}: {storage:RZ26N}{RZ26N 1.05GB Disk Drive}
 **Option**vref{10}: {storage:RZ28M}{RZ28M 2.1GB Disk Drive}
 **Option-title: Controllers
@@ -3786,6 +3789,13 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Option**vref{9}: {enclosures:BA42-B}{BA42-B Enclosure for MicroVAX 3100 Model 40}
 **Option-title: Memory
 **Option**vref{9}: {memory:MS44L-BA}{MS44L-BA 8MB Parity Memory modules for MicroVAX 3100 Model 40}
+**Option-title: Internal Storage
+**Option**vref{10}: {storage:RX26}{RX26 2.8MB Diskette Drive}
+**Option**vref{10}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{10}: {storage:TLZ06}{TLZ06 4.0GB DAT Drive}
+**Option**vref{10}: {storage:TZK11}{TZK11 2GB QIC Tape Drive}
+**Option**vref{10}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{10}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
 **Options-end{UV3130}
 **End-systems-entry{UV3130}
 
@@ -5168,13 +5178,46 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Announcement**vref{1}: 1994-03-14
 **OS-support-VMS**vref{3}: V5.5-2
 ! vref{3} says "The Model 90A is replacing all Model 90s shipped as of the second week this month (March 1994)"
+! verf{4} says VS4000-90A enclosure is same as VS4000-60 enclosure
 **FRS-Date**vref{3}: 1994-03
 **Last-order**vref{2}: 1995-07-25
 **Num-proc**vref{4}: 1
-**SPECmarks**vref{1}: 38.5
+**Backup-cache**vref{4}: 256KB
+**Minimum-memory**vref{4}: 16MB
+**Maximum-memory**vref{4}: 128MB
+**SPECmarks**vref{1,4}: 38.5
 **SPECint92**vref{1}: 19.5
 **SPECfp92**vref{1}: 37.2
 **VUPs**vref{1}: 48.7 (est)
+**Dimensions-start{VS4090A}
+**Height**vref{4}: 113 mm
+**Width**vref{4}: 482 mm
+**Depth**vref{4}: 400 mm
+**Weight**vref{4}: 4.5 kg
+**Dimensions-end{VS4090A}
+**Options-start{VS4090A}
+**Option-title: Enclosures
+**Option**vref{4}: {enclosures:BA46X-AA}{BA46X-AA Vertical Floor Stand for VAXstation 4000 System}
+**Option**vref{4}: {enclosures:H9855-AA}{H9855-AA Horizontal Floor Stand for VAXstation 4000 System}
+**Option-title: Memory
+**Option**vref{4}: {memory:MS44L-BC}{MS44L-BC 16MB Parity Memory (4 x 4MB 100ns SIMMs)}
+**Option**vref{4}: {memory:MS44-DC}{MS44-DC 64MB Parity Memory (4 x 16MB 100ns SIMMs)}
+**Option-title: Internal Storage
+**Option**vref{4}: {storage:RX26}{RX26 2.8MB Diskette Drive}
+**Option**vref{4}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{4}: {storage:TLZ06}{TLZ06 4.0GB DAT Drive}
+**Option**vref{4}: {storage:TLZ07}{TLZ07 8.0GB DAT Drive}
+**Option**vref{4}: {storage:TZK10}{TZK10 525MB QIC Tape Drive}
+**Option**vref{4}: {storage:RZ25L}{RZ25L 535MB Disk Drive}
+**Option**vref{4}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{4}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
+**Option-title: Controllers
+**Option**vref{4}: {boards:DWCTX-BX}{DWCTX-BX TURBOchannel Adapter Module}
+**Option**vref{4}: {boards:PMAD-AB}{PMAD-AB Thick wire Ethernet TURBOchannel Option Card}
+**Option**vref{4}: {boards:PMAZ-AB}{PMAZ-AB Additional SCSI TURBOchannel Option Card}
+**Option**vref{4}: {boards:DSW21}{DSW21 Synchronous Communications Controller}
+**Option**vref{4}: {boards:DEFTA-TA}{DEFTA-TA DEC FDDIcontroller 700 (fibre optic) Communications Controller}
+**Options-end{VS4090A}
 **End-systems-entry{VS4090A}
 
 **Start-systems-entry{VS4096}{VAX}{VAXstation}
@@ -5490,10 +5533,17 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Power-end{3185-220V}
 **Options-start{UV3185}
 **Option-title: Enclosures
-**Option**vref{9}: {enclosures:BA42-B}{BA42-B Enclosure for MicroVAX 3100 Model 40}
+**Option**vref{9}: {enclosures:BA42-B}{BA42-B Enclosure for MicroVAX 3100 Model 85}
 **Option-title: Memory
 **Option**vref{9}: {memory:MS44L-BC}{MS44L-BC 16MB ECC Memory modules for MicroVAX 3100 Model 85/95}
 **Option**vref{9}: {memory:MS44L-DC}{MS44L-DC 64MB ECC Memory modules for MicroVAX 3100 Model 85/95}
+**Option-title: Internal Storage
+**Option**vref{10}: {storage:RX26}{RX26 2.8MB Diskette Drive}
+**Option**vref{10}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{10}: {storage:TLZ06}{TLZ06 4.0GB DAT Drive}
+**Option**vref{10}: {storage:TZK11}{TZK11 2GB QIC Tape Drive}
+**Option**vref{10}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{10}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
 **Options-end{UV3185}
 **End-systems-entry{UV3185}
 
@@ -5594,10 +5644,17 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Dimensions-end{3195}
 **Options-start{UV3195}
 **Option-title: Enclosures
-**Option**vref{9}: {enclosures:BA42-B}{BA42-B Enclosure for MicroVAX 3100 Model 40}
+**Option**vref{9}: {enclosures:BA42-B}{BA42-B Enclosure for MicroVAX 3100 Model 95}
 **Option-title: Memory
 **Option**vref{9}: {memory:MS44L-BC}{MS44L-BC 16MB ECC Memory modules for MicroVAX 3100 Model 85/95}
 **Option**vref{9}: {memory:MS44L-DC}{MS44L-DC 64MB ECC Memory modules for MicroVAX 3100 Model 85/95}
+**Option-title: Internal Storage
+**Option**vref{10}: {storage:RX26}{RX26 2.8MB Diskette Drive}
+**Option**vref{10}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{10}: {storage:TLZ06}{TLZ06 4.0GB DAT Drive}
+**Option**vref{10}: {storage:TZK11}{TZK11 2GB QIC Tape Drive}
+**Option**vref{10}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{10}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
 **Options-end{UV3195}
 **End-systems-entry{UV3195}
 
