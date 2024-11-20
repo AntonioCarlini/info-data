@@ -2433,6 +2433,7 @@
 **Def-lref{6} = ref{SPEC-res-96q3}
 **Def-lref{7} = ref{CU-1995-03-01}
 **Def-lref{8} = ref{CU-1996-03-14}
+**Def-lref{9} = ref{SOC-APR1995-SUP}
 **Announcement**vref{7}: 1995-03-01
 **Last-order**vref{8}: 1996-04-30
 **Last-ship**vref{8}: 1996-06-01
@@ -2455,13 +2456,48 @@
 !	specfp95:   2.43 (/100), 3.22 (/166), 3.95 (/266)
 **Minimum-memory**vref{7}: 16MB
 **Maximum-memory**vref{7}: 192MB
-**BUS-SCSI**htref{1}: 1 @ 10MB/s
-**BUS-PCI**vref{7}: 1 slot @ 132MB/s
+**BUS-SCSI**vref{9}: 1 @ 10MB/s
+**BUS-PCI**vref{7,9}: 1 slot @ 132MB/s
 **BUS-ISA**vref{7}: 1 slot
 **BUS-PCI-or-ISA**vref{7}: 1 slot
 **LAN-support**vref{7}: 1 (10BASE-T/10BASE2)
-!-- options from [1] for AlphaStation 4/100 -->
+**Keyboard**vref{9}: LK471
+**Dimensions-start{AST200-4-100}
+**Height**vref{9}: 100 mm
+**Width**vref{9}: 430 mm
+**Depth**vref{9}: 410 mm
+**Weight**vref{9}: 11 - 14 kg
+**Dimensions-End{AST200-4-100}
+**Power-start{AST200-4-100-240V}
+**Label: 240V
+**Supply**vref{9}: 176 - 264V
+**I-max**vref{9}: 3.3A (with monitor)
+**Power**vref{9}: 180W
+**Power-end{AST200-4-100-240V}
+**Power-start{AST200-4-100-120V}
+**Label: 120V
+**Supply**vref{9}: 88 - 132V
+**I-max**vref{9}: 7.0A (with monitor)
+**Power**vref{9}: 180W
+**Power-end{AST200-4-100-120V}
 **Options-start{AST200-4-100}
+**Option-title: Memory
+**Option**vref{9}: {memory:MSP01-AA}{MSP01-AA 8MB SIMM Memory}
+**Option**vref{9}: {memory:MSP01-AB}{MSP01-AB 16MB SIMM Memory}
+**Option**vref{9}: {memory:MSP01-AC}{MSP01-AC 32MB SIMM Memory}
+**Option**vref{9}: {memory:MSP01-AD}{MSP01-AD 64MB SIMM Memory}
+**Option-title: Internal Storage
+**Option**vref{9}: {storage:RX23L}{RX23L 1.44MB 3.5" Diskette Drive}
+**Option**vref{9}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{9}: {storage:TLZ06}{TLZ06 4GB DAT Drive}
+**Option**vref{9}: {storage:TZK11}{TZK11 2GB QIC Tape Drive}
+**Option**vref{9}: {storage:RZ24M}{RZ24M 340MB Disk Drive}
+**Option**vref{9}: {storage:RZ25M}{RZ25M 535MB Disk Drive}
+**Option**vref{9}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{9}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
+**Option-title: Controllers
+**Option**vref{9}: {boards:KZPAA-AA}{KZPAA-AA PCI Fast SCSI-2 Controller}
+**Option**vref{9}: {boards:DE435-AA}{DE435-AA Ethernet Controller}
 **Option-title: Graphics controllers
 **Option: {boards:ZLXp-E1}{ZLXp-E1  8 plane 2D/3D graphics}
 **Option: {boards:ZLXp-E2}{ZLXp-E2 24 plane 2D graphics}
@@ -2606,6 +2642,7 @@
 **Def-lref{3} = ref{SPEC-res-96q3}
 **Def-lref{4} = ref{CU-1995-04-11}
 **Def-lref{5} = ref{CU-1996-01-31}
+**Def-lref{6} = ref{SOC-APR1995-SUP}
 **Sys-name: AlphaStation 250 4/266
 **Desc-name: AlphaStation 250 4/266
 **Announcement**vref{4}: 1995-04-11
@@ -2617,24 +2654,42 @@
 **OS-support-du**vref{4}: Digital UNIX V3.2
 **OS-support-nt**vref{4}: V3.5
 **Num-proc: 1
-**CPU-chip**htref{1}: DECchip 21064A
-**CPU-clock**htref{1}: 266MHz
+**CPU-chip**vref{6}: DECchip 21064A
+**CPU-clock**vref{6}: 266MHz
 **Cache**htref{1}: 16KB-I/16KB-D
-**Backup-cache**vref{4}: 2MB
-**SPECint92**htref{1}: 198.6
-**SPECfp92**htref{1}: 262.5
+**Backup-cache**vref{4,6}: 2MB
+**SPECint92**vref{6}: 198.6
+**SPECfp92**vref{6}: 262.5
 !**SPECint95**vref{2}: 4.18
 !**SPECfp95**vref{2}:  5.78
 **SPECint95**vref{3}: 5.18
 **SPECfp95**vref{3}: 6.27
-**Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 256MB
+**Minimum-memory**vref{6}: 32MB
+**Maximum-memory**vref{6}: 256MB
 !-- [1] implies future support for 512MB -->
 **BUS-SCSI**htref{1}: 1 @ 10MB/s
 **BUS-PCI**vref{4}: 1 @ 132MB/s, 33MHz
 **BUS-ISA**vref{4}: 1
 **BUS-PCI-or-ISA**vref{4}: 1
 **LAN-support**vref{4}: 1
+**Dimensions-start{AST250-4-266}
+**Height**vref{6}: 100 mm
+**Width**vref{6}: 430 mm
+**Depth**vref{6}: 410 mm
+**Weight**vref{6}: 11 - 14 kg
+**Dimensions-End{AST250-4-266}
+**Power-start{AST250-4-266-240V}
+**Label: 240V
+**Supply**vref{6}: 176 - 264V
+**I-max**vref{6}: 3.3A (with monitor)
+**Power**vref{6}: 180W
+**Power-end{AST250-4-266-240V}
+**Power-start{AST250-4-266-120V}
+**Label: 120V
+**Supply**vref{6}: 88 - 132V
+**I-max**vref{6}: 7.0A (with monitor)
+**Power**vref{6}: 180W
+**Power-end{AST250-4-266-120V}
 !-- options from [1] for AlphaStation 250 4/266 -->
 !<TR> <TD COLSPAN=2> <B> Graphics controllers </B> </TR>
 !<TR> <TD> <A HREF="../boards/zlxpe1.html"> ZLXp-E1     </A> <TD> ZLXp-E1  8 plane 2D/3D graphics	</TR>
@@ -2645,6 +2700,22 @@
 !<TR> <TD> <A HREF="../monitors/vrc15.html"> VRC15      </A> <TD> 15" colour monitor			</TR>
 !<TR> <TD> <A HREF="../monitors/vrt17.html"> VRT17      </A> <TD> 17" colour monitor			</TR>
 !<TR> <TD> <A HREF="../monitors/vrc21.html"> VRC21      </A> <TD> 21" colour monitor			</TR>
+**Options-start{AST250-4-266}
+**Option-title: Memory
+**Option**vref{6}: {boards:MSP01-BA}{MSP01-BA 32MB SIMM package}
+**Option**vref{6}: {boards:MSP01-BB}{MSP01-BB 64MB SIMM package}
+**Option**vref{6}: {boards:MSP01-BC}{MSP01-BV 128MB SIMM package}
+**Option-title: Internal Storage
+**Option**vref{6}: {storage:RRD43}{RRD43 CDROM Drive}
+**Option**vref{6}: {storage:TLZ07}{TLZ07 8.0GB DAT Drive}
+**Option**vref{6}: {storage:TZK11}{TZK11 2GB QIC Tape Drive}
+**Option**vref{6}: {storage:RZ25M}{RZ25M 535MB Disk Drive}
+**Option**vref{6}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{6}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
+**Option-title: Controllers
+**Option**vref{6}: {boards:KZPAA-AA}{KZPAA-AA PCI Fast SCSI-2 Controller}
+**Option**vref{6}: {boards:DE435-AA}{DE435-AA Ethernet Controller}
+**Options-end{AST250-4-266}
 **End-systems-entry{AST250-4-266}
 
 **Start-systems-entry{AST255-233}{ALPHA}{AlphaStation}
