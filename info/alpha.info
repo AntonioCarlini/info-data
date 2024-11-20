@@ -1008,22 +1008,47 @@
 **Def-lref{3} = ref{CU-1995-03-01}
 **Def-lref{4} = ref{QS-VMS-V084}
 **Def-lref{5} = ref{DEC-PR-1995-02-23}
+**Def-lref{6} = ref{SOC-APR1995-SUP}
 **Announcement**vref{5}: 1995-02-23
 **OS-support-vms: V6.1-1H1
 **OS-support-VMS-end**vref{4}: V8.2
 **Num-proc: 1
 **CPU-clock**vref{3}: 166MHz
+**Backup-cache**vref{6}:  512KB
 **Maximum-memory**vref{3}: 192MB
 **BUS-PCI**vref{3}:  2 slots @ 132MB/s
 **BUS-ISA**vref{3}: 3 slots
 **BUS-PCI-or-ISA**vref{3}: 1 slot
 **BUS-SCSI: 1 @ 10MB/s
+**Keyboard**vref{6}: LK471
+**Dimensions-start{AS400-4-166}
+**Height**vref{6}: 430 mm
+**Width**vref{6}: 180 mm
+**Depth**vref{6}: 430 mm
+**Weight**vref{6}: 12+ kg
+**Dimensions-End{AS400-4-166}
+**Power-start{AS400-4-166-240V}
+**Label: 240V
+**Supply**vref{6}: 176 - 264V
+**I-max**vref{6}: 4.0A
+**Power**vref{6}: 300W
+**Power-end{AS400-4-166-240V}
+**Power-start{AS400-4-166-120V}
+**Label: 120V
+**Supply**vref{6}: 88 - 132V
+**I-max**vref{6}: 8.0A
+**Power**vref{6}: 300W
+**Power-end{AS400-4-166-120V}
 **Options-start{AS400-4-166}
 **Option-title: Memory
-**Option: {boards:MSP01-AA}{8MB SIMM package}
-**Option: {boards:MSP01-AB}{16MB SIMM package}
-**Option: {boards:MSP01-AC}{32MB SIMM package}
-**Option: {boards:MSP01-AD}{64MB SIMM package}
+**Option**vref{6}: {boards:MSP01-AA}{8MB SIMM package}
+**Option**vref{6}: {boards:MSP01-AB}{16MB SIMM package}
+**Option**vref{6}: {boards:MSP01-AC}{32MB SIMM package}
+**Option**vref{6}: {boards:MSP01-AD}{64MB SIMM package}
+**Option-title: Controllers
+**Option**vref{6}: {boards:KZPAA-AA}{KZPAA-AA PCI Fast SCSI-2 Controller}
+**Option**vref{6}: {boards:KZPSA-AA}{KZPSA-AA PCI FWD SCSI Controller}
+**Option**vref{6}: {boards:DE435-AA}{DE435-AA Ethernet Controller}
 **Options-end{AS400-4-166}
 **End-systems-entry{AS400-4-166}
 
@@ -1210,13 +1235,16 @@
 **def-lref{3} = ref{CU-V5-11A}
 **def-lref{4} = ref{CU-1995-05-01}
 **def-lref{5} = ref{CU-1995-08-01}
+**Def-lref{6} = ref{SOC-APR1995-SUP}
 !-- [1] has more data about physical size -->
 **Announcement**vref{4}: 1995-05-01
 **FRS-date**vref{4}: 1995-05-01
 **Last-order**vref{5}: 1995-08-31
 **OS-support-vms: V6.1-1H2
 **Num-proc**htref{1}: 1
+**CPU-chip**vref{6}: DECchip 21064A
 **CPU-clock**vref{4}: 233MHz
+**Backup-cache**vref{6}:  2MB
 **SPECint92**vref{4}: 165.3
 **SPECfp92**vref{4}: 222.9
 **TPC-A**vref{4}: 300:(estimated)
@@ -1225,6 +1253,57 @@
 **BUS-PCI**vref{4}: 2 slots
 **BUS-EISA**vref{4}: 7 slots
 **BUS-PCI-or-EISA**vref{4}: 1 slot
+**Options-start{AS1000-4-233}
+**Option-title: Enclosures
+**Option**vref{6}: {psus:H7895-AA}{H7895-AA 400W Power Supply}
+**Dimensions-start{AS1000-4-233-Pedestal}
+**Label: Pedestal
+**Height**vref{6}: 442 mm
+**Width**vref{6}: 358 mm
+**Depth**vref{6}: 533 mm
+**Weight**vref{6}: 39 kg (typical), 51 kg (maximum)
+**Dimensions-End{AS1000-4-233-Pedestal}
+**Dimensions-start{AS1000-4-233-Rackmount}
+**Label: Rackmount
+**Height**vref{6}: 267 mm
+**Width**vref{6}: 482 mm
+**Depth**vref{6}: 737 mm
+**Weight**vref{6}: 29 kg (typical)
+**Dimensions-End{AS1000-4-233-Rackmount}
+**Power-start{AS1000-4-233-240V}
+**Label: 240V
+**Supply**vref{6}: 180 - 264V, 1 phase
+**I-nominal**vref{6}: 4.0A
+**I-inrush**vref{6}: 50A
+**Power-end{AS1000-4-233-240V}
+**Power-start{AS400-4-166-120V}
+**Label: 120V
+**Supply**vref{6}: 90 - 132V, single phase
+**I-nomical**vref{6}: 8.0A
+**I-inrush**vref{6}: 50A
+**Power-end{AS400-4-166-120V}
+**Options-start{AS400-4-166}
+**Option-title: Memory
+**Option**vref{6}: {boards:PB7MA-AA}{PB7MA-AA 16MB Memory Kit (5 x 4MB SIMMs, 70ns)}
+**Option**vref{6}: {boards:PB7MA-AB}{PB7MA-AB 32MB Memory Kit (5 x 8MB SIMMs, 70ns)}
+**Option**vref{6}: {boards:PB7MA-AC}{PB7MA-AC 64MB Memory Kit (5 x 16MB SIMMs, 70ns)}
+**Option**vref{6}: {boards:PB7MA-AD}{PB7MA-AD 128MB Memory Kit (5 x 32MB SIMMs, 70ns)}
+**Option-title: Internal Storage
+**Option**vref{6}: {storage:RRD44}{RRD44 CDROM Drive}
+**Option-title: Controllers
+**Option**vref{6}: {boards:KZESC-AA}{KZESC-AA Single port EISA RAID Controller}
+**Option**vref{6}: {boards:KZESC-BA}{KZESC-BA Three port EISA RAID Controller}
+**Option**vref{6}: {boards:KZPSA-AA}{KZPSA-AA PCI FWD SCSI Controller}
+**Option**vref{6}: {boards:KZPAA-AA}{KZPAA-AA PCI Fast SCSI-2 Controller}
+**Option**vref{6}: {boards:DE435-AA}{DE435-AA Ethernet Controller}
+**Option**vref{6}: {boards:DE422-SA}{DE422-SA EISA Network Controller}
+**Option**vref{6}: {boards:DEFEA-AA}{DEFEA-AA EISA FDDI Controller, Single Attachment}
+**Option**vref{6}: {boards:DEFEA-DA}{DEFEA-DA EISA FDDI Controller, Dual Attachment}
+**Option**vref{6}: {boards:DW300-AA}{DW300-AA EISA Token Ring Adapter}
+**Option**vref{6}: {boards:DEFPA-AA}{DEFPA-AA PCI FDDIcontroller, Single Attachment}
+**Option**vref{6}: {boards:DEFPA-DA}{DEFPA-DA PCI FDDIcontroller, Dual Attachment}
+**Option**vref{6}: {boards:DNSES-AA}{DNSES-AA EISA Synchronous Communications Controller}
+**Options-end{AS1000-4-233}
 **End-systems-entry{AS1000-4-233}
 
 **Start-systems-entry{AS1000-4-266}{ALPHA}{AS1000}
