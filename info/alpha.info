@@ -1851,6 +1851,7 @@
 **Def-lref{2} = ref{CU-V6-4A}
 **Def-lref{3} = ref{CU-1995-04-11}
 **Def-lref{4} = ref{CU-1996-04-23}
+**Def-lref{5} = ref{SOC-AUG1994-SUP}
 **Sys-name: AlphaServer 2100 4/233
 **Desc-name: AlphaServer 2100 4/233
 **Announcement**vref{3}: 1995-04-11
@@ -1862,6 +1863,68 @@
 **CPU-chip**vref{3}: DECchip 21064A
 **CPU-clock**vref{3}: 233MHz
 **Backup-cache**vref{3}: 1MB
+**Keyboard**vref{5}: LK471
+**Dimensions-start{AS2100-4-233-Pedestal}
+**Label: BA740 Large Pedestal
+**Height**vref{5}: 700 mm
+**Width**vref{5}: 430 mm
+**Depth**vref{5}:  810 mm
+**Weight**vref{5}: 100 kg (maximum)
+**Dimensions-end{AS2100-4-233-Pedestal}
+**Dimensions-start{AS2100-4-233-Rackmount}
+**Label: BA741 Rackmount
+**Height**vref{5}: 350 mm
+**Width**vref{5}: 450 mm
+**Depth**vref{5}:  660 mm
+**Weight**vref{5}: 45,5 kg
+**Dimensions-end{AS2100-4-233-Rackmount}
+**Dimensions-start{AS2100-4-233-Cabinet}
+**Label: H9A10-Cx Cabinet
+**Height**vref{5}: 1700 mm (shipping)
+**Width**vref{5}: 600 mm (shipping)
+**Depth**vref{5}:  850 mm (shipping)
+**Weight**vref{5}: 286 kg (shipping)
+**Dimensions-end{AS2100-4-233-Cabinet}
+**Power-start{AS2100-4-233-240V}
+**Label: 240V
+**Supply**vref{5}: 180 - 264V 1-phase
+**I-inrush**vref{5}: 50A
+**I-nominal**vref{5}: 4.0A
+**Power-end{AS2100-4-233-240V}
+**Power-start{AS2100-4-233-120V}
+**Label: 120V
+**Supply**vref{5}: 88 - 132V 1-phase
+**I-inrush**vref{5}: 50A
+**I-nominal**vref{5}: 8.5A
+**Power-end{AS2100-4-233-120V}
+**Options-start{AS2100-4-233}
+**Option-title: Enclosures
+**Option**vref{5}: {enclosures:BA740}{BA740 Large Pedestal Enclosure}
+**Option**vref{5}: {enclosures:BA741}{BA741 Rackmount Enclosure}
+**Option**vref{5}: {enclosures:H9A10-Cx}{H9A10-Cx Cabinet Enclosure}
+**Option**vref{5}: {psus:H7893-AA}{H7893-AA 602W PSU}
+**Option-title: Memory
+**Option**vref{5}: {boards:MS450-BA}{MS450-BA 64MB Memory Module}
+**Option**vref{5}: {boards:MS451-DA}{MS450-DA 128MB Memory Module (replaces MS450-CA)}
+**Option**vref{5}: {boards:MS451-FA}{MS451-CA 512MB Memory Module (replaces MS451-CA)}
+**Option-title: Internal Storage
+**Option**vref{5}: {storage:RZ26L}{RZ26L 1.05GB Hard Disk}
+**Option**vref{5}: {storage:RZ28}{RZ28 2.1GB Hard Disk}
+**Option-title: Graphics controllers
+**Option**vref{5}: {boards:ZLXp-E1}{ZLXp-E1  8 plane 2D/3D graphics}
+**Option**vref{5}: {boards:ZLXp-E2}{ZLXp-E2 24 plane 2D graphics}
+**Option**vref{5}: {boards:ZLXp-E3}{ZLXp-E3 24 plane 3D graphics, Z buffer}
+**Option-title: Controllers
+**Option**vref{5}: {boards:KZESC-AA}{KZESC-AA Single port EISA RAID Controller}
+**Option**vref{5}: {boards:KZESC-BA}{KZESC-BA Three port EISA RAID Controller}
+**Option**vref{5}: {boards:KZPAA-AA}{KZPAA-AA PCI Single Port Fast SCSI-S Controller}
+**Option**vref{5}: {boards:DE422-SA}{DE422-SA EISA Network Controller}
+**Option**vref{5}: {boards:DEFEA-AA}{DEFEA-AA EISA FDDI Controller, Single Attachment}
+**Option**vref{5}: {boards:DEFEA-DA}{DEFEA-DA EISA FDDI Controller, Dual Attachment}
+**Option**vref{5}: {boards:DEFEA-UA}{DEFEA-UA EISA FDDI Controller, UTP Attachment}
+**Option**vref{5}: {boards:DE435-AA}{DE435-AA PCI Etherworks Network Interface Card}
+**Option**vref{5}: {boards:CX101-xx}{CX101-xx EISA Asynchronous Multiplexer}
+**Options-end{AS2100-4-233}
 **End-systems-entry{AS2100-4-233}
 
 **Start-systems-entry{AS2100-4-275}{ALPHA}{ALPHASERVER}
@@ -1869,6 +1932,7 @@
 **Def-lref{2} = ref{CU-V6-4A}
 **Def-lref{3} = ref{SOC-JAN1995}
 **Def-lref{4} = ref{CU-1994-11-03}
+**Def-lref{5} = ref{SOC-AUG1994-SUP}
 **Sys-name: AlphaServer 2100 4/275
 **Desc-name: AlphaServer 2100 4/275
 **Announcement**vref{4}: 1994-11-03
@@ -1887,6 +1951,7 @@
 !-- [1]: 1GB for 4 CPU model -->
 **BUS-PCI**vref{3}: 3 slots
 **BUS-EISA**vref{3}: 8 slots
+!**Keyboard**vref{5}: LK471
 **Keyboard**vref{3}: PCXAL or LK411
 **Dimensions-start{AS2100-4-275}
 **Label: BA740 Large Pedestal
@@ -1941,6 +2006,7 @@
 **Def-lref{1} = ref{CU-V6-4A}
 **Def-lref{2} = ref{SPEC-res-9509}
 **Def-lref{3} = ref{CU-1995-04-11}
+**Def-lref{4} = ref{SOC-AUG1994-SUP}
 **Announcement**vref{3}: 1995-04-11
 **FRS-date**vref{3}: 1995-05
 **OS-support-vms**vref{3}: V6.2
@@ -1957,6 +2023,68 @@
 !-- [1] and vref{3}: 4-CPUs only 1GB of RAM possible -->
 **BUS-PCI**htref{1}: 3 slots
 **BUS-EISA**htref{1}: 8 slots
+**Keyboard**vref{4}: LK471
+**Dimensions-start{AS2100-5-250-Pedestal}
+**Label: BA740 Large Pedestal
+**Height**vref{4}: 700 mm
+**Width**vref{4}: 430 mm
+**Depth**vref{4}:  810 mm
+**Weight**vref{4}: 100 kg (maximum)
+**Dimensions-end{AS2100-5-250-Pedestal}
+**Dimensions-start{AS2100-5-250-Rackmount}
+**Label: BA741 Rackmount
+**Height**vref{4}: 350 mm
+**Width**vref{4}: 450 mm
+**Depth**vref{4}:  660 mm
+**Weight**vref{4}: 45,5 kg
+**Dimensions-end{AS2100-5-250-Rackmount}
+**Dimensions-start{AS2100-5-250-Cabinet}
+**Label: H9A10-Cx Cabinet
+**Height**vref{4}: 1700 mm (shipping)
+**Width**vref{4}: 600 mm (shipping)
+**Depth**vref{4}:  850 mm (shipping)
+**Weight**vref{4}: 286 kg (shipping)
+**Dimensions-end{AS2100-5-250-Cabinet}
+**Power-start{AS2100-5-250-240V}
+**Label: 240V
+**Supply**vref{4}: 180 - 264V 1-phase
+**I-inrush**vref{4}: 50A
+**I-nominal**vref{4}: 4.0A
+**Power-end{AS2100-5-250-240V}
+**Power-start{AS2100-5-250-120V}
+**Label: 120V
+**Supply**vref{4}: 88 - 132V 1-phase
+**I-inrush**vref{4}: 50A
+**I-nominal**vref{4}: 8.5A
+**Power-end{AS2100-5-250-120V}
+**Options-start{AS2100-5-250}
+**Option-title: Enclosures
+**Option**vref{4}: {enclosures:BA740}{BA740 Large Pedestal Enclosure}
+**Option**vref{4}: {enclosures:BA741}{BA741 Rackmount Enclosure}
+**Option**vref{4}: {enclosures:H9A10-Cx}{H9A10-Cx Cabinet Enclosure}
+**Option**vref{4}: {psus:H7893-AA}{H7893-AA 602W PSU}
+**Option-title: Memory
+**Option**vref{4}: {boards:MS450-BA}{MS450-BA 64MB Memory Module}
+**Option**vref{4}: {boards:MS451-DA}{MS450-DA 128MB Memory Module (replaces MS450-CA)}
+**Option**vref{4}: {boards:MS451-FA}{MS451-CA 512MB Memory Module (replaces MS451-CA)}
+**Option-title: Internal Storage
+**Option**vref{4}: {storage:RZ26L}{RZ26L 1.05GB Hard Disk}
+**Option**vref{4}: {storage:RZ28}{RZ28 2.1GB Hard Disk}
+**Option-title: Graphics controllers
+**Option**vref{4}: {boards:ZLXp-E1}{ZLXp-E1  8 plane 2D/3D graphics}
+**Option**vref{4}: {boards:ZLXp-E2}{ZLXp-E2 24 plane 2D graphics}
+**Option**vref{4}: {boards:ZLXp-E3}{ZLXp-E3 24 plane 3D graphics, Z buffer}
+**Option-title: Controllers
+**Option**vref{4}: {boards:KZESC-AA}{KZESC-AA Single port EISA RAID Controller}
+**Option**vref{4}: {boards:KZESC-BA}{KZESC-BA Three port EISA RAID Controller}
+**Option**vref{4}: {boards:KZPAA-AA}{KZPAA-AA PCI Single Port Fast SCSI-S Controller}
+**Option**vref{4}: {boards:DE422-SA}{DE422-SA EISA Network Controller}
+**Option**vref{4}: {boards:DEFEA-AA}{DEFEA-AA EISA FDDI Controller, Single Attachment}
+**Option**vref{4}: {boards:DEFEA-DA}{DEFEA-DA EISA FDDI Controller, Dual Attachment}
+**Option**vref{4}: {boards:DEFEA-UA}{DEFEA-UA EISA FDDI Controller, UTP Attachment}
+**Option**vref{4}: {boards:DE435-AA}{DE435-AA PCI Etherworks Network Interface Card}
+**Option**vref{4}: {boards:CX101-xx}{CX101-xx EISA Asynchronous Multiplexer}
+**Options-end{AS2100-5-250}
 **End-systems-entry{AS2100-5-250}
 
 **Start-systems-entry{AS2100-5-300}{ALPHA}{ALPHASERVER}
