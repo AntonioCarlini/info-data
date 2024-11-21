@@ -1585,6 +1585,7 @@
 **Def-lref{3} = ref{CU-1995-04-11}
 **Def-lref{4} = ref{CU-1996-04-23}
 **Def-lref{5} = ref{QS-VMS-V084}
+**Def-lref{6} = ref{SOC-APR1995-SUP}
 **Announcement**vref{3}: 1995-04-11
 **FRS-date**vref{3}: 1995-04-11
 **Last-order**vref{4}: 1996-06-28
@@ -1596,9 +1597,58 @@
 **Num-proc: 1-2
 **CPU-chip**vref{3}: DECchip 21064A
 **CPU-clock**vref{3}: 233MHz
-**Backup-cache**htref{1}: 1MB
-**Minimum-memory**htref{1}: 128MB
+**Backup-cache**vref{6}: 1MB
+**Minimum-memory**vref{6}: 64MB
 **Maximum-memory**htref{1}: 1GB
+**Keyboard**vref{5}: LK471
+**Dimensions-start{AS1000-4-233}
+**Label: Pedestal
+**Height**vref{6}: 605 mm
+**Width**vref{6}: 430 mm
+**Depth**vref{6}: 650 mm
+**Weight**vref{6}: 54 kg (typical), 71 kg (maximum)
+**Dimensions-End{AS1000-4-233}
+**Power-start{AS1000-4-233-240V}
+**Label: 240V
+**Supply**vref{6}: 180 - 264V, 1 phase
+**I-nominal**vref{6}: 4.0A
+**I-inrush**vref{6}: 50A
+**Power-end{AS1000-4-233-240V}
+**Power-start{AS400-4-166-120V}
+**Label: 120V
+**Supply**vref{6}: 90 - 132V, single phase
+**I-nominal**vref{6}: 8.0A
+**I-inrush**vref{6}: 50A
+**Power-end{AS400-4-166-120V}
+**Options-start{AS1000-4-233}
+**Option-title: Enclosures
+**Option**vref{6}: {enclosures:BA720}{BA720 Pedestal Enclosure}
+**Option**vref{6}: {psus:H7895-AA}{H7895-AA 400W Power Supply}
+**Option-title: Memory
+**Option**vref{6}: {boards:MS452-AA}{MS452-AA 32MB Memory Board}
+**Option**vref{6}: {boards:MS452-BA}{MS452-BA 128MB Memory Board}
+**Option**vref{6}: {boards:MS452-UA}{MS452-UA 32MB Add-on Memory}
+**Option**vref{6}: {boards:MS452-UB}{MS452-UB 128MB Add-on Memory}
+**Option-title: Internal Storage
+**Option**vref{6}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{6}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
+**Option**vref{6}: {storage:RZ29B}{RZ29B 4.3GB Disk Drive}
+**Option-title: Graphics controllers
+**Option**vref{6}: {boards:ZLXp-E1}{ZLXp-E1  8 plane 2D/3D graphics}
+**Option**vref{6}: {boards:ZLXp-E2}{ZLXp-E2 24 plane 2D graphics}
+**Option**vref{6}: {boards:ZLXp-E3}{ZLXp-E3 24 plane 3D graphics, Z buffer}
+**Option-title: Controllers
+**Option**vref{6}: {boards:KZESC-AA}{KZESC-AA Single port EISA RAID Controller}
+**Option**vref{6}: {boards:KZESC-BA}{KZESC-BA Three port EISA RAID Controller}
+**Option**vref{6}: {boards:KZPAA-AA}{KZPAA-AA PCI Fast SCSI-2 Controller}
+**Option**vref{6}: {boards:DE435-AA}{DE435-AA Ethernet Controller}
+**Option**vref{6}: {boards:DE422-SA}{DE422-SA EISA Network Controller}
+**Option**vref{6}: {boards:DEFEA-AA}{DEFEA-AA EISA FDDI Controller, Single Attachment}
+**Option**vref{6}: {boards:DEFEA-DA}{DEFEA-DA EISA FDDI Controller, Dual Attachment}
+**Option**vref{6}: {boards:DW300-AA}{DW300-AA EISA Token Ring Adapter}
+**Option**vref{6}: {boards:DEFPA-AA}{DEFPA-AA PCI FDDIcontroller, Single Attachment}
+**Option**vref{6}: {boards:DEFPA-DA}{DEFPA-DA PCI FDDIcontroller, Dual Attachment}
+**Options-end{AS1000-4-233}
 **End-systems-entry{AS2000-4-233}
 
 **Start-systems-entry{AS2000-4-275}{ALPHA}{ALPHASERVER}
@@ -1608,6 +1658,7 @@
 **Def-lref{2} = ref{CU-V5-11A}
 **Def-lref{3} = ref{CU-1995-04-11}
 **Def-lref{4} = ref{QS-VMS-V084}
+**Def-lref{5} = ref{SOC-APR1995-SUP}
 **Announcement**vref{3}: 1995-04-11
 **FRS-date**vref{3}: 1995-04-11
 **OS-support-vms**vref{3}: V6.1
@@ -1622,6 +1673,55 @@
 **Maximum-memory**vref{3}: 1GB
 **BUS-PCI**vref{3}: 3 slots
 **BUS-EISA**vref{3}: 7
+**Keyboard**vref{5}: LK471
+**Dimensions-start{AS1000-4-233}
+**Label: Pedestal
+**Height**vref{5}: 605 mm
+**Width**vref{5}: 430 mm
+**Depth**vref{5}: 650 mm
+**Weight**vref{5}: 54 kg (typical), 71 kg (maximum)
+**Dimensions-End{AS1000-4-233}
+**Power-start{AS1000-4-233-240V}
+**Label: 240V
+**Supply**vref{5}: 180 - 264V, 1 phase
+**I-nominal**vref{5}: 4.0A
+**I-inrush**vref{5}: 50A
+**Power-end{AS1000-4-233-240V}
+**Power-start{AS400-4-166-120V}
+**Label: 120V
+**Supply**vref{5}: 90 - 132V, single phase
+**I-nominal**vref{5}: 8.0A
+**I-inrush**vref{5}: 50A
+**Power-end{AS400-4-166-120V}
+**Options-start{AS1000-4-233}
+**Option-title: Enclosures
+**Option**vref{5}: {enclosures:BA720}{BA720 Pedestal Enclosure}
+**Option**vref{5}: {psus:H7895-AA}{H7895-AA 400W Power Supply}
+**Option-title: Memory
+**Option**vref{5}: {boards:MS452-AA}{MS452-AA 32MB Memory Board}
+**Option**vref{5}: {boards:MS452-BA}{MS452-BA 128MB Memory Board}
+**Option**vref{5}: {boards:MS452-UA}{MS452-UA 32MB Add-on Memory}
+**Option**vref{5}: {boards:MS452-UB}{MS452-UB 128MB Add-on Memory}
+**Option-title: Internal Storage
+**Option**vref{5}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{5}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
+**Option**vref{5}: {storage:RZ29B}{RZ29B 4.3GB Disk Drive}
+**Option-title: Graphics controllers
+**Option**vref{5}: {boards:ZLXp-E1}{ZLXp-E1  8 plane 2D/3D graphics}
+**Option**vref{5}: {boards:ZLXp-E2}{ZLXp-E2 24 plane 2D graphics}
+**Option**vref{5}: {boards:ZLXp-E3}{ZLXp-E3 24 plane 3D graphics, Z buffer}
+**Option-title: Controllers
+**Option**vref{5}: {boards:KZESC-AA}{KZESC-AA Single port EISA RAID Controller}
+**Option**vref{5}: {boards:KZESC-BA}{KZESC-BA Three port EISA RAID Controller}
+**Option**vref{5}: {boards:KZPAA-AA}{KZPAA-AA PCI Fast SCSI-2 Controller}
+**Option**vref{5}: {boards:DE435-AA}{DE435-AA Ethernet Controller}
+**Option**vref{5}: {boards:DE422-SA}{DE422-SA EISA Network Controller}
+**Option**vref{5}: {boards:DEFEA-AA}{DEFEA-AA EISA FDDI Controller, Single Attachment}
+**Option**vref{5}: {boards:DEFEA-DA}{DEFEA-DA EISA FDDI Controller, Dual Attachment}
+**Option**vref{5}: {boards:DW300-AA}{DW300-AA EISA Token Ring Adapter}
+**Option**vref{5}: {boards:DEFPA-AA}{DEFPA-AA PCI FDDIcontroller, Single Attachment}
+**Option**vref{5}: {boards:DEFPA-DA}{DEFPA-DA PCI FDDIcontroller, Dual Attachment}
+**Options-end{AS1000-4-233}
 **End-systems-entry{AS2000-4-275}
 
 **Start-systems-entry{AS2000-5-250}{ALPHA}{ALPHASERVER}
