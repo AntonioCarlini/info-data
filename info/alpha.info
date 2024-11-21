@@ -1253,9 +1253,6 @@
 **BUS-PCI**vref{4}: 2 slots
 **BUS-EISA**vref{4}: 7 slots
 **BUS-PCI-or-EISA**vref{4}: 1 slot
-**Options-start{AS1000-4-233}
-**Option-title: Enclosures
-**Option**vref{6}: {psus:H7895-AA}{H7895-AA 400W Power Supply}
 **Dimensions-start{AS1000-4-233-Pedestal}
 **Label: Pedestal
 **Height**vref{6}: 442 mm
@@ -1279,10 +1276,12 @@
 **Power-start{AS400-4-166-120V}
 **Label: 120V
 **Supply**vref{6}: 90 - 132V, single phase
-**I-nomical**vref{6}: 8.0A
+**I-nominal**vref{6}: 8.0A
 **I-inrush**vref{6}: 50A
 **Power-end{AS400-4-166-120V}
-**Options-start{AS400-4-166}
+**Options-start{AS1000-4-233}
+**Option-title: Enclosures
+**Option**vref{6}: {psus:H7895-AA}{H7895-AA 400W Power Supply}
 **Option-title: Memory
 **Option**vref{6}: {boards:PB7MA-AA}{PB7MA-AA 16MB Memory Kit (5 x 4MB SIMMs, 70ns)}
 **Option**vref{6}: {boards:PB7MA-AB}{PB7MA-AB 32MB Memory Kit (5 x 8MB SIMMs, 70ns)}
