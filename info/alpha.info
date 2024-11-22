@@ -957,7 +957,7 @@
 **Option**vref{6}: {storage:RZ28}{RZ28 2.1GB Disk Drive}
 **Option**vref{6}: {storage:TLZ06}{TLZ06 4GB DAT Drive}
 **Option**vref{6}: {storage:TZ86}{TZ86 6GB DLT Tape Drive}
-**Option**vref{6}: {storage:TZ87}{TZ86 20GB DLT Tape Drive}
+**Option**vref{6}: {storage:TZ87}{TZ87 20GB DLT Tape Drive}
 **Option**vref{6}: {storage:EZ54R}{EZ54R 428MB SCSI Solid State Disk}
 **Option**vref{6}: {storage:EZ51R}{EZ51R 107MB SCSI Solid State Disk}
 **Options-end{DEC7700}
@@ -2275,17 +2275,65 @@
 **Desc-name: AlphaServer 8200 5/300
 **Def-lref{1} = ref{SPEC-res-9512}
 **Def-lref{2} = ref{CU-1995-04-11}
+**Def-lref{3} = ref{SOC-AUG1994-SUP}
 **Announcement**vref{2}: 1995-04-11
 **FRS-date**vref{2}: 1995-04-11
 **OS-support-VMS**vref{2}: V6.2
 **OS-support-DU**vref{2}: V3.2
 **CPU-clock**vref{2}: 300 MHz
+**Backup-cache**vref{3}: 4MB
 **Num-proc**vref{2}: 1-6
 **SPECint95**vref{1}: 7.43 (1-CPU)
 **SPECfp95**vref{1}: 12.4 (1-CPU)
 **Minimum-memory**vref{2}: 128 MB
 **Maximum-memory**vref{2}: 6 GB
 **BUS-EISA**vref{2}: 8 slots
+**Dimensions-start{AS8200-5-300}
+**Height**vref{3}: 1700 mm
+**Width**vref{3}: 600 mm
+**Depth**vref{3}:  925 mm
+**Weight**vref{3}: 318kg - 591kg
+**Dimensions-end{AS8200-5-300}
+**Power-start{AS8200-5-300-240V}
+**Label: 240V
+**Supply**vref{3}: 220 - 240 1-phase
+**I-inrush**vref{3}: 80A
+**I-max**vref{3}: 16Arms
+**Power-end{AS8200-5-300-240V}
+**Options-start{AS8200-5-300}
+**Option-title: Enclosures
+**Option**vref{3}: {enclosures:DWLPA-CA}{DWLPA-CA AlphaServer 8200 System Cabinet- PCI Shelf Mounting Box}
+**Option**vref{3}: {enclosures:DWLPA-CB}{DWLPA-CB AlphaServer 8200 Expansion Cabinet- PCI Shelf Mounting Box}
+**Option**vref{3}: {enclosures:KFE07-BA}{KFE07-BA AlphaServer 8200 EISA Bridge Option}
+**Option**vref{3}: {psus:H7266-AD}{H7266-AD Single Phase 48V Redundant Power Supply, 60Hz}
+**Option**vref{3}: {psus:H7266-AE}{H7266-AE Single Phase 48V Redundant Power Supply, 50Hz}
+**Option**vref{3}: {psus:H7267-AA}{H7267-AA Battery Backup Option Kit}
+**Option**vref{3}: {psus:H7239-AA}{H7239-AA Battery Pack Replacement Option (for H7266-Ax)}
+**Option-title: Memory
+**Option**vref{3}: {boards:MS7CC-BA}{MS7CC-BA 128MB memory Module}
+**Option**vref{3}: {boards:MS7CC-CA}{MS7CC-CA 256MB memory Module}
+**Option**vref{3}: {boards:MS7CC-DA}{MS7CC-DA 512MB memory Module}
+**Option**vref{3}: {boards:MS7CC-EA}{MS7CC-EA 1073MB memory Module}
+**Option**vref{3}: {boards:MS7CC-FA}{MS7CC-FA 2147MB memory Module}
+**Option-title: Internal Storage
+**Option**vref{3}: {storage:RZ26L}{RZ26L 1.05GB Hard Disk}
+**Option**vref{3}: {storage:RZ28}{RZ28 2.1GB Hard Disk}
+**Option**vref{3}: {storage:TLZ07}{TLZ07 8.0GB DAT Drive}
+**Option**vref{3}: {storage:TZ86}{TZ86 6GB DLT Tape Drive}
+**Option**vref{3}: {storage:TZ87}{TZ87 20GB DLT Tape Drive}
+**Option**vref{3}: {storage:EZ54R}{EZ54R 428MB SCSI Solid State Disk}
+**Option**vref{3}: {storage:EZ51R}{EZ51R 107MB SCSI Solid State Disk}
+**Option-title: Controllers
+**Option**vref{3}: {boards:KZPSA-AA}{KZPSA-AA PCI FWD SCSI Adapter}
+**Option**vref{3}: {boards:KZPSC-AA}{KZPSC-AA PCI SCSI RAID Controller}
+**Option**vref{3}: {boards:KFTHA-AA}{KFTHA-AA AlphaServer 8200 System I/O Module}
+**Option**vref{3}: {boards:KFTIA-AA}{KFTIA-AA AlphaServer 8200 System I/O Module}
+**Option**vref{3}: {boards:DEFPZ-AA}{DEFPZ-AA FDDIcontroller, Single Attachment}
+**Option**vref{3}: {boards:DEFPZ-UA}{DEFPZ-UA FDDIcontroller, UTP}
+**Option**vref{3}: {boards:DE435-AA}{DE435-AA PCI Etherworks Network Interface Card}
+**Option**vref{3}: {boards:DNSES-AA}{DNSES-AA EISA Synchronous Communications Controller}
+**Option**vref{3}: {boards:DW300-AA}{DW300-AA EISA Token Ring Adapter}
+**Options-end{AS8200-5-300}
 **End-systems-entry{AS8200-5-300}
 
 **Start-systems-entry{AS8200-5-350}{ALPHA}{ALPHASERVER}
