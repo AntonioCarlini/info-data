@@ -233,6 +233,7 @@
 **Def-lref{5} = ref{CU-V8-1B}
 **Def-lref{6} = ref{CU-1995-04-11}
 **Def-lref{7} = ref{DEC-PR-1995-04-17-VAX4106A}
+**Def-lref{8} = ref{SOC-APR1995-SUP}
 **Announcement**vref{6}: 1995-04-11
 **FRS-date**vref{6}: 1995-05-19
 **Html-target: vax410x
@@ -281,6 +282,27 @@
 **Depth**vref{1}: 400.0mm
 **Weight**vref{1}: 18.18kg
 **Dimensions-end{VAX4106}
+**Options-start{VAX4106}
+**Option-title: Enclosures
+**Option**vref{8}: {enclosures:BA42-B}{BA42-B Enclosure for MicroVAX 3100 Model 40}
+**Option-title: Memory
+**Option**vref{8}: {memory:MS44L-BC}{MS44L-BC 16MB ECC Memory Option}
+**Option**vref{8}: {memory:MS44-DC}{MS44-DC 64MB ECC Memory Option}
+**Option-title: Internal mass storage options
+**Option**vref{8}: {storage:RX26}{RX26 2.8MB Diskette Drive}
+**Option**vref{8}: {storage:RZ26L}{RZ26L 1.05GB Hard Disk}
+**Option**vref{8}: {storage:RZ28}{RZ28 2.1GB Hard Disk}
+**Option**vref{8}: {storage:RF36}{1.6GB DSSI Disk}
+**Option**vref{8}: {storage:RRD43}{SCSI CDROM drive}
+**Option**vref{8}: {storage:TZK11}{2.0GB QIC Tape Drive}
+**Option**vref{8}: {storage:TLZ07}{8GB DAT Drive}
+**Option-title: Communications Interfaces
+**Option**vref{8}: {comms:DHW42}{8-/16-line Asynchronous Multiplexer}
+**Option**vref{8}: {comms:DSW42}{2-line Synchronous Interface}
+**Option**vref{8}: {comms:DEQRA-CA}{DEQRA-CA DEC TRNcontroller 100 802.5/Token-Ring Controller}
+**Option**vref{8}: {comms:DEFQA-SA}{DEFQA-SA DEC FDDIcontroller Single-Attached}
+**Option**vref{8}: {comms:DEFQA-DA}{DEFQA-DA DEC FDDIcontroller Dual-Attached}
+**Options-end{VAX4106}
 **End-systems-entry{VAX4106}
 
 **Start-systems-entry{VAX4108}{VAX}{VAX4000}
@@ -5228,6 +5250,7 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Def-lref{3} = ref{CU-1995-04-11}
 **Def-lref{4} = ref{CU-1995-05-15}
 **Def-lref{5} = ref{Online-SOC-VS4096-1999-01-25}
+**Def-lref{6} = ref{SOC-APR1995-SUP}
 **document=doc{DEC:EK-VAXST-CL-B01} ! VAXstation 4000 Model 96 Update Information
 **Announcement**vref{3}: 1995-04-11
 **Last-order**vref{2}: 1999-09-30
@@ -5271,8 +5294,10 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Option**vref{5}: {memory:MS44L-EA}{MS44L-EA 4MB Parity Memory (1 x 4MB 60ns SIMM)}
 **Option**vref{5}: {memory:MS44L-FA}{MS44L-FA 16MB Parity Memory (4 x 4MB 60ns SIMM)}
 **option-title: Internal Storage
+**Option**vref{6}: {storage:RX26L}{RX26L 2.8MB 3.5-inch Diskette Driver}
 **Option**vref{5}: {storage:RRD47}{RRD47 CDROM Drive}
 **Option**vref{5}: {storage:TLZ10}{TLZ10 8.0GB DAT Drive}
+**Option**vref{6}: {storage:TZK11}{TZK11 2GB QIC Tape Drive}
 **Option**vref{5}: {storage:TZK20}{TZK20 2.0GB QIC Tape Drive}
 **Option**vref{5}: {storage:RZ29L}{RZ29L 4.3GB Disk Drive}
 **Option**vref{5}: {storage:RZ40}{RZ40 9.1GB Disk Drive}
