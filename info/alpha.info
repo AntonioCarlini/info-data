@@ -2390,6 +2390,7 @@
 **Desc-name: AlphaServer 8400 5/300
 **Def-lref{1} = ref{SPEC-res-9512}
 **Def-lref{2} = ref{CU-1995-04-11}
+**Def-lref{3} = ref{SOC-APR1995-SUP}
 **Announcement**vref{2}: 1995-04-11
 **FRS-date**vref{2}: 1995-04-11
 **OS-support-VMS**vref{2}: V6.2
@@ -2402,12 +2403,53 @@
 **SPECfp95**vref{1}: 12.4 (1-CPU)
 **BUS-PCI**vref{2}: 144 slots (max)
 **BUS-EISA**vref{2}: 8 slots
-**Dimensions-start{8400}
+**Dimensions-start{8400-5-300}
 **Height**vref{2}: 1700 mm
 **Width**vref{2}: 800 mm
 **Depth**vref{2}: 875 mm
 **Weight**vref{2}: 408 kg (without batteries)
-**Dimensions-End{8400}
+**Dimensions-End{8400-5-300}
+**Options-start{AS8400-5-300}
+**Option-title: Enclosures
+**Option**vref{3}: {enclosures:DWLPA-AA}{DWLPA-AA AlphaServer 8400 System Cabinet- PCI Shelf Mounting Box}
+**Option**vref{3}: {enclosures:DWLPA-AB}{DWLPA-AB AlphaServer 8400 System Cabinet- PCI Shelf Mounting Box}
+**Option**vref{3}: {enclosures:DWLPA-BA}{DWLPA-BA AlphaServer 8400 Second PCI Expansion Box for Mounting in DWLPA-AA}
+**Option**vref{3}: {enclosures:BA658-AA}{BA658-AA SCSI StorageWorks Shelf (BA350-LB)}
+**Option**vref{3}: {enclosures:KFE70-AA}{KFE70-AA EISA Bridge for AlphaServer 8400}
+**Option**vref{3}: {enclosures:DWLMA-AA}{DWLMA-AA XMI Plug-in Unit for AlphaServer 8400 System Cabinet}
+**Option**vref{3}: {enclosures:DWLMA-BA}{DWLMA-BA XMI Plug-in Unit for AlphaServer 8400 Expansion Cabinet}
+**Option**vref{3}: {enclosures:DWLAA-AA}{DWLAA-AA Futurebus+ Plug-in Unit for AlphaServer 8400 System Cabinet}
+**Option**vref{3}: {enclosures:DWLAA-BA}{DWLAA-BA Futurebus+ Plug-in Unit for AlphaServer 8400 System Cabinet}
+**Option**vref{3}: {enclosures:HF900-BA/BB/BC}{HF900-BA/BB/BC I/O Expansion Cabinet for AlphaServer 8400 Three-Phase Power}
+**Option**vref{3}: {enclosures:HF900-BD}{HF900-BD I/O Expansion Cabinet for AlphaServer 8400 Single-Phase Power}
+**Option-title: Memory
+**Option**vref{3}: {boards:MS7CC-BA}{MS7CC-BA 128MB memory Module}
+**Option**vref{3}: {boards:MS7CC-CA}{MS7CC-CA 256MB memory Module}
+**Option**vref{3}: {boards:MS7CC-DA}{MS7CC-DA 512MB memory Module}
+**Option**vref{3}: {boards:MS7CC-EA}{MS7CC-EA 1073MB memory Module}
+**Option**vref{3}: {boards:MS7CC-FA}{MS7CC-FA 2147MB memory Module}
+**Option-title: Internal Storage
+**Option**vref{3}: {storage:RZ26L}{RZ26L 1.05GB Hard Disk}
+**Option**vref{3}: {storage:RZ28}{RZ28 2.1GB Hard Disk}
+**Option**vref{3}: {storage:TLZ07}{TLZ07 8.0GB DAT Drive}
+**Option**vref{3}: {storage:TZ86}{TZ86 6GB DLT Tape Drive}
+**Option**vref{3}: {storage:TZ87}{TZ87 20GB DLT Tape Drive}
+**Option**vref{3}: {storage:EZ54R}{EZ54R 428MB SCSI Solid State Disk}
+**Option**vref{3}: {storage:EZ51R}{EZ51R 107MB SCSI Solid State Disk}
+**Option-title: Controllers
+**Option**vref{3}: {boards:KZPSA-BB}{KZPSA-BB PCI FWD SCSI Adapter}
+**Option**vref{3}: {boards:KZPSC-AA}{KZPSC-AA PCI SCSI RAID Controller}
+**Option**vref{3}: {boards:KFTHA-AA}{KFTHA-AA AlphaServer 8200/8400 System I/O Module}
+**Option**vref{3}: {boards:KFTIA-AA}{KFTIA-AA AlphaServer 8200/8400 System I/O Module}
+**Option**vref{3}: {boards:KZMSA-AB}{KZMSA-AB Fast singled-ended SCSI-2 Disk/Tape Adapter}
+**Option**vref{3}: {boards:KFMSB-AA}{KFMSB-AA DSSI Adapter}
+**Option**vref{3}: {boards:CIXCD-AC}{CIXCD-AC XMI CI Controller}
+**Option**vref{3}: {boards:DEFPZ-AA}{DEFPZ-AA FDDIcontroller, Single Attachment}
+**Option**vref{3}: {boards:DEFPZ-UA}{DEFPZ-UA FDDIcontroller, UTP}
+**Option**vref{3}: {boards:DE435-AA}{DE435-AA PCI Etherworks Network Interface Card}
+**Option**vref{3}: {boards:DNSES-AA}{DNSES-AA EISA Synchronous Communications Controller}
+**Option**vref{3}: {boards:DW300-AA}{DW300-AA EISA Token Ring Adapter}
+**Options-end{AS8400-5-300}
 **End-systems-entry{AS8400-5-300}
 
 **Start-systems-entry{AS8400-5-350}{ALPHA}{ALPHASERVER}
