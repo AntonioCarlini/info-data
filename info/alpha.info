@@ -3514,22 +3514,103 @@
 **SPECfp95**vref{1}: 21.3 
 **End-systems-entry{DPWS-5-600au}
 
-**Start-systems-entry{Multia}{ALPHA}{MULTIA}
-**Sys-name: Multia			
-**Desc-name: Multia			
+**Start-systems-entry{Multia-VX40}{ALPHA}{MULTIA}
+**Sys-name: Multia VX40
+**Desc-name: Multia VX40			
 **Def-lref{1} = ref{CU-1994-12-01}
+**Def-lref{2} = ref{EK-MULTS-IN.C01}
+**Def-lref{3} = ref{SOC-APR1995-SUP}
+! 2 PCMCIA slots
+! PSU (for all): 100-120/220-240V 30A/40A inrush, 74.5 W
 **Announcement**vref{1}: 1994-12-01
 **OS-support-VMS: not supported
 **OS-support-NT**vref{1}: V3.5
 **Minimum-memory**vref{1}: 24 MB
 **Maximum-memory**vref{1}: 256 MB
+**CPU-chip**vref{2}: DECchip 21066-AA
+**CPU-clock**vref{2}: 166MHz
+**CPU-cycle**vref{2}: 6ns
+**Backup-cache**vref{2}: 256KB
+**Keyboard**vref{1}: LK411 or PCXAL
 **Dimensions-start{Multia}
+**Height**vref{1,2}: 710 mm
+**Width**vref{1,2}: 317 mm
+**Depth**vref{1,2}: 317 mm
+**Weight**vref{1,2}: 6.1 kg maximum.
+**Dimensions-End{Multia}
+**BUS-PCMCIA**vref{2}: 2 slots
+**Options-start{Multia-VX40}
+**Option-title: Memory
+**Option**vref{2}: {memory:VX40M-AA}{VX40M-AA 8 MB (Two 4 MB SIMMs}}
+**Option**vref{2}: {memory:VX40M-AB}{VX40M-AB 16 MB (Two 8 MB SIMMs)}
+**Option**vref{2}: {memory:54-23627-AA}{54-23627-AA 12 MB (One 12 MB SIMM) (VX41, VX42 only)}
+**Option**vref{2}: {memory:VX40M-AC}{VX40M-AC 32 MB (Two 16 MB SIMMs)}
+**Option**vref{2}: {memory:VX40M-AD}{VX40M-AD 64 MB (Two 32 MB SIMMs)}
+**Options-end{Multia-VX40}
+**End-systems-entry{Multia-VX40}
+
+**Start-systems-entry{Multia-VX41}{ALPHA}{MULTIA}
+**Sys-name: Multia VX41
+**Desc-name: Multia VX41
+**Def-lref{1} = ref{EK-MULTS-IN.C01}
+**OS-support-VMS: not supported
+**OS-support-NT**vref{1}: V3.5
+**Minimum-memory**vref{1}: 24 MB
+**Maximum-memory**vref{1}: 128 MB
+**CPU-chip**vref{1}: DECchip 21066-AA
+**CPU-clock**vref{1}: 166MHz
+**CPU-cycle**vref{1}: 6ns
+**Backup-cache**vref{1}: 256KB (upgradeable to 512KB or 1MB)
+**Keyboard**vref{1}: LK411 or PCXAL
+**BUS-PCMCIA**vref{1}: 2 slots
+**Dimensions-start{Multia-VX41}
 **Height**vref{1}: 710 mm
 **Width**vref{1}: 317 mm
 **Depth**vref{1}: 317 mm
 **Weight**vref{1}: 6.1 kg maximum.
-**Dimensions-End{Multia}
-**End-systems-entry{Multia}
+**Dimensions-End{Multia-VX41}
+**Options-start{Multia-VX41}
+**Option-title: Memory
+**Option**vref{1}: {memory:VX40M-AA}{VX40M-AA 8 MB (Two 4 MB SIMMs}}
+**Option**vref{1}: {memory:VX40M-AB}{VX40M-AB 16 MB (Two 8 MB SIMMs)}
+**Option**vref{1}: {memory:54-23627-AA}{54-23627-AA 12 MB (One 12 MB SIMM)}
+**Option**vref{1}: {memory:VX40M-AC}{VX40M-AC 32 MB (Two 16 MB SIMMs)}
+**Option**vref{1}: {memory:VX40M-AD}{VX40M-AD 64 MB (Two 32 MB SIMMs)}
+**Option**vref{1}: {memory:VX41M-AA}{VX41M-AA 256K cache SIMM (One 256K Cache SIMM)}
+**Option**vref{1}: {memory:VX41M-AB}{VX41M-AB 512K cache SIMM (One 512K Cache SIMM)}
+**Option**vref{1}: {memory:VX41M-AC}{VX41M-AC 1 MB cache SIMM (One 1 MB Cache SIMM)}
+**Options-end{Multia-VX41}
+**End-systems-entry{Multia-VX41}
+
+**Start-systems-entry{Multia-VX42}{ALPHA}{MULTIA}
+**Sys-name: Multia VX42
+**Desc-name: Multia VX42
+**Def-lref{1} = ref{EK-MULTS-IN.C01}
+**OS-support-VMS: not supported
+**OS-support-NT**vref{1}: V3.5
+**Minimum-memory**vref{1}: 24 MB
+**Maximum-memory**vref{1}: 128 MB
+**CPU-chip**vref{1}: DECchip 21068-AA
+**CPU-clock**vref{1}: 233MHz
+**CPU-cycle**vref{1}: 4.3ns
+**Backup-cache**vref{1}: 256KB (upgradeable to 512KB or 1MB)
+**Keyboard**vref{1}: LK411 or PCXAL
+**BUS-PCMCIA**vref{1}: 2 slots
+**Dimensions-start{Multia-VX42}
+**Height**vref{1}: 710 mm
+**Width**vref{1}: 317 mm
+**Depth**vref{1}: 317 mm
+**Weight**vref{1}: 6.1 kg maximum.
+**Dimensions-End{Multia-VX42}
+**Options-start{Multia-VX42}
+**Option-title: Memory
+**Option**vref{1}: {memory:VX40M-AA}{VX40M-AA 8 MB (Two 4 MB SIMMs}}
+**Option**vref{1}: {memory:VX40M-AB}{VX40M-AB 16 MB (Two 8 MB SIMMs)}
+**Option**vref{1}: {memory:54-23627-AA}{54-23627-AA 12 MB (One 12 MB SIMM)}
+**Option**vref{1}: {memory:VX40M-AC}{VX40M-AC 32 MB (Two 16 MB SIMMs)}
+**Option**vref{1}: {memory:VX40M-AD}{VX40M-AD 64 MB (Two 32 MB SIMMs)}
+**Options-end{Multia-VX42}
+**End-systems-entry{Multia-VX42}
 
 **Start-systems-entry{DS3305-6400A}{ALPHA}{DIGITALSERVER}
 **Sys-name: DIGITAL Server 3305 6400A

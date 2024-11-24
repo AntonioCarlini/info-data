@@ -463,6 +463,12 @@
   - CTI slot details
   - pdp11
   - io
+- BUS-PCMCIA:
+  - PCMCIA
+  - PCMCIA slot details
+  - - alpha
+    - PC
+  - io
 - LAN-support:
   - LAN support
   - Ethernet support details
