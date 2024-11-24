@@ -206,6 +206,36 @@
 **Desc-name: Prioris HX
 **End-systems-entry{PRI-HX}
 
+**Start-systems-entry{PRI-HX-590}{DECPC}{PRIORIS}
+**Def-lref{1} = ref{K-MN-SD00000-02-JG00.A}
+**Def-lref{2} = ref{SOC-APR1995-SUP}
+**Sys-name: Prioris HX 590
+**Desc-name: Prioris HX 590
+**CPU-clock**vref{1}: 90MHz
+**Num-proc**vref{2}: 1
+**Minimum-memory**vref{1}: 16 MB ECC, 32 MB Parity
+**Maximum-memory**vref{1}: 256 MB ECC, 512 MB Parity
+**Dimensions-start{{PRI-HX-590}
+**Width**vref{2}: 340.4 mm
+**Depth**vref{2}: 125 mm
+**Dimensions-end{{PRI-HX-590}
+**End-systems-entry{PRI-HX-590}
+
+**Start-systems-entry{PRI-HX-590DP}{DECPC}{PRIORIS}
+**Def-lref{1} = ref{K-MN-SD00000-02-JG00.A}
+**Def-lref{2} = ref{SOC-APR1995-SUP}
+**Sys-name: Prioris HX 590DP
+**Desc-name: Prioris HX 590DP
+**CPU-clock**vref{1}: 90MHz
+**Num-proc**vref{2}: 2
+**Minimum-memory**vref{1}: 32 MB ECC, 32 MB Parity
+**Maximum-memory**vref{1}: 256 MB ECC, 512 MB Parity
+**Dimensions-start{{PRI-HX-590DP}
+**Width**vref{2}: 340.4 mm
+**Depth**vref{2}: 125 mm
+**Dimensions-end{{PRI-HX-590DP}
+**End-systems-entry{PRI-HX-590DP}
+
 **Start-systems-entry{PRI-XL6000}{DECPC}{PRIORIS}
 **Sys-name: Prioris XL 6000
 **Desc-name: Prioris XL 6000
