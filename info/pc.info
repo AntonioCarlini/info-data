@@ -399,3 +399,30 @@
 **Dimensions-end{DECstation350}
 **End-systems-entry{DECPC-DECstation350}
 
+**Start-systems-entry{Multia-VX51}{ALPHA}{MULTIA}
+**Sys-name: Multia VX51	
+**Desc-name: Multia VX51
+**Def-lref{1} = ref{EK-MULTS-IN.C01}
+!**OS-support-NT**vref{1}: V3.5
+**Minimum-memory**vref{1}: 24 MB
+**Maximum-memory**vref{1}: 128 MB
+**CPU-chip**vref{1}: Intel Pentium
+**CPU-clock**vref{1}: 100MHz
+**Backup-cache**vref{1}: 256KB (upgradeable to 512KB or 1MB)
+**Keyboard**vref{1}: LK411 or PCXAL
+!**BUS-PCMCIA**vref{1}: 2 slots
+**Dimensions-start{Multia-VX42}
+**Height**vref{1}: 710 mm
+**Width**vref{1}: 317 mm
+**Depth**vref{1}: 317 mm
+**Weight**vref{1}: 6.1 kg maximum.
+**Dimensions-End{Multia-VX42}
+**Options-start{Multia-VX51}
+**Option-title: Memory
+**Option**vref{1}: {memory:VX40M-AA}{VX40M-AA 8 MB (Two 4 MB SIMMs}}
+**Option**vref{1}: {memory:VX40M-AB}{VX40M-AB 16 MB (Two 8 MB SIMMs)}
+**Option**vref{1}: {memory:VX40M-AC}{VX40M-AC 32 MB (Two 16 MB SIMMs)}
+**Option**vref{1}: {memory:VX40M-AD}{VX40M-AD 64 MB (Two 32 MB SIMMs)}
+**Options-end{Multia-VX51}
+**End-systems-entry{Multia-VX51}
+
