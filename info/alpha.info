@@ -3357,19 +3357,52 @@
 **Def-lref{1} = ref{SPEC-res-9509}
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1995-07-15}
+**Def-lref{4} = ref{SOC-DEC1995-SUP}
 **Announcement**vref{3}: 1995-07-15
 **FRS-date**vref{3}: 1995-07-15
 **OS-support-vms: V6.2-1H3
-**CPU-clock**vref{3}: 266 MHz
-**SPECint92**vref{3}: 288
-**SPECfp92**vref{3}: 428
+**CPU-chip**vref{4}: DECchip 21164
+**CPU-clock**vref{3,4}: 266 MHz
+**SPECint92**vref{3,4}: 288
+**SPECfp92**vref{3,4}: 428
 !**SPECint95**vref{1}: 6.30 (2MB cache) 6.43 (4MB cache)
 !**SPECfp95**vref{1}: 10.5 (2MB cache) 11.2 (4MB cache)
 !**SPECint95: 7.29 (2MB cache) ** double check against the above?
 **SPECint95**vref{2}: 7.91
 **SPECfp95**vref{2}: 11.8
 **Minimum-memory**vref{3}: 32 MB
-**Maximum-memory**vref{3}: 1 GB
+**Maximum-memory**vref{3,4}: 1 GB
+**Bus-PCI**vref{4}: 3 64-bit slots @ 264MB/s, 1 32-bit slot @ 132MB/s
+**Bus-PCI-or-EISA**vref{4}: 1 slot
+**Bus-EISA**vref{4}: 3 slots
+**Keyboard**vref{4}: LK471 or LK461
+**Dimensions-start{AST600-5-266}
+**Height**vref{4}: 469.9 mm
+**Width**vref{4}: 241.3 mm
+**Depth**vref{4}: 660.4 mm
+**Weight**vref{4}: 31.8 kg
+**Dimensions-end{AST600-5-266}
+**Power-start{AST600-5-266-240V}
+**Label: 240V
+**Supply**vref{4}: 190 - 256V, single phase
+**Power**vref{4}: 400W
+**I-max**vref{4}: 4.0A
+**Power-end{AST600-5-266-240V}
+**Power-start{AST600-5-266-120V}
+**Label: 120V
+**Supply**vref{4}: 90 - 128V, single phase
+**Power**vref{4}: 400W
+**I-max**vref{4}: 8.0A
+**Power-end{AST600-5-266-120V}
+**Options-start{AST600-5-266}
+**Option-title: Memory
+**Option**vref{4}: {boards:MSP01-CA}{MSP01-CA 32MB SIMM package}
+**Option**vref{4}: {boards:MSP01-CB}{MSP01-CB 64MB SIMM package}
+**Option**vref{4}: {boards:MSP01-CC}{MSP01-CC 128MB SIMM package}
+**Option**vref{4}: {boards:MSP01-CD}{MSP01-CD 256MB SIMM package}
+**Option**vref{4}: {memory:MSP01-EA}{MSP01-EA 2MB Cache for AlphaStation 600 5/266}
+**Option**vref{4}: {memory:MSP01-EB}{MSP01-EB 4MB Cache for AlphaStation 600 5/266}
+**Options-end{AST600-5-266}
 **End-systems-entry{AST600-5-266}
 
 **Start-systems-entry{AST600-5-300}{ALPHA}{AlphaStation}
