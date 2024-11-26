@@ -1312,6 +1312,7 @@
 **def-lref{2} = ref{CU-V6-10B}
 **def-lref{3} = ref{CU-V5-11A}
 **def-lref{4} = ref{CU-1995-10-15}
+**def-lref{5} = ref{SOC-DEC1995-SUP}
 !-- [1] has more data about physical size -->
 **Announcement**vref{4}: 1995-10-15
 **Num-proc: 1
@@ -1321,6 +1322,53 @@
 **BUS-PCI**vref{4}: 2 slots
 **BUS-EISA**vref{4}: 7 slots
 **BUS-PCI-or-EISA**vref{4}: 1 slot
+**Keyboard**vref{5}: LK461 or LK471
+**Dimensions-start{AS1000-4-266-Pedestal}
+**Label: Pedestal
+**Height**vref{5}: 442 mm
+**Width**vref{5}: 358 mm
+**Depth**vref{5}: 533 mm
+**Weight**vref{5}: 39 kg (typical), 51 kg (maximum)
+**Dimensions-End{AS1000-4-266-Pedestal}
+**Power-start{AS1000-4-266-240V}
+**Label: 240V
+**Supply**vref{5}: 180 - 264V, 1 phase
+**I-nominal**vref{5}: 4.0A
+**I-inrush**vref{5}: 50A
+**Power-end{AS1000-4-266-240V}
+**Power-start{AS1000-4-266-120V}
+**Label: 120V
+**Supply**vref{5}: 90 - 132V, single phase
+**I-nominal**vref{5}: 8.0A
+**I-inrush**vref{5}: 50A
+**Power-end{AS1000-4-266-120V}
+**Options-start{AS1000-4-266}
+**Option-title: Enclosures
+**Option**vref{5}: {psus:H7290-AA}{H7290-AA 400W Power Supply}
+**Option-title: Memory
+**Option**vref{5}: {boards:PB7MA-AA}{PB7MA-AA 16MB Memory Kit (5 x 4MB SIMMs, 70ns)}
+**Option**vref{5}: {boards:PB7MA-AB}{PB7MA-AB 32MB Memory Kit (5 x 8MB SIMMs, 70ns)}
+**Option**vref{5}: {boards:PB7MA-AC}{PB7MA-AC 64MB Memory Kit (5 x 16MB SIMMs, 70ns)}
+**Option**vref{5}: {boards:PB7MA-AD}{PB7MA-AD 128MB Memory Kit (5 x 32MB SIMMs, 70ns)}
+**Option**vref{5}: {boards:PB7MA-AE}{PB7MA-AE 256MB Memory Kit (5 x 64MB SIMMs, 70ns)}
+**Option-title: Internal Storage
+**Option**vref{5}: {storage:RRD45}{RRD45 CDROM Drive}
+**Option-title: Controllers
+**Option**vref{5}: {boards:KZESC-AA}{KZESC-AA Single port EISA RAID Controller}
+**Option**vref{5}: {boards:KZESC-BA}{KZESC-BA Three port EISA RAID Controller}
+**Option**vref{5}: {boards:KZPSA-BB}{KZPSA-BB PCI FWD SCSI Controller}
+**Option**vref{5}: {boards:KZPSC-BB}{KZPSC-BB PCI Backplane RAID Controller}
+**Option**vref{5}: {boards:KZPAA-AA}{KZPAA-AA PCI Fast SCSI-2 Controller}
+**Option**vref{5}: {boards:KFESB-AA}{KFESB-AA EISA Single DSSI Controller}
+**Option**vref{5}: {boards:DE435-AA}{DE435-AA Ethernet Controller}
+**Option**vref{5}: {boards:DE425-SA}{DE425-SA EISA Network Controller}
+**Option**vref{5}: {boards:DEFEA-AA}{DEFEA-AA EISA FDDI Controller, Single Attachment}
+**Option**vref{5}: {boards:DEFEA-DA}{DEFEA-DA EISA FDDI Controller, Dual Attachment}
+**Option**vref{5}: {boards:DW300-AA}{DW300-AA EISA Token Ring Adapter}
+**Option**vref{5}: {boards:DEFPA-AA}{DEFPA-AA PCI FDDIcontroller, Single Attachment}
+**Option**vref{5}: {boards:DEFPA-DA}{DEFPA-DA PCI FDDIcontroller, Dual Attachment}
+**Option**vref{5}: {boards:DNSES-AA}{DNSES-AA EISA Synchronous Communications Controller}
+**Options-end{AS1000-4-266}
 **End-systems-entry{AS1000-4-266}
 
 **Start-systems-entry{AS1000A-4-233}{ALPHA}{AS1000}
