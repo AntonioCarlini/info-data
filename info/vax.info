@@ -1763,9 +1763,11 @@ VAX/VMS and ULTRIX-32 are supported.
 **Def-lref{1} = ref{CU-V6-11A}
 **Def-lref{2} = ref{EK-70TBA-T4.A01}
 **Def-lref{3} = ref{CU-1995-11-01}
+**def-lref{4} = ref{SOC-DEC1995-SUP}
 **Announcement**vref{3}: 1995-11-01
 ! ref{VAX-FINAL-LETTER-JESSIE_LIPCON}: already no supply
 **Codename: Xenon
+! vref{4}: **OS-support-VMS: V6.1
 **OS-support-VMS: V6.0
 ! V5.5-2 supports 7810-7840 as 7610-7640
 **Num-proc: 1-6
@@ -1780,14 +1782,43 @@ VAX/VMS and ULTRIX-32 are supported.
 **TPC-A**vref{3}: 375:(VAX 7000-810)
 ! VAX 7000-860 gt than 1200 tpsA
 **Minimum-memory: 128MB
-**Maximum-memory: 3.5GB
+**Maximum-memory**vref{4}: 3.5GB
 **Physical-address-lines: 32
 **LAN-support: optional
 **Dimensions-start{7800}
-**Height: 1700mm
-**Width: 800mm
-**Depth: 865mm
+**Height**vref{4}: 1700mm
+**Width**vref{4}: 800mm
+**Depth**vref{4}: 875mm
+**Weight**vref{4}: 408kg (max, without batteries), 545kg (max, with batteries)
 **Dimensions-end{7800}
+**Options-start{VAX7800}
+**Option-title: Enclosures
+**Option**vref{4}: {enclosures:H9F00-BA/BB/BC}{H9F00-BA/BB/BC I/O Expansion Cabinet}
+**Option**vref{4}: {enclosures:H9B00-AF}{H9B00-AF Battery Option for I/O Expansion Cabinet}
+**Option**vref{4}: {enclosures:H7237-AA}{H7237-AA Battery Plug-in Unit}
+**Option**vref{4}: {enclosures:DWLMA-AA}{DWLMA-AA XMI Plug-in Unit for System Cabinet}
+**Option**vref{4}: {enclosures:DWLMA-BA}{DWLMA-BA XMI Plug-in Unit for I/O Expansion Cabinet}
+**Option**vref{4}: {enclosures:DWMBB-LA}{DWMBB-LA VAXBI Plug-in Unit for System Cabinet}
+**Option**vref{4}: {enclosures:DWMBB-LB}{DWMBB-LB VAXBI Plug-in Unit for I/O Expansion Cabinet}
+**Option-title: Memory
+**Option**vref{4}: {boards:MS7AA-BA}{MS7AA-BA 12MB Memory Array}
+**Option**vref{4}: {boards:MS7AA-CA}{MS7AA-CA 256MB Memory Array}
+**Option**vref{4}: {boards:MS7AA-DA}{MS7AA-DA 512MB Memory Array}
+**Option**vref{4}: {boards:MS7AA-FA}{MS7AA-FA 2GB Memory Array}
+**Option-title: Controllers
+**Option**vref{4}: {boards:KFMSA-BA}{KFMSA-BB XMi DSSI Disk/Tape Adapter}
+**Option**vref{4}: {boards:CIXCD-AC}{CIXCD-AC XMI CI Controller}
+**Option**vref{4}: {boards:DEMNA-M}{DEMNA-M XMI 802.3 Ethernet Controller}
+**Option**vref{4}: {boards:DEMFA-AA}{DEMFA-AA DEC FDDIcontroller 400}
+**Option-title: Internal Storage
+**Option**vref{4}: {storage:BA655-AB}{BA655-AB SCSI-2 Disk Plug-in Unit}
+**Option**vref{4}: {storage:HSD10-AA}{HSD10-AA StorageWorks Array SCSI- Controller}
+**Option**vref{4}: {storage:RZ29B}{RZ29B 4.3 GB Disk Drive}
+**Option**vref{4}: {storage:RZ28M}{RZ28M 2.1 GB Disk Drive}
+**Option**vref{4}: {storage:RZ26L}{RZ26L 1.05GB Disk Drive}
+**Option**vref{4}: {storage:TLZ07}{TLZ07 4.0GB Tape Drive}
+**Option**vref{4}: {storage:TZ87}{20GB Tape Drive}
+**Options-end{VAX7800}
 **End-systems-entry{VAX7800}
 
 **Start-systems-entry{VAX780}{VAX}{UNIBUS}
