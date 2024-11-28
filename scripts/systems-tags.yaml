@@ -469,6 +469,11 @@
   - - alpha
     - PC
   - io
+- BUS-VME:
+  - VME
+  - VME slot details
+  - - alpha
+  - io
 - LAN-support:
   - LAN support
   - Ethernet support details
