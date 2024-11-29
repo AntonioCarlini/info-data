@@ -1168,6 +1168,7 @@
 **Def-lref{7} = ref{DEC-PR-1989-01-24-VAX6300}
 **Def-lref{8} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{9} = ref{AA-LB22C-TE}
+**Def-lref{10} = ref{EK-6234A-UP-001}
 ! vref{1} January 1989
 **Announcement**vref{7}: 1989-01-24
 **Codename**vref{8}: Hyperion
@@ -1179,7 +1180,7 @@
 **CPU-name-VMS: KA62B
 **CPU-name-console: KA62B
 ! T2011-YC is VAXserver 6300. prom is 23-017E9-00. VAX 6300 prom is 23-016E9-00
-**Module**vref{3,6}: T2011-YA
+**Module**vref{3,6,10}: T2011-YA
 **VMS-CPU: 10
 **VMS-XCPU: 2
 **SID: 0A000006
@@ -1190,7 +1191,6 @@
 **CPU-technology**vref{1,5}: CMOS-2
 **CPU-clock**vref{5}: 66.67MHz
 **CPU-cycle**uref{*7,*52,*83}: 60ns
-!**Cache**uref{*7,*52,*83}: 1KB
 **Cache**vref{3}: 1KB
 !**Backup-cache**uref{*7,*52,*83}: 256KB (120ns)
 ! vref{5} says 35ns backup cache

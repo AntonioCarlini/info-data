@@ -4922,6 +4922,7 @@
 **Ref-text: VAX 6000: Installing Model 200/300/400 Processors
 **Ref-partno: EK-6234A-UP-001
 **Ref-electronic: PDF
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd1/vax/6234aup1.pdf
 **End-ref{EK-6234A-UP-001}
 
 **Start-ref{EK-62X34-IN-003}
@@ -11069,6 +11070,13 @@
 **Ref-processed: Yes
 **Ref-url: hhttps://web.archive.org/web/20010624014458/http://www.compaq.com/products/quickspecs/SOC/QB003UPF.PDF
 **End-ref{Online-SOC-VS4060-1996-05-04}
+
+**Start-ref{EK-PCSVA-UI.A01}
+**Ref-text: Digital AlphaServer 400 Series User Information
+**Ref-date: 1995-01
+**Ref-processed: Yes
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd1/alpha/pcsvauia.pdf
+**End-ref{EK-PCSVA-UI.A01}
 
 **Stop-processing
 

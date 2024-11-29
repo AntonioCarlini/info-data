@@ -1061,6 +1061,7 @@
 **Def-lref{4} = ref{CU-1995-08-01}
 **Def-lref{5} = ref{CU-1995-10-15}
 **Def-lref{6} = ref{QS-VMS-V084}
+**Def-lref{7} = ref{EK-PCSVA-UI.A01}
 **Announcement**vref{5}: 1995-10-15
 ! Can this be right Last Order *before* announcement???
 **Last-order**vref{4}: 1995-08-31
@@ -1072,12 +1073,17 @@
 **SPECint92**vref{3}: 157.7
 **SPECfp92**vref{3}: 183.9
 ! unverified source claims 384MB
-**Maximum-memory**vref{3}: 192MB
-!**BUS-PCI**htref{2}: 2 slots @ 132MB/s
-**BUS-PCI**vref{3}: 2 slots
-**BUS-ISA**vref{3}: 3 slots
-**BUS-PCI-or-ISA**vref{3}: 1 slot
-**BUS-SCSI**htref{2}: 1 @ 10MB/s
+**Maximum-memory**vref{3,7}: 192MB
+**BUS-PCI**vref{7}: 2 slots @132MB/s
+**BUS-ISA**vref{3,7}: 3 slots
+**BUS-PCI-or-ISA**vref{3,7}: 1 slot
+**BUS-SCSI**vref{7}: 1 @ 10MB/s
+**Dimensions-start{AS400-4-233}
+**Height**vref{7}: 431.8mm
+**Width**vref{7}: 431.8mm
+**Depth**vref{7}: 177.8mm
+**Weight**vref{7}: 12+ kg
+**Dimensions-end{AS400-4-233}
 **Options-start{AS400-4-233}
 **Option-title: Memory
 **Option: {boards:MSP01-AA}{8MB SIMM package}
