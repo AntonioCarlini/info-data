@@ -185,10 +185,11 @@
 **Def-lref{1} = ref{EK-PM32C-OG-002}
 **Def-lref{2} = ref{CU-1993-08-30}
 **Def-lref{3} = ref{TMAI-1989-11-07}
+**Def-lref{4} = ref{EK-VR297-SV-001}
 **Announcement**vref{3}: 1989-11-07
 **Last-order**vref{2}: 1993-08-10
 **Last-ship**vref{2}: 1993-08-10
-**Screen-diagonal**htref{1}: 432mm
+**Screen-diagonal**vref{4}: 432mm
 **Dot-pitch**htref{1}: 0.26mm       
 **Screen-size**htref{1}: 1024x864 pixels  
 **Video-termination**htref{1}: 75ohm BNC    
@@ -252,39 +253,35 @@
 **Power-end{VR299}
 **End-monitors-entry{VR299}
 
-! **Def-lref{3} = ref{EK-V1000-UG-001} VR315 H:400mm Width:400mm D:395mm Weight:13kg
-
 **Start-monitors-entry{VR319-C}{MONITOR}{VR}
 **Sys-name: VR319
 **Desc-name: VR319-C 19" Monochrome Monitor
-**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{1} = ref{EK-PM32C-OG-003}
 **Html-target: VR319
-! WARNING WARNING
-! Some of the data here seems suspect (compared to other monitors)
-**Screen-diagonal**htref{1}: 483mm
-**Screen-size**htref{1}: 1024x1024 pixels
-**Video-termination**htref{1}: 75ohm BNC
-**Video-amplitude**htref{1}: 1.0Vpp composite video
-**H-active-video**htref{1}: 10.6806us
-**H-back-porch**htref{1}: 1.8691ns
-**H-blanking-interval**htref{1}: 3.4712us
-**H-frequency**htref{1}: 70.662kHz
-**H-front-porch**htref{1}: 0.2670ns
-**Horizontal-period**htref{1}: 14.1519us
-**H-sync-pulse**htref{1}: 1.3351ns
-**V-active-video**htref{1}: 14.4915us
-**V-back-porch**htref{1}: 0.467011ns
-**V-blanking-interval**htref{1}: 0.551922us
-**V-front-porch**htref{1}: 0.042455ns
-**Vertical-period**htref{1}: 15.0434us
-**Lines-displayed**htref{1}: 14.4915
-**V-sync-pulse**htref{1}: 0.042455ns
-**V-frequency**htref{1}: 66Hz
+**Screen-diagonal**vref{1}: 483mm
+**Screen-size**vref{1}: 1024x1024 pixels
+**Video-termination**vref{1}: 75ohm BNC
+**Video-amplitude**vref{1}: 1.0Vpp composite video
+**H-active-video**vref{1}: 10.6806us
+**H-back-porch**vref{1}: 1.8691ns
+**H-blanking-interval**vref{1}: 3.4712us
+**H-frequency**vref{1}: 70.662kHz
+**H-front-porch**vref{1}: 0.2670ns
+**Horizontal-period**vref{1}: 14.1519us
+**H-sync-pulse**vref{1}: 1.3351ns
+**V-active-video**vref{1}: 14.4915us
+**V-back-porch**vref{1}: 0.467011ns
+**V-blanking-interval**vref{1}: 0.551922us
+**V-front-porch**vref{1}: 0.042455ns
+**Vertical-period**vref{1}: 15.0434us
+**Lines-displayed**vref{1}: 14.4915
+**V-sync-pulse**vref{1}: 0.042455ns
+**V-frequency**vref{1}: 66Hz
 **Dimensions-start{VR319-C}
-**Height**htref{1}: 457.2mm
-**Width**htref{1}: 495.5mm
-**Depth**htref{1}: 401.3mm
-**Weight**htref{1}: 22.68kg
+**Height**vref{1}: 457.2mm
+**Width**vref{1}: 495.5mm
+**Depth**vref{1}: 401.3mm
+**Weight**vref{1}: 22.68kg
 **Dimensions-end{VR319-C}
 **Power-start{VR319}
 **Power**uref{1}: 123W:approx
@@ -292,36 +289,36 @@
 **End-monitors-entry{VR319-C}
 
 **Start-monitors-entry{VR319-D}{MONITOR}{VR}
-**Sys-name: VR319-D
+**Sys-name: VR319
 **Desc-name: VR319-D 19" Monochrome Monitor
-**Def-lref{1} = ref{EK-PM32C-OG-002}
+**Def-lref{1} = ref{EK-VR319-TC-001}
 **Html-target: VR319
 ! WARNING WARNING
 ! Some of the data here seems suspect (compared to other monitors)
-**Screen-diagonal**htref{1}: 483mm
-**Screen-size**htref{1}: 1280x1024
-**Video-termination**htref{1}: 75ohm BNC
-**Video-amplitude**htref{1}: 1.0Vpp composite video
-**V-frequency**htref{1}: 72Hz
-**H-active-video**htref{1}: 9.7853us 
-**H-back-porch**htref{1}: 1.7124ns 
-**H-blanking-interval**htref{1}: 3.1802us 
-**H-frequency**htref{1}: 77.173kHz 
-**H-front-porch**htref{1}: 0.2446ns 
-**Horizontal-period**htref{1}: 12.9579us 
-**H-sync-pulse**htref{1}: 1.2232ns 
-**V-active-video**htref{1}: 13.2767us 
-**V-back-porch**htref{1}: 0.427864ns 
-**V-blanking-interval**htref{1}: 0.505658us 
-**V-front-porch**htref{1}: 0.038897ns 
-**Vertical-period**htref{1}: 13.7842us 
-**Lines-displayed**htref{1}: 13.2767 
-**V-sync-pulse**htref{1}: 0.038897ns 
+**Screen-diagonal**vref{1}: 483mm
+**Screen-size**vref{1}: 1024x1024 pixels
+**Video-termination**vref{1}: 75ohm BNC
+**Video-amplitude**vref{1}: 1.0Vpp composite video
+**H-active-video**vref{1}: 9.7853us
+**H-back-porch**vref{1}: 1.7124ns
+**H-blanking-interval**vref{1}: 3.1802us
+**H-frequency**vref{1}: 77.173kHz
+**H-front-porch**vref{1}: 0.2446ns
+**Horizontal-period**vref{1}: 12.9579us
+**H-sync-pulse**vref{1}: 1.2232ns
+**V-active-video**vref{1}: 13.2767us
+**V-back-porch**vref{1}: 0.427864ns
+**V-blanking-interval**vref{1}: 0.505658ns
+**V-front-porch**vref{1}: 0.038897ns
+**Vertical-period**vref{1}: 13.7842us
+**Lines-displayed**vref{1}: 13.2767
+**V-sync-pulse**vref{1}: 0.038897ns
+**V-frequency**vref{1}: 72Hz
 **Dimensions-start{VR319-D}
-**Height**htref{1}: 457.2mm
-**Width**htref{1}: 495.5mm
-**Depth**htref{1}: 401.3mm
-**Weight**htref{1}: 22.68kg
+**Height**vref{1}: 457.2mm
+**Width**vref{1}: 495.5mm
+**Depth**vref{1}: 401.3mm
+**Weight**vref{1}: 22.68kg
 **Dimensions-end{VR319-D}
 **Power-start{VR319}
 **Power**uref{1}: 123W:approx

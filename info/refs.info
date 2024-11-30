@@ -5299,6 +5299,14 @@
 **Ref-electronic: PDF
 **End-ref{EK-VR319-SV-001}
 
+**Start-ref{EK-VR319-TC-001}
+**Ref-text: VR319 Monitor
+**Ref-date: 1991-12
+**Ref-partno: EK-VR319-TC-001
+**Ref-electronic: PDF
+**Ref-url: https://www.carelife.com/manuals/VRT19_monitor.PDF
+**End-ref{EK-VR319-TC-001}
+
 **Start-ref{EK-VR320-SV-001}
 **Ref-text: VR320 Monitor Service Guide
 **Ref-partno: EK-VR320-SV-001
@@ -5625,6 +5633,7 @@
 **Ref-text: DECstation 5000 Model 100 Series Maintenance Guide
 **Ref-partno: EK-PM32G-MG-003
 **Ref-electronic: PDF
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/decsta/pm32cog3.pdf
 **Ref-processed: Yes
 **End-ref{EK-PM32G-MG-003}
 
@@ -11074,9 +11083,17 @@
 **Start-ref{EK-PCSVA-UI.A01}
 **Ref-text: Digital AlphaServer 400 Series User Information
 **Ref-date: 1995-01
+**Ref-partno: EK-PCSVA-UI.A01
 **Ref-processed: Yes
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd1/alpha/pcsvauia.pdf
 **End-ref{EK-PCSVA-UI.A01}
+
+**Start-ref{EK-VR297-SV-001}
+**Ref-text: VR297 Color Monitor Service Guide
+**Ref-date: 1989-09
+**Ref-partno: EK-VR297-SV-001
+**Ref-url: 
+**End-ref{EK-VR297-SV-001}
 
 **Stop-processing
 
