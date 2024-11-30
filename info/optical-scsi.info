@@ -41,30 +41,41 @@
 **Start-storage-entry{RRD42}{SCSI}{RRD}
 **Sys-name: RRD42
 **Desc-name: RRD42 CD-ROM Drive
-**Def-lref{1} = ref{EK-RRD42-OM-002}
+**Def-lref{1} = ref{EK-RRD42-OM-003}
 **def-lref{2} = ref{CU-1991-12-20}
 **OS-support-eln**vref{2}: VAXELN V4.3
-**Capacity**htref{1}: 600MB
-**Average-transfer-rate**htref{1}: 150KB/s
-**Peak-transfer-rate**htref{1}: 1.5MB/s
-**Average-access**htref{1}: 450ms
-**Maximum-access**htref{1}: 700ms
+**Capacity**vref{1}: 600MB
+**Average-transfer-rate**vref{1}: 150KB/s
+**Peak-transfer-rate**vref{1}: 1.5MB/s
+**Average-access**vref{1}: 450ms
+**Maximum-access**vref{1}: 700ms
+**Interface**vref{1}: SCSI-2
 **Dimensions-start{RRD42-E}
 **Label: RRD42 Embedded
-**Height**htref{1}: 41.4mm
-**Width **htref{1}: 146.05mm
-**Depth **htref{1}: 208.2mm
-**Weight**htref{1}: 1.3kg
+**Height**vref{1}: 41.4mm
+**Width **vref{1}: 146.05mm
+**Depth **vref{1}: 208.2mm
+**Weight**vref{1}: 1.3kg
 **Dimensions-end{RRD42-E}
 **Dimensions-start{RRD42-T}
 **Label: RRD42 Tabletop
-**Height**htref{1}: 49mm
-**Width **htref{1}: 177.5mm
-**Depth **htref{1}: 325mm
-**Weight**htref{1}: 2.9kg
+**Height**vref{1}: 49mm
+**Width **vref{1}: 177.5mm
+**Depth **vref{1}: 325mm
+**Weight**vref{1}: 2.9kg
 **Dimensions-end{RRD42-T}
-! ref_1 power consumption: 0.25A tabletop, embedded: 250ma@5V, 800ma(peak 1500mA) @12V -->
-! ref_1 interface is SCSI-2 -->
+**Power-start{RRD42-E}
+**Label: RRD42 Embedded
+**Supply**vref{1}: +5Vdc and +12Vdc
+**Positive-12V-current**vref{1}: 250mA
+**Positive-5V-current**vref{1}: 800mA (1500mA peak)
+**Power-end{RRD42-E}
+**Power-start{RRD42-T}
+**Label: RRD42 Tabletop
+**Supply**vref{1}: 100 - 240V
+**Power**vref{1}: 0.25A
+**Power-end{RRD42-T}
+! vref{1} interface is SCSI-2 -->
 **End-storage-entry{RRD42}
 
 **Start-storage-entry{RRD43}{SCSI}{RRD}
