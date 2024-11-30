@@ -92,29 +92,29 @@
 ! vref{2} says Support for ULTRIX V4.4 is scheduled for early April 1994.
 **Capacity**vref{2,5}: 600MB
 **Average-transfer-rate**vref{3}: {1X: 150 KB/s}  {2X: 300 KB/s}
-**Peak-transfer-rate**lref{1}: 4.2MB/s
+**Peak-transfer-rate**htref{1}: 4.2MB/s
 **Average-access**vref{2,3}: 320ms
 **Read-ahead-cache**vref{2}: 64 KB
 **Loading**vref{2}: Tray
-**Start-time**lref{1}: 2.7s
+**Start-time**htref{1}: 2.7s
 **Interface**vref{2}: SCSI-2
 **Power-start{RRD43}
-**Supply**lref{1}: 240V 1/phase
-**I-nominal**lref{1}: 0.6A
+**Supply**htref{1}: 240V 1/phase
+**I-nominal**htref{1}: 0.6A
 **Power-end{RRD43}
 **Dimensions-start{RRD43-A}
 **Label: RRD43 Embedded
-**Height**lref{1}: 25.4mm
-**Width **lref{1}: 146mm
-**Depth **lref{1}: 195mm
-**Weight**lref{1}: 0.88kg
+**Height**htref{1}: 25.4mm
+**Width **htref{1}: 146mm
+**Depth **htref{1}: 195mm
+**Weight**htref{1}: 0.88kg
 **Dimensions-end{RRD43-A}
 **Dimensions-start{RRD43-D}
 **Label: RRD43 Tabletop
-**Height**lref{1}: 54mm
-**Width **lref{1}: 265mm
-**Depth **lref{1}: 203mm
-**Weight**lref{1}: 1.59kg
+**Height**htref{1}: 54mm
+**Width **htref{1}: 265mm
+**Depth **htref{1}: 203mm
+**Weight**htref{1}: 1.59kg
 **Dimensions-end{RRD43-D}
 **End-storage-entry{RRD43}
 

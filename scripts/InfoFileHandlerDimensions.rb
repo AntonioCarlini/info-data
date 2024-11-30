@@ -42,7 +42,7 @@ class InfoFileHandlerDimensions
         ## TOOD count_text = "%3.3d" % @local_refs_non_vref_count[k]
       }
       return HandlerResult::COMPLETED, nil
-    elsif line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|lref|uref|vref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
+    elsif line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|uref|vref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
       tag = $1
       ref_type = $2
       given_ref = $3

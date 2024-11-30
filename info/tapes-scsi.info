@@ -565,14 +565,14 @@
 ! Both the TZ85 and SZ100 tape subsystems use the TK85K (Compactape III) 
 ! cartridge with the TF85 and TF857 family of products.
 ![1,2] Will read TK50/TK52 carts
-**Read-write-speed**lref{1}: 100in/s
-**Recording-format**lref{1}: two-track parallel, serpentine 
-**Recording-density**lref{1}: 42500 bpi
+**Read-write-speed**vref{1}: 100in/s
+**Recording-format**vref{1}: two-track parallel, serpentine 
+**Recording-density**vref{1}: 42500 bpi
 **Cartridge**vref{2}: TK85K
 **Cache**vref{2}: 512kB
-**Num-tracks**lref{1}: 48
-**Track-density**lref{1}: 96 tpi
-**Interface**lref{1}: SCSI
+**Num-tracks**vref{1}: 48
+**Track-density**vref{1}: 96 tpi
+**Interface**vref{1}: SCSI
 **Power-start{TZ85}
 **Positive-5V-current**vref{1}: 3.5A
 **Positive-12V-current**vref{1}: 1.2A
@@ -637,12 +637,12 @@
 **OS-support-VMS**vref{1}: V5.3
 ![1] Will read/write TK85 (2.6GB) and TK86 (6.0GB) both using CompacTape III media
 **Peak-transfer-rate**vref{1}: 800KB/s:(streaming)
-**Read-write-speed**lref{1}: 100 in/s
-**Recording-format**lref{1}: two-track parallel serpentine
-**Recording-density**lref{1}: 42500 bpi 
-**Num-tracks**lref{1}: 112
-**Track-density**lref{1}: 224 tpi
-**Interface**lref{1}: SCSI
+**Read-write-speed**vref{1}: 100 in/s
+**Recording-format**vref{1}: two-track parallel serpentine
+**Recording-density**vref{1}: 42500 bpi 
+**Num-tracks**vref{1}: 112
+**Track-density**vref{1}: 224 tpi
+**Interface**vref{1}: SCSI
 **Power-start{TZ86}
 **Positive-12V-current**vref{1}: 1.2A
 **Positive-5V-current**vref{1}: 3.5A

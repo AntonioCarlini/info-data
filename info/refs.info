@@ -2196,6 +2196,8 @@
 **Start-ref{EK–RRDCD–IN.A01}
 **Ref-text: RRD43 CD-ROM Disc Drive Information for VAX 4000 Model 100 Systems
 **Ref-partno: EK–RRDCD–IN.A01
+**Ref-date: 1994-03
+**Ref-url: http://www.vaxhaven.com/images/d/da/EK-RRDCD-IN-A01.pdf
 **Ref-processed: Yes
 **End-ref{EK–RRDCD–IN.A01}
 
@@ -9510,13 +9512,16 @@
 **Start-ref{EK-OTF85-OM-002}
 **Ref-text: Tx85 Series Cartridge Tape Subsystem Owner's Manual
 **Ref-partno: EK-OTF85-OM-002
+**Ref-date: 1991-11
 **Ref-electronic: PDF
+**Ref-URL: https://manx-docs.org/collections/mds-199909/cd3/tape/otf85om2.pdf
 **Ref-processed: Yes
 **End-ref{EK-OTF85-OM-002}
 
 **Start-ref{EK-OTX86-OM-001}
 **Ref-text: Tx86 Series Cartridge Tape Subsystem Owner's Manual
 **Ref-partno: EK-OTX86-OM-001
+**Ref-date: 1992-07
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-OTX86-OM-001}

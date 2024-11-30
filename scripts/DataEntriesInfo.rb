@@ -168,7 +168,7 @@ class InfoFileHandlerEntry
     elsif line =~ /^\s*\*\*Text-start\s*$/i
       # Text-start seen, so switch to text-block mode
       return HandlerResult::STACK_HANDLER, InfoFileHandlerText.new(@local_refs)
-    elsif line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|lref|uref|vref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
+    elsif line =~ /^ \*\* ([^*:\s]+) \s* (?: \*\* (htref|uref|vref) \{ ([^}]+) \})? \s* : \s* (.*) \s* $/ix
       tag = $1
       ref_type = $2
       given_ref = $3
