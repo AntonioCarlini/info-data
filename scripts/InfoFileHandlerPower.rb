@@ -15,7 +15,7 @@ class InfoFileHandlerPower
   attr_reader     :entry
   attr_reader     :power
 
-  def initialize(id, info_filename, line_num, local_refs, refs, pubs)
+  def initialize(id, info_filename, line_num, local_refs, refs, pubs, allow_only_vref)
     @fatal_error_seen = false
     @id = id
     @info_filename = info_filename
@@ -26,6 +26,7 @@ class InfoFileHandlerPower
     permitted_tags = DataTags.new('scripts/power-tags.yaml', 'systems', 'decvt').tags()  ## TODO hard-coded filename for now
     @permitted_tags_uc = permitted_tags.map(&:upcase)
     @power = Power.new(@id, line_num, permitted_tags)
+    @allow_only_vref = allow_only_vref
   end
 
   def process_line(line, line_num)
@@ -78,6 +79,11 @@ class InfoFileHandlerPower
         unless reference.nil?()
           ## TODO @local_refs_non_vref_count[lref] += 1 unless ref_type =~ /vref/i  # count any reference except a vref
           ref_array << reference if ref_type =~ /vref/i
+          # If only vref is alowed but some other ref has been used, fail now
+          if @allow_only_vref && (ref_type !~ /vref/i)
+            log_fatal(self, line_num, @info_filename, "On line #{line_num} in #{@id}, disallowed reference type #{ref_type} has been used.")
+            @fatal_error_seen = true
+          end
         end
       }
     end

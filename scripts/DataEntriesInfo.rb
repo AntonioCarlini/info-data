@@ -56,6 +56,7 @@ class InfoFileHandlerOuter
     @pubs = pubs
     @fatal_error_seen = false
     @devices  = devices
+    @allow_only_vref = false
   end
 
   def process_line(line, line_num)
@@ -65,6 +66,10 @@ class InfoFileHandlerOuter
       elsif line =~ /^\s*\*\*Stop-processing\s*$/i
         # Stop if a line with just "**Stop-processing" is seen.
         return HandlerResult::IMMEDIATE_STOP, nil
+      elsif line =~ /^\s*\*\*References-must-be-verified\s*$/i
+        # Force all future references to be verified
+        @allow_only_vref = true
+        return HandlerResult::CONTINUE, nil
       elsif line =~ /^\s*\*\*Start-(.*?)-entry\{(.*)\}{(.*)}{(.*)}\s*$/ix
         # **Start-terminals-entry{RX50}{MISC}{RX}
         entry_name = $1.strip()
@@ -74,7 +79,7 @@ class InfoFileHandlerOuter
         ## TODO raise("Unexpected system type [#{type}], expected [#{@expected_entry_type}]") if type.downcase() != @expected_entry_type
         ## TODO restrict to 'terminals' raise("Only 'terminals' allowed for now: rejecting '#{entry_name}'") if entry_name != "terminals"
         entry = Entry.new(id, @expected_entry_type, entry_class, line_num, @permitted_tags)
-        return HandlerResult::STACK_HANDLER, InfoFileHandlerEntry.new(entry, entry_name, @info_filename, @permitted_tags_uc, @refs, @pubs)
+        return HandlerResult::STACK_HANDLER, InfoFileHandlerEntry.new(entry, entry_name, @info_filename, @permitted_tags_uc, @refs, @pubs, @allow_only_vref)
       elsif line =~ /^ \s* \! /ix
         # TODO why is this here .. .why can this not be handled above?
         log_debug(self, line_num, @info_filename, "Skipping comment [#{line}]")
@@ -113,7 +118,7 @@ class InfoFileHandlerEntry
   attr_reader     :entry
   attr_accessor   :fatal_error_seen
 
-  def initialize(entry, entry_name, info_filename, permitted_tags_uc, refs, pubs)
+  def initialize(entry, entry_name, info_filename, permitted_tags_uc, refs, pubs, allow_only_vref)
     @fatal_error_seen = false
     @permitted_tags_uc = permitted_tags_uc
     @info_filename = info_filename
@@ -127,6 +132,7 @@ class InfoFileHandlerEntry
     @power = []
     @dimensions = []
     @options = []
+    @allow_only_vref = allow_only_vref
   end
 
   def process_line(line, line_num)
@@ -178,11 +184,11 @@ class InfoFileHandlerEntry
     elsif line =~ /^\s*\*\*Power-start\{(.*?)\}/ix
       # Power-start seen, so switch to power-block mode
       id = $1.strip()
-      return HandlerResult::STACK_HANDLER, InfoFileHandlerPower.new(id, @info_filename, line_num, @local_refs, @refs, @pubs)
+      return HandlerResult::STACK_HANDLER, InfoFileHandlerPower.new(id, @info_filename, line_num, @local_refs, @refs, @pubs, @allow_only_vref)
     elsif line =~ /^\s*\*\*Dimensions-start\{(.*?)\}/ix
       # Dimensions-start seen, so switch to dimensions-block mode
       id = $1.strip()
-      return HandlerResult::STACK_HANDLER, InfoFileHandlerDimensions.new(id, @info_filename, line_num, @local_refs, @refs, @pubs)
+      return HandlerResult::STACK_HANDLER, InfoFileHandlerDimensions.new(id, @info_filename, line_num, @local_refs, @refs, @pubs, @allow_only_vref)
     elsif line.strip().empty?() || line =~ /^\s*!/ix
         # ignore blank lines and commented out lines
       return HandlerResult::CONTINUE, nil
@@ -216,6 +222,11 @@ class InfoFileHandlerEntry
         unless reference.nil?()
           @local_refs_non_vref_count[lref] += 1 unless ref_type =~ /vref/i  # count any reference except a vref
           ref_array << reference if ref_type =~ /vref/i
+          # If only vref is alowed but some other ref has been used, fail now
+          if @allow_only_vref && (ref_type !~ /vref/i)
+            log_fatal(self, line_num, @info_filename, "On line #{line_num} in #{@entry.identifier()}, disallowed reference type #{ref_type} has been used.")
+            @fatal_error_seen = true
+          end
         end
       }
     end
