@@ -13,28 +13,28 @@
 **Def-lref{2} = ref{EK-302AB-OG-002}
 **Def-lref{3} = ref{DEC-PR-1989-01-09-RRD40}
 **Announcement**vref{3}: 1989-01-09
-**Capacity**htref{1}: 635MB
-**Average-transfer-rate**htref{1}: 175.2KB/s
+**Capacity**vref{1}: 635MB
+**Average-transfer-rate**vref{1}: 175.2KB/s
 **Average-access**htref{2}: 500ms
 **Maximum-access**htref{2}: 1000ms
-**Average-latency**htref{1}: {155ms:outer track}{60ms:inner track}
+**Average-latency**vref{1}: {155ms:outer track}{60ms:inner track}
 **Power-start{RRD40}
 **Heat-dissipation**htref{2}: 14W:(typical)
 ! TODO **Heat-dissipation**htref{2}**uref{*122}: 50W:(tabletop)
 **Power-end{RRD40}
 **Dimensions-start{RRD40-E}
 **Label: RRD40 Embedded
-**Height**htref{1}: 41.5mm
-**Width **htref{1}: 146mm
-**Depth **htref{1}: 209mm
-**Weight**htref{1}: 2.00kg
+**Height**vref{1}: 41.5mm
+**Width **vref{1}: 146mm
+**Depth **vref{1}: 209mm
+**Weight**vref{1}: 2kg
 **Dimensions-end{RRD40-E}
 **Dimensions-start{RRD40-T}
 **Label: RRD40 Tabletop
-**Height**htref{1}: 76.2mm
-**Width **htref{1}: 146mm
-**Depth **htref{1}: 280mm
-**Weight**htref{1}: 4.00kg
+**Height**vref{1}: 76.2mm
+**Width **vref{1}: 229m
+**Depth **vref{1}: 280mm
+**Weight**vref{1}: 4kg
 **Dimensions-end{RRD40-T}
 **End-storage-entry{RRD40}
 
@@ -182,20 +182,23 @@
 **Sys-name: RRD50
 **Desc-name: RRD50 Optical Disc Drive
 **Def-lref{1} = ref{EK-RRD50-UG-002}
-**Capacity**htref{1}: 600MB
-**Average-transfer-rate**htref{1}: 176.4KB/s
-**Average-access**htref{1}: < 2s 
-**Maximum-access**htref{1}: < 6s
-**Average-latency**htref{1}: 400ms:(outer track)
-**Soft-error-rate**htref{1}: < 1 in 10^9
-**Hard-error-rate**htref{1}: < 1 in 10^12
+**document=doc{DEC:EK-RRD50-TD} ! RRD50 Digital Disc Drive Technical Description
+**document=doc{DEC:EK-M7552-IN} ! RRD50 Q-Bus Controller Installation Guide
+**document=doc{DEC:EK-M7552-TM} ! RRD50 Q-Bus Controller Technical Manual
+**Capacity**vref{1}: 600MB
+**Average-transfer-rate**vref{1}: 176.4KB/s
+**Average-access**vref{1}: < 2s 
+**Maximum-access**vref{1}: < 6s
+**Average-latency**vref{1}: 400ms:(outer track)
+**Soft-error-rate**vref{1}: < 1 in 10^9
+**Hard-error-rate**vref{1}: < 1 in 10^12
 **Interface: KRQ50
 **Dimensions-start{RRD50-T}
 **Label: RRD50 Tabletop
-**Height**htref{1}: 115mm
-**Width **htref{1}: 320mm
-**Depth **htref{1}: 264mm
-**Weight**htref{1}: 5.2kg
+**Height**vref{1}: 115mm
+**Width **vref{1}: 320mm
+**Depth **vref{1}: 264mm
+**Weight**vref{1}: 5.2kg
 **Dimensions-end{RRD50-T}
 **End-storage-entry{RRD50}
 

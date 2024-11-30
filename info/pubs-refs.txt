@@ -74772,3 +74772,24 @@ start-publication DEC:MP00035
   title = VT52 Field Maintenance Print Set
   part-no = MP00035
 end-publication DEC:MP00035
+
+start-publication DEC:EK-RRD50-TD
+  title = RRD50 Digital Disc Drive Technical Description
+  part-no = DEC:EK-RRD50-TD
+  publisher = DEC
+  fonds = ARC
+end-publication DEC:EK-RRD50-TD
+
+start-publication DEC:EK-M7552-IN
+  title = RRD50 Q-Bus Controller Installation Guide
+  part-no = DEC:EK-M7552-IN
+  publisher = DEC
+  fonds = ARC
+end-publication DEC:EK-M7552-IN
+
+start-publication DEC:EK-M7552-TM
+  title = RRD50 Q-Bus Controller Technical Manual
+  part-no = EK-M7552-TM
+  publisher = DEC
+  fonds = ARC
+end-publication DEC:EK-M7552-TM
