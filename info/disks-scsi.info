@@ -697,7 +697,7 @@
 **Form-factor**vref{7}: 5-1/4" full-height
 **Peak-transfer-rate**vref{7}: 1.25 MB/s
 **Average-access**vref{5}: 24.3ms
-**Average-latency**htref{1}: 8.3ms
+**Average-latency**vref{2}: 8.3ms
 **Average-seek**vref{5}: 16ms
 **Track-track-seek**htref{1}: 4ms
 **Maximum-seek**htref{1}: 35ms
@@ -705,8 +705,8 @@
 **Read-ahead-cache**uref{*28}: No
 **Bytes-per-sector**vref{8}: 512
 **Sectors-per-track**vref{8}: 36
-**Rotational-speed**vref{5}: 3600rpm
-**Interleave**htref{2}: 1:1
+**Rotational-speed**vref{2,5}: 3600rpm
+**Interleave**vref{2}: 1:1
 **Interface**htref{1}: SCSI
 **Power-start{RZ55}
 **Positive-5V-current: 1.3A
@@ -723,10 +723,10 @@
 **Dimensions-end{RZ55-I}
 **Dimensions-start{RZ55-E}
 **Label: RZ55 external
-**Height**htref{2}: 140mm
-**Width **htref{2}: 330mm
-**Depth **htref{2}: 290mm
-**Weight**htref{2}: 13.2kg
+**Height**vref{2}: 140mm
+**Width **vref{2}: 330mm
+**Depth **vref{2}: 290mm
+**Weight**vref{2}: 13.2kg
 **Dimensions-end{RZ55-E}
 **End-storage-entry{RZ55}
 

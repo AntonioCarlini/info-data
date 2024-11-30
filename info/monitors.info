@@ -18,7 +18,7 @@
 **Start-monitors-entry{VR150}{MONITOR}{VR}
 **Sys-name: VR150
 **Desc-name: VR150 15" Monochrome Monitor
-**Def-lref{1} = ref{EK-302AB-OG-003}
+**Def-lref{1} = ref{EK-302AB-OG-002}
 **Def-lref{2} = ref{EK-V1000-UG-001}
 **Screen-diagonal**vref{1}: 383mm
 **Screen-size**vref{1}: 1024x864 pixels  

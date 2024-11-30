@@ -15,11 +15,11 @@
 **Announcement**vref{3}: 1989-01-09
 **Capacity**vref{1}: 635MB
 **Average-transfer-rate**vref{1}: 175.2KB/s
-**Average-access**htref{2}: 500ms
-**Maximum-access**htref{2}: 1000ms
+**Average-access**vref{2}: 500ms
+**Maximum-access**vref{2}: 1000ms
 **Average-latency**vref{1}: {155ms:outer track}{60ms:inner track}
 **Power-start{RRD40}
-**Heat-dissipation**htref{2}: 14W:(typical)
+**Heat-dissipation**vref{2}: 14W:(typical)
 ! TODO **Heat-dissipation**htref{2}**uref{*122}: 50W:(tabletop)
 **Power-end{RRD40}
 **Dimensions-start{RRD40-E}
