@@ -87,26 +87,25 @@
 **Read-ahead-cache**vref{3}: 128KB
 **Read-ahead-tracks**vref{3}: 4
 **Error-correction**htref{1}: 264-bit ECC
-**Data-tracks-per-surface**htref{2}: 1861
-**Sectors-per-track**htref{1}: 50 data, 1 replacement
-!!?**Data-surfaces-per-drive**htref{1}: 8
-**Track-density**htref{1}: 1875tpi
-! [2] has **Recording-density**htref{1}: 30064 bpi
-**Recording-density**htref{1}: 30520 bpi
+**Data-tracks-per-surface**vref{2}: 1861
+**Sectors-per-track**vref{2}: 50 data, 1 replacement
+**Num-media-surfaces**vref{2}: 8
+**Track-density**vref{2}: 1875tpi
+**Recording-density**vref{2}: 30064 bpi
 **Num-platters**vref{3}: 4
 **Areal-density**vref{3}: 56.4 Mb/sq in
 **Media-type**vref{3}: Thin film
 **Head-type**vref{3}: MIG
 **Interface**vref{3}: DSSI
-**Rotational-speed**htref{2}: 3600rpm
-**Servo-type**htref{1}: Fully embedded
-**Start-time**htref{1}: < 60s
-**Stop-time**htref{1}: < 15s
-**Noise**htref{1}: < 5.6 Bels
-**Airflow**htref{1}: < 10 cu.ft/min
+**Rotational-speed**vref{2}: 3600rpm
+**Servo-type**vref{2}: Fully embedded
+**Start-time**vref{2}: < 60s
+**Stop-time**vref{2}: < 15s
+**Noise**vref{2}: < 5.6 Bels
+**Airflow**vref{2}: < 10 cu.ft/min
 **Power-start{RF31}
-**Positive-5V-current**htref{2}: 1.2A
-**Positive-12V-current**htref{2}: 3.0A:peak
+**Positive-5V-current**vref{1}: 1.2A
+**Positive-12V-current**vref{1}: 3.0A:peak
 **Power**vref{3}: 18.7W:typical
 **Power-end{RF31}
 !-- *75: 1.2Amax@5V, @12V: 3.0Apeak(3s of spin up), 0.7A max(idle) -->
@@ -114,9 +113,9 @@
 !--	(continuous random seeks). -->
 **Dimensions-start{RF31}
 **Label: RF31 Drive
-**Height**htref{2}: 41.2mm
-**Width**htref{2}: 147mm
-**Depth**htref{2}: 209mm
+**Height**vref{2}: 41.2mm
+**Width**vref{2}: 147mm
+**Depth**vref{2}: 209mm
 **Dimensions-end{RF31}
 **End-storage-entry{RF31}
 
@@ -129,7 +128,7 @@
 **Last-order**uref{SUE Jul 1992}: 30 Sept 1992
 **Last-ship**uref{SUE Jul 1992}: 31 Dec 1992
 **OS-support-eln**vref{3}: VAXELN V4.3
-**Capacity**vref{2}: 200 MB
+**Capacity**vref{1}: 200 MB
 **Form-factor**vref{2}: 5-1/4" full-height
 **Average-access**vref{2}: 20.5ms
 **Average-seek**vref{2}: 12.2ms
@@ -137,29 +136,29 @@
 **Read-ahead-cache**vref{2}: 128KB
 **Read-ahead-tracks**vref{2}: 4
 **Error-correction**uref{58}: 264-bit ECC
-**Servo-type**htref{1}: Fully embedded
-**Rotational-speed**htref{1}: 3600rpm
-**Track-density**htref{1}: 1875tpi
+**Servo-type**vref{1}: Fully embedded
+**Rotational-speed**vref{1}: 3600rpm
+**Track-density**vref{1}: 1875tpi
 **Areal-density**vref{2}: 56.4Mb/sq in
-**Recording-density**htref{1}: 30064 bpi
-**Data-tracks-per-surface**htref{1}: 984
-**Sectors-per-track**htref{1}: 50 data, 1 replacement
+**Recording-density**vref{1}: 30064 bpi
+**Data-tracks-per-surface**vref{1}: 984
+**Sectors-per-track**vref{1}: 50 data, 1 replacement
 **Media-type**vref{2}: Thin film
 **Head-type**vref{2}: MIG
 **Interface**vref{2}: DSSI
 **Num-platters**vref{2}: 4
-**Start-time**htref{1}: < 60s
-**Stop-time**htref{1}: < 15s
+**Start-time**vref{1}: < 60s
+**Stop-time**vref{1}: < 15s
 **Power-start{RF31F}
-**Positive-5V-current**htref{1}: 1.2A
-**Positive-12V-current**htref{1}: 3.0A:peak
+**Positive-5V-current**vref{1}: 1.2A
+**Positive-12V-current**vref{1}: 3.0A:peak
 **Power**vref{2}: 18.7W:typical
 **Power-end{RF31F}
 **Dimensions-start{RF31F}
 **Label: RF31F Drive
-**Height**htref{1}: 41.2mm
-**Width**htref{1}: 147mm
-**Depth**htref{1}: 209mm
+**Height**vref{1}: 41.2mm
+**Width**vref{1}: 147mm
+**Depth**vref{1}: 209mm
 **Dimensions-end{RF31F}
 **End-storage-entry{RF31F}
 
@@ -204,7 +203,7 @@
 **Announcement**vref{2}: 1992-01-31
 **Last-order**vref{4}: 1994-07-01
 **Last-ship**vref{4}: 1994-09-30
-**Capacity**vref{2,3}: 852MB
+**Capacity**vref{1,2,3}: 852MB
 **Codename: Patriot
 **Form-factor**vref{2}: 3-1/2" full-height
 **Average-access**vref{2,3}: 15.1ms
@@ -218,24 +217,24 @@
 **Media-type**vref{3}: TFM
 **Head-type**vref{3}: TFH
 **Num-platters**vref{3}: 7
-**Servo-type**htref{1}: Fully embedded
-**Track-density**htref{1}: 2650tpi
-**Recording-density**htref{1}: 48300 bpi
+**Servo-type**vref{1}: Fully embedded
+**Track-density**vref{1}: 2650tpi
+**Recording-density**vref{1}: 48300 bpi
 **Areal-density**vref{3}: 128 Mb/sq in
-**Data-tracks-per-surface**htref{1}: 2086
-**Sectors-per-track**htref{1}: 57 data, 1 replacement
-**Start-time**htref{1}: < 30s
-**Stop-time**htref{1}: < 15s
+**Data-tracks-per-surface**vref{1}: 2086
+**Sectors-per-track**vref{1}: 57 data, 1 replacement
+**Start-time**vref{1}: < 30s
+**Stop-time**vref{1}: < 15s
 **Power-start{RF35}
-**Positive-5V-current**htref{1}: 0.85A
-**Positive-12V-current**htref{1}: 2.55A:peak
-**Power**htref{1}: 13.7W:typical
+**Positive-5V-current**vref{1}: 0.85A
+**Positive-12V-current**vref{1}: 2.55A:peak
+**Power**vref{1}: 13.7W:typical
 **Power-end{RF35}
 **Dimensions-start{RF35}
 **Label: RF35 Drive
-**Height**htref{1}: 41.2mm
-**Width**htref{1}: 101.6mm
-**Depth**htref{1}: 146mm
+**Height**vref{1}: 41.2mm
+**Width**vref{1}: 101.6mm
+**Depth**vref{1}: 146mm
 **Dimensions-end{RF35}
 **End-storage-entry{RF35}
 
@@ -292,7 +291,7 @@
 **Last-order**vref{4}: 1993-12-24
 **Last-ship**vref{4}: 1994-03-31
 **OS-support-eln**vref{3}: VAXELN V4.3
-**Capacity**vref{2}: 1.0GB
+**Capacity**vref{1,2}: 1.0GB
 **Form-factor**vref{2}: 5-1/4" full height
 **Average-seek**vref{2}: 13.4ms
 **Average-access**vref{2}: 21.7ms
@@ -304,26 +303,26 @@
 **Num-platters**vref{2}: 11
 **Media-type**vref{2}: Thin Film
 **Head-type**vref{2}: MIG
-**Servo-type**htref{1}: Fully embedded
-**Rotational-speed**htref{1}: 3600rpm
-**Track-density**htref{1}: 1875tpi
-**Recording-density**htref{1}: 30064 bpi
+**Servo-type**vref{1}: Fully embedded
+**Rotational-speed**vref{1}: 3600rpm
+**Track-density**vref{1}: 1875tpi
+**Recording-density**vref{1}: 30064 bpi
 **Areal-density**vref{2}: 56.4 Mb/sq in
-**Data-tracks-per-surface**htref{1}: 1861
-**Sectors-per-track**htref{1}: 50 data, 1 replacement
-**Start-time**htref{1}: < 60s
-**Stop-time**htref{1}: < 15s
+**Data-tracks-per-surface**vref{1}: 1861
+**Sectors-per-track**vref{1}: 50 data, 1 replacement
+**Start-time**vref{1}: < 60s
+**Stop-time**vref{1}: < 15s
 **Interface**vref{2}: DSSI
 **Power-start{RF72}
-**Positive-5V-current**htref{1}: 1.5A
-**Positive-12V-current**htref{1}: 5.4A:peak
+**Positive-5V-current**vref{1}: 1.5A
+**Positive-12V-current**vref{1}: 5.4A:peak
 **Power**vref{2}: 23W:typical
 **Power-end{RF72}
 **Dimensions-start{RF72}
 **Label: RF72 Drive
-**Height**htref{1}: 83mm
-**Width**htref{1}: 147mm
-**Depth**htref{1}: 209mm
+**Height**vref{1}: 83mm
+**Width**vref{1}: 147mm
+**Depth**vref{1}: 209mm
 **Dimensions-end{RF72}
 **End-storage-entry{RF72}
 
@@ -349,29 +348,28 @@
 **Read-ahead-cache**vref{2}: 512KB
 **Read-ahead-tracks**vref{2}: 11
 **Num-platters**vref{2}: 11
-**Servo-type**htref{1}: Fully embedded
-**Rotational-speed**htref{1}: 3600rpm
-**Track-density**htref{1}: 2432 tpi
-**Recording-density**htref{1}: 43880 bpi
+**Servo-type**vref{1}: Fully embedded
+**Rotational-speed**vref{1}: 3600rpm
+**Track-density**vref{1}: 2432 tpi
+**Recording-density**vref{1}: 43880 bpi
 **Areal-density**vref{2}: 107 Mb/sq in
-**Data-tracks-per-surface**htref{1}: 2620
-**Sectors-per-track**htref{1}: 71 data, 1 replacement
+**Data-tracks-per-surface**vref{1}: 2620
+**Sectors-per-track**vref{1}: 71 data, 1 replacement
 **Media-type**vref{2}: Thin Film
 **Interface**vref{2}: DSSI
-**Start-time**htref{1}: < 60s
-**Stop-time**htref{1}: < 15s
+**Start-time**vref{1}: < 60s
+**Stop-time**vref{1}: < 15s
 **Power-start{RF73}
 **Power**vref{2}: 23W (typical)
-**Positive-5V-current**htref{1}: 1.2A
-**Positive-12V-current**htref{1}: 5.0A:typical
+**Positive-5V-current**vref{1}: 1.2A
+**Positive-12V-current**vref{1}: 5.0A:typical
 **Power-end{RF73}
 **Dimensions-start{RF73}
 **Label: RF73 Drive
-**Height**htref{1}: 83mm
-**Width**htref{1}: 147mm
-**Depth**htref{1}: 209mm
-![1]**Weight**htref{1}: 6.36lbs
-**Weight**htref{1}: 2.88kg
+**Height**vref{1}: 83mm
+**Width**vref{1}: 147mm
+**Depth**vref{1}: 209mm
+**Weight**vref{1}: 2.88kg
 **Dimensions-end{RF73}
 **End-storage-entry{RF73}
 
