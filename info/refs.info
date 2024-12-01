@@ -2677,6 +2677,7 @@
 **Start-ref{EK-OLA50-RM-002}
 **Ref-text: LA50 Printer Programmer reference Manual
 **Ref-partno: EK-OLA50-RM-002
+**Ref-date: 1983-03
 **Ref-hardcopy: Yes
 **End-ref{EK-OLA50-RM-002}
 
@@ -2689,6 +2690,7 @@
 **Start-ref{EK-OLA75-RM-002}
 **Ref-text: LA75 Companion Printer Programmer Reference Manual
 **Ref-partno: EK-OLA75-RM-002
+**Ref-date: 1987-02
 **Ref-hardcopy: Yes
 **End-ref{EK-OLA75-RM-002}
 
@@ -2707,6 +2709,8 @@
 **Start-ref{EK-LQP03-RM-001}
 **Ref-text: LQP03 Printer Programmer Reference Manual
 **Ref-partno: EK-LQP03-RM-001
+**Ref-date: 1984-07
+**Ref-url: http://manx-docs.org/collections/antonio/dec/lqp03rm1.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-LQP03-RM-001}
 
@@ -2725,6 +2729,8 @@
 **Start-ref{EK-OLN03-RM-002}
 **Ref-text: LN03 Programmer Reference Manual
 **Ref-partno: EK-OLN03-RM-002
+**Ref-date: 1985-11
+**Ref-url: https://web.archive.org/web/20090106015534/http://vt100.net/docs/0ln03-rm/ek-0ln03-rm-002.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-OLN03-RM-002}
 
@@ -3410,13 +3416,17 @@
 **Start-ref{EK-LA100-RG-001}
 **Ref-text: LA100-Series Programmer Reference Manual
 **Ref-partno: EK-LA100-RG-001
+**Ref-date: 1982-01
 **Ref-hardcopy: Yes
+**Ref-URL: https://manx-docs.org/collections/antonio/dec/la100rg1.pdf
 **End-ref{EK-LA100-RG-001}
 
 **Start-ref{EK-LA120-UG-003}
 **Ref-text: LA120 User Guide
 **Ref-partno: EK-LA120-UG-003
+**Ref-date: 1979-06
 **Ref-hardcopy: Yes
+**Ref-url: http://bitsavers.org/pdf/dec/terminal/la120/EK-LA120-UG-003_LA120_Users_Guide_Jun79.pdf
 **End-ref{EK-LA120-UG-003}
 
 **Start-ref{EK-OLA34-UG-001}
@@ -7641,6 +7651,8 @@
 **Start-ref{EK-LA210-RG-001}
 **Ref-text: LA210 Letterprinter Emulation Modes Reference Guide
 **Ref-partno: EK-LA210-RG-001
+**Ref-date: 1985-02
+**Ref-url: https://www.vaxbarn.com/downloads/pub/pdf/dec/printer/la210/EK-LA210-RG-001%20LA210%20Letterprinter%20Emulation%20Modes%20Reference%20Guide%20-%201985-02.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-LA210-RG-001}
 
@@ -9514,7 +9526,7 @@
 **Ref-partno: EK-OTF85-OM-002
 **Ref-date: 1991-11
 **Ref-electronic: PDF
-**Ref-URL: https://manx-docs.org/collections/mds-199909/cd3/tape/otf85om2.pdf
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/tape/otf85om2.pdf
 **Ref-processed: Yes
 **End-ref{EK-OTF85-OM-002}
 
@@ -11106,6 +11118,20 @@
 **Ref-partno: EK-VR297-SV-001
 **Ref-url: 
 **End-ref{EK-VR297-SV-001}
+
+**Start-ref{EK-OTA91-OM-001}
+**Ref-text: TA91 Magnetic Tape Subsystem Owner’s Manual
+**Ref-date: 1991-04
+**Ref-partno: EK-OTA91-OM-001
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/tape/ota91om1.pdf
+**End-ref{EK-OTA91-OM-001}
+
+**Start-ref{EK–TF857–OM–002}
+**Ref-text: Tx857 Series Magazine Tape Subsystem
+**Ref-date: 1991-11
+**Ref-partno: EK–TF857–OM–002
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/tape/tf857om2.pdf
+**End-ref{EK–TF857–OM–002}
 
 **Stop-processing
 
