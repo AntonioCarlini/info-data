@@ -187,7 +187,11 @@ class References
         value = $2
         case tag
         when /^Ref-text$/ix         then current.title = value
-        when /^Ref-partno$/ix       then current.part_no = value
+        when /^Ref-partno$/ix
+          current.part_no = value
+          if current.part_no[-1] == "}"
+            raise("part-no ends in '}': in #{info_filename} at line #{line_num}: #{line}")
+          end
         when /^Ref-electronic$/ix   then current.electronic_format = value
         when /^Ref-format$/ix       then current.format = value # TODO ?
         when /^Ref-location$/ix     then current.location = value

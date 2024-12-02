@@ -167,7 +167,11 @@ class Publications
         value = $2
         case tag
         when /^title$/ix         then current.title = value
-        when /^part-no$/ix       then current.part_no = value
+        when /^part-no$/ix
+          current.part_no = value
+          if current.part_no[-1] == "}"
+            raise("part-no ends in '}': in #{info_filename} at line #{line_num}: #{line}")
+          end
         when /^publisher$/ix     then current.publisher = value
         when /^fonds$/ix         then current.fonds = value
         when /^isbn$/ix          then current.isbn = value
