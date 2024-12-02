@@ -155,26 +155,26 @@
 **Def-lref{1} = ref{EK-LA100-RG-001}
 **Def-lref{2} = ref{EK-LP100-OP-001}
 **Def-lref{3} = ref{EK-LP100-IN-001}
-**Character-pitch**htref{1}: 5, 6, 6.6, 8.25, 10, 12, 13.2, 16.5 cpi
-**Data-interface**htref{1}: RS-232
-**Data-rate**htref{2}: 50-9600
-**Data-buffer**htref{1}: 400 bytes
-**Dev-req**htref{1}: ESC [ 0 c
-**Dev-req-resp**htref{1}: ESC [ ? 1 0 c
+**Character-pitch**vref{1}: 5, 6, 6.6, 8.25, 10, 12, 13.2, 16.5 cpi
+**Data-interface**vref{1}: RS-232
+**Data-rate**vref{2}: 50-9600
+**Data-buffer**vref{1}: 400 bytes
+**Dev-req**vref{1}: ESC [ 0 c
+**Dev-req-resp**vref{1}: ESC [ ? 1 0 c
 **Dimensions-start{LA100}
-**Height**htref{1}: 183mm
-**Width**htref{1}: 559mm
-**Depth**htref{1}: 417mm
+**Height**vref{1}: 183mm
+**Width**vref{1}: 559mm
+**Depth**vref{1}: 417mm
 **Dimensions-end{LA100}
 **Power-start{LA100-120V}
 **Label: 120V
-**Supply**htref{3}: 120V 1-phase
-**Power**htref{3}: 45W
+**Supply**vref{3}: 120V 1-phase
+**Power**vref{3}: 45W
 **Power-end{LA100-120V}
 **Power-start{LA100-240V}
 **Label: 240V
-**Supply**htref{3}: 240V 1-phase
-**Power**htref{3}: 45W
+**Supply**vref{3}: 240V 1-phase
+**Power**vref{3}: 45W
 **Power-end{LA100-240V}
 **End-printers-entry{LA100}
 
@@ -182,34 +182,34 @@
 **Sys-name: LA120
 **Desc-name: LA120 Printer
 **Def-lref{1} = ref{EK-LA120-UG-003}
-**Technology**htref{1}: Impact dot-matrix
-**Character-size**htref{1}: 7x7
-**Character-pitch**htref{1}: 5, 6, 6.6, 8, 10, 12, 13.2, 16.5 cpi
-**Line-spacing**htref{1}: 2, 3, 4, 6, 8 or 12 lines/in
-**Data-interface**htref{1}: RS-232
-**Data-rate**htref{1}: 50-9600
-**Data-buffer**htref{1}: 1KB
-**Print-speed**htref{1}: 180 cps
+**Technology**vref{1}: Impact dot-matrix
+**Character-size**vref{1}: 7x7
+**Character-pitch**vref{1}: 5, 6, 6.6, 8.25, 10, 12, 13.2, 16.5 cpi
+**Line-spacing**vref{1}: 2, 3, 4, 6, 8 or 12 lines/in
+**Data-interface**vref{1}: RS-232
+**Data-rate**vref{1}: 50-9600
+**Data-buffer**vref{1}: 1KB
+**Print-speed**vref{1}: 180 cps
 !	ref_1:	LA12X-AL is 20mA current loop interface option
 !		LA12X-DL is i/p buffer expansion which increases buffer to 4KB
-**Dev-req**htref{1}: ESC [ 0 c
-**Dev-req-resp**htref{1}: ESC [ ? 2 c
+**Dev-req**vref{1}: ESC [ 0 c
+**Dev-req-resp**vref{1}: ESC [ ? 2 c
 **Power-start{LA120-240V}
 **Label: 240V
-**Supply**htref{1}: 240V 1-phase
-**Power**htref{1}: 440W
+**Supply**vref{1}: 240V 1-phase
+**Power**vref{1}: 440W
 **Power-end{LA120-240V}
 **Power-start{LA120-120V}
 **Label: 120V
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 4.2A
-**Power**htref{1}: 440W
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 4.2A
+**Power**vref{1}: 440W
 **Power-end{LA120-120V}
 **Dimensions-start{LA120}
-**Height**htref{1}: 851mm
-**Width**htref{1}: 699mm
-**Depth**htref{1}: 610mm
-**Weight**htref{1}: 46.4kg
+**Height**vref{1}: 851mm
+**Width**vref{1}: 699mm
+**Depth**vref{1}: 610mm
+**Weight**vref{1}: 46.4kg
 **Dimensions-end{LA120}
 **End-printers-entry{LA120}
 
@@ -219,14 +219,14 @@
 **Def-lref{1} = ref{EK-LA210-RM-001}
 **Def-lref{2} = ref{CU-1993-06-21}
 **Last-ship**vref{2}: 1993-06-21
-**Print-head**htref{1}: 9-pin dot matrix
-**Character-pitch**htref{1}: 5, 6, 10 and 12 cpi
-**Data-interface**htref{1}: RS-232
-**Data-rate**htref{1}: 110-9600
-**Data-buffer**htref{1}: 2KB
-**Print-speed**htref{1}: {240 cps (draft)}{30 cps (letter quality)}
-**Dev-req**htref{1}: ESC [ 0 c
-**Dev-req-resp**htref{1}: CSI ? 1 0 ; 3 c
+**Print-head**vref{1}: 9-pin dot matrix
+**Character-pitch**vref{1}: 5, 6, 10 and 12 cpi
+**Data-interface**vref{1}: RS-232
+**Data-rate**vref{1}: 110-9600
+**Data-buffer**vref{1}: 2KB
+**Print-speed**vref{1}: {240 cps (draft)}{30 cps (letter quality)}
+**Dev-req**vref{1}: ESC [ 0 c
+**Dev-req-resp**vref{1}: CSI ? 1 0 ; 3 c
 **End-printers-entry{LA210}
 
 **Start-printers-entry{LA310}{PRINTER}{LA}
@@ -285,27 +285,28 @@
 **Sys-name: LA50
 **Desc-name: LA50 Printer
 **Def-lref{1} = ref{EK-OLA50-RM-002}
-**Character-pitch**htref{1}: 5, 6, 10 and 12 cpi
-**Data-interface**htref{1}: RS-232
-**Data-rate**htref{1}: 110 - 4800
-**Print-speed**htref{1}: 100 cps
-**Dev-req**htref{1}: ESC [ 0 c
-**Dev-req-resp**htref{1}: ESC [ ? 1 7 c
+**Character-pitch**vref{1}: 5, 6, 10 and 12 cpi
+**Data-interface**vref{1}: RS-232
+**Data-rate**vref{1}: 110 - 4800
+**Data-buffer**vref{1}: 2047 bytes
+**Print-speed**vref{1}: 100 cps
+**Dev-req**vref{1}: ESC [ 0 c
+**Dev-req-resp**vref{1}: ESC [ ? 1 7 c
 **Dimensions-start{LA50}
-**Height**htref{1}: 142mm
-**Width**htref{1}: 400mm
-**Depth**htref{1}: 295mm
-**Weight**htref{1}: 8.5kg
+**Height**vref{1}: 142mm
+**Width**vref{1}: 400mm
+**Depth**vref{1}: 295mm
+**Weight**vref{1}: 8.5kg
 **Dimensions-end{LA50}
 **Power-start{LA50-120V}
 **Label: 120V
-**Supply**htref{1}: 120V 1-phase
-**Power**htref{1}: 180W
+**Supply**vref{1}: 120V 1-phase
+**Power**vref{1}: 180W
 **Power-end{LA50-120V}
 **Power-start{LA50-240V}
 **Label: 240V
-**Supply**htref{1}: 240V 1-phase
-**Power**htref{1}: 180W
+**Supply**vref{1}: 240V 1-phase
+**Power**vref{1}: 180W
 **Power-end{LA50-240V}
 **End-printers-entry{LA50}
 
@@ -323,30 +324,28 @@
 **Def-lref{1} = ref{EK-OLA75-RM-002}
 **Def-lref{2} = ref{CU-1991-10-18}
 **Last-ship**vref{2}: 1992-03-30
-**Character-pitch**htref{1}: 5, 6, 10 and 12 cpi
-**Data-interface**htref{1}: RS-232
-**Data-rate**htref{1}: 110 - 4800
-! check data buffer is 2K -->
-**Data-buffer**htref{1}: 2KB
+**Character-pitch**vref{1}: 5, 6, 10 and 12 cpi
+**Data-interface**vref{1}: RS-232
+**Data-rate**vref{1}: 110 - 9600
+**Data-buffer**vref{1}: 2KB
 **Print-speed**vref{2}: {250 cps (draft)}{32 cps (letter quality)}
-**Dev-req**htref{1}: ESC [ 0 c
-**Dev-req-resp**htref{1}: ESC [ ? 7 2 ; 5 ; 7 c 
-! ESC [ ? 7 2 ; 5 ; 6; 7 c   Ps3=6 if sheetfeeder available
+**Dev-req**vref{1}: ESC [ 0 c
+**Dev-req-resp**vref{1}: ESC [ ? 7 2 ; 5 ; 7 c 
 **Dimensions-start{LA75}
-**Height**htref{1}: 121mm
-**Width**htref{1}: 427mm
-**Depth**htref{1}: 345mm
-**Weight**htref{1}: 9.5kg
+**Height**vref{1}: 121mm
+**Width**vref{1}: 427mm
+**Depth**vref{1}: 345mm
+**Weight**vref{1}: 9.5kg
 **Dimensions-end{LA75}
 **Power-start{LA75-120V}
 **Label: 120V
-**Supply**htref{1}: 120V 1-phase
-**Power**htref{1}: 180W
+**Supply**vref{1}: 120V 1-phase
+**Power**vref{1}: 180W
 **Power-end{LA75-120V}
 **Power-start{LA75-240V}
 **Label: 240V
-**Supply**htref{1}: 240V 1-phase
-**Power**htref{1}: 180W
+**Supply**vref{1}: 240V 1-phase
+**Power**vref{1}: 180W
 **Power-end{LA75-240V}
 **End-printers-entry{LA75}
 
@@ -479,28 +478,28 @@
 **Desc-name: LN03 and LN03 Plus Laser Printers
 **Def-lref{1} = ref{EK-OLN03-RM-002}
 **Def-lref{2} = ref{EK-LN03S-RM-001}
-**Sheet-capacity**htref{1}: 250 sheets
-**Toner**htref{1}: Cartridge
-**Data-interface**htref{1}: RS-232
-**Data-rate**htref{1}: 1200 - 19.2k
-**Print-speed**htref{1}: 8 pages/min
-**Dev-req: ESC [ 0 c
-**Dev-req-resp: ESC [ ? 2 6 c
+**Sheet-capacity**vref{1}: 250 sheets
+**Toner**vref{1}: Cartridge
+**Data-interface**vref{1}: RS-232
+**Data-rate**vref{1}: 1200 - 19.2k
+**Print-speed**vref{1}: 8 pages/min
+**Dev-req**vref{1}: ESC [ 0 c
+**Dev-req-resp**vref{1}: ESC [ ? 2 6 c
 !ESC [ ? 2 6 ; 2 c for LN03PLUS
-**Resolution**htref{1}: 300 dpi
+**Resolution**vref{1}: 300 dpi
 **Dimensions-start{LN03}
-**Height**htref{1}: 331mm
-**Width**htref{1}: 534mm
-**Depth**htref{1}: 407mm
-**Weight**htref{1}: 80lbs
+**Height**vref{1}: 331mm
+**Width**vref{1}: 534mm
+**Depth**vref{1}: 407mm
+**Weight**vref{1}: 80lbs
 **Dimensions-end{LN03}
 **Power-start{LN03-A2}
-**Label: LN03 A2
-**Supply**htref{1}: 120V 1-phase
+**Label: LN03-A2
+**Supply**vref{1}: 120V 1-phase
 **Power-end{LN03-A2}
 **Power-start{LN03-A3}
-**Label: LN03 A3
-**Supply**htref{1}: 240V 1-phase
+**Label: LN03-A3
+**Supply**vref{1}: 240V 1-phase
 **Power-end{LN03-A3}
 !	ref_1: DA response
 !		LN03:	ESC [ ? 2 6 c
@@ -772,29 +771,29 @@
 **Sys-name: LQP03
 **Desc-name: LQP03 Printer
 **Def-lref{1} = ref{EK-LQP03-RM-001}
-**Character-pitch**htref{1}: 10, 12 and 15 cpi
-**Data-interface**htref{1}: RS-232
-**Data-rate**htref{1}: 110 - 9600
-**Stop-bits**htref{1}: 1 or 2
-**Print-speed**htref{1}: 25 cps
+**Character-pitch**vref{1}: 10, 12 and 15 cpi
+**Data-interface**vref{1}: RS-232
+**Data-rate**vref{1}: 110 - 9600
+**Stop-bits**vref{1}: 1 or 2
+**Print-speed**vref{1}: 25 cps
 **Dev-req: ESC [ 0 c
 **Dev-req-resp: ESC [ ? 1 3 ; Ps c
-**Resolution**htref{1}: {120 increments/inch (horiz)}{48 increments/inch (vert)}
+**Resolution**vref{1}: {120 increments/inch (horiz)}{48 increments/inch (vert)}
 **Dimensions-start{LQP03}
-**Height**htref{1}: 203.2mm
-**Width**htref{1}: 508mm
-**Depth**htref{1}: 381mm
-**Weight**htref{1}:  12.2kg
+**Height**vref{1}: 203.2mm
+**Width**vref{1}: 508mm
+**Depth**vref{1}: 381mm
+**Weight**vref{1}:  12.2kg
 **Dimensions-end{LQP03}
 **Power-start{LQP03-A}
 **Label: LQP03 A
-**Supply**htref{1}: 120V 1-phase
-**Power**htref{1}: 100W
+**Supply**vref{1}: 120V 1-phase
+**Power**vref{1}: 100W
 **Power-end{LQP03-A}
 **Power-start{LQP03-B}
 **Label: LQP03 B
-**Supply**htref{1}: 240V 1-phase
-**Power**htref{1}: 100W
+**Supply**vref{1}: 240V 1-phase
+**Power**vref{1}: 100W
 **Power-end{LQP03-B}
 !	ref_1: DA response LQP03: ESC [ ? 2 4 ; Ps c	LQP02 ESC [ ? 1 3 ; Ps c 
 !			Ps: 0 = no options, 2 = single tray feeder, 3 = dual-tray feeder
@@ -805,23 +804,23 @@
 **Desc-name: LW100 Letterwriter
 **Def-lref{1} = ref{EK-LW100-OP-001}
 **Def-lref{2} = ref{EK-LW100-IN-001}
-**Technology**htref{1}: Impact dot-matrix
-**Character-pitch**htref{1}: 5, 6, 6.6, 8.25, 10, 12, 13.2, 16.5 cpi
-**Data-rate**htref{2}: 50 - 9600
+**Technology**vref{1}: Impact dot-matrix
+**Character-pitch**vref{1}: 5, 6, 6.6, 8.25, 10, 12, 13.2, 16.5 cpi
+**Data-rate**vref{1}: 50 - 9600
 **Dimensions-start{LW100}
-**Height**htref{2}: 183mm
-**Width**htref{2}: 559mm
-**Depth**htref{2}: 417mm
+**Height**vref{2}: 183mm
+**Width**vref{2}: 559mm
+**Depth**vref{2}: 417mm
 **Dimensions-end{LW100}
 **Power-start{LW100-120V}
 **Label: 120V
-**Supply**htref{2}: 120V 1-phase
-**Power**htref{2}: 45W
+**Supply**vref{2}: 120V 1-phase
+**Power**vref{2}: 45W
 **Power-end{LW100-120V}
 **Power-start{LW100-240V}
 **Label: 240V
-**Supply**htref{2}: 240V 1-phase
-**Power**htref{2}: 45W
+**Supply**vref{2}: 240V 1-phase
+**Power**vref{2}: 45W
 **Power-end{LW100-240V}
 **End-printers-entry{LW100}
 
