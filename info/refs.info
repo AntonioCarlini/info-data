@@ -2206,10 +2206,12 @@
 **Ref-partno: EK-V1000-UG-001
 **End-ref{EK-V1000-UG-001}
 
-**Start-ref{EK-V220-UG-003}
+**Start-ref{EK-VT220-UG-003}
 **Ref-text: VT220 Owner's Manual
-**Ref-partno: EK-V220-UG-003
-**End-ref{EK-V220-UG-003}
+**Ref-partno: EK-VT220-UG-003
+**Ref-date: 1984-12
+**Ref-url: https://bitsavers.trailing-edge.com/pdf/dec/terminal/vt220/EK-VT220_UG-003_VT220_Owners_Manual_198412.pdf
+**End-ref{EK-VT220-UG-003}
 
 **Start-ref{EK-VT320-UU-001}
 **Ref-text: Installing and Using the VT320 Video Terminal
@@ -10968,12 +10970,20 @@
 **Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/EK-VT55E-TM-001%20VT55-E%2C%20F%2C%20H%2C%20J%20DECgraphic%20Scope%20User's%20Manual.pdf
 **End-ref{EK-VT55E-TM-001}
 
-**Start-ref{EK-V1001-UG-002}
+**Start-ref{EK-V1000-UG-002}
 **Ref-text: Installing and Using The VT1000 Video Terminal
+**Ref-date: 1990-06
+**Ref-partno: EK-V1000-UG-002
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/term/v1000ug2.pdf
+**Ref-electronic: PDF
+**End-ref{EK-V1000-UG-002}
+
+**Start-ref{EK-VT101-UG-002}
+**Ref-text: VT101 Video Terminal User Guide
 **Ref-date: 1981-04
-**Ref-partno: EK-V1001-UG-002
-**Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/EK-VT101-UG-002%20VT101%20Video%20Terminal%20User%20Guide.pdf
-**End-ref{EK-V1001-UG-002}
+**Ref-partno: EK-VT101-UG-002}
+**Ref-url: https://manx-docs.org/mirror/vt100.net/dec/ek-vt101-ug-002.pdf
+**End-ref{EK-VT101-UG-002}
 
 **Start-ref{MP-01066-00}
 **Ref-text: VT101 Family Field Maintenance Print Set
