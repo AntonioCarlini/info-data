@@ -1,3 +1,5 @@
+CHIPS += chips
+
 MONITORS += monitors
 
 PRINTERS += printers
@@ -25,6 +27,7 @@ SYSTEMS += vax
 
 TERMINALS += terminals
 
+ENTRIES += $(CHIPS)
 ENTRIES += $(MONITORS)
 ENTRIES += ${PRINTERS}
 ENTRIES += ${STORAGE}
@@ -37,6 +40,7 @@ REFS = $(YAML_OUTPUT)/refs.yaml
 
 PUBS = $(YAML_OUTPUT)/pubs.yaml
 
+TAGS.CHIPS = scripts/chips-tags.yaml
 TAGS.MONITORS = scripts/monitors-tags.yaml
 TAGS.PRINTERS = scripts/printers-tags.yaml
 TAGS.STORAGE = scripts/storage-tags.yaml
@@ -299,6 +303,13 @@ $(YAML_OUTPUT)/printers.yaml:  info/printers.info $(TAGS.PRINTERS) $(REFS) $(PUB
 
 bin/printers.infobox.mediawiki.txt: $(YAML_OUTPUT)/printers.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
 	scripts/entry-yaml-to-infobox-mediawiki.rb printer Printer $< $(TAGS.PRINTERS) $(REFS) $(TOTAL.YAML) > $@
+
+# chips -> YAML
+$(YAML_OUTPUT)/chips.yaml:  info/chips.info $(TAGS.CHIPS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.CHIPS) $(REFS) $(PUBS) > $@
+
+bin/chips.infobox.mediawiki.txt: $(YAML_OUTPUT)/chips.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
+	scripts/entry-yaml-to-infobox-mediawiki.rb chips Chips $< $(TAGS.CHIPS) $(REFS) $(TOTAL.YAML) > $@
 
 # test data
 $(YAML_OUTPUT)/test.yaml:  info/test.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)

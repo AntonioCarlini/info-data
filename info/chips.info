@@ -1,3 +1,5 @@
+**References-must-be-verified
+!
 ! 21064  announced 25-FEB-1992 http://alasir.com/articles/alpha_history/press/alpha_intro.html
 ! 21066A announced 14-NOV-1994 http://alasir.com/articles/alpha_history/press/lca45_announce.html
 ! 21164  announced 07-SEP-1994 http://alasir.com/articles/alpha_history/press/ev5_announce.html
@@ -11,6 +13,7 @@
 **Start-chips-entry{DC003}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
 **Def-lref{2} = ref{EK-DHV11-TM-001}
+**Sys-name: DC003
 **Part-number**vref{1}: DC003
 **Desc-name**vref{1}: Dual-interrupt Circuit
 **End-chips-entry{DC003}
@@ -18,6 +21,7 @@
 **Start-chips-entry{DC004}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
 **Def-lref{2} = ref{EK-DHV11-TM-001}
+**Sys-name: DC004
 **Part-number**vref{1}: DC004
 **Desc-name**vref{1}: Register Selector (Protocol) Logic
 **End-chips-entry{DC004}
@@ -25,12 +29,14 @@
 **Start-chips-entry{DC005}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
 **Def-lref{2} = ref{EK-DHV11-TM-001}
+**Sys-name: DC005
 **Part-number**vref{1}: DC005
 **Desc-name**vref{1}: 4-bit Transceiver
 **End-chips-entry{DC005}
 
 **Start-chips-entry{DC006}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC006
 **Part-number**vref{1}: DC006
 **Desc-name**vref{1}: Word Count/Bus Address Logic
 **End-chips-entry{DC006}
@@ -38,6 +44,7 @@
 **Start-chips-entry{DC010}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
 **Def-lref{2} = ref{EK-DHV11-TM-001}
+**Sys-name: DC010
 **Part-number**vref{1}: DC010
 **Desc-name**vref{1}: Direct Memory Access
 **End-chips-entry{DC010}
@@ -45,258 +52,304 @@
 **Start-chips-entry{DC013}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
 **Def-lref{2} = ref{EK-DHU11-TM-001}
+**Sys-name: DC013
 **Part-number**vref{1}: DC013
 **Desc-name**vref{1}: UNIBUS Request Logic
 **End-chips-entry{DC013}
 
 **Start-chips-entry{DC018}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC018
 **Desc-name**vref{1}: Serializer/Deserializer
 **End-chips-entry{DC018}
 
 **Start-chips-entry{DC021}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC021
 **Part-number**vref{1}: DC021
 **Desc-name**vref{1}: Octal Bus Transceiver
 **End-chips-entry{DC021}
 
 **Start-chips-entry{DC022}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC022
 **Desc-name**vref{1}: 16-Word by 4-bit Register File
 **End-chips-entry{DC022}
 
 **Start-chips-entry{DC024}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC024
 **Part-number**vref{1}: DC024
 **Desc-name**vref{1}: Encoder/Decoder Logic
 **End-chips-entry{DC024}
 
 **Start-chips-entry{DC028}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC028
 **Part-number**vref{1}: 78701
 **Desc-name**vref{1}: VAXBI Clock Driver
 **End-chips-entry{DC028}
 
 **Start-chips-entry{DC029}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC029
 **Part-number**vref{1}: 78702
 **Desc-name**vref{1}: VAXBI Clock Receiver
 **End-chips-entry{DC029}
 
 **Start-chips-entry{DC102}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC0102
 **Desc-name**vref{1}: Equals Checker
 **End-chips-entry{DC102}
 
 **Start-chips-entry{DC301}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC0301
 **Desc-name**vref{1}: Dual Baud Rate Generator
 **End-chips-entry{DC301}
 
 **Start-chips-entry{DC309}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC0309
 **Desc-name**vref{1}: Reed Solomon Generator
 **End-chips-entry{DC309}
 
 **Start-chips-entry{DC310}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC310
 **Part-number**vref{1}: DCT11
 **Desc-name**vref{1}: DCT11 16-bit Microprocessor
 **End-chips-entry{DC310}
 
 **Start-chips-entry{DC319}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC319
 **Part-number**vref{1}: DC319
 **Desc-name**vref{1}: DLART
 **End-chips-entry{DC319}
 
 **Start-chips-entry{DC321}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC321
 **Part-number**vref{1}: FPJ11
 **Desc-name**vref{1}: FPJ11 Floating-point Accelerator
 **End-chips-entry{DC321}
 
 **Start-chips-entry{DC323}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC323
 **Part-number**vref{1}: 78690-GA
 **Desc-name**vref{1}: Video Processor (ADDER)
 **End-chips-entry{DC323}
 
 **Start-chips-entry{DC324}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC324
 **Part-number**vref{1}: 78732-PA
 **Desc-name**vref{1}: VAXBI BIIC
 **End-chips-entry{DC324}
 
 **Start-chips-entry{DC327}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC327
 **Desc-name**vref{1}: V-11 ROM/RAM
 **End-chips-entry{DC327}
 
 **Start-chips-entry{DC328}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC328
 **Desc-name**vref{1}: V-11 Instruction/Execution Logic
 **End-chips-entry{DC328}
 
 **Start-chips-entry{DC329}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC329
 **Desc-name**vref{1}: V-11 Memory Management Logic
 **End-chips-entry{DC329}
 
 **Start-chips-entry{DC330}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC330
 **Desc-name**vref{1}: V-11 Floating-point Accelerator Logic
 **End-chips-entry{DC330}
 
 **Start-chips-entry{DC333}{CHIP}{VAXCPU}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC333
 **Part-number**vref{1}: 78032-GA
 **Desc-name**vref{1}: MicroVAX 32-bit CPU
 **End-chips-entry{DC333}
 
 **Start-chips-entry{DC335}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC335
 **Part-number**vref{1}: DCJ11
 **Desc-name**vref{1}: DCJ11 16-bit Microprocessor
-**End-chips-entry{DC}
+**End-chips-entry{DC335}
 
 **Start-chips-entry{DC337}{CHIP}{VAXCPU}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC337
 **Part-number**vref{1}: 78132-GA
 **Desc-name**vref{1}: MicroVAX Floating-point Unit
 **End-chips-entry{DC337}
 
 **Start-chips-entry{DC341}{CHIP}{VAXCPU}
 **Def-lref{1} = ref{EB-29466-71}
+**Sys-name: DC341
 **Part-number**vref{1}: 78034-GA
 **Desc-name**vref{1}: CVAX Central Processing Unit (CVAX CPU)
 **End-chips-entry{DC341}
 
 **Start-chips-entry{DC343}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC343
 **Part-number**vref{1}: 78743-PA
 **Desc-name**vref{1}: VAXBI BCAI
 **End-chips-entry{DC343}
 
 **Start-chips-entry{DC344}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC344
 **Part-number**vref{1}: 78733-PA
 **Desc-name**vref{1}: VAXBI BCI3
 **End-chips-entry{DC344}
 
 **Start-chips-entry{DC349}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC349
 **Part-number**vref{1}: 78808-GA
 **Desc-name**vref{1}: Octal ART
 **End-chips-entry{DC349}
 
 **Start-chips-entry{DC357}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29466-71}
+**Sys-name: DC357
 **Part-number**vref{1}: 78588-GA
 **Desc-name**vref{1}: CVAX Memory Controller (CMCTL)
 **End-chips-entry{DC357}
 
 **Start-chips-entry{DC358}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC358
 **Part-number**vref{1}: 78532-GA
 **Desc-name**vref{1}: MicroVAX Direct Memory Access (DMA)
 **End-chips-entry{DC358}
 
 **Start-chips-entry{DC502}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC502
 **Part-number**vref{1}: 78680-GA
 **Desc-name**vref{1}: Video Processor (VIPER)
 **End-chips-entry{DC502}
 
 **Start-chips-entry{DC503}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC503
 **Part-number**vref{1}: 78610-GA
 **Desc-name**vref{1}: Programmable Sprite Cursor
 **End-chips-entry{DC503}
 
 **Start-chips-entry{DC506}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
+**Sys-name: DC506
 **Part-number**vref{1}: 78516-GA
 **Desc-name**vref{1}: MicroVAX Vectored Interrupt Controller (VIC)
 **End-chips-entry{DC506}
 
 **Start-chips-entry{DC509}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29466-71}
+**Sys-name: DC509
 **Part-number**vref{1}: 78135-GA
 **Desc-name**vref{1}: CVAX Clock Generator (CCLOCK)
 **End-chips-entry{DC509}
 
 **Start-chips-entry{DC511}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EF-A0188-50}
+**Sys-name: DC511
 **Part-number**vref{1}: 78322-GA
 **Desc-name**vref{1}: MicroVAX System Support Chip (SSC)
 **End-chips-entry{DC511}
 
 **Start-chips-entry{DC513}{CHIP}{VAXCPU}
 **Def-lref{1} = ref{EB-29466-71}
+**Sys-name: DC513
 **Part-number**vref{1}: 78134-GA
 **Desc-name**vref{1}: CVAX Floating-point Accelerator (CFPA)
 **End-chips-entry{DC513}
 
 **Start-chips-entry{DC514}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29466-71}
+**Sys-name: DC514
 **Desc-name**vref{1}: CMOS VAXBI Bus Interface Chip (CBIC)
-**End-chips-entry{DC527}
+**End-chips-entry{DC514}
 
 **Start-chips-entry{DC520}{CHIP}{VAXCPU}
 **Def-lref{1} = ref{EF-A0188-50}
+**Sys-name: DC520
 **Desc-name**vref{1}: Rigel Central Processor Unit
 **End-chips-entry{DC520}
 
 **Start-chips-entry{DC521}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EF-A0188-50}
+**Sys-name: DC521
 **Desc-name**vref{1}: Rigel Clock
 **End-chips-entry{DC521}
 
 **Start-chips-entry{DC523}{CHIP}{VAXCPU}
 **Def-lref{1} = ref{EF-A0188-50}
+**Sys-name: DC523
 **Desc-name**vref{1}: Rigel Floating-point Accelerator
 **End-chips-entry{DC523}
 
 **Start-chips-entry{DC527}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29466-71}
+**Sys-name: DC527
 **Part-number**vref{1}: 78711-GA
 **Desc-name**vref{1}: CVAX Q22-bus Interface Chip (CQBIC)
 **End-chips-entry{DC527}
 
 **Start-chips-entry{DC541}{CHIP}{ETHERNET}
 **Def-lref{1} = ref{EF-A0188-50}
+**Sys-name: DC541
 **Desc-name**vref{1}: Ethernet Controller
 **End-chips-entry{DC541}
 
 **Start-chips-entry{DC542}{CHIP}{IOCHIP}
 **Def-lref{1} = ref{EF-A0188-50}
+**Sys-name: DC542
 **Desc-name**vref{1}: Single Host Adapter
 **End-chips-entry{DC542}
 
 **Start-chips-entry{DC545}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EF-A0188-50}
+**Sys-name: DC545
 **Desc-name**vref{1}: Window/Cursor Chip
 **End-chips-entry{DC545}
 
 **Start-chips-entry{DC548}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EF-A0188-50}
+**Sys-name: DC548
 **Desc-name**vref{1}: Video Digital to Analog Converter
 **End-chips-entry{DC548}
 
 **Start-chips-entry{DC551}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29466-71}
+**Sys-name: DC551
 **Part-number**vref{1}: 78332-GA
 **Desc-name**vref{1}: MicroVAX System Support Chip
 **End-chips-entry{DC551}
 
 **Start-chips-entry{DC563}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EF-A0188-50}
+**Sys-name: DC563
 **Desc-name**vref{1}: DSSI Bus Transceiver
 **End-chips-entry{DC563}
 
 **Start-chips-entry{DC580}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EF-A0188-50}
+**Sys-name: DC580
 **Part-number**vref{1}: 780346-GA
 ! DC341 is 90ns or 80ns
 **Desc-name**vref{1}: CVAX Central Processing Unit (CVAX CPU) 60ns
@@ -304,52 +357,59 @@
 
 **Start-chips-entry{DC592}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EF-A0188-50}
+**Sys-name: DC592
 **Desc-name**vref{1}: Rigel Backup Cache Controller
 **End-chips-entry{DC592}
 
 **Start-chips-entry{DC5003}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EB-29465-71}
 **Def-lref{2} = ref{EJ-32225-88}
-**Part-number**vref{1}: 78584-GA
+**Sys-name: DC5003
 **Desc-name**vref{1}: Dynamic RAM Controller (DYRC)
+**Part-number**vref{1}: 78584-GA
 **End-chips-entry{DC5003}
 
 **Start-chips-entry{DC7044C}{CHIP}{GENERAL}
 **Def-lref{1} = ref{EK-DHQ11-TM-002}
+**Sys-name: DC7044C
 **Desc-name**vref{1}: OCTART
 **End-chips-entry{DC7044C}
 
 **Start-chips-entry{DC21030}{CHIP}{GENERAL}
 **Def-lref{1} = ref{DEC-PR-1994-02-21}
+**Sys-name: DC21030
+**Desc-name**vref{1}: DECchip 21030 Graphics Chip
 **Announcement**vref{1}: 1994-02-21
 **Part-number**vref{1}: DECchip 21030
-**Desc-name**vref{1}: DECchip 21030 Graphics Chip
 **End-chips-entry{DC21030}
 
 **Start-chips-entry{DC21040}{CHIP}{GENERAL}
 **Def-lref{1} = ref{DEC-PR-1993-11-12}
+**Sys-name: DC21040
+**Desc-name**vref{1}: DECchip 21040 Ethernet Controller
 **Announcement**vref{1}: 1993-11-12
 **Part-number**vref{1}: DECchip 21040
-**Desc-name**vref{1}: DECchip 21040 Ethernet Controller
 **End-chips-entry{DC21040}
 
 **Start-chips-entry{DC21050}{CHIP}{GENERAL}
 **Def-lref{1} = ref{DEC-PR-1994-01-17}
+**Sys-name: DC21050
+**Desc-name**vref{1}: DECchip 21050 PCI to PCI Bridge
 **Announcement**vref{1}: 1993-11-12
 **Part-number**vref{1}: DECchip 21050
-**Desc-name**vref{1}: DECchip 21050 PCI to PCI Bridge
 **End-chips-entry{DC21050}
 
 ! **Def-lref{3} = ref{EC-H2315-46}
 ! has 20164 data in appendix B
 
 **Start-chips-entry{DC21064}{CHIP}{ALPHACPU}
-**Part-number: Digital Semiconductor 21064 Alpha Microprocessor
 **Def-lref{1} = ref{EC-N0079-72}
 **Def-lref{2} = ref{EC-N0136-72}
 **Def-lref{3} = ref{EC-Q9ZUC-TE}
+**Sys-name: DC21064
+**Desc-name: Digital Semiconductor 21064 Alpha Microprocessor
 **Codename: EV4
-**CPU-clock**vref{3}: {150MHz}{166MHz}{200MHz}
+**Chip-clock**vref{3}: {150MHz}{166MHz}{200MHz}
 **Instruction-cache**vref{3}: 8KB
 **Data-cache**vref{3}: 8KB write through
 **Icache-block-size**vref{3}: 32 bytes
@@ -365,11 +425,12 @@
 **End-chips-entry{DC21064}
 
 **Start-chips-entry{DC21064A}{CHIP}{ALPHACPU}
-**Part-number: Digital Semiconductor 21064A Alpha Microprocessor
 **Def-lref{1} = ref{EC-N0079-72}
 **Def-lref{2} = ref{EC-Q9ZUC-TE}
+**Sys-name: DC21064A
+**Desc-name: Digital Semiconductor 21064A Alpha Microprocessor
 **Codename: EV45
-**CPU-clock**vref{3}: {233MHz}{275MHz}
+**Chip-clock**htref{3}: {233MHz}{275MHz}
 **Instruction-cache**vref{2}: 16KB
 **Data-cache**vref{2}: 16KB write through
 **Icache-block-size**vref{2}: 32 bytes
@@ -385,100 +446,109 @@
 **End-chips-entry{DC21064A}
 
 **Start-chips-entry{DC21066}{CHIP}{ALPHACPU}
-**Part-number: Digital Semiconductor 21066 Alpha Microprocessor
 **Def-lref{1} = ref{EC-QC4GB-TE}
-**Def-lref{2} = ref{1993-09-27}
+**Def-lref{2} = ref{CU-1993-09-27}
+**Sys-name: DC21066
+**Desc-name: Digital Semiconductor 21066 Alpha Microprocessor
 **Announcement**vref{2}: 1993-09-27
-**FRS-date**vref{1}: 1994 Q1
+**FRS-date**vref{2}: 1994 Q1
 **Codename: LCA
-**CPU-technology**htref{1}: 0.65um CMOS
-**CPU-clock**htref{1}: {100MHz}{166MHz}
-**Instruction-cache**htref{1}: 8KB
-**Data-cache**htref{1}: 8KB write through
-**Icache-block-size**htref{1}: 32 bytes
-**Instruction-translation-buffer**htref{1}: 12 entry
-**Data-translation-buffer**htref{1}: 32 entry
-**Instruction-decode**htref{1}: Dual issue, in order
-**Integer-pipeline**htref{1}: 7 stage
-**FP-pipeline**htref{1}: 10 stage
-**Write-buffer**htref{1}: 4 entry
+**Chip-technology**vref{1}: 0.65um CMOS
+**Chip-clock**vref{1}: {100MHz}{166MHz}
+**Instruction-cache**vref{1}: 8KB
+**Data-cache**vref{1}: 8KB write through
+**Icache-block-size**vref{1}: 32 bytes
+**Instruction-translation-buffer**vref{1}: 12 entry
+**Data-translation-buffer**vref{1}: 32 entry
+**Instruction-decode**vref{1}: Dual issue
+**Integer-pipeline**vref{1}: 7 stage
+**FP-pipeline**vref{1}: 10 stage
+**Write-buffer**vref{1}: 4 entry
 **End-chips-entry{DC21066}
 
 **Start-chips-entry{DC21066A}{CHIP}{ALPHACPU}
-**Part-number: Digital Semiconductor 21066A Alpha Microprocessor
 **Def-lref{1} = ref{EC-QC4GB-TE}
+**Sys-name: DC21066A
+**Desc-name: Digital Semiconductor 21066A Alpha Microprocessor
 **Codename: LCA45
-**CPU-technology**htref{1}: 0.50um CMOS
-**CPU-clock**htref{1}: {100MHz}{233MHz}{266MHz}
-**Instruction-cache**htref{1}: 8KB
-**Data-cache**htref{1}: 8KB write through
-**Icache-block-size**htref{1}: 32 bytes
-**Instruction-translation-buffer**htref{1}: 12 entry
-**Data-translation-buffer**htref{1}: 32 entry
-**Instruction-decode**htref{1}: Dual issue, in order
-**Integer-pipeline**htref{1}: 7 stage
-**FP-pipeline**htref{1}: 10 stage
-**Write-buffer**htref{1}: 4 entry
+**Chip-technology**vref{1}: 0.50um CMOS
+**Chip-clock**vref{1}: {100MHz}{233MHz}{266MHz}
+**Instruction-cache**vref{1}: 8KB
+**Data-cache**vref{1}: 8KB write through
+**Icache-block-size**vref{1}: 32 bytes
+**Instruction-translation-buffer**vref{1}: 12 entry
+**Data-translation-buffer**vref{1}: 32 entry
+**Instruction-decode**vref{1}: Dual issue
+**Integer-pipeline**vref{1}: 7 stage
+**FP-pipeline**vref{1}: 10 stage
+**Write-buffer**vref{1}: 4 entry
 **End-chips-entry{DC21066A}
 
 **Start-chips-entry{DC21068}{CHIP}{ALPHACPU}
-**Part-number: Digital Semiconductor 21068 Alpha Microprocessor
-**Def-lref{1} = ref{1993-09-27}
+**Def-lref{1} = ref{CU-1993-09-27}
+**Sys-name: DC21068
+**Desc-name: Digital Semiconductor 21068 Alpha Microprocessor
 **Announcement**vref{1}: 1993-09-27
 **FRS-date**vref{1}: 1994 Q1
-**CPU-clock**vref{1}: 66 MHz
+**Chip-clock**vref{1}: 66 MHz
 **End-chips-entry{DC21068}
 
 **Start-chips-entry{DC21164}{CHIP}{ALPHACPU}
-**Part-number: Digital Semiconductor 21164 Alpha Microprocessor
-**Def-lref{1} = ref{EC-QAEQB-TE}
-**Codename**htref{1}: EV5
-**Instruction-cache**htref{1}: 8KB
-**Data-cache**htref{1}: 8KB write through
-**Secondary-cache**htref{1}: 96KB write back
-**Icache-block-size**htref{1}: 32 bytes
-**Scache-block-size**htref{1}: 32 or 64 bytes
-**Instruction-translation-buffer**htref{1}: 48 entry
-**Data-translation-buffer**htref{1}: 64 entry
-**Instruction-decode**htref{1}: Quad issue, in order
-**Instruction-prefetch**htref{1}: 4 instructions
-**Integer-pipeline**htref{1}: 7 stage
-**FP-pipeline**htref{1}: 9 stage
-**Write-buffer**htref{1}: 6 entry
-**V-ss**htref{1}: -0.5V
-**V-dd**htref{1}: 3.6V
-**Chip-power**htref{1}: 51W @ 300MHz
+**Def-lref{1} = ref{EC-QAEQD-TE}
+**Sys-name: DC21164
+**Desc-name: Digital Semiconductor 21164 Alpha Microprocessor
+**Codename: EV5
+**Chip-technology**vref{1}: 0.5um CMOS
+**Instruction-cache**vref{1}: 8KB
+**Data-cache**vref{1}: 8KB write through
+**Secondary-cache**vref{1}: 96KB write back
+**Icache-block-size**vref{1}: 32 bytes
+**Scache-block-size**vref{1}: 32 or 64 bytes
+**Instruction-translation-buffer**vref{1}: 48 entry
+**Data-translation-buffer**vref{1}: 64 entry
+**Instruction-decode**vref{1}: Quad issue, in order
+**Instruction-prefetch**vref{1}: 4 instructions
+**Integer-pipeline**vref{1}: 7 stage
+**FP-pipeline**vref{1}: 9 stage
+**Write-buffer**vref{1}: 6 entry
+**V-ss**vref{1}: -0.5V
+**V-dd**vref{1}: 3.6V
+**Chip-power**vref{1}: 51W @ 300MHz
 **End-chips-entry{DC21164}
 
 **Start-chips-entry{DC21164A}{CHIP}{ALPHACPU}
-**Part-number: Digital Semiconductor 21164A Alpha Microprocessor
 **Def-lref{1} = ref{EC-QP99A-TE}
+**Sys-name: DC21164A
+**Desc-name: Digital Semiconductor 21164A Alpha Microprocessor
 **Codename: EV56
-**Instruction-cache**htref{1}: 8KB
-**Data-cache**htref{1}: 8KB write through
-**Secondary-cache**htref{1}: 96KB write back
-**Icache-block-size**htref{1}: 32 bytes
-**Scache-block-size: 32 or 64 bytes
-**Instruction-translation-buffer**htref{1}: 48 entry
-**Data-translation-buffer**htref{1}: 64 entry
-**Instruction-decode**htref{1}: Quad issue, in order
-**Instruction-prefetch**htref{1}: 4 instructions
-**Integer-pipeline**htref{1}: 7 stage
-**FP-pipeline**htref{1}: 9 stage
-**Write-buffer**htref{1}: 6 entry
-**V-ss**htref{1}: -0.5V
-**V-ddi**htref{1}: 2.3V
-**V-dd**htref{1}: 3.6V
-**Chip-power**htref{1}: {6.7W @ 400MHz (V<SUB>dd</SUB>)}{17.7W @ 400MHz (V<SUB>ddi</SUB>)}
+**Chip-technology**vref{1}: 0.35um CMOS
+**Instruction-cache**vref{1}: 8KB
+**Data-cache**vref{1}: 8KB write through
+**Secondary-cache**vref{1}: 96KB write back
+**Icache-block-size**vref{1}: 32 bytes
+**Scache-block-size**vref{1}: 32 or 64 bytes
+**Instruction-translation-buffer**vref{1}: 48 entry
+**Data-translation-buffer**vref{1}: 64 entry
+**Instruction-decode**vref{1}: Quad issue
+**Instruction-prefetch**vref{1}: 4 instructions
+**Integer-pipeline**vref{1}: 7 stage
+**FP-pipeline**vref{1}: 9 stage
+**Write-buffer**vref{1}: 6 entry
+**V-ss**vref{1}: -0.5V
+**V-ddi**vref{1}: 2.3V
+**V-dd**vref{1}: 3.6V
+**Chip-power**vref{1}: {6.7W @ 400MHz (V<SUB>dd</SUB>)}{17.7W @ 400MHz (V<SUB>ddi</SUB>)}
 **End-chips-entry{DC21164A}
 
 **Start-chips-entry{DC21164PC}{CHIP}{ALPHACPU}
-**Part-number: Digital Semiconductor 21164PC Alpha Microprocessor
+**Sys-name: DC21164PC
+**Desc-name: Digital Semiconductor 21164PC Alpha Microprocessor
 **Codename: PCA56
 **End-chips-entry{DC21164PC}
 
 **Start-chips-entry{DC21264}{CHIP}{ALPHACPU}
-**Part-number: Digital Semiconductor 21264 Alpha Microprocessor
+**Sys-name: DC21264
+**Desc-name: Digital Semiconductor 21264 Alpha Microprocessor
 **Codename: EV6
 **End-chips-entry{DC21264}
 

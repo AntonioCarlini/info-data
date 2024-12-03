@@ -1,0 +1,167 @@
+---
+- Not-Allowed:
+  - Not Allowed
+  - Test entry
+  - never
+  - summary
+- Sys-name:
+  - System name
+  - System description
+  - all
+  - summary
+- Html-target:
+  - HTML target
+  - HTML target (unused)
+  - all
+- Announcement:
+  - Announcement date
+  - Announcement date
+  - all
+  - summary
+  - required
+- Location:
+  - Used to specify HTML file location
+  - Used to specify HTML file location
+  - storage
+  - summary
+- FRS-date:
+  - FRS date
+  - First revenue ship date
+  - all
+  - summary
+- FCS-date:
+  - FCS date
+  - First customer ship date
+  - all
+  - summary
+- Last-order:
+  - Last order date
+  - Last order date
+  - all
+  - summary
+- Last-ship:
+  - Last ship date
+  - Last ship date
+  - all
+  - summary
+- EOSL:
+  - End of service life
+  - End of service life
+  - all
+  - summary
+- EOL:
+  - End of life
+  - End of life
+  - all
+  - summary
+- Codename:
+  - Codename
+  - Codename
+  - all
+  - summary
+  - required
+- Desc-name:
+  - Descriptive name
+  - Descriptive name
+  - all
+  - summary
+- Part-number:
+  - Part number
+  - Part number
+  - all
+  - summary
+- Chip-technology:
+  - Chip technology
+  - Chip technology
+  - all
+  - summary
+- Chip-clock:
+  - Chip Clock
+  - Chip Clock
+  - all
+  - summary
+- Instruction-cache:
+  - Instruction cache
+  - Instruction cache
+  - all
+  - summary
+- Data-cache:
+  - Data cache
+  - Data cache
+  - all
+  - summary
+- Secondary-cache:
+  - Secondary cache
+  - Secondary cache
+  - all
+  - summary
+- Icache-block-size:
+  - Instruction cache block size
+  - Instruction cache block size
+  - all
+  - summary
+- Scache-block-size:
+  - Secondary cache block size
+  - Secondary cache block size
+  - all
+  - summary
+- Instruction-translation-buffer:
+  - Instruction translation buffer
+  - Instruction translation buffer
+  - all
+  - summary
+- Data-translation-buffer:
+  - Data translation buffer
+  - Data translation buffer
+  - all
+  - summary
+- Instruction-decode:
+  - Instruction decode
+  - Instruction decode
+  - all
+  - summary
+- Instruction-prefetch:
+  - Instruction prefetch
+  - Instruction prefetch
+  - all
+  - summary
+- Integer-pipeline:
+  - Integer pipeline
+  - Integer pipeline
+  - all
+  - summary
+- FP-pipeline:
+  - Floating-point pipeline
+  - Floating-point pipeline
+  - all
+  - summary
+- Write-buffer:
+  - Write buffer
+  - Write buffer
+  - all
+  - summary
+- V-ss:
+  - V-ss
+  - V-ss
+  - all
+  - summary
+- V-dd:
+  - V-dd
+  - V-dd
+  - all
+  - summary
+- V-ddi:
+  - V-ddi
+  - V-ddi
+  - all
+  - summary
+- Chip-power:
+  - Chip power
+  - Chip power
+  - all
+  - summary
+- Secondary-cache:
+  - Secondary cache
+  - Secondary cache
+  - all
+  - summary
