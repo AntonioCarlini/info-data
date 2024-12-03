@@ -21,5 +21,5 @@ pubs.each() {
   if id.length() < 40
     id = '%-40.40s' % id
   end
-  puts("document=doc" + id + "! #{pub.title()}")
+  puts("**document=doc" + id + "! #{pub.title()}")
 }
