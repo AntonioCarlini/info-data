@@ -782,7 +782,16 @@
 **Start-ref{EK-RK067-UG-001}
 **Ref-text: RK06/RK07 Disk Drive User's Manual
 **Ref-partno: EK-RK067-UG-001
+**Ref-date: 1978-02
+**Ref-url: http://bitsavers.org/pdf/dec/disc/rk06_rk07/EK-RK067-UG-001.pdf
 **End-ref{EK-RK067-UG-001}
+
+**Start-ref{EK-RK067-TD-001}
+**Ref-text: RK06/RK07 Disk Drive User's Manual
+**Ref-partno: EK-RK067-TD-001
+**Ref-date: 1978-03
+**Ref-url: https://www.vaxbarn.com/downloads/pub/pdf/dec/disc/rk/EK-RK067-TD-001%20RK06%20RK07%20Disk%20Drive%20Technical%20Description%20Manual%20-%201978-03.pdf
+**End-ref{EK-RK067-TD-001}
 
 **Start-ref{EK-TLZ06-OM-004}
 **Ref-text: TLZ06 Cassette Tape Drive Owner's Manual
@@ -11153,6 +11162,13 @@
 **Ref-partno: EK–TF857–OM–002
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd3/tape/tf857om2.pdf
 **End-ref{EK–TF857–OM–002}
+
+**Start-ref{EK-RL012-UG-005}
+**Ref-text: RL01/RL02 User Guide
+**Ref-partno: EK-RL012-UG-005
+**Ref-date: 1981-09
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/rl01_rl02/EK-RL012-UG-005_Sep81.tif.pdf
+**End-ref{EK-RL012-UG-005}
 
 **Stop-processing
 

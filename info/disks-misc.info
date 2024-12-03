@@ -44,49 +44,54 @@
 **Sys-name: RK06
 **Desc-name: RK06 Removable Disk Drive
 **Def-lref{1} = ref{EK-RK067-UG-001}
+**Def-lref{2} = ref{EK-RK067-TD-001}
+**document=doc{DEC:EK-RK067-UG-001}                   ! RK06/RK07 Disk Drive User's Manual
+**document=doc{DEC:EK-RK067-SV-001}                   ! RK06/RK07 Disk Drive Service Manual
+**document=doc{DEC:EK-RK611-SM-A}                     ! RK611/RK06 Disk Subsystem Service Manual
+**document=doc{DEC:EK-RK067-TD-001}                   ! RK06/RK07 Disk Drive Technical Description Manual
 **Html-target: rk06
 !
 !The RK06 and RK07 drive subsystem consists of an RK611 UNIBUS controller and
 !a mixture of up to eight RK06 or RK07 drives.
-**Pack-size**htref{1}: 14"
+**Pack-size**vref{2}: 14"
 **Capacity: 13.8MB
 **Peak-transfer-rate:	537.5KB/s
 !! Check above to see if kB/s or KB/s
-**Average-seek: 38ms
-**Maximum-seek: 75ms
-**Average-latency**htref{1}: 12.5ms
-**Maximum-latency**htref{1}: 25.0ms
-**Rotational-speed**htref{1}: 2400rpm
-**Start-time**htref{1}: 60s:(max)
-**Stop-time**htref{1}: 60s:(max)
-**Num-media-surfaces**htref{1}: 3 data + 1 servo
+**Average-seek**vref{2}: 38ms
+**Maximum-seek**vref{2}: 75ms
+**Average-latency**vref{2}: 12.5ms
+**Maximum-latency**vref{2}: 25.0ms
+**Rotational-speed**vref{2}: 2400rpm
+**Start-time**vref{2}: 60s:(max)
+**Stop-time**vref{2}: 60s:(max)
+**Num-media-surfaces**vref{1}: 3 data + 1 servo
 !!**Tracks-per-pack: 1233
-**Track-density: 192.3 tpi
-**Sectors-per-track: 22
-**Bytes-per-sector**htref{1}: 512
+**Track-density**vref{1}: 192.3 tpi
+**Sectors-per-track**vref{1,2}: 22
+**Bytes-per-sector**vref{1}: 512
 **Power-start{RK067-EA}
 **Label: RK06-EA/RK07-EA
-**Supply**htref{1}: 115V 1-phase 60Hz
-**I-max**htref{1}: 10.5A
-**Power**htref{1}: 500W
+**Supply**vref{2}: 115V 1-phase 60Hz
+**I-max**vref{2}: 10.5A
+**Power**vref{2}: 500W
 **Power-end{RK067-EA}
 **Power-start{RK067-EB}
 **Label: RK06-EB/RK07-EB
-**Supply**htref{1}: 230V 1-phase 60Hz
-**I-max**htref{1}: 5.3A
-**Power**htref{1}: 450W 
+**Supply**vref{2}: 230V 1-phase 60Hz
+**I-max**vref{2}: 5.0A
+**Power**vref{2}: 500W
 **Power-end{RK067-EB}
 **Power-start{RK06-EC/RK07-EC}
 **Label: RK06-EC/RK07-EC
-**Supply**htref{1}: 115V 1-phase 50Hz
-**I-max**htref{1}: 11.0A
-**Power**htref{1}: 550W 
+**Supply**vref{2}: 115V 1-phase 50Hz
+**I-max**vref{2}: 10.0A
+**Power**vref{2}: 550W 
 **Power-end{RK06-EC/RK07-EC}
 **Power-start{RK06-ED/RK07-ED}
 **Label: RK06-ED/RK07-ED
-**Supply**htref{1}: 230V 1-phase 50Hz
-**I-max**htref{1}: 5.5A 
-**Power**htref{1}: 500W 
+**Supply**vref{2}: 230V 1-phase 50Hz
+**I-max**vref{2}: 5.0A 
+**Power**vref{2}: 550W 
 **Power-end{RK06-ED/RK07-ED}
 **Power-start{RK06-FA/RK07-FA}
 **Label: RK06-FA/RK07-FA
@@ -119,26 +124,29 @@
 **Sys-name: RK07
 **Desc-name: RK07 Removable Disk Drive
 **Def-lref{1} = ref{EK-RK067-UG-001}
+**document=doc{DEC:EK-RK067-UG-001}                   ! RK06/RK07 Disk Drive User's Manual
+**document=doc{DEC:EK-RK067-SV-001}                   ! RK06/RK07 Disk Drive Service Manual
+**document=doc{DEC:EK-RK067-TD-001}                   ! RK06/RK07 Disk Drive Technical Description Manual
 **Html-target: rk06
 !
 !The RK06 and RK07 drive subsystem consists of an RK611 UNIBUS controller and
 !a mixture of up to eight RK06 or RK07 drives.
-**Pack-size**htref{1}: 14"
-**Capacity**htref{1}: 27.6MB
+**Pack-size**vref{1}: 14"
+**Capacity**vref{1}: 27.6MB
 **Peak-transfer-rate**htref{1}: 537.5KB/s
 !! Check above to see if kB/s or KB/s
-**Average-seek**htref{1}: 36.5ms
-**Maximum-seek**htref{1}: 71.0ms
-**Average-latency**htref{1}: 12.5ms
-**Maximum-latency**htref{1}: 25.0ms
+**Average-seek**vref{1}: 36.5ms
+**Maximum-seek**vref{1}: 71.0ms
+**Average-latency**vref{1}: 12.5ms
+**Maximum-latency**vref{1}: 25.0ms
 **Rotational-speed**htref{1}: 2400rpm
 **Start-time**htref{1}: 60s:(max)
 **Stop-time**htref{1}: 60s:(max)
-**Num-media-surfaces**htref{1}: 3 data + 1 servo
-!!**Tracks-per-pack**htref{1}: 2445
-**Track-density**htref{1}: 384.6 tpi
-**Sectors-per-track**htref{1}: 22
-**Bytes-per-sector**htref{1}: 512
+**Num-media-surfaces**vref{1}: 3 data + 1 servo
+!!**Tracks-per-pack**vref{1}: 2445
+**Track-density**vref{1}: 384.6 tpi
+**Sectors-per-track**vref{1}: 22
+**Bytes-per-sector**vref{1}: 512
 **Power-start{RK067-EA}
 **Label: RK06-EA/RK07-EA
 **Supply**htref{1}: 115V 1-phase 60Hz
@@ -193,19 +201,60 @@
 **Start-storage-entry{RL01}{MISC}{RL}
 **Sys-name: RL01
 **Desc-name: RL01 Cartridge disk drive
+**Def-lref{1} = ref{EK-RL012-UG-005}
+**document=doc{DEC:EK-0RL01-IP-001}                   ! *ipb* RL01 Disk Drive
+**document=doc{DEC:EK-0RL01-SV-PRE1}                  ! RL01 Disk Subsystem Service Manual
+**document=doc{DEC:EK-0RL01-TD-PRE1}                  ! RL01 Disk Drive Technical Description Manual
+**document=doc{DEC:EK-RL01-PG-PRE}                    ! RL Disk Subsystem Maintenance Handbook
+**document=doc{DEC:EK-RL012-TM-001}                   ! RL01/RL02 Disk Drive Technical Manual
+**document=doc{DEC:EK-RL012-UG-006}                   ! RLO1/RL02 User Guide
+**document=doc{DEC:EK-RL121-TM-001}                   ! RL01/RL02 Technical Manual Vol I
+**document=doc{DEC:EK-RL121-TM-002}                   ! RL01/RL02 Technical Manual Vol II
+**document=doc{DEC:EK-RL122-TM-001}                   ! RL01/RL02 Technical Manual Volume II - Services Procedures
+**document=doc{DEC:EK-RL122-TM-002}                   ! RL01/RL02 Technical Manual Vol II
+**document=doc{DEC:EK-RLTER-PS-002}                   ! RL01/02 Disk Drive Pocket Service Guide
+**document=doc{DEC:MP00347}                           ! RL01/RL02 Field Maintenance Printset
+**document=doc{DEC:MP00527-size-A4}                   ! RL01 Field Maintenance Print Set
 **Lifetime**uref{*DU-JUN86}: 1978-1980
-**Capacity**uref{11,95}: 5.4MB
-**Average-seek**uref{DU-JUN86}:  55ms
-**Average-latency**uref{DU-JUN86}: 12.5ms
+**Capacity**vref{1}: 5.2MB
+**Average-seek**vref{1}:  55ms
+**Average-latency**vref{1}: 12.5ms
 **Peak-transfer-rate**uref{DU-JUN86}: 512KB/s
-**Sectors-per-track**uref{11}: 40
+**Tracks-per-surface**vref{1}: 256
+**Num-media-surfaces**vref{1}: 2 data
+**Sectors-per-track**vref{1}: 40
+**Bytes-per-sector**vref{1}: 256
 **Servo-type**uref{11}: Embedded
+**Rotational-speed**vref{1}: 2400rpm
+**Dimensions-start{RL01}
+**Height**vref{1}: 265.2mm
+**Width**vref{1}: Compatible with 19" RETMA rack
+**Depth**vref{1}: 635 mm
+**Weight**vref{1}: 34 kg
+**Dimensions-end{RL01}
+**Power-start{RL01-120V}
+**Supply**vref{1}: 90 - 127V
+**Heat-dissipation**vref{1}: 546 BTU/h
+**Power**vref{1}: 160W
+**Power-end{RL01-120V}
 **End-storage-entry{RL01}
 
 **Start-storage-entry{RL02}{MISC}{RL}
 **Sys-name: RL02
 **Desc-name: RL02 Cartridge Disk Drive
 **Def-lref{1} = ref{DA-1987-07-13-RL02}
+**Def-lref{2} = ref{EK-RL012-UG-005}
+**document=doc{DEC:EK-0RL02-IP-004}                   ! *ipb* RL02 Disk Drive
+**document=doc{DEC:EK-RL01-PG-PRE}                    ! RL Disk Subsystem Maintenance Handbook
+**document=doc{DEC:EK-RL012-TM-001}                   ! RL01/RL02 Disk Drive Technical Manual
+**document=doc{DEC:EK-RL012-UG-006}                   ! RLO1/RL02 User Guide
+**document=doc{DEC:EK-RL121-TM-001}                   ! RL01/RL02 Technical Manual Vol I
+**document=doc{DEC:EK-RL121-TM-002}                   ! RL01/RL02 Technical Manual Vol II
+**document=doc{DEC:EK-RL122-TM-001}                   ! RL01/RL02 Technical Manual Volume II - Services Procedures
+**document=doc{DEC:EK-RL122-TM-002}                   ! RL01/RL02 Technical Manual Vol II
+**document=doc{DEC:EK-RLTER-PS-002}                   ! RL01/02 Disk Drive Pocket Service Guide
+**document=doc{DEC:MP00347}                           ! RL01/RL02 Field Maintenance Printset
+**document=doc{DEC:MP00698}                           ! RL02-AK Field Maintenance Printset
 !
 !An embedded closed-loop servo positioning system improves data
 !integrity by continuously sampling servo information with the same
@@ -220,20 +269,31 @@
 **Last-order**vref{1}: 1987-09-14
 **Last-ship**vref{1}: 1987-12-24
 **Lifetime**uref{DU-JUN86}: 1979-
-**Capacity**uref{*SOEE85}: 10.4MB
+**Capacity**vref{2}: 10.4MB
 **Average-access**uref{*SOEE85,11,78}: 67.5ms
-**Average-seek**uref{*SOEE85,11}: 55ms
-**Average-latency**uref{*SOEE85,11,78}: 12.5ms
+**Average-seek**vref{2}: 55ms
+**Average-latency**vref{2}: 12.5ms
 **Peak-transfer-rate**uref{*SOEE85,11,78}: 512KB/s
 **Track-track-seek**uref{*SOEE85}: 15ms
-**Num-media-surfaces**uref{*SOEE85,78}: 2 data
-**Tracks-per-surface**uref{*SOEE85}: 512
-**Sectors-per-track**uref{*SOEE85}: 40
-**Bytes-per-sector**uref{*SOEE85}: 256
+**Num-media-surfaces**vref{2}: 2 data
+**Tracks-per-surface**vref{2}: 512
+**Sectors-per-track**vref{2}: 40
+**Bytes-per-sector**vref{2}: 256
 **Recording-density**uref{*SUE 5.25 25-6-84}: 3725bpi
 **Track-density**uref{[*SUE 5.25 25-6-84}: 256tpi
 **Servo-type**uref{11}: Embedded
-**Rotational-speed**uref{*SOEE85}: 2400rpm
+**Rotational-speed**vref{2}: 2400rpm
+**Dimensions-start{RL02}
+**Height**vref{2}: 265.2mm
+**Width**vref{2}: Compatible with 19" RETMA rack
+**Depth**vref{2}: 635 mm
+**Weight**vref{2}: 34 kg
+**Dimensions-end{RL02}
+**Power-start{RL02-120V}
+**Supply**vref{2}: 90 - 127V
+**Heat-dissipation**vref{2}: 546 BTU/h
+**Power**vref{2}: 160W
+**Power-end{RL02-120V}
 **End-storage-entry{RL02}
 
 **Start-storage-entry{RX01}{MISC}{RX}
