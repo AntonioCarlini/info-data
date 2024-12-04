@@ -196,7 +196,7 @@
 **Start-comms-entry{DELNI}{NETMISC}
 **Sys-name: DELNI Ethernet Local Network Interconnect
 **Def-lref{1} = ref{EK-DELNI-TM.001}
-! One AUI backbone interface, 8 AUI local interfaces -->
+! vref{1}: One AUI backbone interface, 8 AUI local interfaces -->
 **Power-start{DELNI-120V}
 **Supply**htref{1}: 120V 1-phase
 **I-nominal**htref{1}: 0.35A
@@ -211,17 +211,16 @@
 **Power-end{DELNI-240V}
 **Dimensions-start{DELNI-T}
 **Label: Tabletop
-**Height**htref{1}: 89mm
-**Width **htref{1}: 489mm
-**Depth **htref{1}: 197mm
-**Weight**htref{1}: 4.8kg
+**Height**vref{1}: 89mm
+**Width **vref{1}: 489mm
+**Depth **vref{1}: 197mm
+**Weight**vref{1}: 4.8kg
 **Dimensions-end{DELNI-T}
 **Dimensions-start{DELNI-R}
 **Label: Rackmount
-**Height**htref{1}: 64mm
-**Width **htref{1}: 445mm
-**Depth **htref{1}: 178mm
-**Weight**htref{1}: 4.8kg
+**Height**vref{1}: 64mm
+**Width **vref{1}: 445mm
+**Depth **vref{1}: 178mm
 **Dimensions-end{DELNI-R}
 **End-comms-entry{DELNI}
 
@@ -296,24 +295,36 @@
 !<TR> <TD> Packet length <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
 !					<TD> 512 bits	<TD>	-	<TD> 14144 bits	</TR>
 !
-!<H3> <A NAME="supply">             Power requirements </A> </H3>
-!
-!<TABLE WIDTH=100% BORDER=1>
-!<TR> <TH> Subsystem	<TH> Supply       <TH> I max    <TH> Power    <TH> Heat     	</TR>
-!<TR> <TD> DEREP-AA    <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
-!			<TD> 115V 1-phase <TD>     1.0A <TD>          <TD>          	</TR>
-!<TR> <TD> DEREP-AA    <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
-!			<TD> 230V 1-phase <TD>     0.5A <TD>          <TD>           	</TR>
-!<TR> <TD> DEREP-RA    <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
-!			<TD> 115V 1-phase <TD>     2.5A <TD>          <TD>          	</TR>
-!<TR> <TD> DEREP-RA    <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
-!			<TD> 230V 1-phase <TD>    1.25A <TD>          <TD>           	</TR>
-**Dimensions-start{DEREP}
-**Height**htref{1}: 101.6mm
-**Width **htref{1}: 457.2mm
-**Depth **htref{1}: 304.8mm
-**Weight**htref{1}: 7.26kg
-**Dimensions-end{DEREP}
+**Dimensions-start{DEREP-AA}
+**Label DEREP-AA (Local)
+**Height**vref{1}: 101.6mm
+**Width **vref{1}: 457.2mm
+**Depth **vref{1}: 304.8mm
+**Weight**vref{1}: 7.26kg
+**Dimensions-end{DEREP-AA}
+**Dimensions-start{DEREP-AA}
+**Label DEREP-RA (Remote)
+**Height**vref{1}: 102.6mm
+**Width **vref{1}: 457.2mm
+**Depth **vref{1}: 304.8mm
+**Weight**vref{1}: 7.26kg
+**Dimensions-end{DEREP-RA}
+**Power-start{DEREP-AA-115V}
+**Label DEREP-AA (Local), 115V
+**I-max**vref{1}: 1
+**Power-end{DEREP-AA-115V}
+**Power-start{DEREP-AA-230V}
+**Label DEREP-AA (Local), 230V
+**I-max**vref{1}: 0.5A
+**Power-end{DEREP-AA-230V}
+**Power-start{DEREP-RA-115V}
+**Label DEREP-RA (Remote), 115V
+**I-max**vref{1}: 2.5A
+**Power-end{DEREP-RA-115V}
+**Power-start{DEREP-RA-230V}
+**Label DEREP-RA (Remote), 230V
+**I-max**vref{1}: 1.25A
+**Power-end{DEREP-RA-230V}
 **End-comms-entry{DEREP}
 
 **Start-comms-entry{DESPR}{NETMISC}
@@ -632,69 +643,69 @@
 **Sys-name: LAN Bridge 100 Ethernet Bridge
 **Def-lref{1} = ref{EK-DEBET-TM-003}
 **Def-lref{2} = ref{EK-LB150-IN-002}
-**CPU**htref{1}: Motorola 68000
-**Port-A**htref{1}: {AUI}{SMA}
-**Port-B**htref{1}: AUI
-**Ethernet-chip**htref{1}: LANCE
+**CPU**vref{1}: Motorola 68000
+**Port-A**vref{1}: {AUI}{SMA}
+**Port-B**vref{1}: AUI
+**Ethernet-chip**vref{1}: LANCE
 
 **Power-start{LB100-F08-120V}
-**Label: LB100 rev &LT;= F08
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 1.6A
-**Power**htref{1}: 160W  
+**Label: LB100 rev <= F08
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 1.6A
+**Power**vref{1}: 160W  
 **Power-end{LB100-F08-120V}
 
 **Power-start{LB100-F08-240V}
-**Label: LB100 rev &LT;= F08
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 0.9A
-**Power**htref{1}: 160W  
+**Label: LB100 rev <= F08
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 0.9A
+**Power**vref{1}: 160W  
 **Power-end{LB100-F08-240V}
 
 **Power-start{LB100-F09-120V}
-**Label: LB100 rev &GT;= F09
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 1.1A
-**Power**htref{1}: 168W  
+**Label: LB100 rev >= F09
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 1.1A
+**Power**vref{1}: 168W  
 **Power-end{LB100-F09-120V}
 
 **Power-start{LB100-F09-240V}
-**Label: LB100 rev &GT;= F09
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 0.7A
-**Power**htref{1}: 168W  
+**Label: LB100 rev >= F09
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 0.7A
+**Power**vref{1}: 168W  
 **Power-end{LB100-F09-240V}
 
 **Dimensions-start{LB100-T-F08}
 **Label: LB100 Tabletop (&LT;= F08)
-**Height**htref{1}: 162mm
-**Width **htref{1}: 494mm
-**Depth **htref{1}: 313mm
-**Weight**htref{1}: 9.5kg
+**Height**vref{1}: 162mm
+**Width **vref{1}: 494mm
+**Depth **vref{1}: 313mm
+**Weight**vref{1}: 9.5kg
 **Dimensions-end{LB100-T-F08}
 
 **Dimensions-start{LB100-T-F09}
 **Label: LB100 Tabletop (&GT;= F09)
-**Height**htref{1}: 162mm
-**Width **htref{1}: 494mm
-**Depth **htref{1}: 313mm
-**Weight**htref{1}: 6.7kg
+**Height**vref{1}: 162mm
+**Width **vref{1}: 494mm
+**Depth **vref{1}: 313mm
+**Weight**vref{1}: 6.7kg
 **Dimensions-end{LB100-T-F09}
 
 **Dimensions-start{LB100-R-F08}
 **Label: LB100 Rackmount (&LT;= F08)
-**Height**htref{1}: 133mm
-**Width **htref{1}: 436mm
-**Depth **htref{1}: 298mm
-**Weight**htref{1}: 7.3kg
+**Height**vref{1}: 133mm
+**Width **vref{1}: 436mm
+**Depth **vref{1}: 298mm
+**Weight**vref{1}: 7.3kg
 **Dimensions-end{LB100-R-F08}
 
 **Dimensions-start{LB100-R-F09}
 **Label: LB100 Rackmount (&GT;= F09)
-**Height**htref{1}: 133mm
-**Width **htref{1}: 436mm
-**Depth **htref{1}: 298mm
-**Weight**htref{1}: 4.5kg
+**Height**vref{1}: 133mm
+**Width **vref{1}: 436mm
+**Depth **vref{1}: 298mm
+**Weight**vref{1}: 4.5kg
 **Dimensions-end{LB100-R-F09}
 
 !-- ref_1: switches

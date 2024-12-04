@@ -2798,6 +2798,8 @@
 **Start-ref{AA-Z085A-TK}
 **Ref-text: DECserver 100 Terminal Server Guide
 **Ref-partno: AA-Z085A-TK
+**Ref-date: 1985-01
+**Ref-url: https://manx-docs.org/collections/antonio/dec/aaz085atk.pdf
 **Ref-hardcopy: Yes
 **End-ref{AA-Z085A-TK}
 
@@ -4011,12 +4013,16 @@
 **Start-ref{EK-DELNI-TM.001}
 **Ref-text: DELNI Ethernet Local Network Interconnect Technical Manual
 **Ref-partno: EK-DELNI-TM.001
+**Ref-date: 1984-07
+**Ref-url: https://manx-docs.org/collections/hcps/delnitm1.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DELNI-TM.001}
 
 **Start-ref{EK-DEREP-TM.001}
 **Ref-text: DEREP Ethernet Repeater Technical Manual
 **Ref-partno: EK-DEREP-TM.001
+**Ref-date: 1984-04
+**Ref-url: http://manx-docs.org/collections/hcps/dereptm1.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DEREP-TM.001}
 
