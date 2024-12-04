@@ -1,0 +1,167 @@
+---
+- Not-Allowed:
+  - Not Allowed
+  - Test entry
+  - never
+  - summary
+- Sys-name:
+  - System name
+  - System description
+  - systems
+- Html-target:
+  - HTML target
+  - HTML target (unused)
+  - all
+- Announcement:
+  - Announcement date
+  - Announcement date
+  - all
+  - summary
+  - required
+- Generation:
+  - Technology generation
+  - Technology generation
+  - pdp11
+  - summary
+- FRS-date:
+  - FRS date
+  - First revenue ship date
+  - all
+  - summary
+- FCS-date:
+  - FCS date
+  - First customer ship date
+  - all
+  - summary
+- Last-order:
+  - Last order date
+  - Last order date
+  - all
+  - summary
+- Last-ship:
+  - Last ship date
+  - Last ship date
+  - all
+  - summary
+- EOSL:
+  - End of service life
+  - End of service life
+  - all
+  - summary
+- Codename:
+  - Codename
+  - Codename
+  - all
+  - summary
+  - required
+- Desc-name:
+  - Descriptive name
+  - Descriptive name
+  - all
+  - summary
+- Sys-class:
+  - System class
+  - System class
+  - all
+  - summary
+- OS-support-VMS:
+  - OS support (VMS)
+  - First version of VMS of a continuous range until the final version that supports this system
+  - all
+    - alpha
+    - itanium
+  - summary
+- OS-support-VMS-end:
+  - OS support (VMS)
+  - Final VMS version that supports this system
+  - - vax
+    - alpha
+    - itanium
+  - summary
+- OS-support-VMS-early:
+  - OS support (VMS)
+  - An early version of VMS that supports the system but followed by a gap in support
+  - - vax
+    - alpha
+    - itanium
+  - summary
+- OS-support-MDM:
+  - OS support (MDM)
+  - Range of MDM releases that support this system
+  - - vax
+    - decmips
+  - summary
+- OS-support-ELN:
+  - OS support (ELN)
+  - Range of VAXELN releases that support this system
+  - vax
+  - summary
+- OS-support-ULTRIX:
+  - OS support (ULTRIX)
+  - Range of ULTRIX versions that support this system
+  - - vax
+    - decmips
+    - pdp11
+  - summary
+- OS-support-NT:
+  - OS support (NT)
+  - Range of WindowsNT versions that support this system
+  - alpha
+  - summary
+- OS-support-DU:
+  - OS support (Digital UNIX)
+  - Range of Digital Unix or Tru64 versions that support this system
+  - - decmips
+    - alpha
+  - summary
+- OS-support-DU-end:
+  - OS support (Digital UNIX)
+  - Final version of  Digital Unix or Tru64 that supports this system
+  - - decmips
+    - alpha
+  - summary
+- OS-support-SYSV:
+  - OS support (AT&T System V)
+  - Range of System V versions that suppor this system
+  - vax
+  - summary
+- Module:
+  - Module
+  - The system module part number
+  - all
+  - summary
+- CPU:
+  - CPU
+  - The main board CPU
+  - all
+  - all
+- Board-size:
+  - Board size
+  - Board size
+  - all
+  - all
+- Bus:
+  - Bus interface to which the board connects
+  - Bus interface to which the board connects
+  - all
+  - all
+- AC-bus-load:
+  - AC-bus-load
+  - AC-bus-load
+  - all
+  - all
+- DC-bus-load:
+  - DC-bus-load
+  - DC-bus-load
+  - all
+  - all
+- Positive-5V-current:
+  - +5V current
+  - +5V current
+  - all
+  - all
+- Positive-12V-current:
+  - +12V current
+  - +12V current
+  - all
+  - all

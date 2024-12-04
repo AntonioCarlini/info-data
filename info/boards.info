@@ -1,0 +1,38 @@
+**References-must-be-verified
+!
+**Start-boards-entry{DELQA-M}{QBUS}{QBUS}
+**Sys-name: DELQA-M
+**Desc-name: DELQA-M Qbus Ethernet Interface
+**Def-lref{1} = ref{DEC-PR-1987-09-08}
+**Def-lref{2} = ref{EK-DELQA-UG-002}
+**document=doc{DEC:EK-DELQA-UG-002}                   ! DELQA User's Guide
+**document=doc{DEC:EK-DELQP-UG-001}                   ! DELQA-PLUS Addendum to the DELQA User's Guide
+**document=doc{DEC:EK-DELQA-IN-001}                   ! DELQA-SF Q-bus to Ethernet Adapter Option Installation Guide
+**document=doc{DEC:MP02379}                           ! DELQA Field Maintenance Print Set
+**Announcement**vref{1}: 1987-09-08
+**CPU**vref{2}: Moorola 68000
+**Board-size**vref{1}: Dual
+**Bus**vref{1}: Q18-bus and Q22-bus
+**AC-bus-load**vref{1}: 2.2
+**DC-bus-load**vref{1}: 0.5
+**Positive-5V-current**vref{1}: 2.5A
+**Positive-12V-current**vref{1}: 0.5A
+**Text-start
+The DELQA-M is a dual-size Qbus board that provides connection to both Ethernet V2.0 and IEEE 802.3 local area networks.
+CSMA/CD channel access functions are implemented in the hardware,  while  on-board  firmware  deals  with  data  encapsulation/decapsulation and data link management.
+The DELQA-M is intended for BA11, BA23 and BA123 enclosures, while the DELQA-Sx is the same hardware mounted on a handle making it suitable for BA200-series enclosures.
+
+The DELQA-M is a replacement for the DEQNA-M.
+**Text-end
+**End-boards-entry{DELQA-M}
+
+**Start-comms-entry{DECNA}{PRO}{PRO}
+**Sys-name: DECNA
+**Desc-name: DECNA Ethernet LAN Controller
+**Def-lref{1} = ref{SUE-1984-05-28-V5-N23}
+! vref{1}: requires xoP/OS Hard Disk Version 2.0, also announced in this issue
+**Announcement**vref{1}: 1984-05-28
+!**Dimensions**vref{1}: 5.2" x 12"
+**End-comms-entry{DECNA}
+
+!bus=QBUS module=M3118-YA	dc=0.5	ac=3.0	+5V=1.6A	+12V=0.2A name=CXA16-M
