@@ -2279,6 +2279,8 @@
 **Start-ref{EK-DELQA-UG-002}
 **Ref-text: DELQA User Guide
 **Ref-partno: EK-DELQA-UG-002
+**Ref-date: 1988
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/qbus/EK-DELQA-UG-002.pdf
 **End-ref{EK-DELQA-UG-002}
 
 **Start-ref{EK-DPV11-TM-002}
@@ -2588,6 +2590,14 @@
 **Ref-partno: EK-ALXLA-CG.B01
 **Ref-hardcopy: Yes
 **End-ref{EK-ALXLA-CG.B01}
+
+**Start-ref{EK-ALXLA-CG.C01}
+**Ref-text: Digital Alpha XL CPU Guide
+**Ref-partno: EK-ALXLA-CG.C01
+**Ref-date: 1996-02
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd1/alpha/alxlacgc.pdf
+**Ref-electronic: PDF
+**End-ref{EK-ALXLA-CG.C01}
 
 **Start-ref{EK-A0634-OM.001}
 **Ref-text: DECpc axp 150 and DEC 2000 Model 300 AXP User Information
@@ -3185,6 +3195,8 @@
 **Start-ref{EK-DEFAR-OM.A01}
 **Ref-text: DECrepeater 90FA Owner's Manual
 **Ref-partno: EK-DEFAR-OM.A01
+**Ref-date: 1992-09
+**Ref-url: https://web.archive.org/web/20041030154343/http://www.dnpg.com/dr/Legacy/DECrepeaters/documentation/defar-om.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DEFAR-OM.A01}
 
@@ -3740,6 +3752,8 @@
 **Start-ref{EK-DEFCN-IN-002}
 **Ref-text: DECconcentrator 500 Installation
 **Ref-partno: EK-DEFCN-IN-002
+**Ref-date: 1991-12
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/defcnin4.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DEFCN-IN-002}
 
@@ -5761,6 +5775,13 @@
 **Ref-partno: EK-DSRVG-OM-001
 **Ref-electronic: PDF
 **End-ref{EK-DSRVG-OM-001}
+
+**Start-ref{EK-DSRVH-OM.A01}
+**Ref-text: DECserver 90M Owner's Manual
+**Ref-partno: EK-DSRVH-OM.A01
+**Ref-date: 1993
+**Ref-electronic: PDF
+**End-ref{EK-DSRVH-OM.A01}
 
 **Start-ref{EK-DEFCN-TD-B01}
 **Ref-text: DECconcentrator 500 Technical Description
@@ -10807,6 +10828,8 @@
 **Start-ref{EK-ALXLA-UG.D01}
 **Ref-text: Digital Alpha XL Family User's Guide
 **Ref-partno: EK-ALXLA-UG.D01
+**Ref-date: 1996-09
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd1/alpha/alxlaugd.pdf
 **End-ref{EK-ALXLA-UG.D01}
 
 **start-ref{DECpc-AXP-150-Announcement}

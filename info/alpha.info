@@ -2804,12 +2804,15 @@
 **def-lref{2} = ref{EK-ALXLA-UG.D01}
 **def-lref{3} = ref{CU-1995-10-01}
 **Def-lref{4} = ref{CU-1996-03-14}
+**Def-lref{5} = ref{EK-ALXLA-CG.C01}
 **Announcement**vref{3}: 1995-10-01
 **Last-order**vref{4}: 1996-03-22
 **Last-ship**vref{4}: 1996-04-26
 **OS-support-nt**vref{3}: V3.51
-**Num-proc: 1
-**Backup-cache**htref{1}: 512KB
+**Num-proc**vref{5}: 1
+**CPU-chip**vref{5}: DECchip 21064A
+**CPU-clock**vref{5}: 233 MHz
+**Backup-cache**vref{5}: 512KB
 **Maximum-memory**vref{2}: 384MB
 **BUS-PCI**vref{1}: 2 slot
 **BUS-ISA**vref{1}: 3 slot
@@ -2828,9 +2831,13 @@
 **Desc-name: Alpha XL 266
 **def-lref{1} = ref{EK-ALXLA-UG.D01}
 **def-lref{2} = ref{CU-1995-10-01}
+**Def-lref{3} = ref{EK-ALXLA-CG.C01}
 **Announcement**vref{2}: 1995-10-01
 **OS-support-nt**vref{2}: V3.51
-**Num-proc: 1
+**Num-proc**vref{3}: 1
+**CPU-chip**vref{3}: DECchip 21064A
+**CPU-clock**vref{3}: 266 MHz
+**Backup-cache**vref{3}: 2MB
 **Maximum-memory**vref{1}: 384MB
 **BUS-PCI**vref{1}: 2 slot
 **BUS-ISA**vref{1}: 3 slot
@@ -2849,12 +2856,13 @@
 **Desc-name: Alpha XL 300
 **def-lref{1} = ref{EK-ALXLA-UG.D01}
 **def-lref{2} = ref{CU-1996-05-01}
+**Def-lref{3} = ref{EK-ALXLA-CG.C01}
 **Announcement**vref{2}: 1996-05-01
 **FRS-date**vref{2}: 1996-06
-**Num-proc: 1
-**CPU-chip**vref{2}: DECchip 21164
-**CPU-clock**vref{2}: 300 MHz
-**Backup-cache**vref{2}: 2MB
+**Num-proc**vref{3}: 1
+**CPU-chip**vref{2,3}: DECchip 21164
+**CPU-clock**vref{2,3}: 300 MHz
+**Backup-cache**vref{2,3}: 2MB
 **Minimum-memory**vref{2}: 32 MB
 **Maximum-memory**vref{1,2}: 512MB
 **BUS-PCI**vref{1}: 2 slot
