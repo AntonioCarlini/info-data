@@ -29,16 +29,6 @@
 ! TRNcontroller 700: https://groups.google.com/forum/#!topic/biz.dec.decnews/2AjqnREkoP8
 ! WANrouter90: http://odrc2.flexbl.co.uk/mediawiki/index.php/Digital_Customer_Update_1994-11-03#AlphaStation_200_Family_of_64-bit_Desktop_Workstations
 
-**Start-comms-entry{DELQA}
-**Def-lref{1} = ref{DEC-PR-1987-09-08}
-**Announcement**vref{1}: 1987-09-08
-**Board-size**vref{1}: Dual
-**AC-bus-load**vref{1}: 2.2
-**DC-bus-load**vref{1}: 0.5
-**5V-current**vref{1}: 2.5A
-**12V-current**vref{1}: 0.5A
-**End-comms-entry{DELQA}
-
 **Start-comms-entry{DECNIS500}{NIS}
 **Def-lref{1} = ref{CU-1991-10-18}
 **Sys-name: DECnis 500
@@ -55,25 +45,26 @@
 **Slots**vref{1}: 9
 **End-comms-entry{DECNIS600}
 
-**Start-comms-entry{DEFAR}{NIS}
+**Start-comms-entry{DEFAR}{HUB90}
 **Sys-name: DECrepeater 90FA
 **DEF-lref{1} = ref{EK-DEFAR-OM.A01}
-**Interfaces**htref{1}: {AUI}{ThinWire}{10Base-FL}
+**Interfaces**vref{1}: {AUI}{ThinWire}{10Base-FL}
+**Standalone-PSU**vref{1}: {110V: H7082-AA}{220V: H7082-BA}
 **Dimensions-start{DEFAR}
-**Height**htref{1}: 35mm
-**Width**htref{1}: 280mm
-**Depth**htref{1}: 140mm
-**Weight**htref{1}: 0.77kg
+**Height**vref{1}: 35mm
+**Width**vref{1}: 280mm
+**Depth**vref{1}: 140mm
+**Weight**vref{1}: 0.77kg
 **Dimensions-end{DEFAR}
 **Power-start{DEFAR-120V}
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 0.25A
-**Power**htref{1}: 9W
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 0.25A
+**Power**vref{1}: 9W
 **Power-end{DEFAR-120V}
 **Power-start{DEFAR-240V}
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 0.125A
-**Power**htref{1}: 9W
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 0.125A
+**Power**vref{1}: 9W
 **Power-end{DEFAR-240V}
 **End-comms-entry{DEFAR}
 
@@ -86,17 +77,17 @@
 **Lower-port-board**htref{2}: Four ST-type ports (8 connectors)
 **Dimensions-start{DEFCN-T}
 **Label: Tabletop
-**Height**htref{1}: 161.0mm
-**Width **htref{1}: 493.0mm
-**Depth **htref{1}: 313.1mm
-**Weight**htref{1}: 9.97kg
+**Height**vref{1}: 161.0mm
+**Width **vref{1}: 493.0mm
+**Depth **vref{1}: 313.1mm
+**Weight**vref{1}: 9.97kg
 **Dimensions-end{DEFCN-T}
 **Dimensions-start{DEFCN-R}
 **Label: Rackmount
-**Height**htref{1}: 133.3mm
-**Width **htref{1}: 435.9mm
-**Depth **htref{1}: 298.5mm
-**Weight**htref{1}: 7.95kg
+**Height**vref{1}: 133.3mm
+**Width **vref{1}: 435.9mm
+**Depth **vref{1}: 298.5mm
+**Weight**vref{1}: 7.95kg
 **Dimensions-end{DEFCN-R}
 **End-comms-entry{DEFCN}
 
@@ -402,13 +393,24 @@
 **Sys-name: DSRVH
 **Desc-name: DECserver 90M Terminal Server
 **Def-lref{1} = ref{CU-1993-05-10}
+**Def-lref{2} = ref{EK-DSRVH-OM.A01}
 **Announcement**vref{1}: 1993-05-10
 **Memory**vref{1}: 4 MB
-**Ports**vref{1}: 8
+**Ports**vref{1,2}: 8
 **Speed**vref{1}:  up to 57.6 kbps
-**Data-bits**htref{1}: 8
+**Data-bits**vref{2}: 8
 **Port-interface**vref{1}: MJ8
 **Network-interface**vref{1}: ThinWire, 10BaseT, DEChub
+**DEChub-form-factor**vref{2}: DEChub 90
+**Dimensions-start{DS90M}
+**Height**verf{2} = 31.8 mm
+**Width**vref{2} = 273.1 mm
+**Depth**vref{2} = 127.0 mm
+**Weight**vref{2} = 0.77 kg
+**Dimensions-end{DS90M}
+**Power-start{DS90M}
+**Positive-5V-current**vref{2}: 1.2A
+**Power-end{DS90M}
 **End-comms-entry{DS90M}
 
 **Start-comms-entry{DS100}{TERMSERVER}
@@ -750,7 +752,7 @@
 **Weight**htref{1}: 4.5kg
 **Dimensions-end{LB150-R}
 **End-comms-entry{LB150}
-
+
 
 **Start-comms-entry{DF124-CA}{MODEM}
 **Def-lref{1} = ref{CU-1991-09-06}
@@ -758,6 +760,7 @@
 **Sys-name: DF124-CA SCHOLAR PLUS Modem
 **Last-order-date**vref{1}: 1991-06-29
 **End-comms-entry{DF124-CA}
+
 
 **Start-comms-entry{DF129-AA}{MODEM}
 **Def-lref{1} = ref{CU-1991-09-06}
@@ -771,7 +774,7 @@
 **Last-order-date**vref{1}: 1991-09-28
 **Speed**vref{1}: 9600 bps
 **End-comms-entry{DF129-AA}
-
+
 **Start-comms-entry{DF224-AA}{MODEM}
 **Def-lref{1} = ref{CU-1991-09-06}
 ! from [1]
@@ -781,7 +784,7 @@
 **Last-order-date**vref{1}: 1991-09-28
 **Speed**vref{1}: 2400 bps
 **End-comms-entry{DF224-AA}
-
+
 **Start-comms-entry{DF242-CA}{MODEM}
 **Def-lref{1} = ref{CU-1991-09-06}
 **Def-lref{2} = ref{CU-1991-09-27}
@@ -796,7 +799,7 @@
 **Sys-name: DF242-CA Scholar Plus  Modem
 **Speed**vref{2}: 2400 bps
 **End-comms-entry{DF242-CA}
-
+
 **Start-comms-entry{DF296-DA}{MODEM}
 **Def-lref{1} = ref{CU-1991-09-27}
 **Def-lref{2} = ref{AA-ME85D-TE}
@@ -811,12 +814,5 @@
 !description, please contact your local Digital sales office.
 **Speed**vref{1}: 9600bps
 **End-comms-entry{DF296-DA}
+
 
-**Start-comms-entry{DECNA}{PRO}
-**Sys-name: DECNA
-**Desc-name: DECNA Ethernet LAN Controller
-**Def-lref{1} = ref{SUE-1984-05-28-V5-N23}
-! vref{1}: requires xoP/OS Hard Disk Version 2.0, also announced in this issue
-**Announcement**vref{1}: 1984-05-28
-**Dimensions**vref{1}: 5.2" x 12"
-**End-comms-entry{DECNA}
