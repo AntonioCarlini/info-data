@@ -2768,12 +2768,16 @@
 **Start-ref{EK-DSRVG-OM.001}
 **Ref-text: DECserver 90L+ Owner's Manual
 **Ref-partno: EK-DSRVG-OM.001
+**Ref-date: 1992-01
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dsrvgom1.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DSRVG-OM.001}
 
 **Start-ref{EK-DSRVD-OM-001}
 **Ref-text: DECserver 90L Owner's Manual
 **Ref-partno: EK-DSRVD-OM-001
+**Ref-date: 1991-02
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dsrvdom1.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DSRVD-OM-001}
 
@@ -2782,6 +2786,14 @@
 **Ref-partno: EK-DSRVW-MG.001
 **Ref-hardcopy: Yes
 **End-ref{EK-DSRVW-MG.001}
+
+**Start-ref{EK-DSRVW-MG.B01}
+**Ref-text: DECserver 700 Site Preparation and Maintenance
+**Ref-partno: EK-DSRVW-MG.B01
+**Ref-date: 1993-02
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dsrvwmgb.pdf
+**Ref-hardcopy: Yes
+**End-ref{EK-DSRVW-MG.B01}
 
 **Start-ref{EK-A0366-IN-001}
 **Ref-text: DECserver 300 Hardware Installation
@@ -5776,11 +5788,11 @@
 **Ref-processed: Yes
 **End-ref{EK-375AA-SM-001}
 
-**Start-ref{EK-DSRVG-OM-001}
+**Start-ref{EK-DSRVG-OM-001x}
 **Ref-text: DECserver 90L+ Owner's Manual
 **Ref-partno: EK-DSRVG-OM-001
 **Ref-electronic: PDF
-**End-ref{EK-DSRVG-OM-001}
+**End-ref{EK-DSRVG-OM-001x}
 
 **Start-ref{EK-DSRVH-OM.A01}
 **Ref-text: DECserver 90M Owner's Manual
@@ -5810,14 +5822,17 @@
 **Start-ref{EK-DETPR-SV-001}
 **Ref-text: DECrepeater 350 Service Guide
 **Ref-partno: EK-DETPR-SV-001
+**Ref-date: 1990-10
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/detprsv1.pdf
 **Ref-electronic: PDF
 **End-ref{EK-DETPR-SV-001}
 
-**Start-ref{EK-THNRP-TM}
+**Start-ref{EK-THNRP-TM-001}
 **Ref-text: Ethernet/IEEE 802.3 ThinWire Repeater (DEMPRE/DESPR) Technical Manual
-**Ref-partno: EK-THNRP-TM
+**Ref-partno: EK-THNRP-TM-001
+**Ref-date: 1987-12
 **Ref-electronic: PDF
-**End-ref{EK-THNRP-TM}
+**End-ref{EK-THNRP-TM-001}
 
 **Start-ref{EK-DSRZC-TD}
 **Ref-text: DECmux 300 Technical Manual
