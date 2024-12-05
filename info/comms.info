@@ -72,9 +72,24 @@
 **Sys-name: DECconcentrator 500
 **Def-lref{1} = ref{EK-DEFCN-IN-004}
 **Def-lref{2} = ref{EK-DEFCN-OP-002}
-**Network-management**htref{2}: Provides network management and OBR
-**Port-board**htref{2}: Four multimode ports
-**Lower-port-board**htref{2}: Four ST-type ports (8 connectors)
+**Def-lref{3} = ref{EK-DEFCN-TD.B01}
+! vref{3}
+! Network Cards:
+! DEFCN-MA: This card is used with multimode fiber optic cable.
+! DEFCN-EA: Port A and B are used with single-mode fiber optic cable.
+! DEFCN-DA: •Port A is used with multimode fiber optic cable. Port B is used with single-mode fiber optic cable.
+! DEFCN-CA: Port A is used with single-mode fiber optic cable. Port B is used with multimode fiber optic cable
+**Network-management**vref{3}: Provides network management and OBR
+! vref{3}
+! Port cards:
+! DEFCN-NA: An FDDI ANSI Port Card with four ports for use with multimode fiber optic cable. The card has ANSI MIC connectors and is ANSI X3T9 compliant.
+! DEFCN-HA: An FDDI ANSI Port Card with six ports for use with multimode fiber optic cable. The card has ANSI MIC connectors and is ANSI X3T9 compliant.
+! DEFCN-LA: A low-power Port Card with four low-power ports for use with multimode fiber optic cable. The card has 2.5 mm-ST-type connectors and is not ANSI X3T9 compliant.
+! DEFCN-FA: A Port Card with two ports for use with single-mode fiber (SMF) optic cable and two ports for use with multimode fiber optic cable.
+! DEFCN-SA: A Port Card with six 150-ohm shielded twisted-pair (STP) ports for copper media.
+! DEFCN-TA: A Port Card with six ThinWire ports for copper media.
+
+**Port-board**vref{3}: Four or six single or multimode fiber optic transceivers, or copper-interconnect ports
 **Dimensions-start{DEFCN-T}
 **Label: Tabletop
 **Height**vref{1}: 161.0mm
@@ -89,6 +104,12 @@
 **Depth **vref{1}: 298.5mm
 **Weight**vref{1}: 7.95kg
 **Dimensions-end{DEFCN-R}
+! vref{3}
+! The FDDI standard defines two types of concentrator: a single attachment concentrator (SAC) and a dual attachment concentrator (DAC).
+! The DECconcentrator 500 does not support a SAC configuration.
+! If the Network Management Card is installed, the DEFCN can be used in a tree topology or in a dual ring of trees, and has type-A and B ports
+!
+! If the Network Management Card, the DEFCN operates as a standalone concentrator. In this configuration it cannot be attached to a dual ring or a tree topology.
 **End-comms-entry{DEFCN}
 
 **Start-comms-entry{DECBR500}{BRIDGE}
@@ -196,15 +217,16 @@
 **Start-comms-entry{DELNI}{NETMISC}
 **Sys-name: DELNI Ethernet Local Network Interconnect
 **Def-lref{1} = ref{EK-DELNI-TM.001}
+**Def-lref{2} = ref{ED-32596-42}
 ! vref{1}: One AUI backbone interface, 8 AUI local interfaces -->
 **Power-start{DELNI-120V}
-**Supply**htref{1}: 120V 1-phase
+**Supply**vref{3}: 120V 1-phase
 **I-nominal**htref{1}: 0.35A
 **I-inrush**htref{1}: 10A
-**Power**htref{1}: 26W
+**Power**vref{2}: 26W
 **Power-end{DELNI-120V}
 **Power-start{DELNI-240V}
-**Supply**htref{1}: 240V 1-phase
+**Supply**vref{3}: 240V 1-phase
 **I-nominal**htref{1}: 0.18A
 **I-inrush**htref{1}: 5A
 **Power**htref{1}: 26W
@@ -426,7 +448,7 @@
 **Sys-name: DECserver 100 Terminal Server
 **Def-lref{1} = ref{AA-Z085A-TK}
 **Sessions-per-port**htref{1}: 4
-**Ports**htref{1}: 8
+**Ports**vref{1}: 8
 **Speed**htref{1}: 75 - 19.2K
 **Data-bits**htref{1}: 8
 **Port-interface**htref{1}: RS-232
@@ -437,55 +459,58 @@
 **Sys-name: DECserver 200 Terminal Server
 **Def-lref{1} = ref{EK-D200C-IN-001}
 **Sessions-per-port**htref{1}: 4
-**Ports**htref{1}: 8
+**Ports**vref{1}: 8
 **Data-bits**htref{1}: 8
-**Port-interface**htref{1}: {RS-232 (DS200/MC)}{DEC423 (DS200/DL)}
+**Port-interface**vref{1}: {RS-232 (DS200/MC)}{DEC423 (DS200/DL)}
 **Network-interface**htref{1}: AUI
 **Power-start{DSRVB-AA}
 **Label: DSRVB-AA, -BA
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 1.0A
-**Power**htref{1}: 75W
+**Supply**vref{1}: 120V 1-phase
+**I-max**vref{1}: 1.0A
+**Power**vref{1}: 75W
 **Power-end{DSRVB-AA}
 **Power-start{DSRVB-AB}
 **Label: DSRVB-AB, -BB
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 0.5A
-**Power**htref{1}: 75W
+**Supply**vref{1}: 240V 1-phase
+**I-max**vref{1}: 0.5A
+**Power**vref{1}: 75W
 **Power-end{DSRVB-AB}
 **Dimensions-start{DS200}
 **Label: DECserver 200
-**Height**htref{1}: 117mm
-**Width **htref{1}: 493mm
-**Depth **htref{1}: 312mm
-**Weight**htref{1}: 5.9kg
+**Height**vref{1}: 117mm
+**Width **vref{1}: 493mm
+**Depth **vref{1}: 312mm
+**Weight**vref{1}: 5.9kg
 **Dimensions-end{DS200}
 **End-comms-entry{DS200}
 
 **Start-comms-entry{DS300}{TERMSERVER}
 **Sys-name: DECserver 300 Terminal Server
 **Def-lref{1} = ref{EK-A0366-IN-001}
+**Def-lref{2} = ref{EK-A0367-TM-001}
 **Sessions-per-port**htref{1}: 4
-**Ports**htref{1}: 16
+**Ports**vref{2}: 16
 **Speed**htref{1}: 1.2K - 19.2K
 **Data-bits**htref{1}: 8
-**Port-interface**htref{1}: DEC423
-**Network-interface**htref{1}: {AUI}{ThinWire}
+**Port-interface**vref{2}: DEC423
+**Network-interface**vref{2}: {AUI}{ThinWire}
+**CPU**vref{2}: Motorola 68020
+**CPU-clock**vref{2} = 16.67 MHz
 **Dimensions-start{DS300}
-**Height**htref{1}: 117mm
-**Width**htref{1}: 493mm
-**Depth**htref{1}: 312mm
-**Weight**htref{1}: 5.4kg
+**Height**vref{2}: 117mm
+**Width**vref{2}: 493mm
+**Depth**vref{2}: 312mm
+**Weight**vref{2}: 5.4kg
 **Dimensions-end{DS300}
 **Power-start{DSRVF-BA}
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 1.0A
-**Power**htref{1}: 75W
+**Supply**vref{2}: 100 - 120V 1-phase
+**I-max**vref{2}: 1.0A
+**Power**vref{2}: 75W
 **Power-end{DSRVF-BA}
 **Power-start{DSRVF-BB}
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 0.5A
-**Power**htref{1}: 75W
+**Supply**vref{2}: 220 - 24-V 1-phase
+**I-max**vref{2}: 0.5A
+**Power**vref{2}: 75W
 **Power-end{DSRVF-BB}
 **End-comms-entry{DS300}
 
@@ -645,35 +670,30 @@
 **Port-A**vref{1}: {AUI}{SMA}
 **Port-B**vref{1}: AUI
 **Ethernet-chip**vref{1}: LANCE
-
 **Power-start{LB100-F08-120V}
 **Label: LB100 rev <= F08
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 1.6A
 **Power**vref{1}: 160W  
 **Power-end{LB100-F08-120V}
-
 **Power-start{LB100-F08-240V}
 **Label: LB100 rev <= F08
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 0.9A
 **Power**vref{1}: 160W  
 **Power-end{LB100-F08-240V}
-
 **Power-start{LB100-F09-120V}
 **Label: LB100 rev >= F09
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 1.1A
 **Power**vref{1}: 168W  
 **Power-end{LB100-F09-120V}
-
 **Power-start{LB100-F09-240V}
 **Label: LB100 rev >= F09
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 0.7A
 **Power**vref{1}: 168W  
 **Power-end{LB100-F09-240V}
-
 **Dimensions-start{LB100-T-F08}
 **Label: LB100 Tabletop (&LT;= F08)
 **Height**vref{1}: 162mm
@@ -681,7 +701,6 @@
 **Depth **vref{1}: 313mm
 **Weight**vref{1}: 9.5kg
 **Dimensions-end{LB100-T-F08}
-
 **Dimensions-start{LB100-T-F09}
 **Label: LB100 Tabletop (&GT;= F09)
 **Height**vref{1}: 162mm
@@ -689,7 +708,6 @@
 **Depth **vref{1}: 313mm
 **Weight**vref{1}: 6.7kg
 **Dimensions-end{LB100-T-F09}
-
 **Dimensions-start{LB100-R-F08}
 **Label: LB100 Rackmount (&LT;= F08)
 **Height**vref{1}: 133mm
@@ -697,7 +715,6 @@
 **Depth **vref{1}: 298mm
 **Weight**vref{1}: 7.3kg
 **Dimensions-end{LB100-R-F08}
-
 **Dimensions-start{LB100-R-F09}
 **Label: LB100 Rackmount (&GT;= F09)
 **Height**vref{1}: 133mm
@@ -705,7 +722,6 @@
 **Depth **vref{1}: 298mm
 **Weight**vref{1}: 4.5kg
 **Dimensions-end{LB100-R-F09}
-
 !-- ref_1: switches
 !		ON=down 			OFF=up		
 !	1 	Continuous self-test 		Self-test once at poerup
@@ -727,38 +743,36 @@
 **Sys-name: LAN Bridge 150 Ethernet Bridge
 **Def-lref{1} = ref{EK-DEBET-TM-003}
 **Def-lref{2} = ref{EK-LB150-IN-002}
+**def-lref{3} = ref{EC-I0391-42}
 **Port-A**htref{2}: {AUI}{SMA}
 **Port-B**htref{2}: AUI
-
 **Power-start{LB150-120V}
-**Label: LB150
-**Supply**htref{1}: 120V 1-phase
-**I-max**htref{1}: 1.1A
-**Power**htref{1}: 168W  
+**Label: LB150 120V
+**Supply**vref{3}: 120V 1-phase
+**I-max**vref{3}: 1.1A
+**Power**vref{3}: 168W
+**Heat-dissipation**vref{3}: 574 BTU/h
 **Power-end{LB150-120V}
-
 **Power-start{LB150-240V}
-**Label: LB150
-**Supply**htref{1}: 240V 1-phase
-**I-max**htref{1}: 0.7A
-**Power**htref{1}: 168W  
+**Label: LB150 240V
+**Supply**vref{3}: 240V 1-phase
+**I-max**vref{3}: 0.7A
+**Power**vref{3}: 168W  
+**Heat-dissipation**vref{3}: 574 BTU/h
 **Power-end{LB150-240V}
-
-
 **Dimensions-start{LB150-T}
 **Label: LB150 Tabletop
-**Height**htref{1}: 162mm
-**Width **htref{1}: 494mm
-**Depth **htref{1}: 313mm
-**Weight**htref{1}: 6.7kg
+**Height**vref{3}: 162mm
+**Width **vref{3}: 494mm
+**Depth **vref{3}: 313mm
+**Weight**vref{3}: 6.7kg
 **Dimensions-end{LB150-T}
-
 **Dimensions-start{LB150-R}
 **Label: LB150 Rackmount
-**Height**htref{1}: 133mm
-**Width **htref{1}: 436mm
-**Depth **htref{1}: 298mm
-**Weight**htref{1}: 4.5kg
+**Height**vref{3}: 133mm
+**Width **vref{3}: 436mm
+**Depth **vref{3}: 298mm
+**Weight**vref{3}: 4.5kg
 **Dimensions-end{LB150-R}
 **End-comms-entry{LB150}
 

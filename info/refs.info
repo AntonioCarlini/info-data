@@ -2801,9 +2801,19 @@
 **Ref-hardcopy: Yes
 **End-ref{EK-A0366-IN-001}
 
+**Start-ref{EK-A0367-TM-001}
+**Ref-text: DECserver 300 Hardware Installation
+**Ref-partno: EK-A0367-TM-001
+**Ref-date: 1989-08
+**Ref-url: http://www.9track.net/decserver/ek-a0367-tm-001.pdf
+**Ref-hardcopy: Yes
+**End-ref{EK-A0367-TM-001}
+
 **Start-ref{EK-D200C-IN-001}
 **Ref-text: DECserver 200 Hardware Installation/Owner's Guide
 **Ref-partno: EK-D200C-IN-001
+**Ref-date: 1986-10
+**Ref-url: https://manx-docs.org/collections/antonio/dec/d200cin1.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-D200C-IN-001}
 
@@ -3343,6 +3353,7 @@
 **Start-ref{EK-DEBET-UG-003}
 **Ref-text: LAN Bridge 100 Hardware Installation/Owner's Guide
 **Ref-partno: EK-DEBET-UG-003
+**Ref-date: 1989-03
 **Ref-hardcopy: Yes
 **End-ref{EK-DEBET-UG-003}
 
@@ -5801,11 +5812,12 @@
 **Ref-electronic: PDF
 **End-ref{EK-DSRVH-OM.A01}
 
-**Start-ref{EK-DEFCN-TD-B01}
+**Start-ref{EK-DEFCN-TD.B01}
 **Ref-text: DECconcentrator 500 Technical Description
-**Ref-partno: EK-DEFCN-TD-B01
+**Ref-partno: EK-DEFCN-TD.B01
+**Ref-date: 1992-07
 **Ref-electronic: PDF
-**End-ref{EK-DEFCN-TD-B01}
+**End-ref{EK-DEFCN-TD.B01}
 
 **Start-ref{EK-DELNI-TM-001}
 **Ref-text: DELNI Technical Manual
@@ -11215,6 +11227,19 @@
 **Ref-date: 1981-09
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/rl01_rl02/EK-RL012-UG-005_Sep81.tif.pdf
 **End-ref{EK-RL012-UG-005}
+
+**Start-ref{ED-32596-42}
+**Ref-text: Networks and Communications Buyer's Guide 1989 January - June
+**Ref-partno: ED-32596-42
+**Ref-date: 1989
+**Ref-url: https://bitsavers.trailing-edge.com/pdf/dec/catalog/Digital_Networks_and_Communications_Buyers_Guide_198901.pdf
+**End-ref{ED-32596-42}
+
+**Start-ref{EC-I0391-42}
+**Ref-text: Networks and Communications Buyer's Guide 1990 January - June
+**Ref-partno: EC-I0391-42
+**Ref-date: 1990
+**End-ref{EC-I0391-42}
 
 **Stop-processing
 
