@@ -145,6 +145,21 @@
   - Bus interface to which the board connects
   - all
   - all
+- Num-Interfaces:
+  - Number of interface ports
+  - Number of interface ports
+  - all
+  - all
+- Ethernet-connection:
+  - Ethernet connection
+  - Ethernet connection style (AUI, BNC, RJ45)
+  - all
+  - all
+- Peak-throughput:
+  - Peak throughput
+  - Peak throughput
+  - all
+  - all
 - AC-bus-load:
   - AC-bus-load
   - AC-bus-load
@@ -163,5 +178,15 @@
 - Positive-12V-current:
   - +12V current
   - +12V current
+  - all
+  - all
+- Negative-15V-current:
+  - -15V current
+  - -15V current
+  - all
+  - all
+- CPU:
+  - CPU
+  - CPU
   - all
   - all

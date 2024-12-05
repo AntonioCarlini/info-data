@@ -3627,6 +3627,8 @@
 **Start-ref{EK-DEUNA-UG-001}
 **Ref-text: DEUNA User's Guide
 **Ref-partno: EK-DEUNA-UG-001
+**Ref-date: 1983
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/unibus/EK-DEUNA-UG-001.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DEUNA-UG-001}
 
@@ -11227,6 +11229,13 @@
 **Ref-date: 1981-09
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/rl01_rl02/EK-RL012-UG-005_Sep81.tif.pdf
 **End-ref{EK-RL012-UG-005}
+
+**Start-ref{EK-DELUA-UG-002}
+**Ref-text: DELUA User's Guide
+**Ref-partno: EK-DELUA-UG-002
+**Ref-date: 1986-04
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/unibus/EK-DELUA-UG-002.pdf
+**End-ref{EK-DELUA-UG-002}
 
 **Start-ref{ED-32596-42}
 **Ref-text: Networks and Communications Buyer's Guide 1989 January - June

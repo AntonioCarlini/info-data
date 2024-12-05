@@ -65670,6 +65670,7 @@ start-publication DEC:EK-DETPR-SV-001
 end-publication DEC:EK-DETPR-SV-001
 
 start-publication DEC:EK-DEUNA-TM-001
+  title = DEUNA User's Guide
   part-no = EK-DEUNA-TM-001
   publisher = DEC
   fonds = fiche://EP-DEUNA-TM-001

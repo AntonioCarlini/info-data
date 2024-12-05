@@ -26,13 +26,67 @@ The DELQA-M is a replacement for the DEQNA-M.
 **Text-end
 **End-boards-entry{DELQA-M}
 
-**Start-comms-entry{DECNA}{PRO}{PRO}
+**Start-boards-entry{DECNA}{PRO}{PRO}
 **Sys-name: DECNA
 **Desc-name: DECNA Ethernet LAN Controller
 **Def-lref{1} = ref{SUE-1984-05-28-V5-N23}
 ! vref{1}: requires xoP/OS Hard Disk Version 2.0, also announced in this issue
 **Announcement**vref{1}: 1984-05-28
 !**Dimensions**vref{1}: 5.2" x 12"
-**End-comms-entry{DECNA}
+**End-boards-entry{DECNA}
 
-!bus=QBUS module=M3118-YA	dc=0.5	ac=3.0	+5V=1.6A	+12V=0.2A name=CXA16-M
+**Start-boards-entry{DEBNA-M}{VAXBI}{VAXBI}
+**Sys-name: DEBNA-M
+**Desc-name: DEBNA-M VAXBI Ethernet Interface
+**Def-lref{1} = ref{ED-32596-42}
+**Bus**vref{1}: VAXBI
+**Num-interfaces**vref{1}: 1
+**Peak-throughput**vref{1}: 5 Mb/s
+**Ethernet-connection**vref{1}: AUI
+**Positive-5V-current**vref{1}: 6.72 A
+**Positive-12V-current**vref{1}: 0.5 A
+**End-boards-entry{DEBNA-M}
+
+**Start-boards-entry{DEUNA}{UNIBUS}{UNIBUS}
+**Sys-name: DEUNA
+**Desc-name: DEUNA UNIBUS Ethernet Interface
+**Def-lref{1} = ref{EK-DEUNA-UG-001}
+**document=doc{DEC:EK-DEUNA-TM-001}                   ! 
+**document=doc{DEC:EK-DEUNA-TM-CN1}                   ! DEUNA Technical Manual
+**document=doc{DEC:EK-DEUNA-TM-PRE}                   ! DIGITAL Ethernet Unibus Network Adapter Technical Manual
+**document=doc{DEC:EK-DEUNA-UG-001}                   ! DEUNA User's Guide
+**document=doc{DEC:EK-DEUNA-UG-PRE}                   ! DEUNA User's Guide Preliminary
+**document=doc{DEC:Ek-DEUNA-UG-PRE}                   ! DEUNA User's Guide
+**document=doc{DEC:MP01378}                           ! DEUNA Field Maintenance Print Set
+**Bus**vref{1}: UNIBUS
+**Module**vref{1}: {Port Module: M7792} {Link Module: M7793}
+**Num-interfaces**vref{1}: 1
+**Peak-throughput**vref{1}: 10 Mb/s
+**Ethernet-connection**vref{1}: AUI
+**AC-bus-load**vref{1}: 1
+**DC-bus-load**vref{1}: 4
+**Positive-5V-current**vref{1}: {Port Module: 7.0 A}{Link Module: 9.0A}
+**Negative-15V-current**vref{1}: {Port Module: 0.0A} {Link Module: 1.0 A}
+**End-boards-entry{DEUNA}
+
+**Start-boards-entry{DELUA}{UNIBUS}{UNIBUS}
+**Sys-name: DELUA
+**Desc-name: DELUA UNIBUS Ethernet Interface
+**Def-lref{1} = ref{EK-DELUA-UG-002}
+**document=doc{DEC:EK-DELUA-TD-001}                   ! DELUA Digital Ethernet Large-Scale-Intergration Unibus Adapter Technical Manual
+**document=doc{DEC:EK-DELUA-UG-002}                   ! DELUA User's Guide
+**Bus**vref{1}: UNIBUS
+**Module**vref{1}: M7521
+**CPU**vref{1}: Motorola 68000
+**Num-interfaces**vref{1}: 1
+**Peak-throughput**vref{1}: 10 Mb/s
+**Ethernet-connection**vref{1}: AUI
+**AC-bus-load**vref{1}: 1
+**DC-bus-load**vref{1}: 4
+**Positive-5V-current**vref{1}: 8 A
+**Negative-15V-current**vref{1}: 1 A
+**Text-start
+The DELUA is a follow on to the DEUNA, offering all the same functions but at higher performance and with lower power consumption.
+**Text-end
+**End-boards-entry{DELUA}
+
