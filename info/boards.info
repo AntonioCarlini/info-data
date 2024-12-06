@@ -159,3 +159,33 @@ The DELUA is a follow on to the DEUNA, offering all the same functions but at hi
 **Synch-ports**vref{1}: {2 @ 64kB/s} {1 @ 1.544Mb/s}
 **End-boards-entry{DSYT1}
 
+**Start-boards-entry{DMB32}{SYNCH}{SYNCH}
+**Sys-name: DMB32
+**Desc-name: DMB32 Asynchronous/Synchronous Multiplexer
+**Def-lref{1} = ref{EK-DMB32-UG-001}
+**Def-lref{2} = ref{EK-DMB32-TD-001}
+**Def-lref{3} = ref{ED-32596-42}
+**document=doc{DEC:EK-DMB32-TD-001}                   ! DMB32 Asynchronous /Synchronous Multiplexer Technical Description
+**document=doc{DEC:EK-DMB32-UG-001}                   ! DMB32 User Guide
+**Bus**vref{1}: VAXBI
+**Module**vref{1}: T1012
+**Synch-ports**vref{1}: 1
+**Asynch-ports**vref{1}: 8
+**Printer-ports**vref{1}: 1
+**Positive-5V-current**vref{3}: 6.75 A
+**Positive-12V-current**vref{3}: 0.300 A
+**Negative-12V-current**vref{3}: 0.425 A
+**CPU**vref{1}: Motorola 68000
+**End-boards-entry{DMB32}
+
+**Start-boards-entry{DHB32}{ASYNCH}{ASYNCH}
+**Sys-name: DHB32
+**Desc-name: DHB23 Asynchronous Multiplexer
+**Def-lref{1} = ref{ED-32596-42}
+**Bus**vref{1}: VAXBI
+**Asynch-ports**vref{1}: 16
+**Positive-5V-current**vref{1}: 5.56 A
+**Positive-12V-current**vref{1}: 0.42 A
+**Negative-12V-current**vref{1}: 0.42 A
+**End-boards-entry{DHB32}
+

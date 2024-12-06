@@ -201,3 +201,13 @@
   - Number of synchronous interface ports
   - all
   - all
+- Asynch-ports:
+  - Aynch ports
+  - Number of asynchronous interface ports
+  - all
+  - all
+- Printer-ports:
+  - Printer ports
+  - Number of printer ports
+  - all
+  - all
