@@ -1,3 +1,4 @@
+
 ---
 - Not-Allowed:
   - Not Allowed
@@ -178,6 +179,11 @@
 - Positive-12V-current:
   - +12V current
   - +12V current
+  - all
+  - all
+- Negative-12V-current:
+  - -12V current
+  - -12V current
   - all
   - all
 - Negative-15V-current:

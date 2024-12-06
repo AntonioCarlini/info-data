@@ -43,6 +43,48 @@ The DELQA-M is a replacement for the DEQNA-M.
 **Text-end
 **End-boards-entry{DELQA-M}
 
+**Start-boards-entry{DESQA-S}{QBUS}{QBUS}
+**Sys-name: DESQA-S
+**Desc-name: DESQA-S Qbus Ethernet Interface
+**Def-lref{1} = ref{ED-32596-42}
+**Board-size**vref{1}: Quad
+**Bus**vref{1}: Qbus
+**Ethernet-connection**vref{1}: AUI and ThinWire
+**AC-bus-load**vref{1}: 3.3
+**DC-bus-load**vref{1}: 0.5
+**Positive-5V-current**vref{1}: 2.4A
+**Positive-12V-current**vref{1}: 0.22A
+**Text-start
+The DESQA-S is a Qbus board that connects a system in a BA200-series cabinet to an Ethernet network. It is a quad-size module based on the DELQA but with
+built-in cabinet connections for both AUI and ThinWire.
+**Text-end
+**End-boards-entry{DESQA-S}
+
+**Start-boards-entry{DESVA}{UV2K}{UV2K}
+**Sys-name: DESVA
+**Desc-name: DESVA Ethernet Interface for MicroVAX/VAXstation 2000
+**Def-lref{1} = ref{ED-32596-42}
+**Ethernet-connection**vref{1}: AUI
+**End-boards-entry{DESVA}
+
+**Start-boards-entry{DEPCA}{ISA}{ISA}
+**Sys-name: DEPCA
+**Desc-name: DEPCA Ethernet Interface for ISA bus
+**Def-lref{1} = ref{ED-32596-42}
+**Def-lref{2} = ref{EK-DEPCA-PR-001}
+**document=doc{DEC:EK-DEPCA-OM-002}                   ! DEPCA Owner's Manual
+**document=doc{DEC:EK-DEPCA-PR-001}                   ! PCSA DEPCA Hardware Reference Manual
+**document=doc{DEC:EK-DEPCA-UG-001}                   ! VAXmate Personal Workstation handbook
+**document=doc{DEC:MP02421}                           ! DEPCA Field Maintenance Print Set
+**Bus**vref{1}: ISA
+**Ethernet-connection**vref{1,2}: AUI or ThinWire
+**Peak-throughput**vref{1}: 10 Mb/s
+**Positive-5V-current**vref{2}: 2.0 A
+**Positive-12V-current**vref{2}: 1.350 A
+**Negative-12V-current**vref{2}: 0.050 A
+! vref{2}: bus loads 2 LSTTL
+**End-boards-entry{DEPCA}
+
 **Start-boards-entry{DECNA}{PRO}{PRO}
 **Sys-name: DECNA
 **Desc-name: DECNA Ethernet LAN Controller

@@ -11251,6 +11251,14 @@
 **Ref-date: 1990
 **End-ref{EC-I0391-42}
 
+**Start-ref{EK-DEPCA-PR-001}
+**Ref-text: PCSA DEPCA Hardware Reference Manual
+**Ref-partno: EK-DEPCA-PR-001
+**Ref-date: 1989-04
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/ethernet/depca/EK-DEPCA-PR-001_Apr89.pdf
+**Ref-hardcopy: No
+**End-ref{EK-DEPCA-PR-001}
+
 **Stop-processing
 
 **Start-ref{
