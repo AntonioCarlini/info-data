@@ -102,7 +102,7 @@ end
 
 # Function to simplify logging of fatal errors
 def log_fatal(this, line_num, filename, text)
-  # TODO $stderr.puts("FATAL ERROR from #{this.class().name()}: line #{line_num} in #{filename}: #{text}")
+  $stderr.puts("FATAL ERROR from #{this.class().name()}: line #{line_num} in #{filename}: #{text}")
 end
 
 class Publications
@@ -155,17 +155,31 @@ class Publications
         break
       elsif line =~ /start-publication \s+ (.*)/ix # TODO - better limits on names
         id = $1.strip()
-##        raise("Duplicate publication [#{id}] read in #{info_filename} at line #{line_num}: #{line} (originally #{ret[id].line_num()})") if ret[id] != nil
+        if ret[id].nil?() && false ## TODO suppress dupe check: hundreds of them
+          log_fatal(current, line, info_filename, "Duplicate publication [#{id}] read (originally #{ret[id].line_num()})")
+          log_fatal_error = true
+        end
         current = Pub.new(id, line_num)
         next
-      elsif line =~ /end-publication \s* .*/ix
-        # TODO - check closing the right one, then add to pile
-        log_fatal(current,line, info_filename, "PUB with no title': [#{current.identifier()}]\n") if current.title.nil?()
-        fatal_error_seen = true
+      elsif line =~ /end-publication \s+ (.*)/ix
+        id = $1.strip()
+
+        # Check the closing ID matches the current ID (i.e. the start-...and end-... match)
+        if id != current.identifier()
+          log_fatal(current, line, info_filename, "end-publication with no mismatched ID': [#{id}], expecting [#{current.identifier()}]\n")
+          fatal_error_seen = true
+        end
+
+        # Check for a PUB that has no title
+        if current.title.nil?() && false ## TODO suppress title check: hundreds of them
+          log_fatal(current, line, info_filename, "PUB with no title': [#{current.identifier()}]\n")
+          fatal_error_seen = true
+        end
         ret.add_ref(current)
         next
       elsif current == nil
-        # TODO - line outside of reference?
+          log_fatal(current, line, info_filename, "Line outside of PUB\n")
+          fatal_error_seen = true
         next
       end
       
@@ -209,7 +223,7 @@ class Publications
       end
     }
 
-    # TODO raise("Aborting because of above fatal errors") if fatal_error_seen
+    raise("Aborting because of above fatal errors") if fatal_error_seen
     
     return ret
   end

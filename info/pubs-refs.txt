@@ -15779,12 +15779,6 @@ start-publication DEC:EK-VT102-RC-001
   publisher = DEC
 end-publication DEC:EK-VT102-RC-001
 
-start-publication DEC:EK-VT220-RM-001
-  title = VT220 Programmer Reference Manual
-  part-no = EK-VT220-RM-001
-  publisher = DEC
-end-publication DEC:EK-VT220-RM-001
-
 start-publication DEC:EK-VT502-PG-001
   title = VT50/VT52 Pocket Service Guide
   part-no = EK-VT502-PG-001
@@ -15864,12 +15858,6 @@ start-publication DEC:TTY Testing
   title = TTY Testing on PDP-1 notes
   publisher = DEC
 end-publication DEC:TTY Testing
-
-start-publication DEC:DEC-11-H05SS-B-D
-  title = PDP-11/05-S, 11/10-System manual
-  part-no = DEC-11-H05SS-B-D
-  publisher = DEC
-end-publication DEC:DEC-11-H05SS-B-D
 
 start-publication DEC:AV-P173A-TM
   title = TOPS-20 Quick Reference Guide
