@@ -100,6 +100,11 @@ class Pub
   end
 end
 
+# Function to simplify logging of fatal errors
+def log_fatal(this, line_num, filename, text)
+  # TODO $stderr.puts("FATAL ERROR from #{this.class().name()}: line #{line_num} in #{filename}: #{text}")
+end
+
 class Publications
 
   DATA_REFERENCES_ID = "DataPublications"
@@ -136,6 +141,7 @@ class Publications
     line_num = 0
     current = nil
     ret = Publications.new()
+    fatal_error_seen = false
     IO.foreach(info_filename) {
       |line|
       line_num += 1
@@ -154,6 +160,8 @@ class Publications
         next
       elsif line =~ /end-publication \s* .*/ix
         # TODO - check closing the right one, then add to pile
+        log_fatal(current,line, info_filename, "PUB with no title': [#{current.identifier()}]\n") if current.title.nil?()
+        fatal_error_seen = true
         ret.add_ref(current)
         next
       elsif current == nil
@@ -201,6 +209,8 @@ class Publications
       end
     }
 
+    # TODO raise("Aborting because of above fatal errors") if fatal_error_seen
+    
     return ret
   end
 

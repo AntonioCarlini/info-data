@@ -24208,11 +24208,6 @@ start-publication DEC:KW11-L-0
   publisher = DEC
 end-publication DEC:KW11-L-0
 
-start-publication DEC:KW11-W
-  part-no = KW11-W
-  publisher = DEC
-end-publication DEC:KW11-W
-
 start-publication DEC:MP00382
   title = RH11-B Field Maintenance Print Set
   part-no = MP00382
@@ -58800,21 +58795,6 @@ start-publication DDS:PEP-70_PDP-11-70_Performance_Enhancement_Product_Brochure
   publisher = DDS
 end-publication DDS:PEP-70_PDP-11-70_Performance_Enhancement_Product_Brochure
 
-start-publication DEC:QM-356AA-AA
-  part-no =  QM-356AA-AA
-  publisher = DEC
-end-publication DEC:QM-356AA-AA
-
-start-publication DEC:QM-4QXAA-AA
-  part-no =  QM-4QXAA-AA
-  publisher = DEC
-end-publication DEC:QM-4QXAA-AA
-
-start-publication DEC:QM-5GZAA-AA
-  part-no =  QM-5GZAA-AA
-  publisher = DEC
-end-publication DEC:QM-5GZAA-AA
-
 start-publication DEC:RD51_RD52_Survival_Tips
   title = RD51 RD52 Survival Tips
   part-no =  RD51_RD52_Survival_Tips
@@ -60087,24 +60067,12 @@ start-publication DEC:AA-2593E-TC
   fonds = fiche://EP-RSXMS-TC-001
 end-publication DEC:AA-2593E-TC
 
-start-publication DEC:AA-5230B-TC
-  part-no = AA-5230B-TC
-  publisher = DEC
-  fonds = fiche://EP-528OB-TC-001
-end-publication DEC:AA-5230B-TC
-
 start-publication DEC:AA-5245B-TC
   title = RSX-11M Beginner's Guide
   part-no = AA-5245B-TC
   publisher = DEC
   fonds = fiche://EP-RSX11-TC-001
 end-publication DEC:AA-5245B-TC
-
-start-publication DEC:AA-5284B-TC
-  part-no = AA-5284B-TC
-  publisher = DEC
-  fonds = fiche://5284B-TC-001
-end-publication DEC:AA-5284B-TC
 
 start-publication DEC:AA-H262A-TC
   title = RSX-11M Mini-Index
@@ -60168,6 +60136,7 @@ start-publication DEC:ALL-IN-1_v2.3_SRCLST
 end-publication DEC:ALL-IN-1_v2.3_SRCLST
 
 start-publication DEC:AV-5287B-TC
+  title = RT-11 V3B System Reference Card
   part-no = AV-5287B-TC
   publisher = DEC
   fonds = fiche://EP-5287B-TC-001
@@ -60181,6 +60150,7 @@ start-publication DEC:DEC-00-DS11-DB
 end-publication DEC:DEC-00-DS11-DB
 
 start-publication DEC:DEC-00-H2340-A-D
+  title = 2340 XOR Test System Maintenance Manual
   part-no = DEC-00-H2340-A-D
   publisher = DEC
   fonds = fiche://EP-2340-00-MM-A
@@ -74794,3 +74764,38 @@ start-publication DEC:EK-M7552-TM
   publisher = DEC
   fonds = ARC
 end-publication DEC:EK-M7552-TM
+
+**Stop-processing
+
+start-publication DEC:KW11-W
+  part-no = KW11-W
+  publisher = DEC
+end-publication DEC:KW11-W
+
+start-publication DEC:QM-356AA-AA
+  part-no =  QM-356AA-AA
+  publisher = DEC
+end-publication DEC:QM-356AA-AA
+
+start-publication DEC:QM-4QXAA-AA
+  part-no =  QM-4QXAA-AA
+  publisher = DEC
+end-publication DEC:QM-4QXAA-AA
+
+start-publication DEC:QM-5GZAA-AA
+  part-no =  QM-5GZAA-AA
+  publisher = DEC
+end-publication DEC:QM-5GZAA-AA
+
+start-publication DEC:AA-5230B-TC
+  part-no = AA-5230B-TC
+  publisher = DEC
+  fonds = fiche://EP-528OB-TC-001
+end-publication DEC:AA-5230B-TC
+
+start-publication DEC:AA-5284B-TC
+  part-no = AA-5284B-TC
+  publisher = DEC
+  fonds = fiche://5284B-TC-001
+end-publication DEC:AA-5284B-TC
+
