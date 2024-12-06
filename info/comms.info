@@ -299,22 +299,26 @@
 **Sys-name: DEMSA
 **Desc-name: DEMSA MicroServer
 **Def-lref{1} = ref{EK-DEMSA-IN-002}
-**Num-synch-lines**htref{1}: 4
+**Def-lref{2} = ref{ED-32596-42}
+**Num-synch-lines**vref{2}: 4
 **Ethernet-connection**htref{1}: AUI
 **Dimensions-start{DEMSA-T}
 **Label: Tabletop
-**Height**htref{1}: 162mm
-**Width **htref{1}: 494mm
-**Depth **htref{1}: 313mm
-**Weight**htref{1}: 9.5kg
+**Height**vref{2}: 162 mm
+**Width **vref{2}: 494 mm
+**Depth **vref{2}: 313 mm
+**Weight**vref{2}: 8.1 kg
 **Dimensions-end{DEMSA-T}
 **Dimensions-start{DEMSA-R}
-**Label: rackmount
-**Height**htref{1}: 133mm
-**Width **htref{1}: 436mm
-**Depth **htref{1}: 298mm
-**Weight**htref{1}: 7.3kg
+**Label: Rackmount
+**Height**vref{2}: 133 mm
+**Width **vref{2}: 436 mm
+**Depth **vref{2}: 298 mm
+**Weight**vref{2}: 6.9 kg
 **Dimensions-end{DEMSA-R}
+**Text-start
+The DEC MicroServer (DEMSA) is the hardware platform that supports a number of software products: the DECrouter 2000, the X25router 2000 and the DECnet/SNA gateway-ST.
+**Text-end
 **End-comms-entry{DEMSA}
 
 **Start-comms-entry{DEREP}{NETMISC}{NETMISC}
@@ -937,4 +941,16 @@
 **Heat-dissipation**vref{1}: 210 BTU/h
 **Power-end{DECMUX2-240V}
 **End-comms-entry{DFMZA}
+
+**Start-comms-entry{DSRVC}{NETMISC}{NETMISC}
+**Sys-name: DSRVC
+**Desc-name: DECrouter 200
+**Def-lref{1} = ref{ED-32596-42}
+**document=doc{DEC:MP01828}                           ! DSRVC-A Field Maintenance Print Set
+**Ports**vref{1}: 8
+**Ethernet-connection**vref{1}: AUI
+**DECnet-PhaseIV-support**vref{1}: Yes
+**DECnet-PhaseIV-Level-1-Routing-support**vref{1}: Yes
+**DECnet-PhaseIV-Level-2-Routing-support**vref{1}: No
+**End-comms-entry{DSRVC}
 

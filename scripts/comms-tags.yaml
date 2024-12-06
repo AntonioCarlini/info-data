@@ -279,3 +279,38 @@
   - Flow control
   - all
   - all
+- DECnet-PhaseI-support:
+  - DECnet Phase I
+  - Supports DECnet Phase I
+  - all
+  - all
+- DECnet-PhaseII-support:
+  - DECnet Phase II
+  - Supports DECnet Phase II
+  - all
+  - all
+- DECnet-PhaseIII-support:
+  - DECnet Phase III
+  - Supports DECnet Phase III
+  - all
+  - all
+- DECnet-PhaseIV-support:
+  - DECnet Phase IV
+  - Supports DECnet Phase IV
+  - all
+  - all
+- DECnet-PhaseV-support:
+  - DECnet Phase V
+  - Supports DECnet Phase V
+  - all
+  - all
+- DECnet-PhaseIV-Level-1-Routing-support:
+  - DECnet Phase IV level 1 Routing
+  - Supports DECnet Phase IV Level 1 (intra-area) Routing
+  - all
+  - all
+- DECnet-PhaseIV-Level-2-Routing-support:
+  - DECnet Phase IV level 2 Routing
+  - Supports DECnet Phase IV Level 2 (inter-area) Routing
+  - all
+  - all
