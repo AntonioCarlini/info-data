@@ -29,7 +29,7 @@
 ! TRNcontroller 700: https://groups.google.com/forum/#!topic/biz.dec.decnews/2AjqnREkoP8
 ! WANrouter90: http://odrc2.flexbl.co.uk/mediawiki/index.php/Digital_Customer_Update_1994-11-03#AlphaStation_200_Family_of_64-bit_Desktop_Workstations
 
-**Start-comms-entry{DECNIS500}{NIS}
+**Start-comms-entry{DECNIS500}{NIS}{NIS}
 **Def-lref{1} = ref{CU-1991-10-18}
 **Sys-name: DECnis 500
 **Desc-name: DEC Network Integration Server 500
@@ -37,7 +37,7 @@
 **Announcement**vref{1}: 1991-10-18
 **End-comms-entry{DECNIS500}
 
-**Start-comms-entry{DECNIS600}{NIS}
+**Start-comms-entry{DECNIS600}{NIS}{NIS}
 **Def-lref{1} = ref{CU-1991-10-18}
 **Sys-name: DECnis 600
 **Desc-name: DEC Network Integration Server 600
@@ -45,9 +45,10 @@
 **Slots**vref{1}: 9
 **End-comms-entry{DECNIS600}
 
-**Start-comms-entry{DEFAR}{HUB90}
-**Sys-name: DECrepeater 90FA
-**DEF-lref{1} = ref{EK-DEFAR-OM.A01}
+**Start-comms-entry{DEFAR}{HUB90}{HUB90}
+**Sys-name: DEFAR
+**Desc-name: DECrepeater 90FA
+**Def-lref{1} = ref{EK-DEFAR-OM.A01}
 **Interfaces**vref{1}: {AUI}{ThinWire}{10Base-FL}
 **Standalone-PSU**vref{1}: {110V: H7082-AA}{220V: H7082-BA}
 **Dimensions-start{DEFAR}
@@ -57,19 +58,22 @@
 **Weight**vref{1}: 0.77kg
 **Dimensions-end{DEFAR}
 **Power-start{DEFAR-120V}
+**Label: 120V
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 0.25A
 **Power**vref{1}: 9W
 **Power-end{DEFAR-120V}
 **Power-start{DEFAR-240V}
+**Label: 240V
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 0.125A
 **Power**vref{1}: 9W
 **Power-end{DEFAR-240V}
 **End-comms-entry{DEFAR}
 
-**Start-comms-entry{DEFCN}{NETMISC}
-**Sys-name: DECconcentrator 500
+**Start-comms-entry{DEFCN}{NETMISC}{NETMISC}
+**Sys-name: DEFCN
+**Desc-name: DECconcentrator 500
 **Def-lref{1} = ref{EK-DEFCN-IN-004}
 **Def-lref{2} = ref{EK-DEFCN-OP-002}
 **Def-lref{3} = ref{EK-DEFCN-TD.B01}
@@ -112,11 +116,12 @@
 ! If the Network Management Card, the DEFCN operates as a standalone concentrator. In this configuration it cannot be attached to a dual ring or a tree topology.
 **End-comms-entry{DEFCN}
 
-**Start-comms-entry{DECBR500}{BRIDGE}
+**Start-comms-entry{DECBR500}{BRIDGE}{BRIDGE}
+**Sys-name: DEFEB
+**Desc-name: DECbridge 500
 **Def-lref{1} = ref{EK-DEFEB-IN-002}
 ! DECbridge 500/600 Series Installation and Upgrade. EK-DEFEB-IN-002
-**Sys-name: DECbridge 500
-**Ethernet**uref{1}: 1 x AUI or ThinWire
+**Ethernet-connection**uref{1}: 1 x AUI or ThinWire
 **FDDI**uref{1}: 1 x SAS or DAS
 **Optical-bypass**uref{1}: Yes
 **Dual-homing**uref{1}: Yes
@@ -143,13 +148,15 @@
 !	QM:	Queue Manager
 !
 !
-**Power-start{DEBR500-110V}
+**Power-start{DECBR500-110V}
+**Label: 110V
 **Supply**uref{1}: 110V 1-phase
 **I-max**uref{1}: 3.9A
 **Power**uref{1}: 390W
 **Heat-dissipation**uref{1}: 1330 BTU/hr
 **Power-end{DECBR500-110V}
-**Power-start{DEBR500-240V}
+**Power-start{DECBR500-240V}
+**Label: 240V
 **Supply**uref{1}: 240V 1-phase
 **I-max**uref{1}: 1.7A
 **Power**uref{1}: 390W
@@ -163,11 +170,12 @@
 **Dimensions-end{DEBR500}
 **End-comms-entry{DECBR500}
 
-**Start-comms-entry{DECBR600}{BRIDGE}
+**Start-comms-entry{DECBR600}{BRIDGE}{BRIDGE}
 **Def-lref{1} = ref{EK-DEFEB-IN-002}
 ! DECbridge 500/600 Series Installation and Upgrade. EK-DEFEB-IN-002
-**Sys-name: DECbridge 600
-**Ethernet**uref{1}: 3 x AUI
+**Sys-name: DEFEB
+**Desc-name: DECbridge 600
+**Ethernet-connection**uref{1}: 3 x AUI
 **FDDI**uref{1}: 1 x SAS or 1 x DAS
 **Optical-bypass**uref{1}: Yes
 **Dual-homing**uref{1}: Yes
@@ -194,39 +202,44 @@
 !	QM:	Queue Manager
 !
 !
-**Power-start{DEBR600-110V}
+**Power-start{DECBR600-110V}
+**Label: 110V
 **Supply**uref{1}: 110V 1-phase
 **I-max**uref{1}: 3.9A
 **Power**uref{1}: 390W
 **Heat-dissipation**uref{1}: 1330 BTU/hr
 **Power-end{DECBR600-110V}
-**Power-start{DEBR600-240V}
+**Power-start{DECBR600-240V}
+**Label: 240V
 **Supply**uref{1}: 240V 1-phase
 **I-max**uref{1}: 1.7A
 **Power**uref{1}: 390W
 **Heat-dissipation**uref{1}: 1330 BTU/hr
 **Power-end{DECBR600-240V}
-**Dimensions-start{DEBR600}
+**Dimensions-start{DECBR600}
 **Height**uref{1}: 176.8mm
 **Width**uref{1}: 442.0mm
 **Depth**uref{1}: 365.3mm
 **Weight**uref{1}: 14.51kg
-**Dimensions-end{DEBR600}
+**Dimensions-end{DECBR600}
 **End-comms-entry{DECBR600}
 
-**Start-comms-entry{DELNI}{NETMISC}
-**Sys-name: DELNI Ethernet Local Network Interconnect
+**Start-comms-entry{DELNI}{NETMISC}{NETMISC}
+**Sys-name: DELNI
+**Desc-name: DELNI Ethernet Local Network Interconnect
 **Def-lref{1} = ref{EK-DELNI-TM.001}
 **Def-lref{2} = ref{ED-32596-42}
 ! vref{1}: One AUI backbone interface, 8 AUI local interfaces -->
 **Power-start{DELNI-120V}
-**Supply**vref{3}: 120V 1-phase
+**Label: 120V
+**Supply**htref{1}: 120V 1-phase
 **I-nominal**htref{1}: 0.35A
 **I-inrush**htref{1}: 10A
 **Power**vref{2}: 26W
 **Power-end{DELNI-120V}
 **Power-start{DELNI-240V}
-**Supply**vref{3}: 240V 1-phase
+**Label: 240V
+**Supply**htref{3}: 240V 1-phase
 **I-nominal**htref{1}: 0.18A
 **I-inrush**htref{1}: 5A
 **Power**htref{1}: 26W
@@ -246,25 +259,28 @@
 **Dimensions-end{DELNI-R}
 **End-comms-entry{DELNI}
 
-**Start-comms-entry{DEMPR}{NETMISC}
+**Start-comms-entry{DEMPR}{NETMISC}{NETMISC}
 **Sys-name: DEMPR
-**Desc-name: DEMPR Ethernet Multiport Repeater
+**Desc-name: DEMPR DEC Ethernet Multiport Repeater
 **Def-lref{1} = ref{EK-THNRP-UG-002}
-**Def-lref{1} = ref{EK-THNRP-TM-001}
+**Def-lref{2} = ref{EK-THNRP-TM-001}
 ! vref{2}: states that DEMPR and DESPR are the same other than the former having 8 BNC ThinWire ports and the latter 1.
-**Backbone-interface**vrref{2}: 1 x AUI
+**Backbone-interface**vref{2}: 1 x AUI
 **Local-interface**vref{2}: 8 x ThinWire
 **Power-start{DEMPR-AA}
+**Label: 120V
 **Supply**vref{2}: 120V 1-phase
 **I-max**vref{2}: 0.83A
 **Power**vref{2}: 40W
 **Power-end{DEMPR-AA}
 **Power-start{DEMPR-AB}
+**Label: 240V
 **Supply**vref{2}: 240V 1-phase
 **I-max**vref{2}: 0.42A
 **Power**vref{2}: 40W
 **Power-end{DEMPR-AB}
 **Dimensions-start{DEMPR-T}
+**Label: Tabletop
 **Height**vref{2}: 108 mm
 **Width**vref{2}: 494 mm
 **Depth**vref{2}: 313 mm
@@ -279,11 +295,12 @@
 **Dimensions-end{DEMPR-R}
 **End-comms-entry{DEMPR}
 
-**Start-comms-entry{DEMSA}{ROUTER}
-**Sys-name: DEMSA MicroServer
+**Start-comms-entry{DEMSA}{ROUTER}{ROUTER}
+**Sys-name: DEMSA
+**Desc-name: DEMSA MicroServer
 **Def-lref{1} = ref{EK-DEMSA-IN-002}
-**Synch-lines**htref{1}: 4
-**Ethernet**htref{1}: AUI
+**Num-synch-lines**htref{1}: 4
+**Ethernet-connection**htref{1}: AUI
 **Dimensions-start{DEMSA-T}
 **Label: Tabletop
 **Height**htref{1}: 162mm
@@ -300,8 +317,9 @@
 **Dimensions-end{DEMSA-R}
 **End-comms-entry{DEMSA}
 
-**Start-comms-entry{DEREP}{NETMISC}
-**Sys-name: DEREP Ethernet Repeater
+**Start-comms-entry{DEREP}{NETMISC}{NETMISC}
+**Sys-name: DEREP
+**Desc-name: DEREP Ethernet Repeater
 **Def-lref{1} = ref{EK-DEREP-TM.001}
 !<TR> <TH> &nbsp;			<TH> Minimum	<TH> Typical	<TH> Maximum	</TR>
 !<TR> <TD> Transmitted preamble <CITE> <A HREF="#ref_1">[1]</A> </CITE> </TR>
@@ -322,38 +340,38 @@
 !					<TD> 512 bits	<TD>	-	<TD> 14144 bits	</TR>
 !
 **Dimensions-start{DEREP-AA}
-**Label DEREP-AA (Local)
+**Label: DEREP-AA (Local)
 **Height**vref{1}: 101.6mm
 **Width **vref{1}: 457.2mm
 **Depth **vref{1}: 304.8mm
 **Weight**vref{1}: 7.26kg
 **Dimensions-end{DEREP-AA}
-**Dimensions-start{DEREP-AA}
-**Label DEREP-RA (Remote)
+**Dimensions-start{DEREP-RA}
+**Label: DEREP-RA (Remote)
 **Height**vref{1}: 102.6mm
 **Width **vref{1}: 457.2mm
 **Depth **vref{1}: 304.8mm
 **Weight**vref{1}: 7.26kg
 **Dimensions-end{DEREP-RA}
 **Power-start{DEREP-AA-115V}
-**Label DEREP-AA (Local), 115V
+**Label: DEREP-AA (Local), 115V
 **I-max**vref{1}: 1
 **Power-end{DEREP-AA-115V}
 **Power-start{DEREP-AA-230V}
-**Label DEREP-AA (Local), 230V
+**Label: DEREP-AA (Local), 230V
 **I-max**vref{1}: 0.5A
 **Power-end{DEREP-AA-230V}
 **Power-start{DEREP-RA-115V}
-**Label DEREP-RA (Remote), 115V
+**Label: DEREP-RA (Remote), 115V
 **I-max**vref{1}: 2.5A
 **Power-end{DEREP-RA-115V}
 **Power-start{DEREP-RA-230V}
-**Label DEREP-RA (Remote), 230V
+**Label: DEREP-RA (Remote), 230V
 **I-max**vref{1}: 1.25A
 **Power-end{DEREP-RA-230V}
 **End-comms-entry{DEREP}
 
-**Start-comms-entry{DESPR}{NETMISC}
+**Start-comms-entry{DESPR}{NETMISC}{NETMISC}
 **Sys-name: DESPR
 **Desc-name: DESPR Ethernet Single Port Repeater
 **Def-lref{1} = ref{EK-THNRP-TM-001}
@@ -388,8 +406,9 @@
 **Dimensions-end{DESPR-Tabletop}
 **End-comms-entry{DESPR}
 
-**Start-comms-entry{DETPR}{NETMISC}
-**Sys-name: DECrepeater 350
+**Start-comms-entry{DETPR}{NETMISC}{NETMISC}
+**Sys-name: DETPR
+**Desc-name: DECrepeater 350
 **Def-lref{1} = ref{EK-DETPR-IN-001}
 **Def-lref{2} = ref{EK-DETPR-SV-001}
 **Backbone-interface**vref{2}: 1 x AUI
@@ -420,7 +439,7 @@
 **Dimensions-end{DETPR-R}
 **End-comms-entry{DETPR}
 
-**Start-comms-entry{DS90M}{TERMSERVER}
+**Start-comms-entry{DS90M}{TERMSERVER}{TERMSERVER}
 **Sys-name: DSRVH
 **Desc-name: DECserver 90M Terminal Server
 **Def-lref{1} = ref{CU-1993-05-10}
@@ -431,38 +450,40 @@
 **Speed**vref{1}:  up to 57.6 kbps
 **Data-bits**vref{2}: 8
 **Port-interface**vref{1}: MJ8
-**Network-interface**vref{1}: ThinWire, 10BaseT, DEChub
+**Ethernet-connection**vref{1}: ThinWire, 10BaseT, DEChub
 **DEChub-form-factor**vref{2}: DEChub 90
 **Dimensions-start{DS90M}
-**Height**verf{2} = 31.8 mm
-**Width**vref{2} = 273.1 mm
-**Depth**vref{2} = 127.0 mm
-**Weight**vref{2} = 0.77 kg
+**Height**vref{2}: 31.8 mm
+**Width**vref{2}: 273.1 mm
+**Depth**vref{2}: 127.0 mm
+**Weight**vref{2}: 0.77 kg
 **Dimensions-end{DS90M}
 **Power-start{DS90M}
 **Positive-5V-current**vref{2}: 1.2A
 **Power-end{DS90M}
 **End-comms-entry{DS90M}
 
-**Start-comms-entry{DS100}{TERMSERVER}
-**Sys-name: DECserver 100 Terminal Server
+**Start-comms-entry{DS100}{TERMSERVER}{TERMSERVER}
+**Sys-name: DS100
+**Desc-name: DECserver 100 Terminal Server
 **Def-lref{1} = ref{AA-Z085A-TK}
 **Sessions-per-port**htref{1}: 4
 **Ports**vref{1}: 8
 **Speed**htref{1}: 75 - 19.2K
 **Data-bits**htref{1}: 8
 **Port-interface**htref{1}: RS-232
-**Network-interface**htref{1}: AUI
+**Ethernet-connection**htref{1}: AUI
 **End-comms-entry{DS100}
 
-**Start-comms-entry{DS200}{TERMSERVER}
-**Sys-name: DECserver 200 Terminal Server
+**Start-comms-entry{DS200}{TERMSERVER}{TERMSERVER}
+**Sys-name: DS200
+**Desc-name: DECserver 200 Terminal Server
 **Def-lref{1} = ref{EK-D200C-IN-001}
 **Sessions-per-port**htref{1}: 4
 **Ports**vref{1}: 8
 **Data-bits**htref{1}: 8
 **Port-interface**vref{1}: {RS-232 (DS200/MC)}{DEC423 (DS200/DL)}
-**Network-interface**htref{1}: AUI
+**Ethernet-connection**htref{1}: AUI
 **Power-start{DSRVB-AA}
 **Label: DSRVB-AA, -BA
 **Supply**vref{1}: 120V 1-phase
@@ -484,8 +505,9 @@
 **Dimensions-end{DS200}
 **End-comms-entry{DS200}
 
-**Start-comms-entry{DS300}{TERMSERVER}
-**Sys-name: DECserver 300 Terminal Server
+**Start-comms-entry{DS300}{TERMSERVER}{TERMSERVER}
+**Sys-name: DS300
+**Desc-name: DECserver 300 Terminal Server
 **Def-lref{1} = ref{EK-A0366-IN-001}
 **Def-lref{2} = ref{EK-A0367-TM-001}
 **Sessions-per-port**htref{1}: 4
@@ -493,9 +515,9 @@
 **Speed**htref{1}: 1.2K - 19.2K
 **Data-bits**htref{1}: 8
 **Port-interface**vref{2}: DEC423
-**Network-interface**vref{2}: {AUI}{ThinWire}
+**Ethernet-connection**vref{2}: {AUI}{ThinWire}
 **CPU**vref{2}: Motorola 68020
-**CPU-clock**vref{2} = 16.67 MHz
+**CPU-clock**vref{2}: 16.67 MHz
 **Dimensions-start{DS300}
 **Height**vref{2}: 117mm
 **Width**vref{2}: 493mm
@@ -503,26 +525,50 @@
 **Weight**vref{2}: 5.4kg
 **Dimensions-end{DS300}
 **Power-start{DSRVF-BA}
+**Label: 120V
 **Supply**vref{2}: 100 - 120V 1-phase
 **I-max**vref{2}: 1.0A
 **Power**vref{2}: 75W
 **Power-end{DSRVF-BA}
 **Power-start{DSRVF-BB}
+**Label: 240V
 **Supply**vref{2}: 220 - 24-V 1-phase
 **I-max**vref{2}: 0.5A
 **Power**vref{2}: 75W
 **Power-end{DSRVF-BB}
 **End-comms-entry{DS300}
 
-**Start-comms-entry{DS700}{TERMSERVER}
-**Sys-name: DECserver 700 Terminal Server
+**Start-comms-entry{DS550}{TERMSERVER}{TERMSERVER}
+**Sys-name: DSRVS
+**Desc-name: DECserver 550 Terminal Server
+**Def-lref{1} = ref{ED-32596-42}
+**Ports**vref{1}: 128
+**Dimensions-start{DS550-Office}
+**Label: Pedestal
+**Height**vref{1}: 690 mm
+**Width**vref{1}: 530 mm
+**Depth**vref{1}: 450 mm
+**Weight**vref{1}: 39.5 kg
+**Dimensions-end{DS550-Office}
+**Dimensions-start{DS550-Rackmount}
+**Label: Rackmount
+**Height**vref{1}: 660 mm
+**Width**vref{1}: 460 mm
+**Depth**vref{1}: 290 mm
+**Weight**vref{1}: 28.3 kg
+**Dimensions-end{DS550-Rackmount}
+**End-comms-entry{DS550}
+
+**Start-comms-entry{DS700}{TERMSERVER}{TERMSERVER}
+**Sys-name: DWRVW
+**Desc-name: DECserver 700 Terminal Server
 **Def-lref{1} = ref{EK-DSRVW-MG.001}
 **Def-lref{2} = ref{CU-1992-01-31}
 **Announcement**vref{2}: 1992-01-31
 **Sessions-per-port**htref{1}: 4					
 **Ports**vref{1}: {8 (700-8)}{16 (700-16}
 **Port-interface**vref{1}: {RS-232 (700-8)}{RJ45(700-16}}
-**Network-interface**vref{2}: AUI or 10BaseT
+**Ethernet-connection**vref{2}: AUI or 10BaseT
 **Minimum-memory**vref{2}: 4MB
 **Maximum-memory**vref{1,2}: 8MB
 ! ref_1: memory configs: two slots 1MB SIMM or 4MB SIMM in either 70ns or 80ns 36-bit -->
@@ -533,19 +579,22 @@
 **Weight**vref{1}: 2.5kg
 **Dimensions-end{DS700}
 **Power-start{DS700-120V}
+**Label: 120V
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 1.4A
 **Power**vref{1}: 92W
 **Power-end{DS700-120V}
 **Power-start{DS700-240V}
+**Label: 240V
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 0.7A
 **Power**vref{1}: 92W
 **Power-end{DS700-240V}
 **End-comms-entry{DS700}
 
-**Start-comms-entry{DS90L}{TERMSERVER}
-**Sys-name: DECserver 90L Terminal Server
+**Start-comms-entry{DS90L}{TERMSERVER}{TERMSERVER}
+**Sys-name: DSRVD
+**Desc-name: DECserver 90L Terminal Server
 **Def-lref{1} = ref{EK-DSRVD-OM-001}
 **Def-lref{2} = ref{EK-DSRVG-OM.001}
 **Sessions-per-port**vref{1}: 1
@@ -556,7 +605,7 @@
 **Stop-bits**vref{1}: 1
 **Port-interface**vref{1}: DEC423
 **Flow-control**vref{1}: XON/XOFF
-**Network-interface**vref{1}: ThinWire or DEChub
+**Ethernet-connection**vref{1}: ThinWire or DEChub
 **Dimensions-start{DS90L}
 **Height**vref{1}: 31.8mm
 **Width**vref{1}: 273.1mm
@@ -564,11 +613,13 @@
 **Weight**vref{1}: 0.77kg
 **Dimensions-end{DS90L}
 **Power-start{DS90L-120V}
+**Label: 120V
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 0.25A
 **Power**vref{1}: 16W
 **Power-end{DS90L-120V}
 **Power-start{DS90L-240V}
+**Label: 240V
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 0.125A
 **Power**vref{1}: 16W
@@ -576,7 +627,7 @@
 !-- ref_1: DS90L requires 1.0A at 4.75V to 5.25V -->
 **End-comms-entry{DS90L}
 
-**Start-comms-entry{DS90LP}{TERMSERVER}
+**Start-comms-entry{DS90LP}{TERMSERVER}{TERMSERVER}
 **Sys-name: DSRVG
 **Desc-name: DECserver 90L+ Terminal Server
 **Def-lref{1} = ref{EK-DSRVD-OM-001}
@@ -590,7 +641,7 @@
 **Data-bits**vref{2}: 8
 **Port-interface**vref{3}: DEC423
 **Flow-control**vref{2}: XON/XOFF or disabled
-**Network-interface**vref{3}: ThinWire or DEChub
+**Ethernet-connection**vref{3}: ThinWire or DEChub
 **Dimensions-start{DS90LP}
 **Height**vref{2}: 31.8mm
 **Width**vref{2}: 273.1mm
@@ -598,11 +649,13 @@
 **Weight**vref{2}: 0.77kg
 **Dimensions-end{DS90LP}
 **Power-start{DS90LP-120V}
+**Label: 120V
 **Supply**vref{2}: 120V 1-phase
 **I-max**vref{2}: 0.25A
 **Power**vref{2}: 16W
 **Power-end{DS90LP-120V}
 **Power-start{DS90LP-240V}
+**Label: 120V
 **Supply**vref{2}: 240V 1-phase
 **I-max**vref{2}: 0.125A
 **Power**vref{2}: 16W
@@ -610,25 +663,25 @@
 !-- vref{2}: DS90L+ requires 1.0A at 4.75V to 5.25V -->
 **End-comms-entry{DS90LP}
 
-**Start-comms-entry{DS90TL}{TERMSERVER}
+**Start-comms-entry{DS90TL}{TERMSERVER}{TERMSERVER}
 **Sys-name: DSRVE
 **Desc-name: DECserver 90TL Terminal Server
 **Def-lref{1} = ref{CU-1992-01-31}
-**Def-lref{1} = ref{CU-1992-03-13}
+**Def-lref{2} = ref{CU-1992-03-13}
 **Announcement**vref{1}: 1992-01-31
 **Ports**vref{1}: 8
 **Speed**vref{1}: 75 to 57.6K
 **Port-interface**vref{1}: MJ8
-**Network-interface**vref{1}: ThinWire or DEChub
+**Ethernet-connection**vref{1}: ThinWire or DEChub
 **Dimensions-start{DS90TL}
-**Height**vref{2}: 31.8mm
-**Width**vref{2}: 273.1mm
-**Depth**vref{2}: 140.0mm
-**Weight**vref{2}: 0.77kg
+! TODO verify **Height**vref{2}: 31.8mm
+! TODO verify **Width**vref{2}: 273.1mm
+! TODO verify **Depth**vref{2}: 140.0mm
+! TODO verify **Weight**vref{2}: 0.77kg
 **Dimensions-end{DS90TL}
-**End-comms-entry{DS90TL}{TERMSERVER}
+**End-comms-entry{DS90TL}
 
-**Start-comms-entry{DS900GM}{TERMSERVER}
+**Start-comms-entry{DS900GM}{TERMSERVER}{TERMSERVER}
 **Sys-name: DSRVY
 **Desc-name: DECserver 900GM Terminal Server
 **Def-lref{1} = ref{CU-1995-02-15}
@@ -639,7 +692,7 @@
 **Maximum-Memory**vref{1}: 8 MB
 **End-comms-entry{DS900GM}
 
-**Start-comms-entry{DS900TM}{TERMSERVER}
+**Start-comms-entry{DS900TM}{TERMSERVER}{TERMSERVER}
 **Sys-name: DSRVZ
 **Desc-name: DECserver 900TM Terminal Server
 **Def-lref{1} = ref{CU-1993-08-30}
@@ -649,21 +702,12 @@
 **Maximum-Memory**vref{1}: 8 MB
 **Ports**vref{1}: 32
 **Speed**vref{1}:  up to 115.2 kbps
-**Network-interface**vref{1}: DEChub ONE or DEChub 900
-**End-comms-entry{DS90M}
+**Ethernet-connection**vref{1}: DEChub ONE or DEChub 900
+**End-comms-entry{DS900TM}
 
-**Start-comms-entry{DSYT1}{SYNCH}
-**Sys-name: DSYT1
-**Desc-name: DEC WANcontroller 720
-**Def-lref{1} = ref{CU-1992-06-05}
-**Def-lref{2} = ref{CU-1994-01-03}
-! **Announcement**vref{2}: 1994-01-03 for the DSYT1-BA variant that adds AXP support
-**Bus**vref{1}: TURBOchannel
-**Synch-ports**vref{1}: {2 @ 64kB/s} {1 @ 1.544Mb/s}
-**End-comms-entry{DSYT1}
-
-**Start-comms-entry{LB100}{BRIDGE}
-**Sys-name: LAN Bridge 100 Ethernet Bridge
+**Start-comms-entry{LB100}{BRIDGE}{BRIDGE}
+**Sys-name: DEBET
+**Desc-name: LAN Bridge 100 Ethernet Bridge
 **Def-lref{1} = ref{EK-DEBET-TM-003}
 **Def-lref{2} = ref{EK-LB150-IN-002}
 **CPU**vref{1}: Motorola 68000
@@ -739,11 +783,12 @@
 !	6	not used			not used
 **End-comms-entry{LB100}
 
-**Start-comms-entry{LB150}{BRIDGE}
-**Sys-name: LAN Bridge 150 Ethernet Bridge
+**Start-comms-entry{LB150}{BRIDGE}{BRIDGE}
+**Sys-name: LB150
+**Desc-name: LAN Bridge 150 Ethernet Bridge
 **Def-lref{1} = ref{EK-DEBET-TM-003}
 **Def-lref{2} = ref{EK-LB150-IN-002}
-**def-lref{3} = ref{EC-I0391-42}
+**Def-lref{3} = ref{EC-I0391-42}
 **Port-A**htref{2}: {AUI}{SMA}
 **Port-B**htref{2}: AUI
 **Power-start{LB150-120V}
@@ -777,38 +822,42 @@
 **End-comms-entry{LB150}
 
 
-**Start-comms-entry{DF124-CA}{MODEM}
+**Start-comms-entry{DF124-CA}{MODEM}{MODEM}
 **Def-lref{1} = ref{CU-1991-09-06}
 ! ref{CU-1991-09-06} also mentions the DF124-CM
-**Sys-name: DF124-CA SCHOLAR PLUS Modem
-**Last-order-date**vref{1}: 1991-06-29
+**Sys-name: DF124-CA
+**Desc-name: DF124-CA SCHOLAR PLUS Modem
+**Last-order**vref{1}: 1991-06-29
 **End-comms-entry{DF124-CA}
 
 
-**Start-comms-entry{DF129-AA}{MODEM}
+**Start-comms-entry{DF129-AA}{MODEM}{MODEM}
+**Sys-name: DF129-AA
+**Desc-name: DF129-AA Modem
 **Def-lref{1} = ref{CU-1991-09-06}
 ! ref{CU-1991-09-06} also mentions the DF129-AM
 ! from [1]:
 ! The DF129 modems operate at 9600 bits per second. They provide synchronous, 
 ! full-duplex, point-to-point communications over unconditioned, 4-wire, 
 ! voice-grade leased lines.
-
-**Sys-name: DF129-AA Modem
-**Last-order-date**vref{1}: 1991-09-28
-**Speed**vref{1}: 9600 bps
+! TODO **Last-order**vref{1}: 1991-09-28
+! TODO **Speed**vref{1}: 9600 bps
 **End-comms-entry{DF129-AA}
 
-**Start-comms-entry{DF224-AA}{MODEM}
+**Start-comms-entry{DF224-AA}{MODEM}{MODEM}
+**Sys-name: DF224-AA
+**Desc-name: DF224-AA Scholar Modem
 **Def-lref{1} = ref{CU-1991-09-06}
 ! from [1]
 ! The DF224-AA Scholar modem is a full-duplex modem operating at 2400 bits per 
 ! second in either synchronous or asynchronous mode over dial-up lines. 
-**Sys-name: DF224-AA Scholar Modem
-**Last-order-date**vref{1}: 1991-09-28
+**Last-order**vref{1}: 1991-09-28
 **Speed**vref{1}: 2400 bps
 **End-comms-entry{DF224-AA}
 
-**Start-comms-entry{DF242-CA}{MODEM}
+**Start-comms-entry{DF242-CA}{MODEM}{MODEM}
+**Sys-name: DF242-AA
+**Desc-name: DF242-CA Scholar Plus  Modem
 **Def-lref{1} = ref{CU-1991-09-06}
 **Def-lref{2} = ref{CU-1991-09-27}
 ! [1] mentions this as a replacement for the DF224-AA
@@ -819,14 +868,14 @@
 ! second over dial-up lines. The DF242-CA product is compatible with the 
 ! industry-accepted "AT" command language and meets CCITT V.22bis, CCITT V.22, 
 !Bell 212A, and Bell 103 compatibility recommendations.
-**Sys-name: DF242-CA Scholar Plus  Modem
 **Speed**vref{2}: 2400 bps
 **End-comms-entry{DF242-CA}
 
-**Start-comms-entry{DF296-DA}{MODEM}
+**Start-comms-entry{DF296-DA}{MODEM}{MODEM}
+**Sys-name: DECmodem V32
+**Desc-name: DECmodem V32
 **Def-lref{1} = ref{CU-1991-09-27}
 **Def-lref{2} = ref{AA-ME85D-TE}
-**Sys-name: DECmodem V32
 **OS-support-ULTRIX**vref{2}: V4.0
 ![1]:
 !The DECmodem V32 product is a 9600 bit per second high-speed modem that is 
@@ -838,4 +887,54 @@
 **Speed**vref{1}: 9600bps
 **End-comms-entry{DF296-DA}
 
-
+**Start-comms-entry{DSRZA}{TERMSERVER}{TERMSERVER}
+**Sys-name: DSRZA
+**Desc-name: MUXserver 100
+**Def-lref{1} = ref{ED-32596-42}
+**document=doc{DEC:EK-DSRZA-RM-002}                   ! MUXserver 100 Network Reference Manual
+**Ports**vref{1}: 16 channels
+**Dimensions-start{MUX100}
+**Height**vref{1}: 95.2 mm
+**Width**vref{1}: 457 mm
+**Depth**vref{1}: 304.8 mm
+! TODO **Weight**vref{2}: 6.8 kg
+**Dimensions-end{MUX100}
+**Power-start{MUX100-120V}
+**Label: 120V
+**Supply**vref{1}: 100 - 120V
+**Power**vref{1}: 50 W
+**Heat-dissipation**vref{1}: 393 BTU/h
+**Power-end{MUX100-120V}
+**Power-start{MUX100-240V}
+**Label: 240V
+**Supply**vref{1}: 200 - 240V
+**Power**vref{1}: 50 W
+**Heat-dissipation**vref{1}: 393 BTU/h
+**Power-end{MUX100-240V}
+**End-comms-entry{DSRZA}
+
+**Start-comms-entry{DFMZA}{TERMSERVER}{TERMSERVER}
+**Sys-name: DFMZA
+**Desc-name: DECmux II
+**Def-lref{1} = ref{ED-32596-42}
+**Ports**vref{1}: 8
+**Dimensions-start{DECMUX2}
+**Height**vref{1}: 114.3 mm
+**Width**vref{1}: 352.9 mm
+**Depth**vref{1}: 223.5 mm
+**Weight**vref{1}: 2.95 kg
+**Dimensions-end{DECMUX2}
+**Power-start{DECMUX2-120V}
+**Label: 120V
+**Supply**vref{1}: 100 - 120V
+**Power**vref{1}: 33 W
+**Heat-dissipation**vref{1}: 210 BTU/h
+**Power-end{DECMUX2-120V}
+**Power-start{DECMUX2-240V}
+**Label: 240V
+**Supply**vref{1}: 200 - 240V
+**Power**vref{1}: 33 W
+**Heat-dissipation**vref{1}: 210 BTU/h
+**Power-end{DECMUX2-240V}
+**End-comms-entry{DFMZA}
+

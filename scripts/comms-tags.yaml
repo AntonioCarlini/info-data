@@ -100,9 +100,7 @@
 - OS-support-ULTRIX:
   - OS support (ULTRIX)
   - Range of ULTRIX versions that support this system
-  - - vax
-    - decmips
-    - pdp11
+  - all
   - summary
 - OS-support-NT:
   - OS support (NT)
@@ -126,29 +124,49 @@
   - Range of System V versions that suppor this system
   - vax
   - summary
-- Module:
-  - Module
-  - The system module part number
+- Slots:
+  - Number of slots
+  - Number of slots
   - all
   - summary
+- Interfaces:
+  - Interfaces
+  - Interfaces
+  - all
+  - all
+- Backbone-interface:
+  - Backbone interface
+  - Backbone interface
+  - all
+  - all
+- Local-interface:
+  - Local interface
+  - Local interface
+  - all
+  - all
 - CPU:
   - CPU
   - The main board CPU
   - all
   - all
-- Board-size:
-  - Board size
-  - Board size
+- CPU-clock:
+  - CPU clock
+  - The main board CPU's clock
   - all
   - all
-- Bus:
-  - Bus interface to which the board connects
-  - Bus interface to which the board connects
+- Standalone-PSU:
+  - PSU
+  - PSU used for standalone operation
   - all
   - all
-- Num-Interfaces:
-  - Number of interface ports
-  - Number of interface ports
+- Dual-homing:
+  - Dual homing
+  - Dual homing
+  - all
+  - all
+- Optical-Bypass:
+  - Optiocal Bypass relay
+  - Optiocal Bypass relay
   - all
   - all
 - Ethernet-connection:
@@ -156,39 +174,54 @@
   - Ethernet connection style (AUI, BNC, RJ45)
   - all
   - all
+- Ethernet-chip:
+  - Ethernet chip
+  - Ethernet chip
+  - all
+  - all
+- Num-synch-lines:
+  - Number of synchronous lines
+  - Number of synchronous lines
+  - all
+  - all
 - Peak-throughput:
   - Peak throughput
   - Peak throughput
   - all
   - all
-- AC-bus-load:
-  - AC-bus-load
-  - AC-bus-load
+- FDDI:
+  - FDDI
+  - FDDI
   - all
   - all
-- DC-bus-load:
-  - DC-bus-load
-  - DC-bus-load
+- Ports:
+  - Interface ports
+  - Interface ports
   - all
   - all
-- Positive-5V-current:
-  - +5V current
-  - +5V current
+- Speed:
+  - Terminal interface speed
+  - Terminal interface speed
   - all
   - all
-- Positive-12V-current:
-  - +12V current
-  - +12V current
+- DEChub-form-factor:
+  - DEChub form factor
+  - DEChub form factor (DEChub 90 or DEChub 900)
   - all
   - all
-- Negative-12V-current:
-  - -12V current
-  - -12V current
+- Sessions-per-port:
+  - Session per port
+  - Number of sessions supported on one port
   - all
   - all
-- Negative-15V-current:
-  - -15V current
-  - -15V current
+- Data-bits:
+  - Serial line data bits
+  - Serial line data bits
+  - all
+  - all
+- Port-interface:
+  - Port interface
+  - Port interface
   - all
   - all
 - CPU:
@@ -196,8 +229,53 @@
   - CPU
   - all
   - all
-- Synch-ports:
-  - Synch ports
-  - Number of synchronous interface ports
+- Network-Management:
+  - Physical
+  - Physical
+  - all
+  - all
+- Port-board:
+  - Port board
+  - Port board
+  - all
+  - all
+- Port-A:
+  - Port A
+  - Port A
+  - all
+  - all
+- Port-B:
+  - Port B
+  - Port B
+  - all
+  - all
+- Memory:
+  - Memory
+  - Memory
+  - all
+  - all
+- Maximum-memory:
+  - Maximum memory
+  - Maximum memory
+  - all
+  - all
+- Minimum-memory:
+  - Minimum-memory
+  - Minimum-memory
+  - all
+  - all
+- LAT-version:
+  - LAT version
+  - LAT version
+  - all
+  - all
+- Stop-bits:
+  - Stop bits
+  - Stop bits
+  - all
+  - all
+- Flow-control:
+  - Flow control
+  - Flow control
   - all
   - all
