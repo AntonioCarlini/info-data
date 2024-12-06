@@ -747,10 +747,12 @@
 **End-printers-entry{LPS32}
 
 **Start-printers-entry{LPS40}{PRINTER}{LPS}
-**Def-lref{1} = ref{SOCEE-SPR89}
 **Sys-name: LPS40
 **Desc-name: PrintServer 40
+**Def-lref{1} = ref{SOCEE-SPR89}
+**Def-lref{2} = ref{ED-32596-42}
 **Print-speed**vref{1}: 40 pages/min
+**Colour**vref{2}: No
 **Monthly-usage**vref{1}: 30,000 - 100,000 pages
 **Input-capacity**vref{1}: 2500 sheets 
 **Fonts**vref{1}: 29 resident
