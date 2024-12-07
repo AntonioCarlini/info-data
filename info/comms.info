@@ -954,3 +954,29 @@ The DEC MicroServer (DEMSA) is the hardware platform that supports a number of s
 **DECnet-PhaseIV-Level-2-Routing-support**vref{1}: No
 **End-comms-entry{DSRVC}
 
+**Start-comms-entry{DECSA}{ROUTER}{ROUTER}
+**Sys-name: DECSA
+**Desc-name: DECSA Ethernet Communications Server
+**Def-lref{1} = ref{ED-25484-42}
+**Ethernet-connection**vref{1}: AUI
+**Dimensions-start{DECSA}
+**Label: Tabletop
+**Height**vref{1}: 419 mm
+**Width **vref{1}: 648 mm
+**Depth **vref{1}: 559 mm
+**Weight**vref{1}: 39.9 kg
+**Dimensions-end{DECSA}
+**Options-start{DECSA}
+**Option-title: Line cards
+**Option**vref{1}: {boards:DCSAX-LC}{DCSAX-LC 2-line Asynchronous Line Card for DECSA Terminal Server Function}
+**Option**vref{1}: {boards:DCSAX-LA}{DCSAX-LA Line Card for DECSA DECnet Router Server & X.25 Function}
+**Option**vref{1}: {boards:DCSAX-LB}{DCSAX-LB Line Card for DECSA DECnet Router Server & X.25 Function}
+**Options-end{DECSA}
+**Text-start
+The DECSA consists of a PDP-11/24, a DEUNA, a bootstrap and 512KB of memory in one chassis.
+To this are added one or more Protocol Assist Modules (PAM) and the required line cards and software.
+It may perform any one of thse functions: Terminal Server, DECnet Router Server, DECnet Router/X.25 Gateway or DECnet/SNA Gateway.
+However, it may only perform one of these functions at any given time and changing the function requires that new software be downline loaded and that line cards be changed.
+**Text-end
+**End-comms-entry{DECSA}
+
