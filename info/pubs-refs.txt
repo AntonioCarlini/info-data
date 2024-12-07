@@ -66298,6 +66298,7 @@ start-publication DEC:EK-DZ11X-TM-001
 end-publication DEC:EK-DZ11X-TM-001
 
 start-publication DEC:EK-DZQ11-TM-001
+  title = DZQ11 Asynchronous Multiplexer Technical Manual
   part-no = EK-DZQ11-TM-001
   publisher = DEC
   fonds = fiche://EP-DZQ11-TM-001
@@ -67610,6 +67611,7 @@ start-publication DEC:EK-KMV11-TM-001
 end-publication DEC:EK-KMV11-TM-001
 
 start-publication DEC:EK-KMV1A-TM-002
+  title = KMV1A Programmable Communications Controller Technical Manual
   part-no = EK-KMV1A-TM-002
   publisher = DEC
   fonds = fiche://EP-KMV1A-TM-002

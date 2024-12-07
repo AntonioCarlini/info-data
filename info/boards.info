@@ -364,3 +364,44 @@ It has DHU11 and DHV11 programming modes, with the DHU11 mode being preferred.
 **Positive-12V-current**vref{1}: 0.430 A
 **End-boards-entry{DSV11}
 
+**Start-boards-entry{DZQ11}{QBUS}{QBUS}
+**Sys-name: DZQ11
+**Desc-name: DZQ11 Asynchronous Multiplexer
+**Def-lref{1} = ref{EK-DZQ11-UG-002}
+**document=doc{DEC:EK-DZQ11-IN-001}                   ! DZQ11-SF 4-Line Asynchronous Multiplexer Option Installation Guide
+**document=doc{DEC:EK-DZQ11-MC-002}                   ! DZQ11 Maintenance Card
+**document=doc{DEC:EK-DZQ11-TM-001}                   ! 
+**document=doc{DEC:EK-DZQ11-UG-001}                   ! DZQ11 Asynchronous Multiplexer User's Guide
+**Modem-control**vref{1}: Full
+**Board-size**vref{1}: Dual
+**Module**vref{1}: M3106
+**Asynch-ports**vref{1}: 4
+**Serial-speed**vref{1}: 50 - 9600
+**AC-bus-load**vref{1}: 1.5
+**DC-bus-load**vref{1}: 1.0
+**Positive-5V-current**vref{1}: 1.100 A
+**Positive-12V-current**vref{1}: 0.236 A
+**End-boards-entry{DZQ11}
+
+**Start-boards-entry{KMV1A}{QBUS}{QBUS}
+**Sys-name: KMV1A
+**Desc-name: KMV1A Programmable Communications Controller
+**Def-lref{1} = ref{EK-KMV1A-UG-002}
+**Def-lref{2} = ref{ED-32596-42}
+**document=doc{DEC:EK-KMV1A-IG-001}                   ! KMV1A-S Communications Controller for the BA200-Series Enclosure
+**document=doc{DEC:EK-KMV1A-TM-002}                   ! 
+**document=doc{DEC:EK-KMV1A-UG-002}                   ! KMV1A Programmable Communications Controller User Guide
+**document=doc{DEC:KMV1A RN}                          ! KMV1A-S Release Note
+**Modem-control**vref{1}: Full
+**Board-size**vref{1}: Quad
+**Module**vref{1}: M7500
+**CPU**vref{1}: DCT11
+**Bus**vref{1}: Qbus
+**Synch-ports**vref{2}: 1
+**Serial-speed**vref{1}: 64Kb/s max
+**AC-bus-load**vref{2}: 3
+**DC-bus-load**vref{2}: 1
+**Positive-5V-current**vref{1}: 2.6 A
+**Positive-12V-current**vref{1}: 0.6 A
+**End-boards-entry{KMV1A}
+

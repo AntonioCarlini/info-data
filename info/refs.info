@@ -2327,11 +2327,15 @@
 **Start-ref{EK-KMV1A-UG-002}
 **Ref-text: KMV1A Programmable Communications Controller User Guide
 **Ref-partno: EK-KMV1A-UG-002
+**Ref-date: 1986-10
+**Ref-url: https://manx-docs.org/collections/hcps/kmv1aug2.pdf
 **End-ref{EK-KMV1A-UG-002}
 
 **Start-ref{EK-KMV1A-IG-001}
 **Ref-text: KMV1A-S Communications Controller For The BA200-Series Enclosure Installation Guide
 **Ref-partno: EK-KMV1A-IG-001
+**Ref-date: 1987
+**Ref-url: https://manx-docs.org/collections/antonio/dec/kmv1aig1.pdf
 **End-ref{EK-KMV1A-IG-001}
 
 **Start-ref{EK-KDA5Q-UG-004}
@@ -3678,12 +3682,29 @@
 **Start-ref{EK-DZQ11-UG-001}
 **Ref-text: DZQ11 Asynchronous Multiplexer User's Guide
 **Ref-partno: EK-DZQ11-UG-001
+**Ref-date: 1984-08
+**Ref-url: https://manx-docs.org/collections/hcps/dzq11ug1.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DZQ11-UG-001}
+
+**Start-ref{EK-DZQ11-UG-002}
+**Ref-text: DZQ11 Asynchronous Multiplexer User's Guide
+**Ref-partno: EK-DZQ11-UG-002
+**Ref-date: 1987-08
+**Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/EK-DZQ11-UG-002%20DZQ11%20Asynchronous%20Multiplexer%20User's%20Guide.pdf
+**End-ref{EK-DZQ11-UG-002}
+
+**Start-ref{EK-DHQ11-TM-001}
+**Ref-text: DHQ11 Technical Manual
+**Ref-partno: EK-DHQ11-TM-001
+**Ref-date: 1984-10
+**Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/EK-DZQ11-TM-001%20DZQ11%20Asynchronous%20Multiplexer%20Technical%20Manual.pdf
+**End-ref{EK-DHQ11-TM-001}
 
 **Start-ref{EK-DHQ11-TM-002}
 **Ref-text: DHQ11 Technical Manual
 **Ref-partno: EK-DHQ11-TM-002
+**Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/EK-DZQ11-TM-001%20DZQ11%20Asynchronous%20Multiplexer%20Technical%20Manual.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DHQ11-TM-002}
 
