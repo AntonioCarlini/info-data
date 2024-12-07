@@ -2283,14 +2283,25 @@
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/qbus/EK-DELQA-UG-002.pdf
 **End-ref{EK-DELQA-UG-002}
 
+**Start-ref{EK-DPV11-UG-001}
+**Ref-text: DPV11 serial synchronous interface user guide
+**Ref-partno: EK-DPV11-UG-001
+**Ref-date: 1980-08
+**Ref-url: http://bitsavers.org/pdf/dec/qbus/EK-DPV11-UM-001_Aug80.pdf
+**End-ref{EK-DPV11-UG-001}
+
 **Start-ref{EK-DPV11-TM-002}
 **Ref-text: DPV11 serial synchronous interface technical manual
 **Ref-partno: EK-DPV11-TM-002
+**Ref-date: 1980-11
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/qbus/EK-DPV11-TM-002_Nov80.pdf
 **End-ref{EK-DPV11-TM-002}
 
 **Start-ref{EK-DSV11-TM-001}
 **Ref-text: DSV11 Technical Manual
 **Ref-partno: EK-DSV11-TM-001
+**Ref-date: 1987-01
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/qbus/EK-DSV11-TM-001_Jan87.pdf
 **End-ref{EK-DSV11-TM-001}
 
 **Start-ref{EK-KMSBE-UG-001}
@@ -3676,9 +3687,18 @@
 **Ref-hardcopy: Yes
 **End-ref{EK-DHQ11-TM-002}
 
+**Start-ref{EK-DHQ11-UG-002}
+**Ref-text: DHQ11 User Guide
+**Ref-partno: EK-DHQ11-UG-002
+**Ref-date: 1987-07
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/qbus/EK-DHQ11-UG-002.pdf
+**End-ref{EK-DHQ11-UG-002}
+
 **Start-ref{EK-DMV11-UG-001}
 **Ref-text: DMV11 Synchronous Controller User's Guide
 **Ref-partno: EK-DMV11-UG-001
+**Ref-date: 1981-09
+**Ref-url: https://manx-docs.org/collections/hcps/dmv11ug1.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DMV11-UG-001}
 

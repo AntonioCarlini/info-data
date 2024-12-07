@@ -253,3 +253,114 @@ Each port connects to a H3132 active terminal concentrator.
 **Text-end
 **End-boards-entry{DHF11}
 
+**Start-boards-entry{DHQ11}{QBUS}{QBUS}
+**Sys-name: DHQ11
+**Desc-name: DHQ11 Asynchronous Multiplexer
+**Def-lref{1} = ref{EK-DHQ11-UG-002}
+**document=doc{DEC:EK-DHQ11-TM-002}                   ! DHQ11 Technical Manual
+**document=doc{DEC:EK-DHQ11-UG-002}                   ! DHQ11 User Guide
+**document=doc{DEC:EK-DHQMA-TM-CN1}                   ! QMA DH11 Asynchronous 16-Line Multiplexer Technical Manual
+**document=doc{DEC:MP02380}                           ! DHQ11 Field Maintenance Print Set
+**Modem-control**vref{1}: Full
+**Board-size**vref{1}: Dual
+**Module**vref{1}: M3107
+**Serial-speed**vref{1}: 50 - 38400
+**Asynch-ports**vref{1}: 8
+**AC-bus-load**vref{1}: 3.2
+**DC-bus-load**vref{1}: 0.5
+**Positive-5V-current**vref{1}: 2.2 A
+**Positive-12V-current**vref{1}: 0.3 A
+**Text-start
+The DHQ11 is a Q-bus interface board that provides 8 full-duplex serial lines.
+It has DHU11 and DHV11 programming modes, with the DHU11 mode being preferred.
+**Text-end
+**End-boards-entry{DHQ11}
+
+**Start-boards-entry{DLVJ1}{QBUS}{QBUS}
+**Sys-name: DLVJ1
+**Desc-name: DLVJ1 Asynchronous Communications Controller
+**Def-lref{1} = ref{ED-32596-42}
+**Modem-control**vref{1}: Limited
+**Board-size**vref{1}: Dual
+**Serial-speed**vref{1}: 150 - 38400
+**Asynch-ports**vref{1}: 4
+**AC-bus-load**vref{1}: 1
+**DC-bus-load**vref{1}: 1
+**Positive-5V-current**vref{1}: 1.0 A
+**Positive-12V-current**vref{1}: 0.15 A
+**End-boards-entry{DLVJ1}
+
+**Start-boards-entry{DMV11-AA/AB}{QBUS}{QBUS}
+**Sys-name: DMV11-AA/AB
+**Desc-name: DMV11 Synchronous Controller
+**Def-lref{1} = ref{EK-DMV11-UG-001}
+**Def-lref{2} = ref{ED-32596-42}
+**document=doc{DEC:EK-DMV11-TM-001}                   ! DMV11 Synchronous Controller Technical Manual
+**document=doc{DEC:EK-DMV11-UG-001}                   ! DMV11 Synchronous Controller User's Guide
+**Board-size**vref{1}: Quad
+**Module**vref{1}: M8053-MA
+! vref{1}: serial interface is RS-232-C/RS-423-A for -AA, CCITT V.35 for -AB
+**Asynch-ports**vref{1}: 1
+**Serial-speed**vref{1}: 56Kb/s max
+**AC-bus-load**vref{2}: 2
+**DC-bus-load**vref{2}: 1
+**Positive-5V-current**vref{1}: 3.4 A
+**Positive-12V-current**vref{1}: 0.380 A
+**End-boards-entry{DMV11-AA/AB}
+
+**Start-boards-entry{DMV11-AC}{QBUS}{QBUS}
+**Sys-name: DMV11
+**Desc-name: DMV11 Synchronous Controller
+**Def-lref{1} = ref{EK-DMV11-UG-001}
+**Def-lref{2} = ref{ED-32596-42}
+**document=doc{DEC:EK-DMV11-TM-001}                   ! DMV11 Synchronous Controller Technical Manual
+**document=doc{DEC:EK-DMV11-UG-001}                   ! DMV11 Synchronous Controller User's Guide
+**Board-size**vref{1}: Quad
+**Module**vref{1}: M8054-MA
+! vref{1}: serial interface is integral modem
+**Asynch-ports**vref{1}: 1
+**Serial-speed**vref{1}: 56Kb/s
+**AC-bus-load**vref{2}: 2
+**DC-bus-load**vref{2}: 1
+**Positive-5V-current**vref{1}: 3.35 A
+**Positive-12V-current**vref{1}: 0.260 A
+**End-boards-entry{DMV11-AC}
+
+**Start-boards-entry{DPV11}{QBUS}{QBUS}
+**Sys-name: DPV11
+**Desc-name: DPV11 Serial Synchronous Interface
+**Def-lref{1} = ref{EK-DPV11-UG-001}
+**document=doc{DEC:EK-DPV11-TM-001}                   ! DPV11 Serial Synchronous Interface Technical Manual
+**document=doc{DEC:EK-DPV11-TM-002}                   ! DPV11 Serial Synchronous Interface Technical Manual
+**document=doc{DEC:EK-DPV11-UG-001}                   ! DPV11 serial synchronous interface user guide
+**document=doc{DEC:MP00992}                           ! DPV11 Field Maintenance Print Set
+**Board-size**vref{1}: Dual
+**Module**vref{1}: M8020
+**Synch-ports**vref{1}: 1
+**Serial-speed**vref{1}: 56Kb/s max
+**AC-bus-load**vref{1}: 1
+**DC-bus-load**vref{1}: 1
+**Positive-5V-current**vref{1}: 1.2 A
+**Positive-12V-current**vref{1}: 0.30 A
+**End-boards-entry{DPV11}
+
+**Start-boards-entry{DSV11}{QBUS}{QBUS}
+**Sys-name: DSV11
+**Desc-name: DSV11 Dual Synchronous Interface
+**Def-lref{1} = ref{EK-DSV11-TM-001}
+**document=doc{DEC:EK-DSV11-IN-001}                   ! 
+**document=doc{DEC:EK-DSV11-TM-001}                   ! DSV11 Technical Manual
+**document=doc{DEC:EK-DSV1M-IN-001}                   ! 
+**document=doc{DEC:M3108-0-0}                         ! DSV11 Print Set
+**Bus**vref{1}: Q22-bus
+**Board-size**vref{1}: Quad
+**Module**vref{1}: M3108
+**CPU**vref{1}: Motorola 68000
+**Synch-ports**vref{1}: 2
+**Serial-speed**vref{1}: 600 - 128,000
+**AC-bus-load**vref{1}: 3.3
+**DC-bus-load**vref{1}: 1.0
+**Positive-5V-current**vref{1}: 4.0 A
+**Positive-12V-current**vref{1}: 0.430 A
+**End-boards-entry{DSV11}
+

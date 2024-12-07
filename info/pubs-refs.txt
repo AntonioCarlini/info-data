@@ -66138,12 +66138,14 @@ start-publication DEC:EK-DSRVA-TM-001
 end-publication DEC:EK-DSRVA-TM-001
 
 start-publication DEC:EK-DSV11-IN-001
+  title = DSV11-SF Communications Option Installation Guide
   part-no = EK-DSV11-IN-001
   publisher = DEC
   fonds = fiche://EP-DSV11-IN-001
 end-publication DEC:EK-DSV11-IN-001
 
 start-publication DEC:EK-DSV1M-IN-001
+  title = DSV11 Communications Option Installation Guide
   part-no = EK-DSV1M-IN-001
   publisher = DEC
   fonds = fiche://EP-DSV1M-IN-001

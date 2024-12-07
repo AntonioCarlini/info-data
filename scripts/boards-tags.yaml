@@ -216,3 +216,10 @@
   - Flow control
   - all
   - all
+- Serial-speed:
+  - Serial interface speed
+  - Serial interface speed, min to max
+  - all
+  - all
+
+  
