@@ -211,3 +211,8 @@
   - Number of printer ports
   - all
   - all
+- Modem-control:
+  - Flow control
+  - Flow control
+  - all
+  - all

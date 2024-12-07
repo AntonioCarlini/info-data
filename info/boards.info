@@ -189,3 +189,67 @@ The DELUA is a follow on to the DEUNA, offering all the same functions but at hi
 **Negative-12V-current**vref{1}: 0.42 A
 **End-boards-entry{DHB32}
 
+**Start-boards-entry{CXY08}{QBUS}{QBUS}
+**Sys-name: CXY08
+**Desc-name: CXY08 Asynchronous Multiplexer
+**Def-lref{1} = ref{ED-32596-42}
+**Def-lref{2} = ref{EK-CXY08-IN-001}
+**Modem-control**vref{1}: Full
+**Board-size**vref{1}: Quad
+**Asynch-ports**vref{1,2}: 8
+**Bus**vref{2}: Q22-bus
+**AC-bus-load**vref{1}: 3.0
+**DC-bus-load**vref{1}: 1.5
+**Positive-5V-current**vref{1}: 1.5 A
+**Positive-12V-current**vref{1}: 0.22 A
+**End-boards-entry{CXY08}
+
+**Start-boards-entry{CXA16}{QBUS}{QBUS}
+**Sys-name: CXA16
+**Desc-name: CXA16 Asynchronous Multiplexer
+**Def-lref{1} = ref{ED-32596-42}
+**document=doc{DEC:EK-CAB16-TM-002}                   ! CXA16/CXB16 Technical Manual
+**document=doc{DEC:EK-CAB16-UG-002}                   ! CXA16/CXB16 User Guide
+**Modem-control**vref{1}: No
+**Board-size**vref{1}: Quad
+**Asynch-ports**vref{1}: 16
+**AC-bus-load**vref{1}: 3.0
+**DC-bus-load**vref{1}: 1.5
+**Positive-5V-current**vref{1}: 1.4 A
+**Positive-12V-current**vref{1}: 0.11 A
+**End-boards-entry{CXA16}
+
+**Start-boards-entry{CXB16}{QBUS}{QBUS}
+**Sys-name: CXB16
+**Desc-name: CXB16 Asynchronous Multiplexer
+**Def-lref{1} = ref{ED-32596-42}
+**document=doc{DEC:EK-CAB16-TM-002}                   ! CXA16/CXB16 Technical Manual
+**document=doc{DEC:EK-CAB16-UG-002}                   ! CXA16/CXB16 User Guide
+**Modem-control**vref{1}: No
+**Board-size**vref{1}: Quad
+**Asynch-ports**vref{1}: 16
+**AC-bus-load**vref{1}: 3.0
+**DC-bus-load**vref{1}: 1.5
+**Positive-5V-current**vref{1}: 1.5A
+**Positive-12V-current**vref{1}: 0.22A
+**End-boards-entry{CXB16}
+
+**Start-boards-entry{DHF11}{QBUS}{QBUS}
+**Sys-name: DHF11
+**Desc-name: DHF11 Fiber optic Terminal Interface
+**Def-lref{1} = ref{ED-32596-42}
+**Modem-control**vref{1}: No
+**Board-size**vref{1}: Quad
+**Asynch-ports**vref{1}: 32
+**AC-bus-load**vref{1}: 3.7
+**DC-bus-load**vref{1}: 1.5
+**Positive-5V-current**vref{1}: 5 A
+**Positive-12V-current**vref{1}: 0 A
+**Negative-12V-current**vref{1}: 0 A
+**Text-start
+The DHF11 is a fiber optic terminal interface that multiplexes 16 data lines onto one fiber optic cable via a port;
+two ports may be connected to one DHF11, allowing up to 32 terminals to be attached in total.
+Each port connects to a H3132 active terminal concentrator.
+**Text-end
+**End-boards-entry{DHF11}
+
