@@ -12,14 +12,16 @@ class Tag
   attr_accessor :display_text
   attr_accessor :explanatory_text
   attr_accessor :name
-  attr_accessor :required
+  attr_accessor :always_display
+  attr_accessor :validate
+  attr_accessor :validation_method
 
   # name - name of this tag
   # array[0] - display text
   # array[1] - explanatory text
   # array[2] - applicable area (vax, alpha, systems, all)
   # array[3] - category (summary, io)
-  # array[4] - required
+  # array[4] - always_display
   def initialize(name, properties)
     @name = name
     @display_text =
@@ -40,9 +42,15 @@ class Tag
       else
         nil
       end
-    @required = 
+    @always_display = 
       if properties.size() >= 5
         properties[4] =~/required/i
+      else
+        false
+      end
+    @validate = 
+      if properties.size() >= 6
+        true
       else
         false
       end

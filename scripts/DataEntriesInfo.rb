@@ -47,8 +47,9 @@ class InfoFileHandlerOuter
 
   attr_accessor     :fatal_error_seen
 
-  def initialize(permitted_tags, info_filename, expected_entry_type, refs, pubs, devices)
-    @permitted_tags = permitted_tags
+  def initialize(tags, info_filename, expected_entry_type, refs, pubs, devices)
+    @tags = tags
+    @permitted_tags = @tags.tags()
     @permitted_tags_uc = @permitted_tags.map(&:upcase)
     @info_filename = info_filename
     @expected_entry_type = expected_entry_type
