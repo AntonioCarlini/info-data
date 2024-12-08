@@ -488,3 +488,31 @@ It has DHU11 and DHV11 programming modes, with the DHU11 mode being preferred.
 **Negative-15V-current**vref{1}: 0.2 A (M8203)
 **End-boards-entry{DMR11}
 
+**Start-boards-entry{DMZ32}{UNIBUS}{UNIBUS}
+**Sys-name: DMZ32
+**Desc-name: DMZ32 Asynchronous Multiplexer
+**Def-lref{1} = ref{ED-32596-42}
+**Bus**vref{1}: UNIBUS
+**Board-size**vref{1}: Hex
+**Asynch-ports**vref{1}: 24
+**Serial-speed**vref{1}: up to 19200
+**AC-bus-load**vref{1}: 6.0
+**DC-bus-load**vref{1}: 1.5
+**Positive-5V-current**vref{1}: 9.0 A
+**Positive-15V-current**vref{1}: 0.1 A
+**End-boards-entry{DMZ32}
+
+**Start-boards-entry{DUP11}{UNIBUS}{UNIBUS}
+**Sys-name: DUP11
+**Desc-name: DUP11 Bit Synchronous Interface
+**Def-lref{1} = ref{EK-DUP11-OP-002}
+**Def-lref{2} = ref{ED-32596-42}
+**Bus**vref{1}: UNIBUS
+**Board-size**vref{1,2}: Hex
+**Module**vref{1}: M7867
+**Synch-ports**vref{1}: 1
+**AC-bus-load**vref{2}: 4.5
+**DC-bus-load**vref{2}: 1
+**Positive-5V-current**vref{2}: 6.0 A
+**End-boards-entry{DUP11}
+
