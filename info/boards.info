@@ -405,3 +405,86 @@ It has DHU11 and DHV11 programming modes, with the DHU11 mode being preferred.
 **Positive-12V-current**vref{1}: 0.6 A
 **End-boards-entry{KMV1A}
 
+**Start-boards-entry{DHT32}{UV2K}{UV2K}
+**Sys-name: DHT32
+**Desc-name: DHT32 MicroVAX 2000 Asynchronous Controller
+**Def-lref{1} = ref{ED-32596-42}
+**Modem-control**vref{1}: None
+**Bus**vref{1}: MicroVAX 2000
+**Asynch-ports**vref{1}: 8
+**Positive-5V-current**vref{1}: 1.50 A
+**Positive-12V-current**vref{1}: 0.70 A
+**Negative-12V-current**vref{1}: 0.12 A
+**End-boards-entry{DHT32}
+
+**Start-boards-entry{DST32}{UV2K}{UV2K}
+**Sys-name: DST32
+**Desc-name: DST32 MicroVAX 2000 Synchronous Controller
+**Def-lref{1} = ref{ED-32596-42}
+**Bus**vref{1}: MicroVAX 2000
+**Synch-ports**vref{1}: 1
+**Serial-speed**vref{1}: 19.2Kb/s max
+**Positive-5V-current**vref{1}: 2.0 A
+**Positive-12V-current**vref{1}: 0.07 A
+**Negative-12V-current**vref{1}: 0.115 A
+**End-boards-entry{DST32}
+
+**Start-boards-entry{DHU11}{UNIBUS}{UNIBUS}
+**Sys-name: DHU11
+**Desc-name: DHU11 Asynchronous Multiplexer
+**Def-lref{1} = ref{EK-DHU11-UG-001}
+**document=doc{DEC:EK-DHU11-TM-001}                   ! DHU11 Interface Technical Manual
+**document=doc{DEC:EK-DHU11-TM-002}                   ! DHU11 Interface Technical Manual
+**document=doc{DEC:EK-DHU11-UG-001}                   ! DHU11 Interface User's Guide
+**Modem-control**vref{1}: Full
+**CPU**vref{1}: 8051 (2 off)
+**Bus**vref{1}: UNIBUS
+**Board-size**vref{1}: Hex
+**Module**vref{1}: M3105
+**Asynch-ports**vref{1}: 16
+**Serial-speed**vref{1}: 50 - 38400
+**AC-bus-load**vref{1}: 2.5
+**DC-bus-load**vref{1}: 1.0
+**Positive-5V-current**vref{1}: 6 A
+**Positive-15V-current**vref{1}: 0.400 A
+**Negative-15V-current**vref{1}: 0.400 S
+**End-boards-entry{DHU11}
+
+**Start-boards-entry{DMF32}{UNIBUS}{UNIBUS}
+**Sys-name: DMF32
+**Desc-name: DMF32 Multifunction Communications Controller
+**Def-lref{1} = ref{EK-DMF32-UG-003}
+**document=doc{DEC:EK-DMF32-UG-002}                   ! DMF32 User's Guide
+**document=doc{DEC:EK-DMF32-UG-003}                   ! DMF32 User's Guide
+**document=doc{DEC:EK-DMFV2-TD-01A}                   ! DMF32 Multi-Function Communications Interface Tech Description Volume 2
+**document=doc{DEC:MP00965}                           ! DMF32 Field Maintenance Print Set
+**Modem-control**vref{1}: Full on lines 0 and 1
+**Bus**vref{1}: UNIBUS
+**Board-size**vref{1}: Hex
+**Module**vref{1}: M8396
+**Asynch-ports**vref{1}: 8
+**Synch-ports**vref{1}: 1
+**Printer-ports**vref{1}: 1
+**Serial-speed**vref{1}: 50 - 19200 (asynch)
+**AC-bus-load**vref{1}: 6
+**DC-bus-load**vref{1}: 1
+**Positive-5V-current**vref{1}: 8.0 A
+**Positive-15V-current**vref{1}: 0.5 A
+**Negative-15V-current**vref{1}: 0.5 A
+**End-boards-entry{DMF32}
+
+**Start-boards-entry{DMR11}{UNIBUS}{UNIBUS}
+**Sys-name: DMR11
+**Desc-name: DMR11 Synchronous Controller
+**Def-lref{1} = ref{EK-DMR11-UG-002}
+**Bus**vref{1}: UNIBUS
+**Module**vref{1}: M8207, M8203
+**Synch-ports**vref{1}: 1
+**Serial-speed**vref{1}: 1 Mb/s max
+**AC-bus-load**vref{1}: 5 (M8207)
+**DC-bus-load**vref{1}: 1 (M8207)
+**Positive-5V-current**vref{1}: 5.0 A (M8207-RA), 3.0 A (M8203)
+**Positive-15V-current**vref{1}: 0.11 A (M8203)
+**Negative-15V-current**vref{1}: 0.2 A (M8203)
+**End-boards-entry{DMR11}
+

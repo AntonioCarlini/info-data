@@ -3543,6 +3543,13 @@
 **Ref-hardcopy: Yes
 **End-ref{EK-DMF32-UG-002}
 
+**Start-ref{EK-DMF32-UG-003}
+**Ref-text: DMF32 User's Guide
+**Ref-partno: EK-DMF32-UG-003
+**Ref-date: 1984-12
+**Ref-url: https://manx-docs.org/collections/antonio/dec/dmf32ug3.pdf
+**End-ref{EK-DMF32-UG-003}
+
 **Start-ref{EK-DUP11-OP-002}
 **Ref-text: DUP11 Bit Synchronous Interface User's Manual
 **Ref-partno: EK-DUP11-OP-002
@@ -3552,6 +3559,8 @@
 **Start-ref{EK-DMR11-UG-002}
 **Ref-text: DMR11 synchronous controller user's guide
 **Ref-partno: EK-DMR11-UG-002
+**Ref-date: 1980-12
+**Ref-url: https://manx-docs.org/collections/hcps/dmr11ug2.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DMR11-UG-002}
 
@@ -3754,6 +3763,8 @@
 **Start-ref{EK-DHU11-UG-001}
 **Ref-text: DHU11 Interface User's Guide
 **Ref-partno: EK-DHU11-UG-001
+**Ref-date: 1984-06
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/unibus/EK-DHU11-UG-001.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DHU11-UG-001}
 

@@ -186,6 +186,11 @@
   - -12V current
   - all
   - all
+- Positive-15V-current:
+  - +15V current
+  - +15V current
+  - all
+  - all
 - Negative-15V-current:
   - -15V current
   - -15V current
