@@ -2312,6 +2312,8 @@
 **Start-ref{EK-KMS1P-TM-002}
 **Ref-text: KMS11-P Synchronous Communication Processor Technical Manual
 **Ref-partno: EK-KMS1P-TM-002
+**Ref-date: 1984-01
+**Ref-url: https://manx-docs.org/collections/antonio/dec/kms1ptm2.pdf
 **End-ref{EK-KMS1P-TM-002}
 
 **Start-ref{EK-KMV11-UG-001}
@@ -4284,6 +4286,14 @@
 **Ref-partno: EK-KMS11-PS-001
 **Ref-hardcopy: Yes
 **End-ref{EK-KMS11-PS-001}
+
+**Start-ref{EK-KMS11-UG-001}
+**Ref-text: KMS11/BD/BE Sychronous Communications Processor User Guide
+**Ref-partno: EK-KMS11-UG-001
+**Ref-date: 1983-04
+**Ref-url: https://manx-docs.org/collections/antonio/dec/kmsbeug1.pdf
+**Ref-hardcopy: Yes
+**End-ref{EK-KMS11-UG-001}
 
 **Start-ref{EK-PC100-PS-002}
 **Ref-text: Rainbow Pocket Service Guide

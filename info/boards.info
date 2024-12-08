@@ -516,3 +516,52 @@ It has DHU11 and DHV11 programming modes, with the DHU11 mode being preferred.
 **Positive-5V-current**vref{2}: 6.0 A
 **End-boards-entry{DUP11}
 
+**Start-boards-entry{KCT32}{UNIBUS}{UNIBUS}
+**Sys-name: KCT32
+**Desc-name: KCT32 Programmable Communications Interface
+**Def-lref{1} = ref{ED-32596-42}
+**Modem-control**vref{1}: No
+**Bus**vref{1}: UNIBUS
+**CPU**vref{1}: DCT11
+! vref{1}: two lines sync or asynch
+**Asynch-ports**vref{1}: 2
+**Synch-ports**vref{1}: 2
+**Serial-speed**vref{1}: 160,000b/s
+**AC-bus-load**vref{1}: 4.5
+**DC-bus-load**vref{1}: 1
+**Positive-5V-current**vref{1}: 6.0 A
+**End-boards-entry{KCT32}
+
+**Start-boards-entry{KMS11}{UNIBUS}{UNIBUS}
+**Sys-name: KMS11
+**Desc-name: KMS11 Synchronous Communications Processor
+**Def-lref{1} = ref{EK-KMS11-UG-001}
+**Def-lref{2} = ref{ED-32596-42}
+**Modem-control**vref{2}: Full
+**Bus**vref{1}: UNIBUS
+**Board-size**vref{1}: Hex (M8206), Hex (M8640), Hex (M8704)
+**Module**vref{1}: M8206, M8704 (or M8711-YA), M8640
+**Synch-ports**vref{1}: 8
+**AC-bus-load**vref{1}: 7
+**DC-bus-load**vref{1}: 2
+**Positive-5V-current**vref{1}: 12.5 A
+**Positive-15V-current**vref{1}: 1.5 A
+**Negative-15V-current**vref{1}: 0.5A
+**End-boards-entry{KMS11}
+
+**Start-boards-entry{KMS1P}{UNIBUS}{UNIBUS}
+**Sys-name: KMS1P
+**Desc-name: KMS1P Synchronous Communications Controller
+**Def-lref{1} = ref{ED-32596-42}
+**Modem-control**vref{1}: Full
+**Bus**vref{1}: UNIBUS
+**Board-size**vref{1}: Hex (two off)
+**Synch-ports**vref{1}: 1
+**Serial-speed**vref{1}: 64Kb/s
+**AC-bus-load**vref{1}: 5
+**DC-bus-load**vref{1}: 1
+**Positive-5V-current**vref{1}: 10.5 A
+**Positive-15V-current**vref{1}: 0.15 A
+**Negative-15V-current**vref{1}: 0.20 A
+**End-boards-entry{KMS1P}
+
