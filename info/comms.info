@@ -825,16 +825,22 @@ The DEC MicroServer (DEMSA) is the hardware platform that supports a number of s
 **Dimensions-end{LB150-R}
 **End-comms-entry{LB150}
 
-
 **Start-comms-entry{DF124-CA}{MODEM}{MODEM}
 **Def-lref{1} = ref{CU-1991-09-06}
+**Def-lref{2} = ref{EK-DF124-UG-PRE}
 ! ref{CU-1991-09-06} also mentions the DF124-CM
 **Sys-name: DF124-CA
 **Desc-name: DF124-CA SCHOLAR PLUS Modem
 **Last-order**vref{1}: 1991-06-29
+**Spped**ref{2}: 2400 b/s
+**Dimensions-start{DF124-Enclosure}
+**Height**vref{2}: 74 mm
+**Width**vref{2}: 217 mm
+**Depth**vref{2}: 292 mm
+**Weight**vref{2}: 2.62 kg
+**Dimensions-end{DF124-Enclosure}
 **End-comms-entry{DF124-CA}
 
-
 **Start-comms-entry{DF129-AA}{MODEM}{MODEM}
 **Sys-name: DF129-AA
 **Desc-name: DF129-AA Modem

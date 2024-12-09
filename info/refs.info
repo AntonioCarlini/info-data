@@ -11324,6 +11324,7 @@
 **Ref-partno: ED-32596-42
 **Ref-date: 1989
 **Ref-url: https://bitsavers.trailing-edge.com/pdf/dec/catalog/Digital_Networks_and_Communications_Buyers_Guide_198901.pdf
+**Ref-processed: Yes
 **End-ref{ED-32596-42}
 
 **Start-ref{EC-I0391-42}
@@ -11353,6 +11354,13 @@
 **Ref-date: 1986
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/qbus/KXJ11-CA_prelimUG_1986.pdf
 **End-ref{EK-KXJCA-UG}
+
+**Start-ref{EK-DF124-UG-PRE}
+**Ref-text: DF124-AA/AM Modem User's Guide
+**Ref-partno: EK-DF124-UG-PRE
+**Ref-date: 1985-02
+**Ref-url: https://manx-docs.org/collections/antonio/dec/df124ugp.pdf
+**End-ref{EK-DF124-UG-PRE}
 
 **Stop-processing
 
