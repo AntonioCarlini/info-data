@@ -565,3 +565,62 @@ It has DHU11 and DHV11 programming modes, with the DHU11 mode being preferred.
 **Negative-15V-current**vref{1}: 0.20 A
 **End-boards-entry{KMS1P}
 
+**Start-boards-entry{KXT11-AA}{QBUS}{QBUS}
+**Sys-name: KXT11-AA
+**Desc-name: KXT11-AA Falcon SBC-11/21  
+**Def-lref{1} = ref{EK-KXT11-UG-PR1}
+**Bus**vref{1}: QBUS
+**Board-size**vref{1}: Dual
+**Module**vref{1}: M8063
+**Asynch-ports**vref{1}: 2
+**Serial-speed**vref{1}: 300 - 38,400
+**AC-bus-load**vref{1}: 2.4
+**DC-bus-load**vref{1}: 1.0
+**Positive-5V-current**vref{1}: 2.8 A
+**Positive-12V-current**vref{1}: 1.1 A
+**End-boards-entry{KXT11-AA}
+
+**Start-boards-entry{KXT11-AB}{QBUS}{QBUS}
+**Sys-name: KXT11-AB
+**Desc-name: KXT11-AB Single Board Computer
+**Def-lref{1} = ref{ED-32596-42}
+**Bus**vref{1}: QBUS
+**CPU**vref{1}: T-11
+**Asynch-ports**vref{1}: 2
+**AC-bus-load**vref{1}: 2.7
+**DC-bus-load**vref{1}: 0.5
+**Positive-5V-current**vref{1}: 2.8 A
+**Positive-12V-current**vref{1}: 1.1 mA
+**End-boards-entry{KXT11-AB}
+
+**Start-boards-entry{KXJ11-CA}{QBUS}{QBUS}
+**Sys-name: KXJ11-CA
+**Desc-name: KXJ11-CA Single Board Peripheral Processor
+**Def-lref{1} = ref{EK-KXJCA-UG}
+**Bus**vref{1}: Q-Bus
+**CPU**vref{1}: J-11
+**Board-size**vref{1}: Quad
+**Module**vref{1}: M7616
+**Asynch-ports**vref{1}: 2
+**Serial-speed**vref{1}: 76.8K baud
+**AC-bus-load**vref{1}: 3
+**DC-bus-load**vref{1}: 0.5
+**Positive-5V-current**vref{1}: 6.0 A
+**Positive-12V-current**vref{1}: 2.0 A
+**End-boards-entry{KXJ11-CA}
+
+**Start-boards-entry{KXT11-CA}{QBUS}{QBUS}
+**Sys-name: KXT11-CA
+**Desc-name: KXT11-CA Single Board Computer
+**Def-lref{1} = ref{ED-32596-42}
+**Bus**vref{1}: QBUS
+**Board-size**vref{1}: Quad
+! vref{1} is ambiguous and says both T-11 and J-11 CPU; given the module name, T-11 seems more likely
+**CPU**vref{1}: T-11
+**Asynch-ports**vref{1}: 2
+**AC-bus-load**vref{1}: 2.0
+**DC-bus-load**vref{1}: 1.0
+**Positive-5V-current**vref{1}: 4.0 A
+**Positive-12V-current**vref{1}: 0.4 A
+**End-boards-entry{KXT11-CA}
+

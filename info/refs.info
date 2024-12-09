@@ -11340,6 +11340,20 @@
 **Ref-hardcopy: No
 **End-ref{EK-DEPCA-PR-001}
 
+**Start-ref{EK-KXT11-UG-PR1}
+**Ref-text: M8063 Falcon SBC-11/21 Single Board Computer User's Guide
+**Ref-partno: EK-KXT11-UG-PR1
+**Ref-date: 1981-12
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/pdp11/1121/EK-KXT11-UG-PR1.pdf
+**End-ref{EK-KXT11-UG-PR1}
+
+**Start-ref{EK-KXJCA-UG}
+**Ref-text: KXJ11-CA User's Guide Preliminary version 1.3
+**Ref-partno: EK-KXJCA-UG
+**Ref-date: 1986
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/qbus/KXJ11-CA_prelimUG_1986.pdf
+**End-ref{EK-KXJCA-UG}
+
 **Stop-processing
 
 **Start-ref{
