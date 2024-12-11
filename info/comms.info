@@ -229,20 +229,21 @@
 **Desc-name: DELNI Ethernet Local Network Interconnect
 **Def-lref{1} = ref{EK-DELNI-TM.001}
 **Def-lref{2} = ref{ED-32596-42}
+**Def-lref{3} = ref{EC-I0765-42}
 ! vref{1}: One AUI backbone interface, 8 AUI local interfaces -->
 **Power-start{DELNI-120V}
 **Label: 120V
-**Supply**htref{1}: 120V 1-phase
+**Supply**vref{3}: 120V 1-phase
 **I-nominal**htref{1}: 0.35A
-**I-inrush**htref{1}: 10A
-**Power**vref{2}: 26W
+**I-inrush**vref{3}: 2A
+**Power**vref{2,3}: 26W
 **Power-end{DELNI-120V}
 **Power-start{DELNI-240V}
 **Label: 240V
 **Supply**htref{3}: 240V 1-phase
 **I-nominal**htref{1}: 0.18A
-**I-inrush**htref{1}: 5A
-**Power**htref{1}: 26W
+**I-inrush**vref{3}: 1A
+**Power**vref{3}: 26W
 **Power-end{DELNI-240V}
 **Dimensions-start{DELNI-T}
 **Label: Tabletop
@@ -832,7 +833,7 @@ The DEC MicroServer (DEMSA) is the hardware platform that supports a number of s
 **Sys-name: DF124-CA
 **Desc-name: DF124-CA SCHOLAR PLUS Modem
 **Last-order**vref{1}: 1991-06-29
-**Spped**ref{2}: 2400 b/s
+**Speed**vref{2}: 2400 b/s
 **Dimensions-start{DF124-Enclosure}
 **Height**vref{2}: 74 mm
 **Width**vref{2}: 217 mm
@@ -985,4 +986,74 @@ It may perform any one of thse functions: Terminal Server, DECnet Router Server,
 However, it may only perform one of these functions at any given time and changing the function requires that new software be downline loaded and that line cards be changed.
 **Text-end
 **End-comms-entry{DECSA}
+
+**Start-comms-entry{H4000}{NETMISC}{NETMISC}
+**Sys-name: H400 
+**Desc-name: H4000 Ethernet Baseband Transceiver
+**Def-lref{1} = ref{EK-H4000-TM.PRE}
+**Dimensions-start{H4000}
+**Height**vref{1}: 90 mm
+**Width**vref{1}: 95 mm
+**Depth**vref{1}: 302 mm
+**Weight**vref{1}: 1.1 kg
+**Dimensions-end{H4000}
+**End-comms-entry{H4000}
+
+**Start-comms-entry{H4005}{NETMISC}{NETMISC}
+**Sys-name: H4005 
+**Desc-name: H4005 Ethernet Baseband Transceiver
+**Def-lref{1} = ref{EC-I0765-42}
+**Dimensions-start{H4005}
+**Height**vref{1}: 37 mm
+**Width**vref{1}: 98 mm
+**Depth**vref{1}: 87 mm
+**Weight**vref{1}: 284 g
+**Dimensions-end{H4005}
+**End-comms-entry{H4005}
+
+**Start-comms-entry{DESTA}{NETMISC}{NETMISC}
+**Sys-name: DESTA
+**Desc-name: ThinWire Ethernet Station Adapter DECextender 204
+**Def-lref{1} = ref{EC-I0765-42}
+**Dimensions-start{DESTA}
+**Height**vref{1}: 37 mm
+**Width**vref{1}: 98 mm
+**Depth**vref{1}: 87 mm
+**Dimensions-end{DESTA}
+**End-comms-entry{DESTA}
+
+**Start-comms-entry{DEREN}{NETMISC}{NETMISC}
+**Sys-name: DEREN
+**Desc-name: ThinDECrepeater 200
+**Def-lref{1} = ref{EC-I0765-42}
+**Def-lref{2} = ref{EC-F0399-42}
+**Dimensions-start{DEREN-T}
+**Label: Tabletop
+**Height**vref{1}: 117.0 mm
+**Width**vref{1}: 493.0 mm
+**Depth**vref{1}: 312.0 mm
+**Weight**vref{1}: 5.08 kg
+**Dimensions-end{DEREN-T}
+**Dimensions-start{DEREN-R}
+**Label: Rackmount
+**Height**vref{1}: 88.9 mm
+**Width**vref{1}: 434.9 mm
+**Depth**vref{1}: 304.8 mm
+**Weight**vref{1}: 3.40 kg
+**Dimensions-end{DEREN-R}
+**Power-start{DEREN-120V}
+**Label: 120V
+**Supply**vref{2}: 88 - 132V
+**I-max**vref{2}: 1.6 A
+**Power**vref{2}: 160 W
+**Heat-dissipation**vref{2}: 500 BTU/h
+**Power-end{DEREN-120V}
+**Power-start{DEREN-240V}
+**Label: 240V
+**Supply**vref{2}: 176 - 264V
+**I-max**vref{2}: 0.8 A
+**Power**vref{2}: 160 W
+**Heat-dissipation**vref{2}: 500 BTU/h
+**Power-end{DEREN-240V}
+**End-comms-entry{DEREN}
 

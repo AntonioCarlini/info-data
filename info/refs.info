@@ -4100,6 +4100,8 @@
 **Start-ref{EK-H4000-TM.PRE}
 **Ref-text: H4000 Ethernet Transceiver Technical Manual
 **Ref-partno: EK-H4000-TM.PRE
+**Ref-date: 1982-11
+**Ref-url: https://manx-docs.org/collections/hcps/h4000tmp.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-H4000-TM.PRE}
 
@@ -11333,6 +11335,13 @@
 **Ref-date: 1990
 **End-ref{EC-I0391-42}
 
+**Start-ref{EC-I0765-42}
+**Ref-text: Telecommunications and Networks Buyer's Guide 1990 July - December
+**Ref-partno: EC-I0765-42
+**Ref-date: 1990
+**Ref-processed: No
+**End-ref{EC-I0765-42}
+
 **Start-ref{EK-DEPCA-PR-001}
 **Ref-text: PCSA DEPCA Hardware Reference Manual
 **Ref-partno: EK-DEPCA-PR-001
@@ -11361,6 +11370,13 @@
 **Ref-date: 1985-02
 **Ref-url: https://manx-docs.org/collections/antonio/dec/df124ugp.pdf
 **End-ref{EK-DF124-UG-PRE}
+
+**Start-ref{EC-F0399-42}
+**Ref-text: DECrepeater 200 Digital's Newest IEEE 802.3/Ethernet Repeater
+**Ref-partno: EC-F0399-42
+**Ref-date: 1989
+**Ref-url: https://www.1000bit.it/js/web/viewer.html?file=%2Fad%2Fbro%2Fdigital%2Fdec-decrepeater200.pdf
+**End-ref{EC-F0399-42}
 
 **Stop-processing
 
