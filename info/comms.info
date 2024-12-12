@@ -488,7 +488,7 @@ The DEC MicroServer (DEMSA) is the hardware platform that supports a number of s
 **Ports**vref{1}: 8
 **Data-bits**htref{1}: 8
 **Port-interface**vref{1}: {RS-232 (DS200/MC)}{DEC423 (DS200/DL)}
-**Ethernet-connection**htref{1}: AUI
+**Ethernet-connection**vref{1}: AUI
 **Power-start{DSRVB-AA}
 **Label: DSRVB-AA, -BA
 **Supply**vref{1}: 120V 1-phase
@@ -509,6 +509,23 @@ The DEC MicroServer (DEMSA) is the hardware platform that supports a number of s
 **Weight**vref{1}: 5.9kg
 **Dimensions-end{DS200}
 **End-comms-entry{DS200}
+
+**Start-comms-entry{DSRVP}{TERMSERVER}{TERMSERVER}
+**Sys-name: DSRVP
+**Desc-name: DECserver 250 Terminal Server
+**Def-lref{1} = ref{EC-I0765-42}
+! vref{1} 2 x parallel  (Dataproducts) ; 4 x serial RS232 19.2Kb/s
+**OS-support-VMS**vref{1}: V4.7
+**OS-support-ULTRIX**vref{1}: V2.0
+**Ethernet-connection**vref{1}: AUI
+**Dimensions-start{DS250}
+**Label: DECserver 250
+**Height**vref{1}: 117.5 mm
+**Width **vref{1}: 489.0 mm
+**Depth **vref{1}: 320.7 mm
+**Weight**vref{1}: 5.44 kg
+**Dimensions-end{DS250}
+**End-comms-entry{DSRVP}
 
 **Start-comms-entry{DS300}{TERMSERVER}{TERMSERVER}
 **Sys-name: DS300
@@ -826,6 +843,42 @@ The DEC MicroServer (DEMSA) is the hardware platform that supports a number of s
 **Dimensions-end{LB150-R}
 **End-comms-entry{LB150}
 
+**Start-comms-entry{LB200}{BRIDGE}{BRIDGE}
+**Sys-name: LB200
+**Desc-name: LAN Bridge 200
+**Def-lref{1} = ref{EC-I0765-42}
+**Port-A**vref{1}: {AUI}{ThinWire}
+**Port-B**vref{1}: {AUI}{SMA}
+**Power-start{LB200-120V}
+**Label: LB200 120V
+**Supply**vref{1}: 90V - 128V
+**I-max**vref{1}: 2.3 A
+**Power**vref{1}: 230 W
+**Heat-dissipation**vref{1}: 275 BTU/h
+**Power-end{LB200-120V}
+**Power-start{LB200-240V}
+**Label: LB200 240V
+**Supply**vref{1}: 190V - 256V
+**I-max**vref{1}: 1.2 A
+**Power**vref{1}: 230 W
+**Heat-dissipation**vref{1}: 275 BTU/h
+**Power-end{LB200-240V}
+**Dimensions-start{LB200-T}
+**Label: Tabletop
+**Height**vref{1}: 162 mm
+**Width **vref{1}: 494 mm
+**Depth **vref{1}: 313 mm
+**Weight**vref{1}: 7.2 kg
+**Dimensions-end{LB200-T}
+**Dimensions-start{LB200-R}
+**Label: Rackmount
+**Height**vref{1}: 133 mm
+**Width **vref{1}: 436 mm
+**Depth **vref{1}: 298 mm
+**Weight**vref{1}: 5.2 kg
+**Dimensions-end{LB200-R}
+**End-comms-entry{LB200}
+
 **Start-comms-entry{DF124-CA}{MODEM}{MODEM}
 **Def-lref{1} = ref{CU-1991-09-06}
 **Def-lref{2} = ref{EK-DF124-UG-PRE}
@@ -923,6 +976,82 @@ The DEC MicroServer (DEMSA) is the hardware platform that supports a number of s
 **Heat-dissipation**vref{1}: 393 BTU/h
 **Power-end{MUX100-240V}
 **End-comms-entry{DSRZA}
+
+**Start-comms-entry{DSRZC-A}{TERMSERVER}{TERMSERVER}
+**Sys-name: DSRZC-A
+**Desc-name: MUXserver 310
+**Def-lref{1} = ref{EC-I0765-42}
+**Ports**vref{1}: 48 channels
+**Dimensions-start{MUXserver300}
+**Height**vref{1}: 161 mm
+**Width**vref{1}: 493mm
+**Depth**vref{1}: 312 mm
+**Weight**vref{1}: 6.0 kg
+**Dimensions-end{MUXserver300}
+**Power-start{MUXserver300-120V}
+**Label: 120V
+**Supply**vref{1}: 100 - 120V
+**Power**vref{1}: 110 W
+**Heat-dissipation**vref{1}: 375 BTU/h
+**Power-end{MUXserver300-120V}
+**Power-start{MUXserver300-240V}
+**Label: 240V
+**Supply**vref{1}: 200 - 240V
+**Power**vref{1}: 110 W
+**Heat-dissipation**vref{1}: 375 BTU/h
+**Power-end{MUXserver300-240V}
+**End-comms-entry{DSRZC-A}
+
+**Start-comms-entry{DSRZC-B}{TERMSERVER}{TERMSERVER}
+**Sys-name: DSRZC-B
+**Desc-name: MUXserver 310
+**Def-lref{1} = ref{EC-I0765-42}
+! vref{1}: The MUXserver300 and MUXserver 310 differ only in the number of ports supported; everything else is dentical
+**Ports**vref{1}: 16 channels
+**Dimensions-start{MUXserver310}
+**Height**vref{1}: 161 mm
+**Width**vref{1}: 493mm
+**Depth**vref{1}: 312 mm
+**Weight**vref{1}: 6.0 kg
+**Dimensions-end{MUXserver310}
+**Power-start{MUXserver310-120V}
+**Label: 120V
+**Supply**vref{1}: 100 - 120V
+**Power**vref{1}: 110 W
+**Heat-dissipation**vref{1}: 375 BTU/h
+**Power-end{MUXserver310-120V}
+**Power-start{MUXserver310-240V}
+**Label: 240V
+**Supply**vref{1}: 200 - 240V
+**Power**vref{1}: 110 W
+**Heat-dissipation**vref{1}: 375 BTU/h
+**Power-end{MUXserver310-240V}
+**End-comms-entry{DSRZC-B}
+
+**Start-comms-entry{DM316}{TERMSERVER}{TERMSERVER}
+**Sys-name: DM316
+**Desc-name: DECmux 300
+**Def-lref{1} = ref{EC-I0765-42}
+**Ports**vref{1}: 16 channels
+**Dimensions-start{DECmux300}
+**Height**vref{1}: 161 mm
+**Width**vref{1}: 493mm
+**Depth**vref{1}: 312 mm
+**Weight**vref{1}: 7.4 kg
+**Dimensions-end{DECmux300}
+**Power-start{DECmux300-120V}
+**Label: 120V
+**Supply**vref{1}: 100 - 120V
+**Power**vref{1}: 180 W
+**Heat-dissipation**vref{1}: 614 BTU/h
+**Power-end{DECmux300-120V}
+**Power-start{DECmux300-240V}
+**Label: 240V
+**Supply**vref{1}: 200 - 240V
+**Power**vref{1}: 180 W
+**Heat-dissipation**vref{1}: 614 BTU/h
+**Power-end{DECmux300-240V}
+**End-comms-entry{DM316}
 
 **Start-comms-entry{DFMZA}{TERMSERVER}{TERMSERVER}
 **Sys-name: DFMZA
