@@ -120,6 +120,7 @@
 **Sys-name: DEFEB
 **Desc-name: DECbridge 500
 **Def-lref{1} = ref{EK-DEFEB-IN-002}
+**Def-lref{2} = ref{EC-I0765-42}
 ! DECbridge 500/600 Series Installation and Upgrade. EK-DEFEB-IN-002
 **Ethernet-connection**uref{1}: 1 x AUI or ThinWire
 **FDDI**uref{1}: 1 x SAS or DAS
@@ -148,25 +149,15 @@
 !	QM:	Queue Manager
 !
 !
-**Power-start{DECBR500-110V}
-**Label: 110V
-**Supply**uref{1}: 110V 1-phase
-**I-max**uref{1}: 3.9A
-**Power**uref{1}: 390W
-**Heat-dissipation**uref{1}: 1330 BTU/hr
-**Power-end{DECBR500-110V}
-**Power-start{DECBR500-240V}
-**Label: 240V
-**Supply**uref{1}: 240V 1-phase
-**I-max**uref{1}: 1.7A
-**Power**uref{1}: 390W
-**Heat-dissipation**uref{1}: 1330 BTU/hr
-**Power-end{DECBR500-240V}
+**Power-start{DECBR500}
+**Power**vref{2}: 350 W
+**Heat-dissipation**vref{2}: 1193.5 BTU/h
+**Power-end{DECBR500}
 **Dimensions-start{DEBR500}
-**Height**uref{1}: 176.8mm
-**Width**uref{1}: 442.0mm
-**Depth**uref{1}: 365.3mm
-**Weight**uref{1}: 14.51kg
+**Height**Vref{2}: 176.8 mm
+**Width**Vref{2}: 442.0 mm
+**Depth**Vref{2}: 365.3 mm
+**Weight**Vref{2}: 14.51 kg
 **Dimensions-end{DEBR500}
 **End-comms-entry{DECBR500}
 

@@ -175,6 +175,18 @@ The DELUA is a follow on to the DEUNA, offering all the same functions but at hi
 **Synch-ports**vref{1}: {2 @ 64kB/s} {1 @ 1.544Mb/s}
 **End-boards-entry{DSYT1}
 
+**Start-boards-entry{DEFZA}{SYNCH}{SYNCH}
+**Sys-name: DEC FDDIcontroller 700
+**Desc-name: DEC WANcontroller 720
+**Def-lref{1} = ref{EC-I0765-42}
+**Def-lref{2} = ref{EK–DEFZA–IN.D01}
+! vref{1}: Single Attached Station
+**Bus**vref{1,2}: TURBOchannel
+**Board-size**vref{1}: 4.6" x 5.675"
+**Positive-5V-current**vref{1}: 3.75 A
+**Positive-12V-current**vref{1}: 0.060 A
+**End-boards-entry{DEFZA}
+
 **Start-boards-entry{DMB32}{SYNCH}{SYNCH}
 **Sys-name: DMB32
 **Desc-name: DMB32 Asynchronous/Synchronous Multiplexer
