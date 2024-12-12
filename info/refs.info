@@ -3197,11 +3197,13 @@
 **Ref-hardcopy: Yes
 **End-ref{EK-DE200-OM-002}
 
-**Start-ref{EK-DE200-OM-003}
+**Start-ref{EK-DE200-OM.003}
 **Ref-text: DEC EtherWORKS Turbo Ethernet Controller Owner's Manual
-**Ref-partno: EK-DE200-OM-003
+**Ref-partno: EK-DE200-OM.003
+**Ref-date: 1991-07
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/de200om3.pdf
 **Ref-hardcopy: Yes
-**End-ref{EK-DE200-OM-003}
+**End-ref{EK-DE200-OM.003}
 
 **Start-ref{EK-DE435-OM.B01}
 **Ref-text: EtherWORKS Turbo PCI Ethernet Controller User Information
@@ -5950,17 +5952,29 @@
 **Ref-electronic: PDF
 **End-ref{EK-LEMAC-OM-C01}
 
-**Start-ref{EK-DE100-OM-D01}
+**Start-ref{EK-DE100-OM.D01}
 **Ref-text: DEC EtherWORKS LC Ethernet Controller Owner's Manual
-**Ref-partno: EK-DE100-OM-D01
+**Ref-partno: EK-DE100-OM.D01
+**Ref-date: 1992
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/de100omd.pdf
 **Ref-electronic: PDF
-**End-ref{EK-DE100-OM-D01}
+**End-ref{EK-DE100-OM.D01}
 
-**Start-ref{EK-DE201-OM-D01}
+**Start-ref{EK-DE201-OM.D01}
 **Ref-text: DEC EtherWORKS Turbo/TP Ethernet Controller User Information
-**Ref-partno: EK-DE201-OM-D01
+**Ref-partno: EK-DE201-OM.D01
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/de201omd.pdf
+**Ref-date: 1993-01
 **Ref-electronic: PDF
-**End-ref{EK-DE201-OM-D01}
+**End-ref{EK-DE201-OM.D01}
+
+**Start-ref{EK-DE210-OM.D01}
+**Ref-text: DEC EtherWORKS MC Ethernet Controller User Information
+**Ref-partno: EK-DE210-OM.D01
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/de210omd.pdf
+**Ref-date: 1992-09
+**Ref-electronic: PDF
+**End-ref{EK-DE210-OM.D01}
 
 **Start-ref{DSW21 SPEC}
 **Ref-text: DSW21 Multi-Protocol Communications Interface Engineering Specification

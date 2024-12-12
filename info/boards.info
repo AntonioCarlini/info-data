@@ -95,7 +95,7 @@ built-in cabinet connections for both AUI and ThinWire.
 **End-boards-entry{DECNA}
 
 **Start-boards-entry{DEBNA-M}{VAXBI}{VAXBI}
-**Sys-name: DEBNA-M
+**Sys-name: DEBNA
 **Desc-name: DEBNA-M VAXBI Ethernet Interface
 **Def-lref{1} = ref{ED-32596-42}
 **Bus**vref{1}: VAXBI
@@ -105,6 +105,22 @@ built-in cabinet connections for both AUI and ThinWire.
 **Positive-5V-current**vref{1}: 6.72 A
 **Positive-12V-current**vref{1}: 0.5 A
 **End-boards-entry{DEBNA-M}
+
+**Start-boards-entry{DEBNI-M}{VAXBI}{VAXBI}
+**Sys-name: DEBNI
+**Desc-name: DEC LAN Controller 200
+**Def-lref{1} = ref{EC-I0765-42}
+**Bus**vref{1}: VAXBI
+**Num-interfaces**vref{1}: 1
+**Ethernet-connection**vref{1}: AUI
+**Positive-5V-current**vref{1}: 6.72 A
+**Positive-12V-current**vref{1}: 0.5 A
+**Text-start
+The DEBIN, also known as the DEC LAN Controller 200, is a firmware upgrade for the DEBNA that enhances performance.
+The DEBNI removes TK50 support from the firmware.
+The DEBNI firmware also introduces a Network Monitor Utility Program to allow monitoring of the DEBNI's performance from anywhere on the network.
+**Text-end
+**End-boards-entry{DEBNI-M}
 
 **Start-boards-entry{DEUNA}{UNIBUS}{UNIBUS}
 **Sys-name: DEUNA
@@ -623,4 +639,51 @@ It has DHU11 and DHV11 programming modes, with the DHU11 mode being preferred.
 **Positive-5V-current**vref{1}: 4.0 A
 **Positive-12V-current**vref{1}: 0.4 A
 **End-boards-entry{KXT11-CA}
+
+**Start-boards-entry{DE100}{ISA}{ISA}
+**Sys-name: DE100
+**Desc-name: DEC EtherWORKS LC Ethernet Controller
+**Def-lref{1} = ref{EK-DE100-OM.D01}
+**Bus**vref{1}: ISA
+**Board-size**vref{1}: 172 mm x 108mm
+**Ethernet-connection**vref{1}: AUI or ThinWire
+**Positive-5V-current**vref{1}: 0.85 A
+**Positive-12V-current**vref{1}: 0.5 A
+! vref{1}: LANCE, ISA 8-bit bus; bus load 2LSTTL, option ROM support
+**End-boards-entry{DE100}
+
+**Start-boards-entry{DE200}{ISA}{ISA}
+**Sys-name: DE200
+**Desc-name: DEC EtherWORKS Turbo Ethernet Controller
+**Def-lref{1} = ref{EK-DE200-OM.003}
+**Bus**vref{1}: ISA
+**Board-size**vref{1}: 172 mm x 108mm
+**Ethernet-connection**vref{1}: AUI or ThinWire
+**Positive-5V-current**vref{1}: 2.1 A
+**Positive-12V-current**vref{1}: 0.5 A
+! vref{1}: LANCE, ISA 16-bit bus; bus load 2LSTTL, option ROM support
+**End-boards-entry{DE200}
+
+**Start-boards-entry{DE201}{ISA}{ISA}
+**Sys-name: DE201
+**Desc-name: DEC EtherWORKS Turbo/TP Ethernet Controller
+**Def-lref{1} = ref{EK-DE201-OM.D01}
+**Bus**vref{1}: ISA
+**Board-size**vref{1}: 172 mm x 108mm
+**Ethernet-connection**vref{1}: AUI or 10BASE-T
+**Positive-5V-current**vref{1}: 2.1 A
+**Positive-12V-current**vref{1}: 0.5 A
+! vref{1}: LANCE, ISA 16-bit bus; bus load 2LSTTL, option ROM support
+**End-boards-entry{DE201}
+
+**Start-boards-entry{DE210}{ISA}{ISA}
+**Sys-name: DE210
+**Desc-name: DEC EtherWORKS MC Ethernet Controller (DEMCA)
+**Def-lref{1} = ref{EK-DE210-OM.D01}
+**Bus**vref{1}: MCA
+**Ethernet-connection**vref{1}: AUI or ThinWire
+**Positive-5V-current**vref{1}: 1.5 A
+**Positive-12V-current**vref{1}: 0.5 A
+! vref{1}: LANCE, option ROM support
+**End-boards-entry{DE210}
 
