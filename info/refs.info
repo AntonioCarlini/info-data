@@ -11353,7 +11353,7 @@
 **Ref-text: Telecommunications and Networks Buyer's Guide 1990 July - December
 **Ref-partno: EC-I0765-42
 **Ref-date: 1990
-**Ref-processed: No
+**Ref-processed: Yes
 **End-ref{EC-I0765-42}
 
 **Start-ref{EK-DEPCA-PR-001}
@@ -11398,6 +11398,13 @@
 **Ref-date: 1993-02
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/defzaind.pdf
 **End-ref{EK–DEFZA–IN.D01}
+
+**Start-ref{EK-DIV32-IN-002}
+**Ref-text: DIV32 Hardware Installation Guide
+**Ref-partno: EK-DIV32-IN-002
+**Ref-date: 1990-10-09
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd1/sys_opt/div32in2.pdf
+**End-ref{EK-DIV32-IN-002}
 
 **Stop-processing
 

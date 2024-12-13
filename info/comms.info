@@ -1177,3 +1177,13 @@ However, it may only perform one of these functions at any given time and changi
 **Power-end{DEREN-240V}
 **End-comms-entry{DEREN}
 
+**Start-comms-entry{DESNC}{NETMISC}{NETMISC}
+**Sys-name: DESNC
+**Desc-name: Digital Ethernet Secure network Controller
+**Def-lref{1} = ref{EC-I0765-42}
+**Ethernet-connection**vref{1}: AUI
+**Text-start
+The DESNC is a hardware component of the Ethernet Enhanced Security System which, together with the VAX Key Distribution Center software component, provides decryption and encryption for traffic to and from connected clients.
+**Text-end
+**End-comms-entry{DESNC}
+
