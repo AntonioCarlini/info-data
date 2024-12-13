@@ -80,7 +80,7 @@ class InfoFileHandlerOuter
         ## TODO raise("Unexpected system type [#{type}], expected [#{@expected_entry_type}]") if type.downcase() != @expected_entry_type
         ## TODO restrict to 'terminals' raise("Only 'terminals' allowed for now: rejecting '#{entry_name}'") if entry_name != "terminals"
         entry = Entry.new(id, @expected_entry_type, entry_class, line_num, @permitted_tags)
-        return HandlerResult::STACK_HANDLER, InfoFileHandlerEntry.new(entry, entry_name, @info_filename, @permitted_tags_uc, @refs, @pubs, @allow_only_vref)
+        return HandlerResult::STACK_HANDLER, InfoFileHandlerEntry.new(entry, entry_name, @info_filename, @permitted_tags, @refs, @pubs, @allow_only_vref)
       elsif line =~ /^ \s* \! /ix
         # TODO why is this here .. .why can this not be handled above?
         log_debug(self, line_num, @info_filename, "Skipping comment [#{line}]")
@@ -119,9 +119,10 @@ class InfoFileHandlerEntry
   attr_reader     :entry
   attr_accessor   :fatal_error_seen
 
-  def initialize(entry, entry_name, info_filename, permitted_tags_uc, refs, pubs, allow_only_vref)
+  def initialize(entry, entry_name, info_filename, permitted_tags, refs, pubs, allow_only_vref)
     @fatal_error_seen = false
-    @permitted_tags_uc = permitted_tags_uc
+    @permitted_tags = permitted_tags
+    @permitted_tags_uc = @permitted_tags.map(&:upcase)
     @info_filename = info_filename
     @local_refs = {}
     @local_docs = {}
@@ -237,6 +238,7 @@ class InfoFileHandlerEntry
       if @entry.instance_variable_defined?(instance_variable_name)
         raise("On line #{line_num} in #{@entry.identifier()}, tag #{tag} has been defined again.")
       else
+        # TODO HERE
         # Set the appropriate instance variable to the value+reference(s) specified
         @entry.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
       end

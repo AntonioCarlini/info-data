@@ -284,6 +284,8 @@
   - Whether compatibility mode is implemented or not
   - systems 
   - cpu_details
+  - optional
+  - - yn
 - Console-processor:
   - Console processor
   - Console processor
