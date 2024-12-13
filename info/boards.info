@@ -206,6 +206,19 @@ The DELUA is a follow on to the DEUNA, offering all the same functions but at hi
 **CPU**vref{1}: Motorola 68000
 **End-boards-entry{DMB32}
 
+**Start-boards-entry{DSB32}{SYNCH}{SYNCH}
+**Sys-name: DSB32
+**Desc-name: DEC WANcontroller 220
+**Def-lref{1} = ref{EC-I0765-42}
+**document=doc{DEC:B-DD-T1042}
+**Bus**vref{1}: VAXBI
+**Synch-ports**vref{1}: 2
+**Serial-speed**vref{1}: 192Kb/s
+**Positive-5V-current**vref{1}: 4.5 A
+**Positive-15V-current**vref{1}: 0.008 A
+**Negative-15V-current**vref{1}: 0.008 A
+**End-boards-entry{DSB32}
+
 **Start-boards-entry{DHB32}{ASYNCH}{ASYNCH}
 **Sys-name: DHB32
 **Desc-name: DHB23 Asynchronous Multiplexer
