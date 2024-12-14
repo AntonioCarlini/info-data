@@ -313,6 +313,30 @@ The DEC MicroServer (DEMSA) is the hardware platform that supports a number of s
 **Text-end
 **End-comms-entry{DEMSA}
 
+**Start-comms-entry{DEMSB}{ROUTER}{ROUTER}
+**Sys-name: DEMSB
+**Desc-name: DEMSB MicroServer-SP
+**Def-lref{1} = ref{ED-32596-42}
+**Num-synch-lines**vref{1}: 1
+**Dimensions-start{DEMSB-T}
+**Label: Tabletop
+**Height**vref{1}: 162 mm
+**Width **vref{1}: 494 mm
+**Depth **vref{1}: 313 mm
+**Weight**vref{1}: 8.1 kg
+**Dimensions-end{DEMSB-T}
+**Dimensions-start{DEMSB-R}
+**Label: Rackmount
+**Height**vref{1}: 133 mm
+**Width **vref{1}: 436 mm
+**Depth **vref{1}: 298 mm
+**Weight**vref{1}: 6.9 kg
+**Dimensions-end{DEMSB-R}
+**Text-start
+The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number of software products such as the DECrouter 100.
+**Text-end
+**End-comms-entry{DEMSB}
+
 **Start-comms-entry{DEREP}{NETMISC}{NETMISC}
 **Sys-name: DEREP
 **Desc-name: DEREP Ethernet Repeater
@@ -1144,7 +1168,7 @@ However, it may only perform one of these functions at any given time and changi
 
 **Start-comms-entry{DEREN}{NETMISC}{NETMISC}
 **Sys-name: DEREN
-**Desc-name: ThinDECrepeater 200
+**Desc-name: DECrepeater 200
 **Def-lref{1} = ref{EC-I0765-42}
 **Def-lref{2} = ref{EC-F0399-42}
 **Dimensions-start{DEREN-T}
