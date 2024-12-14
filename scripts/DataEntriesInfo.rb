@@ -49,8 +49,6 @@ class InfoFileHandlerOuter
 
   def initialize(tags, info_filename, expected_entry_type, refs, pubs, devices)
     @tags = tags
-    @permitted_tags = @tags.tags()
-    @permitted_tags_uc = @permitted_tags.map(&:upcase)
     @info_filename = info_filename
     @expected_entry_type = expected_entry_type
     @refs = refs
@@ -79,8 +77,8 @@ class InfoFileHandlerOuter
         entry_class = $4.strip()
         ## TODO raise("Unexpected system type [#{type}], expected [#{@expected_entry_type}]") if type.downcase() != @expected_entry_type
         ## TODO restrict to 'terminals' raise("Only 'terminals' allowed for now: rejecting '#{entry_name}'") if entry_name != "terminals"
-        entry = Entry.new(id, @expected_entry_type, entry_class, line_num, @permitted_tags)
-        return HandlerResult::STACK_HANDLER, InfoFileHandlerEntry.new(entry, entry_name, @info_filename, @permitted_tags, @refs, @pubs, @allow_only_vref)
+        entry = Entry.new(id, @expected_entry_type, entry_class, line_num, @tags)
+        return HandlerResult::STACK_HANDLER, InfoFileHandlerEntry.new(entry, entry_name, @info_filename, @tags, @refs, @pubs, @allow_only_vref)
       elsif line =~ /^ \s* \! /ix
         # TODO why is this here .. .why can this not be handled above?
         log_debug(self, line_num, @info_filename, "Skipping comment [#{line}]")
@@ -119,10 +117,10 @@ class InfoFileHandlerEntry
   attr_reader     :entry
   attr_accessor   :fatal_error_seen
 
-  def initialize(entry, entry_name, info_filename, permitted_tags, refs, pubs, allow_only_vref)
+  def initialize(entry, entry_name, info_filename, tags, refs, pubs, allow_only_vref)
     @fatal_error_seen = false
-    @permitted_tags = permitted_tags
-    @permitted_tags_uc = @permitted_tags.map(&:upcase)
+    @tags = tags
+    @permitted_tags_uc = @tags.tags_uc()
     @info_filename = info_filename
     @local_refs = {}
     @local_docs = {}
@@ -376,12 +374,12 @@ class Entry
   attr_reader :sys_class
   attr_reader :entry_type
 
-  def initialize(identifier, type, sys_class, line_num, possible_tags)
+  def initialize(identifier, type, sys_class, line_num, tags)
     @identifier = identifier
     @line_num = line_num
     @entry_type = type
     @sys_class = VariableWithReference.new(sys_class, nil)
-    @possible_tags = possible_tags
+    @tags = tags
     @docs = []
     @text_block = []
     @local_references = []
@@ -424,13 +422,13 @@ class Entry
     h = {}
 
     # For each possible tag, if it is present, represent it in the output.
-    @possible_tags.each() {
-      |key|
-      instance_variable_name = EntriesCollection.tag_to_instance_variable_name(key)
+    @tags.tag_array().each() {
+      |value|
+      instance_variable_name = EntriesCollection.tag_to_instance_variable_name(value.name())
       if self.instance_variable_defined?(instance_variable_name)
-        # Use tag (i.e. the key) for the "name" and represent the value as an array with the first element as the actual value
+        # Use tag name (i.e. value.name()) for the "name" and represent the value as an array with the first element as the actual value
         # and any further elements representing references.
-        h[key] = self.instance_variable_get(instance_variable_name).as_array()
+        h[value.name()] = self.instance_variable_get(instance_variable_name).as_array()
       end
     }
 
@@ -505,17 +503,17 @@ class EntriesCollection
   #
   # info_filename: the filepath of the .info file
   # type_expected: type of device: decvt etc.
-  # permitted_tags: an array of permitted tags
+  # tags: a DataTags object (which represent each permitted tag)
   # refs: references (from refs.info)
   # refs: publications (from pubs.info)
-  def EntriesCollection.create_from_info_file(info_filename, type_expected, permitted_tags, refs, pubs)
+  def EntriesCollection.create_from_info_file(info_filename, type_expected, tags, refs, pubs)
     fatal_error_seen = false
     line_num = 0
     devices = EntriesCollection.new()
     ## TODO total_uses = 0   # local uses of unverified refs
     within_text_block = false
 
-    handlers = [ InfoFileHandlerOuter.new(permitted_tags, info_filename, type_expected, refs, pubs, devices) ]
+    handlers = [ InfoFileHandlerOuter.new(tags, info_filename, type_expected, refs, pubs, devices) ]
     IO.foreach(info_filename) {
       |line|
       current_handler = handlers[-1]

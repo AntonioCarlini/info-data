@@ -111,6 +111,8 @@ end
 
 class DataTags
   
+  attr_reader :tag_array
+  
   # tags_yaml_file
   # type: systems, comms
   # sub_type: vax, alpha etc.
