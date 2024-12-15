@@ -61,7 +61,7 @@ collection.each() {
     end
   }
 
-  if values_with_no_ref > 0
-    puts("For entry #{id} found #{values_with_no_ref} values cited without a reference")
-  end
+##  if values_with_no_ref > 0
+##    puts("For entry #{id} found #{values_with_no_ref} values cited without a reference")
+##  end
 }
