@@ -1413,7 +1413,8 @@
 **End-ref{CU-1994-05-09}
 
 **Start-ref{CU-1994-05-23}
-**Ref-text: Digital's Customer Update
+**Ref-text: Digital's Customer Update. 23rd May 1994
+**Ref-url: https://eisner.decus.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=637.0
 **Ref-processed: No
 **Ref-url:
 **End-ref{CU-1994-05-23}
@@ -2720,6 +2721,8 @@
 **Ref-text: LA50 Printer Programmer reference Manual
 **Ref-partno: EK-OLA50-RM-002
 **Ref-date: 1983-03
+**Ref-url: https://manx-docs.org/collections/antonio/dec/EK-0LA50-RM-002_LA50_Printer_Programmer_Reference_Manual_Mar1983.pdf
+**Ref-date: 1983-03
 **Ref-hardcopy: Yes
 **End-ref{EK-OLA50-RM-002}
 
@@ -2857,6 +2860,8 @@
 **Start-ref{EK-PM32C-OG-003}
 **Ref-text: DECstation 5000 Model 100 Series Hardware Operator's Guide
 **Ref-partno: EK-PM32C-OG-003
+**ref-date: 1992-01
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/decsta/pm32cog3.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-PM32C-OG-003}
 
@@ -3485,6 +3490,8 @@
 **Start-ref{EK-LP100-OP-001}
 **Ref-text: Letterprinter 100 Operator Guide
 **Ref-partno: EK-LP100-OP-001
+**Ref-date: 1982-01
+**Ref-url: https://manx-docs.org/collections/antonio/dec/lp100op1.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-LP100-OP-001}
 
@@ -3532,6 +3539,8 @@
 **Start-ref{EK-VT100-UG-001}
 **Ref-text: VT100 User Guide
 **Ref-partno: EK-VT100-UG-001
+**Ref-date: 1978-08
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/terminal/vt100/EK-VT100-UG-001_VT100_User_Guide_Aug78.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-VT100-UG-001}
 
@@ -5789,6 +5798,8 @@
 ! Unchecked: VRC16 VRM17  LK501-AA  VSXXX-GB RZ23L RZ24L RZ25 RZ26 TLZ06 RX26 
 **Ref-text: Personal DECstation/DECsystem 5000 Series Maintenance Guide
 **Ref-partno: EK-PM30F-MG-004
+**Ref-date: 1993-04
+**ref-url: https://manx-docs.org/collections/mds-199909/cd2/decsta/pm30fmg4.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-PM30F-MG-004}
@@ -5807,6 +5818,8 @@
 ! Unchecked: LK401-AA VSXXX-GA  VSXXX-AB  BA42RZ23L RZ24L RZ25 RZ26 RZ58 TK50Z TZ30 TZ85 TZK10 TLZ04 TLZ06  RRD42 RX23 RX33 
 **Ref-text: DECstation/DECsystem 5000 Model 200 Series Maintenance Guide
 **Ref-partno: EK-PM38C-MG-002
+**Ref-date: 1993-04
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/decsta/pm38cmg2.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-PM38C-MG-002}
@@ -5821,6 +5834,8 @@
 ! Unchecked: TZK10 RZ23 RZ24 RX23 
 **Ref-text: DECsystem 5100 Maintenance Guide
 **Ref-partno: EK-422AA-MG.001
+**Ref-date: 1990-08
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/decsta/422aamg1.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-422AA-MG.001}
@@ -5841,6 +5856,8 @@
 **Start-ref{EK-332AA-OP-001}
 **Ref-text: DECsystem 5500 Operation
 **Ref-partno: EK-332AA-OP-001
+**Ref-date: 1990-08
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/decsta/332aaop1.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-332AA-OP-001}
@@ -5856,6 +5873,8 @@
 ! Unchecked: RZ57 RZ58 RRD42 RX26 StorageServer 100 TKZ09 TLZ04 TLZ06 TZ30 TZ85 TZK10 TSZ07  TKZ08 
 **Ref-text: DECsystem 5900 Owner's Guide
 **Ref-partno: EK-D590A-OG-C01
+**Ref-date: 1993-04
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/decsta/d590aogc.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-D590A-OG-C01}
@@ -5870,6 +5889,8 @@
 **Start-ref{EK-KN210-TM-001}
 **Ref-text: KN210 CPU Module Set Technical Manual
 **Ref-partno: EK-KN210-TM-001
+**Ref-date: 1989-06
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/decsta/kn210tm1.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-KN210-TM-001}
@@ -5877,6 +5898,8 @@
 **Start-ref{EK-375AA-SM-001}
 **Ref-text: KN220 CPU System Maintenance
 **Ref-partno: EK-375AA-SM-001
+**Ref-date: 1990-09
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/decsta/375aasm1.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-375AA-SM-001}
@@ -6880,6 +6903,8 @@
 **Start-ref{EC-Q9ZUC-TE}
 **Ref-text: Digital Semiconductor Alpha 21064 and Alpha 21064A Microprocessors Hardware Reference Manual
 **Ref-partno: EC-Q9ZUC-TE
+**Ref-date: 1996-06
+**Ref-url: https://web.archive.org/web/20150905194913/http://h18000.www1.hp.com/cpq-alphaserver/technology/literature/21064hrm.pdf
 **Ref-electronic: PDF
 **End-ref{EC-Q9ZUC-TE}
 
@@ -7647,6 +7672,8 @@
 **Start-ref{EK-ELG06-MG-002}
 **Ref-text: LG06 Text and Graphics Printer Maintenance Manual
 **Ref-partno: EK-ELG06-MG-002
+**Ref-date: 1992-07
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/printer/elg06mg2.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-ELG06-MG-002}
@@ -7654,6 +7681,8 @@
 **Start-ref{EK-DCL11-SV.B01}
 **Ref-text: DEClaser 1100 Series Printer Service Guide
 **Ref-partno: EK-DCL11-SV.B01
+**Ref-date: 1992-11
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/printer/dcl11svb.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-DCL11-SV.B01}
@@ -7661,6 +7690,8 @@
 **Start-ref{EK-LN05X-SV-001}
 **Ref-text: DEClaser 2100 Printer Service Guide
 **Ref-partno: EK-LN05X-SV-001
+**Ref-date: 1990-09
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/printer/ln05xsv1.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-LN05X-SV-001}
@@ -7668,6 +7699,8 @@
 **Start-ref{EK-LN06X-SV-001}
 **Ref-text: DEClaser 2200 Printer Service Guide
 **Ref-partno: EK-LN06X-SV-001
+**Ref-date: 1990-09
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/printer/ln06xsv1.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-LN06X-SV-001}
@@ -9566,6 +9599,8 @@
 **Start-ref{EK-LNX09-SV-A01}
 **Ref-text: DEClaser 5100 Printer Service Guide
 **Ref-partno: EK-LNX09-SV-A01
+**Ref-date: 1994-04
+**Ref-url: https://web.archive.org/web/20150920155242/http://vt100.net/docs/lnx09-sv/DEClaser_5100_Service_Manual.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-LNX09-SV-A01}
@@ -9826,6 +9861,8 @@
 ! Unchecked: RZ23L RZ24L RZ25 RZ26 RX23 RRD42 TZK10 TLZ06 
 **Ref-text: DECstation 5000 Model 150 Operator's Guide
 **Ref-partno: EK-4MMIN-OP.A01
+**Ref-date: 1993-03
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/decsta/4mminopa.pdf
 **Ref-electronic: PDF
 **Ref-processed: Yes
 **End-ref{EK-4MMIN-OP.A01}
@@ -11298,7 +11335,8 @@
 **Ref-text: VR297 Color Monitor Service Guide
 **Ref-date: 1989-09
 **Ref-partno: EK-VR297-SV-001
-**Ref-url: 
+**Ref-date: 1989-09
+**Ref-url: https://web.archive.org/web/20060905072904/http://cmcnabb.cc.vt.edu/dec94mds/vr297sv1.pdf
 **End-ref{EK-VR297-SV-001}
 
 **Start-ref{EK-OTA91-OM-001}
