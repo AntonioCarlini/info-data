@@ -1,15 +1,28 @@
 **Start-ref{VAX-HW-HB-1986-V1} 
 **Ref-text: VAX Hardware Handbook Volume 1 - 1986
-**ref-url: http://www.bitsavers.org/pdf/dec/vax/handbook/VAX_Hardware_Handbook_Volume_1_1986.pdf
+**Ref-partno: EB-25949-46
+**Ref-date: 1985
+**Ref-url: http://www.bitsavers.org/pdf/dec/vax/handbook/VAX_Hardware_Handbook_Volume_1_1986.pdf
 **End-ref{VAX-HW-HB-1986-V1} 
 
 **Start-ref{VAX-HW-HB-1986-V2}
 **Ref-text: VAX Hardware Handbook. Volume 2-1986
+**Ref-partno: EB-28348-46
+**Ref-date: 1986
+**Ref-url: https://bitsavers.trailing-edge.com/pdf/dec/vax/handbook/VAX_Hardware_Handbook_Volume_2_1986.pdf
 **End-ref{VAX-HW-HB-1986-V2}
 
+!! TODO - this is a duplicate entry (duplicates ref{EB-31692-46})
+!! It is used in VAX6200; 
 **Start-ref{VAX-HW-HB-BI} 
 **Ref-text: VAX Systems Hardware Handbook - VAXBI Systems
 **End-ref{VAX-HW-HB-BI}
+
+**Start-ref{EB-31692-46}
+**Ref-text: VAX Systems Hardware Handbook -- VAXBI Systems
+**Ref-partno: EB-31692-46
+**Ref-hardcopy: Yes
+**End-ref{EB-31692-46}
 
 **Start-ref{CPU-UPGR-SPRING-1992}
 **Ref-text: CPU Upgrade Guide. Spring-Summer 1992
@@ -157,54 +170,67 @@
 
 **Start-ref{DTJ-V1-1}
 **Ref-text: "VAX 8600 Processor", Digital Technical Journal, Vol 1 No 1, August 1985
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v01-01_aug1985.pdf
 **End-ref{DTJ-V1-1}
 
 **Start-ref{DTJ-V1-2}
 **Ref-text: "MicroVAX II System", Digital Technical Journal, Vol 1 No 2, March 1986
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v01-02_mar1986.pdf
 **End-ref{DTJ-V1-2}
 
 **Start-ref{DTJ-V1-3}
 **Ref-text: "Networking Products", Digital Technical Journal, Vol 1 No 3, September 1986
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v01-03_sep1986.pdf
 **End-ref{DTJ-V1-3}
 
 **Start-ref{DTJ-V1-4}
 **Ref-text: "VAX 8800 Family", Digital Technical Journal, Vol 1 No 4, February 1987
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v01-04_feb1987.pdf
 **End-ref{DTJ-V1-4}
 
 **Start-ref{DTJ-V1-5}
 **Ref-text: "VAXcluster Systems", Digital Technical Journal, Vol 1 No 5, September 1987
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v01-05_sep1987.pdf
 **End-ref{DTJ-V1-5}
 
 **Start-ref{DTJ-V1-6}
 **Ref-text: "Software Productivity Tools", Digital Technical Journal, Vol 1 No 6, February 1988
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v01-06_feb1988.pdf
 **End-ref{DTJ-V1-6}
 
 **Start-ref{DTJ-V1-7}
 **Ref-text: "CVAX-based Systems", Digital Technical Journal, Vol 1 No 7, August 1988
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v01-07_aug1988.pdf
 **End-ref{DTJ-V1-7}
 
 **Start-ref{DTJ-V1-8}
 **Ref-text: "Storage Technology", Digital Technical Journal, Vol 1 No 8, February 1989
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v01-08_feb1989.pdf
 **End-ref{DTJ-V1-8}
 
 **Start-ref{DTJ-V1-9}
 **Ref-text: "Distributed Systems", Digital Technical Journal, Vol 1 No 9, June 1989
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v01-09_jun1989.pdf
 **End-ref{DTJ-V1-9}
 
 **Start-ref{DTJ-V2-1}
 **Ref-text: "Compound Document Architecture", Digital Technical Journal, Vol 2 No 1, Winter 1990
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v02-01_1990.pdf
 **End-ref{DTJ-V2-1}
 
 **Start-ref{DTJ-V2-2}
 **Ref-text: "VAX 6000 Model 400 System", Digital Technical Journal, Vol 2 No 2, Spring 1990
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v02-02_1990.pdf
 **End-ref{DTJ-V2-2}
 
 **Start-ref{DTJ-V2-3}
 **Ref-text: "Decwindows Program", Digital Technical Journal, Vol 2 No 3, Summer 1990
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v02-03_1990.pdf
 **End-ref{DTJ-V2-3}
 
 **Start-ref{DTJ-V2-4}
 **Ref-text: "VAX 9000 Series", Digital Technical Journal, Vol 2 No 4, Fall 1990
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v02-04_1990.pdf
 **End-ref{DTJ-V2-4}
 
 **Start-ref{DSIN-VMS-ULTIX-COMPAT}
@@ -457,18 +483,22 @@
 
 **Start-ref{DTJ-V3-1}
 **Ref-text: "Transaction Processing, Databases and fault-Tolerant Systems", Digital Technical Journal, Vol 3 No 1, Winter 1991
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v03-01_1991.pdf
 **End-ref{DTJ-V3-1}
 
 **Start-ref{DTJ-V3-2}
 **Ref-text: "Fiber Distributed Data Interface", Digital Technical Journal, Vol 3 No 2, Spring 1991
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v03-02_1991.pdf
 **End-ref{DTJ-V3-2}
 
 **Start-ref{DTJ-V3-3}
 **Ref-text: "Availability in VAXcluster Systems/Network Performance and Adapters", Digital Technical Journal, Vol 3 No 3, Summer 1991
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v03-03_1991.pdf
 **End-ref{DTJ-V3-3}
 
 **Start-ref{DTJ-V3-4}
 **Ref-text: "Image Processing, Video Terminals, and Printer Technologies", Digital Technical Journal, Vol 3 No 4, Fall 1991
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v03-04_1991.pdf
 **End-ref{DTJ-V3-4}
 
 **Start-ref{EC-F1418-45/91}
@@ -535,10 +565,6 @@
 **Ref-text: biz.dec Internet newsgroup.
 **End-ref{biz.dec}
 
-**Start-ref{VAX-HB-V1-1986}
-**Ref-text: VAX Hardware Handbook. Volume 1-1986
-**End-ref{VAX-HB-V1-1986}
-
 **Start-ref{ESOC-SPR87}
 **Ref-text: European Systems & Options Catalogue. Spring Edition 1987
 **End-ref{ESOC-SPR87}
@@ -581,19 +607,23 @@
 **End-ref{EC N0004}
 
 **Start-ref{DTJ-V4-1}
-**Ref-text: Digital Technical Journal, Vol 4 No 1, 
+**Ref-text: Digital Technical Journal, Vol 4 No 1,
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v04-01_1992.pdf
 **End-ref{DTJ-V4-1}
 
 **Start-ref{DTJ-V4-2}
-**Ref-text: Digital Technical Journal, Vol 4 No 2, 
+**Ref-text: Digital Technical Journal, Vol 4 No 2,
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v04-02_1992.pdf
 **End-ref{DTJ-V4-2}
 
 **Start-ref{DTJ-V4-3}
 **Ref-text: "NVAX-microprocessor VAX Systems", Digital Technical Journal, Vol 4 No 3, Summer 1992
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v04-03_1992.pdf
 **End-ref{DTJ-V4-3}
 
 **Start-ref{DTJ-V4-4}
-**Ref-text: Digital Technical Journal, Vol 4 No 4, 
+**Ref-text: Digital Technical Journal, Vol 4 No 4,
+**Ref-url: http://www.dtjcd.vmsresource.org.uk/pdfs/dtj_v04-04_1992.pdf
 **End-ref{DTJ-V4-4}
 
 **Start-ref{4500-6600-PERF-SUMM}
@@ -2980,29 +3010,11 @@
 **Ref-hardcopy: Yes
 **End-ref{EC-H0323-41}
 
-**Start-ref{EB-31692-46}
-**Ref-text: VAX Systems Hardware Handbook -- VAXBI Systems
-**Ref-partno: EB-31692-46
-**Ref-hardcopy: Yes
-**End-ref{EB-31692-46}
-
 **Start-ref{EB-28761-56}
 **Ref-text: Terminals & Printers Handbook 1987
 **Ref-partno: EB-28761-56
 **Ref-hardcopy: Yes
 **End-ref{EB-28761-56}
-
-**Start-ref{EB-25949-46}
-**Ref-text: VAX Hardware Handbook Volume 1 - 1986
-**Ref-partno: EB-25949-46
-**Ref-hardcopy: Yes
-**End-ref{EB-25949-46}
-
-**Start-ref{EB-28348-46}
-**Ref-text: VAX Hardware Handbook Volume 2 - 1986
-**Ref-partno: EB-28348-46
-**Ref-hardcopy: Yes
-**End-ref{EB-28348-46}
 
 **Start-ref{EB-30991-41}
 **Ref-text: MicroVAX Systems Handbook 1988
@@ -3037,6 +3049,8 @@
 **Start-ref{EB-17835-18}
 **Ref-text: VAX-11/780 Hardware Handbook 1979-80
 **Ref-partno: EB-17835-18
+**Ref-date: 1979
+**Ref-url: https://bitsavers.trailing-edge.com/pdf/dec/vax/handbook/VAX_Hardware_Handbook_1979.pdf
 **Ref-hardcopy: Yes
 **End-ref{EB-17835-18}
 
@@ -3456,6 +3470,8 @@
 **Start-ref{DEC-11-H05SS-B-D}
 **Ref-text: PDP-11/05-S, 11/10-S system manual
 **Ref-partno: DEC-11-H05SS-B-D
+**Ref-date: 1975-01
+**Ref-url: https://manx-docs.org/collections/hcps/h05ssbd.pdf
 **Ref-hardcopy: Yes
 **End-ref{DEC-11-H05SS-B-D}
 
@@ -4057,6 +4073,8 @@
 **Start-ref{AZ-GN4AC-TE}
 **Ref-text: VAX 8200/8300 Owner's Manual
 **Ref-partno: AZ-GN4AC-TE
+**Ref-date: 1986-09
+**Ref-url: https://manx-docs.org/collections/hcps/gn4acte.pdf
 **Ref-hardcopy: Yes
 **End-ref{AZ-GN4AC-TE}
 
@@ -4069,6 +4087,8 @@
 **Start-ref{AZ-FE06A-TN}
 **Ref-text: MicroVAX II 630QY, 630QZ Technical Manual
 **Ref-partno: AZ-FE06A-TN
+**Ref-date: 1985-04
+**Ref-url: https://manx-docs.org/collections/hcps/fe06atn.pdf
 **Ref-hardcopy: Yes
 **End-ref{AZ-FE06A-TN}
 
@@ -4093,6 +4113,8 @@
 **Start-ref{AZ-GMZAB-MN}
 **Ref-text: VAXstation II Technical Manual, BA123 Enclosure
 **Ref-partno: AZ-GMZAB-MN
+**Ref-date: 1986-01
+**Ref-url: https://manx-docs.org/collections/hcps/gmzabmn.pdf
 **Ref-hardcopy: Yes
 **End-ref{AZ-GMZAB-MN}
 
@@ -7414,7 +7436,7 @@
 **Ref-electronic: PDF
 **End-ref{MASDEZ0J}
 
-!!
+
 **Start-ref{EK-DECAC-SM.C01}
 **Ref-text: DECmpp 12000/Sx Model 100 Hardware Service Manual
 **Ref-partno: EK-DECAC-SM.C01
@@ -8074,7 +8096,6 @@
 ! new-refs start here
 
 
-!!
 **Start-ref{MUSTANG2-SPEC}
 **Ref-text: Mirage System Specification Rev 02
 **Ref-electronic: TXT
