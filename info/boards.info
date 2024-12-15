@@ -347,6 +347,15 @@ It has DHU11 and DHV11 programming modes, with the DHU11 mode being preferred.
 **DC-bus-load**vref{2}: 1
 **Positive-5V-current**vref{1}: 3.4 A
 **Positive-12V-current**vref{1}: 0.380 A
+**Text-start
+The DMV11 is a microprocessor-controller,single line synchronous communications controller that provides local or remote connection 
+between Q-bus systems and other computer systems with EIA-232-C/CCITT V.28, CCITT V.35, or EIA-423-A/EIA-499 interfaces.
+The DMV11 implements DDCMP in hardware and supports direct memory access data transfers, DECnet point to point configurations, and full modem control.
+It operates at speeds up to 56 KB/s at half or full-duplex.
+
+Depending on the operating system and layered software, the DMV11 can support up to 12 tributaries.
+In point to point configurations, the  DMV11 can communicate with DMC11, DUP11, DPV11, DMP11, or other DMV11 controllers.
+**Text-end
 **End-boards-entry{DMV11-AA/AB}
 
 **Start-boards-entry{DMV11-AC}{QBUS}{QBUS}
@@ -365,6 +374,15 @@ It has DHU11 and DHV11 programming modes, with the DHU11 mode being preferred.
 **DC-bus-load**vref{2}: 1
 **Positive-5V-current**vref{1}: 3.35 A
 **Positive-12V-current**vref{1}: 0.260 A
+**Text-start
+The DMV11 is a microprocessor-controller,single line synchronous communications controller that provides local or remote connection 
+between Q-bus systems and other computer systems with EIA-232-C/CCITT V.28, CCITT V.35, or EIA-423-A/EIA-499 interfaces.
+The DMV11 implements DDCMP in hardware and supports direct memory access data transfers, DECnet point to point configurations, and full modem control.
+It operates at speeds up to 56 KB/s at half or full-duplex.
+
+Depending on the operating system and layered software, the DMV11 can support up to 12 tributaries.
+In point to point configurations, the  DMV11 can communicate with DMC11, DUP11, DPV11, DMP11, or other DMV11 controllers.
+**Text-end
 **End-boards-entry{DMV11-AC}
 
 **Start-boards-entry{DPV11}{QBUS}{QBUS}
@@ -527,6 +545,12 @@ It has DHU11 and DHV11 programming modes, with the DHU11 mode being preferred.
 **Positive-5V-current**vref{1}: 5.0 A (M8207-RA), 3.0 A (M8203)
 **Positive-15V-current**vref{1}: 0.11 A (M8203)
 **Negative-15V-current**vref{1}: 0.2 A (M8203)
+**Text-start
+The DMR11 is a high performance microprocessor-controled single line  synchronous communications controller that provides local or remote 
+connection between PDP-11 or VAX UNIBUS systems and other computer systems with EIA-232-C/CCITT V.35, EIA-423-A/EIA-499, or EIA-422/EIA-449 interface.
+The DMR11 implements DDCMP in hardware and  supports direct memory access data transfers, DECnet point to point configurations and full modem control.
+It operates at speeds up to 1 Mb/s at half- or full-duplex.  The DMR11 can communicate with another DMR11, DMV11 or any other synchronous interface that implements DDCMP V3.1 or 4.0.
+**Text-end
 **End-boards-entry{DMR11}
 
 **Start-boards-entry{DMZ32}{UNIBUS}{UNIBUS}
@@ -555,6 +579,13 @@ It has DHU11 and DHV11 programming modes, with the DHU11 mode being preferred.
 **AC-bus-load**vref{2}: 4.5
 **DC-bus-load**vref{2}: 1
 **Positive-5V-current**vref{2}: 6.0 A
+**Text-start
+The DUP11 is a single-line synchronous programmable communications controller that provides remote interconnection
+between PDP-11 and VAX UNIBUS systems and other computer systems  with RS-232-C/CCITT V.28 interface.
+It operates at speeds up to 9,600 bits per second at half-or full-duplex with full modem control.
+The  DUP11 is programmable for either byte-oriented protocols (DDCMP or BISYNC) or bit-oriented protocols (CDLC or HDLC).
+The DUP11 is suited for interfacing to a medium-speed synchronous line for remote batch and remote job entry applications.
+**Text-end
 **End-boards-entry{DUP11}
 
 **Start-boards-entry{KCT32}{UNIBUS}{UNIBUS}
