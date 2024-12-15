@@ -22,9 +22,9 @@ pubs = YAML.load_file(pubs_yaml)
 
 tags = DataTags.new(tags_yaml, 'systems', entry_type)
 
-# Load the systems .info file
-terminals = EntriesCollection.create_from_info_file(entry_info, entry_type, tags, refs, pubs)
+# Load and parse the .info file
+collection = EntriesCollection.create_from_info_file(entry_info, entry_type, tags, refs, pubs)
 
 # Output as YAML
-puts(terminals.to_yaml())
+puts(collection.to_yaml())
 

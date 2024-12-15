@@ -373,7 +373,8 @@ class Entry
   attr_reader :line_num
   attr_reader :sys_class
   attr_reader :entry_type
-
+  attr_reader :tags # TODO
+  
   def initialize(identifier, type, sys_class, line_num, tags)
     @identifier = identifier
     @line_num = line_num
@@ -491,7 +492,7 @@ class EntriesCollection
   def each()
     @entries.keys().sort().each() {
       |id|
-      yield id
+      yield(id, @entries[id])
     }
   end
 
