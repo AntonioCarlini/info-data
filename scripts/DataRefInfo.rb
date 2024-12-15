@@ -173,7 +173,7 @@ class References
         raise("Bad end-ref [#{end_id}], expected #{current.identifier()}; read in #{info_filename} at line #{line_num}: #{line}") if end_id != current.identifier()
         ret.add_ref(current)
         next
-      elsif line =~ / \s* \! /ix
+      elsif line =~ /^ \s* \! /ix
         # skip comment line
         next
       elsif current == nil
