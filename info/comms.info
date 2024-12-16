@@ -1211,3 +1211,35 @@ The DESNC is a hardware component of the Ethernet Enhanced Security System which
 **Text-end
 **End-comms-entry{DESNC}
 
+**Start-comms-entry{DETMR}{NETMISC}{NETMISC}
+**Sys-name: DETMR
+**Desc-name: DECrepeater 90T
+**Def-lref{1} = ref{EK-DETMR-OM.001}
+**Def-lref{2} = ref{EC-I1866-42}
+**Ethernet-connection**vref{1}: ThinWire, 10BaseT, DEChub
+**Standalone-PSU**vref{2}: {110V: H7082-AA}{220V: H7082-BA}
+**Dimensions-start{DETMR}
+**Height**vref{1}: 35 mm
+**Width**vref{1}: 280 mm
+**Depth**vref{1}: 140 mm
+**Weight**vref{1}: 0.77 kg
+**Dimensions-end{DETMR}
+**Power-start{DETMR-unit}
+**Label: H7082
+**Supply**vref{1}: 4.75V to 5.25V
+**I-max**vref{1}: 1.0 A
+**Power-end{DETMR-unit}
+**Power-start{DETMR-PSU-120}
+**Label: 120V
+**Supply**vref{1}: 104V - 128V
+**I-max**vref{1}:0.25 A
+**Power**vref{1}: 9 W
+**Power-end{DETMR-PSU-120}
+**Power-start{DETMR-PSU-240}
+**Label: 240V
+**Supply**vref{1}: 208V - 256V
+**I-max**vref{1}: 0.125 A
+**Power**vref{1}: 9 W
+**Power-end{DETMR-PSU-240}
+**End-comms-entry{DETMR}
+

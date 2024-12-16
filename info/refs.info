@@ -11416,6 +11416,13 @@
 **Ref-processed: Yes
 **End-ref{EC-I0765-42}
 
+**Start-ref{EC-I1866-42}
+**Ref-text: Networks Buyer's Guide Anual Edition 1992 - 1993
+**Ref-partno: EC-I1866-42
+**Ref-date: 1992
+**Ref-processed: No
+**End-ref{EC-I1866-42}
+
 **Start-ref{EK-DEPCA-PR-001}
 **Ref-text: PCSA DEPCA Hardware Reference Manual
 **Ref-partno: EK-DEPCA-PR-001
@@ -11465,6 +11472,13 @@
 **Ref-date: 1990-10-09
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd1/sys_opt/div32in2.pdf
 **End-ref{EK-DIV32-IN-002}
+
+**Start-ref{EK-DETMR-OM.001}
+**Ref-text: DECrepeater 90T Owner’s Manual
+**Ref-date: 1991-08
+**Ref-partno: EK-DETMR-OM.001
+**Ref-url: https://web.archive.org/web/20041030162156/http://www.dnpg.com/dr/Legacy/DECrepeaters/documentation/detmr-om.pdf
+**End-ref{EK-DETMR-OM.001}
 
 **Stop-processing
 
