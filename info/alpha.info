@@ -1157,7 +1157,7 @@
 !-- [1] has more data about physical size -->
 !-- [3] indicates 4/200 has integrated SVGA controller -->
 **Announcement**vref{5}: 1994-11-03
-**Last-order**vref{6}: Past
+! **Last-order**vref{6}: Past
 **OS-support-vms**vref{5}: V6.1-1H2
 **OS-support-du**vref{5}: DEC OSF/1 V3.0b
 **Num-proc**vref{4}: 1
@@ -1385,7 +1385,7 @@
 !-- [1]: integrated SVGA controller for both 4/233 and 4/266 -->
 !-- V7-3B 1-Mar-1996 gives Rackmount variant dimensions as: 10.50-inches high by 19-inches wide by 27 inches deep -->
 **Announcement**vref{2}: 1996-01-31
-**FRS-date**htref{1}: March 1996
+**FRS-date**htref{1}: 1996-03
 **Num-proc: 1
 **CPU-clock**vref{2}: 233MHz
 **Backup-cache**htref{1}: 2MB
@@ -1407,7 +1407,7 @@
 !-- V7-3B 1-Mar-1996 gives Rackmount variant dimensions as: 10.50-inches high by 19-inches wide by 27 inches deep -->
 **Announcement**vref{4}: 1996-01-31
 **OS-support-vms: V6.2-1H2
-**FRS-date**htref{1}: March 1996
+**FRS-date**htref{1}: 1996-03
 **Num-proc: 1
 **CPU-clock**vref{4}: 266MHz
 **Backup-cache**htref{1}: 2MB
@@ -1880,7 +1880,7 @@
 **OS-support-vms**vref{4}: V6.1
 **OS-support-DU**vref{4}: DEC OSF/1 V2.0B (uniprocessor), DEC OSF/1 V3.0 (SMP) 
 **OS-support-nt**vref{4}: V3.5
-**FRS-date**vref{4}: Mid-May 1994
+**FRS-date**vref{4}: 1994-05
 **Num-proc**vref{3}: 1-4
 **CPU-clock**vref{3}: 190MHz
 **Cache**vref{3}: 8KB-I/8KB-D
@@ -3515,7 +3515,8 @@
 **Def-lref{1} = ref{SPEC-res-9509}
 **Def-lref{2} = ref{CU-1995-07-15}
 **Announcement**vref{2}: 1995-07-15
-**FRS-date**vref{2}: 1995 Q4
+! vref{2} 1995 Q4
+**FRS-date**vref{2}: 1995
 **OS-support-vms: V6.2-1H3
 **CPU-clock**vref{2}: 300 MHz
 **SPECint92**vref{2}: 334

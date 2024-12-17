@@ -320,9 +320,9 @@
 **document=doc{DEC:EK-VX108-UI-A01} ! VAX 4000 Model 108 User Information
 **document=doc{DEC:EK-VX489-IP-A01} ! MicroVAX 3100 Models 88/98 VAX 4000 Model 108
 **Announcement**vref{6,8}: 1996-10-08
-**FRS-date**vref{6}: 15 November 1996
-**Last-order**vref{7}: 30 September 2000
-**Last-ship**vref{7}: 31 December 2000
+**FRS-date**vref{6}: 1996-11-15
+**Last-order**vref{7}: 2000-09-30
+**Last-ship**vref{7}: 2000-12-31
 **OS-support-VMS: V5.5-2H4
 **Codename: Catamount
 **Html-target: vax410x
@@ -881,7 +881,7 @@
 **Sys-name: VAX 4000-600A
 **Desc-name: VAX 4000 Model 600A
 **Announcement**vref{5}: 1992-07-15
-**FRS-date**uref{??? *SUE Apr 1992 pt II}: 24 April 1992
+**FRS-date**uref{??? *SUE Apr 1992 pt II}: 1992-04-24
 **Last-order**vref{6}: 1993-12-30
 **Last-ship**vref{6}: 1994-03-30
 **Codename: Omega-F
@@ -1730,9 +1730,9 @@ VAX/VMS and ULTRIX-32 are supported.
 **Announcement**vref{7}: 1994-08-15
 **FRS-date**htref{2}: 1994-08-01
 ! Note that this was from {CU-V6-11} and NOT {CU-V6-11A}
-**Last-order**vref{3}: 30 March 1996
+**Last-order**vref{3}: 1996-03-30
 ! Note that this was from {CU-V6-11} and NOT {CU-V6-11A}
-**Last-ship**vref{3}: 29 June 1996
+**Last-ship**vref{3}: 1996-06-29
 **OS-support-VMS**vref{7}: V6.1
 **Num-proc**vref{4,8}: 1-6
 **CPU-names: {VAX 7710}{VAX 7720}{VAX 7730}{VAX 7740}{VAX 7750}{VAX 7760}
@@ -1919,7 +1919,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{1} = ref{VAX-HW-HB-1986-V1} 
 **Def-lref{2} = ref{EG-21731-18}
 **Announcement**vref{2}: 1982-02
-**FCS-date**vref{2}: June 1982
+**FCS-date**vref{2}: 1982-06
 **Codename: Atlas
 **Html-target: vax780
 ! support dropped after VMS V4.7
@@ -3468,7 +3468,8 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **document=doc{DEC:EK-KD32A-PG-001} ! MicroVAX I Pocket Service Guide
 **document=doc{DEC:EK-KD32A-TD-002} ! MicroVAX I CPU Technical Description
 **Announcement**uref{*136}: 1983-10
-**FRS-date**uref{*136}: late 1984
+! uref{*136} says late 1984
+**FRS-date**uref{*136}: 1984
 **Codename**uref{*102}: Seahorse
 ! TODO checked ref{4} - eliminated when output checked
 **OS-support-VMS: MicroVMS V1.0
@@ -3611,7 +3612,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **document=doc{DEC:EK-A0210-IS-001} ! Compact MicroVAX II Technical Information
 **document=doc{DEC:DTJ-V1-2} ! "MicroVAX II System", Digital Technical Journal, Vol 1 No 2, March 1986
 **Announcement**vref{6}: 1985-05-13
-**FRS-date: May 1985
+**FRS-date: 1985-05
 **Last-order**vref{5}: 1991-03-31
 **Codename**vref{7}: Mayflower
 **OS-support-VMS: MicroVMS V4.1M
@@ -3863,7 +3864,8 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **document=doc{DEC:EK-A0606-TM-B01} ! MicroVAX 3100 Model 90 Customer Technical Information
 **document=doc{DEC:EK-A0607-TI-B01} ! MicroVAX 3100 Model 90 Troubleshooting and Diag Information
 **Announcement**vref{3}: 1992-07-15
-**FCS-date**vref{3}: Late 1992-09
+!**FCS-date**vref{3}: Late 1992-09
+**FCS-date**vref{3}: 1992-09
 **Last-order**vref{5}: 1994-06-30
 ! {SUE-1994-06} has Last-ship: 1994-09-30
 **Last-ship**vref{5}: 1994-08-30
@@ -4385,7 +4387,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **document=doc{DEC:EY-4818E-PP-000} ! VAX 8600 Training Print Set
 **document=doc{DEC:EY-4818E-PP-0001} ! VAX 8600 Training Print Set
 **Announcement**vref{7}: 1984-10-31
-**FRS-date: March 1985
+**FRS-date: 1985-03
 **Codename**vref{5}: Venus
 **OS-support-VMS**uref{*2}: V4.0
 **OS-support-VMS-end**vref{6}: V7.3
@@ -4540,7 +4542,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **Def-lref{4} = ref{PRN-1986-04-07-VAX8500}
 **def-lref{5} = ref{ESOC-SPR87}
 **Announcement**vref{4}: 1986-04-07
-**FRS-date: May 1986					
+**FRS-date: 1986-05
 **Codename**uref{*102}: Flounder
 **OS-support-VMS**uref{*26}: V4.4
 **Num-proc**vref{3}: 1
