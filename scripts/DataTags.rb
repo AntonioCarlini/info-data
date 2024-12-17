@@ -9,6 +9,15 @@ def log_fatal(this, line_num, filename, text)
   this.fatal_error_seen = true
 end
 
+# Monkey patch the String class to perform some simple integer checks.
+class String
+
+  # True if the string is a decimal integer (ignoring leading and trailing whitespace)
+  def is_positive_decimal_integer?
+    return false unless self =~ /^\s*[0-9]+\s*/
+    return self.to_i().to_s() == self.strip()
+  end
+end
 
 # A Validator will be called for those tags that specify a validation method
 class Validator
@@ -29,6 +38,12 @@ class Validator
       @validator = method(:enforce_yes_no)
     when "date"
       @validator = method(:enforce_date)
+    when "int"
+      @validator = method(:enforce_positive_decimal_integer)
+    when "int-range"
+      @validator = method(:enforce_integer_range)
+    when "float"
+      @validator = method(:enforce_simple_fp)
     when "regexp"
       @validator = method(:enforce_regexp)
     else
@@ -92,6 +107,24 @@ class Validator
     else
       return false
     end
+  end
+
+  # Check that the supplied text matches a decimal integer
+  def enforce_positive_decimal_integer(text)
+    return text.is_positive_decimal_integer?()
+  end
+
+  # Check that the supplied text matches a decimal integer range
+  # i.e. "N - M", where N and M are positive decimal integers
+  def enforce_integer_range(text)
+    return text =~ /^\s*\d+\s*-\s*\d+\s*$/
+  end
+
+  # Check that the supplied text matches a simple floating point value
+  # That is AAAA.BBBB where there may be 0 or more As, 0 or more Bs and
+  # the decimal point is optional unless at least one B is present
+  def enforce_simple_fp(text)
+    return text =~ /^\d*?(\.\d+?)?$/
   end
 
   # Invokes the chosen validator and returns its result

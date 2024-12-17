@@ -168,6 +168,7 @@
   - Number of processors
   - all
   - cpu_details
+  - optional
 - VMS-CPU:
   - VMS DCL CPU
   - The hexadecimal value returned by the DCL function F$GETSYI("SID") under VMS.
@@ -204,6 +205,7 @@
   - The chip that implements the F-box (FPU)
   - systems
   - cpu_details
+  - optional
 - CPU-technology:
   - CPU technology
   - The technology with which the CPU is fabricated
@@ -352,6 +354,8 @@
   - The number of physical address lines
   - all
   - memory
+  - optional
+  - - int
 - Memory-checking:
   - Memory checking
   - Memory checking
@@ -524,31 +528,39 @@
   - SPECint89 details
   - systems
   - performance
+  - optional
+  - - float
 - SPECfp89:
   - SPECfp89
   - SPECfp89 details
   - systems
   - performance
+  - optional
+  - - float
 - SPECint92:
   - SPECint92
   - SPECint92 details
   - systems
   - performance
+  - optional
 - SPECfp92:
   - SPECfp92
   - SPECfp92 details
   - systems
   - performance
+  - optional
 - SPECint95:
   - SPECint95
   - SPECint95 details
   - systems
   - performance
+  - optional
 - SPECfp95:
   - SPECfp95
   - SPECfp95 details
   - systems
   - performance
+  - optional
 - Height:
   - Height
   - Height
