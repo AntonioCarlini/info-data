@@ -19,6 +19,7 @@
   - all
   - summary
   - required
+  - - date
 - Location:
   - Used to specify HTML file location
   - Used to specify HTML file location
@@ -29,31 +30,43 @@
   - First revenue ship date
   - all
   - summary
+  - optional
+  - - date
 - FCS-date:
   - FCS date
   - First customer ship date
   - all
   - summary
+  - optional
+  - - date
 - Last-order:
   - Last order date
   - Last order date
   - all
   - summary
+  - optional
+  - - date
 - Last-ship:
   - Last ship date
   - Last ship date
   - all
   - summary
+  - optional
+  - - date
 - EOSL:
   - End of service life
   - End of service life
   - all
   - summary
+  - optional
+  - - date
 - EOL:
   - End of life
   - End of life
   - all
   - summary
+  - optional
+  - - date
 - Codename:
   - Codename
   - Codename

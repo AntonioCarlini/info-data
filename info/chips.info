@@ -451,7 +451,8 @@
 **Sys-name: DC21066
 **Desc-name: Digital Semiconductor 21066 Alpha Microprocessor
 **Announcement**vref{2}: 1993-09-27
-**FRS-date**vref{2}: 1994 Q1
+! verf{2} 1994 Q1
+**FRS-date**vref{2}: 1994
 **Codename: LCA
 **Chip-technology**vref{1}: 0.65um CMOS
 **Chip-clock**vref{1}: {100MHz}{166MHz}
@@ -489,7 +490,8 @@
 **Sys-name: DC21068
 **Desc-name: Digital Semiconductor 21068 Alpha Microprocessor
 **Announcement**vref{1}: 1993-09-27
-**FRS-date**vref{1}: 1994 Q1
+! vref{1}: 1994 Q1
+**FRS-date**vref{1}: 1994
 **Chip-clock**vref{1}: 66 MHz
 **End-chips-entry{DC21068}
 
