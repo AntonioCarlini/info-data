@@ -72,7 +72,7 @@ class Validator
     return (day >= 1) && (day <= 31)
   end
 
-  # Check that the supplied text matches Yes or No or Y or N
+  # Check that the supplied text matches a date in the form YYYY[-MM[-DD]].
   def enforce_date(date)
     fields = date.split("-")
     case fields.length()
