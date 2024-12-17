@@ -11480,6 +11480,20 @@
 **Ref-url: https://web.archive.org/web/20041030162156/http://www.dnpg.com/dr/Legacy/DECrepeaters/documentation/detmr-om.pdf
 **End-ref{EK-DETMR-OM.001}
 
+**Start-ref{EK-DECMR-OM.002}
+**Ref-text: DECrepeater 90C Owner’s Manual
+**Ref-partno: EK-DECMR-OM.002
+**Ref-date: 1991-09
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/decmrom2.pdf
+**End-ref{EK-DECMR-OM.002}
+
+**Start-ref{EK-DEHUB-OM-001}
+**Ref-text: DEChub 90 Ethernet Backplane Owners Manual
+**Ref-partno: EK-DEHUB-OM-001
+**Ref-date: 1991-02
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dehubom1.pdf
+**End-ref{EK-DEHUB-OM-001}
+
 **Stop-processing
 
 **Start-ref{
