@@ -30,7 +30,7 @@
 **def-lref{2} = ref{CBR-PR-1988-10-19}
 **def-lref{3} = ref{SOCEE-SPR89}
 ! Read-ahead cache: &	No \\	% [28] -->
-**Announcement**vref{2}: 18th October 1988
+**Announcement**vref{2}: 1988-10-18
 **Capacity**vref{3}: 150MB
 **Form-factor**htref{1}: 5-1/4" half-height
 **Average-access**vref{3}: 29.3ms
@@ -75,8 +75,8 @@
 **Desc-name: RF31 Integrated Storage Element
 !-- VMS V5.3 onwards *58 -->
 **OS-support-ULTRIX**vref{4}: V4.0
-**Last-order**uref{*SUE Jul 1992}: 30 Sept 1992
-**Last-ship**uref{*SUE Jul 1992}: 31 Dec 1992
+**Last-order**uref{*SUE Jul 1992}: 1992-09-30
+**Last-ship**uref{*SUE Jul 1992}: 1992-12-31
 **Capacity**vref{3}: 381 MB
 **Form-factor**vref{3}: 5-1/4" half-height
 **Average-access**vref{3}: 23.6ms
@@ -125,8 +125,8 @@
 **def-lref{3} = ref{CU-1991-12-20}
 **Sys-name: RF31F
 **Desc-name: RF31F Integrated Storage Element
-**Last-order**uref{SUE Jul 1992}: 30 Sept 1992
-**Last-ship**uref{SUE Jul 1992}: 31 Dec 1992
+**Last-order**uref{SUE Jul 1992}: 1992-09-30
+**Last-ship**uref{SUE Jul 1992}: 1992-12-31
 **OS-support-eln**vref{3}: VAXELN V4.3
 **Capacity**vref{1}: 200 MB
 **Form-factor**vref{2}: 5-1/4" full-height
@@ -167,7 +167,7 @@
 **def-lref{2} = ref{CU-1994-05-09}
 **Sys-name: RF31T
 **Desc-name: RF31T Integrated Storage Element
-**Announcement**vref{1}: 15 July 1992
+**Announcement**vref{1}: 1992-07-15
 **Last-order**vref{2}: 1994-07-01
 **Last-ship**vref{2}: 1994-09-30
 **OS-support-vms**uref{*SUE Jul 1992 Spec}: VMS V5.3-1
@@ -333,7 +333,7 @@
 **Sys-name: RF73
 **Desc-name: RF73 Integrated Storage Element
 **Announcement**vref{2}: 1991-11-08
-**FCS-date**vref{2}: November 1991
+**FCS-date**vref{2}: 1991-11
 **Processor**vref{2}: 68020
 **Codename: Shamrock
 **OS-support-VMS**vref{2}: VMS V5.5
@@ -378,7 +378,7 @@
 **Desc-name: RF74 Integrated Storage Element
 **Def-lref{1} = ref{CU-1993-05-10}
 **Def-lref{2} = ref{CU-1994-04-25}
-**Announcement: 26 April 1993
+**Announcement: 1993-04-26
 **Last-order**vref{2}: 1994-05-06
 **Last-ship**vref{2}: 1994-07-29
 **OS-support-VMS**vref{1}: VMS V5.5-2 (OpenVMS AXP V1.5)

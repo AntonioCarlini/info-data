@@ -6,9 +6,9 @@
 **def-lref{3} = ref{ESOC-SPR87}
 **def-lref{4} = ref{SOCEE-SPR89}
 ! [11]: 1.2A @ 5V, 2.6A @12V, 39W, 57.8BTU/hr, 1.59kg
-**Last-order**vref{1}: 26 June 1992	
-!**Last-order**uref{[SUE Feb-2 1992]}: 26 June 1992	
-**Last-ship**uref{SUE Feb-2 1992}: 25 Sept 1992
+**Last-order**vref{1}: 1992-06-26	
+!**Last-order**uref{[SUE Feb-2 1992]}: 1992-06-26
+**Last-ship**uref{SUE Feb-2 1992}: 1992-09-25
 **Capacity**vref{2}: 20MB	
 !  half height	
 **Form-factor**vref{2}: 5-1/4"
@@ -105,7 +105,7 @@
 **Def-lref{2} = ref{EK-PC300-V1-001}
 ! [11]: 35W, 1A@5V, 2.6A@12V, BTU/hr: 119, 3.2kg -->
 **Lifetime**uref{[*DU JUN-86]}:	1984-1985	
-**Announcement**uref{[*SUE 6.5]}: September 1984	
+**Announcement**uref{[*SUE 6.5]}: 1984-09
 **Last-order**vref{1}: 1987-09-14
 **Last-ship**vref{1}: 1987-12-24
 **Capacity**vref{1}: 31MB	
@@ -139,9 +139,9 @@
 **Def-lref{3} = ref{DA-1987-07-10-RD52}
 **def-lref{4} = ref{ESOC-SPR87}
 **def-lref{5} = ref{SOCEE-SPR89}
-!**Last-order**uref{*SUE Feb-2 1992}: 26 June 1992
-**Last-order**vref{2}: 26 June 1992
-**Last-ship**uref{*SUE Feb-2 1992}: 25 Sept 1992
+!**Last-order**uref{*SUE Feb-2 1992}: 1992-06-26
+**Last-order**vref{2}: 1992-06-26
+**Last-ship**uref{*SUE Feb-2 1992}: 1992-09-25
 **Lifetime**uref{*DU-JUN86}: 1983- 
 ! verify capacity is mentioned in vref{3}, was written ref{3}!
 **Capacity**vref{3}: 71MB
@@ -181,9 +181,9 @@
 **Def-lref{1} = ref{EK-LEP07-OM-001}
 **Def-lref{2} = ref{CU-1992-02-21}
 **def-lref{3} = ref{ESOC-SPR87}
-!**Last-order**uref{*SUE Feb-2 1992}: 26 June 1992
-**Last-order**vref{2}: 26 June 1992
-**Last-ship**uref{*SUE Feb-2 1992}: 25 Sept 1992
+!**Last-order**uref{*SUE Feb-2 1992}: 1992-06-26
+**Last-order**vref{2}: 1992-06-26
+**Last-ship**uref{*SUE Feb-2 1992}: 1992-09-25
 **Capacity**vref{2}: 159MB
 **Form-factor**uref{*31}: 5-1/4" full height
 **Average-access**vref{3}: 38.3ms

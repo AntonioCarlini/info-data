@@ -16,7 +16,8 @@
 **Def-lref{3} = ref{SOCEE-SPR89}
 ! TODO bad ref **Announcement**vref{2}: 1987-09-02
 **Last-order**vref{1}: 1992-12-31
-**Last-ship**vref{1}: 1993 Q1
+! **Last-ship**vref{1}: 1993 Q1
+**Last-ship**vref{1}: 1993
 **Interface**vref{1,2}: MASSBUS
 **Read-write-speed**vref{2}: 125in/s streaming
 **Rewind-speed**vref{2}: 440in/s
@@ -33,6 +34,7 @@
 **Def-lref{1} = ref{CU-1992-08-31}
 **Def-lref{2} = ref{DA-1989-01-24-TA90}
 **Last-order**vref{1}: 1992-11-30
-**Last-ship**vref{1}: 1993 Q1
+! **Last-ship**vref{1}: 1993 Q1
+**Last-ship**vref{1}: 1993
 **End-storage-entry{TU90}
 

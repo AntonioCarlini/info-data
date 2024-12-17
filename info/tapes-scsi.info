@@ -60,7 +60,7 @@
 **Desc-name: TKZ60 IBM 3480/3490 Cartridge Tape Drive
 ! Customer Update. Volume 5 Issue 8A. 1st August 1994
 ! [1]: TKZ60 drives built after May 1993 can be upgraded to the new version which supports compression -->
-**Announcement**htref{1}: 1 August 1994
+**Announcement**htref{1}: 1994-08-01
 ! announcement date is (presumably) for the compressed version -->
 ! [2] IBM 3480 cart
 ![2] using 600' cart 220MB native - IBM cart is 540' and gives 200MB native
@@ -236,7 +236,7 @@
 !! Customer Update. Volume 7 Issue 7. 1st August 1996. </TR>
 ! [1] indicates compatible with TKZ08, TKZ09, TLZ08, TZK15, EXB8200/8500/8505 -->
 ! [1]: supports 112m and 164m tapes -->
-**Announcement**htref{1}: 1 August 1996
+**Announcement**htref{1}: 1996-08-01
 **OS-Support-vms**htref{1}: OpenVMS VAX V5.5-2
 !!? **OS-Support-vms**htref{1}: OpenVMS Alpha V6.2
 **OS-support-du**htref{1}: Digital UNIX V3.2
@@ -253,8 +253,8 @@
 **Def-lref{2} = ref{AA-ME85D-TE}
 !-- % SCSI interface *60 ref_1 -->
 !-- % From *20: 4mm DAT using DDS (Digital Data Storage) -->
-**Last-order**uref{*SUE Jul 92}: 28 August 1992
-**Last-ship**uref{*SUE Jul 92}: December 1992
+**Last-order**uref{*SUE Jul 92}: 1992-08-28
+**Last-ship**uref{*SUE Jul 92}: 1992-12
 **OS-support-vms**uref{*149,*122}: VMS V5.3-2 (with patch)
 **OS-support-ULTRIX**vref{2}: V4.0
 **Capacity**uref{*20,*57,*60,*116}: 1.2GB
@@ -291,7 +291,7 @@
 **Def-lref{4} = ref{CU-1994-12-15}
 **Def-lref{5} = ref{CU-1993-05-10}
 ! SCSI interface. 4mm DAT using DDS (Digital Data Storage) with data compression. Read/write compatible with TLZ04 -->
-**Announcement**vref{2}: 15 July 1992
+**Announcement**vref{2}: 1992-07-15
 **Last-order**vref{4}: 1995-01-27
 **OS-Support-vms**vref{2}: VMS V5.5-1
 ! **OS-support-ULTRIX**vref{5}: V4.3A
@@ -377,7 +377,7 @@
 ! [1] compatible with media from TLZ04, TLZ06, TLZ07 -->
 ! [1] search @ approx 100 times nominal r/w speed -->
 ! [1] recording block length: variable or fixed -->
-**Announcement**htref{1}: 1 August 1996
+**Announcement**htref{1}: 1996-08-01
 **OS-Support-vms**htref{1}: OpenVMS VAX V6.1
 !!? **OS-Support-vms**htref{1}: OpenVMS AXP V6.1
 **OS-support-du**htref{1}: Digital UNIX V3.2C
@@ -714,7 +714,7 @@
 **Def-lref{2} = ref{SUE-1994-06}
 ! ?? is this TKZ08 or TZK08 ?? -->
 **Capacity**uref{SUE Aug 1992}: 2.2GB
-**FRS-date**uref{SUE Aug 1992 Iss 1}: May 1991
+**FRS-date**uref{SUE Aug 1992 Iss 1}: 1991-05
 **Last-order**vref{2}: 1994-05-06
 **Last-ship**vref{2}: 1994-05-27
 **End-storage-entry{TKZ08}
@@ -833,7 +833,7 @@
 !-- [1]: supports QIC 3040 (MC) format -->
 !-- [1]: dual-channel head design, 1st head reads+verifies data, 2nd head immediately corrects data errors -->
 !-- [1]: head life: 50,000 hours @ 10% duty, &gt; 15,000 load/eject cycles -->
-**Announcement**htref{1}: 15 August 1996
+**Announcement**htref{1}: 1996-08-15
 **Capacity**htref{1}: 2.3GB
 **OS-Support-vms**htref{1}: OpenVMS VAX V6.2
 !!?**OS-Support-vms**htref{1}: OpenVMS AXP V6.2

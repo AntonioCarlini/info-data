@@ -37,7 +37,7 @@
 !	Tx86 and Tx867 systems introduced 7 July 1992. 6GB (42GB stacker)
 !	Tx85 read compatible but NOT TZ30/TK50/TK70.
 !
-**Announcement**uref{SUE 5.22}: 14 May 1984
+**Announcement**uref{SUE 5.22}: 1984-05-14
 **Capacity**uref{*SOEE85,79}: 60 MB
 !!??<TR> <TD> Access time (from insertion)	<TD> 100s (min) 270s (max)	</TR> <!-- [79] -->
 !!??<TR> <TD> Access time (from rest)	<TD> 61ms (nominal)	</TR> <!-- [79] -->

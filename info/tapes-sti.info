@@ -6,7 +6,8 @@
 **Def-lref{3} = ref{SOCEE-SPR89}
 **Announcement**vref{2}: 1987-09-02
 **Last-order**vref{1}: 1992-12-31
-**Last-ship**vref{1}: 1993 Q1
+! **Last-ship**vref{1}: 1993 Q1
+**Last-ship**vref{1}: 1993
 **Capacity**vref{1}: 145 MB
 **Recording-density**vref{1}: {1600bpi} {6250bpi}
 !**Recording-density**vref{3}: 6250bits/in (GCR), 1600bits/in (PE)

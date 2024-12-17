@@ -225,7 +225,7 @@
 **Def-lref{4} = ref{CU-1991-11-08}
 **Def-lref{5} = ref{CU-1993-03-08}
 !! above lref{2} was lref{1} and should be re-checked
-**Announcement**uref{108}: April 1991
+**Announcement**uref{108}: 1991-04
 **Last-order**vref{5}: 1993-07-02
 **Last-ship**vref{5}: 1993-09-24
 **Capacity**vref{3}: 121MB
@@ -440,7 +440,7 @@
 **Def-lref{5} = ref{CU-1993-05-10}
 **Sys-name: RZ26
 **Desc-name: RZ26 1.05GB SCSI Disk
-**Announcement**vref{3}: 15 July 1992
+**Announcement**vref{3}: 1992-07-15
 **OS-support-ULTRIX**vref{5}: V4.3A
 **Last-order**vref{4}: 1994-02-25
 **Last-ship**vref{4}: 1994-04-01
@@ -882,7 +882,7 @@
 **Desc-name: RZ74 3.57GB SCSI Disk
 **Def-lref{1} = ref{CU-1993-05-10}
 **Def-lref{2} = ref{CU-1994-04-25}
-**Announcement: 26 April 1993
+**Announcement: 1993-04-26
 **Last-order**vref{2}: 1994-05-06
 **Last-ship**vref{2}: 1994-07-29
 **OS-support-VMS**vref{1}: VMS V5.5-2 (OpenVMS AXP V1.5)

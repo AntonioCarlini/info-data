@@ -9,7 +9,8 @@
 **def-lref{3} = ref{SOCEE-SPR89}
 **Announcement**vref{1}: 1988-04-05
 **Last-order**vref{1}: 1992-12-31
-**Last-ship**vref{1}: 1993 Q1
+! **Last-ship**vref{1}: 1993 Q1
+**Last-ship**vref{1}: 1993
 **Average-access**vref{3}: 212.5ms
 **Options-start{RV20}
 **Option-title: Interface Adapter
@@ -23,7 +24,8 @@
 **def-lref{1} = ref{CU-1992-09-21}
 **def-lref{2} = ref{SOCEE-SPR89}
 **Last-order**vref{1}: 1992-08-31
-**Last-ship**vref{1}: 1993 Q1
+! **Last-ship**vref{1}: 1993 Q1
+**Last-ship**vref{1}: 1993
 **Capacity**vref{2}: 64 RV02 Platters (128GB)
 **Options-start{RV64}
 **Option-title: Interface Adapter

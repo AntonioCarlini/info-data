@@ -3,8 +3,8 @@
 **Desc-name: ESE20 120MB Solid State Disk
 **Def-lref{1} = ref{SOCEE-SPR90}
 **Def-lref{2} = ref{CU-1992-10-12}
-**Last-order**vref{2}: 15 November 1992
-**Last-ship**vref{2}: 31 December 1992
+**Last-order**vref{2}: 1992-11-15
+**Last-ship**vref{2}: 1992-12-31
 **Capacity**vref{2}: 120MB
 **OS-support-vms**htref{1}: VMS V5.1
 **OS-support-ultrix**htref{1}: Ultrix V3.1
@@ -28,7 +28,7 @@
 **Def-lref{2} = ref{CU-1995-05-01}
 **Def-lref{3} = ref{DEC-PR-1992-05-29}
 **Announcement**vref{3}: 1992-05-29
-**FRS-date**uref{*SUE Sep 1992}: May 1992
+**FRS-date**uref{*SUE Sep 1992}: 1992-05
 **Last-order**vref{2}: 1995-06-30
 **Capacity**vref{1}: {120MB} {600MB} {1GB}
 **OS-support-VMS**uref{*142}: V5.5
@@ -52,8 +52,8 @@
 **Start-storage-entry{ESE50-B}{SDI}{SOLID}
 **Sys-name: ESE50-B
 **Desc-name: ESE50 120MB/600MB/1GB Solid State Disk
-**Announcement**uref{*SUE Sep 1992}: May 1992
-**FRS-date**uref{*SUE Sep 1992}: May 1992
+**Announcement**uref{*SUE Sep 1992}: 1992-05
+**FRS-date**uref{*SUE Sep 1992}: 1992-05
 **Capacity**uref{*142}: 600MB
 **OS-support-VMS**uref{*142}: V5.5
 **OS-support-CRONIC**uref{8142}: CRONIC V6.0
@@ -76,8 +76,8 @@
 **Start-storage-entry{ESE50-D}{SDI}{SOLID}
 **Sys-name: ESE50-D
 **Desc-name: ESE50 120MB/600MB/1GB Solid State Disk
-**Announcement**uref{*SUE Sep 1992}: May 1992
-**FRS-date**uref{*SUE Sep 1992}: May 1992
+**Announcement**uref{*SUE Sep 1992}: 1992-05
+**FRS-date**uref{*SUE Sep 1992}: 1992-05
 **Capacity**uref{*142}: 1GB
 **OS-support-VMS**uref{*142}: V5.5
 **OS-support-CRONIC**uref{8142}: CRONIC V6.0
@@ -148,8 +148,8 @@
 **Announcement**vref{5}: 1987-09-10
 **OS-support-eln**vref{4}: VAXELN V4.3
 **Capacity**vref{3}: 280MB
-**EOL**vref{3}: 28 March 1992
-**Last-ship**vref{3}: 27 June 1992
+**EOL**vref{3}: 1992-03-28
+**Last-ship**vref{3}: 1992-06-27
 **Form-factor**vref{3}: 5-1/4" full-height
 **Peak-transfer-rate**vref{3,5}: 1.4MB/s
 **Bytes-per-sector**vref{6}: 512	
@@ -421,8 +421,8 @@
 **def-lref{4} = ref{SOCEE-SPR89}
 **Sys-name: RA90
 **Desc-name: RA90 Disk Drive
-**EOL**vref{3}: 28 March 1992
-**Last-ship**vref{3}: 27 June 1992
+**EOL**vref{3}: 1992-03-28
+**Last-ship**vref{3}: 1992-06-27
 **Capacity**vref{3}: 1.216GB	
 **Average-seek**vref{3}: 18.5ms
 **Average-access**vref{3}: 26.8ms	
