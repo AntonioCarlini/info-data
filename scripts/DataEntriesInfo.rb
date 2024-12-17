@@ -236,7 +236,16 @@ class InfoFileHandlerEntry
       if @entry.instance_variable_defined?(instance_variable_name)
         raise("On line #{line_num} in #{@entry.identifier()}, tag #{tag} has been defined again.")
       else
-        # TODO HERE
+        valid = if !@tags[tag].nil?()
+                  @tags[tag].validate_value(value)
+                else
+                  true
+                end
+        if !valid
+          log_fatal(self, line_num, @info_filename, "On line #{line_num} in #{@entry.identifier()} tag #{tag}, badly formatted or invalid data [#{value}].")
+          @fatal_error_seen = true
+        end
+
         # Set the appropriate instance variable to the value+reference(s) specified
         @entry.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
       end

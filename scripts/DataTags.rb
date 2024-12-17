@@ -10,8 +10,7 @@ def log_fatal(this, line_num, filename, text)
 end
 
 
-# A Validator will be called for 
-
+# A Validator will be called for those tags that specify a validation method
 class Validator
 
   attr_accessor :validator
@@ -24,6 +23,8 @@ class Validator
     style = validation_parameters[0]
     
     case style
+    when style.nil?() || style.empty?()
+      @validator = method(:always_valid)
     when "yn"
       @validator = method(:enforce_yes_no)
     when "date"
@@ -31,13 +32,71 @@ class Validator
     when "regexp"
       @validator = method(:enforce_regexp)
     else
+      @validator = method(:always_valid)
       @fatal_error_seen = true
     end
   end
 
+  # Text is always valid, i.e. no actual check is performed
+  def always_valid(text)
+    $stderr.puts("Invoked enforcer always_valid on [#{text}]")
+    return true
+  end
+
+  # Check that the supplied text matches Yes or No or Y or N
   def enforce_yes_no(text)
-    $stderr.puts("Invoked enforcer YN on [#{text}]")
     return text =~ /^(y|n|yes|no)$/ix
+  end
+
+  # Verify that the text supplied matches YYYY and lies in the range [1957, 2100]
+  def check_year(year_text)
+    return false if year_text !~ /^[0-9]{4}$/
+    year = year_text.to_i()
+    # Verify that the year is acceptable
+    return (year >= 1957) && (year < 2100)
+  end
+
+  # Verify that the text supplied matches MM (i.e. 01-12)
+  def check_month(month_text)
+    return false if month_text !~ /^[0-9]{2}$/
+    month = month_text.to_i()
+    # Verify that the month is acceptable
+    return (month >= 1) && (month <= 12)
+  end
+
+  # Verify that the text supplied matches DD (i.e. 01-31)
+  def check_day(day_text)
+    return false if day_text !~ /^[0-9]{2}$/
+    day = day_text.to_i()
+    # Verify that the month is acceptable
+    return (day >= 1) && (day <= 31)
+  end
+
+  # Check that the supplied text matches Yes or No or Y or N
+  def enforce_date(date)
+    fields = date.split("-")
+    case fields.length()
+    when 1
+      # If only year supplied, ensure that it has four digits
+      return check_year(fields[0])
+    when 2
+      return false if ! check_year(fields[0])
+      return false if ! check_month(fields[1])
+      return true
+    when 3
+      return false if ! check_year(fields[0])
+      return false if ! check_month(fields[1])
+      return false if ! check_day(fields[2])
+      # TODO here check that the day is valid for the month i.e. disallow YYYY-02-31
+      return true
+    else
+      return false
+    end
+  end
+
+  # Invokes the chosen validator and returns its result
+  def validate_value(value)
+    return @validator.call(value)
   end
 
 end
@@ -107,6 +166,14 @@ class Tag
     end
   end
   
+  def validate_value(value)
+    if @validate && !@validator.nil?()
+      return @validator.validate_value(value)
+    else
+      return true
+    end
+  end
+  
 end
 
 class DataTags
@@ -156,20 +223,21 @@ class DataTags
     return @tags[name]
   end
 
-  # Return an array of the tags
+  # Return an array of the tag names
   def tags()
     tags = []
     @tags.each() { |k,v| tags << k }
     return tags
   end
 
-  # Return an array of the tags
+  # Return an array of the tag names in uppercase
   def tags_uc()
     tags = []
     @tags.each() { |k,v| tags << k.upcase() }
     return tags
   end
 
+  # Yield for each tag
   def each_in_order()
     @tag_array.each() { |tag| yield tag }
   end
