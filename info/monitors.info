@@ -388,10 +388,10 @@
 **Horizontal-period**htref{1}: 17.707us    
 **H-sync-pulse**htref{1}: 1920ns   
 **V-active-video**htref{1}: 13.599ms   
-**V-blanking-interval**htref{1}: 0.673ms   
+**V-blanking-interval**htref{1}: 673us
 **V-frequency**htref{2}: 50-90Hz (25-45Hz I) 
-**V-front-porch**htref{1}: 0.053ms   
-**V-sync-pulse**htref{1}: 0.106ms   
+**V-front-porch**htref{1}: 53ns   
+**V-sync-pulse**htref{1}: 106ns
 **Vertical-period**htref{1}: @@
 **Dimensions-start{VRC16}
 **Height**htref{1}: 431.8mm   

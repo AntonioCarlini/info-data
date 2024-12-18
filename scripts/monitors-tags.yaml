@@ -155,11 +155,17 @@
   - Horizontal active video
   - all
   - summary
+  - optional
+  - - physical-unit
+    - us
 - H-back-porch:
   - Horizontal back porch
   - Horizontal back porch
   - all
   - summary
+  - optional
+  - - physical-unit
+    - ns
 - H-blanking-interval:
   - Horizontal blanking interval
   - Horizontal blanking interval
@@ -180,11 +186,17 @@
   - Horizontal sync pulse
   - all
   - summary
+  - optional
+  - - physical-unit
+    - ns
 - Horizontal-period:
   - Horizontal-period
   - Horizontal-period
   - all
   - summary
+  - optional
+  - - physical-unit
+    - us
 - Keyboard:
   - Keyboard
   - Keyboard
@@ -205,16 +217,28 @@
   - Vertical active-video
   - all
   - summary
+  - optional
+  - - physical-unit
+    - ms
+    - us
 - V-back-porch:
   - Vertical back-porch
   - Vertical back-porch
   - all
   - summary
+  - optional
+  - - physical-unit
+    - ns
 - V-blanking-interval:
   - Vertical blanking interval
   - Vertical blanking interval
   - all
   - summary
+  - optional
+  - - physical-unit
+    - us
+    - ns
+    - horizontal lines
 - V-frequency:
   - Vertical frequency
   - Vertical frequency
@@ -225,16 +249,29 @@
   - Vertical front porch
   - all
   - summary
+  - optional
+  - - physical-unit
+    - ms
+    - ns
+    - horizontal lines
 - V-sync-pulse:
   - V sync pulse
   - V sync pulse
   - all
   - summary
+  - optional
+  - - physical-unit
+    - ns
+    - horizontal lines
 - Vertical-period:
   - Vertical period
   - Vertical period
   - all
   - summary
+  - optional
+  - - physical-unit
+    - ms
+    - us
 - Video-amplitude:
   - Video amplitude
   - Video amplitude
@@ -280,6 +317,9 @@
   - Dot pitch
   - all
   - summary
+  - optional
+  - - physical-unit
+    - mm
 - Pixels-displayed:
   - Pixels displayed
   - Pixels displayed
@@ -295,6 +335,9 @@
   - Triad pitch
   - all
   - summary
+  - optional
+  - - physical-unit
+    - mm
 - OEM-device:
   - OEM device
   - OEM device
