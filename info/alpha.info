@@ -1395,7 +1395,7 @@
 **BUS-PCI**vref{2}: 7 slots @ 132MB/s
 **BUS-EISA**vref{2}: 2 slots @ 33MB/s
 **BUS-PCI-or-EISA**htref{1}: 1 slots
-**BUS-SCSI**htref{1}: 1 FW
+**BUS-SCSI**htref{1}: 1 (FW)
 **End-systems-entry{AS1000A-4-233}
 
 **Start-systems-entry{AS1000A-4-266}{ALPHA}{AS1000}
@@ -1419,7 +1419,7 @@
 **BUS-PCI**vref{4}: 7 slots @ 132MB/s
 **BUS-EISA**vref{4}: 2 slots @ 33MB/s
 **BUS-PCI-or-EISA**htref{1}: 1 slot
-**BUS-SCSI**htref{1}: 1 FW
+**BUS-SCSI**htref{1}: 1 (FW)
 **End-systems-entry{AS1000A-4-266}
 
 **Start-systems-entry{AS1000A-5-266}{ALPHA}{ALPHASERVER}
@@ -3171,7 +3171,7 @@
 **Maximum-memory**vref{6}: 256MB
 !-- [1] implies future support for 512MB -->
 **BUS-SCSI**htref{1}: 1 @ 10MB/s
-**BUS-PCI**vref{4}: 1 @ 132MB/s, 33MHz
+**BUS-PCI**vref{4}: 1 @ 132MB/s (33MHz)
 **BUS-ISA**vref{4}: 1
 **BUS-PCI-or-ISA**vref{4}: 1
 **LAN-support**vref{4}: 1

@@ -41,6 +41,8 @@ class Validator
       @validator = method(:enforce_date)
     when "int"
       @validator = method(:enforce_positive_decimal_integer)
+    when "sid"
+      @validator = method(:enforce_sid)
     when "int-range"
       @validator = method(:enforce_integer_range)
     when "float"
@@ -50,6 +52,8 @@ class Validator
     when "physical-unit"
       @validator = method(:enforce_physical_unit)
       @parameters = validation_parameters.drop(1)
+    when "bus-spec"
+      @validator = method(:enforce_bus_spec)
     else
       @validator = method(:always_valid)
       $stderr.puts("Saw validation_parameters=[#{validation_parameters}]   [0]=[#{validation_parameters[0]}] [0][0]=[#{validation_parameters[0][0]}] [0][1]=[#{validation_parameters[0][1]}] [1]=[#{validation_parameters[1]}]  class=#{validation_parameters.class} class[0]=#{validation_parameters[0].class} ")
@@ -147,6 +151,18 @@ class Validator
     return @validator.call(value)
   end
 
+  # Check that the supplied text matches a SID or XSID
+  # TODO allow one anomaly: one reported XSID is 7 digits rather than 8. Allow for now.
+  def enforce_sid(text)
+    return text =~ /^0|[0-9a-fA-F]{7,8}$/
+  end
+
+  # Check that the supplied text matches a bus-spec
+  # N - M slots @ X MB/s (any trailing text in parentheses)
+  # "- M" is optional, slot/slots is optional
+  def enforce_bus_spec(text)
+    return text =~ /^\d+(\s*-\s*\d+)?\s*(slots?)?\s*(@\s*\d+(.\d+)?\s*MB\/s)?\s*(\(.*\))?\s*$/
+  end
 end
 
 

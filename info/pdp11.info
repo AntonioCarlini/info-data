@@ -837,7 +837,7 @@
 ! vref{1}: Floppy only, no HDD for Pro325. No network OS download
 **CPU-chip**vref{1}: F-11
 **FPU-chip**vref{1}: FP11
-**BUS-CTI**vref{1}: 3 available
+**BUS-CTI**vref{1}: 3 (available)
 **Power-start{Pro325-115V}
 **Label: 115V
 **Supply**vref{1}: 115V 1-phase
@@ -870,7 +870,7 @@
 ! Keyboard: LK201
 **CPU-chip**vref{1}: F-11
 **FPU-chip**vref{1}: FP11
-**BUS-CTI**vref{1}: 3 available
+**BUS-CTI**vref{1}: 3 (available)
 **Power-start{Pro350-115V}
 **Label: 115V
 **Supply**vref{1}: 115V 1-phase
@@ -901,7 +901,7 @@
 **Announcement**vref{1}: 1984-09-12
 **Minimum-memory**vref{3}: 512KB
 **Maximum-memory**vref{3}: 1MB
-**BUS-CTI**vref{2}: 5 available
+**BUS-CTI**vref{2}: 5 (available)
 **Power-start{Pro380-115V}
 **Label: 115V
 **Supply**vref{2}: 115V 1-phase

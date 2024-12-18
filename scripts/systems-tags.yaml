@@ -189,12 +189,16 @@
   - - vax
     - alpha
   - cpu_details
+  - optional
+  - - sid
 - XSID:
   - XSID
   - The System Extended Identification register
   - - vax
     - alpha
   - cpu_details
+  - optional
+  - - sid
 - CPU-chip:
   - CPU chip
   - The chip that implements the I-box (CPU)
@@ -385,6 +389,8 @@
   - SBI bus details
   - vax
   - io
+  - optional
+  - - bus-spec
 - BUS-MASSBUS:
   - MASSBUS
   - MASSBUS details
@@ -392,12 +398,16 @@
     - pdp11
     - pdp10
   - io
+  - optional
+  - - bus-spec
 - BUS-UNIBUS:
   - UNIBUS
   - UNIBUS details
   - - vax
     - pdp11
   - io
+  - optional
+  - - bus-spec
 - BUS-Qbus:
   - Q-bus
   - Q-bus details
@@ -405,29 +415,39 @@
     - pdp11
     - decmips
   - io
+  - optional
+  - - bus-spec
 - BUS-vaxbi:
   - VAXBI
   - VAXBI bus details
   - - vax
     - decmips
   - io
+  - optional
+  - - bus-spec
 - BUS-XMI:
   - XMI
   - XMI bus details
   - - vax
     - alpha
   - io
+  - optional
+  - - bus-spec
 - BUS-LSB:
   - Laserbus
   - Laserbus details
   - - vax
     - alpha
   - io
+  - optional
+  - - bus-spec
 - BUS-FB:
   - Futurebus
   - Futurebus details
   - all
   - io
+  - optional
+  - - bus-spec
 - BUS-TC:
   - TURBOchannel
   - TURBOchannel bus details
@@ -435,61 +455,83 @@
     - vax
     - alpha
   - io
+  - optional
+  - - bus-spec
 - BUS-DSSI:
   - BUS-DSSI
   - DSSI bus details
   - systems
   - io
+  - optional
+  - - bus-spec
 - BUS-SCSI:
   - BUS SCSI
   - SCSI bus details
   - systems
   - io
+  - optional
+  - - bus-spec
 - BUS-PCI:
   - PCI
   - PCI slot details
   - - alpha
     - decpc
   - io
+  - optional
+  - - bus-spec
 - BUS-EISA:
   - EISA
   - EISA slot details
   - - alpha
     - decpc
   - io
+  - optional
+  - - bus-spec
 - BUS-PCI-or-EISA:
   - PCI or EISA
   - Details of slots that may be PCI or EISA
   - alpha
   - io
+  - optional
+  - - bus-spec
 - BUS-PCI-or-ISA:
   - PCI or ISA
   - Details of slots that may be PCI or ISA
   - - alpha
     - decpc
   - io
+  - optional
+  - - bus-spec
 - BUS-ISA:
   - ISA
   - ISA slot details
   - - alpha
     - decpc
   - io
+  - optional
+  - - bus-spec
 - BUS-MCA:
   - MCA
   - MCA slot details
   - decpc
   - io
+  - optional
+  - - bus-spec
 - BUS-CTI:
   - CTI
   - CTI slot details
   - pdp11
   - io
+  - optional
+  - - bus-spec
 - BUS-PCMCIA:
   - PCMCIA
   - PCMCIA slot details
   - - alpha
     - PC
   - io
+  - optional
+  - - bus-spec
 - BUS-VME:
   - VME
   - VME slot details
