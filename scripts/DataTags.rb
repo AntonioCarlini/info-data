@@ -138,7 +138,8 @@ class Validator
   def enforce_physical_unit(text)
     units = @parameters.compact().join("|")
     r = Regexp.quote("#{units}")
-    return text =~ /^\s*\d*?(\.\d+?)?\s*#{units}\s*$/
+    modifiers = "approx|average|idle|maximum|nominal|operating|peak|printing|seeking|typical"
+    return text =~ /^\s*\d*?(\.\d+?)?\s*#{units}\s*(:(#{modifiers}))?$/
   end
 
   # Invokes the chosen validator and returns its result
