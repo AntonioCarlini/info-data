@@ -207,6 +207,8 @@
   - Arrow keys
   - all
   - summary
+  - optional
+  - - yn
 - Bits-per-char:
   - Bits per char
   - Bits per char
@@ -227,6 +229,8 @@
   - Compose characters
   - all
   - summary
+  - optional
+  - - yn
 - Composite-video:
   - Composite video
   - Composite video
@@ -247,6 +251,8 @@
   - Editing keypad
   - all
   - summary
+  - optional
+  - - yn
 - Frame-rate:
   - Frame rate
   - Frame rate
@@ -272,6 +278,8 @@
   - Last-order
   - all
   - summary
+  - optional
+  - - date
 - Maximum-memory:
   - Maximum memory
   - Maximum memory
@@ -287,6 +295,8 @@
   - Numeric keypad
   - all
   - summary
+  - optional
+  - - yn
 - Printer-port:
   - Printer port
   - Printer port
@@ -307,11 +317,15 @@
   - Retirement
   - all
   - summary
+  - optional
+  - - date
 - SSU-support:
   - SSU support
   - SSU support
   - all
   - summary
+  - optional
+  - - yn
 - Screen-diagonal:
   - Screen diagonal
   - Screen diagonal
@@ -332,6 +346,8 @@
   - Status line
   - all
   - summary
+  - optional
+  - - yn
 - Supply:
   - Supply
   - Supply
@@ -352,11 +368,15 @@
   - VT52 compatibility
   - all
   - summary
+  - optional
+  - - yn
 - VT105-compatibility:
   - VT105 compatibility
   - VT105 compatibility
   - all
   - summary
+  - optional
+  - - yn
 - Phosphor:
   - Phosphor
   - Phosphor
