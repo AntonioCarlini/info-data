@@ -40,13 +40,13 @@
 **Label: 115V
 **Supply**vref{1}: 115V 1-phase
 **I-max**vref{1}:  4.8A
-**Power**vref{1}:  550W:(max)
+**Power**vref{1}:  550W:maximum
 **Power-end{DCL1100-115}
 **Power-start{DCL1100-220}
 **Label: 220V
 **Supply**vref{1}: 220V 1-phase
 **I-max**vref{1}:  2.5A
-**Power**vref{1}:  550W:(max)
+**Power**vref{1}:  550W:maximum
 **Power-end{DCL1100-220}
 **End-printers-entry{DCL1100}
 
@@ -73,13 +73,13 @@
 **Label: 115V
 **Supply**vref{1}: 115V 1-phase
 **I-max**vref{1}:  4.8A
-**Power**vref{1}:  550W:(max)
+**Power**vref{1}:  550W:maximum
 **Power-end{DCL1152-115}
 **Power-start{DCL1152-220}
 **Supply**vref{1}: 220V 1-phase
 **Label: 220V
 **I-max**vref{1}:  2.5A
-**Power**vref{1}:  550W:(max)
+**Power**vref{1}:  550W:maximum
 **Power-end{DCL1152-220}
 **End-printers-entry{DCL1152}
 
@@ -417,7 +417,7 @@
 **Weight**vref{2}: 131kg
 **Dimensions-end{LG31}
 **Power-start{LG31}
-**Power**vref{2}: 400W (printing)
+**Power**vref{2}: 400W:printing
 **Power-end{LG31}
 **End-printers-entry{LG31}
 
@@ -449,13 +449,13 @@
 **Label: 120V
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 8A
-**Power**vref{1}: 360W:(operating)
+**Power**vref{1}: 360W:operating
 **Power-end{LG106-120}
 **Power-start{LG106-230}
 **Label: 230V
 **Supply**vref{1}: 230V 1-phase
 **I-max**vref{1}: 4A
-**Power**vref{1}: 360W:(operating)
+**Power**vref{1}: 360W:operating
 **Power-end{LG106-230}
 **End-printers-entry{LG06}
 

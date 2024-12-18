@@ -151,7 +151,7 @@
 !
 **Power-start{DECBR500}
 **Power**vref{2}: 350 W
-**Heat-dissipation**vref{2}: 1193.5 BTU/h
+**Heat-dissipation**vref{2}: 1193.5 BTU/hr
 **Power-end{DECBR500}
 **Dimensions-start{DEBR500}
 **Height**Vref{2}: 176.8 mm
@@ -375,7 +375,7 @@ The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number o
 **Dimensions-end{DEREP-RA}
 **Power-start{DEREP-AA-115V}
 **Label: DEREP-AA (Local), 115V
-**I-max**vref{1}: 1
+**I-max**vref{1}: 1 A
 **Power-end{DEREP-AA-115V}
 **Power-start{DEREP-AA-230V}
 **Label: DEREP-AA (Local), 230V
@@ -833,14 +833,14 @@ The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number o
 **Supply**vref{3}: 120V 1-phase
 **I-max**vref{3}: 1.1A
 **Power**vref{3}: 168W
-**Heat-dissipation**vref{3}: 574 BTU/h
+**Heat-dissipation**vref{3}: 574 BTU/hr
 **Power-end{LB150-120V}
 **Power-start{LB150-240V}
 **Label: LB150 240V
 **Supply**vref{3}: 240V 1-phase
 **I-max**vref{3}: 0.7A
 **Power**vref{3}: 168W  
-**Heat-dissipation**vref{3}: 574 BTU/h
+**Heat-dissipation**vref{3}: 574 BTU/hr
 **Power-end{LB150-240V}
 **Dimensions-start{LB150-T}
 **Label: LB150 Tabletop
@@ -869,14 +869,14 @@ The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number o
 **Supply**vref{1}: 90V - 128V
 **I-max**vref{1}: 2.3 A
 **Power**vref{1}: 230 W
-**Heat-dissipation**vref{1}: 275 BTU/h
+**Heat-dissipation**vref{1}: 275 BTU/hr
 **Power-end{LB200-120V}
 **Power-start{LB200-240V}
 **Label: LB200 240V
 **Supply**vref{1}: 190V - 256V
 **I-max**vref{1}: 1.2 A
 **Power**vref{1}: 230 W
-**Heat-dissipation**vref{1}: 275 BTU/h
+**Heat-dissipation**vref{1}: 275 BTU/hr
 **Power-end{LB200-240V}
 **Dimensions-start{LB200-T}
 **Label: Tabletop
@@ -982,13 +982,13 @@ The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number o
 **Label: 120V
 **Supply**vref{1}: 100 - 120V
 **Power**vref{1}: 50 W
-**Heat-dissipation**vref{1}: 393 BTU/h
+**Heat-dissipation**vref{1}: 393 BTU/hr
 **Power-end{MUX100-120V}
 **Power-start{MUX100-240V}
 **Label: 240V
 **Supply**vref{1}: 200 - 240V
 **Power**vref{1}: 50 W
-**Heat-dissipation**vref{1}: 393 BTU/h
+**Heat-dissipation**vref{1}: 393 BTU/hr
 **Power-end{MUX100-240V}
 **End-comms-entry{DSRZA}
 
@@ -1007,13 +1007,13 @@ The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number o
 **Label: 120V
 **Supply**vref{1}: 100 - 120V
 **Power**vref{1}: 110 W
-**Heat-dissipation**vref{1}: 375 BTU/h
+**Heat-dissipation**vref{1}: 375 BTU/hr
 **Power-end{MUXserver300-120V}
 **Power-start{MUXserver300-240V}
 **Label: 240V
 **Supply**vref{1}: 200 - 240V
 **Power**vref{1}: 110 W
-**Heat-dissipation**vref{1}: 375 BTU/h
+**Heat-dissipation**vref{1}: 375 BTU/hr
 **Power-end{MUXserver300-240V}
 **End-comms-entry{DSRZC-A}
 
@@ -1033,13 +1033,13 @@ The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number o
 **Label: 120V
 **Supply**vref{1}: 100 - 120V
 **Power**vref{1}: 110 W
-**Heat-dissipation**vref{1}: 375 BTU/h
+**Heat-dissipation**vref{1}: 375 BTU/hr
 **Power-end{MUXserver310-120V}
 **Power-start{MUXserver310-240V}
 **Label: 240V
 **Supply**vref{1}: 200 - 240V
 **Power**vref{1}: 110 W
-**Heat-dissipation**vref{1}: 375 BTU/h
+**Heat-dissipation**vref{1}: 375 BTU/hr
 **Power-end{MUXserver310-240V}
 **End-comms-entry{DSRZC-B}
 
@@ -1058,13 +1058,13 @@ The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number o
 **Label: 120V
 **Supply**vref{1}: 100 - 120V
 **Power**vref{1}: 180 W
-**Heat-dissipation**vref{1}: 614 BTU/h
+**Heat-dissipation**vref{1}: 614 BTU/hr
 **Power-end{DECmux300-120V}
 **Power-start{DECmux300-240V}
 **Label: 240V
 **Supply**vref{1}: 200 - 240V
 **Power**vref{1}: 180 W
-**Heat-dissipation**vref{1}: 614 BTU/h
+**Heat-dissipation**vref{1}: 614 BTU/hr
 **Power-end{DECmux300-240V}
 **End-comms-entry{DM316}
 
@@ -1083,13 +1083,13 @@ The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number o
 **Label: 120V
 **Supply**vref{1}: 100 - 120V
 **Power**vref{1}: 33 W
-**Heat-dissipation**vref{1}: 210 BTU/h
+**Heat-dissipation**vref{1}: 210 BTU/hr
 **Power-end{DECMUX2-120V}
 **Power-start{DECMUX2-240V}
 **Label: 240V
 **Supply**vref{1}: 200 - 240V
 **Power**vref{1}: 33 W
-**Heat-dissipation**vref{1}: 210 BTU/h
+**Heat-dissipation**vref{1}: 210 BTU/hr
 **Power-end{DECMUX2-240V}
 **End-comms-entry{DFMZA}
 
@@ -1190,14 +1190,14 @@ However, it may only perform one of these functions at any given time and changi
 **Supply**vref{2}: 88 - 132V
 **I-max**vref{2}: 1.6 A
 **Power**vref{2}: 160 W
-**Heat-dissipation**vref{2}: 500 BTU/h
+**Heat-dissipation**vref{2}: 500 BTU/hr
 **Power-end{DEREN-120V}
 **Power-start{DEREN-240V}
 **Label: 240V
 **Supply**vref{2}: 176 - 264V
 **I-max**vref{2}: 0.8 A
 **Power**vref{2}: 160 W
-**Heat-dissipation**vref{2}: 500 BTU/h
+**Heat-dissipation**vref{2}: 500 BTU/hr
 **Power-end{DEREN-240V}
 **End-comms-entry{DEREN}
 

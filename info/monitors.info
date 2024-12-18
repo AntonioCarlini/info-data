@@ -95,7 +95,7 @@
 **Weight**vref{1}: 23kg      
 **Dimensions-end{VR160}
 **Power-start{VR160}
-**Power**vref{1}: {150W:max @ 250VA} {125W:nominal @ 200VA}
+! TODO **Power**vref{1}: {150W:maximum @ 250VA} {125W:nominal @ 200VA}
 **Power-end{VR160}
 **End-monitors-entry{VR160}
 
@@ -139,7 +139,7 @@
 **Pixels-displayed**vref{4}: 1024     
 **H-sync-pulse**vref{4}: 1850ns   
 **V-active-video**vref{4}: 16.0ms   
-**V-blanking-interval**vref{4}: 37 horizontal lines:max 
+**V-blanking-interval**vref{4}: 37 horizontal lines:maximum
 **V-frequency**vref{4}: 60Hz        
 **V-front-porch**vref{4}: 0 horizontal lines  
 **Lines-displayed**vref{4}: 864      
@@ -202,7 +202,7 @@
 **H-front-porch**htref{1}: 160ns     
 **H-sync-pulse**htref{1}: 1850ns   
 **V-active-video**htref{1}: 16.0ms   
-**V-blanking-interval**htref{1}: 37 horizontal lines:max 
+**V-blanking-interval**htref{1}: 37 horizontal lines:maximum
 **V-frequency**htref{1}: 60Hz        
 **V-front-porch**htref{1}: 0 horizontal lines  
 **Lines-displayed**htref{1}: 868      
@@ -249,7 +249,7 @@
 **Weight**vref{2}: 32kg
 **Dimensions-end{VR299}
 **Power-start{VR299}
-**Power**vref{2}: 150W:max
+**Power**vref{2}: 150W:maximum
 **Power-end{VR299}
 **End-monitors-entry{VR299}
 
