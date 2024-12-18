@@ -86,11 +86,13 @@
 **Physical-address-lines**htref{**1}: 18
 **Dimensions-start{1140}
 **Label: PDP-11/40
-**Weight**vref{1}: 200lbs (CPU)	
+! vref{1}: 200lbs (CPU)	
+**Weight**vref{1}: 200lbs
 **Dimensions-end{1140}
 **Dimensions-start{1135}
 **Label: PDP-11/35
-**Weight**vref{1}: 120lbs (CPU)	
+! vref{1}: 120lbs (CPU)	
+**Weight**vref{1}: 120lbs
 **Dimensions-end{1135}
 **Power-start{1135}
 **Label: PDP-11/35
@@ -251,7 +253,7 @@
 **Depth**vref{2}: 690mm
 **Weight**vref{2}: 20 kg
 **Dimensions-end{Rackmount}
-**Heat-dissipation**vref{2}: 598 BTU
+**Heat-dissipation**vref{2}: 598 BTU/hr
 ! vref{1}: notes sizes and power.
 **End-systems-entry{PDP1124}
 
@@ -535,28 +537,28 @@
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 15A
 **Power**vref{1}: 1100W
-**Heat-dissipation**vref{1}: 3750 BTU
+**Heat-dissipation**vref{1}: 3750 BTU/hr
 **Power-end{1194E-120V}
 **Power-start{1194E-240V}
 **Label: 11/94E 230V
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 7.5A
 **Power**vref{1}: 1100W
-**Heat-dissipation**vref{1}: 3750 BTU
+**Heat-dissipation**vref{1}: 3750 BTU/hr
 **Power-end{1194E-240V}
 **Power-start{11X94EAND11W94E-120V}
 **Label: 11X94E & 11W94E 120V
 **Supply**vref{1}: 120V 1-phase
 **I-max**vref{1}: 24A
 **Power**vref{1}: 1728W
-**Heat-dissipation**vref{1}: 3750 BTU
+**Heat-dissipation**vref{1}: 3750 BTU/hr
 **Power-end{11X94EAND11W94E-120V}
 **Power-start{11X94EAND11W94E-240V}
 **Label: 11X94E & 11W94E 240V
 **Supply**vref{1}: 240V 1-phase
 **I-max**vref{1}: 12A
 **Power**vref{1}: 1728W
-**Heat-dissipation**vref{1}: 3750 BTU
+**Heat-dissipation**vref{1}: 3750 BTU/hr
 **Power-end{11X94EAND11W94E-240V}
 **End-systems-entry{PDP1194}
 

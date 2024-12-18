@@ -1025,7 +1025,8 @@
 **Height**vref{6}: 430 mm
 **Width**vref{6}: 180 mm
 **Depth**vref{6}: 430 mm
-**Weight**vref{6}: 12+ kg
+! **Weight**vref{6}: 12+ kg
+**Weight**vref{6}: 12 kg
 **Dimensions-End{AS400-4-166}
 **Power-start{AS400-4-166-240V}
 **Label: 240V
@@ -1082,7 +1083,8 @@
 **Height**vref{7}: 431.8mm
 **Width**vref{7}: 431.8mm
 **Depth**vref{7}: 177.8mm
-**Weight**vref{7}: 12+ kg
+! **Weight**vref{7}: 12+ kg
+**Weight**vref{7}: 12 kg
 **Dimensions-end{AS400-4-233}
 **Options-start{AS400-4-233}
 **Option-title: Memory
@@ -1972,7 +1974,7 @@
 **Height**vref{5}: 350 mm
 **Width**vref{5}: 450 mm
 **Depth**vref{5}:  660 mm
-**Weight**vref{5}: 45,5 kg
+**Weight**vref{5}: 45.5 kg
 **Dimensions-end{AS2100-4-233-Rackmount}
 **Dimensions-start{AS2100-4-233-Cabinet}
 **Label: H9A10-Cx Cabinet
@@ -2132,7 +2134,7 @@
 **Height**vref{4}: 350 mm
 **Width**vref{4}: 450 mm
 **Depth**vref{4}:  660 mm
-**Weight**vref{4}: 45,5 kg
+**Weight**vref{4}: 45.5 kg
 **Dimensions-end{AS2100-5-250-Rackmount}
 **Dimensions-start{AS2100-5-250-Cabinet}
 **Label: H9A10-Cx Cabinet
@@ -2966,7 +2968,8 @@
 **Height**vref{9}: 100 mm
 **Width**vref{9}: 430 mm
 **Depth**vref{9}: 410 mm
-**Weight**vref{9}: 11 - 14 kg
+! **Weight**vref{9}: 11 - 14 kg
+**Weight**vref{9}: 11 kg
 **Dimensions-End{AST200-4-100}
 **Power-start{AST200-4-100-240V}
 **Label: 240V
@@ -3176,7 +3179,8 @@
 **Height**vref{6}: 100 mm
 **Width**vref{6}: 430 mm
 **Depth**vref{6}: 410 mm
-**Weight**vref{6}: 11 - 14 kg
+! **Weight**vref{6}: 11 - 14 kg
+**Weight**vref{6}: 11 kg
 **Dimensions-End{AST250-4-266}
 **Power-start{AST250-4-266-240V}
 **Label: 240V
@@ -3329,7 +3333,8 @@
 **Height**vref{5}: 430 mm
 **Width**vref{5}: 180 mm
 **Depth**vref{5}: 430 mm
-**Weight**vref{5}: 12+ kg
+! **Weight**vref{5}: 12+ kg
+**Weight**vref{5}: 12 kg
 **Dimensions-End{AS400-4-233}
 **Options-start{AS400-4-233}
 **Option-title: Memory
