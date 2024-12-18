@@ -20,7 +20,7 @@
 **Power-start{THZ02}
 **Positive-5V-current**vref{1}: 4.50A:(max)
 **Positive-12V-current**vref{1}: 2.60A:(max)
-**Power**vref{1}: 40W:(max)
+**Power**vref{1}: 40W:maximum
 **Power-end{THZ02}
 **Dimensions-start{THZ02}
 **Height**vref{1}: 100.3mm

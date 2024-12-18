@@ -73,7 +73,7 @@
 **Interface**htref{2}: SCSI-2
 ! [1]: size is 5.25"H x 8.55"W x 21.5"D -->
 **Power-start{TKZ60}
-**Power**vref{2}:  180W:(max)
+**Power**vref{2}:  180W:maximum
 **Power-end{TKZ60}
 **Dimensions-start{TKZ60}
 **Height**vref{2}: 114mm
@@ -269,11 +269,11 @@
 **Recording-density**uref{*122}: 61000 bpi
 **Power-start{embedded}
 **Label: Embedded
-**Power**uref{*122}: 15W (average)
+**Power**uref{*122}: 15W:average
 **Power-end{embedded}
 **Power-start{tabletop}
 **Label: Tabletop
-**Power**uref{*122}: 50W (average)
+**Power**uref{*122}: 50W:average
 **Power-end{tabletop}
 !-- From *122 -->
 !--	Height	Width	Depth	Weight -->
@@ -309,11 +309,11 @@
 **Recording-density**htref{1}: 61000 bpi
 **Power-start{embedded}
 **Label: Embedded
-**Power**uref{*122}: 15W (average)
+**Power**uref{*122}: 15W:average
 **Power-end{embedded}
 **Power-start{tabletop}
 **Label: Tabletop
-**Power**uref{*122}: 50W (average)
+**Power**uref{*122}: 50W:average
 **Power-end{tabletop}
 !-- From *122: -->
 !--%	Height	Width	Depth	Weight -->
@@ -391,7 +391,7 @@
 **Buffer-size**htref{1}: 1MB
 **Interface**htref{1}: SCSI-2
 **Power-start{TLZ09}
-**Power**htref{1}: 9.9W (average)
+**Power**htref{1}: 9.9W:average
 **Power-end{TLZ09}
 **Dimensions-start{TLZ09-em}
 **Label: Embedded
@@ -477,12 +477,12 @@
 **Power-start{TSZ07-120V}
 **Label: 120V
 **Supply**vref{1}: 120V 1-phase
-**Power**vref{1}: 400W:(max)
+**Power**vref{1}: 400W:maximum
 **Power-end{TSZ07-120V}
 **Power-start{TSZ07-240V}
 **Label: 240V
 **Supply**vref{1}: 240V 1-phase
-**Power**vref{1}: 400W:(max)
+**Power**vref{1}: 400W:maximum
 **Power-end{TSZ07-240V}
 
 **End-storage-entry{TSZ07}
@@ -508,7 +508,7 @@
 **Power-start{TZ30}
 **Positive-5V-current**uref{103}: 1.2A
 **Positive-12V-current**uref{103}: 1.0A
-**Power**uref{103}: {20W:(nominal)}{30W:(peak)}
+! TODO **Power**uref{103}: {20W:(nominal)}{30W:(peak)}
 **Power-end{TZ30}
 **Dimensions-start{TZ30}
 **Height**vref{1}: 41.4mm
@@ -576,7 +576,7 @@
 **Power-start{TZ85}
 **Positive-5V-current**vref{1}: 3.5A
 **Positive-12V-current**vref{1}: 1.2A
-**Power**vref{1}: 40W:(max)
+**Power**vref{1}: 40W:maximum
 **Power-end{TZ85}
 **End-storage-entry{TZ85}
 
@@ -646,7 +646,7 @@
 **Power-start{TZ86}
 **Positive-12V-current**vref{1}: 1.2A
 **Positive-5V-current**vref{1}: 3.5A
-**Power**vref{1}: 40W:(max)
+**Power**vref{1}: 40W:maximum
 **Power-end{TZ86}
 **End-storage-entry{TZ86}
 
@@ -687,7 +687,7 @@
 !! TODO REDEFINED **Recording-format**vref{2}: 2,7 RLL code (TZ87), MFM (TK85/86)
 **Recording-density**vref{1}: 62500 bpi
 **Power-start{TZ87}
-**Power**vref{2}: 27W:(max)
+**Power**vref{2}: 27W:maximum
 **Power-end{TZ87}
 **Dimensions-start{TZ87}
 **Height**vref{2}: 3.235"
@@ -759,7 +759,7 @@
 **Power-start{TZK10}
 **Positive-12V-current**vref{1}: 1.0A
 **Positive-5V-current**vref{1}: 1.2A
-**Power**vref{1}: {20W:(nominal)}{33W:(peak)}
+! TODO **Power**vref{1}: {20W:nominal}{33W:peak}
 **Power-end{TZK10}
 
 !<TR> <TH> Cartridge	<TH> Capacity	<TH> Format	<TH> Capability	</TR>
@@ -808,7 +808,7 @@
 **Power-start{TZK11}
 **Positive-12V-current**vref{1}: 1.0A
 **Positive-5V-current**vref{1}:  1.2A
-**Power**vref{1}: 33W (peak), 20W (nominal)
+! TODO **Power**vref{1}: 33W (peak), 20W (nominal)
 **Power-end{TZK11}
 **Dimensions-start{TZK11-embedded}
 **Label: Embedded
@@ -849,7 +849,7 @@
 !**Search-speed**htref{1}: 47.2 ips
 **MTBF**htref{1}: 200,000 hours
 **Power-start{TZK20}
-**Power**htref{1}: {12.1W:(operating)}{3.5W:(standby)}
+! TODO **Power**htref{1}: {12.1W:operating}{3.5W:standby}
 **Power-end{TZK20}
 **Dimensions-start{TZK20-3p5}
 **Label: 3-1/2" internal
