@@ -234,7 +234,7 @@
 **Dimensions-end{RL01}
 **Power-start{RL01-120V}
 **Supply**vref{1}: 90 - 127V
-**Heat-dissipation**vref{1}: 546 BTU/h
+**Heat-dissipation**vref{1}: 546 BTU/hr
 **Power**vref{1}: 160W
 **Power-end{RL01-120V}
 **End-storage-entry{RL01}
@@ -291,7 +291,7 @@
 **Dimensions-end{RL02}
 **Power-start{RL02-120V}
 **Supply**vref{2}: 90 - 127V
-**Heat-dissipation**vref{2}: 546 BTU/h
+**Heat-dissipation**vref{2}: 546 BTU/hr
 **Power**vref{2}: 160W
 **Power-end{RL02-120V}
 **End-storage-entry{RL02}

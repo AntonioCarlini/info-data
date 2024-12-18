@@ -56,7 +56,7 @@
 !!**Servo-type**uref{0}: Fully embedded
 **Interface**htref{1}: DSSI
 **Power-start{RF30}
-**Power**vref{3}: 14W:(average)
+**Power**vref{3}: 14W:average
 **Power-end{RF30}
 **Dimensions-start{RF30}
 **Height**vref{3}: 41.1mm
@@ -360,7 +360,7 @@
 **Start-time**vref{1}: < 60s
 **Stop-time**vref{1}: < 15s
 **Power-start{RF73}
-**Power**vref{2}: 23W (typical)
+**Power**vref{2}: 23W:typical
 **Positive-5V-current**vref{1}: 1.2A
 **Positive-12V-current**vref{1}: 5.0A:typical
 **Power-end{RF73}
@@ -391,7 +391,7 @@
 ! TODO verify this ref ... was '*vref' with single '*'
 **Rotational-speed**vref{1}: 5400rpm
 **Power-start{RF74}
-**Power: 35W:(typical)
+**Power: 35W:typical
 **Power-end{RF74}
 **End-storage-entry{RF74}
 

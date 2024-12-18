@@ -271,7 +271,7 @@
 ! TODO was vtref
 **Interface**vref{3}: SDI
 **Power-start{RA72}
-**Power**uref{[116]}: 54W:(typical)	
+**Power**uref{[116]}: 54W:typical
 **Heat-dissipation**uref{[116]}: 193BTU/hr	
 **Power-end{RA72}
 **Dimensions-start{RA72}
