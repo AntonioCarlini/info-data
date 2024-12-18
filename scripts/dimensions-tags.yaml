@@ -8,18 +8,40 @@
   - Height
   - all
   - summary
+  - optional
+  - - physical-unit
+    - mm
+    - "\""
+    - in
 - Depth:
   - Depth
   - Depth
   - all
   - summary
+  - optional
+  - - physical-unit
+    - mm
+    - "\""
+    - in
 - Width:
   - Width
   - Width
   - all
   - summary
+  - optional
+  - - physical-unit
+    - mm
+    - "\""
+    - in
 - Weight:
   - Weight
   - Weight
   - all
   - summary
+  - optional
+  - - physical-unit
+    - kg
+    - g
+    - lb
+    - lbs
+    - oz

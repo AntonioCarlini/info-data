@@ -366,11 +366,15 @@
   - Memory cycle
   - all
   - memory
+  - optional
+  - - physical-unit
+    - ns
 - on-board-memory:
   - On-board memory
   - On-board memory
   - all
   - memory
+  - optional
 - Max-I/O-throughput:
   - Max I/O throughput
   - Max I/O throughput

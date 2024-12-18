@@ -13,33 +13,61 @@
   - Power
   - all
   - summary
+  - optional
+  - - physical-unit
+    - W
 - I-max:
   - I (max)
   - I (max)
   - all
   - summary
+  - optional
+  - - physical-unit
+    - A
+    - mA
 - I-inrush:
   - I (inrush)
   - I (inrush)
   - all
   - summary
+  - optional
+  - - physical-unit
+    - A
+    - mA
 - I-nominal:
   - I (nominal)
   - I (nominal)
   - all
   - summary
+  - optional
+  - - physical-unit
+    - A
+    - mA
 - Positive-5V-current:
   - Positive-5V-current
   - Positive-5V-current
   - all
   - summary
+  - optional
+  - - physical-unit
+    - A
+    - mA
 - Positive-12V-current:
   - Positive-12V-current
   - Positive-12V-current
   - all
   - summary
+  - optional
+  - - physical-unit
+    - A
+    - mA
 - Heat-dissipation:
   - Heat dissipation
   - Heat dissipation
   - all
   - summary
+  - optional
+  - - physical-unit
+    - BTU/hr
+    - W
+    - kJ/hr
