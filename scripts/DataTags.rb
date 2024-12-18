@@ -180,6 +180,10 @@ class Tag
       end
     @always_display = 
       if properties.size() >= 5
+        if properties[4] !~ /^required|optional$/ix
+          $stderr.puts("FATAL ERROR: Bad always_display seen for #{name}: #{properties[4]}")
+          @fatal_error_seen = true
+        end
         properties[4] =~/required/i
       else
         false
