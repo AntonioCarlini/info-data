@@ -17,7 +17,8 @@
 **Average-transfer-rate**vref{1}: 175.2KB/s
 **Average-access**vref{2}: 500ms
 **Maximum-access**vref{2}: 1000ms
-**Average-latency**vref{1}: {155ms:outer track}{60ms:inner track}
+! TODO **Average-latency**vref{1}: {155ms:outer track}{60ms:inner track}
+**Average-latency**vref{1}: 155ms
 **Power-start{RRD40}
 **Heat-dissipation**vref{2}: 14W:(typical)
 ! TODO **Heat-dissipation**htref{2}**uref{*122}: 50W:(tabletop)
@@ -188,7 +189,8 @@
 **document=doc{DEC:EK-M7552-TM} ! RRD50 Q-Bus Controller Technical Manual
 **Capacity**vref{1}: 600MB
 **Average-transfer-rate**vref{1}: 176.4KB/s
-**Average-access**vref{1}: < 2s 
+! TODO **Average-access**vref{1}: < 2s 
+**Average-access**vref{1}: 2s 
 **Maximum-access**vref{1}: < 6s
 **Average-latency**vref{1}: 400ms:(outer track)
 **Soft-error-rate**vref{1}: < 1 in 10^9

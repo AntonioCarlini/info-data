@@ -390,7 +390,8 @@
 ! [2]
 **Peak-transfer-rate**htref{1}:	{1.0MB/s:ED}{500KB/s:HD}{250KB/s:DD}
 **Average-latency**vref{3}: 100ms
-**Average-seek**vref{3}: < 95ms
+! TODO **Average-seek**vref{3}: < 95ms
+**Average-seek**vref{3}: 95ms
 !!**Minimum-seek**htref{1}: 3ms
 **Sectors-per-track**htref{1}: {36:ED}{18:HD}{9:DD}
 **Track-density**vref{3}: 135tpi

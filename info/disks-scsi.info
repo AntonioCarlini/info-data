@@ -89,7 +89,9 @@
 **Form-factor**vref{1}: 3.5"
 **Average-seek**vref{1}: 14ms
 **Buffer-size**vref{1}: 60KB
+**Dimensions-start{PCXAR-AB}
 **Weight**vref{1}:1.8lb
+**Dimensions-end{PCXAR-AB}
 **Interface**vref{1}: SCSI
 **End-storage-entry{PCXAR-AB}
 
@@ -236,7 +238,8 @@
 **Average-latency: 8.8ms
 **Average-seek**vref{4}: 19ms
 **Track-track-seek**htref{1}: 8ms
-**Maximum-seek**htref{1}: 35ms ! 103=> 45ms -->
+! TODO **Maximum-seek**htref{1}: 35ms ! 103=> 45ms -->
+**Maximum-seek**htref{1}: 35ms
 **Buffer-size**vref{4}: 64KB
 **Bytes-per-sector**uref{103}: 512
 **Sectors-per-track**uref{103}: 33
@@ -325,7 +328,8 @@
 **Average-latency**htref{1}: 6.97ms
 **Average-seek**vref{2}: 16ms
 **Average-access**vref{2}: 23ms
-**Maximum-seek**htref{1}: < 30ms
+! TODO **Maximum-seek**htref{1}: < 30ms
+**Maximum-seek**htref{1}: 30ms
 **Buffer-size**vref{2}: 256KB
 **Track-density**htref{1}: 1930 tpi
 **Recording-density**htref{1}: 38600 bpi
@@ -566,7 +570,7 @@
 **Peak-transfer-rate**htref{1}: {10.0MB/s:(synch)}{3.4MB/s-5.4MB/s:(to/from media)}
 **Average-access**htref{1}: 16ms
 **Average-latency**htref{1}: 5.54ms
-**Average-seek**htref{1}: {9.0ms:(read)}{10.5ms:(write)}
+! TODO **Average-seek**htref{1}: {9.0ms:(read)}{10.5ms:(write)}
 **Maximum-seek**htref{1}: 19ms
 **Buffer-size**htref{1}: 256KB
 **Blocks-per-track**htref{1}: 82.5
@@ -865,7 +869,8 @@
 **Form-factor**vref{1}: 5-1/4" full-height
 **Codename: Shamrock
 **Average-access: 21.3ms
-**Average-seek**vref{2}: 12.0-15.0ms
+! TODO **Average-seek**vref{2}: 12.0-15.0ms
+**Average-seek**vref{2}: 15.0ms
 **Peak-transfer-rate**vref{2}: {2.7MB/s:(to/from media)}{5.0MB/s:(synch)}{10.0MB/s:(asynch)}
 **Rotational-speed**vref{2}: 3600 rpm
 **Recording-density**vref{2}: 43880 bpi

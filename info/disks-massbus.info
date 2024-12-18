@@ -113,7 +113,7 @@
 **Average-seek**uref{99}: 28ms
 **Average-latency**uref{99}: 8.3ms
 !!**One-cylinder-seek**uref{99}: 7ms
-**Maximum-seek**uref{0}: 50ms:(typ)
+**Maximum-seek**uref{0}: 50ms:typical
 **Transfer-rate**uref{99}: 806KB/s
 **Num-media-surfaces**uref{11}: 19 data, 1 servo
 **Tracks-per-surface**uref{11,99}: 411

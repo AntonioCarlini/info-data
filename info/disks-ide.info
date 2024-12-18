@@ -6,7 +6,8 @@
 **Def-lref{1} = ref{CU-1992-02-21}
 **Capacity**vref{1}: 85MB
  **Form-factor**vref{1}: 3.5"
-**Average-seek**vref{1}: <19ms
+! TODO **Average-seek**vref{1}: <19ms
+**Average-seek**vref{1}: 19ms
 **Bytes-per-block**vref{1}: 512
 **Sectors-per-track**vref{1}: 38
 **Peak-transfer-rate**vref{1}: 6.5MB/s (to/from buffer)
@@ -75,7 +76,9 @@
 **Form-factor**vref{1}: 2.5"
 **Average-seek**vref{1}: 19ms
 **Buffer-size**vref{1}: 32KB
+**Dimensions-start{PCWXR-CA}
 **Weight**vref{1}: 7oz
+**Dimensions-end{PCWXR-CA}
 **Interface**vref{1}: IDE
 **End-storage-entry{PCWXR-CA}
 

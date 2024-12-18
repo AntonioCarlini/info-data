@@ -152,56 +152,6 @@
   - Max I/O throughput
   - all
   - io
-- Height:
-  - Height
-  - Height
-  - all
-  - dimensions
-- Width:
-  - Width
-  - Width
-  - all
-  - dimensions
-- Depth:
-  - Depth
-  - Depth
-  - all
-  - dimensions
-- Weight:
-  - Weight
-  - Weight
-  - all
-  - dimensions
-- Supply:
-  - Supply
-  - Mains supply characteristics
-  - all
-  - power
-- I-max:
-  - I(max)
-  - Maximum current drawn
-  - all
-  - power
-- I-inrush:
-  - I(inrush)
-  - Maximum inrush current
-  - all
-  - power
-- Power:
-  - Power
-  - Power consumption
-  - all
-  - power
-- Heat-dissipation:
-  - Heat dissipation
-  - Heat dissipation
-  - all
-  - power
-- Label:
-  - Label
-  - Label
-  - all
-  - power
 - Option-title:
   - Options
   - Options
@@ -232,36 +182,59 @@
   - Average access
   - all
   - io
+  - optional
+  - - physical-unit
+    - ms
+    - s
 - Average-seek:
   - Average seek
   - Average seek
   - all
   - io
+  - optional
+  - - physical-unit
+    - ms
 - Maximum-seek:
   - Maximum seek
   - Maximum seek
   - all
   - io
+  - optional
+  - - physical-unit
+    - ms
 - Average-latency:
   - Average latency
   - Average latency
   - all
   - io
+  - optional
+  - - physical-unit
+    - ms
+    - us
 - Maximum-latency:
   - Maximum latency
   - Maximum latency
   - all
   - io
+  - optional
+  - - physical-unit
+    - ms
 - Head-switch-latency:
   - Head switch latency
   - Head switch latency
   - all
   - io
+  - optional
+  - - physical-unit
+    - ms
 - Track-track-seek:
   - Track to track seek
   - Track to track seek
   - all
   - io
+  - optional
+  - - physical-unit
+    - ms
 - Transfer-rate:
   - Transfer rate
   - Transfer rate
