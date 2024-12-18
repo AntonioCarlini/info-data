@@ -23,9 +23,9 @@ class InfoFileHandlerDimensions
     @local_refs_non_vref_count = {}
     @refs = refs
     @pubs = pubs
-    permitted_tags = DataTags.new('scripts/dimensions-tags.yaml', 'systems', 'decvt').tags()  ## TODO hard-coded filename for now
-    @permitted_tags_uc = permitted_tags.map(&:upcase)
-    @dimensions = Dimensions.new(@id, line_num, permitted_tags)
+    @tags = DataTags.new('scripts/dimensions-tags.yaml', 'systems', 'decvt')  ## TODO hard-coded filename for now
+    @permitted_tags_uc = @tags.tags().map(&:upcase)
+    @dimensions = Dimensions.new(@id, line_num, @tags.tags())
     @allow_only_vref = allow_only_vref
   end
 
@@ -93,6 +93,15 @@ class InfoFileHandlerDimensions
       if @entry.instance_variable_defined?(instance_variable_name)
         raise("On line #{line_num} in #{@entry.identifier()}, tag #{tag} has been defined again.")
       else
+        valid = if !@tags[tag].nil?()
+                  @tags[tag].validate_value(value)
+                else
+                  true
+                end
+        if !valid
+          log_fatal(self, line_num, @info_filename, "On line #{line_num} in Dimensions{#{@id}} tag #{tag}, badly formatted or invalid data [#{value}].")
+          @fatal_error_seen = true
+        end
         # Set the appropriate instance variable to the value+reference(s) specified
         @dimensions.instance_variable_set(instance_variable_name, VariableWithReference.new(value, ref_array))
       end

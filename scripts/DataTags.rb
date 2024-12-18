@@ -28,6 +28,7 @@ class Validator
   def initialize(validation_parameters)
 
     @fatal_error_seen = false
+    @parameters = nil
     
     style = validation_parameters[0]
     
@@ -46,8 +47,12 @@ class Validator
       @validator = method(:enforce_simple_fp)
     when "regexp"
       @validator = method(:enforce_regexp)
+    when "physical-unit"
+      @validator = method(:enforce_physical_unit)
+      @parameters = validation_parameters.drop(1)
     else
       @validator = method(:always_valid)
+      $stderr.puts("Saw validation_parameters=[#{validation_parameters}]   [0]=[#{validation_parameters[0]}] [0][0]=[#{validation_parameters[0][0]}] [0][1]=[#{validation_parameters[0][1]}] [1]=[#{validation_parameters[1]}]  class=#{validation_parameters.class} class[0]=#{validation_parameters[0].class} ")
       @fatal_error_seen = true
     end
   end
@@ -127,6 +132,15 @@ class Validator
     return text =~ /^\d*?(\.\d+?)?$/
   end
 
+  # Check that the supplied text matches a simple floating point value
+  # followed by any one of the array of parameters.
+  # For example this could match "2.0 A" or "2.0 mA"
+  def enforce_physical_unit(text)
+    units = @parameters.compact().join("|")
+    r = Regexp.quote("#{units}")
+    return text =~ /^\s*\d*?(\.\d+?)?\s*#{units}\s*$/
+  end
+
   # Invokes the chosen validator and returns its result
   def validate_value(value)
     return @validator.call(value)
@@ -195,6 +209,7 @@ class Tag
         false
       end
     if @validate
+      ## $stderr.puts("saw prop=[#{properties}]  p[5]=[#{properties[5]}]")
       @validator = Validator.new(properties[5])
       if @validator.fatal_error_seen()
         $stderr.puts("FATAL ERROR: Bad validator seen for #{name}: #{properties[5]}")
