@@ -1315,3 +1315,80 @@ The DESNC is a hardware component of the Ethernet Enhanced Security System which
 **Power-end{HUB90-240}
 **End-comms-entry{DEHUB}
 
+**Start-comms-entry{DENMA}{NETMISC}{NETMISC}
+**Sys-name: DENMA
+**Desc-name: DECagent 90
+**Def-lref{1} = ref{EK-DENMA-UI.A01}
+**Ethernet-connection**vref{1}: ThinWire
+**CPU**vref{1}: Motorola 68000
+**Standalone-PSU**vref{1}: H7827-AA
+! vref{1}: must be installed in DEChub 90 slot 7 or slot 8
+**Dimensions-start{DENMA}
+**Height**vref{1}: 35 mm
+**Width**vref{1}: 280 mm
+**Depth**vref{1}: 140 mm
+**Weight**vref{1}: 0.77 kg
+**Dimensions-end{DENMA}
+**Power-start{DENMA-120}
+**Label: 120V
+**Supply**vref{1}: 104V - 128V
+**I-max**vref{1}: 0.25 A
+**Power**vref{1}: 9 W
+**Power-end{DENMA-120}
+**Power-start{DENMA-240}
+**Label: 240V
+**Supply**vref{1}: 208V - 256V
+**I-max**vref{1}: 0.125 A
+**Power**vref{1}: 9 W
+**Power-end{DENMA-240}
+**Power-start{DENMA-PSU}
+**Label: 240V
+**Supply**vref{1}: 12Vdc, 4.75Vdc - 5.25Vdc
+**I-max**vref{1}: 1.0 A
+**Power-end{DENMA-PSU}
+**End-comms-entry{DENMA}
+
+**Start-comms-entry{DEWGB}{BRIDGE}{BRIDGE}
+**Sys-name: DEWGB
+**Desc-name: DECbridge 90
+**Def-lref{1} = ref{EK-DEWGB-OM.B01}
+**Ethernet-connection**vref{1}: AUI or ThinWire
+**Standalone-PSU**vref{1}: H7827-AA
+**Power-start{DEWGB-120V}
+**Label: 120V
+**Supply**vref{1}: 104V - 128V
+**I-max**vref{1}: 0.77A
+**Power**vref{1}: 5.68 W
+**Power-end{DEWGB-120V}
+**Power-start{DEWGB-240V}}
+**Label: 240V
+**Supply**vref{1}: 208V - 256V
+**I-max**vref{1}: 0.77A
+**Power**vref{1}: 5.68 W
+**Power-end{DEWGB-240V}
+**Dimensions-start{DEWGB}
+**Height**vref{1}: 31.8 mm
+**Width **vref{1}: 273.1 mm
+**Depth **vref{1}: 146.1 mm
+**Weight**vref{1}: 0.45 kg
+**Dimensions-end{DEWGB}
+**End-comms-entry{DEWGB}
+
+**Start-comms-entry{DSRVG}{TERMSERVER}{TERMSERVER}
+**Sys-name: DSRVG
+**Desc-name: DECserver 90TL+ Terminal Server
+**Def-lref{1} = ref{EC-I1866-42}
+! vref{1}: 8 MMJ
+**Ports**vref{1}: 8
+**Speed**vref{1}: 1.2kb/s to 38.4kb/s
+**Port-interface**vref{1}: 
+**Ethernet-connection**vref{1}: ThinWire or DEChub
+**Standalone-PSU**vref{1}: {110V: H7082-AA}{220V: H7082-BA}
+**Dimensions-start{DS90TLPLUS}
+**Height**vref{1}: 32 mm
+**Width**vref{1}: 279 mm
+**Depth**vref{1}: 140 mm
+**Weight**vref{1}: 1.36 kg
+**Dimensions-end{DS90TLPLUS}
+**End-comms-entry{DSRVG}
+

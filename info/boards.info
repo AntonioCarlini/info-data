@@ -760,3 +760,29 @@ It can simultaneously handle the two B-Channels and the D-Channel deﬁned by Ba
 **Text-end
 **End-boards-entry{DIV32}
 
+**Start-boards-entry{DEMNA}{XMI}{XMI}
+**Sys-name: DEMNA
+**Desc-name: DEC LANcontroller 400
+**Def-lref{1} = ref{EK-DEMNA-UG-001}
+**Bus**vref{1}: XMI
+**Num-interfaces**vref{1}: 1
+**Ethernet-connection**vref{1}: AUI
+**CPU**vref{1}: CVAX
+**Positive-5V-current**vref{1}: 
+**Positive-12V-current**vref{1}: 
+**End-boards-entry{DEMNA}
+
+**Start-boards-entry{DEQRA}{QBUS}{QBUS}
+**Sys-name: DEQRA
+**Desc-name: DEC TRNcontroller 100
+**Def-lref{1} = ref{EC-I1866-42}
+**Bus**vref{1}: QBUS
+! vref{1}: 4MB/s and 16MB/s
+**Num-interfaces**vref{1}: 1
+**Board-size**vref{1}: Quad
+**AC-bus-load**vref{1}: 5
+**DC-bus-load**vref{1}: 2
+**Positive-5V-current**vref{1}: 4.0
+**Positive-12V-current**vref{1}: 0.1
+**End-boards-entry{DEQRA}
+

@@ -3410,6 +3410,8 @@
 **Start-ref{EK-DEMNA-UG-001}
 **Ref-text: DEC LANcontroller 400 Console User's Guide
 **Ref-partno: EK-DEMNA-UG-001
+**Ref-date: 1989-12
+**Ref-url: https://manx-docs.org/collections/hcps/demnaug1.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DEMNA-UG-001}
 
@@ -11493,6 +11495,20 @@
 **Ref-date: 1991-02
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dehubom1.pdf
 **End-ref{EK-DEHUB-OM-001}
+
+**Start-ref{EK-DENMA-UI.A01}
+**Ref-text: DECagent 90 User Information
+**Ref-partno: EK-DENMA-UI.A01
+**Ref-date: 1992-12
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/denmauia.pdf
+**End-ref{EK-DENMA-UI.A01}
+
+**Start-ref{EK-DEWGB-OM.B01}
+**Ref-text: DECbridge 90 Owner’s Manual
+**Ref-partno: EK-DEWGB-OM.B01
+**Ref-date: 1992-09
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dewgbomb.pdf
+**End-ref{EK-DEWGB-OM.B01}
 
 **Stop-processing
 
