@@ -1392,3 +1392,139 @@ The DESNC is a hardware component of the Ethernet Enhanced Security System which
 **Dimensions-end{DS90TLPLUS}
 **End-comms-entry{DSRVG}
 
+**Start-comms-entry{DSRZE}{TERMSERVER}{TERMSERVER}
+**Sys-name: DSRZE
+**Desc-name: MUXserver 320
+**Def-lref{1} = ref{EK-DSRZE-IM}
+! vref{1}: 3 DECmux 300 per synch line, six DECmux 300 total
+! verf{1}: 32 active users max, 128 sessions max
+**Num-synch-lines**vref{1}: 2
+**Ethernet-connection**vref{1}: ThinWire or AUI
+**Dimensions-start{MUXserver320}
+**Height**vref{1}: 115 mm
+**Width**vref{1}: 493 mm
+**Depth**vref{1}:  312 mm
+**Weight**vref{1}: 4.6 kg
+**Dimensions-end{MUXserver320}
+**Power-start{DSRZE-A}
+**Label: 120V
+**Supply**vref{1}: 88V - 132V single-phase
+**I-nominal**vref{1}: 0.8A
+**Power**vref{1}: 59 W
+**Power-end{DSRZE-A}
+**Power-start{DSRZE-B}
+**Label: 240V
+**Supply**vref{1}: 176V - 264V single-phase
+**I-nominal**vref{1}: 0.45 A
+**Power**vref{1}: 59 W
+**Power-end{DSRZE-B}
+**End-comms-entry{DSRZE}
+
+**Start-comms-entry{DSRZD}{TERMSERVER}{TERMSERVER}
+**Sys-name: DSRZD
+**Desc-name: MUXserver 380
+**Def-lref{1} = ref{EK-DSRZD-IM-002}
+! vref{1}: 3 DECmux 300 per synch line, 16 DECmux 300 total
+! verf{1a}: 32 active users max, 128 sessions max
+**Num-synch-lines**vref{1}: 8
+**Ethernet-connection**vref{1}: ThinWire or AUI
+**Dimensions-start{MUXserver380}
+**Height**vref{1}: 161 mm
+**Width**vref{1}: 493 mm
+**Depth**vref{1}:  312 mm
+**Weight**vref{1}: 8.1 kg
+**Dimensions-end{MUXserver380}
+**Power-start{DSRZD-A}
+**Label: 120V
+**Supply**vref{1}: 88V - 132V single-phase
+**I-nominal**vref{1}: 1.5 A
+**Power**vref{1}: 150 W
+**Power-end{DSRZD-A}
+**Power-start{DSRZD-B}
+**Label: 240V
+**Supply**vref{1}: 176V - 264V single-phase
+**I-nominal**vref{1}: 1 A
+**Power**vref{1}: 150 W
+**Power-end{DSRZD-B}
+**Options-start{DSPAB}
+**Option**vref{1}: {boards:ICP1622T}{ICP1622T DEC Commserver Communications Option}
+**Options-end{DSPAB}
+**End-comms-entry{DSRZD}
+
+**Start-comms-entry{DSPAA}{NETMISC}{NETMISC}
+**Sys-name: DSPAA
+**Desc-name: DEC Commserver 100
+**Def-lref{1} = ref{EK-DSPAA-IN-001}
+**Ethernet-connection**vref{1}: ThinWire or AUI
+**Slots**vref{1}: 2
+**Dimensions-start{DSPAA-T}
+**Label: OfficeTabletop
+**Height**vref{1}: 162 mm
+**Width **vref{1}: 494 mm
+**Depth **vref{1}: 313 mm
+**Weight**vref{1}: 9.5 kg
+**Dimensions-end{DSPAA-T}
+**Dimensions-start{DSPAA-R}
+**Label: Rackmount
+**Height**vref{1}: 133 mm
+**Width **vref{1}: 460 mm
+**Depth **vref{1}: 298 mm
+**Weight**vref{1}: 7.7 kg
+**Dimensions-end{DSPAA-R}
+**Power-start{DSPAA-120}
+**Label: 120V
+**Supply**vref{1}: 100V - 120V single-phase
+**I-nominal**vref{1}: 1.2 A
+**Power**vref{1}: 120 W
+**Heat-dissipation**vref{1}: 410 BTU/hr
+**Power-end{DSPAA-120}
+**Power-start{DSPAA-240}
+**Label: 240V
+**Supply**vref{1}: 220V - 240V single-phase
+**I-nominal**vref{1}: 0.6 A
+**Power**vref{1}: 120 W
+**Heat-dissipation**vref{1}: 410 BTU/hr
+**Power-end{DSPAA-240}
+**End-comms-entry{DSPAA}
+
+**Start-comms-entry{DSPAB}{NETMISC}{NETMISC}
+**Sys-name: DSPAB
+**Desc-name: DEC Commserver 150
+**Def-lref{1} = ref{EK-DSPAA-IN-001}
+**Ethernet-connection**vref{1}: ThinWire or AUI
+**Slots**vref{1}: 10
+**CPU**vref{1}: KA640
+**Dimensions-start{DSPAB-Office}
+**Label: Office
+**Height**vref{1}: 690 mm
+**Width **vref{1}: 530 mm
+**Depth **vref{1}: 450 mm
+**Weight**vref{1}: 39.5 kg
+**Dimensions-end{DSPAB-Office}
+**Dimensions-start{DSPAA-R}
+**Label: Rackmount
+**Height**vref{1}: 704 mm
+**Width **vref{1}: 460 mm
+**Depth **vref{1}: 450 mm
+**Weight**vref{1}: 27.3 kg
+**Dimensions-end{DSPAA-R}
+**Power-start{DSPAA-120}
+**Label: 120V
+**Supply**vref{1}: 100V - 120V single-phase
+**I-nominal**vref{1}: 10.2 A
+**Power**vref{1}: 670 W
+**Heat-dissipation**vref{1}: 2304 BTU/hr
+**Power-end{DSPAA-120}
+**Power-start{DSPAA-240}
+**Label: 240V
+**Supply**vref{1}: 220V - 240V single-phase
+**I-nominal**vref{1}: 4.7 A
+**Power**vref{1}: 670 W
+**Heat-dissipation**vref{1}: 2304 BTU/hr
+**Power-end{DSPAA-240}
+**Options-start{DSPAB}
+**Option**vref{1}: {enclosures:BA213}{BA213 Enclosure}
+**Option**vref{1}: {boards:ICP1622T}{ICP1622T DEC Commserver Communications Option}
+**Options-end{DSPAB}
+**End-comms-entry{DSPAB}
+

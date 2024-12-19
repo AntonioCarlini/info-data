@@ -11510,6 +11510,27 @@
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dewgbomb.pdf
 **End-ref{EK-DEWGB-OM.B01}
 
+**Start-ref{EK-DSRZE-IM}
+**Ref-text: MUXserver 320 Hardware Installation Manual
+**Ref-partno: EK-DSRZE-IM
+**Ref-date: 1992-02
+**Ref-url: https://web.archive.org/web/20071010080004/http://computer-refuge.org/classiccmp/dec94mds/dsrzeim1.pdf
+**End-ref{EK-DSRZE-IM}
+
+**Start-ref{EK-DSRZD-IM-002}
+**Ref-text: MUXserver 380 Hardware Installation Manual
+**Ref-partno: EK-DSRZD-IM-002
+**Ref-date: 1992-02
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dsrzdim2.pdf
+**End-ref{EK-DSRZD-IM-002}
+
+**Start-ref{EK-DSPAA-IN-001}
+**Ref-text: DEC Commserver 100/150 Installation/Owner’s Manual
+**Ref-partno: EK-DSPAA-IN-001
+**Ref-date: 1991-03
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dspaain1.pdf
+**End-ref{EK-DSPAA-IN-001}
+
 **Stop-processing
 
 **Start-ref{
