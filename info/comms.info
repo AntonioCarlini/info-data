@@ -81,7 +81,7 @@
 ! Network Cards:
 ! DEFCN-MA: This card is used with multimode fiber optic cable.
 ! DEFCN-EA: Port A and B are used with single-mode fiber optic cable.
-! DEFCN-DA: •Port A is used with multimode fiber optic cable. Port B is used with single-mode fiber optic cable.
+! DEFCN-DA: Port A is used with multimode fiber optic cable. Port B is used with single-mode fiber optic cable.
 ! DEFCN-CA: Port A is used with single-mode fiber optic cable. Port B is used with multimode fiber optic cable
 **Network-management**vref{3}: Provides network management and OBR
 ! vref{3}

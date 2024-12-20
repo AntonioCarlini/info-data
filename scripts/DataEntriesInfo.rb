@@ -34,6 +34,11 @@ def log_fatal(this, line_num, filename, text)
   this.fatal_error_seen = true
 end
 
+# Function to simplify logging of fatal errors
+def log_entry_fatal(this, line_num, filename, text)
+  $stderr.puts("FATAL ERROR from #{this.class().name()}: line #{line_num} in #{filename}: #{text}")
+end
+
 # Function to simplify logging of debug
 def log_debug(this, line_num, filename, text)
   # $stderr.puts("DEBUG from #{this.class().name()}: line #{line_num} in #{filename}: #{text}")
@@ -486,7 +491,7 @@ class EntriesCollection
 
   def add_entry(entry, line_num, filename)
     if @entries.has_key?(entry.identifier())
-      log_fatal(self, line_num, filename, "Duplicate entry #{entry.identifier()}, original declared on line #{@entries[entry.identifier()].line_num()}")
+      log_entry_fatal(self, line_num, filename, "Duplicate entry #{entry.identifier()}, original declared on line #{@entries[entry.identifier()].line_num()}")
       return nil
     else
       @entries[entry.identifier()] = entry
@@ -529,6 +534,12 @@ class EntriesCollection
       current_handler = handlers[-1]
       line_num += 1
       line = line.chomp().strip()
+
+      if ! line.ascii_only?()
+        log_entry_fatal(self, line_num, info_filename, "non 7-bit ASCII character seen in #{info_filename} at line #{line_num}: #{line}")
+        fatal_error_seen = true
+      end
+      
       result, extra = current_handler.process_line(line, line_num)
       fatal_error_seen = true if current_handler.fatal_error_seen()
       case result
@@ -560,7 +571,7 @@ class EntriesCollection
     # Either way, there should be one handler on the stack and it should be the Outer one
     # (which is the only one that allows **stop-processing).
     if (handlers.size() > 1) or !handlers[0].respond_to?(:stop_processing_is_valid)
-      log_fatal(self, line_num, info_filename, "Finished processing mid-entry")
+      log_entry_fatal(self, line_num, info_filename, "Finished processing mid-entry")
       fatal_error_seen = true
     elsif handlers[0].fatal_error_seen()
       fatal_error_seen = true           # Catch the Outer handler's fatal error if one has been seen

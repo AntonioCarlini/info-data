@@ -756,7 +756,7 @@ The DUP11 is suited for interfacing to a medium-speed synchronous line for remot
 **Positive-12V-current**vref{1}: None
 **Text-start
 The DIV32 is an ISDN Basic Rate access communications controller for Q-Bus VAX systems.
-It can simultaneously handle the two B-Channels and the D-Channel deﬁned by Basic Rate access.
+It can simultaneously handle the two B-Channels and the D-Channel defined by Basic Rate access.
 **Text-end
 **End-boards-entry{DIV32}
 
