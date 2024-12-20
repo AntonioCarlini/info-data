@@ -85,9 +85,9 @@
 **Desc-name: RRD43 CD-ROM Drive
 **Def-lref{1} = ref{EK-RRD43-IN.A02}
 **Def-lref{2} = ref{CU-1994-03-14}
-**Def-lref{3} = ref{EK–RRDCD–IN.A01}
+**Def-lref{3} = ref{EK-RRDCD-IN.A01}
 **Def-lref{4} = ref{DEC-PR-1994-03-08}
-**Def-lref{5} = ref{EK–RRD43–OG.A01}
+**Def-lref{5} = ref{EK-RRD43-OG.A01}
 **Announcement**vref{4}: 1994-03-08
 **OS-support-VMS**vref{2}: VMS V6.0 and OpenVMS AXP V1.5
 **OS-support-DU**vref{2}: OSF/1 AXP V1.3 and V2.0

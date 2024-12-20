@@ -2235,13 +2235,13 @@
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd3/disk/rrd42om3.pdf
 **End-ref{EK-RRD42-OM-003}
 
-**Start-ref{EK–RRDCD–IN.A01}
+**Start-ref{EK-RRDCD-IN.A01}
 **Ref-text: RRD43 CD-ROM Disc Drive Information for VAX 4000 Model 100 Systems
-**Ref-partno: EK–RRDCD–IN.A01
+**Ref-partno: EK-RRDCD-IN.A01
 **Ref-date: 1994-03
 **Ref-url: http://www.vaxhaven.com/images/d/da/EK-RRDCD-IN-A01.pdf
 **Ref-processed: Yes
-**End-ref{EK–RRDCD–IN.A01}
+**End-ref{EK-RRDCD-IN.A01}
 
 **Start-ref{EK-V1000-UG-001}
 **Ref-text: Installing and Using The VT1000 Video Terminal
@@ -8008,11 +8008,11 @@
 **Ref-hardcopy: Yes
 **End-ref{EK-RRD43-IN.A02}
 
-**Start-ref{EK–RRD43–OG.A01}
+**Start-ref{EK-RRD43-OG.A01}
 **Ref-text: DEC 4000 Model 6x0/7x0 AXP Series RRD43 Disc Drive Installation
-**Ref-partno: EK–RRD43–OG.A01
+**Ref-partno: EK-RRD43-OG.A01
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd3/disk/rrd43oga.pdf
-**End-ref{EK–RRD43–OG.A01}
+**End-ref{EK-RRD43-OG.A01}
 
 **Start-ref{EK-ETHTT-UG-001}
 **Ref-text: H4000-T Ethernet Transceiver Tester User Guide
@@ -10681,11 +10681,6 @@
 **Ref-partno: EK-VAXCT-CG-006
 **End-ref{EK-VAXCT-CG-006}
 
-**Start-ref{EK-4MMAX–OP.A01}
-**Ref-text: DECstation 5000 Model 260. Operator’s Guide
-**Ref-partno: EK-4MMAX–OP.A01
-**End-ref{EK-4MMAX–OP.A01}
-
 **Start-ref{EB-26077-41}
 **Ref-text: PDP-11 UNIBUS Processor Handbook PDP-11/84, PDP-11/44, and PDP-11/24
 **Ref-partno: EB-26077-41
@@ -11290,15 +11285,15 @@
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/magtape/ta79/EK-OTA79-TM-001_Mar88.pdf
 **End-ref{EK-OTA79-TM-001}
 
-**Start-ref{EK–4MAXI-OP-A01}
-**Ref-text: Personal DECstation 5000 Model 50 Operator’s Guide
+**Start-ref{EK-4MAXI-OP-A01}
+**Ref-text: Personal DECstation 5000 Model 50 Operator's Guide
 **Ref-date: 1993-04
-**Ref-partno: EK–4MAXI-OP.A01
+**Ref-partno: EK-4MAXI-OP.A01
 **Ref-url: http://www.vaxhaven.com/images/8/82/EK-4MAXI-OP-A01.pdf
-**End-ref{EK–4MAXI-OP-A01}
+**End-ref{EK-4MAXI-OP-A01}
 
 **Start-ref{EK-PM30E-RB-003}
-**Ref-text: Personal DECstation 5000 User’s Guide
+**Ref-text: Personal DECstation 5000 User's Guide
 **Ref-date: 1992-09
 **Ref-partno: EK-PM30E-RB.003
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd2/decsta/pm30erb3.pdf
@@ -11333,7 +11328,7 @@
 **End-ref{EK-LG31E-TM-002}
 
 **Start-ref{Online-SOC-VS4096-1999-01-25}
-**Ref-text: VAX Systems 4000 Model 96 V2.5 — 25 January 1999 Systems and Options Catalog
+**Ref-text: VAX Systems 4000 Model 96 V2.5 - 25 January 1999 Systems and Options Catalog
 **Ref-date: 1999-01-25
 **Ref-processed: Yes
 **Ref-url: https://web.archive.org/web/20021006113032/http://www.compaq.com/products/quickspecs/SOC/QBQ25HPF.PDF
@@ -11363,18 +11358,18 @@
 **End-ref{EK-VR297-SV-001}
 
 **Start-ref{EK-OTA91-OM-001}
-**Ref-text: TA91 Magnetic Tape Subsystem Owner’s Manual
+**Ref-text: TA91 Magnetic Tape Subsystem Owner's Manual
 **Ref-date: 1991-04
 **Ref-partno: EK-OTA91-OM-001
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd3/tape/ota91om1.pdf
 **End-ref{EK-OTA91-OM-001}
 
-**Start-ref{EK–TF857–OM–002}
+**Start-ref{EK-TF857-OM-002}
 **Ref-text: Tx857 Series Magazine Tape Subsystem
 **Ref-date: 1991-11
-**Ref-partno: EK–TF857–OM–002
+**Ref-partno: EK-TF857-OM-002
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd3/tape/tf857om2.pdf
-**End-ref{EK–TF857–OM–002}
+**End-ref{EK-TF857-OM-002}
 
 **Start-ref{EK-RL012-UG-005}
 **Ref-text: RL01/RL02 User Guide
@@ -11461,12 +11456,12 @@
 **Ref-url: https://www.1000bit.it/js/web/viewer.html?file=%2Fad%2Fbro%2Fdigital%2Fdec-decrepeater200.pdf
 **End-ref{EC-F0399-42}
 
-**Start-ref{EK–DEFZA–IN.D01}
+**Start-ref{EK-DEFZA-IN.D01}
 **Ref-text: DEC FDDIcontroller 700 Installation
-**Ref-partno: EK–DEFZA–IN.D01
+**Ref-partno: EK-DEFZA-IN.D01
 **Ref-date: 1993-02
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/defzaind.pdf
-**End-ref{EK–DEFZA–IN.D01}
+**End-ref{EK-DEFZA-IN.D01}
 
 **Start-ref{EK-DIV32-IN-002}
 **Ref-text: DIV32 Hardware Installation Guide
@@ -11476,14 +11471,14 @@
 **End-ref{EK-DIV32-IN-002}
 
 **Start-ref{EK-DETMR-OM.001}
-**Ref-text: DECrepeater 90T Owner’s Manual
+**Ref-text: DECrepeater 90T Owner's Manual
 **Ref-date: 1991-08
 **Ref-partno: EK-DETMR-OM.001
 **Ref-url: https://web.archive.org/web/20041030162156/http://www.dnpg.com/dr/Legacy/DECrepeaters/documentation/detmr-om.pdf
 **End-ref{EK-DETMR-OM.001}
 
 **Start-ref{EK-DECMR-OM.002}
-**Ref-text: DECrepeater 90C Owner’s Manual
+**Ref-text: DECrepeater 90C Owner's Manual
 **Ref-partno: EK-DECMR-OM.002
 **Ref-date: 1991-09
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/decmrom2.pdf
@@ -11504,7 +11499,7 @@
 **End-ref{EK-DENMA-UI.A01}
 
 **Start-ref{EK-DEWGB-OM.B01}
-**Ref-text: DECbridge 90 Owner’s Manual
+**Ref-text: DECbridge 90 Owner's Manual
 **Ref-partno: EK-DEWGB-OM.B01
 **Ref-date: 1992-09
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dewgbomb.pdf
@@ -11525,14 +11520,14 @@
 **End-ref{EK-DSRZD-IM-002}
 
 **Start-ref{EK-DSPAA-IN-001}
-**Ref-text: DEC Commserver 100/150 Installation/Owner’s Manual
+**Ref-text: DEC Commserver 100/150 Installation/Owner's Manual
 **Ref-partno: EK-DSPAA-IN-001
 **Ref-date: 1991-03
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dspaain1.pdf
 **End-ref{EK-DSPAA-IN-001}
 
 **Start-ref{EK-INFSV-OM-001}
-**Ref-text: InfoServer 150 Installation and Owner’s Guide
+**Ref-text: InfoServer 150 Installation and Owner's Guide
 **Ref-partno: EK-INFSV-OM-001
 **Ref-date: 1991-10
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd3/disk/infsvom1.pdf
@@ -11547,7 +11542,7 @@
 **Ref-url: 
 **End-ref{
 
-EK–INFSV–OM–001
+
  
 Manuals to be logged (now in DOCS.DAT for CD 3):
 

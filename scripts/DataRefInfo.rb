@@ -157,6 +157,10 @@ class References
       line_num += 1
       line = line.chomp().strip()
       
+      if ! line.ascii_only?()
+        raise("Non 7-bit ASCII character seen in #{info_filename} at line #{line_num}: #{line}")
+      end
+      
       if line.strip().empty?() || line =~ /^ !/ix
         # ignore blank lines and commented out lines
         next
