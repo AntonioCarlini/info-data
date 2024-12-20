@@ -135,6 +135,13 @@
   - Range of System V versions that suppor this system
   - vax
   - summary
+- BUS-SCSI:
+  - BUS SCSI
+  - SCSI bus details
+  - all
+  - io
+  - optional
+  - - bus-spec
 - Slots:
   - Number of slots
   - Number of slots

@@ -309,7 +309,7 @@
 **Weight**vref{2}: 6.9 kg
 **Dimensions-end{DEMSA-R}
 **Text-start
-The DEC MicroServer (DEMSA) is the hardware platform that supports a number of software products: the DECrouter 2000, the X25router 2000 and the DECnet/SNA gateway-ST.
+The DEC MicroServer (DEMSA) is the hardware platform that supports a number of software products: the WANrouter 500, the DECrouter 2000, the X25router 2000 and the DECnet/SNA gateway-ST.
 **Text-end
 **End-comms-entry{DEMSA}
 
@@ -333,7 +333,7 @@ The DEC MicroServer (DEMSA) is the hardware platform that supports a number of s
 **Weight**vref{1}: 6.9 kg
 **Dimensions-end{DEMSB-R}
 **Text-start
-The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number of software products such as the DECrouter 100.
+The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number of software products such as the DECrouter 100 and the X25router 100.
 **Text-end
 **End-comms-entry{DEMSB}
 
@@ -1105,6 +1105,13 @@ The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number o
 **DECnet-PhaseIV-Level-2-Routing-support**vref{1}: No
 **End-comms-entry{DSRVC}
 
+**Start-comms-entry{DSRVR}{NETMISC}{NETMISC}
+**Sys-name: DSRVR
+**Desc-name: DECrouter 250
+**Def-lref{1} = ref{EC-I1866-42}
+**Ports**vref{1}: 8
+**End-comms-entry{DSRVR}
+
 **Start-comms-entry{DECSA}{ROUTER}{ROUTER}
 **Sys-name: DECSA
 **Desc-name: DECSA Ethernet Communications Server
@@ -1527,4 +1534,32 @@ The DESNC is a hardware component of the Ethernet Enhanced Security System which
 **Option**vref{1}: {boards:ICP1622T}{ICP1622T DEC Commserver Communications Option}
 **Options-end{DSPAB}
 **End-comms-entry{DSPAB}
+
+**Start-comms-entry{INFOSRVR150}{NETMISC}{NETMISC}
+**Sys-name: SEACD
+**Desc-name: InfoServer 150
+**Def-lref{1} = ref{EK-INFSV-OM-001}
+**Ethernet-connection**vref{1}: ThinWire or AUI
+! vref{1}: KA41-2
+**Minimum-memory**vref{1}: 4 MB
+**BUS-SCSI**vref{1}: 2
+**Dimensions-start{IS150}
+**Height**vref{1}: 100.3 mm
+**Width**vref{1}: 463.8 mm
+**Depth**vref{1}: 394.2 mm
+**Weight**vref{1}: 11.4 kg
+**Dimensions-end{IS150}
+**Power-start{IS150-120V}
+**Label: 120V
+**Supply**vref{1}: 100V - 120V
+**I-nominal**vref{1}: 1.2 A
+**Power**vref{1}: 132 W
+**Power-end{IS150-120V}
+**Power-start{IS150-240V}
+**Label: 240V
+**Supply**vref{1}: 220V - 240V
+**I-nominal**vref{1}: 0.65 A
+**Power**vref{1}: 132 W
+**Power-end{IS150-240V}
+**End-comms-entry{INFOSRVR150}
 

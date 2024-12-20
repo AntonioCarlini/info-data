@@ -11531,6 +11531,13 @@
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dspaain1.pdf
 **End-ref{EK-DSPAA-IN-001}
 
+**Start-ref{EK-INFSV-OM-001}
+**Ref-text: InfoServer 150 Installation and Owner’s Guide
+**Ref-partno: EK-INFSV-OM-001
+**Ref-date: 1991-10
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/disk/infsvom1.pdf
+**End-ref{EK-INFSV-OM-001}
+
 **Stop-processing
 
 **Start-ref{
@@ -11540,6 +11547,8 @@
 **Ref-url: 
 **End-ref{
 
+EK–INFSV–OM–001
+ 
 Manuals to be logged (now in DOCS.DAT for CD 3):
 
 EK-A0851-SV-A01 #manuals/ek/a0851sva01.pdf#Service Maintenance Manual STARION 200i/300i PC Family
