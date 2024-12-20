@@ -786,3 +786,13 @@ It can simultaneously handle the two B-Channels and the D-Channel defined by Bas
 **Positive-12V-current**vref{1}: 0.1
 **End-boards-entry{DEQRA}
 
+**Start-boards-entry{DEFEA}{EISA}{EISA}
+**Sys-name: DEFEA
+**Desc-name: DEC FDDIcontroller/EISA
+**Def-lref{1} = ref{EC-I1866-42}
+**Bus**vref{1}: EISA
+**Board-size**vref{1}: 122 mm x 144 mm
+**Positive-5V-current**vref{1}: 3.3 A
+**Positive-12V-current**vref{1}: 100.0 mA
+**End-boards-entry{DEFEA}
+
