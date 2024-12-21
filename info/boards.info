@@ -812,3 +812,42 @@ It can simultaneously handle the two B-Channels and the D-Channel defined by Bas
 **Positive-12V-current**vref{1}: 100.0 mA
 **End-boards-entry{DEFEA}
 
+**Start-boards-entry{DSF32}{SYNCH}{SYNCH}
+**Sys-name: DSF32
+**Desc-name: DEC WANcontroller 620
+**Def-lref{1} = ref{EC-I1866-42}
+**Bus**vref{1}: VAXft
+**Synch-ports**vref{1}: 2
+**End-boards-entry{DSF32}
+
+**Start-boards-entry{DSW41}{SYNCH}{SYNCH}
+**Sys-name: DSW41
+**Desc-name: DSW41 Synchronous Communications Controller
+**Def-lref{1} = ref{EC-I1866-42}
+**Synch-ports**vref{1}: 1
+**VMS-Driver**vref{1}: ZTDRIVER
+**End-boards-entry{DSW41}
+
+**Start-boards-entry{DSW42}{SYNCH}{SYNCH}
+**Sys-name: DSW42
+**Desc-name: DSW42 Synchronous Communications Controller
+**Def-lref{1} = ref{EC-I1866-42}
+**Synch-ports**vref{1}: 2
+**Serial-speed**vref{1}: 64Kb/s
+**VMS-Driver**vref{1}: ZTDRIVER
+**End-boards-entry{DSW42}
+
+**Start-boards-entry{DHW41}{ASYNCH}{ASYNCH}
+**Sys-name: DHW41
+**Desc-name: DHW41 Asynchronous Communications Controller
+**Def-lref{1} = ref{EC-I1866-42}
+**Asynch-ports**vref{1}: 8
+**End-boards-entry{DHW41}
+
+**Start-boards-entry{DHW42}{ASYNCH}{ASYNCH}
+**Sys-name: DHW42
+**Desc-name: DHW42 Asynchronous Communications Controller
+**Def-lref{1} = ref{EC-I1866-42}
+**Asynch-ports**vref{1}: 16
+**End-boards-entry{DHW42}
+

@@ -251,5 +251,10 @@
   - Serial interface speed, min to max
   - all
   - all
+- VMS-Driver:
+  - VMS driver
+  - Name of driver under OpenVMS
+  - all
+  - all
 
   
