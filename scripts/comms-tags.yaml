@@ -1,10 +1,5 @@
 
 ---
-- Not-Allowed:
-  - Not Allowed
-  - Test entry
-  - never
-  - summary
 - Sys-name:
   - System name
   - System description
@@ -172,6 +167,9 @@
   - The main board CPU's clock
   - all
   - all
+  - optional
+  - - physical-unit
+    - MHz
 - Standalone-PSU:
   - PSU
   - PSU used for standalone operation
@@ -182,11 +180,15 @@
   - Dual homing
   - all
   - all
+  - optional
+  - - yn
 - Optical-Bypass:
   - Optiocal Bypass relay
   - Optiocal Bypass relay
   - all
   - all
+  - optional
+  - - yn
 - Ethernet-connection:
   - Ethernet connection
   - Ethernet connection style (AUI, BNC, RJ45)
@@ -202,6 +204,8 @@
   - Number of synchronous lines
   - all
   - all
+  - optional
+  - - int
 - Peak-throughput:
   - Peak throughput
   - Peak throughput
@@ -302,33 +306,47 @@
   - Supports DECnet Phase I
   - all
   - all
+  - optional
+  - - yn
 - DECnet-PhaseII-support:
   - DECnet Phase II
   - Supports DECnet Phase II
   - all
   - all
+  - optional
+  - - yn
 - DECnet-PhaseIII-support:
   - DECnet Phase III
   - Supports DECnet Phase III
   - all
   - all
+  - optional
+  - - yn
 - DECnet-PhaseIV-support:
   - DECnet Phase IV
   - Supports DECnet Phase IV
   - all
   - all
+  - optional
+  - - yn
 - DECnet-PhaseV-support:
   - DECnet Phase V
   - Supports DECnet Phase V
   - all
   - all
+  - optional
+  - - yn
 - DECnet-PhaseIV-Level-1-Routing-support:
   - DECnet Phase IV level 1 Routing
   - Supports DECnet Phase IV Level 1 (intra-area) Routing
   - all
   - all
+  - optional
+  - - yn
 - DECnet-PhaseIV-Level-2-Routing-support:
   - DECnet Phase IV level 2 Routing
   - Supports DECnet Phase IV Level 2 (inter-area) Routing
   - all
   - all
+  - optional
+  - - yn
