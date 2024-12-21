@@ -750,7 +750,7 @@ The DUP11 is suited for interfacing to a medium-speed synchronous line for remot
 ! vref{1}: LANCE, ISA 16-bit bus; bus load 2LSTTL, option ROM support
 **End-boards-entry{DE201}
 
-**Start-boards-entry{DE210}{ISA}{ISA}
+**Start-boards-entry{DE210}{MCA}{MCA}
 **Sys-name: DE210
 **Desc-name: DEC EtherWORKS MC Ethernet Controller (DEMCA)
 **Def-lref{1} = ref{EK-DE210-OM.D01}
@@ -760,6 +760,17 @@ The DUP11 is suited for interfacing to a medium-speed synchronous line for remot
 **Positive-12V-current**vref{1}: 0.5 A
 ! vref{1}: LANCE, option ROM support
 **End-boards-entry{DE210}
+
+**Start-boards-entry{DE212}{MCA}{MCA}
+**Sys-name: DE212
+**Desc-name: DEC EtherWORKS MC/TP_BNC Ethernet Controller (DEMCA)
+**Def-lref{1} = ref{EK-DE212-OM.B01}
+**Bus**vref{1}: MCA
+**Ethernet-connection**vref{1}: ThinWire or TP
+! vref{1}: LANCE
+**Positive-5V-current**vref{1}: 1.6 A
+**Positive-12V-current**vref{1}: 0.34 A 
+**End-boards-entry{DE212}
 
 **Start-boards-entry{DIV32}{QBUS}{QBUS}
 **Sys-name: DIV32

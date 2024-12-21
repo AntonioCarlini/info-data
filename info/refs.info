@@ -11417,7 +11417,7 @@
 **Ref-text: Networks Buyer's Guide Anual Edition 1992 - 1993
 **Ref-partno: EC-I1866-42
 **Ref-date: 1992
-**Ref-processed: No
+**Ref-processed: Yes
 **End-ref{EC-I1866-42}
 
 **Start-ref{EK-DEPCA-PR-001}
@@ -11545,6 +11545,13 @@
 **Ref-date: 1991-10
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/demfaip1.pdf
 **End-ref{EK-DEMFA-IP-001}
+
+**Start-ref{EK-DE212-OM.B01}
+**Ref-text: DEC EtherWORKS MC/TP_BNC Owner's Manual
+**Ref-partno: EK-DE212-OM.B01
+**Ref-date: 1992-09
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/de212omb.pdf
+**End-ref{EK-DE212-OM.B01}
 
 **Stop-processing
 
