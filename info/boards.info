@@ -140,8 +140,8 @@ The DEBNI firmware also introduces a Network Monitor Utility Program to allow mo
 **Ethernet-connection**vref{1}: AUI
 **AC-bus-load**vref{1}: 1
 **DC-bus-load**vref{1}: 4
-**Positive-5V-current**vref{1}: {Port Module: 7.0 A}{Link Module: 9.0A}
-**Negative-15V-current**vref{1}: {Port Module: 0.0A} {Link Module: 1.0 A}
+!! TODO **Positive-5V-current**vref{1}: {Port Module: 7.0 A}{Link Module: 9.0A}
+!! TODO **Negative-15V-current**vref{1}: {Port Module: 0.0A} {Link Module: 1.0 A}
 **End-boards-entry{DEUNA}
 
 **Start-boards-entry{DELUA}{UNIBUS}{UNIBUS}
@@ -172,7 +172,8 @@ The DELUA is a follow on to the DEUNA, offering all the same functions but at hi
 **Def-lref{2} = ref{CU-1994-01-03}
 ! **Announcement**vref{2}: 1994-01-03 for the DSYT1-BA variant that adds AXP support
 **Bus**vref{1}: TURBOchannel
-**Synch-ports**vref{1}: {2 @ 64kB/s} {1 @ 1.544Mb/s}
+! **Synch-ports**vref{1}: {2 @ 64kB/s} {1 @ 1.544Mb/s}
+**Synch-ports**vref{1}: 2
 **End-boards-entry{DSYT1}
 
 **Start-boards-entry{DEFZA}{SYNCH}{SYNCH}
@@ -506,7 +507,7 @@ In point to point configurations, the  DMV11 can communicate with DMC11, DUP11, 
 **DC-bus-load**vref{1}: 1.0
 **Positive-5V-current**vref{1}: 6 A
 **Positive-15V-current**vref{1}: 0.400 A
-**Negative-15V-current**vref{1}: 0.400 S
+**Negative-15V-current**vref{1}: 0.400 A
 **End-boards-entry{DHU11}
 
 **Start-boards-entry{DMF32}{UNIBUS}{UNIBUS}
@@ -540,11 +541,15 @@ In point to point configurations, the  DMV11 can communicate with DMC11, DUP11, 
 **Module**vref{1}: M8207, M8203
 **Synch-ports**vref{1}: 1
 **Serial-speed**vref{1}: 1 Mb/s max
-**AC-bus-load**vref{1}: 5 (M8207)
-**DC-bus-load**vref{1}: 1 (M8207)
+! TODO vref{1}: **AC-bus-load**vref{1}: 5 (M8207)
+**AC-bus-load**vref{1}: 5
+! TODO **DC-bus-load**vref{1}: 1 (M8207)
+**DC-bus-load**vref{1}: 1
 **Positive-5V-current**vref{1}: 5.0 A (M8207-RA), 3.0 A (M8203)
-**Positive-15V-current**vref{1}: 0.11 A (M8203)
-**Negative-15V-current**vref{1}: 0.2 A (M8203)
+! verf{1}: **Positive-15V-current**vref{1}: 0.11 A (for M8203 only)
+**Positive-15V-current**vref{1}: 0.11 A
+! vref{1}: **Negative-15V-current**vref{1}: 0.2 A (M8203)
+**Negative-15V-current**vref{1}: 0.2 A
 **Text-start
 The DMR11 is a high performance microprocessor-controled single line  synchronous communications controller that provides local or remote 
 connection between PDP-11 or VAX UNIBUS systems and other computer systems with EIA-232-C/CCITT V.35, EIA-423-A/EIA-499, or EIA-422/EIA-449 interface.
@@ -753,7 +758,7 @@ The DUP11 is suited for interfacing to a medium-speed synchronous line for remot
 **AC-bus-load**vref{1}: 3.9
 **DC-bus-load**vref{1}: 1
 **Positive-5V-current**vref{1}: 5.5 A
-**Positive-12V-current**vref{1}: None
+**Positive-12V-current**vref{1}: 0 A
 **Text-start
 The DIV32 is an ISDN Basic Rate access communications controller for Q-Bus VAX systems.
 It can simultaneously handle the two B-Channels and the D-Channel defined by Basic Rate access.
@@ -768,8 +773,6 @@ It can simultaneously handle the two B-Channels and the D-Channel defined by Bas
 **Num-interfaces**vref{1}: 1
 **Ethernet-connection**vref{1}: AUI
 **CPU**vref{1}: CVAX
-**Positive-5V-current**vref{1}: 
-**Positive-12V-current**vref{1}: 
 **End-boards-entry{DEMNA}
 
 **Start-boards-entry{DEQRA}{QBUS}{QBUS}
@@ -782,8 +785,8 @@ It can simultaneously handle the two B-Channels and the D-Channel defined by Bas
 **Board-size**vref{1}: Quad
 **AC-bus-load**vref{1}: 5
 **DC-bus-load**vref{1}: 2
-**Positive-5V-current**vref{1}: 4.0
-**Positive-12V-current**vref{1}: 0.1
+**Positive-5V-current**vref{1}: 4.0 A
+**Positive-12V-current**vref{1}: 0.1 A
 **End-boards-entry{DEQRA}
 
 **Start-boards-entry{DEFEA}{EISA}{EISA}

@@ -1,10 +1,5 @@
 
 ---
-- Not-Allowed:
-  - Not Allowed
-  - Test entry
-  - never
-  - summary
 - Sys-name:
   - System name
   - System description
@@ -80,62 +75,51 @@
   - OS support (VMS)
   - First version of VMS of a continuous range until the final version that supports this system
   - all
-    - alpha
-    - itanium
   - summary
 - OS-support-VMS-end:
   - OS support (VMS)
   - Final VMS version that supports this system
-  - - vax
-    - alpha
-    - itanium
+  - all
   - summary
 - OS-support-VMS-early:
   - OS support (VMS)
   - An early version of VMS that supports the system but followed by a gap in support
-  - - vax
-    - alpha
-    - itanium
+  - all
   - summary
 - OS-support-MDM:
   - OS support (MDM)
   - Range of MDM releases that support this system
-  - - vax
-    - decmips
+  - all
   - summary
 - OS-support-ELN:
   - OS support (ELN)
   - Range of VAXELN releases that support this system
-  - vax
+  - all
   - summary
 - OS-support-ULTRIX:
   - OS support (ULTRIX)
   - Range of ULTRIX versions that support this system
-  - - vax
-    - decmips
-    - pdp11
+  - all
   - summary
 - OS-support-NT:
   - OS support (NT)
   - Range of WindowsNT versions that support this system
-  - alpha
+  - all
   - summary
 - OS-support-DU:
   - OS support (Digital UNIX)
   - Range of Digital Unix or Tru64 versions that support this system
-  - - decmips
-    - alpha
+  - all
   - summary
 - OS-support-DU-end:
   - OS support (Digital UNIX)
   - Final version of  Digital Unix or Tru64 that supports this system
-  - - decmips
-    - alpha
+  - all
   - summary
 - OS-support-SYSV:
   - OS support (AT&T System V)
   - Range of System V versions that suppor this system
-  - vax
+  - all
   - summary
 - Module:
   - Module
@@ -177,36 +161,60 @@
   - AC-bus-load
   - all
   - all
+  - optional
+  - - float
 - DC-bus-load:
   - DC-bus-load
   - DC-bus-load
   - all
   - all
+  - optional
+  - - float
 - Positive-5V-current:
   - +5V current
   - +5V current
   - all
   - all
+  - optional
+  - - physical-unit
+    - A
+    - mA
 - Positive-12V-current:
   - +12V current
   - +12V current
   - all
   - all
+  - optional
+  - - physical-unit
+    - A
+    - mA
 - Negative-12V-current:
   - -12V current
   - -12V current
   - all
   - all
+  - optional
+  - - physical-unit
+    - A
+    - mA
 - Positive-15V-current:
   - +15V current
   - +15V current
   - all
   - all
+  - optional
+  - - physical-unit
+    - A
+    - mA
 - Negative-15V-current:
   - -15V current
   - -15V current
   - all
   - all
+  - optional
+  - - physical-unit
+    - A
+    - mA
 - CPU:
   - CPU
   - CPU
@@ -217,16 +225,22 @@
   - Number of synchronous interface ports
   - all
   - all
+  - optional
+  - - int
 - Asynch-ports:
   - Aynch ports
   - Number of asynchronous interface ports
   - all
   - all
+  - optional
+  - - int
 - Printer-ports:
   - Printer ports
   - Number of printer ports
   - all
   - all
+  - optional
+  - - int
 - Modem-control:
   - Flow control
   - Flow control
