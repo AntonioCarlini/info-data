@@ -176,9 +176,9 @@ The DELUA is a follow on to the DEUNA, offering all the same functions but at hi
 **Synch-ports**vref{1}: 2
 **End-boards-entry{DSYT1}
 
-**Start-boards-entry{DEFZA}{SYNCH}{SYNCH}
-**Sys-name: DEC FDDIcontroller 700
-**Desc-name: DEC WANcontroller 720
+**Start-boards-entry{DEFZA}{FDDI}{FDDI}
+**Sys-name: DEFZA
+**Desc-name: DEC FDDIcontroller 700
 **Def-lref{1} = ref{EC-I0765-42}
 **Def-lref{2} = ref{EK-DEFZA-IN.D01}
 ! vref{1}: Single Attached Station
@@ -187,6 +187,19 @@ The DELUA is a follow on to the DEUNA, offering all the same functions but at hi
 **Positive-5V-current**vref{1}: 3.75 A
 **Positive-12V-current**vref{1}: 0.060 A
 **End-boards-entry{DEFZA}
+
+**Start-boards-entry{DEMFA}{FDDI}{FDDI}
+**Sys-name: DEMFA
+**Desc-name: DEC FDDIcontroller 400
+**Def-lref{1} = ref{EK-DEMFA-IP-001}
+**Def-lref{2} = ref{EC-I1866-42}
+! vref{1}: Single Attached Station
+**Bus**vref{1}: XMI
+**Board-size**vref{2}: 277.5 mm x 232.5 mm x 14 mm (0.55 kg)
+! vref{1}: bulkhead H063, adapter cable 17-02488-02
+**Module**vref{1}: T2027
+**Positive-5V-current**vref{1}: 12.4 A
+**End-boards-entry{DEMFA}
 
 **Start-boards-entry{DMB32}{SYNCH}{SYNCH}
 **Sys-name: DMB32

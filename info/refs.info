@@ -11539,12 +11539,19 @@
 **Ref-url: https://groups.google.com/g/biz.digital.articles/c/A2auy7KME7M
 **End-ref{CU-1995-02-16}
 
+**Start-ref{EK-DEMFA-IP-001}
+**Ref-text: DEC FDDIcontroller 400 Installation/Problem Solving
+**Ref-partno: EK-DEMFA-IP-001
+**Ref-date: 1991-10
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/demfaip1.pdf
+**End-ref{EK-DEMFA-IP-001}
+
 **Stop-processing
 
 **Start-ref{
 **Ref-text: 
-**Ref-date: 
 **Ref-partno: 
+**Ref-date: 
 **Ref-url: 
 **End-ref{
 
