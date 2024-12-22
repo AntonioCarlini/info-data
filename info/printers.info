@@ -842,3 +842,23 @@
 **Technology**vref{1}: Line matrix
 **End-printers-entry{LGL8PLUS}
 
+**Start-printers-entry{LVP16}{PRINTER}{LVP}
+**Sys-name: LVP16
+**Desc-name: LVP16 Colour Graphics Plotter
+**Def-lref{1} = ref{DECdirect-JUL87}
+**Resolution**vref{1}: 1000 ppi
+**Dimensions-start{LVP16}
+**Height**vref{1}: 127 mm
+**Width**vref{1}: 569 mm
+**Depth**vref{1}: 368 mm
+**Weight**vref{1}: 7.2 kg
+**Dimensions-end{LVP16}
+**End-printers-entry{LVP16}
+
+**Start-printers-entry{LQP45}{PRINTER}{LQP}
+**Sys-name: LQP45
+**Desc-name: LQP45 Letter Quality Printer
+**Def-lref{1} = ref{DECdirect-JUL87}
+**Print-speed**vref{1}: 45 cps
+**End-printers-entry{LQP45}
+

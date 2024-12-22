@@ -10774,6 +10774,12 @@
 **Ref-text: DECdirect Nov-Jan 1993
 **End-ref{DECdirect-NOV92}
 
+**Start-ref{DECdirect-JUL87}
+**Ref-text: DECdirect July 1987
+**Ref-partno: JZ013-04
+**Ref-processed: Yes
+**End-ref{DECdirect-JUL87}
+
 **Start-ref{EB-05138-75}
 **Ref-text: pdp11 processor handbook pdp11/04/05/10/35/40/45 1975-76
 **Ref-partno: EB-05138-75

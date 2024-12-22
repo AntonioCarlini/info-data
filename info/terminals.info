@@ -1039,3 +1039,31 @@
 **Maximum-memory**vref{1}: 18MB
 **End-terminals-entry{VXT2000PLUS}
 
+**Start-terminals-entry{VTX20}{DECVT}{VTX20}
+**Sys-name: VTX20
+**Desc-name: VTX20 Videotex Terminal
+**Def-lref{1} = ref{DECdirect-JUL87}
+**Printer-port**vref{1}: Yes
+**Dimensions-start{VTX20-Monitor}
+**Label: VTX20 monitor
+**Height**vref{1}: 324 mm
+**Width **vref{1}: 380 mm
+**Depth **vref{1}: 421 mm
+**Weight**vref{1}: 16.6 kg
+**Dimensions-end{VTX20-Monitor}
+**Dimensions-start{VTX20-Monitor}
+**Label: VTX20 System Box
+**Height**vref{1}: 89 mm
+**Width **vref{1}: 457 mm
+**Depth **vref{1}: 305 mm
+**Weight**vref{1}: 8.2 kg
+**Dimensions-end{VTX20-Monitor}
+**Dimensions-start{VTX20-KBD}
+**Label: VTX20 keyboard
+**Height**vref{1}: 5 mm
+**Width **vref{1}: 533 mm
+**Depth **vref{1}: 171 mm
+**Weight**vref{1}: 2.04 kg
+**Dimensions-end{VTX20-KBD}
+**End-terminals-entry{VTX20}
+
