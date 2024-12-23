@@ -1586,6 +1586,7 @@
 **Def-lref{6} = ref{Glossary-CodeNames-1992-01-02}
 **Def-lref{7} = ref{VMS-V071-SPD}
 **Def-lref{8} = ref{SOC-SUM85}
+**Def-lref{9} = ref{DECselect-SPR86}
 **document=doc{DEC:EK-SI750-IN-003} ! VAX-11/750 Installation and Acceptance Manual
 **document=doc{DEC:EK-D5283-SG-002} ! DIGITAL VAX-11/750 Magic Book
 **document=doc{DEC:EK-VAXV3-HB-001} ! VAX Maintenance Handbook VAX-11/750
@@ -1655,6 +1656,16 @@
 **Depth**vref{1}: 762mm
 **Weight**vref{1}: 182kg
 **Dimensions-end{750}
+**Options-start{VAX750}
+**Option-title: Options
+**Option**vref{9}: {options:DR750-F}{DR650-F General Purpose DMA Interface for VAX-11/750}
+**Option**vref{9}: {options:DW750}{DW750 Second UNIBUS Ada[ter for VAX-11/750}
+**Option**vref{9}: {options:FP750}{FP750 Floating-Point Accelerator for VAX-11/750}
+**Option**vref{9}: {options:KU750-YG}{KU750-YG User Writeable Contro Store for VAX-11/750}
+**Option**vref{9}: {options:CI750}{CI750 CI Interface for VAX-11/750}
+**Option-title: Enclosures
+**Option**vref{9}: {options:H7112-A}{H7112-A Memory Battery Backup for VAX-11/750}
+**Options-end{VAX750}
 **Text-start
 The VAX-11/750 features 4 KB of bipolar cache memory with parity checking, a programmable real-time clock and a time-of-year clock with battery backup.
 The system may be clustered by connecing to a star coupler with a CI750.
@@ -1832,6 +1843,7 @@ VAX/VMS and ULTRIX-32 are supported.
 **Def-lref{8} = ref{SOC-SUM85}
 **def-lref{9} = ref{DTJ-V1-1}
 **def-lref{10} = ref{ESOC-SPR87}
+**def-lref{11} = ref{DECselect-SPR86}
 **document = doc{DEC:EB-07466-20}
 **document = doc{DEC:EK-11780-UG-001}
 **document = doc{DEC:EK-SI780-IN-002}
@@ -1897,7 +1909,15 @@ VAX/VMS and ULTRIX-32 are supported.
 **Dimensions-end{780}
 **options-start{VAX780}
 **Option-title: I/O Expansion
-**Option**vref{10}: {boards:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
+**Option**vref{10}: {boards:DR780-FB}{DR780 Intelligent High Performance General Pupose I/O Interface}
+**Option**vref{11}: {boards:DW780-AB}{DW780 UNIBUS Adapter}
+**Option**vref{11}: {boards:CI780-AB}{CI780-AB CI Interface for VAX-11/780}
+**Option-title: Option
+**Option**vref{11}: {boards:FP780-AB}{FP780-AB Floating-Point Accelerator for VAX-11/780}
+**Option**vref{11}: {boards:KE780-A}{KE780-A G & H Floating Point Microcode}
+**Option**vref{11}: {boards:KU780-A}{KU780-A User Writeable Control Store}
+**Option-title: Enclosures
+**Option**vref{11}: {boards:H7112-A}{H7112-A Memory Battery Backup}
 **options-end{VAX780}
 **Text-start
 The VAX-11/780 was the first member to ship of the VAX-11 family of supercomputers.
@@ -1964,6 +1984,7 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **Def-lref{6} = ref{SUE-1984-04-02-V5-N19}
 **Def-lref{7} = ref{SOC-SUM85}
 **def-lref{8} = ref{ESOC-SPR87}
+**def-lref{9} = ref{DECselect-SPR86}
 **document=doc{DEC:EK-KC785-TD-001} ! VAX-11/785 Console Interface Technical Description
 ! vref{6}: 1984-04-02
 **Announcement**vref{3,6}: 1984-04-03
@@ -2007,6 +2028,14 @@ VAX/VMS Version V1.0 shipped in 1978, along with the first revenue-ship 11/780 s
 **options-start{VAX785}
 **Option-title: I/O Expansion
 **Option**vref{8}: {boards:DR780-FB}{DR780 Intelligent High performance General Pupose I/O Interface}
+**Option**vref{9}: {boards:DW780-AB}{DW780 UNIBUS Adapter}
+**Option**vref{9}: {boards:CI780-AB}{CI780-AB CI Interface for VAX-11/780}
+**Option-title: Option
+**Option**vref{9}: {boards:FP785-AB}{FP785-AB Floating-Point Accelerator for VAX-11/785}
+**Option**vref{9}: {boards:KE780-A}{KE780-A G & H Floating Point Microcode}
+**Option**vref{9}: {boards:KU780-A}{KU780-A User Writeable Control Store}
+**Option-title: Enclosures
+**Option**vref{9}: {boards:H7112-A}{H7112-A Memory Battery Backup}
 **options-end{VAX785}
 **Text-start
 The VAX-11/785 is an enhanced version of the VAX-11/780. Based on FAST
@@ -4364,6 +4393,7 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Def-lref{7} = ref{DEC-PR-1984-10-31}
 **def-lref{8} = ref{DTJ-V1-1}
 **def-lref{9} = ref{ESOC-SPR87}
+**def-lref{10} = ref{DECselect-SPR86}
 **document=doc{DEC:DTJ-V1-1} ! "VAX 8600 Processor", Digital Technical Journal, Vol 1 No 1, August 1985
 **document=doc{DEC:EK-8600I-IN-001} ! VAX 8600/8650 System Installation Manual
 **document=doc{DEC:EK-8600I-S1-001} ! VAX 8600 System Upgrade Procedure
@@ -4441,8 +4471,15 @@ VAX/VMS, ULTRIX-32 and VAXELN are supported on this machine.
 **Weight**vref{1}: 782.1kg
 **Dimensions-end{8600}
 **options-start{VAX8600}
+**Option-title: Options
+**Option**vref{10}: {options:FP86-AA}{FP86-AA VAX 8600 Floating Point Accelerator}
+**Option**vref{10}: {options:DW780-MB}{DW780-MB Second UNIBUS Adapter}
+**Option**vref{10}: {options:RB86-AA}{RB86-AA Integrated Disk and Tape Controller for VAX 8600}
+**Option**vref{10}: {options:RH780-FB}{RH780-FB Massbus Adapter}
+**Option**vref{10}: {options:CI780-MA}{CI780-MA VAX 8600 SBI-CI Adapter}
 **Option-title: Memory
 **Option**vref{9}: {memory:MS86-AA}{4MB ECC MOS (256K chip) Memory Module}
+**Option**vref{10}: {memory:MS86-BA}{4MB ECC MOS Memory Module}
 **Option**vref{9}: {memory:MS86-CA}{16MB ECC MOS (256K chip) Memory Module}
 **Option-title: I/O Expansion
 **Option**vref{9}: {enclosure:H9652-FB}{VAX 8600 Series UNIBUS Expansion Cabinet}
