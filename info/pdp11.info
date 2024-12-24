@@ -229,6 +229,7 @@
 **Start-systems-entry{PDP1124}{PDP11}{UNIBUS}
 **Def-lref{1} = ref{EB-26077-41}
 **Def-lref{2} = ref{SOC-SUM85}
+**Def-lref{3} = ref{DECselect-SPR86}
 **Sys-name: PDP-11/24 
 **Desc-name: PDP-11/24 
 **Generation**vref{1}: 4th
@@ -255,6 +256,11 @@
 **Dimensions-end{Rackmount}
 **Heat-dissipation**vref{2}: 598 BTU/hr
 ! vref{1}: notes sizes and power.
+**Options-start{PDP1124}
+**Option-title: Memory
+**Option**vref{3}: {enclosures:H775-A}{H775-A Battery Backup for 5-1/4" PDP-11/24}
+**Option**vref{3}: {enclosures:H7750-BA}{H7750-BA Battery Backup for 10-1/2" PDP-11/24}
+**Options-end{PDP1124}
 **End-systems-entry{PDP1124}
 
 **Start-systems-entry{PDP1134}{PDP11}{UNIBUS}
@@ -312,6 +318,7 @@
 **Def-lref{1} = ref{EB-17716-18}
 **Def-lref{2} = ref{EB-26077-41}
 **Def-lref{3} = ref{EB-24944-18}
+**Def-lref{4} = ref{DECselect-SPR86}
 **Sys-name: PDP-11/44
 **Desc-name: PDP-11/44
 **Announcement**vref{3}: 1979
@@ -343,6 +350,12 @@
 **Height**vref{1}: 660.1mm
 **Weight**vref{1,2}: 40.5kg
 **Dimensions-end{PDP1144}
+**Options-start{PDP1144}
+**Option-title: Memory
+**Option**vref{4}: {boards:MS11-PB}{MS11-PB 1MB PMI ECC MOS Memory}
+**Option-title: Enclosures
+**Option**vref{3}: {enclosures:H7750-BA}{H7750-BA Battery Backup for 10-1/2" PDP-11/44}
+**Options-end{PDP1144}
 **End-systems-entry{PDP1144}
 
 **Start-systems-entry{PDP1145}{PDP11}{UNIBUS}
@@ -431,6 +444,7 @@
 **Start-systems-entry{PDP1184}{PDP11}{UNIBUS}
 **def-lref{1} = ref{EB-26077-41}
 **def-lref{2} = ref{ESOC-SPR87}
+**def-lref{3} = ref{DECselect-SPR86}
 **Sys-name: PDP-11/84 
 **Desc-name: PDP-11/84 
 **Announcement**vref{1}: 1985

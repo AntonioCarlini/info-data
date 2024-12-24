@@ -66280,18 +66280,21 @@ start-publication DEC:EK-DYS50-TM-001
 end-publication DEC:EK-DYS50-TM-001
 
 start-publication DEC:EK-DZ11-MM-PRE
+  title = DZ11 maintenance manual
   part-no = EK-DZ11-MM-PRE
   publisher = DEC
   fonds = fiche://EP-DZ11-MM-PRE
 end-publication DEC:EK-DZ11-MM-PRE
 
 start-publication DEC:EK-DZ110-TM-002
+  title = DZ11 asynchronous multiplexer technical manual
   part-no = EK-DZ110-TM-002
   publisher = DEC
   fonds = fiche://EP-DZ110-TM-002
 end-publication DEC:EK-DZ110-TM-002
 
 start-publication DEC:EK-DZ11X-TM-001
+  title = DZ11 Asynchronous Multiplexer Technical Manual
   part-no = EK-DZ11X-TM-001
   publisher = DEC
   fonds = fiche://EP-DZ11X-TM-CN1

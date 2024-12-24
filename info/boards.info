@@ -345,6 +345,26 @@ It has DHU11 and DHV11 programming modes, with the DHU11 mode being preferred.
 **Positive-12V-current**vref{1}: 0.15 A
 **End-boards-entry{DLVJ1}
 
+**Start-boards-entry{DHV11}{UNIBUS}{UNIBUS}
+**Sys-name: DHV11
+**Desc-name: DHV11 Asynchronous Multiplexer
+**Def-lref{1} = ref{EK-DHV11-TM-002}
+**document=doc{DEC:EK-DHV11-MC}                       ! DHV11 Maintenance Card
+**document=doc{DEC:EK-DHV11-TM-001}                   ! DHV11 Technical Manual
+**document=doc{DEC:EK-DHV11-TM-002}                   ! DHV11 Technical Manual
+**Modem-control**vref{1}: Full
+**CPU**vref{1}: 8051 (2 off)
+**Bus**vref{1}: QBUS
+**Board-size**vref{1}: Quad
+**Module**vref{1}: M3104
+**Asynch-ports**vref{1}: 8
+**Serial-speed**vref{1}: 50 - 38400
+**AC-bus-load**vref{1}: 2.9
+**DC-bus-load**vref{1}: 1.0
+**Positive-5V-current**vref{1}: 4.25 A
+**Positive-12V-current**vref{1}: 0.520 A
+**End-boards-entry{DHV11}
+
 **Start-boards-entry{DMV11-AA/AB}{QBUS}{QBUS}
 **Sys-name: DMV11-AA/AB
 **Desc-name: DMV11 Synchronous Controller
@@ -455,6 +475,28 @@ In point to point configurations, the  DMV11 can communicate with DMC11, DUP11, 
 **Positive-5V-current**vref{1}: 1.100 A
 **Positive-12V-current**vref{1}: 0.236 A
 **End-boards-entry{DZQ11}
+
+**Start-boards-entry{DZ11}{UNIBUS}{UNIBUS}
+**Sys-name: DZ11
+**Desc-name: DZ11 Asynchronous Multiplexer
+**Def-lref{1} = ref{EK-DZ110-UG-002}
+**document=doc{DEC:AC-E941C-MC}                       ! CXDZAC0 DZ11 Feb79
+**document=doc{DEC:DZ11 Prog}                         ! DZ11 Progamming Info (Chapter 3 only)
+**document=doc{DEC:EK-DZ11-MM-PRE}                    ! 
+**document=doc{DEC:EK-DZ110-TM-002}                   ! 
+**document=doc{DEC:EK-DZ110-UG-001}                   ! DZ11 user's guide
+**document=doc{DEC:EK-DZ110-UG-002}                   ! DZ11 user's guide
+**document=doc{DEC:EK-DZ11X-TM-001}                   ! 
+**Modem-control**vref{1}: Limited
+**Bus**vref{1}: UNIBUS
+**Board-size**vref{1}: Hex
+**Module**vref{1}: M7819
+**Asynch-ports**vref{1}: 8
+**Serial-speed**vref{1}: 50 - 9600
+**Positive-5V-current**vref{1}: 2.6 A
+**Positive-15V-current**vref{1}: 0.13 A
+**Negative-15V-current**vref{1}: 0.15 A
+**End-boards-entry{DZ11}
 
 **Start-boards-entry{KMV1A}{QBUS}{QBUS}
 **Sys-name: KMV1A

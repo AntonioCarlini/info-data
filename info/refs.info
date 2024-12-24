@@ -3784,12 +3784,16 @@
 **Start-ref{EK-DHV11-TM-001}
 **Ref-text: DHV11 Technical Manual
 **Ref-partno: EK-DHV11-TM-001
+**Ref-date: 1983-09
+**Ref-url: http://manx-docs.org/collections/antonio/dec/dhv11tm1.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DHV11-TM-001}
 
 **Start-ref{EK-DHV11-TM-002}
 **Ref-text: DHV11 Interface Technical Manual
 **Ref-partno: EK-DHV11-TM-002
+**Ref-date: 1985-11
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/qbus/EK-DHV11-TM-002.pdf
 **Ref-hardcopy: Yes
 **End-ref{EK-DHV11-TM-002}
 
@@ -11558,6 +11562,13 @@
 **Ref-date: 1992-09
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/de212omb.pdf
 **End-ref{EK-DE212-OM.B01}
+
+**Start-ref{EK-DZ110-UG-002}
+**Ref-text: DZ11 user's guide
+**Ref-partno: EK-DZ110-UG-002
+**Ref-date: 1979-02
+**Ref-url: https://manx-docs.org/collections/antonio/dec/dz110ug2.pdf
+**End-ref{EK-DZ110-UG-002}
 
 **Stop-processing
 
