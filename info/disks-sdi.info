@@ -323,19 +323,42 @@
 **Start-storage-entry{RA80}{SDI}{RA}
 **Sys-name: RA80
 **Desc-name: RA80 Winchester Disk
+**Def-lref{1} = ref{EK-0RA80-UG-001}
+**Def-lref{2} = ref{DECselect-SPR86}
 !-- Also available as RM80 (Massbus) and R80 (on IDC on VAX-11/725 and VAX-11/730) -->
 **Lifetime**uref{*DU JUN-86}: 1982	
-**Capacity**uref{*SOEE85}: 121MB	
+**Capacity**vref{1}: 121MB	
 **Average-access**uref{*SOEE85}: 33.3ms	
-**Average-seek**uref{*SOEE85}: 25ms	
-**Average-latency**uref{*SOEE85}: 8.33ms	
-**Peak-transfer-rate**uref{*SOEE85}: 1.2MB/s	
-**Track-track-seek**uref{*SOEE85}: 6ms	
+**Average-seek**vref{1}: 25ms	
+**Average-latency**vref{1}: 8.33ms	
+**Peak-transfer-rate**vref{1}: 1.2MB/s	
+**Track-track-seek**vref{1}: 6ms	
 **Bytes-per-sector**uref{*SOEE85}: 512	
-**Sectors-per-track**uref{*SOEE85}: 31	
-**Tracks-per-surface**uref{*SOEE85}: 1092	
-**Num-media-surfaces**uref{*SOEE85}: 7 data, 1 servo	
-**Rotational-speed**uref{*SOEE85}: 3600rpm	
+**Sectors-per-track**vref{1}: 31	
+**Tracks-per-surface**vref{1}: 1022
+**Track-density**vref{1}: 478 tpi
+**Num-media-surfaces**vref{1}: 7 data, 1 servo	
+**Rotational-speed**vref{1}: 3600rpm
+**Dimensions-start{RA80}
+**Height**vref{1}: 260 mm
+**Width**vref{1}: 440 mm
+**Depth**vref{1}: 670 mm
+**Weight**vref{1}: 66.7 kg
+**Dimensions-end{RA80}
+**Power-start{RA80-120V}
+**Label: 120V
+**Supply**vref{1}: 120V
+**I-inrush**vref{1}: 31 A
+**I-nominal**vref{1}: 7.5 A
+**Power**vref{1}: 720 W
+**Power-end{RA80-120V}
+**Power-start{RA80-240V}
+**Label: 240V
+**Supply**vref{1}: 240V
+**I-inrush**vref{1}: 17 A
+**I-nominal**vref{1}: 3.75 A
+**Power**vref{1}: 720 W
+**Power-end{RA80-240V}
 **End-storage-entry{RA80}
 
 **Start-storage-entry{RA81}{SDI}{RA}

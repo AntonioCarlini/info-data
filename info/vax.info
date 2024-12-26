@@ -1657,6 +1657,10 @@
 **Weight**vref{1}: 182kg
 **Dimensions-end{750}
 **Options-start{VAX750}
+**Option-title: Memory
+**Option**vref{9}: {memory:MS750-DA}{MS750-DA 1MB Memory Upgrade}
+**Option**vref{9}: {memory:MS750-DC}{MS750-DA 1MB Memory Upgrade plus Updated Backplane}
+**Option**vref{9}: {memory:MS750-CA}{MS750-CA 1MB Add-on Array}
 **Option-title: Options
 **Option**vref{9}: {options:DR750-F}{DR650-F General Purpose DMA Interface for VAX-11/750}
 **Option**vref{9}: {options:DW750}{DW750 Second UNIBUS Ada[ter for VAX-11/750}

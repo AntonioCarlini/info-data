@@ -4271,8 +4271,16 @@
 **Start-ref{AA-M186B-TC}
 **Ref-text: RA80 Maintenance Guide
 **Ref-partno: AA-M186B-TC
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/ra80/AA-M186B-TC_RA80_Maint.pdf
 **Ref-hardcopy: Yes
 **End-ref{AA-M186B-TC}
+
+**Start-ref{EK-0RA80-UG-001}
+**Ref-text: RA80 Disk Drive User Guide
+**Ref-partno: EK-0RA80-UG-001
+**Ref-date: 1982-01
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/ra80/EK-0RA80-UG-001_UsersGuide_Jan82.pdf
+**End-ref{EK-0RA80-UG-001}
 
 **Start-ref{VT1000-Installation}
 **Ref-text: VT1000 Video Terminal Installing and Getting Started
