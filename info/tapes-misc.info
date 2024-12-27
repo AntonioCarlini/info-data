@@ -285,6 +285,21 @@
 **Capacity**vref{1}: 40MB
 **End-storage-entry{TS05}
 
+**Start-storage-entry{TU77}{MISC}{TU}
+**Def-lref{1} = ref{EK-TU77-UG-001}
+**Sys-name: TU77
+**Desc-name: TU77 Magnetic Tape Transport
+**Read-write-speed**vref{1}: 125in/s
+**Rewind-time**vref{1}: 65s (2400' reel)
+**Recording-format**vref{1}: 1600bpi PE and 800bpi NRZI
+**Dimensions-start{TU77}
+**Height**vref{1}: 1524 mm
+**Width**vref{1}: 673 mm
+**Depth**vref{1}: 819 mm
+**Weight**vref{1}: 288 kg
+**Dimensions-end{TU77}
+**End-storage-entry{TU77}
+
 **Start-storage-entry{TU78}{MISC}{TU}
 **def-lref{1} = ref{ESOC-SPR87}
 **Sys-name: TU78

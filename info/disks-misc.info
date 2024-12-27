@@ -280,7 +280,7 @@
 **Sectors-per-track**vref{2}: 40
 **Bytes-per-sector**vref{2}: 256
 **Recording-density**uref{*SUE 5.25 25-6-84}: 3725bpi
-**Track-density**uref{[*SUE 5.25 25-6-84}: 256tpi
+**Track-density**vref{2}: 250 tpi
 **Servo-type**uref{11}: Embedded
 **Rotational-speed**vref{2}: 2400rpm
 **Dimensions-start{RL02}
