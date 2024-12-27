@@ -904,3 +904,25 @@ It can simultaneously handle the two B-Channels and the D-Channel defined by Bas
 **Asynch-ports**vref{1}: 16
 **End-boards-entry{DHW42}
 
+**Start-boards-entry{UDA50}{UNIBUS}{UNIBUS}
+**Sys-name: UDA50
+**Desc-name: UDA50 Disk Controller
+**Def-lref{1} = ref{EK-UDA50-UG-003}
+**document=doc{DEC:AA-M185C-TC}                       ! UDA50 Maintenance Guide
+**document=doc{DEC:DEC-O-LOG:UDA50}                   ! DOL, UDA50 R0005, UNIBUS Disk Adapter AUG 84
+**document=doc{DEC:EK-UDA50-SV-001}                   ! UDA50 Service Manual
+**document=doc{DEC:EK-UDA50-SV-002}                   ! UDA50 Service Manual
+**document=doc{DEC:EK-UDA50-SV-003}                   ! UDA50 Service Manual
+**document=doc{DEC:EK-UDA50-SV-02A}                   ! UDA50 Service Manual
+**document=doc{DEC:EK-UDA50-UG-002}                   ! UDA50 User Guide
+**document=doc{DEC:EK-UDA50-UG-003}                   ! UDA50 User Guide
+**document=doc{DEC:MP01331}                           ! UDA50 Field Maintenance Printset
+**Bus**vref{1}: UNIBUS
+**Module**vref{1}: {M7486} {M7485}
+**Num-interfaces**vref{1}: 1
+**Positive-5V-current**vref{1}: 12 A
+**Positive-15V-current**vref{1}: 0.100 A
+**Negative-15V-current**vref{1}: 1.4 A
+! vref{1}: 84 W, 295BUT/hr
+**End-boards-entry{UDA50}
+

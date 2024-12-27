@@ -103,6 +103,20 @@
 **def-lref{1} = ref{EK-ORA60-UG-001}
 **def-lref{2} = ref{ESOC-SPR87}
 **def-lref{3} = ref{SOCEE-SPR89}
+**document=doc{DEC:AA-M880B-TC}                       ! RA60 Maintenance Guide
+**document=doc{DEC:DEC-O-LOG:RA60}                    ! DOL, RA60 S001, RA60 Disk Drives AUG 85
+**document=doc{DEC:EA-24042-18}                       ! The RA60, RA80 and RA81 Disk Drives and the DIGITAL Storage Architecture
+**document=doc{DEC:EK-0RA60-HB-002}                   ! RA60 Safety Instructions Read Me First Important Information
+**document=doc{DEC:EK-0RA60-IP-001}                   ! *ipb* RA60 Disk Drive
+**document=doc{DEC:EK-0RA60-SV-001}                   ! RA60 Disk Drive Service Manual
+**document=doc{DEC:EK-0RA60-UG-001}                   ! RA60 Disk Drive User Guide
+**document=doc{DEC:EK-ORA60-HB-002}                   ! RA60 Safety Instructions
+**document=doc{DEC:EK-ORA60-SV-002}                   ! 
+**document=doc{DEC:EY-1173E-SG-001}                   ! RA60 Disk Drive Maintenance Course Student Guide
+**document=doc{DEC:EY-1173E-WB-0101}                  ! RA60 Disk Drive Maintenance Course Workbook I
+**document=doc{DEC:EY-1173E-WB-0201}                  ! RA60 Disk Drive Maintenance Course Workbook II
+**document=doc{DEC:EY-1670E-WB-0001}                  ! RA60 Laboratory Project Workbook Student Guide
+**document=doc{DEC:MP01421}                           ! RA60 Field Maintenance Print Set
 **Announcement**uref{*DU-JUN86}: 1983
 **Capacity**htref{1}: 205MB	
 **Form-factor: 14"
@@ -366,24 +380,49 @@
 **Desc-name: RA81 Winchester Disk
 **Def-lref{1} = ref{DEC-PR-1988-07-14}
 **def-lref{2} = ref{ESOC-SPR87}
+**def-lref{3} = ref{EK-0RA81-UG-001}
+**document=doc{DEC:AA-M879B-TC}                       ! RA81 Disk Drive Maintenance Guide
+**document=doc{DEC:EA-24042-18}                       ! The RA60, RA80 and RA81 Disk Drives and the DIGITAL Storage Architecture
+**document=doc{DEC:EK-0RA81-IP-001}                   ! *ipb* RA81 Disk Drive
+**document=doc{DEC:EK-0RA81-SV-001}                   ! RA81 Disk Drive Service Manual
+**document=doc{DEC:EK-0RA81-UG-001}                   ! RA81 Disk Drive User Guide
+**document=doc{DEC:MP01359}                           ! RA81 Field Maintenance Print Set
 **Lifetime**uref{[*DU JUN-86]}: 1982-?	
 **Last-order**vref{1}: 1988-12-31
-**Capacity**vref{1}: 456MB	
+**Capacity**vref{1,3}: 456MB
 **Form-factor: 14"
 **Average-access**vref{1}: 36 ms
-**Average-seek**vref{1}: 28ms	
-**Average-latency**vref{2}: 8.33ms	
-!**Peak-transfer-rate**uref{[*23]}: 17.4Mbit/s	
+**Average-seek**vref{1}: 28ms
+**Average-latency**vref{2,3}: 8.33ms	
+!**Peak-transfer-rate**vref{3}: 17.4Mbit/s	
 **Peak-transfer-rate**vref{2}: 2.2MB/s
 **Track-track-seek**uref{*SOEE85}: 6ms	
 **Head-switch-latency**uref{[*23]}: 6ms	
-**Num-media-surfaces**vref{2}: 7 data, 1 servo	
-**Num-heads**uref{[*23]}: 2 per surface	
-!!!**Num-cylinders**uref{[*23]}: 1258:per head	
+**Num-media-surfaces**vref{2,3}: 7 data, 1 servo	
+**Num-heads**vref{3}: 2 per surface	
+!!!**Num-cylinders**vref{3}: 1258:per head	
 **Tracks-per-surface**vref{2}: 2496	
 **Bytes-per-sector**vref{2}: 512	
 **Sectors-per-track**vref{2}: 51
-**Rotational-speed**vref{2}: 3600rpm	
+**Rotational-speed**vref{2}: 3600rpm
+**Dimensions-start{RA81}
+**Height**vref{3}: 264 mm
+**Width**vref{3}: 445 mm
+**Depth**vref{3}: 673 mm
+**Weight**vref{3}: 67.1 kg
+**Dimensions-end{RA81}
+**Power-start{RA81-120V}
+**Label: 120V
+**Supply**vref{3}: 120V
+**I-nominal**vref{3}: 7.8 A
+**I-inrush**vref{3}: 35 A
+**Power-end{RA81-120V}
+**Power-start{RA81-240V}
+**Label: 240V
+**Supply**vref{3}: 240V
+**I-nominal**vref{3}: 3.5 A
+**I-inrush**vref{3}: 18 A
+**Power-end{RA81-240V}
 **End-storage-entry{RA81}
 
 **Start-storage-entry{RA82}{SDI}{RA}

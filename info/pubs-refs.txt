@@ -68874,6 +68874,7 @@ start-publication DEC:EK-OPLST-OO-OP-B
 end-publication DEC:EK-OPLST-OO-OP-B
 
 start-publication DEC:EK-ORA60-SV-002
+  title = RA60 Disk Drive Service Manual
   part-no = EK-ORA60-SV-002
   publisher = DEC
   fonds = fiche://EP-ORA60-SV-002

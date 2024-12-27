@@ -123,6 +123,8 @@
 **Start-ref{EK-0RA81-UG-001}
 **Ref-text: RA81 Disk Drive User Guide
 **Ref-partno: EK-0RA81-UG-001
+**Ref-date: 1982
+**Ref-url: https://bitsavers.trailing-edge.com/pdf/dec/disc/ra81/EK-0RA81-UG-001_RA-81_Disk_Drive_Users_Guide_1982.pdf
 **End-ref{EK-0RA81-UG-001}
 
 **Start-ref{AZ-GN4AB-TE}
@@ -3642,6 +3644,8 @@
 **Start-ref{EK-UDA50-UG-003}
 **Ref-text: UDA50 User Guide
 **Ref-partno: EK-UDA50-UG-003
+**Ref-date: 1984-07
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/uda50/EK-UDA50-UG-003_usersGuide.pdf 
 **Ref-hardcopy: Yes
 **End-ref{EK-UDA50-UG-003}
 
@@ -3674,6 +3678,14 @@
 **Ref-partno: EK-ORA60-UG-001
 **Ref-hardcopy: Yes
 **End-ref{EK-ORA60-UG-001}
+
+**Start-ref{EK-ORA60-SV-001}
+**Ref-text: RA60 Disk Drive Service Manual
+**Ref-partno: EK-ORA60-SV-001
+**Ref-date: 1983-05
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/ra60/EK-0RA60-SV-001_May83.pdf
+**Ref-hardcopy: Yes
+**End-ref{EK-ORA60-SV-001}
 
 **Start-ref{EK-OTU80-UG-002}
 **Ref-text: TU80 Subsystem User Guide
@@ -4265,6 +4277,7 @@
 **Start-ref{AA-M879B-TC}
 **Ref-text: RA81 Disk Drive Maintenance Guide
 **Ref-partno: AA-M879B-TC
+**Ref-url: http://manx-docs.org/collections/hcps/m879btc.pdf
 **Ref-hardcopy: Yes
 **End-ref{AA-M879B-TC}
 
