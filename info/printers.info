@@ -15,6 +15,7 @@
 ! PrintServer 32: https://groups.google.com/forum/#!topic/biz.dec/WxCiEgmo2DI
 ! PrintServer 32 plus: https://groups.google.com/forum/#!topic/biz.digital.articles/c8sTAs6yEfA
 ! DEClaser 5100: https://groups.google.com/g/biz.dec/c/by5y2MuGek0/m/kyYEgQ51Id8J
+! LP11/LS11/LA11: see https://bitsavers.org/pdf/dec/unibus/LP11_UsersMan.pdf
 
 **Start-printers-entry{DCL1100}{PRINTER}{LN}
 **Def-lref{1} = ref{EK-DCL11-SV.B01}
@@ -472,6 +473,28 @@
 **Def-lref{1} = ref{CU-1996-03-29}
 **Announcement**vref{1}: 1996-03-29
 **End-printers-entry{LG12PLUS}
+
+**Start-printers-entry{LN01B}{PRINTER}{LN}
+**Sys-name: LN01B
+**Desc-name: LN01B Laser Printer
+**Def-lref{1} = ref{DECselect-SPR86}
+**Sheet-capacity**vref{1}: 500 sheets
+**Data-interface**vref{1}: RS-232
+**Data-rate**vref{1}: 9600 baud
+**Print-speed**vref{1}: 12 pages/min
+**Resolution**vref{1}: 300 dpi
+**Dimensions-start{LN01B}
+**Height**vref{1}: 910 mm
+**Width**vref{1}: 660 mm
+**Depth**vref{1}: 660 mm
+**Weight**vref{1}: 135 kg
+**Dimensions-end{LN01B}
+**Power-start{LN01B}
+**Label: LN01B
+**Power**vref{1}: 1150 W
+**Heat-dissipation**vref{1}: 3920 BTU/hr
+**Power-end{LN01B}
+**End-printers-entry{LN01B}
 
 **Start-printers-entry{LN03}{PRINTER}{LN}
 **Sys-name: LN03

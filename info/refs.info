@@ -78,6 +78,7 @@
 
 **Start-ref{DECselect-SPR86}
 **Ref-text: DECselect Spring '86
+**Ref-processed: Yes
 **End-ref{DECselect-SPR86}
 
 **Start-ref{SOCEE-WIN88}
@@ -11598,6 +11599,13 @@
 **Ref-date: 1979-02
 **Ref-url: https://manx-docs.org/collections/antonio/dec/dz110ug2.pdf
 **End-ref{EK-DZ110-UG-002}
+
+**Start-ref{EK-LP11S-OP-001}
+**Ref-text: LP11/LS11/LA11 line printer user's manual
+**Ref-partno: EK-LP11S-OP-001
+**Ref-date: 1976-09
+**Ref-url: https://bitsavers.org/pdf/dec/unibus/LP11_UsersMan.pdf
+**End-ref{EK-LP11S-OP-001}
 
 **Stop-processing
 
