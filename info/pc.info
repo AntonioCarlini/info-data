@@ -319,12 +319,14 @@
 
 **Start-systems-entry{DECPC-DECstation220}{DECPC}{DECstation}
 **Def-lref{1} = ref{SOCEE-SPR90}
+**Def-lref{2} = ref{DECdirect-MAY91}
 **Sys-name: DECPC-DECstation 220
 **Desc-name: DECPC-DECstation 220
 **CPU-chip**vref{1}: 80286
 **CPU-clock**vref{1}: 12 MHz
 **BUS-ISA**vref{1}: 3 slots (16-bit)
 **Minimum-memory**vref{1}: 1MB
+**Maximum-memory**vref{2}: 14MB
 **Keyboard**vref{1}: LK250
 **Options-start{DS220}
 **Option-title: Memory
@@ -370,6 +372,57 @@
 **Dimensions-end{DECstation300}
 **End-systems-entry{DECPC-DECstation300}
 
+**Start-systems-entry{DECstation316}{DECPC}{DECstation}
+**Def-lref{1} = ref{DECdirect-MAY91}
+**Sys-name: DECPC-316
+**Desc-name: DECstation 316
+**CPU-chip**vref{1}: 80386SX
+**CPU-clock**vref{1}: 16 MHz
+**Minimum-memory**vref{1}: 1MB
+**Maximum-memory**vref{1}: 11MB
+**Keyboard**vref{1}: LK250
+**Dimensions-start{DECstation316}
+**Height**vref{1}: 127 mm
+**Width**vref{1}: 388 mm
+**Depth**vref{1}: 403 mm
+**Weight**vref{1}: 6.4 kg
+**Dimensions-end{DECstation316}
+**End-systems-entry{DECstation316}
+ 
+**Start-systems-entry{DECstation320}{DECPC}{DECstation}
+**Def-lref{1} = ref{DECdirect-MAY91}
+**Sys-name: DECPC-320
+**Desc-name: DECstation 320
+**CPU-chip**vref{1}: 80386SX
+**CPU-clock**vref{1}: 20 MHz
+**Minimum-memory**vref{1}: 2MB
+**Maximum-memory**vref{1}: 12MB
+**Keyboard**vref{1}: LK250
+**Dimensions-start{DECstation320}
+**Height**vref{1}: 127 mm
+**Width**vref{1}: 388 mm
+**Depth**vref{1}: 403 mm
+**Weight**vref{1}: 6.4 kg
+**Dimensions-end{DECstation320}
+**End-systems-entry{DECstation320}
+ 
+**Start-systems-entry{DECstation325}{DECPC}{DECstation}
+**Def-lref{1} = ref{DECdirect-MAY91}
+**Sys-name: DECPC-325
+**Desc-name: DECstation 325
+**CPU-chip**vref{1}: 80386
+**CPU-clock**vref{1}: 25 MHz
+**Minimum-memory**vref{1}: 2MB
+**Maximum-memory**vref{1}: 18MB
+**Keyboard**vref{1}: LK250
+**Dimensions-start{DECstation325}
+**Height**vref{1}: 152 mm
+**Width**vref{1}: 402 mm
+**Depth**vref{1}: 420 mm
+**Weight**vref{1}: 12.5 kg
+**Dimensions-end{DECstation325}
+**End-systems-entry{DECstation325}
+ 
 **Start-systems-entry{DECPC-DECstation350}{DECPC}{DECstation}
 **Def-lref{1} = ref{SOCEE-SPR90}
 **Sys-name: DECPC-DECstation 350
@@ -401,6 +454,23 @@
 **Dimensions-end{DECstation350}
 **End-systems-entry{DECPC-DECstation350}
 
+**Start-systems-entry{DECstation425}{DECPC}{DECstation}
+**Def-lref{1} = ref{DECdirect-MAY91}
+**Sys-name: DECPC-425
+**Desc-name: DECstation 425
+**CPU-chip**vref{1}: 80486
+**CPU-clock**vref{1}: 25 MHz
+**Minimum-memory**vref{1}: 4MB
+**Maximum-memory**vref{1}: 18MB
+**Keyboard**vref{1}: LK250
+**Dimensions-start{DECstation425}
+**Height**vref{1}: 162 mm
+**Width**vref{1}: 393 mm
+**Depth**vref{1}: 454 mm
+**Weight**vref{1}: 14.5 kg
+**Dimensions-end{DECstation425}
+**End-systems-entry{DECstation425}
+ 
 **Start-systems-entry{Multia-VX51}{ALPHA}{MULTIA}
 **Sys-name: Multia VX51	
 **Desc-name: Multia VX51
