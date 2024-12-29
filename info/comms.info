@@ -1589,6 +1589,34 @@ The DESNC is a hardware component of the Ethernet Enhanced Security System which
 **Options-end{DSPAB}
 **End-comms-entry{DSPAB}
 
+**Start-comms-entry{INFOSRVR100}{NETMISC}{NETMISC}
+**Sys-name: SEABB
+**Desc-name: InfoServer 100
+**Def-lref{1} = ref{EK-DIS1K-IN-001}
+**Ethernet-connection**vref{1}: ThinWire or AUI
+! vref{1}: KA41-A
+**Minimum-memory**vref{1}: 4 MB
+**BUS-SCSI**vref{1}: 1
+**Dimensions-start{IS100}
+**Height**vref{1}: 149.9 mm
+**Width**vref{1}: 463.8 mm
+**Depth**vref{1}: 400.0 mm
+**Weight**vref{1}: 17.8 kg
+**Dimensions-end{IS100}
+**Power-start{IS100-110V}
+**Label: 110V
+**Supply**vref{1}: 110V
+**I-nominal**vref{1}: 1.7 A
+**Power**vref{1}: 160 W
+**Power-end{IS100-110V}
+**Power-start{IS100-220V}
+**Label: 220V
+**Supply**vref{1}: 220V
+**I-nominal**vref{1}: 1.0 A
+**Power**vref{1}: 160 W
+**Power-end{IS100-220V}
+**End-comms-entry{INFOSRVR100}
+
 **Start-comms-entry{INFOSRVR150}{NETMISC}{NETMISC}
 **Sys-name: SEACD
 **Desc-name: InfoServer 150
