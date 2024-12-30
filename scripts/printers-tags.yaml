@@ -152,41 +152,6 @@
   - Print-speed
   - all
   - summary
-- Height:
-  - Height
-  - Height
-  - all
-  - summary
-- Width:
-  - Width
-  - Width
-  - all
-  - summary
-- Depth:
-  - Depth
-  - Depth
-  - all
-  - summary
-- Weight:
-  - Weight
-  - Weight
-  - all
-  - summary
-- Supply:
-  - Supply
-  - Supply
-  - all
-  - summary
-- I-max:
-  - I-max
-  - I-max
-  - all
-  - summary
-- Power:
-  - Power
-  - Power
-  - all
-  - summary
 - Emulation:
   - Emulation
   - Emulation
@@ -342,3 +307,8 @@
   - Page-description-language
   - all
   - summary
+- CPU:
+  - CPU
+  - The main board CPU
+  - all
+  - all

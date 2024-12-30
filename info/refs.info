@@ -562,6 +562,7 @@
 
 **Start-ref{DECdirect-MAY91}
 **Ref-text: DECdirect May-July 1991.
+**Ref-processed: Yes
 **End-ref{DECdirect-MAY91}
 
 **Start-ref{DECdirect-MAY92}
@@ -3541,6 +3542,14 @@
 **Ref-partno: EK-OLA34-UG-001
 **Ref-hardcopy: Yes
 **End-ref{EK-OLA34-UG-001}
+
+**Start-ref{EK-LA34S-TM-001}
+**Ref-text: DECwriter IV series Technical Manual
+**Ref-partno: EK-LA34S-TM-001
+**Ref-date: 1981-10
+**Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/EK-LA34S-TM-001%20DECwriter%20IV%20Series%20Technical%20Manual.pdf
+**Ref-hardcopy: No
+**End-ref{EK-LA34S-TM-001}
 
 **Start-ref{EK-VT220-PS-001}
 **Ref-text: VT220 Pocket Service Guide

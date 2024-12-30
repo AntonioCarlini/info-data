@@ -1,3 +1,4 @@
+**References-must-be-verified
 ! DECwriter 100i: https://groups.google.com/forum/#!topic/biz.digital.articles/HEqwaA6rZM0
 ! DECwriter 195: https://groups.google.com/forum/#!topic/biz.digital.articles/3dR5QZGJejg
 ! LP29-QA 2000 LPM Printer: https://mail.encompasserve.org/anon/htnotes/note?f1=HARDWARE_HELP&f2=40.35
@@ -122,17 +123,26 @@
 
 **Start-printers-entry{LJ250}{PRINTER}{LJ}
 **Def-lref{1} = ref{CU-1992-08-10}
+**Def-lref{2} = ref{DECdirect-MAY91}
 !! TODO No lref{2} **Def-lref{2} = ref{DA-1987-08-25}
 **Sys-name: LJ250
 **Desc-name: LJ250
 !! vref{2} broken and no obvious candidate
 !!**Announcement**vref{2}: 1987-09-02
 **Last-order**vref{1}: 1992-08
+**Interface**vref{2}: MMJ Serial
+**Dimensions-start{LJ250}
+**Height**vref{2}: 92 mm
+**Width**vref{2}: 444 mm
+**Depth**vref{2}: 311 mm
+**Weight**vref{2}: 4.5 kg
+**Dimensions-end{LJ250}
 **End-printers-entry{LJ250}
 
 **Start-printers-entry{LJ252}{PRINTER}{LJ}
 **Def-lref{1} = ref{CU-1992-05-15}
 **Def-lref{2} = ref{CU-1992-08-10}
+**Def-lref{3} = ref{DECdirect-MAY91}
 !! TODO No lref **Def-lref{3} = ref{DA-1987-08-25}
 **Sys-name: LJ252
 **Desc-name: LJ252 Companion Colour Printer
@@ -141,6 +151,12 @@
 **Last-ship**vref{2}: 1992-08-30
 **Technology**vref{1}: Ink-jet
 **Interface**vref{1}: PC Parallel
+**Dimensions-start{LJ252}
+**Height**vref{3}: 92 mm
+**Width**vref{3}: 444 mm
+**Depth**vref{3}: 311 mm
+**Weight**vref{3}: 4.5 kg
+**Dimensions-end{LJ252}
 **End-printers-entry{LJ252}
 
 **Start-printers-entry{LA30N}{PRINTER}{LA}
@@ -247,18 +263,21 @@
 **Sys-name: LA34
 **Desc-name: LA34 Printer
 **Def-lref{1} = ref{EK-OLA34-UG-001}
-**Character-pitch**htref{1}: 10, 12, 13.2 and 16.5 cpi
-**Line-spacing**htref{1}: 2, 3, 4, 6, 8 or 12 lines/in
-**Data-interface**htref{1}: RS-232
-**Data-buffer**htref{1}: 130 bytes
-**Print-speed**htref{1}: 10 or 30 cps
-**Dev-req**htref{1}: ESC [ 0 c
-**Dev-req-resp**htref{1}: ESC [ ? 3 ; 0 c
+**Def-lref{2} = ref{EK-LA34S-TM-001}
+**Character-pitch**vref{2}: 10, 12, 13.2 and 16.5 cpi
+**Line-spacing**vref{2}: 2, 3, 4, 6, 8 or 12 lines/in
+**Data-interface**vref{2}: RS-232
+! htref{1} says 130 bytes but that has not been re-verified
+**Data-buffer**vref{2}: 160 bytes
+**CPU**vref{2}: 8085
+**Print-speed**vref{2}: 10 or 30 cps
+**Dev-req**vref{2}: ESC [ 0 c
+**Dev-req-resp**vref{2}: ESC [ ? 3 ; 0 c
 **Dimensions-start{LA34}
-**Height**htref{1}: 183mm
-**Width**htref{1}: 559mm
-**Depth**htref{1}: 164mm
-**Weight**htref{1}: 10kg
+**Height**vref{2}: 183 mm
+**Width**vref{2}: 559 mm
+**Depth**vref{2}: 164 mm
+**Weight**vref{2}: 10 kg
 **Dimensions-end{LA34}
 **End-printers-entry{LA34}
 
