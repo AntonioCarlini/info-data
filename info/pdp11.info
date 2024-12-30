@@ -66,6 +66,7 @@
 **Def-lref{2} = ref{EB-26077-41}
 **Def-lref{3} = ref{EB-05138-75}
 **Def-lref{4} = ref{DEC-11-H40SA-A-D}
+**DEF-lref{5} = ref{EK-11040-TM-002}
 **Sys-name: PDP-11/35 and PDP-11/40
 **Desc-name: PDP-11/35 and PDP-11/40
 **Generation**vref{2}: 2nd
@@ -83,7 +84,7 @@
 **Minimum-memory**vref{1}: 16KB (8KW)
 **Maximum-memory**vref{1}: 248KB (124KW)
 **Memory-checking**vref{3}: Parity
-**Physical-address-lines**htref{**1}: 18
+**Physical-address-lines**vref{5}: 18
 **Dimensions-start{1140}
 **Label: PDP-11/40
 ! vref{1}: 200lbs (CPU)	
