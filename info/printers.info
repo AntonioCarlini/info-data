@@ -338,6 +338,19 @@
 **FRS-date**vref{1}: 1994-04-25
 **End-printers-entry{LA65}
 
+**Start-printers-entry{LA70}{PRINTER}{LA}
+**Sys-name: LA70
+**Desc-name: LA70 Dot Matrix Printer
+**Def-lref{1} = ref{DECdirect-JAN91}
+**Data-interface**vref{1}: RS-232 and Centronics
+**Dimensions-start{LA70}
+**Height**vref{1}: 120 mm
+**Width**vref{1}: 400 mm
+**Depth**vref{1}: 290 mm
+**Weight**vref{1}: 7.5 kg
+**Dimensions-end{LA70}
+**End-printers-entry{LA70}
+
 **Start-printers-entry{LA75}{PRINTER}{LA}
 **Sys-name: LA75
 **Desc-name: LA75 Printer
