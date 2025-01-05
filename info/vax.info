@@ -5575,6 +5575,7 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Def-lref{8} = ref{CU-1994-08-15}
 **Def-lref{9} = ref{SOC-AUG1994-SUP}
 **Def-lref{10} = ref{SOC-JAN1995}
+**Def-lref{11} = ref{Online-SOC-uV3100-V96-2.2}
 **document=doc{DEC:EK-A0718-TI-C01} ! MicroVAX 3100 Model 85/95/96 Customer Technical Information
 **document=doc{DEC:EK-A0716-IN-C01} ! MicroVAX 3100 Model 85/95/96 Installation Information
 **document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
@@ -5601,8 +5602,8 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-**VUPs**htref{5}: 16
-**TPC-A**htref{5}: 110
+**VUPs**vref{11}: 16
+**TPC-A**vref{11}: 110 (estimated)
 **Minimum-memory**vref{1}: 16MB
 **Maximum-memory**vref{1}: 128MB
 !-- [5] has M80 is parity memory, M85 is ECC memory -->
@@ -5655,6 +5656,7 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Def-lref{8} = ref{VAX-FINAL-LETTER-JESSIE_LIPCON}
 **Def-lref{9} = ref{TMAI-1996-10-09}
 **Def-lref{10} = ref{EK-MV489-UI-A01}
+**Def-lref{11} = ref{Online-SOC-uV3100-V96-2.2}
 **Announcement**vref{9}: 1996-10-08
 **Last-order**vref{8}: 2000-09-30
 **Last-ship**vref{8}: 2000-12-31
@@ -5671,6 +5673,8 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **CPU-cycle**vref{10}: 16ns
 **Minimum-memory**vref{10}: 64MB
 **Maximum-memory**vref{10}: 512MB
+**VUPs**vref{11}: 16
+! (quoted as TPS, but what is this?) **TPS**vref{11}: 110 (estimated)
 ! [7]: 512MB needs MS45-DA -->
 **End-systems-entry{UV3188}
 
@@ -5765,6 +5769,7 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Def-lref{5} = ref{CU-V8-1B}
 **Def-lref{6} = ref{CU-1995-04-11}
 **Def-lref{7} = ref{CU-1995-05-15}
+**Def-lref{8} = ref{Online-SOC-uV3100-V96-2.2}
 **document=doc{DEC:EK-A0718-TI-C01} ! MicroVAX 3100 Model 85/95/96 Customer Technical Information
 **document=doc{DEC:EK-A0716-IN-C01} ! MicroVAX 3100 Model 85/95/96 Installation Information
 **document=doc{DEC:EK-A0717-OP-C01} ! MicroVAX 3100 Model 85/95/96 Operator Information
@@ -5786,6 +5791,8 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
+**VUPs**vref{8}: 38
+! (quoted as TPS, but what is this?) **TPS**vref{8}: 200 (estimated)
 **Physical-address-lines**vref{2}: 30
 **Minimum-memory**vref{2}: 16MB
 **Maximum-memory**vref{2}: 128MB
@@ -5803,6 +5810,7 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Def-lref{5} = ref{CU-V8-1B}
 **Def-lref{6} = ref{TMAI-1996-10-09}
 **Def-lref{7} = ref{EK-MV489-UI-A01}
+**Def-lref{8} = ref{Online-SOC-uV3100-V96-2.2}
 **Announcement**vref{6}: 1996-10-08
 **Codename: Catamount
 **OS-support-VMS: V5.5-2H4
@@ -5817,6 +5825,8 @@ The "VAX Systems Hardware Handbook -- VAXBI Systems"**vref{2} states that most V
 **Console-device: None
 **Minimum-memory**vref{7}: 64MB
 **Maximum-memory**vref{7}: 512MB
+**VUPs**vref{8}: 38
+! (quoted as TPS, but what is this?) **TPS**vref[8}: 200 (estimated)
 ! [5]: 512MB via MS45-DA -->
 **End-systems-entry{UV3198}
 

@@ -926,3 +926,29 @@ It can simultaneously handle the two B-Channels and the D-Channel defined by Bas
 ! vref{1}: 84 W, 295BUT/hr
 **End-boards-entry{UDA50}
 
+**Start-boards-entry{DC20F-AD}{TOPS}{TOPS}
+**Sys-name: DC20F-AD
+**Desc-name: DC20F-AD Asynchronous Interface for KL Systems
+**Def-lref{1} = ref{DECselect-SUM87}
+**Asynch-ports**vref{1}: 16
+**Serial-speed**vref{1}: 9600 (max)
+**Modem-control**vref{1}: Full
+**End-boards-entry{DC20F-AD}
+
+**Start-boards-entry{DN20F-BA}{TOPS}{TOPS}
+**Sys-name: DN20F-BA
+**Desc-name: DN20F-BA Synchronous Interface for KL Systems
+**Def-lref{1} = ref{DECselect-SUM87}
+**Synch-ports**vref{1}: 1
+**Serial-speed**vref{1}: 19200 (max)
+**End-boards-entry{DN20F-BA}
+
+**Start-boards-entry{DN20F-BB}{TOPS}{TOPS}
+**Sys-name: DN20F-BB
+**Desc-name: DN20F-BB Synchronous Interface for KL Systems
+! vref{1} suggests that this is an extra line added to the DN20F-BA
+**Def-lref{1} = ref{DECselect-SUM87}
+**Synch-ports**vref{1}: 1
+**Serial-speed**vref{1}: 19200 (max)
+**End-boards-entry{DN20F-BB}
+
