@@ -26,18 +26,26 @@
 **Start-storage-entry{RK05}{MISC}{RK}
 **Sys-name: RK05
 **Desc-name: RK05 Cartridge Disk
+**Def-lref{1} = ref{EK-RK05-OP-001}
 **Capacity**uref{11,95,DU-JUN86}: 2.5MB
-**Average-seek**uref{99}: 50ms
-**Average-latency**uref{99}: 20ms
-**Track-track-seek**uref{99}: 10ms
-**Maximum-seek**uref{99}: 85ms
-**Transfer-speed**uref{99}: 11.1us/16-bits
-**Num-media-surfaces**uref{99}: 2
-!!!**Tracks-per-surface**uref{99}: 200:(plus 3 spare)
-**Sectors-per-track**uref{99}: 12
+**Average-seek**vref{1}: 50ms
+**Average-latency**vref{1}: 20ms
+**Track-track-seek**vref{1}: 10ms
+**Maximum-seek**vref{1}: 85ms
+! **Transfer-speed**uref{99}: 11.1us/16-bits
+**Transfer-speed**vref{1}: 1.44Mb/s
+**Num-media-surfaces**vref{1}: 2
+**Tracks-per-surface**vref{1}: 200:(plus 3 spare)
+**Sectors-per-track**vref{1}: 12
 **Bytes-per-sector**uref{99}: 512
 **Servo-type**uref{11}: Transducer
-**Rotational-speed**uref{99}: 1500rpm
+**Rotational-speed**vref{1}: 1500rpm
+**Dimensions-start{RK05}
+**Height**vref{1}: 270 mm
+**Width**vref{1}: 480 mm
+**Depth**vref{1}: 670 mm
+**Weight**vref{1}: 50 kg
+**Dimensions-end{RK05}
 **End-storage-entry{RK05}
 
 **Start-storage-entry{RK06}{MISC}{RK}
