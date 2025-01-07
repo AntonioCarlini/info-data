@@ -210,6 +210,7 @@
 **Sys-name: RL01
 **Desc-name: RL01 Cartridge disk drive
 **Def-lref{1} = ref{EK-RL012-UG-005}
+**Def-lref{2} = ref{EK-RL121-TM}
 **document=doc{DEC:EK-0RL01-IP-001}                   ! *ipb* RL01 Disk Drive
 **document=doc{DEC:EK-0RL01-SV-PRE1}                  ! RL01 Disk Subsystem Service Manual
 **document=doc{DEC:EK-0RL01-TD-PRE1}                  ! RL01 Disk Drive Technical Description Manual
@@ -227,12 +228,12 @@
 **Capacity**vref{1}: 5.2MB
 **Average-seek**vref{1}:  55ms
 **Average-latency**vref{1}: 12.5ms
-**Peak-transfer-rate**uref{DU-JUN86}: 512KB/s
+**Peak-transfer-rate**vref{2}: 4.1Mb/s
 **Tracks-per-surface**vref{1}: 256
 **Num-media-surfaces**vref{1}: 2 data
 **Sectors-per-track**vref{1}: 40
 **Bytes-per-sector**vref{1}: 256
-**Servo-type**uref{11}: Embedded
+**Servo-type**vref{2}: Embedded
 **Rotational-speed**vref{1}: 2400rpm
 **Dimensions-start{RL01}
 **Height**vref{1}: 265.2mm
@@ -307,39 +308,59 @@
 **Start-storage-entry{RX01}{MISC}{RX}
 **Sys-name: RX01
 **Desc-name: RX01 Dual 8-inch Floppy Disk
-**Capacity**uref{95,99}: 256KB:(per drive)
-**Average-access**uref{99}: 483ms
-**Average-seek**uref{99}: 380ms
-**Average-latency**uref{99}: 83ms
-**Transfer-speed**uref{99}: 18us/byte
-**Track-track-seek**uref{99}: 10ms
-**Maximum-seek**uref{99}: 760ms
+**Def-lref{1} = ref{EK-RX01-OP-001}
+! vref{1}: RX01 is M7226 controller, M7727 read/write electronics module, H771A or H771B PSU, RX01-CA (60Hz) or RX01-CC (50Hz) floppy drive
+**Capacity**vref{1}: 256KB:(per drive)
+**Average-access**vref{1}: 488ms
+! Average seek: vref{1} see calculation on p1-13
+**Average-seek**vref{1}: 380ms
+! Average latency: vref{1} see calculation on p1-13
+**Average-latency**vref{1}: 83ms
+**Transfer-speed**vref{1}: 18us/byte
+**Track-track-seek**vref{1}: 10ms
+! Max seek: vref{1} see calculation on p1-13
+**Maximum-seek**vref{1}: 760ms
 !!**Seek-head-settling-time: 20ms
-**Num-media-surfaces**uref{99}: 1
-**Tracks-per-surface**uref{99}: 77
-**Sectors-per-track**uref{99}: 26
-**Bytes-per-sector**uref{99}: 128
-**Rotational-speed**uref{99}: 360rpm
+**Num-media-surfaces**vref{1}: 1
+**Tracks-per-surface**vref{1}: 77
+**Sectors-per-track**vref{1}: 26
+**Bytes-per-sector**vref{1}: 128
+**Rotational-speed**vref{1}: 360rpm
+**Soft-error-rate**vref{1}: < 1 in 10^9
+**Hard-error-rate**vref{1}: < 1 in 10^12
 **End-storage-entry{RX01}
 
 **Start-storage-entry{RX02}{MISC}{RX}
 **Sys-name: RX02
 **Desc-name: RX02 8-inch Floppy Disk
+**Def-lref{1} = ref{EK-RX02-UG-001}
 ! Dual 8" floppy drive. Reads RX01 floppies. [78]
 ! Will write RX01 floppies: used this on LSI-11/23 at SOM group
 **Lifetime**uref{*DU-JUN86}: 1978-1985
-**Capacity**uref{95}: 512KB:(per drive)
-**Average-access**uref{*SOEE85}: 262ms
-**Average-seek**uref{*SOEE85,78}: 154ms
-**Average-latency**uref{*SOEE85,78}: 83ms
+! vref{1}: interface boards:
+! RX8E: M8357
+! RX28: M8357
+! RX11: M7846
+! RX211: M8256
+! RXV11: M7946
+! RXV21: M8029
+! vref{1}: RX02 has the following parts: M7744 controller, M7745 read/write electronics, H771-A, -C, -D PSU RX02-CA (60Hz), RX02-CC (50Hz)
+**Capacity**vref{1}: 512KB
+**Average-access**vref{1}: 262ms
+! Average seek: vref{1} see calculation on p1-8
+**Average-seek**vref{1}: 154ms
+! Average latency: vref{1} see calculation on p1-8
+**Average-latency**vref{1}: 84ms
 !!**Average-settling-time**uref{*SOEE85}: 25ms
 **Peak-transfer-rate**uref{*SOEE85}: 61kbit/s
-**Num-media-surfaces**uref{*SOEE85}: 1 data
-**Tracks-per-surface**uref{*SOEE85}: 77
-**Sectors-per-track**uref{*SOEE85}: 26
-**Bytes-per-sector**uref{*SOEE85}: 256
-**Track-track-seek**uref{*SOEE85}: 6ms
-**Rotational-speed**uref{*SOEE85}: 360rpm
+**Num-media-surfaces**vref{1}: 1 data
+**Tracks-per-surface**vref{1}: 77
+**Sectors-per-track**vref{1}: 26
+**Bytes-per-sector**vref{1}: 256
+**Track-track-seek**vref{1}: 6ms
+**Rotational-speed**vref{1}: 360rpm
+**Soft-error-rate**vref{1}: < 1 in 10^9
+**Hard-error-rate**vref{1}: < 1 in 10^12
 **End-storage-entry{RX02}
 
 **Start-storage-entry{RX23}{MISC}{RX}

@@ -11444,6 +11444,12 @@
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/rl01_rl02/EK-RL012-UG-005_Sep81.tif.pdf
 **End-ref{EK-RL012-UG-005}
 
+**Start-ref{EK-RL121-TM}
+**Ref-text: RL01/RL02 Technical Manual Volume I
+**Ref-partno: EK-RL121-TM
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/rl01_rl02/RL02techDescr.pdf
+**End-ref{EK-RL121-TM}
+
 **Start-ref{EK-DELUA-UG-002}
 **Ref-text: DELUA User's Guide
 **Ref-partno: EK-DELUA-UG-002
@@ -11653,6 +11659,20 @@
 **Ref-date: 1976-11
 **Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/EK-RK05-OP-001%20RK05%20Disk%20Drive%20User's%20Manual.pdf
 **End-ref{EK-RK05-OP-001}
+
+**Start-ref{EK-RX01-OP-001}
+**Ref-text: RX8/RX11 floppy disk subsystem user's manual
+**Ref-partno: EK-RX01-OP-001
+**Ref-date: 1976-11
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/rx01/EK-RX01-OP-001_RX11UM_Nov76.pdf
+**End-ref{EK-RX01-OP-001}
+
+**Start-ref{EK-RX02-UG-001}
+**Ref-text: RX02 Floppy Disk System User's Guide
+**Ref-partno: EK-RX02-UG-001
+**Ref-date: 1978-07
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/rx02/EK-RX02-UG-001_UsersGuide_Jul78.pdf
+**End-ref{EK-RX02-UG-001}
 
 **Stop-processing
 
