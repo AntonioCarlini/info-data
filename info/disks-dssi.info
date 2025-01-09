@@ -29,9 +29,14 @@
 **def-lref{1} = ref{SOCEE-SPR90}
 **def-lref{2} = ref{CBR-PR-1988-10-19}
 **def-lref{3} = ref{SOCEE-SPR89}
+!! TODO **def-lref{4} = ref{EK-179A-MG-001}
 ! Read-ahead cache: &	No \\	% [28] -->
 **Announcement**vref{2}: 1988-10-18
 **Capacity**vref{3}: 150MB
+**OS-support-vms**uref{*4}: = V5.0-2A
+**OS-support-ULTRIX**uref{*4}: V3.0
+**OS-support-ELN**uref{*4}: V3.2
+**OS-support-MDM**uref{*4}: Revision 2.3
 **Form-factor**htref{1}: 5-1/4" half-height
 **Average-access**vref{3}: 29.3ms
 **Average-seek**vref{3}: 21ms
