@@ -11674,6 +11674,34 @@
 **Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/rx02/EK-RX02-UG-001_UsersGuide_Jul78.pdf
 **End-ref{EK-RX02-UG-001}
 
+**Start-ref{EK-RM023-UG-002}
+**Ref-text: RM02/03 Disk Subsystem User's Guide
+**Ref-partno: EK-RM023-UG-002
+**Ref-date: 1980-03
+**Ref-url: https://manx-docs.org/collections/antonio/arc-db/EK-RM02-UG-002.pdf
+**End-ref{EK-RM023-UG-002}
+
+**Start-ref{EK-ORM05-UG-002}
+**Ref-text: RM05 Disk Subsystem User Guide
+**Ref-partno: EK-ORM05-UG-002
+**Ref-date: 1982-03
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/rm05/EK-0RM05-UG-002_Mar82.pdf
+**End-ref{EK-ORM05-UG-002}
+
+**Start-ref{EK-VX465-IN.B01}
+**Ref-text: RZ25L Fixed Disk: SCSI ID Settings and Hardware Specifications
+**Ref-partno: EK-VX465-IN.B01
+**Ref-date: 1993-10
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/disk/vx465inb.pdf
+**End-ref{EK-VX465-IN.B01}
+
+**Start-ref{EK-RZ26L-IS.A01}
+**Ref-text: RZ26L Disk Drive Data Sheet
+**Ref-partno: EK-RZ26L-IS.A01
+**Ref-date: 1994-02
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/disk/rz26lisa.pdf
+**End-ref{EK-RZ26L-IS.A01}
+
 **Stop-processing
 
 **Start-ref{
