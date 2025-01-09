@@ -158,7 +158,10 @@ class References
       line = line.chomp().strip()
       
       if ! line.ascii_only?()
-        raise("Non 7-bit ASCII character seen in #{info_filename} at line #{line_num}: #{line}")
+        non_ascii_char_pos = line.chars().find_index() { |char| char.ord > 127 }
+        $stderr.puts(line)
+        $stderr.print(' ' * non_ascii_char_pos, "^\n")
+        raise("Non 7-bit ASCII character seen in #{info_filename} at line #{line_num} (see above)")
       end
       
       if line.strip().empty?() || line =~ /^ !/ix
