@@ -399,20 +399,22 @@
 ! TODO ref{2} was misformatted, verify
 **Def-lref{2} = ref{CU-1993-08-02}
 **Def-lref{3} = ref{CU-1995-06-01}
+**Def-lref{4} = ref{EK-VX465-IN.B01}
 **Announcement**vref{2}: 1993-08-02
 **Last-order**vref{3}: 1995-06-15
 **OS-support-VMS**vref{2}: V5.5-2 (OpenVMS AXP V1.5)
 **OS-support-DU**vref{2}: OSF V1.2
 **OS-support-ULTRIX**vref{2}: V4.3A
 **Capacity**vref{2}: 535MB
-**Peak-transfer-rate**htref{1}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{2.6MB/s-4.4MB/s:(to/from media)}
+**Peak-transfer-rate**vref{4}: 5.25 MB/s to/from media
 **Average-access**vref{2}: 16ms
-**Average-latency**htref{1}: 5.6ms
+**Average-latency**vref{4}: 5.4ms
 **Average-seek**vref{2}: 10.5ms
-**Maximum-seek**htref{1}: 20ms
-**Buffer-size**vref{2}: 240 KB
-**Rotational-speed**vref{2}: 5400 rpm
-**Blocks-per-track**htref{1}: 94.6 (average)
+**Maximum-seek**vref{4}: 23ms
+**Buffer-size**vref{2,4}: 240 KB
+**Rotational-speed**vref{4}: 5411 rpm
+! vref{4} gives 48460 bytes/track average and 512 byte blocks
+**Blocks-per-track**vref{4}: 94.6 (average)
 **Track-density**htref{1}: 2150 tpi
 **Recording-mode**htref{1}: Zone bit recording
 **Num-heads**htref{1}: 7
@@ -508,17 +510,18 @@
 **Desc-name: RZ26L 1.05GB SCSI Disk
 **Def-lref{1} = ref{EK-A0718-TI.B01}
 **Def-lref{2} = ref{CU-1993-12-06}
+**Def-lref{3} = ref{EK-RZ26L-IS.A01}
 ! https://groups.google.com/forum/#!topic/biz.digital.articles/dBi1L23O4mA has announcement 01 Sep 1994
 **Announcement**vref{2}: 1993-12-06
 **OS-support-VMS**vref{2}: V6.0 and OpenVMS AXP V1.5
 **Form-factor**vref{2}: 3.5" (1" high)
-**Capacity**htref{1}: 1.05GB
-**Peak-transfer-rate**htref{1}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{2.7MB/s-5.6MB/s:(to/from media)}
+**Capacity**vref{3}: 1.05GB
+**Peak-transfer-rate**vref{3}: 2.7MB/s-5.5MB/s (to/from media)
 **Average-access**vref{2}: 15.1ms
-**Average-latency**htref{1}: 5.6ms
+**Average-latency**vref{3}: 5.6ms
 **Average-seek**vref{2}: 9.5ms
-**Maximum-seek**htref{1}: 20ms
-**Buffer-size**htref{1}: 512KB
+**Maximum-seek**vref{3}: 20ms
+**Buffer-size**vref{3}: 512KB
 **Blocks-per-track**htref{1}: 59 - 119
 **Track-density**htref{1}: 3256 tpi
 **Recording-density**htref{1}: 58000 - 61500 bpi
@@ -526,9 +529,16 @@
 **Recording-mode**htref{1}: RLL 1,7
 **Num-heads**htref{1}: 8
 **Interface**vref{2}: SCSI
+**Rotational-speed**vref{3}: 5400 rpm
 **Power-start{RZ26L}
 **Power**htref{1}: 12.3W:seeking
 **Power-end{RZ26L}
+**Dimensions-start{RZ26L}
+**Height**vref{3}: 25.4 mm
+**Width**vref{3}: 102 mm
+**Depth**vref{3}: 146 mm
+**Weight**vref{3}: 0.49 kg
+**Dimensions-end{RZ26L}
 **End-storage-entry{RZ26L}
 
 **Start-storage-entry{RZ28}{SCSI}{RZ}

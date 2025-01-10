@@ -28,45 +28,50 @@
 **Start-storage-entry{RM02}{MASSBUS}{RM}
 **Sys-name: RM02
 **Desc-name: RM02 Removable Disk
+**Def-lref{1} = ref{EK-RM023-UG-002}
 **Lifetime**uref{*DU-JUN86}: 1978-1984
-**Capacity**uref{SUE 5.25}: 67MB
+**Capacity**vref{1}: 67MB
 **Average-access**uref{SUE 5.25}: 42.5ms
-**Average-seek**uref{*DU-JUN86}: 30ms
-**Average-latency**uref{*DU-JUN86}: 12.5ms
+**Average-seek**vref{1}: 30ms
+**Average-latency**vref{1}: 12.5ms
 **Peak-transfer-rate**uref{SUE 5.25}: 806KB/s
 **Recording-density**uref{SUE 5.25}: 6038 bpi
 **Track-density**uref{SUE 5.25}: 384 tpi
+**Num-sectors**vref{1}: 32
+**Rotational-speed**vref{1}: 2400rpm
 **End-storage-entry{RM02}
 
 **Start-storage-entry{RM03}{MASSBUS}{RM}
 **Sys-name: RM03
 **Desc-name: RM03 Removable Disk
+**Def-lref{1} = ref{EK-RM023-UG-002}
 **Lifetime**uref{*DU-JUN86}: 1978-1984
-**Capacity**uref{*DU-JUN86}: 67MB
-**Average-seek**uref{*DU-JUN86}: 30ms
-**Average-latency**uref{*DU-JUN86}: 8.3ms
+**Capacity**vref{1}: 67MB
+**Average-seek**vref{1}: 30ms
+**Average-latency**vref{1}: 8.33ms
 **Peak-transfer-rate**uref{*DU-JUN86}: 1.2MB/s
 **Num-media-surfaces**uref{11}: 5 data, 1 servo
 **Tracks-per-surface**uref{11}: 823
 **Track-density**uref{11}: 384tpi
-**Num-sectors**uref{11}: 32/30
-**Rotational-speed**uref{11}: 3600rpm
+**Num-sectors**vref{1}: 32
+**Rotational-speed**vref{1}: 3600rpm
 **End-storage-entry{RM03}
 
 **Start-storage-entry{RM05}{MASSBUS}{RM}
 **Sys-name: RM05
 **Desc-name: RM05 Removable Disk
+**Def-lref{1} = ref{EK-ORM05-UG-002}
 **Lifetime**uref{*DU-JUN86}: 1980-1984
-**Capacity**uref{11,*SOEE85}: 256MB
+**Capacity**vref{1}: 256MB
 **Average-access**uref{*SOEE85}: 38.2ms
-**Average-seek**uref{*SOEE85}: 30ms
-**Average-latency**uref{*SOEE85}: 8.3ms
+**Average-seek**vref{1}: 30ms
+**Average-latency**vref{1}: 8.33ms
 **Peak-transfer-rate**uref{*SOEE85}: 1.2MB/s
 **Track-track-seek**uref{*SOEE85}: 6ms
-**Num-media-surfaces**uref{11,*SOEE85}: 19 data, 1 servo
+**Num-media-surfaces**vref{1}: 19 data, 1 servo
 **Tracks-per-surface**uref{11,*SOEE85}: 823
-**Sectors-per-track**uref{*SOEE85}: 32
-**Bytes-per-sector**uref{*SOEE85}: 512
+**Sectors-per-track**vref{1}: 32
+**Bytes-per-sector**vref{1}: 512
 **Track-density**uref{11}: 384tpi
 **Num-sectors**uref{11}: 32/30
 **Rotational-speed**uref{*SOEE85,11}: 3600rpm
