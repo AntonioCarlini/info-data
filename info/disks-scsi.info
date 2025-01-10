@@ -548,18 +548,20 @@
 ! TODO ref{2} was missing CU-
 **Def-lref{2} = ref{CU-1993-08-02}
 **Def-lref{3} = ref{CU-1995-09-15}
+**Def-lref{4} = ref{EK-DRZ01-IG-B01}
 **Announcement**vref{2}: 1993-08-02
 **Last-order**vref{3}: 1995-09-30
 **Last-ship**vref{3}: 1995-12-31
-**Capacity**vref{2}:	2.1GB
-**Peak-transfer-rate**htref{1}: {5.0MB/s:(asynch)}{10.0MB/s:(synch)}{2.7MB/s-5.5MB/s (to/from media)}
+**Capacity**vref{2,4}:	2.1GB
+**Peak-transfer-rate**vref{4}: 3.4MB/s - 6.9MB/s (to/from media)}
 **Average-access**htref{1}: 15.3ms
 **Average-latency**htref{1}: 5.6ms
-**Average-seek**htref{1}: 9.7ms
+**Average-seek**vref{4}: 9.7ms
 **Maximum-seek**htref{1}: 19ms
 **Buffer-size**htref{1}: 1MB
 **Blocks-per-track**htref{1}: 59 - 118
-**Track-density**htref{1}: 3256tpi
+**Track-density**vref{4}: 3215tpi
+! vref{4} confirms max recodin density of 64,000bpi
 **Recording-density**htref{1}: 58400 - 64000 bpi
 **Areal-density**htref{1}: 187.6 - 216.11 MB/sq inch
 **Recording-mode**htref{1}: RLL 1,7
@@ -575,21 +577,28 @@
 **Desc-name: RZ28B 2.1GB SCSI Disk
 **Def-lref{1} = ref{EK-A0718-TI.B01}
 **Def-lref{2} = ref{CU-1994-04-25}
+**Def-lref{3} = ref{EK-RZ28B-DS.A01}
 **Announcement**vref{2}: 1994-04-25
-**Capacity**vref{2}: 2.1GB
-**Peak-transfer-rate**htref{1}: {10.0MB/s:(synch)}{3.4MB/s-5.4MB/s:(to/from media)}
+**Capacity**vref{2,3}: 2.1GB
+**Peak-transfer-rate**vref{3}: 3.35MB/s - 5.35MB/s (to/from media)
 **Average-access**htref{1}: 16ms
-**Average-latency**htref{1}: 5.54ms
-! TODO **Average-seek**htref{1}: {9.0ms:(read)}{10.5ms:(write)}
-**Maximum-seek**htref{1}: 19ms
-**Buffer-size**htref{1}: 256KB
+**Average-latency**vref{3}: 5.54ms
+**Average-seek**vref{3}: 9ms
+**Maximum-seek**vref{3}: 19ms
+**Buffer-size**vref{3}: 256KB
 **Blocks-per-track**htref{1}: 82.5
 **Track-density**htref{1}: 3000 tpi
-**Rotational-speed**vref{2}: 5400 rpm
+**Rotational-speed**vref{2,3}: 5400 rpm
 **Servo-type**vref{2}: Dedicated
 **Recording-mode**htref{1}: RLL/ZBR
 **Num-heads**htref{1}: 19
 **Interface**htref{1}: SCSI
+**Dimensions-start{RZ28B}
+**Height**vref{3}: 41.4 mm
+**Width**vref{3}: 102 mm
+**Depth**vref{3}: 146 mm
+**Weight**vref{3}: 0.99 kg
+**Dimensions-end{RZ28B}
 **End-storage-entry{RZ28B}
 
 **Start-storage-entry{RZ28D}{SCSI}{RZ}
@@ -753,37 +762,38 @@
 **Def-lref{4} = ref{CU-1993-03-08}
 **Def-lref{5} = ref{TMAI-1989-11-07}
 **Def-lref{6} = ref{AA-ME85D-TE}
+**Def-lref{7} = ref{EK-258AA-AD-001}
 **Announcement**vref{5}: 1989-11-07
 **OS-support-ULTRIX**vref{6}: V4.0
 **Last-order**vref{4}: 1993-07-02
 **Last-ship**vref{4}: 1993-09-24
 **Capacity**vref{3}: 655MB
 ! 665MB: 31 58 66 -->
-**Form-factor**htref{2}: 5-1/4" full-height
-**Peak-transfer-rate**htref{1}: {1.6MB/s:(asynch)}{4.0MB/s:(synch)}{1.875MB/s:(to/from media)}
+**Form-factor**vref{7}: 5-1/4" full-height
+**Peak-transfer-rate**vref{7}: 1.25MB/s (to/from media)
 **Average-access**vref{3}: 24.3ms
-**Average-latency**htref{1}: 8.3ms
-**Average-seek**vref{3}: 16ms
-**Track-track-seek**htref{1}: 4ms
-**Maximum-seek**htref{1}: 35ms
+**Average-latency**vref{7}: 8.3ms
+**Average-seek**vref{3,7}: 16ms
+**Track-track-seek**vref{7}: 4ms
+**Maximum-seek**vref{7}: 35ms
 **Buffer-size**vref{3}: 64KB
 **Read-ahead-cache**uref{*28}: Yes
 **Bytes-per-sector**uref{*66,*31}: 512
 **Sectors-per-track**uref{*66,*31}: 54
 **Rotational-speed**vref{3}: 3600rpm
-**Interleave**uref{*66,*31}: 1:1
-**Interface**htref{1}: SCSI
+**Interleave**vref{7}: 1:1
+**Interface**vref{7}: SCSI
 **Power-start{RZ56}
 **Positive-5V-current**uref{*31}: 1.3A
 **Positive-12V-current**uref{*31}: 2.0A
 **Power**uref{66}: 160W
-**Heat-dissipation**uref{*31}: 28W
+**Heat-dissipation**vref{7}: 28W
 **Power-end{RZ56}
 **Dimensions-start{RZ56}
-**Height**htref{1}: 82.6mm
-**Width**htref{1}: 146.1mm
-**Depth**htref{1}: 203.2mm
-**Weight**htref{1}: 3.81kg
+**Height**vref{7}: 82.5 mm
+**Width**vref{7}: 146.0 mm
+**Depth**vref{7}: 200 mm
+**Weight**vref{7}: 3.78 1kg
 **Dimensions-end{RZ56}
 **End-storage-entry{RZ56}
 

@@ -4637,8 +4637,10 @@
 **End-ref{EC-F4719-93}
 
 **Start-ref{EK-258AA-AD-001}
-**Ref-text: VAXstation 3520/3540 Maintenance Guide Addendum:
+**Ref-text: VAXstation 3520/3540 Maintenance Guide Addendum: RZ56 and MS60-CA Options
 **Ref-partno: EK-258AA-AD-001
+**Ref-date: 1989-10
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd1/vax/258aaad1.pdf
 **Ref-electronic: PDF
 **End-ref{EK-258AA-AD-001}
 
@@ -5726,6 +5728,8 @@
 **Start-ref{EK-DRZ01-IG-B01}
 **Ref-text: RZ Series Disk Drive Installation Guide
 **Ref-partno: EK-DRZ01-IG-B01
+**Ref-date: 1993-07
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/disk/drz01igb.pdf
 **Ref-electronic: PDF
 **End-ref{EK-DRZ01-IG-B01}
 
@@ -11701,6 +11705,13 @@
 **Ref-date: 1994-02
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd3/disk/rz26lisa.pdf
 **End-ref{EK-RZ26L-IS.A01}
+
+**Start-ref{EK-RZ28B-DS.A01}
+**Ref-text: RZ28B Disk Drive Data Sheet
+**Ref-partno: EK-RZ28B-DS.A01
+**Ref-date: 1994-03
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/disk/rz28bdsa.pdf
+**End-ref{EK-RZ28B-DS.A01}
 
 **Stop-processing
 
