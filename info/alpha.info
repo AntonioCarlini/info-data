@@ -1405,11 +1405,12 @@
 **Def-lref{2} = ref{AS1000A-TECHSUM}
 **Def-lref{3} = ref{SPEC-res-96q1}
 **Def-lref{4} = ref{CU-1996-01-31}
+**Def-lref{5} = ref{DEC-PR-1996-01-30}
 !-- [1]: integrated SVGA controller for both 4/233 and 4/266 -->
 !-- V7-3B 1-Mar-1996 gives Rackmount variant dimensions as: 10.50-inches high by 19-inches wide by 27 inches deep -->
-**Announcement**vref{4}: 1996-01-31
+**Announcement**vref{5}: 1996-01-30
 **OS-support-vms: V6.2-1H2
-**FRS-date**htref{1}: 1996-03
+**FRS-date**vref{5}: 1996-03
 **Num-proc: 1
 **CPU-clock**vref{4}: 266MHz
 **Backup-cache**htref{1}: 2MB
@@ -2230,12 +2231,15 @@
 **OS-support-vms: V6.2-1H2
 **Def-lref{1} = ref{SPEC-res-96q2}
 **Def-lref{2} = ref{CU-1996-01-31}
-**Announcement**vref{2}: 1996-01-31
+**Def-lref{3} = ref{DEC-PR-1996-01-30}
+**Announcement**vref{3}: 1996-01-30
 **Num-proc**vref{2}: 1-4
 **Minimum-memory**vref{2}: 128 MB
 **Maximum-memory**vref{2}: 2 GB
 **SPECint95**vref{1}: 8.02 (1-CPU)
 **SPECfp95**vref{1}: 13.9 (2-CPU) 19.4 (4-CPU)
+**BUS-PCI**vref{3}: 8
+**BUS-EISA**vref{3}: 3
 **End-systems-entry{AS2100A-5-300}
 
 **Start-systems-entry{AS2100A-5-375}{ALPHA}{ALPHASERVER}
@@ -2441,7 +2445,9 @@
 **Def-lref{1} = ref{SPEC-res-96q1}
 **Def-lref{2} = ref{SPEC-res-96q2}
 **Def-lref{3} = ref{CU-1996-01-31}
-**Announcement**vref{3}: 1996-01-31
+**Def-lref{4} = ref{DEC-PR-1996-01-30}
+**Announcement**vref{4}: 1996-01-30
+**CPU-clock**vref{4}: 350 MHz
 **SPECint95**vref{1}: 10.1
 **SPECfp95**vref{1}: 14.2
 !**SPECfp95**vref{2} 20.3 (2-CPU) 27.9 (4-CPU) 31.4 (6-CPU)
@@ -2556,7 +2562,11 @@
 **OS-support-vms: V6.2
 **Def-lref{1} = ref{SPEC-res-96q1}
 **Def-lref{2} = ref{CU-1996-01-31}
-**Announcement**vref{2}: 1996-01-31
+**Def-lref{3} = ref{DEC-PR-1996-01-30}
+**Announcement**vref{3}: 1996-01-30
+**Num-proc**vref{3}: 1-12
+**CPU-clock**vref{3}: 350 MHz
+**Minimum-memory**vref{3}: 512MB
 **SPECint95**vref{1}: 10.1
 **SPECfp95**vref{1}: 14.2 (1-CPU) 38.5 (8-CPU)
 **End-systems-entry{AS8400-5-350}
