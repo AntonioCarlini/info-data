@@ -2251,11 +2251,27 @@
 **SPECfp95**vref{1}: 15.1 (1-CPU) 20.7 (2-CPU) 27.3 (4-CPU)
 **End-systems-entry{AS2100A-5-375}
 
+**Start-systems-entry{AS4000-5-300}{ALPHA}{ALPHASERVER}
+**Sys-name: AlphaServer 4000 5/300
+**Desc-name: AlphaServer 4000 5/300
+**Def-lref{1} = ref{DEC-PR-1996-09-04}
+**Num-proc**vref{1}: 1 - 2
+**Maximum-memory**vref{1}: 4GB
+**End-systems-entry{AS4000-5-300}
+
 **Start-systems-entry{AS4000-5-300E}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4000 5/300E	
 **Desc-name: AlphaServer 4000 5/300E	
 **OS-support-vms: V6.2-1H3
 **End-systems-entry{AS4000-5-300E}
+
+**Start-systems-entry{AS4000-5-400}{ALPHA}{ALPHASERVER}
+**Sys-name: AlphaServer 4000 5/400
+**Desc-name: AlphaServer 4000 5/400
+**Def-lref{1} = ref{DEC-PR-1996-09-04}
+**Num-proc**vref{1}: 1 - 2
+**Maximum-memory**vref{1}: 4GB
+**End-systems-entry{AS4000-5-400}
 
 **Start-systems-entry{AS4000-5-466}{ALPHA}{ALPHASERVER}
 **Sys-name: AlphaServer 4000 5/466
@@ -2459,9 +2475,14 @@
 **Def-lref{1} = ref{SPEC-res-96q3}
 **Def-lref{2} = ref{SPEC-res-96q4}
 **Def-lref{3} = ref{CU-1996-05-17}
+**Def-lref{4} = ref{DEC-PR-1996-09-04}
 **Announcement**vref{3}: 1996-05-17
 **FRS-date**vref{3}: 1996-08
 **OS-support-vms: V6.2-1H3
+**Num-proc**vref{4}: 1 - 6
+**CPU-chip**vref{4}: DECchip 21164A
+**CPU-clock**vref{4}: 437 MHz
+**Maximum-memory**vref{4}: 12 GB
 **SPECint95**vref{1}: 13.6
 **SPECfp95**vref{2}: 16.2 (1-CPU) 34.3 (6-CPU)
 !**SPECfp95**vref{2}: 17.0 (1-CPU) differs slightly from earlier figure, slightly different disk config
@@ -2563,10 +2584,13 @@
 **Def-lref{1} = ref{SPEC-res-96q1}
 **Def-lref{2} = ref{CU-1996-01-31}
 **Def-lref{3} = ref{DEC-PR-1996-01-30}
+**Def-lref{4} = ref{DEC-PR-1996-09-04}
 **Announcement**vref{3}: 1996-01-30
 **Num-proc**vref{3}: 1-12
 **CPU-clock**vref{3}: 350 MHz
+**CPU-chip**vref{4}: DECchip 21164
 **Minimum-memory**vref{3}: 512MB
+**Maximum-memory**vref{4}: 28 GB
 **SPECint95**vref{1}: 10.1
 **SPECfp95**vref{1}: 14.2 (1-CPU) 38.5 (8-CPU)
 **End-systems-entry{AS8400-5-350}
@@ -2577,9 +2601,14 @@
 **Def-lref{1} = ref{SPEC-res-96q3}
 **Def-lref{2} = ref{SPEC-res-96q4}
 **Def-lref{3} = ref{CU-1996-05-17}
+**Def-lref{4} = ref{DEC-PR-1996-09-04}
 **Announcement**vref{3}: 1996-05-17
 **FRS-date**vref{3}: 1996-08
 **OS-support-vms: V6.2-1H3
+**Num-proc**vref{4}: 1 - 12
+**CPU-clock**vref{4}: 437 MHz
+**CPU-chip**vref{4}: DECchip 21164
+**Maximum-memory**vref{4}: 28 GB
 **SPECint95**vref{1}: 13.6
 **SPECfp95**vref{1}: 16.2 (1-CPU) 42.6 (6-CPU)
 !**SPECfp95**vref{2}: 17.0 (1-CPU) differs slightly from earlier figure
