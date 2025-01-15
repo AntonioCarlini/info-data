@@ -2152,6 +2152,24 @@
 **Ref-url: https://web.archive.org/web/19961224014323/http://www.digital.com:80/info/alphaserver/news/130press.html
 **End-ref{DEC-PR-1996-01-30}
 
+**Start-ref{DEC-PR-1996-03-11}
+**Ref-text: Digital's New Entry-Level and Mid-Range AlphaStation Workstations Deliver Unprecedented Performance at Breakthrough Prices
+**Ref-processed: Yes
+**Ref-url: https://web.archive.org/web/19961224014153/http://www.digital.com:80/info/alphaserver/news/station.html
+**End-ref{DEC-PR-1996-03-11}
+
+**Start-ref{DEC-PR-1996-05-03}
+**Ref-text: Digital Redefines the Midrange with First Affordable Enterprise-Class Computing Solution
+**Ref-processed: Yes
+**Ref-url: https://web.archive.org/web/19961224013801/http://www.digital.com:80/info/alphaserver/news/4100press.html
+**End-ref{DEC-PR-1996-05-03}
+
+**Start-ref{DEC-PR-1996-08-06}
+**Ref-text: 300 MHz Processor, Distributor Packages, Price Cuts Strengthen 64-bit AlphaServer 1000A System
+**Ref-processed: Yes
+**Ref-url: https://web.archive.org/web/19961224012349/http://www.digital.com:80/info/alphaserver/news/0805_1000a_pr.html
+**End-ref{DEC-PR-1996-08-06}
+
 **Start-ref{DEC-PR-1996-09-04}
 **Ref-text: DEC Unveils Significant Enhancements to its AlphaServer Family of 64-bit RISC Systems
 **Ref-processed: Yes
@@ -11724,6 +11742,13 @@
 **Ref-date: 1994-03
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd3/disk/rz28bdsa.pdf
 **End-ref{EK-RZ28B-DS.A01}
+
+**Start-ref{EC-N3820-10}
+**Ref-text: AlphaServer 1000 Technical Summary
+**Ref-partno: EC-N3820-10
+**Ref-date: 
+**Ref-url: https://web.archive.org/web/20040914200403/http://ftp.digital.com/pub/Digital/Alpha/systems/as1000/docs/tech_summ.pdf
+**End-ref{EC-N3820-10}
 
 **Stop-processing
 

@@ -1321,14 +1321,18 @@
 **def-lref{3} = ref{CU-V5-11A}
 **def-lref{4} = ref{CU-1995-10-15}
 **def-lref{5} = ref{SOC-DEC1995-SUP}
+**Def-lref{6} = ref{EC-N3820-10}
 !-- [1] has more data about physical size -->
 **Announcement**vref{4}: 1995-10-15
-**Num-proc: 1
-**CPU-clock**vref{4}: 266MHz
+**Num-proc**vref{6}: 1
+**CPU-chip**vref{6}: DECchip 21064
+**CPU-clock**vref{4,6}: 266MHz
+**Backup-cache**vref{6}: 2MB
 **TPC-A**vref{4}: 341:(e)
-**Maximum-memory**vref{4}: 1GB
-**BUS-PCI**vref{4}: 2 slots
-**BUS-EISA**vref{4}: 7 slots
+**Minimum-memory**vref{6}: 16MB
+**Maximum-memory**vref{4,6}: 1GB
+**BUS-PCI**vref{6}: 2 slots @ 132MB/s
+**BUS-EISA**vref{6}: 7 slots @ 33MB/s
 **BUS-PCI-or-EISA**vref{4}: 1 slot
 **Keyboard**vref{5}: LK461 or LK471
 **Dimensions-start{AS1000-4-266-Pedestal}
@@ -1434,6 +1438,8 @@
 **Desc-name: AlphaServer 1000A 5/300
 **def-lref{1} = ref{EK-ALPSV-SV.B01}
 **def-lref{2} = ref{SPEC-res-96q3}
+**Def-lref{3} = ref{DEC-PR-1996-08-06}
+**Announcement**vref{3}: 1996-08-06
 ! [1] has:
 !CPU Modules
 !54-24799-01 400 MHz CPU daughter board Section 6.2.3
@@ -1445,9 +1451,13 @@
 ! Official TPC result: http://www.tpc.org/tpcc/results/tpcc_result_detail.asp?id=96080201
 ! supported options: ftp://ftp.uni-bayreuth.de/pub/Digital/Alpha/systems/as1000a/docs/supported_options_pntk.txt
 ! A partial DSOC entry: http://sup.xenya.si/sup/info/digital/Alpha/alpha%20server100a-so0042pf.pdf (20 SEP 1996)
-**CPU-clock**vref{1}: 300MHz
-**CPU-chip: DECchip 21164
-**Backup-cache: 2MB
+**CPU-clock**vref{1,3}: 300MHz
+**CPU-chip**vref{3}: DECchip 21164
+**Backup-cache**vref{3}: 2MB
+**Minimum-memory**vref{3}: 64 MB
+**Maximum-memory**vref{3}: 1 GB
+**BUS-PCI**vref{3}: 7
+**BUS-EISA**vref{3}: 2
 **SPECint95**vref{2}: 8.48
 **SPECfp95**vref{2}: 9.84
 **End-systems-entry{AS1000A-5-300}
@@ -2302,15 +2312,16 @@
 **Desc-name: AlphaServer 4100 5/300
 **Def-lref{1} = ref{SPEC-res-96q2}
 **Def-lref{2} = ref{CU-1996-05-17}
-**Announcement**vref{2}: 1996-05-17
+**Def-lref{3} = ref{DEC-PR-1996-05-03}
+**Announcement**vref{3}: 1996-05-03
 **FRS-date**vref{2}: 1996-05-17
 **OS-support-vms**vref{2}: V6.2-1H3
 **OS-support-du**vref{2}: DEC OSF/1 V3.2F
 **OS-support-nt**vref{2}: V3.51
-**Num-proc**vref{2}: 1-4
+**Num-proc**vref{2,3}: 1-4
 **CPU-clock**vref{2}: 300MHz
 **Backup-cache**vref{2}: 2 MB
-**Maximum-memory**vref{2}: 4 GB
+**Maximum-memory**vref{2,3}: 4 GB
 **SPECint95**vref{1}: 8.11 (1-CPU)
 **SPECfp95**vref{1}: 21.8 (4-CPU) 16.7 (2-CPU) 12.7 (1-CPU)
 **End-systems-entry{AS4100-5-300}
@@ -3267,7 +3278,8 @@
 **Def-lref{1} = ref{CU-V7-3B}
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1996-03-14}
-**Announcement**vref{3}: 1996-03-12
+**Def-lref{4} = ref{DEC-PR-1996-03-11}
+**Announcement**vref{4}: 1996-03-11
 **OS-support-vms**htref{1}: V6.2-1H1
 ! Flowchart has V6.2-1H2
 **OS-support-du**htref{1}: Digital UNIX V3.2D
@@ -3275,18 +3287,18 @@
 **Num-proc: 1
 **CPU-chip**htref{1}: DECchip 21064A
 **CPU-clock**vref{3}: 233MHz
-**Backup-cache**vref{3}: 1MB
+**Backup-cache**vref{3,4}: 1MB
+**Minimum-memory**vref{3,4}: 32MB
+**Maximum-memory**htref{1}: 512MB
 **SPECint92**vref{3}: 180
 **SPECfp92**vref{3}: 210
 !**SPECint95**vref{3}: 3.80
 !**SPECfp95**vref{3}: 5.09
 **SPECint95**vref{2}: 4.27
 **SPECfp95**vref{2}: 5.09
-**Minimum-memory**vref{3}: 32MB
-**Maximum-memory**htref{1}: 512MB
-**BUS-PCI**htref{1}: 2 slots @ 132MB/s
-**BUS-ISA**htref{1}: 1 slot
-**BUS-PCI-or-ISA**htref{1}: 1 slot
+**BUS-PCI**vref{4}: 2 slots
+**BUS-ISA**vref{4}: 1 slot
+**BUS-PCI-or-ISA**vref{4}: 1 slot
 **BUS-SCSI**htref{1}: 1 @ 10MB/s
 **LAN-support**htref{1}: 1 (10BASE-T)
 **Options-start{AST255-233}
@@ -3306,7 +3318,8 @@
 **Def-lref{1} = ref{CU-V7-3B}
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1996-03-14}
-**Announcement**vref{3}: 1996-03-12
+**Def-lref{4} = ref{DEC-PR-1996-03-11}
+**Announcement**vref{3}: 1996-03-11
 **OS-support-vms**htref{1}: V6.2-1H1
 ! Flowchart has V6.2-1H2
 **OS-support-du**htref{1}: Digital UNIX V3.2D
@@ -3314,18 +3327,18 @@
 **Num-proc: 1
 **CPU-chip**htref{1}: DECchip 21064A
 **CPU-clock**vref{3}: 300MHz
-**Backup-cache**vref{3}: 1MB
+**Backup-cache**vref{3,4}: 1MB
 **SPECint92**vref{3}: 215
 **SPECfp92**vref{3}: 245
 !**SPECint95**vref{3}: 4.51
 !**SPECfp95**vref{3}: 5.71
 **SPECint95**vref{2}: 5.23
 **SPECfp95**vref{2}: 5.81
-**Minimum-memory**vref{3}: 32MB
+**Minimum-memory**vref{3,4}: 32MB
 **Maximum-memory**htref{1}: 1GB
-**BUS-PCI**htref{1}: 2 slots @ 132MB/s
-**BUS-ISA**htref{1}: 1 slot
-**BUS-PCI-or-ISA**htref{1}: 1 slot
+**BUS-PCI**vref{4}: 2 slots
+**BUS-ISA**vref{4}: 1 slot
+**BUS-PCI-or-ISA**vref{4}: 1 slot
 **BUS-SCSI**htref{1}: 1 @ 10MB/s
 **LAN-support**htref{1}: 1 (10BASE-T)
 **Options-start{AST255-300}
@@ -3402,7 +3415,8 @@
 **Def-lref{1} = ref{CU-V7-3B}
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1996-03-14}
-**Announcement**vref{3}: 1996-03-12
+**Def-lref{4} = ref{DEC-PR-1996-03-11}
+**Announcement**vref{4}: 1996-03-11
 **OS-support-vms**htref{1}: V6.2-1H1
 **OS-support-du**htref{1}: Digital UNIX V3.2D
 **OS-support-nt**htref{1}: V3.51
@@ -3411,11 +3425,11 @@
 **CPU-clock**vref{3}: 266MHz
 **Cache**htref{1}: 8KB-I/8KB-D
 **Primary-cache**htref{1}: 96KB
-**Backup-cache**vref{3}: 2MB
+**Backup-cache**vref{3,4}: 2MB
 **SPECint95**vref{2}: 7.93
 **SPECfp95**vref{2}: 11.1
 **Minimum-memory**htref{1}: 32MB
-**Maximum-memory**htref{1}: 512MB
+**Maximum-memory**vref{4}: 512MB
 **Memory-checking**htref{1}: ECC
 **BUS-PCI**vref{3}: 4 slots
 **BUS-SCSI**htref{1}: 1 @ 10MB/s
@@ -3429,6 +3443,7 @@
 **Options-end{AST500-266}
 **End-systems-entry{AST500-266}
 
+! TODO: re-verify this ... is it 300 or 333? probably 333 from the announcement **Def-lref{4} = ref{DEC-PR-1996-03-11}
 **Start-systems-entry{AST500-300}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 500/333
 **Desc-name: AlphaStation 500/333
@@ -3466,10 +3481,15 @@
 **Start-systems-entry{AST500-400}{ALPHA}{AlphaStation}
 **Sys-name: AlphaStation 500/400
 **Desc-name: AlphaStation 500/400
-**OS-support-vms: V6.2-1H3
 **Def-lref{1} = ref{SPEC-res-96q2}
+**Def-lref{2} = ref{DEC-PR-1996-03-11}
+**Announcement**vref{2}: 1996-03-11
+**OS-support-vms: V6.2-1H3
+**Backup-cache**vref{2}: 2MB
+**Maximum-memory**vref{2}: 512MB
 **SPECint95**vref{1}: 12.3
 **SPECfp95**vref{1}: 14.1
+**BUS-PCI**vref{2}: 4 slots (3 32-bit @ 133MB/s, 1 64-bit @ 267MB/s)
 **End-systems-entry{AST500-400}
 
 **Start-systems-entry{AST500-500}{ALPHA}{AlphaStation}
