@@ -497,6 +497,8 @@
 
 **Start-chips-entry{DC21164}{CHIP}{ALPHACPU}
 **Def-lref{1} = ref{EC-QAEQD-TE}
+**Def-lref{2} = ref{DEC-PR-1996-03-04}
+! vref{2} announces DC21164 @ 366MHz and 400MHz 0.35 micron; 20W @ 366MHz
 **Sys-name: DC21164
 **Desc-name: Digital Semiconductor 21164 Alpha Microprocessor
 **Codename: EV5

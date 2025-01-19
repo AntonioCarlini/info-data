@@ -2706,14 +2706,19 @@
 **OS-support-vms: V7.1-2
 **End-systems-entry{DS40}
 
-**Start-systems-entry{ES40}{ALPHA}{ES40}
+**Start-systems-entry{ES40-500}{ALPHA}{ES40}
 **Sys-name: AlphaServer ES40
 **Desc-name: AlphaServer ES40
 **OS-support-vms: V7.1-2
 **Def-lref{1} = ref{SPEC-res-99q2}
-**SPECint95**vref{1}: 27.3
-**SPECfp95**vref{1}: 47.9 (1-CPU)
-**End-systems-entry{ES40}
+**Def-lref{2} = ref{DEC-PR-1999-04-06}
+**CPU-clock**vref{2}: 500MHz
+**CPU-chip**vref{2}: DECchip 21264
+**Num-proc**vref{2}: 1 - 4
+**Minimum-memory**vref{2}: 512MB
+**Maximum-memory**vref{2}: 16GB
+**SPECint95**vref{2}: 27.3
+**End-systems-entry{ES40-500}
 
 **Start-systems-entry{ES40-6-667}{ALPHA}{ES40}
 **Sys-name: AlphaServer ES40 6/667
