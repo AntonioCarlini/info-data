@@ -11762,6 +11762,13 @@
 **Ref-url: https://web.archive.org/web/20040914200403/http://ftp.digital.com/pub/Digital/Alpha/systems/as1000/docs/tech_summ.pdf
 **End-ref{EC-N3820-10}
 
+**Start-ref{ER-ORP07-SV}
+**Ref-text: RP07 Disk Drive Service Manual
+**Ref-partno: ER-ORP07-SV
+**Ref-date: 1980-10
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/disc/rp07/ER-ORP07-SV_RP07_ServiceMan_Oct80.pdf
+**End-ref{ER-ORP07-SV}
+
 **Stop-processing
 
 **Start-ref{

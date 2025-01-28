@@ -155,17 +155,33 @@
 **Start-storage-entry{RP07}{MASSBUS}{RP}
 **Sys-name: RP07
 **Desc-name: RP07 Fixed Media Disk
+**Def-lref{1} = ref{ER-ORP07-SV}
 **Lifetime**uref{*DU-JUN86}: 1980-1984
-**Capacity**uref{*SOEE85}: 516MB
+**Capacity**vref{1}: 516MB
+**CPU**vref{1}: 8080 and 2901
 **Average-access**uref{*SOEE85}: 32.3ms
-**Average-seek**uref{*DU-JUN86}: 23ms
-**Average-latency**uref{*SOEE85}: 8.3ms
-**Peak-transfer-rate**uref{*SOEE85}: 1.3MB/s
+**Average-seek**vref{1}: 23ms
+**Average-latency**vref{1}: 8.26ms
+! vref{1}: non-interleaved sectors: 2.16MB/s(16-bit mode), 1.92MB (18-bit mode)
+**Peak-transfer-rate**vref{1}: 1.3MB/s
 **Track-track-seek**uref{*SOEE85}: 5ms
-**Num-media-surfaces**uref{*SOEE85}: 16 data, 1 servo
+**Num-media-surfaces**vref{1}: 16 data, 1 servo
 !!**Tracks-per-surface**uref{*SOEE85}: 1260 data, 4 diagnostic
-**Sectors-per-track**uref{*SOEE85}: 50
-**Bytes-per-sector**uref{*SOEE85}: 512
-**Rotational-speed**uref{*SOEE85}: 3633rpm
+**Recording-density**vref{1}: 11,139 bpi (inner track, nominal)
+**Sectors-per-track**vref{1}: 50
+**Bytes-per-sector**vref{1}: 512
+**Rotational-speed**vref{1}: 3633rpm
+**Dimensions-start{RP07}
+**Height**vref{1}: 1181 mm
+! vref{1}: width given is for two side covers fitted
+**Width**vref{1}: 673.1mm
+**Depth**vref{1}: 838.2 mm
+**Weight**vref{1}: 181.44 kg
+**Dimensions-end{RP07}
+**Power-start{RP07}
+**Heat-dissipation**vref{1}: 7000 BTU/hr
+**I-nominal**vref{1}: 8A
+**I-inrush**vref{1}: 55A
+**Power-end{RP07}
 **End-storage-entry{RP07}
 
