@@ -334,6 +334,7 @@
 **Sys-name: RX02
 **Desc-name: RX02 8-inch Floppy Disk
 **Def-lref{1} = ref{EK-RX02-UG-001}
+**Def-lref{2} = ref{EK-RX02-TM-001}
 ! Dual 8" floppy drive. Reads RX01 floppies. [78]
 ! Will write RX01 floppies: used this on LSI-11/23 at SOM group
 **Lifetime**uref{*DU-JUN86}: 1978-1985
@@ -345,13 +346,13 @@
 ! RXV11: M7946
 ! RXV21: M8029
 ! vref{1}: RX02 has the following parts: M7744 controller, M7745 read/write electronics, H771-A, -C, -D PSU RX02-CA (60Hz), RX02-CC (50Hz)
-**Capacity**vref{1}: 512KB
+**Capacity**vref{1,2}: 512KB
 **Average-access**vref{1}: 262ms
 ! Average seek: vref{1} see calculation on p1-8
 **Average-seek**vref{1}: 154ms
 ! Average latency: vref{1} see calculation on p1-8
 **Average-latency**vref{1}: 84ms
-!!**Average-settling-time**uref{*SOEE85}: 25ms
+**Head-settling-time**vref{2}: 25ms
 **Peak-transfer-rate**uref{*SOEE85}: 61kbit/s
 **Num-media-surfaces**vref{1}: 1 data
 **Tracks-per-surface**vref{1}: 77
@@ -361,6 +362,12 @@
 **Rotational-speed**vref{1}: 360rpm
 **Soft-error-rate**vref{1}: < 1 in 10^9
 **Hard-error-rate**vref{1}: < 1 in 10^12
+**Power-start{RX02}
+**Heat-dissipation**vref{2}: 225 BTU/hr
+**Power-end{RX02}
+**Positive-5V-current**vref{2}: 5A
+**Negative-5V-current**vref{2}: 0.14A
+**Positive-24V-current**vref{2}: 1.3A
 **End-storage-entry{RX02}
 
 **Start-storage-entry{RX23}{MISC}{RX}

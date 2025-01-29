@@ -227,6 +227,14 @@
   - optional
   - - physical-unit
     - ms
+- Head-settling-time:
+  - Head settling time
+  - Head settling time
+  - all
+  - io
+  - optional
+  - - physical-unit
+    - ms
 - Track-track-seek:
   - Track to track seek
   - Track to track seek
@@ -375,9 +383,19 @@
   - +5V current
   - all
   - summary
+- Negative-5V-current:
+  - -5V current
+  - -5V current
+  - all
+  - summary
 - Positive-12V-current:
   - +12V current
   - +12V current
+  - all
+  - summary
+- Positive-24V-current:
+  - +24V current
+  - +24V current
   - all
   - summary
 - Lifetime:
