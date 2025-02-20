@@ -4516,6 +4516,8 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **def-lref{4} = ref{SOCEE-SPR90}
 **Def-lref{5} = ref{QS-VMS-V073}
 **def-lref{6} = ref{ESOC-SPR87}
+**def-lref{7} = ref{DEC-ANN-VAX-8650-Video}
+**def-lref{8} = ref{DEC-ANN-VAX-8650-CHM}
 **document=doc{DEC:EK-8600I-IN-001} ! VAX 8600/8650 System Installation Manual
 **document=doc{DEC:EK-8600S-MM-004} ! VAX 8600/8650 System Fault Isolation Manual
 **document=doc{DEC:EK-DB86X-TD-002} ! VAX 8600/8650 SBIA Technical Decsription
@@ -4530,7 +4532,7 @@ The system may be clustered by connecting to a star coupler using a CI780.
 **document=doc{DEC:EK-KA86V-TD-002} ! VAX 8600/8650 EMM Environmental Monitoring Module Technical Description
 **document=doc{DEC:EK-VENUS-IP-002} ! IPB-VAX 8600/8650 Illustrated Parts Breakdown
 **document=doc{DEC:EK-08650-RM-C} ! RM-8650-0-0 C REV 8650 Unit Revision Matrix
-**Announcement**uref{*SUE 6.2,*102}: 1985-12-04
+**Announcement**vref{7,8}: 1985-12-05
 **Codename**uref{*34,*102}: Morningstar
 **OS-support-VMS: V4.3
 **OS-support-VMS-end**vref{5}: V7.3
