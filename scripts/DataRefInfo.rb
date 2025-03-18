@@ -27,6 +27,7 @@
 # author: Author names
 # publisher: Publisher (but not used for DEC manuals)
 # url: where to find the document online
+# url_alt: alternative URLs
 # hardcopy: Yes if the document consulted is hardcopy, otherwise No
 # processed: Yes if the document has been mined for info, otherwise No
 #
@@ -43,6 +44,7 @@ class Ref
   attr_reader   :identifier
   attr_reader   :line_num
   attr_accessor :url
+  attr_accessor :url_alt
 
   def initialize(identifier, line_num)
     @identifier = identifier
@@ -58,6 +60,7 @@ class Ref
     @publisher = nil
     @date = nil
     @url = nil
+    @url_alt = []
     @hardcopy = false
     @processed = false
   end
@@ -109,6 +112,7 @@ class Ref
     h["publisher"] = @publisher unless @publisher.nil?()
     h["date"] = @date unless @date.nil?()
     h["url"] = @url unless @url.nil?()
+    h["url-alt"] = @url_alt unless @url_alt.empty?()
     h["hardcopy"] = @hardcopy ? 'Yes' : 'No'
     h["processed"] = @processed ? 'Yes' : 'No'
     
@@ -212,6 +216,9 @@ class References
         when /^Ref-URL$/ix          then
           # Ignore blank ref-url lines
           current.url = value if !value.to_s().strip().empty?()   # Note: nil.to_s() is safe
+        when /^Ref-URL-alt$/ix          then
+          # Ignore blank ref-url-alt lines
+          current.url_alt << value if !value.to_s().strip().empty?()   # Note: nil.to_s() is safe
         else raise("Bad line read in #{info_filename} at line #{line_num}: #{line}")
         end
       elsif line.strip().empty?()
@@ -219,8 +226,8 @@ class References
       elsif line =~ /^\s*!/
         raise("Muffed comment line check")
       else
-        # TODO did not recognise line
-        raise("unrecognised line [#{line}]")
+        # Line not recognised as valid
+        raise("Invalid entry at line #{line_num}: [#{line}]")
       end
     }
 
