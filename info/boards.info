@@ -47,13 +47,16 @@ The DELQA-M is a replacement for the DEQNA-M.
 **Sys-name: DESQA-S
 **Desc-name: DESQA-S Qbus Ethernet Interface
 **Def-lref{1} = ref{ED-32596-42}
-**Board-size**vref{1}: Quad
-**Bus**vref{1}: Qbus
-**Ethernet-connection**vref{1}: AUI and ThinWire
-**AC-bus-load**vref{1}: 3.3
-**DC-bus-load**vref{1}: 0.5
-**Positive-5V-current**vref{1}: 2.4A
-**Positive-12V-current**vref{1}: 0.22A
+**Def-lref{2} = ref{EK-DESQA-TM-001}
+! vref{2}: 68000 processor, LANCE
+! vref{2}: dimensions 308 mm H x 24 mm W x 240mm L 0.58kg
+**Board-size**vref{1,2}: Quad
+**Bus**vref{1,2}: Qbus
+**Ethernet-connection**vref{1,2}: AUI and ThinWire
+**AC-bus-load**vref{1,2}: 3.3
+**DC-bus-load**vref{1,2}: 0.5
+**Positive-5V-current**vref{2}: 2.15A
+**Positive-12V-current**vref{2}: 0.21A
 **Text-start
 The DESQA-S is a Qbus board that connects a system in a BA200-series cabinet to an Ethernet network. It is a quad-size module based on the DELQA but with
 built-in cabinet connections for both AUI and ThinWire.

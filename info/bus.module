@@ -323,7 +323,7 @@ bus=QBUS module=M3119-YA	dc=1.5	ac=3.0 	+5V=2.5A 	+12V=0.5A  name=CXY08-M desc="
 bus=QBUS module=M3121-PA	dc=1.0	ac=3.0	+5V=1.97A	+12V=0.04A name=DFA01-AA desc="1200/2400 Integral Modem"
 bus=QBUS module=M3123	name=CXF32-AA
 bus=QBUS module=M3125-PA	dc=1.0	ac=4.6	+5V=5.0A	+12V=0.3A name=IBQ01-SA
-bus=QBUS module=M3127-PA	dc=0.5	ac=2.2	+5V=2.40A	+12V=0.22A name=DESQA-PA
+bus=QBUS module=M3127-PA	dc=0.5	ac=2.2	+5V=2.15A	+12V=0.21A name=DESQA-PA
 bus=QBUS module=M3127-SA	dc=0.5	ac=3.3	+5V=2.40A	+12V=0.22A name=DESQA-SA
 bus=QBUS module=M3136	dc=0.75	ac=3.6	+5V=4.0A	+12V=0.0A name=DTC05
 bus=QBUS module=M4002-PA	dc=0.3	ac=1.0	+5V=2.2A	+12V=0.013A name=KWV11-SA
