@@ -130,6 +130,11 @@
   - Range of System V versions that suppor this system
   - vax
   - summary
+- Part-number:
+  - Part number
+  - Part number
+  - all
+  - summary
 - BUS-SCSI:
   - BUS SCSI
   - SCSI bus details

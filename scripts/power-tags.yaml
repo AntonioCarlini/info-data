@@ -61,6 +61,15 @@
   - - physical-unit
     - A
     - mA
+- Positive-15V-current:
+  - Positive-15V-current
+  - Positive-15V-current
+  - all
+  - summary
+  - optional
+  - - physical-unit
+    - A
+    - mA
 - Heat-dissipation:
   - Heat dissipation
   - Heat dissipation

@@ -28,6 +28,9 @@
 ! PORTswitch 900 Family: https://groups.google.com/forum/#!topic/biz.digital.articles/T7fle7L1-zU
 ! TRNcontroller 700: https://groups.google.com/forum/#!topic/biz.dec.decnews/2AjqnREkoP8
 ! WANrouter90: http://odrc2.flexbl.co.uk/mediawiki/index.php/Digital_Customer_Update_1994-11-03#AlphaStation_200_Family_of_64-bit_Desktop_Workstations
+! RouteAbout Central EW: https://decuserve.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=683.10
+! RouteAbout Access EI: https://decuserve.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=683.11
+! RouteAbout Access EW: https://decuserve.org/anon/htnotes/note?f1=INDUSTRY_NEWS&f2=667.49
 
 **Start-comms-entry{DECNIS500}{NIS}{NIS}
 **Def-lref{1} = ref{CU-1991-10-18}
@@ -1644,4 +1647,43 @@ The DESNC is a hardware component of the Ethernet Enhanced Security System which
 **Power**vref{1}: 132 W
 **Power-end{IS150-240V}
 **End-comms-entry{INFOSRVR150}
+
+**Start-comms-entry{DEX2R}{ROUTEABOUT}{ROUTEABOT}
+**Def-lref{1} = ref{EK-DEX2R-IN.A01}
+**Sys-name: RouteAbout-Access-EW
+**Desc-name: RouteAbout Access EW
+**Part-number**vref{1}: DEX2R
+**Standalone-PSU**vref{1}: H7867-AA
+**Power-start{DEX2R}
+**Power**vref{1}: 5 W
+**Positive-5V-current**vref{1}: 1.0 A
+**Positive-12V-current**vref{1}: 0 A
+**Positive-15V-current**vref{1}: 0 A
+**Power-end{DEX2R}
+**Slots**vref{1}: 
+**Announcement: 1995-06
+**Dimensions-start{ROUTEABOUTACCESSEW-Module}
+**Label: Hub module
+**Height**vref{1}: 311.2 mm
+**Width**vref{1}: 32 mm
+**Depth**vref{1}: 112 mm (135mm standalone
+**Weight**vref{1}: 0.82 kg
+**Dimensions-end{ROUTEABOUTACCESSEW-Module}
+**Dimensions-start{ROUTEABOUTACCESSEW-Standalone}
+**Label: Standalone
+**Height**vref{1}: 311.2 mm
+**Width**vref{1}: 32 mm
+**Depth**vref{1}: 135 mm
+**Weight**vref{1}: 1.09 kg
+**Dimensions-end{ROUTEABOUTACCESSEW-Standalone}
+**Options-start{DEX2R}
+**Option-title: Cables
+**Option**vref{1}: {cables:BC12J-06}{Cable, EIA530A BC12J-06, 17-03760-01}
+**Option**vref{1}: {cables:BC12L-06}{Cable, RS232/V.28 BC12L-06, 17-03762-01}
+**Option**vref{1}: {cables:BC12H-06}{Cable, RS422/V.11 BC12H-06, 17-03767-01}
+**Option**vref{1}: {cables:BC12K-06}{Cable, RS423/V.10 BC12K-06, 17-03761-01}
+**Option**vref{1}: {cables:BC12G-06}{Cable, V.35 BC12G-06, 17-03766-01}
+**Option**vref{1}: {cables:BC12F-06}{Cable, X.21 (LL) BC12F-06, 17-03580-01}
+**Options-end{DEX2R}
+**End-comms-entry{DEX2R}
 
