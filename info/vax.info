@@ -3355,9 +3355,10 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Def-lref{1} = ref{EK-VAXCT-CG-006}
 **Def-lref{2} = ref{CU-1994-05-23}
 **Def-lref{3} = ref{QS-VMS-V073}
+**Def-lref{4} = ref{COMPUTERWORLD-1991-03-25-p97}
 **Sys-name: VAXft 110
 **Desc-name: VAXft Model 110
-**Announcement: 1991-03
+**Announcement**vref{4}: 1991-03
 **Last-order**vref{2}: 1994-09-30
 **Last-ship**vref{2}: 1994-12-31
 **Codename: Cirrus II
@@ -3370,12 +3371,10 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Compatibility-mode: No
 **Console-processor: CPU
 **Console-device: None
-!**VUPs**uref{*83,*70}: 2.4
-**VUPs**vref{1}: 2.4
+**VUPs**vref{1,4}: 2.4
 **TPC-A**uref{*DU APR-1991}: 6
 **Minimum-memory**uref{*SUE Sep-1 1991}: 32MB
-!**Maximum-memory**uref{*83,*70}: 96MB
-**Maximum-memory**vref{1}: 96MB
+**Maximum-memory**vref{1,4}: 96MB
 **End-systems-entry{VXFT110}
 
 **Start-systems-entry{VXFT310}{VAX}{VAXFT}
@@ -3433,8 +3432,10 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **def-lref{1} = ref{EK-VAXCT-CG-006}
 **Def-lref{2} = ref{CU-1994-05-23}
 **Def-lref{3} = ref{QS-VMS-V073}
+**Def-lref{4} = ref{COMPUTERWORLD-1991-03-25-p97}
 **Sys-name: VAXft 410
 **Desc-name: VAXft Model 410
+**Announcement**vref{4}: 1991-03
 **Last-order**vref{2}: 1994-09-30
 **Last-ship**vref{2}: 1994-12-31
 **OS-support-VMS: V5.4-3
@@ -3446,9 +3447,11 @@ Both VAX/VMS and ULTRIX-32 are supported.
 **Start-systems-entry{VXFT610}{VAX}{VAXFT}
 **def-lref{1} = ref{EK-VAXCT-CG-006}
 **Def-lref{2} = ref{QS-VMS-V073}
+**Def-lref{3} = ref{COMPUTERWORLD-1991-03-25-p97}
 **document=doc{DEC:EK-FTV61-IP-001} ! VAXft System Models 610 and 612 IPB
 **Sys-name: VAXft 610
 **Desc-name: VAXft Model 610
+**Announcement**vref{3}: 1991-03
 **OS-support-VMS: V5.4-3
 **OS-support-VMS-end**vref{2}: V6.2
 **VUPs**vref{1}: 6.0
