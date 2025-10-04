@@ -1103,3 +1103,14 @@
 **Dimensions-end{VTX20-KBD}
 **End-terminals-entry{VTX20}
 
+**Start-terminals-entry{VTLAN40}{DECVT}{VTLAN40}
+**Sys-name: VTLAN40
+**Desc-name: VT LAN40
+**Def-lref{1} = ref{DEC-PR-1995-02-27}
+! More information: http://www.keyways.com/vtlan40.html
+**Announcement**vref{1}: 1995-02-27
+!! **Network-connection**vref{1}: Yes
+!! **Operating-system**vref{1}: Microsoft Windows 3.1
+**Keyboard-type: LK411
+**End-terminals-entry{VTLAN40}
+
