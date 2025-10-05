@@ -106,6 +106,8 @@
 **Sys-name: DEFAR
 **Desc-name: DECrepeater 90FA
 **Def-lref{1} = ref{EK-DEFAR-OM.A01}
+**Def-lref{2} = ref{DEC-PR-1992-10-20}
+**Announcement**vref{2}: 1992-10-20
 **Interfaces**vref{1}: {AUI}{ThinWire}{10Base-FL}
 **Standalone-PSU**vref{1}: {110V: H7082-AA}{220V: H7082-BA}
 **Dimensions-start{DEFAR}
@@ -1383,6 +1385,8 @@ The DESNC is a hardware component of the Ethernet Enhanced Security System which
 **Sys-name: DENMA
 **Desc-name: DECagent 90
 **Def-lref{1} = ref{EK-DENMA-UI.A01}
+**Def-lref{2} = ref{DEC-PR-1992-10-20}
+**Announcement**vref{2}: 1992-10-20
 **Ethernet-connection**vref{1}: ThinWire
 **CPU**vref{1}: Motorola 68000
 **Standalone-PSU**vref{1}: H7827-AA
@@ -1686,4 +1690,44 @@ The DESNC is a hardware component of the Ethernet Enhanced Security System which
 **Option**vref{1}: {cables:BC12F-06}{Cable, X.21 (LL) BC12F-06, 17-03580-01}
 **Options-end{DEX2R}
 **End-comms-entry{DEX2R}
+
+**Start-comms-entry{DEFMR}{HUB90}{HUB90}
+**Sys-name: DEFMR
+**Desc-name: DECrepeater 90FL
+**Def-lref{1} = ref{EK-DEFMR-OM.A01}
+**Def-lref{2} = ref{DEC-PR-1992-10-20}
+**Announcement**vref{2}: 1992-10-20
+**Power-start{DEFMR-120V}
+**Label: H7082-AA (120V)
+**Supply**vref{2}: 104Vac to 128Vac
+**I-max**vref{1}: 0.25A
+**Power**vref{1}: 9 W
+**Power-end{DEFMR-120V}
+**Power-start{DEFMR-240V}
+**Label: H7082-BA (240V)
+**Supply**vref{2}: 208Vac to 256Vac
+**I-max**vref{1}: 0.125A
+**Power**vref{1}: 9 W
+**Power-end{DEFMR-240V}
+**Dimensions-start{DEFMR}
+**Height**vref{1}: 350 mm
+**Width**vref{1}: 280 mm
+**Depth**vref{1}: 140 mm
+**Weight**vref{1}: 0.77 kg
+**Dimensions-end{DEFMR}
+**End-comms-entry{DEFMR}
+
+**Start-comms-entry{DEWGF}{HUB90}{HUB90}
+**Sys-name: DEWGF
+**Desc-name: DECbridge 90FL
+**Def-lref{1} = ref{DEC-PR-1992-10-20}
+**Announcement**vref{1}: 1992-10-20
+**End-comms-entry{DEWGF}
+
+**Start-comms-entry{DRT90}{ROUTEABOUT}{ROUTEABOUT}
+**Sys-name: DRT90
+**Desc-name: WANrouter 90
+**Def-lref{1} = ref{DEC-PR-1992-10-20}
+**Announcement**vref{1}: 1992-10-20
+**End-comms-entry{DRT90}
 
