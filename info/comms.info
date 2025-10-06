@@ -764,17 +764,21 @@ The DEC MicroServer-SP (DEMSB) is the hardware platform that supports a number o
 **Desc-name: DECserver 90TL Terminal Server
 **Def-lref{1} = ref{CU-1992-01-31}
 **Def-lref{2} = ref{CU-1992-03-13}
+**Def-lref{3} = ref{EK-DSRVE-OM-001}
 **Announcement**vref{1}: 1992-01-31
-**Ports**vref{1}: 8
-**Speed**vref{1}: 75 to 57.6K
-**Port-interface**vref{1}: MJ8
-**Ethernet-connection**vref{1}: ThinWire or DEChub
+**Ports**vref{1,3}: 8
+**Speed**vref{1,3}: 75 to 57.6K
+**Port-interface**vref{1,3}: MJ8
+**Ethernet-connection**vref{1,3}: ThinWire or DEChub
 **Dimensions-start{DS90TL}
-! TODO verify **Height**vref{2}: 31.8mm
-! TODO verify **Width**vref{2}: 273.1mm
-! TODO verify **Depth**vref{2}: 140.0mm
-! TODO verify **Weight**vref{2}: 0.77kg
+**Height**vref{3}: 31.8mm
+**Width**vref{3}: 273.1mm
+**Depth**vref{3}: 127.0mm
+**Weight**vref{3}: 0.77kg
 **Dimensions-end{DS90TL}
+**Power-start{DS90TL}
+**Positive-5V-current**vref{3}: 1.2A
+**Power-end{DS90TL}
 **End-comms-entry{DS90TL}
 
 **Start-comms-entry{DS900GM}{TERMSERVER}{TERMSERVER}
