@@ -1724,10 +1724,25 @@ The DESNC is a hardware component of the Ethernet Enhanced Security System which
 **Announcement**vref{1}: 1992-10-20
 **End-comms-entry{DEWGF}
 
-**Start-comms-entry{DRT90}{ROUTEABOUT}{ROUTEABOUT}
-**Sys-name: DRT90
+**Start-comms-entry{DEWAR}{ROUTEABOUT}{ROUTEABOUT}
+**Sys-name: DEWAR
 **Desc-name: WANrouter 90
-**Def-lref{1} = ref{DEC-PR-1992-10-20}
-**Announcement**vref{1}: 1992-10-20
-**End-comms-entry{DRT90}
+**Def-lref{1} = ref{EK-DRT90-OM.A01}
+**Def-lref{2} = ref{DEC-PR-1992-10-20}
+**Announcement**vref{2}: 1992-10-20
+**Num-synch-lines**vref{1}: 1
+**Ethernet-connection**vref{1}: ThinWire, 10BaseT, DEChub
+**DEChub-form-factor**vref{1}: DEChub 90
+**Standalone-PSU**vref{1}: {110V: H7082-AA}{220V: H7082-BA}
+**Dimensions-start{WR90}
+**Height**vref{1}: 31.8 mm
+**Width**vref{1}: 273.1 mm
+**Depth**vref{1}: 127.0 mm
+**Weight**vref{1}: 0.77 kg
+**Dimensions-end{WR90}
+**Power-start{WR90}
+**Positive-5V-current**vref{1}: 1.2 A
+**Power**vref{1}: 6.0 W
+**Power-end{WR90}
+**End-comms-entry{DEWAR}
 
