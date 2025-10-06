@@ -406,6 +406,9 @@
 **Def-lref{1} = ref{EC-N0079-72}
 **Def-lref{2} = ref{EC-N0136-72}
 **Def-lref{3} = ref{EC-Q9ZUC-TE}
+! TODO
+! ref{DEC-PR-1993-02-25} announces 200MHz variant. The 200 MHz DECchip boasts SPECfp92 ratings of 200, with SPECint92 performance of 106, and an aggregate SPECmark89 rating of 184.
+!     Digital also announced price reductions to the 150 MHz 21064 DECchip which has been shipping since September, 1992.
 **Sys-name: DC21064
 **Desc-name: Digital Semiconductor 21064 Alpha Microprocessor
 **Codename: EV4
