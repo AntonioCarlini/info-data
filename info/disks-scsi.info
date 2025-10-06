@@ -923,3 +923,23 @@
 **Power-end{RZ74}
 **End-storage-entry{RZ74}
 
+**Start-storage-entry{ESP510}{SCSI}{ESP}
+**Sys-name: ESP510
+**Desc-name: ESP510 107MB SCSI-2 Solid State Disk
+**Def-lref{1} = ref{DEC-PR-1992-11-16-SCSI}
+**Announcement: 1992-11-16
+**Capacity**vref{1}: 107MB
+**Form-factor**vref{1}: 5-1/4" full height
+**Average-access**vref{1}: 0.25ms
+**End-storage-entry{ESP510}
+
+**Start-storage-entry{ESP530}{SCSI}{ESP}
+**Sys-name: ESP530
+**Desc-name: ESP530 267MB SCSI-2 Solid State Disk
+**Def-lref{1} = ref{DEC-PR-1992-11-16-SCSI}
+**Announcement: 1992-11-16
+**Capacity**vref{1}: 267MB
+**Form-factor**vref{1}: 5-1/4" full height
+**Average-access**vref{1}: 0.25ms
+**End-storage-entry{ESP530}
+
