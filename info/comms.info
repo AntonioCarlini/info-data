@@ -1720,8 +1720,22 @@ The DESNC is a hardware component of the Ethernet Enhanced Security System which
 **Start-comms-entry{DEWGF}{HUB90}{HUB90}
 **Sys-name: DEWGF
 **Desc-name: DECbridge 90FL
-**Def-lref{1} = ref{DEC-PR-1992-10-20}
-**Announcement**vref{1}: 1992-10-20
+**Def-lref{1} = ref{EK-DEWGF-OM.A01}
+**Def-lref{2} = ref{DEC-PR-1992-10-20}
+**Announcement**vref{2}: 1992-10-20
+**Num-synch-lines**vref{1}: 1
+**Ethernet-connection**vref{1}: ThinWire, AUI, 10Base-FL, DEChub90
+**DEChub-form-factor**vref{1}: DEChub 90
+**Standalone-PSU**vref{1}: H7827-AA
+**Dimensions-start{DEWGF}
+**Height**vref{1}: 31.8 mm
+**Width**vref{1}: 273.1 mm
+**Depth**vref{1}: 146.1 mm
+**Weight**vref{1}: 0.45 kg
+**Dimensions-end{DEWGF}
+**Power-start{DEWGF}
+**Power**vref{1}: 5.68 W
+**Power-end{DEWGF}
 **End-comms-entry{DEWGF}
 
 **Start-comms-entry{DEWAR}{ROUTEABOUT}{ROUTEABOUT}
