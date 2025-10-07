@@ -11863,12 +11863,19 @@
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd2/network/dewgfoma.pdf
 **End-ref{EK-DEWGF-OM.A01}
 
+**Start-ref{DEC-PR-1996-10-08}
+**Ref-text: Digital Announces New VAX Systems
+**Ref-processed: Yes
+**Ref-url: https://web.archive.org/web/19961220132019/http://www.digital.com/info/PR00NZ/PR00NZSC.TXT
+**End-ref{DEC-PR-1996-10-08}
+
 **Stop-processing
 
 **Start-ref{
 **Ref-text: 
 **Ref-partno: 
 **Ref-date: 
+**Ref-processed: 
 **Ref-url: 
 **End-ref{
 
