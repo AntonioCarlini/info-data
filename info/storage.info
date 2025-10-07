@@ -27,6 +27,21 @@
 **Dimensions-end{HSD05}
 **End-storage-entry{HSD05}
 
+**Start-storage-entry{HSD30}{DSSI}{STORAGEARRAY}
+**Sys-name: HSD30
+**Desc-name: HSD30 DSSI Storage Controller
+**Def-lref{1} = ref{DEC-PR-1994-07-18}
+**Announcement**vref{1}: 1994-07-18
+**Host-Protocol**vref{1}: DSSI
+**Device-Protocol**vref{1}: SCSI-2
+**Max-num-SCSI-devices**vref{1}: 21
+**RAID-Levels**vref{1}: 0 and 1
+**IO-requests**vref{1}: 1000
+**Transfer-rate**vref{1}: 3.0 MB/s
+**Cache-size**vref{1}: 16MB and 32MB
+**Max-storageset-size**vref{1?}:
+**End-storage-entry{HSD30}
+
 **Start-storage-entry{HSD50}{DSSI}{STORAGEARRAY}
 **Sys-name: HSD50
 **Desc-name: HSD50 DSSI Storage Controller
