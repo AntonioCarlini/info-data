@@ -1,7 +1,50 @@
+**References-must-be-verified
 !
 ! Left for storage that does not fit into disks.info, tapes.info or optical.info
 ! Storage arrays would fit in here, for example.
 !
+
+**Start-storage-entry{HSC50}{CI}{STORAGEARRAY}
+**Sys-dec: HSC50
+**Desc-name: HSC50 Hierarchical Storge Controller
+**Def-lref{1} = ref{EK-HS571-TM-001}
+**Host-Protocol**vref{1}: CI
+**Device-Protocol**vref{1}: SDI and STI
+**Load-device**vref{1}: TU58
+**CPU**vref{1}: F-11
+**Memory**vref{1}: 128KB M.ctl, 128KB M.data, 256KB M.prog
+**Options-start{HSC50}
+**Option-Title: Boards
+**Option**vref{1}: {board:L0100}{Port Link (LINK)}
+**Option**vref{1}: {board:L0109}{Port Buffer (PILA)}
+**Option**vref{1}: {board:L0107-YA}{Port Processor}
+**Option**vref{1}: {board:L0108-YA}{Disk Data Channel}
+**Option**vref{1}: {board:L0108-YB}{Tape Data Channel}
+**Option**vref{1}: {board:L0106}{HSC50 Memory}
+**Option**vref{1}: {board:L0105}{HSC50 Processor}
+**Options-end{HSC50}
+**End-storage-entry{HSC50}
+
+**Start-storage-entry{HSC70}{CI}{STORAGEARRAY}
+**Sys-dec: HSC70
+**Desc-name: HSC70 Hierarchical Storge Controller
+**Def-lref{1} = ref{EK-HS571-TM-001}
+**Host-Protocol**vref{1}: CI
+**Device-Protocol**vref{1}: SDI and STI
+**Load-device**vref{1}: Floppy disk
+**CPU**vref{1}: J-11
+**Memory**vref{1}: 256KB M.ctl, 512KB M.data, 1MB M.prog
+**Options-start{HSC70}
+**Option-Title: Boards
+**Option**vref{1}: {board:L0100}{Port Link (LINK)}
+**Option**vref{1}: {board:L0109}{Port Buffer (PILA)}
+**Option**vref{1}: {board:L0107-YA}{Port Processor}
+**Option**vref{1}: {board:L0108-YA}{Disk Data Channel}
+**Option**vref{1}: {board:L0108-YB}{Tape Data Channel}
+**Option**vref{1}: {board:L0117}{HSC70 Memory}
+**Option**vref{1}: {board:L0111}{HSC70 Processor}
+**Options-end{HSC70}
+**End-storage-entry{HSC70}
 
 **Start-storage-entry{HSD05}{DSSI}{STORAGEARRAY}
 **Sys-name: HSD05

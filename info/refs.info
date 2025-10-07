@@ -11914,6 +11914,13 @@
 **End-ref{DEC-PR-1994-07-18}
 **Stop-processing
 
+**Start-ref{EK-HS571-TM-001}
+**Ref-text: HSC50/70 Hardware Technical Manual
+**Ref-partno: EK-HS571-TM-001
+**Ref-date: 1986-07
+**Ref-url: https://bitsavers.trailing-edge.com/pdf/dec/dsa/hsc/EK-HS571-TM-001_HSC_hwTech.pdf
+**End-ref{EK-HS571-TM-001}
+
 **Start-ref{
 **Ref-text: 
 **Ref-partno: 
@@ -11922,8 +11929,6 @@
 **Ref-url: 
 **End-ref{
 
-
- 
 Manuals to be logged (now in DOCS.DAT for CD 3):
 
 EK-A0851-SV-A01 #manuals/ek/a0851sva01.pdf#Service Maintenance Manual STARION 200i/300i PC Family
