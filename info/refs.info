@@ -11893,6 +11893,20 @@
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd3/storage/hsd50cgb.pdf
 **End-ref{EK-HSD50-CG.B01}
 
+**Start-ref{DEC-PR-1994-03-15-HSD05}
+**Ref-text: StorageWorks HSD05 Array Controller
+**Ref-processed: Yes
+**Ref-url: https://groups.google.com/g/biz.dec.decnews/c/1P3jfxncWDY/m/X92MZmt4L7oJ
+**End-ref{DEC-PR-1994-03-15-HSD05}
+
+**Start-ref{EK-HSD05-UG.B01}
+**Ref-text: StorageWorks Solutions HSD05 Array Controller User's Guide
+**Ref-partno:  EK-HSD05-UG.B01
+**Ref-date: 1994-02-21
+**Ref-processed: Yes
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/storage/hsd05ugb.pdf
+**End-ref{EK-HSD05-UG.B01}
+
 **Stop-processing
 
 **Start-ref{

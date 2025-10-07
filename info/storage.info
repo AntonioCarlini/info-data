@@ -3,6 +3,30 @@
 ! Storage arrays would fit in here, for example.
 !
 
+**Start-storage-entry{HSD05}{DSSI}{STORAGEARRAY}
+**Sys-name: HSD05
+**Desc-name: HSD05 DSSI Storage Controller
+**Def-lref{1} = ref{DEC-PR-1994-03-15-HSD05}
+**Def-lref{2} = ref{EK-HSD05-UG.B01}
+**Announcement**vref{1}: 1994-03-15
+! vref{1}: OpenVMS AXP V1.5
+**OS-support-VMS**vref{1}: V5.5-2 and V6.0
+**Host-Protocol**vref{1}: DSSI
+**Device-Protocol**vref{1}: SCSI
+**Num-SCSI-ports**vref{1}: 1
+**Max-num-SCSI-devices**vref{1}: 7
+**RAID-Levels**vref{1}: 0 and 1
+**IO-requests**vref{1}: 500
+**Transfer-rate**vref{1}: 1.6 MB/s
+**Cache-size**vref{1}: 
+**Max-storageset-size**vref{1}:
+**Dimensions-start{HSD05}
+**Height**vref{2}: 121 mm
+**Width**vref{2}: 51 mm
+**Depth**vref{2}: 216 mm
+**Dimensions-end{HSD05}
+**End-storage-entry{HSD05}
+
 **Start-storage-entry{HSD50}{DSSI}{STORAGEARRAY}
 **Sys-name: HSD50
 **Desc-name: HSD50 DSSI Storage Controller
