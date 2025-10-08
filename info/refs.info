@@ -2153,6 +2153,12 @@
 **Ref-url: https://groups.google.com/forum/#!topic/biz.digital.articles/wt18Z1smEKE
 **End-ref{DEC-PR-1995-07-11}
 
+**Start-ref{DEC-PR-1995-07-11-SW230
+**Ref-text: DIGITAL INTRODUCES StorageWorks RAID ARRAY 230
+**Ref-processed: Yes
+**Ref-url: https://usenetarchives.com/view.php?id=biz.digital.announce&mid=PDk1MDcxMjAwMjUuQUEwMTQxOEByYXB0b3IucGEuZGVjLmNvbT4
+**End-ref{DEC-PR-1995-07-11-SW230
+
 **Start-ref{DEC-PR-1995-10-20}
 **Ref-text: DEC Announces the DEClaser 3500P
 **Ref-processed: Yes
@@ -11912,7 +11918,6 @@
 **Ref-processed: Yes
 **Ref-url: https://groups.google.com/g/biz.digital.articles/c/CCJ7NOzqYKM
 **End-ref{DEC-PR-1994-07-18}
-**Stop-processing
 
 **Start-ref{EK-HS571-TM-001}
 **Ref-text: HSC50/70 Hardware Technical Manual
@@ -11920,6 +11925,8 @@
 **Ref-date: 1986-07
 **Ref-url: https://bitsavers.trailing-edge.com/pdf/dec/dsa/hsc/EK-HS571-TM-001_HSC_hwTech.pdf
 **End-ref{EK-HS571-TM-001}
+
+**Stop-processing
 
 **Start-ref{
 **Ref-text: 

@@ -115,3 +115,14 @@
 **Max-storageset-size**vref{1}: 120 GB
 **End-storage-entry{HSJ50}
 
+**Start-storage-entry{SW230}{PCI}{STORAGEARRAY}
+**Sys-name: SW230
+**Desc-name: StorageWorks RAID ARRAY 230
+**Def-lref{1} = ref{DEC-PR-1995-07-11-SW230
+**Announcement**vref{1}: 1995-07-11
+**Host-Protocol**vref{1}: PCI
+**RAID-Levels**vref{1}: 0, 1, 0+1, 5, and JBOD
+**IO-requests**vref{1}: 2679
+**Transfer-rate**vref{1}: 17.8 MB/s
+**End-storage-entry{SW230}
+
