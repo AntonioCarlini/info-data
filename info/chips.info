@@ -562,7 +562,7 @@
 
 **Start-chips-entry{DC21140A}{CHIP}{Ethernet}
 **Sys-name: DC21140A
-**Desc-name: Digital Semiconductor 21264 Alpha Microprocessor
+**Desc-name: Digital Semiconductor 21140A PCI Fast Ethernet Chip
 **Def-lref{1} = ref{DEC-PR-1995-09-27}
 **Announcement**vref{1}: 1995-09-27
 **End-chips-entry{DC21140A}
