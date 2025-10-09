@@ -398,12 +398,57 @@
 **Setup**vref{1}: LCD
 **End-printers-entry{LA95}
 
+**Start-printers-entry{LJ500}{PRINTER}{LJ}
+**Sys-name: LJ500
+**Desc-name: DECwriter 500i
+**Def-lref{1} = ref{EK-LJ50E-SV.A01}
+! vref{1}: Monochrome inkjet; LJ500 can be updated to LJ520; head life ~ 400 pages
+! vref{1}: print density 75, 100, 150, 300 dpi
+**Print-head**vref{1}: Non-impact bubble ink jet
+**Interface**vref{1}: Parallel (serial optional)
+**Print-speed**vref{1}: {400 cps draft} {280 cps NLQ} {160 cps LQ}
+**Resolution**vref{1}: 300 x 300
+**Emulation**vref{1}: {PCL III+} {IBM-X24} {Epson LQ-950}
+**Minimum-memory**vref{1}: 128 KB
+**Maximum-memory**vref{1}: 128 KB
+**Colour**vref{1}: No
+**Dimensions-start{LJ500}
+**Height**vref{1}: 173 mm
+**Width**vref{1}: 385 mm
+**Depth**vref{1}: 466 mm
+**Weight**vref{1}: 5kg
+**Dimensions-end{LJ500}
+**End-printers-entry{LJ500}
+
+**Start-printers-entry{LJ520}{PRINTER}{LJ}
+**Sys-name: LJ520
+**Desc-name: DECwritercolorwriter 520ic
+**Def-lref{1} = ref{EK-LJ50E-SV.A01}
+! vref{1}: Colour inkjet; LJ500 can be updated to LJ520; head life: ~200 pages
+! vref{1}: print density 75, 100, 150, 300 dpi
+**Print-head**vref{1}: Non-impact bubble ink jet
+**Interface**vref{1}: Parallel (serial optional)
+**Print-speed**vref{1}: {400 cps draft} {280 cps NLQ} {160 cps LQ}
+**Resolution**vref{1}: 300 x 300
+**Emulation**vref{1}: {PCL III+} {IBM-X24} {Epson LQ-950}
+**Minimum-memory**vref{1}: 128 KB
+**Maximum-memory**vref{1}: 128 KB
+**Colour**vref{1}: Yes
+**Dimensions-start{LJ520}
+**Height**vref{1}: 173 mm
+**Width**vref{1}: 385 mm
+**Depth**vref{1}: 466 mm
+**Weight**vref{1}: 5kg
+**Dimensions-end{LJ520}
+**End-printers-entry{LJ520}
+
 **Start-printers-entry{LF02}{PRINTER}{LF}
 **Sys-name: LF02
 **Desc-name: DECcolorwriter 1000
 **Def-lref{1} = ref{CU-1994-01-03}
 **Announcement**vref{1}: 1994-01-03
 **FRS-date**vref{1}: 1994-02-01
+! vref{1}: Colour inkjet
 **Print-speed**vref{1}: 2 pages/min
 **Resolution**vref{1}: 300 x 600 dpi
 **Minimum-memory**vref{1}: 8 MB
