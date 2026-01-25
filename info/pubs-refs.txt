@@ -74761,6 +74761,90 @@ start-publication DEC:EK-M7552-TM
   fonds = ARC
 end-publication DEC:EK-M7552-TM
 
+start-publication DEC:MP-00893-00
+  title = VK100 print Set
+  part-no = MP-00893-00
+  publisher = DEC
+end-publication DEC:MP-00893-00
+
+start-publication DEC:AA-J942A-TK
+  title = GIGI Graphics Editor Manual
+  part-no = AA-J942A-TK
+  publisher = DEC
+end-publication DEC:AA-J942A-TK
+
+start-publication DEC:AA-J956A-TK
+  title = GIGI Data Plotting Package Manual
+  part-no = AA-J956A-TK
+  publisher = DEC
+end-publication DEC:AA-J956A-TK
+
+start-publication DEC:AA-J943A-TK
+  title = GIGI Slide projector Manual
+  part-no = AA-J943A-TK
+  publisher = DEC
+end-publication DEC:AA-J943A-TK
+
+start-publication DEC:AA-K337A-TK
+  title = GIGI Character Set Editor user Guide
+  part-no = AA-K337A-TK
+  publisher = DEC
+end-publication DEC:AA-K337A-TK
+
+start-publication DEC:AA-J944A-TK
+  title = GIGI ReGIS Illustrated Technical Manual
+  part-no = AA-J944A-TK
+  publisher = DEC
+end-publication DEC:AA-J944A-TK
+
+start-publication DEC:AA-K329A-TE
+  title = GIGI/ReGIS CAI Primers Student Guide
+  part-no = AA-K329A-TE
+  publisher = DEC
+end-publication DEC:AA-K329A-TE
+
+start-publication DEC:BE-K391A-BC
+  title = VAX/VMS GIGI/ReGIS CAI Primers (TU58)
+  part-no = BE-K391A-BC
+  publisher = DEC
+end-publication DEC:BE-K391A-BC
+
+start-publication DEC:AS-K327A-BE
+  title = VAX/VMS GIGI/ReGIS CAI Primers (Floppy)
+  part-no = AS-K327A-BE
+  publisher = DEC
+end-publication DEC:AS-K327A-BE
+
+start-publication DEC:AA-K328A-TE
+  title = VAX/VMS GIGI/ReGIS CAI Primers Course Administrator Guide
+  part-no = AA-K328A-TE
+  publisher = DEC
+end-publication DEC:AA-K328A-TE
+
+start-publication DEC:BC-K346A-BC
+  title = RSTS/E GIGI/ReGIS CAI Primers (RL02)
+  part-no = BC-K346A-BC
+  publisher = DEC
+end-publication DEC:BC-K346A-BC
+
+start-publication DEC:AP-K392A-BC
+  title = RSTS/E GIGI/ReGIS CAI Primers (Magtape 9-track 800 bits/in)
+  part-no = AP-K392A-BC
+  publisher = DEC
+end-publication DEC:AP-K392A-BC
+
+start-publication DEC:BB-K393A-BC
+  title = RSTS/E GIGI/ReGIS CAI Primers (Magtape 9-track 1600 bits/in)
+  part-no = BB-K393A-BC
+  publisher = DEC
+end-publication DEC:BB-K393A-BC
+
+start-publication DEC:AA-K347A-TC
+  title = RSTS/E GIGI/ReGIS CAI Primers Course Administrator Guide
+  part-no = AA-K347A-TC
+  publisher = DEC
+end-publication DEC:AA-K347A-TC
+
 **Stop-processing
 
 start-publication DEC:KW11-W
