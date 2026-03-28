@@ -370,6 +370,13 @@
   - summary
   - optional
   - - yn
+- VT100-compatibility:
+  - VT100 compatibility
+  - VT100 compatibility
+  - all
+  - summary
+  - optional
+  - - yn
 - VT105-compatibility:
   - VT105 compatibility
   - VT105 compatibility
@@ -387,3 +394,8 @@
   - Copier
   - all
   - summary
+- Network-Connection:
+  - Network connection
+  - Network connection
+  - all
+  - all

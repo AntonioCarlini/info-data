@@ -2144,7 +2144,7 @@
 **Start-ref{DEC-PR-1995-02-27}
 **Ref-text:  DIGITAL SETS NEW STANDARD -- INTRODUCES VT LAN40 NETWORK TERMINAL
 **Ref-processed: Yes
-**Ref-url: https://usenetarchives.com/view.php?id=biz.digital.announce&mid=PDk1MDMwMTIyMTcuQUEwMzgzNkByYXB0b3IucGEuZGVjLmNvbT4%20%20
+**Ref-url: https://usenetarchives.com/view.php?id=biz.digital.announce&mid=PDk1MDMwMTIyMTcuQUEwMzgzNkByYXB0b3IucGEuZGVjLmNvbT4
 **End-ref{DEC-PR-1995-02-27}
 	
 **Start-ref{DEC-PR-1995-04-17-VAX4106A}
@@ -12079,6 +12079,14 @@
 **Ref-partno: AA-K347A-TC
 **Ref-processed: No
 **End-ref{AA-K347A-TC}
+
+**Start-ref{EK-L40AA-UG.A01}
+**Ref-text: VT LAN 40 Terminal Quick Start and Operating Information
+**Ref-partno: EK-L40AA-UG.A01
+**Ref-date: 1995-03
+**Ref-processed: Yes
+**Ref-url: https://manx-docs.org/collections/mds-199909/cd3/term/l40aauga.pdf
+**End-ref{EK-L40AA-UG.A01}
 
 **Stop-processing
 
