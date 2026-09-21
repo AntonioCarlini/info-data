@@ -5,6 +5,7 @@ $LOAD_PATH.unshift(Pathname.new(__FILE__).realpath().dirname().dirname().dirname
 
 require_relative "DataTags.rb"
 
+require "date"
 require "yaml"
 
 sys_type = ARGV.shift()    # This might be 'vax' or 'alpha' etc.
@@ -16,7 +17,7 @@ refs_yaml = ARGV.shift()   # This is the references YAML file
 refs = YAML.load_file(refs_yaml)
 
 # Load the systems YAML information
-systems = YAML.load_file(sys_yaml)
+systems = YAML.load_file(sys_yaml, permitted_classes: [Date])
 
 # Load the supplied tags
 tags = DataTags.new(tags_yaml, 'systems', sys_type)

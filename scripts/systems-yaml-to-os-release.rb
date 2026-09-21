@@ -26,6 +26,7 @@ require_relative "ClassItemWithReferenceKeys.rb"
 require_relative "ClassTrackLocalReferences.rb"
 require_relative "DataTags.rb"
 
+require "date"
 require "yaml"
 
 #+
@@ -76,7 +77,7 @@ def main
   refs = YAML.load_file(refs_yaml)
 
   # Load the systems YAML information
-  systems = YAML.load_file(sys_yaml)
+  systems = YAML.load_file(sys_yaml, permitted_classes: [Date])
 
   local_refs = TrackLocalReferences.new()
 

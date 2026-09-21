@@ -6,6 +6,7 @@ $LOAD_PATH.unshift(Pathname.new(__FILE__).realpath().dirname().dirname().dirname
 require_relative "ClassTrackLocalReferences.rb"
 require_relative "DataTags.rb"
 
+require "date"
 require "yaml"
 
 class Output
@@ -126,7 +127,7 @@ options_yaml = ARGV.shift()    # This is the YAML holding options
 page_name_prefix = "DEC "      # prefix all pages with DEC to produce "DEC device"
 
 options_data = {}
-opt_entries = YAML.load_file(options_yaml)
+opt_entries = YAML.load_file(options_yaml, permitted_classes: [Date])
 opt_entries.keys().each() {
     |id|
     sys_name = opt_entries[id]['Sys-name']
@@ -161,7 +162,7 @@ build_xml = true
 refs = YAML.load_file(refs_yaml)
 
 # Load the entry YAML information
-entry_data = YAML.load_file(entry_yaml)
+entry_data = YAML.load_file(entry_yaml, permitted_classes: [Date])
 
 # Load the supplied tags
 tags = DataTags.new(tags_yaml, entry_class, entry_type)
