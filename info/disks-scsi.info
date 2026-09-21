@@ -1,3 +1,4 @@
+! ref{DEC-PR-1995-01-31}: 4.3GB, 1GB, 2GB disks
 **Start-storage-entry{EZ51R}{SCSI}{SOLID}
 **Def-lref{1} = ref{EK-EZ5XX-UG.B01}
 **Sys-name: EZ51R
