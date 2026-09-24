@@ -587,10 +587,7 @@
 **Codename: Sandpiper45
 **Announcement**vref{6}: 1994-07-18
 **FRS-date**vref{6}: 1994-08
-! **Last-order**vref{7}: 1995-10-02 later extended!
-!**Last-order**vref{8}: 1995-12-30
 **Last-order**vref{9}: 1996-03-30
-!**Last-ship**vref{8}: 1996-03-01
 **Last-ship**vref{9}: 1996-06-01
 **OS-support-vms**vref{6}: V6.1
 **OS-support-du**vref{6}: DEC OSF/1 AXP V2.1
