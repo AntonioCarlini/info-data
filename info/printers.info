@@ -382,6 +382,27 @@
 **Power-end{LA75-240V}
 **End-printers-entry{LA75}
 
+**Start-printers-entry{DW65}{PRINTER}{LA}
+**Sys-name: DECwriter 65
+**Desc-name: DECwriter 65 Color Dot Matrix Printer
+**def-lref{1} = ref{DEC-FS-1994-06-08}
+**FRS-date**vref{1}: 1994-05
+**Print-head**vref{1}: 24 wire
+**Interface**vref{1}: Parallel
+**Print-speed**vref{1}: {240 draft, B&W} {40 LQ, B&W} {160 LQ, Colour}
+**Resolution**vref{1}: 360 x 360
+**Emulation**vref{1}: {IBM X24E} {Epson LQ}
+!! vref{1} 50 sheet capacity paper tray
+!! vref{1} Footprint: 15.2" W X 9.7" D X 6.6"H (13.1" with paper clearance)
+!! vref{1} o Prints on letter, legal and A4 sizes of plain paper, labels and envelopes.
+!! vref{1} o Up to 3-part forms.
+!! vref{1} o 6 fonts: 3 LQ (Roman, Sans Serif, Script), 2 Scalable (Roman,
+!! vref{1} o Sans Serif), 1 Draft.
+!! vref{1} o Cutsheet or continuous feed.
+**Maximum-memory**vref{1}: 128 KB
+**Colour**vref{1}: Yes
+**End-printers-entry{DW65}
+
 **Start-printers-entry{LA95}{PRINTER}{LA}
 **Sys-name: LA95
 **Desc-name: DECwriter 95 Personal Printer
