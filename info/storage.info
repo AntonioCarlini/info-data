@@ -141,3 +141,20 @@
 **Announcement**vref{1}: 1995-01-31
 **End-storage-entry{SW410}
 
+**Start-storage-entry{BA256-KC}{SCSI}{STORAGEBOX}
+**Sys-name: BA356-KC
+**Desc-name: StorageWorks BA356-KC Wide Deskside Expansion Unit
+**Def-lref{1} = ref{DEC-PR-1995-04-03}
+**Announcement**vref{1}: 1995-04-03
+**End-storage-entry{BA356-KC}
+
+**Start-storage-entry{DWZZB-VW}{SCSI}{STORAGEBOX}
+**Sys-name: DWZZB-VW
+**Desc-name: StorageWorks DWZZB 16-Bit SCSI Bus Extender/Signal Converter
+**Def-lref{1} = ref{DEC-PR-1995-04-03}
+**Announcement**vref{1}: 1995-04-03
+! ref{1}: DWZZB extends the SCSI bus from 3/6 meters to 25 meters
+! ref{1}: 16-bit SCSI, 20 MB per second on fast SCSI
+! ref{1}: single-ended to differential SCSI bus converter
+**End-storage-entry{DWZZB-VW}
+

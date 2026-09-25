@@ -542,6 +542,19 @@
 **Dimensions-end{RZ26L}
 **End-storage-entry{RZ26L}
 
+**Start-storage-entry{RZ26L-W}{SCSI}{RZ}
+**Sys-name: RZ26L-W
+**Desc-name: RZ26L-W 1GB SCSI Disk
+**Def-lref{1} = ref{DEC-PR-1995-04-03}
+**Announcement**vref{1}: 1995-04-03
+**Form-factor**vref{1}: 3.5"
+**Capacity**vref{1}: 1GB
+**Peak-transfer-rate**vref{1}: 20MB/s
+**Average-access**vref{1}: 15.1ms
+**Average-seek**vref{1}: 9.5ms
+! ref{1}: fast-wide 16-bit
+**End-storage-entry{RZ26L-W}
+
 **Start-storage-entry{RZ28}{SCSI}{RZ}
 **Sys-name: RZ28
 **Desc-name: RZ28 2.1GB SCSI Disk
@@ -601,6 +614,17 @@
 **Weight**vref{3}: 0.99 kg
 **Dimensions-end{RZ28B}
 **End-storage-entry{RZ28B}
+
+**Start-storage-entry{RZ28B-W}{SCSI}{RZ}
+**Sys-name: RZ28B-W
+**Desc-name: RZ28B-W 2GB SCSI Disk
+**Def-lref{1} = ref{DEC-PR-1995-04-03}
+**Announcement**vref{1}: 1995-04-03
+**Capacity**vref{1}: 2GB
+**Peak-transfer-rate**vref{1}: 20MB/s
+**Average-access**htref{1}: 15.1ms
+! ref{1} fast-wide 16-bit
+**End-storage-entry{RZ28B-W}
 
 **Start-storage-entry{RZ28D}{SCSI}{RZ}
 **Sys-name: RZ28D
