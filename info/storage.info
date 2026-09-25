@@ -74,6 +74,7 @@
 **Sys-name: HSD30
 **Desc-name: HSD30 DSSI Storage Controller
 **Def-lref{1} = ref{DEC-PR-1994-07-18}
+! Note also seems to have been announced ref{DEC-PR-1994-10-25}
 **Announcement**vref{1}: 1994-07-18
 **Host-Protocol**vref{1}: DSSI
 **Device-Protocol**vref{1}: SCSI-2
@@ -125,6 +126,13 @@
 **IO-requests**vref{1}: 2679
 **Transfer-rate**vref{1}: 17.8 MB/s
 **End-storage-entry{SW230}
+
+**Start-storage-entry{SW300}{PCI}{STORAGEARRAY}
+**Sys-name: SW300
+**Desc-name: SW300 StorageWorks RAID Office Expansion Pedestal
+**Def-lref{1} = ref{DEC-PR-1994-10-25}
+**Announcement**vref{1}: 1994-10-25
+**End-storage-entry{SW300}
 
 **Start-storage-entry{SW410}{PCI}{STORAGEARRAY}
 **Sys-name: SW410

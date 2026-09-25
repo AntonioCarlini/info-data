@@ -1,3 +1,5 @@
+!! ref{DEC-PR-1994-10-25}  TL820 DLT tape library. 5.2 Tbytes of storage
+
 **Start-storage-entry{TK50Z}{SCSI}{TK}
 **Sys-name: TK50Z
 **Desc-name: TK50Z Tape Drive
@@ -333,6 +335,7 @@
 !-- [1]: TLZ07-DA: tabletop
 !	TLZ07-AA: 3.5" HH internal drive
 !	TLZ07-VA: StorageWorks drive
+! Also seems to have been announced ref{DEC-PR-1994-10-25}
 **Announcement**vref{3}: 1994-11-03
 **OS-Support-vms**vref{3}: OpenVMS VAX V6.1
 !!? **OS-Support-vms**vref{3}: OpenVMS AXP V6.1
