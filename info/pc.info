@@ -238,6 +238,28 @@
 **Dimensions-end{{PRI-HX-590DP}
 **End-systems-entry{PRI-HX-590DP}
 
+**Start-systems-entry{PRI-HX-5133}{DECPC}{PRIORIS}
+**Def-lref{1} = ref{DEC-PR-1995-09-19}
+**Sys-name: Prioris HX 5133
+**Desc-name: Prioris HX 5133
+**Announcement**vref{1}: 1995-09-19
+**CPU-clock**vref{1}: 133MHz
+**Num-proc**vref{1}: 1
+**Cache**vref{1}: 512KB write-back
+**Minimum-memory**vref{1}: 16 MB Parity
+**End-systems-entry{PRI-HX-5133}
+
+**Start-systems-entry{PRI-HX-5133DP}{DECPC}{PRIORIS}
+**Def-lref{1} = ref{DEC-PR-1995-09-19}
+**Sys-name: Prioris HX 5133DP
+**Desc-name: Prioris HX 5133DP
+**Announcement**vref{1}: 1995-09-19
+**CPU-clock**vref{1}: 133MHz
+**Num-proc**vref{1}: 1
+**Cache**vref{1}: 512KB write-back
+**Minimum-memory**vref{1}: 16 MB Parity
+**End-systems-entry{PRI-HX-5133DP}
+
 **Start-systems-entry{PRI-XL6000}{DECPC}{PRIORIS}
 **Sys-name: Prioris XL 6000
 **Desc-name: Prioris XL 6000
