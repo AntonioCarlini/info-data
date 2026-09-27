@@ -520,3 +520,16 @@
 **Options-end{Multia-VX51}
 **End-systems-entry{Multia-VX51}
 
+**Start-systems-entry{HiNote-Ultra-LTS5150}{laptop}{laptop}
+**Def-lref{1} = ref{DEC-PR-1996-08-05}
+**Sys-name: HiNote-Ultra-LTS5150
+**Desc-name: DEC HiNote Ultra LTS5150
+**Announcement**vref{1}: 1996-08-05
+**CPU-chip**vref{1}: Intel Pentium
+**CPU-clock**vref{1}: 150 MHz
+**Minimum-memory**vref{1}: 16MB
+**Cache**vref{1}: 256KB
+!!**Display**vref{1}: 11.3-inch SVGA active-matrix colour
+!! vref{1}: HDD: removable, 1.44 GB
+**End-systems-entry{HiNote-Ultra-LTS5150}
+ 
