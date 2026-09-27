@@ -150,6 +150,17 @@
 ! Was Celebris FX-2
 **End-systems-entry{PC5100}
 
+**Start-systems-entry{Celebris-XL-6150}{DECPC}{PC5000}
+**Sys-name: Celebris XL 6150
+**Desc-name: Celebris XL 6150
+**Def-lref{1} = ref{DEC-PR-1995-12-01}
+**CPU-chip**vref{1}: Intel Pentium Pro
+**CPU-clock**vref{1}: 150MHz
+**Cache**vref{1}: 256KB
+**Minimum-memory**vref{1}: 16MB
+**Maximum-memory**vref{1}: 32MB
+**End-systems-entry{Celebris-XL-6150}
+
 **Start-systems-entry{PC3010}{DECPC}{PC3000}
 **Def-lref{1} = ref{CU-V8-10B}
 **Sys-name: PC 3010
