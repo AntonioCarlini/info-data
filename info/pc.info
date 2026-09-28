@@ -544,3 +544,38 @@
 !! vref{1}: HDD: removable, 1.44 GB
 **End-systems-entry{HiNote-Ultra-LTS5150}
  
+**Start-systems-entry{Starion-200}{DECPC}{STARION}
+**Sys-name: Starion 200
+**Desc-name: Starion 200
+**Def-lref{1} = ref{DEC-PR-1994-11-01}
+**Announcement**vref{1}: 1994-11-01
+**End-systems-entry{Starion-200}
+
+**Start-systems-entry{Starion-300}{DECPC}{STARION}
+**Sys-name: Starion 300
+**Desc-name: Starion 300
+**Def-lref{1} = ref{DEC-PR-1994-11-01}
+**Announcement**vref{1}: 1994-11-01
+**End-systems-entry{Starion-300}
+
+**Start-systems-entry{Starion-400}{DECPC}{STARION}
+**Sys-name: Starion 400
+**Desc-name: Starion 400
+**Def-lref{1} = ref{DEC-PR-1994-11-01}
+**Announcement**vref{1}: 1994-11-01
+**End-systems-entry{Starion-400}
+
+**Start-systems-entry{Starion-500}{DECPC}{STARION}
+**Sys-name: Starion 500
+**Desc-name: Starion 500
+**Def-lref{1} = ref{DEC-PR-1994-11-01}
+**Announcement**vref{1}: 1994-11-01
+**End-systems-entry{Starion-500}
+
+**Start-systems-entry{Starion-700}{DECPC}{STARION}
+**Sys-name: Starion 700
+**Desc-name: Starion 700
+**Def-lref{1} = ref{DEC-PR-1994-11-01}
+**Announcement**vref{1}: 1994-11-01
+**End-systems-entry{Starion-700}
+
