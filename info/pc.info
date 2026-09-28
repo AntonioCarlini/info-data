@@ -579,3 +579,23 @@
 **Announcement**vref{1}: 1994-11-01
 **End-systems-entry{Starion-700}
 
+**Start-systems-entry{Starion-950}{DECPC}{STARION}
+**Sys-name: Starion 950
+**Desc-name: Starion 950
+**Def-lref{1} = ref{DEC-PR-1996-01-04}
+**Announcement**vref{1}: 1996-01-04
+**CPU-chip**vref{1}: Intel Pentium
+**CPU-clock**vref{1}: 150MHz
+**Minimum-memory**vref{1}: 16MB
+**End-systems-entry{Starion-950}
+
+**Start-systems-entry{Starion-960}{DECPC}{STARION}
+**Sys-name: Starion 960
+**Desc-name: Starion 960
+**Def-lref{1} = ref{DEC-PR-1996-01-04}
+**Announcement**vref{1}: 1996-01-04
+**CPU-chip**vref{1}: Intel Pentium
+**CPU-clock**vref{1}: 166MHz
+**Minimum-memory**vref{1}: 16MB
+**End-systems-entry{Starion-960}
+
