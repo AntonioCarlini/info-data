@@ -579,6 +579,66 @@
 **Announcement**vref{1}: 1994-11-01
 **End-systems-entry{Starion-700}
 
+**Start-systems-entry{Starion-910}{DECPC}{STARION}
+**Sys-name: Starion 910
+**Desc-name: Starion 910
+**Def-lref{1} = ref{DEC-PR-1995-08-21}
+**Announcement**vref{1}: 1995-08-21
+**CPU-chip**vref{1}: Intel Pentium
+**Maximum-memory**vref{1}: 128MB
+**BUS-PCI**vref{1}: 1 slot
+**BUS-ISA**vref{1}: 3 slot
+**BUS-PCI-or-ISA**vref{1}: 1 slot
+**End-systems-entry{Starion-910}
+
+**Start-systems-entry{Starion-915}{DECPC}{STARION}
+**Sys-name: Starion 915
+**Desc-name: Starion 915
+**Def-lref{1} = ref{DEC-PR-1995-08-21}
+**Announcement**vref{1}: 1995-08-21
+**CPU-chip**vref{1}: Intel Pentium
+**Maximum-memory**vref{1}: 128MB
+**BUS-PCI**vref{1}: 1 slot
+**BUS-ISA**vref{1}: 3 slot
+**BUS-PCI-or-ISA**vref{1}: 1 slot
+**End-systems-entry{Starion-915}
+
+**Start-systems-entry{Starion-920}{DECPC}{STARION}
+**Sys-name: Starion 920
+**Desc-name: Starion 920
+**Def-lref{1} = ref{DEC-PR-1995-08-21}
+**Announcement**vref{1}: 1995-08-21
+**CPU-chip**vref{1}: Intel Pentium
+**Maximum-memory**vref{1}: 128MB
+**BUS-PCI**vref{1}: 1 slot
+**BUS-ISA**vref{1}: 3 slot
+**BUS-PCI-or-ISA**vref{1}: 1 slot
+**End-systems-entry{Starion-920}
+
+**Start-systems-entry{Starion-930}{DECPC}{STARION}
+**Sys-name: Starion 930
+**Desc-name: Starion 930
+**Def-lref{1} = ref{DEC-PR-1995-08-21}
+**Announcement**vref{1}: 1995-08-21
+**CPU-chip**vref{1}: Intel Pentium
+**Maximum-memory**vref{1}: 128MB
+**BUS-PCI**vref{1}: 1 slot
+**BUS-ISA**vref{1}: 3 slot
+**BUS-PCI-or-ISA**vref{1}: 1 slot
+**End-systems-entry{Starion-930}
+
+**Start-systems-entry{Starion-940}{DECPC}{STARION}
+**Sys-name: Starion 940
+**Desc-name: Starion 940
+**Def-lref{1} = ref{DEC-PR-1995-08-21}
+**Announcement**vref{1}: 1995-08-21
+**CPU-chip**vref{1}: Intel Pentium
+**Maximum-memory**vref{1}: 128MB
+**BUS-PCI**vref{1}: 1 slot
+**BUS-ISA**vref{1}: 3 slot
+**BUS-PCI-or-ISA**vref{1}: 1 slot
+**End-systems-entry{Starion-940}
+
 **Start-systems-entry{Starion-950}{DECPC}{STARION}
 **Sys-name: Starion 950
 **Desc-name: Starion 950
