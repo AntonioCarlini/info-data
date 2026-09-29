@@ -207,6 +207,10 @@
 **Start-systems-entry{PRI-HX6000}{DECPC}{PRIORIS}
 **Sys-name: Prioris HX 6000
 **Desc-name: Prioris HX 6000
+**Def-lref{1} = ref{DEC-PR-1996-11-11}
+**CPU-chip**vref{1}: Intel Pentium Pro
+**CPU-clock**vref{1}: 200MHz
+**Maximum-memory**vref{1}: 1GB
 **End-systems-entry{PRI-HX6000}
 
 **Start-systems-entry{PRI-HXMP}{DECPC}{PRIORIS}

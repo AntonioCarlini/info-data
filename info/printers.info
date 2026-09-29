@@ -419,6 +419,21 @@
 **Setup**vref{1}: LCD
 **End-printers-entry{LA95}
 
+**Start-printers-entry{LA195}{PRINTER}{LA}
+**Sys-name: LA195
+**Desc-name: DECwriter 195 PC Printer
+**def-lref{1} = ref{DEC-PR-1994-06-28}
+**Announcement**vref{1}: 1994-06-28
+**Print-head**vref{1}: 24 wire
+**Print-speed**vref{1}: {300}
+**Resolution**vref{1}: 360 x 360
+**Emulation**vref{1}: {Epson LQ-1170}{IBM Proprinter XL24e}
+!! ref{1}: 49.5 dBA; Two resident scalable fonts + eight additional fonts; wide carriage
+**Maximum-memory**vref{1}: 128 KB
+**Colour**vref{1}: Yes
+**Setup**vref{1}: LCD
+**End-printers-entry{LA195}
+
 **Start-printers-entry{LJ500}{PRINTER}{LJ}
 **Sys-name: LJ500
 **Desc-name: DECwriter 500i
