@@ -204,6 +204,17 @@
 **Desc-name: Prioris ZX 5000
 **End-systems-entry{PRI-ZX5000}
 
+**Start-systems-entry{PRI-ZX5133MP}{DECPC}{PRIORIS}
+**Sys-name: Prioris ZX 5133MP
+**Desc-name: Prioris ZX 5133MP
+**Def-lref{1} = ref{DEC-PR-1996-01-30-Prioris}
+**Announcement**vref{1}: 1996-01-30
+**FRS-Date**vref{1}: 1996-02-12
+**CPU-Clock**vref{1}: 133MHz
+**Num-proc**vref{1}: 1-4
+**Maximum-memory**vref{1}: 768MB
+**End-systems-entry{PRI-ZX5133MP}
+
 **Start-systems-entry{PRI-HX6000}{DECPC}{PRIORIS}
 **Sys-name: Prioris HX 6000
 **Desc-name: Prioris HX 6000
@@ -275,6 +286,19 @@
 **Minimum-memory**vref{1}: 16 MB Parity
 **End-systems-entry{PRI-HX-5133DP}
 
+**Start-systems-entry{PRI-HX-5166}{DECPC}{PRIORIS}
+**Sys-name: Prioris HX 5166
+**Desc-name: Prioris HX 5166
+**Def-lref{1} = ref{DEC-PR-1996-01-30-Prioris}
+**Announcement**vref{1}: 1996-01-30
+**CPU-clock**vref{1}: 166MHz
+**Num-proc**vref{1}: 1-2
+**Cache**vref{1}: 256KB
+**Minimum-memory**vref{1}: 16 MB Parity
+**BUS-PCI**vref{1}: 6
+**BUS-EISA**vref{1}: 6
+**End-systems-entry{PRI-HX-5166}
+
 **Start-systems-entry{PRI-XL6000}{DECPC}{PRIORIS}
 **Sys-name: Prioris XL 6000
 **Desc-name: Prioris XL 6000
@@ -289,6 +313,36 @@
 **Sys-name: Prioris LX
 **Desc-name: Prioris LX
 **End-systems-entry{PRI-LX}
+
+**Start-systems-entry{PRI-LX-5120}{DECPC}{PRIORIS}
+**Sys-name: Prioris LX 5120
+**Desc-name: Prioris LX 5120
+**Def-lref{1} = ref{DEC-PR-1996-01-30-Prioris}
+**Announcement**vref{1}: 1996-01-30
+**CPU-clock**vref{1}: 120MHz
+**Cache**vref{1}: 256KB
+**Minimum-memory**vref{1}: 16 MB Parity
+**End-systems-entry{PRI-LX-5120}
+
+**Start-systems-entry{PRI-XLS-5133}{DECPC}{PRIORIS}
+**Sys-name: Prioris XL Server 5133
+**Desc-name: Prioris XL Server 5133
+**Def-lref{1} = ref{DEC-PR-1996-01-30-Prioris}
+**Announcement**vref{1}: 1996-01-30
+**CPU-clock**vref{1}: 133MHz
+**Cache**vref{1}: 256KB
+**Minimum-memory**vref{1}: 16 MB Parity
+**End-systems-entry{PRI-XLS-5133}
+
+**Start-systems-entry{PRI-XLS-5133DP}{DECPC}{PRIORIS}
+**Sys-name: Prioris XL Server 5133DP
+**Desc-name: Prioris XL Server 5133DP
+**Def-lref{1} = ref{DEC-PR-1996-01-30-Prioris}
+**Announcement**vref{1}: 1996-01-30
+**CPU-clock**vref{1}: 133MHz
+**Cache**vref{1}: 512KB
+**Minimum-memory**vref{1}: 32 MB Parity
+**End-systems-entry{PRI-XLS-5133DP}
 
 **Start-systems-entry{DECPC-433dx-MT}{DECPC}{DECPC-MT}
 **Sys-name: DECpc433dxMT
