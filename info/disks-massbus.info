@@ -185,3 +185,23 @@
 **Power-end{RP07}
 **End-storage-entry{RP07}
 
+**Start-storage-entry{RS06}{MASSBUS}{RS}
+**Sys-name: RS06
+**Desc-name: RS06 Solid State Disk
+**Def-lref{1} = ref{DDS:RS06_Solid_State_RAM_Disk_brochure}
+!! vref{1} this device emulates 1MB RS04 or 0.5MB RS03 disks; the RS06 has 8MB of DRAM
+**Capacity**vref{1}: 1 MB (emulates up to 8 RS04 devices)
+**Peak-transfer-rate**vref{1}: 1.2MB/s
+**Dimensions-start{RS06}
+**Height**vref{1}: 1.4 in
+**Width**vref{1}: 5.2 in
+**Depth**vref{1}: 8.37 in
+**Weight**vref{1}: 2.01 lbs
+**Dimensions-end{RS06}
+**Power-start{RS06}
+**Heat-dissipation**vref{1}: 20 W
+!! **Voltage**vref{1}: 5V
+**I-nominal**vref{1}: 3.5A
+**Power-end{RS06}
+**End-storage-entry{RS06}
+

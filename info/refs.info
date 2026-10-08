@@ -2207,6 +2207,12 @@
 **Ref-url: https://usenetarchives.com/view.php?id=biz.digital.announce&mid=PDk1MDcxMjAwMjUuQUEwMTQxOEByYXB0b3IucGEuZGVjLmNvbT4
 **End-ref{DEC-PR-1995-07-11-SW230}
 
+**Start-ref{DEC-PR-1995-07-14}
+**Ref-text: 
+**Ref-processed: Yes
+**Ref-url: 
+**End-ref{DEC-PR-1995-07-14}
+
 **Start-ref{DEC-PR-1995-08-21}
 **Ref-text: Digital Launches No-Compromise Starion PCs For Consumers
 **Ref-processed: Yes
@@ -12178,6 +12184,13 @@
 **Ref-processed: Yes
 **Ref-url: https://manx-docs.org/collections/mds-199909/cd3/term/l40aauga.pdf
 **End-ref{EK-L40AA-UG.A01}
+
+**Start-ref{DDS:RS06_Solid_State_RAM_Disk_brochure}
+**Ref-text: RS06 Solid State RAM Disk. MASSBUS Upgrade/Enhancement
+**Ref-partno: DDS:RS06_Solid_State_RAM_Disk_brochure
+**Ref-processed: Yes
+**Ref-url: https://www.dmv.net/mbe/RS06_Setasi.pdf
+**End-ref{DDS:RS06_Solid_State_RAM_Disk_brochure}
 
 **Stop-processing
 
