@@ -3500,10 +3500,15 @@
 **Desc-name: AlphaStation 500/500
 **Def-lref{1} = ref{SPEC-res-96q3}
 **Def-lref{2} = ref{HPCwire-1996-08-09}
-**Announcement**vref{2}: 1996-08-09
+**Def-lref{3} = ref{DEC-PR-1996-08-06-AST500-500}
+! vref{2} has announcement as 1996-08-09
+**Announcement**vref{3}: 1996-08-06
+**FRS-Date**vref{3}: 1996-09
+! {3} 21164 15/19.5 SPECint95/fp95      
 **OS-support-vms: V6.2-1H3
-**Backup-cache**vref{2}: 8 MB
-**Maximum-memory**vref{2}: 512 MB
+! vref{3} states that 2MB cache initially available, 8MB cache option in 1996 Q4
+**Backup-cache**vref{2,3}: 8 MB
+**Maximum-memory**vref{2,3}: 512 MB
 **SPECint95**vref{1,2}: 15.0
 **SPECfp95**vref{1}: 20.4
 **BUS-PCI**vref{2}: 4 slots
@@ -3529,10 +3534,12 @@
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1995-07-15}
 **Def-lref{4} = ref{SOC-DEC1995-SUP}
-**Announcement**vref{3}: 1995-07-15
+**Def-lref{5} = ref{DEC-PR-1995-07-14}
+! vref{3} has 1995-07-15 but that is an internal document that was presumably produced one day later
+**Announcement**vref{5}: 1995-07-14
 **FRS-date**vref{3}: 1995-07-15
 **OS-support-vms: V6.2-1H3
-**CPU-chip**vref{4}: DECchip 21164
+**CPU-chip**vref{4,5}: DECchip 21164
 **CPU-clock**vref{3,4}: 266 MHz
 **SPECint92**vref{3,4}: 288
 **SPECfp92**vref{3,4}: 428
@@ -3581,11 +3588,14 @@
 **Desc-name: AlphaStation 600 5/300
 **Def-lref{1} = ref{SPEC-res-9509}
 **Def-lref{2} = ref{CU-1995-07-15}
-**Announcement**vref{2}: 1995-07-15
+**Def-lref{3} = ref{DEC-PR-1995-07-14}
+! vref{2} has 1995-07-15 but that is an internal document that was presumably produced one day later
+**Announcement**vref{3}: 1995-07-14
 ! vref{2} 1995 Q4
 **FRS-date**vref{2}: 1995
 **OS-support-vms: V6.2-1H3
-**CPU-clock**vref{2}: 300 MHz
+**CPU-chip**vref{3}: DECchip 21164
+**CPU-clock**vref{2,3}: 300 MHz
 **SPECint92**vref{2}: 334
 **SPECfp92**vref{2}: 503
 **SPECint95**vref{1}: 7.33

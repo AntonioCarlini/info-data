@@ -717,3 +717,14 @@
 **Minimum-memory**vref{1}: 16MB
 **End-systems-entry{Starion-960}
 
+**Start-systems-entry{Rainbow100Plus}{Rainbow}{Rainbow}
+**Sys-name: Rainbow 100+
+**Desc-name: Rainbow 100+
+**Def-lref{1} = ref{DEC-PR-1983-09-27}
+! vref{1}: integrated 10MB HDD
+**Announcement**vref{1}: 1983-09-27
+**CPU-chip**vref{1}: 8088 and Z80
+**Minimum-memory**vref{1}: 128KB
+**Maximum-memory**vref{1}: 896KB
+**End-systems-entry{Rainbow100Plus}
+
