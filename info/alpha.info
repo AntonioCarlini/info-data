@@ -3,6 +3,12 @@
 ! DNSES: https://groups.google.com/forum/#!topic/biz.digital.articles/BC8ypvPskbg
 ! ref{QS-VMS-V084}: Alpha 4/233 PICMG (and 4/266 5/366 5/500), CompactPCI CS-1000 support ends with OpenVMS V8.2
 
+!ref{DEC-PR-1996-03-08}
+! **PowerStorm 3D10**         PCI-based, aimed at basic graphics/text/menus; $399; immediately available.                                                                                                   |
+! **PowerStorm 3D30**         entry-level 3D wireframe; $795; immediately available.                                                                                                                        |
+! **PowerStorm 4D20**         3D wireframe and solids modelling; $2,495; immediately available.                                                                                                             |
+! **PowerStorm 4D60T**        higher-end OpenGL/texture-mapping graphics; under $15,000; planned for summer 1996.                                                                                           |
+
 ! Double check: DIGITAL Announces the AlphaServer 2000 4/233 and 4/275 Systems date!
 ! https://books.google.co.uk/books?id=N1EEAAAAMBAJ&printsec=frontcover#v=onepage&q&f=false
 ! InfoWorld 16-NOV-1992 mentions announcement "last week" of DEC 3000-400/500
@@ -3282,7 +3288,9 @@
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1996-03-14}
 **Def-lref{4} = ref{DEC-PR-1996-03-11}
-**Announcement**vref{4}: 1996-03-11
+**Def-lref{5} = ref{DEC-PR-1996-03-08}
+! vref{4} says announced 1996-03-11
+**Announcement**vref{5}: 1996-03-08
 **OS-support-vms**htref{1}: V6.2-1H1
 ! Flowchart has V6.2-1H2
 **OS-support-du**htref{1}: Digital UNIX V3.2D
@@ -3322,7 +3330,9 @@
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1996-03-14}
 **Def-lref{4} = ref{DEC-PR-1996-03-11}
-**Announcement**vref{3}: 1996-03-11
+**Def-lref{5} = ref{DEC-PR-1996-03-08}
+! vref{3} says announced 1996-03-11
+**Announcement**vref{5}: 1996-03-08
 **OS-support-vms**htref{1}: V6.2-1H1
 ! Flowchart has V6.2-1H2
 **OS-support-du**htref{1}: Digital UNIX V3.2D
@@ -3330,7 +3340,7 @@
 **Num-proc: 1
 **CPU-chip**htref{1}: DECchip 21064A
 **CPU-clock**vref{3}: 300MHz
-**Backup-cache**vref{3,4}: 1MB
+**Backup-cache**vref{3,4,5}: 1MB
 **SPECint92**vref{3}: 215
 **SPECfp92**vref{3}: 245
 !**SPECint95**vref{3}: 4.51
@@ -3419,7 +3429,9 @@
 **Def-lref{2} = ref{SPEC-res-96q3}
 **Def-lref{3} = ref{CU-1996-03-14}
 **Def-lref{4} = ref{DEC-PR-1996-03-11}
-**Announcement**vref{4}: 1996-03-11
+**Def-lref{5} = ref{DEC-PR-1996-03-08}
+! vref{4} has announcement of 1996-03-11
+**Announcement**vref{5}: 1996-03-08
 **OS-support-vms**htref{1}: V6.2-1H1
 **OS-support-du**htref{1}: Digital UNIX V3.2D
 **OS-support-nt**htref{1}: V3.51
@@ -3453,7 +3465,9 @@
 **Def-lref{1} = ref{CU-V7-3B}
 **def-lref{2} = ref{SPEC-res-96q2}
 **Def-lref{3} = ref{CU-1996-03-14}
-**Announcement**vref{3}: 1996-03-12
+**Def-lref{4} = ref{DEC-PR-1996-03-08}
+! vref{3} has announcement of 1996-03-12
+**Announcement**vref{4}: 1996-03-08
 **OS-support-vms**htref{1}: V6.2-1H1
 ! Flowchart has V6.2-1H3
 **OS-support-du**htref{1}: Digital UNIX V3.2D
@@ -3486,7 +3500,9 @@
 **Desc-name: AlphaStation 500/400
 **Def-lref{1} = ref{SPEC-res-96q2}
 **Def-lref{2} = ref{DEC-PR-1996-03-11}
-**Announcement**vref{2}: 1996-03-11
+**Def-lref{3} = ref{DEC-PR-1996-03-08}
+! vref{2} has announcement of 1996-03-11
+**Announcement**vref{3}: 1996-03-08
 **OS-support-vms: V6.2-1H3
 **Backup-cache**vref{2}: 2MB
 **Maximum-memory**vref{2}: 512MB
