@@ -577,7 +577,7 @@
 
 **Start-chips-entry{DC21130}{CHIP}{Video}
 **Sys-name: DC21130
-**Desc-name: Digital Semiconductor 21142 PCI Fast Ethernet Controller
+**Desc-name: DECchip 21130 video and graphics accelerator
 **Def-lref{1} = ref{DEC-PR-1995-03-06}
 **Announcement**vref{1}: 1995-03-06
 **End-chips-entry{DC21130}
