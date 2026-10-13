@@ -968,3 +968,15 @@
 **Average-access**vref{1}: 0.25ms
 **End-storage-entry{ESP530}
 
+**Start-storage-entry{ESP540}{SCSI}{ESP}
+**Sys-name: ESP540
+**Desc-name: ESP540 428MB SCSI-2 Solid State Disk
+**Def-lref{1} = ref{DEC-PR-1993-06-15}
+! vref{1}: available in single ended and differential versions
+**Announcement: 1993-06-15
+**Capacity**vref{1}: 428MB
+**Form-factor**vref{1}: 5-1/4" full height
+**Average-access**vref{1}: < 1ms
+**I/O-throughput**vref{1}: > 800 IO/s
+**End-storage-entry{ESP540}
+
