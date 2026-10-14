@@ -590,3 +590,27 @@
 ! verf{1}: supports 5V and 3.3V signalling
 **End-chips-entry{DC21052}
 
+**Start-chips-entry{DEC21150}{CHIP}{PCI-PCI-Bridge}
+**Sys-name: DC21150
+**Desc-name: Digital Semiconductor 21150 PCI-to-PCI Bridge
+**Def-lref{1} = ref{DEC-PR-1996-03-11-Bridges}
+**Announcement**vref{1}: 1996-03-11
+! verf{1}: PCI 2.1
+**End-chips-entry{DC21150}
+
+**Start-chips-entry{DC21152}{CHIP}{PCI-PCI-Bridge}
+**Sys-name: 
+**Desc-name: Digital Semiconductor 21152 PCI-to-PCI Bridge
+**Def-lref{1} = ref{DEC-PR-1996-03-11-Bridges}
+**Announcement**vref{1}: 1996-03-11
+! verf{1}: PCI 2.1
+**End-chips-entry{DC21152}
+
+**Start-chips-entry{DC21153}{CHIP}{PCI-PCI-Bridge}
+**Sys-name: 
+**Desc-name: Digital Semiconductor 21153 PCI-to-PCI Bridge
+**Def-lref{1} = ref{DEC-PR-1996-03-11-Bridges}
+**Announcement**vref{1}: 1996-03-11
+! verf{1}: PCI 2.1
+**End-chips-entry{DC21153}
+
