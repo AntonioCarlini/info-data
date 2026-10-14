@@ -955,10 +955,11 @@ It can simultaneously handle the two B-Channels and the D-Channel defined by Bas
 **Serial-speed**vref{1}: 19200 (max)
 **End-boards-entry{DN20F-BB}
 
-**Start-boards-entry{EtherWorksEISATPBNC}{PCI}{PCI}
-**Sys-name: EtherWORKS_EISA
+**Start-boards-entry{DE425}{PCI}{PCI}
+! This manual is referenced but is not online: EK-DE425-OM.A01	1994-11	EtherWORKS Turbo EISA User Information
+**Sys-name: DE425
 **Desc-name: DEC EtherWORKS EISA TP/BNC
 **Def-lref{1} = ref{DEC-PR-1992-06-18}
 **Announcement**vref{1}: 1992-06-18
 **Bus**vref{1}: EISA
-**End-boards-entry{EtherWorksEISATPBNC}
+**End-boards-entry{DE425}
