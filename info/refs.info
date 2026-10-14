@@ -2338,7 +2338,7 @@
 **Ref-text:  DIGITAL ANNOUNCES SECOND-GENERATION, HIGH-PERFORMANCE PCI-TO-PCI BRIDGE CHIPS
 **Ref-processed: Yes
 **Ref-url: https://usenetarchives.com/view.php?id=biz.digital.announce&mid=PDk2MDMxMTIxNDQuQUEwMTgwOUByYXB0b3IucGEuZGVjLmNvbT4
-**End-ref{DEC-PR-1996-03-11-Bridges}
+**End-ref{DEC-PR-1996-03-11-PCI-Bridges}
 
 **Start-ref{DEC-PR-1996-03-14-HiNote}
 **Ref-text: Press/Digital HiNote Notebooks Strike New Chord With All-Pentium Lineup
@@ -2395,6 +2395,12 @@
 **Ref-processed: Yes
 **Ref-url: https://web.archive.org/web/19961220144613/http://www.digital.com/info/PR00OS/PR00OSSC.TXT
 **End-ref{DEC-PR-1996-11-11}
+
+**Start-ref{DEC-PR-1997-01-13}
+**Ref-text:  Digital's New PCI-to-PCI Bridge Chip Extends Support for 64-Bit PCI Bus
+**Ref-processed: Yes
+**Ref-url: https://usenetarchives.com/view.php?id=biz.digital.announce&mid=PDk3MDExNDIxNDMuQUEwMDUwM0BwYW8ucGEuZGVjLmNvbT4
+**End-ref{DEC-PR-1997-01-13}
 
 **Start-ref{HP-PR-2003-01-20}
 **Ref-text: PR Announces the AlphaServer GS1280, ES80 and ES47
