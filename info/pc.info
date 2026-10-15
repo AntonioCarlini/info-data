@@ -150,6 +150,46 @@
 ! Was Celebris FX-2
 **End-systems-entry{PC5100}
 
+**Start-systems-entry{Celebris-GL-90}{DECPC}{Celebris}
+**Sys-name: Celebris GL 
+**Desc-name: Celebris GL 
+**Def-lref{1} = ref{DEC-PR-1995-08-21-Celebris}
+**Announcement**vref{1}: 1995-08-21
+**FRS-Date**Vref{1}: 1995-08-24
+**CPU-chip**vref{1}: Intel Pentium
+**CPU-clock**vref{1}: 90MHz
+**End-systems-entry{Celebris-GL-90}
+
+**Start-systems-entry{Celebris-GL-100}{DECPC}{Celebris}
+**Sys-name: Celebris GL 
+**Desc-name: Celebris GL 
+**Def-lref{1} = ref{DEC-PR-1995-08-21-Celebris}
+**Announcement**vref{1}: 1995-08-21
+**FRS-Date**Vref{1}: 1995-08-24
+**CPU-chip**vref{1}: Intel Pentium
+**CPU-clock**vref{1}: 100MHz
+**End-systems-entry{Celebris-GL-100}
+
+**Start-systems-entry{Celebris-GL-120}{DECPC}{Celebris}
+**Sys-name: Celebris GL 
+**Desc-name: Celebris GL 
+**Def-lref{1} = ref{DEC-PR-1995-08-21-Celebris}
+**Announcement**vref{1}: 1995-08-21
+**FRS-Date**Vref{1}: 1995-08-24
+**CPU-chip**vref{1}: Intel Pentium
+**CPU-clock**vref{1}: 120MHz
+**End-systems-entry{Celebris-GL-120}
+
+**Start-systems-entry{Celebris-GL-133}{DECPC}{Celebris}
+**Sys-name: Celebris GL 
+**Desc-name: Celebris GL 
+**Def-lref{1} = ref{DEC-PR-1995-08-21-Celebris}
+**Announcement**vref{1}: 1995-08-21
+**FRS-Date**Vref{1}: 1995-08-24
+**CPU-chip**vref{1}: Intel Pentium
+**CPU-clock**vref{1}: 133MHz
+**End-systems-entry{Celebris-GL-133}
+
 **Start-systems-entry{Celebris-XL-6150}{DECPC}{PC5000}
 **Sys-name: Celebris XL 6150
 **Desc-name: Celebris XL 6150
