@@ -974,3 +974,51 @@ It can simultaneously handle the two B-Channels and the D-Channel defined by Bas
 **Ethernet-connection**vref{1}: TP
 **End-boards-entry{DE434}
 
+**Start-boards-entry{ZLXp-L1}{PBXGC-AA}{PCI}
+**Sys-name: ZLXp-L1
+**Desc-name: ZLXp-L1 Graphics Accelerator Module
+**Def-lref{1} = ref{DEC-PR-1995-07-14}
+**Def-lref{2} = ref{EK-PVPCI-OG.D01}
+**Announcement**vref{1}: 1995-07-14
+**Bus**vref{1}: PCI
+!**Graphics-memory**vref{2}: 16MB
+!**Graphics-planes**vref{2}: 24
+**OS-support-VMS**vref{2}: V6.1-1H2, V6.2, V6.2D
+**OS-support-DU**vref{2}: V3.2, V3.2a, V3.2b, V3.2c, V3.2d
+**OS-support-NT**vref{2}: V3.51
+**Positive-5V-current**vref{2}: 4.75A
+**Positive-3p3V-current**vref{2}: 0A
+**Positive-12V-current**vref{2}: 0A
+**Negative-12V-current**vref{2}: 0A
+**Dimensions-start{ZLXp-L1}
+**Weight**vref{2}: 1.0lbs
+**Height**Vref{2}: 12.7mm
+**Width**Vref{2}: 106.68mm
+**Depth**Vref{2}: 330.2mm
+**Dimensions-end{ZLXp-L1}
+**End-boards-entry{ZLXp-L1}
+
+**Start-boards-entry{ZLXp-L2}{PBXGC-BA}{PCI}
+**Sys-name: ZLXp-L2
+**Desc-name: ZLXp-L2 Graphics Accelerator Module
+**Def-lref{1} = ref{DEC-PR-1995-07-14}
+**Def-lref{2} = ref{EK-PVPCI-OG.D01}
+**Announcement**vref{1}: 1995-07-14
+**Bus**vref{1}: PCI
+!**Graphics-memory**vref{2}: 32MB
+!**Graphics-planes**vref{2}: 24
+**OS-support-VMS**vref{2}: V6.1-1H2, V6.2, V6.2D
+**OS-support-DU**vref{2}: V3.2, V3.2a, V3.2b, V3.2c, V3.2d
+**OS-support-NT**vref{2}: V3.51
+**Positive-5V-current**vref{2}: 4.75A
+**Positive-3p3V-current**vref{2}: 0A
+**Positive-12V-current**vref{2}: 0A
+**Negative-12V-current**vref{2}: 0A
+**Dimensions-start{ZLXp-L2}
+**Weight**vref{2}: 1.2lbs
+**Height**Vref{2}: 13.86mm
+**Width**Vref{2}: 106.68mm
+**Depth**Vref{2}: 312mm
+**Dimensions-end{ZLXp-L2}
+**End-boards-entry{ZLXp-L2}
+

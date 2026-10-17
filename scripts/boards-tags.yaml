@@ -170,6 +170,15 @@
   - all
   - optional
   - - float
+- Positive-3p3V-current:
+  - +3.3V current
+  - +3.3V current
+  - all
+  - all
+  - optional
+  - - physical-unit
+    - A
+    - mA
 - Positive-5V-current:
   - +5V current
   - +5V current

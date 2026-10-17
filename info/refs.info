@@ -2055,6 +2055,12 @@
 **Ref-url: https://usenetarchives.com/view.php?id=biz.dec&mid=PDkzMDUxMzE2NDEuQUEwMjcxNUByYXB0b3IucGEuZGVjLmNvbT4
 **End-ref{DEC-PR-1993-05-13}
 
+**Start-ref{DEC-PR-1993-05-11}
+**Ref-text:  DIGITAL ANNOUNCES NEW FAMILY OF OPTICAL STORAGE LIBRARY SOLUTIONS
+**Ref-processed: Yes
+**Ref-url: https://usenetarchives.com/view.php?id=biz.dec&mid=PDkzMDUxMTIyMDQuQUEwMTEyMkByYXB0b3IucGEuZGVjLmNvbT4
+**End-ref{DEC-PR-1993-05-11}
+
 **Start-ref{DEC-PR-1993-05-14-TA92}
 **Ref-text: DEC TA92 Cartridge Subsystem Announcement
 **Ref-processed: Yes
@@ -2248,6 +2254,7 @@
 **Ref-text: Sizzling Digital Workstation Screams by the Competition
 **Ref-processed: Yes
 **Ref-url: https://web.archive.org/web/19961220143654/http://www.digital.com/info/PR00B2/PR00B2SC.TXT
+!**Ref-url: https://usenetarchives.com/view.php?id=biz.digital.announce&mid=PDk1MDcxNTE5MTkuQUEwNDQxMkByYXB0b3IucGEuZGVjLmNvbT4
 **End-ref{DEC-PR-1995-07-14}
 
 **Start-ref{DEC-PR-1995-08-21}
@@ -12277,6 +12284,12 @@
 **Ref-processed: Yes
 **Ref-url: https://www.dmv.net/mbe/RS06_Setasi.pdf
 **End-ref{DDS:RS06_Solid_State_RAM_Disk_brochure}
+
+**Start-ref{EK-PVPCI-OG.D01}
+**Ref-text: ZLXp-L1 and ZLXp-L2 PCI Graphics Options Owner's Guide
+**Ref-partno: EK-PVPCI-OG.D01
+**Ref-electronic: PDF
+**End-ref{EK-PVPCI-OG.D01}
 
 **Stop-processing
 
