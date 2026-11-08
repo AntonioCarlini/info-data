@@ -1,0 +1,217 @@
+**References-must-be-verified
+!
+**Start-enclosures-entry{BA11-A}{Enclosure}{BA11}
+**Sys-name: BA11-A
+**Desc-name: BA11-A
+**Def-lref{1} = ref{EK-BA11A-TM-003}
+**Backplane-part**vref{1}: DD11-CK and DD11-DK (both optional)
+**PSU-part**vref{1}: H7140
+**Battery-backup**vref{1}: H7750
+**Text-start
+The BA11-A mounting box is used to house the PDP-11/44 and other PDP-11 processors.
+The BA11-AS and BA11-AT variants are used in the VAX-11/730 and have slightly different cable routing and mounting arrangements but are otherwise identical
+**Text-end
+**End-enclosures-entry{BA11-A}
+
+**Start-enclosures-entry{BA11-K}{Enclosure}{BA11}
+**Sys-name: BA11-K
+**Desc-name: BA11-K
+**Def-lref{1} = ref{EK-BA11K-OP-001}
+**PSU-part**vref{1}: H765
+**Dimensions-start{BA11-K}
+**Height**vref{1}: 10.44"
+**Width**vref{1}: 17.12"
+**Depth**vref{1}: 26.53"
+**Weight**vref{1}: 87lb
+**Dimensions-end{BA11-K}
+**Power-start{BA11-K-115V}
+**Label: BA11-K 115V
+**Supply**vref{1}: 90  - 132V, single phase
+**I-inrush**vref{1}: 175A
+**I-max**vref{1}: 12A
+**Power**vref{1}: 1200W
+**Power-end{BA11-K-115V}
+**Power-start{BA11-K-230V}
+**Label: BA11-K 230V
+**Supply**vref{1}: 180 - 264V, single phase
+**I-inrush**vref{1}: 80A
+**I-max**vref{1}: 6A
+**Power**vref{1}: 1200W
+**Power-end{BA11-K-230V}
+**Text-start
+The BA11-K is a 10-1/2" expander box which mounts in a standard 19" rack.
+It houses the units that make up a PDP-11 expansion system.
+**Text-end
+**End-enclosures-entry{BA11-K}
+
+!== BA123 ==
+!
+!(EK-188AA-MG-001 BA123 Enclosure Maintenance)
+!
+!This enclosure is mounted on casters and intended for office use.
+!There are 5 internal slots for mass storage devices.
+!The 12-slot Q22-bus backplane measures 279mmH x 199W.
+!The 13th slot does not implement Q22-bus signals, instead the CD slots are used for the signal distribution board.
+!All slots are Q/CD.
+!There are resistor packs between slots 12 and 13 that terminate the Q22-bus. No further expansion of the Q22-bus is possible.
+!
+!The CD rows of slots 1-4 implement PMI (private memory interconnect) and only a CPU module or memory modules should be used in the
+!CD rows of these slots.
+!
+!For a MicroVAX the backplane supports a maximum of 38 ac loads and 20 dc loads.
+!For a MicroPDP-11, a mamximum of 45 ac loads and 20 dc loads are supported.
+!
+!The signal distribuion board (M9508) ''must'' be installed in the CD rows of slot 13.
+!(manual describes jumpers on sig dist board)
+!
+!The PSU is 460W and has two regulators. A voltage selector switch selects either 120V operation or 240V operation.
+!To ensure that each regulator starts, there should be at least one module in an even-numbered slot and at least one module
+!in an odd-numbered slot.
+!
+!(control panel)
+!
+!BA123 CPU console board - regulator failure LEDs
+!
+!Enclosure weighs 59kg. 622.3mmH x 330.2mmW x 698.5mmD. 2355BTU/hour.
+!690W consumption. I-max (at nominal V): 8.8A/120V or 4.4A/240V.
+!
+**Start-enclosures-entry{BA123}{Enclosure}{BA123}
+**Sys-name: BA123
+**Desc-name: BA123
+**Def-lref{1} = ref{EK-188AA-MG-001}
+**Backplane-part**vref{1}: 54-17507-01
+**Backplane-bus**vref{1}: Q22
+! vref{1}: Note that the backplane has 13 slots, but the last one is not part of the Q22 bus
+**Backplane-slots**vref{1}: 12
+**Backplane-slot-type**vref{1}: quad-height, Q/CD
+**Mass-storage-bays**vref{1}: 5
+**PSU-part**vref{1}: 30-23616-01 or 30-28231-01
+**Num-PSU**vref{1}: 1
+**Dimensions-start{BA123}
+**Height**vref{1}: 622.3 mm
+**Width**vref{1}: 330.2 mm
+**Depth**vref{1}: 698.5 mm
+**Weight**vref{1}: 59 kg
+**Dimensions-end{BA123}
+**Power-start{BA123-100V}
+**Label: BA123 100V
+**Supply**vref{1}: 90 - 110V single phase
+**I-inrush**vref{1}: 100A
+**I-max**vref{1}: 12A
+**Power**vref{1}: 690W
+**Heat-dissipation**vref{1}: 2355 BTU/h
+**Power-end{BA123-100V}
+**Power-start{BA123-120V}
+**Label: BA123 120V
+**Supply**vref{1}: 104 - 128V
+**I-inrush**vref{1}: 100A
+**I-max**vref{1}: 11.0A
+**Power**vref{1}: 690W
+**Heat-dissipation**vref{1}: 2355 BTU/h
+**Power-end{BA123-120V}
+**Power-start{BA123-240V}
+**Label: BA123 240VV
+**Supply**vref{1}: 191 - 256V
+**I-inrush**vref{1}: 100A
+**I-max**vref{1}: 5.5A
+**Power**vref{1}: 690W
+**Heat-dissipation**vref{1}: 2355 BTU/h
+**Power-end{BA123-240V}
+**End-enclosures-entry{BA123}
+
+!
+!
+! TODO: add Backplane-AC-loads and Backplane-DC-loads and "Backplane-termination: permanently built-in"
+!
+!== BA213 ==
+!
+!The BA213 enclosure is rackmountable but could be supplied with appropriate  skins to produce a pedestal enclosure for office use.
+!
+!The backplane cannot be expanded. 32 ac loads 20 dc loads.
+!
+!Two power supplies. One powers slots 1 to 6, the other handles 7 to 12. A load  module (M9060-YA) may be needed.
+!
+!Storage devices mount in the top portion.
+!
+!45kg. 690mmH x 530mmW x 450mmD. 2304 BTU
+!
+**Start-enclosures-entry{BA213}{Enclosure}{BA200}
+**Sys-name: BA213
+**Desc-name: BA213
+**Def-lref{1} = ref{EK-189AA-MG-001}
+**Backplane-part**vref{1}: 70-23712-01
+**Backplane-bus**vref{1}: Q22
+**Backplane-slots**vref{1}: 12
+**Backplane-slot-type**vref{1}: quad-height, AB-CD
+**Mass-storage-bays**vref{1}: 3
+**PSU-part**vref{1}: {240V:H7868-B}{120B:H7868-A}
+**Num-PSU**vref{1}: 2
+**Dimensions-start{BA213-Pedestal}
+**Height**vref{1}: 690 mm
+**Width**vref{1}: 530 mm
+**Depth**vref{1}: 450 mm
+**Weight**vref{1}: 45 kg
+**Dimensions-end{BA213-Pedestal}
+**End-enclosures-entry{BA213}
+
+**Start-enclosures-entry{BA214}{Enclosure}{BA200}
+**Sys-name: BA214
+**Desc-name: BA214
+**Def-lref{1} = ref{EK-190AA-MG-001}
+**Backplane-part**vref{1}: 54-17213-01
+**Backplane-bus**vref{1}: Q22
+**Backplane-slots**vref{1}: 6
+**Backplane-slot-type**vref{1}: quad-height, AB-CD
+**Mass-storage-bays**vref{1}: 0
+**PSU-part**vref{1}: {240V:H7868-B}{120B:H7868-A}
+**Num-PSU**vref{1}: 1
+**End-enclosures-entry{BA214}
+
+**Start-enclosures-entry{BA215}{Enclosure}{BA200}
+**Sys-name: BA215
+**Desc-name: BA215
+**Def-lref{1} = ref{EK-191AA-MG-001}
+**Backplane-part**vref{1}: 70-25447-01
+**Backplane-bus**vref{1}: Q22
+**Backplane-slots**vref{1}: 6
+**Backplane-slot-type**vref{1}: quad-height, Q/CD
+**Backplane-AC-loads**vref{1}: 33.5
+**Backplane-DC-loads**vref{1}: 20
+!!TODO**Backplane-equivalent-load**verf{1}: 1.5 ac loads
+**Mass-storage-bays**vref{1}: 2
+**PSU-part**vref{1}: {240V:H7868-B}{120B:H7868-A}
+**Num-PSU**vref{1}: 1
+**Dimensions-start{BA215-Pedestal}
+**Height**vref{1}: 675 mm
+**Width**vref{1}: 340 mm
+**Depth**vref{1}: 445 mm
+**Weight**vref{1}: 50 kg
+**Dimensions-end{BA215-Pedestal}
+**End-enclosures-entry{BA215}
+
+
+
+
+!== BA23 ==
+!
+!dimensions
+!
+!common usages
+!
+!== BA42A ==
+!
+!== BA42B ==
+!
+!== BA430 ==
+!
+!== BA440 ==
+!
+!== BA441 ==
+!
+!== BA350 ==
+!
+!== BA356 ==
+!
+!== 630QE ==
+!
+!

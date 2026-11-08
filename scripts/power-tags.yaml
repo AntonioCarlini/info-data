@@ -78,5 +78,6 @@
   - optional
   - - physical-unit
     - BTU/hr
+    - BTU/h
     - W
     - kJ/hr

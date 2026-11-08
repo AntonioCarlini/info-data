@@ -1,6 +1,7 @@
 MISC += boards
 MISC += chips
 MISC += comms
+MISC += enclosures
 MISC += monitors
 MISC += printers
 MISC += terminals
@@ -40,6 +41,7 @@ PUBS = $(YAML_OUTPUT)/pubs.yaml
 TAGS.BOARDS = scripts/boards-tags.yaml
 TAGS.COMMS = scripts/comms-tags.yaml
 TAGS.CHIPS = scripts/chips-tags.yaml
+TAGS.ENCLOSURES = scripts/enclosures-tags.yaml
 TAGS.MONITORS = scripts/monitors-tags.yaml
 TAGS.PRINTERS = scripts/printers-tags.yaml
 TAGS.STORAGE = scripts/storage-tags.yaml
@@ -343,6 +345,13 @@ bin/comms.infobox.mediawiki.txt: $(YAML_OUTPUT)/comms.yaml $(REFS) $(GLOBAL_DEPE
 # test data
 $(YAML_OUTPUT)/test.yaml:  info/test.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/entries-info-to-yaml.rb vax $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
+
+# enclosures -> YAML
+$(YAML_OUTPUT)/enclosures.yaml:  info/enclosures.info $(TAGS.ENCLOSURES) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.ENCLOSURES) $(REFS) $(PUBS) > $@
+
+bin/enclosures.infobox.mediawiki.txt: $(YAML_OUTPUT)/enclosures.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
+	scripts/entry-yaml-to-infobox-mediawiki.rb enclosures Enclosures $< $(TAGS.ENCLOSURES) $(REFS) $(TOTAL.YAML) > $@
 
 clean:
 	@rm -f bin/*

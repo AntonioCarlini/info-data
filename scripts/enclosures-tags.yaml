@@ -1,0 +1,150 @@
+---
+- Sys-name:
+  - System name
+  - System description
+  - systems
+- Html-target:
+  - HTML target
+  - HTML target (unused)
+  - all
+- Announcement:
+  - Announcement date
+  - Announcement date
+  - all
+  - summary
+  - required
+  - - date
+- Generation:
+  - Technology generation
+  - Technology generation
+  - pdp11
+  - summary
+- FRS-date:
+  - FRS date
+  - First revenue ship date
+  - all
+  - summary
+  - optional
+  - - date
+- FCS-date:
+  - FCS date
+  - First customer ship date
+  - all
+  - summary
+  - optional
+  - - date
+- Last-order:
+  - Last order date
+  - Last order date
+  - all
+  - summary
+  - optional
+  - - date
+- Last-ship:
+  - Last ship date
+  - Last ship date
+  - all
+  - summary
+  - optional
+  - - date
+- EOSL:
+  - End of service life
+  - End of service life
+  - all
+  - summary
+  - optional
+  - - date
+- Codename:
+  - Codename
+  - Codename
+  - all
+  - summary
+  - required
+- Desc-name:
+  - Descriptive name
+  - Descriptive name
+  - all
+  - summary
+- Sys-class:
+  - System class
+  - System class
+  - all
+  - summary
+- Part-number:
+  - Part number
+  - Part number
+  - all
+  - summary
+- Backplane-part:
+  - Backplane
+  - Backplane part number
+  - all
+  - summary
+- Backplane-bus:
+  - Backplane bus
+  - Bus implemented by the backplane
+  - all
+  - summary
+- Backplane-slots:
+  - Backplane slots
+  - Number of backplane slots
+  - all
+  - summary
+  - optional
+  - - int
+- Backplane-slot-type:
+  - Backplane slot type
+  - Physical and electrical slot configuration
+  - all
+  - summary
+- Backplane-AC-loads:
+  - Backplane AC loads
+  - Maximum AC loads supported by the backplane
+  - all
+  - summary
+  - optional
+  - - float
+- Backplane-DC-loads:
+  - Backplane DC loads
+  - Maximum DC loads supported by the backplane
+  - all
+  - summary
+  - optional
+  - - float
+- Backplane-equivalent-load:
+  - Backplane equivalent load
+  - Equivalent AC load of a module
+  - all
+  - summary
+  - optional
+- Backplane-termination:
+  - Backplane termination
+  - Backplane bus termination arrangements
+  - all
+  - summary
+  - optional
+- Mass-storage-bays:
+  - Mass storage bays
+  - Number of mass storage device bays
+  - all
+  - summary
+  - optional
+  - - int
+- PSU-part:
+  - Power supply
+  - Power supply part number(s)
+  - all
+  - summary
+- Num-PSU:
+  - Number of power supplies
+  - Number of power supplies installed
+  - all
+  - summary
+  - optional
+  - - int
+- Battery-backup:
+  - Battery backup
+  - Battery backup unit or option
+  - all
+  - summary
+  - optional

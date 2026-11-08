@@ -12291,6 +12291,55 @@
 **Ref-electronic: PDF
 **End-ref{EK-PVPCI-OG.D01}
 
+**Start-ref{EK-BA11A-TM-003}
+**Ref-text: BA11-A Mounting Box and Power System Technical Manual
+**Ref-partno: EK-BA11A-TM-003
+**Ref-date: 1983-08
+**Ref-url: http://bitsavers.trailing-edge.com/pdf/dec/unibus/EK-BA11A-TM-003_Aug83.pdf
+**End-ref{EK-BA11A-TM-003}
+
+**Start-ref{EK-BA11K-OP-001}
+**Ref-text: BA11-K mounting box user's manual
+**Ref-partno: EK-BA11K-OP-001
+**Ref-date: 1976-12
+**Ref-url: https://manx-docs.org/collections/hcps/ba11kop1.pdf
+**End-ref{EK-BA11K-OP-001}
+
+**Start-ref{DEC-11-HBKEF-A-D}
+**Ref-text: BA11-K mounting box manual
+**Ref-partno: DEC-11-HBKEF-A-D
+**Ref-date: 1974-09
+**Ref-url: http://bitsavers.trailing-edge.com/www.computer.museum.uq.edu.au/pdf/DEC-11-HBKEF-A-D%20BA11-K%20Mounting%20Box%20Manual.pdf
+**End-ref{DEC-11-HBKEF-A-D}
+
+**Start-ref{EK-188AA-MG-001}
+**Ref-text: BA123 Enclosure Maintenance
+**Ref-partno: EK-188AA-MG-001
+**Ref-date: 1988-10
+**Ref-url: http://bitsavers.org/scandocs.trailing-edge.com/micropdp11-volume_2_enclosures-EK-188AA-MG-001.pdf
+**End-ref{EK-188AA-MG-001}
+
+**Start-ref{EK-189AA-MG-001}
+**Ref-text: BA213 Enclosure Maintenance
+**Ref-partno: EK-189AA-MG-001
+**Ref-date: 1988-10
+**Ref-url: http://bitsavers.org/scandocs.trailing-edge.com/micropdp11-volume_2_enclosures-EK-189AA-MG-001.pdf
+**End-ref{EK-189AA-MG-001}
+
+**Start-ref{EK-190AA-MG-001}
+**Ref-text: BA214 Enclosure Maintenance
+**Ref-partno: EK-190AA-MG-001
+**Ref-date: 1988-10
+**Ref-url: http://bitsavers.org/scandocs.trailing-edge.com/micropdp11-volume_2_enclosures-EK-190AA-MG-001.pdf
+**End-ref{EK-190AA-MG-001}
+
+**Start-ref{EK-191AA-MG-001}
+**Ref-text: BA215 Enclosure Maintenance
+**Ref-partno: EK-191AA-MG-001
+**Ref-date: 1988-10
+**Ref-url: http://bitsavers.org/scandocs.trailing-edge.com/micropdp11-volume_2_enclosures-EK-191AA-MG-001.pdf
+**End-ref{EK-191AA-MG-001}
+
 **Stop-processing
 
 **Start-ref{
