@@ -24,6 +24,7 @@ SYSTEMS += alpha
 SYSTEMS += mips
 SYSTEMS += pc
 SYSTEMS += pdp11
+SYSTEMS += pdp8
 SYSTEMS += vax
 
 ENTRIES += ${MISC}
@@ -124,6 +125,9 @@ $(YAML_OUTPUT)/pc.yaml:  info/pc.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_D
 $(YAML_OUTPUT)/pdp11.yaml:  info/pdp11.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/entries-info-to-yaml.rb pdp11 $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
+$(YAML_OUTPUT)/pdp8.yaml:  info/pdp8.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
+	scripts/entries-info-to-yaml.rb pdp8 $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
+
 $(YAML_OUTPUT)/vax.yaml:  info/vax.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
 	scripts/entries-info-to-yaml.rb vax $< $(TAGS.SYSTEMS) $(REFS) $(PUBS) > $@
 
@@ -139,6 +143,9 @@ bin/infobox-pc-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
 
 bin/infobox-pdp11-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
 	scripts/systems-yaml-to-infobox-data.rb pdp11 $(TAGS.SYSTEMS) > $@
+
+bin/infobox-pdp8-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
+	scripts/systems-yaml-to-infobox-data.rb pdp8 $(TAGS.SYSTEMS) > $@
 
 bin/infobox-vax-data.mediawiki.txt: $(TAGS.SYSTEMS) ${GLOBAL_DEPENDENCIES}
 	scripts/systems-yaml-to-infobox-data.rb vax $(TAGS.SYSTEMS) > $@
@@ -160,6 +167,10 @@ bin/pdp11.mediawiki.txt: $(YAML_OUTPUT)/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES
 	@mkdir -p bin
 	scripts/systems-yaml-to-mediawiki.rb pdp11 $< $(TAGS.SYSTEMS) $(REFS) > $@
 
+bin/pdp8.mediawiki.txt: $(YAML_OUTPUT)/pdp8.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	@mkdir -p bin
+	scripts/systems-yaml-to-mediawiki.rb pdp8 $< $(TAGS.SYSTEMS) $(REFS) > $@
+
 bin/vax.mediawiki.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	@mkdir -p bin
 	scripts/systems-yaml-to-mediawiki.rb vax $< $(TAGS.SYSTEMS) $(REFS) > $@
@@ -177,6 +188,9 @@ bin/pc.infobox.mediawiki.txt: $(YAML_OUTPUT)/pc.yaml $(REFS) $(GLOBAL_DEPENDENCI
 bin/pdp11.infobox.mediawiki.txt: $(YAML_OUTPUT)/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
 	scripts/entry-yaml-to-infobox-mediawiki.rb systems pdp11 $< $(TAGS.SYSTEMS) $(REFS) $(TOTAL.YAML) > $@
 
+bin/pdp8.infobox.mediawiki.txt: $(YAML_OUTPUT)/pdp8.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
+	scripts/entry-yaml-to-infobox-mediawiki.rb systems pdp8 $< $(TAGS.SYSTEMS) $(REFS) $(TOTAL.YAML) > $@
+
 bin/vax.infobox.mediawiki.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
 	scripts/entry-yaml-to-infobox-mediawiki.rb systems vax $< $(TAGS.SYSTEMS) $(REFS) $(TOTAL.YAML) > $@
 
@@ -191,6 +205,9 @@ bin/pc.os-release.txt: $(YAML_OUTPUT)/pc.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 
 bin/pdp11.os-release.txt: $(YAML_OUTPUT)/pdp11.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-os-release.rb pdp11 $< $(REFS) > $@
+
+bin/pdp8.os-release.txt: $(YAML_OUTPUT)/pdp8.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
+	scripts/systems-yaml-to-os-release.rb pdp8 $< $(REFS) > $@
 
 bin/vax.os-release.txt: $(YAML_OUTPUT)/vax.yaml $(REFS) $(GLOBAL_DEPENDENCIES)
 	scripts/systems-yaml-to-os-release.rb vax $< $(REFS) > $@

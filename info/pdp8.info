@@ -1,24 +1,27 @@
 **References-must-be-verified
 !
-**Start-systems-entry{DECmateII}
+**Start-systems-entry{DECmateII}{DECmate}{DECMate}
 **Def-lref{1} = ref{DEC-PR-1982-05-10}
 **Sys-name: DECmate II
+**Desc-name: DECmate II
 **Announcement**vref{1}: 1982-05-10
 **End-systems-entry{DECmateII}
 
-**Start-systems-entry{DECmateIII}
+**Start-systems-entry{DECmateIII}{DECmate}{DECMate}
 **def-lref{1} = ref{ESOC-SPR87}
 **Sys-name: DECmate III
+**Desc-name: DECmate III
 ! vref{1}: floppy-disk based
 **CPU-chip**vref{1}: 6210
-**Maxmimum-memory**vref{1}: 96KB (64K words)
+**Maximum-memory**vref{1}: 96KB (64K words)
 **End-systems-entry{DECmateIII}
 
-**Start-systems-entry{DECmateIIIPlus}
+**Start-systems-entry{DECmateIIIPlus}{DECmate}{DECMate}
 **def-lref{1} = ref{ESOC-SPR87}
 **Sys-name: DECmate III Plus
+**Desc-name: DECmate III+
 ! vref{1}: HDD-based
 **CPU-chip**vref{1}: 6210
-**Maxmimum-memory**vref{1}: 96KB (64K words)
+**Maximum-memory**vref{1}: 96KB (64K words)
 **End-systems-entry{DECmateIIIPlus}
 

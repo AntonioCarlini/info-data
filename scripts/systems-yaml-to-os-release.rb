@@ -92,6 +92,7 @@ def main
     "alpha" => ["VMS", "DU", "NT"],
     "decmips" => ["ULTRIX", "DU"],
     "pdp11" => ["RSX-11M"],
+    "pdp8" => ["OS/8"],
     "pc" => ["NT"]
   }
   os_display_name = {"VMS" => "VMS", "ULTRIX" => "ULTRIX", "ELN" => "VAXELN", "DU" => "Digital UNIX", "NT" => "Windows NT"}
