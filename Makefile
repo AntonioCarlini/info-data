@@ -302,42 +302,42 @@ bin/tapes-sti.infobox.mediawiki.txt: $(YAML_OUTPUT)/tapes-sti.yaml $(REFS) $(GLO
 
 # terminals -> YAML
 $(YAML_OUTPUT)/terminals.yaml:  info/terminals.info $(TAGS.TERMINALS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
-	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.TERMINALS) $(REFS) $(PUBS) > $@
+	scripts/entries-info-to-yaml.rb unused $< $(TAGS.TERMINALS) $(REFS) $(PUBS) > $@
 
 bin/terminals.infobox.mediawiki.txt: $(YAML_OUTPUT)/terminals.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
 	scripts/entry-yaml-to-infobox-mediawiki.rb terminal Terminal $< $(TAGS.TERMINALS) $(REFS) $(TOTAL.YAML) > $@
 
 # monitors -> YAML
 $(YAML_OUTPUT)/monitors.yaml:  info/monitors.info $(TAGS.MONITORS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
-	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.MONITORS) $(REFS) $(PUBS) > $@
+	scripts/entries-info-to-yaml.rb unused $< $(TAGS.MONITORS) $(REFS) $(PUBS) > $@
 
 bin/monitors.infobox.mediawiki.txt: $(YAML_OUTPUT)/monitors.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
 	scripts/entry-yaml-to-infobox-mediawiki.rb monitor Monitor $< $(TAGS.MONITORS) $(REFS) $(TOTAL.YAML) > $@
 
 # printers -> YAML
 $(YAML_OUTPUT)/printers.yaml:  info/printers.info $(TAGS.PRINTERS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
-	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.PRINTERS) $(REFS) $(PUBS) > $@
+	scripts/entries-info-to-yaml.rb unused $< $(TAGS.PRINTERS) $(REFS) $(PUBS) > $@
 
 bin/printers.infobox.mediawiki.txt: $(YAML_OUTPUT)/printers.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
 	scripts/entry-yaml-to-infobox-mediawiki.rb printer Printer $< $(TAGS.PRINTERS) $(REFS) $(TOTAL.YAML) > $@
 
 # boards -> YAML
 $(YAML_OUTPUT)/boards.yaml:  info/boards.info $(TAGS.BOARDS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
-	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.BOARDS) $(REFS) $(PUBS) > $@
+	scripts/entries-info-to-yaml.rb unused $< $(TAGS.BOARDS) $(REFS) $(PUBS) > $@
 
 bin/boards.infobox.mediawiki.txt: $(YAML_OUTPUT)/boards.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
 	scripts/entry-yaml-to-infobox-mediawiki.rb boards Boards $< $(TAGS.BOARDS) $(REFS) $(TOTAL.YAML) > $@
 
 # chips -> YAML
 $(YAML_OUTPUT)/chips.yaml:  info/chips.info $(TAGS.CHIPS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
-	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.CHIPS) $(REFS) $(PUBS) > $@
+	scripts/entries-info-to-yaml.rb unused $< $(TAGS.CHIPS) $(REFS) $(PUBS) > $@
 
 bin/chips.infobox.mediawiki.txt: $(YAML_OUTPUT)/chips.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
 	scripts/entry-yaml-to-infobox-mediawiki.rb chips Chips $< $(TAGS.CHIPS) $(REFS) $(TOTAL.YAML) > $@
 
 # comms -> YAML
 $(YAML_OUTPUT)/comms.yaml:  info/comms.info $(TAGS.COMMS) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
-	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.COMMS) $(REFS) $(PUBS) > $@
+	scripts/entries-info-to-yaml.rb unused $< $(TAGS.COMMS) $(REFS) $(PUBS) > $@
 
 bin/comms.infobox.mediawiki.txt: $(YAML_OUTPUT)/comms.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
 	scripts/entry-yaml-to-infobox-mediawiki.rb comms Comms $< $(TAGS.COMMS) $(REFS) $(TOTAL.YAML) > $@
@@ -348,7 +348,7 @@ $(YAML_OUTPUT)/test.yaml:  info/test.info $(TAGS.SYSTEMS) $(REFS) $(PUBS) $(GLOB
 
 # enclosures -> YAML
 $(YAML_OUTPUT)/enclosures.yaml:  info/enclosures.info $(TAGS.ENCLOSURES) $(REFS) $(PUBS) $(GLOBAL_DEPENDENCIES)
-	scripts/entries-info-to-yaml.rb decvt $< $(TAGS.ENCLOSURES) $(REFS) $(PUBS) > $@
+	scripts/entries-info-to-yaml.rb unused $< $(TAGS.ENCLOSURES) $(REFS) $(PUBS) > $@
 
 bin/enclosures.infobox.mediawiki.txt: $(YAML_OUTPUT)/enclosures.yaml $(REFS) $(GLOBAL_DEPENDENCIES) $(TOTAL.YAML)
 	scripts/entry-yaml-to-infobox-mediawiki.rb enclosures Enclosures $< $(TAGS.ENCLOSURES) $(REFS) $(TOTAL.YAML) > $@
